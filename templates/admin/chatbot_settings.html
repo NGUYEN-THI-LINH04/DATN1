@@ -1,0 +1,648 @@
+
+{% extends "admin/base.html" %}
+
+{% block title %}
+Cấu hình chatbot AI | Mộc Hán
+{% endblock %}
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/admin-chatbot.css') }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="admin-chatbot-page">
+
+    <!-- ==========================================
+         TIÊU ĐỀ
+    =========================================== -->
+
+    <div class="admin-heading chatbot-heading">
+
+        <div>
+            <span class="chatbot-eyebrow">
+                QUẢN TRỊ TRỢ LÝ AI
+            </span>
+
+            <h1>Cấu hình chatbot</h1>
+
+            <p>
+                Quản lý trợ lý học tiếng Trung Mộc Hán,
+                mô hình AI và nguồn dữ liệu SQL Server.
+            </p>
+        </div>
+
+    </div>
+
+
+    <!-- ==========================================
+         THÔNG BÁO TỪ FLASK
+    =========================================== -->
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+
+        {% if messages %}
+
+            <div class="chatbot-flash-list">
+
+                {% for category, message in messages %}
+
+                    <div
+                        class="chatbot-flash chatbot-flash-{{ category }}"
+                        role="alert"
+                    >
+                        {{ message }}
+                    </div>
+
+                {% endfor %}
+
+            </div>
+
+        {% endif %}
+
+    {% endwith %}
+
+
+    <!-- ==========================================
+         THỐNG KÊ THẬT
+    =========================================== -->
+
+    <section class="chatbot-overview">
+
+        <!-- TRẠNG THÁI OLLAMA -->
+
+        <div class="chatbot-stat">
+
+            <span>Kết nối Ollama</span>
+
+            <strong
+                id="chatbot-ollama-status"
+                class="{% if ollama.online %}chatbot-online{% else %}chatbot-offline{% endif %}"
+            >
+                {% if ollama.online %}
+                    ● Đã kết nối
+                {% else %}
+                    ● Chưa kết nối
+                {% endif %}
+            </strong>
+
+            <small id="chatbot-ollama-description">
+                {% if ollama.online %}
+                    API Ollama đang hoạt động
+                {% else %}
+                    Không thể kết nối API Ollama
+                {% endif %}
+            </small>
+
+        </div>
+
+
+        <!-- TỪ VỰNG -->
+
+        <div class="chatbot-stat">
+
+            <span>Từ vựng đã duyệt</span>
+
+            <strong>
+                {{ counts.vocabulary }}
+            </strong>
+
+            <small>
+                Dữ liệu từ bảng TuVung
+            </small>
+
+        </div>
+
+
+        <!-- NGỮ PHÁP -->
+
+        <div class="chatbot-stat">
+
+            <span>Ngữ pháp đã xuất bản</span>
+
+            <strong>
+                {{ counts.grammar }}
+            </strong>
+
+            <small>
+                Dữ liệu từ bảng NguPhap
+            </small>
+
+        </div>
+
+
+        <!-- CHỮ HÁN -->
+
+        <div class="chatbot-stat">
+
+            <span>Chữ Hán đã xuất bản</span>
+
+            <strong>
+                {{ counts.hanzi }}
+            </strong>
+
+            <small>
+                Dữ liệu từ bảng ChuHan
+            </small>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         NỘI DUNG CHÍNH
+    =========================================== -->
+
+    <div class="chatbot-layout">
+
+
+        <!-- ======================================
+             CỘT TRÁI: CẤU HÌNH CHATBOT
+        ======================================= -->
+
+        <section class="chatbot-panel">
+
+            <div class="chatbot-panel-title">
+
+                <h2>Thiết lập trợ lý AI</h2>
+
+                <p>
+                    Các thay đổi được lưu vào bảng
+                    CauHinhChatbot trong SQL Server.
+                </p>
+
+            </div>
+
+
+            <form
+                id="chatbot-settings-form"
+                method="POST"
+                action="{{ url_for('admin_chatbot.settings_page') }}"
+            >
+
+                <!-- CSRF -->
+
+                <input
+                    type="hidden"
+                    name="csrf_token"
+                    value="{{ csrf_token() }}"
+                >
+
+
+                <!-- ============================
+                     BẬT / TẮT CHATBOT
+                ============================= -->
+
+                <label class="chatbot-toggle">
+
+                    <span>
+
+                        <strong>
+                            Kích hoạt chatbot
+                        </strong>
+
+                        <small>
+                            Cho phép trợ lý AI hoạt động
+                            trên website Mộc Hán.
+                        </small>
+
+                    </span>
+
+                    <input
+                        type="checkbox"
+                        name="chatbot_bat"
+                        value="1"
+                        {% if settings.chatbot_bat == '1' %}
+                            checked
+                        {% endif %}
+                    >
+
+                </label>
+
+
+                <!-- ============================
+                     CHO PHÉP AI TRẢ LỜI NGOÀI SQL
+                ============================= -->
+
+                <label class="chatbot-toggle">
+
+                    <span>
+
+                        <strong>
+                            Cho phép trả lời ngoài dữ liệu SQL
+                        </strong>
+
+                        <small>
+                            Khi không tìm thấy học liệu phù hợp,
+                            AI có thể sử dụng kiến thức của mô hình
+                            để trả lời câu hỏi.
+                        </small>
+
+                    </span>
+
+                    <input
+                        type="checkbox"
+                        name="cho_phep_tra_loi_chua_xac_minh"
+                        value="1"
+                        {% if settings.cho_phep_tra_loi_chua_xac_minh
+                              | lower in ['true', '1', 'yes'] %}
+                            checked
+                        {% endif %}
+                    >
+
+                </label>
+
+
+                <!-- ============================
+                     THÔNG TIN CƠ BẢN
+                ============================= -->
+
+                <div class="chatbot-form-grid">
+
+                    <!-- TÊN TRỢ LÝ -->
+
+                    <div class="chatbot-field">
+
+                        <label for="ten_tro_ly">
+                            Tên trợ lý
+                        </label>
+
+                        <input
+                            type="text"
+                            id="ten_tro_ly"
+                            name="ten_tro_ly"
+                            minlength="2"
+                            maxlength="60"
+                            required
+                            value="{{ settings.ten_tro_ly }}"
+                            placeholder="Trợ lý Mộc Hán"
+                        >
+
+                    </div>
+
+
+                    <!-- MÔ HÌNH OLLAMA -->
+
+                    <div class="chatbot-field">
+
+                        <label for="mo_hinh_ollama">
+                            Mô hình AI
+                        </label>
+
+                        <select
+                            id="mo_hinh_ollama"
+                            name="mo_hinh_ollama"
+                            required
+                        >
+
+                            {% if settings.mo_hinh_ollama
+                                  not in ollama.models %}
+
+                                <option
+                                    value="{{ settings.mo_hinh_ollama }}"
+                                    selected
+                                >
+                                    {{ settings.mo_hinh_ollama }}
+                                    (đã lưu)
+                                </option>
+
+                            {% endif %}
+
+
+                            {% for model in ollama.models %}
+
+                                <option
+                                    value="{{ model }}"
+                                    {% if model == settings.mo_hinh_ollama %}
+                                        selected
+                                    {% endif %}
+                                >
+                                    {{ model }}
+                                </option>
+
+                            {% endfor %}
+
+                        </select>
+
+                        <small>
+                            Khuyến nghị sử dụng qwen3:1.7b.
+                        </small>
+
+                    </div>
+
+
+                    <!-- NGÔN NGỮ TRẢ LỜI -->
+
+                    <div class="chatbot-field">
+
+                        <label for="ngon_ngu_tra_loi">
+                            Ngôn ngữ trả lời
+                        </label>
+
+                        <select
+                            id="ngon_ngu_tra_loi"
+                            name="ngon_ngu_tra_loi"
+                            required
+                        >
+
+                            <option
+                                value="vi"
+                                {% if settings.ngon_ngu_tra_loi == 'vi' %}
+                                    selected
+                                {% endif %}
+                            >
+                                Ưu tiên tiếng Việt
+                            </option>
+
+                            <option
+                                value="zh"
+                                {% if settings.ngon_ngu_tra_loi == 'zh' %}
+                                    selected
+                                {% endif %}
+                            >
+                                Ưu tiên tiếng Trung
+                            </option>
+
+                            <option
+                                value="tu_dong"
+                                {% if settings.ngon_ngu_tra_loi == 'tu_dong' %}
+                                    selected
+                                {% endif %}
+                            >
+                                Theo ngôn ngữ câu hỏi
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- ĐỘ DÀI CÂU TRẢ LỜI -->
+
+                    <div class="chatbot-field">
+
+                        <label for="so_token_toi_da">
+                            Độ dài phản hồi
+                        </label>
+
+                        <select
+                            id="so_token_toi_da"
+                            name="so_token_toi_da"
+                            required
+                        >
+
+                            <option
+                                value="200"
+                                {% if settings.so_token_toi_da == '200' %}
+                                    selected
+                                {% endif %}
+                            >
+                                Ngắn gọn
+                            </option>
+
+                            <option
+                                value="350"
+                                {% if settings.so_token_toi_da == '350' %}
+                                    selected
+                                {% endif %}
+                            >
+                                Vừa phải
+                            </option>
+
+                            <option
+                                value="500"
+                                {% if settings.so_token_toi_da == '500' %}
+                                    selected
+                                {% endif %}
+                            >
+                                Chi tiết
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ============================
+                     CHỈ DẪN HỆ THỐNG
+                ============================= -->
+
+                <div class="chatbot-field">
+
+                    <label for="chi_dan_he_thong">
+                        Chỉ dẫn dành cho AI
+                    </label>
+
+                    <textarea
+                        id="chi_dan_he_thong"
+                        name="chi_dan_he_thong"
+                        rows="9"
+                        minlength="30"
+                        maxlength="2500"
+                        required
+                        placeholder="Nhập hướng dẫn cách chatbot trả lời..."
+                    >{{ settings.chi_dan_he_thong }}</textarea>
+
+                    <small>
+                        Quy định cách AI giải thích từ vựng,
+                        ngữ pháp, chữ Hán và cách trò chuyện
+                        với người học.
+                    </small>
+
+                </div>
+
+
+                <!-- ============================
+                     NÚT LƯU
+                ============================= -->
+
+                <div class="chatbot-actions">
+
+                    <button
+                        type="submit"
+                        class="chatbot-btn chatbot-btn-primary"
+                    >
+                        Lưu cấu hình
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+
+        <!-- ======================================
+             CỘT PHẢI: KIỂM TRA AI
+        ======================================= -->
+
+        <section class="chatbot-panel">
+
+            <div class="chatbot-panel-title">
+
+                <h2>Kiểm tra chatbot</h2>
+
+                <p>
+                    Thử gửi câu hỏi đến mô hình AI
+                    đang được cấu hình.
+                </p>
+
+            </div>
+
+
+            <!-- THÔNG TIN MÔ HÌNH -->
+
+            <div class="chatbot-model-info">
+
+                <span>Mô hình đang chọn</span>
+
+                <strong>
+                    {{ settings.mo_hinh_ollama }}
+                </strong>
+
+            </div>
+
+
+            <!-- TRẠNG THÁI CHATBOT -->
+
+            <div class="chatbot-model-info">
+
+                <span>Trạng thái chatbot</span>
+
+                <strong>
+                    {% if settings.chatbot_bat == '1' %}
+                        Đang bật
+                    {% else %}
+                        Đang tắt
+                    {% endif %}
+                </strong>
+
+            </div>
+
+
+            <!-- TRẠNG THÁI MÔ HÌNH -->
+
+            <div class="chatbot-model-info">
+
+                <span>Mô hình đã cài</span>
+
+                <strong>
+
+                    {% if settings.mo_hinh_ollama
+                          in ollama.models %}
+
+                        Có
+
+                    {% else %}
+
+                        Chưa xác nhận
+
+                    {% endif %}
+
+                </strong>
+
+            </div>
+
+
+            <!-- NÚT KIỂM TRA KẾT NỐI -->
+
+            <div class="chatbot-actions">
+
+                <button
+                    type="button"
+                    id="chatbot-check-connection"
+                    class="chatbot-btn chatbot-btn-secondary"
+                >
+                    Kiểm tra kết nối
+                </button>
+
+            </div>
+
+
+            <!-- CÂU HỎI THỬ -->
+
+            <div
+                class="chatbot-field"
+                style="margin-top: 20px;"
+            >
+
+                <label for="chatbot-test-question">
+                    Nhập câu hỏi kiểm tra
+                </label>
+
+                <textarea
+                    id="chatbot-test-question"
+                    rows="4"
+                    maxlength="500"
+                    placeholder="Ví dụ: Giải thích từ 学习 và cho một câu ví dụ."
+                ></textarea>
+
+                <small>
+                    Bạn có thể hỏi bằng tiếng Việt
+                    hoặc tiếng Trung.
+                </small>
+
+            </div>
+
+
+            <!-- NÚT GỬI CÂU HỎI -->
+
+            <div class="chatbot-actions">
+
+                <button
+                    type="button"
+                    id="chatbot-test-button"
+                    class="chatbot-btn chatbot-btn-primary"
+                >
+                    Gửi câu hỏi thử
+                </button>
+
+            </div>
+
+
+            <!-- KẾT QUẢ AI -->
+
+            <div
+                id="chatbot-test-result"
+                class="chatbot-test-result"
+                role="status"
+                aria-live="polite"
+            >
+                Câu trả lời của AI sẽ hiển thị tại đây.
+            </div>
+
+
+            <p class="chatbot-note">
+
+                Chức năng thử AI kiểm tra phản hồi trực tiếp
+                từ Ollama. Việc tìm kiến thức trong SQL theo
+                từng câu hỏi sẽ được thực hiện ở chatbot
+                dành cho người học.
+
+            </p>
+
+        </section>
+
+    </div>
+
+</div>
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script
+    src="{{ url_for('static', filename='js/admin-chatbot.js') }}"
+    defer
+></script>
+
+{% endblock %}

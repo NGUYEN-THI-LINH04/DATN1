@@ -1,0 +1,779 @@
+{
+  "cap_hsk": 3,
+  "so_de": 10,
+  "ma_de_goc": "H31328",
+  "so_cau": 80,
+  "so_trang_pdf": 16,
+  "trang_dap_an": [
+    15,
+    16
+  ],
+  "trang_loi_thoai": [],
+  "dap_an_thay_the": {},
+  "cau_hoi": {
+    "1": {
+      "so_cau": 1,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 2,
+      "anh": null,
+      "nhom_lua_chon": "nghe_01_05",
+      "dap_an_dung": "E"
+    },
+    "2": {
+      "so_cau": 2,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 2,
+      "anh": null,
+      "nhom_lua_chon": "nghe_01_05",
+      "dap_an_dung": "C"
+    },
+    "3": {
+      "so_cau": 3,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 2,
+      "anh": null,
+      "nhom_lua_chon": "nghe_01_05",
+      "dap_an_dung": "F"
+    },
+    "4": {
+      "so_cau": 4,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 2,
+      "anh": null,
+      "nhom_lua_chon": "nghe_01_05",
+      "dap_an_dung": "A"
+    },
+    "5": {
+      "so_cau": 5,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 2,
+      "anh": null,
+      "nhom_lua_chon": "nghe_01_05",
+      "dap_an_dung": "B"
+    },
+    "6": {
+      "so_cau": 6,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 3,
+      "anh": null,
+      "nhom_lua_chon": "nghe_06_10",
+      "dap_an_dung": "C"
+    },
+    "7": {
+      "so_cau": 7,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 3,
+      "anh": null,
+      "nhom_lua_chon": "nghe_06_10",
+      "dap_an_dung": "D"
+    },
+    "8": {
+      "so_cau": 8,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 3,
+      "anh": null,
+      "nhom_lua_chon": "nghe_06_10",
+      "dap_an_dung": "E"
+    },
+    "9": {
+      "so_cau": 9,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 3,
+      "anh": null,
+      "nhom_lua_chon": "nghe_06_10",
+      "dap_an_dung": "B"
+    },
+    "10": {
+      "so_cau": 10,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 3,
+      "anh": null,
+      "nhom_lua_chon": "nghe_06_10",
+      "dap_an_dung": "A"
+    },
+    "11": {
+      "so_cau": 11,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "anh": "questions/cau_11.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "√"
+    },
+    "12": {
+      "so_cau": 12,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "anh": "questions/cau_12.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "√"
+    },
+    "13": {
+      "so_cau": 13,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "anh": "questions/cau_13.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "×"
+    },
+    "14": {
+      "so_cau": 14,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "anh": "questions/cau_14.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "×"
+    },
+    "15": {
+      "so_cau": 15,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "anh": "questions/cau_15.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "√"
+    },
+    "16": {
+      "so_cau": 16,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "anh": "questions/cau_16.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "×"
+    },
+    "17": {
+      "so_cau": 17,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "anh": "questions/cau_17.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "×"
+    },
+    "18": {
+      "so_cau": 18,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "anh": "questions/cau_18.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "×"
+    },
+    "19": {
+      "so_cau": 19,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "anh": "questions/cau_19.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "√"
+    },
+    "20": {
+      "so_cau": 20,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "anh": "questions/cau_20.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "√"
+    },
+    "21": {
+      "so_cau": 21,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "anh": "questions/cau_21.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "C"
+    },
+    "22": {
+      "so_cau": 22,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "anh": "questions/cau_22.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "A"
+    },
+    "23": {
+      "so_cau": 23,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "anh": "questions/cau_23.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "C"
+    },
+    "24": {
+      "so_cau": 24,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "anh": "questions/cau_24.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "B"
+    },
+    "25": {
+      "so_cau": 25,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "anh": "questions/cau_25.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "A"
+    },
+    "26": {
+      "so_cau": 26,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "anh": "questions/cau_26.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "A"
+    },
+    "27": {
+      "so_cau": 27,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "anh": "questions/cau_27.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "B"
+    },
+    "28": {
+      "so_cau": 28,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "anh": "questions/cau_28.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "C"
+    },
+    "29": {
+      "so_cau": 29,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "anh": "questions/cau_29.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "B"
+    },
+    "30": {
+      "so_cau": 30,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "anh": "questions/cau_30.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "A"
+    },
+    "31": {
+      "so_cau": 31,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "anh": "questions/cau_31.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "B"
+    },
+    "32": {
+      "so_cau": 32,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "anh": "questions/cau_32.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "C"
+    },
+    "33": {
+      "so_cau": 33,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "anh": "questions/cau_33.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "C"
+    },
+    "34": {
+      "so_cau": 34,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "anh": "questions/cau_34.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "B"
+    },
+    "35": {
+      "so_cau": 35,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "anh": "questions/cau_35.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "A"
+    },
+    "36": {
+      "so_cau": 36,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "anh": "questions/cau_36.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "B"
+    },
+    "37": {
+      "so_cau": 37,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "anh": "questions/cau_37.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "B"
+    },
+    "38": {
+      "so_cau": 38,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "anh": "questions/cau_38.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "C"
+    },
+    "39": {
+      "so_cau": 39,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "anh": "questions/cau_39.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "A"
+    },
+    "40": {
+      "so_cau": 40,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "anh": "questions/cau_40.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "A"
+    },
+    "41": {
+      "so_cau": 41,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 7,
+      "anh": "questions/cau_41.png",
+      "nhom_lua_chon": "doc_41_45",
+      "dap_an_dung": "D"
+    },
+    "42": {
+      "so_cau": 42,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 7,
+      "anh": "questions/cau_42.png",
+      "nhom_lua_chon": "doc_41_45",
+      "dap_an_dung": "B"
+    },
+    "43": {
+      "so_cau": 43,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 7,
+      "anh": "questions/cau_43.png",
+      "nhom_lua_chon": "doc_41_45",
+      "dap_an_dung": "C"
+    },
+    "44": {
+      "so_cau": 44,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 7,
+      "anh": "questions/cau_44.png",
+      "nhom_lua_chon": "doc_41_45",
+      "dap_an_dung": "A"
+    },
+    "45": {
+      "so_cau": 45,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 7,
+      "anh": "questions/cau_45.png",
+      "nhom_lua_chon": "doc_41_45",
+      "dap_an_dung": "F"
+    },
+    "46": {
+      "so_cau": 46,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 8,
+      "anh": "questions/cau_46.png",
+      "nhom_lua_chon": "doc_46_50",
+      "dap_an_dung": "B"
+    },
+    "47": {
+      "so_cau": 47,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 8,
+      "anh": "questions/cau_47.png",
+      "nhom_lua_chon": "doc_46_50",
+      "dap_an_dung": "D"
+    },
+    "48": {
+      "so_cau": 48,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 8,
+      "anh": "questions/cau_48.png",
+      "nhom_lua_chon": "doc_46_50",
+      "dap_an_dung": "C"
+    },
+    "49": {
+      "so_cau": 49,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 8,
+      "anh": "questions/cau_49.png",
+      "nhom_lua_chon": "doc_46_50",
+      "dap_an_dung": "E"
+    },
+    "50": {
+      "so_cau": 50,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 8,
+      "anh": "questions/cau_50.png",
+      "nhom_lua_chon": "doc_46_50",
+      "dap_an_dung": "A"
+    },
+    "51": {
+      "so_cau": 51,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 9,
+      "anh": "questions/cau_51.png",
+      "nhom_lua_chon": "doc_51_55",
+      "dap_an_dung": "D"
+    },
+    "52": {
+      "so_cau": 52,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 9,
+      "anh": "questions/cau_52.png",
+      "nhom_lua_chon": "doc_51_55",
+      "dap_an_dung": "B"
+    },
+    "53": {
+      "so_cau": 53,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 9,
+      "anh": "questions/cau_53.png",
+      "nhom_lua_chon": "doc_51_55",
+      "dap_an_dung": "F"
+    },
+    "54": {
+      "so_cau": 54,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 9,
+      "anh": "questions/cau_54.png",
+      "nhom_lua_chon": "doc_51_55",
+      "dap_an_dung": "A"
+    },
+    "55": {
+      "so_cau": 55,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 9,
+      "anh": "questions/cau_55.png",
+      "nhom_lua_chon": "doc_51_55",
+      "dap_an_dung": "C"
+    },
+    "56": {
+      "so_cau": 56,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 10,
+      "anh": "questions/cau_56.png",
+      "nhom_lua_chon": "doc_56_60",
+      "dap_an_dung": "F"
+    },
+    "57": {
+      "so_cau": 57,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 10,
+      "anh": "questions/cau_57.png",
+      "nhom_lua_chon": "doc_56_60",
+      "dap_an_dung": "E"
+    },
+    "58": {
+      "so_cau": 58,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 10,
+      "anh": "questions/cau_58.png",
+      "nhom_lua_chon": "doc_56_60",
+      "dap_an_dung": "C"
+    },
+    "59": {
+      "so_cau": 59,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 10,
+      "anh": "questions/cau_59.png",
+      "nhom_lua_chon": "doc_56_60",
+      "dap_an_dung": "B"
+    },
+    "60": {
+      "so_cau": 60,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 10,
+      "anh": "questions/cau_60.png",
+      "nhom_lua_chon": "doc_56_60",
+      "dap_an_dung": "A"
+    },
+    "61": {
+      "so_cau": 61,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 11,
+      "anh": "questions/cau_61.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "B"
+    },
+    "62": {
+      "so_cau": 62,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 11,
+      "anh": "questions/cau_62.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "C"
+    },
+    "63": {
+      "so_cau": 63,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 11,
+      "anh": "questions/cau_63.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "A"
+    },
+    "64": {
+      "so_cau": 64,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 11,
+      "anh": "questions/cau_64.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "C"
+    },
+    "65": {
+      "so_cau": 65,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "anh": "questions/cau_65.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "C"
+    },
+    "66": {
+      "so_cau": 66,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "anh": "questions/cau_66.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "B"
+    },
+    "67": {
+      "so_cau": 67,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "anh": "questions/cau_67.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "C"
+    },
+    "68": {
+      "so_cau": 68,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "anh": "questions/cau_68.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "A"
+    },
+    "69": {
+      "so_cau": 69,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "anh": "questions/cau_69.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "B"
+    },
+    "70": {
+      "so_cau": 70,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "anh": "questions/cau_70.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "A"
+    },
+    "71": {
+      "so_cau": 71,
+      "phan": "viet",
+      "dang": "sap_xep",
+      "trang_pdf": 13,
+      "anh": "questions/cau_71.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "她的头发又黑又长。"
+    },
+    "72": {
+      "so_cau": 72,
+      "phan": "viet",
+      "dang": "sap_xep",
+      "trang_pdf": 13,
+      "anh": "questions/cau_72.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "我终于学会用筷子了。"
+    },
+    "73": {
+      "so_cau": 73,
+      "phan": "viet",
+      "dang": "sap_xep",
+      "trang_pdf": 13,
+      "anh": "questions/cau_73.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "他把教室打扫得干干净净。"
+    },
+    "74": {
+      "so_cau": 74,
+      "phan": "viet",
+      "dang": "sap_xep",
+      "trang_pdf": 13,
+      "anh": "questions/cau_74.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "我不喜欢看体育新闻。"
+    },
+    "75": {
+      "so_cau": 75,
+      "phan": "viet",
+      "dang": "sap_xep",
+      "trang_pdf": 13,
+      "anh": "questions/cau_75.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "校长对你的回答非常满意。"
+    },
+    "76": {
+      "so_cau": 76,
+      "phan": "viet",
+      "dang": "dien_tu",
+      "trang_pdf": 14,
+      "anh": "questions/cau_76.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "中"
+    },
+    "77": {
+      "so_cau": 77,
+      "phan": "viet",
+      "dang": "dien_tu",
+      "trang_pdf": 14,
+      "anh": "questions/cau_77.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "来"
+    },
+    "78": {
+      "so_cau": 78,
+      "phan": "viet",
+      "dang": "dien_tu",
+      "trang_pdf": 14,
+      "anh": "questions/cau_78.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "电"
+    },
+    "79": {
+      "so_cau": 79,
+      "phan": "viet",
+      "dang": "dien_tu",
+      "trang_pdf": 14,
+      "anh": "questions/cau_79.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "好"
+    },
+    "80": {
+      "so_cau": 80,
+      "phan": "viet",
+      "dang": "dien_tu",
+      "trang_pdf": 14,
+      "anh": "questions/cau_80.png",
+      "nhom_lua_chon": null,
+      "dap_an_dung": "知"
+    }
+  },
+  "bang_lua_chon": {
+    "nghe_01_05": {
+      "trang_pdf": 2,
+      "cau_tu": 1,
+      "cau_den": 5,
+      "lua_chon": "ABCDEF",
+      "anh": "groups/nghe_01_05.png"
+    },
+    "nghe_06_10": {
+      "trang_pdf": 3,
+      "cau_tu": 6,
+      "cau_den": 10,
+      "lua_chon": "ABCDE",
+      "anh": "groups/nghe_06_10.png"
+    },
+    "doc_41_45": {
+      "trang_pdf": 7,
+      "cau_tu": 41,
+      "cau_den": 45,
+      "lua_chon": "ABCDEF",
+      "anh": "groups/doc_41_45.png"
+    },
+    "doc_46_50": {
+      "trang_pdf": 8,
+      "cau_tu": 46,
+      "cau_den": 50,
+      "lua_chon": "ABCDE",
+      "anh": "groups/doc_46_50.png"
+    },
+    "doc_51_55": {
+      "trang_pdf": 9,
+      "cau_tu": 51,
+      "cau_den": 55,
+      "lua_chon": "ABCDEF",
+      "anh": "groups/doc_51_55.png"
+    },
+    "doc_56_60": {
+      "trang_pdf": 10,
+      "cau_tu": 56,
+      "cau_den": 60,
+      "lua_chon": "ABCDEF",
+      "anh": "groups/doc_56_60.png"
+    }
+  }
+}

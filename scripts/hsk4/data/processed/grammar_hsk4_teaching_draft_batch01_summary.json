@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "batch": 1,
+  "tong_plan": 114,
+  "tong_batch": 20,
+  "ma_dau": "GF4-001-T01",
+  "ma_cuoi": "GF4-007-T01",
+  "day_du_noi_dung": 20,
+  "ma_nguon": 1004,
+  "trang_thai": "ban_nhap",
+  "trang_thai_kiem_duyet": "CHO_REVIEW",
+  "plan_sha256": "5a213b92fe25c2947c25bb4d00536425aa0a4d315f454b462f4b4fd59835088f",
+  "output_sha256": "353c44815d6a7334ce6f731c11c0b8d4d484c1ce580b169c174616546f817900",
+  "da_ghi_sql": false,
+  "da_gan_bai_hoc": false,
+  "ghi_chu": "Pham vi Trung van theo GF0025-2021. Noi dung Viet/Pinyin/vi du la noi dung giang day Moc Han bien soan."
+}

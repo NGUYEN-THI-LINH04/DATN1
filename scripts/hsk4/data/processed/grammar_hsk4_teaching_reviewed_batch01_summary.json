@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "batch": 1,
+  "tong": 20,
+  "giu_nguyen": 18,
+  "hieu_chinh": 2,
+  "ket_qua_review": {
+    "PASS": 18,
+    "PASS_SAU_HIEU_CHINH": 2
+  },
+  "trang_thai": "ban_nhap",
+  "trang_thai_kiem_duyet": "DA_REVIEW_BATCH_01",
+  "source_sha256": "353c44815d6a7334ce6f731c11c0b8d4d484c1ce580b169c174616546f817900",
+  "output_sha256": "81e6f0fcb9ddf8e16a71abb3b1aa5094fb3c0671f5063b25c01c2c7b311b23e6",
+  "da_ghi_sql": false,
+  "da_gan_bai_hoc": false,
+  "da_publish": false
+}

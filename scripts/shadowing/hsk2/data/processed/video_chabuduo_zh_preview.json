@@ -1,0 +1,729 @@
+{
+  "module": "shadowing",
+  "youtube_id": "VkEYoXw7jD0",
+  "title": "差不多 - Gần giống nhau",
+  "status": "needs_review",
+  "sentences": [
+    {
+      "start": 26.34,
+      "end": 27.84,
+      "hanzi": "她 们",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 26.34,
+      "end": 27.84,
+      "hanzi": "长 得",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 26.34,
+      "end": 27.84,
+      "hanzi": "不 算",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 26.34,
+      "end": 27.84,
+      "hanzi": "紀 uk",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 26.46,
+      "end": 27.96,
+      "hanzi": "她 们",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 26.58,
+      "end": 28.56,
+      "hanzi": "Од",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 28.01,
+      "end": 29.68,
+      "hanzi": "都 有一",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 28.56,
+      "end": 30.06,
+      "hanzi": "yen",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 28.74,
+      "end": 30.24,
+      "hanzi": "东 西",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 28.84,
+      "end": 30.34,
+      "hanzi": "们 长",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 28.84,
+      "end": 30.34,
+      "hanzi": "得 不",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 28.84,
+      "end": 30.34,
+      "hanzi": "错 女",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 28.9,
+      "end": 30.4,
+      "hanzi": "rzy",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 28.9,
+      "end": 30.4,
+      "hanzi": "十 五",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 28.9,
+      "end": 30.4,
+      "hanzi": "岁",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 29.68,
+      "end": 31.18,
+      "hanzi": "双 大",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 30.96,
+      "end": 32.46,
+      "hanzi": "大的 眼",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 32.16,
+      "end": 33.66,
+      "hanzi": "睛 她",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 34.37,
+      "end": 35.87,
+      "hanzi": "头 发",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 35.4,
+      "end": 36.9,
+      "hanzi": "差不多",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 36.56,
+      "end": 38.06,
+      "hanzi": "一 样",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 37.7,
+      "end": 41.24,
+      "hanzi": "长 他们",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 41.24,
+      "end": 42.74,
+      "hanzi": "的 身",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 42.46,
+      "end": 43.96,
+      "hanzi": "高 也",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 43.66,
+      "end": 45.16,
+      "hanzi": "差不多",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 46.43,
+      "end": 47.93,
+      "hanzi": "姐 姐",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 47.48,
+      "end": 48.98,
+      "hanzi": "一 米",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 48.56,
+      "end": 50.06,
+      "hanzi": "六 五",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 50.89,
+      "end": 52.39,
+      "hanzi": "娜 娜",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 51.8,
+      "end": 53.3,
+      "hanzi": "一 米",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 52.82,
+      "end": 54.32,
+      "hanzi": "六 二",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 54.94,
+      "end": 56.44,
+      "hanzi": "绿 色",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 55.26,
+      "end": 56.76,
+      "hanzi": "должен",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 55.26,
+      "end": 56.76,
+      "hanzi": "恨 美",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 55.69,
+      "end": 57.27,
+      "hanzi": "他们 都",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 57.27,
+      "end": 58.77,
+      "hanzi": "在 上",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 58.19,
+      "end": 59.69,
+      "hanzi": "初 中",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 59.89,
+      "end": 61.81,
+      "hanzi": "在 同",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 61.81,
+      "end": 63.31,
+      "hanzi": "一 所",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 62.41,
+      "end": 63.91,
+      "hanzi": "学 校",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 63.21,
+      "end": 64.71,
+      "hanzi": "上 学",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 65.49,
+      "end": 66.99,
+      "hanzi": "成 绩",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 66.93,
+      "end": 68.43,
+      "hanzi": "差不多",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 68.05,
+      "end": 69.55,
+      "hanzi": "一 样",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 69.49,
+      "end": 72.71,
+      "hanzi": "好 虽",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 72.71,
+      "end": 74.21,
+      "hanzi": "然 他们",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 73.89,
+      "end": 75.39,
+      "hanzi": "长 得",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 75.29,
+      "end": 76.79,
+      "hanzi": "差不多",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 77.83,
+      "end": 79.85,
+      "hanzi": "但是 性",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 79.85,
+      "end": 81.35,
+      "hanzi": "格 差",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 81.11,
+      "end": 82.61,
+      "hanzi": "很多",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 106.5,
+      "end": 108.0,
+      "hanzi": "妈 妈",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 107.64,
+      "end": 109.14,
+      "hanzi": "很 爱",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 108.66,
+      "end": 110.16,
+      "hanzi": "娜 娜。",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 136.3,
+      "end": 137.8,
+      "hanzi": "妈 妈",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 136.67,
+      "end": 138.17,
+      "hanzi": "妈 妈",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 136.75,
+      "end": 138.25,
+      "hanzi": "妈 妈",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 136.79,
+      "end": 138.29,
+      "hanzi": "妈 妈",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 136.83,
+      "end": 138.33,
+      "hanzi": "妈",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 137.56,
+      "end": 139.06,
+      "hanzi": "和 爸爸",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 138.7,
+      "end": 140.2,
+      "hanzi": "的 生",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 139.26,
+      "end": 140.76,
+      "hanzi": "日",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 139.72,
+      "end": 141.22,
+      "hanzi": "差不多",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 140.8,
+      "end": 142.36,
+      "hanzi": "在 同",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 142.36,
+      "end": 143.86,
+      "hanzi": "一 天",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 146.12,
+      "end": 147.62,
+      "hanzi": "的 生",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 146.6,
+      "end": 148.1,
+      "hanzi": "日 是",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 147.84,
+      "end": 149.34,
+      "hanzi": "五 月",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 149.0,
+      "end": 150.5,
+      "hanzi": "五 日",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 151.62,
+      "end": 153.12,
+      "hanzi": "爸爸 的",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 152.86,
+      "end": 154.36,
+      "hanzi": "生 日",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 153.6,
+      "end": 155.34,
+      "hanzi": "是 五",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 155.34,
+      "end": 156.84,
+      "hanzi": "月 六",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 156.06,
+      "end": 157.56,
+      "hanzi": "日",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 159.79,
+      "end": 161.29,
+      "hanzi": "他们 都",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 160.93,
+      "end": 162.51,
+      "hanzi": "一起 过",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 162.51,
+      "end": 164.01,
+      "hanzi": "生 日。",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 165.75,
+      "end": 167.25,
+      "hanzi": "妈 妈",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 166.67,
+      "end": 168.17,
+      "hanzi": "每 年的",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 167.77,
+      "end": 169.27,
+      "hanzi": "生 日",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 168.67,
+      "end": 170.17,
+      "hanzi": "愿 望",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 169.35,
+      "end": 170.85,
+      "hanzi": "都",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 170.05,
+      "end": 171.55,
+      "hanzi": "差不多。",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 172.33,
+      "end": 174.11,
+      "hanzi": "她 希望",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 174.11,
+      "end": 175.75,
+      "hanzi": "自己 的",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 175.75,
+      "end": 177.25,
+      "hanzi": "女 儿",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 176.59,
+      "end": 178.09,
+      "hanzi": "们 健",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 177.67,
+      "end": 179.17,
+      "hanzi": "康 快",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 178.95,
+      "end": 180.45,
+      "hanzi": "乐。",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 181.05,
+      "end": 182.83,
+      "hanzi": "爸爸 每",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 182.83,
+      "end": 184.33,
+      "hanzi": "年的 生",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 183.79,
+      "end": 185.29,
+      "hanzi": "日 愿",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 184.35,
+      "end": 185.85,
+      "hanzi": "望 也",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 185.65,
+      "end": 187.15,
+      "hanzi": "差不多",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 186.61,
+      "end": 188.11,
+      "hanzi": "都 一",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 187.48,
+      "end": 188.98,
+      "hanzi": "一 样",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 187.93,
+      "end": 189.43,
+      "hanzi": "样。 都",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 189.38,
+      "end": 191.0,
+      "hanzi": "他 希望",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 191.0,
+      "end": 192.5,
+      "hanzi": "一 家",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 192.44,
+      "end": 193.94,
+      "hanzi": "人 永",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 193.6,
+      "end": 195.1,
+      "hanzi": "远 开",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 194.86,
+      "end": 196.36,
+      "hanzi": "心 幸",
+      "pinyin": "",
+      "vi": ""
+    },
+    {
+      "start": 196.12,
+      "end": 197.62,
+      "hanzi": "福",
+      "pinyin": "",
+      "vi": ""
+    }
+  ]
+}

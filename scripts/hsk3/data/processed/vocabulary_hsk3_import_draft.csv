@@ -1,0 +1,974 @@
+﻿MaTuHSK,ChuHan,PhienAm,NghiaTiengViet,TuLoai,MaTuVungDaCo,HanhDongDeXuat,TrangThaiKiemDuyet,VanDeCanKiemTra,NghiaGoc,GhiChuTuDien
+L3-0001,爱心,àixīn,"lòng trắc ẩn / nhân ái / quan tâm đến người khác / tình yêu / từ thiện (chợ từ thiện, ngày hội golf v.v.) / trái tim (biểu tượng ♥)",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,"lòng trắc ẩn / nhân ái / quan tâm đến người khác / tình yêu / LT:片[pian4] / từ thiện (chợ từ thiện, ngày hội golf v.v.) / trái tim (biểu tượng ♥)",LT:片[pian4]
+L3-0002,安排,ānpái,sắp xếp / lên kế hoạch / tổ chức / sự sắp xếp / kế hoạch,动、名,,INSERT_MOI,CHUA_DUYET,,sắp xếp / lên kế hoạch / tổ chức / sự sắp xếp / kế hoạch,
+L3-0003,安装,ānzhuāng,lắp đặt / dựng / lắp / gắn / cài đặt,动,,INSERT_MOI,CHUA_DUYET,,lắp đặt / dựng / lắp / gắn / cài đặt,
+L3-0004,按,àn,nhấn / đẩy / để sang một bên hoặc gác lại / kiểm soát / kiềm chế / đặt tay lên / kiểm tra hoặc tham khảo / theo / dựa vào / (của biên tập viên hoặc tác giả) đưa ra bình luận,动、介,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,nhấn / đẩy / để sang một bên hoặc gác lại / kiểm soát / kiềm chế / đặt tay lên / kiểm tra hoặc tham khảo / theo / dựa vào / (của biên tập viên hoặc tác giả) đưa ra bình luận,
+L3-0005,按照,ànzhào,theo / dựa theo / chiếu theo / dựa trên,介,,INSERT_MOI,CHUA_DUYET,,theo / dựa theo / chiếu theo / dựa trên,
+L3-0006,把,bǎ,"cầm; nắm / đỡ em bé để đi tiểu hoặc đại tiện / tay cầm / lượng từ: nắm, bó, chùm / lượng từ cho vật có cán / (dùng để đưa tân ngữ lên trước động từ: 把[ba3] + {danh từ} + {động từ})",介,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"cầm; nắm / đỡ em bé để đi tiểu hoặc đại tiện / tay cầm / lượng từ: nắm, bó, chùm / lượng từ cho vật có cán / (dùng để đưa tân ngữ lên trước động từ: 把[ba3] + {danh từ} + {động từ})",
+L3-0007,把,bǎ,"cầm; nắm / đỡ em bé để đi tiểu hoặc đại tiện / tay cầm / lượng từ: nắm, bó, chùm / lượng từ cho vật có cán / (dùng để đưa tân ngữ lên trước động từ: 把[ba3] + {danh từ} + {động từ})",量,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"cầm; nắm / đỡ em bé để đi tiểu hoặc đại tiện / tay cầm / lượng từ: nắm, bó, chùm / lượng từ cho vật có cán / (dùng để đưa tân ngữ lên trước động từ: 把[ba3] + {danh từ} + {động từ})",
+L3-0008,把握,bǎwò,nắm bắt (cũng nghĩa bóng) / nắm giữ / cầm / nắm chắc / chắc chắn / chắc (kết quả),动、名,,INSERT_MOI,CHUA_DUYET,,nắm bắt (cũng nghĩa bóng) / nắm giữ / cầm / nắm chắc / chắc chắn / chắc (kết quả),
+L3-0009,白,bái,trắng / tuyết / tinh khiết / sáng / trống / rỗng / đơn giản / rõ ràng / làm rõ / uổng / phí phạm / miễn phí / phản động / chống cộng / tang lễ / nhìn chằm chằm / viết sai chữ / phát biểu / giải thích / bạch thoại / lời thoại trong kinh kịch,副,19,TAI_SU_DUNG,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,trắng / tuyết / tinh khiết / sáng / trống / rỗng / đơn giản / rõ ràng / làm rõ / uổng / phí phạm / miễn phí / phản động / chống cộng / tang lễ / nhìn chằm chằm / viết sai chữ / phát biểu / giải thích / bạch thoại / lời thoại trong kinh kịch,
+L3-0010,白菜,báicài,cải thảo / cải bẹ trắng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"cải thảo / cải bẹ trắng / LT: 棵[ke1], 個|个[ge4]","LT: 棵[ke1], 個|个[ge4]"
+L3-0011,班级,bānjí,lớp học (nhóm học sinh) / khối lớp (trong trường),名,,INSERT_MOI,CHUA_DUYET,,lớp học (nhóm học sinh) / khối lớp (trong trường),
+L3-0012,搬,bān,di chuyển (tức là tự dời đi) / di chuyển (thứ gì đó tương đối nặng hoặc cồng kềnh) / chuyển / dọn sao chép mà không chọn lọc,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,di chuyển (tức là tự dời đi) / di chuyển (thứ gì đó tương đối nặng hoặc cồng kềnh) / chuyển / dọn sao chép mà không chọn lọc,
+L3-0013,搬家,bānjiā,chuyển nhà; di dời / loại bỏ (cái gì đó),,,INSERT_MOI,CHUA_DUYET,,chuyển nhà; di dời / loại bỏ (cái gì đó),
+L3-0014,板,bǎn,"tấm / ván / mặt phẳng / cánh cửa ván / vợt bóng bàn / phách (nhạc) / nhịp mạnh trong nhạc Trung Quốc / cứng / đơ / ngừng cười hoặc trông nghiêm túc / xem 老闆|老板, ông chủ",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,"tấm / ván / mặt phẳng / cánh cửa ván / vợt bóng bàn / phách (nhạc) / LT:塊|块[kuai4] / nhịp mạnh trong nhạc Trung Quốc / cứng / đơ / ngừng cười hoặc trông nghiêm túc || xem 老闆|老板, ông chủ",LT:塊|块[kuai4]
+L3-0015,办理,bànlǐ,xử lý; tiến hành; thực hiện,动,,INSERT_MOI,CHUA_DUYET,,xử lý; tiến hành; thực hiện,
+L3-0016,保,bǎo,phòng thủ; bảo vệ; giữ / bảo đảm; đảm bảo / (cũ) đơn vị hành chính trong hệ thống bảo giáp 保甲[bao3jia3],动,,INSERT_MOI,CHUA_DUYET,,phòng thủ; bảo vệ; giữ / bảo đảm; đảm bảo / (cũ) đơn vị hành chính trong hệ thống bảo giáp 保甲[bao3jia3],
+L3-0017,保安,bǎo'ān,bảo đảm an ninh công cộng / bảo đảm an toàn (cho công nhân tham gia sản xuất) / công an / nhân viên bảo vệ,名,,INSERT_MOI,CHUA_DUYET,,bảo đảm an ninh công cộng / bảo đảm an toàn (cho công nhân tham gia sản xuất) / công an / nhân viên bảo vệ,
+L3-0018,保持,bǎochí,giữ / duy trì / nắm giữ / bảo tồn,动,,INSERT_MOI,CHUA_DUYET,,giữ / duy trì / nắm giữ / bảo tồn,
+L3-0019,保存,bǎocún,"bảo tồn / bảo quản / giữ / lưu (tệp, v.v.) (tin học)",动,,INSERT_MOI,CHUA_DUYET,,"bảo tồn / bảo quản / giữ / lưu (tệp, v.v.) (tin học)",
+L3-0020,保护,bǎohù,bảo vệ / phòng thủ / bảo hộ / sự bảo vệ,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,bảo vệ / phòng thủ / bảo hộ / sự bảo vệ / LT:種|种[zhong3],LT:種|种[zhong3]
+L3-0021,保留,bǎoliú,giữ / lưu giữ / có bảo lưu (về điều gì đó) / giữ lại (không nói điều gì đó) / để dành cho sau,动,,INSERT_MOI,CHUA_DUYET,,giữ / lưu giữ / có bảo lưu (về điều gì đó) / giữ lại (không nói điều gì đó) / để dành cho sau,
+L3-0022,保险,bǎoxiǎn,bảo hiểm / an toàn / bảo đảm / chắc chắn / nhất định phải,形、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,bảo hiểm / an toàn / bảo đảm / chắc chắn / nhất định phải / LT:份[fen4],LT:份[fen4]
+L3-0023,保证,bǎozhèng,bảo đảm / đảm bảo / bảo chứng / bảo vệ / cam kết,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,bảo đảm / đảm bảo / bảo chứng / bảo vệ / cam kết / LT:個|个[ge4],LT:個|个[ge4]
+L3-0024,报,bào,thông báo / thông tin / báo cáo / báo chí / báo đáp / trả thù,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"thông báo / thông tin / báo cáo / báo chí / báo đáp / trả thù / LT: 份[fen4], 張|张[zhang1]","LT: 份[fen4], 張|张[zhang1]"
+L3-0025,报到,bàodào,báo cáo có mặt / đăng ký / điểm danh,,,INSERT_MOI,CHUA_DUYET,,báo cáo có mặt / đăng ký / điểm danh,
+L3-0026,报道,bàodào,đưa tin (tin tức) / bản tin,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"đưa tin (tin tức) / bản tin / LT:篇[pian1],份[fen4]","LT:篇[pian1],份[fen4]"
+L3-0027,报告,bàogào,thông báo / báo cáo / cho biết / bản báo cáo / bài phát biểu / bài nói chuyện / bài giảng,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"thông báo / báo cáo / cho biết / bản báo cáo / bài phát biểu / bài nói chuyện / bài giảng / LT:篇[pian1],份[fen4],個|个[ge4],通[tong4]","LT:篇[pian1],份[fen4],個|个[ge4],通[tong4]"
+L3-0028,背,bēi,biến thể của 背[bei1] / mang nặng / mang trên lưng hoặc vai,动,,CAN_KIEM_TRA,CHUA_DUYET,CAN_KIEM_TRA_TU_DA_AM,biến thể của 背[bei1] || mang nặng / mang trên lưng hoặc vai,
+L3-0029,北部,běibù,phần phía bắc,名,,INSERT_MOI,CHUA_DUYET,,phần phía bắc,
+L3-0030,背,bèi,lưng của cơ thể hoặc vật / ngoảnh lưng lại / che giấu / học thuộc lòng / nhớ để đọc / không may (tiếng lóng) / lãng tai,名,518,TAI_SU_DUNG,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,lưng của cơ thể hoặc vật / ngoảnh lưng lại / che giấu / học thuộc lòng / nhớ để đọc / không may (tiếng lóng) / lãng tai,
+L3-0031,背后,bèihòu,phía sau / ở đằng sau / phía sau lưng / sau lưng ai đó,名,,INSERT_MOI,CHUA_DUYET,,phía sau / ở đằng sau / phía sau lưng / sau lưng ai đó,
+L3-0032,被,bèi,"chăn / đắp (bằng) / (văn học) chịu (một điều không may) / dùng để chỉ thể bị động (đặt trước người thực hiện hành động như ""bởi"" trong câu bị động tiếng Anh, hoặc, nếu không nhắc đến người thực hiện, thì đặt trước động từ) / (khoảng năm 2009) (mỉa mai hoặc hài hước) dùng để chỉ rằng từ sau đó nên được hiểu là trong dấu ngoặc kép (như trong 被旅遊|被旅游[bei4 lu:3 you2] ""đi du lịch"", chẳng hạn)",介,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"chăn / đắp (bằng) / (văn học) chịu (một điều không may) / dùng để chỉ thể bị động (đặt trước người thực hiện hành động như ""bởi"" trong câu bị động tiếng Anh, hoặc, nếu không nhắc đến người thực hiện, thì đặt trước động từ) / (khoảng năm 2009) (mỉa mai hoặc hài hước) dùng để chỉ rằng từ sau đó nên được hiểu là trong dấu ngoặc kép (như trong 被旅遊|被旅游[bei4 lu:3 you2] ""đi du lịch"", chẳng hạn)",
+L3-0033,被子,bèizi,chăn,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,chăn / LT:床[chuang2],LT:床[chuang2]
+L3-0034,本来,běnlái,gốc gác / vốn dĩ / lúc đầu / không cần nói cũng rõ / tất nhiên,形、副,,INSERT_MOI,CHUA_DUYET,,gốc gác / vốn dĩ / lúc đầu / không cần nói cũng rõ / tất nhiên,
+L3-0035,本领,běnlǐng,kỹ năng / khả năng / năng lực,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"kỹ năng / khả năng / năng lực / LT:項|项[xiang4],個|个[ge4]","LT:項|项[xiang4],個|个[ge4]"
+L3-0036,本事,běnshi,khả năng / kỹ năng,名,,INSERT_MOI,CHUA_DUYET,,khả năng / kỹ năng,
+L3-0037,比较,bǐjiào,so sánh / đối chiếu / tương đối / khá / phân tích so sánh / sự so sánh,副、动,,INSERT_MOI,CHUA_DUYET,,so sánh / đối chiếu / tương đối / khá / phân tích so sánh / sự so sánh,
+L3-0038,比例,bǐlì,tỷ lệ / quy mô,名,,INSERT_MOI,CHUA_DUYET,,tỷ lệ / quy mô,
+L3-0039,比赛,bǐsài,"cuộc thi (thể thao, v.v.) / trận đấu / thi đấu",动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"cuộc thi (thể thao, v.v.) / trận đấu / LT:場|场[chang3],次[ci4] / thi đấu","LT:場|场[chang3],次[ci4]"
+L3-0040,必然,bìrán,không thể tránh khỏi / chắc chắn / tất yếu,形,,INSERT_MOI,CHUA_DUYET,,không thể tránh khỏi / chắc chắn / tất yếu,
+L3-0041,必要,bìyào,cần thiết / thiết yếu / không thể thiếu / bắt buộc,形、名,,INSERT_MOI,CHUA_DUYET,,cần thiết / thiết yếu / không thể thiếu / bắt buộc,
+L3-0042,变化,biànhuà,thay đổi; biến đổi; biến hoá,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thay đổi; biến đổi; biến hoá / LT:個|个[ge4],LT:個|个[ge4]
+L3-0043,变为,biànwéi,thay đổi thành,,,INSERT_MOI,CHUA_DUYET,,thay đổi thành,
+L3-0044,标题,biāotí,tiêu đề / đề mục / tựa đề / chú thích / chủ đề,名,,INSERT_MOI,CHUA_DUYET,,tiêu đề / đề mục / tựa đề / chú thích / chủ đề,
+L3-0045,标准,biāozhǔn,tiêu chuẩn; chuẩn mực; tiêu chí / (tính từ) chuẩn / tốt; đúng; phù hợp với tiêu chuẩn,名、形,,INSERT_MOI,CHUA_DUYET,,tiêu chuẩn; chuẩn mực; tiêu chí / (tính từ) chuẩn / tốt; đúng; phù hợp với tiêu chuẩn,
+L3-0046,表达,biǎodá,diễn đạt; truyền tải,动,,INSERT_MOI,CHUA_DUYET,,diễn đạt; truyền tải,
+L3-0047,表格,biǎogé,biểu mẫu / bảng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"biểu mẫu / bảng / LT:張|张[zhang1],份[fen4]","LT:張|张[zhang1],份[fen4]"
+L3-0048,表面,biǎomiàn,bề mặt / bề ngoài / bên ngoài / diện mạo,名,,INSERT_MOI,CHUA_DUYET,,bề mặt / bề ngoài / bên ngoài / diện mạo,
+L3-0049,表明,biǎomíng,làm rõ / cho biết / nói rõ / chỉ ra / được biết,动,,INSERT_MOI,CHUA_DUYET,,làm rõ / cho biết / nói rõ / chỉ ra / được biết,
+L3-0050,表现,biǎoxiàn,"thể hiện / phô diễn / trình bày / biểu lộ / biểu hiện / sự thể hiện / sự phô diễn / màn trình diễn / hiệu suất (trong công việc, v.v.) / hành vi",动、名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"thể hiện / phô diễn / trình bày / biểu lộ / biểu hiện / sự thể hiện / sự phô diễn / màn trình diễn / hiệu suất (trong công việc, v.v.) / hành vi",
+L3-0051,表演,biǎoyǎn,vở kịch / buổi biểu diễn / trình diễn / biểu diễn / diễn xuất / minh họa,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,vở kịch / buổi biểu diễn / trình diễn / biểu diễn / diễn xuất / minh họa / LT:場|场[chang3],LT:場|场[chang3]
+L3-0052,并,bìng,và / hơn nữa / cũng / cùng với / (không) hề / đồng thời / kết hợp / gia nhập / sáp nhập / kết hợp / sáp nhập / biến thể của 並|并[bing4],副、连,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,và / hơn nữa / cũng / cùng với / (không) hề / đồng thời / kết hợp / gia nhập / sáp nhập || kết hợp / sáp nhập || biến thể của 並|并[bing4],
+L3-0053,并且,bìngqiě,và; bên cạnh đó; hơn nữa; ngoài ra; thêm vào đó,连,,INSERT_MOI,CHUA_DUYET,,và; bên cạnh đó; hơn nữa; ngoài ra; thêm vào đó,
+L3-0054,播出,bōchū,"phát sóng / phát (chương trình TV, v.v.)",,,INSERT_MOI,CHUA_DUYET,,"phát sóng / phát (chương trình TV, v.v.)",
+L3-0055,播放,bōfàng,phát sóng; truyền tải (qua radio hoặc TV),动,,INSERT_MOI,CHUA_DUYET,,phát sóng; truyền tải (qua radio hoặc TV),
+L3-0056,不必,bùbì,không cần / không phải / cũng không nhất thiết,副,,INSERT_MOI,CHUA_DUYET,,không cần / không phải / cũng không nhất thiết,
+L3-0057,不断,bùduàn,không ngừng / không gián đoạn / liên tục / không đổi,动、副,,INSERT_MOI,CHUA_DUYET,,không ngừng / không gián đoạn / liên tục / không đổi,
+L3-0058,不论,bùlùn,"bất kể / cho dù là (ai, như thế nào, v.v.) / bất chấp / không bàn đến",连,,INSERT_MOI,CHUA_DUYET,,"bất kể / cho dù là (ai, như thế nào, v.v.) / bất chấp / không bàn đến",
+L3-0059,补,bǔ,sửa / chắp vá / vá / bù đắp / lấp đầy (chỗ trống) / bổ sung,动,,INSERT_MOI,CHUA_DUYET,,sửa / chắp vá / vá / bù đắp / lấp đầy (chỗ trống) / bổ sung,
+L3-0060,补充,bǔchōng,bổ sung / bổ trợ / thêm vào,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,bổ sung / bổ trợ / thêm vào / LT:個|个[ge4],LT:個|个[ge4]
+L3-0061,不安,bù'ān,không yên / bất ổn / bất an / rối bời / bồn chồn / lo lắng,形,,INSERT_MOI,CHUA_DUYET,,không yên / bất ổn / bất an / rối bời / bồn chồn / lo lắng,
+L3-0062,不得不,bùdébù,không có lựa chọn nào khác ngoài / phải / đành phải / không thể không / không tránh được,,,INSERT_MOI,CHUA_DUYET,,không có lựa chọn nào khác ngoài / phải / đành phải / không thể không / không tránh được,
+L3-0063,不光,bùguāng,không phải duy nhất / không chỉ,副、连,,INSERT_MOI,CHUA_DUYET,,không phải duy nhất / không chỉ,
+L3-0064,不仅,bùjǐn,"không chỉ; không giới hạn ở / (như một liên từ tương quan) không những (..., mà còn ...)",连,,INSERT_MOI,CHUA_DUYET,,"không chỉ; không giới hạn ở / (như một liên từ tương quan) không những (..., mà còn ...)",
+L3-0065,布,bù,biến thể của 布[bu4] / thông báo / lan truyền / vải / tuyên bố / thông báo / truyền ra / làm cho biết,名,,INSERT_MOI,CHUA_DUYET,,biến thể của 布[bu4] / thông báo / lan truyền || vải / tuyên bố / thông báo / truyền ra / làm cho biết,
+L3-0066,步,bù,một bước / nhịp bước / đi / bước đi / các giai đoạn trong một quá trình / tình huống,名、量,,INSERT_MOI,CHUA_DUYET,,một bước / nhịp bước / đi / bước đi / các giai đoạn trong một quá trình / tình huống,
+L3-0067,部,bù,"bộ / phòng / ban / phần / khoa / quân đội / cục / lượng từ cho tác phẩm văn học, phim ảnh, máy móc, v.v.",名、量,,INSERT_MOI,CHUA_DUYET,,"bộ / phòng / ban / phần / khoa / quân đội / cục / lượng từ cho tác phẩm văn học, phim ảnh, máy móc, v.v.",
+L3-0068,部门,bùmén,phòng / ban / chi nhánh / bộ phận,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,phòng / ban / chi nhánh / bộ phận / LT:個|个[ge4],LT:個|个[ge4]
+L3-0069,部长,bùzhǎng,"người đứng đầu một bộ (chính phủ, v.v.) / trưởng phòng / trưởng khoa / thư ký / bộ trưởng",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"người đứng đầu một bộ (chính phủ, v.v.) / trưởng phòng / trưởng khoa / thư ký / bộ trưởng / LT:個|个[ge4],位[wei4],名[ming2]","LT:個|个[ge4],位[wei4],名[ming2]"
+L3-0070,才能,cáinéng,tài năng / khả năng / năng lực,名,,INSERT_MOI,CHUA_DUYET,,tài năng / khả năng / năng lực,
+L3-0071,采取,cǎiqǔ,"áp dụng hoặc tiến hành (biện pháp, chính sách, hành động) / thực hiện",动,,INSERT_MOI,CHUA_DUYET,,"áp dụng hoặc tiến hành (biện pháp, chính sách, hành động) / thực hiện",
+L3-0072,采用,cǎiyòng,áp dụng / sử dụng / dùng,动,,INSERT_MOI,CHUA_DUYET,,áp dụng / sử dụng / dùng,
+L3-0073,彩色,cǎisè,màu / sặc sỡ,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,màu / sặc sỡ / LT:種|种[zhong3],LT:種|种[zhong3]
+L3-0074,曾经,céngjīng,một lần / đã / từng / trước đây / (dùng ở thì quá khứ trước động từ hoặc mệnh đề),副,,INSERT_MOI,CHUA_DUYET,,một lần / đã / từng / trước đây / (dùng ở thì quá khứ trước động từ hoặc mệnh đề),
+L3-0075,产生,chǎnshēng,phát sinh; hình thành; xảy ra / tạo ra; làm phát sinh; dẫn đến; sản xuất; sinh ra; tạo thành,动,,INSERT_MOI,CHUA_DUYET,,phát sinh; hình thành; xảy ra / tạo ra; làm phát sinh; dẫn đến; sản xuất; sinh ra; tạo thành,
+L3-0076,长城,Chángchéng,Vạn Lý Trường Thành,名,,INSERT_MOI,CHUA_DUYET,,Vạn Lý Trường Thành,
+L3-0077,长处,chángchù,điểm tốt / điểm mạnh,名,,INSERT_MOI,CHUA_DUYET,,điểm tốt / điểm mạnh,
+L3-0078,长期,chángqī,dài hạn / thời gian dài / dài hạn (của dự báo),名,,INSERT_MOI,CHUA_DUYET,,dài hạn / thời gian dài / dài hạn (của dự báo),
+L3-0079,厂,chǎng,nhà máy / sân / kho / xưởng / công xưởng / cơ xưởng (công nghiệp),名,,INSERT_MOI,CHUA_DUYET,,nhà máy / sân / kho / xưởng / công xưởng / cơ xưởng (công nghiệp),
+L3-0080,场合,chǎnghé,tình huống / dịp / ngữ cảnh / bối cảnh / địa điểm,名,,INSERT_MOI,CHUA_DUYET,,tình huống / dịp / ngữ cảnh / bối cảnh / địa điểm,
+L3-0081,场所,chǎngsuǒ,địa điểm / nơi chốn,名,,INSERT_MOI,CHUA_DUYET,,địa điểm / nơi chốn,
+L3-0082,超级,chāojí,siêu- / cực- / siêu cấp-,形,,INSERT_MOI,CHUA_DUYET,,siêu- / cực- / siêu cấp-,
+L3-0083,朝,cháo,triều đình hoặc hoàng gia / chính phủ / triều đại / triều vua hoặc hoàng đế / thiết triều hoặc họp bởi vua hoặc hoàng đế / hành hương / hướng / phía,介、动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,triều đình hoặc hoàng gia / chính phủ / triều đại / triều vua hoặc hoàng đế / thiết triều hoặc họp bởi vua hoặc hoàng đế / hành hương / hướng / phía,
+L3-0084,吵,chǎo,cãi nhau / gây ồn ào / ồn ào / làm phiền bằng cách gây ồn,形、动,,INSERT_MOI,CHUA_DUYET,,cãi nhau / gây ồn ào / ồn ào / làm phiền bằng cách gây ồn,
+L3-0085,吵架,chǎojià,cãi nhau / có cuộc cãi vã / cãi vã,,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,cãi nhau / có cuộc cãi vã / cãi vã / LT:頓|顿[dun4],LT:頓|顿[dun4]
+L3-0086,衬衫,chènshān,áo sơ mi / áo blouse,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,áo sơ mi / áo blouse / LT:件[jian4],LT:件[jian4]
+L3-0087,衬衣,chènyī,áo sơ mi,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,áo sơ mi / LT:件[jian4],LT:件[jian4]
+L3-0088,称为,chēngwéi,"được gọi là; được biết đến như; gọi là ""...""",,,INSERT_MOI,CHUA_DUYET,,"được gọi là; được biết đến như; gọi là ""...""",
+L3-0089,成功,chénggōng,thành công / sự thành công / thành công; có kết quả tốt,动、形,,INSERT_MOI,CHUA_DUYET,,thành công / sự thành công / thành công; có kết quả tốt,
+L3-0090,成果,chéngguǒ,kết quả / thành tựu / thu được / lợi nhuận,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,kết quả / thành tựu / thu được / lợi nhuận / LT:個|个[ge4],LT:個|个[ge4]
+L3-0091,成就,chéngjiù,thành tựu / thành công / đạt được / đạt được (một kết quả) / tạo ra / mang lại,名、动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thành tựu / thành công / đạt được / LT:個|个[ge4] / đạt được (một kết quả) / tạo ra / mang lại,LT:個|个[ge4]
+L3-0092,成立,chénglì,thiết lập / lập nên / có thể đứng vững / hợp lý,动,,INSERT_MOI,CHUA_DUYET,,thiết lập / lập nên / có thể đứng vững / hợp lý,
+L3-0093,成熟,chéngshú,trưởng thành; chín / trưởng thành; làm cho chín / cách phát âm ở Đài Loan [cheng2 shou2],形,,INSERT_MOI,CHUA_DUYET,,trưởng thành; chín / trưởng thành; làm cho chín / cách phát âm ở Đài Loan [cheng2 shou2],
+L3-0094,成员,chéngyuán,thành viên,名,,INSERT_MOI,CHUA_DUYET,,thành viên,
+L3-0095,成长,chéngzhǎng,trưởng thành / phát triển / tăng trưởng,动,,INSERT_MOI,CHUA_DUYET,,trưởng thành / phát triển / tăng trưởng,
+L3-0096,城,chéng,tường thành / thành phố / thị trấn,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"tường thành / thành phố / thị trấn / LT:座[zuo4],道[dao4],個|个[ge4]","LT:座[zuo4],道[dao4],個|个[ge4]"
+L3-0097,城市,chéngshì,thành phố; thị trấn,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thành phố; thị trấn / LT:座[zuo4],LT:座[zuo4]
+L3-0098,程度,chéngdù,mức độ; trình độ; phạm vi,名,,INSERT_MOI,CHUA_DUYET,,mức độ; trình độ; phạm vi,
+L3-0099,持续,chíxù,tiếp tục / kiên trì / kéo dài / bền vững / bảo tồn,动,,INSERT_MOI,CHUA_DUYET,,tiếp tục / kiên trì / kéo dài / bền vững / bảo tồn,
+L3-0100,充满,chōngmǎn,đầy / rạng rỡ / rất đầy / thấm đẫm,动,,INSERT_MOI,CHUA_DUYET,,đầy / rạng rỡ / rất đầy / thấm đẫm,
+L3-0101,重,chóng,lặp lại / sự lặp lại / lần nữa / tái- / lượng từ: tầng,副,,CAN_KIEM_TRA,CHUA_DUYET,CAN_KIEM_TRA_TU_DA_AM,lặp lại / sự lặp lại / lần nữa / tái- / lượng từ: tầng,
+L3-0102,初,chū,lúc đầu / (vào) lúc bắt đầu / đầu tiên / sơ cấp / cơ bản,副,,INSERT_MOI,CHUA_DUYET,,lúc đầu / (vào) lúc bắt đầu / đầu tiên / sơ cấp / cơ bản,
+L3-0103,初（初一）,chū (chūyī),lúc đầu / (vào) lúc bắt đầu / đầu tiên / sơ cấp / cơ bản,前缀,,INSERT_MOI,CHUA_DUYET,,lúc đầu / (vào) lúc bắt đầu / đầu tiên / sơ cấp / cơ bản,
+L3-0104,初步,chūbù,ban đầu / sơ bộ / dự kiến,形,,INSERT_MOI,CHUA_DUYET,,ban đầu / sơ bộ / dự kiến,
+L3-0105,初级,chūjí,sơ cấp / cơ bản,形,,INSERT_MOI,CHUA_DUYET,,sơ cấp / cơ bản,
+L3-0106,初中,chūzhōng,trường trung học cơ sở (viết tắt của 初級中學|初级中学[chu1 ji2 zhong1 xue2]),名,,INSERT_MOI,CHUA_DUYET,,trường trung học cơ sở (viết tắt của 初級中學|初级中学[chu1 ji2 zhong1 xue2]),
+L3-0107,除了,chúle,ngoài ra / ngoài (... còn...) / thêm vào / ngoại trừ,介,,INSERT_MOI,CHUA_DUYET,,ngoài ra / ngoài (... còn...) / thêm vào / ngoại trừ,
+L3-0108,处理,chǔlǐ,xử lý; đối phó / xử phạt / xử lý bằng quy trình đặc biệt; gia công / bán giảm giá,动、名,,INSERT_MOI,CHUA_DUYET,,xử lý; đối phó / xử phạt / xử lý bằng quy trình đặc biệt; gia công / bán giảm giá,
+L3-0109,传,chuán,truyền đạt / lan truyền / lây / truyền nhiễm / chuyển giao / lưu hành / dẫn điện,动,,INSERT_MOI,CHUA_DUYET,,truyền đạt / lan truyền / lây / truyền nhiễm / chuyển giao / lưu hành / dẫn điện,
+L3-0110,传播,chuánbō,truyền bá; phổ biến; lan truyền,动,,INSERT_MOI,CHUA_DUYET,,truyền bá; phổ biến; lan truyền,
+L3-0111,传来,chuánlái,(về âm thanh) truyền đến / được nghe thấy / (về tin tức) đến,,,INSERT_MOI,CHUA_DUYET,,(về âm thanh) truyền đến / được nghe thấy / (về tin tức) đến,
+L3-0112,传说,chuánshuō,truyền thuyết; câu chuyện dân gian / thuật lại từ người này sang người khác; người ta nói rằng...,动、名,,INSERT_MOI,CHUA_DUYET,,truyền thuyết; câu chuyện dân gian / thuật lại từ người này sang người khác; người ta nói rằng...,
+L3-0113,创新,chuàngxīn,đề xuất ý tưởng mới; mở đường mới / đổi mới,动、名,,INSERT_MOI,CHUA_DUYET,,đề xuất ý tưởng mới; mở đường mới / đổi mới,
+L3-0114,创业,chuàngyè,bắt đầu sự nghiệp; khởi nghiệp / tinh thần khởi nghiệp,动,,INSERT_MOI,CHUA_DUYET,,bắt đầu sự nghiệp; khởi nghiệp / tinh thần khởi nghiệp,
+L3-0115,创造,chuàngzào,tạo ra / mang lại / sản xuất / lập (kỷ lục),动、名,,INSERT_MOI,CHUA_DUYET,,tạo ra / mang lại / sản xuất / lập (kỷ lục),
+L3-0116,创作,chuàngzuò,sáng tác; sản xuất; viết / một tác phẩm sáng tạo; một sự sáng tạo,动、名,,INSERT_MOI,CHUA_DUYET,,sáng tác; sản xuất; viết / một tác phẩm sáng tạo; một sự sáng tạo,
+L3-0117,从来,cónglái,luôn luôn / mọi lúc / không bao giờ (nếu dùng trong câu phủ định),副,,INSERT_MOI,CHUA_DUYET,,luôn luôn / mọi lúc / không bao giờ (nếu dùng trong câu phủ định),
+L3-0118,从前,cóngqián,trước đây / ngày xưa / ngày xửa ngày xưa,名,,INSERT_MOI,CHUA_DUYET,,trước đây / ngày xưa / ngày xửa ngày xưa,
+L3-0119,从事,cóngshì,làm / gia nhập / thực hiện / xử lý / đối phó,动,,INSERT_MOI,CHUA_DUYET,,làm / gia nhập / thực hiện / xử lý / đối phó,
+L3-0120,村,cūn,ngôi làng / biến thể của 村[cun1],名,,INSERT_MOI,CHUA_DUYET,,ngôi làng || biến thể của 村[cun1],
+L3-0121,存,cún,tồn tại / gửi / lưu trữ / giữ / sống sót,动,,INSERT_MOI,CHUA_DUYET,,tồn tại / gửi / lưu trữ / giữ / sống sót,
+L3-0122,存在,cúnzài,tồn tại / là / sự tồn tại,动,,INSERT_MOI,CHUA_DUYET,,tồn tại / là / sự tồn tại,
+L3-0123,错误,cuòwù,sai lầm; sai; không đúng / lỗi; sai sót,形、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,sai lầm; sai; không đúng / lỗi; sai sót / LT:個|个[ge4],LT:個|个[ge4]
+L3-0124,达到,dádào,đạt tới; đạt được; đạt đến,,,INSERT_MOI,CHUA_DUYET,,đạt tới; đạt được; đạt đến,
+L3-0125,打破,dǎpò,làm vỡ; đập vỡ,,,INSERT_MOI,CHUA_DUYET,,làm vỡ; đập vỡ,
+L3-0126,打听,dǎting,hỏi thăm / tìm hiểu / hỏi quanh,动,,INSERT_MOI,CHUA_DUYET,,hỏi thăm / tìm hiểu / hỏi quanh,
+L3-0127,大概,dàgài,đại khái / có lẽ / không chi tiết / xấp xỉ / khoảng / ý tổng quát,形、副,,INSERT_MOI,CHUA_DUYET,,đại khái / có lẽ / không chi tiết / xấp xỉ / khoảng / ý tổng quát,
+L3-0128,大使馆,dàshǐguǎn,đại sứ quán,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"đại sứ quán / LT:座[zuo4],個|个[ge4]","LT:座[zuo4],個|个[ge4]"
+L3-0129,大约,dàyuē,khoảng / chắc là,副,,INSERT_MOI,CHUA_DUYET,,khoảng / chắc là,
+L3-0130,大夫,dàifu,bác sĩ / thầy thuốc,名,,INSERT_MOI,CHUA_DUYET,,bác sĩ / thầy thuốc,
+L3-0131,代,dài,thay thế / làm thay cho người khác / thế hệ / triều đại / thời đại / giai đoạn / kỷ nguyên (lịch sử) / đại (địa chất),动、名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,thay thế / làm thay cho người khác / thế hệ / triều đại / thời đại / giai đoạn / kỷ nguyên (lịch sử) / đại (địa chất),
+L3-0132,代表,dàibiǎo,đại diện / đại biểu / tượng trưng / thay mặt / nhân danh,名、动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"đại diện / đại biểu / LT:位[wei4],個|个[ge4],名[ming2] / tượng trưng / thay mặt / nhân danh","LT:位[wei4],個|个[ge4],名[ming2]"
+L3-0133,代表团,dàibiǎotuán,đoàn đại biểu,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,đoàn đại biểu / LT:個|个[ge4],LT:個|个[ge4]
+L3-0134,带动,dàidòng,thúc đẩy; tạo động lực; dẫn động,动,,INSERT_MOI,CHUA_DUYET,,thúc đẩy; tạo động lực; dẫn động,
+L3-0135,带领,dàilǐng,dẫn dắt / lãnh đạo,动,,INSERT_MOI,CHUA_DUYET,,dẫn dắt / lãnh đạo,
+L3-0136,单元,dānyuán,đơn vị (hình thành một thể) / thành phần / (trong toà nhà chung cư) lối vào hoặc cầu thang,名,,INSERT_MOI,CHUA_DUYET,,đơn vị (hình thành một thể) / thành phần / (trong toà nhà chung cư) lối vào hoặc cầu thang,
+L3-0137,当初,dāngchū,lúc đó / ban đầu,名,,INSERT_MOI,CHUA_DUYET,,lúc đó / ban đầu,
+L3-0138,当地,dāngdì,địa phương,名,,INSERT_MOI,CHUA_DUYET,,địa phương,
+L3-0139,当然,dāngrán,đương nhiên / như lẽ ra phải thế / tất nhiên / dĩ nhiên / không nghi ngờ gì,形、副,,INSERT_MOI,CHUA_DUYET,,đương nhiên / như lẽ ra phải thế / tất nhiên / dĩ nhiên / không nghi ngờ gì,
+L3-0140,当中,dāngzhōng,giữa / ở giữa / ở trung tâm,名,,INSERT_MOI,CHUA_DUYET,,giữa / ở giữa / ở trung tâm,
+L3-0141,刀,dāo,dao / lưỡi dao / kiếm một lưỡi / đoản đao / (tiếng lóng) đô la (từ mượn) / lượng từ cho bộ một trăm tờ (giấy) / lượng từ cho vết cắt hoặc nhát đâm,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,dao / lưỡi dao / kiếm một lưỡi / đoản đao / LT:把[ba3] / (tiếng lóng) đô la (từ mượn) / lượng từ cho bộ một trăm tờ (giấy) / lượng từ cho vết cắt hoặc nhát đâm,LT:把[ba3]
+L3-0142,导演,dǎoyǎn,"đạo diễn / đạo diễn (phim, v.v.)",动、名,,INSERT_MOI,CHUA_DUYET,,"đạo diễn / đạo diễn (phim, v.v.)",
+L3-0143,到达,dàodá,đạt đến; đến nơi,动,,INSERT_MOI,CHUA_DUYET,,đạt đến; đến nơi,
+L3-0144,到底,dàodǐ,cuối cùng / rốt cuộc / khi tất cả đã được nói và làm / xét cho cùng / đến cuối cùng / đến tận cùng,副,,INSERT_MOI,CHUA_DUYET,,cuối cùng / rốt cuộc / khi tất cả đã được nói và làm / xét cho cùng / đến cuối cùng / đến tận cùng,
+L3-0145,得分,défēn,ghi điểm,动、名,,INSERT_MOI,CHUA_DUYET,,ghi điểm,
+L3-0146,等待,děngdài,chờ; chờ đợi,动,,INSERT_MOI,CHUA_DUYET,,chờ; chờ đợi,
+L3-0147,底下,dǐxia,vị trí bên dưới cái gì / sau đó,名,,INSERT_MOI,CHUA_DUYET,,vị trí bên dưới cái gì / sau đó,
+L3-0148,地区,dìqū,"địa phương / khu vực / quận (không nhất thiết là đơn vị hành chính chính thức) / vùng / khu / ví dụ như hậu tố tên thành phố, có nghĩa là quận hoặc huyện (khu vực do thành phố cấp địa khu hoặc thành phố cấp huyện quản lý)",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,"địa phương / khu vực / quận (không nhất thiết là đơn vị hành chính chính thức) / vùng / khu / ví dụ như hậu tố tên thành phố, có nghĩa là quận hoặc huyện (khu vực do thành phố cấp địa khu hoặc thành phố cấp huyện quản lý) / LT:個|个[ge4]",LT:個|个[ge4]
+L3-0149,电视剧,diànshìjù,phim truyền hình / phim bộ,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,phim truyền hình / phim bộ / LT:部[bu4],LT:部[bu4]
+L3-0150,电视台,diànshìtái,đài truyền hình,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,đài truyền hình / LT:個|个[ge4],LT:個|个[ge4]
+L3-0151,电台,diàntái,máy phát thu / trạm phát sóng / đài phát thanh,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"máy phát thu / trạm phát sóng / đài phát thanh / LT:個|个[ge4],家[jia1]","LT:個|个[ge4],家[jia1]"
+L3-0152,电子邮件,diànzǐ yóujiàn,email,,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"email / LT:封[feng1],份[fen4]","LT:封[feng1],份[fen4]"
+L3-0153,调,diào,điều chuyển / di chuyển (quân đội hoặc cán bộ) / điều tra / hỏi về / ngữ điệu / quan điểm / lập luận / tông (trong âm nhạc) / thể loại (nhạc) / giai điệu / âm điệu,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,điều chuyển / di chuyển (quân đội hoặc cán bộ) / điều tra / hỏi về / ngữ điệu / quan điểm / lập luận / tông (trong âm nhạc) / thể loại (nhạc) / giai điệu / âm điệu,
+L3-0154,调查,diàochá,điều tra / cuộc điều tra / khảo sát / cuộc thăm dò (ý kiến),动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"điều tra / cuộc điều tra / khảo sát / cuộc thăm dò (ý kiến) / LT:項|项[xiang4],個|个[ge4]","LT:項|项[xiang4],個|个[ge4]"
+L3-0155,订,dìng,"đồng ý / kết luận / lập ra / đặt mua (báo chí,...) / đặt hàng",动,,INSERT_MOI,CHUA_DUYET,,"đồng ý / kết luận / lập ra / đặt mua (báo chí,...) / đặt hàng",
+L3-0156,定期,dìngqī,vào các ngày cố định / định kỳ / theo định kỳ / có thời hạn giới hạn / thời hạn cố định,动、形,,INSERT_MOI,CHUA_DUYET,,vào các ngày cố định / định kỳ / theo định kỳ / có thời hạn giới hạn / thời hạn cố định,
+L3-0157,东部,dōngbù,miền đông / phần phía đông,名,,INSERT_MOI,CHUA_DUYET,,miền đông / phần phía đông,
+L3-0158,动力,dònglì,động lực (vật lý) / lực / (nghĩa bóng) động cơ / thúc đẩy,名,,INSERT_MOI,CHUA_DUYET,,động lực (vật lý) / lực / (nghĩa bóng) động cơ / thúc đẩy,
+L3-0159,动人,dòngrén,cảm động / xúc động,形,,INSERT_MOI,CHUA_DUYET,,cảm động / xúc động,
+L3-0160,读者,dúzhě,độc giả,名,,INSERT_MOI,CHUA_DUYET,,độc giả,
+L3-0161,短处,duǎnchù,khuyết điểm / thiếu sót / lỗi / điểm yếu của một người,名,,INSERT_MOI,CHUA_DUYET,,khuyết điểm / thiếu sót / lỗi / điểm yếu của một người,
+L3-0162,短裤,duǎnkù,quần ngắn / quần shorts,名,,INSERT_MOI,CHUA_DUYET,,quần ngắn / quần shorts,
+L3-0163,短期,duǎnqī,ngắn hạn,名,,INSERT_MOI,CHUA_DUYET,,ngắn hạn,
+L3-0164,断,duàn,làm gãy / bẻ gãy / cắt đứt / từ bỏ hoặc kiêng cữ cái gì / phán đoán / (thường dùng ở dạng phủ định) tuyệt đối / chắc chắn / dứt khoát,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,làm gãy / bẻ gãy / cắt đứt / từ bỏ hoặc kiêng cữ cái gì / phán đoán / (thường dùng ở dạng phủ định) tuyệt đối / chắc chắn / dứt khoát,
+L3-0165,队员,duìyuán,thành viên đội,名,,INSERT_MOI,CHUA_DUYET,,thành viên đội,
+L3-0166,对待,duìdài,đối xử / sự đối xử,动,,INSERT_MOI,CHUA_DUYET,,đối xử / sự đối xử,
+L3-0167,对方,duìfāng,người kia; bên kia; phía bên kia,名,,INSERT_MOI,CHUA_DUYET,,người kia; bên kia; phía bên kia,
+L3-0168,对手,duìshǒu,đối thủ / địch thủ / đối thủ ngang sức / đối phương,名,,INSERT_MOI,CHUA_DUYET,,đối thủ / địch thủ / đối thủ ngang sức / đối phương,
+L3-0169,对象,duìxiàng,mục tiêu; đối tượng / bạn đời; bạn trai; bạn gái,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,mục tiêu; đối tượng / bạn đời; bạn trai; bạn gái / LT:個|个[ge4],LT:個|个[ge4]
+L3-0170,顿,dùn,"dừng / tạm dừng / sắp xếp / bày ra / dập đầu / dậm (chân) / ngay lập tức / lượng từ cho bữa ăn, trận đòn, lời mắng, v.v.: lần, trận, đợt, bữa",量,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"dừng / tạm dừng / sắp xếp / bày ra / dập đầu / dậm (chân) / ngay lập tức / lượng từ cho bữa ăn, trận đòn, lời mắng, v.v.: lần, trận, đợt, bữa",
+L3-0171,发表,fābiǎo,phát hành / công bố,动,,INSERT_MOI,CHUA_DUYET,,phát hành / công bố,
+L3-0172,发出,fāchū,"ban hành (mệnh lệnh, sắc lệnh, v.v.); gửi đi; phái đi / phát ra (âm thanh); bật ra (tiếng cười)",动,,INSERT_MOI,CHUA_DUYET,,"ban hành (mệnh lệnh, sắc lệnh, v.v.); gửi đi; phái đi / phát ra (âm thanh); bật ra (tiếng cười)",
+L3-0173,发达,fādá,phát triển tốt; hưng thịnh / phát triển; thúc đẩy; mở rộng / (văn học) đạt được danh vọng và tài lộc; thịnh vượng,形,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,phát triển tốt; hưng thịnh / phát triển; thúc đẩy; mở rộng / (văn học) đạt được danh vọng và tài lộc; thịnh vượng,
+L3-0174,发动,fādòng,bắt đầu / phát động / khơi dậy / huy động / kích động,动,,INSERT_MOI,CHUA_DUYET,,bắt đầu / phát động / khơi dậy / huy động / kích động,
+L3-0175,发明,fāmíng,phát minh / một phát minh,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,phát minh / một phát minh / LT:個|个[ge4],LT:個|个[ge4]
+L3-0176,发生,fāshēng,xảy ra; xảy đến; diễn ra; bùng phát,动,,INSERT_MOI,CHUA_DUYET,,xảy ra; xảy đến; diễn ra; bùng phát,
+L3-0177,发送,fāsòng,truyền đi / gửi đi / phát hành (tài liệu hoặc giấy tờ chính thức),动,,INSERT_MOI,CHUA_DUYET,,truyền đi / gửi đi / phát hành (tài liệu hoặc giấy tờ chính thức),
+L3-0178,发言,fāyán,phát biểu / tuyên bố / lời phát biểu,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,phát biểu / tuyên bố / lời phát biểu / LT:個|个[ge4],LT:個|个[ge4]
+L3-0179,发展,fāzhǎn,sự phát triển / tăng trưởng / phát triển / mở rộng,动、名,,INSERT_MOI,CHUA_DUYET,,sự phát triển / tăng trưởng / phát triển / mở rộng,
+L3-0180,反对,fǎnduì,phản đối; chống lại,动,,INSERT_MOI,CHUA_DUYET,,phản đối; chống lại,
+L3-0181,反复,fǎnfù,biến thể của 反覆|反复[fan3 fu4] / lặp đi lặp lại / làm đi làm lại / lật ngược / không ổn định / đi đi lại lại / (bệnh) tái phát,副、名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,biến thể của 反覆|反复[fan3 fu4] || lặp đi lặp lại / làm đi làm lại / lật ngược / không ổn định / đi đi lại lại / (bệnh) tái phát,
+L3-0182,反应,fǎnyìng,phản ứng / đáp lại / phản hồi / trả lời / phản ứng hóa học,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,phản ứng / đáp lại / phản hồi / trả lời / phản ứng hóa học / LT:個|个[ge4],LT:個|个[ge4]
+L3-0183,反正,fǎnzhèng,dù sao đi nữa / dù thế nào / chuyển từ phe địch sang,副,,INSERT_MOI,CHUA_DUYET,,dù sao đi nữa / dù thế nào / chuyển từ phe địch sang,
+L3-0184,范围,fànwéi,phạm vi / quy mô / giới hạn / mức độ,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,phạm vi / quy mô / giới hạn / mức độ / LT:個|个[ge4],LT:個|个[ge4]
+L3-0185,方式,fāngshì,cách thức; kiểu; phong cách; chế độ; mẫu hình,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,cách thức; kiểu; phong cách; chế độ; mẫu hình / LT:個|个[ge4],LT:個|个[ge4]
+L3-0186,防,fáng,bảo vệ / phòng thủ / đề phòng / ngăn chặn,动,,INSERT_MOI,CHUA_DUYET,,bảo vệ / phòng thủ / đề phòng / ngăn chặn,
+L3-0187,防止,fángzhǐ,ngăn chặn / phòng ngừa / thực hiện biện pháp phòng ngừa,动,,INSERT_MOI,CHUA_DUYET,,ngăn chặn / phòng ngừa / thực hiện biện pháp phòng ngừa,
+L3-0188,房东,fángdōng,chủ nhà,名,,INSERT_MOI,CHUA_DUYET,,chủ nhà,
+L3-0189,房屋,fángwū,nhà / toà nhà,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"nhà / toà nhà / LT:所[suo3],套[tao4]","LT:所[suo3],套[tao4]"
+L3-0190,房租,fángzū,tiền thuê phòng hoặc nhà,名,,INSERT_MOI,CHUA_DUYET,,tiền thuê phòng hoặc nhà,
+L3-0191,访问,fǎngwèn,thăm / ghé thăm / phỏng vấn,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thăm / ghé thăm / phỏng vấn / LT:次[ci4],LT:次[ci4]
+L3-0192,放到,fàngdào,đặt vào; để vào một vị trí,,,INSERT_MOI,CHUA_DUYET,NGUON_YEU_CAU_RA_SOAT,đặt vào; để vào một vị trí,
+L3-0193,飞行,fēixíng,"(máy bay,...) bay / đang bay / chuyến bay / hàng không",动,,INSERT_MOI,CHUA_DUYET,,"(máy bay,...) bay / đang bay / chuyến bay / hàng không",
+L3-0194,费,fèi,tốn / tiêu phí / phí / lãng phí / chi phí,动、名,,INSERT_MOI,CHUA_DUYET,,tốn / tiêu phí / phí / lãng phí / chi phí,
+L3-0195,费用,fèiyong,chi phí / kinh phí / số tiền cần trả,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"chi phí / kinh phí / số tiền cần trả / LT:筆|笔[bi3],個|个[ge4]","LT:筆|笔[bi3],個|个[ge4]"
+L3-0196,分别,fēnbié,chia tay; rời nhau / phân biệt; nhận ra sự khác biệt / sự khác nhau; sự phân biệt / bằng các cách khác nhau; khác nhau / tách biệt; riêng lẻ,动、副,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,chia tay; rời nhau / phân biệt; nhận ra sự khác biệt / sự khác nhau; sự phân biệt / bằng các cách khác nhau; khác nhau / tách biệt; riêng lẻ,
+L3-0197,分配,fēnpèi,phân phối / giao / phân bổ / phân vùng (ổ cứng),动,,INSERT_MOI,CHUA_DUYET,,phân phối / giao / phân bổ / phân vùng (ổ cứng),
+L3-0198,分组,fēn zǔ,chia thành nhóm / nhóm (hình thành từ một nhóm lớn hơn) / nhóm phụ / gói (mạng máy tính),,,INSERT_MOI,CHUA_DUYET,,chia thành nhóm / nhóm (hình thành từ một nhóm lớn hơn) / nhóm phụ / gói (mạng máy tính),
+L3-0199,丰富,fēngfù,làm phong phú / giàu có / phong phú / dồi dào,形,,INSERT_MOI,CHUA_DUYET,,làm phong phú / giàu có / phong phú / dồi dào,
+L3-0200,风险,fēngxiǎn,rủi ro; mối nguy,名,,INSERT_MOI,CHUA_DUYET,,rủi ro; mối nguy,
+L3-0201,否定,fǒudìng,phủ định / phủ nhận / từ chối / câu trả lời phủ định / sự phủ định,动、形,,INSERT_MOI,CHUA_DUYET,,phủ định / phủ nhận / từ chối / câu trả lời phủ định / sự phủ định,
+L3-0202,否认,fǒurèn,tuyên bố không đúng / phủ nhận,动,,INSERT_MOI,CHUA_DUYET,,tuyên bố không đúng / phủ nhận,
+L3-0203,服装,fúzhuāng,trang phục / quần áo / phục trang / đồ hóa trang,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,trang phục / quần áo / phục trang / đồ hóa trang / LT:身[shen1],LT:身[shen1]
+L3-0204,福,fú,phúc lành / hạnh phúc / may mắn,名,,INSERT_MOI,CHUA_DUYET,,phúc lành / hạnh phúc / may mắn,
+L3-0205,父母,fùmǔ,cha và mẹ; phụ huynh,名,,INSERT_MOI,CHUA_DUYET,,cha và mẹ; phụ huynh,
+L3-0206,父亲,fùqīn,cha / hoặc đọc là [fu4 qin5],名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,cha / hoặc đọc là [fu4 qin5] / LT:個|个[ge4],LT:個|个[ge4]
+L3-0207,付,fù,trả / giao cho / lượng từ cho cặp hoặc bộ,动,,INSERT_MOI,CHUA_DUYET,,trả / giao cho / lượng từ cho cặp hoặc bộ,
+L3-0208,负责,fùzé,chịu trách nhiệm về; phụ trách; gánh vác trách nhiệm / tận tâm,动、形,,INSERT_MOI,CHUA_DUYET,,chịu trách nhiệm về; phụ trách; gánh vác trách nhiệm / tận tâm,
+L3-0209,复印,fùyìn,sao chép / tạo bản sao tài liệu,动,,INSERT_MOI,CHUA_DUYET,,sao chép / tạo bản sao tài liệu,
+L3-0210,复杂,fùzá,phức tạp; rắc rối,形,,INSERT_MOI,CHUA_DUYET,,phức tạp; rắc rối,
+L3-0211,富,fù,giàu / có nhiều / phú quý,形,,INSERT_MOI,CHUA_DUYET,,giàu / có nhiều / phú quý,
+L3-0212,改进,gǎijìn,cải thiện; làm cho tốt hơn / sự cải thiện,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,cải thiện; làm cho tốt hơn / sự cải thiện / LT:個|个[ge4],LT:個|个[ge4]
+L3-0213,改造,gǎizào,cải tạo / cải cách / tân trang / tái tạo,动,,INSERT_MOI,CHUA_DUYET,,cải tạo / cải cách / tân trang / tái tạo,
+L3-0214,概念,gàiniàn,khái niệm / ý tưởng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,khái niệm / ý tưởng / LT:個|个[ge4],LT:個|个[ge4]
+L3-0215,赶,gǎn,"đuổi kịp; bắt kịp / vội; gấp / cố gắng bắt (xe buýt,...) / lùa (gia súc,...) đi; đuổi (ai đó) đi / tận dụng (cơ hội) / cho đến; trước (một thời điểm nhất định)",动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"đuổi kịp; bắt kịp / vội; gấp / cố gắng bắt (xe buýt,...) / lùa (gia súc,...) đi; đuổi (ai đó) đi / tận dụng (cơ hội) / cho đến; trước (một thời điểm nhất định)",
+L3-0216,赶到,gǎndào,vội đến (một nơi),,,INSERT_MOI,CHUA_DUYET,,vội đến (một nơi),
+L3-0217,赶紧,gǎnjǐn,vội vàng / không chậm trễ,副,,INSERT_MOI,CHUA_DUYET,,vội vàng / không chậm trễ,
+L3-0218,赶快,gǎnkuài,nhanh chóng; ngay lập tức,副,,INSERT_MOI,CHUA_DUYET,,nhanh chóng; ngay lập tức,
+L3-0219,敢,gǎn,dám / cả gan / (lịch sự) tôi xin mạo muội,动,,INSERT_MOI,CHUA_DUYET,,dám / cả gan / (lịch sự) tôi xin mạo muội,
+L3-0220,感冒,gǎnmào,bị cảm lạnh / bệnh cảm lạnh / (thông tục) hứng thú (thường dùng ở phủ định) / (Đài Loan) ghét / không chịu nổi,名、动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"bị cảm lạnh / bệnh cảm lạnh / LT:場|场[chang2],次[ci4] / (thông tục) hứng thú (thường dùng ở phủ định) / (Đài Loan) ghét / không chịu nổi","LT:場|场[chang2],次[ci4]"
+L3-0221,感情,gǎnqíng,cảm xúc; tình cảm / tình cảm giữa hai người,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"cảm xúc; tình cảm / tình cảm giữa hai người / LT:個|个[ge4],種|种[zhong3]","LT:個|个[ge4],種|种[zhong3]"
+L3-0222,感受,gǎnshòu,cảm nhận / nhận thức / cảm thấy (qua giác quan) / trải nghiệm / một cảm giác / một ấn tượng / một trải nghiệm,名、动,,INSERT_MOI,CHUA_DUYET,,cảm nhận / nhận thức / cảm thấy (qua giác quan) / trải nghiệm / một cảm giác / một ấn tượng / một trải nghiệm,
+L3-0223,干吗,gànmá,xem 幹嘛|干嘛[gan4 ma2],代,,INSERT_MOI,CHUA_DUYET,,xem 幹嘛|干嘛[gan4 ma2],
+L3-0224,高速,gāosù,tốc độ cao / đường cao tốc (viết tắt của 高速公路[gao1 su4 gong1 lu4]),形,,INSERT_MOI,CHUA_DUYET,,tốc độ cao / đường cao tốc (viết tắt của 高速公路[gao1 su4 gong1 lu4]),
+L3-0225,高速公路,gāosù gōnglù,đường cao tốc; xa lộ,,,INSERT_MOI,CHUA_DUYET,,đường cao tốc; xa lộ,
+L3-0226,告别,gàobié,rời đi; chia tay / chào tạm biệt; nói lời tạm biệt,,,INSERT_MOI,CHUA_DUYET,,rời đi; chia tay / chào tạm biệt; nói lời tạm biệt,
+L3-0227,歌迷,gēmí,người hâm mộ ca sĩ,名,,INSERT_MOI,CHUA_DUYET,,người hâm mộ ca sĩ,
+L3-0228,歌声,gēshēng,giọng hát / nghĩa bóng: giọng gốc của nhà thơ,名,,INSERT_MOI,CHUA_DUYET,,giọng hát / nghĩa bóng: giọng gốc của nhà thơ,
+L3-0229,歌手,gēshǒu,ca sĩ,名,,INSERT_MOI,CHUA_DUYET,,ca sĩ,
+L3-0230,个人,gèrén,cá nhân / riêng tư / bản thân,名,,INSERT_MOI,CHUA_DUYET,,cá nhân / riêng tư / bản thân,
+L3-0231,个性,gèxìng,cá tính / tính cách,名,,INSERT_MOI,CHUA_DUYET,,cá tính / tính cách,
+L3-0232,各,gè,mỗi / từng,代、副,,INSERT_MOI,CHUA_DUYET,,mỗi / từng,
+L3-0233,各地,gèdì,ở khắp mọi nơi (của một quốc gia) / các vùng khác nhau,名,,INSERT_MOI,CHUA_DUYET,,ở khắp mọi nơi (của một quốc gia) / các vùng khác nhau,
+L3-0234,各位,gèwèi,"mọi người / tất cả (khách, đồng nghiệp, v.v.) / các bạn",代,,INSERT_MOI,CHUA_DUYET,,"mọi người / tất cả (khách, đồng nghiệp, v.v.) / các bạn",
+L3-0235,各种,gèzhǒng,mỗi loại; mọi loại; các loại khác nhau,代,,INSERT_MOI,CHUA_DUYET,,mỗi loại; mọi loại; các loại khác nhau,
+L3-0236,各自,gèzì,mỗi / tương ứng / mỗi người một phần,代,,INSERT_MOI,CHUA_DUYET,,mỗi / tương ứng / mỗi người một phần,
+L3-0237,根本,gēnběn,cơ bản / cơ sở / gốc rễ / đơn giản / tuyệt đối (không) / (không) chút nào,副、形、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,cơ bản / cơ sở / gốc rễ / đơn giản / tuyệt đối (không) / (không) chút nào / LT:個|个[ge4],LT:個|个[ge4]
+L3-0238,更加,gèngjiā,hơn (so với cái gì đó) / càng hơn,副,,INSERT_MOI,CHUA_DUYET,,hơn (so với cái gì đó) / càng hơn,
+L3-0239,工厂,gōngchǎng,nhà máy,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"nhà máy / LT:家[jia1],座[zuo4]","LT:家[jia1],座[zuo4]"
+L3-0240,工程师,gōngchéngshī,kỹ sư,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"kỹ sư / LT:個|个[ge4],位[wei4],名[ming2]","LT:個|个[ge4],位[wei4],名[ming2]"
+L3-0241,工夫,gōngfu,"khoảng thời gian (có thể là vài tháng, hoặc chỉ vài giây) / thời gian rảnh / kỹ năng / lao động / nỗ lực",名,,INSERT_MOI,CHUA_DUYET,,"khoảng thời gian (có thể là vài tháng, hoặc chỉ vài giây) / thời gian rảnh / kỹ năng / lao động / nỗ lực",
+L3-0242,工具,gōngjù,công cụ / dụng cụ / đồ dùng / phương tiện (để đạt mục tiêu v.v.),名,,INSERT_MOI,CHUA_DUYET,,công cụ / dụng cụ / đồ dùng / phương tiện (để đạt mục tiêu v.v.),
+L3-0243,工业,gōngyè,công nghiệp,名,,INSERT_MOI,CHUA_DUYET,,công nghiệp,
+L3-0244,工资,gōngzī,tiền lương; lương,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"tiền lương; lương / LT:個|个[ge4],份[fen4]","LT:個|个[ge4],份[fen4]"
+L3-0245,公布,gōngbù,công bố; công khai; xuất bản,动,,INSERT_MOI,CHUA_DUYET,,công bố; công khai; xuất bản,
+L3-0246,公共,gōnggòng,công cộng; chung; công,形,,INSERT_MOI,CHUA_DUYET,,công cộng; chung; công,
+L3-0247,公开,gōngkāi,mở; công khai; công cộng / công bố; phát hành,形、动,,INSERT_MOI,CHUA_DUYET,,mở; công khai; công cộng / công bố; phát hành,
+L3-0248,公民,gōngmín,công dân,名,,INSERT_MOI,CHUA_DUYET,,công dân,
+L3-0249,公务员,gōngwùyuán,công chức / người làm việc văn phòng,名,,INSERT_MOI,CHUA_DUYET,,công chức / người làm việc văn phòng,
+L3-0250,功夫,gōngfu,kỹ năng / nghệ thuật / kung fu / lao động / nỗ lực,名,,INSERT_MOI,CHUA_DUYET,,kỹ năng / nghệ thuật / kung fu / lao động / nỗ lực,
+L3-0251,功课,gōngkè,bài tập / giao bài / nhiệm vụ / bài trên lớp / bài học / học hành,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,bài tập / giao bài / nhiệm vụ / bài trên lớp / bài học / học hành / LT:門|门[men2],LT:門|门[men2]
+L3-0252,功能,gōngnéng,chức năng; khả năng,名,,INSERT_MOI,CHUA_DUYET,,chức năng; khả năng,
+L3-0253,共同,gòngtóng,chung / cùng / chung sức / cùng nhau / hợp tác,形,,INSERT_MOI,CHUA_DUYET,,chung / cùng / chung sức / cùng nhau / hợp tác,
+L3-0254,共有,gòngyǒu,có tất cả / tổng cộng,动,,INSERT_MOI,CHUA_DUYET,,có tất cả / tổng cộng,
+L3-0255,姑娘,gūniang,cô gái / người phụ nữ trẻ / cô thiếu nữ / con gái / cô (cách gọi cũ),名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,cô gái / người phụ nữ trẻ / cô thiếu nữ / con gái / cô (cách gọi cũ) / LT:個|个[ge4],LT:個|个[ge4]
+L3-0256,古,gǔ,cổ / thời xa xưa / tiền sử-,形,,INSERT_MOI,CHUA_DUYET,,cổ / thời xa xưa / tiền sử-,
+L3-0257,古代,gǔdài,thời cổ đại,名,,INSERT_MOI,CHUA_DUYET,,thời cổ đại,
+L3-0258,故乡,gùxiāng,quê hương / quê nhà / nơi sinh,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,quê hương / quê nhà / nơi sinh / LT:個|个[ge4],LT:個|个[ge4]
+L3-0259,挂,guà,treo; móc (từ móc v.v.) / gác máy (điện thoại) / (đường dây) bị ngắt / lo lắng; quan tâm / (tiếng địa phương) gọi điện thoại / đăng ký (bệnh viện); hẹn (bác sĩ) / (tiếng lóng) giết; chết; xong; rớt (kỳ thi) / lượng từ cho bộ hoặc cụm vật,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,treo; móc (từ móc v.v.) / gác máy (điện thoại) / (đường dây) bị ngắt / lo lắng; quan tâm / (tiếng địa phương) gọi điện thoại / đăng ký (bệnh viện); hẹn (bác sĩ) / (tiếng lóng) giết; chết; xong; rớt (kỳ thi) / lượng từ cho bộ hoặc cụm vật,
+L3-0260,关系,guānxì,quan hệ / mối quan hệ / liên quan / ảnh hưởng / có liên quan / biến thể của 關係|关系[guan1 xi5],名、动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,quan hệ / mối quan hệ / liên quan / ảnh hưởng / có liên quan / LT:個|个[ge4] || biến thể của 關係|关系[guan1 xi5],LT:個|个[ge4]
+L3-0261,关注,guānzhù,chú ý đến; theo dõi sát sao; theo dõi (trên mạng xã hội) / quan tâm; hứng thú; chú ý,动,,INSERT_MOI,CHUA_DUYET,,chú ý đến; theo dõi sát sao; theo dõi (trên mạng xã hội) / quan tâm; hứng thú; chú ý,
+L3-0262,观察,guānchá,quan sát; theo dõi; khảo sát,动,,INSERT_MOI,CHUA_DUYET,,quan sát; theo dõi; khảo sát,
+L3-0263,观看,guānkàn,xem; quan sát,动,,INSERT_MOI,CHUA_DUYET,,xem; quan sát,
+L3-0264,观念,guānniàn,khái niệm / suy nghĩ / ý tưởng / cảm giác / quan điểm / tư tưởng / ấn tượng chung,名,,INSERT_MOI,CHUA_DUYET,,khái niệm / suy nghĩ / ý tưởng / cảm giác / quan điểm / tư tưởng / ấn tượng chung,
+L3-0265,观众,guānzhòng,"khán giả; thính giả; khách tham quan (một triển lãm, v.v.)",名,,INSERT_MOI,CHUA_DUYET,,"khán giả; thính giả; khách tham quan (một triển lãm, v.v.)",
+L3-0266,管,guǎn,biến thể của 管[guan3] / chăm sóc / kiểm soát / quản lý / phụ trách / trông nom / vận hành / quan tâm / ống / đường ống / nhạc cụ họ gỗ / lượng từ cho vật hình ống / tiểu từ giống 把[ba3] trong cấu trúc 管...叫 / bút lông / (khẩu ngữ) đến / hướng tới,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,biến thể của 管[guan3] || chăm sóc / kiểm soát / quản lý / phụ trách / trông nom / vận hành / quan tâm / ống / đường ống / nhạc cụ họ gỗ / lượng từ cho vật hình ống / tiểu từ giống 把[ba3] trong cấu trúc 管...叫 / bút lông / (khẩu ngữ) đến / hướng tới,
+L3-0267,管理,guǎnlǐ,giám sát / quản lý / quản trị / sự quản lý / sự quản trị,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,giám sát / quản lý / quản trị / sự quản lý / sự quản trị / LT:個|个[ge4],LT:個|个[ge4]
+L3-0268,光,guāng,ánh sáng; tia (Lượng từ: 道[dao4]) / sáng; bóng loáng / chỉ; chỉ mỗi / dùng hết; hoàn thành / để lộ (một phần cơ thể),副、名、形,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,ánh sáng; tia (Lượng từ: 道[dao4]) / sáng; bóng loáng / chỉ; chỉ mỗi / dùng hết; hoàn thành / để lộ (một phần cơ thể),
+L3-0269,光明,guāngmíng,"ánh sáng / rực rỡ / (bóng) tươi sáng (triển vọng, v.v.) / cởi mở",形、名,,INSERT_MOI,CHUA_DUYET,,"ánh sáng / rực rỡ / (bóng) tươi sáng (triển vọng, v.v.) / cởi mở",
+L3-0270,广播,guǎngbō,phát sóng / phát thanh / (trang trọng) truyền bá / công bố,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,phát sóng / LT:個|个[ge4] / phát thanh / (trang trọng) truyền bá / công bố,LT:個|个[ge4]
+L3-0271,广大,guǎngdà,(về diện tích) rộng hoặc bao la / quy mô lớn / phổ biến / (về người) đông đúc,形,,INSERT_MOI,CHUA_DUYET,,(về diện tích) rộng hoặc bao la / quy mô lớn / phổ biến / (về người) đông đúc,
+L3-0272,规定,guīdìng,quy định; chỉ định; kê đơn; ấn định (giá cả); đặt (chỉ tiêu) / quy tắc; quy định; điều khoản; sự quy định,动、名,,INSERT_MOI,CHUA_DUYET,,quy định; chỉ định; kê đơn; ấn định (giá cả); đặt (chỉ tiêu) / quy tắc; quy định; điều khoản; sự quy định,
+L3-0273,规范,guīfàn,chuẩn mực / tiêu chuẩn / quy cách / quy định / quy tắc / trong phạm vi quy định / đặt ra quy tắc / điều chỉnh / quy định cụ thể,形、名、动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,chuẩn mực / tiêu chuẩn / quy cách / quy định / quy tắc / trong phạm vi quy định / đặt ra quy tắc / điều chỉnh / quy định cụ thể,
+L3-0274,国内,guó nèi,nội địa / bên trong (một quốc gia) / dân sự,,,INSERT_MOI,CHUA_DUYET,,nội địa / bên trong (một quốc gia) / dân sự,
+L3-0275,国庆,guóqìng,Quốc khánh,名,,INSERT_MOI,CHUA_DUYET,,Quốc khánh,
+L3-0276,果然,guǒrán,thực sự / quả nhiên / đúng như dự đoán / nếu thực sự,副,,INSERT_MOI,CHUA_DUYET,,thực sự / quả nhiên / đúng như dự đoán / nếu thực sự,
+L3-0277,果汁,guǒzhī,nước ép trái cây,名,,INSERT_MOI,CHUA_DUYET,,nước ép trái cây,
+L3-0278,过程,guòchéng,quá trình sự kiện / quá trình,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,quá trình sự kiện / quá trình / LT:個|个[ge4],LT:個|个[ge4]
+L3-0279,过去,guòqù,(trong quá khứ); trước đây; trước đó / đi qua; trôi qua,名,706,TAI_SU_DUNG,CHUA_DUYET,,(trong quá khứ); trước đây; trước đó / đi qua; trôi qua,
+L3-0280,哈哈,hāhā,(tượng thanh) cười to,拟声,,INSERT_MOI,CHUA_DUYET,,(tượng thanh) cười to,
+L3-0281,海关,hǎiguān,hải quan (tức kiểm tra cửa khẩu),名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,hải quan (tức kiểm tra cửa khẩu) / LT:個|个[ge4],LT:個|个[ge4]
+L3-0282,害怕,hàipà,sợ hãi; lo sợ,,,INSERT_MOI,CHUA_DUYET,,sợ hãi; lo sợ,
+L3-0283,行,háng,"hàng / dòng / công ty thương mại / ngành kinh doanh / nghề / xếp hạng (nhất, hai, v.v.) trong anh chị em (theo tuổi) / (trong bảng dữ liệu) hàng / (Đài Loan) cột",量,,CAN_KIEM_TRA,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON; CAN_KIEM_TRA_TU_DA_AM,"hàng / dòng / công ty thương mại / ngành kinh doanh / nghề / xếp hạng (nhất, hai, v.v.) trong anh chị em (theo tuổi) / (trong bảng dữ liệu) hàng / (Đài Loan) cột",
+L3-0284,好好,hǎohǎo,tốt; cẩn thận; đẹp đẽ; đúng mực,形、副,,INSERT_MOI,CHUA_DUYET,,tốt; cẩn thận; đẹp đẽ; đúng mực,
+L3-0285,好奇,hàoqí,tò mò / hiếu kỳ / sự tò mò / tính hiếu kỳ,形,,INSERT_MOI,CHUA_DUYET,,tò mò / hiếu kỳ / sự tò mò / tính hiếu kỳ,
+L3-0286,合,hé,đóng / gia nhập / phù hợp / bằng / toàn bộ / cùng nhau / vòng (trong chiến đấu) / giao hội (thiên văn) / nốt thứ nhất của ngũ cung / biến thể cũ của 盒[he2] / biến thể của 合[he2],动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,đóng / gia nhập / phù hợp / bằng / toàn bộ / cùng nhau / vòng (trong chiến đấu) / giao hội (thiên văn) / nốt thứ nhất của ngũ cung / biến thể cũ của 盒[he2] || biến thể của 合[he2],
+L3-0287,合法,héfǎ,hợp pháp / chính đáng / hợp lệ,形,,INSERT_MOI,CHUA_DUYET,,hợp pháp / chính đáng / hợp lệ,
+L3-0288,合格,hégé,"đáp ứng tiêu chuẩn yêu cầu / đủ tiêu chuẩn / đủ điều kiện (cử tri, v.v.)",形,,INSERT_MOI,CHUA_DUYET,,"đáp ứng tiêu chuẩn yêu cầu / đủ tiêu chuẩn / đủ điều kiện (cử tri, v.v.)",
+L3-0289,合理,hélǐ,hợp lý; có lý; công bằng,形,,INSERT_MOI,CHUA_DUYET,,hợp lý; có lý; công bằng,
+L3-0290,合作,hézuò,hợp tác; cộng tác; làm việc cùng nhau,动,,INSERT_MOI,CHUA_DUYET,,hợp tác; cộng tác; làm việc cùng nhau,
+L3-0291,和平,hépíng,hòa bình,名,,INSERT_MOI,CHUA_DUYET,,hòa bình,
+L3-0292,红茶,hóngchá,trà đen,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"trà đen / LT:杯[bei1],壺|壶[hu2]","LT:杯[bei1],壺|壶[hu2]"
+L3-0293,红酒,hóngjiǔ,rượu vang đỏ,名,,INSERT_MOI,CHUA_DUYET,,rượu vang đỏ,
+L3-0294,后果,hòuguǒ,hậu quả / hệ quả,名,,INSERT_MOI,CHUA_DUYET,,hậu quả / hệ quả,
+L3-0295,后面,hòumiàn,phía sau; phía đuôi; đoạn cuối / đằng sau; gần cuối; ở phía sau / sau này; sau đó,名,,INSERT_MOI,CHUA_DUYET,,phía sau; phía đuôi; đoạn cuối / đằng sau; gần cuối; ở phía sau / sau này; sau đó,
+L3-0296,后年,hòunián,năm sau nữa,名,,INSERT_MOI,CHUA_DUYET,,năm sau nữa,
+L3-0297,互联网,hùliánwǎng,Internet,名,,INSERT_MOI,CHUA_DUYET,,Internet,
+L3-0298,互相,hùxiāng,lẫn nhau / tương hỗ,副,,INSERT_MOI,CHUA_DUYET,,lẫn nhau / tương hỗ,
+L3-0299,划船,huáchuán,chèo thuyền / môn chèo thuyền / thuyền nhỏ,动,,INSERT_MOI,CHUA_DUYET,,chèo thuyền / môn chèo thuyền / thuyền nhỏ,
+L3-0300,华人,huárén,người Hoa hoặc người gốc Hoa,名,,INSERT_MOI,CHUA_DUYET,,người Hoa hoặc người gốc Hoa,
+L3-0301,化（现代化）,huà (xiàndàihuà),làm thành / thay đổi thành / -hóa / hoá... / biến đổi / viết tắt của 化學|化学[hua4 xue2] / hiện đại hóa,后缀,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,làm thành / thay đổi thành / -hóa / hoá... / biến đổi / viết tắt của 化學|化学[hua4 xue2] || hiện đại hóa / LT:個|个[ge4],LT:個|个[ge4]
+L3-0302,话剧,huàjù,vở kịch sân khấu / kịch hiện đại,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"vở kịch sân khấu / kịch hiện đại / LT:臺|台[tai2],部[bu4]","LT:臺|台[tai2],部[bu4]"
+L3-0303,话题,huàtí,chủ đề (của cuộc nói chuyện) / đề tài,名,,INSERT_MOI,CHUA_DUYET,,chủ đề (của cuộc nói chuyện) / đề tài,
+L3-0304,欢乐,huānlè,sự vui vẻ / vui mừng / hân hoan / hân hỉ / niềm vui / hạnh phúc / vui sướng / vui tươi,形,,INSERT_MOI,CHUA_DUYET,,sự vui vẻ / vui mừng / hân hoan / hân hỉ / niềm vui / hạnh phúc / vui sướng / vui tươi,
+L3-0305,环,huán,"nhẫn / vòng / lặp / mắt xích (chuỗi) / lượng từ cho điểm bắn cung, v.v. / bao quanh / vây quanh / vây kín",名,,INSERT_MOI,CHUA_DUYET,,"nhẫn / vòng / lặp / mắt xích (chuỗi) / lượng từ cho điểm bắn cung, v.v. / bao quanh / vây quanh / vây kín",
+L3-0306,环保,huánbǎo,bảo vệ môi trường / thân thiện với môi trường / viết tắt của 環境保護|环境保护[huan2 jing4 bao3 hu4],名、形,,INSERT_MOI,CHUA_DUYET,,bảo vệ môi trường / thân thiện với môi trường / viết tắt của 環境保護|环境保护[huan2 jing4 bao3 hu4],
+L3-0307,环境,huánjìng,môi trường / tình huống / xung quanh / không gian xung quanh,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,môi trường / tình huống / xung quanh / LT:個|个[ge4] / không gian xung quanh,LT:個|个[ge4]
+L3-0308,会议,huìyì,cuộc họp / hội nghị,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"cuộc họp / hội nghị / LT:場|场[chang3],屆|届[jie4]","LT:場|场[chang3],屆|届[jie4]"
+L3-0309,会员,huìyuán,thành viên,名,,INSERT_MOI,CHUA_DUYET,,thành viên,
+L3-0310,活,huó,sống / còn sống / đang sống / công việc / tay nghề,形、动,,INSERT_MOI,CHUA_DUYET,,sống / còn sống / đang sống / công việc / tay nghề,
+L3-0311,火,huǒ,lửa / khẩn cấp / đạn dược / rừng rực hoặc bốc cháy / nội nhiệt (y học Trung Quốc) / nóng (phổ biến) / lượng từ cho đơn vị quân đội (cổ) / bộ Khang Hy số 86,名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,lửa / khẩn cấp / đạn dược / rừng rực hoặc bốc cháy / nội nhiệt (y học Trung Quốc) / nóng (phổ biến) / lượng từ cho đơn vị quân đội (cổ) / bộ Khang Hy số 86,
+L3-0312,机器,jīqì,máy móc,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"máy móc / LT:臺|台[tai2],部[bu4],個|个[ge4]","LT:臺|台[tai2],部[bu4],個|个[ge4]"
+L3-0313,积极,jījí,chủ động / năng động / sôi nổi / tích cực (quan điểm) / chủ động đối phó,形,,INSERT_MOI,CHUA_DUYET,,chủ động / năng động / sôi nổi / tích cực (quan điểm) / chủ động đối phó,
+L3-0314,基本,jīběn,cơ bản / nền tảng / chính / yếu tố cơ bản,形,,INSERT_MOI,CHUA_DUYET,,cơ bản / nền tảng / chính / yếu tố cơ bản,
+L3-0315,基本上,jīběnshàng,về cơ bản / nhìn chung,副,,INSERT_MOI,CHUA_DUYET,,về cơ bản / nhìn chung,
+L3-0316,基础,jīchǔ,nền; nền tảng; cơ sở / căn bản; cơ bản,名,,INSERT_MOI,CHUA_DUYET,,nền; nền tảng; cơ sở / căn bản; cơ bản,
+L3-0317,及时,jíshí,kịp thời; đúng lúc / ngay lập tức; không chậm trễ,形,,INSERT_MOI,CHUA_DUYET,,kịp thời; đúng lúc / ngay lập tức; không chậm trễ,
+L3-0318,…极了,…jí le,cực kỳ / vô cùng,,,INSERT_MOI,CHUA_DUYET,,cực kỳ / vô cùng,
+L3-0319,集体,jítǐ,tập thể (quyết định) / nỗ lực chung / một nhóm / một đội / đồng loạt / như một nhóm,名,,INSERT_MOI,CHUA_DUYET,,tập thể (quyết định) / nỗ lực chung / một nhóm / một đội / đồng loạt / như một nhóm,
+L3-0320,集中,jízhōng,tập trung / tập hợp / hợp nhất / tập trung lại / đặt cùng nhau,动、形,,INSERT_MOI,CHUA_DUYET,,tập trung / tập hợp / hợp nhất / tập trung lại / đặt cùng nhau,
+L3-0321,计算,jìsuàn,đếm / tính toán / tính ra,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,đếm / tính toán / tính ra / LT:個|个[ge4],LT:個|个[ge4]
+L3-0322,记录,jìlù,"ghi chép / bản ghi chép / người ghi chép / kỷ lục (trong thể thao, v.v.)",名、动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"ghi chép / bản ghi chép / người ghi chép / kỷ lục (trong thể thao, v.v.) / LT:個|个[ge4]",LT:個|个[ge4]
+L3-0323,记者,jìzhě,phóng viên; nhà báo,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,phóng viên; nhà báo / LT:個|个[ge4],LT:個|个[ge4]
+L3-0324,纪录,jìlù,"biến thể của 記錄|记录[ji4 lu4] (nhưng ở Đài Loan, không dùng cho nghĩa động từ ""ghi lại"")",名,,INSERT_MOI,CHUA_DUYET,,"biến thể của 記錄|记录[ji4 lu4] (nhưng ở Đài Loan, không dùng cho nghĩa động từ ""ghi lại"")",
+L3-0325,纪念,jìniàn,tưởng niệm; tôn vinh ký ức của / quà lưu niệm; kỷ vật; đồ lưu niệm,动、名,,INSERT_MOI,CHUA_DUYET,,tưởng niệm; tôn vinh ký ức của / quà lưu niệm; kỷ vật; đồ lưu niệm,
+L3-0326,技术,jìshù,công nghệ; kỹ thuật; kỹ năng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"công nghệ; kỹ thuật; kỹ năng / LT:門|门[men2],種|种[zhong3],項|项[xiang4]","LT:門|门[men2],種|种[zhong3],項|项[xiang4]"
+L3-0327,继续,jìxù,tiếp tục; tiến hành; tiếp diễn,动,,INSERT_MOI,CHUA_DUYET,,tiếp tục; tiến hành; tiếp diễn,
+L3-0328,加工,jiāgōng,chế biến / xử lý / vận hành (máy móc),,,INSERT_MOI,CHUA_DUYET,,chế biến / xử lý / vận hành (máy móc),
+L3-0329,加快,jiākuài,tăng tốc / đẩy nhanh,动,,INSERT_MOI,CHUA_DUYET,,tăng tốc / đẩy nhanh,
+L3-0330,加强,jiāqiáng,củng cố; tăng cường; nâng cao,动,,INSERT_MOI,CHUA_DUYET,,củng cố; tăng cường; nâng cao,
+L3-0331,家具,jiājù,đồ nội thất,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"đồ nội thất / LT: 件 [jian4], 套 [tao4]","LT: 件 [jian4], 套 [tao4]"
+L3-0332,家属,jiāshǔ,thành viên gia đình / người phụ thuộc (trong gia đình),名,,INSERT_MOI,CHUA_DUYET,,thành viên gia đình / người phụ thuộc (trong gia đình),
+L3-0333,家乡,jiāxiāng,quê hương / nơi sinh,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,quê hương / nơi sinh / LT:個|个[ge4],LT:個|个[ge4]
+L3-0334,价格,jiàgé,giá,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,giá / LT:個|个[ge4],LT:個|个[ge4]
+L3-0335,价钱,jiàqián,giá cả,名,,INSERT_MOI,CHUA_DUYET,,giá cả,
+L3-0336,价值,jiàzhí,"giá trị / đáng giá / bóng nghĩa giá trị (đạo đức, văn hoá, v.v.)",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"giá trị / đáng giá / bóng nghĩa giá trị (đạo đức, văn hoá, v.v.) / LT:個|个[ge4]",LT:個|个[ge4]
+L3-0337,架,jià,"chống đỡ / khung / giá / cơ cấu / lượng từ cho máy bay, xe lớn, radio, v.v.",量、名、动,,INSERT_MOI,CHUA_DUYET,,"chống đỡ / khung / giá / cơ cấu / lượng từ cho máy bay, xe lớn, radio, v.v.",
+L3-0338,坚持,jiānchí,kiên trì / khăng khăng / nhất định,动,,INSERT_MOI,CHUA_DUYET,,kiên trì / khăng khăng / nhất định,
+L3-0339,坚决,jiānjué,vững vàng; kiên quyết; quyết tâm,形,,INSERT_MOI,CHUA_DUYET,,vững vàng; kiên quyết; quyết tâm,
+L3-0340,坚强,jiānqiáng,kiên cường / mạnh mẽ,形,,INSERT_MOI,CHUA_DUYET,,kiên cường / mạnh mẽ,
+L3-0341,简单,jiǎndān,đơn giản; không phức tạp,形,,INSERT_MOI,CHUA_DUYET,,đơn giản; không phức tạp,
+L3-0342,简直,jiǎnzhí,thực sự; thật sự,副,,INSERT_MOI,CHUA_DUYET,,thực sự; thật sự,
+L3-0343,建,jiàn,thiết lập / sáng lập / dựng lên / xây dựng / kiến thiết,动,,INSERT_MOI,CHUA_DUYET,,thiết lập / sáng lập / dựng lên / xây dựng / kiến thiết,
+L3-0344,建成,jiànchéng,xây dựng / thiết lập,,,INSERT_MOI,CHUA_DUYET,,xây dựng / thiết lập,
+L3-0345,建立,jiànlì,thiết lập / thành lập / sáng lập,动,,INSERT_MOI,CHUA_DUYET,,thiết lập / thành lập / sáng lập,
+L3-0346,建设,jiànshè,xây dựng; kiến thiết; thành lập; phát triển; thiết lập,动、名,,INSERT_MOI,CHUA_DUYET,,xây dựng; kiến thiết; thành lập; phát triển; thiết lập,
+L3-0347,建议,jiànyì,đề xuất; đề nghị; kiến nghị,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"đề xuất; đề nghị; kiến nghị / LT:個|个[ge4],點|点[dian3]","LT:個|个[ge4],點|点[dian3]"
+L3-0348,将近,jiāngjìn,gần như / hầu như / gần tới,副,,INSERT_MOI,CHUA_DUYET,,gần như / hầu như / gần tới,
+L3-0349,将来,jiānglái,trong tương lai / tương lai,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,trong tương lai / tương lai / LT:個|个[ge4],LT:個|个[ge4]
+L3-0350,交费,jiāofèi,trả phí,动,,INSERT_MOI,CHUA_DUYET,,trả phí,
+L3-0351,交警,jiāojǐng,cảnh sát giao thông (viết tắt của 交通警察[jiao1 tong1 jing3 cha2]),名,,INSERT_MOI,CHUA_DUYET,,cảnh sát giao thông (viết tắt của 交通警察[jiao1 tong1 jing3 cha2]),
+L3-0352,交流,jiāoliú,trao đổi / sự trao đổi / giao tiếp / tương tác / có tiếp xúc xã hội (với ai),动、名,,INSERT_MOI,CHUA_DUYET,,trao đổi / sự trao đổi / giao tiếp / tương tác / có tiếp xúc xã hội (với ai),
+L3-0353,交往,jiāowǎng,giao thiệp (với) / có liên hệ (với) / đi chơi (với) / hẹn hò / mối quan hệ (giữa người với người) / quan hệ / liên hệ,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,giao thiệp (với) / có liên hệ (với) / đi chơi (với) / hẹn hò / mối quan hệ (giữa người với người) / quan hệ / liên hệ,
+L3-0354,交易,jiāoyì,giao dịch; buôn bán; thực hiện giao dịch / giao dịch; thỏa thuận,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,giao dịch; buôn bán; thực hiện giao dịch / giao dịch; thỏa thuận / LT:筆|笔[bi3],LT:筆|笔[bi3]
+L3-0355,叫,jiào,kêu / gọi / đặt hàng / bảo / được gọi / bởi (chỉ tác nhân trong câu bị động) / biến thể của 叫[jiao4],介,4,TAI_SU_DUNG,CHUA_DUYET,,kêu / gọi / đặt hàng / bảo / được gọi / bởi (chỉ tác nhân trong câu bị động) || biến thể của 叫[jiao4],
+L3-0356,较,jiào,(hình thức ràng buộc) so sánh / (văn học) tranh luận / so với / (trước tính từ) tương đối; khá; hơi / cũng đọc là [jiao3],副,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,(hình thức ràng buộc) so sánh / (văn học) tranh luận / so với / (trước tính từ) tương đối; khá; hơi / cũng đọc là [jiao3],
+L3-0357,教材,jiàocái,tài liệu giảng dạy,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,tài liệu giảng dạy / LT:本[ben3],LT:本[ben3]
+L3-0358,教练,jiàoliàn,người hướng dẫn / huấn luyện viên thể thao / huấn luyện viên,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"người hướng dẫn / huấn luyện viên thể thao / huấn luyện viên / LT:個|个[ge4],位[wei4],名[ming2]","LT:個|个[ge4],位[wei4],名[ming2]"
+L3-0359,结实,jiēshi,rắn chắc / cường tráng / mạnh mẽ / bền / buff (thể chất),形,,INSERT_MOI,CHUA_DUYET,,rắn chắc / cường tráng / mạnh mẽ / bền / buff (thể chất),
+L3-0360,接待,jiēdài,"tiếp đón; chiêu đãi; tiếp khách (khách, du khách hoặc khách hàng)",动,,INSERT_MOI,CHUA_DUYET,,"tiếp đón; chiêu đãi; tiếp khách (khách, du khách hoặc khách hàng)",
+L3-0361,接近,jiējìn,tiếp cận; đến gần,动,,INSERT_MOI,CHUA_DUYET,,tiếp cận; đến gần,
+L3-0362,节约,jiéyuē,tiết kiệm / bảo tồn (tài nguyên) / tính tiết kiệm / đạm bạc,动,,INSERT_MOI,CHUA_DUYET,,tiết kiệm / bảo tồn (tài nguyên) / tính tiết kiệm / đạm bạc,
+L3-0363,结合,jiéhé,kết hợp / liên kết / tích hợp / ràng buộc,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,kết hợp / liên kết / tích hợp / ràng buộc / LT:次[ci4],LT:次[ci4]
+L3-0364,结婚,jiéhūn,kết hôn / cưới,,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,kết hôn / cưới / LT:次[ci4],LT:次[ci4]
+L3-0365,结束,jiéshù,chấm dứt / hoàn thành / kết thúc / kết luận / khép lại,动,,INSERT_MOI,CHUA_DUYET,,chấm dứt / hoàn thành / kết thúc / kết luận / khép lại,
+L3-0366,解决,jiějué,"giải quyết; xử lý; giải quyết (một vấn đề) / loại bỏ; tiêu diệt (kẻ thù, cướp bóc, v.v.)",动,,INSERT_MOI,CHUA_DUYET,,"giải quyết; xử lý; giải quyết (một vấn đề) / loại bỏ; tiêu diệt (kẻ thù, cướp bóc, v.v.)",
+L3-0367,解开,jiěkāi,tháo ra / mở ra / giải (một bí ẩn),,,INSERT_MOI,CHUA_DUYET,,tháo ra / mở ra / giải (một bí ẩn),
+L3-0368,金,jīn,vàng / nguyên tố hóa học Au / thuật ngữ chung cho kim loại bóng và dễ dát / tiền / màu vàng / được tôn trọng / một trong tám loại nhạc cụ cổ đại 八音[ba1 yin1],名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,vàng / nguyên tố hóa học Au / thuật ngữ chung cho kim loại bóng và dễ dát / tiền / màu vàng / được tôn trọng / một trong tám loại nhạc cụ cổ đại 八音[ba1 yin1],
+L3-0369,金牌,jīnpái,huy chương vàng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,huy chương vàng / LT:枚[mei2],LT:枚[mei2]
+L3-0370,仅,jǐn,hầu như / chỉ / vừa đủ,副,,INSERT_MOI,CHUA_DUYET,,hầu như / chỉ / vừa đủ,
+L3-0371,仅仅,jǐnjǐn,hầu như không / chỉ / đơn thuần / chỉ (cái này và không hơn),副,,INSERT_MOI,CHUA_DUYET,,hầu như không / chỉ / đơn thuần / chỉ (cái này và không hơn),
+L3-0372,尽量,jǐnliàng,càng nhiều càng tốt / đến mức tối đa,副,,INSERT_MOI,CHUA_DUYET,,càng nhiều càng tốt / đến mức tối đa,
+L3-0373,紧,jǐn,chặt / chặt chẽ / sát gần / gần / cấp bách / căng thẳng / kẹt tiền / thiếu tiền / thắt chặt,形,,INSERT_MOI,CHUA_DUYET,,chặt / chặt chẽ / sát gần / gần / cấp bách / căng thẳng / kẹt tiền / thiếu tiền / thắt chặt,
+L3-0374,紧急,jǐnjí,khẩn cấp / tình huống khẩn cấp,形,,INSERT_MOI,CHUA_DUYET,,khẩn cấp / tình huống khẩn cấp,
+L3-0375,紧张,jǐnzhāng,căng thẳng / hồi hộp / mạnh / mức độ cao / khẩn trương / khó khăn / khan hiếm,形,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,căng thẳng / hồi hộp / mạnh / mức độ cao / khẩn trương / khó khăn / khan hiếm / LT:陣|阵[zhen4],LT:陣|阵[zhen4]
+L3-0376,进步,jìnbù,tiến bộ; cải thiện / cải thiện; tiến bộ,动、形,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,tiến bộ; cải thiện / cải thiện; tiến bộ / LT:個|个[ge4],LT:個|个[ge4]
+L3-0377,进一步,jìnyībù,"tiến thêm một bước / (phát triển, hiểu, cải thiện, v.v.) hơn nữa; thêm",副,,INSERT_MOI,CHUA_DUYET,,"tiến thêm một bước / (phát triển, hiểu, cải thiện, v.v.) hơn nữa; thêm",
+L3-0378,进展,jìnzhǎn,tiến triển; đạt tiến bộ,动,,INSERT_MOI,CHUA_DUYET,,tiến triển; đạt tiến bộ,
+L3-0379,近期,jìnqī,gần về mặt thời gian / gần đây / trong tương lai gần / rất sớm,名,,INSERT_MOI,CHUA_DUYET,,gần về mặt thời gian / gần đây / trong tương lai gần / rất sớm,
+L3-0380,京剧,jīngjù,Kinh kịch,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"Kinh kịch / LT:場|场[chang3],齣|出[chu1]","LT:場|场[chang3],齣|出[chu1]"
+L3-0381,经济,jīngjì,kinh tế / thuộc về kinh tế,名、形,,INSERT_MOI,CHUA_DUYET,,kinh tế / thuộc về kinh tế,
+L3-0382,经历,jīnglì,kinh nghiệm / trải qua / trải nghiệm,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"kinh nghiệm / LT:個|个[ge4],次[ci4] / trải qua / trải nghiệm","LT:個|个[ge4],次[ci4]"
+L3-0383,经验,jīngyàn,kinh nghiệm / trải nghiệm,名,,INSERT_MOI,CHUA_DUYET,,kinh nghiệm / trải nghiệm,
+L3-0384,经营,jīngyíng,"tham gia (kinh doanh, v.v.); điều hành; vận hành",动,,INSERT_MOI,CHUA_DUYET,,"tham gia (kinh doanh, v.v.); điều hành; vận hành",
+L3-0385,精彩,jīngcǎi,tuyệt vời / kỳ diệu / xuất sắc,形,,INSERT_MOI,CHUA_DUYET,,tuyệt vời / kỳ diệu / xuất sắc,
+L3-0386,精神,jīngshén,tinh thần / tâm trí / ý thức / suy nghĩ / tâm lý / tinh hoa / cốt lõi,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,tinh thần / tâm trí / ý thức / suy nghĩ / tâm lý / tinh hoa / cốt lõi / LT:個|个[ge4],LT:個|个[ge4]
+L3-0387,精神,jīngshen,sinh lực; sức sống / phấn chấn / ưa nhìn,形、名,,INSERT_MOI,CHUA_DUYET,,sinh lực; sức sống / phấn chấn / ưa nhìn,
+L3-0388,景色,jǐngsè,phong cảnh / cảnh / quang cảnh / tầm nhìn,名,,INSERT_MOI,CHUA_DUYET,,phong cảnh / cảnh / quang cảnh / tầm nhìn,
+L3-0389,警察,jǐngchá,cảnh sát; sĩ quan cảnh sát,名,,INSERT_MOI,CHUA_DUYET,,cảnh sát; sĩ quan cảnh sát,
+L3-0390,静,jìng,yên / tĩnh / lặng / không động đậy,形、动,,INSERT_MOI,CHUA_DUYET,,yên / tĩnh / lặng / không động đậy,
+L3-0391,久,jiǔ,thời gian (dài) / (khoảng) thời gian dài,形,,INSERT_MOI,CHUA_DUYET,,thời gian (dài) / (khoảng) thời gian dài,
+L3-0392,旧,jiù,cũ / đối lập: mới 新 / trước / hao mòn (theo thời gian),形,,INSERT_MOI,CHUA_DUYET,,cũ / đối lập: mới 新 / trước / hao mòn (theo thời gian),
+L3-0393,救,jiù,biến thể của 救[jiu4] / cứu / cứu giúp / cứu thoát,动,,INSERT_MOI,CHUA_DUYET,,biến thể của 救[jiu4] || cứu / cứu giúp / cứu thoát,
+L3-0394,就是,jiùshì,chính xác; đúng / chỉ; đơn giản; chỉ là / (dùng với 也[ye3]) ngay cả; thậm chí nếu,连,,INSERT_MOI,CHUA_DUYET,,chính xác; đúng / chỉ; đơn giản; chỉ là / (dùng với 也[ye3]) ngay cả; thậm chí nếu,
+L3-0395,就业,jiùyè,tìm được việc làm / việc làm,,,INSERT_MOI,CHUA_DUYET,,tìm được việc làm / việc làm,
+L3-0396,举办,jǔbàn,tổ chức / tiến hành,动,,INSERT_MOI,CHUA_DUYET,,tổ chức / tiến hành,
+L3-0397,具体,jùtǐ,cụ thể; chi tiết; rõ ràng,形,,INSERT_MOI,CHUA_DUYET,,cụ thể; chi tiết; rõ ràng,
+L3-0398,具有,jùyǒu,có; sở hữu,动,,INSERT_MOI,CHUA_DUYET,,có; sở hữu,
+L3-0399,剧场,jùchǎng,rạp hát,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,rạp hát / LT:個|个[ge4],LT:個|个[ge4]
+L3-0400,据说,jùshuō,nghe nói rằng; theo báo cáo,动,,INSERT_MOI,CHUA_DUYET,,nghe nói rằng; theo báo cáo,
+L3-0401,决定,juédìng,quyết định (làm gì đó) / quyết tâm / quyết định / chắc chắn,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"quyết định (làm gì đó) / quyết tâm / quyết định / LT:個|个[ge4],項|项[xiang4] / chắc chắn","LT:個|个[ge4],項|项[xiang4]"
+L3-0402,决赛,juésài,chung kết (của một cuộc thi),动、名,,INSERT_MOI,CHUA_DUYET,,chung kết (của một cuộc thi),
+L3-0403,决心,juéxīn,quyết tâm / sự kiên quyết / quyết đoán / kiên quyết và dứt khoát / quyết định,名、动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,quyết tâm / sự kiên quyết / quyết đoán / kiên quyết và dứt khoát / quyết định / LT:個|个[ge4],LT:個|个[ge4]
+L3-0404,绝对,juéduì,tuyệt đối; vô điều kiện,副,,INSERT_MOI,CHUA_DUYET,,tuyệt đối; vô điều kiện,
+L3-0405,咖啡,kāfēi,cà phê (từ mượn),名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,cà phê (từ mượn) / LT:杯[bei1],LT:杯[bei1]
+L3-0406,开发,kāifā,khai thác (tài nguyên); mở ra (để phát triển); phát triển,动,,INSERT_MOI,CHUA_DUYET,,khai thác (tài nguyên); mở ra (để phát triển); phát triển,
+L3-0407,开放,kāifàng,nở hoa / mở / mở cửa (cho công chúng) / mở ra (với bên ngoài) / cởi mở / phóng khoáng về quan niệm / không gò bó trong tình dục,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,nở hoa / mở / mở cửa (cho công chúng) / mở ra (với bên ngoài) / cởi mở / phóng khoáng về quan niệm / không gò bó trong tình dục,
+L3-0408,开始,kāishǐ,bắt đầu / khởi đầu / ban đầu / lúc đầu,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,bắt đầu / khởi đầu / ban đầu / lúc đầu / LT:個|个[ge4],LT:個|个[ge4]
+L3-0409,开业,kāiyè,khai trương kinh doanh / mở phòng khám / mở cửa (kinh doanh),,,INSERT_MOI,CHUA_DUYET,,khai trương kinh doanh / mở phòng khám / mở cửa (kinh doanh),
+L3-0410,开展,kāizhǎn,khai mạc / phát triển / mở ra / (ví dụ: triển lãm) mở cửa,动,,INSERT_MOI,CHUA_DUYET,,khai mạc / phát triển / mở ra / (ví dụ: triển lãm) mở cửa,
+L3-0411,看起来,kàn qǐlái,hình như; rõ ràng; trông có vẻ; hiện ra như; cho ấn tượng rằng; dường như bề ngoài là,,,INSERT_MOI,CHUA_DUYET,,hình như; rõ ràng; trông có vẻ; hiện ra như; cho ấn tượng rằng; dường như bề ngoài là,
+L3-0412,看上去,kàn shàngqù,dường như / có vẻ (như),,,INSERT_MOI,CHUA_DUYET,,dường như / có vẻ (như),
+L3-0413,考验,kǎoyàn,"thử thách / đưa vào thử thách / thử nghiệm / khó khăn, thử thách nghiêm trọng",动,,INSERT_MOI,CHUA_DUYET,,"thử thách / đưa vào thử thách / thử nghiệm / khó khăn, thử thách nghiêm trọng",
+L3-0414,科技,kējì,khoa học và công nghệ,名,,INSERT_MOI,CHUA_DUYET,,khoa học và công nghệ,
+L3-0415,可靠,kěkào,đáng tin cậy,形,,INSERT_MOI,CHUA_DUYET,,đáng tin cậy,
+L3-0416,可乐,kělè,"vui / hay ho, thú vị / (từ mượn) cola",名,,INSERT_MOI,CHUA_DUYET,,"vui / hay ho, thú vị / (từ mượn) cola",
+L3-0417,克服,kèfú,"(cố gắng) khắc phục (khó khăn, v.v.) / chinh phục / chịu đựng / nhẫn nại",动,,INSERT_MOI,CHUA_DUYET,,"(cố gắng) khắc phục (khó khăn, v.v.) / chinh phục / chịu đựng / nhẫn nại",
+L3-0418,客观,kèguān,khách quan / công bằng,形,,INSERT_MOI,CHUA_DUYET,,khách quan / công bằng,
+L3-0419,课程,kèchéng,khóa học / chương trình học,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"khóa học / chương trình học / LT:堂[tang2],節|节[jie2],門|门[men2]","LT:堂[tang2],節|节[jie2],門|门[men2]"
+L3-0420,空,kōng,trống không / không khí / bầu trời / uổng phí,形、副,,INSERT_MOI,CHUA_DUYET,,trống không / không khí / bầu trời / uổng phí,
+L3-0421,空调,kōngtiáo,điều hòa không khí / máy điều hòa (bao gồm cả loại có chế độ sưởi),名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,điều hòa không khí / máy điều hòa (bao gồm cả loại có chế độ sưởi) / LT:臺|台[tai2],LT:臺|台[tai2]
+L3-0422,恐怕,kǒngpà,sợ / sợ rằng / tôi e rằng... / có lẽ / có thể,副,,INSERT_MOI,CHUA_DUYET,,sợ / sợ rằng / tôi e rằng... / có lẽ / có thể,
+L3-0423,空儿,kòngr,thời gian rảnh / thời gian tự do,名,,INSERT_MOI,CHUA_DUYET,,thời gian rảnh / thời gian tự do,
+L3-0424,裤子,kùzi,"biến thể của 褲子|裤子, quần dài / quần tây / quần dài / quần",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"biến thể của 褲子|裤子, quần dài / quần tây || quần dài / quần / LT:條|条[tiao2]",LT:條|条[tiao2]
+L3-0425,快速,kuàisù,nhanh; tốc độ cao; mau lẹ,形,,INSERT_MOI,CHUA_DUYET,,nhanh; tốc độ cao; mau lẹ,
+L3-0426,困,kùn,bẫy / bao vây / bị áp lực / mắc kẹt / cùng quẫn / buồn ngủ / mệt mỏi,形、动,,INSERT_MOI,CHUA_DUYET,,bẫy / bao vây / bị áp lực / mắc kẹt / cùng quẫn || buồn ngủ / mệt mỏi,
+L3-0427,困难,kùnnan,khó khăn / thử thách / tình cảnh eo hẹp / tình huống khó khăn,名、形,,INSERT_MOI,CHUA_DUYET,,khó khăn / thử thách / tình cảnh eo hẹp / tình huống khó khăn,
+L3-0428,浪费,làngfèi,lãng phí / phung phí,动,,INSERT_MOI,CHUA_DUYET,,lãng phí / phung phí,
+L3-0429,老百姓,lǎobǎixìng,người dân thường / người bình thường,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,người dân thường / người bình thường / LT:個|个[ge4],LT:個|个[ge4]
+L3-0430,老板,lǎobǎn,biến thể của 老闆|老板[lao3 ban3] / sếp / chủ doanh nghiệp,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,biến thể của 老闆|老板[lao3 ban3] || sếp / chủ doanh nghiệp / LT:個|个[ge4],LT:個|个[ge4]
+L3-0431,老太太,lǎotàitai,bà lão (tôn kính) / mẹ kính yêu,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,bà lão (tôn kính) / mẹ kính yêu / LT:位[wei4],LT:位[wei4]
+L3-0432,老头儿,lǎotóur,xem 老頭子|老头子[lao3 tou2 zi5],名,,INSERT_MOI,CHUA_DUYET,,xem 老頭子|老头子[lao3 tou2 zi5],
+L3-0433,乐,lè,vui / vui vẻ / cười,动,,INSERT_MOI,CHUA_DUYET,,vui / vui vẻ / cười,
+L3-0434,乐观,lèguān,lạc quan; đầy hy vọng,形,,INSERT_MOI,CHUA_DUYET,,lạc quan; đầy hy vọng,
+L3-0435,类,lèi,loại / kiểu / lớp / hạng / tương tự / giống / giống như,名、量,,INSERT_MOI,CHUA_DUYET,,loại / kiểu / lớp / hạng / tương tự / giống / giống như,
+L3-0436,类似,lèisì,tương tự; tương đồng,动、形,,INSERT_MOI,CHUA_DUYET,,tương tự; tương đồng,
+L3-0437,离婚,líhūn,ly hôn,,,INSERT_MOI,CHUA_DUYET,,ly hôn,
+L3-0438,里面,lǐmiàn,bên trong / nội bộ / cũng đọc là [li3 mian5],名,,INSERT_MOI,CHUA_DUYET,,bên trong / nội bộ / cũng đọc là [li3 mian5],
+L3-0439,理发,lǐfà,cắt tóc; làm tóc / cắt tóc (cho ai đó); cắt tóc cho (ai đó),,,INSERT_MOI,CHUA_DUYET,,cắt tóc; làm tóc / cắt tóc (cho ai đó); cắt tóc cho (ai đó),
+L3-0440,理解,lǐjiě,lĩnh hội; hiểu,动,,INSERT_MOI,CHUA_DUYET,,lĩnh hội; hiểu,
+L3-0441,理论,lǐlùn,lý thuyết / tranh luận / chú ý đến,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,lý thuyết / LT:個|个[ge4] / tranh luận / chú ý đến,LT:個|个[ge4]
+L3-0442,理由,lǐyóu,lý do / cơ sở / sự biện minh,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,lý do / cơ sở / sự biện minh / LT:個|个[ge4],LT:個|个[ge4]
+L3-0443,力,lì,sức mạnh / lực / sức / khả năng / một cách gắng sức,名,,INSERT_MOI,CHUA_DUYET,,sức mạnh / lực / sức / khả năng / một cách gắng sức,
+L3-0444,力量,lìliàng,sức mạnh; lực lượng; sức lực,名,,INSERT_MOI,CHUA_DUYET,,sức mạnh; lực lượng; sức lực,
+L3-0445,立刻,lìkè,ngay lập tức / lập tức / ngay / ngay tức khắc / lúc đó,副,,INSERT_MOI,CHUA_DUYET,,ngay lập tức / lập tức / ngay / ngay tức khắc / lúc đó,
+L3-0446,利用,lìyòng,tận dụng / sử dụng / lợi dụng / khai thác,动,,INSERT_MOI,CHUA_DUYET,,tận dụng / sử dụng / lợi dụng / khai thác,
+L3-0447,连,lián,"liên kết / gia nhập / kết nối / liên tục / liên tiếp / bao gồm / (dùng với 也[ye3], 都[dou1],...) thậm chí / đại đội (quân đội)",动、副,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"liên kết / gia nhập / kết nối / liên tục / liên tiếp / bao gồm / (dùng với 也[ye3], 都[dou1],...) thậm chí / đại đội (quân đội)",
+L3-0448,连忙,liánmáng,ngay lập tức / lập tức,副,,INSERT_MOI,CHUA_DUYET,,ngay lập tức / lập tức,
+L3-0449,连续,liánxù,liên tục / liền một mạch / theo chuỗi / liên tiếp,动,,INSERT_MOI,CHUA_DUYET,,liên tục / liền một mạch / theo chuỗi / liên tiếp,
+L3-0450,连续剧,liánxùjù,phim truyền hình nhiều tập / phim bộ / chương trình nhiều phần,名,,INSERT_MOI,CHUA_DUYET,,phim truyền hình nhiều tập / phim bộ / chương trình nhiều phần,
+L3-0451,联合,liánhé,kết hợp / gia nhập / hợp nhất / liên minh,动,,INSERT_MOI,CHUA_DUYET,,kết hợp / gia nhập / hợp nhất / liên minh,
+L3-0452,联合国,Liánhéguó,Liên Hợp Quốc,名,,INSERT_MOI,CHUA_DUYET,,Liên Hợp Quốc,
+L3-0453,联系,liánxì,biến thể của 聯繫|联系[lian2 xi4] / kết nối / liên hệ / quan hệ / liên lạc / tích hợp / liên kết / tiếp xúc,动、名,,INSERT_MOI,CHUA_DUYET,,biến thể của 聯繫|联系[lian2 xi4] || kết nối / liên hệ / quan hệ / liên lạc / tích hợp / liên kết / tiếp xúc,
+L3-0454,凉水,liángshuǐ,nước mát / nước chưa đun sôi,名,,INSERT_MOI,CHUA_DUYET,,nước mát / nước chưa đun sôi,
+L3-0455,了,liǎo,hoàn thành / đạt được / biến thể của 瞭|了[liao3] / hiểu rõ / (mắt) sáng / rõ ràng / hiểu rõ,动,,CAN_KIEM_TRA,CHUA_DUYET,CAN_KIEM_TRA_TU_DA_AM,hoàn thành / đạt được / biến thể của 瞭|了[liao3] / hiểu rõ || (mắt) sáng / rõ ràng / hiểu rõ,
+L3-0456,领,lǐng,"cổ / cổ áo / dẫn dắt / nhận / lượng từ cho quần áo, chiếu, màn hình, v.v.",动,,INSERT_MOI,CHUA_DUYET,,"cổ / cổ áo / dẫn dắt / nhận / lượng từ cho quần áo, chiếu, màn hình, v.v.",
+L3-0457,领导,lǐngdǎo,dẫn dắt / dẫn đầu / lãnh đạo / sự lãnh đạo / người lãnh đạo,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"dẫn dắt / dẫn đầu / lãnh đạo / sự lãnh đạo / người lãnh đạo / LT:位[wei4],個|个[ge4]","LT:位[wei4],個|个[ge4]"
+L3-0458,领先,lǐngxiān,dẫn đầu / dẫn trước,,,INSERT_MOI,CHUA_DUYET,,dẫn đầu / dẫn trước,
+L3-0459,另外,lìngwài,bổ sung / thêm vào / ngoài ra / tách biệt / khác / hơn nữa / hơn thế,代、副、连,,INSERT_MOI,CHUA_DUYET,,bổ sung / thêm vào / ngoài ra / tách biệt / khác / hơn nữa / hơn thế,
+L3-0460,另一方面,lìng yīfāngmiàn,mặt khác / một khía cạnh khác,,,INSERT_MOI,CHUA_DUYET,,mặt khác / một khía cạnh khác,
+L3-0461,留学,liúxué,du học,,,INSERT_MOI,CHUA_DUYET,,du học,
+L3-0462,龙,lóng,rồng / hoàng gia,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,rồng / LT:條|条[tiao2] / hoàng gia,LT:條|条[tiao2]
+L3-0463,录,lù,khắc gỗ / nhật ký / ghi chép / quay / sao chép,动,,INSERT_MOI,CHUA_DUYET,,khắc gỗ || nhật ký / ghi chép / quay / sao chép,
+L3-0464,录音,lùyīn,ghi âm (âm thanh) / bản ghi âm,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,ghi âm (âm thanh) / bản ghi âm / LT:個|个[ge4],LT:個|个[ge4]
+L3-0465,路线,lùxiàn,hành trình / tuyến đường / đường lối chính trị (ví dụ: con đường xét lại hữu),名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,hành trình / tuyến đường / đường lối chính trị (ví dụ: con đường xét lại hữu) / LT:條|条[tiao2],LT:條|条[tiao2]
+L3-0466,旅馆,lǚguǎn,khách sạn / lượng từ: 家[jia1],名,,INSERT_MOI,CHUA_DUYET,,khách sạn / lượng từ: 家[jia1],
+L3-0467,旅行社,lǚxíngshè,công ty du lịch,名,,INSERT_MOI,CHUA_DUYET,,công ty du lịch,
+L3-0468,绿茶,lǜchá,trà xanh / (tiếng lóng) (về một cô gái) tưởng chừng như ngây thơ và quyến rũ nhưng thực ra lại toan tính và thủ đoạn / một cô gái có những nét này,名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,trà xanh / (tiếng lóng) (về một cô gái) tưởng chừng như ngây thơ và quyến rũ nhưng thực ra lại toan tính và thủ đoạn / một cô gái có những nét này,
+L3-0469,乱,luàn,trong tình trạng rối loạn / trạng thái tinh thần bối rối / mất trật tự / biến động / bạo loạn / quan hệ tình dục phi pháp / làm rối loạn / trộn lẫn / không phân biệt / bừa bãi / tùy tiện,形,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,trong tình trạng rối loạn / trạng thái tinh thần bối rối / mất trật tự / biến động / bạo loạn / quan hệ tình dục phi pháp / làm rối loạn / trộn lẫn / không phân biệt / bừa bãi / tùy tiện,
+L3-0470,落后,luòhòu,"tụt hậu / lạc hậu (về công nghệ, v.v.) / lạc hậu / thụt lùi",,,INSERT_MOI,CHUA_DUYET,,"tụt hậu / lạc hậu (về công nghệ, v.v.) / lạc hậu / thụt lùi",
+L3-0471,麻烦,máfan,rắc rối; bất tiện / không tiện; phiền phức; gây khó chịu / làm phiền ai; làm phiền ai đó,动、形,,INSERT_MOI,CHUA_DUYET,,rắc rối; bất tiện / không tiện; phiền phức; gây khó chịu / làm phiền ai; làm phiền ai đó,
+L3-0472,马,mǎ,ngựa / Lượng từ: 匹[pi3] / quân mã trong cờ tướng / quân mã trong cờ vua,名,,INSERT_MOI,CHUA_DUYET,,ngựa / Lượng từ: 匹[pi3] / quân mã trong cờ tướng / quân mã trong cờ vua,
+L3-0473,满足,mǎnzú,thoả mãn / đáp ứng (nhu cầu) / hài lòng / hài dạ,动,,INSERT_MOI,CHUA_DUYET,,thoả mãn / đáp ứng (nhu cầu) / hài lòng / hài dạ,
+L3-0474,慢慢,mànmàn,chậm rãi; dần dần,,,INSERT_MOI,CHUA_DUYET,,chậm rãi; dần dần,
+L3-0475,毛,máo,"tóc / lông / vụn lông / lông cừu / mốc / meo / thô hoặc chưa hoàn thiện / trẻ / non / cẩu thả / không suy nghĩ / thần kinh / căng thẳng / (về tiền tệ) mất giá hoặc giảm giá / loại từ cho đơn vị tiền tệ của Trung Quốc ( = 角[jiao3], = một phần mười của một đồng yuan hoặc 10 fen 分[fen1])",名,239,TAI_SU_DUNG,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"tóc / lông / vụn lông / lông cừu / mốc / meo / thô hoặc chưa hoàn thiện / trẻ / non / cẩu thả / không suy nghĩ / thần kinh / căng thẳng / (về tiền tệ) mất giá hoặc giảm giá / loại từ cho đơn vị tiền tệ của Trung Quốc ( = 角[jiao3], = một phần mười của một đồng yuan hoặc 10 fen 分[fen1])",
+L3-0476,毛病,máobìng,lỗi / sai sót / khuyết điểm / bệnh tật,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,lỗi / sai sót / khuyết điểm / bệnh tật / LT:個|个[ge4],LT:個|个[ge4]
+L3-0477,没用,méiyòng,vô dụng,动,,INSERT_MOI,CHUA_DUYET,,vô dụng,
+L3-0478,媒体,méitǐ,"truyền thông, đặc biệt là truyền thông tin tức",名,,INSERT_MOI,CHUA_DUYET,,"truyền thông, đặc biệt là truyền thông tin tức",
+L3-0479,每,měi,mỗi / mọi,代、副,,INSERT_MOI,CHUA_DUYET,,mỗi / mọi,
+L3-0480,美,měi,đẹp / rất thỏa mãn; tốt / làm đẹp / hài lòng với bản thân,形,,INSERT_MOI,CHUA_DUYET,,đẹp / rất thỏa mãn; tốt / làm đẹp / hài lòng với bản thân,
+L3-0481,美好,měihǎo,đẹp / tốt đẹp,形,,INSERT_MOI,CHUA_DUYET,,đẹp / tốt đẹp,
+L3-0482,美丽,měilì,đẹp,形,,INSERT_MOI,CHUA_DUYET,,đẹp,
+L3-0483,美食,měishí,món ngon / món ăn tinh tế / ẩm thực hảo hạng,名,,INSERT_MOI,CHUA_DUYET,,món ngon / món ăn tinh tế / ẩm thực hảo hạng,
+L3-0484,美术,měishù,nghệ thuật / mỹ thuật / hội họa,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,nghệ thuật / mỹ thuật / hội họa / LT:種|种[zhong3],LT:種|种[zhong3]
+L3-0485,美元,měiyuán,đô la Mỹ / đô la Hoa Kỳ,名,,INSERT_MOI,CHUA_DUYET,,đô la Mỹ / đô la Hoa Kỳ,
+L3-0486,迷,mí,làm bối rối / mê mẩn / người hâm mộ / nhà nhiệt tình / lạc / mơ hồ,动,,INSERT_MOI,CHUA_DUYET,,làm bối rối / mê mẩn / người hâm mộ / nhà nhiệt tình / lạc / mơ hồ,
+L3-0487,米,mǐ,gạo / mét (đơn vị đo),名,867,TAI_SU_DUNG,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,gạo / LT:粒[li4] / mét (đơn vị đo),LT:粒[li4]
+L3-0488,面对,miànduì,đối mặt; đương đầu,动,,INSERT_MOI,CHUA_DUYET,,đối mặt; đương đầu,
+L3-0489,面积,miànjī,"diện tích (của sàn, mảnh đất, v.v.) / diện tích bề mặt / khu đất",名,,INSERT_MOI,CHUA_DUYET,,"diện tích (của sàn, mảnh đất, v.v.) / diện tích bề mặt / khu đất",
+L3-0490,民间,mínjiān,trong nhân dân / dân gian / thuộc về dân chúng / phi chính phủ / liên quan đến người dân thay vì chính phủ,名,,INSERT_MOI,CHUA_DUYET,,trong nhân dân / dân gian / thuộc về dân chúng / phi chính phủ / liên quan đến người dân thay vì chính phủ,
+L3-0491,民族,mínzú,quốc tịch; dân tộc,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,quốc tịch; dân tộc / LT:個|个[ge4],LT:個|个[ge4]
+L3-0492,明确,míngquè,rõ ràng; dứt khoát; rõ rệt / làm rõ; chỉ rõ; làm cho rõ ràng,形、动,,INSERT_MOI,CHUA_DUYET,,rõ ràng; dứt khoát; rõ rệt / làm rõ; chỉ rõ; làm cho rõ ràng,
+L3-0493,明显,míngxiǎn,rõ ràng / rõ rệt / hiển nhiên,形,,INSERT_MOI,CHUA_DUYET,,rõ ràng / rõ rệt / hiển nhiên,
+L3-0494,命运,mìngyùn,số phận; định mệnh,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,số phận; định mệnh / LT:個|个[ge4],LT:個|个[ge4]
+L3-0495,某,mǒu,một vài / một cái nào đó / ai đó hoặc cái gì đó không xác định / nào đó,代,,INSERT_MOI,CHUA_DUYET,,một vài / một cái nào đó / ai đó hoặc cái gì đó không xác định / nào đó,
+L3-0496,母亲,mǔqīn,mẹ / cũng đọc là [mu3 qin5],名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,mẹ / cũng đọc là [mu3 qin5] / LT:個|个[ge4],LT:個|个[ge4]
+L3-0497,木头,mùtou,"chậm chạp / đần độn / khúc gỗ (gỗ, gỗ timber, v.v.)",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"chậm chạp / đần độn / khúc gỗ (gỗ, gỗ timber, v.v.) / LT:塊|块[kuai4],根[gen1]","LT:塊|块[kuai4],根[gen1]"
+L3-0498,目标,mùbiāo,mục tiêu / mục đích,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,mục tiêu / mục đích / LT:個|个[ge4],LT:個|个[ge4]
+L3-0499,目前,mùqián,hiện tại / bây giờ,名,,INSERT_MOI,CHUA_DUYET,,hiện tại / bây giờ,
+L3-0500,奶茶,nǎichá,trà sữa,名,,INSERT_MOI,CHUA_DUYET,,trà sữa,
+L3-0501,男子,nánzǐ,một người đàn ông; nam giới,名,,INSERT_MOI,CHUA_DUYET,,một người đàn ông; nam giới,
+L3-0502,南部,nánbù,phần phía nam,名,,INSERT_MOI,CHUA_DUYET,,phần phía nam,
+L3-0503,难道,nándào,chẳng lẽ... / có thể nào...?,副,,INSERT_MOI,CHUA_DUYET,,chẳng lẽ... / có thể nào...?,
+L3-0504,难度,nándù,mức độ khó,名,,INSERT_MOI,CHUA_DUYET,,mức độ khó,
+L3-0505,内,nèi,bên trong / nội bộ / trong / nội địa,名,,INSERT_MOI,CHUA_DUYET,,bên trong / nội bộ / trong / nội địa,
+L3-0506,内容,nèiróng,nội dung / bản chất / chi tiết,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"nội dung / bản chất / chi tiết / LT:個|个[ge4],項|项[xiang4]","LT:個|个[ge4],項|项[xiang4]"
+L3-0507,内心,nèixīn,trái tim; tận sâu trong lòng / (toán) tâm nội tiếp,名,,INSERT_MOI,CHUA_DUYET,,trái tim; tận sâu trong lòng / (toán) tâm nội tiếp,
+L3-0508,能不能,néng bu néng,có thể hay không; có ... được không,,,INSERT_MOI,CHUA_DUYET,NGUON_YEU_CAU_RA_SOAT,có thể hay không; có ... được không,
+L3-0509,能力,nénglì,năng lực / khả năng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,năng lực / khả năng / LT:個|个[ge4],LT:個|个[ge4]
+L3-0510,年初,niánchū,đầu năm,名,,INSERT_MOI,CHUA_DUYET,,đầu năm,
+L3-0511,年代,niándài,thập kỷ của một thế kỷ (ví dụ: những năm sáu mươi) / thời đại / kỷ nguyên / giai đoạn,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thập kỷ của một thế kỷ (ví dụ: những năm sáu mươi) / thời đại / kỷ nguyên / giai đoạn / LT:個|个[ge4],LT:個|个[ge4]
+L3-0512,年底,niándǐ,cuối năm,名,,INSERT_MOI,CHUA_DUYET,,cuối năm,
+L3-0513,年纪,niánjì,tuổi,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"tuổi / LT:把[ba3],個|个[ge4]","LT:把[ba3],個|个[ge4]"
+L3-0514,念,niàn,"biến thể của 念[nian4], đọc to / đọc / học (một môn) / theo học (một trường) / đọc to / la mắng (LT:頓|顿[dun4]) / nhớ (ai đó) / ý tưởng / hồi tưởng / hai mươi (chữ số chống gian lận trong ngân hàng tương ứng với 廿[nian4])",动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,"biến thể của 念[nian4], đọc to || đọc / học (một môn) / theo học (một trường) / đọc to / la mắng (LT:頓|顿[dun4]) / nhớ (ai đó) / ý tưởng / hồi tưởng / hai mươi (chữ số chống gian lận trong ngân hàng tương ứng với 廿[nian4])",
+L3-0515,牛,niú,"con bò / newton (viết tắt của 牛頓|牛顿[niu2 dun4]) / (lóng) đỉnh, chất",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"con bò / LT:條|条[tiao2],頭|头[tou2] / newton (viết tắt của 牛頓|牛顿[niu2 dun4]) / (lóng) đỉnh, chất","LT:條|条[tiao2],頭|头[tou2]"
+L3-0516,农村,nóngcūn,khu vực nông thôn / làng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,khu vực nông thôn / làng / LT:個|个[ge4],LT:個|个[ge4]
+L3-0517,农民,nóngmín,nông dân; nông phu,名,,INSERT_MOI,CHUA_DUYET,,nông dân; nông phu,
+L3-0518,农业,nóngyè,nông nghiệp,名,,INSERT_MOI,CHUA_DUYET,,nông nghiệp,
+L3-0519,女子,nǚzǐ,phụ nữ / nữ,名,,INSERT_MOI,CHUA_DUYET,,phụ nữ / nữ,
+L3-0520,暖和,nuǎnhuo,ấm / ấm áp,形,,INSERT_MOI,CHUA_DUYET,,ấm / ấm áp,
+L3-0521,怕,pà,sợ / e ngại / khiếp sợ / không thể chịu đựng / có lẽ,副,896,TAI_SU_DUNG,CHUA_DUYET,,sợ / e ngại / khiếp sợ / không thể chịu đựng / có lẽ,
+L3-0522,拍,pāi,vỗ / vỗ tay / tát / đập / chụp (ảnh) / quay (phim) / vợt (thể thao) / nhịp (âm nhạc),动,,INSERT_MOI,CHUA_DUYET,,vỗ / vỗ tay / tát / đập / chụp (ảnh) / quay (phim) / vợt (thể thao) / nhịp (âm nhạc),
+L3-0523,排,pái,"một hàng / một dòng / sắp xếp / theo thứ tự / xếp hàng / loại bỏ / thoát nước / đẩy ra / tiểu đội / bè / lượng từ cho hàng, dòng, v.v.",动,897,TAI_SU_DUNG,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"một hàng / một dòng / sắp xếp / theo thứ tự / xếp hàng / loại bỏ / thoát nước / đẩy ra / tiểu đội / bè / lượng từ cho hàng, dòng, v.v.",
+L3-0524,排名,páimíng,"xếp hạng (1, 2 v.v.) / bảng xếp hạng",,,INSERT_MOI,CHUA_DUYET,,"xếp hạng (1, 2 v.v.) / bảng xếp hạng",
+L3-0525,牌子,páizi,biển hiệu / thương hiệu / nhãn hiệu,名,,INSERT_MOI,CHUA_DUYET,,biển hiệu / thương hiệu / nhãn hiệu,
+L3-0526,派,pài,"bè phái / trường phái / nhóm / phái / cử / đi / phái đi / bổ nhiệm / pi (chữ cái Hy Lạp Ππ) / tỉ số đường tròn pi = 3,1415926 / (từ mượn) bánh pie",动、名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"bè phái / trường phái / nhóm / phái / cử / đi / phái đi / bổ nhiệm / pi (chữ cái Hy Lạp Ππ) / tỉ số đường tròn pi = 3,1415926 / (từ mượn) bánh pie",
+L3-0527,判断,pànduàn,phán đoán / xác định / phán xét,动、名,,INSERT_MOI,CHUA_DUYET,,phán đoán / xác định / phán xét,
+L3-0528,胖,pàng,mập / mũm mĩm,形,,INSERT_MOI,CHUA_DUYET,,mập / mũm mĩm,
+L3-0529,跑步,pǎobù,chạy / chạy bộ / (quân đội) diễu hành nhanh,,,INSERT_MOI,CHUA_DUYET,,chạy / chạy bộ / (quân đội) diễu hành nhanh,
+L3-0530,配,pèi,kết hợp / phù hợp / giao phối / trộn / phối hợp / xứng đáng / chế (đơn thuốc) / phân bổ,动,,INSERT_MOI,CHUA_DUYET,,kết hợp / phù hợp / giao phối / trộn / phối hợp / xứng đáng / chế (đơn thuốc) / phân bổ,
+L3-0531,配合,pèihé,phù hợp / phối hợp với / tương thích với / tương ứng / tuân thủ / quan hệ tốt / hành động cùng nhau / hợp tác / trở thành vợ chồng / kết hợp các bộ phận của máy móc,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,phù hợp / phối hợp với / tương thích với / tương ứng / tuân thủ / quan hệ tốt / hành động cùng nhau / hợp tác / trở thành vợ chồng / kết hợp các bộ phận của máy móc,
+L3-0532,批评,pīpíng,phê bình; chỉ trích,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"phê bình; chỉ trích / LT:次[ci4],番[fan1]","LT:次[ci4],番[fan1]"
+L3-0533,批准,pīzhǔn,phê duyệt; phê chuẩn,动,,INSERT_MOI,CHUA_DUYET,,phê duyệt; phê chuẩn,
+L3-0534,皮,pí,da / da lông / lông / pico- (một phần nghìn tỷ) / nghịch ngợm,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,da / da lông / lông / LT:張|张[zhang1] / pico- (một phần nghìn tỷ) / nghịch ngợm,LT:張|张[zhang1]
+L3-0535,皮包,píbāo,túi xách / cặp tài liệu,名,,INSERT_MOI,CHUA_DUYET,,túi xách / cặp tài liệu,
+L3-0536,啤酒,píjiǔ,bia (từ mượn),名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"bia (từ mượn) / LT:杯[bei1],瓶[ping2],罐[guan4],桶[tong3],缸[gang1]","LT:杯[bei1],瓶[ping2],罐[guan4],桶[tong3],缸[gang1]"
+L3-0537,票价,piàojià,giá vé; giá vé xe; phí vào cửa,名,,INSERT_MOI,CHUA_DUYET,,giá vé; giá vé xe; phí vào cửa,
+L3-0538,评价,píngjià,đánh giá,动、名,,INSERT_MOI,CHUA_DUYET,,đánh giá,
+L3-0539,苹果,píngguǒ,quả táo,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"quả táo / LT:個|个[ge4],顆|颗[ke1]","LT:個|个[ge4],顆|颗[ke1]"
+L3-0540,破,pò,"hỏng / hư / hao mòn / tệ / hỏng bét / phá, tách hoặc chẻ / bỏ đi / phá hủy / tuyệt giao / đánh bại / chiếm được (một thành phố,...) / vạch trần sự thật",形、动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"hỏng / hư / hao mòn / tệ / hỏng bét / phá, tách hoặc chẻ / bỏ đi / phá hủy / tuyệt giao / đánh bại / chiếm được (một thành phố,...) / vạch trần sự thật",
+L3-0541,破坏,pòhuài,sự phá hủy / hư hại / phá hoại / làm vỡ / phá hủy,动,,INSERT_MOI,CHUA_DUYET,,sự phá hủy / hư hại / phá hoại / làm vỡ / phá hủy,
+L3-0542,普遍,pǔbiàn,phổ quát / chung chung / lan rộng / phổ biến,形,,INSERT_MOI,CHUA_DUYET,,phổ quát / chung chung / lan rộng / phổ biến,
+L3-0543,普及,pǔjí,lan rộng / phổ biến / phổ cập / phổ thông / khắp nơi / thịnh hành / toàn cầu,动、形,,INSERT_MOI,CHUA_DUYET,,lan rộng / phổ biến / phổ cập / phổ thông / khắp nơi / thịnh hành / toàn cầu,
+L3-0544,期,qī,"biến thể của 期[qi1] / thời kỳ / chu kỳ / một khoảng thời gian / giai đoạn / lượng từ cho số phát hành của tạp chí, khóa học / thời gian / học kỳ / thời kỳ / kỳ vọng / âm đọc ở Đài Loan: [qi2]",量,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"biến thể của 期[qi1] / thời kỳ / chu kỳ || một khoảng thời gian / giai đoạn / lượng từ cho số phát hành của tạp chí, khóa học / thời gian / học kỳ / thời kỳ / kỳ vọng / âm đọc ở Đài Loan: [qi2]",
+L3-0545,齐,qí,gọn gàng / đồng đều / cùng mức / giống hệt / đồng thời / cùng nhau / làm cho đều,形、动,,INSERT_MOI,CHUA_DUYET,,gọn gàng / đồng đều / cùng mức / giống hệt / đồng thời / cùng nhau / làm cho đều,
+L3-0546,其次,qícì,tiếp theo / thứ hai,代,,INSERT_MOI,CHUA_DUYET,,tiếp theo / thứ hai,
+L3-0547,其实,qíshí,thực ra; thực tế; thật sự,副,,INSERT_MOI,CHUA_DUYET,,thực ra; thực tế; thật sự,
+L3-0548,奇怪,qíguài,kỳ lạ / lập dị / ngạc nhiên / bối rối,形,,INSERT_MOI,CHUA_DUYET,,kỳ lạ / lập dị / ngạc nhiên / bối rối,
+L3-0549,气候,qìhòu,(khí tượng) khí hậu / (bóng) bầu không khí; điều kiện thịnh hành (trong các vấn đề nhân sự) / Lượng từ: 種|种[zhong3],名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,(khí tượng) khí hậu / (bóng) bầu không khí; điều kiện thịnh hành (trong các vấn đề nhân sự) / Lượng từ: 種|种[zhong3],
+L3-0550,千万,qiānwàn,mười triệu / vô số / nhiều / một người nhất định phải,副,,INSERT_MOI,CHUA_DUYET,,mười triệu / vô số / nhiều / một người nhất định phải,
+L3-0551,前后,qiánhòu,khoảng / từ đầu đến cuối / khắp nơi / trước và sau,名,,INSERT_MOI,CHUA_DUYET,,khoảng / từ đầu đến cuối / khắp nơi / trước và sau,
+L3-0552,前进,qiánjìn,tiến lên / tiến về phía trước / xúc tiến / tiến tới,动,,INSERT_MOI,CHUA_DUYET,,tiến lên / tiến về phía trước / xúc tiến / tiến tới,
+L3-0553,前面,qiánmiàn,phía trước / ở trước / trước đó / bên trên / cũng đọc là [qian2 mian5],名,,INSERT_MOI,CHUA_DUYET,,phía trước / ở trước / trước đó / bên trên / cũng đọc là [qian2 mian5],
+L3-0554,前往,qiánwǎng,đi đến; tiến về; đi tới,动,,INSERT_MOI,CHUA_DUYET,,đi đến; tiến về; đi tới,
+L3-0555,强,qiáng,"mạnh / mạnh mẽ / tốt hơn / nhỉnh hơn / sôi nổi / bạo lực / tốt nhất trong nhóm của họ, ví dụ xem 百強|百强[bai3 qiang2] / biến thể của 強|强[qiang2]",形,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"mạnh / mạnh mẽ / tốt hơn / nhỉnh hơn / sôi nổi / bạo lực / tốt nhất trong nhóm của họ, ví dụ xem 百強|百强[bai3 qiang2] || biến thể của 強|强[qiang2]",
+L3-0556,强大,qiángdà,to lớn và mạnh mẽ; đáng gờm; hùng mạnh,形,,INSERT_MOI,CHUA_DUYET,,to lớn và mạnh mẽ; đáng gờm; hùng mạnh,
+L3-0557,强调,qiángdiào,nhấn mạnh (một tuyên bố) / nhấn mạnh,动,,INSERT_MOI,CHUA_DUYET,,nhấn mạnh (một tuyên bố) / nhấn mạnh,
+L3-0558,强烈,qiángliè,mạnh mẽ; dữ dội,形,,INSERT_MOI,CHUA_DUYET,,mạnh mẽ; dữ dội,
+L3-0559,桥,qiáo,cầu,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,cầu / LT:座[zuo4],LT:座[zuo4]
+L3-0560,巧,qiǎo,một cách tình cờ / trùng hợp / đúng lúc / khéo léo / kịp thời,形,,INSERT_MOI,CHUA_DUYET,,một cách tình cờ / trùng hợp / đúng lúc / khéo léo / kịp thời,
+L3-0561,亲,qīn,cha mẹ / người thân (ruột thịt) / họ hàng / có quan hệ / hôn nhân / cô dâu / gần gũi / thân thiết / trực tiếp / tận mắt / ủng hộ / thuận- / hôn / (tiếng lóng Internet) thân mến,形,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,cha mẹ / người thân (ruột thịt) / họ hàng / có quan hệ / hôn nhân / cô dâu / gần gũi / thân thiết / trực tiếp / tận mắt / ủng hộ / thuận- / hôn / (tiếng lóng Internet) thân mến,
+L3-0562,亲切,qīnqiè,thân thiện / ấm áp / gần gũi / quen thuộc,形,,INSERT_MOI,CHUA_DUYET,,thân thiện / ấm áp / gần gũi / quen thuộc,
+L3-0563,亲人,qīnrén,người thân thiết,名,,INSERT_MOI,CHUA_DUYET,,người thân thiết,
+L3-0564,亲自,qīnzì,đích thân / tự mình / bản thân,副,,INSERT_MOI,CHUA_DUYET,,đích thân / tự mình / bản thân,
+L3-0565,情感,qínggǎn,cảm giác / cảm xúc / xúc động (về mặt tình cảm),名,,INSERT_MOI,CHUA_DUYET,,cảm giác / cảm xúc / xúc động (về mặt tình cảm),
+L3-0566,情况,qíngkuàng,hoàn cảnh; tình hình; tình huống,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"hoàn cảnh; tình hình; tình huống / LT:個|个[ge4],種|种[zhong3]","LT:個|个[ge4],種|种[zhong3]"
+L3-0567,请教,qǐngjiào,hỏi để được hướng dẫn / tham khảo,动,,INSERT_MOI,CHUA_DUYET,,hỏi để được hướng dẫn / tham khảo,
+L3-0568,庆祝,qìngzhù,ăn mừng,动,,INSERT_MOI,CHUA_DUYET,,ăn mừng,
+L3-0569,球迷,qiúmí,người hâm mộ (thể thao bóng),名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,người hâm mộ (thể thao bóng) / LT:個|个[ge4],LT:個|个[ge4]
+L3-0570,区,qū,khu vực / vùng / quận / nhỏ / phân biệt,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,khu vực / vùng / quận / nhỏ / phân biệt / LT:個|个[ge4],LT:個|个[ge4]
+L3-0571,区别,qūbié,sự khác biệt / phân biệt / kỳ thị / tạo sự khác nhau,名、动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,sự khác biệt / phân biệt / kỳ thị / tạo sự khác nhau / LT:個|个[ge4],LT:個|个[ge4]
+L3-0572,取消,qǔxiāo,hủy / bãi bỏ,动,,INSERT_MOI,CHUA_DUYET,,hủy / bãi bỏ,
+L3-0573,去世,qùshì,qua đời / chết,动,,INSERT_MOI,CHUA_DUYET,,qua đời / chết,
+L3-0574,全场,quánchǎng,mọi người có mặt / toàn bộ khán giả / toàn diện / nhất trí / toàn bộ thời gian (của một cuộc thi đấu hoặc trận đấu),名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,mọi người có mặt / toàn bộ khán giả / toàn diện / nhất trí / toàn bộ thời gian (của một cuộc thi đấu hoặc trận đấu),
+L3-0575,全面,quánmiàn,toàn diện / toàn bộ / tổng thể / tổng quát,形,,INSERT_MOI,CHUA_DUYET,,toàn diện / toàn bộ / tổng thể / tổng quát,
+L3-0576,全球,quánqiú,toàn thế giới / toàn cầu,名,,INSERT_MOI,CHUA_DUYET,,toàn thế giới / toàn cầu,
+L3-0577,缺,quē,sự thiếu / hụt / không đủ / vị trí trống / thiếu hụt,动,,INSERT_MOI,CHUA_DUYET,,sự thiếu / hụt / không đủ / vị trí trống / thiếu hụt,
+L3-0578,缺点,quēdiǎn,điểm yếu / lỗi / khuyết điểm / bất lợi,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,điểm yếu / lỗi / khuyết điểm / bất lợi / LT:個|个[ge4],LT:個|个[ge4]
+L3-0579,缺少,quēshǎo,thiếu / sự thiếu hụt / thâm hụt / bị thiếu (hụt),动,,INSERT_MOI,CHUA_DUYET,,thiếu / sự thiếu hụt / thâm hụt / bị thiếu (hụt),
+L3-0580,确保,quèbǎo,đảm bảo; bảo đảm,动,,INSERT_MOI,CHUA_DUYET,,đảm bảo; bảo đảm,
+L3-0581,确定,quèdìng,rõ ràng / chắc chắn / cố định / để cố định (cái gì đó) / xác định / đảm bảo / bảo đảm / xác minh / đạt được / thừa nhận / xác nhận / OK (trong hộp thoại máy tính),形、动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,rõ ràng / chắc chắn / cố định / để cố định (cái gì đó) / xác định / đảm bảo / bảo đảm / xác minh / đạt được / thừa nhận / xác nhận / OK (trong hộp thoại máy tính),
+L3-0582,确实,quèshí,thực sự / thật / sự thật / có thật / đáng tin cậy / đúng,形、副,,INSERT_MOI,CHUA_DUYET,,thực sự / thật / sự thật / có thật / đáng tin cậy / đúng,
+L3-0583,裙子,qúnzi,váy,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,váy / LT:條|条[tiao2],LT:條|条[tiao2]
+L3-0584,群,qún,"biến thể của 群[qun2] / nhóm / đám / bầy, đàn, nhóm v.v.",量,,INSERT_MOI,CHUA_DUYET,,"biến thể của 群[qun2] || nhóm / đám / bầy, đàn, nhóm v.v.",
+L3-0585,热爱,rè'ài,yêu nhiệt thành / ngưỡng mộ,动,,INSERT_MOI,CHUA_DUYET,,yêu nhiệt thành / ngưỡng mộ,
+L3-0586,热烈,rèliè,nhiệt tình / nồng nhiệt / ấm áp,形,,INSERT_MOI,CHUA_DUYET,,nhiệt tình / nồng nhiệt / ấm áp,
+L3-0587,人才,réncái,tài năng / người tài năng / ngoại hình / ngoại hình hấp dẫn,名,,INSERT_MOI,CHUA_DUYET,,tài năng / người tài năng / ngoại hình / ngoại hình hấp dẫn,
+L3-0588,人工,réngōng,nhân tạo / nhân lực / công việc thủ công,名、形,,INSERT_MOI,CHUA_DUYET,,nhân tạo / nhân lực / công việc thủ công,
+L3-0589,人类,rénlèi,nhân loại / chủng tộc loài người,名,,INSERT_MOI,CHUA_DUYET,,nhân loại / chủng tộc loài người,
+L3-0590,人民,rénmín,nhân dân,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,nhân dân / LT:個|个[ge4],LT:個|个[ge4]
+L3-0591,人民币,rénmínbì,Nhân dân tệ (NDT) / Đồng Yuan Trung Quốc (CNY),名,,INSERT_MOI,CHUA_DUYET,,Nhân dân tệ (NDT) / Đồng Yuan Trung Quốc (CNY),
+L3-0592,人群,rénqún,đám đông,名,,INSERT_MOI,CHUA_DUYET,,đám đông,
+L3-0593,人生,rénshēng,đời người (thời gian sống trên thế gian),名,,INSERT_MOI,CHUA_DUYET,,đời người (thời gian sống trên thế gian),
+L3-0594,人员,rényuán,nhân viên / đội ngũ / nhân sự,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,nhân viên / đội ngũ / nhân sự / LT:個|个[ge4],LT:個|个[ge4]
+L3-0595,认出,rènchū,nhận ra / nhận diện,,,INSERT_MOI,CHUA_DUYET,,nhận ra / nhận diện,
+L3-0596,认得,rènde,nhận ra / nhớ điều gì đó (hoặc ai đó) khi nhìn thấy / biết,动,,INSERT_MOI,CHUA_DUYET,,nhận ra / nhớ điều gì đó (hoặc ai đó) khi nhìn thấy / biết,
+L3-0597,认可,rènkě,phê duyệt / chấp thuận / thừa nhận / đồng ý,动,,INSERT_MOI,CHUA_DUYET,,phê duyệt / chấp thuận / thừa nhận / đồng ý,
+L3-0598,任,rèn,"bổ nhiệm / chỉ định / nhậm chức / văn phòng / trách nhiệm / để cho / cho phép / tự do / dù (thế nào, cái gì, v.v.) / lượng từ cho nhiệm kỳ trong văn phòng, hoặc cho vợ, bạn gái, v.v. (như trong 前任男友)",动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"bổ nhiệm / chỉ định / nhậm chức / văn phòng / trách nhiệm / để cho / cho phép / tự do / dù (thế nào, cái gì, v.v.) / lượng từ cho nhiệm kỳ trong văn phòng, hoặc cho vợ, bạn gái, v.v. (như trong 前任男友)",
+L3-0599,任,rèn,"bổ nhiệm / chỉ định / nhậm chức / văn phòng / trách nhiệm / để cho / cho phép / tự do / dù (thế nào, cái gì, v.v.) / lượng từ cho nhiệm kỳ trong văn phòng, hoặc cho vợ, bạn gái, v.v. (như trong 前任男友)",连,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"bổ nhiệm / chỉ định / nhậm chức / văn phòng / trách nhiệm / để cho / cho phép / tự do / dù (thế nào, cái gì, v.v.) / lượng từ cho nhiệm kỳ trong văn phòng, hoặc cho vợ, bạn gái, v.v. (như trong 前任男友)",
+L3-0600,任何,rènhé,bất kỳ; bất cứ; nào cũng được,代,,INSERT_MOI,CHUA_DUYET,,bất kỳ; bất cứ; nào cũng được,
+L3-0601,任务,rènwu,nhiệm vụ; công việc; bổn phận; vai trò,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"nhiệm vụ; công việc; bổn phận; vai trò / LT:項|项[xiang4],個|个[ge4]","LT:項|项[xiang4],個|个[ge4]"
+L3-0602,仍,réng,vẫn / duy trì / (văn học) thường xuyên; hay,副,,INSERT_MOI,CHUA_DUYET,,vẫn / duy trì / (văn học) thường xuyên; hay,
+L3-0603,仍然,réngrán,vẫn; như trước,副,,INSERT_MOI,CHUA_DUYET,,vẫn; như trước,
+L3-0604,日常,rìcháng,hằng ngày; thường nhật; mỗi ngày,形,,INSERT_MOI,CHUA_DUYET,,hằng ngày; thường nhật; mỗi ngày,
+L3-0605,容易,róngyì,dễ dàng; đơn giản / có khả năng; dễ có thể; có khuynh hướng,形,,INSERT_MOI,CHUA_DUYET,,dễ dàng; đơn giản / có khả năng; dễ có thể; có khuynh hướng,
+L3-0606,如何,rúhé,như thế nào / cách gì / cái gì,代,,INSERT_MOI,CHUA_DUYET,,như thế nào / cách gì / cái gì,
+L3-0607,散步,sànbù,đi dạo; đi bộ,,,INSERT_MOI,CHUA_DUYET,,đi dạo; đi bộ,
+L3-0608,沙发,shāfā,ghế sô pha (từ mượn) / (tiếng lóng Internet) người đầu tiên trả lời một bài đăng trên diễn đàn,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"ghế sô pha (từ mượn) / LT:條|条[tiao2],張|张[zhang1] / (tiếng lóng Internet) người đầu tiên trả lời một bài đăng trên diễn đàn","LT:條|条[tiao2],張|张[zhang1]"
+L3-0609,沙子,shāzi,cát / sạn,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"cát / sạn / LT:粒[li4],把[ba3]","LT:粒[li4],把[ba3]"
+L3-0610,伤,shāng,làm bị thương / vết thương / thương tích,动、名,,INSERT_MOI,CHUA_DUYET,,làm bị thương / vết thương / thương tích,
+L3-0611,伤心,shāngxīn,đau buồn / tan nát cõi lòng / cảm thấy tổn thương sâu sắc,,,INSERT_MOI,CHUA_DUYET,,đau buồn / tan nát cõi lòng / cảm thấy tổn thương sâu sắc,
+L3-0612,商品,shāngpǐn,hàng hóa; sản phẩm; thương phẩm,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,hàng hóa; sản phẩm; thương phẩm / LT:件|件[jian4],LT:件|件[jian4]
+L3-0613,商业,shāngyè,kinh doanh / thương mại / buôn bán,名,,INSERT_MOI,CHUA_DUYET,,kinh doanh / thương mại / buôn bán,
+L3-0614,上来,shànglái,đi lên / tiếp cận / (bổ ngữ động từ chỉ sự thành công),,,INSERT_MOI,CHUA_DUYET,,đi lên / tiếp cận / (bổ ngữ động từ chỉ sự thành công),
+L3-0615,上面,shàngmiàn,bên trên / đã đề cập / cũng đọc là [shang4 mian5],名,,INSERT_MOI,CHUA_DUYET,,bên trên / đã đề cập / cũng đọc là [shang4 mian5],
+L3-0616,上去,shàngqù,đi lên,,,INSERT_MOI,CHUA_DUYET,,đi lên,
+L3-0617,上升,shàngshēng,tăng lên / đi lên / thăng,动,,INSERT_MOI,CHUA_DUYET,,tăng lên / đi lên / thăng,
+L3-0618,上衣,shàngyī,áo khoác / áo ngoài / lượng từ: 件[jian4],名,,INSERT_MOI,CHUA_DUYET,,áo khoác / áo ngoài / lượng từ: 件[jian4],
+L3-0619,设备,shèbèi,thiết bị; cơ sở vật chất; lắp đặt,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thiết bị; cơ sở vật chất; lắp đặt / LT:個|个[ge4],LT:個|个[ge4]
+L3-0620,设计,shèjì,thiết kế; lập kế hoạch / thiết kế; kế hoạch,动、名,,INSERT_MOI,CHUA_DUYET,,thiết kế; lập kế hoạch / thiết kế; kế hoạch,
+L3-0621,设立,shèlì,thiết lập; thành lập,动,,INSERT_MOI,CHUA_DUYET,,thiết lập; thành lập,
+L3-0622,社会,shèhuì,xã hội,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,xã hội / LT:個|个[ge4],LT:個|个[ge4]
+L3-0623,身份证,shēnfènzhèng,thẻ căn cước / chứng minh thư,名,,INSERT_MOI,CHUA_DUYET,,thẻ căn cước / chứng minh thư,
+L3-0624,深,shēn,biến thể cũ của 深[shen1] / sâu (cả nghĩa đen và bóng),形,,INSERT_MOI,CHUA_DUYET,,biến thể cũ của 深[shen1] || sâu (cả nghĩa đen và bóng),
+L3-0625,深刻,shēnkè,sâu sắc / sâu / chuyên sâu,形,,INSERT_MOI,CHUA_DUYET,,sâu sắc / sâu / chuyên sâu,
+L3-0626,深入,shēnrù,thâm nhập sâu / kỹ lưỡng,动、形,,INSERT_MOI,CHUA_DUYET,,thâm nhập sâu / kỹ lưỡng,
+L3-0627,升,shēng,thăng lên / tăng lên chức / thăng chức / kéo lên / lít / đơn vị đo lường ngũ cốc khô bằng một phần mười đấu 斗[dou3] / biến thể của 升[sheng1],动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,thăng lên / tăng lên chức / thăng chức / kéo lên / lít / đơn vị đo lường ngũ cốc khô bằng một phần mười đấu 斗[dou3] || biến thể của 升[sheng1],
+L3-0628,生,shēng,được sinh / sinh ra / cuộc sống / phát triển / sống / chưa chín / học sinh,形,967,TAI_SU_DUNG,CHUA_DUYET,,được sinh / sinh ra / cuộc sống / phát triển / sống / chưa chín / học sinh,
+L3-0629,生产,shēngchǎn,sản xuất; chế tạo / sinh con,动,,INSERT_MOI,CHUA_DUYET,,sản xuất; chế tạo / sinh con,
+L3-0630,生存,shēngcún,tồn tại / sống sót,动,,INSERT_MOI,CHUA_DUYET,,tồn tại / sống sót,
+L3-0631,生动,shēngdòng,sinh động / sống động,形,,INSERT_MOI,CHUA_DUYET,,sinh động / sống động,
+L3-0632,生命,shēngmìng,"sự sống (như đặc trưng của sinh vật) / sinh vật; sinh thể (LT:個|个[ge4],條|条[tiao2])",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"sự sống (như đặc trưng của sinh vật) / sinh vật; sinh thể (LT:個|个[ge4],條|条[tiao2])",
+L3-0633,生意,shēngyi,kinh doanh / Lượng từ: 筆|笔[bi3],名,,INSERT_MOI,CHUA_DUYET,,kinh doanh / Lượng từ: 筆|笔[bi3],
+L3-0634,生长,shēngzhǎng,phát triển / lớn lên / được nuôi dưỡng,动,,INSERT_MOI,CHUA_DUYET,,phát triển / lớn lên / được nuôi dưỡng,
+L3-0635,声明,shēngmíng,phát biểu / tuyên bố / lời phát biểu / bản tuyên bố,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"phát biểu / tuyên bố / lời phát biểu / bản tuyên bố / LT:項|项[xiang4],份[fen4]","LT:項|项[xiang4],份[fen4]"
+L3-0636,胜,shèng,chiến thắng / thành công / đánh bại / vượt qua / vượt trội / hơn / thắng / thắng thế / tuyệt đẹp (phong cảnh) / đẹp (cảnh sắc) / tuyệt vời (quang cảnh) / (cách phát âm ở Đài Loan [sheng1]) chịu đựng được / khám nổi (một nhiệm vụ),动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,chiến thắng / thành công / đánh bại / vượt qua / vượt trội / hơn / thắng / thắng thế / tuyệt đẹp (phong cảnh) / đẹp (cảnh sắc) / tuyệt vời (quang cảnh) / (cách phát âm ở Đài Loan [sheng1]) chịu đựng được / khám nổi (một nhiệm vụ),
+L3-0637,胜利,shènglì,chiến thắng,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,chiến thắng / LT:個|个[ge4],LT:個|个[ge4]
+L3-0638,失去,shīqù,mất,动,,INSERT_MOI,CHUA_DUYET,,mất,
+L3-0639,石头,shítou,đá,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,đá / LT:塊|块[kuai4],LT:塊|块[kuai4]
+L3-0640,石油,shíyóu,dầu / dầu mỏ,名,,INSERT_MOI,CHUA_DUYET,,dầu / dầu mỏ,
+L3-0641,时,shí,biến thể cũ của 時|时[shi2] / giờ / thời gian / khi / mùa / giai đoạn,名,,INSERT_MOI,CHUA_DUYET,,biến thể cũ của 時|时[shi2] || giờ / thời gian / khi / mùa / giai đoạn,
+L3-0642,时代,shídài,thời đại / kỷ nguyên / thời kỳ / giai đoạn (trong cuộc đời),名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thời đại / kỷ nguyên / thời kỳ / giai đoạn (trong cuộc đời) / LT:個|个[ge4],LT:個|个[ge4]
+L3-0643,时刻,shíkè,thời gian / thời điểm / khoảnh khắc / giai đoạn thời gian / liên tục / luôn luôn,名、副,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"thời gian / thời điểm / khoảnh khắc / giai đoạn thời gian / LT:個|个[ge4],段[duan4] / liên tục / luôn luôn","LT:個|个[ge4],段[duan4]"
+L3-0644,实际上,shíjìshàng,thực ra / trên thực tế / thực tế là / trong thực hành,副,,INSERT_MOI,CHUA_DUYET,,thực ra / trên thực tế / thực tế là / trong thực hành,
+L3-0645,实力,shílì,sức mạnh,名,,INSERT_MOI,CHUA_DUYET,,sức mạnh,
+L3-0646,实行,shíxíng,thực hiện / tiến hành / đưa vào thực tiễn,动,,INSERT_MOI,CHUA_DUYET,,thực hiện / tiến hành / đưa vào thực tiễn,
+L3-0647,实验,shíyàn,thí nghiệm / kiểm tra / mang tính thí nghiệm / tiến hành thí nghiệm,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"thí nghiệm / kiểm tra / LT:個|个[ge4],次[ci4] / mang tính thí nghiệm / tiến hành thí nghiệm","LT:個|个[ge4],次[ci4]"
+L3-0648,实验室,shíyànshì,phòng thí nghiệm,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,phòng thí nghiệm / LT:間|间[jian1],LT:間|间[jian1]
+L3-0649,食品,shípǐn,thực phẩm; đồ ăn; lương thực,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thực phẩm; đồ ăn; lương thực / LT:種|种[zhong3],LT:種|种[zhong3]
+L3-0650,使,shǐ,khiến / làm cho / cho phép / sử dụng / thuê / phái / dạy ai làm việc gì / đặc phái viên / người đưa tin,动,,INSERT_MOI,CHUA_DUYET,,khiến / làm cho / cho phép / sử dụng / thuê / phái / dạy ai làm việc gì / đặc phái viên / người đưa tin,
+L3-0651,始终,shǐzhōng,từ đầu đến cuối / luôn luôn,副,,INSERT_MOI,CHUA_DUYET,,từ đầu đến cuối / luôn luôn,
+L3-0652,世纪,shìjì,thế kỷ / Lượng từ:個|个[ge4],名,,INSERT_MOI,CHUA_DUYET,,thế kỷ / Lượng từ:個|个[ge4],
+L3-0653,世界,shìjiè,thế giới (LT:個|个[ge4]),名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thế giới (LT:個|个[ge4]),
+L3-0654,世界杯,shìjièbēi,World Cup,名,,INSERT_MOI,CHUA_DUYET,,World Cup,
+L3-0655,市场,shìchǎng,khu chợ / thị trường (cũng dùng trong nghĩa trừu tượng),名,,INSERT_MOI,CHUA_DUYET,,khu chợ / thị trường (cũng dùng trong nghĩa trừu tượng),
+L3-0656,事故,shìgù,tai nạn,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"tai nạn / LT:樁|桩[zhuang1],起[qi3],次[ci4]","LT:樁|桩[zhuang1],起[qi3],次[ci4]"
+L3-0657,事件,shìjiàn,sự kiện / sự việc / sự cố,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,sự kiện / sự việc / sự cố / LT:個|个[ge4],LT:個|个[ge4]
+L3-0658,事实,shìshí,sự thật,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,sự thật / LT:個|个[ge4],LT:個|个[ge4]
+L3-0659,事实上,shìshíshang,thực tế / trong thực tế / thực ra / trên thực tế,,,INSERT_MOI,CHUA_DUYET,,thực tế / trong thực tế / thực ra / trên thực tế,
+L3-0660,事业,shìyè,"công việc / dự án / hoạt động / sự nghiệp (từ thiện, chính trị hoặc cách mạng) / cơ quan, doanh nghiệp hoặc quỹ công lập / nghề nghiệp",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,"công việc / dự án / hoạt động / sự nghiệp (từ thiện, chính trị hoặc cách mạng) / cơ quan, doanh nghiệp hoặc quỹ công lập / nghề nghiệp / LT:個|个[ge4]",LT:個|个[ge4]
+L3-0661,试题,shìtí,câu hỏi thi / chủ đề kiểm tra,名,,INSERT_MOI,CHUA_DUYET,,câu hỏi thi / chủ đề kiểm tra,
+L3-0662,试验,shìyàn,thí nghiệm / kiểm tra / thử nghiệm,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"thí nghiệm / kiểm tra / LT:次[ci4],個|个[ge4] / thử nghiệm","LT:次[ci4],個|个[ge4]"
+L3-0663,适合,shìhé,phù hợp; thích hợp,动,,INSERT_MOI,CHUA_DUYET,,phù hợp; thích hợp,
+L3-0664,适应,shìyìng,thích nghi / phù hợp / hợp với,动,,INSERT_MOI,CHUA_DUYET,,thích nghi / phù hợp / hợp với,
+L3-0665,适用,shìyòng,có thể áp dụng,形,,INSERT_MOI,CHUA_DUYET,,có thể áp dụng,
+L3-0666,室,shì,phòng / đơn vị công tác / mộ / bao kiếm / gia đình hoặc thị tộc / một trong 28 chòm sao của thiên văn học Trung Quốc,名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,phòng / đơn vị công tác / mộ / bao kiếm / gia đình hoặc thị tộc / một trong 28 chòm sao của thiên văn học Trung Quốc,
+L3-0667,收费,shōufèi,thu phí,动,,INSERT_MOI,CHUA_DUYET,,thu phí,
+L3-0668,收看,shōukàn,xem (chương trình TV),动,,INSERT_MOI,CHUA_DUYET,,xem (chương trình TV),
+L3-0669,收听,shōutīng,nghe (chương trình phát thanh),动,,INSERT_MOI,CHUA_DUYET,,nghe (chương trình phát thanh),
+L3-0670,收音机,shōuyīnjī,radio / Lượng từ: 臺|台[tai2],名,,INSERT_MOI,CHUA_DUYET,,radio / Lượng từ: 臺|台[tai2],
+L3-0671,手续,shǒuxù,thủ tục,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"thủ tục / LT:道[dao4],個|个[ge4]","LT:道[dao4],個|个[ge4]"
+L3-0672,手指,shǒuzhǐ,ngón tay,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"ngón tay / LT:個|个[ge4],隻|只[zhi1]","LT:個|个[ge4],隻|只[zhi1]"
+L3-0673,首都,shǒudū,thủ đô,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thủ đô / LT:個|个[ge4],LT:個|个[ge4]
+L3-0674,首先,shǒuxiān,trước tiên / điều đầu tiên,副,,INSERT_MOI,CHUA_DUYET,,trước tiên / điều đầu tiên,
+L3-0675,受,shòu,nhận / chấp nhận / chịu / phải chịu / chịu đựng / đứng vững / dễ chịu / (dấu hiệu bị động),动,,INSERT_MOI,CHUA_DUYET,,nhận / chấp nhận / chịu / phải chịu / chịu đựng / đứng vững / dễ chịu / (dấu hiệu bị động),
+L3-0676,受伤,shòushāng,"bị thương / bị thương (trong tai nạn, v.v.) / bị hại",,,INSERT_MOI,CHUA_DUYET,,"bị thương / bị thương (trong tai nạn, v.v.) / bị hại",
+L3-0677,书架,shūjià,giá sách,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,giá sách / LT:個|个[ge4],LT:個|个[ge4]
+L3-0678,输,shū,thua; bị đánh bại / (dạng kết hợp) vận chuyển / (văn học) quyên góp; đóng góp / (thông tục) nhập (mật khẩu),动,,INSERT_MOI,CHUA_DUYET,,thua; bị đánh bại / (dạng kết hợp) vận chuyển / (văn học) quyên góp; đóng góp / (thông tục) nhập (mật khẩu),
+L3-0679,输入,shūrù,nhập khẩu / nhập liệu,动,,INSERT_MOI,CHUA_DUYET,,nhập khẩu / nhập liệu,
+L3-0680,熟人,shúrén,người quen / bạn bè,名,,INSERT_MOI,CHUA_DUYET,,người quen / bạn bè,
+L3-0681,属,shǔ,phân loại / chi (phân loại học) / thành viên gia đình / người phụ thuộc / thuộc về / trực thuộc / liên kết với / sinh năm (một trong 12 con giáp) / là / chứng tỏ là / cấu thành,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,phân loại / chi (phân loại học) / thành viên gia đình / người phụ thuộc / thuộc về / trực thuộc / liên kết với / sinh năm (một trong 12 con giáp) / là / chứng tỏ là / cấu thành,
+L3-0682,属于,shǔyú,được phân loại là / thuộc về / là một phần của,动,,INSERT_MOI,CHUA_DUYET,,được phân loại là / thuộc về / là một phần của,
+L3-0683,束,shù,"buộc / bó / gói / lượng từ cho bó, gói, tia sáng, v.v. / kiểm soát",量,,INSERT_MOI,CHUA_DUYET,,"buộc / bó / gói / lượng từ cho bó, gói, tia sáng, v.v. / kiểm soát",
+L3-0684,数量,shùliàng,số lượng (LT:個|个[ge4]) / thuộc về số lượng / (toán) đại lượng vô hướng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,số lượng (LT:個|个[ge4]) / thuộc về số lượng / (toán) đại lượng vô hướng,
+L3-0685,双,shuāng,hai / cặp / đôi / cả hai / số chẵn,量、形,,INSERT_MOI,CHUA_DUYET,,hai / cặp / đôi / cả hai / số chẵn,
+L3-0686,双方,shuāngfāng,song phương / hai bên / cả hai bên liên quan,名,,INSERT_MOI,CHUA_DUYET,,song phương / hai bên / cả hai bên liên quan,
+L3-0687,思想,sīxiǎng,suy nghĩ / tư duy / ý tưởng / tư tưởng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,suy nghĩ / tư duy / ý tưởng / tư tưởng / LT:個|个[ge4],LT:個|个[ge4]
+L3-0688,死,sǐ,chết / không thể qua được / không linh hoạt / cứng nhắc / cực kỳ / chết tiệt,动、形,,INSERT_MOI,CHUA_DUYET,,chết / không thể qua được / không linh hoạt / cứng nhắc / cực kỳ / chết tiệt,
+L3-0689,速度,sùdù,tốc độ / tốc suất / vận tốc / (âm nhạc) nhịp độ,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,tốc độ / tốc suất / vận tốc / (âm nhạc) nhịp độ / LT:個|个[ge4],LT:個|个[ge4]
+L3-0690,随,suí,theo / tuân theo / thay đổi theo... / cho phép / sau đó,动,,INSERT_MOI,CHUA_DUYET,,theo / tuân theo / thay đổi theo... / cho phép / sau đó,
+L3-0691,所,suǒ,"thực ra / nơi / lượng từ cho nhà, toà nhà nhỏ, cơ quan, v.v. / cái mà / phó từ giới thiệu mệnh đề quan hệ hoặc bị động",名、量,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,"thực ra / nơi / lượng từ cho nhà, toà nhà nhỏ, cơ quan, v.v. / cái mà / phó từ giới thiệu mệnh đề quan hệ hoặc bị động / LT:個|个[ge4]",LT:個|个[ge4]
+L3-0692,所长,suǒzhǎng,"người đứng đầu một viện, v.v.",名,,INSERT_MOI,CHUA_DUYET,,"người đứng đầu một viện, v.v.",
+L3-0693,台,tái,(văn cổ) ông (trong thư từ) / biến thể của 臺|台[tai2] / bàn; cái bàn; quầy / bục / sân khấu / sân / đài / hỗ trợ / nhà ga / đài phát thanh / lượng từ cho xe cộ hoặc máy móc / bão,名、量,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,(văn cổ) ông (trong thư từ) / biến thể của 臺|台[tai2] || bàn; cái bàn; quầy || bục / sân khấu / sân / đài / hỗ trợ / nhà ga / đài phát thanh / lượng từ cho xe cộ hoặc máy móc || bão,
+L3-0694,谈,tán,nói / trò chuyện / đàm thoại / tán gẫu / thảo luận,动,,INSERT_MOI,CHUA_DUYET,,nói / trò chuyện / đàm thoại / tán gẫu / thảo luận,
+L3-0695,谈话,tánhuà,nói chuyện (với ai đó) / có cuộc trò chuyện / nói chuyện / cuộc trò chuyện,,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,nói chuyện (với ai đó) / có cuộc trò chuyện / nói chuyện / cuộc trò chuyện / LT:次[ci4],LT:次[ci4]
+L3-0696,谈判,tánpàn,đàm phán / thương lượng / đàm thoại / hội nghị,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,đàm phán / thương lượng / đàm thoại / hội nghị / LT:個|个[ge4],LT:個|个[ge4]
+L3-0697,汤,tāng,canh / nước nóng hoặc sôi / thang thuốc đông y / nước luộc thứ gì đó,名,,INSERT_MOI,CHUA_DUYET,,canh / nước nóng hoặc sôi / thang thuốc đông y / nước luộc thứ gì đó,
+L3-0698,糖,táng,đường / kẹo / ngọt / biến thể cũ của 糖[tang2],名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"đường / kẹo / ngọt / LT:顆|颗[ke1],塊|块[kuai4] || biến thể cũ của 糖[tang2]","LT:顆|颗[ke1],塊|块[kuai4]"
+L3-0699,特色,tèsè,đặc trưng / nét đặc biệt hoặc chất lượng,名,,INSERT_MOI,CHUA_DUYET,,đặc trưng / nét đặc biệt hoặc chất lượng,
+L3-0700,提前,tíqián,dời lên ngày sớm hơn / làm gì đó trước thời hạn / trước thời hạn,动,,INSERT_MOI,CHUA_DUYET,,dời lên ngày sớm hơn / làm gì đó trước thời hạn / trước thời hạn,
+L3-0701,提问,tíwèn,đặt câu hỏi; kiểm tra; chất vấn,动,,INSERT_MOI,CHUA_DUYET,,đặt câu hỏi; kiểm tra; chất vấn,
+L3-0702,题目,tímù,chủ đề; tiêu đề; đề tài (LT:個|个[ge4]) / câu hỏi bài tập hoặc thi cử (LT:道[dao4]),名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,chủ đề; tiêu đề; đề tài (LT:個|个[ge4]) / câu hỏi bài tập hoặc thi cử (LT:道[dao4]),
+L3-0703,体会,tǐhuì,biết từ kinh nghiệm / học qua trải nghiệm / nhận ra / sự hiểu biết / kinh nghiệm,动、名,,INSERT_MOI,CHUA_DUYET,,biết từ kinh nghiệm / học qua trải nghiệm / nhận ra / sự hiểu biết / kinh nghiệm,
+L3-0704,体现,tǐxiàn,thể hiện / phản ánh / hiện thân,动,,INSERT_MOI,CHUA_DUYET,,thể hiện / phản ánh / hiện thân,
+L3-0705,体验,tǐyàn,trải nghiệm,动,,INSERT_MOI,CHUA_DUYET,,trải nghiệm,
+L3-0706,天空,tiānkōng,bầu trời,名,,INSERT_MOI,CHUA_DUYET,,bầu trời,
+L3-0707,甜,tián,ngọt,形,,INSERT_MOI,CHUA_DUYET,,ngọt,
+L3-0708,调,tiáo,hòa hợp / hòa giải / phối hợp / phù hợp tốt / điều chỉnh / điều tiết / nêm nếm (thức ăn) / kích động / xúi giục,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,hòa hợp / hòa giải / phối hợp / phù hợp tốt / điều chỉnh / điều tiết / nêm nếm (thức ăn) / kích động / xúi giục,
+L3-0709,调整,tiáozhěng,điều chỉnh / sự điều chỉnh / sửa đổi,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,điều chỉnh / sự điều chỉnh / sửa đổi / LT:個|个[ge4],LT:個|个[ge4]
+L3-0710,跳,tiào,nhảy / nhảy lò cò / nhảy qua / nảy / tim đập mạnh,动,,INSERT_MOI,CHUA_DUYET,,nhảy / nhảy lò cò / nhảy qua / nảy / tim đập mạnh,
+L3-0711,跳高,tiàogāo,nhảy cao (điền kinh),动,,INSERT_MOI,CHUA_DUYET,,nhảy cao (điền kinh),
+L3-0712,跳舞,tiàowǔ,nhảy múa,,,INSERT_MOI,CHUA_DUYET,,nhảy múa,
+L3-0713,跳远,tiàoyuǎn,nhảy xa (điền kinh),动,,INSERT_MOI,CHUA_DUYET,,nhảy xa (điền kinh),
+L3-0714,铁,tiě,sắt (kim loại) / vũ khí / cứng / mạnh / bạo lực / không lay chuyển / quyết tâm / thân thiết / chặt (tiếng lóng),名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,sắt (kim loại) / vũ khí / cứng / mạnh / bạo lực / không lay chuyển / quyết tâm / thân thiết / chặt (tiếng lóng),
+L3-0715,铁路,tiělù,đường sắt / đường ray,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,đường sắt / đường ray / LT:條|条[tiao2],LT:條|条[tiao2]
+L3-0716,听力,tīnglì,thính giác / khả năng nghe,名,,INSERT_MOI,CHUA_DUYET,,thính giác / khả năng nghe,
+L3-0717,听众,tīngzhòng,khán giả / thính giả,名,,INSERT_MOI,CHUA_DUYET,,khán giả / thính giả,
+L3-0718,停止,tíngzhǐ,dừng; tạm dừng; ngừng lại,动,,INSERT_MOI,CHUA_DUYET,,dừng; tạm dừng; ngừng lại,
+L3-0719,通常,tōngcháng,thông thường; bình thường / thường xuyên; thường thường,形,,INSERT_MOI,CHUA_DUYET,,thông thường; bình thường / thường xuyên; thường thường,
+L3-0720,通信,tōngxìn,trao đổi thư từ / giao tiếp / truyền thông,,,INSERT_MOI,CHUA_DUYET,,trao đổi thư từ / giao tiếp / truyền thông,
+L3-0721,同意,tóngyì,đồng ý / tán thành / chấp thuận,动,,INSERT_MOI,CHUA_DUYET,,đồng ý / tán thành / chấp thuận,
+L3-0722,痛,tòng,đau / đau đớn / phiền muộn / sâu sắc / thấu đáo,形,,INSERT_MOI,CHUA_DUYET,,đau / đau đớn / phiền muộn / sâu sắc / thấu đáo,
+L3-0723,痛苦,tòngkǔ,đau đớn / khổ sở / đau khổ,形,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,đau đớn / khổ sở / đau khổ / LT:個|个[ge4],LT:個|个[ge4]
+L3-0724,头,tóu,đầu / kiểu tóc / trên cùng / cuối / đoạn còn lại / tàn dư / trưởng / sếp / mặt / phương diện / đầu tiên / dẫn đầu / lượng từ cho heo hoặc gia súc,形,1039,TAI_SU_DUNG,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,đầu / kiểu tóc / trên cùng / cuối / đoạn còn lại / tàn dư / trưởng / sếp / mặt / phương diện / đầu tiên / dẫn đầu / lượng từ cho heo hoặc gia súc / LT:個|个[ge4],LT:個|个[ge4]
+L3-0725,头脑,tóunǎo,bộ não / tâm trí / hộp sọ / (bóng) ý chính (của vấn đề) / người đứng đầu / sếp,名,,INSERT_MOI,CHUA_DUYET,,bộ não / tâm trí / hộp sọ / (bóng) ý chính (của vấn đề) / người đứng đầu / sếp,
+L3-0726,突出,tūchū,nổi bật / xuất sắc / làm nổi bật / lồi ra / nhô ra,形、动,,INSERT_MOI,CHUA_DUYET,,nổi bật / xuất sắc / làm nổi bật / lồi ra / nhô ra,
+L3-0727,突然,tūrán,đột ngột; bất ngờ; không dự kiến,形,,INSERT_MOI,CHUA_DUYET,,đột ngột; bất ngờ; không dự kiến,
+L3-0728,图,tú,sơ đồ / hình ảnh / bức vẽ / biểu đồ / bản đồ / lên kế hoạch / am mưu / cố gắng / theo đuổi / tìm kiếm,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,sơ đồ / hình ảnh / bức vẽ / biểu đồ / bản đồ / LT:張|张[zhang1] / lên kế hoạch / am mưu / cố gắng / theo đuổi / tìm kiếm,LT:張|张[zhang1]
+L3-0729,图画,túhuà,tranh / hình ảnh,名,,INSERT_MOI,CHUA_DUYET,,tranh / hình ảnh,
+L3-0730,土,tǔ,đất / bụi / đất sét / địa phương / bản địa / thuốc phiện thô / không tinh tế / một trong tám loại nhạc cụ cổ đại 八音[ba1 yin1],名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,đất / bụi / đất sét / địa phương / bản địa / thuốc phiện thô / không tinh tế / một trong tám loại nhạc cụ cổ đại 八音[ba1 yin1],
+L3-0731,团,tuán,"tròn / cục / khối / cuộn thành bóng / tụ tập / trung đoàn / nhóm / hội / lượng từ cho một khối hoặc chất mềm: nắm (giấy), cuộn (len), đám (khói) / bánh hấp",名、量,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"tròn / cục / khối / cuộn thành bóng / tụ tập / trung đoàn / nhóm / hội / lượng từ cho một khối hoặc chất mềm: nắm (giấy), cuộn (len), đám (khói) || bánh hấp",
+L3-0732,团结,tuánjié,đoàn kết / sự đoàn kết; tinh thần đoàn kết,动,,INSERT_MOI,CHUA_DUYET,,đoàn kết / sự đoàn kết; tinh thần đoàn kết,
+L3-0733,团体,tuántǐ,nhóm / tổ chức / đội,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,nhóm / tổ chức / đội / LT:個|个[ge4],LT:個|个[ge4]
+L3-0734,推动,tuīdòng,thúc đẩy (ví dụ: để chấp nhận một kế hoạch); khuyến khích; tạo động lực cho,,,INSERT_MOI,CHUA_DUYET,,thúc đẩy (ví dụ: để chấp nhận một kế hoạch); khuyến khích; tạo động lực cho,
+L3-0735,推广,tuīguǎng,"mở rộng / lan rộng / phổ biến / khái quát hóa / quảng bá (sản phẩm, v.v.)",动,,INSERT_MOI,CHUA_DUYET,,"mở rộng / lan rộng / phổ biến / khái quát hóa / quảng bá (sản phẩm, v.v.)",
+L3-0736,推进,tuījìn,thúc đẩy / tiến hành / đẩy tới / phát triển / thúc tiến,动,,INSERT_MOI,CHUA_DUYET,,thúc đẩy / tiến hành / đẩy tới / phát triển / thúc tiến,
+L3-0737,推开,tuīkāi,"đẩy ra (cổng, v.v.) / đẩy đi / từ chối",,,INSERT_MOI,CHUA_DUYET,,"đẩy ra (cổng, v.v.) / đẩy đi / từ chối",
+L3-0738,退,tuì,rút lui; rút khỏi / từ chối; trả lại (cái gì đó) / từ chối,动,,INSERT_MOI,CHUA_DUYET,,rút lui; rút khỏi / từ chối; trả lại (cái gì đó) / từ chối,
+L3-0739,退出,tuìchū,rút lui / hủy bỏ / thoát / đăng xuất (máy tính),动,,INSERT_MOI,CHUA_DUYET,,rút lui / hủy bỏ / thoát / đăng xuất (máy tính),
+L3-0740,退休,tuìxiū,nghỉ hưu (khỏi lực lượng lao động); đi vào nghỉ hưu,,,INSERT_MOI,CHUA_DUYET,,nghỉ hưu (khỏi lực lượng lao động); đi vào nghỉ hưu,
+L3-0741,外交,wàijiāo,ngoại giao / thuộc ngoại giao / công việc đối ngoại,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,ngoại giao / thuộc ngoại giao / công việc đối ngoại / LT:個|个[ge4],LT:個|个[ge4]
+L3-0742,外面,wàimiàn,bên ngoài (cũng phát âm [wai4 mian5] cho nghĩa này) / bề mặt / bên ngoài / diện mạo bên ngoài,名,,INSERT_MOI,CHUA_DUYET,,bên ngoài (cũng phát âm [wai4 mian5] cho nghĩa này) / bề mặt / bên ngoài / diện mạo bên ngoài,
+L3-0743,外文,wàiwén,ngoại ngữ (viết),名,,INSERT_MOI,CHUA_DUYET,,ngoại ngữ (viết),
+L3-0744,完美,wánměi,hoàn hảo,形,,INSERT_MOI,CHUA_DUYET,,hoàn hảo,
+L3-0745,完善,wánshàn,"(hệ thống, cơ sở vật chất, v.v.) toàn diện / phát triển tốt / xuất sắc / cải thiện / nâng cao",形、动,,INSERT_MOI,CHUA_DUYET,,"(hệ thống, cơ sở vật chất, v.v.) toàn diện / phát triển tốt / xuất sắc / cải thiện / nâng cao",
+L3-0746,完整,wánzhěng,hoàn chỉnh / nguyên vẹn,形,,INSERT_MOI,CHUA_DUYET,,hoàn chỉnh / nguyên vẹn,
+L3-0747,玩具,wánjù,đồ chơi,名,,INSERT_MOI,CHUA_DUYET,,đồ chơi,
+L3-0748,往往,wǎngwǎng,thường thường / trong nhiều trường hợp / thường là,副,,INSERT_MOI,CHUA_DUYET,,thường thường / trong nhiều trường hợp / thường là,
+L3-0749,危害,wēihài,gây nguy hại / làm hại / gây nguy hiểm / tác động có hại / tổn hại,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,gây nguy hại / làm hại / gây nguy hiểm / tác động có hại / tổn hại / LT:個|个[ge4],LT:個|个[ge4]
+L3-0750,危险,wēixiǎn,nguy hiểm,形、名,,INSERT_MOI,CHUA_DUYET,,nguy hiểm,
+L3-0751,为,wéi,làm (với tư cách) / xem cái gì như / làm như / phục vụ như / cư xử như / trở thành / là / làm / bởi (trong câu bị động) / biến thể của 為|为[wei2],动,,CAN_KIEM_TRA,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON; CAN_KIEM_TRA_TU_DA_AM,làm (với tư cách) / xem cái gì như / làm như / phục vụ như / cư xử như / trở thành / là / làm / bởi (trong câu bị động) || biến thể của 為|为[wei2],
+L3-0752,为,wéi,làm (với tư cách) / xem cái gì như / làm như / phục vụ như / cư xử như / trở thành / là / làm / bởi (trong câu bị động) / biến thể của 為|为[wei2],介,,CAN_KIEM_TRA,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON; CAN_KIEM_TRA_TU_DA_AM,làm (với tư cách) / xem cái gì như / làm như / phục vụ như / cư xử như / trở thành / là / làm / bởi (trong câu bị động) || biến thể của 為|为[wei2],
+L3-0753,围,wéi,"bao quanh / bao vây / xung quanh / đeo bằng cách quấn quanh (khăn quàng, khăn choàng)",动,,INSERT_MOI,CHUA_DUYET,,"bao quanh / bao vây / xung quanh / đeo bằng cách quấn quanh (khăn quàng, khăn choàng)",
+L3-0754,伟大,wěidà,"to lớn; vĩ đại; đáng ngưỡng mộ nhất; quan trọng (đóng góp, v.v.)",形,,INSERT_MOI,CHUA_DUYET,,"to lớn; vĩ đại; đáng ngưỡng mộ nhất; quan trọng (đóng góp, v.v.)",
+L3-0755,卫生,wèishēng,sức khỏe / vệ sinh / hệ thống vệ sinh,形、名,,INSERT_MOI,CHUA_DUYET,,sức khỏe / vệ sinh / hệ thống vệ sinh,
+L3-0756,卫生间,wèishēngjiān,phòng tắm / nhà vệ sinh / WC,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,phòng tắm / nhà vệ sinh / WC / LT:間|间[jian1],LT:間|间[jian1]
+L3-0757,为了,wèile,để; nhằm mục đích; để mà,介,,INSERT_MOI,CHUA_DUYET,,để; nhằm mục đích; để mà,
+L3-0758,温暖,wēnnuǎn,ấm áp,形、动,,INSERT_MOI,CHUA_DUYET,,ấm áp,
+L3-0759,文化,wénhuà,văn hóa / nền văn minh / thuộc về văn hóa,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"văn hóa / nền văn minh / thuộc về văn hóa / LT:個|个[ge4],種|种[zhong3]","LT:個|个[ge4],種|种[zhong3]"
+L3-0760,文件,wénjiàn,tài liệu / tệp,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,tài liệu / tệp / LT:份[fen4],LT:份[fen4]
+L3-0761,文明,wénmíng,văn minh / nền văn minh / văn hóa,名、形,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,văn minh / nền văn minh / văn hóa / LT:個|个[ge4],LT:個|个[ge4]
+L3-0762,文学,wénxué,văn học,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,văn học / LT:種|种[zhong3],LT:種|种[zhong3]
+L3-0763,文章,wénzhāng,bài viết / bài luận / tác phẩm văn học / văn bản / nghĩa ẩn,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"bài viết / bài luận / tác phẩm văn học / văn bản / nghĩa ẩn / LT:篇[pian1],段[duan4],頁|页[ye4]","LT:篇[pian1],段[duan4],頁|页[ye4]"
+L3-0764,文字,wénzì,chữ viết / kịch bản / văn bản / ngôn ngữ viết / phong cách viết / cách hành văn,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,chữ viết / kịch bản / văn bản / ngôn ngữ viết / phong cách viết / cách hành văn / LT:個|个[ge4],LT:個|个[ge4]
+L3-0765,握手,wòshǒu,bắt tay,,,INSERT_MOI,CHUA_DUYET,,bắt tay,
+L3-0766,屋子,wūzi,nhà / phòng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,nhà / phòng / LT:間|间[jian1],LT:間|间[jian1]
+L3-0767,武器,wǔqì,vũ khí / đồ quân dụng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,vũ khí / đồ quân dụng / LT:種|种[zhong3],LT:種|种[zhong3]
+L3-0768,武术,wǔshù,kỹ năng hoặc kỹ thuật quân sự (thời xưa) / các môn thể thao võ thuật (một số tuyên bố phát triển tâm linh) / tự vệ / truyền thống các trận đấu được biên đạo từ kinh kịch và phim ảnh (cách dùng gần đây) / còn gọi là kungfu 功夫,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,kỹ năng hoặc kỹ thuật quân sự (thời xưa) / các môn thể thao võ thuật (một số tuyên bố phát triển tâm linh) / tự vệ / truyền thống các trận đấu được biên đạo từ kinh kịch và phim ảnh (cách dùng gần đây) / còn gọi là kungfu 功夫 / LT:種|种[zhong3],LT:種|种[zhong3]
+L3-0769,舞台,wǔtái,(nghĩa đen và bóng) sân khấu; đấu trường,名,,INSERT_MOI,CHUA_DUYET,,(nghĩa đen và bóng) sân khấu; đấu trường,
+L3-0770,西部,xībù,phần phía tây,名,,INSERT_MOI,CHUA_DUYET,,phần phía tây,
+L3-0771,希望,xīwàng,hy vọng / một hy vọng; một điều ước (LT:個|个[ge4]),动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,hy vọng / một hy vọng; một điều ước (LT:個|个[ge4]),
+L3-0772,系,xì,kết nối / liên quan đến / buộc / ràng buộc / là (văn học) / hệ thống / khoa / ban / kết nối / bắt giữ / lo lắng,名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,kết nối / liên quan đến / buộc / ràng buộc / là (văn học) || hệ thống / khoa / ban || kết nối / bắt giữ / lo lắng,
+L3-0773,下来,xiàlái,"đi xuống / (thành tố động tác hoàn thành) / (sau động từ chỉ sự chuyển động xuống và hướng về phía chúng ta, cả nghĩa bóng) / (chỉ sự tiếp diễn từ quá khứ đến hiện tại) / được thu hoạch (hoa màu) / kết thúc (một giai đoạn thời gian) / đi vào quần chúng (nói về lãnh đạo)",,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"đi xuống / (thành tố động tác hoàn thành) / (sau động từ chỉ sự chuyển động xuống và hướng về phía chúng ta, cả nghĩa bóng) / (chỉ sự tiếp diễn từ quá khứ đến hiện tại) / được thu hoạch (hoa màu) / kết thúc (một giai đoạn thời gian) / đi vào quần chúng (nói về lãnh đạo)",
+L3-0774,下面,xiàmiàn,bên dưới / dưới / tiếp theo / sau đây / cũng đọc là [xia4 mian5] / luộc mì,名,,INSERT_MOI,CHUA_DUYET,,bên dưới / dưới / tiếp theo / sau đây / cũng đọc là [xia4 mian5] || luộc mì,
+L3-0775,下去,xiàqù,đi xuống / tiếp tục / (của người hầu) lui ra,,,INSERT_MOI,CHUA_DUYET,,đi xuống / tiếp tục / (của người hầu) lui ra,
+L3-0776,先进,xiānjìn,"tiên tiến (công nghệ, v.v.) / xuất sắc; gương mẫu (hành động, v.v.)",形、名,,INSERT_MOI,CHUA_DUYET,,"tiên tiến (công nghệ, v.v.) / xuất sắc; gương mẫu (hành động, v.v.)",
+L3-0777,显得,xiǎnde,dường như / trông / có vẻ,动,,INSERT_MOI,CHUA_DUYET,,dường như / trông / có vẻ,
+L3-0778,显然,xiǎnrán,rõ ràng; hiển nhiên,形,,INSERT_MOI,CHUA_DUYET,,rõ ràng; hiển nhiên,
+L3-0779,显示,xiǎnshì,hiển thị / minh họa / trình bày / chứng minh,动,,INSERT_MOI,CHUA_DUYET,,hiển thị / minh họa / trình bày / chứng minh,
+L3-0780,现场,xiànchǎng,"hiện trường (của vụ án, tai nạn, v.v.) / tại chỗ / tại hiện trường",名,,INSERT_MOI,CHUA_DUYET,,"hiện trường (của vụ án, tai nạn, v.v.) / tại chỗ / tại hiện trường",
+L3-0781,现代,xiàndài,thời hiện đại / kỷ nguyên hiện đại,名,,INSERT_MOI,CHUA_DUYET,,thời hiện đại / kỷ nguyên hiện đại,
+L3-0782,现金,xiànjīn,tiền mặt,名,,INSERT_MOI,CHUA_DUYET,,tiền mặt,
+L3-0783,现实,xiànshí,thực tế; hiện thực / thật; thực / tính thực tế; thực dụng; vật chất; tư lợi,名,,INSERT_MOI,CHUA_DUYET,,thực tế; hiện thực / thật; thực / tính thực tế; thực dụng; vật chất; tư lợi,
+L3-0784,现象,xiànxiàng,hiện tượng / bề ngoài,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"hiện tượng / LT:個|个[ge4],種|种[zhong3] / bề ngoài","LT:個|个[ge4],種|种[zhong3]"
+L3-0785,线,xiàn,biến thể của 線|线[xian4] / chỉ / sợi / dây / đường / (sau một con số) hạng (xếp hạng không chính thức của một thành phố ở Trung Quốc),名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,"biến thể của 線|线[xian4] || chỉ / sợi / dây / đường / LT:條|条[tiao2],股[gu3],根[gen1] / (sau một con số) hạng (xếp hạng không chính thức của một thành phố ở Trung Quốc)","LT:條|条[tiao2],股[gu3],根[gen1]"
+L3-0786,相比,xiāngbǐ,so sánh,动,,INSERT_MOI,CHUA_DUYET,,so sánh,
+L3-0787,相当,xiāngdāng,tương đương / phù hợp / khá / đến một mức độ nhất định / tương đối,副、动,,INSERT_MOI,CHUA_DUYET,,tương đương / phù hợp / khá / đến một mức độ nhất định / tương đối,
+L3-0788,相关,xiāngguān,liên quan / tương ứng / thích hợp / có quan hệ với nhau / (thống kê) tương quan,动,,INSERT_MOI,CHUA_DUYET,,liên quan / tương ứng / thích hợp / có quan hệ với nhau / (thống kê) tương quan,
+L3-0789,相互,xiānghù,lẫn nhau / tương hỗ,副,,INSERT_MOI,CHUA_DUYET,,lẫn nhau / tương hỗ,
+L3-0790,相似,xiāngsì,tương tự; giống nhau,形,,INSERT_MOI,CHUA_DUYET,,tương tự; giống nhau,
+L3-0791,香,xiāng,thơm / ngửi thơm / hương thơm / ngon hoặc hấp dẫn / (ăn) ngon lành / (ngủ) ngon / nước hoa hoặc gia vị / que hương hoặc cây nhang,形,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,thơm / ngửi thơm / hương thơm / ngon hoặc hấp dẫn / (ăn) ngon lành / (ngủ) ngon / nước hoa hoặc gia vị / que hương hoặc cây nhang / LT: 根[gen1],LT: 根[gen1]
+L3-0792,香蕉,xiāngjiāo,quả chuối,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"quả chuối / LT: 枝[zhi1], 根[gen1], 個|个[ge4], 把[ba3]","LT: 枝[zhi1], 根[gen1], 個|个[ge4], 把[ba3]"
+L3-0793,消费,xiāofèi,"tiêu thụ (hàng hóa và dịch vụ, tài nguyên, v.v.)",动,,INSERT_MOI,CHUA_DUYET,,"tiêu thụ (hàng hóa và dịch vụ, tài nguyên, v.v.)",
+L3-0794,消失,xiāoshī,biến mất; phai nhạt,动,,INSERT_MOI,CHUA_DUYET,,biến mất; phai nhạt,
+L3-0795,消息,xiāoxi,tin tức / thông tin,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,tin tức / thông tin / LT:條|条[tiao2],LT:條|条[tiao2]
+L3-0796,效果,xiàoguǒ,kết quả / hiệu quả / tác dụng / (rạp hát) hiệu ứng âm thanh hoặc hình ảnh,名,,INSERT_MOI,CHUA_DUYET,,kết quả / hiệu quả / tác dụng / (rạp hát) hiệu ứng âm thanh hoặc hình ảnh,
+L3-0797,写作,xiězuò,viết / sáng tác / bài viết / tác phẩm viết,动,,INSERT_MOI,CHUA_DUYET,,viết / sáng tác / bài viết / tác phẩm viết,
+L3-0798,血,xiě,"máu / khẩu ngữ đọc là [xie3] / Lượng từ: 滴[di1],片[pian4]",名,,INSERT_MOI,CHUA_DUYET,,"máu / khẩu ngữ đọc là [xie3] / Lượng từ: 滴[di1],片[pian4]",
+L3-0799,心,xīn,tim / tâm / trái tim / trung tâm / lõi,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"tim / tâm / trái tim / trung tâm / lõi / LT:顆|颗[ke1],個|个[ge4]","LT:顆|颗[ke1],個|个[ge4]"
+L3-0800,信,xìn,thư / tín / tin tưởng / tin / tín ngưỡng / thành thật / tự tin / tin cậy / tùy ý / ngẫu nhiên,动,1106,TAI_SU_DUNG,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thư / tín / LT:封[feng1] / tin tưởng / tin / tín ngưỡng / thành thật / tự tin / tin cậy / tùy ý / ngẫu nhiên,LT:封[feng1]
+L3-0801,信封,xìnfēng,phong bì / Lượng từ:個|个[ge4],名,,INSERT_MOI,CHUA_DUYET,,phong bì / Lượng từ:個|个[ge4],
+L3-0802,信任,xìnrèn,tin tưởng / có niềm tin vào,动,,INSERT_MOI,CHUA_DUYET,,tin tưởng / có niềm tin vào,
+L3-0803,行李,xíngli,hành lý,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,hành lý / LT:件[jian4],LT:件[jian4]
+L3-0804,形成,xíngchéng,hình thành; định hình,动,,INSERT_MOI,CHUA_DUYET,,hình thành; định hình,
+L3-0805,形式,xíngshì,bề ngoài / hình thức / hình dáng / Lượng từ: 個|个[ge4],名,,INSERT_MOI,CHUA_DUYET,,bề ngoài / hình thức / hình dáng / Lượng từ: 個|个[ge4],
+L3-0806,形象,xíngxiàng,hình ảnh / hình tượng / hình dung / sinh động,名、形,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,hình ảnh / hình tượng / LT:個|个[ge4] / hình dung / sinh động,LT:個|个[ge4]
+L3-0807,形状,xíngzhuàng,hình dạng; hình dáng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,hình dạng; hình dáng / LT:個|个[ge4],LT:個|个[ge4]
+L3-0808,幸福,xìngfú,hạnh phúc / vui vẻ / được ban phước,形、名,,INSERT_MOI,CHUA_DUYET,,hạnh phúc / vui vẻ / được ban phước,
+L3-0809,幸运,xìngyùn,may mắn / phúc lành; vận may,形,,INSERT_MOI,CHUA_DUYET,,may mắn / phúc lành; vận may,
+L3-0810,性（积极性）,xìng(jījíxìng),"bản chất / tính cách / đặc tính / chất lượng / thuộc tính / tính dục / tình dục / giới tính / hậu tố hình thành tính từ từ động từ / hậu tố hình thành danh từ từ tính từ, tương ứng với -ness hoặc -ity",后缀,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,"bản chất / tính cách / đặc tính / chất lượng / thuộc tính / tính dục / tình dục / giới tính / hậu tố hình thành tính từ từ động từ / hậu tố hình thành danh từ từ tính từ, tương ứng với -ness hoặc -ity / LT:個|个[ge4]",LT:個|个[ge4]
+L3-0811,性别,xìngbié,giới tính,名,,INSERT_MOI,CHUA_DUYET,,giới tính,
+L3-0812,性格,xìnggé,bản chất / tính tình / tính khí / nhân cách,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,bản chất / tính tình / tính khí / nhân cách / LT:個|个[ge4],LT:個|个[ge4]
+L3-0813,修,xiū,trang trí / tô điểm / sửa chữa / xây dựng / viết / trau dồi / học / theo học (một lớp) / biến thể của 修[xiu1],动,,INSERT_MOI,CHUA_DUYET,,trang trí / tô điểm / sửa chữa / xây dựng / viết / trau dồi / học / theo học (một lớp) || biến thể của 修[xiu1],
+L3-0814,修改,xiūgǎi,sửa đổi / thay đổi / chỉnh sửa,动,,INSERT_MOI,CHUA_DUYET,,sửa đổi / thay đổi / chỉnh sửa,
+L3-0815,需求,xūqiú,yêu cầu / cần / (kinh tế) nhu cầu,名,,INSERT_MOI,CHUA_DUYET,,yêu cầu / cần / (kinh tế) nhu cầu,
+L3-0816,需要,xūyào,cần; muốn; yêu cầu; đòi hỏi / nhu cầu,动、名,,INSERT_MOI,CHUA_DUYET,,cần; muốn; yêu cầu; đòi hỏi / nhu cầu,
+L3-0817,宣布,xuānbù,tuyên bố / thông báo / công bố,动,,INSERT_MOI,CHUA_DUYET,,tuyên bố / thông báo / công bố,
+L3-0818,宣传,xuānchuán,truyền bá / quảng cáo / tuyên truyền,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,truyền bá / quảng cáo / tuyên truyền / LT:個|个[ge4],LT:個|个[ge4]
+L3-0819,选手,xuǎnshǒu,vận động viên / thí sinh,名,,INSERT_MOI,CHUA_DUYET,,vận động viên / thí sinh,
+L3-0820,学费,xuéfèi,học phí / tiền học,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,học phí / tiền học / LT:個|个[ge4],LT:個|个[ge4]
+L3-0821,训练,xùnliàn,huấn luyện / diễn tập / đào tạo,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,huấn luyện / diễn tập / đào tạo / LT:個|个[ge4],LT:個|个[ge4]
+L3-0822,压,yā,đè / ấn xuống / kiềm chế / áp lực,动,,INSERT_MOI,CHUA_DUYET,,đè / ấn xuống / kiềm chế / áp lực,
+L3-0823,压力,yālì,áp lực,名,,INSERT_MOI,CHUA_DUYET,,áp lực,
+L3-0824,烟,yān,thuốc lá hoặc thuốc lào / khói / sương / hơi nước / cây thuốc lá / (mắt) bị kích thích bởi khói,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thuốc lá hoặc thuốc lào / LT:根[gen1] / khói / sương / hơi nước / LT:縷|缕[lu:3] / cây thuốc lá / (mắt) bị kích thích bởi khói,LT:根[gen1] / LT:縷|缕[lu:3]
+L3-0825,眼前,yǎnqián,trước mắt / bây giờ / hiện tại,名,,INSERT_MOI,CHUA_DUYET,,trước mắt / bây giờ / hiện tại,
+L3-0826,演,yǎn,"biểu diễn (vở kịch, v.v.); dàn dựng (một buổi diễn) / (hình thức kết hợp) phát triển; diễn ra; thực hiện (một nhiệm vụ)",动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"biểu diễn (vở kịch, v.v.); dàn dựng (một buổi diễn) / (hình thức kết hợp) phát triển; diễn ra; thực hiện (một nhiệm vụ)",
+L3-0827,演唱,yǎnchàng,hát (trước khán giả) / biểu diễn thanh nhạc,动,,INSERT_MOI,CHUA_DUYET,,hát (trước khán giả) / biểu diễn thanh nhạc,
+L3-0828,演唱会,yǎnchànghuì,buổi hòa nhạc hoặc buổi biểu diễn,名,,INSERT_MOI,CHUA_DUYET,,buổi hòa nhạc hoặc buổi biểu diễn,
+L3-0829,演出,yǎnchū,diễn (trong một vở kịch) / biểu diễn / dàn dựng (một buổi diễn) / buổi biểu diễn / hòa nhạc / chương trình,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"diễn (trong một vở kịch) / biểu diễn / dàn dựng (một buổi diễn) / buổi biểu diễn / hòa nhạc / chương trình / LT:場|场[chang3],次[ci4]","LT:場|场[chang3],次[ci4]"
+L3-0830,演员,yǎnyuán,diễn viên; diễn viên nam; diễn viên nữ; người biểu diễn,名,,INSERT_MOI,CHUA_DUYET,,diễn viên; diễn viên nam; diễn viên nữ; người biểu diễn,
+L3-0831,羊,yáng,cừu; dê,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"cừu; dê / LT:頭|头[tou2],隻|只[zhi1]","LT:頭|头[tou2],隻|只[zhi1]"
+L3-0832,阳光,yángguāng,ánh nắng / (về tính cách) lạc quan; năng động / minh bạch (công khai cho công chúng xem xét),名,,INSERT_MOI,CHUA_DUYET,,ánh nắng / (về tính cách) lạc quan; năng động / minh bạch (công khai cho công chúng xem xét),
+L3-0833,要是,yàoshi,(thông tục) nếu,连,,INSERT_MOI,CHUA_DUYET,,(thông tục) nếu,
+L3-0834,衣架,yījià,móc treo quần áo / giá treo quần áo,名,,INSERT_MOI,CHUA_DUYET,,móc treo quần áo / giá treo quần áo,
+L3-0835,一切,yīqiè,mọi thứ / mọi / tất cả,代,,INSERT_MOI,CHUA_DUYET,,mọi thứ / mọi / tất cả,
+L3-0836,已,yǐ,đã / ngừng / rồi / sau đó,副,,INSERT_MOI,CHUA_DUYET,,đã / ngừng / rồi / sau đó,
+L3-0837,以来,yǐlái,kể từ (một sự kiện trước),名,,INSERT_MOI,CHUA_DUYET,,kể từ (một sự kiện trước),
+L3-0838,一方面,yīfāngmiàn,một mặt,名,,INSERT_MOI,CHUA_DUYET,,một mặt,
+L3-0839,艺术,yìshù,nghệ thuật,名,,INSERT_MOI,CHUA_DUYET,,nghệ thuật,
+L3-0840,意外,yìwài,bất ngờ / tai nạn / sự cố,形、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,bất ngờ / tai nạn / sự cố / LT:個|个[ge4],LT:個|个[ge4]
+L3-0841,意义,yìyì,ý nghĩa / tầm quan trọng / sự quan trọng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,ý nghĩa / tầm quan trọng / sự quan trọng / LT:個|个[ge4],LT:個|个[ge4]
+L3-0842,因此,yīncǐ,do đó; vì vậy; kết quả là,连,,INSERT_MOI,CHUA_DUYET,,do đó; vì vậy; kết quả là,
+L3-0843,银,yín,bạc / màu bạc / liên quan đến tiền bạc hoặc tiền tệ,名,,INSERT_MOI,CHUA_DUYET,,bạc / màu bạc / liên quan đến tiền bạc hoặc tiền tệ,
+L3-0844,银牌,yínpái,huy chương bạc,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,huy chương bạc / LT: 枚[mei2],LT: 枚[mei2]
+L3-0845,印象,yìnxiàng,ấn tượng (điều gì đó lưu lại trong tâm trí) / một ký ức,名,,INSERT_MOI,CHUA_DUYET,,ấn tượng (điều gì đó lưu lại trong tâm trí) / một ký ức,
+L3-0846,应当,yīngdāng,nên; cần phải,动,,INSERT_MOI,CHUA_DUYET,,nên; cần phải,
+L3-0847,迎接,yíngjiē,chào đón; đón tiếp,动,,INSERT_MOI,CHUA_DUYET,,chào đón; đón tiếp,
+L3-0848,营养,yíngyǎng,dinh dưỡng / nuôi dưỡng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,dinh dưỡng / nuôi dưỡng / LT:種|种[zhong3],LT:種|种[zhong3]
+L3-0849,赢,yíng,thắng / chiến thắng / có lợi,动,,INSERT_MOI,CHUA_DUYET,,thắng / chiến thắng / có lợi,
+L3-0850,影视,yǐngshì,phim và truyền hình,名,,INSERT_MOI,CHUA_DUYET,,phim và truyền hình,
+L3-0851,应用,yìngyòng,"đưa vào sử dụng; áp dụng / thực tiễn; ứng dụng (khoa học, ngôn ngữ học, v.v.) / ứng dụng; sử dụng thực tế / (tin học) ứng dụng",动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"đưa vào sử dụng; áp dụng / thực tiễn; ứng dụng (khoa học, ngôn ngữ học, v.v.) / ứng dụng; sử dụng thực tế / (tin học) ứng dụng",
+L3-0852,优点,yōudiǎn,ưu điểm / lợi ích / điểm mạnh / lợi thế,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"ưu điểm / lợi ích / điểm mạnh / lợi thế / LT:個|个[ge4],項|项[xiang4]","LT:個|个[ge4],項|项[xiang4]"
+L3-0853,优势,yōushì,sự vượt trội / sự thống trị / lợi thế,名,,INSERT_MOI,CHUA_DUYET,,sự vượt trội / sự thống trị / lợi thế,
+L3-0854,由,yóu,theo / từ / bởi vì; do / bằng; qua; thông qua / (trước danh từ và động từ) là để ... làm ...,介,,INSERT_MOI,CHUA_DUYET,,theo / từ / bởi vì; do / bằng; qua; thông qua / (trước danh từ và động từ) là để ... làm ...,
+L3-0855,由于,yóuyú,do / bởi vì / nhờ vào / tại vì / kể từ / vì,介、连,,INSERT_MOI,CHUA_DUYET,,do / bởi vì / nhờ vào / tại vì / kể từ / vì,
+L3-0856,邮件,yóujiàn,thư từ / bưu phẩm / email,名,,INSERT_MOI,CHUA_DUYET,,thư từ / bưu phẩm / email,
+L3-0857,邮票,yóupiào,"tem (bưu chính) / Lượng từ: 枚[mei2], 張|张[zhang1]",名,,INSERT_MOI,CHUA_DUYET,,"tem (bưu chính) / Lượng từ: 枚[mei2], 張|张[zhang1]",
+L3-0858,邮箱,yóuxiāng,hộp thư / hộp thư bưu điện / thư điện tử / hộp thư email,名,,INSERT_MOI,CHUA_DUYET,,hộp thư / hộp thư bưu điện / thư điện tử / hộp thư email,
+L3-0859,游,yóu,bơi / biến thể của 遊|游[you2] / đi / du lịch / đi rong ruổi / du hành,动,,INSERT_MOI,CHUA_DUYET,,bơi / biến thể của 遊|游[you2] || đi / du lịch / đi rong ruổi / du hành,
+L3-0860,游戏,yóuxì,trò chơi / chơi,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,trò chơi / LT:場|场[chang3] / chơi,LT:場|场[chang3]
+L3-0861,游泳,yóuyǒng,bơi lội / bơi,名、动,,INSERT_MOI,CHUA_DUYET,,bơi lội / bơi,
+L3-0862,有的是,yǒudeshì,có nhiều / không thiếu,,,INSERT_MOI,CHUA_DUYET,,có nhiều / không thiếu,
+L3-0863,有利,yǒulì,có lợi; thuận lợi,形,,INSERT_MOI,CHUA_DUYET,,có lợi; thuận lợi,
+L3-0864,有效,yǒuxiào,hiệu quả / có hiệu lực / hợp lệ,动,,INSERT_MOI,CHUA_DUYET,,hiệu quả / có hiệu lực / hợp lệ,
+L3-0865,预报,yùbào,dự báo,动、名,,INSERT_MOI,CHUA_DUYET,,dự báo,
+L3-0866,预防,yùfáng,ngăn ngừa / phòng chống / bảo vệ / chống lại / mang tính phòng ngừa / dự phòng,动,,INSERT_MOI,CHUA_DUYET,,ngăn ngừa / phòng chống / bảo vệ / chống lại / mang tính phòng ngừa / dự phòng,
+L3-0867,预计,yùjì,dự báo / dự đoán / ước tính,动,,INSERT_MOI,CHUA_DUYET,,dự báo / dự đoán / ước tính,
+L3-0868,预习,yùxí,chuẩn bị bài,动,,INSERT_MOI,CHUA_DUYET,,chuẩn bị bài,
+L3-0869,员（服务员）,yuán (fúwùyuán),(hình thức kết hợp) người tham gia một lĩnh vực hoạt động nhất định / (hình thức kết hợp) thành viên,后缀,,INSERT_MOI,CHUA_DUYET,,(hình thức kết hợp) người tham gia một lĩnh vực hoạt động nhất định / (hình thức kết hợp) thành viên,
+L3-0870,员工,yuángōng,nhân viên; nhân sự; nhân công,名,,INSERT_MOI,CHUA_DUYET,,nhân viên; nhân sự; nhân công,
+L3-0871,愿望,yuànwàng,khát vọng / ước muốn,名,,INSERT_MOI,CHUA_DUYET,,khát vọng / ước muốn,
+L3-0872,约,yuē,hẹn / mời / xấp xỉ / ước định / hiệp ước / tiết kiệm / hạn chế / rút gọn (phân số) / súc tích,动,,INSERT_MOI,CHUA_DUYET,,hẹn / mời / xấp xỉ / ước định / hiệp ước / tiết kiệm / hạn chế / rút gọn (phân số) / súc tích,
+L3-0873,乐队,yuèduì,ban nhạc / nhóm nhạc,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,ban nhạc / nhóm nhạc / LT:支[zhi1],LT:支[zhi1]
+L3-0874,运输,yùnshū,vận chuyển / mang / chuyên chở,动,,INSERT_MOI,CHUA_DUYET,,vận chuyển / mang / chuyên chở,
+L3-0875,杂志,zázhì,tạp chí,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"tạp chí / LT:本[ben3],份[fen4],期[qi1]","LT:本[ben3],份[fen4],期[qi1]"
+L3-0876,早已,zǎoyǐ,đã từ lâu; từ lâu / (tiếng địa phương) trước đây,副,,INSERT_MOI,CHUA_DUYET,,đã từ lâu; từ lâu / (tiếng địa phương) trước đây,
+L3-0877,造,zào,làm / xây dựng / sản xuất / phát minh / bịa đặt / đi đến / bên (trong vụ kiện hoặc thỏa thuận pháp lý) / mùa vụ / lượng từ cho mùa vụ,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,làm / xây dựng / sản xuất / phát minh / bịa đặt / đi đến / bên (trong vụ kiện hoặc thỏa thuận pháp lý) / mùa vụ / lượng từ cho mùa vụ,
+L3-0878,造成,zàochéng,gây ra; tạo ra; khiến,动,,INSERT_MOI,CHUA_DUYET,,gây ra; tạo ra; khiến,
+L3-0879,责任,zérèn,trách nhiệm / lỗi / phận sự,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,trách nhiệm / lỗi / phận sự / LT:個|个[ge4],LT:個|个[ge4]
+L3-0880,增加,zēngjiā,tăng; tăng thêm,动,,INSERT_MOI,CHUA_DUYET,,tăng; tăng thêm,
+L3-0881,增长,zēngzhǎng,tăng trưởng / tăng lên,动,,INSERT_MOI,CHUA_DUYET,,tăng trưởng / tăng lên,
+L3-0882,展开,zhǎnkāi,mở ra; trải ra; mở rộng / phát động; tiến hành,,,INSERT_MOI,CHUA_DUYET,,mở ra; trải ra; mở rộng / phát động; tiến hành,
+L3-0883,张,zhāng,"mở ra / trải ra / tờ giấy / lượng từ cho vật phẳng, tờ / lượng từ cho phiếu bầu",量、动,,INSERT_MOI,CHUA_DUYET,,"mở ra / trải ra / tờ giấy / lượng từ cho vật phẳng, tờ / lượng từ cho phiếu bầu",
+L3-0884,照,zhào,biến thể của 照[zhao4] / chiếu / soi sáng / theo / theo như / chiếu / soi / phản chiếu / nhìn (hình phản chiếu) / chụp (ảnh) / ảnh / theo yêu cầu / như trước,动、介,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,biến thể của 照[zhao4] / chiếu / soi sáng || theo / theo như / chiếu / soi / phản chiếu / nhìn (hình phản chiếu) / chụp (ảnh) / ảnh / theo yêu cầu / như trước,
+L3-0885,者（志愿者）,zhě (zhìyuànzhě),"(sau động từ hoặc tính từ) người mà ... / (sau danh từ) người liên quan đến ... / (dùng sau một số hoặc 後|后[hou4] hoặc 前[qian2] để chỉ điều đã được nhắc đến trước đó) / (dùng sau một thuật ngữ, để ngắt trước khi định nghĩa thuật ngữ đó) / (cổ) (dùng ở cuối mệnh lệnh) / (cổ) này",后缀,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"(sau động từ hoặc tính từ) người mà ... / (sau danh từ) người liên quan đến ... / (dùng sau một số hoặc 後|后[hou4] hoặc 前[qian2] để chỉ điều đã được nhắc đến trước đó) / (dùng sau một thuật ngữ, để ngắt trước khi định nghĩa thuật ngữ đó) / (cổ) (dùng ở cuối mệnh lệnh) / (cổ) này",
+L3-0886,真实,zhēnshí,thật; chân thật,形,,INSERT_MOI,CHUA_DUYET,,thật; chân thật,
+L3-0887,争,zhēng,cố gắng giành / đua tranh / tranh luận hoặc tranh cãi / thiếu hoặc không đủ (phương ngữ) / như thế nào hoặc cái gì (văn học),动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,cố gắng giành / đua tranh / tranh luận hoặc tranh cãi / thiếu hoặc không đủ (phương ngữ) / như thế nào hoặc cái gì (văn học),
+L3-0888,争取,zhēngqǔ,đấu tranh giành / nỗ lực giành / lôi kéo,动,,INSERT_MOI,CHUA_DUYET,,đấu tranh giành / nỗ lực giành / lôi kéo,
+L3-0889,整,zhěng,(hình thức liên kết) toàn bộ; hoàn chỉnh; toàn thể; (trước lượng từ) toàn bộ; (trước hoặc sau số + lượng từ) chính xác / (hình thức liên kết) gọn gàng; ngăn nắp; chỉnh tề / (hình thức liên kết) sắp xếp; chỉnh đốn / (hình thức liên kết) sửa chữa; phục hồi; tân trang / (thông tục) xử lý ai đó; gây khó dễ cho ai đó; chọc phá ai đó / (tiếng địa phương) mày mò; làm gì đó với,形、动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,(hình thức liên kết) toàn bộ; hoàn chỉnh; toàn thể; (trước lượng từ) toàn bộ; (trước hoặc sau số + lượng từ) chính xác / (hình thức liên kết) gọn gàng; ngăn nắp; chỉnh tề / (hình thức liên kết) sắp xếp; chỉnh đốn / (hình thức liên kết) sửa chữa; phục hồi; tân trang / (thông tục) xử lý ai đó; gây khó dễ cho ai đó; chọc phá ai đó / (tiếng địa phương) mày mò; làm gì đó với,
+L3-0890,整个,zhěnggè,toàn bộ / toàn thể / tổng thể,形,,INSERT_MOI,CHUA_DUYET,,toàn bộ / toàn thể / tổng thể,
+L3-0891,整理,zhěnglǐ,"sắp xếp / dọn dẹp / chỉnh lý / liệt kê có hệ thống / đối chiếu (dữ liệu, hồ sơ) / đóng gói (hành lý)",动,,INSERT_MOI,CHUA_DUYET,,"sắp xếp / dọn dẹp / chỉnh lý / liệt kê có hệ thống / đối chiếu (dữ liệu, hồ sơ) / đóng gói (hành lý)",
+L3-0892,整齐,zhěngqí,ngăn nắp / gọn gàng / đều / ngay ngắn,形,,INSERT_MOI,CHUA_DUYET,,ngăn nắp / gọn gàng / đều / ngay ngắn,
+L3-0893,整体,zhěngtǐ,"thực thể toàn bộ / toàn thân / tổng hợp / như một tổng thể (tình huống, cấu trúc, đội nhóm, v.v.) / toàn cầu / vĩ mô / tích hợp / toàn diện / toàn bộ",名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"thực thể toàn bộ / toàn thân / tổng hợp / như một tổng thể (tình huống, cấu trúc, đội nhóm, v.v.) / toàn cầu / vĩ mô / tích hợp / toàn diện / toàn bộ",
+L3-0894,整天,zhěngtiān,cả ngày / suốt ngày,名,,INSERT_MOI,CHUA_DUYET,,cả ngày / suốt ngày,
+L3-0895,整整,zhěngzhěng,toàn bộ / đầy đủ,副,,INSERT_MOI,CHUA_DUYET,,toàn bộ / đầy đủ,
+L3-0896,正,zhèng,thẳng / nghiêm túc / đúng đắn / chính / chủ yếu / sửa chữa / chỉnh đốn / chính xác / vừa đúng (lúc đó) / ngay (chỗ đó) / (toán) dương,形,472,TAI_SU_DUNG,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,thẳng / nghiêm túc / đúng đắn / chính / chủ yếu / sửa chữa / chỉnh đốn / chính xác / vừa đúng (lúc đó) / ngay (chỗ đó) / (toán) dương,
+L3-0897,正式,zhèngshì,trang trọng; chính thức,形,,INSERT_MOI,CHUA_DUYET,,trang trọng; chính thức,
+L3-0898,证,zhèng,khiển trách / biến thể của 證|证[zheng4] / chứng chỉ / bằng chứng / chứng minh / biểu thị / xác nhận / biến thể của 症[zheng4],名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,khiển trách / biến thể của 證|证[zheng4] || chứng chỉ / bằng chứng / chứng minh / biểu thị / xác nhận / biến thể của 症[zheng4],
+L3-0899,证件,zhèngjiàn,giấy chứng nhận; giấy tờ; thông tin xác thực; tài liệu; ID,名,,INSERT_MOI,CHUA_DUYET,,giấy chứng nhận; giấy tờ; thông tin xác thực; tài liệu; ID,
+L3-0900,证据,zhèngjù,bằng chứng / chứng cứ / lời khai,名,,INSERT_MOI,CHUA_DUYET,,bằng chứng / chứng cứ / lời khai,
+L3-0901,证明,zhèngmíng,bằng chứng / chứng chỉ / giấy tờ tùy thân / lời chứng thực / chứng minh / làm chứng / xác nhận tính đúng đắn của,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,bằng chứng / chứng chỉ / giấy tờ tùy thân / lời chứng thực / LT:個|个[ge4] / chứng minh / làm chứng / xác nhận tính đúng đắn của,LT:個|个[ge4]
+L3-0902,支,zhī,"hỗ trợ / duy trì / dựng / lên / nhánh / phân nhánh / rút tiền / lượng từ cho gậy như bút và súng, cho sư đoàn quân đội và cho bài hát hoặc tác phẩm",量,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"hỗ trợ / duy trì / dựng / lên / nhánh / phân nhánh / rút tiền / lượng từ cho gậy như bút và súng, cho sư đoàn quân đội và cho bài hát hoặc tác phẩm",
+L3-0903,支持,zhīchí,tán thành / hỗ trợ / ủng hộ / sự hỗ trợ / sự ủng hộ / đứng về phía,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,tán thành / hỗ trợ / ủng hộ / sự hỗ trợ / sự ủng hộ / đứng về phía / LT:個|个[ge4],LT:個|个[ge4]
+L3-0904,支付,zhīfù,trả tiền,动,,INSERT_MOI,CHUA_DUYET,,trả tiền,
+L3-0905,只,zhī,"hạt bắt đầu chín / lượng từ cho chim và một số động vật, một trong một cặp, một số dụng cụ, đồ chứa, v.v.",量,,CAN_KIEM_TRA,CHUA_DUYET,CAN_KIEM_TRA_TU_DA_AM,"hạt bắt đầu chín || lượng từ cho chim và một số động vật, một trong một cặp, một số dụng cụ, đồ chứa, v.v.",
+L3-0906,直,zhí,thẳng / làm thẳng / công bằng và hợp lý / thẳng thắn / trung thực / (chỉ sự chuyển động hoặc hành động liên tục) / dọc / nét sổ dọc trong chữ Hán,形、动、副,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,thẳng / làm thẳng / công bằng và hợp lý / thẳng thắn / trung thực / (chỉ sự chuyển động hoặc hành động liên tục) / dọc / nét sổ dọc trong chữ Hán,
+L3-0907,直播,zhíbō,"(TV, radio) phát sóng trực tiếp / phát trực tiếp / (Internet) phát livestream / (nông nghiệp) gieo sạ trực tiếp",动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"(TV, radio) phát sóng trực tiếp / phát trực tiếp / (Internet) phát livestream / (nông nghiệp) gieo sạ trực tiếp",
+L3-0908,直到,zhídào,cho đến,动,,INSERT_MOI,CHUA_DUYET,,cho đến,
+L3-0909,值,zhí,giá trị / (thì) đáng / tình cờ / có phiên trực,动,,INSERT_MOI,CHUA_DUYET,,giá trị / (thì) đáng / tình cờ / có phiên trực,
+L3-0910,值得,zhídé,đáng / đáng để,,,INSERT_MOI,CHUA_DUYET,,đáng / đáng để,
+L3-0911,职工,zhígōng,nhân viên; cán bộ nhân viên; công nhân,名,,INSERT_MOI,CHUA_DUYET,,nhân viên; cán bộ nhân viên; công nhân,
+L3-0912,职业,zhíyè,nghề nghiệp; chuyên nghiệp; công việc / chuyên nghiệp,名,,INSERT_MOI,CHUA_DUYET,,nghề nghiệp; chuyên nghiệp; công việc / chuyên nghiệp,
+L3-0913,只好,zhǐhǎo,không còn lựa chọn nào khác ngoài...; đành phải; bị buộc phải,副,,INSERT_MOI,CHUA_DUYET,,không còn lựa chọn nào khác ngoài...; đành phải; bị buộc phải,
+L3-0914,只是,zhǐshì,chỉ; chỉ là; không gì ngoài / đơn giản / tuy nhiên,副、连,,INSERT_MOI,CHUA_DUYET,,chỉ; chỉ là; không gì ngoài / đơn giản / tuy nhiên,
+L3-0915,只有,zhǐyǒu,"chỉ có ... / (dùng cùng với 才[cai2]) chỉ nếu một ... (thì mới có thể ...) (Ví dụ: 只有通過治療才能痊愈|只有通过治疗才能痊愈[zhi3 you3 tong1 guo4 zhi4 liao2 cai2 neng2 quan2 yu4] ""cách duy nhất để chữa khỏi là thông qua trị liệu"") / chỉ có ... (mới ...) (Ví dụ: 只有男性才有此需要[zhi3 you3 nan2 xing4 cai2 you3 ci3 xu1 yao4] ""chỉ có nam giới mới có nhu cầu này"") / (dùng để chỉ không có lựa chọn nào khác) chỉ có thể (làm một việc nhất định) (Ví dụ: 只有屈服[zhi3 you3 qu1 fu2] ""điều duy nhất có thể làm là khuất phục"")",连,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"chỉ có ... / (dùng cùng với 才[cai2]) chỉ nếu một ... (thì mới có thể ...) (Ví dụ: 只有通過治療才能痊愈|只有通过治疗才能痊愈[zhi3 you3 tong1 guo4 zhi4 liao2 cai2 neng2 quan2 yu4] ""cách duy nhất để chữa khỏi là thông qua trị liệu"") / chỉ có ... (mới ...) (Ví dụ: 只有男性才有此需要[zhi3 you3 nan2 xing4 cai2 you3 ci3 xu1 yao4] ""chỉ có nam giới mới có nhu cầu này"") / (dùng để chỉ không có lựa chọn nào khác) chỉ có thể (làm một việc nhất định) (Ví dụ: 只有屈服[zhi3 you3 qu1 fu2] ""điều duy nhất có thể làm là khuất phục"")",
+L3-0916,指,zhǐ,ngón tay / chỉ vào hoặc đến / chỉ ra hoặc đề cập đến / phụ thuộc vào / dựa vào / (tóc) dựng đứng lên,动,,INSERT_MOI,CHUA_DUYET,,ngón tay / chỉ vào hoặc đến / chỉ ra hoặc đề cập đến / phụ thuộc vào / dựa vào / (tóc) dựng đứng lên,
+L3-0917,指出,zhǐchū,chỉ ra / nêu ra,,,INSERT_MOI,CHUA_DUYET,,chỉ ra / nêu ra,
+L3-0918,指导,zhǐdǎo,hướng dẫn / đưa ra chỉ đạo / chỉ đạo / huấn luyện / dạy học,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,hướng dẫn / đưa ra chỉ đạo / chỉ đạo / huấn luyện / dạy học / LT:個|个[ge4],LT:個|个[ge4]
+L3-0919,至今,zhìjīn,cho đến nay / đến ngày hôm nay / cho đến bây giờ,副,,INSERT_MOI,CHUA_DUYET,,cho đến nay / đến ngày hôm nay / cho đến bây giờ,
+L3-0920,至少,zhìshǎo,ít nhất / (nói một cách) tối thiểu,副,,INSERT_MOI,CHUA_DUYET,,ít nhất / (nói một cách) tối thiểu,
+L3-0921,志愿,zhìyuàn,nguyện vọng / tham vọng / tình nguyện,名,,INSERT_MOI,CHUA_DUYET,,nguyện vọng / tham vọng / tình nguyện,
+L3-0922,志愿者,zhìyuànzhě,tình nguyện viên,名,,INSERT_MOI,CHUA_DUYET,,tình nguyện viên,
+L3-0923,制定,zhìdìng,soạn thảo; xây dựng,动,,INSERT_MOI,CHUA_DUYET,,soạn thảo; xây dựng,
+L3-0924,制度,zhìdù,"hệ thống (ví dụ: chính trị, hành chính, v.v.) / thiết chế",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"hệ thống (ví dụ: chính trị, hành chính, v.v.) / thiết chế / LT:個|个[ge4]",LT:個|个[ge4]
+L3-0925,制造,zhìzào,sản xuất; làm,动,,INSERT_MOI,CHUA_DUYET,,sản xuất; làm,
+L3-0926,制作,zhìzuò,làm; sản xuất,动,,INSERT_MOI,CHUA_DUYET,,làm; sản xuất,
+L3-0927,中部,zhōngbù,phần giữa / khu vực trung tâm,名,,INSERT_MOI,CHUA_DUYET,,phần giữa / khu vực trung tâm,
+L3-0928,中华民族,Zhōnghuá Mínzú,dân tộc Trung Hoa / nhân dân Trung Hoa (cách gọi chung cho tất cả các nhóm dân tộc ở Trung Quốc),,,INSERT_MOI,CHUA_DUYET,,dân tộc Trung Hoa / nhân dân Trung Hoa (cách gọi chung cho tất cả các nhóm dân tộc ở Trung Quốc),
+L3-0929,终于,zhōngyú,cuối cùng / rốt cuộc / sau cùng / rốt cuộc thì,副,,INSERT_MOI,CHUA_DUYET,,cuối cùng / rốt cuộc / sau cùng / rốt cuộc thì,
+L3-0930,钟,zhōng,"cốc không quai; ly rượu / hình thức kết hợp, tập trung (tình cảm, v.v.) / biến thể của 鐘|钟[zhong1] / một cái chuông (lớn) (LT: 架[jia4]) / đồng hồ (LT: 座[zuo4]) / khoảng thời gian; giờ (LT: 點|点[dian3], 分[fen1], 秒[miao3]) (như trong 三點鐘|三点钟[san1dian3zhong1] ""ba giờ"" hoặc ""ba tiếng"" hoặc 五分鐘|五分钟[wu3fen1zhong1] ""năm phút"" v.v.)",名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU; NGHIA_DAI_CAN_RUT_GON,"cốc không quai; ly rượu / hình thức kết hợp, tập trung (tình cảm, v.v.) / biến thể của 鐘|钟[zhong1] || một cái chuông (lớn) (LT: 架[jia4]) / đồng hồ (LT: 座[zuo4]) / khoảng thời gian; giờ (LT: 點|点[dian3], 分[fen1], 秒[miao3]) (như trong 三點鐘|三点钟[san1dian3zhong1] ""ba giờ"" hoặc ""ba tiếng"" hoặc 五分鐘|五分钟[wu3fen1zhong1] ""năm phút"" v.v.)",
+L3-0931,种,zhǒng,"hạt / loài / loại / kiểu / lượng từ cho loại, kiểu, dạng",量,,INSERT_MOI,CHUA_DUYET,,"hạt / loài / loại / kiểu / lượng từ cho loại, kiểu, dạng",
+L3-0932,种子,zhǒngzi,hạt giống,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"hạt giống / LT:顆|颗[ke1],粒[li4]","LT:顆|颗[ke1],粒[li4]"
+L3-0933,重大,zhòngdà,lớn / lao / quan trọng / đáng kể,形,,INSERT_MOI,CHUA_DUYET,,lớn / lao / quan trọng / đáng kể,
+L3-0934,周围,zhōuwéi,vùng lân cận; xung quanh; ngoại vi,名,,INSERT_MOI,CHUA_DUYET,,vùng lân cận; xung quanh; ngoại vi,
+L3-0935,猪,zhū,lợn / heo,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"lợn / heo / LT:口[kou3],頭|头[tou2]","LT:口[kou3],頭|头[tou2]"
+L3-0936,主持,zhǔchí,"phụ trách / quản lý hoặc điều hành / chủ trì / bảo vệ / đứng về phía (công lý, v.v.) / dẫn chương trình (truyền hình hoặc radio, v.v.) / người dẫn chương trình (truyền hình)",动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"phụ trách / quản lý hoặc điều hành / chủ trì / bảo vệ / đứng về phía (công lý, v.v.) / dẫn chương trình (truyền hình hoặc radio, v.v.) / người dẫn chương trình (truyền hình)",
+L3-0937,主动,zhǔdòng,"chủ động / tự làm gì đó / tự giác / tích cực / đối lập: bị động 被動|被动[bei4 dong4] / dẫn động (của bánh răng, trục, v.v.)",形,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"chủ động / tự làm gì đó / tự giác / tích cực / đối lập: bị động 被動|被动[bei4 dong4] / dẫn động (của bánh răng, trục, v.v.)",
+L3-0938,主任,zhǔrèn,giám đốc / trưởng,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,giám đốc / trưởng / LT:個|个[ge4],LT:個|个[ge4]
+L3-0939,主意,zhǔyi,kế hoạch / ý tưởng / quyết định / cách phát âm Bắc Kinh [zhu2 yi5],名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,kế hoạch / ý tưởng / quyết định / LT:個|个[ge4] / cách phát âm Bắc Kinh [zhu2 yi5],LT:個|个[ge4]
+L3-0940,主张,zhǔzhāng,ủng hộ / tán thành / quan điểm / lập trường / chủ trương / khẳng định,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,ủng hộ / tán thành / quan điểm / lập trường / chủ trương / khẳng định / LT:個|个[ge4],LT:個|个[ge4]
+L3-0941,注意,zhùyì,chú ý đến; quan tâm đến,,,INSERT_MOI,CHUA_DUYET,,chú ý đến; quan tâm đến,
+L3-0942,祝,zhù,"cầu nguyện / chúc (ai đó thượng lộ bình an, sinh nhật vui vẻ, v.v.) / người cầu khấn thần linh trong các nghi lễ tế tự",动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"cầu nguyện / chúc (ai đó thượng lộ bình an, sinh nhật vui vẻ, v.v.) / người cầu khấn thần linh trong các nghi lễ tế tự",
+L3-0943,抓,zhuā,bắt / nắm / túm / chộp / cào,动,,INSERT_MOI,CHUA_DUYET,,bắt / nắm / túm / chộp / cào,
+L3-0944,抓住,zhuāzhù,nắm bắt; bắt giữ,,,INSERT_MOI,CHUA_DUYET,,nắm bắt; bắt giữ,
+L3-0945,专家,zhuānjiā,chuyên gia; chuyên viên,名,,INSERT_MOI,CHUA_DUYET,,chuyên gia; chuyên viên,
+L3-0946,专门,zhuānmén,chuyên gia / chuyên môn / tùy chỉnh,副,,INSERT_MOI,CHUA_DUYET,,chuyên gia / chuyên môn / tùy chỉnh,
+L3-0947,专题,zhuāntí,"chủ đề cụ thể (được đề cập trong sách, bài giảng, chương trình TV, v.v.) / bài viết, báo cáo hoặc chương trình về một chủ đề cụ thể",名,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"chủ đề cụ thể (được đề cập trong sách, bài giảng, chương trình TV, v.v.) / bài viết, báo cáo hoặc chương trình về một chủ đề cụ thể",
+L3-0948,专业,zhuānyè,chuyên môn / lĩnh vực chuyên ngành / ngành học chính (ở đại học) / ngành / chuyên nghiệp,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"chuyên môn / lĩnh vực chuyên ngành / ngành học chính (ở đại học) / ngành / LT:門|门[men2],個|个[ge4] / chuyên nghiệp","LT:門|门[men2],個|个[ge4]"
+L3-0949,转,zhuǎn,xoay / chuyển hướng / chuyển giao / chuyển tiếp (thư) / (Internet) chia sẻ (nội dung của người khác),动,,INSERT_MOI,CHUA_DUYET,,xoay / chuyển hướng / chuyển giao / chuyển tiếp (thư) / (Internet) chia sẻ (nội dung của người khác),
+L3-0950,转变,zhuǎnbiàn,thay đổi / chuyển hóa / chuyển đổi / sự thay đổi,动,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,thay đổi / chuyển hóa / chuyển đổi / sự thay đổi / LT:個|个[ge4],LT:個|个[ge4]
+L3-0951,状况,zhuàngkuàng,tình trạng; trạng thái; tình huống,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,tình trạng; trạng thái; tình huống / LT:個|个[ge4],LT:個|个[ge4]
+L3-0952,状态,zhuàngtài,tình trạng; trạng thái; tình hình,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,tình trạng; trạng thái; tình hình / LT:個|个[ge4],LT:個|个[ge4]
+L3-0953,追,zhuī,đuổi / theo đuổi / điều tra / nghiên cứu / hồi tưởng / nhớ lại / tán tỉnh (người yêu) / cày phim (một bộ phim truyền hình) / truy cứu hồi tố / truy tặng sau khi qua đời,动,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,đuổi / theo đuổi / điều tra / nghiên cứu / hồi tưởng / nhớ lại / tán tỉnh (người yêu) / cày phim (một bộ phim truyền hình) / truy cứu hồi tố / truy tặng sau khi qua đời,
+L3-0954,准,zhǔn,"cho phép / chấp thuận / theo / phù hợp với / chính xác / tiêu chuẩn / chắc chắn / nhất định / sắp trở thành (cô dâu, con rể, v.v.) / chuẩn- / cận-",形、副,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,"cho phép / chấp thuận / theo / phù hợp với || chính xác / tiêu chuẩn / chắc chắn / nhất định / sắp trở thành (cô dâu, con rể, v.v.) / chuẩn- / cận-",
+L3-0955,资格,zīgé,trình độ / người có thâm niên,名,,INSERT_MOI,CHUA_DUYET,,trình độ / người có thâm niên,
+L3-0956,资金,zījīn,quỹ; vốn,名,,INSERT_MOI,CHUA_DUYET,,quỹ; vốn,
+L3-0957,子女,zǐnǚ,con cái; con trai và con gái,名,,INSERT_MOI,CHUA_DUYET,,con cái; con trai và con gái,
+L3-0958,自从,zìcóng,kể từ khi / từ khi,介,,INSERT_MOI,CHUA_DUYET,,kể từ khi / từ khi,
+L3-0959,自动,zìdòng,tự động / tự nguyện,形、副,,INSERT_MOI,CHUA_DUYET,,tự động / tự nguyện,
+L3-0960,自觉,zìjué,có ý thức / nhận thức / tự mình chủ động / tận tâm,形,,INSERT_MOI,CHUA_DUYET,,có ý thức / nhận thức / tự mình chủ động / tận tâm,
+L3-0961,自然,zìrán,tự nhiên / một cách tự nhiên,名、形、副,,INSERT_MOI,CHUA_DUYET,,tự nhiên / một cách tự nhiên,
+L3-0962,自身,zìshēn,bản thân / tự mình / của riêng mình,名,,INSERT_MOI,CHUA_DUYET,,bản thân / tự mình / của riêng mình,
+L3-0963,自主,zìzhǔ,độc lập / tự mình quyết định / tự chủ,动,,INSERT_MOI,CHUA_DUYET,,độc lập / tự mình quyết định / tự chủ,
+L3-0964,总,zǒng,tổng thể; toàn bộ / tóm lại / trong mọi trường hợp; luôn luôn; lúc nào cũng / dù sao; sau tất cả; cuối cùng; không sớm thì muộn / chắc chắn / (sau tên người) viết tắt của 總經理|总经理[zong3 jing1 li3] hoặc 總編|总编[zong3 bian1] v.v.,副,,INSERT_MOI,CHUA_DUYET,NGHIA_DAI_CAN_RUT_GON,tổng thể; toàn bộ / tóm lại / trong mọi trường hợp; luôn luôn; lúc nào cũng / dù sao; sau tất cả; cuối cùng; không sớm thì muộn / chắc chắn / (sau tên người) viết tắt của 總經理|总经理[zong3 jing1 li3] hoặc 總編|总编[zong3 bian1] v.v.,
+L3-0965,总结,zǒngjié,tóm tắt / kết luận / tóm lược / sơ yếu lý lịch,动、名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,tóm tắt / kết luận / tóm lược / sơ yếu lý lịch / LT:個|个[ge4],LT:個|个[ge4]
+L3-0966,总是,zǒngshì,luôn luôn,副,,INSERT_MOI,CHUA_DUYET,,luôn luôn,
+L3-0967,足够,zúgòu,đủ; đủ mức,动,,INSERT_MOI,CHUA_DUYET,,đủ; đủ mức,
+L3-0968,足球,zúqiú,quả bóng đá / một quả bóng đá / môn bóng đá / bóng đá,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,quả bóng đá / một quả bóng đá / LT:個|个[ge4] / môn bóng đá / bóng đá,LT:個|个[ge4]
+L3-0969,组合,zǔhé,lắp ráp; kết hợp; cấu thành / kết hợp; liên kết; bộ; biên soạn / (toán) tổ hợp,动,,INSERT_MOI,CHUA_DUYET,,lắp ráp; kết hợp; cấu thành / kết hợp; liên kết; bộ; biên soạn / (toán) tổ hợp,
+L3-0970,左右,zuǒyòu,trái phải / gần đây / xấp xỉ / người phục vụ / kiểm soát / ảnh hưởng,名、动,,INSERT_MOI,CHUA_DUYET,,trái phải / gần đây / xấp xỉ / người phục vụ / kiểm soát / ảnh hưởng,
+L3-0971,作品,zuòpǐn,tác phẩm / tác phẩm nghệ thuật,名,,INSERT_MOI,CHUA_DUYET,CO_GHI_CHU_LUONG_TU,"tác phẩm / tác phẩm nghệ thuật / LT:部[bu4],篇[pian1]","LT:部[bu4],篇[pian1]"
+L3-0972,作者,zuòzhě,tác giả; nhà văn,名,,INSERT_MOI,CHUA_DUYET,,tác giả; nhà văn,
+L3-0973,做客,zuòkè,làm khách hoặc thăm viếng,,,INSERT_MOI,CHUA_DUYET,,làm khách hoặc thăm viếng,

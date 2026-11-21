@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "buoc": 20,
+  "tong_chu": 300,
+  "nguon_sql": {
+    "GF0025": 1002,
+    "CC_CEDICT": 2,
+    "CVDICT": 1003
+  },
+  "coverage": {
+    "GF_exact_single_char": 120,
+    "CVDICT_exact_char": 0,
+    "CEDICT_exact_char": 300
+  },
+  "pinyin": {
+    "san_sang": 295,
+    "can_review": 5,
+    "status_counts": {
+      "UNIHAN_MMAH_KHOP": 178,
+      "GF_DON_KHOP_NGUON": 117,
+      "GF_DON_NHIEU_CACH_DOC": 2,
+      "CHUA_CHOT_DUOC_PINYIN": 1,
+      "UNIHAN_MMAH_KHOP_NHUNG_CEDICT_LECH": 1,
+      "GF_CO_1_NHUNG_NGUON_KHAC_LECH": 1
+    }
+  },
+  "nghia": {
+    "san_sang": 118,
+    "can_review": 182,
+    "status_counts": {
+      "KHONG_CO_NGHIA_EXACT_CHAR": 180,
+      "GF_DON_1_UNG_VIEN": 118,
+      "GF_DON_NHIEU_NGHIA": 2
+    }
+  },
+  "cau_truc_can_review": 28,
+  "tong_ky_tu_can_review": 191,
+  "source_sha256": "5f85c0e6c74693e7a411e5e8531cad824ff2742a70e2e4933a089847ada45c8d",
+  "output_sha256": "337f86d394a1fa5986439c1b4493bdd0153088414487bbd2231b89a89b6dadfb",
+  "review_sha256": "a40e91e6021dca5a60e85e9561df84e20d5bde0b12c38c9818ae0cfd19721020",
+  "da_chot_final": false,
+  "da_gan_bai_hoc": false,
+  "da_ghi_sql": false
+}

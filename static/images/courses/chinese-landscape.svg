@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 800 520"
+     role="img"
+     aria-labelledby="title description">
+
+    <title id="title">Phong cảnh Trung Hoa</title>
+    <desc id="description">
+        Núi xanh, mặt trời vàng và một tòa lầu bên hồ.
+    </desc>
+
+    <!-- Nền trời -->
+    <rect width="800" height="520" fill="#e9eee0"/>
+
+    <!-- Mặt trời -->
+    <circle cx="610" cy="120" r="63" fill="#e7bd78"/>
+
+    <!-- Mây -->
+    <g fill="#ffffff" opacity="0.55">
+        <ellipse cx="170" cy="100" rx="90" ry="15"/>
+        <ellipse cx="430" cy="70" rx="65" ry="12"/>
+    </g>
+
+    <!-- Núi xa -->
+    <path d="M0 310
+             L135 150
+             L290 300
+             L435 135
+             L610 315
+             L740 205
+             L800 275
+             V520 H0 Z"
+          fill="#c0cdb8"/>
+
+    <!-- Núi gần -->
+    <path d="M0 370
+             L170 245
+             L320 370
+             L490 265
+             L650 350
+             L800 285
+             V520 H0 Z"
+          fill="#94ae97"/>
+
+    <!-- Đồi -->
+    <path d="M0 430
+             Q200 350 410 425
+             T800 405
+             V520 H0 Z"
+          fill="#567c63"/>
+
+    <!-- Mặt hồ -->
+    <path d="M0 470
+             Q220 420 420 475
+             T800 450
+             V520 H0 Z"
+          fill="#cbd9c5"/>
+
+    <!-- Tòa lầu -->
+    <g transform="translate(150 155)">
+        <rect x="65" y="98"
+              width="160" height="175"
+              fill="#fff5df"/>
+
+        <rect x="83" y="55"
+              width="124" height="66"
+              fill="#fff5df"/>
+
+        <!-- Mái trên -->
+        <path d="M45 75
+                 Q105 48 145 8
+                 Q185 48 245 75 Z"
+              fill="#315b48"/>
+
+        <!-- Mái giữa -->
+        <path d="M24 128
+                 Q95 103 145 60
+                 Q195 103 267 128 Z"
+              fill="#315b48"/>
+
+        <!-- Mái dưới -->
+        <path d="M34 200
+                 Q93 183 145 145
+                 Q197 183 257 200 Z"
+              fill="#315b48"/>
+
+        <!-- Cửa sổ -->
+        <g fill="#50735a">
+            <rect x="106" y="79" width="18" height="26"/>
+            <rect x="168" y="79" width="18" height="26"/>
+            <rect x="84" y="143" width="20" height="27"/>
+            <rect x="186" y="143" width="20" height="27"/>
+        </g>
+
+        <!-- Cửa chính -->
+        <path d="M123 273 V230
+                 Q123 209 145 209
+                 Q167 209 167 230
+                 V273 Z"
+              fill="#315b48"/>
+
+        <!-- Bậc thềm -->
+        <path d="M49 275 H242 M36 287 H255"
+              stroke="#315b48"
+              stroke-width="9"/>
+    </g>
+
+    <!-- Cây -->
+    <g fill="#315b48">
+        <rect x="700" y="289" width="9" height="132"/>
+        <ellipse cx="682" cy="299" rx="47" ry="18"/>
+        <ellipse cx="730" cy="278" rx="43" ry="18"/>
+        <ellipse cx="711" cy="329" rx="57" ry="19"/>
+    </g>
+
+    <!-- Chim -->
+    <g stroke="#456851"
+       stroke-width="3"
+       fill="none"
+       stroke-linecap="round">
+        <path d="M449 93 Q461 80 473 93 Q485 80 497 93"/>
+        <path d="M500 126 Q510 116 520 126 Q530 116 540 126"/>
+    </g>
+
+    <!-- Gợn nước -->
+    <g stroke="#f6f6e9" stroke-width="3" opacity="0.8">
+        <path d="M80 484 H210"/>
+        <path d="M495 490 H650"/>
+        <path d="M590 473 H725"/>
+    </g>
+</svg>

@@ -1,0 +1,78 @@
+<div class="admin-heading">
+    <span class="eyebrow">QUẢN LÝ HỆ THỐNG</span>
+    <h1>{{ heading }}</h1>
+    <p>{{ description }}</p>
+</div>
+
+<p class="demo-note">
+    Dữ liệu mẫu. Thao tác thêm/sửa/xóa chưa lưu vào SQL;
+    tải lại trang sẽ khôi phục dữ liệu ban đầu.
+</p>
+
+<section class="panel" data-admin-table>
+    <div class="toolbar">
+        <label class="field">
+            Tìm kiếm
+            <input type="search" data-table-search
+                   placeholder="Nhập nội dung cần tìm...">
+        </label>
+
+        <button class="button" type="button" data-table-add>
+            ＋ Thêm mẫu
+        </button>
+    </div>
+
+    <div class="table-scroll">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    {% for column in columns %}
+                    <th data-column>{{ column }}</th>
+                    {% endfor %}
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for row in rows %}
+                <tr>
+                    {% for value in row %}
+                    <td data-value>{{ value }}</td>
+                    {% endfor %}
+
+                    <td>
+                        <button type="button"
+                                class="small-button"
+                                data-edit>
+                            Sửa
+                        </button>
+
+                        <button type="button"
+                                class="small-button"
+                                data-delete>
+                            Xóa
+                        </button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <p class="notice" data-table-status role="status"></p>
+
+    <dialog data-editor>
+        <form data-editor-form>
+            <h2 data-editor-title>Sửa bản ghi mẫu</h2>
+            <div data-editor-fields></div>
+
+            <div class="action-row">
+                <button class="button" type="submit">Lưu mẫu</button>
+                <button class="button button-outline"
+                        type="button" data-editor-close>
+                    Hủy
+                </button>
+            </div>
+        </form>
+    </dialog>
+</section>

@@ -1,0 +1,46 @@
+﻿MaMucNguPhapChuan,CapDoHSK,SoThuTuChuan,SoThuTuNguon,NhomLonTrung,NhomConTrung,TenMucTrung,ChiTietTrung,NoiDungChuanTrung,RawGroup,RawCategory,RawDetails,RawContent,MaNguon,KhopRaw,TrungHoanToanVoiCapThapHon,CapThapHonTrung,CanBienSoanNoiDungHoc,VanDeCanKiemTra
+GF4-014,4,14,225,词类,介词,引出对象,引出对象,对于,词类,介词,引出对象,对于,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-015,4,15,226,词类,介词,引出对象,引出对象,关于,词类,介词,引出对象,关于,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-016,4,16,227,词类,介词,引出对象,引出对象,替,词类,介词,引出对象,替,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-017,4,17,228,词类,介词,引出凭借、依据,引出凭借、依据,根据,词类,介词,引出凭借、依据,根据,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-018,4,18,229,词类,介词,引出凭借、依据,引出凭借、依据,作为,词类,介词,引出凭借、依据,作为,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-022,4,22,233,词类,叹词,啊2,啊2,啊2,词类,叹词,啊2,,1004,CO,KHONG,,CO,RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-023,4,23,234,短语,固定短语,四字格,四字格,大A大B,短语,固定短语,四字格,大A大B,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-024,4,24,235,短语,固定短语,四字格,四字格,一A一B,短语,固定短语,四字格,一A一B,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-029,4,29,240,固定格式,一+量词+比+一+量词,一+量词+比+一+量词,,一+量词+比+一+量词,固定格式,一+量词+比+一+量词,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-030,4,30,241,固定格式,（自）……以来,（自）……以来,,（自）……以来,固定格式,（自）……以来,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-031,4,31,242,固定格式,由……组成,由……组成,,由……组成,固定格式,由……组成,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-032,4,32,243,固定格式,在……方面,在……方面,,在……方面,固定格式,在……方面,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-033,4,33,244,固定格式,在……上/下/中,在……上/下/中,,在……上/下/中,固定格式,在……上/下/中,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-034,4,34,245,句子成分,主语,主谓短语作主语,主谓短语作主语,主谓短语作主语,句子成分,主语,主谓短语作主语,,1004,CO,KHONG,,CO,RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-035,4,35,246,句子成分,主语,受事主语,受事主语,受事主语,句子成分,主语,受事主语,,1004,CO,KHONG,,CO,RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-036,4,36,247,句子成分,定语,多项定语,多项定语,多项定语,句子成分,定语,多项定语,,1004,CO,KHONG,,CO,RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-043,4,43,254,句子的类型,复句,并列复句,并列复句,不是……，而是……,句子的类型,复句,并列复句,不是……，而是……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-044,4,44,255,句子的类型,复句,并列复句,并列复句,既……，又/也……,句子的类型,复句,并列复句,既……，又/也……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-045,4,45,256,句子的类型,复句,承接复句,承接复句,首先……，其次……,句子的类型,复句,承接复句,首先……，其次……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-046,4,46,257,句子的类型,复句,承接复句,承接复句,……，于是……,句子的类型,复句,承接复句,……，于是……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-050,4,50,261,句子的类型,复句,假设复句,假设复句,……，否则……,句子的类型,复句,假设复句,……，否则……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-051,4,51,262,句子的类型,复句,假设复句,假设复句,假如……，（就）……,句子的类型,复句,假设复句,假如……，（就）……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-052,4,52,263,句子的类型,复句,假设复句,假设复句,万一……，（就）……,句子的类型,复句,假设复句,万一……，（就）……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-053,4,53,264,句子的类型,复句,条件复句,条件复句,不管……，都/也……,句子的类型,复句,条件复句,不管……，都/也……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-054,4,54,265,句子的类型,复句,条件复句,条件复句,无论……，都/也……,句子的类型,复句,条件复句,无论……，都/也……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-055,4,55,266,句子的类型,复句,因果复句,因果复句,既然……，就……,句子的类型,复句,因果复句,既然……，就……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-056,4,56,267,句子的类型,复句,因果复句,因果复句,……，可见……,句子的类型,复句,因果复句,……，可见……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-059,4,59,270,句子的类型,复句,紧缩复句,紧缩复句,无标记,句子的类型,复句,紧缩复句,无标记,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-060,4,60,271,句子的类型,复句,紧缩复句,紧缩复句,不……也……,句子的类型,复句,紧缩复句,不……也……,1004,CO,KHONG,,CO,TEN_MUC_TRUNG_LAP
+GF4-061,4,61,272,特殊表达法,数的表示法,概数表示法3：数词+来+量词,概数表示法3：数词+来+量词,概数表示法3：数词+来+量词,特殊表达法,数的表示法,概数表示法3：数词+来+量词,,1004,CO,KHONG,,CO,RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-062,4,62,273,特殊表达法,数的表示法,小数、分数、百分数、倍数的表示法；,小数、分数、百分数、倍数的表示法；,小数、分数、百分数、倍数的表示法；,特殊表达法,数的表示法,小数、分数、百分数、倍数的表示法；,,1004,CO,KHONG,,CO,RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-063,4,63,274,强调的方法,用反问句表示强调 反问句2：由疑问代词构成的反问句,用反问句表示强调 反问句2：由疑问代词构成的反问句,,用反问句表示强调 反问句2：由疑问代词构成的反问句,强调的方法,用反问句表示强调 反问句2：由疑问代词构成的反问句,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-064,4,64,275,强调的方法,用双重否定表示强调,用双重否定表示强调,,用双重否定表示强调,强调的方法,用双重否定表示强调,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-065,4,65,276,强调的方法,用“一+量词（+名词）+也（都）/也没（不）……”表示强调,用“一+量词（+名词）+也（都）/也没（不）……”表示强调,,用“一+量词（+名词）+也（都）/也没（不）……”表示强调,强调的方法,用“一+量词（+名词）+也（都）/也没（不）……”表示强调,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-066,4,66,277,强调的方法,用“连……也/都……”表示强调,用“连……也/都……”表示强调,,用“连……也/都……”表示强调,强调的方法,用“连……也/都……”表示强调,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-067,4,67,278,口语格式,不X白不X,不X白不X,,不X白不X,口语格式,不X白不X,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-068,4,68,279,口语格式,动词+一X是一X,动词+一X是一X,,动词+一X是一X,口语格式,动词+一X是一X,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-069,4,69,280,口语格式,（没）有什么（好）X的,（没）有什么（好）X的,,（没）有什么（好）X的,口语格式,（没）有什么（好）X的,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-070,4,70,281,口语格式,X是X，Y是Y,X是X，Y是Y,,X是X，Y是Y,口语格式,X是X，Y是Y,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-071,4,71,282,口语格式,X也得X，不X也得X,X也得X，不X也得X,,X也得X，不X也得X,口语格式,X也得X，不X也得X,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-072,4,72,283,口语格式,X就是了,X就是了,,X就是了,口语格式,X就是了,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-073,4,73,284,口语格式,还X呢,还X呢,,还X呢,口语格式,还X呢,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-074,4,74,285,口语格式,你X你的吧,你X你的吧,,你X你的吧,口语格式,你X你的吧,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-075,4,75,286,口语格式,让/叫你X你就X,让/叫你X你就X,,让/叫你X你就X,口语格式,让/叫你X你就X,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM
+GF4-076,4,76,287,口语格式,说什么/怎么（着）也得X,说什么/怎么（着）也得X,,说什么/怎么（着）也得X,口语格式,说什么/怎么（着）也得X,,,1004,CO,KHONG,,CO,RAW_KHONG_CO_DETAILS; RAW_KHONG_CO_CONTENT; CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM

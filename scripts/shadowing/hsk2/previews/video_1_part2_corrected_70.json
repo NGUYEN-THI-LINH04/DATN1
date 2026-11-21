@@ -1,0 +1,345 @@
+[
+  {
+    "start": 262.08,
+    "end": 265.06,
+    "hanzi": "看来我们想的是同一个。",
+    "pinyin": "kàn lái wǒ men xiǎng de shì tóng yī gè 。",
+    "vi": "Xem ra chúng ta đang nghĩ đến cùng một câu chuyện.",
+    "_review_status": "can_doi_chieu_audio"
+  },
+  {
+    "start": 264.46,
+    "end": 272.92,
+    "hanzi": "这个故事，我觉得在中国每个小孩子都听过。那我们现在给我们的……",
+    "pinyin": "zhè ge gù shì ， wǒ jué de zài zhōng guó měi gè xiǎo hái zi dōu tīng guò 。 nà wǒ men xiàn zài gěi wǒ men de … …",
+    "vi": "Tôi nghĩ ở Trung Quốc, đứa trẻ nào cũng từng nghe câu chuyện này. Vậy bây giờ chúng ta hãy kể cho…",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Noi tiep sang cau 43, co ASR lap chu."
+  },
+  {
+    "start": 271.63,
+    "end": 283.07,
+    "hanzi": "听众朋友们也讲一遍这个故事，好不好？用最简单的中文。好主意，我们可以一起讲。好的，那我开始。",
+    "pinyin": "tīng zhòng péng yǒu men yě jiǎng yī biàn zhè ge gù shì ， hǎo bù hǎo ？ yòng zuì jiǎn dān de zhōng wén 。 hǎo zhǔ yì ， wǒ men kě yǐ yì qǐ jiǎng 。 hǎo de ， nà wǒ kāi shǐ 。",
+    "vi": "…các thính giả nghe lại câu chuyện này nhé? Bằng tiếng Trung đơn giản nhất. Ý hay đấy, chúng ta cùng kể. Được, vậy tôi bắt đầu.",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Co nhieu nguoi noi; can xac minh dau cau."
+  },
+  {
+    "start": 283.09,
+    "end": 295.25,
+    "hanzi": "我们的故事开始了。很久很久以前，森林里住着很多动物。有一只兔子，这……",
+    "pinyin": "wǒ men de gù shì kāi shǐ le 。 hěn jiǔ hěn jiǔ yǐ qián ， sēn lín lǐ zhù zhe hěn duō dòng wù 。 yǒu yī zhī tù zi ， zhè … …",
+    "vi": "Câu chuyện của chúng ta bắt đầu. Ngày xửa ngày xưa, trong rừng có rất nhiều loài động vật. Có một con thỏ, con thỏ này…",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Ket thuc giua cum '这只兔子'."
+  },
+  {
+    "start": 295.07,
+    "end": 307.38,
+    "hanzi": "只兔子，它有一个特点，它跑得非常非常快。对，它是森林里跑得最快的动物，所以它有点……",
+    "pinyin": "zhǐ tù zi ， tā yǒu yí gè tè diǎn ， tā pǎo dé fēi cháng fēi cháng kuài 。 duì ， tā shì sēn lín lǐ pǎo dé zuì kuài de dòng wù ， suǒ yǐ tā yǒu diǎn … …",
+    "vi": "…có một đặc điểm là chạy cực kỳ nhanh. Đúng vậy, nó là con vật chạy nhanh nhất khu rừng, vì vậy nó hơi…",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Bat dau giua '这只兔子', ket thuc truoc '骄傲'."
+  },
+  {
+    "start": 306.24,
+    "end": 307.74,
+    "hanzi": "骄傲。",
+    "pinyin": "jiāo ào 。",
+    "vi": "Kiêu ngạo.",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Noi tiep cau 45."
+  },
+  {
+    "start": 307.3,
+    "end": 319.46,
+    "hanzi": "它常常对别的动物说：“你们看，我跑得多快呀！”森林里还有一只乌龟。这只乌龟呢……",
+    "pinyin": "tā cháng cháng duì bié de dòng wù shuō ： “ nǐ men kàn ， wǒ pǎo dé duō kuài ya ！ ” sēn lín lǐ hái yǒu yī zhī wū guī 。 zhè zhǐ wū guī ne … …",
+    "vi": "Nó thường khoe với những con vật khác: “Các bạn xem, tôi chạy nhanh biết bao!” Trong rừng còn có một con rùa. Còn con rùa này thì…",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Ket thuc giua y."
+  },
+  {
+    "start": 318.84,
+    "end": 324.68,
+    "hanzi": "它也有一个特点，它走得非常非常慢，非常慢。",
+    "pinyin": "tā yě yǒu yí gè tè diǎn ， tā zǒu dé fēi cháng fēi cháng màn ， fēi cháng màn 。",
+    "vi": "Nó cũng có một đặc điểm, đó là đi rất, rất chậm.",
+    "_review_status": "can_doi_chieu_audio"
+  },
+  {
+    "start": 323.64,
+    "end": 327.08,
+    "hanzi": "对，它做什么事情都是……",
+    "pinyin": "duì ， tā zuò shén me shì qíng dōu shì … …",
+    "vi": "Đúng vậy, nó làm việc gì cũng đều…",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Noi tiep sang cau 50; ASR sai."
+  },
+  {
+    "start": 326.21,
+    "end": 338.67,
+    "hanzi": "很慢，吃饭很慢，走路也很慢。有一天，兔子看见了正在走路的乌龟。兔子笑着对……",
+    "pinyin": "hěn màn ， chī fàn hěn màn ， zǒu lù yě hěn màn 。 yǒu yī tiān ， tù zi kàn jiàn le zhèng zài zǒu lù de wū guī 。 tù zi xiào zhe duì … …",
+    "vi": "…rất chậm. Ăn cũng chậm, đi lại cũng chậm. Một ngày nọ, thỏ nhìn thấy rùa đang đi trên đường. Thỏ cười và nói với…",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Ket thuc giua y, noi sang cau 51."
+  },
+  {
+    "start": 337.69,
+    "end": 349.79,
+    "hanzi": "乌龟，乌龟，你太慢了！你看你走路的样子，真的太慢了！乌龟听了……",
+    "pinyin": "wū guī ， wū guī ， nǐ tài màn le ！ nǐ kàn nǐ zǒu lù de yàng zi ， zhēn de tài màn le ！ wū guī tīng le … …",
+    "vi": "Rùa ơi, cậu chậm quá! Nhìn dáng đi của cậu kìa, thật sự quá chậm! Rùa nghe xong…",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Noi tiep cau 50, ASR nhan nham nguoi noi."
+  },
+  {
+    "start": 348.58,
+    "end": 360.74,
+    "hanzi": "它不高兴。它对兔子说：“你很快，我知道，但是我们比赛，你可能不会赢。”兔子……",
+    "pinyin": "tā bù gāo xìng 。 tā duì tù zi shuō ： “ nǐ hěn kuài ， wǒ zhī dào ， dàn shì wǒ men bǐ sài ， nǐ kě néng bú huì yíng 。 ” tù zi … …",
+    "vi": "Nó không vui. Nó nói với thỏ: “Tôi biết cậu chạy rất nhanh, nhưng nếu chúng ta thi đấu, chưa chắc cậu đã thắng.” Thỏ…",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "ASR lap chu va cuoi cau noi sang cau 53."
+  },
+  {
+    "start": 360.12,
+    "end": 372.24,
+    "hanzi": "听了，哈哈大笑。它说：“什么？你说我不会赢？太有意思了！好，我们明天就……”",
+    "pinyin": "tīng le ， hā hā dà xiào 。 tā shuō ： “ shén me ？ nǐ shuō wǒ bú huì yíng ？ tài yǒu yì si le ！ hǎo ， wǒ men míng tiān jiù … … ”",
+    "vi": "…nghe xong liền cười lớn: “Cái gì? Cậu nói tôi không thắng được à? Thú vị thật! Được, ngày mai chúng ta sẽ…”",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Noi tiep cau 52 va 54."
+  },
+  {
+    "start": 371.3,
+    "end": 380.08,
+    "hanzi": "比赛，让森林里所有的动物都来看。乌龟说：“好，明天见。”",
+    "pinyin": "bǐ sài ， ràng sēn lín lǐ suǒ yǒu de dòng wù dōu lái kàn 。 wū guī shuō ： “ hǎo ， míng tiān jiàn 。 ”",
+    "vi": "…thi chạy, để tất cả động vật trong rừng đến xem. Rùa nói: “Được, hẹn gặp ngày mai.”",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Bat dau giua cau tu cau 53."
+  },
+  {
+    "start": 379.81,
+    "end": 392.67,
+    "hanzi": "第二天天气很好，森林里的动物都来了。小鸟来了，小狗来了，小猫也来了，它们都……",
+    "pinyin": "dì èr tiān tiān qì hěn hǎo ， sēn lín lǐ de dòng wù dōu lái le 。 xiǎo niǎo lái le ， xiǎo gǒu lái le ， xiǎo māo yě lái le ， tā men dōu … …",
+    "vi": "Ngày hôm sau thời tiết rất đẹp. Các con vật trong rừng đều đến. Chim, chó và mèo cũng đến. Tất cả đều…",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Noi tiep sang cau 56."
+  },
+  {
+    "start": 391.79,
+    "end": 395.99,
+    "hanzi": "想看兔子和乌龟的比赛。",
+    "pinyin": "xiǎng kàn tù zi hé wū guī de bǐ sài 。",
+    "vi": "…muốn xem cuộc thi giữa thỏ và rùa.",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Noi tiep cau 55."
+  },
+  {
+    "start": 395.83,
+    "end": 403.77,
+    "hanzi": "兔子和乌龟站在起点。一只小鸟说：“预备，开始！”",
+    "pinyin": "tù zi hé wū guī zhàn zài qǐ diǎn 。 yī zhī xiǎo niǎo shuō ： “ yù bèi ， kāi shǐ ！ ”",
+    "vi": "Thỏ và rùa đứng ở vạch xuất phát. Một chú chim nói: “Chuẩn bị, bắt đầu!”",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Can kiem tra dau cau va loi thoai."
+  },
+  {
+    "start": 403.48,
+    "end": 415.38,
+    "hanzi": "兔子像风一样跑了出去，非常快，一转眼就看不见了。乌龟呢？它也在努力地跑。",
+    "pinyin": "tù zi xiàng fēng yī yàng pǎo le chū qù ， fēi cháng kuài ， yī zhuǎn yǎn jiù kàn bú jiàn le 。 wū guī ne ？ tā yě zài nǔ lì dì pǎo 。",
+    "vi": "Thỏ phóng đi nhanh như gió, chỉ chớp mắt đã không thấy đâu. Còn rùa thì sao? Nó cũng đang cố gắng chạy.",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "ASR lap chu; can doi chieu phu de."
+  },
+  {
+    "start": 414.92,
+    "end": 422.92,
+    "hanzi": "但是我们知道，它跑得很慢，它一步一步慢慢地向前走。",
+    "pinyin": "dàn shì wǒ men zhī dào ， tā pǎo dé hěn màn ， tā yí bù yí bù màn màn dì xiàng qián zǒu 。",
+    "vi": "Nhưng chúng ta biết rùa chạy rất chậm. Nó từng bước, từng bước tiến về phía trước.",
+    "_review_status": "can_doi_chieu_audio"
+  },
+  {
+    "start": 422.52,
+    "end": 431.77,
+    "hanzi": "兔子跑了很远，它回头看，看不到乌龟，一点儿也看不到。",
+    "pinyin": "tù zi pǎo le hěn yuǎn ， tā huí tóu kàn ， kàn bú dào wū guī ， yì diǎn ér yě kàn bú dào 。",
+    "vi": "Thỏ đã chạy rất xa. Nó quay đầu nhìn lại nhưng không thấy rùa, hoàn toàn không thấy đâu cả.",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "ASR lap hoac nhan sai '一点也'."
+  },
+  {
+    "start": 431.11,
+    "end": 443.87,
+    "hanzi": "兔子想：“乌龟太慢了，它可能明天早上才能到这里。天气这么好，我想在这里睡一会儿。”",
+    "pinyin": "tù zi xiǎng ： “ wū guī tài màn le ， tā kě néng míng tiān zǎo shàng cái néng dào zhè lǐ 。 tiān qì zhè me hǎo ， wǒ xiǎng zài zhè lǐ shuì yī huì er 。 ”",
+    "vi": "Thỏ nghĩ: “Rùa chậm quá, có lẽ phải đến sáng mai nó mới tới đây. Thời tiết đẹp thế này, mình muốn ngủ một lát ở đây.”",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Loi thoai noi tiep sang cau 62."
+  },
+  {
+    "start": 443.23,
+    "end": 447.21,
+    "hanzi": "我睡醒了，再跑也来得及。",
+    "pinyin": "wǒ shuì xǐng le ， zài pǎo yě lái de jí 。",
+    "vi": "Khi mình ngủ dậy rồi chạy tiếp thì vẫn còn kịp.",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Noi tiep suy nghi cua tho o cau 61."
+  },
+  {
+    "start": 446.91,
+    "end": 455.83,
+    "hanzi": "于是，兔子就在一棵大树下面开始睡觉了。它睡得很香。",
+    "pinyin": "yú shì ， tù zi jiù zài yī kē dà shù xià miàn kāi shǐ shuì jiào le 。 tā shuì dé hěn xiāng 。",
+    "vi": "Thế là thỏ bắt đầu ngủ dưới một gốc cây lớn. Nó ngủ rất ngon.",
+    "_review_status": "can_doi_chieu_audio"
+  },
+  {
+    "start": 455.29,
+    "end": 459.33,
+    "hanzi": "这个时候，乌龟在哪里呢？",
+    "pinyin": "zhè ge shí hòu ， wū guī zài nǎ lǐ ne ？",
+    "vi": "Lúc này, rùa đang ở đâu nhỉ?",
+    "_review_status": "can_doi_chieu_audio"
+  },
+  {
+    "start": 458.66,
+    "end": 470.84,
+    "hanzi": "乌龟还在路上。它很累，也很热，但是它没有休息。它心里想：“我一定要坚持。”",
+    "pinyin": "wū guī hái zài lù shàng 。 tā hěn lèi ， yě hěn rè ， dàn shì tā méi yǒu xiū xī 。 tā xīn lǐ xiǎng ： “ wǒ yí dìng yào jiān chí 。 ”",
+    "vi": "Rùa vẫn đang trên đường. Nó rất mệt và nóng, nhưng không nghỉ ngơi. Trong lòng nó nghĩ: “Mình nhất định phải kiên trì.”",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Loi thoai noi tiep sang cau 66."
+  },
+  {
+    "start": 470.78,
+    "end": 473.1,
+    "hanzi": "我不能停。",
+    "pinyin": "wǒ bù néng tíng 。",
+    "vi": "Mình không thể dừng lại.",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Noi tiep suy nghi cua rua o cau 65."
+  },
+  {
+    "start": 472.96,
+    "end": 480.98,
+    "hanzi": "所以，乌龟一直走，一直走。它走得很慢，但是它没有停。",
+    "pinyin": "suǒ yǐ ， wū guī yì zhí zǒu ， yì zhí zǒu 。 tā zǒu dé hěn màn ， dàn shì tā méi yǒu tíng 。",
+    "vi": "Vì vậy, rùa cứ đi mãi, đi mãi. Nó đi rất chậm nhưng không dừng lại.",
+    "_review_status": "can_doi_chieu_audio"
+  },
+  {
+    "start": 483.43,
+    "end": 488.39,
+    "hanzi": "走到了那棵大树下面，它看到了谁？",
+    "pinyin": "zǒu dào le nà kē dà shù xià miàn ， tā kàn dào le shuí ？",
+    "vi": "Khi đến dưới gốc cây lớn ấy, nó đã nhìn thấy ai?",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Can kiem tra moc bat dau cau voi phu de."
+  },
+  {
+    "start": 487.83,
+    "end": 491.97,
+    "hanzi": "它看到了正在睡觉的兔子。",
+    "pinyin": "tā kàn dào le zhèng zài shuì jiào de tù zi 。",
+    "vi": "Nó nhìn thấy thỏ đang ngủ.",
+    "_review_status": "can_doi_chieu_audio"
+  },
+  {
+    "start": 491.47,
+    "end": 495.19,
+    "hanzi": "对，兔子睡得正香呢。",
+    "pinyin": "duì ， tù zi shuì dé zhèng xiāng ne 。",
+    "vi": "Đúng vậy, thỏ đang ngủ rất ngon.",
+    "_review_status": "can_doi_chieu_audio",
+    "_review_note": "Can kiem tra dau cau va nguoi noi."
+  },
+  {
+    "start": 495.15,
+    "end": 507.19,
+    "hanzi": "乌龟看了看兔子它什么也没说，继续一步一步慢慢地向前走。又过了很久。",
+    "pinyin": "wū guī kàn le kàn tù zi tā shén me yě méi shuō ， jì xù yí bù yí bù màn màn dì xiàng qián zǒu 。 yòu guò le hěn jiǔ 。",
+    "vi": "",
+    "_review_status": "chua_ra_soat"
+  },
+  {
+    "start": 506.21,
+    "end": 518.86,
+    "hanzi": "很久，兔子醒了，它睁开眼睛伸扔了了一个一个懒懒腰，腰他说，啊我睡得真好，现在乌龟到哪里。",
+    "pinyin": "hěn jiǔ ， tù zi xǐng le ， tā zhēng kāi yǎn jīng shēn rēng liǎo liǎo yí gè yí gè lǎn lǎn yāo ， yāo tā shuō ， a wǒ shuì dé zhēn hǎo ， xiàn zài wū guī dào nǎ lǐ 。",
+    "vi": "",
+    "_review_status": "chua_ra_soat"
+  },
+  {
+    "start": 517.76,
+    "end": 524.4,
+    "hanzi": "了？它他向后看，没有乌龟他又向前看。",
+    "pinyin": "le ？ tā tā xiàng hòu kàn ， méi yǒu wū guī tā yòu xiàng qián kàn 。",
+    "vi": "",
+    "_review_status": "chua_ra_soat"
+  },
+  {
+    "start": 524.0,
+    "end": 526.48,
+    "hanzi": "他看到了什么？",
+    "pinyin": "tā kàn dào le shén me ？",
+    "vi": "",
+    "_review_status": "chua_ra_soat"
+  },
+  {
+    "start": 525.64,
+    "end": 538.14,
+    "hanzi": "他看到乌龟已经快要到终点了。兔子非常着急，他马上开始跑他跑得很快很快。",
+    "pinyin": "tā kàn dào wū guī yǐ jīng kuài yào dào zhōng diǎn le 。 tù zi fēi cháng zháo jí ， tā mǎ shàng kāi shǐ pǎo tā pǎo dé hěn kuài hěn kuài 。",
+    "vi": "",
+    "_review_status": "chua_ra_soat"
+  },
+  {
+    "start": 537.48,
+    "end": 539.58,
+    "hanzi": "比以前更快。",
+    "pinyin": "bǐ yǐ qián gèng kuài 。",
+    "vi": "",
+    "_review_status": "chua_ra_soat"
+  },
+  {
+    "start": 542.41,
+    "end": 552.01,
+    "hanzi": "是的，太晚了就在兔子快要追上的时候，乌龟慢慢地走过了终点线。",
+    "pinyin": "shì de ， tài wǎn le jiù zài tù zi kuài yào zhuī shàng de shí hòu ， wū guī màn màn dì zǒu guò le zhōng diǎn xiàn 。",
+    "vi": "",
+    "_review_status": "chua_ra_soat"
+  },
+  {
+    "start": 551.39,
+    "end": 563.51,
+    "hanzi": "所以，比赛结束了谁是第一名？是那只走得很慢，但是一直没有放弃的乌龟。",
+    "pinyin": "suǒ yǐ ， bǐ sài jié shù le shuí shì dì yì míng ？ shì nà zhǐ zǒu dé hěn màn ， dàn shì yì zhí méi yǒu fàng qì de wū guī 。",
+    "vi": "",
+    "_review_status": "chua_ra_soat"
+  },
+  {
+    "start": 562.99,
+    "end": 566.37,
+    "hanzi": "这个故事讲完了。",
+    "pinyin": "zhè ge gù shì jiǎng wán le 。",
+    "vi": "",
+    "_review_status": "chua_ra_soat"
+  },
+  {
+    "start": 566.24,
+    "end": 574.8,
+    "hanzi": "虽然我们都知道这个故事，但是现在再说一遍，还是觉得很有意思。",
+    "pinyin": "suī rán wǒ men dōu zhī dào zhè ge gù shì ， dàn shì xiàn zài zài shuō yī biàn ， hái shì jué de hěn yǒu yì si 。",
+    "vi": "",
+    "_review_status": "chua_ra_soat"
+  }
+]

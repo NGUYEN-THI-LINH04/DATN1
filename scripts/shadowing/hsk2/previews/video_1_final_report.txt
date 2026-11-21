@@ -1,0 +1,80 @@
+Part 1: 40 muc
+Part 2: 73 muc
+Part 3: 119 muc
+Tong ban dau: 232
+Da loai trung: 1
+Tong sau ghep: 231
+So loi: 0
+So canh bao: 65
+
+=== LOI ===
+Khong co
+
+=== CANH BAO ===
+Moc 443.0s: tam chia 2 cau trong 9.00s
+Moc 470.0s: tam chia 2 cau trong 6.00s
+Moc 514.0s: tam chia 2 cau trong 7.00s
+Moc 656.0s: tam chia 2 cau trong 7.00s
+Moc 805.0s: tam chia 2 cau trong 5.00s
+Muc 2: end goc 21.92s chong start tiep theo 21.7s
+Muc 3: end goc 23.2s chong start tiep theo 22.52s
+Muc 4: end goc 24.8s chong start tiep theo 24.04s
+Muc 5: end goc 32.94s chong start tiep theo 32.52s
+Muc 6: end goc 34.74s chong start tiep theo 34.04s
+Muc 7: end goc 42.34s chong start tiep theo 41.52s
+Muc 8: end goc 47.0s chong start tiep theo 45.8s
+Muc 9: end goc 55.8s chong start tiep theo 55.11s
+Muc 10: end goc 58.63s chong start tiep theo 58.45s
+Muc 11: end goc 67.69s chong start tiep theo 67.13s
+Muc 12: end goc 70.89s chong start tiep theo 70.03s
+Muc 13: end goc 76.61s chong start tiep theo 75.91s
+Muc 14: end goc 84.38s chong start tiep theo 83.56s
+Muc 15: end goc 87.2s chong start tiep theo 86.54s
+Muc 16: end goc 95.0s chong start tiep theo 94.18s
+Muc 17: end goc 99.32s chong start tiep theo 98.7s
+Muc 18: end goc 108.54s chong start tiep theo 108.29s
+Muc 19: end goc 117.11s chong start tiep theo 116.49s
+Muc 22: end goc 145.06s chong start tiep theo 144.04s
+Muc 23: end goc 153.08s chong start tiep theo 152.44s
+Muc 25: end goc 166.03s chong start tiep theo 165.09s
+Muc 26: end goc 171.39s chong start tiep theo 170.43s
+Muc 27: end goc 173.13s chong start tiep theo 172.33s
+Muc 28: end goc 180.15s chong start tiep theo 179.57s
+Muc 29: end goc 181.39s chong start tiep theo 180.61s
+Muc 30: end goc 187.09s chong start tiep theo 186.33s
+Muc 31: end goc 195.74s chong start tiep theo 194.94s
+Muc 32: end goc 207.44s chong start tiep theo 206.44s
+Muc 33: end goc 216.38s chong start tiep theo 215.19s
+Muc 34: end goc 224.15s chong start tiep theo 222.99s
+Muc 36: end goc 245.33s chong start tiep theo 244.46s
+Muc 37: end goc 248.62s chong start tiep theo 247.82s
+Muc 38: end goc 252.04s chong start tiep theo 251.3s
+Muc 39: end goc 258.82s chong start tiep theo 257.98s
+Muc 40: end goc 262.48s chong start tiep theo 262.08s
+Muc 41: end goc 265.06s chong start tiep theo 264.46s
+Muc 42: end goc 270.16s chong start tiep theo 268.9s
+Muc 43: end goc 276.31s chong start tiep theo 275.37s
+Muc 44: end goc 278.91s chong start tiep theo 278.47s
+Muc 45: end goc 281.61s chong start tiep theo 280.71s
+Muc 49: end goc 295.25s chong start tiep theo 295.07s
+Muc 50: end goc 300.76s chong start tiep theo 299.96s
+Muc 51: end goc 307.74s chong start tiep theo 307.3s
+Muc 52: end goc 314.86s chong start tiep theo 314.62s
+Muc 53: end goc 319.46s chong start tiep theo 318.84s
+Muc 54: end goc 324.68s chong start tiep theo 323.64s
+Muc 55: end goc 331.03s chong start tiep theo 330.77s
+Muc 56: end goc 338.67s chong start tiep theo 337.69s
+Muc 57: end goc 347.97s chong start tiep theo 347.31s
+Muc 58: end goc 352.72s chong start tiep theo 351.67s
+Muc 59: end goc 359.94s chong start tiep theo 359.24s
+Muc 60: end goc 364.38s chong start tiep theo 363.62s
+Muc 62: end goc 375.92s chong start tiep theo 375.0s
+Muc 63: end goc 380.08s chong start tiep theo 379.81s
+Muc 64: end goc 386.87s chong start tiep theo 386.51s
+Muc 65: end goc 391.63s chong start tiep theo 391.17s
+Muc 66: end goc 395.99s chong start tiep theo 395.83s
+Muc 67: end goc 403.77s chong start tiep theo 398.0s
+Muc 130: end goc 663.0s chong start tiep theo 659.5s
+Muc 162: end goc 810.0s chong start tiep theo 807.5s
+
+Timestamp da chuan hoa theo moc phu de, CHUA xac minh audio.

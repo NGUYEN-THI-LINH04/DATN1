@@ -1,0 +1,150 @@
+{
+  "ma_de_goc": "H10902",
+  "cap_hsk": 1,
+  "ten_de": "Đề 3",
+  "trang_thai": "cho_kiem_tra_hinh",
+  "so_cau_da_tach": 10,
+  "ghi_chu": "10 ảnh ứng viên được tìm từ ảnh nhúng trong PDF. Chưa xác nhận bằng mắt.",
+  "cau_hoi": [
+    {
+      "so_cau": 1,
+      "ky_nang": "nghe",
+      "trang_pdf": 2,
+      "anh_cau_hoi": "questions/cau_01.png",
+      "dap_an_goc": "×",
+      "vung_cat_pdf": [
+        196.72,
+        348.88,
+        314.24,
+        425.12
+      ],
+      "da_kiem_tra_hinh": false
+    },
+    {
+      "so_cau": 2,
+      "ky_nang": "nghe",
+      "trang_pdf": 2,
+      "anh_cau_hoi": "questions/cau_02.png",
+      "dap_an_goc": "×",
+      "vung_cat_pdf": [
+        219.52,
+        427.6,
+        291.44,
+        510.8
+      ],
+      "da_kiem_tra_hinh": false
+    },
+    {
+      "so_cau": 3,
+      "ky_nang": "nghe",
+      "trang_pdf": 2,
+      "anh_cau_hoi": "questions/cau_03.png",
+      "dap_an_goc": "×",
+      "vung_cat_pdf": [
+        215.68,
+        508.96,
+        295.28,
+        593.84
+      ],
+      "da_kiem_tra_hinh": false
+    },
+    {
+      "so_cau": 4,
+      "ky_nang": "nghe",
+      "trang_pdf": 2,
+      "anh_cau_hoi": "questions/cau_04.png",
+      "dap_an_goc": "√",
+      "vung_cat_pdf": [
+        217.12,
+        591.28,
+        293.84,
+        675.92
+      ],
+      "da_kiem_tra_hinh": false
+    },
+    {
+      "so_cau": 5,
+      "ky_nang": "nghe",
+      "trang_pdf": 2,
+      "anh_cau_hoi": "questions/cau_05.png",
+      "dap_an_goc": "√",
+      "vung_cat_pdf": [
+        204.64,
+        683.44,
+        306.32,
+        747.92
+      ],
+      "da_kiem_tra_hinh": false
+    },
+    {
+      "so_cau": 21,
+      "ky_nang": "doc",
+      "trang_pdf": 7,
+      "anh_cau_hoi": "questions/cau_21.png",
+      "dap_an_goc": "×",
+      "vung_cat_pdf": [
+        220.56,
+        346.9,
+        502.56,
+        427.1
+      ],
+      "da_kiem_tra_hinh": false
+    },
+    {
+      "so_cau": 22,
+      "ky_nang": "doc",
+      "trang_pdf": 7,
+      "anh_cau_hoi": "questions/cau_22.png",
+      "dap_an_goc": "√",
+      "vung_cat_pdf": [
+        202.08,
+        429.1,
+        484.08,
+        509.3
+      ],
+      "da_kiem_tra_hinh": false
+    },
+    {
+      "so_cau": 23,
+      "ky_nang": "doc",
+      "trang_pdf": 7,
+      "anh_cau_hoi": "questions/cau_23.png",
+      "dap_an_goc": "×",
+      "vung_cat_pdf": [
+        188.64,
+        511.3,
+        470.64,
+        591.5
+      ],
+      "da_kiem_tra_hinh": false
+    },
+    {
+      "so_cau": 24,
+      "ky_nang": "doc",
+      "trang_pdf": 7,
+      "anh_cau_hoi": "questions/cau_24.png",
+      "dap_an_goc": "√",
+      "vung_cat_pdf": [
+        195.6,
+        593.5,
+        477.6,
+        673.64
+      ],
+      "da_kiem_tra_hinh": false
+    },
+    {
+      "so_cau": 25,
+      "ky_nang": "doc",
+      "trang_pdf": 7,
+      "anh_cau_hoi": "questions/cau_25.png",
+      "dap_an_goc": "√",
+      "vung_cat_pdf": [
+        208.8,
+        675.64,
+        490.8,
+        755.78
+      ],
+      "da_kiem_tra_hinh": false
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "module": "shadowing",
+  "youtube_id": "VkEYoXw7jD0",
+  "title": "差不多 - Gần giống nhau",
+  "status": "draft_needs_audio_review",
+  "sentences": [
+    {
+      "start": 1.0,
+      "end": 6.96,
+      "hanzi": "娜娜有一个姐姐。",
+      "pinyin": "nà nà yǒu yí gè jiě jiě 。",
+      "vi": "Na Na có một người chị gái.",
+      "english_reference": "Nana has an older sister.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 6.96,
+      "end": 11.84,
+      "hanzi": "她们的年龄差不多。",
+      "pinyin": "tā men de nián líng chà bu duō 。",
+      "vi": "Hai chị em gần bằng tuổi nhau.",
+      "english_reference": "They are both about the same age.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 11.84,
+      "end": 15.88,
+      "hanzi": "姐姐十六岁。",
+      "pinyin": "jiě jiě shí liù suì 。",
+      "vi": "Chị gái 16 tuổi.",
+      "english_reference": "[Her] older sister is 16 years old.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 15.88,
+      "end": 20.52,
+      "hanzi": "娜娜十五岁。",
+      "pinyin": "nà nà shí wǔ suì 。",
+      "vi": "Na Na 15 tuổi.",
+      "english_reference": "Nana is 15 years old.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 20.52,
+      "end": 27.8,
+      "hanzi": "她们长得差不多一样漂亮。",
+      "pinyin": "tā men zhǎng dé chà bu duō yī yàng piào liàng 。",
+      "vi": "Hai chị em có ngoại hình xinh đẹp gần giống nhau.",
+      "english_reference": "They look similarly beautiful.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 27.8,
+      "end": 33.96,
+      "hanzi": "她们都有一双大大的眼睛，",
+      "pinyin": "tā men dōu yǒu yī shuāng dà dà de yǎn jīng ，",
+      "vi": "Cả hai đều có đôi mắt to,",
+      "english_reference": "Both have a pair of big eyes,",
+      "needs_audio_review": true
+    },
+    {
+      "start": 33.96,
+      "end": 40.02,
+      "hanzi": "头发差不多一样长。",
+      "pinyin": "tóu fà chà bu duō yī yàng zhǎng 。",
+      "vi": "tóc dài gần bằng nhau.",
+      "english_reference": "and hair about the same length.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 40.02,
+      "end": 46.0,
+      "hanzi": "她们的身高也差不多。",
+      "pinyin": "tā men de shēn gāo yě chà bu duō 。",
+      "vi": "Chiều cao của hai chị em cũng gần bằng nhau.",
+      "english_reference": "Their heights are also similar.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 46.0,
+      "end": 50.42,
+      "hanzi": "姐姐一米六五。",
+      "pinyin": "jiě jiě yī mǐ liù wǔ 。",
+      "vi": "Chị gái cao 1 mét 65.",
+      "english_reference": "[Her] older sister is 1,65 m.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 50.42,
+      "end": 55.14,
+      "hanzi": "娜娜一米六二。",
+      "pinyin": "nà nà yī mǐ liù èr 。",
+      "vi": "Na Na cao 1 mét 62.",
+      "english_reference": "Nana is 1,62 m.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 55.14,
+      "end": 59.84,
+      "hanzi": "她们都在上初中，",
+      "pinyin": "tā men dōu zài shàng chū zhōng ，",
+      "vi": "Cả hai đều đang học cấp hai,",
+      "english_reference": "They both attend middle school",
+      "needs_audio_review": true
+    },
+    {
+      "start": 59.84,
+      "end": 65.24,
+      "hanzi": "在同一所学校上学。",
+      "pinyin": "zài tóng yī suǒ xué xiào shàng xué 。",
+      "vi": "học cùng một trường.",
+      "english_reference": "and study at the same school.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 65.24,
+      "end": 71.52,
+      "hanzi": "她们的成绩差不多一样好。",
+      "pinyin": "tā men de chéng jì chà bu duō yī yàng hǎo 。",
+      "vi": "Thành tích học tập của hai chị em đều tốt gần như nhau.",
+      "english_reference": "[Their] grades are similarly good.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 71.52,
+      "end": 77.78,
+      "hanzi": "虽然她们长得差不多，",
+      "pinyin": "suī rán tā men zhǎng dé chà bu duō ，",
+      "vi": "Tuy ngoại hình hai chị em khá giống nhau,",
+      "english_reference": "Although they look similar,",
+      "needs_audio_review": true
+    },
+    {
+      "start": 77.78,
+      "end": 83.42,
+      "hanzi": "但是性格差很多。",
+      "pinyin": "dàn shì xìng gé chà hěn duō 。",
+      "vi": "nhưng tính cách lại khác nhau rất nhiều.",
+      "english_reference": "[but] their personalities are quite different.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 83.42,
+      "end": 89.38,
+      "hanzi": "娜娜很喜欢说话和笑。",
+      "pinyin": "nà nà hěn xǐ huān shuō huà hé xiào 。",
+      "vi": "Na Na rất thích nói chuyện và cười.",
+      "english_reference": "Nana loves to talk and laugh;",
+      "needs_audio_review": true
+    },
+    {
+      "start": 89.38,
+      "end": 95.38,
+      "hanzi": "她喜欢和朋友们在一起。",
+      "pinyin": "tā xǐ huān hé péng yǒu men zài yì qǐ 。",
+      "vi": "Cô ấy thích ở bên bạn bè.",
+      "english_reference": "she likes to be with friends.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 95.38,
+      "end": 100.08,
+      "hanzi": "姐姐不太喜欢说话。",
+      "pinyin": "jiě jiě bù tài xǐ huān shuō huà 。",
+      "vi": "Chị gái không thích nói chuyện lắm.",
+      "english_reference": "[Her] older sister does not like to talk;",
+      "needs_audio_review": true
+    },
+    {
+      "start": 100.08,
+      "end": 106.22,
+      "hanzi": "她更喜欢一个人待着。",
+      "pinyin": "tā gèng xǐ huān yí gè rén dài zhe 。",
+      "vi": "Chị ấy thích ở một mình hơn.",
+      "english_reference": "she prefers to be alone.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 106.22,
+      "end": 110.28,
+      "hanzi": "妈妈很爱娜娜。",
+      "pinyin": "mā mā hěn ài nà nà 。",
+      "vi": "Mẹ rất yêu Na Na.",
+      "english_reference": "Mom loves Nana very much.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 110.28,
+      "end": 114.0,
+      "hanzi": "她也很爱姐姐。",
+      "pinyin": "tā yě hěn ài jiě jiě 。",
+      "vi": "Mẹ cũng rất yêu chị gái.",
+      "english_reference": "She also loves [Nana's] older sister very much.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 114.0,
+      "end": 121.42,
+      "hanzi": "她对两个女儿的爱是一样的。",
+      "pinyin": "tā duì liǎng gè nǚ ér de ài shì yī yàng de 。",
+      "vi": "Tình yêu mẹ dành cho hai con gái là như nhau.",
+      "english_reference": "Her love towards [her] two girls is the same.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 121.42,
+      "end": 127.34,
+      "hanzi": "妈妈差不多五十岁了，",
+      "pinyin": "mā mā chà bu duō wǔ shí suì le ，",
+      "vi": "Mẹ khoảng 50 tuổi,",
+      "english_reference": "Mom is about 50 years old,",
+      "needs_audio_review": true
+    },
+    {
+      "start": 127.34,
+      "end": 135.86,
+      "hanzi": "但是看起来只有四十岁左右。",
+      "pinyin": "dàn shì kàn qǐ lái zhǐ yǒu sì shí suì zuǒ yòu 。",
+      "vi": "nhưng trông chỉ khoảng 40 tuổi.",
+      "english_reference": "but she looks about 40 years old.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 135.86,
+      "end": 144.6,
+      "hanzi": "妈妈和爸爸的生日差不多在同一天。",
+      "pinyin": "mā mā hé bà bà de shēng rì chà bu duō zài tóng yī tiān 。",
+      "vi": "Sinh nhật bố và mẹ rất gần nhau.",
+      "english_reference": "Mom and dad's birthdays are about the same day.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 144.6,
+      "end": 151.38,
+      "hanzi": "妈妈的生日是五月五日。",
+      "pinyin": "mā mā de shēng rì shì wǔ yuè wǔ rì 。",
+      "vi": "Sinh nhật mẹ là ngày 5 tháng 5.",
+      "english_reference": "Mom's birthday is on May 5th.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 151.38,
+      "end": 158.18,
+      "hanzi": "爸爸的生日是五月六日。",
+      "pinyin": "bà bà de shēng rì shì wǔ yuè liù rì 。",
+      "vi": "Sinh nhật bố là ngày 6 tháng 5.",
+      "english_reference": "Dad's birthday is on May 6th.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 158.18,
+      "end": 159.9,
+      "hanzi": "每年，",
+      "pinyin": "měi nián ，",
+      "vi": "Hằng năm,",
+      "english_reference": "Every year",
+      "needs_audio_review": true
+    },
+    {
+      "start": 159.9,
+      "end": 165.12,
+      "hanzi": "他们都一起过生日。",
+      "pinyin": "tā men dōu yì qǐ guò shēng rì 。",
+      "vi": "họ đều tổ chức sinh nhật cùng nhau.",
+      "english_reference": "they celebrate their birthdays together.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 165.12,
+      "end": 172.44,
+      "hanzi": "妈妈每年的生日愿望都差不多。",
+      "pinyin": "mā mā měi nián de shēng rì yuàn wàng dōu chà bu duō 。",
+      "vi": "Điều ước sinh nhật mỗi năm của mẹ gần như giống nhau.",
+      "english_reference": "Mom's birthday wish is similar every year.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 172.44,
+      "end": 174.5,
+      "hanzi": "她希望",
+      "pinyin": "tā xī wàng",
+      "vi": "Mẹ mong",
+      "english_reference": "She wishes",
+      "needs_audio_review": true
+    },
+    {
+      "start": 174.5,
+      "end": 180.94,
+      "hanzi": "自己的女儿们健康快乐。",
+      "pinyin": "zì jǐ de nǚ ér men jiàn kāng kuài lè 。",
+      "vi": "các con gái luôn khỏe mạnh, vui vẻ.",
+      "english_reference": "for her daughters to be healthy and merry.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 180.94,
+      "end": 185.0,
+      "hanzi": "爸爸每年的生日愿望",
+      "pinyin": "bà bà měi nián de shēng rì yuàn wàng",
+      "vi": "Điều ước sinh nhật mỗi năm của bố",
+      "english_reference": "Every year, Dad's birthday wish",
+      "needs_audio_review": true
+    },
+    {
+      "start": 185.0,
+      "end": 189.42,
+      "hanzi": "也差不多，都一样。",
+      "pinyin": "yě chà bu duō ， dōu yī yàng 。",
+      "vi": "cũng gần giống như vậy.",
+      "english_reference": "is almost the same, too.",
+      "needs_audio_review": true
+    },
+    {
+      "start": 189.42,
+      "end": 193.3,
+      "hanzi": "他希望一家人",
+      "pinyin": "tā xī wàng yī jiā rén",
+      "vi": "Bố mong cả gia đình",
+      "english_reference": "He wishes for the whole family",
+      "needs_audio_review": true
+    },
+    {
+      "start": 193.3,
+      "end": 198.5,
+      "hanzi": "永远开心幸福。",
+      "pinyin": "yǒng yuǎn kāi xīn xìng fú 。",
+      "vi": "mãi mãi vui vẻ và hạnh phúc.",
+      "english_reference": "to be joyous and happy forever.",
+      "needs_audio_review": true
+    }
+  ]
+}

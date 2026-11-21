@@ -1,0 +1,21 @@
+SHADOWING HSK3 - VIDEO 5
+YouTube: 2EythZkR8w8
+So doan: 146
+So ban dich: 146
+Doan ngan < 0.8s: 0
+Doan dai > 10s: 1
+Timestamp chong nhau: 0
+
+===== DOAN QUA NGAN =====
+
+===== DOAN QUA DAI =====
+014 | 10.467s | 嗯……让我想一想。明天是星期六。星期六上午，我和我的好 朋友要去商店。
+
+===== NOI DUNG CAN RA SOAT =====
+014: Doan dai hon 10 giay.
+093-096: Cach noi ve mon banh cheo.
+105-124: Phep so sanh sac pin.
+Pinyin tu dong can kiem tra tu da am.
+Ban dich can doi chieu voi am thanh goc.
+
+CHUA CAP NHAT SQL SERVER.

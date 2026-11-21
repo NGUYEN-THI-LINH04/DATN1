@@ -1,0 +1,773 @@
+﻿MaTuHSK,MaMucNoiBo,SoThuTuNguon,ChuHan,PhienAm,TuLoaiNguon,NghiaThamChieu,NghiaTiengVietDeXuat,GhiChuLuongTu,MaTuVungDaCo,TrangThai,VanDeCanKiemTra,DaKiemTraNghia
+501,L2-0001,4,啊,a,助,"thán từ kết thúc câu, thể hiện sự khẳng định, tán thành hoặc đồng ý","thán từ kết thúc câu, thể hiện sự khẳng định, tán thành hoặc đồng ý",,,CHUA_CO,,CHUA
+502,L2-0002,25,爱情,àiqíng,名,lãng mạn; tình yêu (lãng mạn) / LT:份[fen4],lãng mạn; tình yêu (lãng mạn),LT:份[fen4],,CHUA_CO,NHIEU_NGHIA,CHUA
+503,L2-0003,26,爱人,àiren,名,vợ hoặc chồng (Trung Quốc) / người yêu (không phải Trung Quốc) / LT:個|个[ge4],vợ hoặc chồng (Trung Quốc) / người yêu (không phải Trung Quốc),LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+504,L2-0004,34,安静,ānjìng,形、动,yên tĩnh / bình yên / điềm tĩnh,yên tĩnh / bình yên / điềm tĩnh,,,CHUA_CO,NHIEU_NGHIA,CHUA
+505,L2-0005,38,安全,ānquán,形、名,an toàn / bảo mật; an ninh,an toàn / bảo mật; an ninh,,,CHUA_CO,NHIEU_NGHIA,CHUA
+506,L2-0006,97,白色,báisè,名,màu trắng / nghĩa bóng: phản động / chống cộng sản,màu trắng / nghĩa bóng: phản động / chống cộng sản,,,CHUA_CO,NHIEU_NGHIA,CHUA
+507,L2-0007,121,班长,bānzhǎng,名,lớp trưởng / đội trưởng / nhóm trưởng / LT:個|个[ge4],lớp trưởng / đội trưởng / nhóm trưởng,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+508,L2-0008,132,办,bàn,动,làm / quản lý / xử lý / tiến hành / vận hành / thành lập / giải quyết,làm / quản lý / xử lý / tiến hành / vận hành / thành lập / giải quyết,,,CHUA_CO,NHIEU_NGHIA,CHUA
+509,L2-0009,134,办法,bànfǎ,名,"cách / phương pháp / cách thức (làm gì đó) / LT:條|条[tiao2],個|个[ge4]",cách / phương pháp / cách thức (làm gì đó),"LT:條|条[tiao2],個|个[ge4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+510,L2-0010,136,办公室,bàngōngshì,名,văn phòng / cơ sở kinh doanh / cục / LT:間|间[jian1],văn phòng / cơ sở kinh doanh / cục,LT:間|间[jian1],,CHUA_CO,NHIEU_NGHIA,CHUA
+511,L2-0011,152,半夜,bànyè,名,nửa đêm / trong đêm khuya,nửa đêm / trong đêm khuya,,,CHUA_CO,NHIEU_NGHIA,CHUA
+512,L2-0012,164,帮助,bāngzhù,动,sự giúp đỡ; hỗ trợ / giúp đỡ; hỗ trợ,sự giúp đỡ; hỗ trợ / giúp đỡ; hỗ trợ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+513,L2-0013,185,饱,bǎo,形,ăn no / hài lòng,ăn no / hài lòng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+514,L2-0014,231,报名,bàomíng,,đăng ký / ghi tên / nộp đơn / đăng ký nhập học / ghi danh / tuyển,đăng ký / ghi tên / nộp đơn / đăng ký nhập học / ghi danh / tuyển,,,CHUA_CO,NHIEU_NGHIA,CHUA
+515,L2-0015,235,报纸,bàozhǐ,名,"báo / chất liệu in báo / LT:份[fen4],期[qi1],張|张[zhang1]",báo / chất liệu in báo,"LT:份[fen4],期[qi1],張|张[zhang1]",,CHUA_CO,NHIEU_NGHIA,CHUA
+516,L2-0016,271,北方,běifāng,名,phía bắc / phần phía bắc của một quốc gia / Trung Quốc ở phía bắc sông Hoàng Hà,phía bắc / phần phía bắc của một quốc gia / Trung Quốc ở phía bắc sông Hoàng Hà,,,CHUA_CO,NHIEU_NGHIA,CHUA
+517,L2-0017,278,背,bèi,动,lưng của cơ thể hoặc vật / ngoảnh lưng lại / che giấu / học thuộc lòng / nhớ để đọc / không may (tiếng lóng) / lãng tai,lưng của cơ thể hoặc vật / ngoảnh lưng lại / che giấu / học thuộc lòng / nhớ để đọc / không may (tiếng lóng) / lãng tai,,,CHUA_CO,NHIEU_NGHIA,CHUA
+518,L2-0018,340,比如,bǐrú,动,ví dụ / chẳng hạn / như là,ví dụ / chẳng hạn / như là,,,CHUA_CO,NHIEU_NGHIA,CHUA
+519,L2-0019,341,比如说,bǐrú shuō,,ví dụ,ví dụ,,,CHUA_CO,,CHUA
+520,L2-0020,347,笔,bǐ,名、量,"bút / bút chì / bút lông / viết hoặc sáng tác / nét chữ Hán / lượng từ cho khoản tiền, giao dịch / LT:支[zhi1],枝[zhi1]","bút / bút chì / bút lông / viết hoặc sáng tác / nét chữ Hán / lượng từ cho khoản tiền, giao dịch","LT:支[zhi1],枝[zhi1]",,CHUA_CO,NHIEU_NGHIA,CHUA
+521,L2-0021,348,笔记,bǐjì,名,ghi chép lại / bài ghi chú / một loại văn học chủ yếu gồm những bài phác thảo ngắn / LT:本[ben3],ghi chép lại / bài ghi chú / một loại văn học chủ yếu gồm những bài phác thảo ngắn,LT:本[ben3],,CHUA_CO,NHIEU_NGHIA,CHUA
+522,L2-0022,349,笔记本,bǐjìběn,名,sổ tay (văn phòng phẩm) / LT:本[ben3] / máy tính xách tay,sổ tay (văn phòng phẩm) / máy tính xách tay,LT:本[ben3],,CHUA_CO,NHIEU_NGHIA,CHUA
+523,L2-0023,358,必须,bìxū,副,phải / bắt buộc / cần thiết / nhất thiết,phải / bắt buộc / cần thiết / nhất thiết,,,CHUA_CO,NHIEU_NGHIA,CHUA
+524,L2-0024,375,边,biān,名,bên / rìa / lề / biên giới / ranh giới / LT:個|个[ge4] / đồng thời,bên / rìa / lề / biên giới / ranh giới / đồng thời,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+525,L2-0025,394,变,biàn,动,thay đổi / trở nên khác / biến đổi / biến hóa / nổi loạn,thay đổi / trở nên khác / biến đổi / biến hóa / nổi loạn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+526,L2-0026,395,变成,biànchéng,,thay đổi thành / biến thành / trở thành,thay đổi thành / biến thành / trở thành,,,CHUA_CO,NHIEU_NGHIA,CHUA
+527,L2-0027,416,遍,biàn,量,biến thể của 遍[bian4] || khắp mọi nơi / khắp / lượng từ cho hành động: một lần,biến thể của 遍[bian4] / khắp mọi nơi / khắp / lượng từ cho hành động: một lần,,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+528,L2-0028,437,表,biǎo,名,bề mặt bên ngoài / quan hệ họ hàng qua nữ giới / thể hiện (ý kiến của một người) / mô hình / bảng (liệt kê thông tin) / biểu mẫu / đồng hồ đo (đo lường cái gì đó) || đồng hồ (dụng cụ đo thời gian) / đồng hồ đo; máy đo,bề mặt bên ngoài / quan hệ họ hàng qua nữ giới / thể hiện (ý kiến của một người) / mô hình / bảng (liệt kê thông tin) / biểu mẫu / đồng hồ đo (đo lường cái gì đó) / đồng hồ (dụng cụ đo thời gian) / đồng hồ đo; máy đo,,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+529,L2-0029,446,表示,biǎoshì,动、名,(về ai đó) bày tỏ; phát biểu; cho thấy / (về điều gì đó) biểu thị; có nghĩa; cho thấy / sự biểu đạt; sự thể hiện,(về ai đó) bày tỏ; phát biểu; cho thấy / (về điều gì đó) biểu thị; có nghĩa; cho thấy / sự biểu đạt; sự thể hiện,,,CHUA_CO,NHIEU_NGHIA,CHUA
+530,L2-0030,523,不错,bùcuò,形,đúng / chính xác / không tồi / khá tốt,đúng / chính xác / không tồi / khá tốt,,,CHUA_CO,NHIEU_NGHIA,CHUA
+531,L2-0031,525,不但,bùdàn,连,không chỉ (... mà còn ...),không chỉ (... mà còn ...),,,CHUA_CO,,CHUA
+532,L2-0032,529,不够,bùgòu,动、副,không đủ / không đủ mức / không thoả đáng,không đủ / không đủ mức / không thoả đáng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+533,L2-0033,531,不过,bùguò,连,chỉ / chỉ là / không nhiều hơn / nhưng / tuy nhiên / dù sao (để trở lại chủ đề trước) / không thể hơn (sau tính từ),chỉ / chỉ là / không nhiều hơn / nhưng / tuy nhiên / dù sao (để trở lại chủ đề trước) / không thể hơn (sau tính từ),,,CHUA_CO,NHIEU_NGHIA,CHUA
+534,L2-0034,543,不太,bù tài,,không lắm; không quá,không lắm; không quá,,,CHUA_CO,NHIEU_NGHIA,CHUA
+535,L2-0035,549,不要,bùyào,副,đừng!; không được,đừng!; không được,,,CHUA_CO,NHIEU_NGHIA,CHUA
+536,L2-0036,589,不好意思,bù hǎoyìsi,,cảm thấy xấu hổ / thấy ngại / ngại quá (vì làm phiền ai đó),cảm thấy xấu hổ / thấy ngại / ngại quá (vì làm phiền ai đó),,,CHUA_CO,NHIEU_NGHIA,CHUA
+537,L2-0037,597,不久,bùjiǔ,形,không lâu (sau) / chẳng bao lâu / sớm / ngay sau đó,không lâu (sau) / chẳng bao lâu / sớm / ngay sau đó,,,CHUA_CO,NHIEU_NGHIA,CHUA
+538,L2-0038,605,不满,bùmǎn,形,bực bội / không hài lòng / không thỏa mãn,bực bội / không hài lòng / không thỏa mãn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+539,L2-0039,613,不如,bùrú,动,không bằng; không tốt bằng; kém hơn / sẽ tốt hơn nếu,không bằng; không tốt bằng; kém hơn / sẽ tốt hơn nếu,,,CHUA_CO,NHIEU_NGHIA,CHUA
+540,L2-0040,615,不少,bù shǎo,,nhiều / khá nhiều / không ít,nhiều / khá nhiều / không ít,,,CHUA_CO,NHIEU_NGHIA,CHUA
+541,L2-0041,619,不同,bù tóng,,khác / riêng biệt / không giống,khác / riêng biệt / không giống,,,CHUA_CO,NHIEU_NGHIA,CHUA
+542,L2-0042,624,不行,bùxíng,动、形,không được / không thể chấp nhận / không tốt / không hiệu quả / không có khả năng,không được / không thể chấp nhận / không tốt / không hiệu quả / không có khả năng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+543,L2-0043,626,不一定,bùyīdìng,副,không nhất thiết / có thể,không nhất thiết / có thể,,,CHUA_CO,NHIEU_NGHIA,CHUA
+544,L2-0044,627,不一会儿,bù yīhuìr,,chẳng bao lâu; một lát sau,chẳng bao lâu; một lát sau,,,CHUA_CO,NHIEU_NGHIA,CHUA
+545,L2-0045,654,部分,bùfen,名,phần / cổ phần / mục / miếng / LT:個|个[ge4],phần / cổ phần / mục / miếng,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+546,L2-0046,665,才,cái,副,khả năng; tài năng / người thuộc một kiểu nào đó / một cá nhân có năng lực / rồi thì và chỉ rồi thì / vừa mới / (trước một biểu hiện về số lượng) chỉ || (biến thể của 才[cai2]) vừa mới / (biến thể của 才[cai2]) (trước một biểu thức chỉ số lượng) chỉ,khả năng; tài năng / người thuộc một kiểu nào đó / một cá nhân có năng lực / rồi thì và chỉ rồi thì / vừa mới / (trước một biểu hiện về số lượng) chỉ / (biến thể của 才[cai2]) vừa mới / (biến thể của 才[cai2]) (trước một biểu thức chỉ số lượng) chỉ,,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+547,L2-0047,696,菜单,càidān,名,"thực đơn / LT:份[fen4],張|张[zhang1]",thực đơn,"LT:份[fen4],張|张[zhang1]",,CHUA_CO,,CHUA
+548,L2-0048,698,参观,cānguān,动,tham quan / đi dạo quanh / thăm,tham quan / đi dạo quanh / thăm,,,CHUA_CO,NHIEU_NGHIA,CHUA
+549,L2-0049,699,参加,cānjiā,动,tham gia / tham dự,tham gia / tham dự,,,CHUA_CO,NHIEU_NGHIA,CHUA
+550,L2-0050,741,草,cǎo,名,"biến thể của 草[cao3] || cỏ / rơm / bản thảo / phác thảo (một văn kiện) / cẩu thả / sơ sài / LT:棵[ke1],撮[zuo3],株[zhu1],根[gen1]",biến thể của 草[cao3] / cỏ / rơm / bản thảo / phác thảo (một văn kiện) / cẩu thả / sơ sài,"LT:棵[ke1],撮[zuo3],株[zhu1],根[gen1]",,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+551,L2-0051,743,草地,cǎodì,名,bãi cỏ / đồng cỏ / thảm cỏ / cỏ nhân tạo / LT:片[pian4],bãi cỏ / đồng cỏ / thảm cỏ / cỏ nhân tạo,LT:片[pian4],,CHUA_CO,NHIEU_NGHIA,CHUA
+552,L2-0052,759,层,céng,量,chồng lên nhau / tầng; lớp / tầng (của tòa nhà); tầng / (toán) bó / số đếm cho các lớp,chồng lên nhau / tầng; lớp / tầng (của tòa nhà); tầng / (toán) bó / số đếm cho các lớp,,,CHUA_CO,NHIEU_NGHIA,CHUA
+553,L2-0053,781,查,chá,动,nghiên cứu / kiểm tra / điều tra / khám xét / tham khảo / tra cứu (ví dụ: tra từ trong từ điển),nghiên cứu / kiểm tra / điều tra / khám xét / tham khảo / tra cứu (ví dụ: tra từ trong từ điển),,,CHUA_CO,NHIEU_NGHIA,CHUA
+554,L2-0054,792,差不多,chàbuduō,形、副,gần / suýt nữa / xấp xỉ / khoảng như nhau / đủ tốt / không tệ,gần / suýt nữa / xấp xỉ / khoảng như nhau / đủ tốt / không tệ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+555,L2-0055,816,长,cháng,形,chiều dài / dài / mãi mãi / luôn luôn / liên tục,chiều dài / dài / mãi mãi / luôn luôn / liên tục,,,CHUA_CO,NHIEU_NGHIA,CHUA
+556,L2-0056,839,常见,cháng jiàn,,thường thấy / phổ biến / thấy thường xuyên,thường thấy / phổ biến / thấy thường xuyên,,,CHUA_CO,NHIEU_NGHIA,CHUA
+557,L2-0057,846,常用,cháng yòng,,được sử dụng phổ biến,được sử dụng phổ biến,,,CHUA_CO,,CHUA
+558,L2-0058,853,场,chǎng,量,nơi lớn dùng cho mục đích cụ thể / sân khấu / cảnh (của vở kịch) / lượng từ cho hoạt động thể thao hoặc giải trí / lượng từ cho số lần thi || biến thể của 場|场[chang3],nơi lớn dùng cho mục đích cụ thể / sân khấu / cảnh (của vở kịch) / lượng từ cho hoạt động thể thao hoặc giải trí / lượng từ cho số lần thi / biến thể của 場|场[chang3],,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+559,L2-0059,877,超过,chāoguò,动,vượt qua / vượt quá / vượt trội,vượt qua / vượt quá / vượt trội,,,CHUA_CO,NHIEU_NGHIA,CHUA
+560,L2-0060,880,超市,chāoshì,名,siêu thị (viết tắt của 超級市場|超级市场[chao1 ji2 shi4 chang3]) / LT:家[jia1],siêu thị (viết tắt của 超級市場|超级市场[chao1 ji2 shi4 chang3]),LT:家[jia1],,CHUA_CO,,CHUA
+561,L2-0061,902,车辆,chēliàng,名,phương tiện giao thông,phương tiện giao thông,,,CHUA_CO,,CHUA
+562,L2-0062,943,称1,chēng,动,cân / phát biểu / đặt tên / tên / gọi / tán dương,cân / phát biểu / đặt tên / tên / gọi / tán dương,,,CHUA_CO,NHIEU_NGHIA,CHUA
+563,L2-0063,951,成,chéng,动,thành công / hoàn thành / làm xong / đạt được / trở thành / biến thành / ổn / OK! / một phần mười,thành công / hoàn thành / làm xong / đạt được / trở thành / biến thành / ổn / OK! / một phần mười,,,CHUA_CO,NHIEU_NGHIA,CHUA
+564,L2-0064,958,成绩,chéngjì,名,"thành tích / kết quả học tập / điểm số / LT:項|项[xiang4],個|个[ge4]",thành tích / kết quả học tập / điểm số,"LT:項|项[xiang4],個|个[ge4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+565,L2-0065,971,成为,chéngwéi,动,trở thành; biến thành,trở thành; biến thành,,,CHUA_CO,NHIEU_NGHIA,CHUA
+566,L2-0066,1068,重复,chóngfù,动,lặp lại / sao chép / LT:個|个[ge4] || biến thể của 重複|重复[chong2 fu4],lặp lại / sao chép / biến thể của 重複|重复[chong2 fu4],LT:個|个[ge4],,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+567,L2-0067,1073,重新,chóngxīn,副,lại; một lần nữa; tái-,lại; một lần nữa; tái-,,,CHUA_CO,NHIEU_NGHIA,CHUA
+568,L2-0068,1117,出发,chūfā,动,khởi hành / bắt đầu (một hành trình),khởi hành / bắt đầu (một hành trình),,,CHUA_CO,NHIEU_NGHIA,CHUA
+569,L2-0069,1121,出国,chūguó,,ra nước ngoài; rời khỏi đất nước,ra nước ngoài; rời khỏi đất nước,,,CHUA_CO,NHIEU_NGHIA,CHUA
+570,L2-0070,1126,出口,chūkǒu,名,lối ra / LT:個|个[ge4] / nói / xuất khẩu / (tàu thuyền) rời cảng,lối ra / nói / xuất khẩu / (tàu thuyền) rời cảng,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+571,L2-0071,1133,出门,chūmén,,ra ngoài / rời nhà / đi du lịch / xa nhà / (phụ nữ) đi lấy chồng,ra ngoài / rời nhà / đi du lịch / xa nhà / (phụ nữ) đi lấy chồng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+572,L2-0072,1144,出生,chūshēng,动,được sinh ra,được sinh ra,,,CHUA_CO,,CHUA
+573,L2-0073,1154,出现,chūxiàn,动,xuất hiện / phát sinh / nổi lên / có mặt,xuất hiện / phát sinh / nổi lên / có mặt,,,CHUA_CO,NHIEU_NGHIA,CHUA
+574,L2-0074,1161,出院,chūyuàn,,xuất viện / được xuất viện,xuất viện / được xuất viện,,,CHUA_CO,NHIEU_NGHIA,CHUA
+575,L2-0075,1167,出租,chūzū,动,cho thuê,cho thuê,,,CHUA_CO,,CHUA
+576,L2-0076,1168,出租车,chūzūchē,名,taxi / xe thuê (Đài Loan),taxi / xe thuê (Đài Loan),,,CHUA_CO,NHIEU_NGHIA,CHUA
+577,L2-0077,1236,船,chuán,名,"biến thể của 船[chuan2] || thuyền / tàu / tàu thủy / LT:條|条[tiao2],艘[sou1],隻|只[zhi1]",biến thể của 船[chuan2] / thuyền / tàu / tàu thủy,"LT:條|条[tiao2],艘[sou1],隻|只[zhi1]",,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+578,L2-0078,1265,吹,chuī,动,thổi / chơi nhạc cụ hơi / thổi tung / phồng lên / khoe khoang / tự phụ / kết thúc thất bại / hỏng việc,thổi / chơi nhạc cụ hơi / thổi tung / phồng lên / khoe khoang / tự phụ / kết thúc thất bại / hỏng việc,,,CHUA_CO,NHIEU_NGHIA,CHUA
+579,L2-0079,1274,春节,Chūnjié,名,Lễ hội mùa xuân (Tết Nguyên Đán),Lễ hội mùa xuân (Tết Nguyên Đán),,,CHUA_CO,,CHUA
+580,L2-0080,1275,春天,chūntiān,名,mùa xuân / LT:個|个[ge4],mùa xuân,LT:個|个[ge4],,CHUA_CO,,CHUA
+581,L2-0081,1285,词,cí,名,"biến thể cũ của 詞|词[ci2] || từ / ngôn từ; lời nói; lời bài hát / một thể thơ trữ tình, thịnh hành thời Tống 宋朝|宋朝[Song4 chao2] (LT:首[shou3])","biến thể cũ của 詞|词[ci2] / từ / ngôn từ; lời nói; lời bài hát / một thể thơ trữ tình, thịnh hành thời Tống 宋朝|宋朝[Song4 chao2] (LT:首[shou3])",,,CHUA_CO,CON_CHU_THICH_LT; NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+582,L2-0082,1286,词典,cídiǎn,名,"từ điển / cũng viết 辭典|辞典[ci2 dian3] / LT:部[bu4],本[ben3]",từ điển / cũng viết 辭典|辞典[ci2 dian3],"LT:部[bu4],本[ben3]",,CHUA_CO,NHIEU_NGHIA,CHUA
+583,L2-0083,1288,词语,cíyǔ,名,từ (thuật ngữ chung bao gồm từ đơn âm đến cụm ngắn) / thuật ngữ (ví dụ: thuật ngữ kỹ thuật) / biểu đạt,từ (thuật ngữ chung bao gồm từ đơn âm đến cụm ngắn) / thuật ngữ (ví dụ: thuật ngữ kỹ thuật) / biểu đạt,,,CHUA_CO,NHIEU_NGHIA,CHUA
+584,L2-0084,1343,从小,cóngxiǎo,副,từ nhỏ; từ bé,từ nhỏ; từ bé,,,CHUA_CO,NHIEU_NGHIA,CHUA
+585,L2-0085,1398,答应,dāying,动,trả lời; phản hồi / trả lời tích cực; đồng ý; chấp nhận; hứa,trả lời; phản hồi / trả lời tích cực; đồng ý; chấp nhận; hứa,,,CHUA_CO,NHIEU_NGHIA,CHUA
+586,L2-0086,1420,打工,dǎgōng,,"làm công việc tạm thời hoặc không chính thức / (đối với học sinh, sinh viên) đi làm ngoài giờ học, hoặc trong kỳ nghỉ","làm công việc tạm thời hoặc không chính thức / (đối với học sinh, sinh viên) đi làm ngoài giờ học, hoặc trong kỳ nghỉ",,,CHUA_CO,NHIEU_NGHIA,CHUA
+587,L2-0087,1437,打算,dǎsuàn,动、名,dự định / dự tính / tính toán / kế hoạch / LT:個|个[ge4],dự định / dự tính / tính toán / kế hoạch,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+588,L2-0088,1440,打印,dǎyìn,动,đóng dấu / đóng mộc / in ra (bằng máy in),đóng dấu / đóng mộc / in ra (bằng máy in),,,CHUA_CO,NHIEU_NGHIA,CHUA
+589,L2-0089,1451,大部分,dàbùfen,名,phần lớn / phần nhiều / đại đa số,phần lớn / phần nhiều / đại đa số,,,CHUA_CO,NHIEU_NGHIA,CHUA
+590,L2-0090,1454,大大,dàdà,副,rất nhiều / cực kỳ / (phương ngữ) ba / bác,rất nhiều / cực kỳ / (phương ngữ) ba / bác,,,CHUA_CO,NHIEU_NGHIA,CHUA
+591,L2-0091,1462,大多数,dàduōshù,名,đại đa số,đại đa số,,,CHUA_CO,,CHUA
+592,L2-0092,1470,大海,dàhǎi,名,biển / đại dương,biển / đại dương,,,CHUA_CO,NHIEU_NGHIA,CHUA
+593,L2-0093,1473,大家,dàjiā,代,mọi người / gia đình có ảnh hưởng / đại gia,mọi người / gia đình có ảnh hưởng / đại gia,,,CHUA_CO,NHIEU_NGHIA,CHUA
+594,L2-0094,1483,大量,dàliàng,形,lượng lớn / số lượng nhiều / số lượng lớn / đông đảo / rộng lượng / khoan dung,lượng lớn / số lượng nhiều / số lượng lớn / đông đảo / rộng lượng / khoan dung,,,CHUA_CO,NHIEU_NGHIA,CHUA
+595,L2-0095,1487,大门,dàmén,名,lối vào / cửa / cổng / gia đình lớn và có ảnh hưởng,lối vào / cửa / cổng / gia đình lớn và có ảnh hưởng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+596,L2-0096,1497,大人,dàren,名,người lớn / trưởng thành / cách xưng hô tôn trọng với cấp trên,người lớn / trưởng thành / cách xưng hô tôn trọng với cấp trên,,,CHUA_CO,NHIEU_NGHIA,CHUA
+597,L2-0097,1500,大声,dà shēng,,giọng to / bằng giọng to / to tiếng,giọng to / bằng giọng to / to tiếng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+598,L2-0098,1513,大小,dàxiǎo,名,lớn và nhỏ / kích cỡ / người lớn và trẻ em / xem xét thứ bậc / dù sao đi nữa,lớn và nhỏ / kích cỡ / người lớn và trẻ em / xem xét thứ bậc / dù sao đi nữa,,,CHUA_CO,NHIEU_NGHIA,CHUA
+599,L2-0099,1521,大衣,dàyī,名,áo khoác dài / áo măng tô / áo choàng / LT:件[jian4],áo khoác dài / áo măng tô / áo choàng,LT:件[jian4],,CHUA_CO,NHIEU_NGHIA,CHUA
+600,L2-0100,1529,大自然,dàzìrán,名,thiên nhiên (thế giới tự nhiên),thiên nhiên (thế giới tự nhiên),,,CHUA_CO,,CHUA
+601,L2-0101,1546,带,dài,动,dải / thắt lưng / ruy băng / lốp / vùng / khu vực / khu / LT:條|条[tiao2] / đeo / mang / dẫn theo / chịu / có / dẫn / dắt / chăm sóc / nuôi dưỡng,dải / thắt lưng / ruy băng / lốp / vùng / khu vực / khu / đeo / mang / dẫn theo / chịu / có / dẫn / dắt / chăm sóc / nuôi dưỡng,LT:條|条[tiao2],,CHUA_CO,NHIEU_NGHIA,CHUA
+602,L2-0102,1549,带来,dàilái,,mang đến / (nghĩa bóng) mang lại; tạo ra,mang đến / (nghĩa bóng) mang lại; tạo ra,,,CHUA_CO,NHIEU_NGHIA,CHUA
+603,L2-0103,1579,单位,dānwèi,名,"đơn vị (đo lường) / đơn vị (nhóm người) / đơn vị công tác (nơi làm việc, đặc biệt ở Trung Quốc trước cải cách kinh tế) / LT:個|个[ge4]","đơn vị (đo lường) / đơn vị (nhóm người) / đơn vị công tác (nơi làm việc, đặc biệt ở Trung Quốc trước cải cách kinh tế)",LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+604,L2-0104,1588,但,dàn,连,nhưng; tuy nhiên; thế nhưng / chỉ; chỉ là; đúng,nhưng; tuy nhiên; thế nhưng / chỉ; chỉ là; đúng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+605,L2-0105,1589,但是,dànshì,连,nhưng; tuy nhiên,nhưng; tuy nhiên,,,CHUA_CO,NHIEU_NGHIA,CHUA
+606,L2-0106,1598,蛋,dàn,名,"trứng / LT:個|个[ge4],打[da2] / vật hình bầu dục",trứng / vật hình bầu dục,"LT:個|个[ge4],打[da2]",,CHUA_CO,NHIEU_NGHIA,CHUA
+607,L2-0107,1601,当,dāng,动、介,(từ tượng thanh) đong / đinh đong (chuông) || làm / làm việc / quản lý / chịu đựng / khi / trong lúc / nên / phải / tương xứng / bằng / giống / cản trở / đúng lúc (thời gian hoặc địa điểm) / tại chỗ / ngay / lúc đó,(từ tượng thanh) đong / đinh đong (chuông) / làm / làm việc / quản lý / chịu đựng / khi / trong lúc / nên / phải / tương xứng / bằng / giống / cản trở / đúng lúc (thời gian hoặc địa điểm) / tại chỗ / ngay / lúc đó,,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+608,L2-0108,1613,当时,dāngshí,名,lúc đó / vào thời điểm đó / trong khi,lúc đó / vào thời điểm đó / trong khi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+609,L2-0109,1647,倒,dǎo,动,ngã; sụp đổ; nằm ngang / thất bại; phá sản / lật đổ / đổi (tàu hoặc xe buýt) / di chuyển xung quanh / buôn bán kiếm lời,ngã; sụp đổ; nằm ngang / thất bại; phá sản / lật đổ / đổi (tàu hoặc xe buýt) / di chuyển xung quanh / buôn bán kiếm lời,,,CHUA_CO,NHIEU_NGHIA,CHUA
+610,L2-0110,1655,到处,dàochù,副,khắp nơi,khắp nơi,,,CHUA_CO,,CHUA
+611,L2-0111,1662,倒,dào,动,lật ngược; đặt úp hoặc lộn ngược / rót ra / đổ ra; trút ra / bị lật; lộn ngược; đảo ngược / đi lùi / ngược với dự đoán; nhưng; tuy nhiên,lật ngược; đặt úp hoặc lộn ngược / rót ra / đổ ra; trút ra / bị lật; lộn ngược; đảo ngược / đi lùi / ngược với dự đoán; nhưng; tuy nhiên,,,CHUA_CO,NHIEU_NGHIA,CHUA
+612,L2-0112,1671,道,dào,量,"đường; con đường (LT:條|条[tiao2],股[gu3]) / (hình thức kết hợp) cách; lý do; nguyên tắc / (hình thức kết hợp) một kỹ năng; một nghệ thuật; một chuyên môn / (Đạo giáo) con Đường; Đạo / nói (dùng để dẫn lời trực tiếp, như trong tiểu thuyết) / (hình thức kết hợp) biểu đạt; gửi lời (lời nói lịch sự) / lượng từ cho những vật dài mỏng (sông, vết nứt, v.v.), rào cản (tường, cửa, v.v.), câu hỏi (trong kỳ thi, v.v.), mệnh lệnh, món ăn trong bữa ăn, bước trong quy trình / (cũ) đạo lộ (đơn vị hành chính)","đường; con đường (LT:條|条[tiao2],股[gu3]) / (hình thức kết hợp) cách; lý do; nguyên tắc / (hình thức kết hợp) một kỹ năng; một nghệ thuật; một chuyên môn / (Đạo giáo) con Đường; Đạo / nói (dùng để dẫn lời trực tiếp, như trong tiểu thuyết) / (hình thức kết hợp) biểu đạt; gửi lời (lời nói lịch sự) / lượng từ cho những vật dài mỏng (sông, vết nứt, v.v.), rào cản (tường, cửa, v.v.), câu hỏi (trong kỳ thi, v.v.), mệnh lệnh, món ăn trong bữa ăn, bước trong quy trình / (cũ) đạo lộ (đơn vị hành chính)",,,CHUA_CO,CON_CHU_THICH_LT; NHIEU_NGHIA,CHUA
+613,L2-0113,1675,道理,dàolǐ,名,lý do / tranh luận / hợp lý / nguyên tắc / cơ sở / sự biện minh / LT:個|个[ge4],lý do / tranh luận / hợp lý / nguyên tắc / cơ sở / sự biện minh,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+614,L2-0114,1676,道路,dàolù,名,đường / lối / cách / LT:條|条[tiao2],đường / lối / cách,LT:條|条[tiao2],,CHUA_CO,NHIEU_NGHIA,CHUA
+615,L2-0115,1679,得,dé,动,được / nhận / giành được / bị (bệnh) / thích hợp / phù hợp / tự hào / hài lòng / cho phép / đồng ý / sẵn sàng / xong,được / nhận / giành được / bị (bệnh) / thích hợp / phù hợp / tự hào / hài lòng / cho phép / đồng ý / sẵn sàng / xong,,,CHUA_CO,NHIEU_NGHIA,CHUA
+616,L2-0116,1681,得出,déchū,,đạt được (kết quả); đi đến (kết luận),đạt được (kết quả); đi đến (kết luận),,,CHUA_CO,NHIEU_NGHIA,CHUA
+617,L2-0117,1700,的话,dehuà,助,nếu (đứng sau mệnh đề điều kiện),nếu (đứng sau mệnh đề điều kiện),,,CHUA_CO,,CHUA
+618,L2-0118,1701,得,de,助,"trợ từ kết cấu: dùng sau động từ (hoặc tính từ làm động từ chính), liên kết với cụm sau chỉ kết quả, mức độ, khả năng, v.v.","trợ từ kết cấu: dùng sau động từ (hoặc tính từ làm động từ chính), liên kết với cụm sau chỉ kết quả, mức độ, khả năng, v.v.",,,CHUA_CO,,CHUA
+619,L2-0119,1703,灯,dēng,名,đèn / ánh sáng / đèn lồng / LT:盞|盏[zhan3],đèn / ánh sáng / đèn lồng,LT:盞|盏[zhan3],,CHUA_CO,NHIEU_NGHIA,CHUA
+620,L2-0120,1715,等,děng,助、名,"đợi; chờ đợi / đến lúc; khi; tới / vân vân; v.v.; và những người khác, những thứ khác tương tự / (hình thức kết hợp) loại; cấp; hạng / (hình thức kết hợp) bằng với; giống như / (dùng để kết thúc liệt kê) / (văn học) (hậu tố số nhiều gắn với đại từ nhân xưng hoặc danh từ)",đợi; chờ,,81,DA_CO,NHIEU_NGHIA,CHUA
+621,L2-0121,1717,等到,děngdào,介,"đợi đến / khi mà (cái gì sẵn sàng,...)","đợi đến / khi mà (cái gì sẵn sàng,...)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+622,L2-0122,1720,等于,děngyú,动,bằng / tương đương với,bằng / tương đương với,,,CHUA_CO,NHIEU_NGHIA,CHUA
+623,L2-0123,1723,低,dī,形、动,thấp / bên dưới / cúi (đầu) / để rũ xuống / treo xuống / nghiêng,thấp / bên dưới / cúi (đầu) / để rũ xuống / treo xuống / nghiêng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+624,L2-0124,1768,地球,dìqiú,名,trái đất / LT:個|个[ge4],trái đất,LT:個|个[ge4],,CHUA_CO,,CHUA
+625,L2-0125,1772,地铁,dìtiě,名,đường sắt ngầm; tàu điện ngầm / tàu điện ngầm,đường sắt ngầm; tàu điện ngầm / tàu điện ngầm,,,CHUA_CO,NHIEU_NGHIA,CHUA
+626,L2-0126,1773,地铁站,dìtiězhàn,名,ga tàu điện ngầm,ga tàu điện ngầm,,,CHUA_CO,,CHUA
+627,L2-0127,1807,点头,diǎntóu,,gật đầu,gật đầu,,,CHUA_CO,,CHUA
+628,L2-0128,1839,店,diàn,名,quán trọ; khách sạn kiểu cũ (LT:家[jia1]) / (hình thức kết hợp) cửa hàng; tiệm,quán trọ; khách sạn kiểu cũ (LT:家[jia1]) / (hình thức kết hợp) cửa hàng; tiệm,,,CHUA_CO,CON_CHU_THICH_LT; NHIEU_NGHIA,CHUA
+629,L2-0129,1860,掉,diào,动,"rơi / rớt / tụt lại / mất / thất lạc / giảm / rớt (giá) / mất (giá trị, cân nặng v.v.) / vẫy / đung đưa / quay / đổi / thay / trao đổi / khoe / rụng (tóc) / (dùng sau một số động từ để biểu đạt hoàn thành, thực hiện xong, loại bỏ v.v.)","rơi / rớt / tụt lại / mất / thất lạc / giảm / rớt (giá) / mất (giá trị, cân nặng v.v.) / vẫy / đung đưa / quay / đổi / thay / trao đổi / khoe / rụng (tóc) / (dùng sau một số động từ để biểu đạt hoàn thành, thực hiện xong, loại bỏ v.v.)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+630,L2-0130,1901,东北,dōngběi,名,đông bắc,đông bắc,,,CHUA_CO,,CHUA
+631,L2-0131,1906,东方,dōngfāng,名,đông,đông,,,CHUA_CO,,CHUA
+632,L2-0132,1907,东南,dōngnán,名,đông nam,đông nam,,,CHUA_CO,,CHUA
+633,L2-0133,1911,冬天,dōngtiān,名,mùa đông / LT:個|个[ge4],mùa đông,LT:個|个[ge4],,CHUA_CO,,CHUA
+634,L2-0134,1915,懂,dǒng,动,hiểu / nhận thức,hiểu / nhận thức,,,CHUA_CO,NHIEU_NGHIA,CHUA
+635,L2-0135,1916,懂得,dǒngde,动,hiểu; biết; thấu hiểu,hiểu; biết; thấu hiểu,,,CHUA_CO,NHIEU_NGHIA,CHUA
+636,L2-0136,1935,动物,dòngwù,名,"động vật / LT:隻|只[zhi1],群[qun2],個|个[ge4]",động vật,"LT:隻|只[zhi1],群[qun2],個|个[ge4]",,CHUA_CO,,CHUA
+637,L2-0137,1936,动物园,dòngwùyuán,名,sở thú / LT:個|个[ge4],sở thú,LT:個|个[ge4],,CHUA_CO,,CHUA
+638,L2-0138,1977,读音,dúyīn,名,cách phát âm / âm đọc mang tính văn liệu (thay vì khẩu ngữ) của một chữ Hán,cách phát âm / âm đọc mang tính văn liệu (thay vì khẩu ngữ) của một chữ Hán,,,CHUA_CO,NHIEU_NGHIA,CHUA
+639,L2-0139,1987,度,dù,名、量,"vượt qua / trải qua (thời gian) / đo / lượng giới hạn / mức độ / mức độ cường độ / độ (góc, nhiệt độ, v.v.) / kilowatt-giờ / lượng từ cho sự kiện và tình huống","vượt qua / trải qua (thời gian) / đo / lượng giới hạn / mức độ / mức độ cường độ / độ (góc, nhiệt độ, v.v.) / kilowatt-giờ / lượng từ cho sự kiện và tình huống",,,CHUA_CO,NHIEU_NGHIA,CHUA
+640,L2-0140,1996,短,duǎn,形,ngắn / gọn / thiếu / điểm yếu / lỗi,ngắn / gọn / thiếu / điểm yếu / lỗi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+641,L2-0141,2002,短信,duǎnxìn,名,tin nhắn văn bản / SMS,tin nhắn văn bản / SMS,,,CHUA_CO,NHIEU_NGHIA,CHUA
+642,L2-0142,2004,段,duàn,量,"đoạn / phần / mẩu / giai đoạn (của một quá trình) / lượng từ cho câu chuyện, khoảng thời gian, độ dài sợi chỉ, v.v.","đoạn / phần / mẩu / giai đoạn (của một quá trình) / lượng từ cho câu chuyện, khoảng thời gian, độ dài sợi chỉ, v.v.",,,CHUA_CO,NHIEU_NGHIA,CHUA
+643,L2-0143,2013,队,duì,名,phi đội / đội / nhóm / LT: 個|个[ge4],phi đội / đội / nhóm,LT: 個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+644,L2-0144,2017,队长,duìzhǎng,名,đội trưởng / nhóm trưởng / LT:個|个[ge4],đội trưởng / nhóm trưởng,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+645,L2-0145,2019,对,duì,介、动,đúng; chính xác / hướng đến; tại; vì / về; liên quan đến / đối xử (với ai đó cách nào đó) / đối mặt / (dạng kết hợp) đối diện; đối nhau; phù hợp / ghép lại với nhau; điều chỉnh / phù hợp; thích hợp / trả lời; đáp / thêm vào; rót vào (chất lỏng) / kiểm tra; so sánh / lượng từ: cặp; đôi,đúng; chính xác,,105,DA_CO,NHIEU_NGHIA,CHUA
+646,L2-0146,2029,对话,duìhuà,动、名,nói chuyện (với ai đó) / đối thoại; cuộc trò chuyện,nói chuyện (với ai đó) / đối thoại; cuộc trò chuyện,,,CHUA_CO,NHIEU_NGHIA,CHUA
+647,L2-0147,2033,对面,duìmiàn,名,(ngồi) đối diện / bên kia (đường) / trực tiếp phía trước / đối mặt,(ngồi) đối diện / bên kia (đường) / trực tiếp phía trước / đối mặt,,,CHUA_CO,NHIEU_NGHIA,CHUA
+648,L2-0148,2053,多,duō,副,nhiều / quá nhiều; dư thừa / (sau một số) ... lẻ / như thế nào (mức độ nào) (cách phát âm ở Đài Loan [duo2]) / (dạng kết hợp) đa-; nhiều-,nhiều; hơn,,107,DA_CO,NHIEU_NGHIA,CHUA
+649,L2-0149,2059,多久,duōjiǔ,代,(về thời gian) bao lâu? / (không) lâu,(về thời gian) bao lâu? / (không) lâu,,,CHUA_CO,NHIEU_NGHIA,CHUA
+650,L2-0150,2062,多么,duōme,副,"như thế nào (tuyệt vời, v.v.) / thật là (một ý tưởng tuyệt vời, v.v.) / dù (có khó khăn, v.v.) / (trong câu nghi vấn) bao nhiêu / mức độ nào","như thế nào (tuyệt vời, v.v.) / thật là (một ý tưởng tuyệt vời, v.v.) / dù (có khó khăn, v.v.) / (trong câu nghi vấn) bao nhiêu / mức độ nào",,,CHUA_CO,NHIEU_NGHIA,CHUA
+651,L2-0151,2067,多数,duōshù,名,đa số; phần lớn,đa số; phần lớn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+652,L2-0152,2072,多云,duōyún,名,có mây (khí tượng),có mây (khí tượng),,,CHUA_CO,,CHUA
+653,L2-0153,2109,而且,érqiě,连,(không những ...) mà còn / hơn nữa / thêm vào đó / hơn thế nữa,(không những ...) mà còn / hơn nữa / thêm vào đó / hơn thế nữa,,,CHUA_CO,NHIEU_NGHIA,CHUA
+654,L2-0154,2123,发,fā,动,gửi đi / bộc lộ (cảm xúc của một người) / phát hành / phát triển / kiếm được nhiều tiền / lượng từ cho phát súng (phát),gửi đi / bộc lộ (cảm xúc của một người) / phát hành / phát triển / kiếm được nhiều tiền / lượng từ cho phát súng (phát),,,CHUA_CO,NHIEU_NGHIA,CHUA
+655,L2-0155,2157,发现,fāxiàn,动、名,để ý; nhận ra / phát hiện; tìm thấy; phát giác / một khám phá,để ý; nhận ra / phát hiện; tìm thấy; phát giác / một khám phá,,,CHUA_CO,NHIEU_NGHIA,CHUA
+656,L2-0156,2232,饭馆,fànguǎn,名,nhà hàng / LT:家[jia1],nhà hàng,LT:家[jia1],,CHUA_CO,,CHUA
+657,L2-0157,2240,方便,fāngbiàn,形,tiện lợi; thích hợp / tạo điều kiện; làm cho dễ dàng / có tiền dư / (nói giảm) đi vệ sinh,tiện lợi; thích hợp / tạo điều kiện; làm cho dễ dàng / có tiền dư / (nói giảm) đi vệ sinh,,,CHUA_CO,NHIEU_NGHIA,CHUA
+658,L2-0158,2241,方便面,fāngbiànmiàn,名,mì ăn liền,mì ăn liền,,,CHUA_CO,,CHUA
+659,L2-0159,2242,方法,fāngfǎ,名,phương pháp; cách thức; cách / LT:個|个[ge4],phương pháp; cách thức; cách,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+660,L2-0160,2244,方面,fāngmiàn,名,khía cạnh / phương diện / lĩnh vực / mặt / LT:個|个[ge4],khía cạnh / phương diện / lĩnh vực / mặt,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+661,L2-0161,2246,方向,fāngxiàng,名,hướng; phương hướng / LT:個|个[ge4],hướng; phương hướng,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+662,L2-0162,2287,放下,fàngxia,,đặt xuống; để xuống / buông bỏ; từ bỏ; gác lại / hạ xuống (rèm v.v.),đặt xuống; để xuống / buông bỏ; từ bỏ; gác lại / hạ xuống (rèm v.v.),,,CHUA_CO,NHIEU_NGHIA,CHUA
+663,L2-0163,2288,放心,fàngxīn,,cảm thấy nhẹ nhõm / cảm thấy yên tâm / an tâm,cảm thấy nhẹ nhõm / cảm thấy yên tâm / an tâm,,,CHUA_CO,NHIEU_NGHIA,CHUA
+664,L2-0164,2329,分,fēn,动,"chia; tách / phân phối; phân bổ / phân biệt (tốt và xấu) / (hình thức kết hợp) chi nhánh (của một tổ chức); phụ- (như trong 分局[fen1 ju2]) / phân số / một phần mười (của một số đơn vị) / đơn vị chiều dài tương đương 0,33 cm / phút (đơn vị thời gian) / phút (đơn vị đo góc) / một điểm (trong thể thao hoặc trò chơi) / 0,01 nhân dân tệ (đơn vị tiền tệ)",phút,,122,DA_CO,,CHUA
+665,L2-0165,2341,分开,fēnkāi,,tách ra / chia ra,tách ra / chia ra,,,CHUA_CO,NHIEU_NGHIA,CHUA
+666,L2-0166,2351,分数,fēnshù,名,điểm (thi) / điểm số / thành tích / phân số,điểm (thi) / điểm số / thành tích / phân số,,,CHUA_CO,NHIEU_NGHIA,CHUA
+667,L2-0167,2358,分钟,fēnzhōng,量,phút,phút,,,CHUA_CO,,CHUA
+668,L2-0168,2372,份,fèn,量,"lượng từ cho quà tặng, báo, tạp chí, giấy tờ, báo cáo, hợp đồng, v.v. / biến thể của 分[fen4]","lượng từ cho quà tặng, báo, tạp chí, giấy tờ, báo cáo, hợp đồng, v.v. / biến thể của 分[fen4]",,,CHUA_CO,NHIEU_NGHIA,CHUA
+669,L2-0169,2415,封,fēng,量,"phong tước / ban tặng / phong làm / phong kín / lượng từ cho vật kín, đặc biệt là thư từ","phong tước / ban tặng / phong làm / phong kín / lượng từ cho vật kín, đặc biệt là thư từ",,,CHUA_CO,NHIEU_NGHIA,CHUA
+670,L2-0170,2451,服务,fúwù,动,phục vụ / dịch vụ / LT:項|项[xiang4],phục vụ / dịch vụ,LT:項|项[xiang4],,CHUA_CO,NHIEU_NGHIA,CHUA
+671,L2-0171,2510,复习,fùxí,动,xem lại / ôn tập / LT:次[ci4] || biến thể của 復習|复习[fu4 xi2],xem lại / ôn tập / biến thể của 復習|复习[fu4 xi2],LT:次[ci4],,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+672,L2-0172,2532,该,gāi,动,nên / phải / có lẽ / phải là / xứng đáng / nợ / đến lượt làm gì / đó / đã nói ở trên,nên / phải / có lẽ / phải là / xứng đáng / nợ / đến lượt làm gì / đó / đã nói ở trên,,,CHUA_CO,NHIEU_NGHIA,CHUA
+673,L2-0173,2534,改,gǎi,动,thay đổi / sửa đổi / biến đổi / sửa chữa,thay đổi / sửa đổi / biến đổi / sửa chữa,,,CHUA_CO,NHIEU_NGHIA,CHUA
+674,L2-0174,2537,改变,gǎibiàn,动、名,thay đổi / sửa đổi / biến đổi,thay đổi / sửa đổi / biến đổi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+675,L2-0175,2560,干杯,gānbēi,,nâng ly chúc mừng / Cạn ly! (đề xuất nâng ly) / Chúc mừng bạn! / Uống cạn nhé! / nghĩa đen: cạn ly,nâng ly chúc mừng / Cạn ly! (đề xuất nâng ly) / Chúc mừng bạn! / Uống cạn nhé! / nghĩa đen: cạn ly,,,CHUA_CO,NHIEU_NGHIA,CHUA
+676,L2-0176,2588,感到,gǎndào,动,cảm thấy; cảm nhận; nhận ra,cảm thấy; cảm nhận; nhận ra,,,CHUA_CO,NHIEU_NGHIA,CHUA
+677,L2-0177,2589,感动,gǎndòng,形、动,làm cảm động / chạm đến (cảm xúc của ai đó) / cảm động,làm cảm động / chạm đến (cảm xúc của ai đó) / cảm động,,,CHUA_CO,NHIEU_NGHIA,CHUA
+678,L2-0178,2592,感觉,gǎnjué,动、名,cảm giác; ấn tượng; cảm nhận / cảm thấy; nhận biết,cảm giác; ấn tượng; cảm nhận / cảm thấy; nhận biết,,,CHUA_CO,NHIEU_NGHIA,CHUA
+679,L2-0179,2602,感谢,gǎnxiè,动,(bày tỏ) cảm ơn / lòng biết ơn / biết ơn / cảm ơn / xin cảm ơn,(bày tỏ) cảm ơn / lòng biết ơn / biết ơn / cảm ơn / xin cảm ơn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+680,L2-0180,2607,干活儿,gànhuór,,biến thể er hoá của 幹活|干活[gan4 huo2],biến thể er hoá của 幹活|干活[gan4 huo2],,,CHUA_CO,,CHUA
+681,L2-0181,2611,刚,gāng,副,cứng / vững / mạnh / vừa / mới / chính xác,cứng / vững / mạnh / vừa / mới / chính xác,,,CHUA_CO,NHIEU_NGHIA,CHUA
+682,L2-0182,2612,刚才,gāngcái,名,vừa nãy / mới đây || vừa mới (biến thể của 剛才|刚才[gang1 cai2]),vừa nãy / mới đây / vừa mới (biến thể của 剛才|刚才[gang1 cai2]),,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+683,L2-0183,2613,刚刚,gānggāng,副,mới đây / ngay vừa rồi,mới đây / ngay vừa rồi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+684,L2-0184,2644,高级,gāojí,形,cấp cao / chất lượng cao / tiên tiến / cấp bậc cao,cấp cao / chất lượng cao / tiên tiến / cấp bậc cao,,,CHUA_CO,NHIEU_NGHIA,CHUA
+685,L2-0185,2667,高中,gāozhōng,名,trường trung học phổ thông / viết tắt của 高級中學|高级中学[gao1 ji2 zhong1 xue2],trường trung học phổ thông / viết tắt của 高級中學|高级中学[gao1 ji2 zhong1 xue2],,,CHUA_CO,NHIEU_NGHIA,CHUA
+686,L2-0186,2721,个子,gèzi,名,chiều cao / dáng vóc / thể trạng / kích cỡ,chiều cao / dáng vóc / thể trạng / kích cỡ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+687,L2-0187,2750,更,gèng,副,hơn / còn hơn / nữa / vẫn / càng,hơn / còn hơn / nữa / vẫn / càng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+688,L2-0188,2783,公共汽车,gōnggòng qìchē,,"xe buýt / LT:輛|辆[liang4],班[ban1]",xe buýt,"LT:輛|辆[liang4],班[ban1]",,CHUA_CO,,CHUA
+689,L2-0189,2788,公交车,gōngjiāochē,名,phương tiện giao thông công cộng / xe buýt thành phố / Lượng từ: 輛|辆[liang4],phương tiện giao thông công cộng / xe buýt thành phố / Lượng từ: 輛|辆[liang4],,,CHUA_CO,NHIEU_NGHIA,CHUA
+690,L2-0190,2789,公斤,gōngjīn,量,kilôgam (kg),kilôgam (kg),,,CHUA_CO,,CHUA
+691,L2-0191,2793,公里,gōnglǐ,量,kilômét,kilômét,,,CHUA_CO,,CHUA
+692,L2-0192,2795,公路,gōnglù,名,đường cao tốc / đường bộ / LT:條|条[tiao2],đường cao tốc / đường bộ,LT:條|条[tiao2],,CHUA_CO,NHIEU_NGHIA,CHUA
+693,L2-0193,2798,公平,gōngpíng,形,công bằng / không thiên vị,công bằng / không thiên vị,,,CHUA_CO,NHIEU_NGHIA,CHUA
+694,L2-0194,2806,公司,gōngsī,名,công ty; hãng; tập đoàn / LT:家[jia1],công ty; hãng; tập đoàn,LT:家[jia1],,CHUA_CO,NHIEU_NGHIA,CHUA
+695,L2-0195,2814,公园,gōngyuán,名,"công viên (dành cho công chúng giải trí) / LT:個|个[ge4],座[zuo4]",công viên (dành cho công chúng giải trí),"LT:個|个[ge4],座[zuo4]",,CHUA_CO,,CHUA
+696,L2-0196,2866,狗,gǒu,名,"chó / LT:隻|只[zhi1],條|条[tiao2]",chó,"LT:隻|只[zhi1],條|条[tiao2]",,CHUA_CO,,CHUA
+697,L2-0197,2875,够,gòu,动、副,đủ (đầy đủ) / đủ (quá nhiều) / (thông tục) (trước tính từ) thật sự / (thông tục) với tới bằng cách vươn ra,đủ (đầy đủ) / đủ (quá nhiều) / (thông tục) (trước tính từ) thật sự / (thông tục) với tới bằng cách vươn ra,,,CHUA_CO,NHIEU_NGHIA,CHUA
+698,L2-0198,2918,故事,gùshi,名,câu chuyện; truyện,câu chuyện; truyện,,,CHUA_CO,NHIEU_NGHIA,CHUA
+699,L2-0199,2920,故意,gùyì,副,cố ý; có chủ đích,cố ý; có chủ đích,,,CHUA_CO,NHIEU_NGHIA,CHUA
+700,L2-0200,2926,顾客,gùkè,名,khách hàng; thân chủ / LT:位[wei4],khách hàng; thân chủ,LT:位[wei4],,CHUA_CO,NHIEU_NGHIA,CHUA
+701,L2-0201,2961,关机,guānjī,,tắt (máy móc hoặc thiết bị) / hoàn thành quay phim,tắt (máy móc hoặc thiết bị) / hoàn thành quay phim,,,CHUA_CO,NHIEU_NGHIA,CHUA
+702,L2-0202,2969,关心,guānxīn,动,quan tâm đến; chăm sóc,quan tâm đến; chăm sóc,,,CHUA_CO,NHIEU_NGHIA,CHUA
+703,L2-0203,2975,观点,guāndiǎn,名,quan điểm / góc nhìn / lập trường / LT:個|个[ge4],quan điểm / góc nhìn / lập trường,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+704,L2-0204,3032,广场,guǎngchǎng,名,quảng trường,quảng trường,,,CHUA_CO,,CHUA
+705,L2-0205,3035,广告,guǎnggào,名,quảng cáo / mục quảng cáo / LT:項|项[xiang4],quảng cáo / mục quảng cáo,LT:項|项[xiang4],,CHUA_CO,NHIEU_NGHIA,CHUA
+706,L2-0206,3083,国际,guójì,名,quốc tế,quốc tế,,,CHUA_CO,,CHUA
+707,L2-0207,3118,过来,guòlái,动,đến / quản lý / xử lý / có thể chăm sóc được,đến / quản lý / xử lý / có thể chăm sóc được,,,CHUA_CO,NHIEU_NGHIA,CHUA
+708,L2-0208,3121,过年,guònián,,đón Tết Nguyên Đán,đón Tết Nguyên Đán,,,CHUA_CO,,CHUA
+709,L2-0209,3124,过去,guòqù,动,(trong quá khứ); trước đây; trước đó / đi qua; trôi qua,(trong quá khứ); trước đây; trước đó / đi qua; trôi qua,,,CHUA_CO,NHIEU_NGHIA,CHUA
+710,L2-0210,3136,过,guo,助,(trợ từ chỉ hành động đã trải qua),(trợ từ chỉ hành động đã trải qua),,,CHUA_CO,,CHUA
+711,L2-0211,3142,海,hǎi,名,"đại dương / biển / LT:個|个[ge4],片[pian4] / số lượng lớn người hoặc vật / (phương ngữ) nhiều",đại dương / biển / số lượng lớn người hoặc vật / (phương ngữ) nhiều,"LT:個|个[ge4],片[pian4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+712,L2-0212,3146,海边,hǎi biān,,bờ biển / bãi biển,bờ biển / bãi biển,,,CHUA_CO,NHIEU_NGHIA,CHUA
+713,L2-0213,3188,喊,hǎn,动,la hét / hò hét / gọi to (người),la hét / hò hét / gọi to (người),,,CHUA_CO,NHIEU_NGHIA,CHUA
+714,L2-0214,3216,好,hǎo,副,tốt / thích hợp; đúng / (trước động từ) dễ / (trước động từ) tốt để / (trước tính từ để nhấn mạnh) rất / (bổ ngữ động từ chỉ sự hoàn thành) / (hai người) thân thiết; có quan hệ gần gũi / (sau đại từ nhân xưng) xin chào,tốt; khỏe,,2,DA_CO,NHIEU_NGHIA,CHUA
+715,L2-0215,3220,好处,hǎochù,名,lợi ích; ưu điểm; công dụng / lợi nhuận; lợi ích / cũng đọc là [hao3 chu4],lợi ích; ưu điểm; công dụng / lợi nhuận; lợi ích / cũng đọc là [hao3 chu4],,,CHUA_CO,NHIEU_NGHIA,CHUA
+716,L2-0216,3222,好多,hǎoduō,数,nhiều / khá nhiều / tốt hơn nhiều,nhiều / khá nhiều / tốt hơn nhiều,,,CHUA_CO,NHIEU_NGHIA,CHUA
+717,L2-0217,3227,好久,hǎojiǔ,形,một khoảng thời gian khá lâu,một khoảng thời gian khá lâu,,,CHUA_CO,,CHUA
+718,L2-0218,3230,好人,hǎorén,名,"người tốt / người khỏe mạnh / người cố gắng không làm phật lòng ai, thậm chí hy sinh nguyên tắc","người tốt / người khỏe mạnh / người cố gắng không làm phật lòng ai, thậm chí hy sinh nguyên tắc",,,CHUA_CO,NHIEU_NGHIA,CHUA
+719,L2-0219,3231,好事,hǎoshì,名,"hành động, việc làm, điều hoặc công việc tốt (cũng có thể mỉa mai, ""thật là một việc hay"") / từ thiện / dịp vui / lễ đạo hoặc Phật cho linh hồn người chết","hành động, việc làm, điều hoặc công việc tốt (cũng có thể mỉa mai, ""thật là một việc hay"") / từ thiện / dịp vui / lễ đạo hoặc Phật cho linh hồn người chết",,,CHUA_CO,NHIEU_NGHIA,CHUA
+720,L2-0220,3236,好像,hǎoxiàng,副、动,như thể / giống như,như thể / giống như,,,CHUA_CO,NHIEU_NGHIA,CHUA
+721,L2-0221,3272,合适,héshì,形,thích hợp; vừa vặn; phù hợp,thích hợp; vừa vặn; phù hợp,,,CHUA_CO,NHIEU_NGHIA,CHUA
+722,L2-0222,3293,河,hé,名,"sông / LT:條|条[tiao2],道[dao4]",sông,"LT:條|条[tiao2],道[dao4]",,CHUA_CO,,CHUA
+723,L2-0223,3314,黑,hēi,形,"đen / tối / tà ác / bí mật / mờ ám / phi pháp / cất giấu (thứ gì đó) / bôi nhọ / tin tặc (mượn từ, tin học)","đen / tối / tà ác / bí mật / mờ ám / phi pháp / cất giấu (thứ gì đó) / bôi nhọ / tin tặc (mượn từ, tin học)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+724,L2-0224,3317,黑板,hēibǎn,名,"bảng đen / LT:塊|块[kuai4],個|个[ge4]",bảng đen,"LT:塊|块[kuai4],個|个[ge4]",,CHUA_CO,,CHUA
+725,L2-0225,3320,黑色,hēisè,名,màu đen,màu đen,,,CHUA_CO,,CHUA
+726,L2-0226,3345,红,hóng,形,đỏ / phổ biến / cách mạng / thưởng,đỏ / phổ biến / cách mạng / thưởng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+727,L2-0227,3353,红色,hóngsè,名,màu đỏ (màu sắc) / cách mạng,màu đỏ (màu sắc) / cách mạng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+728,L2-0228,3375,后来,hòulái,名,sau này; sau đó / mới đến,sau này; sau đó / mới đến,,,CHUA_CO,NHIEU_NGHIA,CHUA
+729,L2-0229,3402,忽然,hūrán,副,đột nhiên; bỗng nhiên,đột nhiên; bỗng nhiên,,,CHUA_CO,NHIEU_NGHIA,CHUA
+730,L2-0230,3411,湖,hú,名,"hồ / LT:個|个[ge4],片[pian4]",hồ,"LT:個|个[ge4],片[pian4]",,CHUA_CO,,CHUA
+731,L2-0231,3428,护照,hùzhào,名,"hộ chiếu / LT:本[ben3],個|个[ge4]",hộ chiếu,"LT:本[ben3],個|个[ge4]",,CHUA_CO,,CHUA
+732,L2-0232,3430,花,huā,动,"hoa / bông / LT:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4] / hoa văn / lòe loẹt / tiêu (tiền, thời gian) / (khẩu ngữ) dâm đãng / dâm ô || biến thể cũ của 花[hua1] || biến thể của 花[hua1] / hoa / bông / cũng đọc là [wei3]",hoa; bông hoa,"LT:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4]",160,DA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+733,L2-0233,3439,花园,huāyuán,名,"vườn / LT:座[zuo4],個|个[ge4]",vườn,"LT:座[zuo4],個|个[ge4]",,CHUA_CO,,CHUA
+734,L2-0234,3467,画,huà,动,"vẽ; tô tranh / bức tranh; hội họa (LT: 幅[fu2],張|张[zhang1]) / vẽ (một đường) (biến thể của 劃|划[hua4]) / nét chữ Hán (biến thể của 劃|划[hua4]) / (thư pháp) nét ngang (biến thể của 劃|划[hua4])","vẽ; tô tranh / bức tranh; hội họa (LT: 幅[fu2],張|张[zhang1]) / vẽ (một đường) (biến thể của 劃|划[hua4]) / nét chữ Hán (biến thể của 劃|划[hua4]) / (thư pháp) nét ngang (biến thể của 劃|划[hua4])",,,CHUA_CO,CON_CHU_THICH_LT; NHIEU_NGHIA,CHUA
+735,L2-0235,3469,画家,huàjiā,名,họa sĩ / LT:個|个[ge4],họa sĩ,LT:個|个[ge4],,CHUA_CO,,CHUA
+736,L2-0236,3472,画儿,huàr,名,bức tranh / hình vẽ / bức vẽ,bức tranh / hình vẽ / bức vẽ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+737,L2-0237,3490,坏处,huàichù,名,tổn hại / rắc rối / LT:個|个[ge4],tổn hại / rắc rối,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+738,L2-0238,3491,坏人,huàirén,名,người xấu / kẻ xấu,người xấu / kẻ xấu,,,CHUA_CO,NHIEU_NGHIA,CHUA
+739,L2-0239,3498,欢迎,huānyíng,动,chào đón / chào mừng,chào đón / chào mừng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+740,L2-0240,3516,换,huàn,动,"trao đổi / thay đổi (quần áo, v.v.) / thay thế / chuyển đổi / đổi (tiền tệ)","trao đổi / thay đổi (quần áo, v.v.) / thay thế / chuyển đổi / đổi (tiền tệ)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+741,L2-0241,3540,黄,huáng,形,màu vàng / khiêu dâm / thất bại,màu vàng / khiêu dâm / thất bại,,,CHUA_CO,NHIEU_NGHIA,CHUA
+742,L2-0242,3544,黄色,huángsè,名,màu vàng / thô tục; khiêu dâm,màu vàng / thô tục; khiêu dâm,,,CHUA_CO,NHIEU_NGHIA,CHUA
+743,L2-0243,3559,回,huí,量,xoay vòng / quay lại / quay quanh / trả lời / trở về / xoay / chủng tộc Hồi (người Hồi giáo Trung Quốc) / lần / lượng từ cho hành động trong vở kịch / phần hoặc chương (của sách kinh điển) || cong / quay lại / xoay vòng || biến thể của 迴|回[hui2],về; trở về; quay lại,,164,DA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+744,L2-0244,3567,回国,huí guó,,trở về nước,trở về nước,,,CHUA_CO,,CHUA
+745,L2-0245,3596,会,huì,名,có thể; có kỹ năng; biết cách / có khả năng; chắc chắn / gặp gỡ; tụ họp / cuộc họp; buổi tụ họp / (hậu tố) liên minh; nhóm; hiệp hội / (dạng kết hợp) một lúc (cách phát âm Đài Loan [hui3]),biết; có thể,,170,DA_CO,NHIEU_NGHIA,CHUA
+746,L2-0246,3626,活动,huódòng,动、名,"tập thể dục / di chuyển / vận hành / sử dụng mối quan hệ (ảnh hưởng cá nhân) / lỏng / lung lay / chủ động / có thể di chuyển / hoạt động / chiến dịch / diễn tập / hành vi / LT:項|项[xiang4],個|个[ge4]",tập thể dục / di chuyển / vận hành / sử dụng mối quan hệ (ảnh hưởng cá nhân) / lỏng / lung lay / chủ động / có thể di chuyển / hoạt động / chiến dịch / diễn tập / hành vi,"LT:項|项[xiang4],個|个[ge4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+747,L2-0247,3654,或,huò,连,có thể / có lẽ / có khả năng / có thể là / hoặc,có thể / có lẽ / có khả năng / có thể là / hoặc,,,CHUA_CO,NHIEU_NGHIA,CHUA
+748,L2-0248,3658,或者,huòzhě,连,hoặc / có thể; có lẽ,hoặc / có thể; có lẽ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+749,L2-0249,3683,机会,jīhuì,名,cơ hội / thời cơ / dịp / LT:個|个[ge4],cơ hội / thời cơ / dịp,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+750,L2-0250,3695,鸡,jī,名,gia cầm / gà / LT:隻|只[zhi1] / (tiếng lóng) gái mại dâm,gia cầm / gà / (tiếng lóng) gái mại dâm,LT:隻|只[zhi1],,CHUA_CO,NHIEU_NGHIA,CHUA
+751,L2-0251,3734,级,jí,名,"cấp / hạng / bậc / bước (cầu thang) / LT:個|个[ge4] / Lượng từ: bước, cấp","cấp / hạng / bậc / bước (cầu thang) / Lượng từ: bước, cấp",LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+752,L2-0252,3750,急,jí,形,khẩn cấp / cấp bách / nhanh / vội / vẻ lo lắng / làm cho (ai đó) lo lắng,khẩn cấp / cấp bách / nhanh / vội / vẻ lo lắng / làm cho (ai đó) lo lắng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+753,L2-0253,3780,计划,jìhuà,名、动,"kế hoạch / dự án / chương trình / lên kế hoạch / vạch ra / LT:個|个[ge4],項|项[xiang4]",kế hoạch / dự án / chương trình / lên kế hoạch / vạch ra,"LT:個|个[ge4],項|项[xiang4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+754,L2-0254,3784,计算机,jìsuànjī,名,máy tính / (Đài Loan) máy tính cầm tay / LT:臺|台[tai2],máy tính / (Đài Loan) máy tính cầm tay,LT:臺|台[tai2],,CHUA_CO,NHIEU_NGHIA,CHUA
+755,L2-0255,3830,加,jiā,动,"thêm / cộng / (dùng sau một trạng ngữ như 不, 大, 稍,..., và trước động từ hai âm tiết, để chỉ rằng hành động của động từ được áp dụng cho cái gì đó hoặc ai đó đã được nhắc đến trước đó) / áp dụng (hạn chế,...) cho (ai đó) / đưa ra (hỗ trợ, xem xét,...) cho (điều gì đó)","thêm / cộng / (dùng sau một trạng ngữ như 不, 大, 稍,..., và trước động từ hai âm tiết, để chỉ rằng hành động của động từ được áp dụng cho cái gì đó hoặc ai đó đã được nhắc đến trước đó) / áp dụng (hạn chế,...) cho (ai đó) / đưa ra (hỗ trợ, xem xét,...) cho (điều gì đó)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+756,L2-0256,3844,加油,jiāyóu,,thêm dầu; đổ xăng; tiếp nhiên liệu / tăng tốc; đạp ga / (nghĩa bóng) nỗ lực thêm; cổ vũ ai đó,thêm dầu; đổ xăng; tiếp nhiên liệu / tăng tốc; đạp ga / (nghĩa bóng) nỗ lực thêm; cổ vũ ai đó,,,CHUA_CO,NHIEU_NGHIA,CHUA
+757,L2-0257,3850,家（科学家）,jiā (kēxuéjiā),后缀,"dùng trong 傢伙|家伙[jia1 huo5] và 傢俱|家俱[jia1 ju4] || nhà / gia đình / (lịch sự) của tôi (chị, chú, v.v.) / lượng từ cho gia đình hoặc doanh nghiệp / chỉ các trường phái triết học Trung Quốc thời Tiền Hán / hậu tố danh từ cho chuyên gia trong một hoạt động nào đó, như nhạc sĩ hoặc nhà cách mạng, tương ứng với tiếng Anh -ist, -er, -ary hoặc -ian / LT:個|个[ge4]","dùng trong 傢伙|家伙[jia1 huo5] và 傢俱|家俱[jia1 ju4] / nhà / gia đình / (lịch sự) của tôi (chị, chú, v.v.) / lượng từ cho gia đình hoặc doanh nghiệp / chỉ các trường phái triết học Trung Quốc thời Tiền Hán / hậu tố danh từ cho chuyên gia trong một hoạt động nào đó, như nhạc sĩ hoặc nhà cách mạng, tương ứng với tiếng Anh -ist, -er, -ary hoặc -ian",LT:個|个[ge4],,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+758,L2-0258,3861,家庭,jiātíng,名,"gia đình / hộ gia đình / LT:戶|户[hu4],個|个[ge4]",gia đình / hộ gia đình,"LT:戶|户[hu4],個|个[ge4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+759,L2-0259,3867,家长,jiāzhǎng,名,chủ hộ / người đứng đầu gia đình / gia trưởng / phụ huynh hoặc người giám hộ của một đứa trẻ,chủ hộ / người đứng đầu gia đình / gia trưởng / phụ huynh hoặc người giám hộ của một đứa trẻ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+760,L2-0260,3873,假,jiǎ,形,giả / sai / nhân tạo / mượn / nếu / giả sử || biến thể của 假[jia3] / mượn,giả / sai / nhân tạo / mượn / nếu / giả sử / biến thể của 假[jia3] / mượn,,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+761,L2-0261,3894,假期,jiàqī,名,kỳ nghỉ,kỳ nghỉ,,,CHUA_CO,,CHUA
+762,L2-0262,3941,检查,jiǎnchá,动、名,kiểm tra / khám xét / kiểm định / LT:次[ci4],kiểm tra / khám xét / kiểm định,LT:次[ci4],,CHUA_CO,NHIEU_NGHIA,CHUA
+763,L2-0263,3969,见到,jiàndào,,nhìn thấy,nhìn thấy,,,CHUA_CO,,CHUA
+764,L2-0264,3970,见过,jiànguo,,đã từng gặp; đã từng thấy,đã từng gặp; đã từng thấy,,,CHUA_CO,NHIEU_NGHIA,CHUA
+765,L2-0265,3980,件,jiàn,量,"món / thành phần / lượng từ cho sự kiện, đồ vật, quần áo, v.v.","món / thành phần / lượng từ cho sự kiện, đồ vật, quần áo, v.v.",,,CHUA_CO,NHIEU_NGHIA,CHUA
+766,L2-0266,3999,健康,jiànkāng,形、名,sức khỏe / khỏe mạnh,sức khỏe / khỏe mạnh,,,CHUA_CO,NHIEU_NGHIA,CHUA
+767,L2-0267,4023,讲,jiǎng,动,nói / giải thích / đàm phán / nhấn mạnh / kĩ lưỡng / về mặt nào đó / bài nói / chia sẻ,nói / giải thích / đàm phán / nhấn mạnh / kĩ lưỡng / về mặt nào đó / bài nói / chia sẻ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+768,L2-0268,4024,讲话,jiǎnghuà,,bài phát biểu / nói / trò chuyện / phát biểu / LT:個|个[ge4],bài phát biểu / nói / trò chuyện / phát biểu,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+769,L2-0269,4047,交,jiāo,动,giao nộp; giao; trả (tiền); bàn giao / kết bạn / (đường) giao nhau / biến thể của 跤[jiao1],giao nộp; giao; trả (tiền); bàn giao / kết bạn / (đường) giao nhau / biến thể của 跤[jiao1],,,CHUA_CO,NHIEU_NGHIA,CHUA
+770,L2-0270,4053,交给,jiāo gěi,,đưa; giao; chuyển giao,đưa; giao; chuyển giao,,,CHUA_CO,NHIEU_NGHIA,CHUA
+771,L2-0271,4062,交朋友,jiāo péngyou,,kết bạn / (tiếng địa phương) bắt đầu mối quan hệ tình cảm với ai đó,kết bạn / (tiếng địa phương) bắt đầu mối quan hệ tình cảm với ai đó,,,CHUA_CO,NHIEU_NGHIA,CHUA
+772,L2-0272,4067,交通,jiāotōng,名,kết nối / giao thông / vận tải / truyền thông / liên lạc,kết nối / giao thông / vận tải / truyền thông / liên lạc,,,CHUA_CO,NHIEU_NGHIA,CHUA
+773,L2-0273,4092,角,jiǎo,量、名,"góc / góc cạnh / sừng / hình dạng sừng / đơn vị tiền bằng 0,1 nhân dân tệ, hoặc 10 xu (một hào) / LT:個|个[ge4]","góc / góc cạnh / sừng / hình dạng sừng / đơn vị tiền bằng 0,1 nhân dân tệ, hoặc 10 xu (một hào)",LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+774,L2-0274,4093,角度,jiǎodù,名,góc / quan điểm,góc / quan điểm,,,CHUA_CO,NHIEU_NGHIA,CHUA
+775,L2-0275,4096,饺子,jiǎozi,名,"bánh sủi cảo / bánh hấp / LT:個|个[ge4],隻|只[zhi1]",bánh sủi cảo / bánh hấp,"LT:個|个[ge4],隻|只[zhi1]",,CHUA_CO,NHIEU_NGHIA,CHUA
+776,L2-0276,4099,脚,jiǎo,名,"bàn chân / chân (của động vật hoặc đồ vật) / đế, chân (của đồ vật) / lượng từ: 雙|双[shuang1], 隻|只[zhi1] / lượng từ cho cú đá","bàn chân / chân (của động vật hoặc đồ vật) / đế, chân (của đồ vật) / lượng từ: 雙|双[shuang1], 隻|只[zhi1] / lượng từ cho cú đá",,,CHUA_CO,NHIEU_NGHIA,CHUA
+777,L2-0277,4111,叫作,jiàozuò,动,gọi / được gọi là,gọi / được gọi là,,,CHUA_CO,NHIEU_NGHIA,CHUA
+778,L2-0278,4120,教师,jiàoshī,名,giáo viên / LT:個|个[ge4],giáo viên,LT:個|个[ge4],,CHUA_CO,,CHUA
+779,L2-0279,4121,教室,jiàoshì,名,phòng học / LT:間|间[jian1],phòng học,LT:間|间[jian1],,CHUA_CO,,CHUA
+780,L2-0280,4125,教学,jiàoxué,名,giảng dạy; hướng dẫn / LT:次[ci4],giảng dạy; hướng dẫn,LT:次[ci4],,CHUA_CO,NHIEU_NGHIA,CHUA
+781,L2-0281,4129,教育,jiàoyù,动、名,giáo dục / dạy học,giáo dục / dạy học,,,CHUA_CO,NHIEU_NGHIA,CHUA
+782,L2-0282,4139,接,jiē,动,nhận / trả lời (điện thoại) / gặp hoặc chào đón ai / kết nối / bắt / ghép / mở rộng / tiếp nhận ca trực / tiếp quản cho ai,nhận / trả lời (điện thoại) / gặp hoặc chào đón ai / kết nối / bắt / ghép / mở rộng / tiếp nhận ca trực / tiếp quản cho ai,,,CHUA_CO,NHIEU_NGHIA,CHUA
+783,L2-0283,4144,接到,jiēdào,,"nhận được (thư từ, v.v.)","nhận được (thư từ, v.v.)",,,CHUA_CO,,CHUA
+784,L2-0284,4155,接受,jiēshòu,动,"chấp nhận (đề nghị, trừng phạt, hối lộ, v.v.); đồng ý","chấp nhận (đề nghị, trừng phạt, hối lộ, v.v.); đồng ý",,,CHUA_CO,NHIEU_NGHIA,CHUA
+785,L2-0285,4160,接下来,jiē xiàlái,,chấp nhận / tiếp nhận / tiếp theo / theo sau,chấp nhận / tiếp nhận / tiếp theo / theo sau,,,CHUA_CO,NHIEU_NGHIA,CHUA
+786,L2-0286,4161,接着,jiēzhe,动、副,bắt và giữ / tiếp tục / tiến hành làm gì đó / theo sau / tiếp nối / rồi / sau đó / tiếp theo / tiến hành / tiếp diễn / lần lượt / đến lượt,bắt và giữ / tiếp tục / tiến hành làm gì đó / theo sau / tiếp nối / rồi / sau đó / tiếp theo / tiến hành / tiếp diễn / lần lượt / đến lượt,,,CHUA_CO,NHIEU_NGHIA,CHUA
+787,L2-0287,4167,街,jiē,名,đường phố / LT:條|条[tiao2],đường phố,LT:條|条[tiao2],,CHUA_CO,,CHUA
+788,L2-0288,4170,节,jié,名、量,"khớp; đốt / (dạng kết hợp) phần; đoạn / tiết khí (một trong 24 phân đoạn của năm trong lịch truyền thống Trung Quốc) / lễ hội theo mùa / (dạng kết hợp) tiết kiệm / (dạng kết hợp) tiết tháo; trinh tiết / lượng từ cho các đoạn: bài học, toa tàu, câu kinh thánh, v.v. / hải lý (dặm biển mỗi giờ)","khớp; đốt / (dạng kết hợp) phần; đoạn / tiết khí (một trong 24 phân đoạn của năm trong lịch truyền thống Trung Quốc) / lễ hội theo mùa / (dạng kết hợp) tiết kiệm / (dạng kết hợp) tiết tháo; trinh tiết / lượng từ cho các đoạn: bài học, toa tàu, câu kinh thánh, v.v. / hải lý (dặm biển mỗi giờ)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+789,L2-0289,4174,节目,jiémù,名,"chương trình / mục (trong chương trình) / LT:臺|台[tai2],個|个[ge4],套[tao4]",chương trình / mục (trong chương trình),"LT:臺|台[tai2],個|个[ge4],套[tao4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+790,L2-0290,4177,节日,jiérì,名,ngày lễ / lễ hội / LT:個|个[ge4],ngày lễ / lễ hội,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+791,L2-0291,4190,结果,jiéguǒ,名、连,kết quả / kết cục / kết luận / cuối cùng / do đó / giết / xử lý,kết quả / kết cục / kết luận / cuối cùng / do đó / giết / xử lý,,,CHUA_CO,NHIEU_NGHIA,CHUA
+792,L2-0292,4239,借,jiè,动,"mượn / (dùng kết hợp với 給|给[gei3] hoặc 出[chu1],...) cho mượn / tận dụng; lợi dụng / (đôi khi theo sau bởi 著|着[zhe5]) bằng; với || biến thể của 借[jie4]","mượn / (dùng kết hợp với 給|给[gei3] hoặc 出[chu1],...) cho mượn / tận dụng; lợi dụng / (đôi khi theo sau bởi 著|着[zhe5]) bằng; với / biến thể của 借[jie4]",,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+793,L2-0293,4245,斤,jīn,量,"cân / (Trung Quốc) đơn vị đo lường bằng 500 g / (Đài Loan) đơn vị đo lường bằng 600 g / (HK, Malaysia, Singapore) hơi hơn 604 g","cân / (Trung Quốc) đơn vị đo lường bằng 500 g / (Đài Loan) đơn vị đo lường bằng 600 g / (HK, Malaysia, Singapore) hơi hơn 604 g",,,CHUA_CO,NHIEU_NGHIA,CHUA
+794,L2-0294,4246,今后,jīnhòu,名,sau này / từ nay trở đi / trong tương lai / từ bây giờ,sau này / từ nay trở đi / trong tương lai / từ bây giờ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+795,L2-0295,4300,进入,jìnrù,动,đi vào / gia nhập / đi vào trong,đi vào / gia nhập / đi vào trong,,,CHUA_CO,NHIEU_NGHIA,CHUA
+796,L2-0296,4301,进行,jìnxíng,动,tiến hành / thực hiện / đang tiến hành / trong quá trình / làm / tiếp tục / thực thi,tiến hành / thực hiện / đang tiến hành / trong quá trình / làm / tiếp tục / thực thi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+797,L2-0297,4305,近,jìn,形,gần / sát / khoảng chừng,gần / sát / khoảng chừng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+798,L2-0298,4321,经常,jīngcháng,副,thường xuyên; liên tục; đều đặn; thường / ngày thường; hằng ngày; mỗi ngày,thường xuyên; liên tục; đều đặn; thường / ngày thường; hằng ngày; mỗi ngày,,,CHUA_CO,NHIEU_NGHIA,CHUA
+799,L2-0299,4325,经过,jīngguò,动、名,đi qua / trải qua / quá trình / tiến trình / LT:個|个[ge4],đi qua / trải qua / quá trình / tiến trình,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+800,L2-0300,4328,经理,jīnglǐ,名,"quản lý / giám đốc / Lượng từ: 個|个[ge4], 位[wei4], 名[ming2]","quản lý / giám đốc / Lượng từ: 個|个[ge4], 位[wei4], 名[ming2]",,,CHUA_CO,NHIEU_NGHIA,CHUA
+801,L2-0301,4427,酒,jiǔ,名,"rượu (đặc biệt là rượu gạo) / đồ uống có cồn / rượu bia / thức uống có cồn / LT:杯[bei1],瓶[ping2],罐[guan4],桶[tong3],缸[gang1]",rượu (đặc biệt là rượu gạo) / đồ uống có cồn / rượu bia / thức uống có cồn,"LT:杯[bei1],瓶[ping2],罐[guan4],桶[tong3],缸[gang1]",,CHUA_CO,NHIEU_NGHIA,CHUA
+802,L2-0302,4429,酒店,jiǔdiàn,名,quán rượu / quán bar / khách sạn / nhà hàng / (Đài Loan) hostess club,quán rượu / quán bar / khách sạn / nhà hàng / (Đài Loan) hostess club,,,CHUA_CO,NHIEU_NGHIA,CHUA
+803,L2-0303,4452,就要,jiùyào,副,sẽ / sắp / sắp sửa,sẽ / sắp / sắp sửa,,,CHUA_CO,NHIEU_NGHIA,CHUA
+804,L2-0304,4477,举,jǔ,动,biến thể của 舉|举[ju3] || nâng / giơ lên / dẫn chứng / liệt kê / hành động / giơ / chọn / bầu / cử động / việc làm,biến thể của 舉|举[ju3] / nâng / giơ lên / dẫn chứng / liệt kê / hành động / giơ / chọn / bầu / cử động / việc làm,,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+805,L2-0305,4486,举手,jǔshǒu,动,giơ tay / giơ tay lên (làm tín hiệu),giơ tay / giơ tay lên (làm tín hiệu),,,CHUA_CO,NHIEU_NGHIA,CHUA
+806,L2-0306,4487,举行,jǔxíng,动,"tổ chức (cuộc họp, buổi lễ, v.v.)","tổ chức (cuộc họp, buổi lễ, v.v.)",,,CHUA_CO,,CHUA
+807,L2-0307,4497,句,jù,量,câu / mệnh đề / cụm từ / lượng từ cho cụm từ hoặc câu thơ,câu / mệnh đề / cụm từ / lượng từ cho cụm từ hoặc câu thơ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+808,L2-0308,4498,句子,jùzi,名,câu / LT:個|个[ge4],câu,LT:個|个[ge4],,CHUA_CO,,CHUA
+809,L2-0309,4571,卡,kǎ,名,"dừng / chặn / (tin học) (khẩu ngữ) chậm / (từ mượn) thẻ / LT:張|张[zhang1],片[pian4] / xe tải (từ ""car"") / calo (viết tắt của 卡路里[ka3 lu4 li3]) / băng cassette","dừng / chặn / (tin học) (khẩu ngữ) chậm / (từ mượn) thẻ / xe tải (từ ""car"") / calo (viết tắt của 卡路里[ka3 lu4 li3]) / băng cassette","LT:張|张[zhang1],片[pian4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+810,L2-0310,4592,开机,kāijī,,khởi động máy / khởi động máy tính / nhấn Ctrl-Alt-Delete / bắt đầu quay phim hoặc chương trình TV,khởi động máy / khởi động máy tính / nhấn Ctrl-Alt-Delete / bắt đầu quay phim hoặc chương trình TV,,,CHUA_CO,NHIEU_NGHIA,CHUA
+811,L2-0311,4611,开心,kāixīn,形、动,cảm thấy vui / vui mừng / có khoảng thời gian tuyệt vời / trêu chọc ai đó,cảm thấy vui / vui mừng / có khoảng thời gian tuyệt vời / trêu chọc ai đó,,,CHUA_CO,NHIEU_NGHIA,CHUA
+812,L2-0312,4612,开学,kāixué,,(đối với học sinh) bắt đầu đi học / (đối với học kỳ) bắt đầu / (cũ) sáng lập trường / sự bắt đầu của học kỳ mới,(đối với học sinh) bắt đầu đi học / (đối với học kỳ) bắt đầu / (cũ) sáng lập trường / sự bắt đầu của học kỳ mới,,,CHUA_CO,NHIEU_NGHIA,CHUA
+813,L2-0313,4639,看法,kànfǎ,名,cách nhìn / quan điểm / ý kiến / LT:個|个[ge4],cách nhìn / quan điểm / ý kiến,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+814,L2-0314,4667,考生,kǎoshēng,名,thí sinh / học sinh được đề cử tham gia kỳ thi,thí sinh / học sinh được đề cử tham gia kỳ thi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+815,L2-0315,4674,靠,kào,动,dựa vào / đứng cạnh / đến gần / phụ thuộc vào / tin tưởng / chịch (thô tục) / loại kịch mặc trang phục giáp truyền thống (xưa),dựa vào / đứng cạnh / đến gần / phụ thuộc vào / tin tưởng / chịch (thô tục) / loại kịch mặc trang phục giáp truyền thống (xưa),,,CHUA_CO,NHIEU_NGHIA,CHUA
+816,L2-0316,4678,科,kē,名,"ngành học / phòng ban / học phần / lĩnh vực / ngành / hướng dẫn sân khấu / họ (phân loại) / quy tắc / pháp luật / phân xử (hình phạt) / truy thu (thuế, v.v.) / phạt ai đó / LT: 個|个[ge4]","ngành học / phòng ban / học phần / lĩnh vực / ngành / hướng dẫn sân khấu / họ (phân loại) / quy tắc / pháp luật / phân xử (hình phạt) / truy thu (thuế, v.v.) / phạt ai đó",LT: 個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+817,L2-0317,4683,科学,kēxué,名、形,"khoa học / kiến thức khoa học / mang tính khoa học / hợp lý / LT:門|门[men2],個|个[ge4],種|种[zhong3]",khoa học / kiến thức khoa học / mang tính khoa học / hợp lý,"LT:門|门[men2],個|个[ge4],種|种[zhong3]",,CHUA_CO,NHIEU_NGHIA,CHUA
+818,L2-0318,4692,可爱,kě'ài,形,đáng yêu / dễ thương / đáng mến,đáng yêu / dễ thương / đáng mến,,,CHUA_CO,NHIEU_NGHIA,CHUA
+819,L2-0319,4705,可能,kěnéng,动、形、名,có thể (xảy ra) / có khả năng / có xác suất / khả năng / xác suất / có lẽ / có thể / LT:個|个[ge4],có thể (xảy ra) / có khả năng / có xác suất / khả năng / xác suất / có lẽ / có thể,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+820,L2-0320,4706,可怕,kěpà,形,kinh khủng / đáng sợ / đáng gờm / dữ dội / xấu xí / khủng khiếp / tồi tệ / rất tệ,kinh khủng / đáng sợ / đáng gờm / dữ dội / xấu xí / khủng khiếp / tồi tệ / rất tệ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+821,L2-0321,4707,可是,kěshì,连,nhưng; tuy nhiên / (dùng để nhấn mạnh) thật sự,nhưng; tuy nhiên / (dùng để nhấn mạnh) thật sự,,,CHUA_CO,NHIEU_NGHIA,CHUA
+822,L2-0322,4716,可以,kěyǐ,动,có thể / được / khả thi / có khả năng / không tệ / khá tốt,có thể / được / khả thi / có khả năng / không tệ / khá tốt,,,CHUA_CO,NHIEU_NGHIA,CHUA
+823,L2-0323,4719,克,kè,量,"có thể / chế ngự / kiềm chế / vượt qua / gram / đơn vị diện tích đất của Tây Tạng, khoảng 6 are || biến thể của 克[ke4] / chế ngự / lật đổ / kiềm chế || biến thể của 剋|克[ke4]","có thể / chế ngự / kiềm chế / vượt qua / gram / đơn vị diện tích đất của Tây Tạng, khoảng 6 are / biến thể của 克[ke4] / chế ngự / lật đổ / kiềm chế / biến thể của 剋|克[ke4]",,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+824,L2-0324,4723,刻,kè,量,một phần tư (giờ) / khoảnh khắc / khắc / chạm khắc / cắt / áp bức / lượng từ cho khoảng thời gian ngắn,một phần tư (giờ) / khoảnh khắc / khắc / chạm khắc / cắt / áp bức / lượng từ cho khoảng thời gian ngắn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+825,L2-0325,4735,客人,kèrén,名,khách thăm / khách hàng / khách / LT:位[wei4],khách thăm / khách hàng / khách,LT:位[wei4],,CHUA_CO,NHIEU_NGHIA,CHUA
+826,L2-0326,4741,课堂,kètáng,名,lớp học / LT:間|间[jian1],lớp học,LT:間|间[jian1],,CHUA_CO,,CHUA
+827,L2-0327,4754,空气,kōngqì,名,không khí / bầu không khí,không khí / bầu không khí,,,CHUA_CO,NHIEU_NGHIA,CHUA
+828,L2-0328,4801,哭,kū,动,khóc; rơi lệ,khóc; rơi lệ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+829,L2-0329,4830,快餐,kuàicān,名,thức ăn nhanh / đồ ăn nhẹ / bữa ăn nhanh,thức ăn nhanh / đồ ăn nhẹ / bữa ăn nhanh,,,CHUA_CO,NHIEU_NGHIA,CHUA
+830,L2-0330,4833,快点儿,kuài diǎnr,,biến thể er hoá của 快點|快点[kuai4 dian3],biến thể er hoá của 快點|快点[kuai4 dian3],,,CHUA_CO,,CHUA
+831,L2-0331,4836,快乐,kuàilè,形,vui vẻ; hạnh phúc,vui vẻ; hạnh phúc,,,CHUA_CO,NHIEU_NGHIA,CHUA
+832,L2-0332,4838,快要,kuàiyào,副,gần như sắp (làm gì đó); sắp (làm gì đó),gần như sắp (làm gì đó); sắp (làm gì đó),,,CHUA_CO,NHIEU_NGHIA,CHUA
+833,L2-0333,4839,筷子,kuàizi,名,"đũa / LT:對|对[dui4],根[gen1],把[ba3],雙|双[shuang1]",đũa,"LT:對|对[dui4],根[gen1],把[ba3],雙|双[shuang1]",,CHUA_CO,,CHUA
+834,L2-0334,4885,拉,lā,动,kéo / chơi (nhạc cụ dùng vĩ kéo) / kéo lê / vẽ / trò chuyện / (khẩu ngữ) đi tiêu,kéo / chơi (nhạc cụ dùng vĩ kéo) / kéo lê / vẽ / trò chuyện / (khẩu ngữ) đi tiêu,,,CHUA_CO,NHIEU_NGHIA,CHUA
+835,L2-0335,4915,来自,láizì,动,đến từ (một nơi) / Từ: (trong tiêu đề email),đến từ (một nơi) / Từ: (trong tiêu đề email),,,CHUA_CO,NHIEU_NGHIA,CHUA
+836,L2-0336,4921,蓝,lán,形,màu xanh / dị thảo chàm,màu xanh / dị thảo chàm,,,CHUA_CO,NHIEU_NGHIA,CHUA
+837,L2-0337,4923,蓝色,lánsè,名,màu xanh lam,màu xanh lam,,,CHUA_CO,,CHUA
+838,L2-0338,4926,篮球,lánqiú,名,"bóng rổ / LT:個|个[ge4],隻|只[zhi1]",bóng rổ,"LT:個|个[ge4],隻|只[zhi1]",,CHUA_CO,,CHUA
+839,L2-0339,4952,老,lǎo,副,"tiền tố dùng trước họ của một người hoặc số thứ tự sinh của các con trong gia đình hoặc để chỉ sự thân mật hoặc quen thuộc / già (người) / người đáng kính / có kinh nghiệm / lâu năm / luôn luôn / lúc nào cũng / của quá khứ / rất / lỗi thời / (thịt,...) dai",già; lớn tuổi,,216,DA_CO,NHIEU_NGHIA,CHUA
+840,L2-0340,4953,老（老王）,lǎo (Lǎo Wáng),前缀,"tiền tố dùng trước họ của một người hoặc số thứ tự sinh của các con trong gia đình hoặc để chỉ sự thân mật hoặc quen thuộc / già (người) / người đáng kính / có kinh nghiệm / lâu năm / luôn luôn / lúc nào cũng / của quá khứ / rất / lỗi thời / (thịt,...) dai","tiền tố dùng trước họ của một người hoặc số thứ tự sinh của các con trong gia đình hoặc để chỉ sự thân mật hoặc quen thuộc / già (người) / người đáng kính / có kinh nghiệm / lâu năm / luôn luôn / lúc nào cũng / của quá khứ / rất / lỗi thời / (thịt,...) dai",,,CHUA_CO,NHIEU_NGHIA,CHUA
+841,L2-0341,4962,老年,lǎonián,名,cao tuổi / tuổi già / mùa thu của cuộc đời,cao tuổi / tuổi già / mùa thu của cuộc đời,,,CHUA_CO,NHIEU_NGHIA,CHUA
+842,L2-0342,4963,老朋友,lǎo péngyou,,bạn cũ / (tiếng lóng) kỳ kinh nguyệt / hành kinh,bạn cũ / (tiếng lóng) kỳ kinh nguyệt / hành kinh,,,CHUA_CO,NHIEU_NGHIA,CHUA
+843,L2-0343,4970,老是,lǎoshì,副,luôn luôn,luôn luôn,,,CHUA_CO,,CHUA
+844,L2-0344,5012,离,lí,动、介,"rời khỏi / tách khỏi / cách / (khi nói về khoảng cách) từ / không có (gì) / độc lập với / một trong Bát Quái 八卦[ba1 gua4], tượng trưng cho lửa / ☲","rời khỏi / tách khỏi / cách / (khi nói về khoảng cách) từ / không có (gì) / độc lập với / một trong Bát Quái 八卦[ba1 gua4], tượng trưng cho lửa / ☲",,,CHUA_CO,NHIEU_NGHIA,CHUA
+845,L2-0345,5015,离开,líkāi,,rời khỏi; rời đi,rời khỏi; rời đi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+846,L2-0346,5027,礼物,lǐwù,名,"quà; món quà / LT:件[jian4],個|个[ge4],份[fen4]",quà; món quà,"LT:件[jian4],個|个[ge4],份[fen4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+847,L2-0347,5033,里头,lǐtou,名,bên trong / nội bộ,bên trong / nội bộ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+848,L2-0348,5045,理想,lǐxiǎng,名,một lý tưởng / một giấc mơ / lý tưởng / hoàn hảo,một lý tưởng / một giấc mơ / lý tưởng / hoàn hảo,,,CHUA_CO,NHIEU_NGHIA,CHUA
+849,L2-0349,5085,例如,lìrú,动,ví dụ; chẳng hạn; như là,ví dụ; chẳng hạn; như là,,,CHUA_CO,NHIEU_NGHIA,CHUA
+850,L2-0350,5087,例子,lìzi,名,trường hợp / (ví dụ) / ví dụ / LT:個|个[ge4],trường hợp / (ví dụ) / ví dụ,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+851,L2-0351,5119,脸,liǎn,名,"khuôn mặt / LT:張|张[zhang1],個|个[ge4]",khuôn mặt,"LT:張|张[zhang1],個|个[ge4]",,CHUA_CO,,CHUA
+852,L2-0352,5123,练,liàn,动,luyện tập / huấn luyện / diễn tập / hoàn thiện (kỹ năng) / tập luyện / (văn học) lụa trắng / luộc và giũ lụa thô,luyện tập / huấn luyện / diễn tập / hoàn thiện (kỹ năng) / tập luyện / (văn học) lụa trắng / luộc và giũ lụa thô,,,CHUA_CO,NHIEU_NGHIA,CHUA
+853,L2-0353,5124,练习,liànxí,动、名,luyện tập / bài tập / rèn luyện / thực hành / LT:個|个[ge4],luyện tập / bài tập / rèn luyện / thực hành,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+854,L2-0354,5132,凉,liáng,形,mát / lạnh,mát / lạnh,,,CHUA_CO,NHIEU_NGHIA,CHUA
+855,L2-0355,5133,凉快,liángkuai,形,mát mẻ / dễ chịu và mát,mát mẻ / dễ chịu và mát,,,CHUA_CO,NHIEU_NGHIA,CHUA
+856,L2-0356,5140,两,liǎng,量,"hai / cả hai / một vài / một ít / lạng, đơn vị đo lường bằng 50 gram (hiện đại) hoặc 1⁄16 cân 斤[jin1] (thời xưa)",hai,,224,DA_CO,,CHUA
+857,L2-0357,5147,亮,liàng,形、动,"sáng; ánh / soi rọi; loé sáng / to rõ và rõ ràng / đưa ra (hộ chiếu, v.v.); công khai (quan điểm, v.v.)","sáng; ánh / soi rọi; loé sáng / to rõ và rõ ràng / đưa ra (hộ chiếu, v.v.); công khai (quan điểm, v.v.)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+858,L2-0358,5152,辆,liàng,量,lượng từ cho xe cộ,lượng từ cho xe cộ,,,CHUA_CO,,CHUA
+859,L2-0359,5210,零下,líng xià,,dưới không,dưới không,,,CHUA_CO,,CHUA
+860,L2-0360,5235,留,liú,动,"biến thể cũ của 留[liu2] || để lại (tin nhắn, v.v.) / giữ lại / ở lại / duy trì / bảo tồn / lưu giữ","biến thể cũ của 留[liu2] / để lại (tin nhắn, v.v.) / giữ lại / ở lại / duy trì / bảo tồn / lưu giữ",,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+861,L2-0361,5239,留下,liúxia,,để lại / ở lại / duy trì / giữ lại / không để cho (ai) đi,để lại / ở lại / duy trì / giữ lại / không để cho (ai) đi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+862,L2-0362,5242,留学生,liúxuéshēng,名,"du học sinh / sinh viên trao đổi (nước ngoài) / LT:個|个[ge4],位[wei4]",du học sinh / sinh viên trao đổi (nước ngoài),"LT:個|个[ge4],位[wei4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+863,L2-0363,5245,流,liú,动,"chảy / truyền bá / lưu thông hoặc lan truyền / di chuyển hoặc trôi dạt / sa sút / đày ải hoặc lưu đày / dòng nước hoặc thứ gì đó giống dòng nước / hạng, mức hoặc cấp","chảy / truyền bá / lưu thông hoặc lan truyền / di chuyển hoặc trôi dạt / sa sút / đày ải hoặc lưu đày / dòng nước hoặc thứ gì đó giống dòng nước / hạng, mức hoặc cấp",,,CHUA_CO,NHIEU_NGHIA,CHUA
+864,L2-0364,5253,流利,liúlì,形,lưu loát,lưu loát,,,CHUA_CO,,CHUA
+865,L2-0365,5263,流行,liúxíng,动、形,"(về bệnh truyền nhiễm, v.v.) lan truyền / lây lan / (về phong cách quần áo, bài hát, v.v.) phổ biến / thịnh hành","(về bệnh truyền nhiễm, v.v.) lan truyền / lây lan / (về phong cách quần áo, bài hát, v.v.) phổ biến / thịnh hành",,,CHUA_CO,NHIEU_NGHIA,CHUA
+866,L2-0366,5306,路边,lù biān,,lề đường; ven đường; vệ đường,lề đường; ven đường; vệ đường,,,CHUA_CO,NHIEU_NGHIA,CHUA
+867,L2-0367,5324,旅客,lǚkè,名,du khách; khách du lịch,du khách; khách du lịch,,,CHUA_CO,NHIEU_NGHIA,CHUA
+868,L2-0368,5326,旅行,lǚxíng,动,"du lịch / hành trình; chuyến đi / LT:趟[tang4],次[ci4]",du lịch / hành trình; chuyến đi,"LT:趟[tang4],次[ci4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+869,L2-0369,5328,旅游,lǚyóu,动,chuyến đi / hành trình / du lịch / du hành / tour / đi du lịch,chuyến đi / hành trình / du lịch / du hành / tour / đi du lịch,,,CHUA_CO,NHIEU_NGHIA,CHUA
+870,L2-0370,5336,绿,lǜ,形,"màu xanh lá / (tiếng lóng) (xuất phát từ 綠帽子|绿帽子[lu:4 mao4 zi5]) cắm sừng (vợ, chồng, bạn trai hoặc bạn gái)","màu xanh lá / (tiếng lóng) (xuất phát từ 綠帽子|绿帽子[lu:4 mao4 zi5]) cắm sừng (vợ, chồng, bạn trai hoặc bạn gái)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+871,L2-0371,5341,绿色,lǜsè,名,màu xanh lá,màu xanh lá,,,CHUA_CO,,CHUA
+872,L2-0372,5410,卖,mài,动,bán / phản bội / không tiếc công sức / phô trương hoặc khoe khoang,bán / phản bội / không tiếc công sức / phô trương hoặc khoe khoang,,,CHUA_CO,NHIEU_NGHIA,CHUA
+873,L2-0373,5418,满,mǎn,形,lấp đầy / đầy / đầy đủ / nhét kín / hoàn toàn / trọn vẹn / khá / đạt đến giới hạn / thỏa mãn / hài lòng / mãn nguyện,lấp đầy / đầy / đầy đủ / nhét kín / hoàn toàn / trọn vẹn / khá / đạt đến giới hạn / thỏa mãn / hài lòng / mãn nguyện,,,CHUA_CO,NHIEU_NGHIA,CHUA
+874,L2-0374,5420,满意,mǎnyì,动,hài lòng / vui lòng / đúng như mong đợi,hài lòng / vui lòng / đúng như mong đợi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+875,L2-0375,5439,猫,māo,名,mèo (LT: 隻|只[zhi1]) / (phương ngữ) trốn / (từ mượn) (thông tục) modem,mèo (LT: 隻|只[zhi1]) / (phương ngữ) trốn / (từ mượn) (thông tục) modem,,,CHUA_CO,CON_CHU_THICH_LT; NHIEU_NGHIA,CHUA
+876,L2-0376,5545,米,mǐ,量,gạo / LT:粒[li4] / mét (đơn vị đo),gạo / mét (đơn vị đo),LT:粒[li4],,CHUA_CO,NHIEU_NGHIA,CHUA
+877,L2-0377,5573,面1,miàn,名、量,"mặt / bên / bề mặt / khía cạnh / Lượng từ cho vật có bề mặt phẳng như trống, gương, cờ, v.v. || biến thể của 麵|面[mian4] || bột / mì / (thức ăn) mềm (không giòn) / (tiếng lóng) (người) kém cỏi / nhu nhược","mặt / bên / bề mặt / khía cạnh / Lượng từ cho vật có bề mặt phẳng như trống, gương, cờ, v.v. / biến thể của 麵|面[mian4] / bột / mì / (thức ăn) mềm (không giòn) / (tiếng lóng) (người) kém cỏi / nhu nhược",,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+878,L2-0378,5574,面2,miàn,名,"mặt / bên / bề mặt / khía cạnh / Lượng từ cho vật có bề mặt phẳng như trống, gương, cờ, v.v. || biến thể của 麵|面[mian4] || bột / mì / (thức ăn) mềm (không giòn) / (tiếng lóng) (người) kém cỏi / nhu nhược","mặt / bên / bề mặt / khía cạnh / Lượng từ cho vật có bề mặt phẳng như trống, gương, cờ, v.v. / biến thể của 麵|面[mian4] / bột / mì / (thức ăn) mềm (không giòn) / (tiếng lóng) (người) kém cỏi / nhu nhược",,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+879,L2-0379,5586,面前,miànqián,名,trước mặt / đối diện / (trong) sự hiện diện (của),trước mặt / đối diện / (trong) sự hiện diện (của),,,CHUA_CO,NHIEU_NGHIA,CHUA
+880,L2-0380,5620,名,míng,名、量,tên / danh từ (loại từ) / vị trí (vd: trong danh sách trúng giải) / nổi tiếng / lượng từ cho người,tên / danh từ (loại từ) / vị trí (vd: trong danh sách trúng giải) / nổi tiếng / lượng từ cho người,,,CHUA_CO,NHIEU_NGHIA,CHUA
+881,L2-0381,5621,名称,míngchēng,名,tên (của một sự vật) / tên (của một tổ chức),tên (của một sự vật) / tên (của một tổ chức),,,CHUA_CO,NHIEU_NGHIA,CHUA
+882,L2-0382,5622,名单,míngdān,名,danh sách tên,danh sách tên,,,CHUA_CO,,CHUA
+883,L2-0383,5648,明星,míngxīng,名,ngôi sao; người nổi tiếng,ngôi sao; người nổi tiếng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+884,L2-0384,5712,目的,mùdì,名,mục đích; đích; mục tiêu; đối tượng / LT:個|个[ge4],mục đích; đích; mục tiêu; đối tượng,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+885,L2-0385,5730,拿出,náchū,,lấy ra / đưa ra / cung cấp / đề xuất (một đề án) / nghĩ ra (bằng chứng),lấy ra / đưa ra / cung cấp / đề xuất (một đề án) / nghĩ ra (bằng chứng),,,CHUA_CO,NHIEU_NGHIA,CHUA
+886,L2-0386,5731,拿到,nádào,,lấy được / đạt được,lấy được / đạt được,,,CHUA_CO,NHIEU_NGHIA,CHUA
+887,L2-0387,5741,那,nà,连,"(chỉ định) đó; cái; những (phát âm thông tục [nei4]) / (đại từ) đó (chỉ người, sự vật hoặc tình huống) / vậy thì (trong trường hợp đó)",đó; cái đó,,261,DA_CO,NHIEU_NGHIA,CHUA
+888,L2-0388,5743,那会儿,nàhuìr,代,vào lúc đó (trong quá khứ hoặc tương lai) / cũng đọc là [nei4 hui4 r5],vào lúc đó (trong quá khứ hoặc tương lai) / cũng đọc là [nei4 hui4 r5],,,CHUA_CO,NHIEU_NGHIA,CHUA
+889,L2-0389,5745,那么,nàme,代,như vậy / theo cách đó / hoặc là / quá / rất nhiều / khoảng / nếu vậy,như vậy / theo cách đó / hoặc là / quá / rất nhiều / khoảng / nếu vậy,,,CHUA_CO,NHIEU_NGHIA,CHUA
+890,L2-0390,5747,那时候,nà shíhou,,lúc đó || lúc đó / vào thời điểm đó / những ngày đó,lúc đó / lúc đó / vào thời điểm đó / những ngày đó,,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+891,L2-0391,5749,那样,nàyàng,代,loại đó / kiểu đó,loại đó / kiểu đó,,,CHUA_CO,NHIEU_NGHIA,CHUA
+892,L2-0392,5780,南方,nánfāng,名,phía nam / miền nam Trung Quốc (khu vực phía nam sông Dương Tử),phía nam / miền nam Trung Quốc (khu vực phía nam sông Dương Tử),,,CHUA_CO,NHIEU_NGHIA,CHUA
+893,L2-0393,5792,难过,nánguò,形,cảm thấy buồn / cảm thấy không khỏe / (cuộc sống) cảm thấy khó khăn,cảm thấy buồn / cảm thấy không khỏe / (cuộc sống) cảm thấy khó khăn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+894,L2-0394,5794,难看,nánkàn,形,xấu / xấu xí,xấu / xấu xí,,,CHUA_CO,NHIEU_NGHIA,CHUA
+895,L2-0395,5796,难受,nánshòu,形,cảm thấy không khỏe / chịu đau khổ / khó chịu đựng,cảm thấy không khỏe / chịu đau khổ / khó chịu đựng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+896,L2-0396,5798,难题,nántí,名,vấn đề khó,vấn đề khó,,,CHUA_CO,,CHUA
+897,L2-0397,5799,难听,nántīng,形,khó nghe / thô tục / tục tĩu / phản cảm / đáng xấu hổ,khó nghe / thô tục / tục tĩu / phản cảm / đáng xấu hổ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+898,L2-0398,5837,能够,nénggòu,动,có khả năng / có thể,có khả năng / có thể,,,CHUA_CO,NHIEU_NGHIA,CHUA
+899,L2-0399,5860,年级,niánjí,名,"lớp / năm (trong trường học, đại học, v.v.) / LT:個|个[ge4]","lớp / năm (trong trường học, đại học, v.v.)",LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+900,L2-0400,5865,年轻,niánqīng,形,trẻ,trẻ,,,CHUA_CO,,CHUA
+901,L2-0401,5877,鸟,niǎo,名,"chim / Lượng từ: 隻|只[zhi1],群[qun2] / bộ ""chim"" trong chữ Hán (bộ Khang Hy số 196) / (tiếng địa phương) để ý đến / (nhấn mạnh) chết tiệt / chết tiệt","chim / Lượng từ: 隻|只[zhi1],群[qun2] / bộ ""chim"" trong chữ Hán (bộ Khang Hy số 196) / (tiếng địa phương) để ý đến / (nhấn mạnh) chết tiệt / chết tiệt",,,CHUA_CO,NHIEU_NGHIA,CHUA
+902,L2-0402,5912,弄,nòng,动,làm / quản lý / xử lý / chơi với / nghịch với / đùa với / sửa / chạm vào || biến thể cũ của 弄[nong4],làm / quản lý / xử lý / chơi với / nghịch với / đùa với / sửa / chạm vào / biến thể cũ của 弄[nong4],,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+903,L2-0403,5915,努力,nǔlì,形,nỗ lực; cố gắng; phấn đấu / chăm chỉ; tận tụy,nỗ lực; cố gắng; phấn đấu / chăm chỉ; tận tụy,,,CHUA_CO,NHIEU_NGHIA,CHUA
+904,L2-0404,5940,爬,pá,动,bò / leo / ngồi dậy hoặc đứng dậy,bò / leo / ngồi dậy hoặc đứng dậy,,,CHUA_CO,NHIEU_NGHIA,CHUA
+905,L2-0405,5941,爬山,pá shān,,leo núi / đi bộ đường dài / môn leo núi,leo núi / đi bộ đường dài / môn leo núi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+906,L2-0406,5942,怕,pà,动,sợ / e ngại / khiếp sợ / không thể chịu đựng / có lẽ,sợ / e ngại / khiếp sợ / không thể chịu đựng / có lẽ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+907,L2-0407,5950,排,pái,名、量,"một hàng / một dòng / sắp xếp / theo thứ tự / xếp hàng / loại bỏ / thoát nước / đẩy ra / tiểu đội / bè / lượng từ cho hàng, dòng, v.v.","một hàng / một dòng / sắp xếp / theo thứ tự / xếp hàng / loại bỏ / thoát nước / đẩy ra / tiểu đội / bè / lượng từ cho hàng, dòng, v.v.",,,CHUA_CO,NHIEU_NGHIA,CHUA
+908,L2-0408,5954,排队,páiduì,,xếp hàng,xếp hàng,,,CHUA_CO,,CHUA
+909,L2-0409,5960,排球,páiqiú,名,bóng chuyền / LT:個|个[ge4],bóng chuyền,LT:個|个[ge4],,CHUA_CO,,CHUA
+910,L2-0410,6034,碰,pèng,动,biến thể của 碰[peng4] || chạm / gặp / va phải || biến thể cũ của 碰[peng4],biến thể của 碰[peng4] / chạm / gặp / va phải / biến thể cũ của 碰[peng4],,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+911,L2-0411,6035,碰到,pèngdào,,tình cờ gặp / phải đối mặt / gặp / phải,tình cờ gặp / phải đối mặt / gặp / phải,,,CHUA_CO,NHIEU_NGHIA,CHUA
+912,L2-0412,6037,碰见,pèngjiàn,,tình cờ gặp / gặp (bất ngờ) / chạm mặt,tình cờ gặp / gặp (bất ngờ) / chạm mặt,,,CHUA_CO,NHIEU_NGHIA,CHUA
+913,L2-0413,6078,篇,piān,量,"tờ / mảnh viết / tập thẻ tre dùng để ghi chép (xưa) / lượng từ cho tác phẩm viết: chương, bài viết","tờ / mảnh viết / tập thẻ tre dùng để ghi chép (xưa) / lượng từ cho tác phẩm viết: chương, bài viết",,,CHUA_CO,NHIEU_NGHIA,CHUA
+914,L2-0414,6080,便宜,piányi,形、名,rẻ; không đắt / lợi ích nhỏ / cho qua một cách nhẹ nhàng,rẻ; không đắt / lợi ích nhỏ / cho qua một cách nhẹ nhàng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+915,L2-0415,6081,片,piàn,量,"mảnh mỏng / bông / một lát / phim / phim truyền hình / thái / lát mỏng / một phần / không hoàn chỉnh / phiến diện / lượng từ cho lát, viên, mảnh đất, vùng nước / lượng từ cho CD, phim, DVD, v.v. / dùng với số từ 一[yi1]: lượng từ cho kịch bản, cảnh, cảm giác, bầu không khí, âm thanh, v.v. / bộ Khang Hy số 91","mảnh mỏng / bông / một lát / phim / phim truyền hình / thái / lát mỏng / một phần / không hoàn chỉnh / phiến diện / lượng từ cho lát, viên, mảnh đất, vùng nước / lượng từ cho CD, phim, DVD, v.v. / dùng với số từ 一[yi1]: lượng từ cho kịch bản, cảnh, cảm giác, bầu không khí, âm thanh, v.v. / bộ Khang Hy số 91",,,CHUA_CO,NHIEU_NGHIA,CHUA
+916,L2-0416,6092,漂亮,piàoliang,形,xinh đẹp; đẹp,xinh đẹp; đẹp,,,CHUA_CO,NHIEU_NGHIA,CHUA
+917,L2-0417,6118,平,píng,形,phẳng / bằng / ngang / hòa (điểm số) / kết quả hòa / điềm tĩnh / yên bình / viết tắt của 平聲|平声[ping2 sheng1],phẳng / bằng / ngang / hòa (điểm số) / kết quả hòa / điềm tĩnh / yên bình / viết tắt của 平聲|平声[ping2 sheng1],,,CHUA_CO,NHIEU_NGHIA,CHUA
+918,L2-0418,6119,平安,píng'ān,形,bình an / khỏe mạnh / không có chuyện gì / yên tĩnh và an toàn / an bình,bình an / khỏe mạnh / không có chuyện gì / yên tĩnh và an toàn / an bình,,,CHUA_CO,NHIEU_NGHIA,CHUA
+919,L2-0419,6120,平常,píngcháng,名、形,bình thường / phổ biến / thường thường / thông thường,bình thường / phổ biến / thường thường / thông thường,,,CHUA_CO,NHIEU_NGHIA,CHUA
+920,L2-0420,6123,平等,píngděng,形,bình đẳng / sự bình đẳng,bình đẳng / sự bình đẳng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+921,L2-0421,6135,平时,píngshí,名,thường lệ / trong thời gian bình thường / trong thời bình,thường lệ / trong thời gian bình thường / trong thời bình,,,CHUA_CO,NHIEU_NGHIA,CHUA
+922,L2-0422,6157,瓶,píng,名、量,chai / bình / ấm / LT:個|个[ge4] / lượng từ cho rượu và chất lỏng || biến thể của 瓶[ping2],chai / bình / ấm / lượng từ cho rượu và chất lỏng / biến thể của 瓶[ping2],LT:個|个[ge4],,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+923,L2-0423,6159,瓶子,píngzi,名,chai / LT:個|个[ge4],chai,LT:個|个[ge4],,CHUA_CO,,CHUA
+924,L2-0424,6192,普通,pǔtōng,形,phổ thông / bình thường / chung / chung bình,phổ thông / bình thường / chung / chung bình,,,CHUA_CO,NHIEU_NGHIA,CHUA
+925,L2-0425,6193,普通话,pǔtōnghuà,名,Quan Thoại (ngôn ngữ phổ thông) / Phổ thông thoại (lời nói chung của tiếng Trung Quốc) / lời nói thông thường,Quan Thoại (ngôn ngữ phổ thông) / Phổ thông thoại (lời nói chung của tiếng Trung Quốc) / lời nói thông thường,,,CHUA_CO,NHIEU_NGHIA,CHUA
+926,L2-0426,6222,其他,qítā,代,khác / (điều gì đó hoặc ai đó) khác / phần còn lại,khác / (điều gì đó hoặc ai đó) khác / phần còn lại,,,CHUA_CO,NHIEU_NGHIA,CHUA
+927,L2-0427,6224,其中,qízhōng,名,trong số / trong / bao gồm trong số này,trong số / trong / bao gồm trong số này,,,CHUA_CO,NHIEU_NGHIA,CHUA
+928,L2-0428,6232,骑,qí,动,"ngồi cưỡi / cưỡi (ngựa, xe đạp, v.v.) / lượng từ cho ngựa cưỡi","ngồi cưỡi / cưỡi (ngựa, xe đạp, v.v.) / lượng từ cho ngựa cưỡi",,,CHUA_CO,NHIEU_NGHIA,CHUA
+929,L2-0429,6233,骑车,qí chē,,lái xe đạp hoặc xe máy,lái xe đạp hoặc xe máy,,,CHUA_CO,,CHUA
+930,L2-0430,6258,起飞,qǐfēi,动,(của máy bay) cất cánh,(của máy bay) cất cánh,,,CHUA_CO,,CHUA
+931,L2-0431,6266,气,qì,动、名,khí; không khí / mùi / thời tiết / làm tức giận; gây bực mình; tức giận / năng lượng sống; khí,khí; không khí / mùi / thời tiết / làm tức giận; gây bực mình; tức giận / năng lượng sống; khí,,,CHUA_CO,NHIEU_NGHIA,CHUA
+932,L2-0432,6279,气温,qìwēn,名,nhiệt độ không khí / LT:個|个[ge4],nhiệt độ không khí,LT:個|个[ge4],,CHUA_CO,,CHUA
+933,L2-0433,6304,千,qiān,数,một nghìn || xem 鞦韆|秋千[qiu1 qian1],một nghìn / xem 鞦韆|秋千[qiu1 qian1],,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+934,L2-0434,6310,千克,qiānkè,量,kilogram,kilogram,,,CHUA_CO,,CHUA
+935,L2-0435,6344,前年,qiánnián,名,năm kia,năm kia,,,CHUA_CO,,CHUA
+936,L2-0436,6397,墙,qiáng,名,"biến thể của 牆|墙[qiang2], tường || tường (LT: 面[mian4], 堵[du3]) / (tiếng lóng) chặn (trang web) (thường ở dạng bị động: 被牆|被墙[bei4 qiang2])","biến thể của 牆|墙[qiang2], tường / tường (LT: 面[mian4], 堵[du3]) / (tiếng lóng) chặn (trang web) (thường ở dạng bị động: 被牆|被墙[bei4 qiang2])",,,CHUA_CO,CON_CHU_THICH_LT; NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+937,L2-0437,6465,青年,qīngnián,名,thanh niên / tuổi trẻ / người trẻ / giới trẻ,thanh niên / tuổi trẻ / người trẻ / giới trẻ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+938,L2-0438,6466,青少年,qīng-shàonián,名,thanh thiếu niên / tuổi trẻ / thanh niên,thanh thiếu niên / tuổi trẻ / thanh niên,,,CHUA_CO,NHIEU_NGHIA,CHUA
+939,L2-0439,6468,轻,qīng,形,nhẹ / dễ / dịu dàng / mềm mại / khinh suất / không quan trọng / hời hợt / ít số lượng / không nhấn mạnh / trung lập / coi thường,nhẹ / dễ / dịu dàng / mềm mại / khinh suất / không quan trọng / hời hợt / ít số lượng / không nhấn mạnh / trung lập / coi thường,,,CHUA_CO,NHIEU_NGHIA,CHUA
+940,L2-0440,6484,清楚,qīngchu,形,rõ ràng / minh bạch / hiểu rõ / nắm rõ,rõ ràng / minh bạch / hiểu rõ / nắm rõ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+941,L2-0441,6516,晴,qíng,形,trời quang / rõ ràng (thời tiết),trời quang / rõ ràng (thời tiết),,,CHUA_CO,NHIEU_NGHIA,CHUA
+942,L2-0442,6518,晴天,qíngtiān,名,trời quang / ngày nắng,trời quang / ngày nắng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+943,L2-0443,6524,请客,qǐngkè,,mời tiệc / chiêu đãi khách / mời ăn tối,mời tiệc / chiêu đãi khách / mời ăn tối,,,CHUA_CO,NHIEU_NGHIA,CHUA
+944,L2-0444,6525,请求,qǐngqiú,动、名,yêu cầu; hỏi / một yêu cầu (LT:個|个[ge4]),yêu cầu; hỏi / một yêu cầu (LT:個|个[ge4]),,,CHUA_CO,CON_CHU_THICH_LT; NHIEU_NGHIA,CHUA
+945,L2-0445,6537,秋天,qiūtiān,名,mùa thu / LT:個|个[ge4],mùa thu,LT:個|个[ge4],,CHUA_CO,,CHUA
+946,L2-0446,6539,求,qiú,动,tìm kiếm / tìm / thỉnh cầu / yêu cầu / cầu xin,tìm kiếm / tìm / thỉnh cầu / yêu cầu / cầu xin,,,CHUA_CO,NHIEU_NGHIA,CHUA
+947,L2-0447,6548,球场,qiúchǎng,名,"sân vận động / sân thể thao / sân bóng / sân cỏ / sân / chỗ chơi golf / LT: 個|个[ge4], 處|处[chu4]",sân vận động / sân thể thao / sân bóng / sân cỏ / sân / chỗ chơi golf,"LT: 個|个[ge4], 處|处[chu4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+948,L2-0448,6549,球队,qiúduì,名,"đội thể thao (bóng rổ, bóng đá, bóng bầu dục, v.v.)","đội thể thao (bóng rổ, bóng đá, bóng bầu dục, v.v.)",,,CHUA_CO,,CHUA
+949,L2-0449,6552,球鞋,qiúxié,名,giày thể thao,giày thể thao,,,CHUA_CO,,CHUA
+950,L2-0450,6568,取,qǔ,动,lấy / nhận / chọn / mang về,lấy / nhận / chọn / mang về,,,CHUA_CO,NHIEU_NGHIA,CHUA
+951,L2-0451,6570,取得,qǔdé,动,giành được; lấy được; đạt được,giành được; lấy được; đạt được,,,CHUA_CO,NHIEU_NGHIA,CHUA
+952,L2-0452,6599,全,quán,副、形,tất cả / toàn bộ / toàn thể / mọi / hoàn toàn,tất cả / toàn bộ / toàn thể / mọi / hoàn toàn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+953,L2-0453,6600,全部,quánbù,名,toàn bộ; tất cả,toàn bộ; tất cả,,,CHUA_CO,NHIEU_NGHIA,CHUA
+954,L2-0454,6606,全国,quánguó,名,cả nước / toàn quốc / toàn quốc gia,cả nước / toàn quốc / toàn quốc gia,,,CHUA_CO,NHIEU_NGHIA,CHUA
+955,L2-0455,6607,全家,quánjiā,名,cả gia đình,cả gia đình,,,CHUA_CO,,CHUA
+956,L2-0456,6613,全年,quánnián,名,cả năm / suốt cả năm,cả năm / suốt cả năm,,,CHUA_CO,NHIEU_NGHIA,CHUA
+957,L2-0457,6615,全身,quánshēn,名,toàn bộ cơ thể / (ngành in) em,toàn bộ cơ thể / (ngành in) em,,,CHUA_CO,NHIEU_NGHIA,CHUA
+958,L2-0458,6617,全体,quántǐ,名,tất cả / toàn bộ,tất cả / toàn bộ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+959,L2-0459,6653,然后,ránhòu,连,sau đó; sau này,sau đó; sau này,,,CHUA_CO,NHIEU_NGHIA,CHUA
+960,L2-0460,6661,让,ràng,动、介,"nhường / cho phép / để ai đó làm gì / bảo ai đó làm gì / khiến ai đó (cảm thấy buồn, v.v.) / bởi (chỉ tác nhân trong câu bị động, như 被[bei4])","nhường / cho phép / để ai đó làm gì / bảo ai đó làm gì / khiến ai đó (cảm thấy buồn, v.v.) / bởi (chỉ tác nhân trong câu bị động, như 被[bei4])",,,CHUA_CO,NHIEU_NGHIA,CHUA
+961,L2-0461,6681,热情,rèqíng,名、形,nồng nhiệt / nhiệt tình / đam mê / một cách đam mê,nồng nhiệt / nhiệt tình / đam mê / một cách đam mê,,,CHUA_CO,NHIEU_NGHIA,CHUA
+962,L2-0462,6698,人口,rénkǒu,名,dân số / con người,dân số / con người,,,CHUA_CO,NHIEU_NGHIA,CHUA
+963,L2-0463,6701,人们,rénmen,名,mọi người,mọi người,,,CHUA_CO,,CHUA
+964,L2-0464,6714,人数,rénshù,名,số lượng người,số lượng người,,,CHUA_CO,,CHUA
+965,L2-0465,6741,认为,rènwéi,动,tin; nghĩ; xem xét; cảm thấy,tin; nghĩ; xem xét; cảm thấy,,,CHUA_CO,NHIEU_NGHIA,CHUA
+966,L2-0466,6760,日报,rìbào,名,báo hàng ngày,báo hàng ngày,,,CHUA_CO,,CHUA
+967,L2-0467,6774,日子,rìzi,名,ngày / một ngày (trong lịch) / những ngày trong cuộc sống,ngày / một ngày (trong lịch) / những ngày trong cuộc sống,,,CHUA_CO,NHIEU_NGHIA,CHUA
+968,L2-0468,6798,如果,rúguǒ,连,nếu / trong trường hợp / nếu như,nếu / trong trường hợp / nếu như,,,CHUA_CO,NHIEU_NGHIA,CHUA
+969,L2-0469,6816,入口,rùkǒu,名,lối vào / nhập khẩu,lối vào / nhập khẩu,,,CHUA_CO,NHIEU_NGHIA,CHUA
+970,L2-0470,6933,商量,shāngliang,动,trao đổi / bàn bạc / thảo luận,trao đổi / bàn bạc / thảo luận,,,CHUA_CO,NHIEU_NGHIA,CHUA
+971,L2-0471,6935,商人,shāngrén,名,thương nhân / doanh nhân,thương nhân / doanh nhân,,,CHUA_CO,NHIEU_NGHIA,CHUA
+972,L2-0472,6984,上周,shàng zhōu,,tuần trước,tuần trước,,,CHUA_CO,,CHUA
+973,L2-0473,7001,少数,shǎoshù,名,số lượng nhỏ / ít / thiểu số,số lượng nhỏ / ít / thiểu số,,,CHUA_CO,NHIEU_NGHIA,CHUA
+974,L2-0474,7005,少年,shàonián,名,tuổi thiếu niên / người trẻ / (văn học) thiếu niên; chàng trai,tuổi thiếu niên / người trẻ / (văn học) thiếu niên; chàng trai,,,CHUA_CO,NHIEU_NGHIA,CHUA
+975,L2-0475,7049,身边,shēnbiān,名,bên cạnh / có sẵn,bên cạnh / có sẵn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+976,L2-0476,7081,什么样,shénmeyàng,代,loại gì?; dạng gì?,loại gì?; dạng gì?,,,CHUA_CO,NHIEU_NGHIA,CHUA
+977,L2-0477,7112,生,shēng,动,được sinh / sinh ra / cuộc sống / phát triển / sống / chưa chín / học sinh,được sinh / sinh ra / cuộc sống / phát triển / sống / chưa chín / học sinh,,,CHUA_CO,NHIEU_NGHIA,CHUA
+978,L2-0478,7117,生词,shēngcí,名,"từ mới (trong sách giáo khoa) / từ không quen hoặc chưa học / LT:組|组[zu3],個|个[ge4]",từ mới (trong sách giáo khoa) / từ không quen hoặc chưa học,"LT:組|组[zu3],個|个[ge4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+979,L2-0479,7120,生活,shēnghuó,名、动,sống / cuộc sống / sinh kế,sống / cuộc sống / sinh kế,,,CHUA_CO,NHIEU_NGHIA,CHUA
+980,L2-0480,7144,声音,shēngyīn,名,giọng / âm thanh / LT:個|个[ge4],giọng / âm thanh,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+981,L2-0481,7148,省,shěng,名,tiết kiệm; kinh tế; tằn tiện / lược bỏ; xoá; bỏ ra / tỉnh / tỉnh lỵ / một bộ (của chính phủ Nhật Bản),tiết kiệm; kinh tế; tằn tiện / lược bỏ; xoá; bỏ ra / tỉnh / tỉnh lỵ / một bộ (của chính phủ Nhật Bản),,,CHUA_CO,NHIEU_NGHIA,CHUA
+982,L2-0482,7149,省,shěng,动,tiết kiệm; kinh tế; tằn tiện / lược bỏ; xoá; bỏ ra / tỉnh / tỉnh lỵ / một bộ (của chính phủ Nhật Bản),tiết kiệm; kinh tế; tằn tiện / lược bỏ; xoá; bỏ ra / tỉnh / tỉnh lỵ / một bộ (của chính phủ Nhật Bản),,,CHUA_CO,NHIEU_NGHIA,CHUA
+983,L2-0483,7203,十分,shífēn,副,rất / hoàn toàn / cực kỳ / vô cùng / tuyệt đối / một trăm phần trăm / chia thành mười phần bằng nhau,rất / hoàn toàn / cực kỳ / vô cùng / tuyệt đối / một trăm phần trăm / chia thành mười phần bằng nhau,,,CHUA_CO,NHIEU_NGHIA,CHUA
+984,L2-0484,7238,实际,shíjì,名、形,thực tế / thực hành / thực tiễn / thực / sự thật,thực tế / thực hành / thực tiễn / thực / sự thật,,,CHUA_CO,NHIEU_NGHIA,CHUA
+985,L2-0485,7247,实习,shíxí,动、名,thực hành / thực tập / sự thực tập,thực hành / thực tập / sự thực tập,,,CHUA_CO,NHIEU_NGHIA,CHUA
+986,L2-0486,7248,实现,shíxiàn,动,đạt được; thực hiện; nhận ra; làm cho xảy ra,đạt được; thực hiện; nhận ra; làm cho xảy ra,,,CHUA_CO,NHIEU_NGHIA,CHUA
+987,L2-0487,7253,实在,shízài,副,thực sự / thật sự / quả thật / đúng / thành thật / đáng tin cậy / (triết học) hiện thực,thực sự / thật sự / quả thật / đúng / thành thật / đáng tin cậy / (triết học) hiện thực,,,CHUA_CO,NHIEU_NGHIA,CHUA
+988,L2-0488,7254,实在,shízai,形,thực sự / thật sự / quả thật / đúng / thành thật / đáng tin cậy / (triết học) hiện thực,thực sự / thật sự / quả thật / đúng / thành thật / đáng tin cậy / (triết học) hiện thực,,,CHUA_CO,NHIEU_NGHIA,CHUA
+989,L2-0489,7260,食物,shíwù,名,thực phẩm / LT:種|种[zhong3],thực phẩm,LT:種|种[zhong3],,CHUA_CO,,CHUA
+990,L2-0490,7269,使用,shǐyòng,动,sử dụng / tận dụng / áp dụng,sử dụng / tận dụng / áp dụng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+991,L2-0491,7284,市,shì,名,chợ / thành phố / LT:個|个[ge4],chợ / thành phố,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+992,L2-0492,7289,市长,shìzhǎng,名,thị trưởng,thị trưởng,,,CHUA_CO,,CHUA
+993,L2-0493,7301,事情,shìqing,名,"sự việc; vấn đề; điều; công việc / LT:件[jian4],樁|桩[zhuang1]",sự việc; vấn đề; điều; công việc,"LT:件[jian4],樁|桩[zhuang1]",,CHUA_CO,NHIEU_NGHIA,CHUA
+994,L2-0494,7348,收,shōu,动,nhận / chấp nhận / sưu tầm / cất đi / kiềm chế / dừng / chăm sóc (dùng sau tên trên dòng địa chỉ),nhận / chấp nhận / sưu tầm / cất đi / kiềm chế / dừng / chăm sóc (dùng sau tên trên dòng địa chỉ),,,CHUA_CO,NHIEU_NGHIA,CHUA
+995,L2-0495,7350,收到,shōudào,,nhận được,nhận được,,,CHUA_CO,,CHUA
+996,L2-0496,7363,收入,shōurù,动、名,"thu vào / thu nhập / doanh thu / LT:筆|笔[bi3],個|个[ge4]",thu vào / thu nhập / doanh thu,"LT:筆|笔[bi3],個|个[ge4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+997,L2-0497,7374,手表,shǒubiǎo,名,"đồng hồ đeo tay / LT:塊|块[kuai4],隻|只[zhi1],個|个[ge4]",đồng hồ đeo tay,"LT:塊|块[kuai4],隻|只[zhi1],個|个[ge4]",,CHUA_CO,,CHUA
+998,L2-0498,7417,受到,shòudào,,"nhận được (lời khen ngợi, sự giáo dục, hình phạt, v.v.) / bị (khen ngợi, giáo dục, trừng phạt, v.v.)","nhận được (lời khen ngợi, sự giáo dục, hình phạt, v.v.) / bị (khen ngợi, giáo dục, trừng phạt, v.v.)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+999,L2-0499,7455,舒服,shūfu,形,thoải mái / cảm thấy khỏe,thoải mái / cảm thấy khỏe,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1000,L2-0500,7470,熟,shú/shóu,形,"chín; trưởng thành / nấu chín; xong / quen thuộc; quen biết / có kinh nghiệm; thành thạo / (về giấc ngủ, v.v.) sâu; sâu sắc / cũng phát âm là [shou2]","chín; trưởng thành / nấu chín; xong / quen thuộc; quen biết / có kinh nghiệm; thành thạo / (về giấc ngủ, v.v.) sâu; sâu sắc / cũng phát âm là [shou2]",,,CHUA_CO,NHIEU_NGHIA,CHUA
+1001,L2-0501,7481,数,shǔ,动,đếm / coi như; xem như / liệt kê; liệt kê danh sách,đếm / coi như; xem như / liệt kê; liệt kê danh sách,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1002,L2-0502,7502,数字,shùzì,名,"chữ số / số / hình / số lượng / kỹ thuật số (điện tử, v.v.) / LT:個|个[ge4]","chữ số / số / hình / số lượng / kỹ thuật số (điện tử, v.v.)",LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1003,L2-0503,7554,水平,shuǐpíng,名,"mức độ (thành tựu, v.v.) / tiêu chuẩn / ngang","mức độ (thành tựu, v.v.) / tiêu chuẩn / ngang",,,CHUA_CO,NHIEU_NGHIA,CHUA
+1004,L2-0504,7576,顺利,shùnlì,形,một cách suôn sẻ; không gặp trở ngại,một cách suôn sẻ; không gặp trở ngại,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1005,L2-0505,7598,说明,shuōmíng,动、名,giải thích / minh họa / chỉ ra / cho thấy / chứng minh / hướng dẫn / chú thích / LT:個|个[ge4],giải thích / minh họa / chỉ ra / cho thấy / chứng minh / hướng dẫn / chú thích,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1006,L2-0506,7608,司机,sījī,名,tài xế; người lái xe,tài xế; người lái xe,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1007,L2-0507,7657,送到,sòngdào,,đưa đến; giao đến; chuyển đến,đưa đến; giao đến; chuyển đến,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1008,L2-0508,7658,送给,sòng gěi,,gửi / tặng quà,gửi / tặng quà,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1009,L2-0509,7693,算,suàn,动,coi như / tính toán / tính / toán,coi như / tính toán / tính / toán,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1010,L2-0510,7700,虽然,suīrán,连,"mặc dù; cho dù (thường dùng kết hợp với 可是[ke3 shi4] hoặc 但是[dan4 shi4],...)","mặc dù; cho dù (thường dùng kết hợp với 可是[ke3 shi4] hoặc 但是[dan4 shi4],...)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+1011,L2-0511,7703,随便,suíbiàn,形,tuỳ ý / tùy thích / ngẫu nhiên / cẩu thả / tự nhiên / tùy tiện,tuỳ ý / tùy thích / ngẫu nhiên / cẩu thả / tự nhiên / tùy tiện,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1012,L2-0512,7710,随时,suíshí,副,bất kỳ lúc nào; mọi lúc / đúng lúc; khi cần thiết,bất kỳ lúc nào; mọi lúc / đúng lúc; khi cần thiết,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1013,L2-0513,7739,所以,suǒyǐ,连,vì vậy / do đó / nên / lý do tại sao,vì vậy / do đó / nên / lý do tại sao,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1014,L2-0514,7740,所有,suǒyǒu,形,tất cả / có; sở hữu,tất cả / có; sở hữu,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1015,L2-0515,7752,它,tā,代,nó,nó,,,CHUA_CO,,CHUA
+1016,L2-0516,7753,它们,tāmen,代,chúng; chúng nó,chúng; chúng nó,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1017,L2-0517,7776,太太,tàitai,名,"phụ nữ đã kết hôn / Bà / Phu nhân / vợ / LT:個|个[ge4],位[wei4]",phụ nữ đã kết hôn / Bà / Phu nhân / vợ,"LT:個|个[ge4],位[wei4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+1018,L2-0518,7777,太阳,tàiyáng,名,mặt trời / LT:個|个[ge4] / viết tắt của 太陽穴|太阳穴[tai4 yang2 xue2],mặt trời / viết tắt của 太陽穴|太阳穴[tai4 yang2 xue2],LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1019,L2-0519,7779,态度,tàidù,名,cách thức / tác phong / thái độ / phương pháp / LT:個|个[ge4],cách thức / tác phong / thái độ / phương pháp,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1020,L2-0520,7848,讨论,tǎolùn,动,thảo luận; bàn luận,thảo luận; bàn luận,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1021,L2-0521,7851,套,tào,量,"che đậy / bọc / vỏ / bao / trùng lặp / đan xen / mô phỏng / theo mẫu / công thức / bộ dây cương / vòng dây / thao tác khéo léo / đạt được một cách lươn lẹo / lượng từ cho bộ, tập hợp / khúc quanh (của sông hoặc dãy núi, trong địa danh) / tau (chữ cái Hy Lạp Ττ)","che đậy / bọc / vỏ / bao / trùng lặp / đan xen / mô phỏng / theo mẫu / công thức / bộ dây cương / vòng dây / thao tác khéo léo / đạt được một cách lươn lẹo / lượng từ cho bộ, tập hợp / khúc quanh (của sông hoặc dãy núi, trong địa danh) / tau (chữ cái Hy Lạp Ττ)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+1022,L2-0522,7854,特别,tèbié,形、副,khác thường; đặc biệt / rất; đặc biệt; đặc biệt là / đặc biệt; cho một mục đích cụ thể / (thường theo sau bởi 是[shi4]) đặc biệt là,khác thường; đặc biệt / rất; đặc biệt; đặc biệt là / đặc biệt; cho một mục đích cụ thể / (thường theo sau bởi 是[shi4]) đặc biệt là,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1023,L2-0523,7859,特点,tèdiǎn,名,đặc điểm (nét đặc trưng) / phẩm chất / đặc tính / LT:個|个[ge4],đặc điểm (nét đặc trưng) / phẩm chất / đặc tính,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1024,L2-0524,7874,疼,téng,动,(bị) đau; nhức / yêu thương hết mực,(bị) đau; nhức / yêu thương hết mực,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1025,L2-0525,7881,提,tí,动,xách (thòng xuống từ tay) / nâng / đề xuất / nhắc đến / nêu lên (vấn đề) / nét bút hướng lên / nét nâng bút (trong hội họa) / gàu múc chất lỏng,xách (thòng xuống từ tay) / nâng / đề xuất / nhắc đến / nêu lên (vấn đề) / nét bút hướng lên / nét nâng bút (trong hội họa) / gàu múc chất lỏng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1026,L2-0526,7884,提出,tíchū,,nêu (vấn đề) / đề xuất / đưa ra / đề nghị / đăng (trên trang web) / rút (tiền mặt),nêu (vấn đề) / đề xuất / đưa ra / đề nghị / đăng (trên trang web) / rút (tiền mặt),,,CHUA_CO,NHIEU_NGHIA,CHUA
+1027,L2-0527,7885,提到,tídào,,đề cập / nêu (một chủ đề) / nhắc đến,đề cập / nêu (một chủ đề) / nhắc đến,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1028,L2-0528,7886,提高,tígāo,,nâng cao / tăng / cải thiện,nâng cao / tăng / cải thiện,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1029,L2-0529,7901,题,tí,名,"chủ đề / vấn đề thảo luận / câu hỏi thi / môn học / đề lên / nhắc đến / LT:個|个[ge4],道[dao4]",chủ đề / vấn đề thảo luận / câu hỏi thi / môn học / đề lên / nhắc đến,"LT:個|个[ge4],道[dao4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+1030,L2-0530,7917,体育,tǐyù,名,thể thao / giáo dục thể chất,thể thao / giáo dục thể chất,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1031,L2-0531,7918,体育场,tǐyùchǎng,名,"sân vận động / LT:個|个[ge4],座[zuo4]",sân vận động,"LT:個|个[ge4],座[zuo4]",,CHUA_CO,,CHUA
+1032,L2-0532,7919,体育馆,tǐyùguǎn,名,phòng gym / nhà thi đấu / sân vận động / LT:個|个[ge4],phòng gym / nhà thi đấu / sân vận động,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1033,L2-0533,7942,天上,tiānshàng,名,thuộc về trời / thần thánh,thuộc về trời / thần thánh,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1034,L2-0534,7969,条,tiáo,量,"dải / mục / điều / khoản (của luật hoặc hiệp ước) / lượng từ cho những vật dài mỏng (ruy băng, sông, đường, quần dài, v.v.)","dải / mục / điều / khoản (của luật hoặc hiệp ước) / lượng từ cho những vật dài mỏng (ruy băng, sông, đường, quần dài, v.v.)",,,CHUA_CO,NHIEU_NGHIA,CHUA
+1035,L2-0535,7970,条件,tiáojiàn,名,điều kiện; hoàn cảnh; điều khoản; yếu tố / yêu cầu; điều kiện tiên quyết; tiêu chuẩn / tình huống; trạng thái; điều kiện / lượng từ: 個|个[ge4],điều kiện; hoàn cảnh; điều khoản; yếu tố / yêu cầu; điều kiện tiên quyết; tiêu chuẩn / tình huống; trạng thái; điều kiện / lượng từ: 個|个[ge4],,,CHUA_CO,NHIEU_NGHIA,CHUA
+1036,L2-0536,8008,听讲,tīngjiǎng,,tham dự buổi nói chuyện / nghe bài giảng,tham dự buổi nói chuyện / nghe bài giảng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1037,L2-0537,8011,听说,tīngshuō,动,nghe (nói) / nghe rằng / nghe đồn / nghe và nói,nghe (nói) / nghe rằng / nghe đồn / nghe và nói,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1038,L2-0538,8014,停,tíng,动,dừng / ngừng / đỗ (xe),dừng / ngừng / đỗ (xe),,,CHUA_CO,NHIEU_NGHIA,CHUA
+1039,L2-0539,8016,停车,tíngchē,,dừng xe (dừng phương tiện) / đỗ xe / (máy móc) ngừng hoạt động / chết máy,dừng xe (dừng phương tiện) / đỗ xe / (máy móc) ngừng hoạt động / chết máy,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1040,L2-0540,8017,停车场,tíngchēchǎng,名,bãi đỗ xe / bãi gửi xe,bãi đỗ xe / bãi gửi xe,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1041,L2-0541,8026,挺,tǐng,副,thẳng / đứng thẳng / chìa ra (một phần cơ thể) / (về thể chất) đứng thẳng / hỗ trợ / chống chịu / xuất sắc / (khẩu ngữ) khá / rất / lượng từ cho súng máy,thẳng / đứng thẳng / chìa ra (một phần cơ thể) / (về thể chất) đứng thẳng / hỗ trợ / chống chịu / xuất sắc / (khẩu ngữ) khá / rất / lượng từ cho súng máy,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1042,L2-0542,8028,挺好,tǐng hǎo,,rất tốt,rất tốt,,,CHUA_CO,,CHUA
+1043,L2-0543,8029,通,tōng,动、形,"đi qua / biết rõ / (hậu tố) chuyên gia / kết nối / giao tiếp / mở / thông / lượng từ cho thư, điện báo, cuộc gọi điện thoại, v.v.","đi qua / biết rõ / (hậu tố) chuyên gia / kết nối / giao tiếp / mở / thông / lượng từ cho thư, điện báo, cuộc gọi điện thoại, v.v.",,,CHUA_CO,NHIEU_NGHIA,CHUA
+1044,L2-0544,8037,通过,tōngguò,介、动,đi qua; vượt qua / thông qua (một nghị quyết); thông qua (luật pháp) / vượt qua (một kỳ thi) / bằng cách; thông qua; qua,đi qua; vượt qua / thông qua (một nghị quyết); thông qua (luật pháp) / vượt qua (một kỳ thi) / bằng cách; thông qua; qua,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1045,L2-0545,8051,通知,tōngzhī,动、名,thông báo / thông tin / thông tri / LT:個|个[ge4],thông báo / thông tin / thông tri,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1046,L2-0546,8067,同时,tóngshí,连、名,đồng thời; cùng lúc,đồng thời; cùng lúc,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1047,L2-0547,8068,同事,tóngshì,名,"đồng nghiệp; cộng sự / LT:個|个[ge4],位[wei4]",đồng nghiệp; cộng sự,"LT:個|个[ge4],位[wei4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+1048,L2-0548,8070,同样,tóngyàng,形、连,giống nhau; bằng nhau; tương tự / tương tự; cũng; nữa,giống nhau; bằng nhau; tương tự / tương tự; cũng; nữa,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1049,L2-0549,8097,头,tóu,名、量,đầu / kiểu tóc / trên cùng / cuối / đoạn còn lại / tàn dư / trưởng / sếp / mặt / phương diện / đầu tiên / dẫn đầu / lượng từ cho heo hoặc gia súc / LT:個|个[ge4],đầu / kiểu tóc / trên cùng / cuối / đoạn còn lại / tàn dư / trưởng / sếp / mặt / phương diện / đầu tiên / dẫn đầu / lượng từ cho heo hoặc gia súc,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1051,L2-0551,8101,头发,tóufa,名,tóc (trên đầu),tóc (trên đầu),,,CHUA_CO,,CHUA
+1050,L2-0550,8109,头（里头）,tou (lǐtou),后缀,hậu tố cho danh từ,hậu tố cho danh từ,,,CHUA_CO,,CHUA
+1052,L2-0552,8142,图片,túpiàn,名,bức tranh; bức ảnh / LT: 張|张[zhang1],bức tranh; bức ảnh,LT: 張|张[zhang1],,CHUA_CO,NHIEU_NGHIA,CHUA
+1053,L2-0553,8173,推,tuī,动,đẩy / cắt / từ chối / bác bỏ / khước từ / đùn đẩy (trách nhiệm) / hoãn / trì hoãn / thúc đẩy / đề cử / bầu chọn / massage,đẩy / cắt / từ chối / bác bỏ / khước từ / đùn đẩy (trách nhiệm) / hoãn / trì hoãn / thúc đẩy / đề cử / bầu chọn / massage,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1054,L2-0554,8194,腿,tuǐ,名,chân / Lượng từ:條|条[tiao2] || xương hông / biến thể cũ của 腿[tui3],chân / Lượng từ:條|条[tiao2] / xương hông / biến thể cũ của 腿[tui3],,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1055,L2-0555,8245,外地,wàidì,名,các khu vực trong nước khác với nơi một người đang ở,các khu vực trong nước khác với nơi một người đang ở,,,CHUA_CO,,CHUA
+1056,L2-0556,8258,外卖,wàimài,名、动,(của nhà hàng) cung cấp bữa ăn mang về hoặc giao hàng tận nhà / kinh doanh đồ ăn mang về / bữa ăn mang về,(của nhà hàng) cung cấp bữa ăn mang về hoặc giao hàng tận nhà / kinh doanh đồ ăn mang về / bữa ăn mang về,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1057,L2-0557,8276,完,wán,动,hoàn thành / kết thúc / toàn bộ / hoàn chỉnh / hoàn toàn,hoàn thành / kết thúc / toàn bộ / hoàn chỉnh / hoàn toàn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1058,L2-0558,8279,完成,wánchéng,,hoàn thành; thực hiện,hoàn thành; thực hiện,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1059,L2-0559,8284,完全,wánquán,形、副,hoàn chỉnh; toàn bộ / hoàn toàn; toàn diện,hoàn chỉnh; toàn bộ / hoàn toàn; toàn diện,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1060,L2-0560,8298,晚安,wǎn'ān,动,Chúc ngủ ngon! / Chào buổi tối!,Chúc ngủ ngon! / Chào buổi tối!,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1061,L2-0561,8299,晚报,wǎnbào,名,báo chiều / (trong tên tờ báo) Tin Tức Buổi Chiều,báo chiều / (trong tên tờ báo) Tin Tức Buổi Chiều,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1062,L2-0562,8300,晚餐,wǎncān,名,"bữa tối / bữa ăn tối / LT:份[fen4],頓|顿[dun4],次[ci4]",bữa tối / bữa ăn tối,"LT:份[fen4],頓|顿[dun4],次[ci4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+1063,L2-0563,8303,晚会,wǎnhuì,名,buổi dạ tiệc / LT:個|个[ge4],buổi dạ tiệc,LT:個|个[ge4],,CHUA_CO,,CHUA
+1064,L2-0564,8309,碗,wǎn,名,"biến thể của 碗[wan3] || bát / chén / LT:隻|只[zhi1],個|个[ge4]",biến thể của 碗[wan3] / bát / chén,"LT:隻|只[zhi1],個|个[ge4]",,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1065,L2-0565,8310,万,wàn,数,mười nghìn / một số lượng lớn,mười nghìn / một số lượng lớn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1066,L2-0566,8324,网,wǎng,名,lưới / mạng lưới,lưới / mạng lưới,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1067,L2-0567,8329,网球,wǎngqiú,名,quần vợt / trái bóng tennis / LT:個|个[ge4],quần vợt / trái bóng tennis,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1068,L2-0568,8333,网站,wǎngzhàn,名,trang web,trang web,,,CHUA_CO,,CHUA
+1069,L2-0569,8335,往,wǎng,动、介,đi (một hướng) / đến / hướng tới / (tàu) đi về / quá khứ / trước đây || biến thể cũ của 往[wang3],đi (một hướng) / đến / hướng tới / (tàu) đi về / quá khứ / trước đây / biến thể cũ của 往[wang3],,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1070,L2-0570,8415,为,wèi,介,bởi vì / vì / để || biến thể của 為|为[wei4],bởi vì / vì / để / biến thể của 為|为[wei4],,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1071,L2-0571,8419,为什么,wèi shénme,,tại sao? / vì lý do gì?,tại sao? / vì lý do gì?,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1072,L2-0572,8427,位,wèi,量,vị trí / địa điểm / chỗ / ngồi / lượng từ cho người (kính trọng) / lượng từ cho bit nhị phân (ví dụ: 十六位 16-bit hoặc 2 byte) / (vật lý) thế năng,vị trí / địa điểm / chỗ / ngồi / lượng từ cho người (kính trọng) / lượng từ cho bit nhị phân (ví dụ: 十六位 16-bit hoặc 2 byte) / (vật lý) thế năng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1073,L2-0573,8431,味道,wèidào,名,hương vị; mùi vị / (nghĩa bóng) cảm giác (về...); cảm nhận (về...); nét (của...) / (nghĩa bóng) hứng thú; thú vị / (phương ngữ) mùi; mùi hương,hương vị; mùi vị / (nghĩa bóng) cảm giác (về...); cảm nhận (về...); nét (của...) / (nghĩa bóng) hứng thú; thú vị / (phương ngữ) mùi; mùi hương,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1074,L2-0574,8438,喂,wèi,Intj,"này / cho ăn (động vật, em bé, người bệnh v.v.) || biến thể của 餵|喂[wei4] || cho ăn","này / cho ăn (động vật, em bé, người bệnh v.v.) / biến thể của 餵|喂[wei4] / cho ăn",,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1075,L2-0575,8443,温度,wēndù,名,nhiệt độ / LT:個|个[ge4],nhiệt độ,LT:個|个[ge4],,CHUA_CO,,CHUA
+1076,L2-0576,8470,闻,wén,动,nghe / tin tức / nổi tiếng / nổi danh / danh tiếng / tên tuổi / ngửi / ngửi thấy,nghe / tin tức / nổi tiếng / nổi danh / danh tiếng / tên tuổi / ngửi / ngửi thấy,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1077,L2-0577,8486,问路,wènlù,动,hỏi đường / hỏi đường đến đâu đó,hỏi đường / hỏi đường đến đâu đó,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1078,L2-0578,8488,问题,wèntí,名,câu hỏi / vấn đề / chủ đề / LT:個|个[ge4],câu hỏi / vấn đề / chủ đề,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1079,L2-0579,8561,午餐,wǔcān,名,"bữa trưa / buổi ăn trưa / LT:份[fen4],頓|顿[dun4],次[ci4]",bữa trưa / buổi ăn trưa,"LT:份[fen4],頓|顿[dun4],次[ci4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+1080,L2-0580,8563,午睡,wǔshuì,名、动,ngủ trưa / giấc ngủ ngắn,ngủ trưa / giấc ngủ ngắn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1081,L2-0581,8594,西北,xīběi,名,tây bắc,tây bắc,,,CHUA_CO,,CHUA
+1082,L2-0582,8597,西餐,xīcān,名,"Món ăn kiểu Tây / LT: 份[fen4],頓|顿[dun4]",Món ăn kiểu Tây,"LT: 份[fen4],頓|顿[dun4]",,CHUA_CO,,CHUA
+1083,L2-0583,8598,西方,xīfāng,名,phương Tây / các nước phương Tây,phương Tây / các nước phương Tây,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1084,L2-0584,8601,西南,xīnán,名,tây nam,tây nam,,,CHUA_CO,,CHUA
+1085,L2-0585,8602,西医,xīyī,名,y học phương Tây / bác sĩ được đào tạo theo y học phương Tây,y học phương Tây / bác sĩ được đào tạo theo y học phương Tây,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1086,L2-0586,8625,习惯,xíguàn,名、动,thói quen / phong tục / thói quen thường lệ / quen với / LT:個|个[ge4],thói quen / phong tục / thói quen thường lệ / quen với,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1087,L2-0587,8636,洗衣机,xǐyījī,名,máy giặt / LT:臺|台[tai2],máy giặt,LT:臺|台[tai2],,CHUA_CO,,CHUA
+1088,L2-0588,8637,洗澡,xǐzǎo,,tắm / tắm vòi sen,tắm / tắm vòi sen,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1089,L2-0589,8672,下,xià,量,"xuống / hướng xuống / dưới / thấp hơn / sau / tiếp theo (tuần,...) / thứ hai (trong hai phần) / giảm / đưa ra (quyết định, kết luận,...) / lượng từ chỉ tần suất của một hành động",dưới; xuống,,390,DA_CO,NHIEU_NGHIA,CHUA
+1090,L2-0590,8702,下雪,xià xuě,,tuyết rơi,tuyết rơi,,,CHUA_CO,,CHUA
+1091,L2-0591,8709,下周,xià zhōu,,tuần sau,tuần sau,,,CHUA_CO,,CHUA
+1092,L2-0592,8716,夏天,xiàtiān,名,mùa hè / LT:個|个[ge4],mùa hè,LT:個|个[ge4],,CHUA_CO,,CHUA
+1093,L2-0593,8811,相同,xiāngtóng,形,giống hệt / giống nhau,giống hệt / giống nhau,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1094,L2-0594,8812,相信,xiāngxìn,动,tin tưởng; bị thuyết phục; chấp nhận là thật,tin tưởng; bị thuyết phục; chấp nhận là thật,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1095,L2-0595,8835,响,xiǎng,形,tiếng / vang / âm thanh / phát ra âm thanh / kêu / rung / to / lượng từ cho âm thanh,tiếng / vang / âm thanh / phát ra âm thanh / kêu / rung / to / lượng từ cho âm thanh,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1096,L2-0596,8842,想到,xiǎngdào,,nghĩ đến / gợi nhớ / dự đoán,nghĩ đến / gợi nhớ / dự đoán,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1097,L2-0597,8843,想法,xiǎngfǎ,名,cách nghĩ; ý kiến; quan niệm / nghĩ cách (làm gì đó) / LT:個|个[ge4],cách nghĩ; ý kiến; quan niệm / nghĩ cách (làm gì đó),LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1098,L2-0598,8846,想起,xiǎngqǐ,,nhớ lại / nghĩ đến / nhớ ra,nhớ lại / nghĩ đến / nhớ ra,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1099,L2-0599,8848,向,xiàng,介、动,hướng / về phía / quay về / phương hướng / hỗ trợ / đứng về phía / ngay trước đây / trước đây / luôn luôn / suốt / dùng làm hậu tố cho... / hướng đến... || có xu hướng / hướng dẫn / biến thể của 向[xiang4] || biến thể của 向[xiang4] / phương hướng / hướng đi / đối mặt / quay về / đến / về / ngay trước / trước đây,hướng / về phía / quay về / phương hướng / hỗ trợ / đứng về phía / ngay trước đây / trước đây / luôn luôn / suốt / dùng làm hậu tố cho... / hướng đến... / có xu hướng / hướng dẫn / biến thể của 向[xiang4] / biến thể của 向[xiang4] / phương hướng / hướng đi / đối mặt / quay về / đến / về / ngay trước / trước đây,,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1100,L2-0600,8858,相机,xiàngjī,名,máy ảnh (viết tắt của 照相機|照相机[zhao4 xiang4 ji1]) / vào thời điểm thích hợp / tùy cơ ứng biến,máy ảnh (viết tắt của 照相機|照相机[zhao4 xiang4 ji1]) / vào thời điểm thích hợp / tùy cơ ứng biến,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1101,L2-0601,8862,像,xiàng,动,giống / như / nhìn như / chẳng hạn / diện mạo / hình ảnh / chân dung / hình ảnh trong ánh xạ (toán học),giống / như / nhìn như / chẳng hạn / diện mạo / hình ảnh / chân dung / hình ảnh trong ánh xạ (toán học),,,CHUA_CO,NHIEU_NGHIA,CHUA
+1102,L2-0602,8889,小（小王）,xiǎo (Xiǎo Wáng),前缀,nhỏ / bé / một vài / trẻ,nhỏ / bé / một vài / trẻ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1103,L2-0603,8907,小声,xiǎo shēng,,giọng nhỏ / (nói) thì thầm,giọng nhỏ / (nói) thì thầm,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1104,L2-0604,8909,小时候,xiǎoshíhou,名,khi còn nhỏ,khi còn nhỏ,,,CHUA_CO,,CHUA
+1105,L2-0605,8910,小说,xiǎoshuō,名,"tiểu thuyết / hư cấu / LT:本[ben3],部[bu4]",tiểu thuyết / hư cấu,"LT:本[ben3],部[bu4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+1106,L2-0606,8914,小心,xiǎoxīn,形、动,cẩn thận / chú ý,cẩn thận / chú ý,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1107,L2-0607,8921,小组,xiǎozǔ,名,nhóm,nhóm,,,CHUA_CO,,CHUA
+1108,L2-0608,8926,校园,xiàoyuán,名,khuôn viên trường,khuôn viên trường,,,CHUA_CO,,CHUA
+1109,L2-0609,8927,校长,xiàozhǎng,名,"(trường cao đẳng, đại học) hiệu trưởng / LT:個|个[ge4],位[wei4],名[ming2]","(trường cao đẳng, đại học) hiệu trưởng","LT:個|个[ge4],位[wei4],名[ming2]",,CHUA_CO,,CHUA
+1110,L2-0610,8929,笑话,xiàohua,动,trò đùa; chuyện cười (Lượng từ: 個|个[ge4]) / chế nhạo; chế giễu / lố bịch; vô lý,trò đùa; chuyện cười (Lượng từ: 個|个[ge4]) / chế nhạo; chế giễu / lố bịch; vô lý,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1111,L2-0611,8930,笑话儿,xiàohuar,名,biến thể er hoá của 笑話|笑话[xiao4 hua5],biến thể er hoá của 笑話|笑话[xiao4 hua5],,,CHUA_CO,,CHUA
+1112,L2-0612,8957,鞋,xié,名,"giày / LT:雙|双[shuang1],隻|只[zhi1] || biến thể của 鞋[xie2]",giày / biến thể của 鞋[xie2],"LT:雙|双[shuang1],隻|只[zhi1]",,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1113,L2-0613,8980,心里,xīnlǐ,名,ngực / tim; tâm trí,ngực / tim; tâm trí,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1114,L2-0614,8986,心情,xīnqíng,名,tâm trạng; trạng thái tinh thần / LT:個|个[ge4],tâm trạng; trạng thái tinh thần,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1115,L2-0615,9001,心中,xīnzhōng,名,điểm trung tâm / trong suy nghĩ / trong lòng,điểm trung tâm / trong suy nghĩ / trong lòng,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1116,L2-0616,9023,新闻,xīnwén,名,"tin tức / LT:條|条[tiao2],個|个[ge4]",tin tức,"LT:條|条[tiao2],個|个[ge4]",,CHUA_CO,,CHUA
+1117,L2-0617,9029,信,xìn,名,thư / tín / LT:封[feng1] / tin tưởng / tin / tín ngưỡng / thành thật / tự tin / tin cậy / tùy ý / ngẫu nhiên,thư / tín / tin tưởng / tin / tín ngưỡng / thành thật / tự tin / tin cậy / tùy ý / ngẫu nhiên,LT:封[feng1],,CHUA_CO,NHIEU_NGHIA,CHUA
+1118,L2-0618,9033,信号,xìnhào,名,tín hiệu,tín hiệu,,,CHUA_CO,,CHUA
+1119,L2-0619,9038,信息,xìnxī,名,thông tin / tin tức / tin nhắn,thông tin / tin tức / tin nhắn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1120,L2-0620,9040,信心,xìnxīn,名,niềm tin / tin tưởng (vào ai đó hoặc điều gì đó) / LT:個|个[ge4],niềm tin / tin tưởng (vào ai đó hoặc điều gì đó),LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1121,L2-0621,9043,信用卡,xìnyòngkǎ,名,thẻ tín dụng,thẻ tín dụng,,,CHUA_CO,,CHUA
+1122,L2-0622,9053,星星,xīngxing,名,(thông tục) một ngôi sao; những ngôi sao trên trời,(thông tục) một ngôi sao; những ngôi sao trên trời,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1123,L2-0623,9060,行动,xíngdòng,动、名,hoạt động / hành động / LT:個|个[ge4] / di chuyển / di động,hoạt động / hành động / di chuyển / di động,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1124,L2-0624,9062,行人,xíngrén,名,người đi bộ / khách bộ hành / người qua đường / quan chức phụ trách sắp xếp yết kiến hoàng đế,người đi bộ / khách bộ hành / người qua đường / quan chức phụ trách sắp xếp yết kiến hoàng đế,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1125,L2-0625,9065,行为,xíngwéi,名,hành động / cách cư xử / hành vi / hoạt động,hành động / cách cư xử / hành vi / hoạt động,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1126,L2-0626,9101,姓,xìng,名、动,họ; họ tên / là họ ...,họ; họ tên / là họ ...,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1127,L2-0627,9102,姓名,xìngmíng,名,họ và tên; tên đầy đủ,họ và tên; tên đầy đủ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1128,L2-0628,9118,休假,xiūjià,,đi nghỉ; có kỳ nghỉ; xin nghỉ,đi nghỉ; có kỳ nghỉ; xin nghỉ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1129,L2-0629,9159,许多,xǔduō,数,nhiều / rất nhiều,nhiều / rất nhiều,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1130,L2-0630,9190,选,xuǎn,动,chọn / lựa / chọn lựa / bầu,chọn / lựa / chọn lựa / bầu,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1131,L2-0631,9210,学期,xuéqī,名,học kỳ / LT:個|个[ge4],học kỳ,LT:個|个[ge4],,CHUA_CO,,CHUA
+1132,L2-0632,9227,雪,xuě,名,"tuyết / LT: 場|场[chang2] / (văn học) xoá đi (nhục nhã, v.v.)","tuyết / (văn học) xoá đi (nhục nhã, v.v.)",LT: 場|场[chang2],,CHUA_CO,NHIEU_NGHIA,CHUA
+1133,L2-0633,9317,颜色,yánsè,名,màu sắc / diện mạo / bề ngoài / vẻ mặt / sắc tố / chất nhuộm,màu sắc / diện mạo / bề ngoài / vẻ mặt / sắc tố / chất nhuộm,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1134,L2-0634,9322,眼,yǎn,名、量,"mắt / lỗ nhỏ / trọng tâm (của vấn đề) / LT:隻|只[zhi1],雙|双[shuang1] / lượng từ cho vật rỗng lớn (giếng, bếp, nồi vv)","mắt / lỗ nhỏ / trọng tâm (của vấn đề) / lượng từ cho vật rỗng lớn (giếng, bếp, nồi vv)","LT:隻|只[zhi1],雙|双[shuang1]",,CHUA_CO,NHIEU_NGHIA,CHUA
+1135,L2-0635,9326,眼睛,yǎnjing,名,"mắt / LT: 隻|只[zhi1], 雙|双[shuang1]",mắt,"LT: 隻|只[zhi1], 雙|双[shuang1]",,CHUA_CO,,CHUA
+1136,L2-0636,9372,养,yǎng,动,nuôi (động vật) / nuôi dưỡng (trẻ em) / nuôi (thú cưng) / chu cấp / sinh đẻ,nuôi (động vật) / nuôi dưỡng (trẻ em) / nuôi (thú cưng) / chu cấp / sinh đẻ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1137,L2-0637,9386,样子,yàngzi,名,dáng vẻ / tác phong / kiểu mẫu / hình mẫu,dáng vẻ / tác phong / kiểu mẫu / hình mẫu,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1138,L2-0638,9388,要求,yāoqiú,动、名,yêu cầu / đòi hỏi / đòi quyền / hỏi / LT:點|点[dian3],yêu cầu / đòi hỏi / đòi quyền / hỏi,LT:點|点[dian3],,CHUA_CO,NHIEU_NGHIA,CHUA
+1139,L2-0639,9404,药,yào,名,"lá của cây diên vĩ / biến thể của 藥|药[yao4] || thuốc / dược phẩm / chất dùng cho mục đích cụ thể (ví dụ: đầu độc, nổ, lên men) / LT:種|种[zhong3],服[fu4],味[wei4] / đầu độc","lá của cây diên vĩ / biến thể của 藥|药[yao4] / thuốc / dược phẩm / chất dùng cho mục đích cụ thể (ví dụ: đầu độc, nổ, lên men) / đầu độc","LT:種|种[zhong3],服[fu4],味[wei4]",,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1140,L2-0640,9406,药店,yàodiàn,名,nhà thuốc,nhà thuốc,,,CHUA_CO,,CHUA
+1141,L2-0641,9408,药片,yàopiàn,名,viên thuốc hoặc viên nén / LT:片[pian4],viên thuốc hoặc viên nén,LT:片[pian4],,CHUA_CO,,CHUA
+1142,L2-0642,9410,药水,yàoshuǐ,名,thuốc dạng lỏng / thuốc đóng chai / dung dịch,thuốc dạng lỏng / thuốc đóng chai / dung dịch,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1143,L2-0643,9434,也许,yěxǔ,副,có lẽ / có thể,có lẽ / có thể,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1144,L2-0644,9450,夜,yè,名,biến thể của 夜[ye4] || đêm,biến thể của 夜[ye4] / đêm,,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1145,L2-0645,9453,夜里,yèlǐ,名,trong đêm / vào ban đêm / ban đêm,trong đêm / vào ban đêm / ban đêm,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1146,L2-0646,9490,一部分,yī bùfen,,phần / một phần / tập hợp con,phần / một phần / tập hợp con,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1147,L2-0647,9498,一定,yīdìng,形、副,chắc chắn / nhất định / nhất thiết / cố định / một mức độ nhất định (v.v.) / đã cho / cụ thể / phải,chắc chắn / nhất định / nhất thiết / cố định / một mức độ nhất định (v.v.) / đã cho / cụ thể / phải,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1148,L2-0648,9504,一共,yīgòng,副,tổng cộng,tổng cộng,,,CHUA_CO,,CHUA
+1149,L2-0649,9508,一会儿,yīhuìr,副,một lúc / một thời gian / ngay lập tức / lúc thì...lúc thì... / cũng đọc là [yi1 hui3 r5],một lát; một lúc,,432,DA_CO,NHIEU_NGHIA,CHUA
+1150,L2-0650,9513,一路平安,yīlù-píng'ān,,có chuyến đi vui vẻ / Thượng lộ bình an!,có chuyến đi vui vẻ / Thượng lộ bình an!,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1151,L2-0651,9515,一路顺风,yīlù-shùnfēng,,chúc lên đường bình an (thành ngữ),chúc lên đường bình an (thành ngữ),,,CHUA_CO,,CHUA
+1152,L2-0652,9559,已经,yǐjīng,副,đã,đã,,,CHUA_CO,,CHUA
+1153,L2-0653,9562,以后,yǐhòu,名,sau / khi đó / sau này / theo sau / sau đó / trong tương lai,sau / khi đó / sau này / theo sau / sau đó / trong tương lai,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1154,L2-0654,9567,以前,yǐqián,名,trước đây / trước / thuở trước / cách đây,trước đây / trước / thuở trước / cách đây,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1155,L2-0655,9568,以上,yǐshàng,名,mức đó hoặc cao hơn / số lượng đó hoặc nhiều hơn / đã đề cập ở trên / (dùng để chỉ đã hoàn thành phần phát biểu) Xin hết.,mức đó hoặc cao hơn / số lượng đó hoặc nhiều hơn / đã đề cập ở trên / (dùng để chỉ đã hoàn thành phần phát biểu) Xin hết.,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1156,L2-0656,9570,以外,yǐwài,名,ngoài ra / khác ngoài / trừ / phía ngoài / bên ngoài / ở phía bên kia / vượt ra ngoài,ngoài ra / khác ngoài / trừ / phía ngoài / bên ngoài / ở phía bên kia / vượt ra ngoài,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1157,L2-0657,9572,以为,yǐwéi,动,nghĩ rằng (tức là cho là đúng ...) (Thường có hàm ý rằng quan niệm đó là sai lầm – ngoại trừ khi diễn đạt ý kiến hiện tại của chính mình.),nghĩ rằng (tức là cho là đúng ...) (Thường có hàm ý rằng quan niệm đó là sai lầm – ngoại trừ khi diễn đạt ý kiến hiện tại của chính mình.),,,CHUA_CO,,CHUA
+1158,L2-0658,9573,以下,yǐxià,名,mức đó hoặc thấp hơn / số lượng đó hoặc ít hơn / những điều sau,mức đó hoặc thấp hơn / số lượng đó hoặc ít hơn / những điều sau,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1159,L2-0659,9578,椅子,yǐzi,名,"ghế / LT:把[ba3],套[tao4]",ghế,"LT:把[ba3],套[tao4]",,CHUA_CO,,CHUA
+1160,L2-0660,9579,一般,yībān,形,giống / bình thường / tàm tạm / phổ thông / chung / chung chung / nói chung,giống / bình thường / tàm tạm / phổ thông / chung / chung chung / nói chung,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1161,L2-0661,9585,一点点,yī diǎndiǎn,,một chút,một chút,,,CHUA_CO,,CHUA
+1162,L2-0662,9611,一生,yīshēng,名,cả đời; suốt đời,cả đời; suốt đời,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1163,L2-0663,9631,一直,yīzhí,副,thẳng (theo đường thẳng) / liên tục; luôn luôn; suốt,thẳng (theo đường thẳng) / liên tục; luôn luôn; suốt,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1164,L2-0664,9632,亿,yì,数,100 triệu,100 triệu,,,CHUA_CO,,CHUA
+1165,L2-0665,9658,意见,yìjiàn,名,"ý kiến / quan điểm / đề xuất / phản đối / phàn nàn / LT:點|点[dian3],條|条[tiao2]",ý kiến / quan điểm / đề xuất / phản đối / phàn nàn,"LT:點|点[dian3],條|条[tiao2]",,CHUA_CO,NHIEU_NGHIA,CHUA
+1166,L2-0666,9662,意思,yìsi,名,"ý tưởng / ý kiến / nghĩa / ước nguyện / mong muốn / hứng thú / vui / lòng biết ơn, tình cảm, v.v. / LT:個|个[ge4] / tặng như một biểu thị nhỏ / làm gì đó như một cử chỉ thiện chí, v.v.","ý tưởng / ý kiến / nghĩa / ước nguyện / mong muốn / hứng thú / vui / lòng biết ơn, tình cảm, v.v. / tặng như một biểu thị nhỏ / làm gì đó như một cử chỉ thiện chí, v.v.",LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1167,L2-0667,9679,因为,yīnwèi,连、介,bởi vì / do / bởi,bởi vì / do / bởi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1168,L2-0668,9680,阴,yīn,形,u ám (thời tiết) / nhiều mây / râm mát / Âm (nguyên lý âm trong Âm và Dương) / âm (điện) / nữ tính / mặt trăng / hàm ý / ẩn giấu / bộ phận sinh dục || biến thể của 陰|阴[yin1],u ám (thời tiết) / nhiều mây / râm mát / Âm (nguyên lý âm trong Âm và Dương) / âm (điện) / nữ tính / mặt trăng / hàm ý / ẩn giấu / bộ phận sinh dục / biến thể của 陰|阴[yin1],,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1169,L2-0669,9683,阴天,yīntiān,名,ngày nhiều mây; trời u ám,ngày nhiều mây; trời u ám,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1170,L2-0670,9686,音节,yīnjié,名,âm tiết,âm tiết,,,CHUA_CO,,CHUA
+1171,L2-0671,9690,音乐,yīnyuè,名,"âm nhạc / LT:張|张[zhāng],曲[qǔ],段[duàn]",âm nhạc,"LT:張|张[zhāng],曲[qǔ],段[duàn]",,CHUA_CO,,CHUA
+1172,L2-0672,9691,音乐会,yīnyuèhuì,名,buổi hòa nhạc / LT:場|场[chang3],buổi hòa nhạc,LT:場|场[chang3],,CHUA_CO,,CHUA
+1173,L2-0673,9694,银行,yínháng,名,"ngân hàng / LT:家[jia1],個|个[ge4]",ngân hàng,"LT:家[jia1],個|个[ge4]",,CHUA_CO,,CHUA
+1174,L2-0674,9695,银行卡,yínhángkǎ,名,thẻ ngân hàng / thẻ ATM,thẻ ngân hàng / thẻ ATM,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1175,L2-0675,9734,应该,yīnggāi,动,nên / phải / cần,nên / phải / cần,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1176,L2-0676,9738,英文,Yīngwén,名,tiếng Anh (ngôn ngữ),tiếng Anh (ngôn ngữ),,,CHUA_CO,,CHUA
+1177,L2-0677,9741,英语,Yīngyǔ,名,tiếng Anh,tiếng Anh,,,CHUA_CO,,CHUA
+1178,L2-0678,9758,影片,yǐngpiàn,名,bản sao của phim / phim; điện ảnh; bộ phim / LT:部[bu4],bản sao của phim / phim; điện ảnh; bộ phim,LT:部[bu4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1179,L2-0679,9760,影响,yǐngxiǎng,动、名,ảnh hưởng / tác động / ảnh hưởng đến / tác động đến (thường là tiêu cực) / làm phiền / LT:股[gu3],ảnh hưởng / tác động / ảnh hưởng đến / tác động đến (thường là tiêu cực) / làm phiền,LT:股[gu3],,CHUA_CO,NHIEU_NGHIA,CHUA
+1180,L2-0680,9786,永远,yǒngyuǎn,副,mãi mãi / vĩnh cửu,mãi mãi / vĩnh cửu,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1181,L2-0681,9848,油,yóu,名,"dầu / mỡ / chất béo / dầu mỏ / thoa dầu trẩu, sơn hoặc vecni / nhờn / béo / lém lỉnh / xảo quyệt","dầu / mỡ / chất béo / dầu mỏ / thoa dầu trẩu, sơn hoặc vecni / nhờn / béo / lém lỉnh / xảo quyệt",,,CHUA_CO,NHIEU_NGHIA,CHUA
+1182,L2-0682,9852,游客,yóukè,名,khách du lịch; du khách / (trò chơi trực tuyến) người chơi khách,khách du lịch; du khách / (trò chơi trực tuyến) người chơi khách,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1183,L2-0683,9861,友好,yǒuhǎo,形,thân thiện; hòa nhã / bạn thân,thân thiện; hòa nhã / bạn thân,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1184,L2-0684,9876,有空儿,yǒukòngr,动,biến thể er hoá của 有空|有空[you3 kong4],biến thể er hoá của 有空|有空[you3 kong4],,,CHUA_CO,,CHUA
+1185,L2-0685,9885,有人,yǒu rén,,ai đó / mọi người / bất kỳ ai / có người ở đó / đang có người (như trong nhà vệ sinh),ai đó / mọi người / bất kỳ ai / có người ở đó / đang có người (như trong nhà vệ sinh),,,CHUA_CO,NHIEU_NGHIA,CHUA
+1186,L2-0686,9895,有（一）点儿,yǒu(yī)diǎnr,副,hơi / một chút / phần nào || một chút / một ít,hơi / một chút / phần nào / một chút / một ít,,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1187,L2-0687,9901,有意思,yǒu yìsi,,thú vị / có ý nghĩa / vui vẻ / vui,thú vị / có ý nghĩa / vui vẻ / vui,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1188,L2-0688,9906,又,yòu,副,(một lần) nữa / cũng / vừa... vừa... / thế nhưng / (dùng để nhấn mạnh) dù sao đi nữa,(một lần) nữa / cũng / vừa... vừa... / thế nhưng / (dùng để nhấn mạnh) dù sao đi nữa,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1189,L2-0689,9920,鱼,yú,名,"cá / LT:條|条[tiao2],尾[wei3]",cá,"LT:條|条[tiao2],尾[wei3]",,CHUA_CO,,CHUA
+1190,L2-0690,9946,语言,yǔyán,名,"ngôn ngữ / LT:門|门[men2],種|种[zhong3]",ngôn ngữ,"LT:門|门[men2],種|种[zhong3]",,CHUA_CO,,CHUA
+1191,L2-0691,10004,原来,yuánlái,形、副,"gốc; trước đây / vốn dĩ; lúc đầu / thì ra, hóa ra","gốc; trước đây / vốn dĩ; lúc đầu / thì ra, hóa ra",,,CHUA_CO,NHIEU_NGHIA,CHUA
+1192,L2-0692,10011,原因,yuányīn,名,nguyên nhân / nguồn gốc / nguyên nhân gốc / lý do / Lượng từ: 個|个[ge4],nguyên nhân / nguồn gốc / nguyên nhân gốc / lý do / Lượng từ: 個|个[ge4],,,CHUA_CO,NHIEU_NGHIA,CHUA
+1193,L2-0693,10039,院,yuàn,名,sân / tổ chức / Lượng từ: 個|个[ge4],sân / tổ chức / Lượng từ: 個|个[ge4],,,CHUA_CO,NHIEU_NGHIA,CHUA
+1194,L2-0694,10041,院长,yuànzhǎng,名,người đứng đầu của một tổ chức có tên kết thúc bằng 院[yuan4] / chủ tịch hội đồng / hiệu trưởng đại học / trưởng khoa / viện trưởng / thủ tướng Trung Hoa Dân Quốc / LT:個|个[ge4],người đứng đầu của một tổ chức có tên kết thúc bằng 院[yuan4] / chủ tịch hội đồng / hiệu trưởng đại học / trưởng khoa / viện trưởng / thủ tướng Trung Hoa Dân Quốc,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1195,L2-0695,10042,院子,yuànzi,名,sân / vườn / sân trong / sân nhà / Lượng từ: 個|个[ge4] / (cũ) đầy tớ,sân / vườn / sân trong / sân nhà / Lượng từ: 個|个[ge4] / (cũ) đầy tớ,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1196,L2-0696,10045,愿意,yuànyì,动,muốn / nguyện / sẵn sàng / tự nguyện (làm gì đó),muốn / nguyện / sẵn sàng / tự nguyện (làm gì đó),,,CHUA_CO,NHIEU_NGHIA,CHUA
+1197,L2-0697,10056,月份,yuèfèn,名,tháng,tháng,,,CHUA_CO,,CHUA
+1198,L2-0698,10057,月亮,yuèliang,名,mặt trăng,mặt trăng,,,CHUA_CO,,CHUA
+1199,L2-0699,10069,越,yuè,副,vượt / vượt qua / vượt hơn / càng... càng...,vượt / vượt qua / vượt hơn / càng... càng...,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1200,L2-0700,10072,越来越,yuè lái yuè,,ngày càng...,ngày càng...,,,CHUA_CO,,CHUA
+1201,L2-0701,10075,云,yún,名,(văn cổ) nói || mây / LT:朵[duo3],(văn cổ) nói / mây,LT:朵[duo3],,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1202,L2-0702,10081,运动,yùndòng,动、名,di chuyển / tập thể dục / thể thao / vận động / chuyển động / phong trào / chiến dịch / LT:場|场[chang3],di chuyển / tập thể dục / thể thao / vận động / chuyển động / phong trào / chiến dịch,LT:場|场[chang3],,CHUA_CO,NHIEU_NGHIA,CHUA
+1203,L2-0703,10130,咱,zán,代,biến thể của 咱[zan2] || tôi hoặc tao / chúng ta (bao gồm cả người nói và người nghe),biến thể của 咱[zan2] / tôi hoặc tao / chúng ta (bao gồm cả người nói và người nghe),,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1204,L2-0704,10131,咱们,zánmen,代,chúng ta hoặc chúng tôi (bao gồm cả người nói và người nghe) / (phương ngữ) tôi hoặc mình / (phương ngữ) (một cách thân mật hoặc dỗ dành) bạn / cũng đọc là [za2 men5],chúng ta hoặc chúng tôi (bao gồm cả người nói và người nghe) / (phương ngữ) tôi hoặc mình / (phương ngữ) (một cách thân mật hoặc dỗ dành) bạn / cũng đọc là [za2 men5],,,CHUA_CO,NHIEU_NGHIA,CHUA
+1205,L2-0705,10146,脏,zāng,形,bẩn / thô tục / làm bẩn (cái gì),bẩn / thô tục / làm bẩn (cái gì),,,CHUA_CO,NHIEU_NGHIA,CHUA
+1206,L2-0706,10157,早餐,zǎocān,名,"bữa sáng / LT:份[fen4],頓|顿[dun4],次[ci4]",bữa sáng,"LT:份[fen4],頓|顿[dun4],次[ci4]",,CHUA_CO,,CHUA
+1207,L2-0707,10158,早晨,zǎochen,名,buổi sáng sớm / LT:個|个[ge4] / cũng đọc [zao3 chen5],buổi sáng sớm / cũng đọc [zao3 chen5],LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1208,L2-0708,10160,早就,zǎo jiù,,đã từ sớm,đã từ sớm,,,CHUA_CO,,CHUA
+1209,L2-0709,10185,怎么办,zěnme bàn,,phải làm sao đây,phải làm sao đây,,,CHUA_CO,,CHUA
+1210,L2-0710,10186,怎么样,zěnmeyàng,代,như thế nào? / thế nào? / ra sao? / mọi thứ sao rồi?,như thế nào? / thế nào? / ra sao? / mọi thứ sao rồi?,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1211,L2-0711,10187,怎样,zěnyàng,代,như thế nào / loại gì,như thế nào / loại gì,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1212,L2-0712,10233,占,zhàn,动,biến thể của 占[zhan4] || chiếm giữ / chiếm đóng / chiếm,biến thể của 占[zhan4] / chiếm giữ / chiếm đóng / chiếm,,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1213,L2-0713,10247,站,zhàn,动,trạm / đứng / dừng / tạm dừng / chi nhánh của một công ty hoặc tổ chức / trang web,trạm; ga; đứng,,461,DA_CO,NHIEU_NGHIA,CHUA
+1214,L2-0714,10250,站住,zhànzhù,,đứng lại,đứng lại,,,CHUA_CO,,CHUA
+1215,L2-0715,10258,长,zhǎng,动,trưởng / đứng đầu / người lớn / mọc / phát triển / tăng / cải thiện,trưởng / đứng đầu / người lớn / mọc / phát triển / tăng / cải thiện,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1216,L2-0716,10261,长大,zhǎngdà,,trưởng thành,trưởng thành,,,CHUA_CO,,CHUA
+1217,L2-0717,10299,找出,zhǎochū,,tìm / tìm ra,tìm / tìm ra,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1218,L2-0718,10308,照顾,zhàogù,动,chăm sóc / quan tâm / chú ý đến / trông nom,chăm sóc / quan tâm / chú ý đến / trông nom,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1219,L2-0719,10312,照片,zhàopiàn,名,"bức ảnh / hình ảnh / LT:張|张[zhang1],套[tao4],幅[fu2]",bức ảnh / hình ảnh,"LT:張|张[zhang1],套[tao4],幅[fu2]",,CHUA_CO,NHIEU_NGHIA,CHUA
+1220,L2-0720,10313,照相,zhàoxiàng,,chụp ảnh,chụp ảnh,,,CHUA_CO,,CHUA
+1221,L2-0721,10335,这么,zhème,代,nhiều như vậy / như thế này / bao nhiêu? / theo cách này / như thế,nhiều như vậy / như thế này / bao nhiêu? / theo cách này / như thế,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1222,L2-0722,10336,这时候,zhè shíhou,,lúc này / khoảnh khắc này,lúc này / khoảnh khắc này,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1223,L2-0723,10338,这样,zhèyàng,代,loại này / như vậy / cách này / như thế,loại này / như vậy / cách này / như thế,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1224,L2-0724,10363,真正,zhēnzhèng,形,chính hãng; thật; đúng / thật sự; quả thật,chính hãng; thật; đúng / thật sự; quả thật,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1225,L2-0725,10420,正常,zhèngcháng,形,bình thường / thông thường,bình thường / thông thường,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1226,L2-0726,10423,正好,zhènghǎo,形、副,vừa (đúng lúc) / vừa đủ / đúng / tình cờ / ngẫu nhiên / đúng lúc,vừa (đúng lúc) / vừa đủ / đúng / tình cờ / ngẫu nhiên / đúng lúc,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1227,L2-0727,10426,正确,zhèngquè,形,đúng; chính xác; phải; hợp lý,đúng; chính xác; phải; hợp lý,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1228,L2-0728,10430,正是,zhèngshì,动,chính xác là,chính xác là,,,CHUA_CO,,CHUA
+1229,L2-0729,10497,直接,zhíjiē,形,trực tiếp (đối lập: gián tiếp 間接|间接[jian4 jie1]) / ngay lập tức / thẳng thắn,trực tiếp (đối lập: gián tiếp 間接|间接[jian4 jie1]) / ngay lập tức / thẳng thắn,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1230,L2-0730,10522,只,zhǐ,副,chỉ / chỉ đơn thuần / chỉ là / nhưng || biến thể của 只[zhi3],chỉ / chỉ đơn thuần / chỉ là / nhưng / biến thể của 只[zhi3],,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1231,L2-0731,10529,只能,zhǐ néng,,chỉ có thể / buộc phải làm gì đó / không có lựa chọn nào khác,chỉ có thể / buộc phải làm gì đó / không có lựa chọn nào khác,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1232,L2-0732,10531,只要,zhǐyào,连,chỉ cần / miễn là,chỉ cần / miễn là,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1233,L2-0733,10534,纸,zhǐ,名,"biến thể của 紙|纸[zhi3] || giấy / LT:張|张[zhang1],沓[da2] / lượng từ cho tài liệu, thư từ, v.v.","biến thể của 紙|纸[zhi3] / giấy / lượng từ cho tài liệu, thư từ, v.v.","LT:張|张[zhang1],沓[da2]",,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1234,L2-0734,10607,中餐,zhōngcān,名,"bữa trưa / món ăn Trung Quốc; đồ ăn Trung Quốc / LT:份[fen4],頓|顿[dun4]",bữa trưa / món ăn Trung Quốc; đồ ăn Trung Quốc,"LT:份[fen4],頓|顿[dun4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+1235,L2-0735,10614,中级,zhōngjí,形,cấp trung (trong hệ thống phân cấp),cấp trung (trong hệ thống phân cấp),,,CHUA_CO,,CHUA
+1236,L2-0736,10618,中年,zhōngnián,名,tuổi trung niên,tuổi trung niên,,,CHUA_CO,,CHUA
+1237,L2-0737,10625,中小学,zhōng-xiǎoxué,,trường trung học và tiểu học,trường trung học và tiểu học,,,CHUA_CO,,CHUA
+1238,L2-0738,10626,中心,zhōngxīn,名,trung tâm; trái tim; cốt lõi,trung tâm; trái tim; cốt lõi,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1239,L2-0739,10634,中医,zhōngyī,名,y học cổ truyền Trung Quốc / bác sĩ được đào tạo về y học cổ truyền,y học cổ truyền Trung Quốc / bác sĩ được đào tạo về y học cổ truyền,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1240,L2-0740,10671,重点,zhòngdiǎn,名、副,điểm quan trọng; điểm chính; trọng tâm / dự án quan trọng / tập trung vào; nhấn mạnh vào,điểm quan trọng; điểm chính; trọng tâm / dự án quan trọng / tập trung vào; nhấn mạnh vào,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1241,L2-0741,10676,重视,zhòngshì,动,coi trọng; đánh giá cao,coi trọng; đánh giá cao,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1242,L2-0742,10681,周,zhōu,量,đi một vòng / xoay vòng / đường tròn / chu vi / vòng / chu kỳ / hoàn thành / tất cả / khắp / triệt để / hỗ trợ tài chính || tuần / hàng tuần / biến thể của 周[zhou1],đi một vòng / xoay vòng / đường tròn / chu vi / vòng / chu kỳ / hoàn thành / tất cả / khắp / triệt để / hỗ trợ tài chính / tuần / hàng tuần / biến thể của 周[zhou1],,,CHUA_CO,NHIEU_NHOM_NGHIA; NHIEU_NGHIA,CHUA
+1243,L2-0743,10685,周末,zhōumò,名,cuối tuần,cuối tuần,,,CHUA_CO,,CHUA
+1244,L2-0744,10686,周年,zhōunián,名,kỷ niệm / hàng năm,kỷ niệm / hàng năm,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1245,L2-0745,10720,主人,zhǔrén,名,chủ / chủ nhà / người chủ / LT:個|个[ge4],chủ / chủ nhà / người chủ,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1246,L2-0746,10729,主要,zhǔyào,形,chính; chủ yếu; quan trọng; hàng đầu,chính; chủ yếu; quan trọng; hàng đầu,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1247,L2-0747,10744,住房,zhùfáng,名,nhà ở,nhà ở,,,CHUA_CO,,CHUA
+1248,L2-0748,10747,住院,zhùyuàn,,nhập viện / điều trị nội trú,nhập viện / điều trị nội trú,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1249,L2-0749,10826,装,zhuāng,动,trang sức / trang trí / mặc / quần áo / trang phục (của diễn viên trong vở kịch) / đóng vai / giả vờ / lắp đặt / sửa chữa / gói (thứ gì vào túi) / tải / đóng gói,trang sức / trang trí / mặc / quần áo / trang phục (của diễn viên trong vở kịch) / đóng vai / giả vờ / lắp đặt / sửa chữa / gói (thứ gì vào túi) / tải / đóng gói,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1250,L2-0750,10858,准确,zhǔnquè,形,chính xác; đúng; chuẩn xác,chính xác; đúng; chuẩn xác,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1251,L2-0751,10909,自己,zìjǐ,代,bản thân / tự mình,bản thân / tự mình,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1252,L2-0752,10931,自行车,zìxíngchē,名,xe đạp / LT:輛|辆[liang4],xe đạp,LT:輛|辆[liang4],,CHUA_CO,,CHUA
+1253,L2-0753,10935,自由,zìyóu,名、形,tự do; sự tự do / tự do; không bị hạn chế / LT:種|种[zhong3],tự do; sự tự do / tự do; không bị hạn chế,LT:種|种[zhong3],,CHUA_CO,NHIEU_NGHIA,CHUA
+1254,L2-0754,10945,字典,zìdiǎn,名,"Từ điển chữ Hán (chứa mục từ cho từng chữ đơn, khác với 詞典|词典[ci2 dian3], chứa mục từ cho từ gồm một hoặc nhiều chữ) / (thông tục) từ điển / Lượng từ: 本[ben3]","Từ điển chữ Hán (chứa mục từ cho từng chữ đơn, khác với 詞典|词典[ci2 dian3], chứa mục từ cho từ gồm một hoặc nhiều chữ) / (thông tục) từ điển / Lượng từ: 本[ben3]",,,CHUA_CO,NHIEU_NGHIA,CHUA
+1255,L2-0755,10983,走过,zǒuguò,,đi qua / đi ngang qua,đi qua / đi ngang qua,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1256,L2-0756,10986,走进,zǒujìn,,đi vào,đi vào,,,CHUA_CO,,CHUA
+1257,L2-0757,10988,走开,zǒukāi,,rời đi; bỏ đi; cút đi / di chuyển sang bên,rời đi; bỏ đi; cút đi / di chuyển sang bên,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1258,L2-0758,10997,租,zū,动,thuê / mướn / thuê bao / cho thuê / cho mướn / tiền thuê / thuế đất,thuê / mướn / thuê bao / cho thuê / cho mướn / tiền thuê / thuế đất,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1259,L2-0759,11014,组,zǔ,动、名,"hình thành / tổ chức / nhóm / đội / lượng từ cho bộ, loạt, nhóm người, pin","hình thành / tổ chức / nhóm / đội / lượng từ cho bộ, loạt, nhóm người, pin",,,CHUA_CO,NHIEU_NGHIA,CHUA
+1260,L2-0760,11015,组成,zǔchéng,动,hình thành / tạo thành / cấu thành,hình thành / tạo thành / cấu thành,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1261,L2-0761,11018,组长,zǔzhǎng,名,tổ trưởng,tổ trưởng,,,CHUA_CO,,CHUA
+1262,L2-0762,11032,嘴,zuǐ,名,"miệng / mỏ / vòi / vòi ấm trà, v.v. / LT:張|张[zhang1],個|个[ge4]","miệng / mỏ / vòi / vòi ấm trà, v.v.","LT:張|张[zhang1],個|个[ge4]",,CHUA_CO,NHIEU_NGHIA,CHUA
+1263,L2-0763,11040,最近,zuìjìn,名,gần đây / sắp / tới nhất,gần đây / sắp / tới nhất,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1264,L2-0764,11067,作家,zuòjiā,名,"tác giả / LT:個|个[ge4],位[wei4]",tác giả,"LT:個|个[ge4],位[wei4]",,CHUA_CO,,CHUA
+1265,L2-0765,11071,作文,zuòwén,名,viết bài văn / bài làm văn (bài luận của học sinh) / LT:篇[pian1],viết bài văn / bài làm văn (bài luận của học sinh),LT:篇[pian1],,CHUA_CO,NHIEU_NGHIA,CHUA
+1266,L2-0766,11073,作业,zuòyè,名,bài tập về nhà / bài tập / công việc / nhiệm vụ / vận hành / LT:個|个[ge4] / thao tác,bài tập về nhà / bài tập / công việc / nhiệm vụ / vận hành / thao tác,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1267,L2-0767,11074,作用,zuòyòng,名,"tác động đến; ảnh hưởng / hành động; chức năng; hoạt động / tác động; kết quả; hiệu quả / mục đích; ý định / hậu tố -ation, -tion, v.v., như trong 抑制作用[yi4 zhi4 zuo4 yong4], ức chế","tác động đến; ảnh hưởng / hành động; chức năng; hoạt động / tác động; kết quả; hiệu quả / mục đích; ý định / hậu tố -ation, -tion, v.v., như trong 抑制作用[yi4 zhi4 zuo4 yong4], ức chế",,,CHUA_CO,NHIEU_NGHIA,CHUA
+1268,L2-0768,11080,座,zuò,量,"chỗ ngồi / cơ sở / đế / (cổ) hậu tố dùng trong cách xưng hô tôn kính, ví dụ: 师座|师座[shi1 zuo4] / LT:個|个[ge4] / lượng từ cho tòa nhà, núi và các vật thể cố định tương tự","chỗ ngồi / cơ sở / đế / (cổ) hậu tố dùng trong cách xưng hô tôn kính, ví dụ: 师座|师座[shi1 zuo4] / lượng từ cho tòa nhà, núi và các vật thể cố định tương tự",LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1269,L2-0769,11083,座位,zuòwèi,名,chỗ ngồi / LT:個|个[ge4],chỗ ngồi,LT:個|个[ge4],,CHUA_CO,,CHUA
+1270,L2-0770,11086,做到,zuòdào,,hoàn thành / đạt được,hoàn thành / đạt được,,,CHUA_CO,NHIEU_NGHIA,CHUA
+1271,L2-0771,11087,做法,zuòfǎ,名,cách xử lý / phương pháp làm / cách làm / công thức / thực hành / LT:個|个[ge4],cách xử lý / phương pháp làm / cách làm / công thức / thực hành,LT:個|个[ge4],,CHUA_CO,NHIEU_NGHIA,CHUA
+1272,L2-0772,11088,做饭,zuòfàn,,chuẩn bị bữa ăn / nấu ăn,chuẩn bị bữa ăn / nấu ăn,,,CHUA_CO,NHIEU_NGHIA,CHUA

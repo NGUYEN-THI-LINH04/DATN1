@@ -1,0 +1,36 @@
+SHADOWING HSK3 - VIDEO 4
+YouTube: yaeECV1JRjM
+So doan: 396
+So ban dich: 396
+Doan ngan < 0.8s: 18
+Doan dai > 10s: 0
+Timestamp chong nhau: 0
+
+===== CAC DOAN NGAN =====
+035 | 0.700s | 好吧好吧，
+039 | 0.233s | 好。
+052 | 0.766s | 我听过。
+054 | 0.533s | 你等一下，
+056 | 0.500s | 好啊，
+060 | 0.400s | 嗯……
+063 | 0.400s | 但是……
+094 | 0.733s | 不远。
+111 | 0.434s | 好！
+114 | 0.233s | 行！
+199 | 0.666s | 薯片！
+231 | 0.733s | 嗯，
+239 | 0.467s | 果汁？
+254 | 0.634s | 水，
+259 | 0.700s | 哇，
+273 | 0.234s | 你看，
+283 | 0.233s | 好！
+285 | 0.600s | 好了，
+
+===== CAN RA SOAT =====
+032: Ky hieu tieng cuoi.
+039, 114, 273, 283: Doan rat ngan.
+Kiem tra cac tu da am trong pinyin.
+Ban dich can duoc doi chieu voi am thanh.
+Khong tu dong ghep cac doan phu de.
+
+CHUA CAP NHAT SQL SERVER.

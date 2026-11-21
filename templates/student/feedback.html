@@ -1,0 +1,468 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Góp ý | Mộc Hán
+{% endblock %}
+
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/feedback.css') }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+<!-- ==================================================
+     MỘC HÁN - GÓP Ý DÀNH CHO NGƯỜI HỌC
+
+     Backend:
+         routes/student/feedback.py
+
+     CSS:
+         static/css/feedback.css
+
+     JavaScript:
+         static/js/feedback.js
+
+     API:
+         GET  /student/feedback/api/list
+         POST /student/feedback/api/send
+================================================== -->
+
+<section
+    class="feedback-page"
+    id="feedbackPage"
+    data-list-url="{{ url_for('student_feedback.api_list') }}"
+    data-send-url="{{ url_for('student_feedback.api_send') }}"
+>
+
+    <!-- ==============================================
+         1. CSRF
+    ============================================== -->
+
+    <input
+        type="hidden"
+        id="feedbackCsrfToken"
+        name="csrf_token"
+        value="{{ csrf_token() }}"
+    >
+
+
+    <!-- ==============================================
+         2. TIÊU ĐỀ
+    ============================================== -->
+
+    <header class="feedback-header">
+
+        <div class="feedback-header-content">
+
+            <span class="feedback-eyebrow">
+                GÓC GÓP Ý
+            </span>
+
+            <h1>
+                Góp ý cho Mộc Hán
+            </h1>
+
+            <p>
+                Nếu gặp khó khăn khi sử dụng website
+                hoặc có đề xuất cải thiện,
+                bạn có thể gửi góp ý tại đây.
+            </p>
+
+        </div>
+
+        <div
+            class="feedback-header-icon"
+            aria-hidden="true"
+        >
+            意
+        </div>
+
+    </header>
+
+
+    <!-- ==============================================
+         3. THÔNG BÁO CHUNG
+    ============================================== -->
+
+    <div
+        id="feedbackNotice"
+        class="feedback-notice"
+        role="status"
+        aria-live="polite"
+        hidden
+    ></div>
+
+
+    <!-- ==============================================
+         4. BIỂU MẪU GỬI GÓP Ý
+    ============================================== -->
+
+    <section
+        class="feedback-form-section"
+        aria-labelledby="feedbackFormTitle"
+    >
+
+        <div class="feedback-section-heading">
+
+            <div>
+
+                <h2 id="feedbackFormTitle">
+                    Gửi góp ý
+                </h2>
+
+                <p>
+                    Nội dung của bạn sẽ được gửi
+                    đến Quản trị viên để xem xét.
+                </p>
+
+            </div>
+
+            <span
+                class="feedback-heading-symbol"
+                aria-hidden="true"
+            >
+                ✎
+            </span>
+
+        </div>
+
+
+        <form
+            id="feedbackForm"
+            class="feedback-form"
+            method="post"
+            action="{{ url_for('student_feedback.api_send') }}"
+        >
+
+            <div class="feedback-field">
+
+                <label for="feedbackContent">
+                    Nội dung góp ý
+                    <span class="feedback-required">*</span>
+                </label>
+
+                <textarea
+                    id="feedbackContent"
+                    name="content"
+                    rows="6"
+                    minlength="10"
+                    maxlength="4000"
+                    required
+                    placeholder="Ví dụ: Mình muốn góp ý về phần luyện nghe Shadowing hoặc đề xuất thêm một tính năng cho website..."
+                    aria-describedby="feedbackContentHelp feedbackCharacterCount"
+                ></textarea>
+
+                <div class="feedback-field-bottom">
+
+                    <small id="feedbackContentHelp">
+                        Nhập từ 10 đến 4000 ký tự.
+                    </small>
+
+                    <small
+                        id="feedbackCharacterCount"
+                        class="feedback-character-count"
+                    >
+                        0 / 4000
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="feedback-form-footer">
+
+                <p class="feedback-form-note">
+                    Góp ý được lưu theo tài khoản
+                    của bạn và có thể xem lại
+                    trong phần lịch sử.
+                </p>
+
+                <button
+                    type="submit"
+                    id="feedbackSubmitButton"
+                    class="feedback-submit-button"
+                >
+
+                    <span
+                        class="feedback-submit-icon"
+                        aria-hidden="true"
+                    >
+                        ➤
+                    </span>
+
+                    <span id="feedbackSubmitText">
+                        Gửi góp ý
+                    </span>
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+
+    <!-- ==============================================
+         5. LỊCH SỬ GÓP Ý
+    ============================================== -->
+
+    <section
+        class="feedback-history-section"
+        aria-labelledby="feedbackHistoryTitle"
+    >
+
+        <div class="feedback-section-heading">
+
+            <div>
+
+                <h2 id="feedbackHistoryTitle">
+                    Lịch sử góp ý
+                </h2>
+
+                <p>
+                    Theo dõi các góp ý đã gửi
+                    và phản hồi từ Quản trị viên.
+                </p>
+
+            </div>
+
+            <button
+                type="button"
+                id="feedbackRefreshButton"
+                class="feedback-refresh-button"
+                title="Tải lại lịch sử góp ý"
+            >
+                ↻ Làm mới
+            </button>
+
+        </div>
+
+
+        <!-- BỘ LỌC TRẠNG THÁI -->
+
+        <div
+            class="feedback-filters"
+            role="group"
+            aria-label="Lọc góp ý theo trạng thái"
+        >
+
+            <button
+                type="button"
+                class="feedback-filter-button active"
+                data-status="all"
+                aria-pressed="true"
+            >
+                Tất cả
+            </button>
+
+            <button
+                type="button"
+                class="feedback-filter-button"
+                data-status="moi"
+                aria-pressed="false"
+            >
+                Chờ xử lý
+            </button>
+
+            <button
+                type="button"
+                class="feedback-filter-button"
+                data-status="dang_xu_ly"
+                aria-pressed="false"
+            >
+                Đang xử lý
+            </button>
+
+            <button
+                type="button"
+                class="feedback-filter-button"
+                data-status="da_xu_ly"
+                aria-pressed="false"
+            >
+                Đã xử lý
+            </button>
+
+        </div>
+
+
+        <!-- TRẠNG THÁI ĐANG TẢI -->
+
+        <div
+            id="feedbackHistoryLoading"
+            class="feedback-history-message"
+            role="status"
+            hidden
+        >
+            Đang tải lịch sử góp ý...
+        </div>
+
+
+        <!-- LỖI TẢI LỊCH SỬ -->
+
+        <div
+            id="feedbackHistoryError"
+            class="feedback-history-error"
+            role="alert"
+            hidden
+        ></div>
+
+
+        <!-- DANH SÁCH GÓP Ý -->
+
+        <div
+            id="feedbackHistoryList"
+            class="feedback-history-list"
+            aria-live="polite"
+        ></div>
+
+
+        <!-- CHƯA CÓ GÓP Ý -->
+
+        <div
+            id="feedbackHistoryEmpty"
+            class="feedback-history-empty"
+            hidden
+        >
+
+            <div
+                class="feedback-empty-icon"
+                aria-hidden="true"
+            >
+                信
+            </div>
+
+            <h3>
+                Chưa có góp ý nào
+            </h3>
+
+            <p>
+                Những góp ý bạn gửi sẽ xuất hiện
+                ở đây để bạn dễ dàng theo dõi.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================================
+         6. MẪU THẺ GÓP Ý
+
+         Dữ liệu từ API:
+             id
+             content
+             status
+             status_label
+             admin_reply
+             created_at
+             resolved_at
+    ============================================== -->
+
+    <template id="feedbackItemTemplate">
+
+        <article class="feedback-item">
+
+            <div class="feedback-item-header">
+
+                <div class="feedback-item-information">
+
+                    <span class="feedback-item-number">
+                    </span>
+
+                    <time class="feedback-item-date">
+                    </time>
+
+                </div>
+
+                <span class="feedback-status">
+                </span>
+
+            </div>
+
+
+            <!-- NỘI DUNG NGƯỜI HỌC GỬI -->
+
+            <div class="feedback-item-body">
+
+                <h3>
+                    Nội dung góp ý
+                </h3>
+
+                <p class="feedback-item-content">
+                </p>
+
+            </div>
+
+
+            <!-- PHẢN HỒI QUẢN TRỊ VIÊN -->
+
+            <div
+                class="feedback-admin-reply"
+                hidden
+            >
+
+                <div class="feedback-admin-reply-header">
+
+                    <span
+                        class="feedback-admin-icon"
+                        aria-hidden="true"
+                    >
+                        回
+                    </span>
+
+                    <strong>
+                        Phản hồi từ Quản trị viên
+                    </strong>
+
+                </div>
+
+                <p class="feedback-admin-reply-content">
+                </p>
+
+                <time class="feedback-resolved-date">
+                </time>
+
+            </div>
+
+
+            <!-- CHỜ PHẢN HỒI -->
+
+            <div
+                class="feedback-pending-reply"
+                hidden
+            >
+                Quản trị viên chưa gửi phản hồi
+                cho góp ý này.
+            </div>
+
+        </article>
+
+    </template>
+
+</section>
+
+{% endblock %}
+
+
+<!-- ==============================================
+     7. JAVASCRIPT
+============================================== -->
+
+{% block scripts %}
+
+{{ super() }}
+
+<script
+    src="{{ url_for('static', filename='js/feedback.js') }}"
+    defer
+></script>
+
+{% endblock %}

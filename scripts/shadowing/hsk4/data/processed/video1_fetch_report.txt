@@ -1,0 +1,20 @@
+SHADOWING HSK4 - VIDEO 1
+YouTube ID: qAbVNWgPRJE
+Tieu de: 中餐厅生存指南 - Giao tiếp tại nhà hàng Trung Quốc
+So doan: 314
+Ty le chu Han: 100.0%
+Doan trung: 0
+Timestamp chong nhau: 0
+Doan < 0.8s: 3
+Doan > 10s: 0
+
+===== CAC DOAN QUA NGAN =====
+029 | 0.633s | 我想，
+067 | 0.667s | 最后，
+251 | 0.600s | 王雨，
+
+===== CAC DOAN QUA DAI =====
+
+CHUA TAO PINYIN.
+CHUA DICH TIENG VIET.
+CHUA CAP NHAT SQL SERVER.

@@ -1,0 +1,628 @@
+﻿# -*- coding: utf-8 -*-
+"""
+MOC HAN - TACH 60 CAU HSK2 DE 1 (H20901)
+
+PDF:
+  Trang 1: Bia
+  Trang 2-13: Cau hoi
+  Trang 14-17: Loi thoai nghe - KHONG TACH
+  Trang 18: Dap an - KHONG TACH
+
+Tao:
+  - 60 anh cau hoi
+  - 6 anh bang lua chon chung
+  - HTML xem truoc
+  - JSON danh sach anh
+
+Khong thay doi SQL Server.
+"""
+
+from pathlib import Path
+import json
+import re
+import html
+import unicodedata
+import fitz
+
+
+# =====================================================
+# 1. DUONG DAN
+# =====================================================
+
+ROOT = Path(r"D:\DATN1\scripts\luyen_thi")
+
+PDF_PATH = (
+    ROOT / "source" / "De_HSK" / "HSK2"
+    / "Đề HSK 2 số 1 file pdf.pdf"
+)
+
+DATA_DIR = ROOT / "hsk2" / "data" / "de_01"
+OUT_DIR = ROOT / "hsk2" / "output" / "de_01"
+
+QUESTION_DIR = OUT_DIR / "questions"
+GROUP_DIR = OUT_DIR / "groups"
+
+HTML_PATH = OUT_DIR / "kiem_tra_60_cau.html"
+JSON_PATH = DATA_DIR / "hinh_60_cau_ung_vien.json"
+
+
+# =====================================================
+# 2. SO CAU TREN TUNG TRANG PDF
+# =====================================================
+
+PAGE_QUESTIONS = {
+    2: list(range(1, 6)),
+    3: list(range(6, 11)),
+    4: list(range(11, 16)),
+    5: list(range(16, 21)),
+    6: list(range(21, 31)),
+    7: list(range(31, 36)),
+    8: list(range(36, 41)),
+    9: list(range(41, 46)),
+    10: [46, 47, 48],
+    11: [49, 50],
+    12: list(range(51, 56)),
+    13: list(range(56, 61)),
+}
+
+# Trang PDF chua bang lua chon chung.
+GROUP_PAGES = {
+    "nghe_11_15": 4,
+    "nghe_16_20": 5,
+    "doc_36_40": 8,
+    "doc_41_45": 9,
+    "doc_51_55": 12,
+    "doc_56_60": 13,
+}
+
+
+# =====================================================
+# 3. TIM VI TRI SO CAU TU PDF
+# =====================================================
+
+def parse_number(value):
+    value = unicodedata.normalize(
+        "NFKC", str(value)
+    ).strip()
+
+    value = value.rstrip(".、):：")
+
+    if re.fullmatch(r"\d{1,2}", value):
+        return int(value)
+
+    return None
+
+
+def find_positions(page, numbers):
+    candidates = {n: [] for n in numbers}
+
+    for word in page.get_text("words"):
+        x0, y0, x1, y1, content = word[:5]
+
+        number = parse_number(content)
+
+        if number not in candidates:
+            continue
+
+        # So thu tu cau thuong o cot trai.
+        if x0 > page.rect.width * 0.34:
+            continue
+
+        # Bo cac ky hieu o dau/cuoi trang.
+        if not (
+            page.rect.height * 0.06
+            < y0
+            < page.rect.height * 0.94
+        ):
+            continue
+
+        candidates[number].append(
+            (x0, y0, x1, y1)
+        )
+
+    positions = {}
+    missing = []
+
+    for number in numbers:
+        options = candidates[number]
+
+        if not options:
+            missing.append(number)
+            continue
+
+        # Uu tien so cau tai le trai.
+        chosen = min(
+            options,
+            key=lambda p: (p[0], p[1])
+        )
+
+        positions[number] = chosen
+
+    if missing:
+        print("\nKHONG TIM THAY CAC SO CAU:", missing)
+
+        print("\nCAC TU SO TRICH XUAT DUOC:")
+
+        for word in page.get_text("words"):
+            number = parse_number(word[4])
+
+            if number is not None:
+                print(
+                    f"{number}: "
+                    f"x={word[0]:.1f}, "
+                    f"y={word[1]:.1f}"
+                )
+
+        raise RuntimeError(
+            f"Khong nhan dien du cau {missing}."
+        )
+
+    return positions
+
+
+# =====================================================
+# 4. TIM DUONG KE BANG NGHE 1-10
+# =====================================================
+
+def horizontal_lines(page):
+    result = []
+
+    for drawing in page.get_drawings():
+        for item in drawing.get("items", []):
+            if item[0] != "l":
+                continue
+
+            p1, p2 = item[1], item[2]
+
+            if abs(p1.y - p2.y) > 1.5:
+                continue
+
+            if abs(p1.x - p2.x) < page.rect.width * 0.5:
+                continue
+
+            result.append(
+                (p1.y + p2.y) / 2
+            )
+
+    return sorted(set(round(y, 1) for y in result))
+
+
+def table_rect(page, numbers, positions, index):
+    number = numbers[index]
+
+    y = positions[number][1]
+    ys = [positions[n][1] for n in numbers]
+
+    lines = horizontal_lines(page)
+
+    above = [
+        line for line in lines
+        if line < y - 8
+    ]
+
+    below = [
+        line for line in lines
+        if line > y + 8
+    ]
+
+    top = None
+    bottom = None
+
+    if above and below:
+        candidate_top = max(above)
+        candidate_bottom = min(below)
+
+        height = candidate_bottom - candidate_top
+
+        if 35 <= height <= 190:
+            top = candidate_top + 2
+            bottom = candidate_bottom - 2
+
+    # Du phong neu bang khong co duong ke vector.
+    if top is None:
+        if index > 0:
+            top = (ys[index - 1] + y) / 2
+        else:
+            step = ys[1] - y
+            top = y - step / 2
+
+        if index + 1 < len(ys):
+            bottom = (y + ys[index + 1]) / 2
+        else:
+            step = y - ys[index - 1]
+            bottom = y + step / 2
+
+    return fitz.Rect(
+        page.rect.width * 0.02,
+        max(8, top),
+        page.rect.width * 0.71,
+        min(page.rect.height - 18, bottom)
+    )
+
+
+# =====================================================
+# 5. VUNG CAT CAU HOI VAN BAN
+# =====================================================
+
+def text_rect(page, numbers, positions, index):
+    number = numbers[index]
+    y = positions[number][1]
+
+    top = y - 25
+
+    if index < len(numbers) - 1:
+        next_number = numbers[index + 1]
+        next_y = positions[next_number][1]
+
+        bottom = next_y - 17
+
+    else:
+        # Tim noi dung cuoi cua cau o trang hien tai.
+        content_words = [
+            word for word in page.get_text("words")
+            if (
+                word[1] >= y - 3
+                and word[1] < page.rect.height - 60
+            )
+        ]
+
+        if content_words:
+            last_y = max(
+                word[3] for word in content_words
+            )
+        else:
+            last_y = y + 22
+
+        bottom = max(
+            y + 42,
+            last_y + 15
+        )
+
+    top = max(15, top)
+    bottom = min(
+        page.rect.height - 40,
+        bottom
+    )
+
+    if bottom <= top + 15:
+        raise ValueError(
+            f"Vung cat khong hop le: cau {number}"
+        )
+
+    return fitz.Rect(
+        page.rect.width * 0.025,
+        top,
+        page.rect.width * 0.975,
+        bottom
+    )
+
+
+# =====================================================
+# 6. VUNG CAT BANG LUA CHON CHUNG
+# =====================================================
+
+def group_rect(page, first_question_y):
+    top = page.rect.height * 0.085
+
+    # Uu tien ket thuc truoc dong "Vi du".
+    examples = page.search_for("例如")
+
+    valid_examples = [
+        r.y0 for r in examples
+        if top < r.y0 < first_question_y
+    ]
+
+    if valid_examples:
+        bottom = min(valid_examples) - 12
+    else:
+        bottom = first_question_y - 38
+
+    if bottom <= top + 55:
+        raise RuntimeError(
+            "Vung bang lua chon qua hep."
+        )
+
+    return fitz.Rect(
+        page.rect.width * 0.025,
+        top,
+        page.rect.width * 0.975,
+        bottom
+    )
+
+
+# =====================================================
+# 7. XUAT ANH
+# =====================================================
+
+def save_crop(page, rect, path, zoom=2.5):
+    rect = rect & page.rect
+
+    if rect.is_empty:
+        raise RuntimeError(
+            f"Vung cat rong: {path.name}"
+        )
+
+    pix = page.get_pixmap(
+        matrix=fitz.Matrix(zoom, zoom),
+        clip=rect,
+        alpha=False
+    )
+
+    pix.save(str(path))
+
+
+# =====================================================
+# 8. TAO HTML KIEM TRA
+# =====================================================
+
+SECTIONS = [
+    ("Nghe - Phan 1 (1-10)", 1, 10, None),
+    ("Nghe - Phan 2 (11-15)", 11, 15, "nghe_11_15"),
+    ("Nghe - Phan 2 (16-20)", 16, 20, "nghe_16_20"),
+    ("Nghe - Phan 3 (21-30)", 21, 30, None),
+    ("Nghe - Phan 4 (31-35)", 31, 35, None),
+    ("Doc - Phan 1 (36-40)", 36, 40, "doc_36_40"),
+    ("Doc - Phan 2 (41-45)", 41, 45, "doc_41_45"),
+    ("Doc - Phan 3 (46-50)", 46, 50, None),
+    ("Doc - Phan 4 (51-55)", 51, 55, "doc_51_55"),
+    ("Doc - Phan 4 (56-60)", 56, 60, "doc_56_60"),
+]
+
+
+def make_html():
+    parts = [
+        """<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HSK2 De 1 - Kiem tra 60 cau</title>
+<style>
+*{box-sizing:border-box}
+body{
+    font-family:Arial,sans-serif;
+    background:#f3f5f9;
+    color:#17243c;
+    margin:0;
+    padding:24px;
+}
+main{max-width:1100px;margin:auto}
+h1{font-size:24px}
+h2{font-size:19px;margin-top:32px}
+p{line-height:1.6}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:12px;
+}
+.card,.group{
+    background:white;
+    border:1px solid #d8e0ed;
+    border-radius:10px;
+    padding:12px;
+}
+.card strong{
+    display:block;
+    color:#1254a5;
+    margin-bottom:10px;
+}
+.card img,.group img{
+    display:block;
+    width:100%;
+    height:auto;
+    object-fit:contain;
+}
+.group{
+    margin:12px 0 18px;
+    max-width:850px;
+}
+.group strong{
+    display:block;
+    margin-bottom:10px;
+}
+@media(max-width:700px){
+    .grid{grid-template-columns:1fr}
+    body{padding:12px}
+}
+</style>
+</head>
+<body>
+<main>
+<h1>HSK2 - De 1 (H20901)</h1>
+<p>60 cau hoi. Anh duoc cat tu trang PDF 2-13.
+Khong co dap an va khong co loi thoai nghe.</p>
+"""
+    ]
+
+    for title, start, end, group in SECTIONS:
+        parts.append(
+            f"<h2>{html.escape(title)}</h2>"
+        )
+
+        if group:
+            parts.append(
+                '<div class="group">'
+                '<strong>Bang lua chon chung</strong>'
+                f'<img src="groups/{group}.png" '
+                'alt="Bang lua chon">'
+                '</div>'
+            )
+
+        parts.append('<div class="grid">')
+
+        for number in range(start, end + 1):
+            parts.append(
+                '<div class="card">'
+                f'<strong>Cau {number:02d}</strong>'
+                f'<img src="questions/cau_{number:02d}.png" '
+                f'alt="Cau {number}">'
+                '</div>'
+            )
+
+        parts.append("</div>")
+
+    parts.append("</main></body></html>")
+
+    HTML_PATH.write_text(
+        "\n".join(parts),
+        encoding="utf-8"
+    )
+
+
+# =====================================================
+# 9. MAIN
+# =====================================================
+
+def main():
+    print("=" * 60)
+    print("MOC HAN - TACH 60 CAU HSK2 - H20901")
+    print("=" * 60)
+
+    if not PDF_PATH.is_file():
+        raise FileNotFoundError(PDF_PATH)
+
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    QUESTION_DIR.mkdir(parents=True, exist_ok=True)
+    GROUP_DIR.mkdir(parents=True, exist_ok=True)
+
+    question_positions = {}
+    manifest_questions = {}
+    manifest_groups = {}
+
+    with fitz.open(PDF_PATH) as doc:
+        print(f"So trang PDF: {len(doc)}")
+
+        if len(doc) != 18:
+            raise RuntimeError(
+                "So trang PDF khac bo H20901 da kiem tra."
+            )
+
+        # Buoc 1: Tim du 60 so cau truoc khi cat.
+        for page_no, numbers in PAGE_QUESTIONS.items():
+            page = doc[page_no - 1]
+
+            positions = find_positions(
+                page, numbers
+            )
+
+            question_positions[page_no] = positions
+
+            print(
+                f"Trang {page_no:02d}: "
+                f"tim thay {len(positions)}/{len(numbers)} cau"
+            )
+
+        all_numbers = sorted(
+            number
+            for numbers in PAGE_QUESTIONS.values()
+            for number in numbers
+        )
+
+        if all_numbers != list(range(1, 61)):
+            raise RuntimeError(
+                "Danh sach cau hoi khong du 1-60."
+            )
+
+        print("\n===== TACH 60 CAU HOI =====")
+
+        for page_no, numbers in PAGE_QUESTIONS.items():
+            page = doc[page_no - 1]
+            positions = question_positions[page_no]
+
+            for index, number in enumerate(numbers):
+                if number <= 10:
+                    rect = table_rect(
+                        page, numbers, positions, index
+                    )
+                else:
+                    rect = text_rect(
+                        page, numbers, positions, index
+                    )
+
+                filename = f"cau_{number:02d}.png"
+                output = QUESTION_DIR / filename
+
+                save_crop(page, rect, output)
+
+                manifest_questions[str(number)] = {
+                    "trang_pdf": page_no,
+                    "anh": f"questions/{filename}",
+                    "toa_do": [
+                        round(v, 2) for v in rect
+                    ]
+                }
+
+                print(
+                    f"Cau {number:02d}: "
+                    f"trang {page_no}, "
+                    f"y={rect.y0:.1f}-{rect.y1:.1f}"
+                )
+
+        print("\n===== TACH BANG LUA CHON =====")
+
+        for group_name, page_no in GROUP_PAGES.items():
+            page = doc[page_no - 1]
+            numbers = PAGE_QUESTIONS[page_no]
+
+            first_number = numbers[0]
+            first_y = (
+                question_positions[page_no]
+                [first_number][1]
+            )
+
+            rect = group_rect(page, first_y)
+
+            filename = f"{group_name}.png"
+            output = GROUP_DIR / filename
+
+            save_crop(page, rect, output)
+
+            manifest_groups[group_name] = {
+                "trang_pdf": page_no,
+                "anh": f"groups/{filename}",
+                "toa_do": [
+                    round(v, 2) for v in rect
+                ]
+            }
+
+            print(
+                f"{group_name}: trang {page_no}"
+            )
+
+    result = {
+        "cap_hsk": 2,
+        "so_de": 1,
+        "ma_de_goc": "H20901",
+        "tong_cau": 60,
+        "nghe": 35,
+        "doc": 25,
+        "trang_cau_hoi": list(range(2, 14)),
+        "trang_bo_qua": [1, 14, 15, 16, 17, 18],
+        "cau_hoi": manifest_questions,
+        "bang_lua_chon": manifest_groups,
+    }
+
+    JSON_PATH.write_text(
+        json.dumps(
+            result,
+            ensure_ascii=False,
+            indent=2
+        ),
+        encoding="utf-8"
+    )
+
+    make_html()
+
+    print("\n" + "=" * 60)
+    print("HOAN THANH")
+    print("=" * 60)
+    print(f"So anh cau hoi: {len(manifest_questions)}")
+    print(f"So bang lua chon: {len(manifest_groups)}")
+    print(f"HTML: {HTML_PATH}")
+    print(f"JSON: {JSON_PATH}")
+    print("Khong thay doi SQL Server.")
+    print("Chua duyet hoac xuat ban de.")
+
+
+if __name__ == "__main__":
+    main()

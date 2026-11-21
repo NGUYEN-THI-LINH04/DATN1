@@ -1,0 +1,120 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Shadowing HSK{{ level }} | Mộc Hán
+{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/shadowing.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="shadowing-page shadowing-library">
+
+    <a href="{{ url_for('shadowing.index') }}"
+       class="shadowing-back">
+        ← Quay lại Shadowing
+    </a>
+
+    <div class="shadowing-library-heading">
+        <div>
+            <span class="shadowing-kicker">
+                MỘC HÁN · LUYỆN NGHE
+            </span>
+            <h1>Shadowing HSK{{ level }}</h1>
+            <p>
+                Chọn video để luyện nghe, xem bản chép, chép chính tả và ghép câu.
+            </p>
+        </div>
+        <span class="shadowing-library-symbol">🎧</span>
+    </div>
+
+    <div class="shadowing-library-toolbar">
+        <label class="shadowing-search">
+            <span>⌕</span>
+            <input
+                id="shadowingSearch"
+                type="search"
+                placeholder="Tìm kiếm video..."
+                autocomplete="off"
+            >
+        </label>
+
+        <select id="shadowingModeFilter"
+                aria-label="Lọc chế độ luyện tập">
+            <option value="all">Tất cả video</option>
+            <option value="shadowing">Shadowing</option>
+            <option value="dictation">Chép chính tả</option>
+            <option value="assemble">Ghép câu</option>
+        </select>
+    </div>
+
+    <div class="shadowing-library-meta">
+        <strong>Danh sách video</strong>
+        <span id="shadowingVideoCount">
+            {{ videos|length }} video
+        </span>
+    </div>
+
+    <div class="shadowing-video-grid"
+         id="shadowingVideoGrid">
+
+        {% for video in videos %}
+        <article
+            class="shadowing-video-card"
+            data-title="{{ video.title|lower }}"
+            data-modes="{{ video.modes|default('shadowing,dictation,assemble') }}"
+        >
+            <div class="shadowing-video-thumbnail">
+                {% if video.thumbnail %}
+                    <img
+                        src="{{ video.thumbnail }}"
+                        alt="{{ video.title }}"
+                        loading="lazy"
+                    >
+                {% else %}
+                    <span>▶</span>
+                {% endif %}
+            </div>
+
+            <div class="shadowing-video-info">
+                <span class="shadowing-video-tag">
+                    HSK{{ level }}
+                </span>
+                <h3>{{ video.title }}</h3>
+                <p>{{ video.description|default('') }}</p>
+
+                {% if video.url %}
+                <a href="{{ video.url }}"
+                   class="shadowing-video-open">
+                    Bắt đầu luyện →
+                </a>
+                {% endif %}
+            </div>
+        </article>
+        {% endfor %}
+
+    </div>
+
+    <div class="shadowing-empty"
+         id="shadowingEmpty"
+         {% if videos %}hidden{% endif %}>
+        <h3>Chưa có video phù hợp</h3>
+        <p>
+            {% if videos %}
+                Hãy thử từ khóa hoặc bộ lọc khác.
+            {% else %}
+                Chưa có video HSK{{ level }} được kết nối.
+                Nội dung sẽ hiển thị tại đây sau khi
+                liên kết dữ liệu từ SQL Server.
+            {% endif %}
+        </p>
+    </div>
+
+</section>
+
+<script src="{{ url_for('static', filename='js/shadowing-library.js') }}"
+        defer></script>
+{% endblock %}

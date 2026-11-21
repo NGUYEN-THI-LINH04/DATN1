@@ -1,0 +1,12 @@
+{
+  "buoc": "20D",
+  "status": "PASS",
+  "total": 182,
+  "uu_tien": 37,
+  "thuong": 145,
+  "output": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\hanzi_hsk4_182_meaning_review_proposed.csv",
+  "sha256": "846848de877623616df2c956e8671e1834dbeb2dd4f35ff14be0ef00f1c9244e",
+  "ghi_sql": false,
+  "gan_bai_hoc": false,
+  "tao_audio": false
+}

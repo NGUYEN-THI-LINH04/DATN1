@@ -1,0 +1,759 @@
+
+/* =====================================================
+   MỘC HÁN - ADMIN KIỂM DUYỆT ĐỀ HSK
+
+   CSS chỉ áp dụng trong .lt-admin.
+   Không ảnh hưởng các trang Admin khác.
+===================================================== */
+
+.lt-admin {
+    --lt-ink: #26313e;
+    --lt-subtle: #64748b;
+    --lt-border: #e2e8f0;
+    --lt-blue: #315c9d;
+
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 12px 0 48px;
+
+    color: var(--lt-ink);
+    font-size: 14px;
+}
+
+.lt-admin *,
+.lt-admin *::before,
+.lt-admin *::after {
+    box-sizing: border-box;
+}
+
+.lt-admin a {
+    text-decoration: none;
+}
+
+
+/* TIÊU ĐỀ */
+
+.lt-admin-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 22px;
+}
+
+.lt-admin-eyebrow {
+    color: #b56a32;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .09em;
+}
+
+.lt-admin-header h1 {
+    margin: 6px 0;
+    font-size: clamp(22px, 2.5vw, 29px);
+    font-weight: 800;
+}
+
+.lt-admin-header p {
+    max-width: 700px;
+    margin: 0;
+    color: var(--lt-subtle);
+    line-height: 1.6;
+}
+
+.lt-admin-back,
+.lt-admin-open {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 9px 13px;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 9px;
+
+    background: #fff;
+    color: var(--lt-blue);
+
+    font-weight: 750;
+    white-space: nowrap;
+}
+
+.lt-admin-back:hover,
+.lt-admin-open:hover {
+    background: #eff6ff;
+    border-color: #9fb8df;
+}
+
+
+/* KHUNG NỘI DUNG */
+
+.lt-admin-panel,
+.lt-admin-question {
+    border: 1px solid var(--lt-border);
+    border-radius: 15px;
+
+    background: #fff;
+
+    box-shadow:
+        0 4px 15px rgba(22, 39, 61, .045);
+}
+
+.lt-admin-panel {
+    padding: 23px;
+}
+
+
+/* TỔNG QUAN ĐỀ */
+
+.lt-admin-overview-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.lt-admin-subtitle {
+    color: #bd7135;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.lt-admin-overview h2 {
+    margin: 5px 0 19px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.lt-admin-status {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+
+    padding: 5px 10px;
+
+    border: 1px solid #e8d3a8;
+    border-radius: 999px;
+
+    background: #fff4dc;
+    color: #91601b;
+
+    font-size: 11px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.lt-admin-status--da_xuat_ban {
+    border-color: #b9dfc9;
+    background: #e9f8ee;
+    color: #16643c;
+}
+
+.lt-admin-status--cho_duyet {
+    border-color: #c7daf7;
+    background: #ecf4ff;
+    color: #245a9b;
+}
+
+.lt-admin-status--luu_tru {
+    border-color: #dce1e7;
+    background: #f1f3f6;
+    color: #66758a;
+}
+
+
+/* THỐNG KÊ */
+
+.lt-admin-stats {
+    display: grid;
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.lt-admin-stats > div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    padding: 13px 15px;
+
+    border: 1px solid #e3e9f0;
+    border-radius: 11px;
+
+    background: #f8fafc;
+}
+
+.lt-admin-stats span {
+    color: var(--lt-subtle);
+    font-size: 12px;
+}
+
+.lt-admin-stats strong {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+
+/* ==========================================
+   THANH TIẾN ĐỘ KIỂM DUYỆT ĐỀ HSK
+========================================== */
+
+.lt-admin-progress {
+    display: block;
+    width: 100%;
+    height: 10px;
+
+    margin: 18px 0 0;
+    padding: 0;
+
+    border: none;
+    border-radius: 999px;
+
+    background-color: #edf2f7;
+
+    overflow: hidden;
+
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+/* Chrome, Edge */
+
+.lt-admin-progress::-webkit-progress-bar {
+    background-color: #edf2f7;
+    border-radius: 999px;
+}
+
+.lt-admin-progress::-webkit-progress-value {
+    background-color: #35a474;
+    border-radius: 999px;
+    transition: width 0.2s ease;
+}
+
+/* Firefox */
+
+.lt-admin-progress::-moz-progress-bar {
+    background-color: #35a474;
+    border-radius: 999px;
+}
+
+
+
+/* MP3 */
+
+.lt-admin-audio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    margin-top: 19px;
+    padding: 14px 16px;
+
+    border: 1px solid #e9d9bd;
+    border-radius: 11px;
+
+    background: #fffaf1;
+}
+
+.lt-admin-audio > div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.lt-admin-audio small {
+    color: var(--lt-subtle);
+    font-size: 11px;
+}
+
+.lt-admin-audio audio {
+    width: min(100%, 380px);
+    height: 39px;
+}
+
+
+/* TIÊU ĐỀ DANH SÁCH CÂU */
+
+.lt-admin-section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    margin: 26px 0 15px;
+}
+
+.lt-admin-section-title h2 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.lt-admin-section-title > span {
+    color: var(--lt-subtle);
+    font-weight: 650;
+    font-size: 12px;
+}
+
+
+/* THẺ CÂU HỎI */
+
+.lt-admin-question-list {
+    display: grid;
+    gap: 17px;
+}
+
+.lt-admin-question {
+    padding: 19px;
+    scroll-margin-top: 24px;
+}
+
+.lt-admin-question:target {
+    border-color: #6797d8;
+    box-shadow:
+        0 0 0 3px rgba(71, 119, 188, .15);
+}
+
+.lt-admin-question.is-approved {
+    border-left: 4px solid #3aa578;
+}
+
+.lt-admin-question-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.lt-admin-question-labels {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px;
+}
+
+.lt-admin-number,
+.lt-admin-skill,
+.lt-admin-part,
+.lt-admin-type,
+.lt-admin-review {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 5px 9px;
+
+    border-radius: 6px;
+
+    font-size: 12px;
+    font-weight: 750;
+}
+
+.lt-admin-number {
+    background: #fff0dc;
+    color: #9d551e;
+}
+
+.lt-admin-skill {
+    background: #eaf3ff;
+    color: #275c9d;
+}
+
+.lt-admin-part,
+.lt-admin-type {
+    background: #f1f5f9;
+    color: #5d6b7c;
+}
+
+.lt-admin-type {
+    text-transform: capitalize;
+}
+
+.lt-admin-review {
+    background: #fff3db;
+    color: #a76b1d;
+}
+
+.lt-admin-review.is-approved {
+    background: #e7f7ee;
+    color: #187047;
+}
+
+.lt-admin-question-text {
+    margin: 16px 0 0;
+    line-height: 1.75;
+    white-space: pre-wrap;
+}
+
+
+/* HÌNH ẢNH CÂU HỎI */
+
+.lt-admin-media-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+    gap: 13px;
+    margin-top: 15px;
+}
+
+.lt-admin-media-grid figure {
+    margin: 0;
+    min-width: 0;
+    padding: 12px;
+
+    border: 1px solid var(--lt-border);
+    border-radius: 10px;
+
+    background: #fbfcfe;
+}
+
+.lt-admin-media-grid figcaption {
+    margin-bottom: 9px;
+
+    color: #526377;
+    font-size: 12px;
+    font-weight: 750;
+}
+
+.lt-admin-media-grid a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 90px;
+
+    border-radius: 7px;
+    background: #fff;
+}
+
+.lt-admin-media-grid img {
+    display: block;
+
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 340px;
+
+    object-fit: contain;
+}
+
+.lt-admin-media-note {
+    margin: 13px 0 0;
+
+    color: #7c899a;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+/* ĐÁP ÁN */
+
+.lt-admin-answer-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    margin-top: 15px;
+    padding: 12px 15px;
+
+    border: 1px solid #eed9ac;
+    border-radius: 9px;
+
+    background: #fff9ed;
+}
+
+.lt-admin-answer-row > div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.lt-admin-answer-row span {
+    color: #785d3a;
+    font-size: 12px;
+    font-weight: 650;
+}
+
+.lt-admin-answer-row strong {
+    font-size: 21px;
+    color: #b35a22;
+    font-weight: 850;
+}
+
+.lt-admin-answer-row details {
+    max-width: 100%;
+    font-size: 12px;
+}
+
+.lt-admin-answer-row summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--lt-blue);
+}
+
+.lt-admin-answer-row pre {
+    max-width: 100%;
+    overflow: auto;
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+
+    padding: 10px;
+
+    border: 1px solid #e9d9bd;
+    border-radius: 7px;
+
+    background: #fff;
+}
+
+
+/* NÚT DUYỆT */
+
+.lt-admin-review-form {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 13px;
+}
+
+.lt-admin-btn {
+    padding: 10px 16px;
+
+    border: 1px solid transparent;
+    border-radius: 9px;
+
+    font-size: 12px;
+    font-weight: 800;
+
+    cursor: pointer;
+    transition: filter .18s ease;
+}
+
+.lt-admin-btn:hover:not(:disabled) {
+    filter: brightness(.94);
+}
+
+.lt-admin-btn:disabled {
+    opacity: .45;
+    cursor: not-allowed;
+}
+
+.lt-admin-btn--approve {
+    background: #227d50;
+    color: #fff;
+}
+
+.lt-admin-btn--muted {
+    background: #fff;
+    border-color: #d8b7ad;
+    color: #a14a35;
+}
+
+.lt-admin-btn--publish {
+    background: #d97433;
+    color: #fff;
+}
+
+
+/* XUẤT BẢN */
+
+.lt-admin-publish {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+
+    margin-top: 25px;
+
+    border-color: #e7c99e;
+    background: #fffcf7;
+}
+
+.lt-admin-publish h2 {
+    font-size: 20px;
+    margin: 0 0 8px;
+}
+
+.lt-admin-publish p {
+    max-width: 640px;
+    margin: 0;
+
+    color: #66758a;
+    line-height: 1.65;
+}
+
+.lt-admin-publish .lt-admin-warning {
+    color: #af6a24;
+    margin-top: 10px;
+}
+
+.lt-admin-publish .lt-admin-success {
+    color: #20764e;
+    margin-top: 10px;
+}
+
+.lt-admin-publish .lt-admin-note {
+    color: #32658d;
+    margin-top: 10px;
+}
+
+.lt-admin-warning {
+    color: #aa6a26;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.lt-admin-publish-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.lt-admin-publish-form label {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+
+    max-width: 310px;
+
+    color: #4e5e6f;
+    font-size: 12px;
+    line-height: 1.6;
+
+    cursor: pointer;
+}
+
+.lt-admin-publish-form input {
+    margin-top: 3px;
+}
+
+
+/* BẢNG DANH SÁCH ĐỀ */
+
+.lt-admin-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.lt-admin-list-title {
+    margin-top: 0;
+}
+
+.lt-admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.lt-admin-table th,
+.lt-admin-table td {
+    padding: 14px 12px;
+
+    text-align: left;
+    border-bottom: 1px solid #e9eef4;
+
+    white-space: nowrap;
+}
+
+.lt-admin-table th {
+    color: #6b7b8e;
+    background: #f7f9fc;
+
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.lt-admin-table td {
+    color: #37475b;
+}
+
+.lt-admin-table td strong,
+.lt-admin-table td small {
+    display: block;
+}
+
+.lt-admin-table td small {
+    color: #8492a3;
+    margin-top: 4px;
+}
+
+.lt-admin-table tbody tr:hover {
+    background: #fbfcff;
+}
+
+.lt-admin-level {
+    padding: 6px 9px;
+
+    border-radius: 6px;
+
+    background: #fff0de;
+    color: #9f5928;
+
+    font-weight: 800;
+}
+
+.lt-admin-open {
+    padding: 7px 10px;
+    font-size: 12px;
+}
+
+.lt-admin-empty {
+    padding: 42px 20px;
+
+    border: 1px dashed #cfd9e3;
+    border-radius: 10px;
+
+    background: #f8fafc;
+    color: #718095;
+
+    text-align: center;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 880px) {
+
+    .lt-admin-stats {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .lt-admin-media-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .lt-admin-panel,
+    .lt-admin-question {
+        padding: 15px;
+    }
+
+    .lt-admin-stats {
+        gap: 8px;
+    }
+
+    .lt-admin-stats strong {
+        font-size: 16px;
+    }
+
+    .lt-admin-review-form .lt-admin-btn {
+        width: 100%;
+    }
+
+    .lt-admin-publish-form,
+    .lt-admin-publish-form .lt-admin-btn {
+        width: 100%;
+    }
+}

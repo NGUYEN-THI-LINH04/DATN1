@@ -1,0 +1,15 @@
+SHADOWING HSK4 - VIDEO 4
+YouTube ID: xdULRJN_RZM
+MaBaiHoc: 2050
+So doan: 233
+So ban dich: 233
+Timestamp va noi dung goc: OK
+JSON: OK
+
+===== CAC DOAN CAN RA SOAT =====
+039-043: Loi thoai co noi dung bat thuong.
+Can doi chieu 5 doan nay voi am thanh goc.
+Kiem tra cac doan ngan duoi 0.8 giay.
+Kiem tra pinyin cua cac tu da am.
+
+CHUA CAP NHAT SQL SERVER.

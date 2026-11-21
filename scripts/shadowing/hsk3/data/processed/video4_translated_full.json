@@ -1,0 +1,2778 @@
+{
+  "module": "shadowing",
+  "youtube_id": "yaeECV1JRjM",
+  "sentences": [
+    {
+      "start": 7.166,
+      "end": 9.166,
+      "hanzi": "李明，你快看手机，",
+      "pinyin": "lǐ míng nǐ kuài kàn shǒu jī",
+      "vi": "Lý Minh, mau nhìn điện thoại này,"
+    },
+    {
+      "start": 9.166,
+      "end": 11.433,
+      "hanzi": "你看这个周末的天气！",
+      "pinyin": "nǐ kàn zhè ge zhōu mò de tiān qì",
+      "vi": "bạn xem thời tiết cuối tuần này đi!"
+    },
+    {
+      "start": 11.466,
+      "end": 15.033,
+      "hanzi": "嗯？我看看……周末，",
+      "pinyin": "ń wǒ kàn kàn zhōu mò",
+      "vi": "Ừm? Để tôi xem nào... Cuối tuần,"
+    },
+    {
+      "start": 15.033,
+      "end": 17.366,
+      "hanzi": "天气晴，二十五度。",
+      "pinyin": "tiān qì qíng èr shí wǔ dù",
+      "vi": "trời nắng, hai mươi lăm độ."
+    },
+    {
+      "start": 17.366,
+      "end": 19.266,
+      "hanzi": "很不错啊。怎么了？",
+      "pinyin": "hěn bú cuò a zěn me le",
+      "vi": "Khá đẹp đấy chứ. Sao vậy?"
+    },
+    {
+      "start": 19.3,
+      "end": 20.9,
+      "hanzi": "是“很不错”吗？",
+      "pinyin": "shì hěn bú cuò ma",
+      "vi": "Chỉ là \"khá đẹp\" thôi sao?"
+    },
+    {
+      "start": 20.9,
+      "end": 23.166,
+      "hanzi": "这是“非常好”！",
+      "pinyin": "zhè shì fēi cháng hǎo",
+      "vi": "Phải là \"rất tuyệt\" mới đúng!"
+    },
+    {
+      "start": 23.2,
+      "end": 26.966,
+      "hanzi": "你看，太阳那么大，天那么蓝。",
+      "pinyin": "nǐ kàn tài yáng nà me dà tiān nà me lán",
+      "vi": "Bạn xem, mặt trời rực rỡ như thế, bầu trời xanh như vậy."
+    },
+    {
+      "start": 27.0,
+      "end": 28.466,
+      "hanzi": "我们一直工作，",
+      "pinyin": "wǒ men yì zhí gōng zuò",
+      "vi": "Chúng ta cứ làm việc suốt,"
+    },
+    {
+      "start": 28.466,
+      "end": 31.166,
+      "hanzi": "这个周末我们应该出去玩！",
+      "pinyin": "zhè ge zhōu mò wǒ men yīng gāi chū qù wán",
+      "vi": "cuối tuần này nên ra ngoài chơi!"
+    },
+    {
+      "start": 31.2,
+      "end": 32.633,
+      "hanzi": "出去玩？",
+      "pinyin": "chū qù wán",
+      "vi": "Ra ngoài chơi à?"
+    },
+    {
+      "start": 32.633,
+      "end": 33.666,
+      "hanzi": "听起来不错。",
+      "pinyin": "tīng qǐ lái bù cuò",
+      "vi": "Nghe cũng hay đấy."
+    },
+    {
+      "start": 33.7,
+      "end": 35.966,
+      "hanzi": "我们很久没出去了。",
+      "pinyin": "wǒ men hěn jiǔ méi chū qù le",
+      "vi": "Lâu rồi chúng ta chưa đi chơi."
+    },
+    {
+      "start": 35.966,
+      "end": 37.566,
+      "hanzi": "你想去哪儿玩？",
+      "pinyin": "nǐ xiǎng qù nǎ ér wán",
+      "vi": "Bạn muốn đi đâu?"
+    },
+    {
+      "start": 37.6,
+      "end": 38.933,
+      "hanzi": "我们去野餐吧！",
+      "pinyin": "wǒ men qù yě cān ba",
+      "vi": "Chúng ta đi dã ngoại nhé!"
+    },
+    {
+      "start": 38.933,
+      "end": 42.4,
+      "hanzi": "找一个漂亮的公园，或者去山上，",
+      "pinyin": "zhǎo yí gè piào liàng de gōng yuán huò zhě qù shān shàng",
+      "vi": "Tìm một công viên đẹp, hoặc lên núi,"
+    },
+    {
+      "start": 42.433,
+      "end": 45.966,
+      "hanzi": "带很多好吃的东西，在草地上坐一天。",
+      "pinyin": "dài hěn duō hǎo chī de dōng xī zài cǎo dì shàng zuò yī tiān",
+      "vi": "mang thật nhiều đồ ăn ngon rồi ngồi trên bãi cỏ cả ngày."
+    },
+    {
+      "start": 45.966,
+      "end": 47.833,
+      "hanzi": "想想就很高兴！",
+      "pinyin": "xiǎng xiǎng jiù hěn gāo xìng",
+      "vi": "Chỉ nghĩ thôi đã thấy vui rồi!"
+    },
+    {
+      "start": 47.866,
+      "end": 52.733,
+      "hanzi": "野餐？嗯……这是个好主意。",
+      "pinyin": "yě cān ń zhè shì gè hǎo zhǔ yì",
+      "vi": "Dã ngoại à? Ừm... Ý hay đấy."
+    },
+    {
+      "start": 52.733,
+      "end": 54.633,
+      "hanzi": "我喜欢这个想法。",
+      "pinyin": "wǒ xǐ huān zhè ge xiǎng fǎ",
+      "vi": "Tôi thích ý tưởng này."
+    },
+    {
+      "start": 54.666,
+      "end": 58.833,
+      "hanzi": "周末出去走走，看看外面的世界，很好。",
+      "pinyin": "zhōu mò chū qù zǒu zǒu kàn kàn wài miàn de shì jiè hěn hǎo",
+      "vi": "Cuối tuần ra ngoài đi dạo, ngắm nhìn thế giới bên ngoài, thật tốt."
+    },
+    {
+      "start": 58.866,
+      "end": 60.2,
+      "hanzi": "太好了！",
+      "pinyin": "tài hǎo le",
+      "vi": "Tuyệt quá!"
+    },
+    {
+      "start": 60.2,
+      "end": 61.833,
+      "hanzi": "我就知道你喜欢。",
+      "pinyin": "wǒ jiù zhī dào nǐ xǐ huān",
+      "vi": "Tôi biết ngay là bạn sẽ thích mà."
+    },
+    {
+      "start": 61.833,
+      "end": 64.633,
+      "hanzi": "那我们现在就开始准备吧！",
+      "pinyin": "nà wǒ men xiàn zài jiù kāi shǐ zhǔn bèi ba",
+      "vi": "Vậy bây giờ chúng ta bắt đầu chuẩn bị nhé!"
+    },
+    {
+      "start": 64.666,
+      "end": 66.133,
+      "hanzi": "我们去哪儿呢？",
+      "pinyin": "wǒ men qù nǎ ér ne",
+      "vi": "Chúng ta sẽ đi đâu?"
+    },
+    {
+      "start": 66.166,
+      "end": 67.366,
+      "hanzi": "别着急，别着急。",
+      "pinyin": "bié zháo jí bié zháo jí",
+      "vi": "Đừng vội, đừng vội."
+    },
+    {
+      "start": 67.4,
+      "end": 68.733,
+      "hanzi": "你总是这么快。",
+      "pinyin": "nǐ zǒng shì zhè me kuài",
+      "vi": "Bạn lúc nào cũng nhanh như vậy."
+    },
+    {
+      "start": 68.766,
+      "end": 70.633,
+      "hanzi": "我们得先好好想一想。",
+      "pinyin": "wǒ men dé xiān hǎo hǎo xiǎng yī xiǎng",
+      "vi": "Chúng ta phải suy nghĩ kỹ trước đã."
+    },
+    {
+      "start": 70.666,
+      "end": 72.566,
+      "hanzi": "去哪儿？什么时候去？",
+      "pinyin": "qù nǎ ér shén me shí hòu qù",
+      "vi": "Đi đâu? Đi lúc nào?"
+    },
+    {
+      "start": 72.6,
+      "end": 75.2,
+      "hanzi": "怎么去？要带什么东西？",
+      "pinyin": "zěn me qù yào dài shén me dōng xī",
+      "vi": "Đi bằng gì? Cần mang những thứ gì?"
+    },
+    {
+      "start": 75.233,
+      "end": 77.866,
+      "hanzi": "这些都是问题。",
+      "pinyin": "zhè xiē dōu shì wèn tí",
+      "vi": "Đó đều là những vấn đề cần tính."
+    },
+    {
+      "start": 78.0,
+      "end": 79.633,
+      "hanzi": "（笑）你看你，",
+      "pinyin": "xiào nǐ kàn nǐ",
+      "vi": "[Cười] Bạn xem bạn kìa,"
+    },
+    {
+      "start": 79.666,
+      "end": 81.333,
+      "hanzi": "我一说出去玩，",
+      "pinyin": "wǒ yī shuō chū qù wán",
+      "vi": "tôi vừa nói đi chơi,"
+    },
+    {
+      "start": 81.366,
+      "end": 83.733,
+      "hanzi": "你就开始工作了。",
+      "pinyin": "nǐ jiù kāi shǐ gōng zuò le",
+      "vi": "là bạn đã bắt đầu làm việc rồi."
+    },
+    {
+      "start": 83.766,
+      "end": 84.466,
+      "hanzi": "好吧好吧，",
+      "pinyin": "hǎo ba hǎo ba",
+      "vi": "Được rồi, được rồi,"
+    },
+    {
+      "start": 84.5,
+      "end": 85.366,
+      "hanzi": "李老师，",
+      "pinyin": "lǐ lǎo shī",
+      "vi": "thầy Lý,"
+    },
+    {
+      "start": 85.4,
+      "end": 87.133,
+      "hanzi": "我们来“工作”一下，",
+      "pinyin": "wǒ men lái gōng zuò yī xià",
+      "vi": "chúng ta cùng \"làm việc\" một chút,"
+    },
+    {
+      "start": 87.166,
+      "end": 90.366,
+      "hanzi": "说说我们的野餐计划。",
+      "pinyin": "shuō shuō wǒ men de yě cān jì huà",
+      "vi": "nói về kế hoạch dã ngoại của chúng ta nhé."
+    },
+    {
+      "start": 90.4,
+      "end": 90.633,
+      "hanzi": "好。",
+      "pinyin": "hǎo",
+      "vi": "Được."
+    },
+    {
+      "start": 90.666,
+      "end": 91.7,
+      "hanzi": "第一个问题，",
+      "pinyin": "dì yí gè wèn tí",
+      "vi": "Câu hỏi đầu tiên,"
+    },
+    {
+      "start": 91.733,
+      "end": 93.266,
+      "hanzi": "也是最重要的问题：",
+      "pinyin": "yě shì zuì zhòng yào de wèn tí",
+      "vi": "cũng là câu hỏi quan trọng nhất:"
+    },
+    {
+      "start": 93.3,
+      "end": 95.0,
+      "hanzi": "我们的目的地是哪里？",
+      "pinyin": "wǒ men de mù dì dì shì nǎ lǐ",
+      "vi": "Điểm đến của chúng ta là đâu?"
+    },
+    {
+      "start": 95.033,
+      "end": 96.433,
+      "hanzi": "你想去公园",
+      "pinyin": "nǐ xiǎng qù gōng yuán",
+      "vi": "Bạn muốn đến công viên"
+    },
+    {
+      "start": 96.466,
+      "end": 98.2,
+      "hanzi": "还是去山上？",
+      "pinyin": "hái shì qù shān shàng",
+      "vi": "hay lên núi?"
+    },
+    {
+      "start": 98.233,
+      "end": 100.333,
+      "hanzi": "我想去一个很漂亮、",
+      "pinyin": "wǒ xiǎng qù yí gè hěn piào liàng",
+      "vi": "Tôi muốn đến một nơi rất đẹp,"
+    },
+    {
+      "start": 100.366,
+      "end": 102.433,
+      "hanzi": "人很少的地方。",
+      "pinyin": "rén hěn shǎo de dì fāng",
+      "vi": "có ít người."
+    },
+    {
+      "start": 102.466,
+      "end": 104.9,
+      "hanzi": "我上次在网上看到一个地方，",
+      "pinyin": "wǒ shàng cì zài wǎng shàng kàn dào yí gè dì fāng",
+      "vi": "Lần trước tôi thấy một địa điểm trên mạng,"
+    },
+    {
+      "start": 104.933,
+      "end": 107.233,
+      "hanzi": "叫“百花山”，",
+      "pinyin": "jiào bǎi huā shān",
+      "vi": "tên là \"Núi Bách Hoa\","
+    },
+    {
+      "start": 107.266,
+      "end": 109.566,
+      "hanzi": "听名字就觉得很美。",
+      "pinyin": "tīng míng zì jiù jué de hěn měi",
+      "vi": "chỉ nghe tên thôi đã thấy đẹp rồi."
+    },
+    {
+      "start": 109.6,
+      "end": 111.666,
+      "hanzi": "我们去那儿，怎么样？",
+      "pinyin": "wǒ men qù nà ér zěn me yàng",
+      "vi": "Chúng ta đến đó, bạn thấy sao?"
+    },
+    {
+      "start": 111.7,
+      "end": 113.466,
+      "hanzi": "百花山？",
+      "pinyin": "bǎi huā shān",
+      "vi": "Núi Bách Hoa à?"
+    },
+    {
+      "start": 113.5,
+      "end": 114.266,
+      "hanzi": "我听过。",
+      "pinyin": "wǒ tīng guò",
+      "vi": "Tôi từng nghe nói đến."
+    },
+    {
+      "start": 114.3,
+      "end": 116.7,
+      "hanzi": "但是，我得查一下。",
+      "pinyin": "dàn shì wǒ dé chá yī xià",
+      "vi": "Nhưng tôi phải tra thử đã."
+    },
+    {
+      "start": 116.733,
+      "end": 117.266,
+      "hanzi": "你等一下，",
+      "pinyin": "nǐ děng yí xià",
+      "vi": "Bạn đợi một chút,"
+    },
+    {
+      "start": 117.3,
+      "end": 119.633,
+      "hanzi": "我用手机看看地图。",
+      "pinyin": "wǒ yòng shǒu jī kàn kàn dì tú",
+      "vi": "tôi dùng điện thoại xem bản đồ."
+    },
+    {
+      "start": 119.666,
+      "end": 120.166,
+      "hanzi": "好啊，",
+      "pinyin": "hǎo a",
+      "vi": "Được chứ,"
+    },
+    {
+      "start": 120.2,
+      "end": 121.366,
+      "hanzi": "你快查查。",
+      "pinyin": "nǐ kuài zhā zhā",
+      "vi": "bạn tra nhanh đi."
+    },
+    {
+      "start": 121.4,
+      "end": 123.7,
+      "hanzi": "那里是不是有很多花，",
+      "pinyin": "nà lǐ shì bú shì yǒu hěn duō huā",
+      "vi": "Ở đó có nhiều hoa"
+    },
+    {
+      "start": 123.733,
+      "end": 125.333,
+      "hanzi": "很多树？",
+      "pinyin": "hěn duō shù",
+      "vi": "và nhiều cây không?"
+    },
+    {
+      "start": 125.366,
+      "end": 125.766,
+      "hanzi": "嗯……",
+      "pinyin": "ń",
+      "vi": "Ừm..."
+    },
+    {
+      "start": 125.8,
+      "end": 127.4,
+      "hanzi": "我看到了。",
+      "pinyin": "wǒ kàn dào le",
+      "vi": "Tôi thấy rồi."
+    },
+    {
+      "start": 127.433,
+      "end": 130.133,
+      "hanzi": "百花山是很漂亮，",
+      "pinyin": "bǎi huā shān shì hěn piào liàng",
+      "vi": "Núi Bách Hoa đúng là rất đẹp,"
+    },
+    {
+      "start": 130.166,
+      "end": 130.566,
+      "hanzi": "但是……",
+      "pinyin": "dàn shì",
+      "vi": "nhưng..."
+    },
+    {
+      "start": 130.6,
+      "end": 132.733,
+      "hanzi": "它离我们太远了。",
+      "pinyin": "tā lí wǒ men tài yuǎn le",
+      "vi": "nó cách chúng ta quá xa."
+    },
+    {
+      "start": 132.766,
+      "end": 133.766,
+      "hanzi": "你看地图，",
+      "pinyin": "nǐ kàn dì tú",
+      "vi": "Bạn nhìn bản đồ đi,"
+    },
+    {
+      "start": 133.8,
+      "end": 136.566,
+      "hanzi": "我们开车去要三个多小时。",
+      "pinyin": "wǒ men kāi chē qù yào sān gè duō xiǎo shí",
+      "vi": "chúng ta lái xe đến đó mất hơn ba tiếng."
+    },
+    {
+      "start": 136.6,
+      "end": 138.4,
+      "hanzi": "三个小时？",
+      "pinyin": "sān gè xiǎo shí",
+      "vi": "Ba tiếng á?"
+    },
+    {
+      "start": 138.433,
+      "end": 140.066,
+      "hanzi": "这么远啊……",
+      "pinyin": "zhè me yuǎn a",
+      "vi": "Xa thế sao..."
+    },
+    {
+      "start": 140.1,
+      "end": 143.166,
+      "hanzi": "那我们早上很早就要起床了。",
+      "pinyin": "nà wǒ men zǎo shàng hěn zǎo jiù yào qǐ chuáng le",
+      "vi": "Vậy buổi sáng chúng ta phải dậy rất sớm."
+    },
+    {
+      "start": 143.2,
+      "end": 145.6,
+      "hanzi": "回来的时候也会很晚，",
+      "pinyin": "huí lái de shí hòu yě huì hěn wǎn",
+      "vi": "Lúc trở về cũng sẽ rất muộn,"
+    },
+    {
+      "start": 145.633,
+      "end": 147.333,
+      "hanzi": "可能会很累。",
+      "pinyin": "kě néng huì hěn lèi",
+      "vi": "có lẽ sẽ rất mệt."
+    },
+    {
+      "start": 147.366,
+      "end": 148.966,
+      "hanzi": "是啊。",
+      "pinyin": "shì a",
+      "vi": "Đúng vậy."
+    },
+    {
+      "start": 149.0,
+      "end": 150.9,
+      "hanzi": "我们去野餐是为了放松，",
+      "pinyin": "wǒ men qù yě cān shì wèi le fàng sōng",
+      "vi": "Chúng ta đi dã ngoại là để thư giãn,"
+    },
+    {
+      "start": 150.933,
+      "end": 152.3,
+      "hanzi": "为了高兴。",
+      "pinyin": "wèi le gāo xìng",
+      "vi": "để vui vẻ."
+    },
+    {
+      "start": 152.333,
+      "end": 154.2,
+      "hanzi": "如果路上花太多时间，",
+      "pinyin": "rú guǒ lù shàng huā tài duō shí jiān",
+      "vi": "Nếu mất quá nhiều thời gian trên đường,"
+    },
+    {
+      "start": 154.233,
+      "end": 156.133,
+      "hanzi": "就太累了。",
+      "pinyin": "jiù tài lèi le",
+      "vi": "thì sẽ quá mệt."
+    },
+    {
+      "start": 156.166,
+      "end": 157.333,
+      "hanzi": "我觉得第一次，",
+      "pinyin": "wǒ jué de dì yī cì",
+      "vi": "Tôi nghĩ lần đầu đi,"
+    },
+    {
+      "start": 157.366,
+      "end": 160.733,
+      "hanzi": "我们可以选一个近一点的地方。",
+      "pinyin": "wǒ men kě yǐ xuǎn yí gè jìn yì diǎn de dì fāng",
+      "vi": "chúng ta có thể chọn một nơi gần hơn."
+    },
+    {
+      "start": 160.766,
+      "end": 161.8,
+      "hanzi": "嗯……",
+      "pinyin": "ń",
+      "vi": "Ừm..."
+    },
+    {
+      "start": 161.833,
+      "end": 163.4,
+      "hanzi": "你说的对。",
+      "pinyin": "nǐ shuō de duì",
+      "vi": "Bạn nói đúng."
+    },
+    {
+      "start": 163.433,
+      "end": 165.733,
+      "hanzi": "太远了确实很累。",
+      "pinyin": "tài yuǎn le què shí hěn lèi",
+      "vi": "Xa quá đúng là rất mệt."
+    },
+    {
+      "start": 165.766,
+      "end": 168.7,
+      "hanzi": "那……你有什么好主意吗？",
+      "pinyin": "nà nǐ yǒu shén me hǎo zhǔ yì ma",
+      "vi": "Vậy... bạn có ý tưởng nào hay không?"
+    },
+    {
+      "start": 168.733,
+      "end": 171.233,
+      "hanzi": "你认识什么好地方吗？",
+      "pinyin": "nǐ rèn shí shén me hǎo dì fāng ma",
+      "vi": "Bạn có biết nơi nào đẹp không?"
+    },
+    {
+      "start": 171.266,
+      "end": 172.833,
+      "hanzi": "我想想……",
+      "pinyin": "wǒ xiǎng xiǎng",
+      "vi": "Để tôi nghĩ xem..."
+    },
+    {
+      "start": 172.866,
+      "end": 176.666,
+      "hanzi": "我们城市西边有一个“西山森林公园”，",
+      "pinyin": "wǒ men chéng shì xī biān yǒu yí gè xī shān sēn lín gōng yuán",
+      "vi": "Phía tây thành phố chúng ta có một nơi gọi là \"Công viên rừng Tây Sơn\","
+    },
+    {
+      "start": 176.7,
+      "end": 178.3,
+      "hanzi": "你觉得怎么样？",
+      "pinyin": "nǐ jué de zěn me yàng",
+      "vi": "bạn thấy thế nào?"
+    },
+    {
+      "start": 178.333,
+      "end": 179.4,
+      "hanzi": "那个公园很大，",
+      "pinyin": "nà ge gōng yuán hěn dà",
+      "vi": "Công viên đó rất rộng,"
+    },
+    {
+      "start": 179.433,
+      "end": 181.233,
+      "hanzi": "里面有山，有水，",
+      "pinyin": "lǐ miàn yǒu shān yǒu shuǐ",
+      "vi": "bên trong có núi, có nước,"
+    },
+    {
+      "start": 181.266,
+      "end": 183.433,
+      "hanzi": "也有很大的草地。",
+      "pinyin": "yě yǒu hěn dà de cǎo dì",
+      "vi": "và cả những bãi cỏ rất lớn."
+    },
+    {
+      "start": 183.466,
+      "end": 185.966,
+      "hanzi": "西山森林公园？",
+      "pinyin": "xī shān sēn lín gōng yuán",
+      "vi": "Công viên rừng Tây Sơn à?"
+    },
+    {
+      "start": 186.0,
+      "end": 188.066,
+      "hanzi": "我听我的朋友说过，",
+      "pinyin": "wǒ tīng wǒ de péng yǒu shuō guò",
+      "vi": "Tôi từng nghe bạn mình nói đến,"
+    },
+    {
+      "start": 188.1,
+      "end": 190.866,
+      "hanzi": "她说那里很漂亮。",
+      "pinyin": "tā shuō nà lǐ hěn piào liàng",
+      "vi": "cô ấy bảo ở đó rất đẹp."
+    },
+    {
+      "start": 190.9,
+      "end": 191.966,
+      "hanzi": "离我们远吗？",
+      "pinyin": "lí wǒ men yuǎn ma",
+      "vi": "Có xa chỗ chúng ta không?"
+    },
+    {
+      "start": 192.0,
+      "end": 192.733,
+      "hanzi": "不远。",
+      "pinyin": "bù yuǎn",
+      "vi": "Không xa."
+    },
+    {
+      "start": 192.766,
+      "end": 194.533,
+      "hanzi": "我们坐地铁就可以到。",
+      "pinyin": "wǒ men zuò dì tiě jiù kě yǐ dào",
+      "vi": "Chúng ta có thể đi tàu điện ngầm đến đó."
+    },
+    {
+      "start": 194.566,
+      "end": 197.333,
+      "hanzi": "坐地铁大概一个小时，",
+      "pinyin": "zuò dì tiě dà gài yí gè xiǎo shí",
+      "vi": "Đi tàu điện ngầm khoảng một tiếng,"
+    },
+    {
+      "start": 197.366,
+      "end": 198.433,
+      "hanzi": "很方便。",
+      "pinyin": "hěn fāng biàn",
+      "vi": "rất tiện."
+    },
+    {
+      "start": 198.466,
+      "end": 200.533,
+      "hanzi": "下了地铁，走十分钟",
+      "pinyin": "xià le dì tiě zǒu shí fēn zhōng",
+      "vi": "Xuống tàu điện ngầm, đi bộ thêm mười phút"
+    },
+    {
+      "start": 200.566,
+      "end": 202.366,
+      "hanzi": "就到公园门口了。",
+      "pinyin": "jiù dào gōng yuán mén kǒu le",
+      "vi": "là đến cổng công viên rồi."
+    },
+    {
+      "start": 202.4,
+      "end": 203.566,
+      "hanzi": "坐地铁就能到？",
+      "pinyin": "zuò dì tiě jiù néng dào",
+      "vi": "Đi tàu điện ngầm là đến được sao?"
+    },
+    {
+      "start": 203.6,
+      "end": 205.733,
+      "hanzi": "那太好了！",
+      "pinyin": "nà tài hǎo le",
+      "vi": "Vậy thì tuyệt quá!"
+    },
+    {
+      "start": 205.766,
+      "end": 208.466,
+      "hanzi": "我最不喜欢开车去很远的地方，",
+      "pinyin": "wǒ zuì bù xǐ huān kāi chē qù hěn yuǎn de dì fāng",
+      "vi": "Tôi ghét nhất là phải lái xe đến những nơi quá xa,"
+    },
+    {
+      "start": 208.5,
+      "end": 209.5,
+      "hanzi": "很麻烦。",
+      "pinyin": "hěn má fán",
+      "vi": "rất phiền phức."
+    },
+    {
+      "start": 209.533,
+      "end": 213.3,
+      "hanzi": "而且坐地铁还不用找地方停车。",
+      "pinyin": "ér qiě zuò dì tiě hái bù yòng zhǎo dì fāng tíng chē",
+      "vi": "Hơn nữa, đi tàu điện ngầm còn không phải tìm chỗ đỗ xe."
+    },
+    {
+      "start": 213.333,
+      "end": 214.533,
+      "hanzi": "对。",
+      "pinyin": "duì",
+      "vi": "Đúng."
+    },
+    {
+      "start": 214.566,
+      "end": 216.333,
+      "hanzi": "而且那个公园非常大，",
+      "pinyin": "ér qiě nà ge gōng yuán fēi cháng dà",
+      "vi": "Và công viên đó rất rộng,"
+    },
+    {
+      "start": 216.366,
+      "end": 217.633,
+      "hanzi": "我们早点去，",
+      "pinyin": "wǒ men zǎo diǎn qù",
+      "vi": "nếu chúng ta đi sớm một chút,"
+    },
+    {
+      "start": 217.666,
+      "end": 221.333,
+      "hanzi": "总能找到一个人少又干净的地方。",
+      "pinyin": "zǒng néng zhǎo dào yí gè rén shǎo yòu gān jìng de dì fāng",
+      "vi": "chắc chắn có thể tìm được một chỗ ít người và sạch sẽ."
+    },
+    {
+      "start": 221.366,
+      "end": 222.866,
+      "hanzi": "我们可以找一棵大树，",
+      "pinyin": "wǒ men kě yǐ zhǎo yī kē dà shù",
+      "vi": "Chúng ta có thể tìm một cây lớn,"
+    },
+    {
+      "start": 222.9,
+      "end": 226.233,
+      "hanzi": "在树下面坐着，会很舒服。",
+      "pinyin": "zài shù xià miàn zuò zhe huì hěn shū fú",
+      "vi": "ngồi dưới gốc cây sẽ rất dễ chịu."
+    },
+    {
+      "start": 226.266,
+      "end": 226.7,
+      "hanzi": "好！",
+      "pinyin": "hǎo",
+      "vi": "Được!"
+    },
+    {
+      "start": 226.733,
+      "end": 228.066,
+      "hanzi": "听你这么说，",
+      "pinyin": "tīng nǐ zhè me shuō",
+      "vi": "Nghe bạn nói vậy,"
+    },
+    {
+      "start": 228.1,
+      "end": 232.9,
+      "hanzi": "我觉得这个西山森林公园真的很好。",
+      "pinyin": "wǒ jué de zhè ge xī shān sēn lín gōng yuán zhēn de hěn hǎo",
+      "vi": "tôi thấy Công viên rừng Tây Sơn này thật sự rất tuyệt."
+    },
+    {
+      "start": 232.933,
+      "end": 233.166,
+      "hanzi": "行！",
+      "pinyin": "xíng",
+      "vi": "Được!"
+    },
+    {
+      "start": 233.2,
+      "end": 236.5,
+      "hanzi": "那我们就去西山森林公园！",
+      "pinyin": "nà wǒ men jiù qù xī shān sēn lín gōng yuán",
+      "vi": "Vậy chúng ta sẽ đến Công viên rừng Tây Sơn!"
+    },
+    {
+      "start": 236.533,
+      "end": 237.633,
+      "hanzi": "目的地，",
+      "pinyin": "mù dì dì",
+      "vi": "Địa điểm,"
+    },
+    {
+      "start": 237.666,
+      "end": 239.2,
+      "hanzi": "决定了！",
+      "pinyin": "jué dìng le",
+      "vi": "đã quyết định xong!"
+    },
+    {
+      "start": 239.233,
+      "end": 240.2,
+      "hanzi": "太好了。",
+      "pinyin": "tài hǎo le",
+      "vi": "Tuyệt quá."
+    },
+    {
+      "start": 240.233,
+      "end": 241.866,
+      "hanzi": "第一个问题解决了。",
+      "pinyin": "dì yí gè wèn tí jiě jué le",
+      "vi": "Vấn đề đầu tiên đã được giải quyết."
+    },
+    {
+      "start": 241.9,
+      "end": 244.5,
+      "hanzi": "那我们是周六去还是周日去？",
+      "pinyin": "nà wǒ men shì zhōu liù qù hái shì zhōu rì qù",
+      "vi": "Vậy chúng ta đi thứ Bảy hay Chủ nhật?"
+    },
+    {
+      "start": 244.533,
+      "end": 245.766,
+      "hanzi": "嗯……",
+      "pinyin": "ń",
+      "vi": "Ừm..."
+    },
+    {
+      "start": 245.8,
+      "end": 247.366,
+      "hanzi": "周六吧！",
+      "pinyin": "zhōu liù ba",
+      "vi": "Thứ Bảy đi!"
+    },
+    {
+      "start": 247.4,
+      "end": 248.666,
+      "hanzi": "周六去玩，",
+      "pinyin": "zhōu liù qù wán",
+      "vi": "Thứ Bảy đi chơi,"
+    },
+    {
+      "start": 248.7,
+      "end": 250.966,
+      "hanzi": "周日可以在家休息一天。",
+      "pinyin": "zhōu rì kě yǐ zài jiā xiū xī yī tiān",
+      "vi": "Chủ nhật có thể nghỉ ở nhà một ngày."
+    },
+    {
+      "start": 251.0,
+      "end": 253.366,
+      "hanzi": "这样周一工作的时候",
+      "pinyin": "zhè yàng zhōu yī gōng zuò de shí hòu",
+      "vi": "Như vậy lúc đi làm vào thứ Hai,"
+    },
+    {
+      "start": 253.4,
+      "end": 256.066,
+      "hanzi": "就不会觉得那么累了。",
+      "pinyin": "jiù bú huì jué de nà me lèi le",
+      "vi": "sẽ không cảm thấy quá mệt."
+    },
+    {
+      "start": 256.1,
+      "end": 257.266,
+      "hanzi": "你想得很周到。",
+      "pinyin": "nǐ xiǎng dé hěn zhōu dào",
+      "vi": "Bạn suy nghĩ chu đáo thật."
+    },
+    {
+      "start": 257.3,
+      "end": 259.133,
+      "hanzi": "好，那就决定了，",
+      "pinyin": "hǎo nà jiù jué dìng le",
+      "vi": "Được, vậy quyết định nhé,"
+    },
+    {
+      "start": 259.166,
+      "end": 262.966,
+      "hanzi": "这个周六，我们去西山森林公园野餐。",
+      "pinyin": "zhè ge zhōu liù wǒ men qù xī shān sēn lín gōng yuán yě cān",
+      "vi": "thứ Bảy này chúng ta đến Công viên rừng Tây Sơn dã ngoại."
+    },
+    {
+      "start": 263.033,
+      "end": 265.0,
+      "hanzi": "耶！太棒了！",
+      "pinyin": "yé tài bàng le",
+      "vi": "Yeah! Tuyệt vời!"
+    },
+    {
+      "start": 265.0,
+      "end": 266.933,
+      "hanzi": "我现在已经开始高兴了！",
+      "pinyin": "wǒ xiàn zài yǐ jīng kāi shǐ gāo xìng le",
+      "vi": "Bây giờ tôi đã bắt đầu thấy vui rồi!"
+    },
+    {
+      "start": 266.966,
+      "end": 269.4,
+      "hanzi": "好，解决了第一个问题，",
+      "pinyin": "hǎo jiě jué le dì yí gè wèn tí",
+      "vi": "Được, giải quyết xong vấn đề đầu tiên,"
+    },
+    {
+      "start": 269.433,
+      "end": 271.5,
+      "hanzi": "现在是第二个问题。",
+      "pinyin": "xiàn zài shì dì èr gè wèn tí",
+      "vi": "bây giờ là vấn đề thứ hai."
+    },
+    {
+      "start": 271.533,
+      "end": 273.7,
+      "hanzi": "也是你最喜欢的部分。",
+      "pinyin": "yě shì nǐ zuì xǐ huān de bù fèn",
+      "vi": "Cũng là phần bạn thích nhất."
+    },
+    {
+      "start": 273.733,
+      "end": 274.933,
+      "hanzi": "我知道！",
+      "pinyin": "wǒ zhī dào",
+      "vi": "Tôi biết rồi!"
+    },
+    {
+      "start": 274.933,
+      "end": 277.166,
+      "hanzi": "是准备吃的东西！对不对？",
+      "pinyin": "shì zhǔn bèi chī de dōng xī duì bú duì",
+      "vi": "Là chuẩn bị đồ ăn! Đúng không?"
+    },
+    {
+      "start": 277.2,
+      "end": 278.766,
+      "hanzi": "没错。",
+      "pinyin": "méi cuò",
+      "vi": "Chính xác."
+    },
+    {
+      "start": 278.8,
+      "end": 280.533,
+      "hanzi": "我们要带什么吃的？",
+      "pinyin": "wǒ men yào dài shén me chī de",
+      "vi": "Chúng ta cần mang đồ ăn gì?"
+    },
+    {
+      "start": 280.533,
+      "end": 281.366,
+      "hanzi": "带什么喝的？",
+      "pinyin": "dài shén me hē de",
+      "vi": "Mang đồ uống gì?"
+    },
+    {
+      "start": 281.4,
+      "end": 283.533,
+      "hanzi": "吃的……我想想。",
+      "pinyin": "chī de wǒ xiǎng xiǎng",
+      "vi": "Đồ ăn... để tôi nghĩ xem."
+    },
+    {
+      "start": 283.566,
+      "end": 286.866,
+      "hanzi": "首先，一定要有三明治或者面包。",
+      "pinyin": "shǒu xiān yí dìng yào yǒu sān míng zhì huò zhě miàn bāo",
+      "vi": "Trước tiên nhất định phải có bánh sandwich hoặc bánh mì."
+    },
+    {
+      "start": 286.9,
+      "end": 288.3,
+      "hanzi": "吃起来很方便。",
+      "pinyin": "chī qǐ lái hěn fāng biàn",
+      "vi": "Ăn rất tiện."
+    },
+    {
+      "start": 288.333,
+      "end": 291.366,
+      "hanzi": "我们可以去商店买一些好吃的面包。",
+      "pinyin": "wǒ men kě yǐ qù shāng diàn mǎi yī xiē hǎo chī de miàn bāo",
+      "vi": "Chúng ta có thể đến cửa hàng mua ít bánh mì ngon."
+    },
+    {
+      "start": 291.4,
+      "end": 293.9,
+      "hanzi": "同意。面包很好。",
+      "pinyin": "tóng yì miàn bāo hěn hǎo",
+      "vi": "Đồng ý. Bánh mì rất ổn."
+    },
+    {
+      "start": 293.933,
+      "end": 296.566,
+      "hanzi": "我们还可以自己做三明治。",
+      "pinyin": "wǒ men hái kě yǐ zì jǐ zuò sān míng zhì",
+      "vi": "Chúng ta còn có thể tự làm sandwich."
+    },
+    {
+      "start": 296.6,
+      "end": 298.066,
+      "hanzi": "我们可以买一些鸡蛋，",
+      "pinyin": "wǒ men kě yǐ mǎi yī xiē jī dàn",
+      "vi": "Chúng ta có thể mua một ít trứng,"
+    },
+    {
+      "start": 298.1,
+      "end": 300.066,
+      "hanzi": "一些生菜，一些西红柿。",
+      "pinyin": "yī xiē shēng cài yī xiē xī hóng shì",
+      "vi": "một ít xà lách và cà chua."
+    },
+    {
+      "start": 300.1,
+      "end": 303.533,
+      "hanzi": "早上起来做，很新鲜，也很好吃。",
+      "pinyin": "zǎo shàng qǐ lái zuò hěn xīn xiān yě hěn hǎo chī",
+      "vi": "Buổi sáng dậy làm, vừa tươi vừa ngon."
+    },
+    {
+      "start": 303.566,
+      "end": 305.433,
+      "hanzi": "自己做？",
+      "pinyin": "zì jǐ zuò",
+      "vi": "Tự làm à?"
+    },
+    {
+      "start": 305.466,
+      "end": 308.166,
+      "hanzi": "听起来不错，但是会不会很麻烦？",
+      "pinyin": "tīng qǐ lái bù cuò dàn shì huì bú huì hěn má fán",
+      "vi": "Nghe cũng hay, nhưng có phiền phức quá không?"
+    },
+    {
+      "start": 308.2,
+      "end": 310.933,
+      "hanzi": "我早上可能起不来……",
+      "pinyin": "wǒ zǎo shàng kě néng qǐ bù lái",
+      "vi": "Buổi sáng có lẽ tôi không dậy nổi..."
+    },
+    {
+      "start": 310.966,
+      "end": 312.6,
+      "hanzi": "不麻烦，很简单。",
+      "pinyin": "bù má fán hěn jiǎn dān",
+      "vi": "Không phiền đâu, rất đơn giản."
+    },
+    {
+      "start": 312.633,
+      "end": 313.933,
+      "hanzi": "我来做。",
+      "pinyin": "wǒ lái zuò",
+      "vi": "Để tôi làm."
+    },
+    {
+      "start": 313.933,
+      "end": 315.333,
+      "hanzi": "我做得很快。",
+      "pinyin": "wǒ zuò dé hěn kuài",
+      "vi": "Tôi làm rất nhanh."
+    },
+    {
+      "start": 315.366,
+      "end": 318.2,
+      "hanzi": "你想想，我们吃着自己做的三明治，",
+      "pinyin": "nǐ xiǎng xiǎng wǒ men chī zhe zì jǐ zuò de sān míng zhì",
+      "vi": "Bạn nghĩ xem, khi ăn sandwich do chính mình làm,"
+    },
+    {
+      "start": 318.233,
+      "end": 320.5,
+      "hanzi": "会觉得特别好吃。",
+      "pinyin": "huì jué de tè bié hǎo chī",
+      "vi": "chúng ta sẽ cảm thấy đặc biệt ngon."
+    },
+    {
+      "start": 320.533,
+      "end": 322.1,
+      "hanzi": "哇，你来做？",
+      "pinyin": "wa nǐ lái zuò",
+      "vi": "Ồ, bạn làm à?"
+    },
+    {
+      "start": 322.133,
+      "end": 324.3,
+      "hanzi": "那太好了！谢谢你！",
+      "pinyin": "nà tài hǎo le xiè xiè nǐ",
+      "vi": "Vậy thì tuyệt quá! Cảm ơn bạn!"
+    },
+    {
+      "start": 324.333,
+      "end": 326.866,
+      "hanzi": "我最喜欢吃你做的东西了。",
+      "pinyin": "wǒ zuì xǐ huān chī nǐ zuò de dōng xī le",
+      "vi": "Tôi thích ăn đồ bạn làm nhất."
+    },
+    {
+      "start": 326.9,
+      "end": 328.966,
+      "hanzi": "那我要吃两个！",
+      "pinyin": "nà wǒ yào chī liǎng gè",
+      "vi": "Vậy tôi muốn ăn hai cái!"
+    },
+    {
+      "start": 329.0,
+      "end": 330.566,
+      "hanzi": "一个鸡蛋的，",
+      "pinyin": "yí gè jī dàn de",
+      "vi": "Một cái nhân trứng,"
+    },
+    {
+      "start": 330.6,
+      "end": 333.4,
+      "hanzi": "一个……嗯……你看着做吧，",
+      "pinyin": "yí gè ń nǐ kàn zhe zuò ba",
+      "vi": "một cái nữa... ừm... bạn tự quyết định nhé,"
+    },
+    {
+      "start": 333.433,
+      "end": 335.366,
+      "hanzi": "你做的我都喜欢。",
+      "pinyin": "nǐ zuò de wǒ dōu xǐ huān",
+      "vi": "bạn làm gì tôi cũng thích."
+    },
+    {
+      "start": 335.4,
+      "end": 336.866,
+      "hanzi": "没问题。",
+      "pinyin": "méi wèn tí",
+      "vi": "Không vấn đề gì."
+    },
+    {
+      "start": 336.9,
+      "end": 339.7,
+      "hanzi": "那吃的，我们有三明治了。",
+      "pinyin": "nà chī de wǒ men yǒu sān míng zhì le",
+      "vi": "Vậy về đồ ăn, chúng ta đã có sandwich."
+    },
+    {
+      "start": 339.733,
+      "end": 340.733,
+      "hanzi": "还想吃什么？",
+      "pinyin": "hái xiǎng chī shén me",
+      "vi": "Còn muốn ăn gì nữa?"
+    },
+    {
+      "start": 340.766,
+      "end": 343.2,
+      "hanzi": "水果！一定要有水果！",
+      "pinyin": "shuǐ guǒ yí dìng yào yǒu shuǐ guǒ",
+      "vi": "Trái cây! Nhất định phải có trái cây!"
+    },
+    {
+      "start": 343.233,
+      "end": 344.5,
+      "hanzi": "天气那么好，",
+      "pinyin": "tiān qì nà me hǎo",
+      "vi": "Thời tiết đẹp như vậy,"
+    },
+    {
+      "start": 344.533,
+      "end": 346.566,
+      "hanzi": "吃一点甜甜的水果，",
+      "pinyin": "chī yì diǎn tián tián de shuǐ guǒ",
+      "vi": "ăn một chút trái cây ngọt ngọt,"
+    },
+    {
+      "start": 346.6,
+      "end": 347.866,
+      "hanzi": "会特别舒服。",
+      "pinyin": "huì tè bié shū fú",
+      "vi": "sẽ đặc biệt dễ chịu."
+    },
+    {
+      "start": 347.9,
+      "end": 349.233,
+      "hanzi": "我想吃西瓜！",
+      "pinyin": "wǒ xiǎng chī xī guā",
+      "vi": "Tôi muốn ăn dưa hấu!"
+    },
+    {
+      "start": 349.266,
+      "end": 351.166,
+      "hanzi": "很大很甜的西瓜！",
+      "pinyin": "hěn dà hěn tián de xī guā",
+      "vi": "Dưa hấu thật to và thật ngọt!"
+    },
+    {
+      "start": 351.2,
+      "end": 353.2,
+      "hanzi": "西瓜？",
+      "pinyin": "xī guā",
+      "vi": "Dưa hấu à?"
+    },
+    {
+      "start": 353.233,
+      "end": 355.166,
+      "hanzi": "王雨，你想想，",
+      "pinyin": "wáng yǔ nǐ xiǎng xiǎng",
+      "vi": "Vương Vũ, bạn nghĩ xem,"
+    },
+    {
+      "start": 355.2,
+      "end": 357.266,
+      "hanzi": "一个大西瓜很重啊，",
+      "pinyin": "yí gè dà xī guā hěn zhòng a",
+      "vi": "một quả dưa hấu to rất nặng,"
+    },
+    {
+      "start": 357.3,
+      "end": 359.466,
+      "hanzi": "我们怎么带去公园？",
+      "pinyin": "wǒ men zěn me dài qù gōng yuán",
+      "vi": "chúng ta mang đến công viên bằng cách nào?"
+    },
+    {
+      "start": 359.5,
+      "end": 362.166,
+      "hanzi": "我们还要切开，会很麻烦。",
+      "pinyin": "wǒ men hái yào qiè kāi huì hěn má fán",
+      "vi": "Chúng ta còn phải bổ ra nữa, rất phiền."
+    },
+    {
+      "start": 362.2,
+      "end": 364.1,
+      "hanzi": "呃……你说的也对。",
+      "pinyin": "è nǐ shuō de yě duì",
+      "vi": "Ừ... bạn nói cũng đúng."
+    },
+    {
+      "start": 364.133,
+      "end": 365.8,
+      "hanzi": "西瓜是很好吃，",
+      "pinyin": "xī guā shì hěn hǎo chī",
+      "vi": "Dưa hấu rất ngon,"
+    },
+    {
+      "start": 365.833,
+      "end": 368.0,
+      "hanzi": "但是太重了，也不好带。",
+      "pinyin": "dàn shì tài zhòng le yě bù hǎo dài",
+      "vi": "nhưng quá nặng và cũng khó mang theo."
+    },
+    {
+      "start": 368.033,
+      "end": 370.666,
+      "hanzi": "那……我们换一种水果？",
+      "pinyin": "nà wǒ men huàn yī zhǒng shuǐ guǒ",
+      "vi": "Vậy... chúng ta đổi loại trái cây khác nhé?"
+    },
+    {
+      "start": 370.7,
+      "end": 373.666,
+      "hanzi": "对。我们可以买一些苹果，",
+      "pinyin": "duì wǒ men kě yǐ mǎi yī xiē píng guǒ",
+      "vi": "Đúng. Chúng ta có thể mua một ít táo,"
+    },
+    {
+      "start": 373.7,
+      "end": 375.333,
+      "hanzi": "或者香蕉。",
+      "pinyin": "huò zhě xiāng jiāo",
+      "vi": "hoặc chuối."
+    },
+    {
+      "start": 375.366,
+      "end": 377.533,
+      "hanzi": "这些水果洗干净了就可以吃，",
+      "pinyin": "zhè xiē shuǐ guǒ xǐ gān jìng le jiù kě yǐ chī",
+      "vi": "Những loại trái cây này rửa sạch là có thể ăn,"
+    },
+    {
+      "start": 377.566,
+      "end": 378.966,
+      "hanzi": "非常方便。",
+      "pinyin": "fēi cháng fāng biàn",
+      "vi": "rất tiện."
+    },
+    {
+      "start": 379.0,
+      "end": 381.166,
+      "hanzi": "我们还可以买一些葡萄，",
+      "pinyin": "wǒ men hái kě yǐ mǎi yī xiē pú táo",
+      "vi": "Chúng ta cũng có thể mua một ít nho,"
+    },
+    {
+      "start": 381.2,
+      "end": 382.1,
+      "hanzi": "或者草莓，",
+      "pinyin": "huò zhě cǎo méi",
+      "vi": "hoặc dâu tây,"
+    },
+    {
+      "start": 382.133,
+      "end": 384.2,
+      "hanzi": "放在小盒子里面。",
+      "pinyin": "fàng zài xiǎo hé zi lǐ miàn",
+      "vi": "đựng trong hộp nhỏ."
+    },
+    {
+      "start": 384.233,
+      "end": 386.2,
+      "hanzi": "好主意！我喜欢吃草莓！",
+      "pinyin": "hǎo zhǔ yì wǒ xǐ huān chī cǎo méi",
+      "vi": "Ý hay! Tôi thích ăn dâu tây!"
+    },
+    {
+      "start": 386.233,
+      "end": 388.566,
+      "hanzi": "我们就买草莓和苹果吧。",
+      "pinyin": "wǒ men jiù mǎi cǎo méi hé píng guǒ ba",
+      "vi": "Vậy chúng ta mua dâu tây và táo nhé."
+    },
+    {
+      "start": 388.6,
+      "end": 390.266,
+      "hanzi": "又好看，又好吃，",
+      "pinyin": "yòu hǎo kàn yòu hǎo chī",
+      "vi": "Vừa đẹp mắt vừa ngon,"
+    },
+    {
+      "start": 390.3,
+      "end": 391.733,
+      "hanzi": "带着也方便。",
+      "pinyin": "dài zhe yě fāng biàn",
+      "vi": "lại tiện mang theo."
+    },
+    {
+      "start": 391.766,
+      "end": 393.2,
+      "hanzi": "好的。",
+      "pinyin": "hǎo de",
+      "vi": "Được."
+    },
+    {
+      "start": 393.233,
+      "end": 394.566,
+      "hanzi": "那我们有三明治，",
+      "pinyin": "nà wǒ men yǒu sān míng zhì",
+      "vi": "Vậy là chúng ta có sandwich,"
+    },
+    {
+      "start": 394.6,
+      "end": 395.966,
+      "hanzi": "有水果了。",
+      "pinyin": "yǒu shuǐ guǒ le",
+      "vi": "có trái cây rồi."
+    },
+    {
+      "start": 396.0,
+      "end": 397.566,
+      "hanzi": "还缺点心，",
+      "pinyin": "hái quē diǎn xīn",
+      "vi": "Còn thiếu đồ ăn vặt,"
+    },
+    {
+      "start": 397.6,
+      "end": 399.366,
+      "hanzi": "就是小零食。",
+      "pinyin": "jiù shì xiǎo líng shí",
+      "vi": "tức là những món ăn nhẹ."
+    },
+    {
+      "start": 399.4,
+      "end": 400.466,
+      "hanzi": "你想吃什么零食？",
+      "pinyin": "nǐ xiǎng chī shén me líng shí",
+      "vi": "Bạn muốn ăn đồ ăn vặt gì?"
+    },
+    {
+      "start": 400.5,
+      "end": 401.166,
+      "hanzi": "薯片！",
+      "pinyin": "shǔ piàn",
+      "vi": "Khoai tây chiên!"
+    },
+    {
+      "start": 401.2,
+      "end": 403.266,
+      "hanzi": "我特别想吃薯片！",
+      "pinyin": "wǒ tè bié xiǎng chī shǔ piàn",
+      "vi": "Tôi rất muốn ăn khoai tây chiên!"
+    },
+    {
+      "start": 403.3,
+      "end": 405.333,
+      "hanzi": "还想吃一点饼干，",
+      "pinyin": "hái xiǎng chī yì diǎn bǐng gān",
+      "vi": "Còn muốn ăn một ít bánh quy,"
+    },
+    {
+      "start": 405.366,
+      "end": 406.9,
+      "hanzi": "还有巧克力。",
+      "pinyin": "hái yǒu qiǎo kè lì",
+      "vi": "và sô-cô-la."
+    },
+    {
+      "start": 406.933,
+      "end": 408.266,
+      "hanzi": "可以。",
+      "pinyin": "kě yǐ",
+      "vi": "Được thôi."
+    },
+    {
+      "start": 408.3,
+      "end": 409.6,
+      "hanzi": "但是我觉得，",
+      "pinyin": "dàn shì wǒ jué de",
+      "vi": "Nhưng tôi nghĩ,"
+    },
+    {
+      "start": 409.633,
+      "end": 412.466,
+      "hanzi": "我们还可以准备一点健康的零食。",
+      "pinyin": "wǒ men hái kě yǐ zhǔn bèi yì diǎn jiàn kāng de líng shí",
+      "vi": "chúng ta cũng có thể chuẩn bị vài món ăn vặt tốt cho sức khỏe."
+    },
+    {
+      "start": 412.5,
+      "end": 413.666,
+      "hanzi": "比如说，",
+      "pinyin": "bǐ rú shuō",
+      "vi": "Ví dụ như,"
+    },
+    {
+      "start": 413.7,
+      "end": 414.733,
+      "hanzi": "一些坚果，",
+      "pinyin": "yī xiē jiān guǒ",
+      "vi": "một ít các loại hạt,"
+    },
+    {
+      "start": 414.766,
+      "end": 417.7,
+      "hanzi": "或者我们自己做一点简单的沙拉，",
+      "pinyin": "huò zhě wǒ men zì jǐ zuò yì diǎn jiǎn dān de shā lā",
+      "vi": "hoặc tự làm một ít salad đơn giản,"
+    },
+    {
+      "start": 417.733,
+      "end": 419.366,
+      "hanzi": "用小盒子装着。",
+      "pinyin": "yòng xiǎo hé zi zhuāng zhe",
+      "vi": "đựng trong hộp nhỏ."
+    },
+    {
+      "start": 419.4,
+      "end": 421.266,
+      "hanzi": "沙拉？好啊！",
+      "pinyin": "shā lā hǎo a",
+      "vi": "Salad à? Được đấy!"
+    },
+    {
+      "start": 421.3,
+      "end": 422.9,
+      "hanzi": "我喜欢吃沙拉。",
+      "pinyin": "wǒ xǐ huān chī shā lā",
+      "vi": "Tôi thích ăn salad."
+    },
+    {
+      "start": 422.933,
+      "end": 424.533,
+      "hanzi": "那这个谁来做？",
+      "pinyin": "nà zhè ge shuí lái zuò",
+      "vi": "Vậy món này ai làm?"
+    },
+    {
+      "start": 424.566,
+      "end": 426.166,
+      "hanzi": "不会又是你吧？",
+      "pinyin": "bú huì yòu shì nǐ ba",
+      "vi": "Không phải lại là bạn đấy chứ?"
+    },
+    {
+      "start": 426.2,
+      "end": 428.333,
+      "hanzi": "当然是我。",
+      "pinyin": "dāng rán shì wǒ",
+      "vi": "Tất nhiên là tôi."
+    },
+    {
+      "start": 428.366,
+      "end": 430.066,
+      "hanzi": "做沙拉很简单，",
+      "pinyin": "zuò shā lā hěn jiǎn dān",
+      "vi": "Làm salad rất đơn giản,"
+    },
+    {
+      "start": 430.1,
+      "end": 432.466,
+      "hanzi": "就是把菜和水果洗干净，",
+      "pinyin": "jiù shì bǎ cài hé shuǐ guǒ xǐ gān jìng",
+      "vi": "chỉ cần rửa sạch rau và trái cây,"
+    },
+    {
+      "start": 432.5,
+      "end": 433.566,
+      "hanzi": "放在一起。",
+      "pinyin": "fàng zài yì qǐ",
+      "vi": "rồi trộn chúng với nhau."
+    },
+    {
+      "start": 433.6,
+      "end": 435.366,
+      "hanzi": "五分钟就能做好。",
+      "pinyin": "wǔ fēn zhōng jiù néng zuò hǎo",
+      "vi": "Năm phút là làm xong."
+    },
+    {
+      "start": 435.4,
+      "end": 437.466,
+      "hanzi": "李明，你太好了！",
+      "pinyin": "lǐ míng nǐ tài hǎo le",
+      "vi": "Lý Minh, bạn tốt quá!"
+    },
+    {
+      "start": 437.5,
+      "end": 438.7,
+      "hanzi": "我发现，",
+      "pinyin": "wǒ fā xiàn",
+      "vi": "Tôi phát hiện ra rằng,"
+    },
+    {
+      "start": 438.733,
+      "end": 440.366,
+      "hanzi": "跟你一起出去玩，",
+      "pinyin": "gēn nǐ yì qǐ chū qù wán",
+      "vi": "đi chơi cùng bạn,"
+    },
+    {
+      "start": 440.4,
+      "end": 442.1,
+      "hanzi": "我什么都不用做，",
+      "pinyin": "wǒ shén me dōu bù yòng zuò",
+      "vi": "tôi chẳng cần làm gì cả,"
+    },
+    {
+      "start": 442.133,
+      "end": 444.766,
+      "hanzi": "只用想吃什么就行了。",
+      "pinyin": "zhǐ yòng xiǎng chī shén me jiù xíng le",
+      "vi": "chỉ cần nghĩ xem muốn ăn gì là được."
+    },
+    {
+      "start": 444.8,
+      "end": 446.5,
+      "hanzi": "因为我喜欢计划，",
+      "pinyin": "yīn wèi wǒ xǐ huān jì huà",
+      "vi": "Vì tôi thích lên kế hoạch,"
+    },
+    {
+      "start": 446.533,
+      "end": 448.2,
+      "hanzi": "喜欢准备。",
+      "pinyin": "xǐ huān zhǔn bèi",
+      "vi": "thích chuẩn bị."
+    },
+    {
+      "start": 448.233,
+      "end": 449.266,
+      "hanzi": "准备去玩，",
+      "pinyin": "zhǔn bèi qù wán",
+      "vi": "Chuẩn bị đi chơi,"
+    },
+    {
+      "start": 449.3,
+      "end": 450.7,
+      "hanzi": "就像做菜一样。",
+      "pinyin": "jiù xiàng zuò cài yī yàng",
+      "vi": "cũng giống như nấu ăn vậy."
+    },
+    {
+      "start": 450.733,
+      "end": 452.9,
+      "hanzi": "我们要先把东西都准备好，",
+      "pinyin": "wǒ men yào xiān bǎ dōng xī dōu zhǔn bèi hǎo",
+      "vi": "Chúng ta phải chuẩn bị mọi thứ trước,"
+    },
+    {
+      "start": 452.933,
+      "end": 455.5,
+      "hanzi": "然后才能做出好吃的东西，",
+      "pinyin": "rán hòu cái néng zuò chū hǎo chī de dōng xī",
+      "vi": "rồi mới có thể làm ra món ăn ngon,"
+    },
+    {
+      "start": 455.533,
+      "end": 457.0,
+      "hanzi": "才能玩得高兴。",
+      "pinyin": "cái néng wán dé gāo xìng",
+      "vi": "và có một chuyến đi vui vẻ."
+    },
+    {
+      "start": 457.033,
+      "end": 457.766,
+      "hanzi": "嗯，",
+      "pinyin": "ń",
+      "vi": "Ừm,"
+    },
+    {
+      "start": 457.8,
+      "end": 459.933,
+      "hanzi": "这个说法我喜欢。",
+      "pinyin": "zhè ge shuō fǎ wǒ xǐ huān",
+      "vi": "tôi thích cách nói này."
+    },
+    {
+      "start": 459.966,
+      "end": 461.633,
+      "hanzi": "那我们喝什么呢？",
+      "pinyin": "nà wǒ men hē shén me ne",
+      "vi": "Vậy chúng ta uống gì?"
+    },
+    {
+      "start": 461.666,
+      "end": 463.2,
+      "hanzi": "要带水吗？",
+      "pinyin": "yào dài shuǐ ma",
+      "vi": "Có cần mang nước không?"
+    },
+    {
+      "start": 463.233,
+      "end": 464.7,
+      "hanzi": "水是一定要带的。",
+      "pinyin": "shuǐ shì yí dìng yào dài de",
+      "vi": "Nhất định phải mang nước."
+    },
+    {
+      "start": 464.733,
+      "end": 467.733,
+      "hanzi": "我们每人带一个大瓶子。",
+      "pinyin": "wǒ men měi rén dài yí gè dà píng zi",
+      "vi": "Mỗi người chúng ta mang một chai lớn."
+    },
+    {
+      "start": 467.766,
+      "end": 468.766,
+      "hanzi": "除了水，",
+      "pinyin": "chú le shuǐ",
+      "vi": "Ngoài nước lọc,"
+    },
+    {
+      "start": 468.8,
+      "end": 470.4,
+      "hanzi": "你还想喝什么？",
+      "pinyin": "nǐ hái xiǎng hē shén me",
+      "vi": "bạn còn muốn uống gì?"
+    },
+    {
+      "start": 470.433,
+      "end": 470.9,
+      "hanzi": "果汁？",
+      "pinyin": "guǒ zhī",
+      "vi": "Nước ép trái cây?"
+    },
+    {
+      "start": 470.933,
+      "end": 472.566,
+      "hanzi": "可乐？",
+      "pinyin": "kě lè",
+      "vi": "Coca?"
+    },
+    {
+      "start": 472.6,
+      "end": 475.9,
+      "hanzi": "我想喝我自己做的柠檬茶。",
+      "pinyin": "wǒ xiǎng hē wǒ zì jǐ zuò de níng méng chá",
+      "vi": "Tôi muốn uống trà chanh do chính mình pha."
+    },
+    {
+      "start": 475.933,
+      "end": 478.033,
+      "hanzi": "我前天刚买了新杯子，",
+      "pinyin": "wǒ qián tiān gāng mǎi le xīn bēi zi",
+      "vi": "Hôm kia tôi vừa mua một chiếc cốc mới,"
+    },
+    {
+      "start": 478.066,
+      "end": 479.766,
+      "hanzi": "我可以做一大杯，",
+      "pinyin": "wǒ kě yǐ zuò yī dà bēi",
+      "vi": "tôi có thể pha một cốc thật lớn,"
+    },
+    {
+      "start": 479.8,
+      "end": 482.233,
+      "hanzi": "然后我们两个人一起喝。",
+      "pinyin": "rán hòu wǒ men liǎng gè rén yì qǐ hē",
+      "vi": "rồi hai chúng ta cùng uống."
+    },
+    {
+      "start": 482.266,
+      "end": 484.1,
+      "hanzi": "你自己做的柠檬茶？",
+      "pinyin": "nǐ zì jǐ zuò de níng méng chá",
+      "vi": "Trà chanh do bạn tự pha à?"
+    },
+    {
+      "start": 484.133,
+      "end": 486.5,
+      "hanzi": "那一定很好喝。",
+      "pinyin": "nà yí dìng hěn hǎo hē",
+      "vi": "Vậy chắc chắn sẽ ngon lắm."
+    },
+    {
+      "start": 486.533,
+      "end": 488.3,
+      "hanzi": "好，喝的也决定了。",
+      "pinyin": "hǎo hē de yě jué dìng le",
+      "vi": "Được, đồ uống cũng đã quyết định."
+    },
+    {
+      "start": 488.333,
+      "end": 491.2,
+      "hanzi": "我们总结一下我们的食物清单：",
+      "pinyin": "wǒ men zǒng jié yī xià wǒ men de shí wù qīng dān",
+      "vi": "Chúng ta tổng kết danh sách đồ ăn nhé:"
+    },
+    {
+      "start": 491.233,
+      "end": 492.033,
+      "hanzi": "三明治、",
+      "pinyin": "sān míng zhì",
+      "vi": "Sandwich,"
+    },
+    {
+      "start": 492.066,
+      "end": 493.2,
+      "hanzi": "苹果、",
+      "pinyin": "píng guǒ",
+      "vi": "táo,"
+    },
+    {
+      "start": 493.233,
+      "end": 494.066,
+      "hanzi": "草莓、",
+      "pinyin": "cǎo méi",
+      "vi": "dâu tây,"
+    },
+    {
+      "start": 494.1,
+      "end": 495.5,
+      "hanzi": "一些小零食、",
+      "pinyin": "yī xiē xiǎo líng shí",
+      "vi": "một ít đồ ăn vặt,"
+    },
+    {
+      "start": 495.533,
+      "end": 496.533,
+      "hanzi": "沙拉、",
+      "pinyin": "shā lā",
+      "vi": "salad,"
+    },
+    {
+      "start": 496.566,
+      "end": 497.2,
+      "hanzi": "水，",
+      "pinyin": "shuǐ",
+      "vi": "nước lọc,"
+    },
+    {
+      "start": 497.233,
+      "end": 499.566,
+      "hanzi": "还有你的柠檬茶。",
+      "pinyin": "hái yǒu nǐ de níng méng chá",
+      "vi": "và trà chanh của bạn nữa."
+    },
+    {
+      "start": 499.6,
+      "end": 500.433,
+      "hanzi": "你觉得够吗？",
+      "pinyin": "nǐ jué de gòu ma",
+      "vi": "Bạn thấy đủ chưa?"
+    },
+    {
+      "start": 500.466,
+      "end": 501.933,
+      "hanzi": "我觉得够了！",
+      "pinyin": "wǒ jué de gòu le",
+      "vi": "Tôi thấy đủ rồi!"
+    },
+    {
+      "start": 501.966,
+      "end": 504.5,
+      "hanzi": "太多了我们也吃不完。",
+      "pinyin": "tài duō le wǒ men yě chī bù wán",
+      "vi": "Nhiều quá thì chúng ta cũng không ăn hết."
+    },
+    {
+      "start": 504.533,
+      "end": 505.233,
+      "hanzi": "哇，",
+      "pinyin": "wa",
+      "vi": "Ôi,"
+    },
+    {
+      "start": 505.233,
+      "end": 506.9,
+      "hanzi": "这么多好吃的东西，",
+      "pinyin": "zhè me duō hǎo chī de dōng xī",
+      "vi": "nhiều đồ ăn ngon như vậy,"
+    },
+    {
+      "start": 506.933,
+      "end": 509.9,
+      "hanzi": "我真希望明天就是周六！",
+      "pinyin": "wǒ zhēn xī wàng míng tiān jiù shì zhōu liù",
+      "vi": "tôi thật sự mong ngày mai đã là thứ Bảy!"
+    },
+    {
+      "start": 509.933,
+      "end": 511.3,
+      "hanzi": "别着急，",
+      "pinyin": "bié zháo jí",
+      "vi": "Đừng vội,"
+    },
+    {
+      "start": 511.333,
+      "end": 512.833,
+      "hanzi": "准备这么多东西，",
+      "pinyin": "zhǔn bèi zhè me duō dōng xī",
+      "vi": "chuẩn bị nhiều thứ như thế,"
+    },
+    {
+      "start": 512.866,
+      "end": 514.566,
+      "hanzi": "我觉得有点儿麻烦，",
+      "pinyin": "wǒ jué de yǒu diǎn ér má fán",
+      "vi": "tôi thấy hơi phiền phức,"
+    },
+    {
+      "start": 514.6,
+      "end": 515.966,
+      "hanzi": "有点儿累。",
+      "pinyin": "yǒu diǎn ér lèi",
+      "vi": "và hơi mệt."
+    },
+    {
+      "start": 516.0,
+      "end": 517.166,
+      "hanzi": "我明白。",
+      "pinyin": "wǒ míng bái",
+      "vi": "Tôi hiểu."
+    },
+    {
+      "start": 517.2,
+      "end": 518.266,
+      "hanzi": "但是你想想，",
+      "pinyin": "dàn shì nǐ xiǎng xiǎng",
+      "vi": "Nhưng bạn nghĩ xem,"
+    },
+    {
+      "start": 518.3,
+      "end": 519.9,
+      "hanzi": "我们准备得好，",
+      "pinyin": "wǒ men zhǔn bèi dé hǎo",
+      "vi": "nếu chúng ta chuẩn bị tốt,"
+    },
+    {
+      "start": 519.933,
+      "end": 522.366,
+      "hanzi": "到那里的时候就会很高兴，",
+      "pinyin": "dào nà lǐ de shí hòu jiù huì hěn gāo xìng",
+      "vi": "thì khi đến đó sẽ rất vui,"
+    },
+    {
+      "start": 522.4,
+      "end": 523.3,
+      "hanzi": "很舒服。",
+      "pinyin": "hěn shū fú",
+      "vi": "và rất thoải mái."
+    },
+    {
+      "start": 523.333,
+      "end": 524.366,
+      "hanzi": "什么都有，",
+      "pinyin": "shén me dōu yǒu",
+      "vi": "Cái gì cũng có,"
+    },
+    {
+      "start": 524.4,
+      "end": 526.233,
+      "hanzi": "什么都好吃。",
+      "pinyin": "shén me dōu hǎo chī",
+      "vi": "món gì cũng ngon."
+    },
+    {
+      "start": 526.266,
+      "end": 526.5,
+      "hanzi": "你看，",
+      "pinyin": "nǐ kàn",
+      "vi": "Bạn xem,"
+    },
+    {
+      "start": 526.533,
+      "end": 528.566,
+      "hanzi": "我们可以写一个单子，",
+      "pinyin": "wǒ men kě yǐ xiě yí gè dān zi",
+      "vi": "chúng ta có thể viết một danh sách,"
+    },
+    {
+      "start": 528.6,
+      "end": 531.333,
+      "hanzi": "把我们要买的东西都写下来，",
+      "pinyin": "bǎ wǒ men yào mǎi de dōng xī dōu xiě xià lái",
+      "vi": "ghi lại tất cả những thứ cần mua,"
+    },
+    {
+      "start": 531.366,
+      "end": 533.233,
+      "hanzi": "明天去超市的时候，",
+      "pinyin": "míng tiān qù chāo shì de shí hòu",
+      "vi": "ngày mai lúc đi siêu thị,"
+    },
+    {
+      "start": 533.266,
+      "end": 534.6,
+      "hanzi": "看着单子买，",
+      "pinyin": "kàn zhe dān zi mǎi",
+      "vi": "cứ nhìn theo danh sách mà mua,"
+    },
+    {
+      "start": 534.633,
+      "end": 537.133,
+      "hanzi": "这样就不会忘记了。",
+      "pinyin": "zhè yàng jiù bú huì wàng jì le",
+      "vi": "như vậy sẽ không quên."
+    },
+    {
+      "start": 537.166,
+      "end": 538.133,
+      "hanzi": "这个方法好！",
+      "pinyin": "zhè ge fāng fǎ hǎo",
+      "vi": "Cách này hay đấy!"
+    },
+    {
+      "start": 538.166,
+      "end": 539.9,
+      "hanzi": "我们现在就写一个单子。",
+      "pinyin": "wǒ men xiàn zài jiù xiě yí gè dān zi",
+      "vi": "Chúng ta viết danh sách ngay bây giờ đi."
+    },
+    {
+      "start": 539.933,
+      "end": 540.833,
+      "hanzi": "你来说，",
+      "pinyin": "nǐ lái shuō",
+      "vi": "Bạn đọc,"
+    },
+    {
+      "start": 540.866,
+      "end": 542.066,
+      "hanzi": "我来写。",
+      "pinyin": "wǒ lái xiě",
+      "vi": "tôi ghi."
+    },
+    {
+      "start": 542.1,
+      "end": 542.333,
+      "hanzi": "好！",
+      "pinyin": "hǎo",
+      "vi": "Được!"
+    },
+    {
+      "start": 542.366,
+      "end": 544.366,
+      "hanzi": "我要买……",
+      "pinyin": "wǒ yào mǎi",
+      "vi": "Tôi cần mua..."
+    },
+    {
+      "start": 544.4,
+      "end": 545.0,
+      "hanzi": "好了，",
+      "pinyin": "hǎo le",
+      "vi": "Được rồi,"
+    },
+    {
+      "start": 545.033,
+      "end": 546.2,
+      "hanzi": "吃的和喝的，",
+      "pinyin": "chī de hé hē de",
+      "vi": "đồ ăn và đồ uống,"
+    },
+    {
+      "start": 546.233,
+      "end": 547.766,
+      "hanzi": "我们都写在单子上了。",
+      "pinyin": "wǒ men dōu xiě zài dān zi shàng le",
+      "vi": "chúng ta đều đã ghi vào danh sách rồi."
+    },
+    {
+      "start": 547.8,
+      "end": 549.766,
+      "hanzi": "明天下午下班以后，",
+      "pinyin": "míng tiān xià wǔ xià bān yǐ hòu",
+      "vi": "Chiều mai sau khi tan làm,"
+    },
+    {
+      "start": 549.8,
+      "end": 552.1,
+      "hanzi": "我们就一起去超市买。",
+      "pinyin": "wǒ men jiù yì qǐ qù chāo shì mǎi",
+      "vi": "chúng ta sẽ cùng đi siêu thị mua."
+    },
+    {
+      "start": 552.133,
+      "end": 553.066,
+      "hanzi": "没问题。",
+      "pinyin": "méi wèn tí",
+      "vi": "Không vấn đề gì."
+    },
+    {
+      "start": 553.1,
+      "end": 554.4,
+      "hanzi": "那除了吃的，",
+      "pinyin": "nà chú le chī de",
+      "vi": "Vậy ngoài đồ ăn,"
+    },
+    {
+      "start": 554.433,
+      "end": 556.966,
+      "hanzi": "我们还需要带别的东西吗？",
+      "pinyin": "wǒ men hái xū yào dài bié de dōng xī ma",
+      "vi": "chúng ta còn cần mang thứ gì khác không?"
+    },
+    {
+      "start": 557.0,
+      "end": 558.2,
+      "hanzi": "当然需要。",
+      "pinyin": "dāng rán xū yào",
+      "vi": "Tất nhiên là có."
+    },
+    {
+      "start": 558.2,
+      "end": 559.8,
+      "hanzi": "我们是去野餐，",
+      "pinyin": "wǒ men shì qù yě cān",
+      "vi": "Chúng ta đi dã ngoại mà,"
+    },
+    {
+      "start": 559.966,
+      "end": 563.333,
+      "hanzi": "最重要的东西之一，就是一块布，",
+      "pinyin": "zuì zhòng yào de dōng xī zhī yī jiù shì yī kuài bù",
+      "vi": "một trong những thứ quan trọng nhất là một tấm thảm,"
+    },
+    {
+      "start": 563.366,
+      "end": 565.9,
+      "hanzi": "我们可以叫它“野餐垫”。",
+      "pinyin": "wǒ men kě yǐ jiào tā yě cān diàn",
+      "vi": "chúng ta gọi nó là \"thảm dã ngoại\"."
+    },
+    {
+      "start": 565.933,
+      "end": 568.0,
+      "hanzi": "我们把它铺在草地上，",
+      "pinyin": "wǒ men bǎ tā pù zài cǎo dì shàng",
+      "vi": "Chúng ta trải nó trên bãi cỏ,"
+    },
+    {
+      "start": 568.0,
+      "end": 571.3,
+      "hanzi": "然后就可以坐在上面了，很干净。",
+      "pinyin": "rán hòu jiù kě yǐ zuò zài shàng miàn le hěn gān jìng",
+      "vi": "rồi có thể ngồi lên trên, rất sạch sẽ."
+    },
+    {
+      "start": 571.333,
+      "end": 573.666,
+      "hanzi": "对对对，这个很重要！",
+      "pinyin": "duì duì duì zhè ge hěn zhòng yào",
+      "vi": "Đúng đúng, cái này rất quan trọng!"
+    },
+    {
+      "start": 573.7,
+      "end": 577.766,
+      "hanzi": "我家好像有一块，是上次朋友送我的，",
+      "pinyin": "wǒ jiā hǎo xiàng yǒu yī kuài shì shàng cì péng yǒu sòng wǒ de",
+      "vi": "Hình như nhà tôi có một tấm, lần trước bạn tôi tặng,"
+    },
+    {
+      "start": 577.8,
+      "end": 580.333,
+      "hanzi": "红白色的，很漂亮。",
+      "pinyin": "hóng bái sè de hěn piào liàng",
+      "vi": "màu đỏ trắng, rất đẹp."
+    },
+    {
+      "start": 580.333,
+      "end": 581.466,
+      "hanzi": "我去找找。",
+      "pinyin": "wǒ qù zhǎo zhǎo",
+      "vi": "Để tôi tìm thử."
+    },
+    {
+      "start": 581.5,
+      "end": 584.5,
+      "hanzi": "好，那你负责带野餐垫。",
+      "pinyin": "hǎo nà nǐ fù zé dài yě cān diàn",
+      "vi": "Được, vậy bạn phụ trách mang thảm dã ngoại."
+    },
+    {
+      "start": 584.533,
+      "end": 587.9,
+      "hanzi": "我们还需要带一些纸巾，还有湿纸巾，",
+      "pinyin": "wǒ men hái xū yào dài yī xiē zhǐ jīn hái yǒu shī zhǐ jīn",
+      "vi": "Chúng ta còn cần mang ít khăn giấy và khăn ướt,"
+    },
+    {
+      "start": 588.033,
+      "end": 590.0,
+      "hanzi": "吃完东西可以擦手。",
+      "pinyin": "chī wán dōng xī kě yǐ cā shǒu",
+      "vi": "để lau tay sau khi ăn."
+    },
+    {
+      "start": 590.033,
+      "end": 592.4,
+      "hanzi": "嗯，这个我也带。",
+      "pinyin": "ń zhè ge wǒ yě dài",
+      "vi": "Ừm, cái này tôi cũng mang."
+    },
+    {
+      "start": 592.4,
+      "end": 594.866,
+      "hanzi": "我的包里总是有很多纸巾。",
+      "pinyin": "wǒ de bāo lǐ zǒng shì yǒu hěn duō zhǐ jīn",
+      "vi": "Trong túi tôi lúc nào cũng có rất nhiều khăn giấy."
+    },
+    {
+      "start": 594.9,
+      "end": 596.766,
+      "hanzi": "还需要一个垃圾袋。",
+      "pinyin": "hái xū yào yí gè lā jī dài",
+      "vi": "Còn cần một túi đựng rác."
+    },
+    {
+      "start": 596.8,
+      "end": 598.233,
+      "hanzi": "我们吃完东西，",
+      "pinyin": "wǒ men chī wán dōng xī",
+      "vi": "Sau khi ăn xong,"
+    },
+    {
+      "start": 598.233,
+      "end": 600.366,
+      "hanzi": "要把所有的垃圾都带走，",
+      "pinyin": "yào bǎ suǒ yǒu de lā jī dōu dài zǒu",
+      "vi": "chúng ta phải mang tất cả rác đi,"
+    },
+    {
+      "start": 600.4,
+      "end": 602.233,
+      "hanzi": "不能留在公园里。",
+      "pinyin": "bù néng liú zài gōng yuán lǐ",
+      "vi": "không được để lại trong công viên."
+    },
+    {
+      "start": 602.233,
+      "end": 604.4,
+      "hanzi": "保护环境很重要。",
+      "pinyin": "bǎo hù huán jìng hěn zhòng yào",
+      "vi": "Bảo vệ môi trường rất quan trọng."
+    },
+    {
+      "start": 604.433,
+      "end": 606.233,
+      "hanzi": "你说的非常对。",
+      "pinyin": "nǐ shuō de fēi cháng duì",
+      "vi": "Bạn nói rất đúng."
+    },
+    {
+      "start": 606.233,
+      "end": 608.7,
+      "hanzi": "这个我记下了，一定带。",
+      "pinyin": "zhè ge wǒ jì xià le yí dìng dài",
+      "vi": "Tôi ghi lại rồi, nhất định sẽ mang."
+    },
+    {
+      "start": 608.733,
+      "end": 611.866,
+      "hanzi": "我们要做爱护环境的好孩子。",
+      "pinyin": "wǒ men yào zuò ài hù huán jìng de hǎo hái zi",
+      "vi": "Chúng ta phải là những người biết bảo vệ môi trường."
+    },
+    {
+      "start": 611.9,
+      "end": 615.433,
+      "hanzi": "对。还有什么呢？",
+      "pinyin": "duì hái yǒu shén me ne",
+      "vi": "Đúng. Còn gì nữa không?"
+    },
+    {
+      "start": 615.466,
+      "end": 618.6,
+      "hanzi": "啊，对了，你想在那里做什么？",
+      "pinyin": "a duì le nǐ xiǎng zài nà lǐ zuò shén me",
+      "vi": "À, đúng rồi, bạn muốn làm gì ở đó?"
+    },
+    {
+      "start": 618.633,
+      "end": 622.266,
+      "hanzi": "就是，除了吃东西，我们还做什么？",
+      "pinyin": "jiù shì chú le chī dōng xī wǒ men hái zuò shén me",
+      "vi": "Ý là ngoài ăn uống, chúng ta còn làm gì?"
+    },
+    {
+      "start": 622.3,
+      "end": 625.266,
+      "hanzi": "嗯……我想看书。",
+      "pinyin": "ń wǒ xiǎng kàn shū",
+      "vi": "Ừm... tôi muốn đọc sách."
+    },
+    {
+      "start": 625.3,
+      "end": 627.566,
+      "hanzi": "在那么好的天气里，",
+      "pinyin": "zài nà me hǎo de tiān qì lǐ",
+      "vi": "Trong thời tiết đẹp như vậy,"
+    },
+    {
+      "start": 627.566,
+      "end": 631.5,
+      "hanzi": "在大树下面，安安静静地看一会儿书，",
+      "pinyin": "zài dà shù xià miàn ān ān jìng jìng dì kàn yī huì er shū",
+      "vi": "ngồi dưới cây lớn, yên tĩnh đọc sách một lát,"
+    },
+    {
+      "start": 631.533,
+      "end": 633.333,
+      "hanzi": "一定特别舒服。",
+      "pinyin": "yí dìng tè bié shū fú",
+      "vi": "chắc chắn sẽ rất dễ chịu."
+    },
+    {
+      "start": 633.366,
+      "end": 636.2,
+      "hanzi": "我带一本我最喜欢的书去。",
+      "pinyin": "wǒ dài yī běn wǒ zuì xǐ huān de shū qù",
+      "vi": "Tôi sẽ mang theo cuốn sách mình thích nhất."
+    },
+    {
+      "start": 636.233,
+      "end": 637.866,
+      "hanzi": "看书，很好。",
+      "pinyin": "kàn shū hěn hǎo",
+      "vi": "Đọc sách, rất hay."
+    },
+    {
+      "start": 637.866,
+      "end": 640.2,
+      "hanzi": "那我带我的相机吧。",
+      "pinyin": "nà wǒ dài wǒ de xiàng jī ba",
+      "vi": "Vậy tôi mang máy ảnh nhé."
+    },
+    {
+      "start": 640.233,
+      "end": 643.166,
+      "hanzi": "那个公园很漂亮，我可以拍一些照片。",
+      "pinyin": "nà ge gōng yuán hěn piào liàng wǒ kě yǐ pāi yī xiē zhào piān",
+      "vi": "Công viên đó rất đẹp, tôi có thể chụp vài bức ảnh."
+    },
+    {
+      "start": 643.2,
+      "end": 645.866,
+      "hanzi": "拍风景，也拍你。",
+      "pinyin": "pāi fēng jǐng yě pāi nǐ",
+      "vi": "Chụp phong cảnh và chụp cả bạn nữa."
+    },
+    {
+      "start": 645.9,
+      "end": 649.733,
+      "hanzi": "好啊！你一定要把我拍得漂亮一点！",
+      "pinyin": "hǎo a nǐ yí dìng yào bǎ wǒ pāi dé piào liàng yì diǎn",
+      "vi": "Được chứ! Bạn nhất định phải chụp tôi đẹp một chút nhé!"
+    },
+    {
+      "start": 649.766,
+      "end": 652.333,
+      "hanzi": "我还可以带我的小音箱，",
+      "pinyin": "wǒ hái kě yǐ dài wǒ de xiǎo yīn xiāng",
+      "vi": "Tôi còn có thể mang chiếc loa nhỏ của mình,"
+    },
+    {
+      "start": 652.333,
+      "end": 654.6,
+      "hanzi": "我们可以听一点儿音乐。",
+      "pinyin": "wǒ men kě yǐ tīng yì diǎn ér yīn yuè",
+      "vi": "chúng ta có thể nghe một chút nhạc."
+    },
+    {
+      "start": 654.633,
+      "end": 657.8,
+      "hanzi": "声音开小一点，不影响别人。",
+      "pinyin": "shēng yīn kāi xiǎo yì diǎn bù yǐng xiǎng bié rén",
+      "vi": "Mở âm lượng nhỏ thôi, không làm phiền người khác."
+    },
+    {
+      "start": 657.833,
+      "end": 660.866,
+      "hanzi": "可以。那我们的活动也有了：",
+      "pinyin": "kě yǐ nà wǒ men de huó dòng yě yǒu le",
+      "vi": "Được. Vậy chúng ta cũng đã có các hoạt động:"
+    },
+    {
+      "start": 660.9,
+      "end": 664.7,
+      "hanzi": "吃东西、看书、拍照、听音乐。",
+      "pinyin": "chī dōng xī kàn shū pāi zhào tīng yīn yuè",
+      "vi": "ăn uống, đọc sách, chụp ảnh và nghe nhạc."
+    },
+    {
+      "start": 664.7,
+      "end": 667.4,
+      "hanzi": "非常放松，我很喜欢。",
+      "pinyin": "fēi cháng fàng sōng wǒ hěn xǐ huān",
+      "vi": "Rất thư giãn, tôi thích lắm."
+    },
+    {
+      "start": 667.433,
+      "end": 668.866,
+      "hanzi": "我也是。",
+      "pinyin": "wǒ yě shì",
+      "vi": "Tôi cũng vậy."
+    },
+    {
+      "start": 668.9,
+      "end": 671.766,
+      "hanzi": "那最后一个问题，李老师，",
+      "pinyin": "nà zuì hòu yí gè wèn tí lǐ lǎo shī",
+      "vi": "Vậy câu hỏi cuối cùng, thầy Lý,"
+    },
+    {
+      "start": 671.8,
+      "end": 674.566,
+      "hanzi": "我们明天早上几点出发？",
+      "pinyin": "wǒ men míng tiān zǎo shàng jǐ diǎn chū fā",
+      "vi": "sáng mai chúng ta xuất phát lúc mấy giờ?"
+    },
+    {
+      "start": 674.6,
+      "end": 677.6,
+      "hanzi": "嗯，这个问题很重要。",
+      "pinyin": "ń zhè ge wèn tí hěn zhòng yào",
+      "vi": "Ừm, câu hỏi này rất quan trọng."
+    },
+    {
+      "start": 677.633,
+      "end": 680.2,
+      "hanzi": "我建议我们早一点出发。",
+      "pinyin": "wǒ jiàn yì wǒ men zǎo yì diǎn chū fā",
+      "vi": "Tôi đề nghị chúng ta đi sớm một chút."
+    },
+    {
+      "start": 680.233,
+      "end": 683.3,
+      "hanzi": "比如，早上八点半，我们从家里走。",
+      "pinyin": "bǐ rú zǎo shàng bā diǎn bàn wǒ men cóng jiā lǐ zǒu",
+      "vi": "Ví dụ tám giờ rưỡi sáng, chúng ta ra khỏi nhà."
+    },
+    {
+      "start": 683.333,
+      "end": 684.6,
+      "hanzi": "八点半？",
+      "pinyin": "bā diǎn bàn",
+      "vi": "Tám giờ rưỡi á?"
+    },
+    {
+      "start": 684.6,
+      "end": 686.5,
+      "hanzi": "会不会太早了？",
+      "pinyin": "huì bú huì tài zǎo le",
+      "vi": "Có sớm quá không?"
+    },
+    {
+      "start": 686.533,
+      "end": 689.1,
+      "hanzi": "周末我想多睡一会儿。",
+      "pinyin": "zhōu mò wǒ xiǎng duō shuì yī huì er",
+      "vi": "Cuối tuần tôi muốn ngủ thêm một chút."
+    },
+    {
+      "start": 689.133,
+      "end": 690.9,
+      "hanzi": "九点半，怎么样？",
+      "pinyin": "jiǔ diǎn bàn zěn me yàng",
+      "vi": "Chín giờ rưỡi, được không?"
+    },
+    {
+      "start": 690.933,
+      "end": 692.966,
+      "hanzi": "九点半也可以。",
+      "pinyin": "jiǔ diǎn bàn yě kě yǐ",
+      "vi": "Chín giờ rưỡi cũng được."
+    },
+    {
+      "start": 693.0,
+      "end": 696.466,
+      "hanzi": "但是你想，我们坐地铁要一个小时，",
+      "pinyin": "dàn shì nǐ xiǎng wǒ men zuò dì tiě yào yí gè xiǎo shí",
+      "vi": "Nhưng bạn nghĩ xem, chúng ta đi tàu điện ngầm mất một tiếng,"
+    },
+    {
+      "start": 696.466,
+      "end": 698.733,
+      "hanzi": "到公园就十点半了。",
+      "pinyin": "dào gōng yuán jiù shí diǎn bàn le",
+      "vi": "đến công viên đã là mười giờ rưỡi rồi."
+    },
+    {
+      "start": 698.766,
+      "end": 702.1,
+      "hanzi": "那个时候公园里的人可能已经很多了。",
+      "pinyin": "nà ge shí hòu gōng yuán lǐ de rén kě néng yǐ jīng hěn duō le",
+      "vi": "Lúc ấy trong công viên có thể đã rất đông người."
+    },
+    {
+      "start": 702.133,
+      "end": 704.766,
+      "hanzi": "我们早点去，人会少一点，",
+      "pinyin": "wǒ men zǎo diǎn qù rén huì shǎo yì diǎn",
+      "vi": "Nếu đi sớm hơn thì sẽ ít người hơn,"
+    },
+    {
+      "start": 704.766,
+      "end": 706.866,
+      "hanzi": "也更容易找到一个好地方。",
+      "pinyin": "yě gèng róng yì zhǎo dào yí gè hǎo dì fāng",
+      "vi": "và cũng dễ tìm được một chỗ đẹp."
+    },
+    {
+      "start": 706.9,
+      "end": 709.4,
+      "hanzi": "天气也没有中午那么热。",
+      "pinyin": "tiān qì yě méi yǒu zhōng wǔ nà me rè",
+      "vi": "Thời tiết cũng không nóng như buổi trưa."
+    },
+    {
+      "start": 709.433,
+      "end": 712.5,
+      "hanzi": "嗯……你说的有道理。",
+      "pinyin": "ń nǐ shuō de yǒu dào lǐ",
+      "vi": "Ừm... bạn nói có lý."
+    },
+    {
+      "start": 712.533,
+      "end": 716.233,
+      "hanzi": "去晚了，好地方可能都被别人占了。",
+      "pinyin": "qù wǎn le hǎo dì fāng kě néng dōu bèi bié rén zhàn le",
+      "vi": "Nếu đi muộn, những chỗ đẹp có lẽ đã bị người khác chiếm hết."
+    },
+    {
+      "start": 716.266,
+      "end": 718.8,
+      "hanzi": "好吧，那就辛苦一点，",
+      "pinyin": "hǎo ba nà jiù xīn kǔ yì diǎn",
+      "vi": "Được rồi, vậy chịu khó dậy sớm một chút,"
+    },
+    {
+      "start": 718.833,
+      "end": 721.3,
+      "hanzi": "我们九点出门，怎么样？",
+      "pinyin": "wǒ men jiǔ diǎn chū mén zěn me yàng",
+      "vi": "chúng ta ra khỏi nhà lúc chín giờ, được không?"
+    },
+    {
+      "start": 721.333,
+      "end": 722.666,
+      "hanzi": "我八点起床。",
+      "pinyin": "wǒ bā diǎn qǐ chuáng",
+      "vi": "Tôi dậy lúc tám giờ."
+    },
+    {
+      "start": 722.7,
+      "end": 724.5,
+      "hanzi": "九点出门，可以。",
+      "pinyin": "jiǔ diǎn chū mén kě yǐ",
+      "vi": "Ra khỏi nhà lúc chín giờ, được."
+    },
+    {
+      "start": 724.5,
+      "end": 725.766,
+      "hanzi": "我没问题。",
+      "pinyin": "wǒ méi wèn tí",
+      "vi": "Tôi không có vấn đề gì."
+    },
+    {
+      "start": 725.8,
+      "end": 727.066,
+      "hanzi": "那我们就这么定了。",
+      "pinyin": "nà wǒ men jiù zhè me dìng le",
+      "vi": "Vậy chúng ta quyết định như thế nhé."
+    },
+    {
+      "start": 727.1,
+      "end": 730.4,
+      "hanzi": "周六早上九点，我们准时出门。",
+      "pinyin": "zhōu liù zǎo shàng jiǔ diǎn wǒ men zhǔn shí chū mén",
+      "vi": "Chín giờ sáng thứ Bảy, chúng ta xuất phát đúng giờ."
+    },
+    {
+      "start": 730.433,
+      "end": 731.366,
+      "hanzi": "太好了！",
+      "pinyin": "tài hǎo le",
+      "vi": "Tuyệt quá!"
+    },
+    {
+      "start": 731.366,
+      "end": 733.133,
+      "hanzi": "所有的计划都做好了！",
+      "pinyin": "suǒ yǒu de jì huà dōu zuò hǎo le",
+      "vi": "Mọi kế hoạch đều đã chuẩn bị xong!"
+    },
+    {
+      "start": 733.166,
+      "end": 736.4,
+      "hanzi": "我现在觉得特别放心，也特别期待！",
+      "pinyin": "wǒ xiàn zài jué de tè bié fàng xīn yě tè bié qī dài",
+      "vi": "Bây giờ tôi cảm thấy rất yên tâm và rất mong chờ!"
+    },
+    {
+      "start": 736.433,
+      "end": 739.2,
+      "hanzi": "有一个会计划的朋友，真好！",
+      "pinyin": "yǒu yí gè kuài jì huà de péng yǒu zhēn hǎo",
+      "vi": "Có một người bạn giỏi lên kế hoạch thật tốt!"
+    },
+    {
+      "start": 739.233,
+      "end": 741.766,
+      "hanzi": "跟你这样有热情的朋友一起出去玩，",
+      "pinyin": "gēn nǐ zhè yàng yǒu rè qíng de péng yǒu yì qǐ chū qù wán",
+      "vi": "Đi chơi cùng một người bạn nhiệt tình như bạn,"
+    },
+    {
+      "start": 741.766,
+      "end": 742.7,
+      "hanzi": "也很好。",
+      "pinyin": "yě hěn hǎo",
+      "vi": "cũng rất tuyệt."
+    },
+    {
+      "start": 742.733,
+      "end": 745.3,
+      "hanzi": "你总能想到很多有意思的事情。",
+      "pinyin": "nǐ zǒng néng xiǎng dào hěn duō yǒu yì si de shì qíng",
+      "vi": "Bạn luôn nghĩ ra rất nhiều điều thú vị."
+    },
+    {
+      "start": 745.333,
+      "end": 747.7,
+      "hanzi": "好，那我们再最后确认一下。",
+      "pinyin": "hǎo nà wǒ men zài zuì hòu què rèn yī xià",
+      "vi": "Được, vậy chúng ta xác nhận lần cuối nhé."
+    },
+    {
+      "start": 747.733,
+      "end": 750.3,
+      "hanzi": "这个周六，我们早上九点出门，",
+      "pinyin": "zhè ge zhōu liù wǒ men zǎo shàng jiǔ diǎn chū mén",
+      "vi": "Thứ Bảy này, chúng ta ra khỏi nhà lúc chín giờ sáng,"
+    },
+    {
+      "start": 750.333,
+      "end": 753.066,
+      "hanzi": "坐地铁去西山森林公园。",
+      "pinyin": "zuò dì tiě qù xī shān sēn lín gōng yuán",
+      "vi": "đi tàu điện ngầm đến Công viên rừng Tây Sơn."
+    },
+    {
+      "start": 753.1,
+      "end": 757.1,
+      "hanzi": "我们带了野餐垫、纸巾、垃圾袋。",
+      "pinyin": "wǒ men dài le yě cān diàn zhǐ jīn lā jī dài",
+      "vi": "Chúng ta mang thảm dã ngoại, khăn giấy và túi rác."
+    },
+    {
+      "start": 757.133,
+      "end": 758.966,
+      "hanzi": "我们还准备了很多好吃的。",
+      "pinyin": "wǒ men hái zhǔn bèi le hěn duō hǎo chī de",
+      "vi": "Chúng ta còn chuẩn bị rất nhiều đồ ăn ngon."
+    },
+    {
+      "start": 759.0,
+      "end": 760.833,
+      "hanzi": "都有什么好吃的来着？",
+      "pinyin": "dōu yǒu shén me hǎo chī de lái zhe",
+      "vi": "Có những món ngon gì nhỉ?"
+    },
+    {
+      "start": 760.833,
+      "end": 762.366,
+      "hanzi": "你帮大家总结一下。",
+      "pinyin": "nǐ bāng dà jiā zǒng jié yī xià",
+      "vi": "Bạn giúp mọi người tổng kết một chút đi."
+    },
+    {
+      "start": 762.4,
+      "end": 763.266,
+      "hanzi": "好的。",
+      "pinyin": "hǎo de",
+      "vi": "Được."
+    },
+    {
+      "start": 763.266,
+      "end": 765.966,
+      "hanzi": "我们准备的食物有：三明治、",
+      "pinyin": "wǒ men zhǔn bèi de shí wù yǒu sān míng zhì",
+      "vi": "Đồ ăn chúng ta chuẩn bị gồm có: sandwich,"
+    },
+    {
+      "start": 766.0,
+      "end": 770.6,
+      "hanzi": "苹果、草莓、沙拉，还有一些小零食。",
+      "pinyin": "píng guǒ cǎo méi shā lā hái yǒu yī xiē xiǎo líng shí",
+      "vi": "táo, dâu tây, salad và một ít đồ ăn vặt."
+    },
+    {
+      "start": 770.633,
+      "end": 773.033,
+      "hanzi": "喝的东西有水，",
+      "pinyin": "hē de dōng xī yǒu shuǐ",
+      "vi": "Đồ uống có nước lọc,"
+    },
+    {
+      "start": 773.033,
+      "end": 775.933,
+      "hanzi": "还有王雨亲手做的柠檬茶。",
+      "pinyin": "hái yǒu wáng yǔ qīn shǒu zuò de níng méng chá",
+      "vi": "và trà chanh do chính tay Vương Vũ pha."
+    },
+    {
+      "start": 775.966,
+      "end": 777.733,
+      "hanzi": "听起来就很好吃！",
+      "pinyin": "tīng qǐ lái jiù hěn hǎo chī",
+      "vi": "Chỉ nghe thôi đã thấy ngon rồi!"
+    },
+    {
+      "start": 777.733,
+      "end": 779.466,
+      "hanzi": "我已经等不及了！",
+      "pinyin": "wǒ yǐ jīng děng bù jí le",
+      "vi": "Tôi không đợi nổi nữa!"
+    },
+    {
+      "start": 779.5,
+      "end": 781.566,
+      "hanzi": "李明，谢谢你的计划，",
+      "pinyin": "lǐ míng xiè xiè nǐ de jì huà",
+      "vi": "Lý Minh, cảm ơn bạn đã lên kế hoạch,"
+    },
+    {
+      "start": 781.6,
+      "end": 785.7,
+      "hanzi": "现在我觉得我们的周末一定会非常非常开心。",
+      "pinyin": "xiàn zài wǒ jué de wǒ men de zhōu mò yí dìng huì fēi cháng fēi cháng kāi xīn",
+      "vi": "bây giờ tôi cảm thấy cuối tuần của chúng ta chắc chắn sẽ rất, rất vui."
+    },
+    {
+      "start": 785.733,
+      "end": 787.4,
+      "hanzi": "我肯定会很开心。",
+      "pinyin": "wǒ kěn dìng huì hěn kāi xīn",
+      "vi": "Tôi chắc chắn cũng sẽ rất vui."
+    },
+    {
+      "start": 787.433,
+      "end": 790.233,
+      "hanzi": "好了，那听我们播客的朋友们，你们呢？",
+      "pinyin": "hǎo le nà tīng wǒ men bō kè de péng yǒu men nǐ men ne",
+      "vi": "Được rồi, các bạn đang nghe podcast của chúng tôi thì sao?"
+    },
+    {
+      "start": 790.266,
+      "end": 792.4,
+      "hanzi": "这个周末你们有什么计划？",
+      "pinyin": "zhè ge zhōu mò nǐ men yǒu shén me jì huà",
+      "vi": "Cuối tuần này các bạn có kế hoạch gì?"
+    },
+    {
+      "start": 792.433,
+      "end": 794.433,
+      "hanzi": "你们喜欢去野餐吗？",
+      "pinyin": "nǐ men xǐ huān qù yě cān ma",
+      "vi": "Các bạn có thích đi dã ngoại không?"
+    },
+    {
+      "start": 794.466,
+      "end": 795.833,
+      "hanzi": "如果你们去野餐，",
+      "pinyin": "rú guǒ nǐ men qù yě cān",
+      "vi": "Nếu đi dã ngoại,"
+    },
+    {
+      "start": 795.866,
+      "end": 798.3,
+      "hanzi": "你们最喜欢带什么好吃的东西呢？",
+      "pinyin": "nǐ men zuì xǐ huān dài shén me hǎo chī de dōng xī ne",
+      "vi": "các bạn thích mang theo món ngon gì nhất?"
+    },
+    {
+      "start": 798.333,
+      "end": 799.266,
+      "hanzi": "可以告诉我们。",
+      "pinyin": "kě yǐ gào sù wǒ men",
+      "vi": "Hãy kể cho chúng tôi biết nhé."
+    },
+    {
+      "start": 799.3,
+      "end": 801.666,
+      "hanzi": "对，欢迎大家给我们留言，",
+      "pinyin": "duì huān yíng dà jiā gěi wǒ men liú yán",
+      "vi": "Đúng vậy, hoan nghênh mọi người để lại bình luận,"
+    },
+    {
+      "start": 801.7,
+      "end": 805.866,
+      "hanzi": "分享你们的周末计划和你们最喜欢的野餐食物！",
+      "pinyin": "fēn xiǎng nǐ men de zhōu mò jì huà hé nǐ men zuì xǐ huān de yě cān shí wù",
+      "vi": "chia sẻ kế hoạch cuối tuần và những món ăn dã ngoại yêu thích!"
+    },
+    {
+      "start": 805.9,
+      "end": 808.666,
+      "hanzi": "好的，那我们今天就聊到这里。",
+      "pinyin": "hǎo de nà wǒ men jīn tiān jiù liáo dào zhè lǐ",
+      "vi": "Được rồi, hôm nay chúng ta trò chuyện đến đây thôi."
+    },
+    {
+      "start": 808.7,
+      "end": 812.066,
+      "hanzi": "希望大家都有一个轻松愉快的周末。",
+      "pinyin": "xī wàng dà jiā dōu yǒu yí gè qīng sōng yú kuài de zhōu mò",
+      "vi": "Chúc mọi người có một cuối tuần thư giãn và vui vẻ."
+    },
+    {
+      "start": 812.1,
+      "end": 813.166,
+      "hanzi": "下次再见！",
+      "pinyin": "xià cì zài jiàn",
+      "vi": "Hẹn gặp lại lần sau!"
+    },
+    {
+      "start": 813.2,
+      "end": 814.5,
+      "hanzi": "朋友们再见！拜拜！",
+      "pinyin": "péng yǒu men zài jiàn bài bài",
+      "vi": "Tạm biệt mọi người! Bye bye!"
+    }
+  ]
+}

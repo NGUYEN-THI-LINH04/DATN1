@@ -1,0 +1,617 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Quản lý bài học | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        QUẢN LÝ HỆ THỐNG
+    </span>
+
+    <h1>
+        Quản lý bài học
+    </h1>
+
+    <p>
+        Theo dõi học liệu, trạng thái và xuất bản bài học
+        theo từng khóa.
+    </p>
+
+
+    <!-- =====================================
+         THÊM BÀI HỌC
+    ====================================== -->
+
+    <a
+        class="button"
+        href="{{ url_for(
+            'admin_lessons.add',
+            course_id=selected_course
+        ) if selected_course else url_for(
+            'admin_lessons.add'
+        ) }}"
+    >
+        + Thêm bài học
+    </a>
+
+</div>
+
+
+<!-- =====================================================
+     BỘ LỌC
+===================================================== -->
+
+<section class="panel">
+
+    <form
+        class="courses-filter"
+        method="get"
+        action="{{ url_for('admin_lessons.index') }}"
+    >
+
+        <div class="field">
+
+            <label for="lesson-course-filter">
+                Khóa học
+            </label>
+
+            <select
+                id="lesson-course-filter"
+                name="course_id"
+            >
+
+                <option value="">
+                    Tất cả khóa học
+                </option>
+
+
+                {% for course in courses %}
+
+                    <option
+                        value="{{ course.id }}"
+
+                        {% if selected_course == course.id %}
+                            selected
+                        {% endif %}
+                    >
+
+                        HSK {{ course.level }}
+                        ·
+                        {{ course.title }}
+
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <div class="course-actions">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lọc bài học
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_lessons.index'
+                ) }}"
+            >
+                Bỏ lọc
+            </a>
+
+        </div>
+
+    </form>
+
+
+    <!-- =================================================
+         THÔNG TIN KHÓA ĐANG CHỌN
+    ================================================== -->
+
+    {% if selected_course_info %}
+
+        <div class="space-top">
+
+            <div class="example-card">
+
+                <h3>
+
+                    HSK {{ selected_course_info.level }}
+                    ·
+                    {{ selected_course_info.title }}
+
+                </h3>
+
+
+                <p>
+
+                    Tổng:
+
+                    <strong>
+                        {{ selected_course_total }}
+                    </strong>
+
+                    bài
+
+                    ·
+
+                    Còn
+
+                    <strong>
+                        {{ selected_course_draft_count }}
+                    </strong>
+
+                    bài nháp.
+
+                </p>
+
+
+                <p>
+
+                    Trạng thái khóa học:
+
+                    <strong>
+
+                        {{
+                            statuses.get(
+                                selected_course_info.status,
+                                selected_course_info.status
+                            )
+                        }}
+
+                    </strong>
+
+                </p>
+
+
+                <!-- =========================================
+                     XUẤT BẢN TOÀN BỘ
+                ========================================== -->
+
+                {% if selected_course_draft_count > 0 %}
+
+                    <form
+                        method="post"
+
+                        action="{{ url_for(
+                            'admin_lessons.publish_course',
+                            course_id=selected_course
+                        ) }}"
+
+                        class="lesson-confirm-form space-top"
+
+                        data-confirm="
+                            Bạn có chắc muốn xuất bản
+                            {{ selected_course_draft_count }}
+                            bài nháp của khóa
+                            {{ selected_course_info.title }}?
+                        "
+                    >
+
+                        <input
+                            type="hidden"
+                            name="csrf_token"
+                            value="{{ csrf_token() }}"
+                        >
+
+
+                        <button
+                            type="submit"
+                            class="button"
+                        >
+                            ✓ Xuất bản toàn bộ
+                            {{ selected_course_draft_count }}
+                            bài nháp
+                        </button>
+
+                    </form>
+
+                {% else %}
+
+                    <p class="space-top">
+
+                        ✓ Không còn bài nháp
+                        trong khóa này.
+
+                    </p>
+
+                {% endif %}
+
+            </div>
+
+        </div>
+
+    {% else %}
+
+        <p class="space-top">
+
+            Chọn một khóa học ở phía trên
+            nếu muốn xuất bản hàng loạt.
+
+        </p>
+
+    {% endif %}
+
+
+    <!-- =================================================
+         SỐ BÀI TÌM ĐƯỢC
+    ================================================== -->
+
+    <p class="space-top">
+
+        Tìm thấy
+
+        <strong>
+            {{ lessons|length }}
+        </strong>
+
+        bài học.
+
+    </p>
+
+
+    <!-- =================================================
+         BẢNG BÀI HỌC
+    ================================================== -->
+
+    <div class="table-scroll">
+
+        <table class="data-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>
+                        Mã
+                    </th>
+
+                    <th>
+                        Thứ tự
+                    </th>
+
+                    <th>
+                        Tên bài học
+                    </th>
+
+                    <th>
+                        Khóa học
+                    </th>
+
+                    <th>
+                        Từ vựng
+                    </th>
+
+                    <th>
+                        Ngữ pháp
+                    </th>
+
+                    <th>
+                        Chữ Hán
+                    </th>
+
+                    <th>
+                        Trạng thái
+                    </th>
+
+                    <th>
+                        Thao tác
+                    </th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                {% for lesson in lessons %}
+
+                    <tr>
+
+                        <!-- MÃ -->
+
+                        <td>
+                            {{ lesson.id }}
+                        </td>
+
+
+                        <!-- THỨ TỰ -->
+
+                        <td>
+                            Bài {{ lesson.order }}
+                        </td>
+
+
+                        <!-- TÊN BÀI -->
+
+                        <td>
+
+                            <strong>
+                                {{ lesson.title }}
+                            </strong>
+
+                        </td>
+
+
+                        <!-- KHÓA HỌC -->
+
+                        <td>
+
+                            HSK {{ lesson.course_level }}
+
+                            <br>
+
+                            <small>
+                                {{ lesson.course_title }}
+                            </small>
+
+                        </td>
+
+
+                        <!-- TỪ VỰNG -->
+
+                        <td>
+
+                            <strong>
+                                {{ lesson.vocabulary_count }}
+                            </strong>
+
+                        </td>
+
+
+                        <!-- NGỮ PHÁP -->
+
+                        <td>
+
+                            <strong>
+                                {{ lesson.grammar_count }}
+                            </strong>
+
+                        </td>
+
+
+                        <!-- CHỮ HÁN -->
+
+                        <td>
+
+                            <strong>
+                                {{ lesson.hanzi_count }}
+                            </strong>
+
+                        </td>
+
+
+                        <!-- TRẠNG THÁI -->
+
+                        <td>
+
+                            <span
+                                class="
+                                    course-status
+                                    course-status-{{ lesson.status }}
+                                "
+                            >
+
+                                {{
+                                    statuses.get(
+                                        lesson.status,
+                                        lesson.status
+                                    )
+                                }}
+
+                            </span>
+
+                        </td>
+
+
+                        <!-- =================================
+                             ĐỔI TRẠNG THÁI
+                        ================================== -->
+
+                        <td>
+                            <!-- =====================================
+                                CHỈNH SỬA BÀI HỌC
+                            ====================================== -->
+                        <a
+    class="small-button lesson-manage-button"
+
+    href="{{ url_for(
+        'admin_lessons.detail',
+        lesson_id=lesson.id
+    ) }}"
+>
+    Quản lý bài
+</a>
+
+                        <a
+                            class="small-button lesson-edit-button"
+
+                            href="{{ url_for(
+                                'admin_lessons.edit',
+                                lesson_id=lesson.id
+                            ) }}"
+                        >
+                        Chỉnh sửa
+                    </a>
+
+                            <form
+                                method="post"
+
+                                action="{{ url_for(
+                                    'admin_lessons.set_status',
+                                    lesson_id=lesson.id
+                                ) }}"
+
+                                class="lesson-confirm-form"
+
+                                data-confirm="
+                                    Bạn có chắc muốn cập nhật
+                                    trạng thái Bài {{ lesson.order }}?
+                                "
+                            >
+
+                                <input
+                                    type="hidden"
+                                    name="csrf_token"
+                                    value="{{ csrf_token() }}"
+                                >
+
+
+                                <input
+                                    type="hidden"
+                                    name="course_id"
+                                    value="{{
+                                        selected_course
+                                        if selected_course
+                                        else lesson.course_id
+                                    }}"
+                                >
+
+
+                                <div
+                                    style="
+                                        display:flex;
+                                        align-items:center;
+                                        gap:6px;
+                                        min-width:220px;
+                                    "
+                                >
+
+                                    <select
+                                        name="status"
+                                        aria-label="
+                                            Trạng thái Bài
+                                            {{ lesson.order }}
+                                        "
+                                    >
+
+                                        {% for value, label
+                                            in statuses.items()
+                                        %}
+
+                                            <option
+                                                value="{{ value }}"
+
+                                                {% if lesson.status == value %}
+                                                    selected
+                                                {% endif %}
+                                            >
+                                                {{ label }}
+                                            </option>
+
+                                        {% endfor %}
+
+                                    </select>
+
+
+                                    <button
+                                        type="submit"
+                                        class="small-button"
+                                    >
+                                        Cập nhật
+                                    </button>
+
+                                </div>
+
+                            </form>
+
+                        </td>
+
+                    </tr>
+
+
+                {% else %}
+
+                    <tr>
+
+                        <td
+                            colspan="9"
+                            class="center-text"
+                        >
+
+                            Không có bài học phù hợp.
+
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script>
+
+document
+    .querySelectorAll(
+        ".lesson-confirm-form"
+    )
+    .forEach(
+        function (form) {
+
+            form.addEventListener(
+                "submit",
+                function (event) {
+
+                    const message =
+                        String(
+                            form.dataset.confirm
+                            || ""
+                        )
+                        .replace(
+                            /\s+/g,
+                            " "
+                        )
+                        .trim();
+
+
+                    if (
+                        message
+                        &&
+                        !window.confirm(
+                            message
+                        )
+                    ) {
+
+                        event.preventDefault();
+
+                    }
+
+                }
+            );
+
+        }
+    );
+
+</script>
+
+{% endblock %}

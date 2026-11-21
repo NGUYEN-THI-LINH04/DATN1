@@ -1,0 +1,1924 @@
+{
+  "module": "shadowing",
+  "youtube_id": "GFPOvOvFgQI",
+  "sentences": [
+    {
+      "start": 7.633,
+      "end": 10.933,
+      "hanzi": "大家好，欢迎收听每天中文。",
+      "pinyin": "dà jiā hǎo huān yíng shōu tīng měi tiān zhōng wén",
+      "vi": "Xin chào mọi người, chào mừng đến với chương trình Tiếng Trung mỗi ngày."
+    },
+    {
+      "start": 10.966,
+      "end": 12.3,
+      "hanzi": "我是李明。",
+      "pinyin": "wǒ shì lǐ míng",
+      "vi": "Tôi là Lý Minh."
+    },
+    {
+      "start": 12.333,
+      "end": 14.266,
+      "hanzi": "大家好，我是王雨。",
+      "pinyin": "dà jiā hǎo wǒ shì wáng yǔ",
+      "vi": "Xin chào mọi người, tôi là Vương Vũ."
+    },
+    {
+      "start": 14.3,
+      "end": 17.033,
+      "hanzi": "很高兴又和大家见面了。",
+      "pinyin": "hěn gāo xìng yòu hé dà jiā jiàn miàn le",
+      "vi": "Rất vui được gặp lại mọi người."
+    },
+    {
+      "start": 17.066,
+      "end": 19.466,
+      "hanzi": "是的，王雨，我们又见面了。",
+      "pinyin": "shì de wáng yǔ wǒ men yòu jiàn miàn le",
+      "vi": "Đúng vậy, Vương Vũ, chúng ta lại gặp nhau rồi."
+    },
+    {
+      "start": 19.5,
+      "end": 21.433,
+      "hanzi": "我闻到你身上的味道了。",
+      "pinyin": "wǒ wén dào nǐ shēn shàng de wèi dào le",
+      "vi": "Tôi ngửi thấy một mùi hương trên người bạn."
+    },
+    {
+      "start": 21.466,
+      "end": 24.066,
+      "hanzi": "味道？什么味道？",
+      "pinyin": "wèi dào shén me wèi dào",
+      "vi": "Mùi hương? Mùi gì cơ?"
+    },
+    {
+      "start": 24.1,
+      "end": 28.033,
+      "hanzi": "我今天早上出门很着急，没有用香水。",
+      "pinyin": "wǒ jīn tiān zǎo shàng chū mén hěn zháo jí méi yǒu yòng xiāng shuǐ",
+      "vi": "Sáng nay tôi ra khỏi nhà rất vội, không dùng nước hoa mà."
+    },
+    {
+      "start": 28.066,
+      "end": 29.3,
+      "hanzi": "不是香水。",
+      "pinyin": "bú shì xiāng shuǐ",
+      "vi": "Không phải nước hoa."
+    },
+    {
+      "start": 29.333,
+      "end": 31.2,
+      "hanzi": "是咖啡的味道。",
+      "pinyin": "shì kā fēi de wèi dào",
+      "vi": "Là mùi cà phê."
+    },
+    {
+      "start": 31.233,
+      "end": 34.033,
+      "hanzi": "你今天早上一定喝咖啡了，对不对？",
+      "pinyin": "nǐ jīn tiān zǎo shàng yí dìng hē kā fēi le duì bú duì",
+      "vi": "Sáng nay chắc chắn bạn đã uống cà phê, đúng không?"
+    },
+    {
+      "start": 34.066,
+      "end": 37.666,
+      "hanzi": "(笑)，李明，你的鼻子真好！",
+      "pinyin": "xiào lǐ míng nǐ de bí zi zhēn hǎo",
+      "vi": "[Cười] Lý Minh, mũi bạn thính thật đấy!"
+    },
+    {
+      "start": 37.7,
+      "end": 41.466,
+      "hanzi": "是的，我每天早上都要喝一杯咖啡。",
+      "pinyin": "shì de wǒ měi tiān zǎo shàng dōu yào hē yī bēi kā fēi",
+      "vi": "Đúng vậy, sáng nào tôi cũng phải uống một cốc cà phê."
+    },
+    {
+      "start": 41.5,
+      "end": 45.4,
+      "hanzi": "没有咖啡，我感觉一天都不能开始。",
+      "pinyin": "méi yǒu kā fēi wǒ gǎn jué yī tiān dōu bù néng kāi shǐ",
+      "vi": "Không có cà phê, tôi cảm thấy cả ngày không thể bắt đầu được."
+    },
+    {
+      "start": 45.433,
+      "end": 48.533,
+      "hanzi": "你呢？你早上喝什么？",
+      "pinyin": "nǐ ne nǐ zǎo shàng hē shén me",
+      "vi": "Còn bạn? Buổi sáng bạn uống gì?"
+    },
+    {
+      "start": 48.566,
+      "end": 51.2,
+      "hanzi": "我？我正好和你相反。",
+      "pinyin": "wǒ wǒ zhèng hǎo hé nǐ xiāng fǎn",
+      "vi": "Tôi à? Tôi hoàn toàn ngược lại với bạn."
+    },
+    {
+      "start": 51.233,
+      "end": 54.4,
+      "hanzi": "我早上喜欢慢慢地泡一杯茶。",
+      "pinyin": "wǒ zǎo shàng xǐ huān màn màn dì pào yī bēi chá",
+      "vi": "Buổi sáng tôi thích từ từ pha một ấm trà."
+    },
+    {
+      "start": 54.433,
+      "end": 58.7,
+      "hanzi": "茶的味道让我觉得很舒服，很安静。",
+      "pinyin": "chá de wèi dào ràng wǒ jué de hěn shū fú hěn ān jìng",
+      "vi": "Hương trà khiến tôi cảm thấy rất dễ chịu và yên tĩnh."
+    },
+    {
+      "start": 58.733,
+      "end": 63.833,
+      "hanzi": "茶和咖啡，这真是一个有意思的话题。",
+      "pinyin": "chá hé kā fēi zhè zhēn shì yí gè yǒu yì si de huà tí",
+      "vi": "Trà và cà phê, đúng là một chủ đề thú vị."
+    },
+    {
+      "start": 63.866,
+      "end": 67.933,
+      "hanzi": "在中国，越来越多的人开始喜欢咖啡，",
+      "pinyin": "zài zhōng guó yuè lái yuè duō de rén kāi shǐ xǐ huān kā fēi",
+      "vi": "Ở Trung Quốc, ngày càng nhiều người bắt đầu thích cà phê,"
+    },
+    {
+      "start": 67.966,
+      "end": 71.533,
+      "hanzi": "但是茶有几千年的历史。",
+      "pinyin": "dàn shì chá yǒu jǐ qiān nián de lì shǐ",
+      "vi": "nhưng trà đã có lịch sử hàng nghìn năm."
+    },
+    {
+      "start": 71.566,
+      "end": 72.7,
+      "hanzi": "说得对。",
+      "pinyin": "shuō dé duì",
+      "vi": "Bạn nói đúng."
+    },
+    {
+      "start": 72.7,
+      "end": 76.266,
+      "hanzi": "所以，我们今天就来聊一聊这个话题吧：",
+      "pinyin": "suǒ yǐ wǒ men jīn tiān jiù lái liáo yī liáo zhè ge huà tí ba",
+      "vi": "Vì thế hôm nay chúng ta cùng trò chuyện về chủ đề này nhé:"
+    },
+    {
+      "start": 76.3,
+      "end": 78.4,
+      "hanzi": "茶还是咖啡？",
+      "pinyin": "chá hái shì kā fēi",
+      "vi": "Trà hay cà phê?"
+    },
+    {
+      "start": 78.433,
+      "end": 80.633,
+      "hanzi": "你为什么选择它？",
+      "pinyin": "nǐ wèi shén me xuǎn zé tā",
+      "vi": "Tại sao bạn lại chọn thức uống đó?"
+    },
+    {
+      "start": 80.666,
+      "end": 81.7,
+      "hanzi": "好主意！",
+      "pinyin": "hǎo zhǔ yì",
+      "vi": "Ý hay đấy!"
+    },
+    {
+      "start": 81.733,
+      "end": 85.666,
+      "hanzi": "我很想听听你为什么那么喜欢喝茶。",
+      "pinyin": "wǒ hěn xiǎng tīng tīng nǐ wèi shén me nà me xǐ huān hē chá",
+      "vi": "Tôi rất muốn nghe lý do bạn thích uống trà đến vậy."
+    },
+    {
+      "start": 85.7,
+      "end": 89.933,
+      "hanzi": "我也想告诉你，咖啡的世界多么有意思！",
+      "pinyin": "wǒ yě xiǎng gào sù nǐ kā fēi de shì jiè duō me yǒu yì si",
+      "vi": "Tôi cũng muốn kể cho bạn nghe thế giới cà phê thú vị biết bao!"
+    },
+    {
+      "start": 89.966,
+      "end": 93.7,
+      "hanzi": "好的，那我们就从我们每个人的选择开始吧。",
+      "pinyin": "hǎo de nà wǒ men jiù cóng wǒ men měi gè rén de xuǎn zé kāi shǐ ba",
+      "vi": "Được, vậy hãy bắt đầu từ lựa chọn của mỗi người nhé."
+    },
+    {
+      "start": 93.733,
+      "end": 96.6,
+      "hanzi": "好的，李明，你先说吧。",
+      "pinyin": "hǎo de lǐ míng nǐ xiān shuō ba",
+      "vi": "Được, Lý Minh, bạn nói trước đi."
+    },
+    {
+      "start": 96.633,
+      "end": 100.466,
+      "hanzi": "你每天早上的“喝茶时间”是什么样的？",
+      "pinyin": "nǐ měi tiān zǎo shàng de hē chá shí jiān shì shén me yàng de",
+      "vi": "Thời gian uống trà mỗi sáng của bạn diễn ra như thế nào?"
+    },
+    {
+      "start": 100.5,
+      "end": 103.466,
+      "hanzi": "我的早上很简单，也很慢。",
+      "pinyin": "wǒ de zǎo shàng hěn jiǎn dān yě hěn màn",
+      "vi": "Buổi sáng của tôi rất đơn giản và thong thả."
+    },
+    {
+      "start": 103.5,
+      "end": 106.0,
+      "hanzi": "我一般早上七点起床。",
+      "pinyin": "wǒ yì bān zǎo shàng qī diǎn qǐ chuáng",
+      "vi": "Tôi thường thức dậy lúc bảy giờ sáng."
+    },
+    {
+      "start": 106.033,
+      "end": 109.4,
+      "hanzi": "然后，我会先去厨房烧水。",
+      "pinyin": "rán hòu wǒ huì xiān qù chú fáng shāo shuǐ",
+      "vi": "Sau đó tôi vào bếp đun nước trước."
+    },
+    {
+      "start": 109.433,
+      "end": 113.8,
+      "hanzi": "在等水开的时候，我会选今天要喝的茶。",
+      "pinyin": "zài děng shuǐ kāi de shí hòu wǒ huì xuǎn jīn tiān yào hē de chá",
+      "vi": "Trong lúc đợi nước sôi, tôi chọn loại trà sẽ uống hôm nay."
+    },
+    {
+      "start": 113.833,
+      "end": 117.3,
+      "hanzi": "选茶？你有很多种茶吗？",
+      "pinyin": "xuǎn chá nǐ yǒu hěn duō zhǒng chá ma",
+      "vi": "Chọn trà à? Bạn có nhiều loại trà sao?"
+    },
+    {
+      "start": 117.333,
+      "end": 122.1,
+      "hanzi": "是的，我有绿茶，红茶，还有普洱茶。",
+      "pinyin": "shì de wǒ yǒu lǜ chá hóng chá hái yǒu pǔ ěr chá",
+      "vi": "Đúng, tôi có trà xanh, hồng trà và cả trà Phổ Nhĩ."
+    },
+    {
+      "start": 122.133,
+      "end": 126.533,
+      "hanzi": "天气热的时候，我喜欢喝绿茶，感觉很清爽。",
+      "pinyin": "tiān qì rè de shí hòu wǒ xǐ huān hē lǜ chá gǎn jué hěn qīng shuǎng",
+      "vi": "Khi trời nóng, tôi thích uống trà xanh vì cảm giác rất thanh mát."
+    },
+    {
+      "start": 126.566,
+      "end": 130.933,
+      "hanzi": "天气冷的时候，我喜欢喝红茶，感觉很暖和。",
+      "pinyin": "tiān qì lěng de shí hòu wǒ xǐ huān hē hóng chá gǎn jué hěn nuǎn huo",
+      "vi": "Khi trời lạnh, tôi thích uống hồng trà vì cảm giác rất ấm áp."
+    },
+    {
+      "start": 130.966,
+      "end": 134.733,
+      "hanzi": "听起来很专业。然后呢？",
+      "pinyin": "tīng qǐ lái hěn zhuān yè rán hòu ne",
+      "vi": "Nghe chuyên nghiệp thật. Rồi sao nữa?"
+    },
+    {
+      "start": 134.766,
+      "end": 141.0,
+      "hanzi": "水开了以后，我用热水先把我的茶杯和茶壶洗一下，让它们变热。",
+      "pinyin": "shuǐ kāi le yǐ hòu wǒ yòng rè shuǐ xiān bǎ wǒ de chá bēi hé chá hú xǐ yī xià ràng tā men biàn rè",
+      "vi": "Sau khi nước sôi, tôi dùng nước nóng tráng qua chén và ấm trà để làm chúng ấm lên."
+    },
+    {
+      "start": 141.033,
+      "end": 144.833,
+      "hanzi": "然后把茶叶放进茶壶，倒进热水。",
+      "pinyin": "rán hòu bǎ chá yè fàng jìn chá hú dào jìn rè shuǐ",
+      "vi": "Sau đó cho lá trà vào ấm và rót nước nóng vào."
+    },
+    {
+      "start": 144.866,
+      "end": 147.633,
+      "hanzi": "等一两分钟，就可以喝了。",
+      "pinyin": "děng yī liǎng fēn zhōng jiù kě yǐ hē le",
+      "vi": "Đợi một hai phút là có thể uống rồi."
+    },
+    {
+      "start": 147.666,
+      "end": 154.2,
+      "hanzi": "哇，听你这么说，我觉得喝茶需要很多时间。",
+      "pinyin": "wa tīng nǐ zhè me shuō wǒ jué de hē chá xū yào hěn duō shí jiān",
+      "vi": "Ồ, nghe bạn kể thì tôi thấy uống trà tốn khá nhiều thời gian."
+    },
+    {
+      "start": 154.233,
+      "end": 159.1,
+      "hanzi": "是的，需要一点儿时间，但我不觉得这是浪费时间。",
+      "pinyin": "shì de xū yào yì diǎn ér shí jiān dàn wǒ bù jué dé zhè shì làng fèi shí jiān",
+      "vi": "Đúng, cần một chút thời gian, nhưng tôi không thấy đó là lãng phí."
+    },
+    {
+      "start": 159.133,
+      "end": 165.5,
+      "hanzi": "在这个时间里，我可以什么都不想，只看着茶叶在水里慢慢打开。",
+      "pinyin": "zài zhè ge shí jiān lǐ wǒ kě yǐ shén me dōu bù xiǎng zhǐ kàn zhe chá yè zài shuǐ lǐ màn màn dǎ kāi",
+      "vi": "Trong lúc ấy tôi có thể không nghĩ gì cả, chỉ nhìn những lá trà từ từ nở ra trong nước."
+    },
+    {
+      "start": 165.533,
+      "end": 168.0,
+      "hanzi": "这个过程让我觉得很放松。",
+      "pinyin": "zhè ge guò chéng ràng wǒ jué de hěn fàng sōng",
+      "vi": "Quá trình này khiến tôi cảm thấy rất thư giãn."
+    },
+    {
+      "start": 168.033,
+      "end": 173.833,
+      "hanzi": "然后，我会端着我的茶，坐在窗户旁边，一边喝茶，一边看书",
+      "pinyin": "rán hòu wǒ huì duān zhe wǒ de chá zuò zài chuāng hù páng biān yī biān hē chá yī biān kàn shū",
+      "vi": "Sau đó tôi cầm tách trà ngồi bên cửa sổ, vừa uống trà vừa đọc sách,"
+    },
+    {
+      "start": 173.866,
+      "end": 176.7,
+      "hanzi": "或者想一想今天要做的事情。",
+      "pinyin": "huò zhě xiǎng yī xiǎng jīn tiān yào zuò de shì qíng",
+      "vi": "hoặc nghĩ xem hôm nay mình cần làm những việc gì."
+    },
+    {
+      "start": 176.733,
+      "end": 178.266,
+      "hanzi": "太美好了。",
+      "pinyin": "tài měi hǎo le",
+      "vi": "Tuyệt vời quá."
+    },
+    {
+      "start": 178.3,
+      "end": 181.433,
+      "hanzi": "听起来像电影里的生活。",
+      "pinyin": "tīng qǐ lái xiàng diàn yǐng lǐ de shēng huó",
+      "vi": "Nghe giống cuộc sống trong phim vậy."
+    },
+    {
+      "start": 181.466,
+      "end": 185.0,
+      "hanzi": "我的早上和你完全不一样。",
+      "pinyin": "wǒ de zǎo shàng hé nǐ wán quán bù yí yàng",
+      "vi": "Buổi sáng của tôi hoàn toàn khác bạn."
+    },
+    {
+      "start": 185.033,
+      "end": 186.033,
+      "hanzi": "哦？说来听听。",
+      "pinyin": "ó shuō lái tīng tīng",
+      "vi": "Ồ? Kể tôi nghe đi."
+    },
+    {
+      "start": 186.066,
+      "end": 189.066,
+      "hanzi": "你的“咖啡时间”是什么样的？",
+      "pinyin": "nǐ de kā fēi shí jiān shì shén me yàng de",
+      "vi": "Thời gian uống cà phê của bạn như thế nào?"
+    },
+    {
+      "start": 189.1,
+      "end": 192.466,
+      "hanzi": "我的早上可以用一个字来说，就是“快”！",
+      "pinyin": "wǒ de zǎo shàng kě yǐ yòng yí gè zì lái shuō jiù shì kuài",
+      "vi": "Buổi sáng của tôi có thể gói gọn trong một chữ: nhanh!"
+    },
+    {
+      "start": 192.5,
+      "end": 198.266,
+      "hanzi": "我一般七点半起床，然后洗脸，换衣服，",
+      "pinyin": "wǒ yì bān qī diǎn bàn qǐ chuáng rán hòu xǐ liǎn huàn yī fú",
+      "vi": "Tôi thường dậy lúc bảy giờ rưỡi, sau đó rửa mặt, thay quần áo,"
+    },
+    {
+      "start": 198.3,
+      "end": 199.966,
+      "hanzi": "八点就要出门。",
+      "pinyin": "bā diǎn jiù yào chū mén",
+      "vi": "tám giờ là phải ra khỏi nhà."
+    },
+    {
+      "start": 200.0,
+      "end": 203.0,
+      "hanzi": "我没有时间在家里做咖啡。",
+      "pinyin": "wǒ méi yǒu shí jiān zài jiā lǐ zuò kā fēi",
+      "vi": "Tôi không có thời gian pha cà phê ở nhà."
+    },
+    {
+      "start": 203.033,
+      "end": 205.2,
+      "hanzi": "那你在哪里喝咖啡呢？",
+      "pinyin": "nà nǐ zài nǎ lǐ hē kā fēi ne",
+      "vi": "Vậy bạn uống cà phê ở đâu?"
+    },
+    {
+      "start": 205.233,
+      "end": 207.833,
+      "hanzi": "我家楼下就有一个咖啡店。",
+      "pinyin": "wǒ jiā lóu xià jiù yǒu yí gè kā fēi diàn",
+      "vi": "Ngay dưới nhà tôi có một quán cà phê."
+    },
+    {
+      "start": 207.866,
+      "end": 211.966,
+      "hanzi": "我每天出门的时候，都会去那里买一杯拿铁。",
+      "pinyin": "wǒ měi tiān chū mén de shí hòu dū huì qù nà lǐ mǎi yī bēi ná tiě",
+      "vi": "Mỗi ngày khi ra khỏi nhà, tôi đều ghé đó mua một cốc latte."
+    },
+    {
+      "start": 212.0,
+      "end": 215.666,
+      "hanzi": "我喜欢一边走路，一边喝咖啡。",
+      "pinyin": "wǒ xǐ huān yī biān zǒu lù yī biān hē kā fēi",
+      "vi": "Tôi thích vừa đi bộ vừa uống cà phê."
+    },
+    {
+      "start": 215.7,
+      "end": 218.966,
+      "hanzi": "热的咖啡让我觉得很有精神。",
+      "pinyin": "rè de kā fēi ràng wǒ jué de hěn yǒu jīng shén",
+      "vi": "Cà phê nóng khiến tôi cảm thấy rất tỉnh táo."
+    },
+    {
+      "start": 219.0,
+      "end": 223.1,
+      "hanzi": "所以，你每天都去同一个咖啡店？",
+      "pinyin": "suǒ yǐ nǐ měi tiān dōu qù tóng yī gè kā fēi diàn",
+      "vi": "Vậy ngày nào bạn cũng đến cùng một quán cà phê sao?"
+    },
+    {
+      "start": 223.133,
+      "end": 226.066,
+      "hanzi": "对。那个咖啡店的店员都认识我了。",
+      "pinyin": "duì nà ge kā fēi diàn de diàn yuán dōu rèn shí wǒ le",
+      "vi": "Đúng. Nhân viên quán đó đều quen mặt tôi rồi."
+    },
+    {
+      "start": 226.1,
+      "end": 232.233,
+      "hanzi": "他们看到我，就会问：“王小姐，今天还是一杯热拿铁吗？”",
+      "pinyin": "tā men kàn dào wǒ jiù huì wèn wáng xiǎo jiě jīn tiān hái shì yī bēi rè ná tiě ma",
+      "vi": "Hễ thấy tôi, họ hỏi: “Cô Vương, hôm nay vẫn là một ly latte nóng chứ?”"
+    },
+    {
+      "start": 232.266,
+      "end": 236.7,
+      "hanzi": "我觉得这样很亲切，也很快，很方便。",
+      "pinyin": "wǒ jué de zhè yàng hěn qīn qiè yě hěn kuài hěn fāng biàn",
+      "vi": "Tôi thấy như vậy rất thân thiện, lại nhanh chóng và tiện lợi."
+    },
+    {
+      "start": 236.733,
+      "end": 237.833,
+      "hanzi": "我明白了。",
+      "pinyin": "wǒ míng bái le",
+      "vi": "Tôi hiểu rồi."
+    },
+    {
+      "start": 237.866,
+      "end": 242.7,
+      "hanzi": "所以，我选择茶，是因为我喜欢早上的“慢”生活。",
+      "pinyin": "suǒ yǐ wǒ xuǎn zé chá shì yīn wèi wǒ xǐ huān zǎo shàng de màn shēng huó",
+      "vi": "Vậy tôi chọn trà vì thích nhịp sống chậm rãi vào buổi sáng."
+    },
+    {
+      "start": 242.733,
+      "end": 247.1,
+      "hanzi": "你选择咖啡，是因为你需要“快”和方便。",
+      "pinyin": "nǐ xuǎn zé kā fēi shì yīn wèi nǐ xū yào kuài hé fāng biàn",
+      "vi": "Còn bạn chọn cà phê vì cần sự nhanh chóng và tiện lợi."
+    },
+    {
+      "start": 247.133,
+      "end": 248.566,
+      "hanzi": "可以这么说。",
+      "pinyin": "kě yǐ zhè me shuō",
+      "vi": "Có thể nói như vậy."
+    },
+    {
+      "start": 248.6,
+      "end": 254.5,
+      "hanzi": "我觉得咖啡和现在城市的生活很像，节奏很快。",
+      "pinyin": "wǒ jué de kā fēi hé xiàn zài chéng shì de shēng huó hěn xiàng jié zòu hěn kuài",
+      "vi": "Tôi thấy cà phê rất giống nhịp sống ở thành phố hiện đại, rất nhanh."
+    },
+    {
+      "start": 254.533,
+      "end": 261.2,
+      "hanzi": "茶呢，更像是一种传统的生活方式，需要慢慢来。",
+      "pinyin": "chá ne gèng xiàng shì yī zhǒng chuán tǒng de shēng huó fāng shì xū yào màn màn lái",
+      "vi": "Còn trà giống một lối sống truyền thống hơn, cần từ từ thưởng thức."
+    },
+    {
+      "start": 261.233,
+      "end": 266.4,
+      "hanzi": "王雨，你刚才说，你喝咖啡是为了让自己有精神。",
+      "pinyin": "wáng yǔ nǐ gāng cái shuō nǐ hē kā fēi shì wèi le ràng zì jǐ yǒu jīng shén",
+      "vi": "Vương Vũ, vừa rồi bạn nói mình uống cà phê để tỉnh táo."
+    },
+    {
+      "start": 266.433,
+      "end": 268.8,
+      "hanzi": "除了这个，还有别的原因吗？",
+      "pinyin": "chú le zhè ge hái yǒu bié de yuán yīn ma",
+      "vi": "Ngoài điều đó ra còn lý do nào khác không?"
+    },
+    {
+      "start": 268.833,
+      "end": 271.166,
+      "hanzi": "你为什么那么喜欢咖啡？",
+      "pinyin": "nǐ wèi shén me nà me xǐ huān kā fēi",
+      "vi": "Vì sao bạn thích cà phê đến vậy?"
+    },
+    {
+      "start": 271.2,
+      "end": 274.2,
+      "hanzi": "嗯，这是一个好问题。",
+      "pinyin": "ń zhè shì yí gè hǎo wèn tí",
+      "vi": "Ừm, câu hỏi hay đấy."
+    },
+    {
+      "start": 274.233,
+      "end": 279.633,
+      "hanzi": "我觉得，第一，我真的很喜欢咖啡的味道。",
+      "pinyin": "wǒ jué de dì yī wǒ zhēn de hěn xǐ huān kā fēi de wèi dào",
+      "vi": "Tôi nghĩ thứ nhất là tôi thật sự rất thích hương vị cà phê."
+    },
+    {
+      "start": 279.666,
+      "end": 282.766,
+      "hanzi": "苦苦的，但是又很香。",
+      "pinyin": "kǔ kǔ de dàn shì yòu hěn xiāng",
+      "vi": "Hơi đắng nhưng lại rất thơm."
+    },
+    {
+      "start": 282.8,
+      "end": 288.3,
+      "hanzi": "特别是拿铁，里面有牛奶，所以味道更好。",
+      "pinyin": "tè bié shì ná tiě lǐ miàn yǒu niú nǎi suǒ yǐ wèi dào gèng hǎo",
+      "vi": "Đặc biệt là latte, vì có sữa nên hương vị ngon hơn."
+    },
+    {
+      "start": 288.333,
+      "end": 292.966,
+      "hanzi": "我喝过一次美式咖啡，太苦了，我不太喜欢。",
+      "pinyin": "wǒ hē guò yī cì měi shì kā fēi tài kǔ le wǒ bù tài xǐ huān",
+      "vi": "Tôi từng uống cà phê Americano một lần, đắng quá nên không thích lắm."
+    },
+    {
+      "start": 293.0,
+      "end": 296.0,
+      "hanzi": "(笑)，美式咖啡是比较苦。",
+      "pinyin": "xiào měi shì kā fēi shì bǐ jiào kǔ",
+      "vi": "[Cười] Americano đúng là khá đắng."
+    },
+    {
+      "start": 296.033,
+      "end": 300.166,
+      "hanzi": "你可以试试拿铁或者卡布奇诺。",
+      "pinyin": "nǐ kě yǐ shì shì ná tiě huò zhě kǎ bù qí nuò",
+      "vi": "Bạn có thể thử latte hoặc cappuccino."
+    },
+    {
+      "start": 300.2,
+      "end": 306.566,
+      "hanzi": "第二，就像我刚才说的，它能让我很快有精神，开始一天的工作。",
+      "pinyin": "dì èr jiù xiàng wǒ gāng cái shuō de tā néng ràng wǒ hěn kuài yǒu jīng shén kāi shǐ yī tiān de gōng zuò",
+      "vi": "Thứ hai, như tôi vừa nói, cà phê giúp tôi nhanh chóng tỉnh táo để bắt đầu một ngày làm việc."
+    },
+    {
+      "start": 306.6,
+      "end": 312.633,
+      "hanzi": "你知道，我的工作需要想很多新的东西，咖啡能帮助我。",
+      "pinyin": "nǐ zhī dào wǒ de gōng zuò xū yào xiǎng hěn duō xīn de dōng xī kā fēi néng bāng zhù wǒ",
+      "vi": "Bạn biết đấy, công việc của tôi cần nghĩ ra nhiều ý tưởng mới, cà phê có thể giúp tôi."
+    },
+    {
+      "start": 312.666,
+      "end": 314.266,
+      "hanzi": "我理解。",
+      "pinyin": "wǒ lǐ jiě",
+      "vi": "Tôi hiểu."
+    },
+    {
+      "start": 314.3,
+      "end": 319.6,
+      "hanzi": "还有一个很重要的原因，我喜欢咖啡店的那个地方。",
+      "pinyin": "hái yǒu yí gè hěn zhòng yào de yuán yīn wǒ xǐ huān kā fēi diàn de nà ge dì fāng",
+      "vi": "Còn một lý do rất quan trọng: tôi thích không gian quán cà phê."
+    },
+    {
+      "start": 319.633,
+      "end": 323.7,
+      "hanzi": "周末的时候，我常常和朋友去咖啡店见面。",
+      "pinyin": "zhōu mò de shí hòu wǒ cháng cháng hé péng yǒu qù kā fēi diàn jiàn miàn",
+      "vi": "Cuối tuần, tôi thường đến quán cà phê gặp bạn bè."
+    },
+    {
+      "start": 323.733,
+      "end": 326.5,
+      "hanzi": "你们在咖啡店做什么？",
+      "pinyin": "nǐ men zài kā fēi diàn zuò shén me",
+      "vi": "Các bạn làm gì ở quán cà phê?"
+    },
+    {
+      "start": 326.533,
+      "end": 327.466,
+      "hanzi": "聊天啊！",
+      "pinyin": "liáo tiān a",
+      "vi": "Trò chuyện chứ!"
+    },
+    {
+      "start": 327.466,
+      "end": 329.033,
+      "hanzi": "或者一起看书，",
+      "pinyin": "huò zhě yì qǐ kàn shū",
+      "vi": "Hoặc cùng nhau đọc sách,"
+    },
+    {
+      "start": 329.066,
+      "end": 330.833,
+      "hanzi": "用电脑工作。",
+      "pinyin": "yòng diàn nǎo gōng zuò",
+      "vi": "hay dùng máy tính làm việc."
+    },
+    {
+      "start": 330.866,
+      "end": 336.233,
+      "hanzi": "咖啡店的环境很好，有舒服的椅子，好听的音乐。",
+      "pinyin": "kā fēi diàn de huán jìng hěn hǎo yǒu shū fú de yǐ zi hǎo tīng de yīn yuè",
+      "vi": "Không gian quán cà phê rất đẹp, có ghế ngồi thoải mái và âm nhạc dễ nghe."
+    },
+    {
+      "start": 336.266,
+      "end": 342.4,
+      "hanzi": "大家都在那里做自己的事情，感觉很自由，也很舒服。",
+      "pinyin": "dà jiā dōu zài nà lǐ zuò zì jǐ de shì qíng gǎn jué hěn zì yóu yě hěn shū fú",
+      "vi": "Mọi người đều làm việc riêng của mình ở đó, cảm giác rất tự do và dễ chịu."
+    },
+    {
+      "start": 342.433,
+      "end": 347.466,
+      "hanzi": "我觉得咖啡店现在是很多年轻人喜欢去的社交的地方。",
+      "pinyin": "wǒ jué de kā fēi diàn xiàn zài shì hěn duō nián qīng rén xǐ huān qù de shè jiāo de dì fāng",
+      "vi": "Tôi thấy quán cà phê giờ là nơi giao lưu được nhiều người trẻ yêu thích."
+    },
+    {
+      "start": 347.5,
+      "end": 349.266,
+      "hanzi": "这倒是真的。",
+      "pinyin": "zhè dǎo shì zhēn de",
+      "vi": "Điều này đúng thật."
+    },
+    {
+      "start": 349.3,
+      "end": 354.066,
+      "hanzi": "现在北京、上海的街上，到处都是咖啡店。",
+      "pinyin": "xiàn zài běi jīng shàng hǎi de jiē shàng dào chù dōu shì kā fēi diàn",
+      "vi": "Bây giờ trên các con phố ở Bắc Kinh, Thượng Hải, đâu đâu cũng có quán cà phê."
+    },
+    {
+      "start": 354.1,
+      "end": 358.033,
+      "hanzi": "我有时候路过，也看到里面坐满了年轻人。",
+      "pinyin": "wǒ yǒu shí hòu lù guò yě kàn dào lǐ miàn zuò mǎn le nián qīng rén",
+      "vi": "Thỉnh thoảng đi ngang qua, tôi cũng thấy bên trong đầy người trẻ."
+    },
+    {
+      "start": 358.066,
+      "end": 362.966,
+      "hanzi": "那我问你，你觉得喝茶是老年人才做的事情吗？",
+      "pinyin": "nà wǒ wèn nǐ nǐ jué de hē chá shì lǎo nián rén cái zuò de shì qíng ma",
+      "vi": "Vậy để tôi hỏi bạn, bạn có nghĩ uống trà chỉ là việc của người lớn tuổi không?"
+    },
+    {
+      "start": 363.0,
+      "end": 366.233,
+      "hanzi": "以前我可能会这么想。",
+      "pinyin": "yǐ qián wǒ kě néng huì zhè me xiǎng",
+      "vi": "Trước đây có lẽ tôi đã nghĩ vậy."
+    },
+    {
+      "start": 366.266,
+      "end": 369.633,
+      "hanzi": "但是认识你以后，我觉得不是。",
+      "pinyin": "dàn shì rèn shí nǐ yǐ hòu wǒ jué de bú shì",
+      "vi": "Nhưng sau khi quen bạn, tôi không còn nghĩ thế nữa."
+    },
+    {
+      "start": 369.666,
+      "end": 370.6,
+      "hanzi": "你就不老，哈哈。",
+      "pinyin": "nǐ jiù bù lǎo hā hā",
+      "vi": "Bạn có già đâu, haha."
+    },
+    {
+      "start": 370.633,
+      "end": 372.433,
+      "hanzi": "那你呢？",
+      "pinyin": "nà nǐ ne",
+      "vi": "Còn bạn thì sao?"
+    },
+    {
+      "start": 372.466,
+      "end": 375.9,
+      "hanzi": "李明，你为什么那么喜欢茶？",
+      "pinyin": "lǐ míng nǐ wèi shén me nà me xǐ huān chá",
+      "vi": "Lý Minh, vì sao bạn thích trà đến vậy?"
+    },
+    {
+      "start": 375.933,
+      "end": 378.866,
+      "hanzi": "只是因为它让你放松吗？",
+      "pinyin": "zhǐ shì yīn wèi tā ràng nǐ fàng sōng ma",
+      "vi": "Chỉ vì trà giúp bạn thư giãn thôi sao?"
+    },
+    {
+      "start": 378.9,
+      "end": 380.633,
+      "hanzi": "放松是一个原因。",
+      "pinyin": "fàng sōng shì yí gè yuán yīn",
+      "vi": "Thư giãn là một lý do."
+    },
+    {
+      "start": 380.666,
+      "end": 384.7,
+      "hanzi": "还有一个很重要的原因，我觉得喝茶对身体好。",
+      "pinyin": "hái yǒu yí gè hěn zhòng yào de yuán yīn wǒ jué de hē chá duì shēn tǐ hǎo",
+      "vi": "Còn một lý do rất quan trọng nữa, tôi nghĩ uống trà tốt cho sức khỏe."
+    },
+    {
+      "start": 384.733,
+      "end": 387.433,
+      "hanzi": "对身体好？怎么说？",
+      "pinyin": "duì shēn tǐ hǎo zěn me shuō",
+      "vi": "Tốt cho sức khỏe à? Ý bạn là sao?"
+    },
+    {
+      "start": 387.466,
+      "end": 393.266,
+      "hanzi": "很多书上都说，茶叶里有很多好的东西，可以帮助你的身体。",
+      "pinyin": "hěn duō shū shàng dōu shuō chá yè lǐ yǒu hěn duō hǎo de dōng xī kě yǐ bāng zhù nǐ de shēn tǐ",
+      "vi": "Nhiều sách nói rằng lá trà chứa nhiều chất có lợi cho cơ thể."
+    },
+    {
+      "start": 393.3,
+      "end": 396.966,
+      "hanzi": "比如，绿茶可以帮助你不容易老。",
+      "pinyin": "bǐ rú lǜ chá kě yǐ bāng zhù nǐ bù róng yì lǎo",
+      "vi": "Ví dụ, trà xanh có thể giúp làm chậm quá trình lão hóa."
+    },
+    {
+      "start": 397.0,
+      "end": 400.1,
+      "hanzi": "当然，这个需要长时间喝才有用。",
+      "pinyin": "dāng rán zhè ge xū yào zhǎng shí jiān hē cái yǒu yòng",
+      "vi": "Tất nhiên, phải uống trong thời gian dài mới có tác dụng."
+    },
+    {
+      "start": 400.133,
+      "end": 406.166,
+      "hanzi": "但是，喝茶不加糖，不加奶，所以它没有很多热量，不会让你变胖。",
+      "pinyin": "dàn shì hē chá bù jiā táng bù jiā nǎi suǒ yǐ tā méi yǒu hěn duō rè liàng bú huì ràng nǐ biàn pàng",
+      "vi": "Hơn nữa, uống trà không thêm đường hay sữa nên không có nhiều calo và không dễ khiến bạn tăng cân."
+    },
+    {
+      "start": 406.2,
+      "end": 408.3,
+      "hanzi": "嗯，这倒是。",
+      "pinyin": "ń zhè dǎo shì",
+      "vi": "Ừm, điều đó cũng đúng."
+    },
+    {
+      "start": 408.333,
+      "end": 414.3,
+      "hanzi": "我喝的拿铁里面有很多牛奶，热量可能不低。",
+      "pinyin": "wǒ hē de ná tiě lǐ miàn yǒu hěn duō niú nǎi rè liàng kě néng bù dī",
+      "vi": "Latte tôi uống có khá nhiều sữa, có lẽ lượng calo không thấp."
+    },
+    {
+      "start": 414.333,
+      "end": 417.966,
+      "hanzi": "而且，我觉得喝茶是一种文化。",
+      "pinyin": "ér qiě wǒ jué de hē chá shì yī zhǒng wén huà",
+      "vi": "Ngoài ra tôi thấy uống trà còn là một nét văn hóa."
+    },
+    {
+      "start": 418.0,
+      "end": 420.566,
+      "hanzi": "茶在中国有几千年的历史了。",
+      "pinyin": "chá zài zhōng guó yǒu jǐ qiān nián de lì shǐ le",
+      "vi": "Trà đã có lịch sử hàng nghìn năm ở Trung Quốc."
+    },
+    {
+      "start": 420.6,
+      "end": 425.6,
+      "hanzi": "古代的文人，他们都喜欢一边喝茶，一边写字、画画。",
+      "pinyin": "gǔ dài de wén rén tā men dōu xǐ huān yī biān hē chá yī biān xiě zì huà huà",
+      "vi": "Các văn nhân thời xưa thích vừa uống trà vừa viết chữ, vẽ tranh."
+    },
+    {
+      "start": 425.633,
+      "end": 430.466,
+      "hanzi": "我觉得喝茶的时候，能感觉到这种中国文化。",
+      "pinyin": "wǒ jué de hē chá de shí hòu néng gǎn jué dào zhè zhǒng zhōng guó wén huà",
+      "vi": "Tôi cảm thấy khi uống trà, mình có thể cảm nhận được nét văn hóa Trung Hoa ấy."
+    },
+    {
+      "start": 430.5,
+      "end": 434.5,
+      "hanzi": "哇，你把喝茶说得这么有意思。",
+      "pinyin": "wa nǐ bǎ hē chá shuō dé zhè me yǒu yì si",
+      "vi": "Ồ, bạn kể chuyện uống trà thú vị quá."
+    },
+    {
+      "start": 434.533,
+      "end": 439.1,
+      "hanzi": "我以前觉得喝茶就是喝一杯热的水。",
+      "pinyin": "wǒ yǐ qián jué de hē chá jiù shì hē yī bēi rè de shuǐ",
+      "vi": "Trước đây tôi nghĩ uống trà chỉ là uống một cốc nước nóng."
+    },
+    {
+      "start": 439.133,
+      "end": 440.4,
+      "hanzi": "不一样的。",
+      "pinyin": "bù yí yàng de",
+      "vi": "Không giống nhau đâu."
+    },
+    {
+      "start": 440.433,
+      "end": 444.766,
+      "hanzi": "不同的茶有不同的味道，需要用不同的水温、",
+      "pinyin": "bù tóng de chá yǒu bù tóng de wèi dào xū yào yòng bù tóng de shuǐ wēn",
+      "vi": "Mỗi loại trà có hương vị khác nhau, cần nhiệt độ nước khác nhau,"
+    },
+    {
+      "start": 444.8,
+      "end": 446.633,
+      "hanzi": "不同的时间去泡。",
+      "pinyin": "bù tóng de shí jiān qù pào",
+      "vi": "và thời gian pha cũng khác nhau."
+    },
+    {
+      "start": 446.666,
+      "end": 448.366,
+      "hanzi": "这里面有很多知识。",
+      "pinyin": "zhè lǐ miàn yǒu hěn duō zhī shí",
+      "vi": "Trong đó có rất nhiều kiến thức."
+    },
+    {
+      "start": 448.4,
+      "end": 453.9,
+      "hanzi": "我觉得研究这些知识，本身就是一件很有意思的事情。",
+      "pinyin": "wǒ jué de yán jiū zhè xiē zhī shí běn shēn jiù shì yī jiàn hěn yǒu yì si de shì qíng",
+      "vi": "Tôi thấy bản thân việc tìm hiểu những kiến thức ấy đã rất thú vị rồi."
+    },
+    {
+      "start": 453.933,
+      "end": 457.6,
+      "hanzi": "听起来，你真的很爱茶。",
+      "pinyin": "tīng qǐ lái nǐ zhēn de hěn ài chá",
+      "vi": "Nghe có vẻ bạn thật sự yêu trà."
+    },
+    {
+      "start": 457.633,
+      "end": 460.4,
+      "hanzi": "就像我很爱咖啡一样。",
+      "pinyin": "jiù xiàng wǒ hěn ài kā fēi yī yàng",
+      "vi": "Cũng giống như tôi rất yêu cà phê."
+    },
+    {
+      "start": 460.433,
+      "end": 461.2,
+      "hanzi": "是的。",
+      "pinyin": "shì de",
+      "vi": "Đúng vậy."
+    },
+    {
+      "start": 461.233,
+      "end": 464.3,
+      "hanzi": "我们都找到了自己喜欢的饮料。",
+      "pinyin": "wǒ men dōu zhǎo dào le zì jǐ xǐ huān de yǐn liào",
+      "vi": "Chúng ta đều đã tìm được thức uống mình yêu thích."
+    },
+    {
+      "start": 464.333,
+      "end": 470.2,
+      "hanzi": "李明，你刚才说，茶是中国几千年的文化。",
+      "pinyin": "lǐ míng nǐ gāng cái shuō chá shì zhōng guó jǐ qiān nián de wén huà",
+      "vi": "Lý Minh, vừa rồi bạn nói trà là nét văn hóa hàng nghìn năm của Trung Quốc."
+    },
+    {
+      "start": 470.233,
+      "end": 476.7,
+      "hanzi": "但是现在，我觉得在中国，咖啡也变得非常非常流行了。",
+      "pinyin": "dàn shì xiàn zài wǒ jué de zài zhōng guó kā fēi yě biàn dé fēi cháng fēi cháng liú xíng le",
+      "vi": "Nhưng hiện nay tôi thấy cà phê cũng đang trở nên rất, rất phổ biến ở Trung Quốc."
+    },
+    {
+      "start": 476.733,
+      "end": 477.666,
+      "hanzi": "你觉得呢？",
+      "pinyin": "nǐ jué de ne",
+      "vi": "Bạn nghĩ sao?"
+    },
+    {
+      "start": 477.7,
+      "end": 479.366,
+      "hanzi": "我完全同意。",
+      "pinyin": "wǒ wán quán tóng yì",
+      "vi": "Tôi hoàn toàn đồng ý."
+    },
+    {
+      "start": 479.4,
+      "end": 483.7,
+      "hanzi": "特别是这十年，中国的咖啡店开得越来越多。",
+      "pinyin": "tè bié shì zhè shí nián zhōng guó de kā fēi diàn kāi dé yuè lái yuè duō",
+      "vi": "Đặc biệt trong mười năm gần đây, quán cà phê ở Trung Quốc mở ra ngày càng nhiều."
+    },
+    {
+      "start": 483.733,
+      "end": 487.233,
+      "hanzi": "我父母那个时候，很少有人喝咖啡。",
+      "pinyin": "wǒ fù mǔ nà ge shí hòu hěn shǎo yǒu rén hē kā fēi",
+      "vi": "Thời bố mẹ tôi, rất ít người uống cà phê."
+    },
+    {
+      "start": 487.266,
+      "end": 492.2,
+      "hanzi": "他们觉得那个东西又黑又苦，不好喝。",
+      "pinyin": "tā men jué de nà ge dōng xī yòu hēi yòu kǔ bù hǎo hē",
+      "vi": "Họ nghĩ thức uống đó vừa đen vừa đắng, không ngon."
+    },
+    {
+      "start": 492.233,
+      "end": 494.2,
+      "hanzi": "对，我妈妈也是。",
+      "pinyin": "duì wǒ mā mā yě shì",
+      "vi": "Đúng, mẹ tôi cũng vậy."
+    },
+    {
+      "start": 494.233,
+      "end": 500.233,
+      "hanzi": "她来北京看我，我带她去咖啡店，她点了一杯拿铁，",
+      "pinyin": "tā lái běi jīng kàn wǒ wǒ dài tā qù kā fēi diàn tā diǎn le yī bēi ná tiě",
+      "vi": "Khi mẹ đến Bắc Kinh thăm tôi, tôi đưa mẹ đến quán cà phê, mẹ gọi một cốc latte,"
+    },
+    {
+      "start": 500.266,
+      "end": 505.1,
+      "hanzi": "喝了一口就说：“这是什么？不好喝。”",
+      "pinyin": "hē le yī kǒu jiù shuō zhè shì shén me bù hǎo hē",
+      "vi": "uống một ngụm rồi bảo: “Đây là cái gì thế? Không ngon.”"
+    },
+    {
+      "start": 505.1,
+      "end": 508.0,
+      "hanzi": "(笑)，我们的妈妈可能是一样的。",
+      "pinyin": "xiào wǒ men de mā mā kě néng shì yī yàng de",
+      "vi": "[Cười] Có lẽ mẹ chúng ta giống nhau thật."
+    },
+    {
+      "start": 508.033,
+      "end": 512.833,
+      "hanzi": "但是你看，我们这一代，还有比我们更年轻的人，",
+      "pinyin": "dàn shì nǐ kàn wǒ men zhè yí dài hái yǒu bǐ wǒ men gèng nián qīng de rén",
+      "vi": "Nhưng bạn thấy đấy, thế hệ chúng ta và cả những người trẻ hơn,"
+    },
+    {
+      "start": 512.866,
+      "end": 516.8,
+      "hanzi": "很多人都开始接受并且喜欢咖啡了。",
+      "pinyin": "hěn duō rén dōu kāi shǐ jiē shòu bìng qiě xǐ huān kā fēi le",
+      "vi": "nhiều người đã bắt đầu chấp nhận và yêu thích cà phê."
+    },
+    {
+      "start": 516.833,
+      "end": 522.3,
+      "hanzi": "我觉得这说明中国正在变得越来越开放，越来越国际化。",
+      "pinyin": "wǒ jué de zhè shuō míng zhōng guó zhèng zài biàn dé yuè lái yuè kāi fàng yuè lái yuè guó jì huà",
+      "vi": "Tôi nghĩ điều đó cho thấy Trung Quốc ngày càng cởi mở và hội nhập quốc tế hơn."
+    },
+    {
+      "start": 522.333,
+      "end": 527.9,
+      "hanzi": "我们愿意去了解和接受别的国家的文化和生活方式。",
+      "pinyin": "wǒ men yuàn yì qù liǎo jiě hé jiē shòu bié de guó jiā de wén huà hé shēng huó fāng shì",
+      "vi": "Chúng ta sẵn sàng tìm hiểu và tiếp nhận văn hóa, lối sống của các nước khác."
+    },
+    {
+      "start": 527.933,
+      "end": 529.1,
+      "hanzi": "我同意。",
+      "pinyin": "wǒ tóng yì",
+      "vi": "Tôi đồng ý."
+    },
+    {
+      "start": 529.133,
+      "end": 532.6,
+      "hanzi": "咖啡店也成了一个新的社交空间。",
+      "pinyin": "kā fēi diàn yě chéng le yí gè xīn de shè jiāo kōng jiān",
+      "vi": "Quán cà phê cũng trở thành một không gian giao lưu mới."
+    },
+    {
+      "start": 532.633,
+      "end": 538.1,
+      "hanzi": "以前，人们和朋友见面，可能会去茶馆或者饭店。",
+      "pinyin": "yǐ qián rén men hé péng yǒu jiàn miàn kě néng huì qù chá guǎn huò zhě fàn diàn",
+      "vi": "Trước đây, mọi người gặp bạn bè có thể đến quán trà hoặc nhà hàng."
+    },
+    {
+      "start": 538.133,
+      "end": 542.8,
+      "hanzi": "现在，很多人会说：“我们找个咖啡店坐坐吧。”",
+      "pinyin": "xiàn zài hěn duō rén huì shuō wǒ men zhǎo gè kā fēi diàn zuò zuò ba",
+      "vi": "Bây giờ nhiều người sẽ nói: “Chúng ta tìm quán cà phê ngồi chơi nhé.”"
+    },
+    {
+      "start": 542.833,
+      "end": 543.566,
+      "hanzi": "是的。",
+      "pinyin": "shì de",
+      "vi": "Đúng vậy."
+    },
+    {
+      "start": 543.566,
+      "end": 546.566,
+      "hanzi": "但是，虽然咖啡很流行，",
+      "pinyin": "dàn shì suī rán kā fēi hěn liú xíng",
+      "vi": "Nhưng dù cà phê rất phổ biến,"
+    },
+    {
+      "start": 546.566,
+      "end": 550.933,
+      "hanzi": "茶在中国人心里的位置还是非常重要的。",
+      "pinyin": "chá zài zhōng guó rén xīn lǐ de wèi zhì hái shì fēi cháng zhòng yào de",
+      "vi": "trà vẫn giữ vị trí rất quan trọng trong lòng người Trung Quốc."
+    },
+    {
+      "start": 550.933,
+      "end": 556.666,
+      "hanzi": "我的家里，来了客人，我爸爸妈妈第一件事就是给客人泡茶。",
+      "pinyin": "wǒ de jiā lǐ lái le kè rén wǒ bà bà mā mā dì yī jiàn shì jiù shì gěi kè rén pào chá",
+      "vi": "Ở nhà tôi, khi có khách đến, việc đầu tiên bố mẹ tôi làm là pha trà mời khách."
+    },
+    {
+      "start": 556.666,
+      "end": 558.966,
+      "hanzi": "对，这是中国的礼貌。",
+      "pinyin": "duì zhè shì zhōng guó de lǐ mào",
+      "vi": "Đúng, đó là phép lịch sự của người Trung Quốc."
+    },
+    {
+      "start": 559.0,
+      "end": 559.766,
+      "hanzi": "是的。",
+      "pinyin": "shì de",
+      "vi": "Đúng vậy."
+    },
+    {
+      "start": 559.766,
+      "end": 562.566,
+      "hanzi": "用一杯好茶来欢迎朋友，",
+      "pinyin": "yòng yī bēi hǎo chá lái huān yíng péng yǒu",
+      "vi": "Dùng một tách trà ngon để chào đón bạn bè,"
+    },
+    {
+      "start": 562.6,
+      "end": 565.866,
+      "hanzi": "表示我们对你的尊重和欢迎。",
+      "pinyin": "biǎo shì wǒ men duì nǐ de zūn zhòng hé huān yíng",
+      "vi": "thể hiện sự tôn trọng và lòng hiếu khách của chúng ta."
+    },
+    {
+      "start": 565.9,
+      "end": 572.266,
+      "hanzi": "而且，在中国南方的一些地方，喝茶是一种非常重要的生活习惯。",
+      "pinyin": "ér qiě zài zhōng guó nán fāng de yī xiē dì fāng hē chá shì yī zhǒng fēi cháng zhòng yào de shēng huó xí guàn",
+      "vi": "Hơn nữa, ở một số nơi miền Nam Trung Quốc, uống trà là một thói quen sinh hoạt rất quan trọng."
+    },
+    {
+      "start": 572.3,
+      "end": 576.8,
+      "hanzi": "比如广东，人们早上要去茶楼“喝早茶”。",
+      "pinyin": "bǐ rú guǎng dōng rén men zǎo shàng yào qù chá lóu hē zǎo chá",
+      "vi": "Ví dụ ở Quảng Đông, mọi người buổi sáng đến trà lâu để “uống trà sáng”."
+    },
+    {
+      "start": 576.833,
+      "end": 579.166,
+      "hanzi": "我听说过“喝早茶”！",
+      "pinyin": "wǒ tīng shuō guò hē zǎo chá",
+      "vi": "Tôi từng nghe nói đến “uống trà sáng”!"
+    },
+    {
+      "start": 579.2,
+      "end": 584.566,
+      "hanzi": "是不是可以一边喝茶，一边吃很多好吃的小点心？",
+      "pinyin": "shì bú shì kě yǐ yī biān hē chá yī biān chī hěn duō hǎo chī de xiǎo diǎn xīn",
+      "vi": "Có phải có thể vừa uống trà vừa ăn nhiều món điểm tâm ngon không?"
+    },
+    {
+      "start": 584.6,
+      "end": 586.033,
+      "hanzi": "完全正确！",
+      "pinyin": "wán quán zhèng què",
+      "vi": "Hoàn toàn chính xác!"
+    },
+    {
+      "start": 586.066,
+      "end": 591.9,
+      "hanzi": "“喝早茶”不只是喝茶，更重要的是和家人、朋友在一起，",
+      "pinyin": "hē zǎo chá bù zhǐ shì hē chá gèng zhòng yào de shì hé jiā rén péng yǒu zài yì qǐ",
+      "vi": "“Uống trà sáng” không chỉ là uống trà, quan trọng hơn là ở bên gia đình và bạn bè,"
+    },
+    {
+      "start": 591.933,
+      "end": 594.466,
+      "hanzi": "慢慢地吃东西，聊天。",
+      "pinyin": "màn màn dì chī dōng xī liáo tiān",
+      "vi": "thong thả ăn uống và trò chuyện."
+    },
+    {
+      "start": 594.5,
+      "end": 597.366,
+      "hanzi": "那是一种非常舒服的生活方式。",
+      "pinyin": "nà shì yī zhǒng fēi cháng shū fú de shēng huó fāng shì",
+      "vi": "Đó là một lối sống rất dễ chịu."
+    },
+    {
+      "start": 597.4,
+      "end": 601.666,
+      "hanzi": "真好，我以后一定要去广东试一试。",
+      "pinyin": "zhēn hǎo wǒ yǐ hòu yí dìng yào qù guǎng dōng shì yī shì",
+      "vi": "Hay quá, sau này nhất định tôi phải đến Quảng Đông thử một lần."
+    },
+    {
+      "start": 601.7,
+      "end": 606.766,
+      "hanzi": "说到茶的文化，我听说过一个词，叫“功夫茶”。",
+      "pinyin": "shuō dào chá de wén huà wǒ tīng shuō guò yí gè cí jiào gōng fū chá",
+      "vi": "Nhắc đến văn hóa trà, tôi từng nghe một từ gọi là “trà công phu”."
+    },
+    {
+      "start": 606.8,
+      "end": 611.466,
+      "hanzi": "这个“功夫”和我们说的中国功夫是一回事吗？",
+      "pinyin": "zhè ge gōng fu hé wǒ men shuō de zhōng guó gōng fu shì yī huí shì ma",
+      "vi": "Chữ “công phu” ở đây có giống võ công Trung Quốc mà chúng ta thường nói không?"
+    },
+    {
+      "start": 611.5,
+      "end": 614.766,
+      "hanzi": "(笑)，这是一个很好的问题！",
+      "pinyin": "xiào zhè shì yí gè hěn hǎo de wèn tí",
+      "vi": "[Cười] Đây là một câu hỏi rất hay!"
+    },
+    {
+      "start": 614.8,
+      "end": 619.2,
+      "hanzi": "很多学习中文的朋友可能也会有这个疑问。",
+      "pinyin": "hěn duō xué xí zhōng wén de péng yǒu kě néng yě huì yǒu zhè ge yí wèn",
+      "vi": "Nhiều bạn học tiếng Trung có lẽ cũng có thắc mắc này."
+    },
+    {
+      "start": 619.233,
+      "end": 623.066,
+      "hanzi": "这里的“功夫”，不是打架的那个功夫。",
+      "pinyin": "zhè lǐ de gōng fu bú shì dǎ jià de nà ge gōng fu",
+      "vi": "“Công phu” ở đây không phải công phu đánh võ."
+    },
+    {
+      "start": 623.1,
+      "end": 627.633,
+      "hanzi": "在这里，“功夫”的意思是“时间和努力”。",
+      "pinyin": "zài zhè lǐ gōng fu de yì si shì shí jiān hé nǔ lì",
+      "vi": "Ở đây, “công phu” có nghĩa là thời gian và công sức."
+    },
+    {
+      "start": 627.666,
+      "end": 629.2,
+      "hanzi": "时间和努力？",
+      "pinyin": "shí jiān hé nǔ lì",
+      "vi": "Thời gian và công sức ư?"
+    },
+    {
+      "start": 629.2,
+      "end": 630.2,
+      "hanzi": "对。",
+      "pinyin": "duì",
+      "vi": "Đúng."
+    },
+    {
+      "start": 630.233,
+      "end": 636.0,
+      "hanzi": "“功夫茶”的意思是，你需要用很多时间和心思，",
+      "pinyin": "gōng fū chá de yì si shì nǐ xū yào yòng hěn duō shí jiān hé xīn sī",
+      "vi": "“Trà công phu” nghĩa là bạn cần bỏ ra rất nhiều thời gian và tâm sức,"
+    },
+    {
+      "start": 636.033,
+      "end": 638.633,
+      "hanzi": "很认真地去泡一杯茶。",
+      "pinyin": "hěn rèn zhēn dì qù pào yī bēi chá",
+      "vi": "để pha một tách trà thật cẩn thận."
+    },
+    {
+      "start": 638.666,
+      "end": 643.6,
+      "hanzi": "它的茶具很小，茶杯也非常小，",
+      "pinyin": "tā de chá jù hěn xiǎo chá bēi yě fēi cháng xiǎo",
+      "vi": "Bộ dụng cụ pha trà của nó rất nhỏ, chén trà cũng nhỏ xíu,"
+    },
+    {
+      "start": 643.633,
+      "end": 646.7,
+      "hanzi": "可能你一口就能喝完。",
+      "pinyin": "kě néng nǐ yī kǒu jiù néng hē wán",
+      "vi": "có lẽ chỉ một ngụm là uống hết."
+    },
+    {
+      "start": 646.733,
+      "end": 649.4,
+      "hanzi": "泡茶的过程也比较复杂。",
+      "pinyin": "pào chá de guò chéng yě bǐ jiào fù zá",
+      "vi": "Quy trình pha trà cũng khá phức tạp."
+    },
+    {
+      "start": 649.433,
+      "end": 651.433,
+      "hanzi": "为什么要那么麻烦呢？",
+      "pinyin": "wèi shén me yào nà me má fán ne",
+      "vi": "Sao phải cầu kỳ như vậy?"
+    },
+    {
+      "start": 651.466,
+      "end": 656.3,
+      "hanzi": "因为这个过程本身就是一种享受。",
+      "pinyin": "yīn wèi zhè ge guò chéng běn shēn jiù shì yī zhǒng xiǎng shòu",
+      "vi": "Vì chính quá trình đó đã là một sự tận hưởng."
+    },
+    {
+      "start": 656.333,
+      "end": 662.033,
+      "hanzi": "大家坐在一起，看着一个人慢慢地洗茶具，",
+      "pinyin": "dà jiā zuò zài yì qǐ kàn zhe yí gè rén màn màn dì xǐ chá jù",
+      "vi": "Mọi người ngồi cùng nhau, nhìn một người thong thả tráng bộ trà cụ,"
+    },
+    {
+      "start": 662.066,
+      "end": 664.766,
+      "hanzi": "泡茶，倒茶。",
+      "pinyin": "pào chá dào chá",
+      "vi": "pha trà rồi rót trà."
+    },
+    {
+      "start": 664.8,
+      "end": 668.866,
+      "hanzi": "这个过程很安静，能让人静下心来。",
+      "pinyin": "zhè ge guò chéng hěn ān jìng néng ràng rén jìng xià xīn lái",
+      "vi": "Quá trình ấy rất yên tĩnh, khiến con người tĩnh tâm lại."
+    },
+    {
+      "start": 668.9,
+      "end": 674.633,
+      "hanzi": "这是一种非常传统的社交方式，和朋友一起喝“功夫茶”，",
+      "pinyin": "zhè shì yī zhǒng fēi cháng chuán tǒng de shè jiāo fāng shì hé péng yǒu yì qǐ hē gōng fū chá",
+      "vi": "Đây là một cách giao lưu rất truyền thống. Cùng bạn bè uống “trà công phu”,"
+    },
+    {
+      "start": 674.666,
+      "end": 676.466,
+      "hanzi": "可以聊很长时间。",
+      "pinyin": "kě yǐ liáo hěn zhǎng shí jiān",
+      "vi": "có thể trò chuyện rất lâu."
+    },
+    {
+      "start": 676.5,
+      "end": 677.7,
+      "hanzi": "我明白了。",
+      "pinyin": "wǒ míng bái le",
+      "vi": "Tôi hiểu rồi."
+    },
+    {
+      "start": 677.733,
+      "end": 684.1,
+      "hanzi": "所以“功夫茶”的重点不是喝，而是那个过程和在一起聊天的时间。",
+      "pinyin": "suǒ yǐ gōng fū chá de zhòng diǎn bú shì hē ér shì nà ge guò chéng hé zài yì qǐ liáo tiān de shí jiān",
+      "vi": "Vậy trọng tâm của “trà công phu” không phải ở việc uống, mà là quá trình pha và thời gian cùng nhau trò chuyện."
+    },
+    {
+      "start": 684.133,
+      "end": 686.266,
+      "hanzi": "这真是一个很有意思的文化。",
+      "pinyin": "zhè zhēn shì yí gè hěn yǒu yì si de wén huà",
+      "vi": "Đúng là một nét văn hóa rất thú vị."
+    },
+    {
+      "start": 686.3,
+      "end": 687.4,
+      "hanzi": "是的。",
+      "pinyin": "shì de",
+      "vi": "Đúng vậy."
+    },
+    {
+      "start": 687.4,
+      "end": 692.9,
+      "hanzi": "所以你看，咖啡代表着一种新的、国际化的、",
+      "pinyin": "suǒ yǐ nǐ kàn kā fēi dài biǎo zhe yī zhǒng xīn de guó jì huà de",
+      "vi": "Vì thế bạn thấy đấy, cà phê đại diện cho một phương thức giao lưu mới, mang tính quốc tế,"
+    },
+    {
+      "start": 692.933,
+      "end": 695.366,
+      "hanzi": "快节奏的社交方式。",
+      "pinyin": "kuài jié zòu de shè jiāo fāng shì",
+      "vi": "với nhịp sống nhanh."
+    },
+    {
+      "start": 695.4,
+      "end": 700.866,
+      "hanzi": "而茶，特别是像功夫茶这样的，代表着一种传统的、",
+      "pinyin": "ér chá tè bié shì xiàng gōng fū chá zhè yàng de dài biǎo zhe yī zhǒng chuán tǒng de",
+      "vi": "Còn trà, đặc biệt là trà công phu, đại diện cho một phương thức giao lưu truyền thống,"
+    },
+    {
+      "start": 700.9,
+      "end": 704.3,
+      "hanzi": "安静的、慢节奏的社交方式。",
+      "pinyin": "ān jìng de màn jié zòu de shè jiāo fāng shì",
+      "vi": "yên tĩnh và có nhịp độ chậm."
+    },
+    {
+      "start": 704.333,
+      "end": 708.9,
+      "hanzi": "这两种方式现在都在中国存在，我觉得非常好。",
+      "pinyin": "zhè liǎng zhǒng fāng shì xiàn zài dōu zài zhōng guó cún zài wǒ jué de fēi cháng hǎo",
+      "vi": "Hiện nay cả hai hình thức đều tồn tại ở Trung Quốc, tôi thấy điều đó rất tốt."
+    },
+    {
+      "start": 708.933,
+      "end": 715.7,
+      "hanzi": "李明，今天和你聊了这么多关于茶和咖啡的事情，我学到了很多。",
+      "pinyin": "lǐ míng jīn tiān hé nǐ liáo le zhè me duō guān yú chá hé kā fēi de shì qíng wǒ xué dào le hěn duō",
+      "vi": "Lý Minh, hôm nay trò chuyện với bạn nhiều điều về trà và cà phê, tôi đã học được rất nhiều."
+    },
+    {
+      "start": 715.733,
+      "end": 717.433,
+      "hanzi": "我也很开心。",
+      "pinyin": "wǒ yě hěn kāi xīn",
+      "vi": "Tôi cũng rất vui."
+    },
+    {
+      "start": 717.466,
+      "end": 721.2,
+      "hanzi": "其实，王雨，我觉得喝茶、喝咖啡",
+      "pinyin": "qí shí wáng yǔ wǒ jué de hē chá hē kā fēi",
+      "vi": "Thật ra, Vương Vũ, tôi thấy chuyện uống trà, uống cà phê"
+    },
+    {
+      "start": 721.233,
+      "end": 724.366,
+      "hanzi": "和我们学习中文，也有一些像的地方。",
+      "pinyin": "hé wǒ men xué xí zhōng wén yě yǒu yī xiē xiàng de dì fāng",
+      "vi": "cũng có vài điểm giống với việc chúng ta học tiếng Trung."
+    },
+    {
+      "start": 724.366,
+      "end": 727.166,
+      "hanzi": "哦？怎么说？这个很有意思。",
+      "pinyin": "ó zěn me shuō zhè ge hěn yǒu yì si",
+      "vi": "Ồ? Ý bạn là sao? Nghe thú vị đấy."
+    },
+    {
+      "start": 727.2,
+      "end": 732.2,
+      "hanzi": "我觉得，学习中文的过程，就像泡一杯功夫茶。",
+      "pinyin": "wǒ jué de xué xí zhōng wén de guò chéng jiù xiàng pào yī bēi gōng fū chá",
+      "vi": "Tôi thấy quá trình học tiếng Trung giống như pha một tách trà công phu."
+    },
+    {
+      "start": 732.233,
+      "end": 733.8,
+      "hanzi": "像泡功夫茶？为什么？",
+      "pinyin": "xiàng pào gōng fū chá wèi shén me",
+      "vi": "Giống pha trà công phu ư? Tại sao?"
+    },
+    {
+      "start": 733.833,
+      "end": 740.266,
+      "hanzi": "你想，泡功夫茶，你需要耐心，你需要时间，",
+      "pinyin": "nǐ xiǎng pào gōng fū chá nǐ xū yào nài xīn nǐ xū yào shí jiān",
+      "vi": "Bạn nghĩ xem, để pha trà công phu, bạn cần kiên nhẫn, cần thời gian,"
+    },
+    {
+      "start": 740.3,
+      "end": 744.0,
+      "hanzi": "需要一步一步地做，不能着急。",
+      "pinyin": "xū yào yí bù yí bù dì zuò bù néng zháo jí",
+      "vi": "phải làm từng bước một, không thể vội vàng."
+    },
+    {
+      "start": 744.033,
+      "end": 747.766,
+      "hanzi": "你着急，水太热，茶就不好喝了。",
+      "pinyin": "nǐ zháo jí shuǐ tài rè chá jiù bù hǎo hē le",
+      "vi": "Nếu quá vội, nước nóng quá thì trà sẽ không ngon."
+    },
+    {
+      "start": 747.8,
+      "end": 751.166,
+      "hanzi": "你时间太短，茶的味道出不来。",
+      "pinyin": "nǐ shí jiān tài duǎn chá de wèi dào chū bù lái",
+      "vi": "Nếu thời gian pha quá ngắn, hương vị trà chưa kịp ngấm ra."
+    },
+    {
+      "start": 751.2,
+      "end": 753.1,
+      "hanzi": "学习中文不也是这样吗？",
+      "pinyin": "xué xí zhōng wén bù yě shì zhè yàng ma",
+      "vi": "Học tiếng Trung chẳng phải cũng vậy sao?"
+    },
+    {
+      "start": 753.133,
+      "end": 754.866,
+      "hanzi": "我好像有点儿明白了。",
+      "pinyin": "wǒ hǎo xiàng yǒu diǎn ér míng bái le",
+      "vi": "Hình như tôi đã hiểu được một chút rồi."
+    },
+    {
+      "start": 754.9,
+      "end": 759.266,
+      "hanzi": "你不能希望今天学习，明天中文就变得非常好。",
+      "pinyin": "nǐ bù néng xī wàng jīn tiān xué xí míng tiān zhōng wén jiù biàn dé fēi cháng hǎo",
+      "vi": "Bạn không thể hy vọng hôm nay học thì ngày mai tiếng Trung đã trở nên cực kỳ giỏi."
+    },
+    {
+      "start": 759.3,
+      "end": 764.633,
+      "hanzi": "你需要每天都花一点儿时间，就像每天洗茶具、",
+      "pinyin": "nǐ xū yào měi tiān dōu huā yì diǎn ér shí jiān jiù xiàng měi tiān xǐ chá jù",
+      "vi": "Bạn cần dành một ít thời gian mỗi ngày, giống như hằng ngày tráng trà cụ,"
+    },
+    {
+      "start": 764.666,
+      "end": 767.066,
+      "hanzi": "烧水、泡茶一样。",
+      "pinyin": "shāo shuǐ pào chá yī yàng",
+      "vi": "đun nước và pha trà vậy."
+    },
+    {
+      "start": 767.1,
+      "end": 771.1,
+      "hanzi": "今天记五个汉字，明天练习一个句子。",
+      "pinyin": "jīn tiān jì wǔ gè hàn zì míng tiān liàn xí yí gè jù zi",
+      "vi": "Hôm nay nhớ năm chữ Hán, ngày mai luyện một câu."
+    },
+    {
+      "start": 771.133,
+      "end": 775.0,
+      "hanzi": "每天都做一点儿，慢慢地，时间长了，",
+      "pinyin": "měi tiān dōu zuò yì diǎn ér màn màn dì shí jiān zhǎng le",
+      "vi": "Mỗi ngày làm một chút, dần dần theo thời gian,"
+    },
+    {
+      "start": 775.033,
+      "end": 778.833,
+      "hanzi": "你的中文“茶”才能泡出好的味道。",
+      "pinyin": "nǐ de zhōng wén chá cái néng pào chū hǎo de wèi dào",
+      "vi": "thì tách “trà tiếng Trung” của bạn mới có thể cho ra hương vị ngon."
+    },
+    {
+      "start": 778.866,
+      "end": 780.433,
+      "hanzi": "这就是“功夫”。",
+      "pinyin": "zhè jiù shì gōng fu",
+      "vi": "Đó chính là “công phu”."
+    },
+    {
+      "start": 780.466,
+      "end": 782.5,
+      "hanzi": "你这个比喻太好了！",
+      "pinyin": "nǐ zhè ge bǐ yù tài hǎo le",
+      "vi": "Bạn so sánh hay quá!"
+    },
+    {
+      "start": 782.533,
+      "end": 785.5,
+      "hanzi": "学中文真的需要“功夫”。",
+      "pinyin": "xué zhōng wén zhēn de xū yào gōng fu",
+      "vi": "Học tiếng Trung thật sự cần “công phu”."
+    },
+    {
+      "start": 785.533,
+      "end": 789.033,
+      "hanzi": "有时候，我真的觉得很着急。",
+      "pinyin": "yǒu shí hòu wǒ zhēn de jué de hěn zháo jí",
+      "vi": "Đôi khi tôi thật sự cảm thấy rất sốt ruột."
+    },
+    {
+      "start": 789.066,
+      "end": 795.966,
+      "hanzi": "我觉得自己学了这么长时间，为什么还是说得不好，听得不懂。",
+      "pinyin": "wǒ jué de zì jǐ xué le zhè me zhǎng shí jiān wèi shén me hái shì shuō dé bù hǎo tīng dé bù dǒng",
+      "vi": "Tôi nghĩ mình đã học lâu như thế, sao vẫn nói chưa tốt, nghe vẫn không hiểu."
+    },
+    {
+      "start": 796.0,
+      "end": 799.7,
+      "hanzi": "我就希望自己能快一点儿，再快一点儿。",
+      "pinyin": "wǒ jiù xī wàng zì jǐ néng kuài yì diǎn ér zài kuài yì diǎn ér",
+      "vi": "Tôi cứ mong bản thân tiến bộ nhanh hơn, nhanh hơn nữa."
+    },
+    {
+      "start": 799.733,
+      "end": 801.466,
+      "hanzi": "我非常理解。",
+      "pinyin": "wǒ fēi cháng lǐ jiě",
+      "vi": "Tôi rất hiểu."
+    },
+    {
+      "start": 801.5,
+      "end": 805.033,
+      "hanzi": "每个学习中文的人，可能都有这个时候。",
+      "pinyin": "měi gè xué xí zhōng wén de rén kě néng dōu yǒu zhè ge shí hòu",
+      "vi": "Có lẽ ai học tiếng Trung cũng từng trải qua giai đoạn như thế."
+    },
+    {
+      "start": 805.066,
+      "end": 808.5,
+      "hanzi": "会觉得很累，看不到自己的进步。",
+      "pinyin": "huì jué de hěn lèi kàn bú dào zì jǐ de jìn bù",
+      "vi": "Sẽ cảm thấy rất mệt mỏi, không nhìn thấy tiến bộ của mình."
+    },
+    {
+      "start": 808.533,
+      "end": 811.066,
+      "hanzi": "对！就是这种感觉！",
+      "pinyin": "duì jiù shì zhè zhǒng gǎn jué",
+      "vi": "Đúng! Chính là cảm giác đó!"
+    },
+    {
+      "start": 811.1,
+      "end": 817.9,
+      "hanzi": "我希望学习中文能像喝咖啡一样，喝下去，马上就有精神，",
+      "pinyin": "wǒ xī wàng xué xí zhōng wén néng xiàng hē kā fēi yī yàng hē xià qù mǎ shàng jiù yǒu jīng shén",
+      "vi": "Tôi ước việc học tiếng Trung giống như uống cà phê, uống vào là tỉnh táo ngay,"
+    },
+    {
+      "start": 817.933,
+      "end": 820.466,
+      "hanzi": "马上就能看到效果。",
+      "pinyin": "mǎ shàng jiù néng kàn dào xiào guǒ",
+      "vi": "và lập tức nhìn thấy kết quả."
+    },
+    {
+      "start": 820.5,
+      "end": 824.033,
+      "hanzi": "但是我知道，这是不可能的。",
+      "pinyin": "dàn shì wǒ zhī dào zhè shì bù kě néng de",
+      "vi": "Nhưng tôi biết chuyện ấy là không thể."
+    },
+    {
+      "start": 824.066,
+      "end": 827.033,
+      "hanzi": "李明，你有什么好的建议吗？",
+      "pinyin": "lǐ míng nǐ yǒu shén me hǎo de jiàn yì ma",
+      "vi": "Lý Minh, bạn có lời khuyên nào hay không?"
+    },
+    {
+      "start": 827.066,
+      "end": 832.466,
+      "hanzi": "我觉得，当你觉得着急的时候，不要对自己太严格。",
+      "pinyin": "wǒ jué de dāng nǐ jué de zháo jí de shí hòu bú yào duì zì jǐ tài yán gé",
+      "vi": "Tôi nghĩ khi cảm thấy sốt ruột, bạn đừng quá khắt khe với bản thân."
+    },
+    {
+      "start": 832.5,
+      "end": 834.266,
+      "hanzi": "你可以休息一下。",
+      "pinyin": "nǐ kě yǐ xiū xī yī xià",
+      "vi": "Bạn có thể nghỉ ngơi một chút."
+    },
+    {
+      "start": 834.3,
+      "end": 837.0,
+      "hanzi": "或者，换一种学习方法。",
+      "pinyin": "huò zhě huàn yī zhǒng xué xí fāng fǎ",
+      "vi": "Hoặc thay đổi phương pháp học."
+    },
+    {
+      "start": 837.033,
+      "end": 842.033,
+      "hanzi": "比如，你一直看书，觉得很没有意思，那你可以试着去看一个",
+      "pinyin": "bǐ rú nǐ yì zhí kàn shū jué de hěn méi yǒu yì si nà nǐ kě yǐ shì zhe qù kàn yí gè",
+      "vi": "Ví dụ, nếu cứ đọc sách mãi khiến bạn thấy chán, bạn có thể thử xem một"
+    },
+    {
+      "start": 842.066,
+      "end": 846.766,
+      "hanzi": "简单的中国电影，或者听一首中文歌。",
+      "pinyin": "jiǎn dān de zhōng guó diàn yǐng huò zhě tīng yī shǒu zhōng wén gē",
+      "vi": "bộ phim Trung Quốc đơn giản hoặc nghe một bài hát tiếng Trung."
+    },
+    {
+      "start": 846.8,
+      "end": 848.6,
+      "hanzi": "嗯，这是个好办法。",
+      "pinyin": "ń zhè shì gè hǎo bàn fǎ",
+      "vi": "Ừm, đó là cách hay."
+    },
+    {
+      "start": 848.633,
+      "end": 852.166,
+      "hanzi": "最重要的是，要相信“功夫”的力量。",
+      "pinyin": "zuì zhòng yào de shì yào xiāng xìn gōng fu de lì liàng",
+      "vi": "Quan trọng nhất là phải tin vào sức mạnh của “công phu”."
+    },
+    {
+      "start": 852.2,
+      "end": 857.066,
+      "hanzi": "要相信，你每天花的时间和努力，都不会浪费。",
+      "pinyin": "yào xiāng xìn nǐ měi tiān huā de shí jiān hé nǔ lì dōu bú huì làng fèi",
+      "vi": "Hãy tin rằng thời gian và công sức bạn bỏ ra mỗi ngày đều không lãng phí."
+    },
+    {
+      "start": 857.1,
+      "end": 863.033,
+      "hanzi": "就像泡茶一样，你做的每一步，最后都会影响茶的味道。",
+      "pinyin": "jiù xiàng pào chá yī yàng nǐ zuò de měi yī bù zuì hòu dū huì yǐng xiǎng chá de wèi dào",
+      "vi": "Giống như pha trà, mỗi bước bạn làm cuối cùng đều ảnh hưởng đến hương vị trà."
+    },
+    {
+      "start": 863.066,
+      "end": 868.266,
+      "hanzi": "所以，别着急，慢慢来。享受学习中文这个过程，",
+      "pinyin": "suǒ yǐ bié zháo jí màn màn lái xiǎng shòu xué xí zhōng wén zhè ge guò chéng",
+      "vi": "Vậy nên đừng vội, cứ từ từ. Hãy tận hưởng quá trình học tiếng Trung,"
+    },
+    {
+      "start": 868.3,
+      "end": 871.066,
+      "hanzi": "就像享受泡茶的过程一样。",
+      "pinyin": "jiù xiàng xiǎng shòu pào chá de guò chéng yī yàng",
+      "vi": "giống như tận hưởng quá trình pha trà vậy."
+    },
+    {
+      "start": 871.1,
+      "end": 872.6,
+      "hanzi": "谢谢你，李明。",
+      "pinyin": "xiè xiè nǐ lǐ míng",
+      "vi": "Cảm ơn bạn, Lý Minh."
+    },
+    {
+      "start": 872.633,
+      "end": 876.0,
+      "hanzi": "听你这么说，我感觉好多了。",
+      "pinyin": "tīng nǐ zhè me shuō wǒ gǎn jué hǎo duō le",
+      "vi": "Nghe bạn nói như vậy, tôi cảm thấy tốt hơn nhiều rồi."
+    },
+    {
+      "start": 876.033,
+      "end": 881.466,
+      "hanzi": "我以后会把学中文当成是为自己泡一杯“功夫茶”。",
+      "pinyin": "wǒ yǐ hòu huì bǎ xué zhōng wén dàng chéng shì wèi zì jǐ pào yī bēi gōng fū chá",
+      "vi": "Sau này tôi sẽ coi việc học tiếng Trung như đang pha cho mình một tách “trà công phu”."
+    },
+    {
+      "start": 881.5,
+      "end": 885.033,
+      "hanzi": "需要耐心，也需要享受这个过程。",
+      "pinyin": "xū yào nài xīn yě xū yào xiǎng shòu zhè ge guò chéng",
+      "vi": "Cần kiên nhẫn và cũng phải tận hưởng quá trình ấy."
+    },
+    {
+      "start": 885.033,
+      "end": 887.4,
+      "hanzi": "对。我们可以选择",
+      "pinyin": "duì wǒ men kě yǐ xuǎn zé",
+      "vi": "Đúng. Chúng ta có thể lựa chọn"
+    },
+    {
+      "start": 887.433,
+      "end": 890.666,
+      "hanzi": "像喝咖啡一样，快速地生活。",
+      "pinyin": "xiàng hē kā fēi yī yàng kuài sù dì shēng huó",
+      "vi": "sống nhanh như khi uống cà phê."
+    },
+    {
+      "start": 890.7,
+      "end": 896.366,
+      "hanzi": "但我们也需要像喝茶一样，给自己一些慢下来的时间，",
+      "pinyin": "dàn wǒ men yě xū yào xiàng hē chá yī yàng gěi zì jǐ yī xiē màn xià lái de shí jiān",
+      "vi": "Nhưng cũng cần dành cho mình những khoảng thời gian chậm lại như khi uống trà,"
+    },
+    {
+      "start": 896.4,
+      "end": 898.233,
+      "hanzi": "特别是在学习的时候。",
+      "pinyin": "tè bié shì zài xué xí de shí hòu",
+      "vi": "đặc biệt là lúc học tập."
+    },
+    {
+      "start": 898.266,
+      "end": 900.066,
+      "hanzi": "说得太好了。",
+      "pinyin": "shuō dé tài hǎo le",
+      "vi": "Bạn nói hay quá."
+    },
+    {
+      "start": 900.1,
+      "end": 906.766,
+      "hanzi": "好了，今天我们聊了很多关于茶和咖啡的话题，时间也差不多了。",
+      "pinyin": "hǎo le jīn tiān wǒ men liáo le hěn duō guān yú chá hé kā fēi de huà tí shí jiān yě chà bu duō le",
+      "vi": "Được rồi, hôm nay chúng ta đã nói nhiều về trà và cà phê, cũng gần hết giờ rồi."
+    },
+    {
+      "start": 906.8,
+      "end": 909.4,
+      "hanzi": "是啊，时间过得真快。",
+      "pinyin": "shì a shí jiān guò dé zhēn kuài",
+      "vi": "Đúng vậy, thời gian trôi nhanh thật."
+    },
+    {
+      "start": 909.433,
+      "end": 913.266,
+      "hanzi": "今天我们聊了茶和咖啡。",
+      "pinyin": "jīn tiān wǒ men liáo le chá hé kā fēi",
+      "vi": "Hôm nay chúng ta đã trò chuyện về trà và cà phê."
+    },
+    {
+      "start": 913.3,
+      "end": 919.966,
+      "hanzi": "王雨喜欢咖啡，因为它代表着一种快速、现代的生活方式，而且",
+      "pinyin": "wáng yǔ xǐ huān kā fēi yīn wèi tā dài biǎo zhe yī zhǒng kuài sù xiàn dài de shēng huó fāng shì ér qiě",
+      "vi": "Vương Vũ thích cà phê vì nó đại diện cho lối sống hiện đại, nhanh chóng, hơn nữa"
+    },
+    {
+      "start": 920.0,
+      "end": 923.233,
+      "hanzi": "咖啡店也是一个很好的社交空间。",
+      "pinyin": "kā fēi diàn yě shì yí gè hěn hǎo de shè jiāo kōng jiān",
+      "vi": "quán cà phê cũng là một không gian giao lưu rất tốt."
+    },
+    {
+      "start": 923.266,
+      "end": 929.166,
+      "hanzi": "我喜欢茶，因为它对身体好，也代表着一种慢下来、",
+      "pinyin": "wǒ xǐ huān chá yīn wèi tā duì shēn tǐ hǎo yě dài biǎo zhe yī zhǒng màn xià lái",
+      "vi": "Tôi thích trà vì nó tốt cho sức khỏe và đại diện cho nét văn hóa truyền thống Trung Quốc, biết sống chậm lại,"
+    },
+    {
+      "start": 929.2,
+      "end": 931.966,
+      "hanzi": "享受过程的中国传统文化。",
+      "pinyin": "xiǎng shòu guò chéng de zhōng guó chuán tǒng wén huà",
+      "vi": "và tận hưởng quá trình."
+    },
+    {
+      "start": 931.966,
+      "end": 934.666,
+      "hanzi": "对！最重要的是，我们发现，",
+      "pinyin": "duì zuì zhòng yào de shì wǒ men fā xiàn",
+      "vi": "Đúng! Quan trọng nhất là chúng ta nhận ra rằng,"
+    },
+    {
+      "start": 934.7,
+      "end": 939.2,
+      "hanzi": "学中文就像泡一杯中国的“功夫茶”。",
+      "pinyin": "xué zhōng wén jiù xiàng pào yī bēi zhōng guó de gōng fū chá",
+      "vi": "học tiếng Trung giống như pha một tách “trà công phu” Trung Quốc."
+    },
+    {
+      "start": 939.233,
+      "end": 944.8,
+      "hanzi": "它需要时间，需要耐心，需要我们享受这个过程，",
+      "pinyin": "tā xū yào shí jiān xū yào nài xīn xū yào wǒ men xiǎng shòu zhè ge guò chéng",
+      "vi": "Việc đó cần thời gian, cần kiên nhẫn và cần chúng ta tận hưởng quá trình,"
+    },
+    {
+      "start": 944.833,
+      "end": 947.866,
+      "hanzi": "而不是只想着要一个快速的结果。",
+      "pinyin": "ér bú shì zhǐ xiǎng zhe yào yí gè kuài sù de jié guǒ",
+      "vi": "chứ không chỉ nghĩ đến một kết quả thật nhanh."
+    },
+    {
+      "start": 947.9,
+      "end": 948.633,
+      "hanzi": "对！",
+      "pinyin": "duì",
+      "vi": "Đúng!"
+    },
+    {
+      "start": 948.633,
+      "end": 952.9,
+      "hanzi": "如果大家想看我们今天聊天的完整文本，",
+      "pinyin": "rú guǒ dà jiā xiǎng kàn wǒ men jīn tiān liáo tiān de wán zhěng wén běn",
+      "vi": "Nếu mọi người muốn xem toàn bộ nội dung cuộc trò chuyện hôm nay,"
+    },
+    {
+      "start": 952.933,
+      "end": 955.2,
+      "hanzi": "可以去我们的博客看看。",
+      "pinyin": "kě yǐ qù wǒ men de bó kè kàn kàn",
+      "vi": "có thể ghé blog của chúng tôi."
+    },
+    {
+      "start": 955.233,
+      "end": 957.033,
+      "hanzi": "我们的博客地址是",
+      "pinyin": "wǒ men de bó kè dì zhǐ shì",
+      "vi": "Địa chỉ blog của chúng tôi là"
+    },
+    {
+      "start": 957.033,
+      "end": 961.2,
+      "hanzi": "chinesedailypodcast.blogspot.com。",
+      "pinyin": "chinesedailypodcast.blogspot.com",
+      "vi": "chinesedailypodcast.blogspot.com."
+    },
+    {
+      "start": 961.2,
+      "end": 963.666,
+      "hanzi": "是的，欢迎大家去看一看。",
+      "pinyin": "shì de huān yíng dà jiā qù kàn yī kàn",
+      "vi": "Đúng vậy, rất hoan nghênh mọi người ghé xem."
+    },
+    {
+      "start": 963.7,
+      "end": 965.1,
+      "hanzi": "那听众朋友们，你们呢？",
+      "pinyin": "nà tīng zhòng péng yǒu men nǐ men ne",
+      "vi": "Vậy còn các thính giả đang nghe chúng tôi, các bạn thì sao?"
+    },
+    {
+      "start": 965.133,
+      "end": 969.366,
+      "hanzi": "你们喜欢喝茶还是喝咖啡？",
+      "pinyin": "nǐ men xǐ huān hē chá hái shì hē kā fēi",
+      "vi": "Các bạn thích uống trà hay cà phê?"
+    },
+    {
+      "start": 969.4,
+      "end": 972.7,
+      "hanzi": "或者，你觉得学习中文更像什么呢？",
+      "pinyin": "huò zhě nǐ jué de xué xí zhōng wén gèng xiàng shén me ne",
+      "vi": "Hoặc các bạn thấy học tiếng Trung giống với điều gì hơn?"
+    },
+    {
+      "start": 972.733,
+      "end": 976.166,
+      "hanzi": "请在我们的博客下面留言告诉我们吧！",
+      "pinyin": "qǐng zài wǒ men de bó kè xià miàn liú yán gào sù wǒ men ba",
+      "vi": "Hãy để lại bình luận bên dưới blog và cho chúng tôi biết nhé!"
+    },
+    {
+      "start": 976.2,
+      "end": 978.433,
+      "hanzi": "我们很想听听你们的故事。",
+      "pinyin": "wǒ men hěn xiǎng tīng tīng nǐ men de gù shì",
+      "vi": "Chúng tôi rất muốn nghe câu chuyện của các bạn."
+    },
+    {
+      "start": 978.466,
+      "end": 982.3,
+      "hanzi": "好的，今天的每天中文就到这里。",
+      "pinyin": "hǎo de jīn tiān de měi tiān zhōng wén jiù dào zhè lǐ",
+      "vi": "Được rồi, chương trình Tiếng Trung mỗi ngày hôm nay đến đây thôi."
+    },
+    {
+      "start": 982.333,
+      "end": 983.833,
+      "hanzi": "感谢大家的收听。",
+      "pinyin": "gǎn xiè dà jiā de shōu tīng",
+      "vi": "Cảm ơn mọi người đã lắng nghe."
+    },
+    {
+      "start": 983.866,
+      "end": 985.0,
+      "hanzi": "我是王雨。",
+      "pinyin": "wǒ shì wáng yǔ",
+      "vi": "Tôi là Vương Vũ."
+    },
+    {
+      "start": 985.033,
+      "end": 985.8,
+      "hanzi": "我是李明。",
+      "pinyin": "wǒ shì lǐ míng",
+      "vi": "Tôi là Lý Minh."
+    },
+    {
+      "start": 985.833,
+      "end": 987.733,
+      "hanzi": "我们下次再见！再见！",
+      "pinyin": "wǒ men xià cì zài jiàn zài jiàn",
+      "vi": "Hẹn gặp lại lần sau! Tạm biệt!"
+    }
+  ]
+}

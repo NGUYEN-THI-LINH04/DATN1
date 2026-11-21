@@ -1,0 +1,490 @@
+﻿hsk_level,lesson_id,lesson_order,lesson_title,order,source_type,source_id,question_group,question_type,skill,content,passage,choice_1,choice_2,choice_3,choice_4,choice_5,choice_6,correct_choices,answer_json,explanation,score
+1,2,2,我是越南人 - Tôi là người Việt Nam,1,tu_vung,272,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “男生” là gì?,,nánshēng,guó wài,nǚrén,nánrén,,,1,,“男生” được đọc là nánshēng.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,2,tu_vung,281,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “nữ; phụ nữ”?,,汉字,国,您,女,,,4,,女 (nǚ) có nghĩa là “nữ; phụ nữ”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,3,tu_vung,268,tu_vung_nghia,chon_mot,doc,“男” có nghĩa là gì?,,ngoại ngữ,quốc gia; đất nước,cô ấy; bà ấy,nam; đàn ông,,,4,,男 (nán) có nghĩa là “nam; đàn ông”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,4,tu_vung,286,tu_vung_nghia,chon_mot,doc,“女生” có nghĩa là gì?,,người,giới thiệu,nữ sinh; học sinh nữ,cô ấy; bà ấy,,,3,,女生 (nǚshēng) có nghĩa là “nữ sinh; học sinh nữ”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,5,ngu_phap,9,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""是"", ""越南人""]}",Câu đúng là: 我是越南人。,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,6,chu_han,34,chu_han_nghia,chon_mot,doc,Chữ “先” có nghĩa là gì?,,trước; trước tiên,nhà; gia đình,nam; phía nam,có,,,1,,"“先” đọc là xiān, có nghĩa là “trước; trước tiên”.",1
+1,2,2,我是越南人 - Tôi là người Việt Nam,7,tu_vung,142,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “nước ngoài; ở nước ngoài”?,,人,国外,女,女人,,,2,,国外 (guó wài) có nghĩa là “nước ngoài; ở nước ngoài”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,8,tu_vung,404,tu_vung_nghia,chon_mot,doc,“小姐” có nghĩa là gì?,,nổi tiếng; có tiếng,cô; tiểu thư,các bạn; các cậu,họ; các cô ấy,,,2,,小姐 (xiǎojiě) có nghĩa là “cô; tiểu thư”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,9,tu_vung,188,tu_vung_dung_sai,dung_sai,doc,“介绍” có nghĩa là “Việt Nam”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 介绍 (jièshào) có nghĩa là “giới thiệu”, không phải “Việt Nam”.",1
+1,2,2,我是越南人 - Tôi là người Việt Nam,10,tu_vung,141,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “quốc gia; đất nước”?,,他们,国,国家,男人,,,3,,国家 (guójiā) có nghĩa là “quốc gia; đất nước”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,11,tu_vung,271,tu_vung_dung_sai,dung_sai,doc,“男人” có nghĩa là “đàn ông; nam giới”.,,,,,,,,,"{""answer"": ""dung""}",男人 (nánrén) có nghĩa là “đàn ông; nam giới”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,12,tu_vung,359,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “họ; các cô ấy”?,,国,她们,谁,中文,,,2,,她们 (tāmen) có nghĩa là “họ; các cô ấy”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,13,tu_vung,357,tu_vung_nghia,chon_mot,doc,“他们” có nghĩa là gì?,,cô ấy; bà ấy,nam sinh; học sinh nam,họ; bọn họ,nữ sinh; học sinh nữ,,,3,,他们 (tāmen) có nghĩa là “họ; bọn họ”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,14,tu_vung,358,tu_vung_nghia,chon_mot,doc,“她” có nghĩa là gì?,,các bạn; các cậu,nổi tiếng; có tiếng,tiếng Trung; tiếng Hán,cô ấy; bà ấy,,,4,,她 (tā) có nghĩa là “cô ấy; bà ấy”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,15,tu_vung,404,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “小姐” là gì?,,Zhōngwén,guó wài,xiǎojiě,nánrén,,,3,,“小姐” được đọc là xiǎojiě.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,16,chu_han,18,chu_han_nghia,chon_mot,doc,Chữ “国” có nghĩa là gì?,,nước; quốc gia,ngôn ngữ; lời nói,người,cô ấy; bà ấy,,,1,,"“国” đọc là guó, có nghĩa là “nước; quốc gia”.",1
+1,2,2,我是越南人 - Tôi là người Việt Nam,17,tu_vung,443,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “有名” là gì?,,guó,tā,yǒumíng,guójiā,,,3,,“有名” được đọc là yǒumíng.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,18,tu_vung,310,tu_vung_nghia,chon_mot,doc,“人” có nghĩa là gì?,,ai,người,phụ nữ; người phụ nữ,chữ Hán,,,2,,人 (rén) có nghĩa là “người”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,19,tu_vung,142,tu_vung_nghia,chon_mot,doc,“国外” có nghĩa là gì?,,các bạn; các cậu,nước ngoài; ở nước ngoài,tiếng Trung; tiếng Hán,nữ; phụ nữ,,,2,,国外 (guó wài) có nghĩa là “nước ngoài; ở nước ngoài”.,1
+1,2,2,我是越南人 - Tôi là người Việt Nam,20,tu_vung,382,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “我们” là gì?,,wǒmen,nán,wàiguó,tāmen,,,1,,“我们” được đọc là wǒmen.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,1,tu_vung,147,tu_vung_nghia,chon_mot,doc,“孩子” có nghĩa là gì?,,đứa trẻ; con cái,anh trai,bé gái; cô bé,các; những,,,1,,孩子 (háizi) có nghĩa là “đứa trẻ; con cái”.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,2,ngu_phap,12,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""这是我"", ""的"", ""书。他认真地学习汉语""]}",Câu đúng là: 这是我的书。他认真地学习汉语。,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,3,chu_han,46,chu_han_nghia,chon_mot,doc,Chữ “哥” có nghĩa là gì?,,trong; bên trong,anh trai,em gái,ông; ông nội,,,2,,"“哥” đọc là gē, có nghĩa là “anh trai”.",1
+1,3,3,这是我的家 - Đây là gia đình của tôi,4,tu_vung,110,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “con trai”?,,男朋友,妹妹,儿子,家,,,3,,儿子 (érzi) có nghĩa là “con trai”.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,5,ngu_phap,13,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Định ngữ bổ sung thông tin cho danh từ, giúp xác định người hoặc sự vật cụ thể hơn.",,Câu chữ 有,Đại từ nhân xưng,的 / 地 - trợ từ kết cấu,Định ngữ,,,4,,Cấu trúc đúng là “Định ngữ”. Định ngữ đứng trước danh từ. Nhiều trường hợp dùng cấu trúc: định ngữ + 的 + danh từ.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,6,ngu_phap,12,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+的 thường nối định ngữ với danh từ; 地 thường nối trạng ngữ với động từ hoặc cụm động từ.",,Định ngữ,Câu chữ 有,Đại từ nhân xưng,的 / 地 - trợ từ kết cấu,,,4,,Cấu trúc đúng là “的 / 地 - trợ từ kết cấu”. Mẫu: định ngữ + 的 + danh từ; hoặc trạng ngữ + 地 + động từ.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,7,tu_vung,283,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “女孩儿” là gì?,,mèimei,xiǎoháir,nánpéngyou,nǚháir,,,4,,“女孩儿” được đọc là nǚháir.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,8,tu_vung,403,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “小孩儿” là gì?,,mèimei,nǚpéngyou,xiǎoháir,nǎinai,,,3,,“小孩儿” được đọc là xiǎoháir.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,9,chu_han,50,chu_han_nghia,chon_mot,doc,Chữ “妈” có nghĩa là gì?,,ông; ông nội,bạn (thường dùng trong từ ghép như 朋友),mẹ,trong; bên trong,,,3,,"“妈” đọc là mā, có nghĩa là “mẹ”.",1
+1,3,3,这是我的家 - Đây là gia đình của tôi,10,tu_vung,269,tu_vung_nghia,chon_mot,doc,“男孩儿” có nghĩa là gì?,,bà nội,bé trai; cậu bé,em gái,chị gái,,,2,,男孩儿 (nánháir) có nghĩa là “bé trai; cậu bé”.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,11,chu_han,55,chu_han_nghia,chon_mot,doc,Chữ “爷” có nghĩa là gì?,,mẹ,ông; ông nội,em gái,con; con trai,,,2,,"“爷” đọc là yé, có nghĩa là “ông; ông nội”.",1
+1,3,3,这是我的家 - Đây là gia đình của tôi,12,tu_vung,217,tu_vung_nghia,chon_mot,doc,“老人” có nghĩa là gì?,,người nhà; thành viên gia đình,bạn trai,người cao tuổi; người già,em gái,,,3,,老人 (lǎorén) có nghĩa là “người cao tuổi; người già”.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,13,tu_vung,267,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “bà nội”?,,家里,奶奶,老人,男朋友,,,2,,奶奶 (nǎinai) có nghĩa là “bà nội”.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,14,tu_vung,180,tu_vung_nghia,chon_mot,doc,“家里” có nghĩa là gì?,,người nhà; thành viên gia đình,bạn trai,trong nhà; ở nhà,các; những,,,3,,家里 (jiā li) có nghĩa là “trong nhà; ở nhà”.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,15,tu_vung,181,tu_vung_dung_sai,dung_sai,doc,“家人” có nghĩa là “người nhà; thành viên gia đình”.,,,,,,,,,"{""answer"": ""dung""}",家人 (jiārén) có nghĩa là “người nhà; thành viên gia đình”.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,16,tu_vung,233,tu_vung_nghia,chon_mot,doc,“妈妈” có nghĩa là gì?,,trong nhà; ở nhà,mẹ; má,em trai,bạn; bạn bè,,,2,,妈妈 (māma) có nghĩa là “mẹ; má”.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,17,tu_vung,289,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “朋友” là gì?,,nǚ'ér,péngyou,nǚháir,xiǎopéngyǒu,,,2,,“朋友” được đọc là péngyou.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,18,tu_vung,282,tu_vung_nghia,chon_mot,doc,“女儿” có nghĩa là gì?,,con gái,mẹ; má,con trai,bạn trai,,,1,,女儿 (nǚ'ér) có nghĩa là “con gái”.,1
+1,3,3,这是我的家 - Đây là gia đình của tôi,19,tu_vung,270,tu_vung_dung_sai,dung_sai,doc,“男朋友” có nghĩa là “bà nội”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 男朋友 (nánpéngyou) có nghĩa là “bạn trai”, không phải “bà nội”.",1
+1,3,3,这是我的家 - Đây là gia đình của tôi,20,ngu_phap,14,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+有 được dùng để biểu thị sự sở hữu hoặc sự tồn tại.",,Định ngữ,Đại từ nhân xưng,Câu chữ 有,的 / 地 - trợ từ kết cấu,,,3,,Cấu trúc đúng là “Câu chữ 有”. Mẫu sở hữu: A + 有 + B. Phủ định thường dùng 没有.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,1,chu_han,59,chu_han_nghia,chon_mot,doc,Chữ “杯” có nghĩa là gì?,,cốc; ly,một nửa; nửa,nhiều; hơn,"miếng; cục; đồng, tệ",,,1,,"“杯” đọc là bēi, có nghĩa là “cốc; ly”.",1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,2,tu_vung,88,tu_vung_nghia,chon_mot,doc,“第（第二）” có nghĩa là gì?,,năm; 5,cái; người; chiếc,một; 1,thứ; thứ hai,,,4,,第（第二） (dì (dì-èr)) có nghĩa là “thứ; thứ hai”.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,3,tu_vung,225,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “零” là gì?,,sān,dì (dì-èr),shǎo,líng,,,4,,“零” được đọc là líng.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,4,tu_vung,212,tu_vung_dung_sai,dung_sai,doc,“块” có nghĩa là “mấy; bao nhiêu; vài”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 块 (kuài) có nghĩa là “miếng; cục; đồng, tệ”, không phải “mấy; bao nhiêu; vài”.",1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,5,tu_vung,35,tu_vung_nghia,chon_mot,doc,“本” có nghĩa là gì?,,bảy; 7,quyển; cuốn,ít; thiếu,lần,,,2,,本 (běn) có nghĩa là “quyển; cuốn”.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,6,chu_han,69,chu_han_nghia,chon_mot,doc,Chữ “块” có nghĩa là gì?,,cái; người; chiếc,"miếng; cục; đồng, tệ",một trăm; 100,chín; 9,,,2,,"“块” đọc là kuài, có nghĩa là “miếng; cục; đồng, tệ”.",1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,7,tu_vung,353,tu_vung_nghia,chon_mot,doc,“四” có nghĩa là gì?,,quyển; cuốn,lần,mấy; bao nhiêu; vài,bốn; 4,,,4,,四 (sì) có nghĩa là “bốn; 4”.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,8,tu_vung,315,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “ba; 3”?,,八,十,三,第（第二）,,,3,,三 (sān) có nghĩa là “ba; 3”.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,9,tu_vung,355,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “岁” là gì?,,jǐ,jiǔ,líng,suì,,,4,,“岁” được đọc là suì.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,10,tu_vung,224,tu_vung_nghia,chon_mot,doc,“两” có nghĩa là gì?,,bao nhiêu,hai,mười; 10,ít; thiếu,,,2,,两 (liǎng) có nghĩa là “hai”.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,11,chu_han,62,chu_han_nghia,chon_mot,doc,Chữ “第” có nghĩa là gì?,,lần,hai; 2,"miếng; cục; đồng, tệ",tiền tố chỉ số thứ tự (thứ...),,,4,,"“第” đọc là dì, có nghĩa là “tiền tố chỉ số thứ tự (thứ...)”.",1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,12,tu_vung,328,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “少” là gì?,,shí,jiǔ,bàn,shǎo,,,4,,“少” được đọc là shǎo.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,13,tu_vung,108,tu_vung_dung_sai,dung_sai,doc,“多少” có nghĩa là “bao nhiêu”.,,,,,,,,,"{""answer"": ""dung""}",多少 (duōshao) có nghĩa là “bao nhiêu”.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,14,chu_han,79,chu_han_nghia,chon_mot,doc,Chữ “一” có nghĩa là gì?,,mấy; bao nhiêu; vài,quyển; cuốn,nhiều; hơn,một; 1,,,4,,"“一” đọc là yī, có nghĩa là “một; 1”.",1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,15,tu_vung,23,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “半” là gì?,,dì (dì-èr),bàn,liǎng,yī,,,2,,“半” được đọc là bàn.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,16,chu_han,74,chu_han_nghia,chon_mot,doc,Chữ “三” có nghĩa là gì?,,"miếng; cục; đồng, tệ",lần,ba; 3,hai; 2,,,3,,"“三” đọc là sān, có nghĩa là “ba; 3”.",1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,17,tu_vung,132,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “个” là gì?,,jǐ,cì,gè,bā,,,3,,“个” được đọc là gè.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,18,tu_vung,226,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “sáu; 6”?,,第（第二）,本,六,一半,,,3,,六 (liù) có nghĩa là “sáu; 6”.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,19,tu_vung,335,tu_vung_nghia,chon_mot,doc,“十” có nghĩa là gì?,,bảy; 7,cái; người; chiếc,hai,mười; 10,,,4,,十 (shí) có nghĩa là “mười; 10”.,1
+1,4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,20,tu_vung,111,tu_vung_nghia,chon_mot,doc,“二” có nghĩa là gì?,,hai; 2,cái; người; chiếc,một; 1,tám; 8,,,1,,二 (èr) có nghĩa là “hai; 2”.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,1,tu_vung,254,tu_vung_nghia,chon_mot,doc,“明年” có nghĩa là gì?,,hôm kia,Chủ nhật,năm sau,năm,,,3,,明年 (míngnián) có nghĩa là “năm sau”.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,2,tu_vung,278,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “年” là gì?,,tiān,nián,shēngrì,yuè,,,2,,“年” được đọc là nián.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,3,tu_vung,361,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “天” là gì?,,tiān,xīngqīrì,rìqī,shēngrì,,,1,,“天” được đọc là tiān.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,4,tu_vung,452,tu_vung_dung_sai,dung_sai,doc,“月” có nghĩa là “tháng”.,,,,,,,,,"{""answer"": ""dung""}",月 (yuè) có nghĩa là “tháng”.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,5,tu_vung,298,tu_vung_nghia,chon_mot,doc,“前天” có nghĩa là gì?,,hôm kia,tháng,ngày tháng; ngày tháng năm,năm mới,,,1,,前天 (qiántiān) có nghĩa là “hôm kia”.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,6,tu_vung,189,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “năm nay”?,,今年,今天,日期,星期,,,1,,今年 (jīnnián) có nghĩa là “năm nay”.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,7,tu_vung,361,tu_vung_nghia,chon_mot,doc,“天” có nghĩa là gì?,,Chủ nhật,năm nay,ngày,năm mới,,,3,,天 (tiān) có nghĩa là “ngày”.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,8,chu_han,82,chu_han_nghia,chon_mot,doc,Chữ “后” có nghĩa là gì?,,đi; đi đến,sau; phía sau,ngày,mới,,,2,,"“后” đọc là hòu, có nghĩa là “sau; phía sau”.",1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,9,chu_han,86,chu_han_nghia,chon_mot,doc,Chữ “前” có nghĩa là gì?,,ngày,trước; phía trước,ngày; số,năm,,,2,,"“前” đọc là qián, có nghĩa là “trước; phía trước”.",1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,10,tu_vung,495,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “昨天” là gì?,,hào,zuótiān,shēngrì,míngnián,,,2,,“昨天” được đọc là zuótiān.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,11,tu_vung,190,tu_vung_nghia,chon_mot,doc,“今天” có nghĩa là gì?,,ngày; số,tuần; thứ,hôm kia,hôm nay,,,4,,今天 (jīntiān) có nghĩa là “hôm nay”.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,12,tu_vung,159,tu_vung_nghia,chon_mot,doc,“后天” có nghĩa là gì?,,ngày mốt,ngày,hôm kia,ngày mai,,,1,,后天 (hòutiān) có nghĩa là “ngày mốt”.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,13,tu_vung,413,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “新年” là gì?,,hào,xīngqīrì,nián,xīnnián,,,4,,“新年” được đọc là xīnnián.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,14,tu_vung,308,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “去年” là gì?,,míngtiān,qùnián,rì,jīntiān,,,2,,“去年” được đọc là qùnián.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,15,chu_han,80,chu_han_nghia,chon_mot,doc,Chữ “年” có nghĩa là gì?,,nay; hiện nay; hiện tại,sao; thiên thể,năm,hôm qua (thường dùng trong từ ghép như 昨天),,,3,,"“年” đọc là nián, có nghĩa là “năm”.",1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,16,chu_han,85,chu_han_nghia,chon_mot,doc,Chữ “明” có nghĩa là gì?,,kỳ; thời kỳ; giai đoạn; thời hạn,năm,sáng; rõ; tiếp theo/ngày mai (trong từ chỉ thời gian),tháng,,,3,,"“明” đọc là míng, có nghĩa là “sáng; rõ; tiếp theo/ngày mai (trong từ chỉ thời gian)”.",1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,17,tu_vung,255,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “明天” là gì?,,míngtiān,tiān,jīntiān,shēngrì,,,1,,“明天” được đọc là míngtiān.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,18,tu_vung,313,tu_vung_nghia,chon_mot,doc,“日期” có nghĩa là gì?,,ngày mốt,ngày; số,hôm qua,ngày tháng; ngày tháng năm,,,4,,日期 (rìqī) có nghĩa là “ngày tháng; ngày tháng năm”.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,19,tu_vung,313,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “ngày tháng; ngày tháng năm”?,,天,星期,星期日,日期,,,4,,日期 (rìqī) có nghĩa là “ngày tháng; ngày tháng năm”.,1
+1,5,5,今天几月几号？ - Hôm nay là ngày mấy?,20,tu_vung,414,tu_vung_dung_sai,dung_sai,doc,“星期” có nghĩa là “ngày tháng; ngày tháng năm”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 星期 (xīngqī) có nghĩa là “tuần; thứ”, không phải “ngày tháng; ngày tháng năm”.",1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,1,tu_vung,336,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “时候” là gì?,,shíhou,xià cì,cháng,báitiān,,,1,,“时候” được đọc là shíhou.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,2,tu_vung,457,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “早” là gì?,,zǎo,fēn,báitiān,mǎshàng,,,1,,“早” được đọc là zǎo.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,3,tu_vung,444,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “有时候” là gì?,,diǎn,fēn,yǒushíhou,xiān,,,3,,“有时候” được đọc là yǒushíhou.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,4,tu_vung,20,tu_vung_nghia,chon_mot,doc,“白天” có nghĩa là gì?,,lần sau; lần tới,lúc; khi; thời điểm,buổi tối; ban đêm,ban ngày,,,4,,白天 (báitiān) có nghĩa là “ban ngày”.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,5,tu_vung,51,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “thường; thường xuyên”?,,常,中午,最后,白天,,,1,,常 (cháng) có nghĩa là “thường; thường xuyên”.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,6,tu_vung,323,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “lần trước”?,,常,常常,先,上次,,,4,,上次 (shàng cì) có nghĩa là “lần trước”.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,7,tu_vung,494,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “最后” là gì?,,zuìhòu,chángcháng,xià cì,xiàwǔ,,,1,,“最后” được đọc là zuìhòu.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,8,tu_vung,25,tu_vung_nghia,chon_mot,doc,“半天” có nghĩa là gì?,,lúc; khi; thời điểm,thường xuyên; thường,nửa ngày,phút,,,3,,半天 (bàntiān) có nghĩa là “nửa ngày”.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,9,tu_vung,376,tu_vung_nghia,chon_mot,doc,“晚上” có nghĩa là gì?,,ngay; lập tức,thường xuyên; thường,lần sau; lần tới,buổi tối; ban đêm,,,4,,晚上 (wǎnshang) có nghĩa là “buổi tối; ban đêm”.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,10,tu_vung,89,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “点” là gì?,,shíhou,diǎn,báitiān,chángcháng,,,2,,“点” được đọc là diǎn.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,11,chu_han,94,chu_han_nghia,chon_mot,doc,Chữ “白” có nghĩa là gì?,,trắng,muộn; trễ,ở; tại; đang,ngựa,,,1,,"“白” đọc là bái, có nghĩa là “trắng”.",1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,12,tu_vung,396,tu_vung_dung_sai,dung_sai,doc,“下午” có nghĩa là “lần sau; lần tới”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 下午 (xiàwǔ) có nghĩa là “buổi chiều”, không phải “lần sau; lần tới”.",1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,13,tu_vung,398,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “trước; trước tiên”?,,小时,半天,中午,先,,,4,,先 (xiān) có nghĩa là “trước; trước tiên”.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,14,tu_vung,122,tu_vung_nghia,chon_mot,doc,“分” có nghĩa là gì?,,giờ; tiếng đồng hồ,sớm,đôi khi; thỉnh thoảng,phút,,,4,,分 (fēn) có nghĩa là “phút”.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,15,tu_vung,494,tu_vung_dung_sai,dung_sai,doc,“最后” có nghĩa là “cuối cùng; sau cùng”.,,,,,,,,,"{""answer"": ""dung""}",最后 (zuìhòu) có nghĩa là “cuối cùng; sau cùng”.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,16,tu_vung,480,tu_vung_nghia,chon_mot,doc,“中午” có nghĩa là gì?,,ngay; lập tức,lần sau; lần tới,một lát; một lúc,buổi trưa,,,4,,中午 (zhōngwǔ) có nghĩa là “buổi trưa”.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,17,chu_han,98,chu_han_nghia,chon_mot,doc,Chữ “马” có nghĩa là gì?,,thời gian; giờ; lúc,hiện; hiện tại; xuất hiện,biết; có thể,ngựa,,,4,,"“马” đọc là mǎ, có nghĩa là “ngựa”.",1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,18,tu_vung,336,tu_vung_nghia,chon_mot,doc,“时候” có nghĩa là gì?,,lúc; khi; thời điểm,muộn; trễ,cuối cùng; sau cùng,buổi trưa,,,1,,时候 (shíhou) có nghĩa là “lúc; khi; thời điểm”.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,19,tu_vung,374,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “muộn; trễ”?,,晚,白天,点,先,,,1,,晚 (wǎn) có nghĩa là “muộn; trễ”.,1
+1,6,6,现在几点？ - Bây giờ mấy giờ?,20,tu_vung,400,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “现在” là gì?,,zuìhòu,wǎn,xiànzài,shàng cì,,,3,,“现在” được đọc là xiànzài.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,1,chu_han,114,chu_han_nghia,chon_mot,doc,Chữ “放” có nghĩa là gì?,,mời; xin; vui lòng,to; lớn,nghỉ; kỳ nghỉ (trong 放假),đặt; để; thả,,,4,,"“放” đọc là fàng, có nghĩa là “đặt; để; thả”.",1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,2,chu_han,121,chu_han_nghia,chon_mot,doc,Chữ “师” có nghĩa là gì?,,nghỉ; kỳ nghỉ (trong 放假),thật; quả thật,thầy; giáo viên; chuyên gia,cùng; giống; như nhau,,,3,,"“师” đọc là shī, có nghĩa là “thầy; giáo viên; chuyên gia”.",1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,3,ngu_phap,24,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""在"", ""学校学习""]}",Câu đúng là: 我在学校学习。,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,4,tu_vung,421,tu_vung_nghia,chon_mot,doc,“学习” có nghĩa là gì?,,dạy,học; học tập,học; lên lớp; vào học,lớp; lớp học,,,2,,学习 (xuéxí) có nghĩa là “học; học tập”.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,5,tu_vung,327,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “đi học”?,,小学生,大学生,学院,上学,,,4,,上学 (shàngxué) có nghĩa là “đi học”.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,6,ngu_phap,24,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+在 có thể dùng trước địa điểm để nói nơi xảy ra hành động.",,"在 - ở, tại",Trạng ngữ,Câu vị ngữ động từ,Câu trần thuật,,,1,,"Cấu trúc đúng là “在 - ở, tại”. Mẫu thường gặp: Chủ ngữ + 在 + địa điểm + động từ.",1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,7,ngu_phap,27,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Câu trần thuật dùng để trình bày hoặc thông báo một sự việc.",,Trạng ngữ,Câu vị ngữ động từ,"在 - ở, tại",Câu trần thuật,,,4,,Cấu trúc đúng là “Câu trần thuật”. Ngữ điệu thường tương đối ổn định; cuối câu thường dùng dấu chấm khi viết.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,8,ngu_phap,25,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Trạng ngữ bổ sung thông tin về thời gian, nơi chốn, cách thức, mức độ hoặc phạm vi cho vị ngữ.",,Trạng ngữ,Câu trần thuật,Câu vị ngữ động từ,"在 - ở, tại",,,1,,Cấu trúc đúng là “Trạng ngữ”. Trạng ngữ thường đứng trước động từ hoặc tính từ làm vị ngữ.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,9,tu_vung,419,tu_vung_nghia,chon_mot,doc,“学” có nghĩa là gì?,,sinh viên đại học,học,học viện; trường; khoa,nghỉ; nghỉ học; nghỉ lễ,,,2,,学 (xué) có nghĩa là “học”.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,10,tu_vung,118,tu_vung_nghia,chon_mot,doc,“放学” có nghĩa là gì?,,học; lên lớp; vào học,học,tan học,bài học; tiết học; môn học,,,3,,放学 (fàngxué) có nghĩa là “tan học”.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,11,tu_vung,206,tu_vung_nghia,chon_mot,doc,“考试” có nghĩa là gì?,,trường trung học,trường học,học sinh trung học,kỳ thi; thi; kiểm tra,,,4,,考试 (kǎoshì) có nghĩa là “kỳ thi; thi; kiểm tra”.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,12,tu_vung,423,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “学院” là gì?,,shàngxué,bān,xuéyuàn,xuéxiào,,,3,,“学院” được đọc là xuéyuàn.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,13,tu_vung,186,tu_vung_dung_sai,dung_sai,doc,“教学楼” có nghĩa là “tòa nhà giảng dạy; giảng đường”.,,,,,,,,,"{""answer"": ""dung""}",教学楼 (jiàoxuélóu) có nghĩa là “tòa nhà giảng dạy; giảng đường”.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,14,tu_vung,185,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “dạy”?,,老师,认真,请假,教,,,4,,教 (jiāo) có nghĩa là “dạy”.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,15,tu_vung,205,tu_vung_dung_sai,dung_sai,doc,“考” có nghĩa là “học sinh trung học”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 考 (kǎo) có nghĩa là “thi; kiểm tra”, không phải “học sinh trung học”.",1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,16,tu_vung,475,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “知识” là gì?,,xuéxí,zhīshi,xué,shàngxué,,,2,,“知识” được đọc là zhīshi.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,17,tu_vung,186,tu_vung_nghia,chon_mot,doc,“教学楼” có nghĩa là gì?,,tòa nhà giảng dạy; giảng đường,học; lên lớp; vào học,sinh viên đại học,giáo viên; thầy giáo; cô giáo,,,1,,教学楼 (jiàoxuélóu) có nghĩa là “tòa nhà giảng dạy; giảng đường”.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,18,tu_vung,481,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “trường trung học”?,,放学,请假,下课,中学,,,4,,中学 (zhōngxué) có nghĩa là “trường trung học”.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,19,tu_vung,302,tu_vung_nghia,chon_mot,doc,“请假” có nghĩa là gì?,,trường tiểu học,xin nghỉ,kiến thức,bạn học; bạn cùng lớp,,,2,,请假 (qǐngjià) có nghĩa là “xin nghỉ”.,1
+1,7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,20,tu_vung,481,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “中学” là gì?,,xiǎoxué,kè,zhōngxué,xuéxiào,,,3,,“中学” được đọc là zhōngxué.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,1,tu_vung,210,tu_vung_nghia,chon_mot,doc,“课文” có nghĩa là gì?,,đóng; tắt,quên,viết chính tả; bài chính tả,bài khóa; bài đọc,,,4,,课文 (kèwén) có nghĩa là “bài khóa; bài đọc”.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,2,chu_han,135,chu_han_nghia,chon_mot,doc,Chữ “关” có nghĩa là gì?,,trợ tố/cách đọc de trong 记得; nhớ,ở; sống; cư trú,đóng; tắt,ghi; nhớ; ghi nhớ,,,3,,"“关” đọc là guān, có nghĩa là “đóng; tắt”.",1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,3,tu_vung,366,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “viết chính tả; bài chính tả”?,,听写,字,试,读书,,,1,,听写 (tīngxiě) có nghĩa là “viết chính tả; bài chính tả”.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,4,tu_vung,381,tu_vung_nghia,chon_mot,doc,“问” có nghĩa là gì?,,nghe,bài khóa; bài đọc,hỏi,viết chính tả; bài chính tả,,,3,,问 (wèn) có nghĩa là “hỏi”.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,5,tu_vung,210,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “bài khóa; bài đọc”?,,子（桌子）,试,忘记,课文,,,4,,课文 (kèwén) có nghĩa là “bài khóa; bài đọc”.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,6,tu_vung,366,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “听写” là gì?,,dú,wàng,shì,tīngxiě,,,4,,“听写” được đọc là tīngxiě.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,7,tu_vung,178,tu_vung_dung_sai,dung_sai,doc,“记住” có nghĩa là “ghi nhớ; nhớ kỹ”.,,,,,,,,,"{""answer"": ""dung""}",记住 (jìzhù) có nghĩa là “ghi nhớ; nhớ kỹ”.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,8,tu_vung,489,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “子（桌子）” là gì?,,guānshang,tīng,shūbāo,zi (zhuōzi),,,4,,“子（桌子）” được đọc là zi (zhuōzi).,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,9,tu_vung,103,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “đọc; đọc thành tiếng”?,,读,听,读书,子（桌子）,,,1,,读 (dú) có nghĩa là “đọc; đọc thành tiếng”.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,10,tu_vung,177,tu_vung_nghia,chon_mot,doc,“记得” có nghĩa là gì?,,viết,ghi nhớ; nhớ kỹ,viết chính tả; bài chính tả,nhớ,,,4,,记得 (jìde) có nghĩa là “nhớ”.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,11,ngu_phap,29,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""不"", ""喝咖啡""]}",Câu đúng là: 我不喝咖啡。,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,12,chu_han,148,chu_han_nghia,chon_mot,doc,Chữ “页” có nghĩa là gì?,,mở; bật,đọc; đọc thành tiếng,ghi; nhớ; ghi nhớ,trang,,,4,,"“页” đọc là yè, có nghĩa là “trang”.",1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,13,tu_vung,165,tu_vung_dung_sai,dung_sai,doc,“回答” có nghĩa là “hậu tố danh từ”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 回答 (huídá) có nghĩa là “trả lời; câu trả lời”, không phải “hậu tố danh từ”.",1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,14,tu_vung,489,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “hậu tố danh từ”?,,记,听写,子（桌子）,忘记,,,3,,子（桌子） (zi (zhuōzi)) có nghĩa là “hậu tố danh từ”.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,15,tu_vung,379,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “忘” là gì?,,jìzhù,wàng,jì,xiě,,,2,,“忘” được đọc là wàng.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,16,tu_vung,380,tu_vung_nghia,chon_mot,doc,“忘记” có nghĩa là gì?,,quên,thử,cặp sách; ba lô đi học,hỏi,,,1,,忘记 (wàngjì) có nghĩa là “quên”.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,17,tu_vung,72,tu_vung_nghia,chon_mot,doc,“打开” có nghĩa là gì?,,đóng; tắt,mở; bật,nói; nói chuyện,nói,,,2,,打开 (dǎkāi) có nghĩa là “mở; bật”.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,18,tu_vung,426,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “页” là gì?,,yè,jìde,kèběn,wàngjì,,,1,,“页” được đọc là yè.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,19,tu_vung,488,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “chữ; ký tự”?,,字,书包,写,打开,,,1,,字 (zì) có nghĩa là “chữ; ký tự”.,1
+1,8,8,请打开课本 - Mời mở sách giáo khoa,20,tu_vung,351,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “nói”?,,说,听,课本,说话,,,1,,说 (shuō) có nghĩa là “nói”.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,1,chu_han,160,chu_han_nghia,chon_mot,doc,Chữ “来” có nghĩa là gì?,,đến; tới,dậy; đứng lên; bắt đầu,ngủ (cách đọc jiào trong 睡觉),giường,,,1,,"“来” đọc là lái, có nghĩa là “đến; tới”.",1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,2,tu_vung,350,tu_vung_nghia,chon_mot,doc,“睡觉” có nghĩa là gì?,,ngủ; đi ngủ,nghỉ; nghỉ ngơi,làm; làm việc,động; di chuyển; cử động,,,1,,睡觉 (shuìjiào) có nghĩa là “ngủ; đi ngủ”.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,3,chu_han,151,chu_han_nghia,chon_mot,doc,Chữ “等” có nghĩa là gì?,,làm,mặc; đi; mang,đến; tới,đợi; chờ,,,4,,"“等” đọc là děng, có nghĩa là “đợi; chờ”.",1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,4,chu_han,153,chu_han_nghia,chon_mot,doc,Chữ “作” có nghĩa là gì?,,bận,nghỉ; hơi thở; ngừng,dậy; đứng lên; bắt đầu,làm; thực hiện; sáng tác,,,4,,"“作” đọc là zuò, có nghĩa là “làm; thực hiện; sáng tác”.",1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,5,tu_vung,199,tu_vung_nghia,chon_mot,doc,“开会” có nghĩa là gì?,,dậy; đứng lên; bắt đầu,họp; họp hành,đi làm; vào làm,làm việc; công việc,,,2,,开会 (kāihuì) có nghĩa là “họp; họp hành”.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,6,tu_vung,292,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “dậy; đứng lên; bắt đầu”?,,穿,工作,动作,起,,,4,,起 (qǐ) có nghĩa là “dậy; đứng lên; bắt đầu”.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,7,tu_vung,387,tu_vung_nghia,chon_mot,doc,“洗” có nghĩa là gì?,,rửa; giặt; tắm,dậy; đứng lên; bắt đầu,tan làm; tan ca,động; di chuyển; cử động,,,1,,洗 (xǐ) có nghĩa là “rửa; giặt; tắm”.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,8,tu_vung,100,tu_vung_nghia,chon_mot,doc,“动” có nghĩa là gì?,,ngủ; đi ngủ,động; di chuyển; cử động,thức dậy; ra khỏi giường,ở nhà,,,2,,动 (dòng) có nghĩa là “động; di chuyển; cử động”.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,9,tu_vung,456,tu_vung_nghia,chon_mot,doc,“在家” có nghĩa là gì?,,tan làm; tan ca,mặc; đi; mang,ở nhà,làm; làm việc,,,3,,在家 (zàijiā) có nghĩa là “ở nhà”.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,10,tu_vung,220,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “累” là gì?,,shuìjiào,zuò,gàn,lèi,,,4,,“累” được đọc là lèi.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,11,chu_han,158,chu_han_nghia,chon_mot,doc,Chữ “起” có nghĩa là gì?,,dậy; đứng lên; bắt đầu,động; di chuyển; cử động,nghỉ; hơi thở; ngừng,bận,,,1,,"“起” đọc là qǐ, có nghĩa là “dậy; đứng lên; bắt đầu”.",1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,12,tu_vung,293,tu_vung_nghia,chon_mot,doc,“起床” có nghĩa là gì?,,thức dậy; ra khỏi giường,đứng dậy; thức dậy; lên,dậy; đứng lên; bắt đầu,bận,,,1,,起床 (qǐchuáng) có nghĩa là “thức dậy; ra khỏi giường”.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,13,tu_vung,126,tu_vung_nghia,chon_mot,doc,“干” có nghĩa là gì?,,làm; làm việc,đứng dậy; thức dậy; lên,làm việc; công việc,ngủ; đi ngủ,,,1,,干 (gàn) có nghĩa là “làm; làm việc”.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,14,tu_vung,238,tu_vung_nghia,chon_mot,doc,“忙” có nghĩa là gì?,,ngủ; đi ngủ,bận,đứng dậy; thức dậy; lên,làm,,,2,,忙 (máng) có nghĩa là “bận”.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,15,ngu_phap,31,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""常"", ""常看电影""]}",Câu đúng là: 我常常看电影。,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,16,tu_vung,167,tu_vung_dung_sai,dung_sai,doc,“回家” có nghĩa là “ngủ; đi ngủ”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 回家 (huí jiā) có nghĩa là “về nhà”, không phải “ngủ; đi ngủ”.",1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,17,tu_vung,238,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “忙” là gì?,,lèi,máng,chuān,shuìjiào,,,2,,“忙” được đọc là máng.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,18,tu_vung,81,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “等” là gì?,,gàn,děng,qǐlái,dòngzuò,,,2,,“等” được đọc là děng.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,19,tu_vung,418,tu_vung_dung_sai,dung_sai,doc,“休息” có nghĩa là “nghỉ; nghỉ ngơi”.,,,,,,,,,"{""answer"": ""dung""}",休息 (xiūxi) có nghĩa là “nghỉ; nghỉ ngơi”.,1
+1,9,9,我每天上班 - Tôi đi làm mỗi ngày,20,tu_vung,320,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “đi làm; vào làm”?,,在家,累,洗,上班,,,4,,上班 (shàngbān) có nghĩa là “đi làm; vào làm”.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,1,tu_vung,59,tu_vung_nghia,chon_mot,doc,“吃” có nghĩa là gì?,,bữa tối; cơm tối,ăn,thịt,đói,,,2,,吃 (chī) có nghĩa là “ăn”.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,2,tu_vung,207,tu_vung_nghia,chon_mot,doc,“渴” có nghĩa là gì?,,thịt,bữa sáng,uống,khát,,,4,,渴 (kě) có nghĩa là “khát”.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,3,ngu_phap,34,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+想 và 要 có thể dùng để diễn tả mong muốn. 想 thường mang sắc thái muốn hoặc dự định; 要 có thể biểu thị nhu cầu hay ý định rõ hơn.",,Tân ngữ,Câu nghi vấn,想 / 要 - biểu thị mong muốn,Dùng 还是 để hỏi lựa chọn,,,3,,Cấu trúc đúng là “想 / 要 - biểu thị mong muốn”. Mẫu cơ bản: Chủ ngữ + 想/要 + động từ hoặc danh từ.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,4,tu_vung,384,tu_vung_nghia,chon_mot,doc,“午饭” có nghĩa là gì?,,bữa sáng,rau; món ăn,ăn cơm; dùng bữa,bữa trưa; cơm trưa,,,4,,午饭 (wǔfàn) có nghĩa là “bữa trưa; cơm trưa”.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,5,tu_vung,458,tu_vung_dung_sai,dung_sai,doc,“早饭” có nghĩa là “cốc; ly”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 早饭 (zǎofàn) có nghĩa là “bữa sáng”, không phải “cốc; ly”.",1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,6,tu_vung,280,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “牛奶” là gì?,,bēizi,hē,chá,niúnǎi,,,4,,“牛奶” được đọc là niúnǎi.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,7,ngu_phap,36,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Câu nghi vấn dùng để yêu cầu người nghe cung cấp hoặc xác nhận thông tin.",,Tân ngữ,想 / 要 - biểu thị mong muốn,Câu nghi vấn,Dùng 还是 để hỏi lựa chọn,,,3,,"Cấu trúc đúng là “Câu nghi vấn”. Có thể tạo câu hỏi bằng 吗, đại từ nghi vấn, 还是 hoặc dạng chính - phản.",1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,8,tu_vung,29,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “bánh bao”?,,杯子,饭店,包子,茶,,,3,,包子 (bāozi) có nghĩa là “bánh bao”.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,9,tu_vung,59,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “吃” là gì?,,niúnǎi,chīfàn,fàn,chī,,,4,,“吃” được đọc là chī.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,10,chu_han,180,chu_han_nghia,chon_mot,doc,Chữ “牛” có nghĩa là gì?,,thịt,mặt; bề mặt; bột/mì,bò,nước,,,3,,"“牛” đọc là niú, có nghĩa là “bò”.",1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,11,tu_vung,347,tu_vung_nghia,chon_mot,doc,“水” có nghĩa là gì?,,thịt,nước,cốc; ly,rau; món ăn,,,2,,水 (shuǐ) có nghĩa là “nước”.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,12,tu_vung,48,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “菜” là gì?,,fàn,shuǐ,chī,cài,,,4,,“菜” được đọc là cài.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,13,tu_vung,251,tu_vung_dung_sai,dung_sai,doc,“面包” có nghĩa là “bánh mì”.,,,,,,,,,"{""answer"": ""dung""}",面包 (miànbāo) có nghĩa là “bánh mì”.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,14,chu_han,174,chu_han_nghia,chon_mot,doc,Chữ “鸡” có nghĩa là gì?,,trà,gà,khát,mặt; bề mặt; bột/mì,,,2,,"“鸡” đọc là jī, có nghĩa là “gà”.",1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,15,tu_vung,60,tu_vung_nghia,chon_mot,doc,“吃饭” có nghĩa là gì?,,trái cây; hoa quả,thịt,cơm; bữa ăn,ăn cơm; dùng bữa,,,4,,吃饭 (chīfàn) có nghĩa là “ăn cơm; dùng bữa”.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,16,tu_vung,174,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “鸡蛋” là gì?,,jīdàn,bāozi,è,bēizi,,,1,,“鸡蛋” được đọc là jīdàn.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,17,ngu_phap,35,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+还是 được dùng trong câu hỏi khi người nói đưa ra hai hoặc nhiều lựa chọn.",,Dùng 还是 để hỏi lựa chọn,想 / 要 - biểu thị mong muốn,Câu nghi vấn,Tân ngữ,,,1,,Cấu trúc đúng là “Dùng 还是 để hỏi lựa chọn”. Mẫu thường gặp: A + 还是 + B？,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,18,tu_vung,314,tu_vung_nghia,chon_mot,doc,“肉” có nghĩa là gì?,,bữa trưa; cơm trưa,bánh bao,mì; mì sợi,thịt,,,4,,肉 (ròu) có nghĩa là “thịt”.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,19,tu_vung,113,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “nhà hàng”?,,米饭,好吃,吃,饭店,,,4,,饭店 (fàndiàn) có nghĩa là “nhà hàng”.,1
+1,10,10,你喜欢吃什么？ - Bạn thích ăn gì?,20,ngu_phap,34,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""想"", ""喝水""]}",Câu đúng là: 我想喝水。,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,1,tu_vung,442,tu_vung_dung_sai,dung_sai,doc,“有的” có nghĩa là “một số; có cái; có người”.,,,,,,,,,"{""answer"": ""dung""}",有的 (yǒude) có nghĩa là “một số; có cái; có người”.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,2,tu_vung,139,tu_vung_dung_sai,dung_sai,doc,“贵” có nghĩa là “quần áo”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 贵 (guì) có nghĩa là “đắt”, không phải “quần áo”.",1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,3,tu_vung,428,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “衣服” là gì?,,guì,shāngdiàn,yīfu,nàxiē,,,3,,“衣服” được đọc là yīfu.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,4,chu_han,187,chu_han_nghia,chon_mot,doc,Chữ “西” có nghĩa là gì?,,nơi; sân; địa điểm; lượng từ cho buổi/trận,quần áo; y phục,tây; phía tây,đó; cái đó,,,3,,"“西” đọc là xī, có nghĩa là “tây; phía tây”.",1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,5,tu_vung,99,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “đồ vật; đồ; thứ”?,,东西,商场,有的,别的,,,1,,东西 (dōngxi) có nghĩa là “đồ vật; đồ; thứ”.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,6,ngu_phap,38,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Trong tiếng Trung, giữa số từ hoặc từ chỉ định và danh từ thường có lượng từ.",,想 / 要 - biểu thị mong muốn,Trợ từ động thái 了,Lượng từ danh từ,Cách biểu đạt số tiền,,,3,,Cấu trúc đúng là “Lượng từ danh từ”. Mẫu thường gặp: số từ + lượng từ + danh từ; hoặc 这/那 + lượng từ + danh từ.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,7,tu_vung,464,tu_vung_nghia,chon_mot,doc,“这” có nghĩa là gì?,,nào; cái nào,một số; có cái; có người,những cái đó,này; cái này,,,4,,这 (zhè) có nghĩa là “này; cái này”.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,8,ngu_phap,41,ngu_phap_dien_tu,dien_tu,doc,"Điền từ thích hợp vào chỗ trống:
+我买___三本书。",,,,,,,,,"{""answers"": [""了""]}",Câu đầy đủ là: 我买了三本书。 Cấu trúc: Trợ từ động thái 了.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,9,chu_han,196,chu_han_nghia,chon_mot,doc,Chữ “衣” có nghĩa là gì?,,đó; cái đó,một số; một vài; vài,quần áo; y phục,tệ; đồng nhân dân tệ,,,3,,"“衣” đọc là yī, có nghĩa là “quần áo; y phục”.",1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,10,ngu_phap,39,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Số tiền trong tiếng Trung thường được biểu đạt bằng số từ kết hợp với đơn vị tiền như 元 hoặc 块.",,想 / 要 - biểu thị mong muốn,Cách biểu đạt số tiền,Lượng từ danh từ,Trợ từ động thái 了,,,2,,"Cấu trúc đúng là “Cách biểu đạt số tiền”. Mẫu cơ bản: số + đơn vị tiền. Trong giao tiếp hằng ngày, 块 thường được dùng thay 元.",1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,11,tu_vung,39,tu_vung_nghia,chon_mot,doc,“别的” có nghĩa là gì?,,này; cái này,khác; cái khác,tiền,nhà sách; cửa hàng sách,,,2,,别的 (biéde) có nghĩa là “khác; cái khác”.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,12,tu_vung,317,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “商场” là gì?,,zhèxiē,shāngchǎng,yǒu(yī)xiē,nǎ,,,2,,“商场” được đọc là shāngchǎng.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,13,tu_vung,450,tu_vung_nghia,chon_mot,doc,“元” có nghĩa là gì?,,ví; ví tiền,nào; cái nào,cửa hàng; tiệm,tệ; đồng nhân dân tệ,,,4,,元 (yuán) có nghĩa là “tệ; đồng nhân dân tệ”.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,14,ngu_phap,40,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+想 và 要 có thể dùng để diễn tả mong muốn. 想 thường mang sắc thái muốn hoặc dự định; 要 có thể biểu thị nhu cầu hay ý định rõ hơn.",,Cách biểu đạt số tiền,Lượng từ danh từ,Trợ từ động thái 了,想 / 要 - biểu thị mong muốn,,,4,,Cấu trúc đúng là “想 / 要 - biểu thị mong muốn”. Mẫu cơ bản: Chủ ngữ + 想/要 + động từ hoặc danh từ.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,15,tu_vung,300,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “钱包” là gì?,,nǎxiē,qiánbāo,yīxiē,qián,,,2,,“钱包” được đọc là qiánbāo.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,16,ngu_phap,40,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""想"", ""喝水""]}",Câu đúng là: 我想喝水。,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,17,chu_han,194,chu_han_nghia,chon_mot,doc,Chữ “商” có nghĩa là gì?,,tệ; đồng nhân dân tệ,của; trợ từ nối định ngữ,nơi; sân; địa điểm; lượng từ cho buổi/trận,thương mại; buôn bán; thương nhân,,,4,,"“商” đọc là shāng, có nghĩa là “thương mại; buôn bán; thương nhân”.",1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,18,tu_vung,445,tu_vung_nghia,chon_mot,doc,“有（一）些” có nghĩa là gì?,,một chút; một ít; một số,túi; gói; bọc,một số; có cái; có người,cửa hàng; tiệm,,,1,,有（一）些 (yǒu(yī)xiē) có nghĩa là “một chút; một ít; một số”.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,19,tu_vung,437,tu_vung_nghia,chon_mot,doc,“一点儿” có nghĩa là gì?,,một chút; một ít,một số; có cái; có người,một chút; một ít; một số,những cái đó,,,1,,一点儿 (yīdiǎnr) có nghĩa là “một chút; một ít”.,1
+1,11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,20,tu_vung,28,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “túi; gói; bọc”?,,包,一些,哪,贵,,,1,,包 (bāo) có nghĩa là “túi; gói; bọc”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,1,chu_han,205,chu_han_nghia,chon_mot,doc,Chữ “口” có nghĩa là gì?,,trợ từ nối trạng ngữ với động từ,cửa; cổng,sạch; hoàn toàn,miệng,,,4,,"“口” đọc là kǒu, có nghĩa là “miệng”.",1
+1,12,12,我家在这里 - Nhà tôi ở đây,2,tu_vung,125,tu_vung_nghia,chon_mot,doc,“干净” có nghĩa là gì?,,phía dưới; bên dưới,tầng dưới; dưới lầu,sạch; sạch sẽ,trong; bên trong,,,3,,干净 (gānjìng) có nghĩa là “sạch; sạch sẽ”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,3,tu_vung,222,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “trong; bên trong”?,,洗手间,里,外边,外,,,2,,里 (lǐ) có nghĩa là “trong; bên trong”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,4,tu_vung,223,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “bên trong; phía trong”?,,里边,门口,楼上,住,,,1,,里边 (lǐbian) có nghĩa là “bên trong; phía trong”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,5,tu_vung,369,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “外” là gì?,,zhù,wài,ménkǒu,jiān,,,2,,“外” được đọc là wài.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,6,tu_vung,229,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “楼下” là gì?,,lóu xià,wàibian,lóu shàng,ménkǒu,,,1,,“楼下” được đọc là lóu xià.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,7,tu_vung,390,tu_vung_nghia,chon_mot,doc,“下” có nghĩa là gì?,,trên mặt đất; trên sàn,ở; sống; cư trú,dưới; xuống,sạch; sạch sẽ,,,3,,下 (xià) có nghĩa là “dưới; xuống”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,8,tu_vung,114,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “房间” là gì?,,wài,lóu,lǐbian,fángjiān,,,4,,“房间” được đọc là fángjiān.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,9,tu_vung,319,tu_vung_nghia,chon_mot,doc,“上” có nghĩa là gì?,,phòng; căn phòng,trong; bên trong,tầng dưới; dưới lầu,trên; lên,,,4,,上 (shàng) có nghĩa là “trên; lên”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,10,tu_vung,85,tu_vung_dung_sai,dung_sai,doc,“地上” có nghĩa là “cửa; cổng”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 地上 (dìshang) có nghĩa là “trên mặt đất; trên sàn”, không phải “cửa; cổng”.",1
+1,12,12,我家在这里 - Nhà tôi ở đây,11,tu_vung,246,tu_vung_nghia,chon_mot,doc,“门” có nghĩa là gì?,,cửa; cổng,tòa nhà; tầng,phía trên; bên trên,ngoài; bên ngoài,,,1,,门 (mén) có nghĩa là “cửa; cổng”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,12,tu_vung,392,tu_vung_nghia,chon_mot,doc,“下边” có nghĩa là gì?,,phía dưới; bên dưới,trong; bên trong,phía trên; bên trên,bên ngoài; phía ngoài,,,1,,下边 (xiàbian) có nghĩa là “phía dưới; bên dưới”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,13,ngu_phap,43,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""在"", ""学校学习""]}",Câu đúng là: 我在学校学习。,1
+1,12,12,我家在这里 - Nhà tôi ở đây,14,tu_vung,388,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “nhà vệ sinh; phòng vệ sinh”?,,楼,门,楼下,洗手间,,,4,,洗手间 (xǐshǒujiān) có nghĩa là “nhà vệ sinh; phòng vệ sinh”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,15,chu_han,204,chu_han_nghia,chon_mot,doc,Chữ “门” có nghĩa là gì?,,sạch; hoàn toàn,miệng,bên; cạnh; rìa,cửa; cổng,,,4,,"“门” đọc là mén, có nghĩa là “cửa; cổng”.",1
+1,12,12,我家在这里 - Nhà tôi ở đây,16,tu_vung,85,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “trên mặt đất; trên sàn”?,,住,上边,下边,地上,,,4,,地上 (dìshang) có nghĩa là “trên mặt đất; trên sàn”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,17,tu_vung,487,tu_vung_nghia,chon_mot,doc,“桌子” có nghĩa là gì?,,bàn,phía dưới; bên dưới,tầng dưới; dưới lầu,tầng trên; trên lầu,,,1,,桌子 (zhuōzi) có nghĩa là “bàn”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,18,tu_vung,247,tu_vung_nghia,chon_mot,doc,“门口” có nghĩa là gì?,,trên; lên,gian; phòng,trên mặt đất; trên sàn,cửa ra vào; trước cửa,,,4,,门口 (ménkǒu) có nghĩa là “cửa ra vào; trước cửa”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,19,tu_vung,487,tu_vung_dung_sai,dung_sai,doc,“桌子” có nghĩa là “bàn”.,,,,,,,,,"{""answer"": ""dung""}",桌子 (zhuōzi) có nghĩa là “bàn”.,1
+1,12,12,我家在这里 - Nhà tôi ở đây,20,chu_han,200,chu_han_nghia,chon_mot,doc,Chữ “地” có nghĩa là gì?,,cửa; cổng,miệng,trợ từ nối trạng ngữ với động từ,tay; bàn tay,,,3,,"“地” đọc là de, có nghĩa là “trợ từ nối trạng ngữ với động từ”.",1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,1,tu_vung,98,tu_vung_nghia,chon_mot,doc,“东边” có nghĩa là gì?,,trái; bên trái,phía đông; bên phía đông,ở đây; nơi này,bắc; phía bắc,,,2,,东边 (dōngbian) có nghĩa là “phía đông; bên phía đông”.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,2,tu_vung,33,tu_vung_nghia,chon_mot,doc,“北边” có nghĩa là gì?,,phía bắc; bên phía bắc,phía trước; đằng trước,trước; phía trước,đông; phía đông,,,1,,北边 (běibian) có nghĩa là “phía bắc; bên phía bắc”.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,3,ngu_phap,48,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Trạng ngữ bổ sung thông tin về thời gian, nơi chốn, cách thức, mức độ hoặc phạm vi cho vị ngữ.",,Trạng ngữ,的 / 地 - trợ từ kết cấu,Từ chỉ phương vị,"在 - ở, tại",,,1,,Cấu trúc đúng là “Trạng ngữ”. Trạng ngữ thường đứng trước động từ hoặc tính từ làm vị ngữ.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,4,tu_vung,158,tu_vung_nghia,chon_mot,doc,“后边” có nghĩa là gì?,,phía bắc; bên phía bắc,địa điểm; nơi; chỗ,phía sau; đằng sau,ở đây,,,3,,后边 (hòubian) có nghĩa là “phía sau; đằng sau”.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,5,tu_vung,436,tu_vung_dung_sai,dung_sai,doc,“一边” có nghĩa là “bắc; phía bắc”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 一边 (yībiān) có nghĩa là “một bên; một phía”, không phải “bắc; phía bắc”.",1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,6,tu_vung,82,tu_vung_nghia,chon_mot,doc,“地” có nghĩa là gì?,,đông; phía đông,nơi; chỗ; địa phương,đất; mặt đất,ở đó; nơi đó,,,3,,地 (dì) có nghĩa là “đất; mặt đất”.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,7,tu_vung,84,tu_vung_nghia,chon_mot,doc,“地方” có nghĩa là gì?,,đông; phía đông,phía đông; bên phía đông,nơi; chỗ; địa phương,trong; giữa; ở giữa,,,3,,地方 (dìfang) có nghĩa là “nơi; chỗ; địa phương”.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,8,ngu_phap,47,ngu_phap_dien_tu,dien_tu,doc,"Điền từ thích hợp vào chỗ trống:
+这是我___书。他认真地学习汉语。",,,,,,,,,"{""answers"": [""的""]}",Câu đầy đủ là: 这是我的书。他认真地学习汉语。 Cấu trúc: 的 / 地 - trợ từ kết cấu.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,9,tu_vung,263,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “ở đó; nơi đó”?,,东,后,那里,这里,,,3,,那里 (nàlǐ) có nghĩa là “ở đó; nơi đó”.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,10,chu_han,208,chu_han_nghia,chon_mot,doc,Chữ “方” có nghĩa là gì?,,phương; hướng; phía; nơi; cách,trái; bên trái,bắc; phía bắc,bên; bên cạnh,,,1,,"“方” đọc là fāng, có nghĩa là “phương; hướng; phía; nơi; cách”.",1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,11,tu_vung,287,tu_vung_dung_sai,dung_sai,doc,“旁边” có nghĩa là “bên cạnh; cạnh bên”.,,,,,,,,,"{""answer"": ""dung""}",旁边 (pángbiān) có nghĩa là “bên cạnh; cạnh bên”.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,12,ngu_phap,46,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""在"", ""学校学习""]}",Câu đúng là: 我在学校学习。,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,13,ngu_phap,46,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+在 có thể dùng trước địa điểm để nói nơi xảy ra hành động.",,Trạng ngữ,Từ chỉ phương vị,的 / 地 - trợ từ kết cấu,"在 - ở, tại",,,4,,"Cấu trúc đúng là “在 - ở, tại”. Mẫu thường gặp: Chủ ngữ + 在 + địa điểm + động từ.",1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,14,tu_vung,496,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “trái; bên trái”?,,左,地,右,这边,,,1,,左 (zuǒ) có nghĩa là “trái; bên trái”.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,15,tu_vung,33,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “北边” là gì?,,zhōngjiān,hòu,dì,běibian,,,4,,“北边” được đọc là běibian.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,16,chu_han,211,chu_han_nghia,chon_mot,doc,Chữ “正” có nghĩa là gì?,,chính; đúng; ngay,bắc; phía bắc,phải; bên phải,trái; bên trái,,,1,,"“正” đọc là zhèng, có nghĩa là “chính; đúng; ngay”.",1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,17,tu_vung,97,tu_vung_nghia,chon_mot,doc,“东” có nghĩa là gì?,,phía nam; bên phía nam,sau; phía sau,một bên; một phía,đông; phía đông,,,4,,东 (dōng) có nghĩa là “đông; phía đông”.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,18,tu_vung,497,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “左边” là gì?,,zuǒbian,dìfang,dōng,dōngbian,,,1,,“左边” được đọc là zuǒbian.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,19,ngu_phap,45,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Từ chỉ phương vị dùng để diễn tả vị trí hoặc phương hướng của người và sự vật, ví dụ như 上, 下, 前边, 后边, 左边, 右边.",,"在 - ở, tại",的 / 地 - trợ từ kết cấu,Từ chỉ phương vị,Trạng ngữ,,,3,,Cấu trúc đúng là “Từ chỉ phương vị”. Có thể dùng sau danh từ hoặc kết hợp với 在 để nói vị trí. Mẫu thường gặp: A + 在 + từ chỉ phương vị; hoặc A + 的 + từ chỉ phương vị.,1
+1,13,13,桌子在左边 - Cái bàn ở bên trái,20,tu_vung,386,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “西边” là gì?,,dì,xībian,yòu,zhèlǐ,,,2,,“西边” được đọc là xībian.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",1,tu_vung,232,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “trên đường; đang trên đường”?,,汽车,路上,请问,车,,,2,,路上 (lùshang) có nghĩa là “trên đường; đang trên đường”.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",2,tu_vung,491,tu_vung_dung_sai,dung_sai,doc,“走路” có nghĩa là “đi bộ”.,,,,,,,,,"{""answer"": ""dung""}",走路 (zǒulù) có nghĩa là “đi bộ”.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",3,tu_vung,288,tu_vung_dung_sai,dung_sai,doc,“跑” có nghĩa là “xe; phương tiện”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 跑 (pǎo) có nghĩa là “chạy”, không phải “xe; phương tiện”.",1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",4,tu_vung,234,tu_vung_nghia,chon_mot,doc,“马路” có nghĩa là gì?,,nhà ga; bến xe; trạm xe,đường; tuyến đường,đường phố; đường,từ,,,3,,马路 (mǎlù) có nghĩa là “đường phố; đường”.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",5,tu_vung,67,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “từ”?,,从,车上,下车,车,,,1,,从 (cóng) có nghĩa là “từ”.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",6,tu_vung,304,tu_vung_nghia,chon_mot,doc,“请问” có nghĩa là gì?,,từ,xe; phương tiện,cho hỏi; xin hỏi,đi; đi bộ; rời đi,,,3,,请问 (qǐngwèn) có nghĩa là “cho hỏi; xin hỏi”.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",7,ngu_phap,49,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+介词 从 dùng để chỉ điểm bắt đầu về địa điểm hoặc thời gian.",,从 - từ...,Câu nghi vấn,Dùng đại từ nghi vấn để đặt câu hỏi,Từ chỉ phương vị,,,1,,Cấu trúc đúng là “从 - từ...”. Mẫu thường gặp: Chủ ngữ + 从 + địa điểm/thời gian + động từ.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",8,tu_vung,461,tu_vung_nghia,chon_mot,doc,“站” có nghĩa là gì?,,ở đâu; nơi nào,nhà ga; bến xe; trạm xe,đi; đi bộ; rời đi,trạm; ga; đứng,,,4,,站 (zhàn) có nghĩa là “trạm; ga; đứng”.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",9,tu_vung,198,tu_vung_nghia,chon_mot,doc,“开车” có nghĩa là gì?,,lái xe,từ,xa,bắt taxi; đi taxi,,,1,,开车 (kāichē) có nghĩa là “lái xe”.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",10,tu_vung,393,tu_vung_nghia,chon_mot,doc,“下车” có nghĩa là gì?,,trên xe; ở trên xe,đi; đi bộ; rời đi,xuống xe,lên xe,,,3,,下车 (xià chē) có nghĩa là “xuống xe”.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",11,chu_han,214,chu_han_nghia,chon_mot,doc,Chữ “站” có nghĩa là gì?,,xa,trạm; ga; đứng,đi; đi bộ; rời đi,xe; phương tiện,,,2,,"“站” đọc là zhàn, có nghĩa là “trạm; ga; đứng”.",1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",12,ngu_phap,52,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Các đại từ nghi vấn như 谁, 什么, 哪儿, 几, 多少, 怎么 được đặt vào vị trí thông tin mà người nói muốn hỏi.",,从 - từ...,Dùng đại từ nghi vấn để đặt câu hỏi,Câu nghi vấn,Từ chỉ phương vị,,,2,,Cấu trúc đúng là “Dùng đại từ nghi vấn để đặt câu hỏi”. Giữ cấu trúc câu cơ bản và thay phần chưa biết bằng đại từ nghi vấn phù hợp.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",13,chu_han,220,chu_han_nghia,chon_mot,doc,Chữ “走” có nghĩa là gì?,,xa,trạm; ga; đứng,đường; tuyến đường,đi; đi bộ; rời đi,,,4,,"“走” đọc là zǒu, có nghĩa là “đi; đi bộ; rời đi”.",1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",14,tu_vung,490,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “走” là gì?,,chē shang,qǐngwèn,zǒu,chē,,,3,,“走” được đọc là zǒu.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",15,ngu_phap,50,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Từ chỉ phương vị dùng để diễn tả vị trí hoặc phương hướng của người và sự vật, ví dụ như 上, 下, 前边, 后边, 左边, 右边.",,从 - từ...,Từ chỉ phương vị,Câu nghi vấn,Dùng đại từ nghi vấn để đặt câu hỏi,,,2,,Cấu trúc đúng là “Từ chỉ phương vị”. Có thể dùng sau danh từ hoặc kết hợp với 在 để nói vị trí. Mẫu thường gặp: A + 在 + từ chỉ phương vị; hoặc A + 的 + từ chỉ phương vị.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",16,tu_vung,58,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “车站” là gì?,,lùkǒu,chēzhàn,zhàn,shàng chē,,,2,,“车站” được đọc là chēzhàn.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",17,ngu_phap,49,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""从"", ""学校回家""]}",Câu đúng là: 我从学校回家。,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",18,tu_vung,70,tu_vung_nghia,chon_mot,doc,“打车” có nghĩa là gì?,,đi bộ,bắt taxi; đi taxi,cho hỏi; xin hỏi,nhà ga; bến xe; trạm xe,,,2,,打车 (dǎchē) có nghĩa là “bắt taxi; đi taxi”.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",19,tu_vung,451,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “远” là gì?,,dìtú,chēzhàn,yuǎn,zhàn,,,3,,“远” được đọc là yuǎn.,1
+1,14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",20,tu_vung,259,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “哪儿” là gì?,,nǎlǐ,yuǎn,chē shang,nǎr,,,4,,“哪儿” được đọc là nǎr.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,1,tu_vung,19,tu_vung_nghia,chon_mot,doc,“白” có nghĩa là gì?,,trắng,cây,nóng,lạnh,,,1,,白 (bái) có nghĩa là “trắng”.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,2,tu_vung,309,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “热” là gì?,,bái,gān,rè,yǔ,,,3,,“热” được đọc là rè.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,3,ngu_phap,54,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Trong tiếng Trung, tính từ có thể trực tiếp làm trung tâm vị ngữ. Ở câu khẳng định thông thường, trước tính từ thường xuất hiện 很.",,Phó từ mức độ,了² - biểu thị sự thay đổi trạng thái,Câu vị ngữ tính từ,Câu cảm thán,,,3,,Cấu trúc đúng là “Câu vị ngữ tính từ”. Mẫu cơ bản: Chủ ngữ + 很 + tính từ.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,4,tu_vung,449,tu_vung_dung_sai,dung_sai,doc,“雨” có nghĩa là “mưa”.,,,,,,,,,"{""answer"": ""dung""}",雨 (yǔ) có nghĩa là “mưa”.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,5,tu_vung,397,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “mưa; trời mưa”?,,冷,干,下雨,热,,,3,,下雨 (xià yǔ) có nghĩa là “mưa; trời mưa”.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,6,ngu_phap,56,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+了 ở cuối câu có thể cho biết tình trạng hiện tại đã thay đổi so với trước.",,Câu cảm thán,Phó từ mức độ,了² - biểu thị sự thay đổi trạng thái,Câu vị ngữ tính từ,,,3,,Cấu trúc đúng là “了² - biểu thị sự thay đổi trạng thái”. Thường đặt cuối câu sau nội dung diễn tả trạng thái mới.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,7,tu_vung,160,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “hoa; bông hoa”?,,树,天气,花,雨,,,3,,花 (huā) có nghĩa là “hoa; bông hoa”.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,8,tu_vung,362,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “thời tiết”?,,雨,山,下雨,天气,,,4,,天气 (tiānqì) có nghĩa là “thời tiết”.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,9,tu_vung,124,tu_vung_nghia,chon_mot,doc,“干” có nghĩa là gì?,,trắng,khô,nóng,mưa,,,2,,干 (gān) có nghĩa là “khô”.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,10,chu_han,228,chu_han_nghia,chon_mot,doc,Chữ “雨” có nghĩa là gì?,,hoa; bông hoa,mưa,nóng,lạnh,,,2,,"“雨” đọc là yǔ, có nghĩa là “mưa”.",1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,11,tu_vung,124,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “干” là gì?,,gān,bái,yǔ,huā,,,1,,“干” được đọc là gān.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,12,tu_vung,316,tu_vung_nghia,chon_mot,doc,“山” có nghĩa là gì?,,thời tiết,núi; đồi,khô,cây,,,2,,山 (shān) có nghĩa là “núi; đồi”.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,13,tu_vung,346,tu_vung_nghia,chon_mot,doc,“树” có nghĩa là gì?,,cây,lạnh,núi; đồi,hoa; bông hoa,,,1,,树 (shù) có nghĩa là “cây”.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,14,ngu_phap,53,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Câu cảm thán dùng để biểu thị cảm xúc hoặc mức độ nổi bật.",,Câu vị ngữ tính từ,了² - biểu thị sự thay đổi trạng thái,Câu cảm thán,Phó từ mức độ,,,3,,"Cấu trúc đúng là “Câu cảm thán”. Có thể kết hợp 真, 太...了 hoặc các cách diễn đạt mang sắc thái cảm thán.",1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,15,chu_han,224,chu_han_nghia,chon_mot,doc,Chữ “热” có nghĩa là gì?,,gió,khí; không khí; thời tiết; tức giận,núi; đồi,nóng,,,4,,"“热” đọc là rè, có nghĩa là “nóng”.",1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,16,tu_vung,123,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “风” là gì?,,rè,fēng,bái,shān,,,2,,“风” được đọc là fēng.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,17,chu_han,226,chu_han_nghia,chon_mot,doc,Chữ “树” có nghĩa là gì?,,núi; đồi,mưa,gió,cây,,,4,,"“树” đọc là shù, có nghĩa là “cây”.",1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,18,tu_vung,221,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “冷” là gì?,,huā,rè,xià yǔ,lěng,,,4,,“冷” được đọc là lěng.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,19,tu_vung,124,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “khô”?,,雨,干,热,冷,,,2,,干 (gān) có nghĩa là “khô”.,1
+1,15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,20,tu_vung,362,tu_vung_nghia,chon_mot,doc,“天气” có nghĩa là gì?,,mưa,nóng,thời tiết,trắng,,,3,,天气 (tiānqì) có nghĩa là “thời tiết”.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,1,tu_vung,42,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “bệnh nhân; người bệnh”?,,医生,生病,身上,病人,,,4,,病人 (bìngrén) có nghĩa là “bệnh nhân; người bệnh”.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,2,tu_vung,42,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “病人” là gì?,,máo,yīyuàn,bìngrén,shēnshang,,,3,,“病人” được đọc là bìngrén.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,3,tu_vung,202,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “看病” là gì?,,bìngrén,shēngqì,shǒu,kànbìng,,,4,,“看病” được đọc là kànbìng.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,4,tu_vung,430,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “bệnh viện”?,,医院,病,身上,手,,,1,,医院 (yīyuàn) có nghĩa là “bệnh viện”.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,5,tu_vung,430,tu_vung_dung_sai,dung_sai,doc,“医院” có nghĩa là “đi khám bệnh; khám bệnh”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 医院 (yīyuàn) có nghĩa là “bệnh viện”, không phải “đi khám bệnh; khám bệnh”.",1
+1,16,16,我生病了 - Tôi bị ốm rồi,6,tu_vung,330,tu_vung_nghia,chon_mot,doc,“身上” có nghĩa là gì?,,tay; bàn tay,trên người; trên cơ thể,đi khám bệnh; khám bệnh,lông; tóc,,,2,,身上 (shēnshang) có nghĩa là “trên người; trên cơ thể”.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,7,tu_vung,239,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “毛” là gì?,,kànbìng,máo,yīyuàn,yīshēng,,,2,,“毛” được đọc là máo.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,8,tu_vung,333,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “生气” là gì?,,kànbìng,shēnshang,kǒu,shēngqì,,,4,,“生气” được đọc là shēngqì.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,9,tu_vung,429,tu_vung_nghia,chon_mot,doc,“医生” có nghĩa là gì?,,bác sĩ,lông; tóc,bị ốm; mắc bệnh,tay; bàn tay,,,1,,医生 (yīshēng) có nghĩa là “bác sĩ”.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,10,tu_vung,341,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “手” là gì?,,máo,bìngrén,shǒu,shēntǐ,,,3,,“手” được đọc là shǒu.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,11,tu_vung,331,tu_vung_nghia,chon_mot,doc,“身体” có nghĩa là gì?,,lông; tóc,bệnh nhân; người bệnh,cơ thể; sức khỏe,bệnh; ốm,,,3,,身体 (shēntǐ) có nghĩa là “cơ thể; sức khỏe”.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,12,tu_vung,331,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “身体” là gì?,,máo,shēntǐ,bìng,bìngrén,,,2,,“身体” được đọc là shēntǐ.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,13,chu_han,229,chu_han_nghia,chon_mot,doc,Chữ “病” có nghĩa là gì?,,bệnh; ốm,thể; cơ thể; hình thức,lông; tóc,xem; nhìn,,,1,,"“病” đọc là bìng, có nghĩa là “bệnh; ốm”.",1
+1,16,16,我生病了 - Tôi bị ốm rồi,14,tu_vung,239,tu_vung_dung_sai,dung_sai,doc,“毛” có nghĩa là “lông; tóc”.,,,,,,,,,"{""answer"": ""dung""}",毛 (máo) có nghĩa là “lông; tóc”.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,15,tu_vung,211,tu_vung_nghia,chon_mot,doc,“口” có nghĩa là gì?,,miệng,tay; bàn tay,đi khám bệnh; khám bệnh,bị ốm; mắc bệnh,,,1,,口 (kǒu) có nghĩa là “miệng”.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,16,ngu_phap,57,ngu_phap_dien_tu,dien_tu,doc,"Điền từ thích hợp vào chỗ trống:
+天气冷___。",,,,,,,,,"{""answers"": [""了""]}",Câu đầy đủ là: 天气冷了。 Cấu trúc: 了² - biểu thị sự thay đổi trạng thái.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,17,ngu_phap,58,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""不"", ""喝咖啡""]}",Câu đúng là: 我不喝咖啡。,1
+1,16,16,我生病了 - Tôi bị ốm rồi,18,tu_vung,41,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “bệnh; ốm”?,,身上,毛,口,病,,,4,,病 (bìng) có nghĩa là “bệnh; ốm”.,1
+1,16,16,我生病了 - Tôi bị ốm rồi,19,chu_han,233,chu_han_nghia,chon_mot,doc,Chữ “体” có nghĩa là gì?,,xem; nhìn,thể; cơ thể; hình thức,y; y tế; bác sĩ; chữa trị,lông; tóc,,,2,,"“体” đọc là tǐ, có nghĩa là “thể; cơ thể; hình thức”.",1
+1,16,16,我生病了 - Tôi bị ốm rồi,20,tu_vung,332,tu_vung_nghia,chon_mot,doc,“生病” có nghĩa là gì?,,bị ốm; mắc bệnh,bệnh; ốm,trên người; trên cơ thể,miệng,,,1,,生病 (shēngbìng) có nghĩa là “bị ốm; mắc bệnh”.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,1,tu_vung,54,tu_vung_nghia,chon_mot,doc,“唱歌” có nghĩa là gì?,,lên mạng; truy cập Internet,sở thích; yêu thích,chơi; vui chơi; đi chơi,hát; ca hát,,,4,,唱歌 (chànggē) có nghĩa là “hát; ca hát”.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,2,tu_vung,96,tu_vung_nghia,chon_mot,doc,“电影院” có nghĩa là gì?,,sở thích; yêu thích,rạp chiếu phim; rạp phim,cảm thấy; nghĩ rằng,trên mạng; trực tuyến,,,2,,电影院 (diànyǐngyuàn) có nghĩa là “rạp chiếu phim; rạp phim”.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,3,ngu_phap,60,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""跟"", ""朋友去商店""]}",Câu đúng là: 我跟朋友去商店。,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,4,tu_vung,94,tu_vung_nghia,chon_mot,doc,“电视机” có nghĩa là gì?,,tivi; máy thu hình,bạn trên mạng; người dùng Internet,bài hát,yêu; thích,,,1,,电视机 (diànshìjī) có nghĩa là “tivi; máy thu hình”.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,5,tu_vung,201,tu_vung_nghia,chon_mot,doc,“看” có nghĩa là gì?,,lên mạng; truy cập Internet,rạp chiếu phim; rạp phim,xem; nhìn,tivi; máy thu hình,,,3,,看 (kàn) có nghĩa là “xem; nhìn”.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,6,tu_vung,73,tu_vung_dung_sai,dung_sai,doc,“打球” có nghĩa là “chơi bóng”.,,,,,,,,,"{""answer"": ""dung""}",打球 (dǎ qiú) có nghĩa là “chơi bóng”.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,7,ngu_phap,63,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+都 biểu thị phạm vi bao gồm tất cả; 一起 và 一块儿 biểu thị nhiều người cùng thực hiện một hành động.",,跟 / 和 / 还是 - nối thành phần,Câu ghép song song,都 / 一起 / 一块儿,"跟 / 和 - với, cùng với",,,3,,Cấu trúc đúng là “都 / 一起 / 一块儿”. 都 thường đứng trước vị ngữ. 一起 hoặc 一块儿 thường đứng trước động từ.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,8,tu_vung,153,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “好玩儿” là gì?,,kàn,dǎ qiú,diàn,hǎowánr,,,4,,“好玩儿” được đọc là hǎowánr.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,9,tu_vung,389,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “喜欢” là gì?,,wǎngyǒu,diàn,chàng,xǐhuan,,,4,,“喜欢” được đọc là xǐhuan.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,10,ngu_phap,61,ngu_phap_dien_tu,dien_tu,doc,"Điền từ thích hợp vào chỗ trống:
+我喜欢唱歌___看电影。",,,,,,,,,"{""answers"": [""和""]}",Câu đầy đủ là: 我喜欢唱歌和看电影。 Cấu trúc: 跟 / 和 / 还是 - nối thành phần.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,11,ngu_phap,60,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+跟 và 和 có thể dùng để biểu thị quan hệ cùng tham gia giữa người này với người khác.",,Câu ghép song song,"跟 / 和 - với, cùng với",跟 / 和 / 还是 - nối thành phần,都 / 一起 / 一块儿,,,2,,"Cấu trúc đúng là “跟 / 和 - với, cùng với”. Mẫu thường gặp: A + 跟/和 + B + động từ.",1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,12,tu_vung,53,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “唱” là gì?,,chàng,hǎotīng,diànnǎo,diànshìjī,,,1,,“唱” được đọc là chàng.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,13,tu_vung,153,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “vui; thú vị”?,,看,好玩儿,电视,爱,,,2,,好玩儿 (hǎowánr) có nghĩa là “vui; thú vị”.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,14,chu_han,236,chu_han_nghia,chon_mot,doc,Chữ “唱” có nghĩa là gì?,,máy; máy móc; cơ hội,thích; vui; mừng,vui; hoan hỉ; dùng trong 喜欢 (thích),hát,,,4,,"“唱” đọc là chàng, có nghĩa là “hát”.",1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,15,tu_vung,15,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “爱好” là gì?,,àihào,hǎotīng,chàng,wánr,,,1,,“爱好” được đọc là àihào.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,16,tu_vung,325,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “lên mạng; truy cập Internet”?,,喜欢,上网,玩儿,电视,,,2,,上网 (shàngwǎng) có nghĩa là “lên mạng; truy cập Internet”.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,17,chu_han,235,chu_han_nghia,chon_mot,doc,Chữ “爱” có nghĩa là gì?,,điện,máy; máy móc; cơ hội,yêu; thích,vui; hoan hỉ; dùng trong 喜欢 (thích),,,3,,"“爱” đọc là ài, có nghĩa là “yêu; thích”.",1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,18,ngu_phap,62,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Câu ghép song song nối các nội dung có quan hệ ngang hàng hoặc bổ sung cho nhau.",,Câu ghép song song,跟 / 和 / 还是 - nối thành phần,都 / 一起 / 一块儿,"跟 / 和 - với, cùng với",,,1,,"Cấu trúc đúng là “Câu ghép song song”. Có thể dùng các từ như 和, 也 hoặc cấu trúc tương ứng để kết nối các nội dung song song.",1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,19,tu_vung,95,tu_vung_nghia,chon_mot,doc,“电影” có nghĩa là gì?,,vui; thú vị,phim; điện ảnh,nói đùa; đùa giỡn,tivi; máy thu hình,,,2,,电影 (diànyǐng) có nghĩa là “phim; điện ảnh”.,1
+1,17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,20,tu_vung,378,tu_vung_dung_sai,dung_sai,doc,“网友” có nghĩa là “quả bóng; bóng”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 网友 (wǎngyǒu) có nghĩa là “bạn trên mạng; người dùng Internet”, không phải “quả bóng; bóng”.",1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,1,tu_vung,166,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “trở về; quay lại”?,,行,票,回到,去,,,3,,回到 (huídào) có nghĩa là “trở về; quay lại”.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,2,tu_vung,171,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “tàu hỏa”?,,火车,到,来到,行,,,1,,火车 (huǒchē) có nghĩa là “tàu hỏa”.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,3,tu_vung,462,tu_vung_nghia,chon_mot,doc,“找” có nghĩa là gì?,,tìm thấy,tìm; tìm kiếm,vé vào cửa,đi; đi đến,,,2,,找 (zhǎo) có nghĩa là “tìm; tìm kiếm”.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,4,tu_vung,120,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “飞机” là gì?,,piào,zuò,fēi,fēijī,,,4,,“飞机” được đọc là fēijī.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,5,chu_han,249,chu_han_nghia,chon_mot,doc,Chữ “京” có nghĩa là gì?,,kinh đô; thủ đô,bay,được; ổn; có thể,ngồi; đi bằng,,,1,,"“京” đọc là jīng, có nghĩa là “kinh đô; thủ đô”.",1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,6,tu_vung,56,tu_vung_nghia,chon_mot,doc,“车票” có nghĩa là gì?,,vé xe; vé tàu,sân bay,vé; phiếu,được; ổn; có thể,,,1,,车票 (chēpiào) có nghĩa là “vé xe; vé tàu”.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,7,ngu_phap,64,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+都 biểu thị phạm vi bao gồm tất cả; 一起 và 一块儿 biểu thị nhiều người cùng thực hiện một hành động.",,都 / 一起 / 一块儿,从 - từ...,Chủ ngữ,Vị ngữ,,,1,,Cấu trúc đúng là “都 / 一起 / 一块儿”. 都 thường đứng trước vị ngữ. 一起 hoặc 一块儿 thường đứng trước động từ.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,8,ngu_phap,65,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+介词 从 dùng để chỉ điểm bắt đầu về địa điểm hoặc thời gian.",,从 - từ...,Chủ ngữ,都 / 一起 / 一块儿,Vị ngữ,,,1,,Cấu trúc đúng là “从 - từ...”. Mẫu thường gặp: Chủ ngữ + 从 + địa điểm/thời gian + động từ.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,9,tu_vung,354,tu_vung_nghia,chon_mot,doc,“送” có nghĩa là gì?,,tiễn; đưa; gửi,vé; phiếu,đi; đi đến,đến; tới,,,1,,送 (sòng) có nghĩa là “tiễn; đưa; gửi”.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,10,tu_vung,499,tu_vung_nghia,chon_mot,doc,“坐下” có nghĩa là gì?,,vé máy bay,tìm thấy,trở về; quay lại,ngồi xuống,,,4,,坐下 (zuò xia) có nghĩa là “ngồi xuống”.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,11,tu_vung,215,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “来到” là gì?,,xíng,lái,láidào,dào,,,3,,“来到” được đọc là láidào.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,12,tu_vung,498,tu_vung_nghia,chon_mot,doc,“坐” có nghĩa là gì?,,ngồi; đi bằng,tàu hỏa,ngồi xuống,tìm; tìm kiếm,,,1,,坐 (zuò) có nghĩa là “ngồi; đi bằng”.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,13,chu_han,250,chu_han_nghia,chon_mot,doc,Chữ “票” có nghĩa là gì?,,vé; phiếu,đến; tới,tìm; tìm kiếm,lửa,,,1,,"“票” đọc là piào, có nghĩa là “vé; phiếu”.",1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,14,tu_vung,248,tu_vung_dung_sai,dung_sai,doc,“门票” có nghĩa là “máy bay”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 门票 (ménpiào) có nghĩa là “vé vào cửa”, không phải “máy bay”.",1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,15,ngu_phap,66,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Chủ ngữ là thành phần thường chỉ người hoặc sự vật mà câu đang nói đến.",,Chủ ngữ,从 - từ...,Vị ngữ,都 / 一起 / 一块儿,,,1,,"Cấu trúc đúng là “Chủ ngữ”. Trong câu cơ bản, chủ ngữ thường đứng trước vị ngữ.",1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,16,tu_vung,119,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “飞” là gì?,,fēi,qù,chēpiào,huǒchē,,,1,,“飞” được đọc là fēi.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,17,ngu_phap,64,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我们"", ""一起"", ""学习汉语""]}",Câu đúng là: 我们一起学习汉语。,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,18,tu_vung,172,tu_vung_nghia,chon_mot,doc,“机场” có nghĩa là gì?,,Bắc Kinh,đi; đi đến,sân bay,tàu hỏa,,,3,,机场 (jīchǎng) có nghĩa là “sân bay”.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,19,tu_vung,438,tu_vung_nghia,chon_mot,doc,“一起” có nghĩa là gì?,,máy bay,tàu hỏa,cùng nhau,vé xe; vé tàu,,,3,,一起 (yīqǐ) có nghĩa là “cùng nhau”.,1
+1,18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,20,tu_vung,290,tu_vung_dung_sai,dung_sai,doc,“票” có nghĩa là “vé; phiếu”.,,,,,,,,,"{""answer"": ""dung""}",票 (piào) có nghĩa là “vé; phiếu”.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,1,ngu_phap,71,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Các đại từ nghi vấn như 谁, 什么, 哪儿, 几, 多少, 怎么 được đặt vào vị trí thông tin mà người nói muốn hỏi.",,Câu nghi vấn,Thể tiếp diễn với 在 / 正 / 正在,Dùng đại từ nghi vấn để đặt câu hỏi,Phó từ thời gian và trạng thái đang diễn ra,,,3,,Cấu trúc đúng là “Dùng đại từ nghi vấn để đặt câu hỏi”. Giữ cấu trúc câu cơ bản và thay phần chưa biết bằng đại từ nghi vấn phù hợp.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,2,tu_vung,137,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “关” là gì?,,chūqù,zài,guān,ná,,,3,,“关” được đọc là guān.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,3,tu_vung,116,tu_vung_dung_sai,dung_sai,doc,“放” có nghĩa là “đặt; để; thả”.,,,,,,,,,"{""answer"": ""dung""}",放 (fàng) có nghĩa là “đặt; để; thả”.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,4,chu_han,260,chu_han_nghia,chon_mot,doc,Chữ “进” có nghĩa là gì?,,vào; đi vào,cầm; lấy,giúp; giúp đỡ,chuẩn; chính xác; cho phép; sắp,,,1,,"“进” đọc là jìn, có nghĩa là “vào; đi vào”.",1
+1,19,19,你在做什么？ - Bạn đang làm gì?,5,tu_vung,168,tu_vung_nghia,chon_mot,doc,“回来” có nghĩa là gì?,,đang,trở về; quay lại đây,lại; một lần nữa; rồi,ở; tại; đang,,,2,,回来 (huílái) có nghĩa là “trở về; quay lại đây”.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,6,tu_vung,63,tu_vung_dung_sai,dung_sai,doc,“出去” có nghĩa là “đặt; để; thả”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 出去 (chūqù) có nghĩa là “đi ra ngoài; ra ngoài”, không phải “đặt; để; thả”.",1
+1,19,19,你在做什么？ - Bạn đang làm gì?,7,tu_vung,169,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “trở về; quay lại đó”?,,回,拿,一下儿,回去,,,4,,回去 (huíqù) có nghĩa là “trở về; quay lại đó”.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,8,chu_han,263,chu_han_nghia,chon_mot,doc,Chữ “着” có nghĩa là gì?,,giúp; giúp đỡ,đang; ở trạng thái tiếp diễn,chuẩn bị; trang bị,lại; một lần nữa; rồi,,,2,,"“着” đọc là zhe, có nghĩa là “đang; ở trạng thái tiếp diễn”.",1
+1,19,19,你在做什么？ - Bạn đang làm gì?,9,ngu_phap,69,ngu_phap_dien_tu,dien_tu,doc,"Điền từ thích hợp vào chỗ trống:
+我正___看书。",,,,,,,,,"{""answers"": [""在""]}",Câu đầy đủ là: 我正在看书。 Cấu trúc: Thể tiếp diễn với 在 / 正 / 正在.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,10,tu_vung,191,tu_vung_nghia,chon_mot,doc,“进” có nghĩa là gì?,,vào; đi vào,đi ra ngoài; ra ngoài,về; trở về; quay lại,một chút; một lát; một lần,,,1,,进 (jìn) có nghĩa là “vào; đi vào”.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,11,tu_vung,197,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “开” là gì?,,zhèngzài,bāngmáng,yīxiàr,kāi,,,4,,“开” được đọc là kāi.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,12,ngu_phap,68,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+马上, 先, 有时 diễn tả thời điểm hoặc trình tự; 在, 正, 正在 có thể biểu thị hành động đang diễn ra.",,Câu nghi vấn,Thể tiếp diễn với 在 / 正 / 正在,Phó từ thời gian và trạng thái đang diễn ra,Dùng đại từ nghi vấn để đặt câu hỏi,,,3,,Cấu trúc đúng là “Phó từ thời gian và trạng thái đang diễn ra”. Các phó từ này thường đứng trước động từ hoặc cụm động từ.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,13,tu_vung,469,tu_vung_nghia,chon_mot,doc,“着” có nghĩa là gì?,,đang; ở trạng thái tiếp diễn,vào; đi vào,đánh; gọi; chơi,đóng; tắt,,,1,,着 (zhe) có nghĩa là “đang; ở trạng thái tiếp diễn”.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,14,tu_vung,193,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “进去” là gì?,,fàng,jìnqù,chū,chūqù,,,2,,“进去” được đọc là jìnqù.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,15,tu_vung,164,tu_vung_nghia,chon_mot,doc,“回” có nghĩa là gì?,,đóng; tắt,về; trở về; quay lại,đi vào; vào trong,đi ra ngoài; ra ngoài,,,2,,回 (huí) có nghĩa là “về; trở về; quay lại”.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,16,ngu_phap,69,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我正"", ""在"", ""看书""]}",Câu đúng là: 我正在看书。,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,17,ngu_phap,70,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Câu nghi vấn dùng để yêu cầu người nghe cung cấp hoặc xác nhận thông tin.",,Phó từ thời gian và trạng thái đang diễn ra,Thể tiếp diễn với 在 / 正 / 正在,Câu nghi vấn,Dùng đại từ nghi vấn để đặt câu hỏi,,,3,,"Cấu trúc đúng là “Câu nghi vấn”. Có thể tạo câu hỏi bằng 吗, đại từ nghi vấn, 还是 hoặc dạng chính - phản.",1
+1,19,19,你在做什么？ - Bạn đang làm gì?,18,tu_vung,453,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “再” là gì?,,fàng,zài,guān,zhe,,,2,,“再” được đọc là zài.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,19,tu_vung,69,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “đánh; gọi; chơi”?,,开,打,一下儿,关,,,2,,打 (dǎ) có nghĩa là “đánh; gọi; chơi”.,1
+1,19,19,你在做什么？ - Bạn đang làm gì?,20,tu_vung,61,tu_vung_nghia,chon_mot,doc,“出” có nghĩa là gì?,,ra; đi ra,đi ra ngoài; ra ngoài,chuẩn bị; dự định,giúp; giúp đỡ,,,1,,出 (chū) có nghĩa là “ra; đi ra”.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,1,tu_vung,365,tu_vung_nghia,chon_mot,doc,“听见” có nghĩa là gì?,,biết,nhìn thấy,nghe thấy,hiểu; rõ,,,3,,听见 (tīngjiàn) có nghĩa là “nghe thấy”.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,2,tu_vung,144,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “vẫn; còn”?,,明白,知道,还,不对,,,3,,还 (hái) có nghĩa là “vẫn; còn”.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,3,tu_vung,253,tu_vung_nghia,chon_mot,doc,“明白” có nghĩa là gì?,,nhận được; đạt được,sai; lỗi,hiểu; rõ,trả lại; hoàn lại,,,3,,明白 (míngbai) có nghĩa là “hiểu; rõ”.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,4,chu_han,267,chu_han_nghia,chon_mot,doc,Chữ “对” có nghĩa là gì?,,đúng; chính xác,sai; lỗi,qua; đi qua; trải qua,đường; con đường; cách; đạo/lẽ,,,1,,"“对” đọc là duì, có nghĩa là “đúng; chính xác”.",1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,5,tu_vung,401,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “想” là gì?,,jiù,xiǎng,yǒu,yào,,,2,,“想” được đọc là xiǎng.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,6,tu_vung,170,tu_vung_dung_sai,dung_sai,doc,“会” có nghĩa là “biết; có thể”.,,,,,,,,,"{""answer"": ""dung""}",会 (huì) có nghĩa là “biết; có thể”.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,7,tu_vung,78,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “得到” là gì?,,xiǎng,hái,dédào,méiyǒu,,,3,,“得到” được đọc là dédào.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,8,tu_vung,204,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “nhìn thấy; trông thấy”?,,看见,有用,能,会,,,1,,看见 (kànjiàn) có nghĩa là “nhìn thấy; trông thấy”.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,9,ngu_phap,74,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+不 thường phủ định thói quen, ý muốn hoặc trạng thái; 没/没有 thường phủ định sự việc đã xảy ra hoặc sự tồn tại; 别 thường dùng để ngăn cản hoặc khuyên không làm.",,Dạng chính - phản,Câu vị ngữ động từ,别 / 不 / 没 / 没有 - phủ định,会 / 能 - biểu thị khả năng,,,3,,Cấu trúc đúng là “别 / 不 / 没 / 没有 - phủ định”. Đặt từ phủ định trước động từ hoặc tính từ cần phủ định.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,10,tu_vung,441,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “有” là gì?,,yǒu,jiù,míngbai,méiyǒu,,,1,,“有” được đọc là yǒu.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,11,ngu_phap,75,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Câu vị ngữ động từ là câu có phần vị ngữ chính được tạo bởi động từ hoặc cụm động từ.",,别 / 不 / 没 / 没有 - phủ định,会 / 能 - biểu thị khả năng,Dạng chính - phản,Câu vị ngữ động từ,,,4,,Cấu trúc đúng là “Câu vị ngữ động từ”. Mẫu cơ bản: Chủ ngữ + động từ + tân ngữ.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,12,chu_han,269,chu_han_nghia,chon_mot,doc,Chữ “过” có nghĩa là gì?,,qua; đi qua; trải qua,đúng; chính xác,có thể; có khả năng,sai; lỗi,,,1,,"“过” đọc là guò, có nghĩa là “qua; đi qua; trải qua”.",1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,13,tu_vung,203,tu_vung_dung_sai,dung_sai,doc,“看到” có nghĩa là “qua; đi qua; trải qua”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 看到 (kàndào) có nghĩa là “nhìn thấy”, không phải “qua; đi qua; trải qua”.",1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,14,tu_vung,446,tu_vung_nghia,chon_mot,doc,“有用” có nghĩa là gì?,,qua; đi qua; trải qua,hữu ích; có ích,biết,có,,,2,,有用 (yǒuyòng) có nghĩa là “hữu ích; có ích”.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,15,tu_vung,143,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “qua; đi qua; trải qua”?,,听见,能,过,看见,,,3,,过 (guò) có nghĩa là “qua; đi qua; trải qua”.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,16,tu_vung,276,tu_vung_nghia,chon_mot,doc,“能” có nghĩa là gì?,,có thể; có khả năng,muốn; nghĩ; nghĩ đến,vẫn; còn,biết; có thể,,,1,,能 (néng) có nghĩa là “có thể; có khả năng”.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,17,ngu_phap,72,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""会"", ""说中文""]}",Câu đúng là: 我会说中文。,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,18,tu_vung,144,tu_vung_nghia,chon_mot,doc,“还” có nghĩa là gì?,,biết; có thể,nghe thấy,biết,vẫn; còn,,,4,,还 (hái) có nghĩa là “vẫn; còn”.,1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,19,chu_han,266,chu_han_nghia,chon_mot,doc,Chữ “不” có nghĩa là gì?,,vẫn; còn,đúng; chính xác,không,không; chưa,,,3,,"“不” đọc là bù, có nghĩa là “không”.",1
+1,20,20,我会说中文 - Tôi biết nói tiếng Trung,20,ngu_phap,72,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+会 và 能 đều có thể biểu thị khả năng. 会 thường dùng cho kỹ năng đã học được; 能 thường nhấn mạnh điều kiện hoặc khả năng thực hiện.",,别 / 不 / 没 / 没有 - phủ định,Dạng chính - phản,Câu vị ngữ động từ,会 / 能 - biểu thị khả năng,,,4,,Cấu trúc đúng là “会 / 能 - biểu thị khả năng”. Mẫu cơ bản: Chủ ngữ + 会/能 + động từ. Phủ định thường dùng 不会 hoặc 不能.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,1,ngu_phap,78,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Đại từ chỉ thị dùng để chỉ người hoặc sự vật, thường gặp nhất là 这 và 那.",,Câu vị ngữ tính từ,比 - so với,Câu so sánh với 比,Đại từ chỉ thị,,,4,,"Cấu trúc đúng là “Đại từ chỉ thị”. Có thể dùng trực tiếp hoặc kết hợp với lượng từ và danh từ, ví dụ 这个人, 那本书.",1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,2,tu_vung,216,tu_vung_nghia,chon_mot,doc,“老” có nghĩa là gì?,,già; lớn tuổi,rất; vô cùng,tốt nhất; tốt hơn hết nên,thật; quả thật,,,1,,老 (lǎo) có nghĩa là “già; lớn tuổi”.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,3,tu_vung,213,tu_vung_dung_sai,dung_sai,doc,“快” có nghĩa là “nhanh; nhanh chóng”.,,,,,,,,,"{""answer"": ""dung""}",快 (kuài) có nghĩa là “nhanh; nhanh chóng”.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,4,tu_vung,360,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “quá; rất”?,,非常,太,最,快,,,2,,太 (tài) có nghĩa là “quá; rất”.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,5,tu_vung,435,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “一样” là gì?,,yīyàng,tài,zuì,chà,,,1,,“一样” được đọc là yīyàng.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,6,tu_vung,484,tu_vung_dung_sai,dung_sai,doc,“重要” có nghĩa là “nhanh; nhanh chóng”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 重要 (zhòngyào) có nghĩa là “quan trọng”, không phải “nhanh; nhanh chóng”.",1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,7,chu_han,281,chu_han_nghia,chon_mot,doc,Chữ “差” có nghĩa là gì?,,chậm,kém; khác; sai,nhanh; nhanh chóng,dạng; kiểu; mẫu; loại,,,2,,"“差” đọc là chà, có nghĩa là “kém; khác; sai”.",1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,8,chu_han,280,chu_han_nghia,chon_mot,doc,Chữ “比” có nghĩa là gì?,,xấu; hỏng,nặng,so với; hơn,quá; rất,,,3,,"“比” đọc là bǐ, có nghĩa là “so với; hơn”.",1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,9,tu_vung,493,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “tốt nhất; tốt hơn hết nên”?,,老,非常,最好,重,,,3,,最好 (zuìhǎo) có nghĩa là “tốt nhất; tốt hơn hết nên”.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,10,ngu_phap,77,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Câu so sánh với 比 được dùng để so sánh đặc điểm hoặc mức độ giữa hai đối tượng.",,Câu vị ngữ tính từ,比 - so với,Câu so sánh với 比,Đại từ chỉ thị,,,3,,Cấu trúc đúng là “Câu so sánh với 比”. Mẫu cơ bản: A + 比 + B + tính từ.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,11,ngu_phap,76,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""今天"", ""比"", ""昨天热""]}",Câu đúng là: 今天比昨天热。,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,12,tu_vung,37,tu_vung_nghia,chon_mot,doc,“比” có nghĩa là gì?,,quá; rất,già; lớn tuổi,so với; hơn,to; lớn,,,3,,比 (bǐ) có nghĩa là “so với; hơn”.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,13,tu_vung,237,tu_vung_nghia,chon_mot,doc,“慢” có nghĩa là gì?,,giống nhau; như nhau,xấu; hỏng,nhất,chậm,,,4,,慢 (màn) có nghĩa là “chậm”.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,14,tu_vung,402,tu_vung_nghia,chon_mot,doc,“小” có nghĩa là gì?,,quan trọng,nhỏ; bé,già; lớn tuổi,rất; vô cùng,,,2,,小 (xiǎo) có nghĩa là “nhỏ; bé”.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,15,tu_vung,74,tu_vung_nghia,chon_mot,doc,“大” có nghĩa là gì?,,to; lớn,rất; vô cùng,khó; khó khăn,nhanh; nhanh chóng,,,1,,大 (dà) có nghĩa là “to; lớn”.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,16,tu_vung,121,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “非常” là gì?,,fēicháng,nán,zuìhǎo,zhēn de,,,1,,“非常” được đọc là fēicháng.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,17,ngu_phap,76,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+介词 比 được dùng để đưa đối tượng so sánh vào câu.",,比 - so với,Câu vị ngữ tính từ,Đại từ chỉ thị,Câu so sánh với 比,,,1,,Cấu trúc đúng là “比 - so với”. Mẫu cơ bản: A + 比 + B + tính từ.,1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,18,chu_han,287,chu_han_nghia,chon_mot,doc,Chữ “太” có nghĩa là gì?,,nặng,xấu; hỏng,quá; rất,không; sai; phi-,,,3,,"“太” đọc là tài, có nghĩa là “quá; rất”.",1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,19,chu_han,283,chu_han_nghia,chon_mot,doc,Chữ “坏” có nghĩa là gì?,,kém; khác; sai,quá; rất,xấu; hỏng,khó; khó khăn,,,3,,"“坏” đọc là huài, có nghĩa là “xấu; hỏng”.",1
+1,21,21,这个比那个好 - Cái này tốt hơn cái kia,20,tu_vung,50,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “差” là gì?,,chà,zhòng,zuì,zhēn,,,1,,“差” được đọc là chà.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,1,ngu_phap,84,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我买"", ""了"", ""书""]}",Câu đúng là: 我买了书。,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,2,ngu_phap,83,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Tân ngữ thường là đối tượng chịu tác động của động từ.",,Chủ ngữ,Thể hoàn thành với 了¹,Vị ngữ,Tân ngữ,,,4,,"Cấu trúc đúng là “Tân ngữ”. Trong câu động từ cơ bản, tân ngữ thường đứng sau động từ.",1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,3,ngu_phap,81,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Chủ ngữ là thành phần thường chỉ người hoặc sự vật mà câu đang nói đến.",,Chủ ngữ,Đại từ nhân xưng,Tân ngữ,Thể hoàn thành với 了¹,,,1,,"Cấu trúc đúng là “Chủ ngữ”. Trong câu cơ bản, chủ ngữ thường đứng trước vị ngữ.",1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,4,chu_han,295,chu_han_nghia,chon_mot,doc,Chữ “事” có nghĩa là gì?,,việc; chuyện; sự việc,nói; báo; thông báo,khách; khách hàng,nói/kể; khiếu nại; kiện,,,1,,"“事” đọc là shì, có nghĩa là “việc; chuyện; sự việc”.",1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,5,tu_vung,133,tu_vung_nghia,chon_mot,doc,“给” có nghĩa là gì?,,cho; đưa; cho ai,gọi điện thoại,gặp mặt; gặp nhau,không có gì; không có chi,,,1,,给 (gěi) có nghĩa là “cho; đưa; cho ai”.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,6,tu_vung,106,tu_vung_nghia,chon_mot,doc,“对不起” có nghĩa là gì?,,gặp; thấy,xin lỗi; xin thứ lỗi,mời vào,mời; xin; vui lòng,,,2,,对不起 (duìbuqǐ) có nghĩa là “xin lỗi; xin thứ lỗi”.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,7,tu_vung,411,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “cảm ơn”?,,给,没关系,谢谢,告诉,,,3,,谢谢 (xièxie) có nghĩa là “cảm ơn”.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,8,tu_vung,184,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “见面” là gì?,,shǒujī,dǎ diànhuà,jiànmiàn,xièxie,,,3,,“见面” được đọc là jiànmiàn.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,9,ngu_phap,84,ngu_phap_dien_tu,dien_tu,doc,"Điền từ thích hợp vào chỗ trống:
+我买___书。",,,,,,,,,"{""answers"": [""了""]}",Câu đầy đủ là: 我买了书。 Cấu trúc: Thể hoàn thành với 了¹.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,10,tu_vung,161,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “lời nói; lời; câu nói”?,,手机,话,请进,没关系,,,2,,话 (huà) có nghĩa là “lời nói; lời; câu nói”.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,11,tu_vung,45,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “không có gì; không có chi”?,,请进,电话,不客气,见面,,,3,,不客气 (bù kèqì) có nghĩa là “không có gì; không có chi”.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,12,tu_vung,91,tu_vung_dung_sai,dung_sai,doc,“电话” có nghĩa là “xin lỗi; xin thứ lỗi”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 电话 (diànhuà) có nghĩa là “điện thoại; cuộc gọi điện thoại”, không phải “xin lỗi; xin thứ lỗi”.",1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,13,ngu_phap,82,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Vị ngữ cung cấp thông tin về hành động, trạng thái hoặc đặc điểm của chủ ngữ.",,Chủ ngữ,Vị ngữ,Tân ngữ,Đại từ nhân xưng,,,2,,Cấu trúc đúng là “Vị ngữ”. Vị ngữ thường đứng sau chủ ngữ và có thể do động từ hoặc tính từ đảm nhiệm.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,14,chu_han,293,chu_han_nghia,chon_mot,doc,Chữ “给” có nghĩa là gì?,,cảm ơn; xin lỗi; tàn/héo (hoa lá),việc; chuyện; sự việc,cho; đưa; cho ai,nói/kể; khiếu nại; kiện,,,3,,"“给” đọc là gěi, có nghĩa là “cho; đưa; cho ai”.",1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,15,tu_vung,301,tu_vung_dung_sai,dung_sai,doc,“请” có nghĩa là “mời; xin; vui lòng”.,,,,,,,,,"{""answer"": ""dung""}",请 (qǐng) có nghĩa là “mời; xin; vui lòng”.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,16,tu_vung,338,tu_vung_nghia,chon_mot,doc,“事” có nghĩa là gì?,,tạm biệt; hẹn gặp lại,cho; đưa; cho ai,việc; chuyện; sự việc,lời nói; lời; câu nói,,,3,,事 (shì) có nghĩa là “việc; chuyện; sự việc”.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,17,tu_vung,342,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “手机” là gì?,,diànhuà,qǐng,shǒujī,qǐng zuò,,,3,,“手机” được đọc là shǒujī.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,18,tu_vung,71,tu_vung_nghia,chon_mot,doc,“打电话” có nghĩa là gì?,,không có gì; không có chi,lời nói; lời; câu nói,gọi điện thoại,điện thoại; cuộc gọi điện thoại,,,3,,打电话 (dǎ diànhuà) có nghĩa là “gọi điện thoại”.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,19,tu_vung,183,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “见” là gì?,,méishìr,huà,jiàn,shì,,,3,,“见” được đọc là jiàn.,1
+1,22,22,我给你打电话 - Tôi gọi điện cho bạn,20,tu_vung,411,tu_vung_nghia,chon_mot,doc,“谢谢” có nghĩa là gì?,,điện thoại di động; điện thoại,lời nói; lời; câu nói,cảm ơn,gặp mặt; gặp nhau,,,3,,谢谢 (xièxie) có nghĩa là “cảm ơn”.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,1,tu_vung,80,tu_vung_dung_sai,dung_sai,doc,“的” có nghĩa là “của; trợ từ nối định ngữ”.,,,,,,,,,"{""answer"": ""dung""}",的 (de) có nghĩa là “của; trợ từ nối định ngữ”.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,2,tu_vung,40,tu_vung_nghia,chon_mot,doc,“别人” có nghĩa là gì?,,không cần,người khác; những người khác,đều; tất cả,không có gì; không sao,,,2,,别人 (biérén) có nghĩa là “người khác; những người khác”.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,3,ngu_phap,88,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Trợ từ ngữ khí thường đứng cuối câu để thể hiện câu hỏi, đề nghị, thay đổi tình trạng hoặc sắc thái giao tiếp.",,Câu trần thuật,吧 / 了 / 吗 / 呢 - trợ từ ngữ khí,常 / 常常 / 再,Câu không chủ - vị,,,2,,Cấu trúc đúng là “吧 / 了 / 吗 / 呢 - trợ từ ngữ khí”. 吗 thường tạo câu hỏi yes/no; 呢 có thể hỏi lại; 吧 thường mang sắc thái đề nghị; 了 có thể báo sự thay đổi.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,4,tu_vung,38,tu_vung_dung_sai,dung_sai,doc,“别” có nghĩa là “không có gì; không sao”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 别 (bié) có nghĩa là “đừng”, không phải “không có gì; không sao”.",1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,5,tu_vung,156,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “和” là gì?,,háishi,shì bu shì,hé,dōu,,,3,,“和” được đọc là hé.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,6,ngu_phap,87,ngu_phap_dien_tu,dien_tu,doc,"Điền từ thích hợp vào chỗ trống:
+我___常看电影。",,,,,,,,,"{""answers"": [""常""]}",Câu đầy đủ là: 我常常看电影。 Cấu trúc: 常 / 常常 / 再.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,7,tu_vung,79,tu_vung_nghia,chon_mot,doc,“地” có nghĩa là gì?,,trợ từ nối trạng ngữ với động từ,đừng,không cần,không,,,1,,地 (de) có nghĩa là “trợ từ nối trạng ngữ với động từ”.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,8,tu_vung,242,tu_vung_nghia,chon_mot,doc,“没什么” có nghĩa là gì?,,của; trợ từ nối định ngữ,trợ từ nối trạng ngữ với động từ,không có gì; không sao,còn; còn có; ngoài ra còn,,,3,,没什么 (méi shénme) có nghĩa là “không có gì; không sao”.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,9,tu_vung,460,tu_vung_nghia,chon_mot,doc,“怎么” có nghĩa là gì?,,thế nào; làm sao; tại sao,của; trợ từ nối định ngữ,nhé; đi; chứ,đừng,,,1,,怎么 (zěnme) có nghĩa là “thế nào; làm sao; tại sao”.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,10,chu_han,298,chu_han_nghia,chon_mot,doc,Chữ “都” có nghĩa là gì?,,thế nào; làm sao (thường dùng trong 怎么),với; cùng; theo,và; với,đều; tất cả,,,4,,"“都” đọc là dōu, có nghĩa là “đều; tất cả”.",1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,11,ngu_phap,87,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""常"", ""常看电影""]}",Câu đúng là: 我常常看电影。,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,12,tu_vung,47,tu_vung_nghia,chon_mot,doc,“不” có nghĩa là gì?,,không,hay là; vẫn; tốt hơn nên,với; cùng; theo,của; trợ từ nối định ngữ,,,1,,不 (bù) có nghĩa là “không”.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,13,tu_vung,134,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “跟” là gì?,,hái yǒu,bié,gēn,biérén,,,3,,“跟” được đọc là gēn.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,14,ngu_phap,85,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Một số câu tiếng Trung không cần đầy đủ cấu trúc chủ ngữ - vị ngữ nhưng vẫn biểu đạt được ý nghĩa hoàn chỉnh trong ngữ cảnh.",,常 / 常常 / 再,Câu trần thuật,吧 / 了 / 吗 / 呢 - trợ từ ngữ khí,Câu không chủ - vị,,,4,,"Cấu trúc đúng là “Câu không chủ - vị”. Thường gặp trong biểu đạt thời tiết, chào hỏi, mệnh lệnh hoặc câu ngắn trong giao tiếp.",1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,15,ngu_phap,86,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+Câu trần thuật dùng để trình bày hoặc thông báo một sự việc.",,Câu trần thuật,常 / 常常 / 再,Câu không chủ - vị,吧 / 了 / 吗 / 呢 - trợ từ ngữ khí,,,1,,Cấu trúc đúng là “Câu trần thuật”. Ngữ điệu thường tương đối ổn định; cuối câu thường dùng dấu chấm khi viết.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,16,tu_vung,102,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “都” là gì?,,bùyòng,hái yǒu,bié,dōu,,,4,,“都” được đọc là dōu.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,17,tu_vung,38,tu_vung_nghia,chon_mot,doc,“别” có nghĩa là gì?,,đừng,người khác; những người khác,không có gì; không sao,có phải... không,,,1,,别 (bié) có nghĩa là “đừng”.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,18,tu_vung,18,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “nhé; đi; chứ”?,,别,怎么,没,吧,,,4,,吧 (ba) có nghĩa là “nhé; đi; chứ”.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,19,tu_vung,145,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “hay là; vẫn; tốt hơn nên”?,,的,没,还是,是不是,,,3,,还是 (háishi) có nghĩa là “hay là; vẫn; tốt hơn nên”.,1
+1,23,23,明天见！ - Hẹn gặp ngày mai!,20,chu_han,300,chu_han_nghia,chon_mot,doc,Chữ “和” có nghĩa là gì?,,đều; tất cả,với; cùng; theo,và; với,thế nào; làm sao (thường dùng trong 怎么),,,3,,"“和” đọc là hé, có nghĩa là “và; với”.",1

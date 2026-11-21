@@ -1,0 +1,16 @@
+SHADOWING HSK4 - VIDEO 4
+YouTube ID: xdULRJN_RZM
+So doan: 233
+Doan ngan < 0.8s: 4
+Doan dai > 10s: 0
+
+CAC DOAN NGAN:
+19, 73, 215, 233
+
+CAN KIEM TRA:
+Doan 039-043 co noi dung bat thuong.
+Can doi chieu voi am thanh video goc.
+Can kiem tra cach doc tu da am.
+
+CHUA DICH TIENG VIET.
+CHUA CAP NHAT SQL SERVER.

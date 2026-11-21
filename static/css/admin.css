@@ -1,0 +1,4028 @@
+.admin-layout {
+    display: grid;
+    grid-template-columns: 235px minmax(0, 1fr);
+    min-height: 100vh;
+}
+
+.admin-sidebar {
+    padding: 25px 17px;
+    border-right: 1px solid var(--border);
+    background: #eef2e7;
+}
+
+.admin-logo {
+    display: block;
+    margin: 0 12px 28px;
+    color: var(--primary);
+    font-size: 25px;
+    font-weight: 750;
+}
+
+.admin-sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.admin-sidebar nav a {
+    padding: 11px 14px;
+    border-radius: 7px;
+    color: #66775f;
+    font-size: 13px;
+}
+
+.admin-sidebar nav a:hover {
+    background: #e0e9d6;
+}
+
+.admin-sidebar nav a.active {
+    background: var(--primary);
+    color: white;
+}
+
+.admin-bottom {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+}
+
+.admin-bottom a {
+    display: block;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+.admin-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 23px 32px;
+    border-bottom: 1px solid var(--border);
+    background: white;
+    font-size: 13px;
+}
+
+.admin-content {
+    max-width: 1500px;
+    margin: auto;
+    padding: 32px;
+}
+
+.admin-heading {
+    margin-bottom: 28px;
+}
+
+.admin-heading h1 {
+    margin-bottom: 10px;
+    font-size: 31px;
+}
+
+.admin-heading p {
+    color: var(--muted);
+}
+
+.admin-image {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.admin-media-title {
+    margin-top: 15px;
+}
+
+.report-line {
+    margin-top: 22px;
+}
+
+.report-line .row-between {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+@media (max-width: 1000px) {
+    .admin-content {
+        padding: 24px;
+    }
+
+    .admin-content .stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 760px) {
+    .admin-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-sidebar {
+        padding: 15px;
+    }
+
+    .admin-logo {
+        margin-bottom: 15px;
+    }
+
+    .admin-sidebar nav {
+        flex-direction: row;
+        overflow-x: auto;
+    }
+
+    .admin-sidebar nav a {
+        white-space: nowrap;
+    }
+
+    .admin-bottom {
+        display: none;
+    }
+
+    .admin-topbar {
+        padding: 15px;
+    }
+
+    .admin-content {
+        padding: 25px 5%;
+    }
+}
+.admin-main {
+    min-width: 0;
+}
+
+.admin-topbar .account-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.admin-topbar .account-actions form {
+    margin: 0;
+}
+
+.admin-topbar .account-actions button {
+    cursor: pointer;
+}
+
+@media (max-width: 760px) {
+    .admin-topbar {
+        flex-wrap: wrap;
+    }
+}
+.users-filter {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 200px auto;
+    align-items: end;
+    gap: 16px;
+}
+
+.users-filter .field {
+    margin: 0;
+}
+
+.users-filter input,
+.users-filter select {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: white;
+    color: var(--text);
+    font: inherit;
+}
+
+.users-filter-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.users-count {
+    margin: 24px 0 16px;
+    color: var(--muted);
+}
+
+.user-status {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.user-status-active {
+    background: #e7f3eb;
+    color: #256443;
+}
+
+.user-status-locked {
+    background: #fdeceb;
+    color: #a33333;
+}
+
+.user-status-form {
+    margin: 0;
+}
+
+.user-status-form button {
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.users-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+@media (max-width: 900px) {
+    .users-filter {
+        grid-template-columns: 1fr;
+    }
+}
+.courses-filter {
+    display: grid;
+    grid-template-columns: minmax(180px, 1fr) 150px 180px auto;
+    align-items: end;
+    gap: 14px;
+}
+
+.courses-filter .field {
+    margin: 0;
+}
+
+.courses-filter input,
+.courses-filter select,
+.course-editor input,
+.course-editor select,
+.course-editor textarea {
+    width: 100%;
+    padding: 11px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: white;
+    color: var(--text);
+    font: inherit;
+}
+
+.course-editor {
+    max-width: 950px;
+}
+
+.course-editor textarea {
+    resize: vertical;
+}
+
+.course-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.course-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.course-status {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.course-status-ban_nhap {
+    background: #fff3d9;
+    color: #805c13;
+}
+
+.course-status-da_xuat_ban {
+    background: #e7f3eb;
+    color: #256443;
+}
+
+.course-status-luu_tru {
+    background: #eceef0;
+    color: #59636c;
+}
+
+@media (max-width: 1100px) {
+    .courses-filter {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .courses-filter,
+    .course-form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* =========================================================
+   MỘC HÁN ADMIN UI
+   Đồng bộ phong cách với giao diện người học
+========================================================= */
+
+
+/* =========================================================
+   1. BIẾN MÀU RIÊNG CHO ADMIN
+========================================================= */
+
+:root {
+    --admin-paper: #f7f0e3;
+    --admin-paper-light: #fffaf1;
+
+    --admin-ink: #342f2a;
+    --admin-ink-soft: #675f57;
+
+    --admin-line: #4a433c;
+    --admin-line-soft: #c9bdae;
+
+    --admin-yellow: #efb63c;
+    --admin-yellow-soft: #ffe3a3;
+
+    --admin-red: #b84b3e;
+    --admin-red-soft: #f3c7bd;
+
+    --admin-green: #657455;
+
+    --admin-shadow:
+        4px 4px 0
+        rgba(52, 47, 42, 0.16);
+}
+
+
+/* =========================================================
+   2. TOÀN TRANG
+========================================================= */
+
+body {
+    color: var(--admin-ink);
+
+    background-color:
+        var(--admin-paper);
+
+    background-image:
+        linear-gradient(
+            rgba(75, 66, 57, 0.055) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(75, 66, 57, 0.055) 1px,
+            transparent 1px
+        );
+
+    background-size:
+        24px 24px;
+}
+
+
+/* =========================================================
+   3. LAYOUT ADMIN
+========================================================= */
+
+.admin-layout {
+    display: grid;
+
+    grid-template-columns:
+        230px
+        minmax(0, 1fr);
+
+    min-height: 100vh;
+
+    background:
+        transparent;
+}
+
+
+.admin-main {
+    min-width: 0;
+
+    background:
+        transparent;
+}
+
+
+/* =========================================================
+   4. SIDEBAR
+========================================================= */
+
+.admin-sidebar {
+    position: sticky;
+
+    top: 0;
+
+    height: 100vh;
+
+    padding:
+        22px 15px;
+
+    overflow-y: auto;
+
+    border-right:
+        2px solid
+        var(--admin-line);
+
+    background:
+        rgba(
+            255,
+            250,
+            241,
+            0.94
+        );
+
+    box-shadow:
+        4px 0 0
+        rgba(
+            52,
+            47,
+            42,
+            0.07
+        );
+
+    backdrop-filter:
+        blur(4px);
+}
+
+
+/* =========================================================
+   5. LOGO
+========================================================= */
+
+.admin-logo {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin:
+        0 8px 22px;
+
+    padding-bottom:
+        17px;
+
+    border-bottom:
+        2px solid
+        var(--admin-line);
+
+    color:
+        var(--admin-ink);
+
+    font-size:
+        24px;
+
+    font-weight:
+        900;
+
+    letter-spacing:
+        -0.5px;
+
+    text-decoration:
+        none;
+}
+
+
+.admin-logo::before {
+    content: "学";
+
+    width: 35px;
+    height: 35px;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex: 0 0 35px;
+
+    border:
+        2px solid
+        var(--admin-ink);
+
+    border-radius:
+        7px;
+
+    background:
+        var(--admin-yellow);
+
+    color:
+        var(--admin-ink);
+
+    font-size:
+        20px;
+
+    line-height:
+        1;
+
+    box-shadow:
+        2px 2px 0
+        rgba(
+            52,
+            47,
+            42,
+            0.18
+        );
+}
+
+
+/* =========================================================
+   6. MENU SIDEBAR
+========================================================= */
+
+.admin-sidebar nav {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+
+.admin-sidebar nav a {
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    min-height: 40px;
+
+    padding:
+        9px 11px;
+
+    border:
+        1px solid
+        transparent;
+
+    border-radius:
+        6px;
+
+    color:
+        var(--admin-ink-soft);
+
+    font-size:
+        12px;
+
+    font-weight:
+        750;
+
+    text-decoration:
+        none;
+
+    transition:
+        background 0.15s ease,
+        border-color 0.15s ease,
+        color 0.15s ease,
+        transform 0.15s ease;
+}
+
+
+.admin-sidebar nav a::before {
+    content: "";
+
+    width: 6px;
+    height: 6px;
+
+    flex: 0 0 6px;
+
+    margin-right:
+        8px;
+
+    border:
+        1.5px solid
+        var(--admin-line);
+
+    border-radius:
+        50%;
+
+    background:
+        transparent;
+}
+
+
+.admin-sidebar nav a:hover {
+    transform:
+        translateX(2px);
+
+    border-color:
+        var(--admin-line-soft);
+
+    background:
+        #fff4dc;
+
+    color:
+        var(--admin-ink);
+}
+
+
+/* MENU ĐANG CHỌN */
+
+.admin-sidebar nav a.active {
+    border:
+        1.5px solid
+        var(--admin-line);
+
+    background:
+        var(--admin-yellow-soft);
+
+    color:
+        var(--admin-ink);
+
+    box-shadow:
+        2px 2px 0
+        rgba(
+            52,
+            47,
+            42,
+            0.13
+        );
+}
+
+
+.admin-sidebar nav a.active::before {
+    background:
+        var(--admin-red);
+
+    border-color:
+        var(--admin-red);
+}
+
+
+/* =========================================================
+   7. NÚT VỀ TRANG NGƯỜI HỌC
+========================================================= */
+
+.admin-bottom {
+    margin-top:
+        22px;
+
+    padding-top:
+        17px;
+
+    border-top:
+        2px solid
+        var(--admin-line);
+}
+
+
+.admin-bottom a {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height:
+        37px;
+
+    padding:
+        7px 10px;
+
+    border:
+        1.5px solid
+        var(--admin-line);
+
+    border-radius:
+        6px;
+
+    background:
+        transparent;
+
+    color:
+        var(--admin-ink);
+
+    font-size:
+        11px;
+
+    font-weight:
+        800;
+
+    text-decoration:
+        none;
+}
+
+
+.admin-bottom a:hover {
+    background:
+        var(--admin-yellow-soft);
+}
+
+
+/* =========================================================
+   8. TOPBAR
+========================================================= */
+
+.admin-topbar {
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+
+    min-height:
+        68px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content:
+        space-between;
+
+    gap: 16px;
+
+    padding:
+        13px 28px;
+
+    border-bottom:
+        2px solid
+        var(--admin-line);
+
+    background:
+        rgba(
+            255,
+            250,
+            241,
+            0.94
+        );
+
+    backdrop-filter:
+        blur(5px);
+}
+
+
+.admin-topbar strong {
+    color:
+        var(--admin-ink);
+
+    font-size:
+        13px;
+
+    font-weight:
+        900;
+
+    letter-spacing:
+        0.3px;
+}
+
+
+.admin-topbar span {
+    color:
+        var(--admin-ink-soft);
+
+    font-size:
+        12px;
+}
+
+
+/* =========================================================
+   9. ACCOUNT ADMIN
+========================================================= */
+
+.admin-topbar .account-actions {
+    display: flex;
+
+    align-items: center;
+
+    justify-content:
+        flex-end;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+
+.admin-topbar .account-actions > span {
+    padding:
+        6px 10px;
+
+    border:
+        1px solid
+        var(--admin-line-soft);
+
+    border-radius:
+        5px;
+
+    background:
+        #fffaf2;
+
+    color:
+        var(--admin-ink);
+
+    font-size:
+        11px;
+
+    font-weight:
+        700;
+}
+
+
+.admin-topbar .account-actions form {
+    margin: 0;
+}
+
+
+/* =========================================================
+   10. MAIN CONTENT
+========================================================= */
+
+.admin-content {
+    width:
+        min(
+            1180px,
+            calc(100% - 42px)
+        );
+
+    max-width:
+        none;
+
+    margin:
+        0 auto;
+
+    padding:
+        32px 0 55px;
+}
+
+
+/* =========================================================
+   11. HEADER TRANG
+========================================================= */
+
+.admin-heading {
+    margin-bottom:
+        23px;
+}
+
+
+.admin-heading .eyebrow,
+.admin-content .eyebrow {
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    gap:
+        6px;
+
+    margin-bottom:
+        9px;
+
+    color:
+        var(--admin-red);
+
+    font-size:
+        10px;
+
+    font-weight:
+        900;
+
+    letter-spacing:
+        1.4px;
+
+    text-transform:
+        uppercase;
+}
+
+
+.admin-heading h1 {
+    max-width:
+        760px;
+
+    margin:
+        0 0 8px;
+
+    color:
+        var(--admin-ink);
+
+    font-size:
+        clamp(
+            27px,
+            3vw,
+            38px
+        );
+
+    line-height:
+        1.12;
+
+    letter-spacing:
+        -0.8px;
+}
+
+
+.admin-heading p {
+    max-width:
+        720px;
+
+    margin:
+        0;
+
+    color:
+        var(--admin-ink-soft);
+
+    font-size:
+        13px;
+
+    line-height:
+        1.65;
+}
+
+
+/* =========================================================
+   12. PANEL / CARD
+========================================================= */
+
+.admin-content .panel {
+    border:
+        1.7px solid
+        var(--admin-line);
+
+    border-radius:
+        8px;
+
+    background:
+        rgba(
+            255,
+            250,
+            241,
+            0.96
+        );
+
+    box-shadow:
+        var(--admin-shadow);
+}
+
+
+.admin-content .panel:hover {
+    border-color:
+        #302b27;
+}
+
+
+/* =========================================================
+   13. THỐNG KÊ
+========================================================= */
+
+.admin-content .stats-grid {
+    gap:
+        13px;
+}
+
+
+.admin-content
+.stats-grid
+.panel {
+    position:
+        relative;
+
+    min-height:
+        125px;
+
+    padding:
+        17px 18px;
+
+    overflow:
+        hidden;
+}
+
+
+.admin-content
+.stats-grid
+.panel::before {
+    content: "";
+
+    position:
+        absolute;
+
+    top:
+        0;
+
+    left:
+        0;
+
+    width:
+        100%;
+
+    height:
+        5px;
+
+    background:
+        var(--admin-yellow);
+}
+
+
+.admin-content
+.stats-grid
+.panel:nth-child(4n + 1)::before {
+    background:
+        var(--admin-red);
+}
+
+
+.admin-content
+.stats-grid
+.panel span {
+    display:
+        block;
+
+    color:
+        var(--admin-ink-soft);
+
+    font-size:
+        11px;
+
+    font-weight:
+        800;
+}
+
+
+.admin-content
+.stats-grid
+.panel strong {
+    display:
+        block;
+
+    margin:
+        8px 0 5px;
+
+    color:
+        var(--admin-ink);
+
+    font-size:
+        31px;
+
+    line-height:
+        1;
+
+    font-weight:
+        900;
+}
+
+
+.admin-content
+.stats-grid
+.panel small {
+    color:
+        #83776c;
+
+    font-size:
+        10px;
+}
+
+
+/* =========================================================
+   14. FORM
+========================================================= */
+
+.admin-content .field {
+    color:
+        var(--admin-ink);
+
+    font-size:
+        11px;
+
+    font-weight:
+        800;
+}
+
+
+.admin-content
+input[type="text"],
+.admin-content
+input[type="search"],
+.admin-content
+input[type="email"],
+.admin-content
+input[type="number"],
+.admin-content
+input[type="password"],
+.admin-content
+select,
+.admin-content
+textarea {
+    width:
+        100%;
+
+    min-height:
+        41px;
+
+    padding:
+        9px 11px;
+
+    border:
+        1.5px solid
+        var(--admin-line-soft);
+
+    border-radius:
+        6px;
+
+    outline:
+        none;
+
+    background:
+        #fffdf8;
+
+    color:
+        var(--admin-ink);
+
+    font:
+        inherit;
+}
+
+
+.admin-content
+textarea {
+    min-height:
+        110px;
+
+    resize:
+        vertical;
+}
+
+
+.admin-content
+input:focus,
+.admin-content
+select:focus,
+.admin-content
+textarea:focus {
+    border-color:
+        var(--admin-line);
+
+    box-shadow:
+        0 0 0 3px
+        rgba(
+            239,
+            182,
+            60,
+            0.22
+        );
+}
+
+
+/* =========================================================
+   15. NÚT CHÍNH
+========================================================= */
+
+.admin-content .button,
+.admin-topbar .button {
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    gap:
+        6px;
+
+    min-height:
+        39px;
+
+    padding:
+        8px 13px;
+
+    border:
+        1.7px solid
+        var(--admin-line);
+
+    border-radius:
+        6px;
+
+    background:
+        var(--admin-ink);
+
+    color:
+        #fffaf1;
+
+    font-size:
+        11px;
+
+    font-weight:
+        900;
+
+    line-height:
+        1;
+
+    text-decoration:
+        none;
+
+    box-shadow:
+        2px 2px 0
+        rgba(
+            52,
+            47,
+            42,
+            0.16
+        );
+
+    cursor:
+        pointer;
+
+    transition:
+        0.15s ease;
+}
+
+
+.admin-content .button:hover,
+.admin-topbar .button:hover {
+    transform:
+        translateY(-1px);
+
+    background:
+        var(--admin-yellow);
+
+    color:
+        var(--admin-ink);
+}
+
+
+/* =========================================================
+   16. NÚT PHỤ
+========================================================= */
+
+.admin-content .small-button,
+.admin-topbar .small-button {
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    min-height:
+        34px;
+
+    padding:
+        6px 10px;
+
+    border:
+        1.5px solid
+        var(--admin-line);
+
+    border-radius:
+        5px;
+
+    background:
+        #fffaf1;
+
+    color:
+        var(--admin-ink);
+
+    font-size:
+        10px;
+
+    font-weight:
+        850;
+
+    line-height:
+        1;
+
+    text-decoration:
+        none;
+
+    cursor:
+        pointer;
+}
+
+
+.admin-content .small-button:hover,
+.admin-topbar .small-button:hover {
+    background:
+        var(--admin-yellow-soft);
+}
+
+
+/* =========================================================
+   17. FILTER
+========================================================= */
+
+.users-filter,
+.courses-filter {
+    padding-bottom:
+        17px;
+
+    border-bottom:
+        1.5px dashed
+        var(--admin-line-soft);
+}
+
+
+.course-actions,
+.users-filter-actions {
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        8px;
+}
+
+
+/* =========================================================
+   18. BẢNG DỮ LIỆU
+========================================================= */
+
+.table-scroll {
+    overflow-x:
+        auto;
+
+    border:
+        1.5px solid
+        var(--admin-line);
+
+    border-radius:
+        7px;
+
+    background:
+        #fffdf8;
+}
+
+
+.data-table {
+    width:
+        100%;
+
+    border-collapse:
+        collapse;
+
+    color:
+        var(--admin-ink);
+
+    font-size:
+        11px;
+}
+
+
+.data-table thead {
+    background:
+        #f2dfb4;
+}
+
+
+.data-table th {
+    padding:
+        11px 12px;
+
+    border-bottom:
+        1.7px solid
+        var(--admin-line);
+
+    color:
+        var(--admin-ink);
+
+    font-size:
+        10px;
+
+    font-weight:
+        900;
+
+    letter-spacing:
+        0.3px;
+
+    text-align:
+        left;
+
+    text-transform:
+        uppercase;
+
+    white-space:
+        nowrap;
+}
+
+
+.data-table td {
+    padding:
+        11px 12px;
+
+    border-bottom:
+        1px solid
+        #e4d9cc;
+
+    vertical-align:
+        middle;
+}
+
+
+.data-table tbody tr:last-child td {
+    border-bottom:
+        0;
+}
+
+
+.data-table tbody tr:hover {
+    background:
+        #fff4dc;
+}
+
+
+/* =========================================================
+   19. STATUS
+========================================================= */
+
+.course-status,
+.user-status {
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    min-height:
+        25px;
+
+    padding:
+        4px 8px;
+
+    border:
+        1px solid
+        var(--admin-line);
+
+    border-radius:
+        999px;
+
+    font-size:
+        9px;
+
+    font-weight:
+        900;
+
+    white-space:
+        nowrap;
+}
+
+
+.course-status-da_xuat_ban,
+.user-status-active {
+    background:
+        #dce7d1;
+
+    color:
+        #425038;
+}
+
+
+.course-status-ban_nhap {
+    background:
+        var(--admin-yellow-soft);
+
+    color:
+        #684a16;
+}
+
+
+.course-status-luu_tru,
+.user-status-locked {
+    background:
+        #e4ded7;
+
+    color:
+        #625a53;
+}
+
+
+/* =========================================================
+   20. KHỐI VIỆC CẦN XEM
+========================================================= */
+
+.example-card {
+    margin-top:
+        11px;
+
+    padding:
+        13px 14px;
+
+    border:
+        1.5px solid
+        var(--admin-line-soft);
+
+    border-radius:
+        6px;
+
+    background:
+        #fffdf8;
+}
+
+
+.example-card h3 {
+    margin:
+        0 0 5px;
+
+    color:
+        var(--admin-ink);
+
+    font-size:
+        13px;
+}
+
+
+.example-card p {
+    margin:
+        0;
+
+    color:
+        var(--admin-ink-soft);
+
+    font-size:
+        11px;
+
+    line-height:
+        1.55;
+}
+
+
+.example-card a {
+    display:
+        inline-block;
+
+    margin-top:
+        8px;
+
+    color:
+        var(--admin-red);
+
+    font-size:
+        10px;
+
+    font-weight:
+        900;
+}
+
+
+/* =========================================================
+   21. FLASH MESSAGE
+========================================================= */
+
+.notice {
+    margin-bottom:
+        14px;
+
+    padding:
+        10px 12px;
+
+    border:
+        1.5px solid
+        var(--admin-line);
+
+    border-radius:
+        6px;
+
+    background:
+        var(--admin-yellow-soft);
+
+    color:
+        var(--admin-ink);
+
+    font-size:
+        11px;
+
+    font-weight:
+        700;
+}
+
+
+.notice-success {
+    background:
+        #e1ead8;
+}
+
+
+.notice-error {
+    background:
+        var(--admin-red-soft);
+}
+
+
+/* =========================================================
+   22. ẢNH
+========================================================= */
+
+.admin-image {
+    width:
+        100%;
+
+    height:
+        175px;
+
+    border:
+        1.5px solid
+        var(--admin-line);
+
+    border-radius:
+        7px;
+
+    object-fit:
+        cover;
+
+    box-shadow:
+        3px 3px 0
+        rgba(
+            52,
+            47,
+            42,
+            0.13
+        );
+}
+
+
+/* =========================================================
+   23. KHOẢNG CÁCH
+========================================================= */
+
+.space-top {
+    margin-top:
+        18px;
+}
+
+
+.grid-2 {
+    gap:
+        16px;
+}
+
+
+/* =========================================================
+   24. RESPONSIVE
+========================================================= */
+
+@media (
+    max-width: 1000px
+) {
+
+    .admin-content {
+        width:
+            calc(
+                100% - 32px
+            );
+
+        padding-top:
+            24px;
+    }
+
+
+    .admin-content
+    .stats-grid {
+        grid-template-columns:
+            repeat(
+                2,
+                minmax(0, 1fr)
+            );
+    }
+
+}
+
+
+@media (
+    max-width: 760px
+) {
+
+    .admin-layout {
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .admin-sidebar {
+        position:
+            relative;
+
+        width:
+            100%;
+
+        height:
+            auto;
+
+        padding:
+            13px;
+
+        border-right:
+            0;
+
+        border-bottom:
+            2px solid
+            var(--admin-line);
+    }
+
+
+    .admin-logo {
+        margin-bottom:
+            12px;
+    }
+
+
+    .admin-sidebar nav {
+        flex-direction:
+            row;
+
+        overflow-x:
+            auto;
+
+        padding-bottom:
+            5px;
+    }
+
+
+    .admin-sidebar nav a {
+        flex:
+            0 0 auto;
+
+        white-space:
+            nowrap;
+    }
+
+
+    .admin-bottom {
+        display:
+            none;
+    }
+
+
+    .admin-topbar {
+        position:
+            relative;
+
+        padding:
+            12px 15px;
+
+        flex-wrap:
+            wrap;
+    }
+
+
+    .admin-content {
+        width:
+            calc(
+                100% - 24px
+            );
+
+        padding:
+            22px 0 40px;
+    }
+
+
+    .admin-content
+    .stats-grid {
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .admin-heading h1 {
+        font-size:
+            27px;
+    }
+
+}
+/* =========================================================
+   NÚT XÓA KHÓA HỌC
+========================================================= */
+
+.course-delete-button {
+    border-color: #8d4038 !important;
+    color: #8d4038 !important;
+    background: #fff8f4 !important;
+}
+
+.course-delete-button:hover {
+    background: #efd0c8 !important;
+    color: #642b26 !important;
+}
+/* =========================================================
+   HỌC LIỆU ADMIN
+========================================================= */
+
+.materials-section-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 18px;
+}
+
+.materials-section-heading h2 {
+    margin: 2px 0 0;
+    font-size: 22px;
+}
+
+.materials-section-heading > p {
+    max-width: 440px;
+    margin: 0;
+    color: var(--admin-ink-soft);
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: right;
+}
+
+
+.materials-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(
+            3,
+            minmax(0, 1fr)
+        );
+    gap: 14px;
+}
+
+
+.material-card {
+    display: flex;
+    gap: 14px;
+
+    min-width: 0;
+
+    padding: 17px;
+
+    border:
+        1.5px solid
+        var(--admin-line);
+
+    border-radius: 7px;
+
+    background: #fffdf8;
+
+    box-shadow:
+        3px 3px 0
+        rgba(52, 47, 42, 0.11);
+}
+
+
+.material-card-icon {
+    width: 44px;
+    height: 44px;
+
+    flex: 0 0 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border:
+        1.5px solid
+        var(--admin-line);
+
+    border-radius: 7px;
+
+    background:
+        var(--admin-yellow-soft);
+
+    color:
+        var(--admin-ink);
+
+    font-size: 21px;
+    font-weight: 900;
+}
+
+
+.material-card-content {
+    min-width: 0;
+    flex: 1;
+}
+
+
+.material-card-label {
+    display: block;
+
+    margin-bottom: 3px;
+
+    color:
+        var(--admin-red);
+
+    font-size: 9px;
+    font-weight: 900;
+
+    letter-spacing: 1px;
+}
+
+
+.material-card h3 {
+    margin: 0 0 7px;
+
+    font-size: 16px;
+
+    color:
+        var(--admin-ink);
+}
+
+
+.material-card p {
+    min-height: 50px;
+
+    margin: 0 0 12px;
+
+    color:
+        var(--admin-ink-soft);
+
+    font-size: 10px;
+
+    line-height: 1.55;
+}
+
+
+.material-card-stats {
+    display: grid;
+
+    grid-template-columns:
+        auto 1fr;
+
+    gap:
+        3px 7px;
+
+    margin-bottom: 13px;
+}
+
+
+.material-card-stats strong {
+    color:
+        var(--admin-ink);
+
+    font-size: 16px;
+}
+
+
+.material-card-stats span {
+    align-self: center;
+
+    color:
+        var(--admin-ink-soft);
+
+    font-size: 9px;
+}
+
+
+.material-coming-soon {
+    display: inline-flex;
+
+    min-height: 31px;
+
+    align-items: center;
+
+    padding:
+        6px 9px;
+
+    border:
+        1px dashed
+        var(--admin-line-soft);
+
+    border-radius: 5px;
+
+    color:
+        var(--admin-ink-soft);
+
+    font-size: 9px;
+
+    font-weight: 800;
+}
+
+
+.material-media-summary {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            4,
+            minmax(0, 1fr)
+        );
+
+    gap: 10px;
+}
+
+
+.material-media-summary > div {
+    padding: 14px;
+
+    border:
+        1.5px solid
+        var(--admin-line-soft);
+
+    border-radius: 6px;
+
+    background:
+        #fffdf8;
+}
+
+
+.material-media-summary strong {
+    display: block;
+
+    margin-bottom: 5px;
+
+    font-size: 23px;
+
+    color:
+        var(--admin-ink);
+}
+
+
+.material-media-summary span {
+    color:
+        var(--admin-ink-soft);
+
+    font-size: 10px;
+    font-weight: 800;
+}
+
+
+@media (max-width: 1000px) {
+
+    .materials-grid {
+        grid-template-columns:
+            repeat(
+                2,
+                minmax(0, 1fr)
+            );
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .materials-section-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+
+    .materials-section-heading > p {
+        text-align: left;
+    }
+
+
+    .materials-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .material-media-summary {
+        grid-template-columns:
+            repeat(
+                2,
+                minmax(0, 1fr)
+            );
+    }
+
+}
+/* =========================================================
+   CHỮ HÁN ADMIN
+========================================================= */
+
+.hanzi-admin-character {
+    font-size: 23px;
+    font-weight: 900;
+}
+/* =========================================================
+   PHÂN TRANG ADMIN
+========================================================= */
+
+.admin-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+
+    margin-top: 18px;
+
+    padding: 18px 10px 4px;
+
+    border-top:
+        1px solid
+        var(--admin-line-soft);
+}
+
+
+.admin-pagination-info {
+    min-width: 90px;
+
+    text-align: center;
+
+    color:
+        var(--admin-ink);
+
+    font-size: 13px;
+
+    font-weight: 800;
+}
+/* =========================================================
+   PHÂN TRANG ADMIN
+========================================================= */
+
+.admin-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+
+    margin-top: 18px;
+
+    padding: 18px 10px 4px;
+
+    border-top:
+        1px solid
+        var(--admin-line-soft);
+}
+
+
+.admin-pagination-info {
+    min-width: 90px;
+
+    text-align: center;
+
+    color:
+        var(--admin-ink);
+
+    font-size: 13px;
+
+    font-weight: 800;
+}
+/* =========================================================
+   CHỮ HÁN ADMIN
+========================================================= */
+
+.hanzi-admin-character {
+    font-size: 23px;
+    font-weight: 900;
+}
+/* =========================================================
+   PINYIN ADMIN
+========================================================= */
+
+.pinyin-admin-symbol {
+    font-size: 18px;
+    font-weight: 900;
+}
+/* =========================================================
+   BỘ THỦ ADMIN
+========================================================= */
+
+.radical-admin-symbol {
+    font-size: 23px;
+    font-weight: 900;
+}
+/* =========================================================
+   MEDIA ADMIN
+========================================================= */
+
+.media-summary-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            4,
+            minmax(0, 1fr)
+        );
+
+    gap: 12px;
+
+    margin-top: 16px;
+}
+
+
+.media-summary-card {
+    display: flex;
+    flex-direction: column;
+
+    gap: 4px;
+
+    padding: 16px;
+
+    border:
+        1.5px solid
+        #40382f;
+
+    border-radius: 8px;
+
+    background:
+        #fffaf2;
+
+    box-shadow:
+        2px 3px 0
+        rgba(64, 56, 47, 0.18);
+}
+
+
+.media-summary-card strong {
+    font-size: 25px;
+    line-height: 1;
+}
+
+
+.media-summary-card span {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+.media-table td {
+    vertical-align: middle;
+}
+
+
+.media-preview-cell {
+    min-width: 190px;
+    max-width: 230px;
+}
+
+
+.media-preview-cell audio {
+    width: 210px;
+    max-width: 100%;
+}
+
+
+.media-preview-cell img,
+.media-preview-cell video {
+    display: block;
+
+    width: 210px;
+    max-width: 100%;
+
+    max-height: 135px;
+
+    object-fit: contain;
+
+    border:
+        1px solid
+        #40382f;
+
+    border-radius: 6px;
+
+    background:
+        #fff;
+}
+
+
+.media-edit-preview {
+    margin:
+        12px
+        0
+        18px;
+}
+
+
+.media-edit-preview audio {
+    width: 100%;
+    max-width: 620px;
+}
+
+
+.media-edit-preview img,
+.media-edit-preview video {
+    display: block;
+
+    width: 100%;
+    max-width: 620px;
+
+    max-height: 360px;
+
+    object-fit: contain;
+
+    border:
+        1.5px solid
+        #40382f;
+
+    border-radius: 8px;
+}
+
+
+.media-path {
+    max-width: 260px;
+
+    margin-top: 5px;
+
+    font-size: 11px;
+
+    color:
+        #72675c;
+
+    overflow-wrap: anywhere;
+}
+
+
+.media-transcript {
+    max-width: 280px;
+
+    display: -webkit-box;
+
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+
+    line-height: 1.45;
+}
+
+
+.media-usage-list {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 4px;
+
+    margin-bottom: 6px;
+}
+
+
+.media-usage-tag {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 5px;
+
+    padding:
+        3px
+        7px;
+
+    border:
+        1px solid
+        #8a7d6f;
+
+    border-radius: 999px;
+
+    background:
+        #fff8e9;
+
+    font-size: 11px;
+
+    white-space: nowrap;
+}
+
+
+.media-unused {
+    font-size: 12px;
+    font-weight: 800;
+
+    color:
+        #766d64;
+}
+
+
+.media-file-ok {
+    font-weight: 800;
+
+    color:
+        #355a32;
+}
+
+
+.media-file-warning {
+    font-weight: 800;
+
+    color:
+        #9a3e35;
+}
+
+
+.media-file-external {
+    font-weight: 800;
+
+    color:
+        #6a5525;
+}
+
+
+.media-delete-button {
+    border-color:
+        #8d4038 !important;
+
+    color:
+        #8d4038 !important;
+
+    background:
+        #fff8f4 !important;
+}
+
+
+.media-delete-button:hover {
+    background:
+        #efd0c8 !important;
+
+    color:
+        #642b26 !important;
+}
+
+
+.media-delete-disabled {
+    display: inline-block;
+
+    font-size: 11px;
+    font-weight: 800;
+
+    color:
+        #7a7067;
+}
+
+
+@media (
+    max-width: 1000px
+) {
+
+    .media-summary-grid {
+        grid-template-columns:
+            repeat(
+                2,
+                minmax(0, 1fr)
+            );
+    }
+
+}
+
+
+@media (
+    max-width: 600px
+) {
+
+    .media-summary-grid {
+        grid-template-columns:
+            1fr;
+    }
+
+}
+/* =========================================================
+   MEDIA UPLOAD
+========================================================= */
+
+.media-upload-help {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px 14px;
+
+    margin-top: 14px;
+
+    padding: 12px 14px;
+
+    border:
+        1px dashed
+        #9a8c7d;
+
+    border-radius: 7px;
+
+    background:
+        #fffaf0;
+
+    font-size: 12px;
+
+    line-height: 1.5;
+}
+
+
+.media-upload-help strong {
+    width: 100%;
+}
+
+
+.media-upload-help span {
+    display: inline-block;
+}
+
+/* =========================================================
+   TẠO BÀI HỌC
+========================================================= */
+
+.lesson-create-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+
+/* =========================================================
+   SỬA BÀI HỌC
+========================================================= */
+
+.lesson-edit-button {
+    display: inline-block;
+
+    margin-bottom: 8px;
+}
+/* =========================================================
+   CHI TIẾT QUẢN LÝ BÀI HỌC
+========================================================= */
+
+.lesson-detail-breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-bottom: 14px;
+
+    font-size: 13px;
+}
+
+
+.lesson-detail-breadcrumb a {
+    color: inherit;
+    font-weight: 750;
+}
+
+
+.lesson-admin-hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 20px;
+
+    padding: 22px;
+
+    border:
+        1.5px solid
+        var(--border);
+
+    border-radius: 10px;
+
+    background:
+        #fffaf2;
+
+    box-shadow:
+        3px 4px 0
+        rgba(64, 56, 47, 0.16);
+}
+
+
+.lesson-admin-hero h1 {
+    margin:
+        6px
+        0
+        8px;
+}
+
+
+.lesson-admin-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-top: 12px;
+}
+
+
+.lesson-admin-tabs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 7px;
+
+    margin-top: 18px;
+
+    padding-bottom: 10px;
+
+    border-bottom:
+        1.5px solid
+        var(--border);
+}
+
+
+.lesson-admin-tab {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 7px;
+
+    min-height: 38px;
+
+    padding:
+        8px
+        13px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 7px;
+
+    background:
+        #fffaf2;
+
+    color: inherit;
+
+    font-size: 13px;
+    font-weight: 750;
+
+    text-decoration: none;
+}
+
+
+.lesson-admin-tab strong {
+    min-width: 21px;
+
+    padding:
+        1px
+        5px;
+
+    border-radius: 999px;
+
+    background:
+        #eee1bd;
+
+    text-align: center;
+
+    font-size: 11px;
+}
+
+
+.lesson-admin-tab.active {
+    background:
+        #f4cf72;
+
+    box-shadow:
+        2px 2px 0
+        rgba(64, 56, 47, 0.2);
+}
+
+
+.lesson-admin-tab.disabled {
+    cursor: default;
+
+    opacity: 0.65;
+}
+
+
+.lesson-content-summary {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            4,
+            minmax(0, 1fr)
+        );
+
+    gap: 12px;
+
+    margin-top: 16px;
+}
+
+
+.lesson-content-summary-card {
+    padding: 16px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 8px;
+
+    background:
+        #fffaf2;
+}
+
+
+.lesson-content-summary-card strong {
+    display: block;
+
+    margin-top: 5px;
+
+    font-size: 28px;
+}
+
+
+.lesson-content-summary-card p {
+    margin:
+        5px
+        0
+        0;
+
+    font-size: 12px;
+}
+
+
+.lesson-content-label {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+.lesson-overview-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            4,
+            minmax(0, 1fr)
+        );
+
+    gap: 12px;
+
+    margin-top: 15px;
+}
+
+
+.lesson-overview-item {
+    padding: 13px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 7px;
+
+    background:
+        #fffaf2;
+}
+
+
+.lesson-overview-item span {
+    display: block;
+
+    margin-bottom: 4px;
+
+    font-size: 11px;
+
+    color:
+        #74685e;
+}
+
+
+.lesson-overview-item strong {
+    font-size: 14px;
+}
+
+
+.lesson-manage-button {
+    margin-bottom: 8px;
+}
+
+
+@media (
+    max-width: 1000px
+) {
+
+    .lesson-content-summary,
+    .lesson-overview-grid {
+        grid-template-columns:
+            repeat(
+                2,
+                minmax(0, 1fr)
+            );
+    }
+
+}
+
+
+@media (
+    max-width: 650px
+) {
+
+    .lesson-admin-hero {
+        flex-direction: column;
+    }
+
+
+    .lesson-content-summary,
+    .lesson-overview-grid {
+        grid-template-columns:
+            1fr;
+    }
+
+}
+/* =========================================================
+   TỪ VỰNG TRONG BÀI HỌC
+========================================================= */
+
+.lesson-vocabulary-hanzi {
+    font-size: 22px;
+    line-height: 1.2;
+}
+/* =========================================================
+   TÌM VÀ GẮN TỪ VÀO BÀI
+========================================================= */
+
+.lesson-vocabulary-search {
+    display: grid;
+
+    grid-template-columns:
+        minmax(260px, 1fr)
+        auto;
+
+    gap: 12px;
+
+    align-items: end;
+
+    margin-top: 14px;
+}
+
+
+@media (
+    max-width: 700px
+) {
+
+    .lesson-vocabulary-search {
+        grid-template-columns:
+            1fr;
+    }
+
+}
+
+/* =========================================================
+   BỎ TỪ KHỎI BÀI
+========================================================= */
+
+.lesson-detach-button {
+    border-color:
+        #8d4038 !important;
+
+    color:
+        #8d4038 !important;
+
+    background:
+        #fff8f4 !important;
+}
+
+
+.lesson-detach-button:hover {
+    background:
+        #efd0c8 !important;
+
+    color:
+        #642b26 !important;
+}
+/* =========================================================
+   THỨ TỰ TỪ VỰNG TRONG BÀI
+========================================================= */
+
+.lesson-vocabulary-order-input {
+    width: 64px;
+
+    min-height: 36px;
+
+    padding:
+        6px
+        8px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 6px;
+
+    background:
+        #fffaf2;
+
+    text-align: center;
+
+    font-weight: 800;
+}
+
+
+.lesson-vocabulary-order-input:focus {
+    outline:
+        2px solid
+        #e6b94c;
+
+    outline-offset:
+        1px;
+}
+
+
+.lesson-order-notice {
+    margin-bottom: 14px;
+}
+/* =========================================================
+   NGỮ PHÁP TRONG BÀI HỌC
+========================================================= */
+
+.lesson-grammar-list {
+    display: grid;
+
+    gap: 14px;
+
+    margin-top: 16px;
+}
+
+
+.lesson-grammar-card {
+    padding: 18px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 8px;
+
+    background:
+        #fffaf2;
+}
+
+
+.lesson-grammar-card-header {
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 16px;
+
+    padding-bottom: 12px;
+
+    border-bottom:
+        1px dashed
+        #b8aa98;
+}
+
+
+.lesson-grammar-card-header > div {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.lesson-grammar-card-header h3 {
+    margin: 0;
+
+    font-size: 19px;
+}
+
+
+.lesson-grammar-order {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 50%;
+
+    background:
+        #f4cf72;
+
+    font-size: 12px;
+    font-weight: 900;
+}
+
+
+.lesson-grammar-section {
+    margin-top: 14px;
+}
+
+
+.lesson-grammar-section strong {
+    display: block;
+
+    margin-bottom: 5px;
+}
+
+
+.lesson-grammar-section p {
+    margin: 0;
+
+    line-height: 1.6;
+}
+
+
+.lesson-grammar-example {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+
+    margin-top: 14px;
+
+    padding: 12px 14px;
+
+    border:
+        1px solid
+        #c5b8a7;
+
+    border-radius: 7px;
+
+    background:
+        #fffdf7;
+}
+
+
+.lesson-grammar-example strong {
+    font-size: 17px;
+}
+
+
+.lesson-grammar-example span {
+    font-size: 13px;
+}
+
+
+.lesson-grammar-media {
+    margin-top: 12px;
+
+    font-size: 12px;
+}
+
+/* =========================================================
+   SỬA + ĐỔI THỨ TỰ NGỮ PHÁP
+========================================================= */
+
+.lesson-grammar-title-area {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+}
+
+
+.lesson-grammar-actions {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-end;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+
+.lesson-grammar-order-input {
+    width: 64px;
+
+    min-height: 36px;
+
+    padding:
+        6px
+        8px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 6px;
+
+    background:
+        #fffaf2;
+
+    text-align: center;
+
+    font-weight: 800;
+}
+
+
+.lesson-grammar-order-input:focus {
+    outline:
+        2px solid
+        #e6b94c;
+
+    outline-offset:
+        1px;
+}
+
+
+@media (
+    max-width: 700px
+) {
+
+    .lesson-grammar-card-header {
+        flex-direction: column;
+    }
+
+
+    .lesson-grammar-actions {
+        justify-content: flex-start;
+    }
+
+}
+/* =========================================================
+   TIÊU ĐỀ + THỨ TỰ NGỮ PHÁP TRONG BÀI
+========================================================= */
+
+.lesson-grammar-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 16px;
+}
+
+
+/* =========================================================
+   KHU VỰC BÊN TRÁI:
+   [THỨ TỰ] + [TÊN CẤU TRÚC]
+========================================================= */
+
+.lesson-grammar-title-area {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    flex: 1;
+
+    min-width: 0;
+}
+
+
+/* =========================================================
+   Ô THỨ TỰ
+
+   Quan trọng:
+   Không cho CSS input chung kéo thành width: 100%
+========================================================= */
+
+.lesson-grammar-title-area
+.lesson-grammar-order-input {
+    width: 64px !important;
+    min-width: 64px !important;
+    max-width: 64px !important;
+
+    height: 42px;
+
+    flex:
+        0
+        0
+        64px;
+
+    padding:
+        6px
+        8px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 6px;
+
+    background:
+        #fffaf2;
+
+    text-align: center;
+
+    font-weight: 800;
+}
+
+
+.lesson-grammar-title-area
+.lesson-grammar-order-input:focus {
+    outline:
+        2px solid
+        #e6b94c;
+
+    outline-offset:
+        1px;
+}
+
+
+/* =========================================================
+   TÊN CẤU TRÚC
+
+   Ví dụ:
+   A + 是 + B
+
+   Luôn ưu tiên hiển thị liền nhau.
+========================================================= */
+
+.lesson-grammar-title-area h3 {
+    display: block;
+
+    flex: 1;
+
+    width: auto;
+
+    min-width: 0;
+
+    margin: 0;
+
+    font-size: 20px;
+    line-height: 1.4;
+
+    white-space: nowrap;
+
+    word-break: keep-all;
+
+    overflow-wrap: normal;
+}
+
+
+/* =========================================================
+   TRẠNG THÁI + NÚT CHỈNH SỬA
+========================================================= */
+
+.lesson-grammar-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    flex-shrink: 0;
+
+    gap: 8px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (
+    max-width: 700px
+) {
+
+    .lesson-grammar-card-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+
+    .lesson-grammar-actions {
+        justify-content: flex-start;
+    }
+
+
+    .lesson-grammar-title-area h3 {
+        white-space: normal;
+    }
+
+}
+
+/* =========================================================
+   TRẠNG THÁI NGỮ PHÁP TRONG BÀI
+========================================================= */
+
+.lesson-grammar-status-form {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    margin: 0;
+}
+
+
+.lesson-grammar-status-select {
+    width: auto !important;
+
+    min-width: 125px;
+
+    min-height: 36px;
+
+    padding:
+        6px
+        30px
+        6px
+        9px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 6px;
+
+    background:
+        #fffaf2;
+
+    font-size: 12px;
+
+    font-weight: 700;
+}
+
+
+.lesson-grammar-status-form
+.small-button {
+    white-space: nowrap;
+}
+
+
+@media (
+    max-width: 850px
+) {
+
+    .lesson-grammar-actions {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+}
+
+/* =========================================================
+   CHỮ HÁN TRONG BÀI HỌC
+========================================================= */
+
+.lesson-hanzi-list {
+    display: grid;
+    gap: 14px;
+
+    margin-top: 16px;
+}
+
+
+.lesson-hanzi-card {
+    padding: 18px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 8px;
+
+    background:
+        #fffaf2;
+}
+
+
+.lesson-hanzi-card-header {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 16px;
+
+    padding-bottom: 12px;
+
+    border-bottom:
+        1px dashed
+        #b8aa98;
+}
+
+
+.lesson-hanzi-title-area {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    flex: 1;
+
+    min-width: 0;
+}
+
+
+.lesson-hanzi-character {
+    flex-shrink: 0;
+
+    font-size: 38px;
+    line-height: 1;
+}
+
+
+.lesson-hanzi-main-info {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 3px;
+}
+
+
+.lesson-hanzi-main-info strong {
+    font-size: 15px;
+}
+
+
+.lesson-hanzi-main-info span {
+    font-size: 13px;
+}
+
+
+.lesson-hanzi-order-input {
+    width: 64px !important;
+
+    min-width: 64px !important;
+    max-width: 64px !important;
+
+    height: 42px;
+
+    flex:
+        0
+        0
+        64px;
+
+    padding:
+        6px
+        8px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 6px;
+
+    background:
+        #fffaf2;
+
+    text-align: center;
+
+    font-weight: 800;
+}
+
+
+.lesson-hanzi-order-input:focus {
+    outline:
+        2px solid
+        #e6b94c;
+
+    outline-offset:
+        1px;
+}
+
+
+.lesson-hanzi-actions {
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-end;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    flex-shrink: 0;
+}
+
+
+.lesson-hanzi-status-form {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    margin: 0;
+}
+
+
+.lesson-hanzi-status-select {
+    width: auto !important;
+
+    min-width: 125px;
+
+    min-height: 36px;
+
+    padding:
+        6px
+        30px
+        6px
+        9px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 6px;
+
+    background:
+        #fffaf2;
+
+    font-size: 12px;
+
+    font-weight: 700;
+}
+
+
+.lesson-hanzi-info-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            2,
+            minmax(0, 1fr)
+        );
+
+    gap: 12px;
+
+    margin-top: 14px;
+}
+
+
+.lesson-hanzi-info-grid > div {
+    padding: 11px 13px;
+
+    border:
+        1px solid
+        #cbbfaf;
+
+    border-radius: 7px;
+
+    background:
+        #fffdf7;
+}
+
+
+.lesson-hanzi-info-grid span {
+    display: block;
+
+    margin-bottom: 4px;
+
+    font-size: 11px;
+
+    color:
+        #75695f;
+}
+
+
+.lesson-hanzi-section {
+    margin-top: 14px;
+}
+
+
+.lesson-hanzi-section > strong {
+    display: block;
+
+    margin-bottom: 5px;
+}
+
+
+.lesson-hanzi-section p {
+    margin: 0;
+
+    line-height: 1.6;
+}
+
+
+@media (
+    max-width: 900px
+) {
+
+    .lesson-hanzi-card-header {
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+
+    .lesson-hanzi-actions {
+        justify-content: flex-start;
+    }
+
+}
+
+
+@media (
+    max-width: 650px
+) {
+
+    .lesson-hanzi-info-grid {
+        grid-template-columns:
+            1fr;
+    }
+
+}
+/* =========================================================
+   QUẢN LÝ BÀI TẬP
+========================================================= */
+
+.exercise-status-form {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    margin-top: 8px;
+}
+
+
+.exercise-status-select {
+    width: auto !important;
+
+    min-width: 125px;
+
+    min-height: 36px;
+
+    padding:
+        6px
+        30px
+        6px
+        9px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 6px;
+
+    background:
+        #fffaf2;
+
+    font-size: 12px;
+
+    font-weight: 700;
+}
+
+
+.exercise-admin-table td {
+    vertical-align: top;
+}
+
+
+.exercise-admin-table
+.media-path {
+    max-width: 320px;
+
+    margin-top: 4px;
+
+    line-height: 1.5;
+}
+
+/* =========================================================
+   QUẢN LÝ CÂU HỎI
+========================================================= */
+
+.question-choice-block {
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+    padding: 16px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 8px;
+
+    background:
+        #fffaf2;
+}
+
+
+.question-choice-block h3 {
+    margin-top: 0;
+}
+
+
+.question-choice-row {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        auto;
+
+    gap: 14px;
+
+    align-items: end;
+
+    margin-bottom: 10px;
+}
+
+
+.question-correct-check {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    min-height: 42px;
+
+    white-space: nowrap;
+
+    font-weight: 700;
+}
+
+
+.question-correct-check input {
+    width: auto !important;
+}
+
+
+@media (
+    max-width: 700px
+) {
+
+    .question-choice-row {
+        grid-template-columns:
+            1fr;
+    }
+
+}
+
+/* =========================================================
+   QUẢN LÝ CÂU HỎI - HOÀN CHỈNH
+========================================================= */
+
+.question-type-panel[hidden] {
+    display: none !important;
+}
+
+
+.question-choice-block {
+    margin:
+        18px
+        0;
+
+    padding: 16px;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 8px;
+
+    background:
+        #fffaf2;
+}
+
+
+.question-choice-block h3 {
+    margin:
+        0
+        0
+        12px;
+}
+
+
+.question-choice-row {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        auto;
+
+    gap: 14px;
+
+    align-items: end;
+}
+
+
+.question-correct-check {
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    min-height: 42px;
+
+    margin-bottom: 14px;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+
+.question-correct-check input {
+    width: auto !important;
+}
+
+
+.question-admin-table td {
+    vertical-align: top;
+}
+
+
+.question-order-input {
+    width: 64px !important;
+
+    min-width: 64px !important;
+
+    max-width: 64px !important;
+
+    min-height: 38px;
+
+    padding:
+        6px
+        8px;
+
+    text-align: center;
+
+    font-weight: 800;
+
+    border:
+        1px solid
+        var(--border);
+
+    border-radius: 6px;
+
+    background:
+        #fffaf2;
+}
+
+
+.question-order-input:focus {
+    outline:
+        2px solid
+        #e6b94c;
+
+    outline-offset:
+        1px;
+}
+
+
+@media (
+    max-width: 700px
+) {
+
+    .question-choice-row {
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .question-correct-check {
+        margin-top: -4px;
+    }
+
+}
+
+/* =========================================================
+   MOC HAN - DUYET / XUAT BAN HOC LIEU HANG LOAT
+
+   Ap dung cho:
+   - Tu vung
+   - Ngu phap
+   - Chu Han
+========================================================= */
+
+.admin-content .bulk-publish-panel {
+    margin: 24px 0;
+    padding: 28px 30px;
+
+    background: #fffaf2;
+    border: 1.5px solid #51473d;
+    border-radius: 9px;
+
+    box-shadow: 3px 3px 0 rgba(65, 54, 43, 0.12);
+}
+
+/* Tieu de phan xuat ban */
+
+.bulk-publish-panel .materials-section-heading {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.bulk-publish-panel .eyebrow {
+    display: inline-block;
+    margin-bottom: 12px;
+
+    color: #bd4739;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.bulk-publish-panel .materials-section-heading h2,
+.bulk-publish-panel .admin-heading h2 {
+    margin: 0 0 8px;
+
+    color: #352d27;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+.bulk-publish-panel .materials-section-heading p,
+.bulk-publish-panel .admin-heading p {
+    max-width: 780px;
+    margin: 0;
+
+    color: #766a5e;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+/* Form xuat ban */
+
+.bulk-publish-form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+
+    margin-top: 25px;
+}
+
+/* Nut xuat ban hang loat */
+
+.admin-content .bulk-publish-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+
+    min-height: 46px;
+    padding: 12px 20px;
+
+    background: #39332e;
+    border: 1.5px solid #39332e;
+    border-radius: 8px;
+
+    box-shadow: 3px 3px 0 #cfc1ae;
+
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.4;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.admin-content .bulk-publish-button:hover {
+    background: #53483c;
+    border-color: #53483c;
+    color: #ffffff;
+
+    transform: translateY(-2px);
+    box-shadow: 4px 5px 0 #cfc1ae;
+}
+
+.admin-content .bulk-publish-button:active {
+    transform: translateY(1px);
+    box-shadow: 1px 1px 0 #cfc1ae;
+}
+
+.admin-content .bulk-publish-button:focus-visible {
+    outline: 3px solid #efc36e;
+    outline-offset: 3px;
+}
+
+.admin-content .bulk-publish-button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Chu thich phia duoi nut */
+
+.bulk-publish-note {
+    margin: 12px 0 0;
+
+    color: #897969;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .admin-content .bulk-publish-panel {
+        padding: 20px 16px;
+    }
+
+    .bulk-publish-panel .materials-section-heading h2,
+    .bulk-publish-panel .admin-heading h2 {
+        font-size: 20px;
+    }
+
+    .bulk-publish-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .admin-content .bulk-publish-button {
+        width: 100%;
+        text-align: center;
+    }
+
+}

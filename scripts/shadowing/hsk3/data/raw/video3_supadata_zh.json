@@ -1,0 +1,1652 @@
+{
+  "lang": "zh",
+  "availableLangs": [
+    "zh"
+  ],
+  "content": [
+    {
+      "lang": "zh",
+      "text": "大家好，欢迎收听每天中文。",
+      "offset": 7633,
+      "duration": 3300
+    },
+    {
+      "lang": "zh",
+      "text": "我是李明。",
+      "offset": 10966,
+      "duration": 1334
+    },
+    {
+      "lang": "zh",
+      "text": "大家好，我是王雨。",
+      "offset": 12333,
+      "duration": 1933
+    },
+    {
+      "lang": "zh",
+      "text": "很高兴又和大家见面了。",
+      "offset": 14300,
+      "duration": 2733
+    },
+    {
+      "lang": "zh",
+      "text": "是的，王雨，我们又见面了。",
+      "offset": 17066,
+      "duration": 2400
+    },
+    {
+      "lang": "zh",
+      "text": "我闻到你身上的味道了。",
+      "offset": 19500,
+      "duration": 1933
+    },
+    {
+      "lang": "zh",
+      "text": "味道？什么味道？",
+      "offset": 21466,
+      "duration": 2600
+    },
+    {
+      "lang": "zh",
+      "text": "我今天早上出门很着急，没有用香水。",
+      "offset": 24100,
+      "duration": 3933
+    },
+    {
+      "lang": "zh",
+      "text": "不是香水。",
+      "offset": 28066,
+      "duration": 1234
+    },
+    {
+      "lang": "zh",
+      "text": "是咖啡的味道。",
+      "offset": 29333,
+      "duration": 1867
+    },
+    {
+      "lang": "zh",
+      "text": "你今天早上一定喝咖啡了，对不对？",
+      "offset": 31233,
+      "duration": 2800
+    },
+    {
+      "lang": "zh",
+      "text": "(笑)，李明，你的鼻子真好！",
+      "offset": 34066,
+      "duration": 3600
+    },
+    {
+      "lang": "zh",
+      "text": "是的，我每天早上都要喝一杯咖啡。",
+      "offset": 37700,
+      "duration": 3766
+    },
+    {
+      "lang": "zh",
+      "text": "没有咖啡，我感觉一天都不能开始。",
+      "offset": 41500,
+      "duration": 3900
+    },
+    {
+      "lang": "zh",
+      "text": "你呢？你早上喝什么？",
+      "offset": 45433,
+      "duration": 3100
+    },
+    {
+      "lang": "zh",
+      "text": "我？我正好和你相反。",
+      "offset": 48566,
+      "duration": 2634
+    },
+    {
+      "lang": "zh",
+      "text": "我早上喜欢慢慢地泡一杯茶。",
+      "offset": 51233,
+      "duration": 3167
+    },
+    {
+      "lang": "zh",
+      "text": "茶的味道让我觉得很舒服，很安静。",
+      "offset": 54433,
+      "duration": 4267
+    },
+    {
+      "lang": "zh",
+      "text": "茶和咖啡，这真是一个有意思的话题。",
+      "offset": 58733,
+      "duration": 5100
+    },
+    {
+      "lang": "zh",
+      "text": "在中国，越来越多的人开始喜欢咖啡，",
+      "offset": 63866,
+      "duration": 4067
+    },
+    {
+      "lang": "zh",
+      "text": "但是茶有几千年的历史。",
+      "offset": 67966,
+      "duration": 3567
+    },
+    {
+      "lang": "zh",
+      "text": "说得对。",
+      "offset": 71566,
+      "duration": 1134
+    },
+    {
+      "lang": "zh",
+      "text": "所以，我们今天就来聊一聊这个话题吧：",
+      "offset": 72700,
+      "duration": 3566
+    },
+    {
+      "lang": "zh",
+      "text": "茶还是咖啡？",
+      "offset": 76300,
+      "duration": 2100
+    },
+    {
+      "lang": "zh",
+      "text": "你为什么选择它？",
+      "offset": 78433,
+      "duration": 2200
+    },
+    {
+      "lang": "zh",
+      "text": "好主意！",
+      "offset": 80666,
+      "duration": 1034
+    },
+    {
+      "lang": "zh",
+      "text": "我很想听听你为什么那么喜欢喝茶。",
+      "offset": 81733,
+      "duration": 3933
+    },
+    {
+      "lang": "zh",
+      "text": "我也想告诉你，咖啡的世界多么有意思！",
+      "offset": 85700,
+      "duration": 4233
+    },
+    {
+      "lang": "zh",
+      "text": "好的，那我们就从我们每个人的选择开始吧。",
+      "offset": 89966,
+      "duration": 3734
+    },
+    {
+      "lang": "zh",
+      "text": "好的，李明，你先说吧。",
+      "offset": 93733,
+      "duration": 2867
+    },
+    {
+      "lang": "zh",
+      "text": "你每天早上的“喝茶时间”是什么样的？",
+      "offset": 96633,
+      "duration": 3833
+    },
+    {
+      "lang": "zh",
+      "text": "我的早上很简单，也很慢。",
+      "offset": 100500,
+      "duration": 2966
+    },
+    {
+      "lang": "zh",
+      "text": "我一般早上七点起床。",
+      "offset": 103500,
+      "duration": 2500
+    },
+    {
+      "lang": "zh",
+      "text": "然后，我会先去厨房烧水。",
+      "offset": 106033,
+      "duration": 3367
+    },
+    {
+      "lang": "zh",
+      "text": "在等水开的时候，我会选今天要喝的茶。",
+      "offset": 109433,
+      "duration": 4367
+    },
+    {
+      "lang": "zh",
+      "text": "选茶？你有很多种茶吗？",
+      "offset": 113833,
+      "duration": 3467
+    },
+    {
+      "lang": "zh",
+      "text": "是的，我有绿茶，红茶，还有普洱茶。",
+      "offset": 117333,
+      "duration": 4767
+    },
+    {
+      "lang": "zh",
+      "text": "天气热的时候，我喜欢喝绿茶，感觉很清爽。",
+      "offset": 122133,
+      "duration": 4400
+    },
+    {
+      "lang": "zh",
+      "text": "天气冷的时候，我喜欢喝红茶，感觉很暖和。",
+      "offset": 126566,
+      "duration": 4367
+    },
+    {
+      "lang": "zh",
+      "text": "听起来很专业。然后呢？",
+      "offset": 130966.00000000001,
+      "duration": 3767
+    },
+    {
+      "lang": "zh",
+      "text": "水开了以后，我用热水先把我的茶杯和茶壶洗一下，让它们变热。",
+      "offset": 134766,
+      "duration": 6234
+    },
+    {
+      "lang": "zh",
+      "text": "然后把茶叶放进茶壶，倒进热水。",
+      "offset": 141033,
+      "duration": 3800
+    },
+    {
+      "lang": "zh",
+      "text": "等一两分钟，就可以喝了。",
+      "offset": 144866,
+      "duration": 2767
+    },
+    {
+      "lang": "zh",
+      "text": "哇，听你这么说，我觉得喝茶需要很多时间。",
+      "offset": 147666,
+      "duration": 6534
+    },
+    {
+      "lang": "zh",
+      "text": "是的，需要一点儿时间，但我不觉得这是浪费时间。",
+      "offset": 154233,
+      "duration": 4867
+    },
+    {
+      "lang": "zh",
+      "text": "在这个时间里，我可以什么都不想，只看着茶叶在水里慢慢打开。",
+      "offset": 159133,
+      "duration": 6367
+    },
+    {
+      "lang": "zh",
+      "text": "这个过程让我觉得很放松。",
+      "offset": 165533,
+      "duration": 2467
+    },
+    {
+      "lang": "zh",
+      "text": "然后，我会端着我的茶，坐在窗户旁边，一边喝茶，一边看书",
+      "offset": 168033,
+      "duration": 5800
+    },
+    {
+      "lang": "zh",
+      "text": "或者想一想今天要做的事情。",
+      "offset": 173866,
+      "duration": 2834
+    },
+    {
+      "lang": "zh",
+      "text": "太美好了。",
+      "offset": 176733,
+      "duration": 1533
+    },
+    {
+      "lang": "zh",
+      "text": "听起来像电影里的生活。",
+      "offset": 178300,
+      "duration": 3133
+    },
+    {
+      "lang": "zh",
+      "text": "我的早上和你完全不一样。",
+      "offset": 181466,
+      "duration": 3534
+    },
+    {
+      "lang": "zh",
+      "text": "哦？说来听听。",
+      "offset": 185033,
+      "duration": 1000
+    },
+    {
+      "lang": "zh",
+      "text": "你的“咖啡时间”是什么样的？",
+      "offset": 186066,
+      "duration": 3000
+    },
+    {
+      "lang": "zh",
+      "text": "我的早上可以用一个字来说，就是“快”！",
+      "offset": 189100,
+      "duration": 3366
+    },
+    {
+      "lang": "zh",
+      "text": "我一般七点半起床，然后洗脸，换衣服，",
+      "offset": 192500,
+      "duration": 5766
+    },
+    {
+      "lang": "zh",
+      "text": "八点就要出门。",
+      "offset": 198300,
+      "duration": 1666
+    },
+    {
+      "lang": "zh",
+      "text": "我没有时间在家里做咖啡。",
+      "offset": 200000,
+      "duration": 3000
+    },
+    {
+      "lang": "zh",
+      "text": "那你在哪里喝咖啡呢？",
+      "offset": 203033,
+      "duration": 2167
+    },
+    {
+      "lang": "zh",
+      "text": "我家楼下就有一个咖啡店。",
+      "offset": 205233,
+      "duration": 2600
+    },
+    {
+      "lang": "zh",
+      "text": "我每天出门的时候，都会去那里买一杯拿铁。",
+      "offset": 207866,
+      "duration": 4100
+    },
+    {
+      "lang": "zh",
+      "text": "我喜欢一边走路，一边喝咖啡。",
+      "offset": 212000,
+      "duration": 3666
+    },
+    {
+      "lang": "zh",
+      "text": "热的咖啡让我觉得很有精神。",
+      "offset": 215700,
+      "duration": 3266
+    },
+    {
+      "lang": "zh",
+      "text": "所以，你每天都去同一个咖啡店？",
+      "offset": 219000,
+      "duration": 4100
+    },
+    {
+      "lang": "zh",
+      "text": "对。那个咖啡店的店员都认识我了。",
+      "offset": 223133,
+      "duration": 2933
+    },
+    {
+      "lang": "zh",
+      "text": "他们看到我，就会问：“王小姐，今天还是一杯热拿铁吗？”",
+      "offset": 226100,
+      "duration": 6133
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得这样很亲切，也很快，很方便。",
+      "offset": 232266,
+      "duration": 4434
+    },
+    {
+      "lang": "zh",
+      "text": "我明白了。",
+      "offset": 236733,
+      "duration": 1100
+    },
+    {
+      "lang": "zh",
+      "text": "所以，我选择茶，是因为我喜欢早上的“慢”生活。",
+      "offset": 237866,
+      "duration": 4834
+    },
+    {
+      "lang": "zh",
+      "text": "你选择咖啡，是因为你需要“快”和方便。",
+      "offset": 242733,
+      "duration": 4367
+    },
+    {
+      "lang": "zh",
+      "text": "可以这么说。",
+      "offset": 247133,
+      "duration": 1433
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得咖啡和现在城市的生活很像，节奏很快。",
+      "offset": 248600,
+      "duration": 5900
+    },
+    {
+      "lang": "zh",
+      "text": "茶呢，更像是一种传统的生活方式，需要慢慢来。",
+      "offset": 254533,
+      "duration": 6667
+    },
+    {
+      "lang": "zh",
+      "text": "王雨，你刚才说，你喝咖啡是为了让自己有精神。",
+      "offset": 261233,
+      "duration": 5167
+    },
+    {
+      "lang": "zh",
+      "text": "除了这个，还有别的原因吗？",
+      "offset": 266433,
+      "duration": 2367
+    },
+    {
+      "lang": "zh",
+      "text": "你为什么那么喜欢咖啡？",
+      "offset": 268833,
+      "duration": 2333
+    },
+    {
+      "lang": "zh",
+      "text": "嗯，这是一个好问题。",
+      "offset": 271200,
+      "duration": 3000
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得，第一，我真的很喜欢咖啡的味道。",
+      "offset": 274233,
+      "duration": 5400
+    },
+    {
+      "lang": "zh",
+      "text": "苦苦的，但是又很香。",
+      "offset": 279666,
+      "duration": 3100
+    },
+    {
+      "lang": "zh",
+      "text": "特别是拿铁，里面有牛奶，所以味道更好。",
+      "offset": 282800,
+      "duration": 5500
+    },
+    {
+      "lang": "zh",
+      "text": "我喝过一次美式咖啡，太苦了，我不太喜欢。",
+      "offset": 288333,
+      "duration": 4633
+    },
+    {
+      "lang": "zh",
+      "text": "(笑)，美式咖啡是比较苦。",
+      "offset": 293000,
+      "duration": 3000
+    },
+    {
+      "lang": "zh",
+      "text": "你可以试试拿铁或者卡布奇诺。",
+      "offset": 296033,
+      "duration": 4133
+    },
+    {
+      "lang": "zh",
+      "text": "第二，就像我刚才说的，它能让我很快有精神，开始一天的工作。",
+      "offset": 300200,
+      "duration": 6366
+    },
+    {
+      "lang": "zh",
+      "text": "你知道，我的工作需要想很多新的东西，咖啡能帮助我。",
+      "offset": 306600,
+      "duration": 6033
+    },
+    {
+      "lang": "zh",
+      "text": "我理解。",
+      "offset": 312666,
+      "duration": 1600
+    },
+    {
+      "lang": "zh",
+      "text": "还有一个很重要的原因，我喜欢咖啡店的那个地方。",
+      "offset": 314300,
+      "duration": 5300
+    },
+    {
+      "lang": "zh",
+      "text": "周末的时候，我常常和朋友去咖啡店见面。",
+      "offset": 319633,
+      "duration": 4067
+    },
+    {
+      "lang": "zh",
+      "text": "你们在咖啡店做什么？",
+      "offset": 323733,
+      "duration": 2767
+    },
+    {
+      "lang": "zh",
+      "text": "聊天啊！",
+      "offset": 326533,
+      "duration": 933
+    },
+    {
+      "lang": "zh",
+      "text": "或者一起看书，",
+      "offset": 327466,
+      "duration": 1567
+    },
+    {
+      "lang": "zh",
+      "text": "用电脑工作。",
+      "offset": 329066,
+      "duration": 1767
+    },
+    {
+      "lang": "zh",
+      "text": "咖啡店的环境很好，有舒服的椅子，好听的音乐。",
+      "offset": 330866,
+      "duration": 5367
+    },
+    {
+      "lang": "zh",
+      "text": "大家都在那里做自己的事情，感觉很自由，也很舒服。",
+      "offset": 336266,
+      "duration": 6134
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得咖啡店现在是很多年轻人喜欢去的社交的地方。",
+      "offset": 342433,
+      "duration": 5033
+    },
+    {
+      "lang": "zh",
+      "text": "这倒是真的。",
+      "offset": 347500,
+      "duration": 1766
+    },
+    {
+      "lang": "zh",
+      "text": "现在北京、上海的街上，到处都是咖啡店。",
+      "offset": 349300,
+      "duration": 4766
+    },
+    {
+      "lang": "zh",
+      "text": "我有时候路过，也看到里面坐满了年轻人。",
+      "offset": 354100,
+      "duration": 3933
+    },
+    {
+      "lang": "zh",
+      "text": "那我问你，你觉得喝茶是老年人才做的事情吗？",
+      "offset": 358066,
+      "duration": 4900
+    },
+    {
+      "lang": "zh",
+      "text": "以前我可能会这么想。",
+      "offset": 363000,
+      "duration": 3233
+    },
+    {
+      "lang": "zh",
+      "text": "但是认识你以后，我觉得不是。",
+      "offset": 366266,
+      "duration": 3367
+    },
+    {
+      "lang": "zh",
+      "text": "你就不老，哈哈。",
+      "offset": 369666,
+      "duration": 934
+    },
+    {
+      "lang": "zh",
+      "text": "那你呢？",
+      "offset": 370633,
+      "duration": 1800
+    },
+    {
+      "lang": "zh",
+      "text": "李明，你为什么那么喜欢茶？",
+      "offset": 372466,
+      "duration": 3434
+    },
+    {
+      "lang": "zh",
+      "text": "只是因为它让你放松吗？",
+      "offset": 375933,
+      "duration": 2933
+    },
+    {
+      "lang": "zh",
+      "text": "放松是一个原因。",
+      "offset": 378900,
+      "duration": 1733
+    },
+    {
+      "lang": "zh",
+      "text": "还有一个很重要的原因，我觉得喝茶对身体好。",
+      "offset": 380666,
+      "duration": 4034
+    },
+    {
+      "lang": "zh",
+      "text": "对身体好？怎么说？",
+      "offset": 384733,
+      "duration": 2700
+    },
+    {
+      "lang": "zh",
+      "text": "很多书上都说，茶叶里有很多好的东西，可以帮助你的身体。",
+      "offset": 387466,
+      "duration": 5800
+    },
+    {
+      "lang": "zh",
+      "text": "比如，绿茶可以帮助你不容易老。",
+      "offset": 393300,
+      "duration": 3666
+    },
+    {
+      "lang": "zh",
+      "text": "当然，这个需要长时间喝才有用。",
+      "offset": 397000,
+      "duration": 3100
+    },
+    {
+      "lang": "zh",
+      "text": "但是，喝茶不加糖，不加奶，所以它没有很多热量，不会让你变胖。",
+      "offset": 400133,
+      "duration": 6033
+    },
+    {
+      "lang": "zh",
+      "text": "嗯，这倒是。",
+      "offset": 406200,
+      "duration": 2100
+    },
+    {
+      "lang": "zh",
+      "text": "我喝的拿铁里面有很多牛奶，热量可能不低。",
+      "offset": 408333,
+      "duration": 5967
+    },
+    {
+      "lang": "zh",
+      "text": "而且，我觉得喝茶是一种文化。",
+      "offset": 414333,
+      "duration": 3633
+    },
+    {
+      "lang": "zh",
+      "text": "茶在中国有几千年的历史了。",
+      "offset": 418000,
+      "duration": 2566
+    },
+    {
+      "lang": "zh",
+      "text": "古代的文人，他们都喜欢一边喝茶，一边写字、画画。",
+      "offset": 420600,
+      "duration": 5000
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得喝茶的时候，能感觉到这种中国文化。",
+      "offset": 425633,
+      "duration": 4833
+    },
+    {
+      "lang": "zh",
+      "text": "哇，你把喝茶说得这么有意思。",
+      "offset": 430500,
+      "duration": 4000
+    },
+    {
+      "lang": "zh",
+      "text": "我以前觉得喝茶就是喝一杯热的水。",
+      "offset": 434533,
+      "duration": 4567
+    },
+    {
+      "lang": "zh",
+      "text": "不一样的。",
+      "offset": 439133,
+      "duration": 1267
+    },
+    {
+      "lang": "zh",
+      "text": "不同的茶有不同的味道，需要用不同的水温、",
+      "offset": 440433,
+      "duration": 4333
+    },
+    {
+      "lang": "zh",
+      "text": "不同的时间去泡。",
+      "offset": 444800,
+      "duration": 1833
+    },
+    {
+      "lang": "zh",
+      "text": "这里面有很多知识。",
+      "offset": 446666,
+      "duration": 1700
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得研究这些知识，本身就是一件很有意思的事情。",
+      "offset": 448400,
+      "duration": 5500
+    },
+    {
+      "lang": "zh",
+      "text": "听起来，你真的很爱茶。",
+      "offset": 453933,
+      "duration": 3667
+    },
+    {
+      "lang": "zh",
+      "text": "就像我很爱咖啡一样。",
+      "offset": 457633,
+      "duration": 2767
+    },
+    {
+      "lang": "zh",
+      "text": "是的。",
+      "offset": 460433,
+      "duration": 767
+    },
+    {
+      "lang": "zh",
+      "text": "我们都找到了自己喜欢的饮料。",
+      "offset": 461233,
+      "duration": 3067
+    },
+    {
+      "lang": "zh",
+      "text": "李明，你刚才说，茶是中国几千年的文化。",
+      "offset": 464333,
+      "duration": 5867
+    },
+    {
+      "lang": "zh",
+      "text": "但是现在，我觉得在中国，咖啡也变得非常非常流行了。",
+      "offset": 470233,
+      "duration": 6467
+    },
+    {
+      "lang": "zh",
+      "text": "你觉得呢？",
+      "offset": 476733,
+      "duration": 933
+    },
+    {
+      "lang": "zh",
+      "text": "我完全同意。",
+      "offset": 477700,
+      "duration": 1666
+    },
+    {
+      "lang": "zh",
+      "text": "特别是这十年，中国的咖啡店开得越来越多。",
+      "offset": 479400,
+      "duration": 4300
+    },
+    {
+      "lang": "zh",
+      "text": "我父母那个时候，很少有人喝咖啡。",
+      "offset": 483733,
+      "duration": 3500
+    },
+    {
+      "lang": "zh",
+      "text": "他们觉得那个东西又黑又苦，不好喝。",
+      "offset": 487266,
+      "duration": 4934
+    },
+    {
+      "lang": "zh",
+      "text": "对，我妈妈也是。",
+      "offset": 492233,
+      "duration": 1967
+    },
+    {
+      "lang": "zh",
+      "text": "她来北京看我，我带她去咖啡店，她点了一杯拿铁，",
+      "offset": 494233,
+      "duration": 6000
+    },
+    {
+      "lang": "zh",
+      "text": "喝了一口就说：“这是什么？不好喝。”",
+      "offset": 500266,
+      "duration": 4834
+    },
+    {
+      "lang": "zh",
+      "text": "(笑)，我们的妈妈可能是一样的。",
+      "offset": 505100,
+      "duration": 2900
+    },
+    {
+      "lang": "zh",
+      "text": "但是你看，我们这一代，还有比我们更年轻的人，",
+      "offset": 508033,
+      "duration": 4800
+    },
+    {
+      "lang": "zh",
+      "text": "很多人都开始接受并且喜欢咖啡了。",
+      "offset": 512866,
+      "duration": 3934
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得这说明中国正在变得越来越开放，越来越国际化。",
+      "offset": 516832.99999999994,
+      "duration": 5467
+    },
+    {
+      "lang": "zh",
+      "text": "我们愿意去了解和接受别的国家的文化和生活方式。",
+      "offset": 522332.99999999994,
+      "duration": 5567
+    },
+    {
+      "lang": "zh",
+      "text": "我同意。",
+      "offset": 527933,
+      "duration": 1167
+    },
+    {
+      "lang": "zh",
+      "text": "咖啡店也成了一个新的社交空间。",
+      "offset": 529133,
+      "duration": 3467
+    },
+    {
+      "lang": "zh",
+      "text": "以前，人们和朋友见面，可能会去茶馆或者饭店。",
+      "offset": 532633,
+      "duration": 5467
+    },
+    {
+      "lang": "zh",
+      "text": "现在，很多人会说：“我们找个咖啡店坐坐吧。”",
+      "offset": 538133,
+      "duration": 4667
+    },
+    {
+      "lang": "zh",
+      "text": "是的。",
+      "offset": 542833,
+      "duration": 733
+    },
+    {
+      "lang": "zh",
+      "text": "但是，虽然咖啡很流行，",
+      "offset": 543566,
+      "duration": 3000
+    },
+    {
+      "lang": "zh",
+      "text": "茶在中国人心里的位置还是非常重要的。",
+      "offset": 546566,
+      "duration": 4367
+    },
+    {
+      "lang": "zh",
+      "text": "我的家里，来了客人，我爸爸妈妈第一件事就是给客人泡茶。",
+      "offset": 550933,
+      "duration": 5733
+    },
+    {
+      "lang": "zh",
+      "text": "对，这是中国的礼貌。",
+      "offset": 556666,
+      "duration": 2300
+    },
+    {
+      "lang": "zh",
+      "text": "是的。",
+      "offset": 559000,
+      "duration": 766
+    },
+    {
+      "lang": "zh",
+      "text": "用一杯好茶来欢迎朋友，",
+      "offset": 559766,
+      "duration": 2800
+    },
+    {
+      "lang": "zh",
+      "text": "表示我们对你的尊重和欢迎。",
+      "offset": 562600,
+      "duration": 3266
+    },
+    {
+      "lang": "zh",
+      "text": "而且，在中国南方的一些地方，喝茶是一种非常重要的生活习惯。",
+      "offset": 565900,
+      "duration": 6366
+    },
+    {
+      "lang": "zh",
+      "text": "比如广东，人们早上要去茶楼“喝早茶”。",
+      "offset": 572300,
+      "duration": 4500
+    },
+    {
+      "lang": "zh",
+      "text": "我听说过“喝早茶”！",
+      "offset": 576833,
+      "duration": 2333
+    },
+    {
+      "lang": "zh",
+      "text": "是不是可以一边喝茶，一边吃很多好吃的小点心？",
+      "offset": 579200,
+      "duration": 5366
+    },
+    {
+      "lang": "zh",
+      "text": "完全正确！",
+      "offset": 584600,
+      "duration": 1433
+    },
+    {
+      "lang": "zh",
+      "text": "“喝早茶”不只是喝茶，更重要的是和家人、朋友在一起，",
+      "offset": 586066,
+      "duration": 5834
+    },
+    {
+      "lang": "zh",
+      "text": "慢慢地吃东西，聊天。",
+      "offset": 591933,
+      "duration": 2533
+    },
+    {
+      "lang": "zh",
+      "text": "那是一种非常舒服的生活方式。",
+      "offset": 594500,
+      "duration": 2866
+    },
+    {
+      "lang": "zh",
+      "text": "真好，我以后一定要去广东试一试。",
+      "offset": 597400,
+      "duration": 4266
+    },
+    {
+      "lang": "zh",
+      "text": "说到茶的文化，我听说过一个词，叫“功夫茶”。",
+      "offset": 601700,
+      "duration": 5066
+    },
+    {
+      "lang": "zh",
+      "text": "这个“功夫”和我们说的中国功夫是一回事吗？",
+      "offset": 606800,
+      "duration": 4666
+    },
+    {
+      "lang": "zh",
+      "text": "(笑)，这是一个很好的问题！",
+      "offset": 611500,
+      "duration": 3266
+    },
+    {
+      "lang": "zh",
+      "text": "很多学习中文的朋友可能也会有这个疑问。",
+      "offset": 614800,
+      "duration": 4400
+    },
+    {
+      "lang": "zh",
+      "text": "这里的“功夫”，不是打架的那个功夫。",
+      "offset": 619233,
+      "duration": 3833
+    },
+    {
+      "lang": "zh",
+      "text": "在这里，“功夫”的意思是“时间和努力”。",
+      "offset": 623100,
+      "duration": 4533
+    },
+    {
+      "lang": "zh",
+      "text": "时间和努力？",
+      "offset": 627666,
+      "duration": 1534
+    },
+    {
+      "lang": "zh",
+      "text": "对。",
+      "offset": 629200,
+      "duration": 1000
+    },
+    {
+      "lang": "zh",
+      "text": "“功夫茶”的意思是，你需要用很多时间和心思，",
+      "offset": 630233,
+      "duration": 5767
+    },
+    {
+      "lang": "zh",
+      "text": "很认真地去泡一杯茶。",
+      "offset": 636033,
+      "duration": 2600
+    },
+    {
+      "lang": "zh",
+      "text": "它的茶具很小，茶杯也非常小，",
+      "offset": 638666,
+      "duration": 4934
+    },
+    {
+      "lang": "zh",
+      "text": "可能你一口就能喝完。",
+      "offset": 643633,
+      "duration": 3067
+    },
+    {
+      "lang": "zh",
+      "text": "泡茶的过程也比较复杂。",
+      "offset": 646733,
+      "duration": 2667
+    },
+    {
+      "lang": "zh",
+      "text": "为什么要那么麻烦呢？",
+      "offset": 649433,
+      "duration": 2000
+    },
+    {
+      "lang": "zh",
+      "text": "因为这个过程本身就是一种享受。",
+      "offset": 651466,
+      "duration": 4834
+    },
+    {
+      "lang": "zh",
+      "text": "大家坐在一起，看着一个人慢慢地洗茶具，",
+      "offset": 656333,
+      "duration": 5700
+    },
+    {
+      "lang": "zh",
+      "text": "泡茶，倒茶。",
+      "offset": 662066,
+      "duration": 2700
+    },
+    {
+      "lang": "zh",
+      "text": "这个过程很安静，能让人静下心来。",
+      "offset": 664800,
+      "duration": 4066
+    },
+    {
+      "lang": "zh",
+      "text": "这是一种非常传统的社交方式，和朋友一起喝“功夫茶”，",
+      "offset": 668900,
+      "duration": 5733
+    },
+    {
+      "lang": "zh",
+      "text": "可以聊很长时间。",
+      "offset": 674666,
+      "duration": 1800
+    },
+    {
+      "lang": "zh",
+      "text": "我明白了。",
+      "offset": 676500,
+      "duration": 1200
+    },
+    {
+      "lang": "zh",
+      "text": "所以“功夫茶”的重点不是喝，而是那个过程和在一起聊天的时间。",
+      "offset": 677733,
+      "duration": 6367
+    },
+    {
+      "lang": "zh",
+      "text": "这真是一个很有意思的文化。",
+      "offset": 684133,
+      "duration": 2133
+    },
+    {
+      "lang": "zh",
+      "text": "是的。",
+      "offset": 686300,
+      "duration": 1100
+    },
+    {
+      "lang": "zh",
+      "text": "所以你看，咖啡代表着一种新的、国际化的、",
+      "offset": 687400,
+      "duration": 5500
+    },
+    {
+      "lang": "zh",
+      "text": "快节奏的社交方式。",
+      "offset": 692933,
+      "duration": 2433
+    },
+    {
+      "lang": "zh",
+      "text": "而茶，特别是像功夫茶这样的，代表着一种传统的、",
+      "offset": 695400,
+      "duration": 5466
+    },
+    {
+      "lang": "zh",
+      "text": "安静的、慢节奏的社交方式。",
+      "offset": 700900,
+      "duration": 3400
+    },
+    {
+      "lang": "zh",
+      "text": "这两种方式现在都在中国存在，我觉得非常好。",
+      "offset": 704333,
+      "duration": 4567
+    },
+    {
+      "lang": "zh",
+      "text": "李明，今天和你聊了这么多关于茶和咖啡的事情，我学到了很多。",
+      "offset": 708933,
+      "duration": 6767
+    },
+    {
+      "lang": "zh",
+      "text": "我也很开心。",
+      "offset": 715733,
+      "duration": 1700
+    },
+    {
+      "lang": "zh",
+      "text": "其实，王雨，我觉得喝茶、喝咖啡",
+      "offset": 717466,
+      "duration": 3734
+    },
+    {
+      "lang": "zh",
+      "text": "和我们学习中文，也有一些像的地方。",
+      "offset": 721233,
+      "duration": 3133
+    },
+    {
+      "lang": "zh",
+      "text": "哦？怎么说？这个很有意思。",
+      "offset": 724366,
+      "duration": 2800
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得，学习中文的过程，就像泡一杯功夫茶。",
+      "offset": 727200,
+      "duration": 5000
+    },
+    {
+      "lang": "zh",
+      "text": "像泡功夫茶？为什么？",
+      "offset": 732233,
+      "duration": 1567
+    },
+    {
+      "lang": "zh",
+      "text": "你想，泡功夫茶，你需要耐心，你需要时间，",
+      "offset": 733833,
+      "duration": 6433
+    },
+    {
+      "lang": "zh",
+      "text": "需要一步一步地做，不能着急。",
+      "offset": 740300,
+      "duration": 3700
+    },
+    {
+      "lang": "zh",
+      "text": "你着急，水太热，茶就不好喝了。",
+      "offset": 744033,
+      "duration": 3733
+    },
+    {
+      "lang": "zh",
+      "text": "你时间太短，茶的味道出不来。",
+      "offset": 747800,
+      "duration": 3366
+    },
+    {
+      "lang": "zh",
+      "text": "学习中文不也是这样吗？",
+      "offset": 751200,
+      "duration": 1900
+    },
+    {
+      "lang": "zh",
+      "text": "我好像有点儿明白了。",
+      "offset": 753133,
+      "duration": 1733
+    },
+    {
+      "lang": "zh",
+      "text": "你不能希望今天学习，明天中文就变得非常好。",
+      "offset": 754900,
+      "duration": 4366
+    },
+    {
+      "lang": "zh",
+      "text": "你需要每天都花一点儿时间，就像每天洗茶具、",
+      "offset": 759300,
+      "duration": 5333
+    },
+    {
+      "lang": "zh",
+      "text": "烧水、泡茶一样。",
+      "offset": 764666,
+      "duration": 2400
+    },
+    {
+      "lang": "zh",
+      "text": "今天记五个汉字，明天练习一个句子。",
+      "offset": 767100,
+      "duration": 4000
+    },
+    {
+      "lang": "zh",
+      "text": "每天都做一点儿，慢慢地，时间长了，",
+      "offset": 771133,
+      "duration": 3867
+    },
+    {
+      "lang": "zh",
+      "text": "你的中文“茶”才能泡出好的味道。",
+      "offset": 775033,
+      "duration": 3800
+    },
+    {
+      "lang": "zh",
+      "text": "这就是“功夫”。",
+      "offset": 778866,
+      "duration": 1567
+    },
+    {
+      "lang": "zh",
+      "text": "你这个比喻太好了！",
+      "offset": 780466,
+      "duration": 2033.9999999999998
+    },
+    {
+      "lang": "zh",
+      "text": "学中文真的需要“功夫”。",
+      "offset": 782533,
+      "duration": 2967
+    },
+    {
+      "lang": "zh",
+      "text": "有时候，我真的觉得很着急。",
+      "offset": 785533,
+      "duration": 3500
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得自己学了这么长时间，为什么还是说得不好，听得不懂。",
+      "offset": 789066,
+      "duration": 6900
+    },
+    {
+      "lang": "zh",
+      "text": "我就希望自己能快一点儿，再快一点儿。",
+      "offset": 796000,
+      "duration": 3700
+    },
+    {
+      "lang": "zh",
+      "text": "我非常理解。",
+      "offset": 799733,
+      "duration": 1733
+    },
+    {
+      "lang": "zh",
+      "text": "每个学习中文的人，可能都有这个时候。",
+      "offset": 801500,
+      "duration": 3533
+    },
+    {
+      "lang": "zh",
+      "text": "会觉得很累，看不到自己的进步。",
+      "offset": 805066,
+      "duration": 3434
+    },
+    {
+      "lang": "zh",
+      "text": "对！就是这种感觉！",
+      "offset": 808533,
+      "duration": 2533
+    },
+    {
+      "lang": "zh",
+      "text": "我希望学习中文能像喝咖啡一样，喝下去，马上就有精神，",
+      "offset": 811100,
+      "duration": 6800
+    },
+    {
+      "lang": "zh",
+      "text": "马上就能看到效果。",
+      "offset": 817933,
+      "duration": 2533
+    },
+    {
+      "lang": "zh",
+      "text": "但是我知道，这是不可能的。",
+      "offset": 820500,
+      "duration": 3533
+    },
+    {
+      "lang": "zh",
+      "text": "李明，你有什么好的建议吗？",
+      "offset": 824066,
+      "duration": 2967
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得，当你觉得着急的时候，不要对自己太严格。",
+      "offset": 827066,
+      "duration": 5400
+    },
+    {
+      "lang": "zh",
+      "text": "你可以休息一下。",
+      "offset": 832500,
+      "duration": 1766
+    },
+    {
+      "lang": "zh",
+      "text": "或者，换一种学习方法。",
+      "offset": 834300,
+      "duration": 2700
+    },
+    {
+      "lang": "zh",
+      "text": "比如，你一直看书，觉得很没有意思，那你可以试着去看一个",
+      "offset": 837033,
+      "duration": 5000
+    },
+    {
+      "lang": "zh",
+      "text": "简单的中国电影，或者听一首中文歌。",
+      "offset": 842066,
+      "duration": 4700
+    },
+    {
+      "lang": "zh",
+      "text": "嗯，这是个好办法。",
+      "offset": 846800,
+      "duration": 1800
+    },
+    {
+      "lang": "zh",
+      "text": "最重要的是，要相信“功夫”的力量。",
+      "offset": 848633,
+      "duration": 3533
+    },
+    {
+      "lang": "zh",
+      "text": "要相信，你每天花的时间和努力，都不会浪费。",
+      "offset": 852200,
+      "duration": 4866
+    },
+    {
+      "lang": "zh",
+      "text": "就像泡茶一样，你做的每一步，最后都会影响茶的味道。",
+      "offset": 857100,
+      "duration": 5933
+    },
+    {
+      "lang": "zh",
+      "text": "所以，别着急，慢慢来。享受学习中文这个过程，",
+      "offset": 863066,
+      "duration": 5200
+    },
+    {
+      "lang": "zh",
+      "text": "就像享受泡茶的过程一样。",
+      "offset": 868300,
+      "duration": 2766
+    },
+    {
+      "lang": "zh",
+      "text": "谢谢你，李明。",
+      "offset": 871100,
+      "duration": 1500
+    },
+    {
+      "lang": "zh",
+      "text": "听你这么说，我感觉好多了。",
+      "offset": 872633,
+      "duration": 3367
+    },
+    {
+      "lang": "zh",
+      "text": "我以后会把学中文当成是为自己泡一杯“功夫茶”。",
+      "offset": 876033,
+      "duration": 5433
+    },
+    {
+      "lang": "zh",
+      "text": "需要耐心，也需要享受这个过程。",
+      "offset": 881500,
+      "duration": 3533
+    },
+    {
+      "lang": "zh",
+      "text": "对。我们可以选择",
+      "offset": 885033,
+      "duration": 2367
+    },
+    {
+      "lang": "zh",
+      "text": "像喝咖啡一样，快速地生活。",
+      "offset": 887433,
+      "duration": 3233
+    },
+    {
+      "lang": "zh",
+      "text": "但我们也需要像喝茶一样，给自己一些慢下来的时间，",
+      "offset": 890700,
+      "duration": 5666
+    },
+    {
+      "lang": "zh",
+      "text": "特别是在学习的时候。",
+      "offset": 896400,
+      "duration": 1833
+    },
+    {
+      "lang": "zh",
+      "text": "说得太好了。",
+      "offset": 898266,
+      "duration": 1800
+    },
+    {
+      "lang": "zh",
+      "text": "好了，今天我们聊了很多关于茶和咖啡的话题，时间也差不多了。",
+      "offset": 900100,
+      "duration": 6666
+    },
+    {
+      "lang": "zh",
+      "text": "是啊，时间过得真快。",
+      "offset": 906800,
+      "duration": 2600
+    },
+    {
+      "lang": "zh",
+      "text": "今天我们聊了茶和咖啡。",
+      "offset": 909433,
+      "duration": 3833
+    },
+    {
+      "lang": "zh",
+      "text": "王雨喜欢咖啡，因为它代表着一种快速、现代的生活方式，而且",
+      "offset": 913300,
+      "duration": 6666
+    },
+    {
+      "lang": "zh",
+      "text": "咖啡店也是一个很好的社交空间。",
+      "offset": 920000,
+      "duration": 3233
+    },
+    {
+      "lang": "zh",
+      "text": "我喜欢茶，因为它对身体好，也代表着一种慢下来、",
+      "offset": 923266,
+      "duration": 5900
+    },
+    {
+      "lang": "zh",
+      "text": "享受过程的中国传统文化。",
+      "offset": 929200,
+      "duration": 2766
+    },
+    {
+      "lang": "zh",
+      "text": "对！最重要的是，我们发现，",
+      "offset": 931966,
+      "duration": 2700
+    },
+    {
+      "lang": "zh",
+      "text": "学中文就像泡一杯中国的“功夫茶”。",
+      "offset": 934700,
+      "duration": 4500
+    },
+    {
+      "lang": "zh",
+      "text": "它需要时间，需要耐心，需要我们享受这个过程，",
+      "offset": 939233,
+      "duration": 5567
+    },
+    {
+      "lang": "zh",
+      "text": "而不是只想着要一个快速的结果。",
+      "offset": 944833,
+      "duration": 3033
+    },
+    {
+      "lang": "zh",
+      "text": "对！",
+      "offset": 947900,
+      "duration": 733
+    },
+    {
+      "lang": "zh",
+      "text": "如果大家想看我们今天聊天的完整文本，",
+      "offset": 948633,
+      "duration": 4267
+    },
+    {
+      "lang": "zh",
+      "text": "可以去我们的博客看看。",
+      "offset": 952933,
+      "duration": 2267
+    },
+    {
+      "lang": "zh",
+      "text": "我们的博客地址是",
+      "offset": 955233,
+      "duration": 1800
+    },
+    {
+      "lang": "zh",
+      "text": " chinesedailypodcast.blogspot.com。",
+      "offset": 957033,
+      "duration": 4167
+    },
+    {
+      "lang": "zh",
+      "text": "是的，欢迎大家去看一看。",
+      "offset": 961200,
+      "duration": 2466
+    },
+    {
+      "lang": "zh",
+      "text": "那听众朋友们，你们呢？",
+      "offset": 963700,
+      "duration": 1400
+    },
+    {
+      "lang": "zh",
+      "text": "你们喜欢喝茶还是喝咖啡？",
+      "offset": 965133,
+      "duration": 4233
+    },
+    {
+      "lang": "zh",
+      "text": "或者，你觉得学习中文更像什么呢？",
+      "offset": 969400,
+      "duration": 3300
+    },
+    {
+      "lang": "zh",
+      "text": "请在我们的博客下面留言告诉我们吧！",
+      "offset": 972733,
+      "duration": 3433
+    },
+    {
+      "lang": "zh",
+      "text": "我们很想听听你们的故事。",
+      "offset": 976200,
+      "duration": 2233
+    },
+    {
+      "lang": "zh",
+      "text": "好的，今天的每天中文就到这里。",
+      "offset": 978466,
+      "duration": 3834
+    },
+    {
+      "lang": "zh",
+      "text": "感谢大家的收听。",
+      "offset": 982333,
+      "duration": 1500
+    },
+    {
+      "lang": "zh",
+      "text": "我是王雨。",
+      "offset": 983866,
+      "duration": 1134
+    },
+    {
+      "lang": "zh",
+      "text": "我是李明。",
+      "offset": 985033,
+      "duration": 767
+    },
+    {
+      "lang": "zh",
+      "text": "我们下次再见！再见！",
+      "offset": 985833,
+      "duration": 1900
+    }
+  ]
+}

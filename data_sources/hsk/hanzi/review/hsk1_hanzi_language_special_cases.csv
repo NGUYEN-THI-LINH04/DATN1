@@ -1,0 +1,7 @@
+﻿KyTu,LoaiTruongHop,PinyinNguon,PinyinTuVung,PinyinChuHanHienTai,NghiaVietTuVung,NghiaChuHanHienTai,BaiXuatHienDau,TuVungDauTien,CanXuLy
+呢,NHIEU_CACH_DOC_NGUON,né | ne,ne,ne,trợ từ hỏi lại hoặc tiếp nối chủ đề,trợ từ dùng để hỏi lại hoặc tiếp nối,1,呢,REVIEW_PINYIN
+了,NHIEU_CACH_DOC_NGUON,le | liǎo,le,,rồi; đã,,20,了,REVIEW_PINYIN
+干,NHIEU_TUVUNG_DON,gàn,gān | gàn,,khô || làm; làm việc,,9,干,REVIEW_NHIEU_MUC
+地,NHIEU_TUVUNG_DON,de,de | dì,,trợ từ nối trạng ngữ với động từ || đất; mặt đất,,12,地上,REVIEW_NHIEU_MUC
+还,NHIEU_TUVUNG_DON,hái,hái | huán,,vẫn; còn || trả lại; hoàn lại,,20,还,REVIEW_NHIEU_MUC
+识,PINYIN_CHUHAN_KHONG_EXACT,shí,,shi,,biết; nhận biết,1,认识,REVIEW_CHUHAN_HIEN_CO

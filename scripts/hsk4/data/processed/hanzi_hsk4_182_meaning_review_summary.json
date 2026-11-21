@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "buoc": "20C",
+  "tong_review": 182,
+  "co_de_xuat_cvdict": 60,
+  "van_thieu_nghia": 122,
+  "pinyin_can_review_trong_182": 4,
+  "cvdict_status_counts": {
+    "KHONG_TIM_THAY_CHU_TRONG_CVDICT": 95,
+    "CVDICT_KHOP_PINYIN_1_MUC_CAN_DUYET": 60,
+    "NHIEU_MUC_CUNG_PINYIN": 22,
+    "CO_CHU_NHUNG_KHONG_KHOP_PINYIN": 2,
+    "CHUA_CO_PINYIN_DE_DOI_CHIEU": 3
+  },
+  "source_20B": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\hanzi_hsk4_300_cvdict_rebuilt.csv",
+  "source_20B_sha256": "6c6530445117477bb27a2222fd358f30ee74f9c6ee54c3b9bbf65a00c8f68712",
+  "source_19": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\hanzi_hsk4_300_enriched_sources.csv",
+  "source_19_sha256": "5f85c0e6c74693e7a411e5e8531cad824ff2742a70e2e4933a089847ada45c8d",
+  "output": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\hanzi_hsk4_182_meaning_review_pack.csv",
+  "output_sha256": "3100eaa9b0e192fb3a174fb00e39803157dde58f518d7e01b03472c974211fe7",
+  "da_review": false,
+  "ghi_sql": false,
+  "gan_bai_hoc": false,
+  "tao_audio": false
+}

@@ -1,0 +1,2197 @@
+{
+  "module": "shadowing",
+  "youtube_id": "Q1FO6dr5T_Y",
+  "sentences": [
+    {
+      "start": 6.4,
+      "end": 11.09,
+      "hanzi": "大家好，欢迎收听新一期的“每天中文”。",
+      "pinyin": "dà jiā hǎo huān yíng shōu tīng xīn yī qī de měi tiān zhōng wén",
+      "vi": "Xin chào mọi người, chào mừng đến với số mới của chương trình \"Tiếng Trung mỗi ngày\"."
+    },
+    {
+      "start": 11.1,
+      "end": 12.156,
+      "hanzi": "我是李明。",
+      "pinyin": "wǒ shì lǐ míng",
+      "vi": "Tôi là Lý Minh."
+    },
+    {
+      "start": 12.166,
+      "end": 14.29,
+      "hanzi": "大家好，我是王雨。",
+      "pinyin": "dà jiā hǎo wǒ shì wáng yǔ",
+      "vi": "Xin chào mọi người, tôi là Vương Vũ."
+    },
+    {
+      "start": 14.3,
+      "end": 17.89,
+      "hanzi": "李明，你看我新买的手机壳，好看吗？",
+      "pinyin": "lǐ míng nǐ kàn wǒ xīn mǎi de shǒu jī ké hǎo kàn ma",
+      "vi": "Lý Minh, nhìn chiếc ốp điện thoại tôi mới mua này, có đẹp không?"
+    },
+    {
+      "start": 17.9,
+      "end": 22.323,
+      "hanzi": "嗯，很好看，是蓝色的，上面还有一只猫。",
+      "pinyin": "ń hěn hǎo kàn shì lán sè de shàng miàn hái yǒu yī zhī māo",
+      "vi": "Ừm, đẹp đấy, màu xanh lam, bên trên còn có một con mèo."
+    },
+    {
+      "start": 22.333,
+      "end": 26.39,
+      "hanzi": "很可爱。你今天好像一直在看手机，",
+      "pinyin": "hěn kě ài nǐ jīn tiān hǎo xiàng yì zhí zài kàn shǒu jī",
+      "vi": "Dễ thương thật. Hôm nay hình như bạn cứ xem điện thoại suốt,"
+    },
+    {
+      "start": 26.4,
+      "end": 28.456,
+      "hanzi": "有什么有意思的事情吗？",
+      "pinyin": "yǒu shén me yǒu yì si de shì qíng ma",
+      "vi": "có chuyện gì thú vị à?"
+    },
+    {
+      "start": 28.466,
+      "end": 30.79,
+      "hanzi": "(笑)，被你发现了。",
+      "pinyin": "xiào bèi nǐ fā xiàn le",
+      "vi": "[Cười] Bị bạn phát hiện rồi."
+    },
+    {
+      "start": 30.8,
+      "end": 33.856,
+      "hanzi": "我刚才在看朋友们发的朋友圈。",
+      "pinyin": "wǒ gāng cái zài kàn péng yǒu men fā de péng yǒu quān",
+      "vi": "Vừa rồi tôi đang xem những bài đăng của bạn bè trên WeChat."
+    },
+    {
+      "start": 33.866,
+      "end": 38.723,
+      "hanzi": "我的一个朋友去了云南旅游，照片非常漂亮。",
+      "pinyin": "wǒ de yí gè péng yǒu qù le yún nán lǚ yóu zhào piān fēi cháng piào liàng",
+      "vi": "Một người bạn của tôi đi du lịch Vân Nam, ảnh chụp rất đẹp."
+    },
+    {
+      "start": 38.733,
+      "end": 42.59,
+      "hanzi": "还有一个朋友，她做的蛋糕看起来太好吃了！",
+      "pinyin": "hái yǒu yí gè péng yǒu tā zuò de dàn gāo kàn qǐ lái tài hǎo chī le",
+      "vi": "Còn một người bạn khác làm bánh trông ngon quá!"
+    },
+    {
+      "start": 42.6,
+      "end": 43.956,
+      "hanzi": "我也想学。",
+      "pinyin": "wǒ yě xiǎng xué",
+      "vi": "Tôi cũng muốn học làm."
+    },
+    {
+      "start": 43.966,
+      "end": 45.723,
+      "hanzi": "听起来很不错。",
+      "pinyin": "tīng qǐ lái hěn bú cuò",
+      "vi": "Nghe thú vị đấy."
+    },
+    {
+      "start": 45.733,
+      "end": 46.456,
+      "hanzi": "现在，",
+      "pinyin": "xiàn zài",
+      "vi": "Bây giờ,"
+    },
+    {
+      "start": 46.466,
+      "end": 49.49,
+      "hanzi": "我们的生活好像真的离不开手机，",
+      "pinyin": "wǒ men de shēng huó hǎo xiàng zhēn de lí bù kāi shǒu jī",
+      "vi": "cuộc sống của chúng ta dường như thật sự không thể thiếu điện thoại,"
+    },
+    {
+      "start": 49.5,
+      "end": 51.79,
+      "hanzi": "也离不开社交媒体了。",
+      "pinyin": "yě lí bù kāi shè jiāo méi tǐ le",
+      "vi": "và cũng không thể thiếu mạng xã hội nữa."
+    },
+    {
+      "start": 51.8,
+      "end": 56.323,
+      "hanzi": "每天早上起来第一件事，很多人都是先看手机。",
+      "pinyin": "měi tiān zǎo shàng qǐ lái dì yī jiàn shì hěn duō rén dōu shì xiān kàn shǒu jī",
+      "vi": "Mỗi sáng thức dậy, việc đầu tiên của nhiều người là xem điện thoại."
+    },
+    {
+      "start": 56.333,
+      "end": 58.356,
+      "hanzi": "对啊！我就是这样。",
+      "pinyin": "duì a wǒ jiù shì zhè yàng",
+      "vi": "Đúng vậy! Tôi cũng thế."
+    },
+    {
+      "start": 58.366,
+      "end": 60.556,
+      "hanzi": "我觉得社交媒体很有意思，",
+      "pinyin": "wǒ jué de shè jiāo méi tǐ hěn yǒu yì si",
+      "vi": "Tôi thấy mạng xã hội rất thú vị,"
+    },
+    {
+      "start": 60.566,
+      "end": 62.89,
+      "hanzi": "可以看到朋友们在做什么，",
+      "pinyin": "kě yǐ kàn dào péng yǒu men zài zuò shén me",
+      "vi": "có thể biết bạn bè đang làm gì,"
+    },
+    {
+      "start": 62.9,
+      "end": 66.323,
+      "hanzi": "还可以知道很多新闻和好玩儿的事。",
+      "pinyin": "hái kě yǐ zhī dào hěn duō xīn wén hé hǎo wán ér de shì",
+      "vi": "còn có thể biết nhiều tin tức và những chuyện vui."
+    },
+    {
+      "start": 66.333,
+      "end": 69.523,
+      "hanzi": "是的，它给我们带来了很多方便。",
+      "pinyin": "shì de tā gěi wǒ men dài lái le hěn duō fāng biàn",
+      "vi": "Đúng vậy, nó mang lại cho chúng ta rất nhiều tiện ích."
+    },
+    {
+      "start": 69.533,
+      "end": 71.89,
+      "hanzi": "但是，有时候我也会觉得，",
+      "pinyin": "dàn shì yǒu shí hòu wǒ yě huì jué de",
+      "vi": "Nhưng đôi khi tôi cũng cảm thấy"
+    },
+    {
+      "start": 71.9,
+      "end": 74.756,
+      "hanzi": "社交媒体也带来了一些问题。",
+      "pinyin": "shè jiāo méi tǐ yě dài lái le yī xiē wèn tí",
+      "vi": "mạng xã hội mang đến một số vấn đề."
+    },
+    {
+      "start": 74.766,
+      "end": 77.923,
+      "hanzi": "它改变了我们的生活，有好的一面，",
+      "pinyin": "tā gǎi biàn le wǒ men de shēng huó yǒu hǎo de yí miàn",
+      "vi": "Nó đã thay đổi cuộc sống của chúng ta, có mặt tốt,"
+    },
+    {
+      "start": 77.933,
+      "end": 79.79,
+      "hanzi": "可能也有不好的一面。",
+      "pinyin": "kě néng yě yǒu bù hǎo de yí miàn",
+      "vi": "nhưng có lẽ cũng có mặt không tốt."
+    },
+    {
+      "start": 79.8,
+      "end": 82.09,
+      "hanzi": "嗯，你说的有道理。",
+      "pinyin": "ń nǐ shuō de yǒu dào lǐ",
+      "vi": "Ừm, bạn nói có lý."
+    },
+    {
+      "start": 82.1,
+      "end": 84.19,
+      "hanzi": "那，不如我们今天就来聊一聊",
+      "pinyin": "nà bù rú wǒ men jīn tiān jiù lái liáo yī liáo",
+      "vi": "Vậy hay hôm nay chúng ta cùng trò chuyện về"
+    },
+    {
+      "start": 84.2,
+      "end": 88.556,
+      "hanzi": "这个话题吧:社交媒体和我们的现代生活。",
+      "pinyin": "zhè ge huà tí ba shè jiāo méi tǐ hé wǒ men de xiàn dài shēng huó",
+      "vi": "chủ đề này nhé: mạng xã hội và cuộc sống hiện đại."
+    },
+    {
+      "start": 88.566,
+      "end": 91.523,
+      "hanzi": "好主意。这是一个我们每个人每",
+      "pinyin": "hǎo zhǔ yì zhè shì yí gè wǒ men měi gè rén měi",
+      "vi": "Ý kiến hay đấy. Đây là chủ đề mà mỗi chúng ta"
+    },
+    {
+      "start": 91.533,
+      "end": 93.49,
+      "hanzi": "天都在经历的话题。",
+      "pinyin": "tiān dōu zài jīng lì de huà tí",
+      "vi": "đều trải nghiệm hằng ngày."
+    },
+    {
+      "start": 93.5,
+      "end": 94.856,
+      "hanzi": "我们可以分享一下",
+      "pinyin": "wǒ men kě yǐ fēn xiǎng yī xià",
+      "vi": "Chúng ta có thể chia sẻ"
+    },
+    {
+      "start": 94.866,
+      "end": 97.09,
+      "hanzi": "我们是怎么用社交媒体的，",
+      "pinyin": "wǒ men shì zěn me yòng shè jiāo méi tǐ de",
+      "vi": "cách mình sử dụng mạng xã hội,"
+    },
+    {
+      "start": 97.1,
+      "end": 99.356,
+      "hanzi": "以及它对我们有什么影响。",
+      "pinyin": "yǐ jí tā duì wǒ men yǒu shén me yǐng xiǎng",
+      "vi": "cũng như ảnh hưởng của nó đối với chúng ta."
+    },
+    {
+      "start": 99.366,
+      "end": 101.656,
+      "hanzi": "太好了！那我先来！",
+      "pinyin": "tài hǎo le nà wǒ xiān lái",
+      "vi": "Hay quá! Vậy để tôi nói trước!"
+    },
+    {
+      "start": 101.666,
+      "end": 102.756,
+      "hanzi": "好的，王雨。",
+      "pinyin": "hǎo de wáng yǔ",
+      "vi": "Được, Vương Vũ."
+    },
+    {
+      "start": 102.766,
+      "end": 103.956,
+      "hanzi": "你先说吧。",
+      "pinyin": "nǐ xiān shuō ba",
+      "vi": "Bạn nói trước đi."
+    },
+    {
+      "start": 103.966,
+      "end": 106.723,
+      "hanzi": "你最常用的社交媒体是哪个？",
+      "pinyin": "nǐ zuì cháng yòng de shè jiāo méi tǐ shì nǎ ge",
+      "vi": "Mạng xã hội bạn thường dùng nhất là gì?"
+    },
+    {
+      "start": 106.733,
+      "end": 108.723,
+      "hanzi": "你一般在上面做什么？",
+      "pinyin": "nǐ yì bān zài shàng miàn zuò shén me",
+      "vi": "Bạn thường làm gì trên đó?"
+    },
+    {
+      "start": 108.733,
+      "end": 111.89,
+      "hanzi": "我用得最多的肯定是微信。",
+      "pinyin": "wǒ yòng dé zuì duō de kěn dìng shì wēi xìn",
+      "vi": "Tôi dùng WeChat nhiều nhất."
+    },
+    {
+      "start": 111.9,
+      "end": 115.656,
+      "hanzi": "我每天都要用微信和家人、朋友聊天，",
+      "pinyin": "wǒ měi tiān dōu yào yòng wēi xìn hé jiā rén péng yǒu liáo tiān",
+      "vi": "Ngày nào tôi cũng dùng WeChat để trò chuyện với gia đình, bạn bè,"
+    },
+    {
+      "start": 115.666,
+      "end": 118.29,
+      "hanzi": "还有在工作里和同事交流。",
+      "pinyin": "hái yǒu zài gōng zuò lǐ hé tóng shì jiāo liú",
+      "vi": "và trao đổi công việc với đồng nghiệp."
+    },
+    {
+      "start": 118.3,
+      "end": 122.49,
+      "hanzi": "当然，我最喜欢的功能还是“朋友圈”。",
+      "pinyin": "dāng rán wǒ zuì xǐ huān de gōng néng hái shì péng yǒu quān",
+      "vi": "Tất nhiên, tính năng tôi thích nhất vẫn là \"Khoảnh khắc\"."
+    },
+    {
+      "start": 122.5,
+      "end": 125.89,
+      "hanzi": "朋友圈，这个功能确实非常流行。",
+      "pinyin": "péng yǒu quān zhè ge gōng néng què shí fēi cháng liú xíng",
+      "vi": "Khoảnh khắc, tính năng này đúng là rất phổ biến."
+    },
+    {
+      "start": 125.9,
+      "end": 130.19,
+      "hanzi": "你能给可能不太了解的听众朋友简单介绍一下吗？",
+      "pinyin": "nǐ néng gěi kě néng bù tài liǎo jiě de tīng zhòng péng yǒu jiǎn dān jiè shào yī xià ma",
+      "vi": "Bạn có thể giới thiệu sơ qua cho những thính giả chưa hiểu rõ không?"
+    },
+    {
+      "start": 130.2,
+      "end": 133.99,
+      "hanzi": "当然。朋友圈是微信上的一个功能，",
+      "pinyin": "dāng rán péng yǒu quān shì wēi xìn shàng de yí gè gōng néng",
+      "vi": "Tất nhiên. Khoảnh khắc là một tính năng trên WeChat,"
+    },
+    {
+      "start": 134.0,
+      "end": 136.456,
+      "hanzi": "你可以在上面分享照片、",
+      "pinyin": "nǐ kě yǐ zài shàng miàn fēn xiǎng zhào piān",
+      "vi": "bạn có thể chia sẻ ảnh,"
+    },
+    {
+      "start": 136.466,
+      "end": 139.956,
+      "hanzi": "视频和一些想法给你的朋友们看。",
+      "pinyin": "shì pín hé yī xiē xiǎng fǎ gěi nǐ de péng yǒu men kàn",
+      "vi": "video và những suy nghĩ của mình để bạn bè xem."
+    },
+    {
+      "start": 139.966,
+      "end": 141.956,
+      "hanzi": "你的朋友可以给你点赞，",
+      "pinyin": "nǐ de péng yǒu kě yǐ gěi nǐ diǎn zàn",
+      "vi": "Bạn bè có thể nhấn thích bài đăng của bạn,"
+    },
+    {
+      "start": 141.966,
+      "end": 145.59,
+      "hanzi": "也可以在下面评论，和你聊天。",
+      "pinyin": "yě kě yǐ zài xià miàn píng lùn hé nǐ liáo tiān",
+      "vi": "cũng có thể bình luận bên dưới và trò chuyện với bạn."
+    },
+    {
+      "start": 145.6,
+      "end": 147.156,
+      "hanzi": "嗯，说得很清楚。",
+      "pinyin": "ń shuō dé hěn qīng chǔ",
+      "vi": "Ừm, bạn giải thích rất rõ."
+    },
+    {
+      "start": 147.166,
+      "end": 150.59,
+      "hanzi": "那你喜欢在朋友圈分享什么内容呢？",
+      "pinyin": "nà nǐ xǐ huān zài péng yǒu quān fēn xiǎng shén me nèi róng ne",
+      "vi": "Vậy bạn thích chia sẻ những nội dung gì trên Khoảnh khắc?"
+    },
+    {
+      "start": 150.6,
+      "end": 152.19,
+      "hanzi": "我什么都分享！",
+      "pinyin": "wǒ shén me dōu fēn xiǎng",
+      "vi": "Tôi chia sẻ đủ thứ!"
+    },
+    {
+      "start": 152.2,
+      "end": 154.756,
+      "hanzi": "比如，今天吃了什么好吃的，",
+      "pinyin": "bǐ rú jīn tiān chī le shén me hǎo chī de",
+      "vi": "Ví dụ hôm nay ăn được món gì ngon,"
+    },
+    {
+      "start": 154.766,
+      "end": 156.99,
+      "hanzi": "我会拍张照片发上去。",
+      "pinyin": "wǒ huì pāi zhāng zhào piān fā shàng qù",
+      "vi": "tôi sẽ chụp ảnh rồi đăng lên."
+    },
+    {
+      "start": 157.0,
+      "end": 158.856,
+      "hanzi": "去了一个好玩儿的地方，",
+      "pinyin": "qù le yí gè hǎo wán ér de dì fāng",
+      "vi": "Nếu đi đến một nơi thú vị,"
+    },
+    {
+      "start": 158.866,
+      "end": 161.79,
+      "hanzi": "我也会分享我的照片和故事。",
+      "pinyin": "wǒ yě huì fēn xiǎng wǒ de zhào piān hé gù shì",
+      "vi": "tôi cũng chia sẻ ảnh và câu chuyện của mình."
+    },
+    {
+      "start": 161.8,
+      "end": 165.29,
+      "hanzi": "还有看到好看的电影，听到好听的歌，",
+      "pinyin": "hái yǒu kàn dào hǎo kàn de diàn yǐng tīng dào hǎo tīng de gē",
+      "vi": "Hoặc khi xem được phim hay, nghe được bài hát hay,"
+    },
+    {
+      "start": 165.3,
+      "end": 167.39,
+      "hanzi": "我都会分享给大家。",
+      "pinyin": "wǒ dū huì fēn xiǎng gěi dà jiā",
+      "vi": "tôi đều chia sẻ cho mọi người."
+    },
+    {
+      "start": 167.4,
+      "end": 170.923,
+      "hanzi": "我觉得这是一种记录生活的方式。",
+      "pinyin": "wǒ jué de zhè shì yī zhǒng jì lù shēng huó de fāng shì",
+      "vi": "Tôi thấy đây là một cách ghi lại cuộc sống."
+    },
+    {
+      "start": 170.933,
+      "end": 173.756,
+      "hanzi": "听起来你的朋友圈一定很有意思，",
+      "pinyin": "tīng qǐ lái nǐ de péng yǒu quān yí dìng hěn yǒu yì si",
+      "vi": "Nghe vậy chắc trang Khoảnh khắc của bạn thú vị lắm,"
+    },
+    {
+      "start": 173.766,
+      "end": 175.756,
+      "hanzi": "充满了生活的热情。",
+      "pinyin": "chōng mǎn le shēng huó de rè qíng",
+      "vi": "tràn đầy sự nhiệt tình với cuộc sống."
+    },
+    {
+      "start": 175.766,
+      "end": 178.59,
+      "hanzi": "这很像你，王雨。谢谢！",
+      "pinyin": "zhè hěn xiàng nǐ wáng yǔ xiè xiè",
+      "vi": "Rất đúng với tính cách của bạn, Vương Vũ. Cảm ơn!"
+    },
+    {
+      "start": 178.6,
+      "end": 180.123,
+      "hanzi": "那你呢，李明？",
+      "pinyin": "nà nǐ ne lǐ míng",
+      "vi": "Còn bạn thì sao, Lý Minh?"
+    },
+    {
+      "start": 180.133,
+      "end": 182.256,
+      "hanzi": "你好像不怎么发朋友圈。",
+      "pinyin": "nǐ hǎo xiàng bù zěn me fā péng yǒu quān",
+      "vi": "Hình như bạn không mấy khi đăng lên Khoảnh khắc."
+    },
+    {
+      "start": 182.266,
+      "end": 184.556,
+      "hanzi": "你用社交媒体做什么呢？",
+      "pinyin": "nǐ yòng shè jiāo méi tǐ zuò shén me ne",
+      "vi": "Bạn sử dụng mạng xã hội để làm gì?"
+    },
+    {
+      "start": 184.566,
+      "end": 187.256,
+      "hanzi": "(笑)，我确实发得很少。",
+      "pinyin": "xiào wǒ què shí fā dé hěn shǎo",
+      "vi": "[Cười] Đúng là tôi đăng rất ít."
+    },
+    {
+      "start": 187.266,
+      "end": 191.056,
+      "hanzi": "我用社交媒体，更多的是为了获取信息。",
+      "pinyin": "wǒ yòng shè jiāo méi tǐ gèng duō de shì wèi le huò qǔ xìn xī",
+      "vi": "Tôi dùng mạng xã hội chủ yếu để tìm kiếm thông tin."
+    },
+    {
+      "start": 191.066,
+      "end": 193.256,
+      "hanzi": "比如，我会看一些新闻，",
+      "pinyin": "bǐ rú wǒ huì kàn yī xiē xīn wén",
+      "vi": "Ví dụ, tôi sẽ xem một số tin tức,"
+    },
+    {
+      "start": 193.266,
+      "end": 196.09,
+      "hanzi": "了解一下最近发生了什么大事。",
+      "pinyin": "liǎo jiě yī xià zuì jìn fā shēng le shén me dà shì",
+      "vi": "để biết gần đây có những sự kiện quan trọng nào."
+    },
+    {
+      "start": 196.1,
+      "end": 196.69,
+      "hanzi": "还有，",
+      "pinyin": "hái yǒu",
+      "vi": "Ngoài ra,"
+    },
+    {
+      "start": 196.7,
+      "end": 199.49,
+      "hanzi": "我会关注一些我感兴趣的领域的专",
+      "pinyin": "wǒ huì guān zhù yī xiē wǒ gǎn xìng qù de lǐng yù de zhuān",
+      "vi": "tôi còn theo dõi một số chuyên gia trong những lĩnh vực"
+    },
+    {
+      "start": 199.5,
+      "end": 203.59,
+      "hanzi": "家，看看他们分享的知识和观点。哦，",
+      "pinyin": "jiā kàn kàn tā men fēn xiǎng de zhī shí hé guān diǎn ó",
+      "vi": "mình quan tâm, xem kiến thức và quan điểm họ chia sẻ. Ồ,"
+    },
+    {
+      "start": 203.6,
+      "end": 207.49,
+      "hanzi": "所以对你来说，社交媒体更像一个学习",
+      "pinyin": "suǒ yǐ duì nǐ lái shuō shè jiāo méi tǐ gèng xiàng yí gè xué xí",
+      "vi": "vậy đối với bạn, mạng xã hội giống một công cụ để học tập"
+    },
+    {
+      "start": 207.5,
+      "end": 208.956,
+      "hanzi": "和工作的工具？",
+      "pinyin": "hé gōng zuò de gōng jù",
+      "vi": "và làm việc hơn?"
+    },
+    {
+      "start": 208.966,
+      "end": 210.323,
+      "hanzi": "可以这么说。",
+      "pinyin": "kě yǐ zhè me shuō",
+      "vi": "Có thể nói như vậy."
+    },
+    {
+      "start": 210.333,
+      "end": 213.256,
+      "hanzi": "我也会用它来和朋友联系，但是，",
+      "pinyin": "wǒ yě huì yòng tā lái hé péng yǒu lián xì dàn shì",
+      "vi": "Tôi cũng dùng nó để liên lạc với bạn bè, nhưng"
+    },
+    {
+      "start": 213.266,
+      "end": 216.49,
+      "hanzi": "我很少在上面分享我自己的生活。",
+      "pinyin": "wǒ hěn shǎo zài shàng miàn fēn xiǎng wǒ zì jǐ de shēng huó",
+      "vi": "rất ít khi chia sẻ cuộc sống cá nhân trên đó."
+    },
+    {
+      "start": 216.5,
+      "end": 220.49,
+      "hanzi": "我觉得生活是自己的事情，不需要告诉所有人。",
+      "pinyin": "wǒ jué de shēng huó shì zì jǐ de shì qíng bù xū yào gào sù suǒ yǒu rén",
+      "vi": "Tôi nghĩ cuộc sống là chuyện riêng của mình, không cần kể cho tất cả mọi người."
+    },
+    {
+      "start": 220.5,
+      "end": 224.523,
+      "hanzi": "而且，我觉得准备要发的东西，比如选照片、",
+      "pinyin": "ér qiě wǒ jué de zhǔn bèi yào fā de dōng xī bǐ rú xuǎn zhào piān",
+      "vi": "Hơn nữa, việc chuẩn bị nội dung để đăng, như chọn ảnh,"
+    },
+    {
+      "start": 224.533,
+      "end": 226.99,
+      "hanzi": "想文字，有点花时间。",
+      "pinyin": "xiǎng wén zì yǒu diǎn huā shí jiān",
+      "vi": "nghĩ lời viết, cũng khá tốn thời gian."
+    },
+    {
+      "start": 227.0,
+      "end": 228.156,
+      "hanzi": "我明白了。",
+      "pinyin": "wǒ míng bái le",
+      "vi": "Tôi hiểu rồi."
+    },
+    {
+      "start": 228.166,
+      "end": 232.29,
+      "hanzi": "我们两个人用社交媒体的方式真的很不一样。",
+      "pinyin": "wǒ men liǎng gè rén yòng shè jiāo méi tǐ de fāng shì zhēn de hěn bù yí yàng",
+      "vi": "Cách hai chúng ta sử dụng mạng xã hội thật sự rất khác nhau."
+    },
+    {
+      "start": 232.3,
+      "end": 236.523,
+      "hanzi": "我喜欢分享和互动，把它当作生活的一部分。",
+      "pinyin": "wǒ xǐ huān fēn xiǎng hé hù dòng bǎ tā dàng zuò shēng huó de yī bù fèn",
+      "vi": "Tôi thích chia sẻ và tương tác, xem nó là một phần cuộc sống."
+    },
+    {
+      "start": 236.533,
+      "end": 241.856,
+      "hanzi": "而你更喜欢看和学习，把它当作一个有用的工具。",
+      "pinyin": "ér nǐ gèng xǐ huān kàn hé xué xí bǎ tā dàng zuò yí gè yǒu yòng de gōng jù",
+      "vi": "Còn bạn thích xem và học hỏi, coi nó là công cụ hữu ích."
+    },
+    {
+      "start": 241.866,
+      "end": 244.59,
+      "hanzi": "是的。我觉得这没有对错，",
+      "pinyin": "shì de wǒ jué de zhè méi yǒu duì cuò",
+      "vi": "Đúng vậy. Tôi nghĩ không có đúng hay sai,"
+    },
+    {
+      "start": 244.6,
+      "end": 247.723,
+      "hanzi": "只是每个人的选择和习惯不一样。",
+      "pinyin": "zhǐ shì měi gè rén de xuǎn zé hé xí guàn bù yí yàng",
+      "vi": "chỉ là lựa chọn và thói quen của mỗi người khác nhau."
+    },
+    {
+      "start": 247.733,
+      "end": 249.99,
+      "hanzi": "不过，虽然我们用法不同，",
+      "pinyin": "bù guò suī rán wǒ men yòng fǎ bù tóng",
+      "vi": "Nhưng dù cách dùng khác nhau,"
+    },
+    {
+      "start": 250.0,
+      "end": 254.256,
+      "hanzi": "但我们都承认，社交媒体确实有很多好处。",
+      "pinyin": "dàn wǒ men dōu chéng rèn shè jiāo méi tǐ què shí yǒu hěn duō hǎo chù",
+      "vi": "chúng ta đều công nhận mạng xã hội có rất nhiều lợi ích."
+    },
+    {
+      "start": 254.266,
+      "end": 254.956,
+      "hanzi": "没错！",
+      "pinyin": "méi cuò",
+      "vi": "Chính xác!"
+    },
+    {
+      "start": 254.966,
+      "end": 257.656,
+      "hanzi": "那我们接下来就聊聊它的好处吧。",
+      "pinyin": "nà wǒ men jiē xià lái jiù liáo liáo tā de hǎo chù ba",
+      "vi": "Vậy tiếp theo chúng ta nói về những lợi ích của nó nhé."
+    },
+    {
+      "start": 257.666,
+      "end": 262.523,
+      "hanzi": "好。王雨，你觉得社交媒体最大的好处是什么？",
+      "pinyin": "hǎo wáng yǔ nǐ jué de shè jiāo méi tǐ zuì dà de hǎo chù shì shén me",
+      "vi": "Được. Vương Vũ, bạn thấy lợi ích lớn nhất của mạng xã hội là gì?"
+    },
+    {
+      "start": 262.533,
+      "end": 264.79,
+      "hanzi": "对我来说，最大的好处",
+      "pinyin": "duì wǒ lái shuō zuì dà de hǎo chù",
+      "vi": "Đối với tôi, lợi ích lớn nhất"
+    },
+    {
+      "start": 264.8,
+      "end": 267.39,
+      "hanzi": "就是可以和朋友们保持联系，",
+      "pinyin": "jiù shì kě yǐ hé péng yǒu men bǎo chí lián xì",
+      "vi": "là có thể giữ liên lạc với bạn bè,"
+    },
+    {
+      "start": 267.4,
+      "end": 272.39,
+      "hanzi": "特别是那些很久没见，或者离我很远的朋友。哦？",
+      "pinyin": "tè bié shì nà xiē hěn jiǔ méi jiàn huò zhě lí wǒ hěn yuǎn de péng yǒu ó",
+      "vi": "đặc biệt là những người lâu ngày không gặp hoặc ở rất xa. Ồ?"
+    },
+    {
+      "start": 272.4,
+      "end": 273.89,
+      "hanzi": "可以举个例子吗？",
+      "pinyin": "kě yǐ jǔ gè lì zi ma",
+      "vi": "Bạn có thể cho ví dụ không?"
+    },
+    {
+      "start": 273.9,
+      "end": 276.69,
+      "hanzi": "当然。我有一个大学同学，",
+      "pinyin": "dāng rán wǒ yǒu yí gè dà xué tóng xué",
+      "vi": "Tất nhiên. Tôi có một người bạn học đại học,"
+    },
+    {
+      "start": 276.7,
+      "end": 279.756,
+      "hanzi": "毕业以后，她就去了别的城市工作，",
+      "pinyin": "bì yè yǐ hòu tā jiù qù le bié de chéng shì gōng zuò",
+      "vi": "sau khi tốt nghiệp, cô ấy đến thành phố khác làm việc,"
+    },
+    {
+      "start": 279.766,
+      "end": 281.556,
+      "hanzi": "我们离得非常远。",
+      "pinyin": "wǒ men lí dé fēi cháng yuǎn",
+      "vi": "chúng tôi ở cách nhau rất xa."
+    },
+    {
+      "start": 281.566,
+      "end": 285.256,
+      "hanzi": "平时大家工作都很忙，很少打电话。",
+      "pinyin": "píng shí dà jiā gōng zuò dōu hěn máng hěn shǎo dǎ diàn huà",
+      "vi": "Bình thường ai cũng bận làm việc nên ít khi gọi điện."
+    },
+    {
+      "start": 285.266,
+      "end": 289.656,
+      "hanzi": "但是，我每天都能在朋友圈看到她的生活。",
+      "pinyin": "dàn shì wǒ měi tiān dōu néng zài péng yǒu quān kàn dào tā de shēng huó",
+      "vi": "Nhưng ngày nào tôi cũng có thể xem cuộc sống của cô ấy qua Khoảnh khắc."
+    },
+    {
+      "start": 289.666,
+      "end": 291.723,
+      "hanzi": "我知道她换了新工作，",
+      "pinyin": "wǒ zhī dào tā huàn le xīn gōng zuò",
+      "vi": "Tôi biết cô ấy đã đổi công việc mới,"
+    },
+    {
+      "start": 291.733,
+      "end": 295.723,
+      "hanzi": "养了一只很可爱的猫，最近开始学画画了。",
+      "pinyin": "yǎng le yī zhī hěn kě ài de māo zuì jìn kāi shǐ xué huà huà le",
+      "vi": "nuôi một con mèo rất dễ thương, gần đây còn bắt đầu học vẽ."
+    },
+    {
+      "start": 295.733,
+      "end": 298.356,
+      "hanzi": "所以，虽然你们不经常聊天，",
+      "pinyin": "suǒ yǐ suī rán nǐ men bù jīng cháng liáo tiān",
+      "vi": "Vậy nên dù hai bạn không thường xuyên trò chuyện,"
+    },
+    {
+      "start": 298.366,
+      "end": 301.19,
+      "hanzi": "但你感觉她一直在你的生活里。",
+      "pinyin": "dàn nǐ gǎn jué tā yì zhí zài nǐ de shēng huó lǐ",
+      "vi": "bạn vẫn cảm thấy cô ấy luôn hiện diện trong cuộc sống của mình."
+    },
+    {
+      "start": 301.2,
+      "end": 301.956,
+      "hanzi": "是的！",
+      "pinyin": "shì de",
+      "vi": "Đúng vậy!"
+    },
+    {
+      "start": 301.966,
+      "end": 304.39,
+      "hanzi": "我看到她过得很好，就觉得很开心。",
+      "pinyin": "wǒ kàn dào tā guò dé hěn hǎo jiù jué de hěn kāi xīn",
+      "vi": "Thấy cô ấy sống tốt, tôi cũng rất vui."
+    },
+    {
+      "start": 304.4,
+      "end": 308.19,
+      "hanzi": "有时候我会在她的照片下面评论，",
+      "pinyin": "yǒu shí hòu wǒ huì zài tā de zhào piān xià miàn píng lùn",
+      "vi": "Đôi khi tôi bình luận dưới ảnh của cô ấy,"
+    },
+    {
+      "start": 308.2,
+      "end": 309.923,
+      "hanzi": "我们会简单聊几句。",
+      "pinyin": "wǒ men huì jiǎn dān liáo jǐ jù",
+      "vi": "rồi chúng tôi trò chuyện vài câu."
+    },
+    {
+      "start": 309.933,
+      "end": 314.123,
+      "hanzi": "感觉我们的友谊没有因为距离而变远。",
+      "pinyin": "gǎn jué wǒ men de yǒu yì méi yǒu yīn wèi jù lí ér biàn yuǎn",
+      "vi": "Tôi cảm thấy tình bạn không bị xa cách vì khoảng cách địa lý."
+    },
+    {
+      "start": 314.133,
+      "end": 318.123,
+      "hanzi": "如果没有社交媒体，我们可能慢慢就失去联系了。",
+      "pinyin": "rú guǒ méi yǒu shè jiāo méi tǐ wǒ men kě néng màn màn jiù shī qù lián xì le",
+      "vi": "Nếu không có mạng xã hội, có lẽ chúng tôi đã dần mất liên lạc."
+    },
+    {
+      "start": 318.133,
+      "end": 319.456,
+      "hanzi": "我非常同意。",
+      "pinyin": "wǒ fēi cháng tóng yì",
+      "vi": "Tôi hoàn toàn đồng ý."
+    },
+    {
+      "start": 319.466,
+      "end": 322.79,
+      "hanzi": "这确实是社交媒体一个了不起的地方。",
+      "pinyin": "zhè què shí shì shè jiāo méi tǐ yí gè liǎo bù qǐ de dì fāng",
+      "vi": "Đây thực sự là một điểm tuyệt vời của mạng xã hội."
+    },
+    {
+      "start": 322.8,
+      "end": 326.656,
+      "hanzi": "它可以帮助我们维持和朋友、家人的关系。",
+      "pinyin": "tā kě yǐ bāng zhù wǒ men wéi chí hé péng yǒu jiā rén de guān xì",
+      "vi": "Nó giúp chúng ta duy trì mối quan hệ với bạn bè và gia đình."
+    },
+    {
+      "start": 326.666,
+      "end": 329.39,
+      "hanzi": "像我父母住在老家，离我很远，",
+      "pinyin": "xiàng wǒ fù mǔ zhù zài lǎo jiā lí wǒ hěn yuǎn",
+      "vi": "Ví dụ bố mẹ tôi sống ở quê, cách tôi rất xa,"
+    },
+    {
+      "start": 329.4,
+      "end": 331.356,
+      "hanzi": "但我可以通过社交媒体，",
+      "pinyin": "dàn wǒ kě yǐ tōng guò shè jiāo méi tǐ",
+      "vi": "nhưng thông qua mạng xã hội,"
+    },
+    {
+      "start": 331.366,
+      "end": 333.323,
+      "hanzi": "每天看到他们的照片，",
+      "pinyin": "měi tiān kàn dào tā men de zhào piān",
+      "vi": "ngày nào tôi cũng có thể xem ảnh của bố mẹ,"
+    },
+    {
+      "start": 333.333,
+      "end": 336.09,
+      "hanzi": "知道他们今天去公园散步了，",
+      "pinyin": "zhī dào tā men jīn tiān qù gōng yuán sàn bù le",
+      "vi": "biết hôm nay họ đã đi dạo trong công viên,"
+    },
+    {
+      "start": 336.1,
+      "end": 340.056,
+      "hanzi": "或者和邻居一起吃饭了，这让我觉得很安心。",
+      "pinyin": "huò zhě hé lín jū yì qǐ chī fàn le zhè ràng wǒ jué de hěn ān xīn",
+      "vi": "hay ăn cơm cùng hàng xóm, điều đó khiến tôi rất yên tâm."
+    },
+    {
+      "start": 340.066,
+      "end": 342.756,
+      "hanzi": "对对对！就是这种感觉。",
+      "pinyin": "duì duì duì jiù shì zhè zhǒng gǎn jué",
+      "vi": "Đúng, đúng, đúng! Chính là cảm giác đó."
+    },
+    {
+      "start": 342.766,
+      "end": 343.89,
+      "hanzi": "还有一个好处，",
+      "pinyin": "hái yǒu yí gè hǎo chù",
+      "vi": "Còn một lợi ích nữa,"
+    },
+    {
+      "start": 343.9,
+      "end": 348.19,
+      "hanzi": "就是可以学到很多东西，认识很多有意思的人。",
+      "pinyin": "jiù shì kě yǐ xué dào hěn duō dōng xī rèn shí hěn duō yǒu yì si de rén",
+      "vi": "đó là có thể học được nhiều điều và quen biết nhiều người thú vị."
+    },
+    {
+      "start": 348.2,
+      "end": 349.956,
+      "hanzi": "这个我也很有同感。",
+      "pinyin": "zhè ge wǒ yě hěn yǒu tóng gǎn",
+      "vi": "Tôi cũng rất đồng tình với điều này."
+    },
+    {
+      "start": 349.966,
+      "end": 354.056,
+      "hanzi": "就像我刚才说的，我关注了一些教做饭的博主。",
+      "pinyin": "jiù xiàng wǒ gāng cái shuō de wǒ guān zhù le yī xiē jiào zuò fàn de bó zhǔ",
+      "vi": "Như tôi vừa nói, tôi theo dõi một số người sáng tạo nội dung dạy nấu ăn."
+    },
+    {
+      "start": 354.066,
+      "end": 357.79,
+      "hanzi": "他们的视频拍得很好，一步一步教你怎么做。",
+      "pinyin": "tā men de shì pín pāi dé hěn hǎo yí bù yí bù jiào nǐ zěn me zuò",
+      "vi": "Video của họ được quay rất tốt, hướng dẫn từng bước cách làm."
+    },
+    {
+      "start": 357.8,
+      "end": 360.923,
+      "hanzi": "我跟着他们，也学会了好几个新菜。",
+      "pinyin": "wǒ gēn zhe tā men yě xué huì le hǎo jǐ gè xīn cài",
+      "vi": "Làm theo họ, tôi cũng học được vài món ăn mới."
+    },
+    {
+      "start": 360.933,
+      "end": 362.756,
+      "hanzi": "哇，太厉害了！",
+      "pinyin": "wa tài lì hài le",
+      "vi": "Ồ, giỏi quá!"
+    },
+    {
+      "start": 362.766,
+      "end": 367.256,
+      "hanzi": "我关注了很多教人怎么穿衣服、怎么化妆的博主。",
+      "pinyin": "wǒ guān zhù le hěn duō jiào rén zěn me chuān yī fú zěn me huà zhuāng de bó zhǔ",
+      "vi": "Tôi theo dõi nhiều người hướng dẫn phối đồ và trang điểm."
+    },
+    {
+      "start": 367.266,
+      "end": 370.09,
+      "hanzi": "她们分享的东西都非常实用，",
+      "pinyin": "tā men fēn xiǎng de dōng xī dōu fēi cháng shí yòng",
+      "vi": "Những điều họ chia sẻ đều rất thiết thực,"
+    },
+    {
+      "start": 370.1,
+      "end": 372.39,
+      "hanzi": "也让我变得更自信了。",
+      "pinyin": "yě ràng wǒ biàn dé gèng zì xìn le",
+      "vi": "và còn giúp tôi trở nên tự tin hơn."
+    },
+    {
+      "start": 372.4,
+      "end": 374.456,
+      "hanzi": "有时候，看到不认识的人",
+      "pinyin": "yǒu shí hòu kàn dào bù rèn shí de rén",
+      "vi": "Đôi khi thấy những người mình không quen"
+    },
+    {
+      "start": 374.466,
+      "end": 376.723,
+      "hanzi": "在评论里分享自己的经验，",
+      "pinyin": "zài píng lùn lǐ fēn xiǎng zì jǐ de jīng yàn",
+      "vi": "chia sẻ kinh nghiệm trong phần bình luận,"
+    },
+    {
+      "start": 376.733,
+      "end": 380.79,
+      "hanzi": "也觉得很有趣，好像认识了很多新朋友。",
+      "pinyin": "yě jué de hěn yǒu qù hǎo xiàng rèn shí le hěn duō xīn péng yǒu",
+      "vi": "tôi cũng thấy thú vị, như thể quen thêm nhiều bạn mới."
+    },
+    {
+      "start": 380.8,
+      "end": 383.923,
+      "hanzi": "是的。通过社交媒体，我们可以很容",
+      "pinyin": "shì de tōng guò shè jiāo méi tǐ wǒ men kě yǐ hěn róng",
+      "vi": "Đúng vậy. Thông qua mạng xã hội, chúng ta có thể rất dễ"
+    },
+    {
+      "start": 383.933,
+      "end": 387.156,
+      "hanzi": "易地找到和我们有相同兴趣爱好的人。",
+      "pinyin": "yì dì zhǎo dào hé wǒ men yǒu xiāng tóng xìng qù ài hào de rén",
+      "vi": "dàng tìm được những người có cùng sở thích."
+    },
+    {
+      "start": 387.166,
+      "end": 391.59,
+      "hanzi": "不管你的爱好是什么，比如喜欢看书、喜欢爬山、",
+      "pinyin": "bù guǎn nǐ de ài hào shì shén me bǐ rú xǐ huān kàn shū xǐ huān pá shān",
+      "vi": "Dù sở thích của bạn là gì, như đọc sách, leo núi,"
+    },
+    {
+      "start": 391.6,
+      "end": 394.556,
+      "hanzi": "喜欢小动物，你都能找到一个“家”，",
+      "pinyin": "xǐ huān xiǎo dòng wù nǐ dōu néng zhǎo dào yí gè jiā",
+      "vi": "hay yêu động vật nhỏ, bạn đều có thể tìm được một \"ngôi nhà\" chung,"
+    },
+    {
+      "start": 394.566,
+      "end": 397.523,
+      "hanzi": "大家在一起交流，分享快乐。",
+      "pinyin": "dà jiā zài yì qǐ jiāo liú fēn xiǎng kuài lè",
+      "vi": "nơi mọi người giao lưu và chia sẻ niềm vui."
+    },
+    {
+      "start": 397.533,
+      "end": 401.69,
+      "hanzi": "没错。总结一下，社交媒体的好处真的很多。",
+      "pinyin": "méi cuò zǒng jié yī xià shè jiāo méi tǐ de hǎo chù zhēn de hěn duō",
+      "vi": "Chính xác. Tóm lại, mạng xã hội thực sự có rất nhiều lợi ích."
+    },
+    {
+      "start": 401.7,
+      "end": 404.49,
+      "hanzi": "它让我们和朋友的联系更紧密，",
+      "pinyin": "tā ràng wǒ men hé péng yǒu de lián xì gèng jǐn mì",
+      "vi": "Nó giúp chúng ta gắn bó với bạn bè hơn,"
+    },
+    {
+      "start": 404.5,
+      "end": 407.39,
+      "hanzi": "让我们能学到新知识和新技能，",
+      "pinyin": "ràng wǒ men néng xué dào xīn zhī shí hé xīn jì néng",
+      "vi": "giúp chúng ta học kiến thức và kỹ năng mới,"
+    },
+    {
+      "start": 407.4,
+      "end": 410.656,
+      "hanzi": "还让我们找到了有共同兴趣的朋友。",
+      "pinyin": "hái ràng wǒ men zhǎo dào le yǒu gòng tóng xìng qù de péng yǒu",
+      "vi": "và còn tìm được những người bạn có chung sở thích."
+    },
+    {
+      "start": 410.666,
+      "end": 413.323,
+      "hanzi": "它让我们的世界变得更大了。",
+      "pinyin": "tā ràng wǒ men de shì jiè biàn dé gèng dà le",
+      "vi": "Nó khiến thế giới của chúng ta trở nên rộng lớn hơn."
+    },
+    {
+      "start": 413.333,
+      "end": 414.39,
+      "hanzi": "说得很好。",
+      "pinyin": "shuō dé hěn hǎo",
+      "vi": "Bạn nói rất hay."
+    },
+    {
+      "start": 414.4,
+      "end": 416.89,
+      "hanzi": "但是，任何事情都有两面。",
+      "pinyin": "dàn shì rèn hé shì qíng dōu yǒu liǎng miàn",
+      "vi": "Nhưng chuyện gì cũng có hai mặt."
+    },
+    {
+      "start": 416.9,
+      "end": 420.39,
+      "hanzi": "在我们享受这些好处的同时，社交媒体",
+      "pinyin": "zài wǒ men xiǎng shòu zhè xiē hǎo chù de tóng shí shè jiāo méi tǐ",
+      "vi": "Trong khi tận hưởng những lợi ích đó, mạng xã hội"
+    },
+    {
+      "start": 420.4,
+      "end": 422.756,
+      "hanzi": "是不是也带来了一些问题呢？",
+      "pinyin": "shì bú shì yě dài lái le yī xiē wèn tí ne",
+      "vi": "có phải cũng mang đến một số vấn đề không?"
+    },
+    {
+      "start": 422.766,
+      "end": 424.323,
+      "hanzi": "嗯……是的。",
+      "pinyin": "ń shì de",
+      "vi": "Ừm... đúng vậy."
+    },
+    {
+      "start": 424.333,
+      "end": 427.723,
+      "hanzi": "我想我们应该诚实地聊一聊它的坏处。",
+      "pinyin": "wǒ xiǎng wǒ men yīng gāi chéng shí dì liáo yī liáo tā de huài chù",
+      "vi": "Tôi nghĩ chúng ta nên thẳng thắn nói về mặt xấu của nó."
+    },
+    {
+      "start": 427.733,
+      "end": 430.523,
+      "hanzi": "好的。说到社交媒体的坏处，",
+      "pinyin": "hǎo de shuō dào shè jiāo méi tǐ de huài chù",
+      "vi": "Được. Nói đến mặt xấu của mạng xã hội,"
+    },
+    {
+      "start": 430.533,
+      "end": 433.656,
+      "hanzi": "我首先想到的一个词，就是“压力”。",
+      "pinyin": "wǒ shǒu xiān xiǎng dào de yí gè cí jiù shì yā lì",
+      "vi": "từ đầu tiên tôi nghĩ đến chính là \"áp lực\"."
+    },
+    {
+      "start": 433.666,
+      "end": 435.456,
+      "hanzi": "压力？怎么说？",
+      "pinyin": "yā lì zěn me shuō",
+      "vi": "Áp lực? Ý bạn là sao?"
+    },
+    {
+      "start": 435.466,
+      "end": 438.49,
+      "hanzi": "你想想，我们在社交媒体上看到的，",
+      "pinyin": "nǐ xiǎng xiǎng wǒ men zài shè jiāo méi tǐ shàng kàn dào de",
+      "vi": "Bạn thử nghĩ xem, những thứ chúng ta nhìn thấy trên mạng xã hội,"
+    },
+    {
+      "start": 438.5,
+      "end": 442.39,
+      "hanzi": "是不是大部分都是别人生活中最好的部分？",
+      "pinyin": "shì bú shì dà bù fèn dōu shì bié rén shēng huó zhōng zuì hǎo de bù fèn",
+      "vi": "có phải phần lớn đều là những điều tốt đẹp nhất trong cuộc sống người khác không?"
+    },
+    {
+      "start": 442.4,
+      "end": 445.523,
+      "hanzi": "他们去旅游的照片，他们成功的工作，",
+      "pinyin": "tā men qù lǚ yóu de zhào piān tā men chéng gōng de gōng zuò",
+      "vi": "Ảnh họ đi du lịch, thành công trong công việc,"
+    },
+    {
+      "start": 445.533,
+      "end": 448.156,
+      "hanzi": "他们和家人朋友快乐的时光。",
+      "pinyin": "tā men hé jiā rén péng yǒu kuài lè de shí guāng",
+      "vi": "những khoảnh khắc vui vẻ bên gia đình và bạn bè."
+    },
+    {
+      "start": 448.166,
+      "end": 450.156,
+      "hanzi": "好像……是的。",
+      "pinyin": "hǎo xiàng shì de",
+      "vi": "Hình như... đúng vậy."
+    },
+    {
+      "start": 450.166,
+      "end": 452.756,
+      "hanzi": "很少有人会分享自己失败了，",
+      "pinyin": "hěn shǎo yǒu rén huì fēn xiǎng zì jǐ shī bài le",
+      "vi": "Rất ít người chia sẻ việc mình thất bại,"
+    },
+    {
+      "start": 452.766,
+      "end": 455.056,
+      "hanzi": "或者今天心情很难过。",
+      "pinyin": "huò zhě jīn tiān xīn qíng hěn nán guò",
+      "vi": "hoặc hôm nay tâm trạng rất buồn."
+    },
+    {
+      "start": 455.066,
+      "end": 458.956,
+      "hanzi": "大家总是想把自己最好的一面给大家看。",
+      "pinyin": "dà jiā zǒng shì xiǎng bǎ zì jǐ zuì hǎo de yí miàn gěi dà jiā kàn",
+      "vi": "Mọi người luôn muốn cho người khác thấy mặt tốt nhất của mình."
+    },
+    {
+      "start": 458.966,
+      "end": 460.923,
+      "hanzi": "问题就出在这里。",
+      "pinyin": "wèn tí jiù chū zài zhè lǐ",
+      "vi": "Vấn đề nằm ở chính chỗ này."
+    },
+    {
+      "start": 460.933,
+      "end": 463.723,
+      "hanzi": "当我们每天看这些“完美”的生活时，",
+      "pinyin": "dāng wǒ men měi tiān kàn zhè xiē wán měi de shēng huó shí",
+      "vi": "Khi mỗi ngày chúng ta nhìn thấy những cuộc sống \"hoàn hảo\" ấy,"
+    },
+    {
+      "start": 463.733,
+      "end": 466.49,
+      "hanzi": "我们很容易会开始和他们比较。",
+      "pinyin": "wǒ men hěn róng yì huì kāi shǐ hé tā men bǐ jiào",
+      "vi": "chúng ta rất dễ bắt đầu so sánh bản thân với họ."
+    },
+    {
+      "start": 466.5,
+      "end": 469.456,
+      "hanzi": "我们会想:“为什么他的生活那么好？",
+      "pinyin": "wǒ men huì xiǎng wèi shén me tā de shēng huó nà me hǎo",
+      "vi": "Chúng ta sẽ nghĩ: \"Tại sao cuộc sống của người ấy tốt thế?"
+    },
+    {
+      "start": 469.466,
+      "end": 471.09,
+      "hanzi": "为什么他那么成功？",
+      "pinyin": "wèi shén me tā nà me chéng gōng",
+      "vi": "Tại sao người ấy thành công như vậy?"
+    },
+    {
+      "start": 471.1,
+      "end": 475.756,
+      "hanzi": "我是不是不够好？”啊，我完全明白你的意思了。",
+      "pinyin": "wǒ shì bú shì bù gòu hǎo a wǒ wán quán míng bái nǐ de yì si le",
+      "vi": "Có phải mình chưa đủ tốt không?\" À, tôi hoàn toàn hiểu ý bạn rồi."
+    },
+    {
+      "start": 475.766,
+      "end": 477.556,
+      "hanzi": "我有过这种感觉。",
+      "pinyin": "wǒ yǒu guò zhè zhǒng gǎn jué",
+      "vi": "Tôi từng có cảm giác như thế."
+    },
+    {
+      "start": 477.566,
+      "end": 481.09,
+      "hanzi": "特别是看到朋友买了新车或者新房子，",
+      "pinyin": "tè bié shì kàn dào péng yǒu mǎi le xīn chē huò zhě xīn fáng zi",
+      "vi": "Đặc biệt khi thấy bạn bè mua xe mới hoặc nhà mới,"
+    },
+    {
+      "start": 481.1,
+      "end": 483.123,
+      "hanzi": "或者去了一个我很想去",
+      "pinyin": "huò zhě qù le yí gè wǒ hěn xiǎng qù",
+      "vi": "hay đi đến một nơi mà tôi rất muốn đến"
+    },
+    {
+      "start": 483.133,
+      "end": 487.59,
+      "hanzi": "但是没钱去的地方，我心里会有一点点不舒服。",
+      "pinyin": "dàn shì méi qián qù de dì fāng wǒ xīn lǐ huì yǒu yì diǎn diǎn bù shū fú",
+      "vi": "nhưng không có tiền để đi, trong lòng tôi hơi khó chịu."
+    },
+    {
+      "start": 487.6,
+      "end": 491.49,
+      "hanzi": "我知道不应该这样，但还是会忍不住去比较。",
+      "pinyin": "wǒ zhī dào bù yīng gāi zhè yàng dàn hái shì huì rěn bú zhù qù bǐ jiào",
+      "vi": "Tôi biết mình không nên như vậy, nhưng vẫn không nhịn được mà so sánh."
+    },
+    {
+      "start": 491.5,
+      "end": 494.89,
+      "hanzi": "这很正常，很多人都会有这种感觉。",
+      "pinyin": "zhè hěn zhèng cháng hěn duō rén dū huì yǒu zhè zhǒng gǎn jué",
+      "vi": "Đó là chuyện bình thường, nhiều người cũng có cảm giác ấy."
+    },
+    {
+      "start": 494.9,
+      "end": 497.156,
+      "hanzi": "社交媒体就像一扇窗户，",
+      "pinyin": "shè jiāo méi tǐ jiù xiàng yī shàn chuāng hù",
+      "vi": "Mạng xã hội giống như một ô cửa sổ,"
+    },
+    {
+      "start": 497.166,
+      "end": 500.09,
+      "hanzi": "我们通过这扇窗户看别人的生活，",
+      "pinyin": "wǒ men tōng guò zhè shàn chuāng hù kàn bié rén de shēng huó",
+      "vi": "qua ô cửa ấy, chúng ta nhìn vào cuộc sống của người khác,"
+    },
+    {
+      "start": 500.1,
+      "end": 501.356,
+      "hanzi": "但是我们看到的，",
+      "pinyin": "dàn shì wǒ men kàn dào de",
+      "vi": "nhưng những gì chúng ta nhìn thấy"
+    },
+    {
+      "start": 501.366,
+      "end": 504.79,
+      "hanzi": "只是他们想让我们看到的那一部分风景。",
+      "pinyin": "zhǐ shì tā men xiǎng ràng wǒ men kàn dào de nà yī bù fèn fēng jǐng",
+      "vi": "chỉ là phần khung cảnh họ muốn cho chúng ta thấy."
+    },
+    {
+      "start": 504.8,
+      "end": 506.79,
+      "hanzi": "我们看不到窗户后面，",
+      "pinyin": "wǒ men kàn bú dào chuāng hù hòu miàn",
+      "vi": "Chúng ta không nhìn thấy phía sau ô cửa,"
+    },
+    {
+      "start": 506.8,
+      "end": 509.956,
+      "hanzi": "他们可能也很累，也有很多烦恼。",
+      "pinyin": "tā men kě néng yě hěn lèi yě yǒu hěn duō fán nǎo",
+      "vi": "rằng có lẽ họ cũng rất mệt mỏi và có nhiều phiền muộn."
+    },
+    {
+      "start": 509.966,
+      "end": 512.69,
+      "hanzi": "你这个“窗户”的比喻说得太好了。",
+      "pinyin": "nǐ zhè ge chuāng hù de bǐ yù shuō dé tài hǎo le",
+      "vi": "Phép so sánh với \"cửa sổ\" của bạn hay quá."
+    },
+    {
+      "start": 512.7,
+      "end": 517.256,
+      "hanzi": "我们只看到了漂亮的风景，却忘了那不是全部。",
+      "pinyin": "wǒ men zhǐ kàn dào le piào liàng de fēng jǐng què wàng le nà bú shì quán bù",
+      "vi": "Chúng ta chỉ thấy phong cảnh đẹp mà quên rằng đó không phải toàn bộ."
+    },
+    {
+      "start": 517.266,
+      "end": 521.39,
+      "hanzi": "这种比较带来的压力，确实是一个很大的问题。",
+      "pinyin": "zhè zhǒng bǐ jiào dài lái de yā lì què shí shì yí gè hěn dà de wèn tí",
+      "vi": "Áp lực từ việc so sánh này đúng là một vấn đề lớn."
+    },
+    {
+      "start": 521.4,
+      "end": 523.29,
+      "hanzi": "是的。除了压力，",
+      "pinyin": "shì de chú le yā lì",
+      "vi": "Đúng vậy. Ngoài áp lực,"
+    },
+    {
+      "start": 523.3,
+      "end": 525.09,
+      "hanzi": "还有一个很明显的问题，",
+      "pinyin": "hái yǒu yí gè hěn míng xiǎn de wèn tí",
+      "vi": "còn một vấn đề rất rõ ràng nữa,"
+    },
+    {
+      "start": 525.1,
+      "end": 527.756,
+      "hanzi": "就是它会浪费我们很多时间。",
+      "pinyin": "jiù shì tā huì làng fèi wǒ men hěn duō shí jiān",
+      "vi": "đó là mạng xã hội làm chúng ta lãng phí rất nhiều thời gian."
+    },
+    {
+      "start": 527.766,
+      "end": 529.39,
+      "hanzi": "这个我必须承认！",
+      "pinyin": "zhè ge wǒ bì xū chéng rèn",
+      "vi": "Điều này tôi phải thừa nhận!"
+    },
+    {
+      "start": 529.4,
+      "end": 529.99,
+      "hanzi": "有时候",
+      "pinyin": "yǒu shí hòu",
+      "vi": "Đôi khi"
+    },
+    {
+      "start": 530.0,
+      "end": 532.756,
+      "hanzi": "我只是想看一两个朋友发了什么，",
+      "pinyin": "wǒ zhǐ shì xiǎng kàn yī liǎng gè péng yǒu fā le shén me",
+      "vi": "tôi chỉ định xem một hai người bạn đăng gì,"
+    },
+    {
+      "start": 532.766,
+      "end": 534.956,
+      "hanzi": "结果，我开始看一个视频，",
+      "pinyin": "jié guǒ wǒ kāi shǐ kàn yí gè shì pín",
+      "vi": "nhưng rồi tôi bắt đầu xem một video,"
+    },
+    {
+      "start": 534.966,
+      "end": 537.723,
+      "hanzi": "然后又看下一个推荐的视频……",
+      "pinyin": "rán hòu yòu kàn xià yí gè tuī jiàn de shì pín",
+      "vi": "sau đó lại xem video tiếp theo được đề xuất..."
+    },
+    {
+      "start": 537.733,
+      "end": 540.29,
+      "hanzi": "不知不觉，一个小时就过去了。",
+      "pinyin": "bù zhī bù jué yí gè xiǎo shí jiù guò qù le",
+      "vi": "Chẳng mấy chốc, một tiếng đồng hồ đã trôi qua."
+    },
+    {
+      "start": 540.3,
+      "end": 542.156,
+      "hanzi": "我也有过这样的经历。",
+      "pinyin": "wǒ yě yǒu guò zhè yàng de jīng lì",
+      "vi": "Tôi cũng từng trải qua chuyện như vậy."
+    },
+    {
+      "start": 542.166,
+      "end": 545.123,
+      "hanzi": "本来计划晚上要看书或者学习，",
+      "pinyin": "běn lái jì huà wǎn shàng yào kàn shū huò zhě xué xí",
+      "vi": "Ban đầu dự định buổi tối sẽ đọc sách hoặc học bài,"
+    },
+    {
+      "start": 545.133,
+      "end": 548.09,
+      "hanzi": "结果大部分时间都花在了手机上。",
+      "pinyin": "jié guǒ dà bù fèn shí jiān dōu huā zài le shǒu jī shàng",
+      "vi": "nhưng cuối cùng phần lớn thời gian lại dành cho điện thoại."
+    },
+    {
+      "start": 548.1,
+      "end": 551.59,
+      "hanzi": "第二天早上起来，会觉得有点后悔。",
+      "pinyin": "dì èr tiān zǎo shàng qǐ lái huì jué de yǒu diǎn hòu huǐ",
+      "vi": "Sáng hôm sau thức dậy, tôi thấy hơi hối hận."
+    },
+    {
+      "start": 551.6,
+      "end": 555.856,
+      "hanzi": "我们的时间和注意力，在不知不觉中就被偷走了。",
+      "pinyin": "wǒ men de shí jiān hé zhù yì lì zài bù zhī bù jué zhōng jiù bèi tōu zǒu le",
+      "vi": "Thời gian và sự chú ý của chúng ta cứ thế bị đánh cắp lúc nào không hay."
+    },
+    {
+      "start": 555.866,
+      "end": 559.39,
+      "hanzi": "是啊。而且，因为习惯了看那些短的、",
+      "pinyin": "shì a ér qiě yīn wèi xí guàn le kàn nà xiē duǎn de",
+      "vi": "Đúng vậy. Hơn nữa, vì đã quen xem những video ngắn"
+    },
+    {
+      "start": 559.4,
+      "end": 561.756,
+      "hanzi": "有趣的视频，我现在觉得，",
+      "pinyin": "yǒu qù de shì pín wǒ xiàn zài jué de",
+      "vi": "và thú vị, nên bây giờ tôi cảm thấy"
+    },
+    {
+      "start": 561.766,
+      "end": 565.756,
+      "hanzi": "让我安安静静地看一本书，好像变得更难了。",
+      "pinyin": "ràng wǒ ān ān jìng jìng dì kàn yī běn shū hǎo xiàng biàn dé gèng nán le",
+      "vi": "việc ngồi yên đọc một cuốn sách dường như khó hơn trước."
+    },
+    {
+      "start": 565.766,
+      "end": 568.556,
+      "hanzi": "我的注意力很难长时间集中。",
+      "pinyin": "wǒ de zhù yì lì hěn nán zhǎng shí jiān jí zhōng",
+      "vi": "Tôi rất khó tập trung sự chú ý trong thời gian dài."
+    },
+    {
+      "start": 568.566,
+      "end": 571.29,
+      "hanzi": "你说到了一个非常重要的问题。",
+      "pinyin": "nǐ shuō dào le yí gè fēi cháng zhòng yào de wèn tí",
+      "vi": "Bạn vừa nhắc đến một vấn đề rất quan trọng."
+    },
+    {
+      "start": 571.3,
+      "end": 575.156,
+      "hanzi": "社交媒体正在改变我们的大脑和习惯。",
+      "pinyin": "shè jiāo méi tǐ zhèng zài gǎi biàn wǒ men de dà nǎo hé xí guàn",
+      "vi": "Mạng xã hội đang thay đổi bộ não và thói quen của chúng ta."
+    },
+    {
+      "start": 575.166,
+      "end": 578.49,
+      "hanzi": "它让我们习惯了快速的、简单的快乐，",
+      "pinyin": "tā ràng wǒ men xí guàn le kuài sù de jiǎn dān de kuài lè",
+      "vi": "Nó khiến chúng ta quen với niềm vui nhanh chóng và đơn giản,"
+    },
+    {
+      "start": 578.5,
+      "end": 580.556,
+      "hanzi": "但对于那些需要花时间、",
+      "pinyin": "dàn duì yú nà xiē xū yào huā shí jiān",
+      "vi": "nhưng đối với những việc cần thời gian,"
+    },
+    {
+      "start": 580.566,
+      "end": 584.89,
+      "hanzi": "需要深入思考的事情，我们慢慢失去了耐心。",
+      "pinyin": "xū yào shēn rù sī kǎo de shì qíng wǒ men màn màn shī qù le nài xīn",
+      "vi": "cần suy nghĩ sâu, chúng ta dần mất đi sự kiên nhẫn."
+    },
+    {
+      "start": 584.9,
+      "end": 587.056,
+      "hanzi": "天哪，听你这么一说，",
+      "pinyin": "tiān nǎ tīng nǐ zhè me yī shuō",
+      "vi": "Trời ơi, nghe bạn nói vậy,"
+    },
+    {
+      "start": 587.066,
+      "end": 588.723,
+      "hanzi": "我觉得这些坏处还挺",
+      "pinyin": "wǒ jué de zhè xiē huài chù hái tǐng",
+      "vi": "tôi thấy những mặt xấu này khá"
+    },
+    {
+      "start": 588.733,
+      "end": 592.89,
+      "hanzi": "严重的。压力、比较、浪费时间、",
+      "pinyin": "yán zhòng de yā lì bǐ jiào làng fèi shí jiān",
+      "vi": "nghiêm trọng: áp lực, so sánh, lãng phí thời gian,"
+    },
+    {
+      "start": 592.9,
+      "end": 594.356,
+      "hanzi": "注意力不集中……",
+      "pinyin": "zhù yì lì bù jí zhōng",
+      "vi": "không thể tập trung chú ý..."
+    },
+    {
+      "start": 594.366,
+      "end": 596.056,
+      "hanzi": "我们应该怎么办呢？",
+      "pinyin": "wǒ men yīng gāi zěn me bàn ne",
+      "vi": "Chúng ta nên làm gì đây?"
+    },
+    {
+      "start": 596.066,
+      "end": 598.123,
+      "hanzi": "这是一个很好的问题。",
+      "pinyin": "zhè shì yí gè hěn hǎo de wèn tí",
+      "vi": "Đây là một câu hỏi rất hay."
+    },
+    {
+      "start": 598.133,
+      "end": 599.856,
+      "hanzi": "我们离不开社交媒体，",
+      "pinyin": "wǒ men lí bù kāi shè jiāo méi tǐ",
+      "vi": "Chúng ta không thể thiếu mạng xã hội,"
+    },
+    {
+      "start": 599.866,
+      "end": 602.756,
+      "hanzi": "但我们也不能让它控制我们的生活。",
+      "pinyin": "dàn wǒ men yě bù néng ràng tā kòng zhì wǒ men de shēng huó",
+      "vi": "nhưng cũng không thể để nó kiểm soát cuộc sống của mình."
+    },
+    {
+      "start": 602.766,
+      "end": 606.856,
+      "hanzi": "所以，我们必须学会怎么和它更好地相处。",
+      "pinyin": "suǒ yǐ wǒ men bì xū xué huì zěn me hé tā gèng hǎo dì xiāng chǔ",
+      "vi": "Vì vậy chúng ta phải học cách sử dụng nó hợp lý hơn."
+    },
+    {
+      "start": 606.866,
+      "end": 609.323,
+      "hanzi": "李明，你有什么好的建议吗？",
+      "pinyin": "lǐ míng nǐ yǒu shén me hǎo de jiàn yì ma",
+      "vi": "Lý Minh, bạn có đề xuất nào hay không?"
+    },
+    {
+      "start": 609.333,
+      "end": 610.69,
+      "hanzi": "我们应该怎么做，",
+      "pinyin": "wǒ men yīng gāi zěn me zuò",
+      "vi": "Chúng ta nên làm thế nào"
+    },
+    {
+      "start": 610.7,
+      "end": 615.39,
+      "hanzi": "才能只享受社交媒体的好处，而减少它的坏处呢？",
+      "pinyin": "cái néng zhǐ xiǎng shòu shè jiāo méi tǐ de hǎo chù ér jiǎn shǎo tā de huài chù ne",
+      "vi": "để tận hưởng lợi ích của mạng xã hội mà giảm bớt tác hại?"
+    },
+    {
+      "start": 615.4,
+      "end": 616.956,
+      "hanzi": "我觉得，第一步，",
+      "pinyin": "wǒ jué de dì yī bù",
+      "vi": "Tôi nghĩ bước đầu tiên,"
+    },
+    {
+      "start": 616.966,
+      "end": 620.19,
+      "hanzi": "也是最重要的一步，是要有意识。",
+      "pinyin": "yě shì zuì zhòng yào de yī bù shì yào yǒu yì shí",
+      "vi": "cũng là bước quan trọng nhất, là phải sử dụng có ý thức."
+    },
+    {
+      "start": 620.2,
+      "end": 623.19,
+      "hanzi": "我们要清楚地知道自己正在做什么。",
+      "pinyin": "wǒ men yào qīng chǔ dì zhī dào zì jǐ zhèng zài zuò shén me",
+      "vi": "Chúng ta cần biết rõ mình đang làm gì."
+    },
+    {
+      "start": 623.2,
+      "end": 625.723,
+      "hanzi": "有意识？是什么意思？",
+      "pinyin": "yǒu yì shí shì shén me yì si",
+      "vi": "Có ý thức? Nghĩa là sao?"
+    },
+    {
+      "start": 625.733,
+      "end": 627.856,
+      "hanzi": "意思是，在你拿起手机，",
+      "pinyin": "yì si shì zài nǐ ná qǐ shǒu jī",
+      "vi": "Nghĩa là trước khi bạn cầm điện thoại lên"
+    },
+    {
+      "start": 627.866,
+      "end": 631.29,
+      "hanzi": "打开一个社交软件之前，先问问自己:",
+      "pinyin": "dǎ kāi yí gè shè jiāo ruǎn jiàn zhī qián xiān wèn wèn zì jǐ",
+      "vi": "và mở một ứng dụng mạng xã hội, hãy tự hỏi:"
+    },
+    {
+      "start": 631.3,
+      "end": 633.49,
+      "hanzi": "“我现在为什么要看它？",
+      "pinyin": "wǒ xiàn zài wèi shén me yào kàn tā",
+      "vi": "\"Tại sao bây giờ mình lại muốn xem nó?"
+    },
+    {
+      "start": 633.5,
+      "end": 635.123,
+      "hanzi": "我是想联系一个朋友，",
+      "pinyin": "wǒ shì xiǎng lián xì yí gè péng yǒu",
+      "vi": "Mình muốn liên lạc với một người bạn,"
+    },
+    {
+      "start": 635.133,
+      "end": 636.856,
+      "hanzi": "还是想查一个信息，",
+      "pinyin": "hái shì xiǎng chá yí gè xìn xī",
+      "vi": "hay muốn tìm kiếm thông tin,"
+    },
+    {
+      "start": 636.866,
+      "end": 638.923,
+      "hanzi": "或者我只是觉得无聊？”",
+      "pinyin": "huò zhě wǒ zhǐ shì jué de wú liáo",
+      "vi": "hay chỉ đơn giản là đang thấy buồn chán?\""
+    },
+    {
+      "start": 638.933,
+      "end": 642.69,
+      "hanzi": "当你清楚自己的目的，你就不容易迷失在里面。",
+      "pinyin": "dāng nǐ qīng chǔ zì jǐ de mù dì nǐ jiù bù róng yì mí shī zài lǐ miàn",
+      "vi": "Khi hiểu rõ mục đích của mình, bạn sẽ không dễ bị cuốn vào đó."
+    },
+    {
+      "start": 642.7,
+      "end": 645.39,
+      "hanzi": "嗯，这个方法听起来不错。",
+      "pinyin": "ń zhè ge fāng fǎ tīng qǐ lái bù cuò",
+      "vi": "Ừm, phương pháp này nghe có vẻ hay."
+    },
+    {
+      "start": 645.4,
+      "end": 649.123,
+      "hanzi": "先想一想，而不是马上就打开。对。",
+      "pinyin": "xiān xiǎng yī xiǎng ér bú shì mǎ shàng jiù dǎ kāi duì",
+      "vi": "Nghĩ trước một chút thay vì mở ngay lập tức. Đúng vậy."
+    },
+    {
+      "start": 649.133,
+      "end": 651.923,
+      "hanzi": "第二，我们可以给自己定一个时间。",
+      "pinyin": "dì èr wǒ men kě yǐ gěi zì jǐ dìng yí gè shí jiān",
+      "vi": "Thứ hai, chúng ta có thể tự đặt giới hạn thời gian."
+    },
+    {
+      "start": 651.933,
+      "end": 654.923,
+      "hanzi": "比如，规定自己每天只在早上、",
+      "pinyin": "bǐ rú guī dìng zì jǐ měi tiān zhǐ zài zǎo shàng",
+      "vi": "Ví dụ, quy định mỗi ngày chỉ vào buổi sáng,"
+    },
+    {
+      "start": 654.933,
+      "end": 659.09,
+      "hanzi": "中午和晚上，各花十五分钟看社交媒体。",
+      "pinyin": "zhōng wǔ hé wǎn shàng gè huā shí wǔ fēn zhōng kàn shè jiāo méi tǐ",
+      "vi": "buổi trưa và buổi tối, mỗi lần dành mười lăm phút xem mạng xã hội."
+    },
+    {
+      "start": 659.1,
+      "end": 661.556,
+      "hanzi": "其他时间，就把手机放在一边，",
+      "pinyin": "qí tā shí jiān jiù bǎ shǒu jī fàng zài yī biān",
+      "vi": "Những thời gian còn lại thì đặt điện thoại sang một bên,"
+    },
+    {
+      "start": 661.566,
+      "end": 663.356,
+      "hanzi": "专心做自己的事情。",
+      "pinyin": "zhuān xīn zuò zì jǐ de shì qíng",
+      "vi": "tập trung làm việc của mình."
+    },
+    {
+      "start": 663.366,
+      "end": 666.456,
+      "hanzi": "这个有点难，但我觉得可以试一试。",
+      "pinyin": "zhè ge yǒu diǎn nán dàn wǒ jué de kě yǐ shì yī shì",
+      "vi": "Điều này hơi khó, nhưng tôi nghĩ có thể thử."
+    },
+    {
+      "start": 666.466,
+      "end": 669.69,
+      "hanzi": "就像我们给工作和休息定时间一样，",
+      "pinyin": "jiù xiàng wǒ men gěi gōng zuò hé xiū xī dìng shí jiān yī yàng",
+      "vi": "Giống như chúng ta sắp xếp thời gian làm việc và nghỉ ngơi,"
+    },
+    {
+      "start": 669.7,
+      "end": 672.123,
+      "hanzi": "也给看手机定一个时间。",
+      "pinyin": "yě gěi kàn shǒu jī dìng yí gè shí jiān",
+      "vi": "cũng đặt thời gian dành cho điện thoại."
+    },
+    {
+      "start": 672.133,
+      "end": 673.69,
+      "hanzi": "是的。第三，",
+      "pinyin": "shì de dì sān",
+      "vi": "Đúng vậy. Thứ ba,"
+    },
+    {
+      "start": 673.7,
+      "end": 677.156,
+      "hanzi": "我觉得我们可以改变一下我们“看”的方式。",
+      "pinyin": "wǒ jué de wǒ men kě yǐ gǎi biàn yī xià wǒ men kàn de fāng shì",
+      "vi": "tôi nghĩ chúng ta có thể thay đổi cách mình \"xem\" mạng xã hội."
+    },
+    {
+      "start": 677.166,
+      "end": 679.39,
+      "hanzi": "不要只是被动地接受信息。",
+      "pinyin": "bú yào zhǐ shì bèi dòng dì jiē shòu xìn xī",
+      "vi": "Đừng chỉ thụ động tiếp nhận thông tin."
+    },
+    {
+      "start": 679.4,
+      "end": 681.723,
+      "hanzi": "我们可以更主动地去用它。",
+      "pinyin": "wǒ men kě yǐ gèng zhǔ dòng dì qù yòng tā",
+      "vi": "Chúng ta có thể chủ động sử dụng nó hơn."
+    },
+    {
+      "start": 681.733,
+      "end": 685.39,
+      "hanzi": "比如，多去给你真正的朋友点赞、评论，",
+      "pinyin": "bǐ rú duō qù gěi nǐ zhēn zhèng de péng yǒu diǎn zàn píng lùn",
+      "vi": "Ví dụ, tích cực nhấn thích và bình luận bài đăng của bạn bè thật sự,"
+    },
+    {
+      "start": 685.4,
+      "end": 686.756,
+      "hanzi": "和他们聊聊天。",
+      "pinyin": "hé tā men liáo liáo tiān",
+      "vi": "rồi trò chuyện với họ."
+    },
+    {
+      "start": 686.766,
+      "end": 689.923,
+      "hanzi": "少花时间去看那些让你觉得不舒服",
+      "pinyin": "shǎo huā shí jiān qù kàn nà xiē ràng nǐ jué de bù shū fú",
+      "vi": "Dành ít thời gian hơn cho những nội dung khiến bạn khó chịu"
+    },
+    {
+      "start": 689.933,
+      "end": 691.79,
+      "hanzi": "或者浪费时间的内容。",
+      "pinyin": "huò zhě làng fèi shí jiān de nèi róng",
+      "vi": "hoặc làm lãng phí thời gian."
+    },
+    {
+      "start": 691.8,
+      "end": 694.99,
+      "hanzi": "我同意！我们可以选择我们看什么。",
+      "pinyin": "wǒ tóng yì wǒ men kě yǐ xuǎn zé wǒ men kàn shén me",
+      "vi": "Tôi đồng ý! Chúng ta có thể lựa chọn nội dung mình xem."
+    },
+    {
+      "start": 695.0,
+      "end": 697.99,
+      "hanzi": "如果一些内容总是让我觉得有压力，",
+      "pinyin": "rú guǒ yī xiē nèi róng zǒng shì ràng wǒ jué de yǒu yā lì",
+      "vi": "Nếu có những nội dung luôn khiến tôi cảm thấy áp lực,"
+    },
+    {
+      "start": 698.0,
+      "end": 700.79,
+      "hanzi": "或者让我觉得自己的生活不够好，",
+      "pinyin": "huò zhě ràng wǒ jué de zì jǐ de shēng huó bù gòu hǎo",
+      "vi": "hay khiến tôi nghĩ cuộc sống của mình chưa đủ tốt,"
+    },
+    {
+      "start": 700.8,
+      "end": 703.39,
+      "hanzi": "我也许应该少看一些。",
+      "pinyin": "wǒ yě xǔ yīng gāi shǎo kàn yī xiē",
+      "vi": "có lẽ tôi nên xem chúng ít hơn."
+    },
+    {
+      "start": 703.4,
+      "end": 705.156,
+      "hanzi": "说得对。最后一点，",
+      "pinyin": "shuō dé duì zuì hòu yì diǎn",
+      "vi": "Bạn nói đúng. Điểm cuối cùng,"
+    },
+    {
+      "start": 705.166,
+      "end": 707.523,
+      "hanzi": "也是我个人觉得最重要的一点，",
+      "pinyin": "yě shì wǒ gè rén jué de zuì zhòng yào de yì diǎn",
+      "vi": "cũng là điều cá nhân tôi thấy quan trọng nhất,"
+    },
+    {
+      "start": 707.533,
+      "end": 708.656,
+      "hanzi": "就是要记住:",
+      "pinyin": "jiù shì yào jì zhù",
+      "vi": "chính là phải nhớ rằng:"
+    },
+    {
+      "start": 708.666,
+      "end": 712.523,
+      "hanzi": "社交媒体不是真实生活的全部。对，",
+      "pinyin": "shè jiāo méi tǐ bú shì zhēn shí shēng huó de quán bù duì",
+      "vi": "Mạng xã hội không phải toàn bộ cuộc sống thực. Đúng vậy,"
+    },
+    {
+      "start": 712.533,
+      "end": 715.19,
+      "hanzi": "就像你说的“窗户”的比喻一样。",
+      "pinyin": "jiù xiàng nǐ shuō de chuāng hù de bǐ yù yī yàng",
+      "vi": "giống phép so sánh với \"cửa sổ\" mà bạn đã nói."
+    },
+    {
+      "start": 715.2,
+      "end": 717.923,
+      "hanzi": "是的。我们应该花更多的时间，",
+      "pinyin": "shì de wǒ men yīng gāi huā gèng duō de shí jiān",
+      "vi": "Đúng vậy. Chúng ta nên dành nhiều thời gian hơn"
+    },
+    {
+      "start": 717.933,
+      "end": 721.156,
+      "hanzi": "去关心我们身边的、真实的生活。",
+      "pinyin": "qù guān xīn wǒ men shēn biān de zhēn shí de shēng huó",
+      "vi": "để quan tâm đến cuộc sống thực xung quanh mình."
+    },
+    {
+      "start": 721.166,
+      "end": 723.29,
+      "hanzi": "多和家人面对面地聊天，",
+      "pinyin": "duō hé jiā rén miàn duì miàn dì liáo tiān",
+      "vi": "Trò chuyện trực tiếp với gia đình nhiều hơn,"
+    },
+    {
+      "start": 723.3,
+      "end": 725.19,
+      "hanzi": "多和朋友出去走一走，",
+      "pinyin": "duō hé péng yǒu chū qù zǒu yī zǒu",
+      "vi": "ra ngoài đi dạo cùng bạn bè nhiều hơn,"
+    },
+    {
+      "start": 725.2,
+      "end": 727.29,
+      "hanzi": "去感受阳光和空气，",
+      "pinyin": "qù gǎn shòu yáng guāng hé kōng qì",
+      "vi": "cảm nhận ánh nắng và không khí,"
+    },
+    {
+      "start": 727.3,
+      "end": 731.79,
+      "hanzi": "去做一些真正让你感到快乐和有成就感的事情。",
+      "pinyin": "qù zuò yī xiē zhēn zhèng ràng nǐ gǎn dào kuài lè hé yǒu chéng jiù gǎn de shì qíng",
+      "vi": "làm những việc thật sự khiến mình vui vẻ và có cảm giác đạt được thành tựu."
+    },
+    {
+      "start": 731.8,
+      "end": 734.156,
+      "hanzi": "当你自己的生活很充实的时候，",
+      "pinyin": "dāng nǐ zì jǐ de shēng huó hěn chōng shí de shí hòu",
+      "vi": "Khi cuộc sống của bạn phong phú và trọn vẹn,"
+    },
+    {
+      "start": 734.166,
+      "end": 736.923,
+      "hanzi": "你就不会那么在意社交媒体上的那些",
+      "pinyin": "nǐ jiù bú huì nà me zài yì shè jiāo méi tǐ shàng de nà xiē",
+      "vi": "bạn sẽ không còn quá quan tâm đến những điều"
+    },
+    {
+      "start": 736.933,
+      "end": 739.123,
+      "hanzi": "“完美”了。你说得太好了，",
+      "pinyin": "wán měi le nǐ shuō dé tài hǎo le",
+      "vi": "\"hoàn hảo\" trên mạng xã hội nữa. Bạn nói hay quá,"
+    },
+    {
+      "start": 739.133,
+      "end": 741.123,
+      "hanzi": "李明。我记得有一次，",
+      "pinyin": "lǐ míng wǒ jì de yǒu yī cì",
+      "vi": "Lý Minh. Tôi nhớ có một lần,"
+    },
+    {
+      "start": 741.133,
+      "end": 744.256,
+      "hanzi": "我看到别人用中文写很长的东西，",
+      "pinyin": "wǒ kàn dào bié rén yòng zhōng wén xiě hěn zhǎng de dōng xī",
+      "vi": "tôi thấy người khác viết những đoạn văn rất dài bằng tiếng Trung,"
+    },
+    {
+      "start": 744.266,
+      "end": 747.656,
+      "hanzi": "就觉得自己中文不好，不敢发东西。",
+      "pinyin": "jiù jué de zì jǐ zhōng wén bù hǎo bù gǎn fā dōng xī",
+      "vi": "liền cảm thấy tiếng Trung của mình kém, không dám đăng bài."
+    },
+    {
+      "start": 747.666,
+      "end": 750.323,
+      "hanzi": "但是后来我的一个中国朋友告诉我，",
+      "pinyin": "dàn shì hòu lái wǒ de yí gè zhōng guó péng yǒu gào sù wǒ",
+      "vi": "Nhưng sau đó một người bạn Trung Quốc nói với tôi:"
+    },
+    {
+      "start": 750.333,
+      "end": 754.69,
+      "hanzi": "没关系，说得不好也可以说，重要的是交流。",
+      "pinyin": "méi guān xì shuō dé bù hǎo yě kě yǐ shuō zhòng yào de shì jiāo liú",
+      "vi": "Không sao, nói chưa tốt cũng cứ nói, điều quan trọng là giao tiếp."
+    },
+    {
+      "start": 754.7,
+      "end": 756.556,
+      "hanzi": "你的朋友说得非常对。",
+      "pinyin": "nǐ de péng yǒu shuō dé fēi cháng duì",
+      "vi": "Bạn của bạn nói rất đúng."
+    },
+    {
+      "start": 756.566,
+      "end": 759.723,
+      "hanzi": "别比较。你可以从简单的开始。",
+      "pinyin": "bié bǐ jiào nǐ kě yǐ cóng jiǎn dān de kāi shǐ",
+      "vi": "Đừng so sánh. Bạn có thể bắt đầu từ những điều đơn giản."
+    },
+    {
+      "start": 759.733,
+      "end": 761.756,
+      "hanzi": "比如，今天天气很好，",
+      "pinyin": "bǐ rú jīn tiān tiān qì hěn hǎo",
+      "vi": "Ví dụ hôm nay thời tiết rất đẹp,"
+    },
+    {
+      "start": 761.766,
+      "end": 764.89,
+      "hanzi": "你就用中文写“今天天气很好”。",
+      "pinyin": "nǐ jiù yòng zhōng wén xiě jīn tiān tiān qì hěn hǎo",
+      "vi": "bạn có thể viết bằng tiếng Trung: \"Hôm nay thời tiết rất đẹp\"."
+    },
+    {
+      "start": 764.9,
+      "end": 766.69,
+      "hanzi": "你吃了一个好吃的东西，",
+      "pinyin": "nǐ chī le yí gè hǎo chī de dōng xī",
+      "vi": "Bạn ăn được một món gì đó ngon,"
+    },
+    {
+      "start": 766.7,
+      "end": 769.89,
+      "hanzi": "你就拍张照片，写“这个很好吃”。",
+      "pinyin": "nǐ jiù pāi zhāng zhào piān xiě zhè ge hěn hǎo chī",
+      "vi": "thì hãy chụp ảnh và viết: \"Món này ngon lắm\"."
+    },
+    {
+      "start": 769.9,
+      "end": 773.59,
+      "hanzi": "最重要的是开始，是去用这门语言。",
+      "pinyin": "zuì zhòng yào de shì kāi shǐ shì qù yòng zhè mén yǔ yán",
+      "vi": "Điều quan trọng nhất là bắt đầu và thực sự sử dụng ngôn ngữ này."
+    },
+    {
+      "start": 773.6,
+      "end": 775.09,
+      "hanzi": "嗯！我明白了。",
+      "pinyin": "ń wǒ míng bái le",
+      "vi": "Ừm! Tôi hiểu rồi."
+    },
+    {
+      "start": 775.1,
+      "end": 778.29,
+      "hanzi": "我们不应该让社交媒体给我们带来学",
+      "pinyin": "wǒ men bù yīng gāi ràng shè jiāo méi tǐ gěi wǒ men dài lái xué",
+      "vi": "Chúng ta không nên để mạng xã hội tạo ra áp lực trong việc"
+    },
+    {
+      "start": 778.3,
+      "end": 781.156,
+      "hanzi": "习的压力，而应该把它当作一个练",
+      "pinyin": "xí de yā lì ér yīng gāi bǎ tā dàng zuò yí gè liàn",
+      "vi": "học tập, mà nên coi nó là một công cụ tốt để"
+    },
+    {
+      "start": 781.166,
+      "end": 783.323,
+      "hanzi": "习和交朋友的好工具。",
+      "pinyin": "xí hé jiāo péng yǒu de hǎo gōng jù",
+      "vi": "luyện tập và kết bạn."
+    },
+    {
+      "start": 783.333,
+      "end": 785.923,
+      "hanzi": "是的。找到一个好的平衡，",
+      "pinyin": "shì de zhǎo dào yí gè hǎo de píng héng",
+      "vi": "Đúng vậy. Hãy tìm được một sự cân bằng hợp lý,"
+    },
+    {
+      "start": 785.933,
+      "end": 788.556,
+      "hanzi": "让社交媒体为我们的生活服务，",
+      "pinyin": "ràng shè jiāo méi tǐ wèi wǒ men de shēng huó fú wù",
+      "vi": "để mạng xã hội phục vụ cuộc sống của chúng ta,"
+    },
+    {
+      "start": 788.566,
+      "end": 790.923,
+      "hanzi": "而不是让我们成为它的奴隶。",
+      "pinyin": "ér bú shì ràng wǒ men chéng wéi tā de nú lì",
+      "vi": "chứ không phải để chúng ta trở thành nô lệ của nó."
+    },
+    {
+      "start": 790.933,
+      "end": 793.456,
+      "hanzi": "好了，今天我们聊了社交媒体",
+      "pinyin": "hǎo le jīn tiān wǒ men liáo le shè jiāo méi tǐ",
+      "vi": "Được rồi, hôm nay chúng ta đã nói về mạng xã hội"
+    },
+    {
+      "start": 793.466,
+      "end": 795.49,
+      "hanzi": "和现代生活这个话题。",
+      "pinyin": "hé xiàn dài shēng huó zhè ge huà tí",
+      "vi": "và cuộc sống hiện đại."
+    },
+    {
+      "start": 795.5,
+      "end": 798.89,
+      "hanzi": "我们从我们各自不同的使用习惯开始，",
+      "pinyin": "wǒ men cóng wǒ men gè zì bù tóng de shǐ yòng xí guàn kāi shǐ",
+      "vi": "Chúng ta bắt đầu từ những thói quen sử dụng khác nhau của hai người,"
+    },
+    {
+      "start": 798.9,
+      "end": 802.656,
+      "hanzi": "聊到了它的好处和坏处，最后也讨论了",
+      "pinyin": "liáo dào le tā de hǎo chù hé huài chù zuì hòu yě tǎo lùn le",
+      "vi": "sau đó trò chuyện về lợi ích và tác hại, cuối cùng thảo luận"
+    },
+    {
+      "start": 802.666,
+      "end": 805.123,
+      "hanzi": "应该怎么找到一个好的平衡。",
+      "pinyin": "yīng gāi zěn me zhǎo dào yí gè hǎo de píng héng",
+      "vi": "cách tìm được một sự cân bằng tốt."
+    },
+    {
+      "start": 805.133,
+      "end": 806.956,
+      "hanzi": "是啊，今天聊得真深入。",
+      "pinyin": "shì a jīn tiān liáo dé zhēn shēn rù",
+      "vi": "Đúng vậy, hôm nay chúng ta đã trò chuyện rất sâu."
+    },
+    {
+      "start": 806.966,
+      "end": 808.49,
+      "hanzi": "我学到了很多。",
+      "pinyin": "wǒ xué dào le hěn duō",
+      "vi": "Tôi học được rất nhiều điều."
+    },
+    {
+      "start": 808.5,
+      "end": 811.156,
+      "hanzi": "希望对听众朋友们也有帮助。",
+      "pinyin": "xī wàng duì tīng zhòng péng yǒu men yě yǒu bāng zhù",
+      "vi": "Hy vọng những điều này cũng hữu ích cho các thính giả."
+    },
+    {
+      "start": 811.166,
+      "end": 815.156,
+      "hanzi": "我们来简单总结一下今天聊到的几个建议吧。",
+      "pinyin": "wǒ men lái jiǎn dān zǒng jié yī xià jīn tiān liáo dào de jǐ gè jiàn yì ba",
+      "vi": "Chúng ta cùng tóm tắt ngắn gọn một vài lời khuyên hôm nay nhé."
+    },
+    {
+      "start": 815.166,
+      "end": 819.856,
+      "hanzi": "第一，在使用社交媒体前，先想清楚自己的目的。",
+      "pinyin": "dì yī zài shǐ yòng shè jiāo méi tǐ qián xiān xiǎng qīng chǔ zì jǐ de mù dì",
+      "vi": "Thứ nhất, trước khi sử dụng mạng xã hội, hãy nghĩ rõ mục đích của mình."
+    },
+    {
+      "start": 819.866,
+      "end": 823.49,
+      "hanzi": "第二，可以尝试给自己规定使用时间。",
+      "pinyin": "dì èr kě yǐ cháng shì gěi zì jǐ guī dìng shǐ yòng shí jiān",
+      "vi": "Thứ hai, có thể thử đặt giới hạn thời gian sử dụng."
+    },
+    {
+      "start": 823.5,
+      "end": 827.723,
+      "hanzi": "第三，主动选择看的内容，多和真朋友互动。",
+      "pinyin": "dì sān zhǔ dòng xuǎn zé kàn de nèi róng duō hé zhēn péng yǒu hù dòng",
+      "vi": "Thứ ba, chủ động lựa chọn nội dung xem và tương tác nhiều hơn với bạn bè thật."
+    },
+    {
+      "start": 827.733,
+      "end": 829.49,
+      "hanzi": "最后，也是最重要的，",
+      "pinyin": "zuì hòu yě shì zuì zhòng yào de",
+      "vi": "Cuối cùng, cũng là điều quan trọng nhất,"
+    },
+    {
+      "start": 829.5,
+      "end": 834.29,
+      "hanzi": "要记住多关心真实的生活，因为那才是最重要的。",
+      "pinyin": "yào jì zhù duō guān xīn zhēn shí de shēng huó yīn wèi nà cái shì zuì zhòng yào de",
+      "vi": "hãy nhớ quan tâm nhiều hơn đến cuộc sống thực, vì đó mới là điều quan trọng nhất."
+    },
+    {
+      "start": 834.3,
+      "end": 836.09,
+      "hanzi": "总结得太清楚了！",
+      "pinyin": "zǒng jié dé tài qīng chǔ le",
+      "vi": "Bạn tổng kết rõ ràng quá!"
+    },
+    {
+      "start": 836.1,
+      "end": 838.69,
+      "hanzi": "听众朋友们，如果你们想复习",
+      "pinyin": "tīng zhòng péng yǒu men rú guǒ nǐ men xiǎng fù xí",
+      "vi": "Các thính giả thân mến, nếu muốn ôn lại"
+    },
+    {
+      "start": 838.7,
+      "end": 842.59,
+      "hanzi": "今天我们聊天的内容，可以去我们的博客看看。",
+      "pinyin": "jīn tiān wǒ men liáo tiān de nèi róng kě yǐ qù wǒ men de bó kè kàn kàn",
+      "vi": "nội dung cuộc trò chuyện hôm nay, các bạn có thể ghé blog của chúng tôi."
+    },
+    {
+      "start": 842.6,
+      "end": 846.856,
+      "hanzi": "我们把每一期节目的完整文本都放在了博客上。",
+      "pinyin": "wǒ men bǎ měi yī qī jié mù de wán zhěng wén běn dōu fàng zài le bó kè shàng",
+      "vi": "Chúng tôi đã đăng toàn bộ lời thoại của mỗi số lên blog."
+    },
+    {
+      "start": 846.866,
+      "end": 848.323,
+      "hanzi": "博客的地址是",
+      "pinyin": "bó kè de dì zhǐ shì",
+      "vi": "Địa chỉ blog là"
+    },
+    {
+      "start": 848.333,
+      "end": 851.723,
+      "hanzi": "chinesedailypodcast.blogspot.com。",
+      "pinyin": "chinesedailypodcast blogspot com",
+      "vi": "chinesedailypodcast.blogspot.com."
+    },
+    {
+      "start": 851.733,
+      "end": 854.556,
+      "hanzi": "是的，欢迎大家去看和学习。",
+      "pinyin": "shì de huān yíng dà jiā qù kàn hé xué xí",
+      "vi": "Đúng vậy, hoan nghênh mọi người ghé xem và học tập."
+    },
+    {
+      "start": 854.566,
+      "end": 856.123,
+      "hanzi": "那么，听众朋友们，",
+      "pinyin": "nà me tīng zhòng péng yǒu men",
+      "vi": "Vậy thì, các thính giả thân mến,"
+    },
+    {
+      "start": 856.133,
+      "end": 858.49,
+      "hanzi": "今天我们想问你的问题是:",
+      "pinyin": "jīn tiān wǒ men xiǎng wèn nǐ de wèn tí shì",
+      "vi": "hôm nay chúng tôi muốn hỏi các bạn:"
+    },
+    {
+      "start": 858.5,
+      "end": 861.456,
+      "hanzi": "那你呢？你怎么用社交媒体？",
+      "pinyin": "nà nǐ ne nǐ zěn me yòng shè jiāo méi tǐ",
+      "vi": "Còn bạn thì sao? Bạn sử dụng mạng xã hội như thế nào?"
+    },
+    {
+      "start": 861.466,
+      "end": 864.59,
+      "hanzi": "它对你来说，有什么好处和坏处呢？",
+      "pinyin": "tā duì nǐ lái shuō yǒu shén me hǎo chù hé huài chù ne",
+      "vi": "Đối với bạn, nó có những lợi ích và tác hại gì?"
+    },
+    {
+      "start": 864.6,
+      "end": 867.656,
+      "hanzi": "你有什么好方法来找到平衡吗？",
+      "pinyin": "nǐ yǒu shén me hǎo fāng fǎ lái zhǎo dào píng héng ma",
+      "vi": "Bạn có phương pháp hay nào để tìm được sự cân bằng không?"
+    },
+    {
+      "start": 867.666,
+      "end": 870.723,
+      "hanzi": "请在我们的博客下面留言告诉我们吧！",
+      "pinyin": "qǐng zài wǒ men de bó kè xià miàn liú yán gào sù wǒ men ba",
+      "vi": "Hãy để lại bình luận bên dưới blog của chúng tôi nhé!"
+    },
+    {
+      "start": 870.733,
+      "end": 872.79,
+      "hanzi": "我们很想听听你的想法。",
+      "pinyin": "wǒ men hěn xiǎng tīng tīng nǐ de xiǎng fǎ",
+      "vi": "Chúng tôi rất muốn nghe suy nghĩ của các bạn."
+    },
+    {
+      "start": 872.8,
+      "end": 876.523,
+      "hanzi": "好的，那么这一期的“每天中文”就到这里。",
+      "pinyin": "hǎo de nà me zhè yī qī de měi tiān zhōng wén jiù dào zhè lǐ",
+      "vi": "Được rồi, số \"Tiếng Trung mỗi ngày\" hôm nay xin kết thúc tại đây."
+    },
+    {
+      "start": 876.533,
+      "end": 877.99,
+      "hanzi": "感谢大家的收听。",
+      "pinyin": "gǎn xiè dà jiā de shōu tīng",
+      "vi": "Cảm ơn mọi người đã lắng nghe."
+    },
+    {
+      "start": 878.0,
+      "end": 880.133,
+      "hanzi": "我们下次再见！再见！",
+      "pinyin": "wǒ men xià cì zài jiàn zài jiàn",
+      "vi": "Hẹn gặp lại lần sau! Tạm biệt!"
+    }
+  ]
+}

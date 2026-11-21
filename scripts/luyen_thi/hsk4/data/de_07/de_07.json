@@ -1,0 +1,3304 @@
+{
+  "ma_de_goc": "H41327",
+  "cap_hsk": 4,
+  "so_de": 7,
+  "thu_tu": 7,
+  "ten_hien_thi": "Đề 7",
+  "so_cau": 100,
+  "so_cau_nghe": 45,
+  "so_cau_doc": 40,
+  "so_cau_viet": 15,
+  "thoi_gian_phut": 100,
+  "thoi_gian_pdf_phut": 105,
+  "so_trang_pdf_de": 16,
+  "trang_cau_hoi": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "trang_loi_thoai": [],
+  "trang_dap_an": [
+    1,
+    2
+  ],
+  "nguon_dap_an": "pdf_rieng",
+  "file_pdf": "D:\\DATN1\\scripts\\luyen_thi\\source\\De_HSK\\HSK4\\H41007.pdf",
+  "file_dap_an_pdf": "D:\\DATN1\\scripts\\luyen_thi\\source\\De_HSK\\HSK4\\H41007_dap_an.pdf",
+  "file_mp3": "D:\\DATN1\\scripts\\luyen_thi\\source\\De_HSK\\HSK4\\H41007.mp3",
+  "audio": {
+    "duong_dan": "/static/media/luyen_thi/hsk4/H41007.mp3",
+    "thoi_luong_giay": 1823.03
+  },
+  "dap_an_thay_the": {},
+  "dap_an_tham_khao_viet_mo": {
+    "96": [
+      "没关系，这个箱子很轻。"
+    ],
+    "97": [
+      "这道题的答案在这儿。"
+    ],
+    "98": [
+      "钥匙应该就在包里呀。"
+    ],
+    "99": [
+      "那个消息让他很激动。"
+    ],
+    "100": [
+      "她们一边喝茶一边聊天儿。"
+    ]
+  },
+  "cau_can_cham_thu_cong": [],
+  "che_do_cham_viet_mo": "cham_tu_dong_theo_mau",
+  "san_sang_nhap_sql": true,
+  "cau_hoi": [
+    {
+      "so_cau": 1,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 1",
+      "loai_cau_hoi": "dung_sai",
+      "noi_dung": null,
+      "trang_pdf": 2,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_001.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "√",
+          "nhan": "√"
+        },
+        {
+          "ma": "×",
+          "nhan": "×"
+        }
+      ],
+      "dap_an_dung": "√",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 2,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 1",
+      "loai_cau_hoi": "dung_sai",
+      "noi_dung": null,
+      "trang_pdf": 2,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_002.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "√",
+          "nhan": "√"
+        },
+        {
+          "ma": "×",
+          "nhan": "×"
+        }
+      ],
+      "dap_an_dung": "×",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 3,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 1",
+      "loai_cau_hoi": "dung_sai",
+      "noi_dung": null,
+      "trang_pdf": 2,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_003.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "√",
+          "nhan": "√"
+        },
+        {
+          "ma": "×",
+          "nhan": "×"
+        }
+      ],
+      "dap_an_dung": "√",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 4,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 1",
+      "loai_cau_hoi": "dung_sai",
+      "noi_dung": null,
+      "trang_pdf": 2,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_004.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "√",
+          "nhan": "√"
+        },
+        {
+          "ma": "×",
+          "nhan": "×"
+        }
+      ],
+      "dap_an_dung": "×",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 5,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 1",
+      "loai_cau_hoi": "dung_sai",
+      "noi_dung": null,
+      "trang_pdf": 2,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_005.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "√",
+          "nhan": "√"
+        },
+        {
+          "ma": "×",
+          "nhan": "×"
+        }
+      ],
+      "dap_an_dung": "√",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 6,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 1",
+      "loai_cau_hoi": "dung_sai",
+      "noi_dung": null,
+      "trang_pdf": 2,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_006.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "√",
+          "nhan": "√"
+        },
+        {
+          "ma": "×",
+          "nhan": "×"
+        }
+      ],
+      "dap_an_dung": "×",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 7,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 1",
+      "loai_cau_hoi": "dung_sai",
+      "noi_dung": null,
+      "trang_pdf": 2,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_007.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "√",
+          "nhan": "√"
+        },
+        {
+          "ma": "×",
+          "nhan": "×"
+        }
+      ],
+      "dap_an_dung": "√",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 8,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 1",
+      "loai_cau_hoi": "dung_sai",
+      "noi_dung": null,
+      "trang_pdf": 2,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_008.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "√",
+          "nhan": "√"
+        },
+        {
+          "ma": "×",
+          "nhan": "×"
+        }
+      ],
+      "dap_an_dung": "×",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 9,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 1",
+      "loai_cau_hoi": "dung_sai",
+      "noi_dung": null,
+      "trang_pdf": 2,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_009.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "√",
+          "nhan": "√"
+        },
+        {
+          "ma": "×",
+          "nhan": "×"
+        }
+      ],
+      "dap_an_dung": "√",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 10,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 1",
+      "loai_cau_hoi": "dung_sai",
+      "noi_dung": null,
+      "trang_pdf": 2,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_010.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "√",
+          "nhan": "√"
+        },
+        {
+          "ma": "×",
+          "nhan": "×"
+        }
+      ],
+      "dap_an_dung": "×",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 11,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 3,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_011.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 12,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 3,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_012.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 13,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 3,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_013.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 14,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 3,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_014.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 15,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 3,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_015.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 16,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 3,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_016.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 17,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 3,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_017.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 18,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 3,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_018.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 19,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 3,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_019.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 20,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 3,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_020.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 21,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 4,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_021.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 22,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 4,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_022.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 23,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 4,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_023.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 24,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 4,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_024.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 25,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 2",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 4,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_025.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 26,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 5,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_026.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 27,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 5,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_027.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 28,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 5,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_028.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 29,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 5,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_029.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 30,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 5,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_030.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 31,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 5,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_031.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 32,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 5,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_032.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 33,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 5,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_033.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 34,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 5,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_034.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 35,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 6,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_035.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 36,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 6,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_036.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 37,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 6,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_037.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 38,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 6,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_038.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 39,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 6,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_039.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 40,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 6,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_040.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 41,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 6,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_041.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 42,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 6,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_042.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 43,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 6,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_043.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 44,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 6,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_044.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 45,
+      "ky_nang": "nghe",
+      "phan": "Nghe - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 6,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_045.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 46,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 1",
+      "loai_cau_hoi": "ghep_lua_chon",
+      "noi_dung": null,
+      "trang_pdf": 7,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_046.png",
+      "anh_nhom_lua_chon": "/static/media/luyen_thi/hsk4/de_07/groups/doc_46_50.png",
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        },
+        {
+          "ma": "E",
+          "nhan": "E"
+        },
+        {
+          "ma": "F",
+          "nhan": "F"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 47,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 1",
+      "loai_cau_hoi": "ghep_lua_chon",
+      "noi_dung": null,
+      "trang_pdf": 7,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_047.png",
+      "anh_nhom_lua_chon": "/static/media/luyen_thi/hsk4/de_07/groups/doc_46_50.png",
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        },
+        {
+          "ma": "E",
+          "nhan": "E"
+        },
+        {
+          "ma": "F",
+          "nhan": "F"
+        }
+      ],
+      "dap_an_dung": "F",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 48,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 1",
+      "loai_cau_hoi": "ghep_lua_chon",
+      "noi_dung": null,
+      "trang_pdf": 7,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_048.png",
+      "anh_nhom_lua_chon": "/static/media/luyen_thi/hsk4/de_07/groups/doc_46_50.png",
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        },
+        {
+          "ma": "E",
+          "nhan": "E"
+        },
+        {
+          "ma": "F",
+          "nhan": "F"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 49,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 1",
+      "loai_cau_hoi": "ghep_lua_chon",
+      "noi_dung": null,
+      "trang_pdf": 7,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_049.png",
+      "anh_nhom_lua_chon": "/static/media/luyen_thi/hsk4/de_07/groups/doc_46_50.png",
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        },
+        {
+          "ma": "E",
+          "nhan": "E"
+        },
+        {
+          "ma": "F",
+          "nhan": "F"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 50,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 1",
+      "loai_cau_hoi": "ghep_lua_chon",
+      "noi_dung": null,
+      "trang_pdf": 7,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_050.png",
+      "anh_nhom_lua_chon": "/static/media/luyen_thi/hsk4/de_07/groups/doc_46_50.png",
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        },
+        {
+          "ma": "E",
+          "nhan": "E"
+        },
+        {
+          "ma": "F",
+          "nhan": "F"
+        }
+      ],
+      "dap_an_dung": "E",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 51,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 1",
+      "loai_cau_hoi": "ghep_lua_chon",
+      "noi_dung": null,
+      "trang_pdf": 8,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_051.png",
+      "anh_nhom_lua_chon": "/static/media/luyen_thi/hsk4/de_07/groups/doc_51_55.png",
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        },
+        {
+          "ma": "E",
+          "nhan": "E"
+        },
+        {
+          "ma": "F",
+          "nhan": "F"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 52,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 1",
+      "loai_cau_hoi": "ghep_lua_chon",
+      "noi_dung": null,
+      "trang_pdf": 8,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_052.png",
+      "anh_nhom_lua_chon": "/static/media/luyen_thi/hsk4/de_07/groups/doc_51_55.png",
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        },
+        {
+          "ma": "E",
+          "nhan": "E"
+        },
+        {
+          "ma": "F",
+          "nhan": "F"
+        }
+      ],
+      "dap_an_dung": "F",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 53,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 1",
+      "loai_cau_hoi": "ghep_lua_chon",
+      "noi_dung": null,
+      "trang_pdf": 8,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_053.png",
+      "anh_nhom_lua_chon": "/static/media/luyen_thi/hsk4/de_07/groups/doc_51_55.png",
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        },
+        {
+          "ma": "E",
+          "nhan": "E"
+        },
+        {
+          "ma": "F",
+          "nhan": "F"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 54,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 1",
+      "loai_cau_hoi": "ghep_lua_chon",
+      "noi_dung": null,
+      "trang_pdf": 8,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_054.png",
+      "anh_nhom_lua_chon": "/static/media/luyen_thi/hsk4/de_07/groups/doc_51_55.png",
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        },
+        {
+          "ma": "E",
+          "nhan": "E"
+        },
+        {
+          "ma": "F",
+          "nhan": "F"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 55,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 1",
+      "loai_cau_hoi": "ghep_lua_chon",
+      "noi_dung": null,
+      "trang_pdf": 8,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_055.png",
+      "anh_nhom_lua_chon": "/static/media/luyen_thi/hsk4/de_07/groups/doc_51_55.png",
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        },
+        {
+          "ma": "E",
+          "nhan": "E"
+        },
+        {
+          "ma": "F",
+          "nhan": "F"
+        }
+      ],
+      "dap_an_dung": "E",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 56,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 2",
+      "loai_cau_hoi": "sap_xep_abc",
+      "noi_dung": null,
+      "trang_pdf": 9,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_056.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        }
+      ],
+      "dap_an_dung": "CBA",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 57,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 2",
+      "loai_cau_hoi": "sap_xep_abc",
+      "noi_dung": null,
+      "trang_pdf": 9,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_057.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        }
+      ],
+      "dap_an_dung": "BAC",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 58,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 2",
+      "loai_cau_hoi": "sap_xep_abc",
+      "noi_dung": null,
+      "trang_pdf": 9,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_058.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        }
+      ],
+      "dap_an_dung": "ABC",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 59,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 2",
+      "loai_cau_hoi": "sap_xep_abc",
+      "noi_dung": null,
+      "trang_pdf": 9,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_059.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        }
+      ],
+      "dap_an_dung": "BAC",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 60,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 2",
+      "loai_cau_hoi": "sap_xep_abc",
+      "noi_dung": null,
+      "trang_pdf": 10,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_060.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        }
+      ],
+      "dap_an_dung": "BCA",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 61,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 2",
+      "loai_cau_hoi": "sap_xep_abc",
+      "noi_dung": null,
+      "trang_pdf": 10,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_061.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        }
+      ],
+      "dap_an_dung": "CBA",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 62,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 2",
+      "loai_cau_hoi": "sap_xep_abc",
+      "noi_dung": null,
+      "trang_pdf": 10,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_062.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        }
+      ],
+      "dap_an_dung": "BAC",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 63,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 2",
+      "loai_cau_hoi": "sap_xep_abc",
+      "noi_dung": null,
+      "trang_pdf": 10,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_063.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        }
+      ],
+      "dap_an_dung": "ACB",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 64,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 2",
+      "loai_cau_hoi": "sap_xep_abc",
+      "noi_dung": null,
+      "trang_pdf": 10,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_064.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        }
+      ],
+      "dap_an_dung": "BCA",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 65,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 2",
+      "loai_cau_hoi": "sap_xep_abc",
+      "noi_dung": null,
+      "trang_pdf": 10,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_065.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        }
+      ],
+      "dap_an_dung": "CAB",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 66,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 11,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_066.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 67,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 11,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_067.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 68,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 11,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_068.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 69,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 11,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_069.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 70,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 12,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_070.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 71,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 12,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_071.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 72,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 12,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_072.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 73,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 12,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_073.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 74,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 12,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_074.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 75,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 12,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_075.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 76,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 13,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_076.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 77,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 13,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_077.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 78,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 13,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_078.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "A",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 79,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 13,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_079.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "D",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 80,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 13,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_080.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": "80-81",
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 81,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 13,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_081.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": "80-81",
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 82,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 14,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_082.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": "82-83",
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 83,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 14,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_083.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": "82-83",
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 84,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 14,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_084.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "C",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": "84-85",
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 85,
+      "ky_nang": "doc",
+      "phan": "Đọc - Phần 3",
+      "loai_cau_hoi": "chon_mot",
+      "noi_dung": null,
+      "trang_pdf": 14,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_085.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "A",
+          "nhan": "A"
+        },
+        {
+          "ma": "B",
+          "nhan": "B"
+        },
+        {
+          "ma": "C",
+          "nhan": "C"
+        },
+        {
+          "ma": "D",
+          "nhan": "D"
+        }
+      ],
+      "dap_an_dung": "B",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": "84-85",
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 86,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 1",
+      "loai_cau_hoi": "sap_xep",
+      "noi_dung": null,
+      "trang_pdf": 15,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_086.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "1",
+          "nhan": "你最好"
+        },
+        {
+          "ma": "2",
+          "nhan": "一个密码"
+        },
+        {
+          "ma": "3",
+          "nhan": "重新"
+        },
+        {
+          "ma": "4",
+          "nhan": "换"
+        }
+      ],
+      "dap_an_dung": "你最好重新换一个密码。",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 87,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 1",
+      "loai_cau_hoi": "sap_xep",
+      "noi_dung": null,
+      "trang_pdf": 15,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_087.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "1",
+          "nhan": "不允许"
+        },
+        {
+          "ma": "2",
+          "nhan": "医院"
+        },
+        {
+          "ma": "3",
+          "nhan": "抽烟"
+        },
+        {
+          "ma": "4",
+          "nhan": "里"
+        }
+      ],
+      "dap_an_dung": "医院里不允许抽烟。",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 88,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 1",
+      "loai_cau_hoi": "sap_xep",
+      "noi_dung": null,
+      "trang_pdf": 15,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_088.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "1",
+          "nhan": "看法"
+        },
+        {
+          "ma": "2",
+          "nhan": "我"
+        },
+        {
+          "ma": "3",
+          "nhan": "跟你的"
+        },
+        {
+          "ma": "4",
+          "nhan": "差不多"
+        }
+      ],
+      "dap_an_dung": "我跟你的看法差不多。",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 89,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 1",
+      "loai_cau_hoi": "sap_xep",
+      "noi_dung": null,
+      "trang_pdf": 15,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_089.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "1",
+          "nhan": "发生了"
+        },
+        {
+          "ma": "2",
+          "nhan": "这儿究竟"
+        },
+        {
+          "ma": "3",
+          "nhan": "什么"
+        },
+        {
+          "ma": "4",
+          "nhan": "事情"
+        }
+      ],
+      "dap_an_dung": "这儿究竟发生了什么事情？",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 90,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 1",
+      "loai_cau_hoi": "sap_xep",
+      "noi_dung": null,
+      "trang_pdf": 15,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_090.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "1",
+          "nhan": "他"
+        },
+        {
+          "ma": "2",
+          "nhan": "一个"
+        },
+        {
+          "ma": "3",
+          "nhan": "美丽的"
+        },
+        {
+          "ma": "4",
+          "nhan": "小城市"
+        },
+        {
+          "ma": "5",
+          "nhan": "出生在"
+        }
+      ],
+      "dap_an_dung": "他出生在一个美丽的小城市。",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 91,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 1",
+      "loai_cau_hoi": "sap_xep",
+      "noi_dung": null,
+      "trang_pdf": 15,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_091.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "1",
+          "nhan": "房间"
+        },
+        {
+          "ma": "2",
+          "nhan": "把"
+        },
+        {
+          "ma": "3",
+          "nhan": "收拾得"
+        },
+        {
+          "ma": "4",
+          "nhan": "姐姐"
+        },
+        {
+          "ma": "5",
+          "nhan": "很整齐"
+        }
+      ],
+      "dap_an_dung": "姐姐把房间收拾得很整齐。",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 92,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 1",
+      "loai_cau_hoi": "sap_xep",
+      "noi_dung": null,
+      "trang_pdf": 15,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_092.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "1",
+          "nhan": "是"
+        },
+        {
+          "ma": "2",
+          "nhan": "负责的"
+        },
+        {
+          "ma": "3",
+          "nhan": "由李经理"
+        },
+        {
+          "ma": "4",
+          "nhan": "这次调查"
+        }
+      ],
+      "dap_an_dung": "这次调查是由李经理负责的。",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 93,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 1",
+      "loai_cau_hoi": "sap_xep",
+      "noi_dung": null,
+      "trang_pdf": 15,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_093.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "1",
+          "nhan": "反对这样做"
+        },
+        {
+          "ma": "2",
+          "nhan": "大概"
+        },
+        {
+          "ma": "3",
+          "nhan": "三分之二的人"
+        },
+        {
+          "ma": "4",
+          "nhan": "有"
+        }
+      ],
+      "dap_an_dung": "大概有三分之二的人反对这样做。",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 94,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 1",
+      "loai_cau_hoi": "sap_xep",
+      "noi_dung": null,
+      "trang_pdf": 15,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_094.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "1",
+          "nhan": "学校"
+        },
+        {
+          "ma": "2",
+          "nhan": "去参观"
+        },
+        {
+          "ma": "3",
+          "nhan": "长城"
+        },
+        {
+          "ma": "4",
+          "nhan": "将"
+        },
+        {
+          "ma": "5",
+          "nhan": "组织大家"
+        }
+      ],
+      "dap_an_dung": "学校将组织大家去参观长城。",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 95,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 1",
+      "loai_cau_hoi": "sap_xep",
+      "noi_dung": null,
+      "trang_pdf": 15,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_095.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [
+        {
+          "ma": "1",
+          "nhan": "对"
+        },
+        {
+          "ma": "2",
+          "nhan": "非常感谢您"
+        },
+        {
+          "ma": "3",
+          "nhan": "理解和支持"
+        },
+        {
+          "ma": "4",
+          "nhan": "我们工作的"
+        }
+      ],
+      "dap_an_dung": "非常感谢您对我们工作的理解和支持。",
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 96,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 2",
+      "loai_cau_hoi": "viet_cau_theo_tranh",
+      "noi_dung": "Nhìn tranh và đặt câu với từ: 轻",
+      "trang_pdf": 16,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_096.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [],
+      "dap_an_dung": {
+        "che_do": "cham_tu_dong_theo_mau",
+        "tu_cho_san": "轻",
+        "dap_an_tham_khao": [
+          "没关系，这个箱子很轻。"
+        ]
+      },
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false,
+      "dap_an_tham_khao": [
+        "没关系，这个箱子很轻。"
+      ],
+      "tu_cho_san": "轻"
+    },
+    {
+      "so_cau": 97,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 2",
+      "loai_cau_hoi": "viet_cau_theo_tranh",
+      "noi_dung": "Nhìn tranh và đặt câu với từ: 答案",
+      "trang_pdf": 16,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_097.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [],
+      "dap_an_dung": {
+        "che_do": "cham_tu_dong_theo_mau",
+        "tu_cho_san": "答案",
+        "dap_an_tham_khao": [
+          "这道题的答案在这儿。"
+        ]
+      },
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false,
+      "dap_an_tham_khao": [
+        "这道题的答案在这儿。"
+      ],
+      "tu_cho_san": "答案"
+    },
+    {
+      "so_cau": 98,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 2",
+      "loai_cau_hoi": "viet_cau_theo_tranh",
+      "noi_dung": "Nhìn tranh và đặt câu với từ: 钥匙",
+      "trang_pdf": 16,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_098.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [],
+      "dap_an_dung": {
+        "che_do": "cham_tu_dong_theo_mau",
+        "tu_cho_san": "钥匙",
+        "dap_an_tham_khao": [
+          "钥匙应该就在包里呀。"
+        ]
+      },
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false,
+      "dap_an_tham_khao": [
+        "钥匙应该就在包里呀。"
+      ],
+      "tu_cho_san": "钥匙"
+    },
+    {
+      "so_cau": 99,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 2",
+      "loai_cau_hoi": "viet_cau_theo_tranh",
+      "noi_dung": "Nhìn tranh và đặt câu với từ: 激动",
+      "trang_pdf": 16,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_099.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [],
+      "dap_an_dung": {
+        "che_do": "cham_tu_dong_theo_mau",
+        "tu_cho_san": "激动",
+        "dap_an_tham_khao": [
+          "那个消息让他很激动。"
+        ]
+      },
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false,
+      "dap_an_tham_khao": [
+        "那个消息让他很激动。"
+      ],
+      "tu_cho_san": "激动"
+    },
+    {
+      "so_cau": 100,
+      "ky_nang": "viet",
+      "phan": "Viết - Phần 2",
+      "loai_cau_hoi": "viet_cau_theo_tranh",
+      "noi_dung": "Nhìn tranh và đặt câu với từ: 聊天儿",
+      "trang_pdf": 16,
+      "anh_cau_hoi": "/static/media/luyen_thi/hsk4/de_07/questions/cau_100.png",
+      "anh_nhom_lua_chon": null,
+      "lua_chon_json": [],
+      "dap_an_dung": {
+        "che_do": "cham_tu_dong_theo_mau",
+        "tu_cho_san": "聊天儿",
+        "dap_an_tham_khao": [
+          "她们一边喝茶一边聊天儿。"
+        ]
+      },
+      "dap_an_thay_the": [],
+      "nhom_doc_chung": null,
+      "cham_thu_cong": false,
+      "da_duyet": false,
+      "dap_an_tham_khao": [
+        "她们一边喝茶一边聊天儿。"
+      ],
+      "tu_cho_san": "聊天儿"
+    }
+  ]
+}

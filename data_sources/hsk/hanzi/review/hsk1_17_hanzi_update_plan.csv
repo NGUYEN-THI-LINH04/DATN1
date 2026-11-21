@@ -1,0 +1,18 @@
+﻿KyTu,PhamVi,BaiXuatHienDau,MaBaiHoc,TieuDeBai,TuVungDauTien,ThuTu,Pinyin,NghiaTiengViet,MaBoThu,SoNet,CachGhiNho,ViDuTiengTrung,ViDuPinyin,ViDuTiengViet,MaTep,NguonChuHanChienLuoc,TrangThai,DaCoTrongSQL,MaChuHanHienTai,HanhDong10R,CotCanCapNhat,GhiChu,PinyinHienTai,NghiaHienTai,MaBoThuHienTai,SoNetHienTai,ThuTuHienTai,MaNguonHienTai
+你,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,你,1,nǐ,bạn; cậu,9,7,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,1,GIU_NOI_DUNG_CHI_CHOT_NGUON_10R,,,nǐ,bạn; cậu,9,7,1,1
+好,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,好,2,hǎo,tốt; khỏe,38,6,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,2,GIU_NOI_DUNG_CHI_CHOT_NGUON_10R,,,hǎo,tốt; khỏe,38,6,2,1
+我,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,我,3,wǒ,tôi; mình,62,7,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,3,GIU_NOI_DUNG_CHI_CHOT_NGUON_10R,,,wǒ,tôi; mình,62,7,3,1
+是,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,是,4,shì,là,72,9,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,4,GIU_NOI_DUNG_CHI_CHOT_NGUON_10R,,,shì,là,72,9,4,1
+叫,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,叫,5,jiào,gọi; tên là,30,5,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,5,GIU_NOI_DUNG_CHI_CHOT_NGUON_10R,,,jiào,gọi; tên là,30,5,5,1
+什,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,什么,6,shén,gì; cái gì (dùng trong 什么),9,4,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,6,UPDATE,NghiaTiengViet,,shén,trong 什么: gì; cái gì,9,4,6,1
+么,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,什么,7,me,"hậu tố dùng trong từ nghi vấn như 什么 (gì, cái gì)",4,3,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,7,UPDATE,NghiaTiengViet,,me,thành tố trong 什么: gì; cái gì,4,3,7,1
+名,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,名字,8,míng,tên; danh xưng,30,6,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,8,UPDATE,NghiaTiengViet,,míng,tên,30,6,8,1
+字,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,名字,9,zì,chữ; ký tự,39,6,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,9,UPDATE,NghiaTiengViet,,zì,chữ; trong 名字: tên,39,6,9,1
+很,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,很,10,hěn,rất,60,9,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,10,GIU_NOI_DUNG_CHI_CHOT_NGUON_10R,,,hěn,rất,60,9,10,1
+高,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,高兴,11,gāo,cao,189,10,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,11,UPDATE,NghiaTiengViet,,gāo,cao; trong 高兴: vui,189,10,11,1
+兴,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,高兴,12,xìng,hứng; hứng thú; sự hào hứng,12,6,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,12,UPDATE,NghiaTiengViet,,xìng,hứng; trong 高兴: vui,12,6,12,1
+认,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,认识,13,rèn,nhận biết; nhận ra; công nhận,149,4,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,13,UPDATE,NghiaTiengViet,,rèn,nhận; nhận biết,149,4,13,1
+识,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,认识,14,shí,biết; nhận biết; kiến thức,149,7,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,14,UPDATE,Pinyin | NghiaTiengViet,ChuHan SQL hiện tại đang là 'shi' (thiếu dấu thanh); nguồn đối chiếu cho ngữ cảnh 认识 là shí.,shi,biết; nhận biết,149,7,14,1
+吗,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,吗,15,ma,trợ từ nghi vấn,30,6,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,15,UPDATE,NghiaTiengViet,,ma,trợ từ nghi vấn cuối câu,30,6,15,1
+呢,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,呢,16,ne,trợ từ hỏi lại hoặc tiếp nối chủ đề,30,8,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,16,UPDATE,NghiaTiengViet,10Q: Trong HSK1 dung 呢 lam tro tu ngu khi; chon am nhe ne.,ne,trợ từ dùng để hỏi lại hoặc tiếp nối,30,8,16,1
+也,HSK1_CHUAN_300,1,1,你好！ - Xin chào!,也,17,yě,cũng,5,3,,,,,,TONG_HOP_CHUHAN_HSK1_DO_AN,ban_nhap,1,17,GIU_NOI_DUNG_CHI_CHOT_NGUON_10R,,,yě,cũng,5,3,17,1

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "buoc": 18,
+  "nguon_pham_vi": "dbo.TuVungHSKChuan MaCapDo=4 / GF0025-2021",
+  "tong_tu_vung_hsk4": 1000,
+  "tong_ky_tu_unique": 828,
+  "da_co_trong_sql_hsk1_3": 528,
+  "moi_hsk4": 300,
+  "hsk4_vocab_snapshot_sha256": "390175b27a7d8ccdd2da64348f8dcfcad6acc4256f84e43896359d4460153d8f",
+  "all_characters_sha256": "c83421a2f92d9cb8b18db9895fb73387366858f44eabfa423d3c47853cd2eb95",
+  "existing_sha256": "2c39871a5b4077a58b0b9ba2cbf0d2558b74e8eb1d0e5edbb31cff53f9a8ab0a",
+  "new_candidates_sha256": "d274eceb4c1eb5f4609876b60cafaf7367039ffad7aba693fc858b715c2bf1ef",
+  "da_lam_giau_unihan": false,
+  "da_gan_bo_thu": false,
+  "da_chot_pinyin": false,
+  "da_chot_nghia": false,
+  "da_gan_bai_hoc": false,
+  "da_ghi_sql": false,
+  "ghi_chu": "KyTu HSK4 duoc trich tu 1000 muc tu vung GF0025 HSK4, theo cung chien luoc pipeline cac cap truoc. PinyinTuDaiDien chi la Pinyin cua TU, khong phai tu dong la Pinyin cua KY TU."
+}

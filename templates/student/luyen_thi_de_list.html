@@ -1,0 +1,321 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Thi thử HSK {{ cap_hsk }} | Mộc Hán
+{% endblock %}
+
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for(
+        'static',
+        filename='css/student-luyen-thi.css'
+    ) }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="luyenthi-page luyenthi-list-page">
+
+    <!-- ==========================================
+         1. TRỞ VỀ CHỌN CẤP HSK
+    =========================================== -->
+
+    <div class="luyenthi-list-back">
+
+        <a
+            href="{{ url_for(
+                'student_luyen_thi.trang_luyen_thi'
+            ) }}"
+        >
+            ← Chọn cấp độ HSK
+        </a>
+
+    </div>
+
+
+    <!-- ==========================================
+         2. TIÊU ĐỀ DANH SÁCH ĐỀ
+    =========================================== -->
+
+    <header class="luyenthi-list-heading">
+
+        <div class="luyenthi-list-heading-icon">
+            <span>HSK</span>
+        </div>
+
+        <div>
+            <span class="luyenthi-label">
+                MỘC HÁN · LUYỆN THI
+            </span>
+
+            <h1>
+                Thi thử HSK {{ cap_hsk }}
+            </h1>
+
+            <p>
+                Chọn một đề thi để bắt đầu luyện tập
+                và kiểm tra kiến thức tiếng Trung.
+            </p>
+        </div>
+
+    </header>
+
+
+    <!-- ==========================================
+         3. THỐNG KÊ SỐ ĐỀ
+    =========================================== -->
+
+    <div class="luyenthi-list-summary">
+
+        <!-- CẤP ĐỘ -->
+
+        <div>
+            <span>Cấp độ</span>
+
+            <strong>
+                HSK {{ cap_hsk }}
+            </strong>
+        </div>
+
+
+        <!-- SỐ ĐỀ ĐÃ XUẤT BẢN -->
+
+        <div>
+            <span>Đề đã xuất bản</span>
+
+            <strong>
+                {{ danh_sach_de | length }}
+            </strong>
+        </div>
+
+
+        <!-- NỘI DUNG THEO CẤP ĐỘ HSK -->
+
+        <div>
+            <span>Nội dung</span>
+
+            <strong>
+                Nghe · Đọc
+                {% if cap_hsk|int in (3, 4) %}
+                    · Viết
+                {% endif %}
+            </strong>
+        </div>
+
+    </div>
+
+
+    <!-- ==========================================
+         4. DANH SÁCH ĐỀ THI
+    =========================================== -->
+
+    <section class="luyenthi-section">
+
+        <div class="luyenthi-section-heading">
+
+            <div>
+                <h2>Danh sách đề thi</h2>
+
+                <p>
+                    Chọn đề để xem thông tin,
+                    chọn kỹ năng và bắt đầu làm bài.
+                </p>
+            </div>
+
+        </div>
+
+
+        {% if danh_sach_de %}
+
+        <div class="luyenthi-exam-grid">
+
+            {% for de in danh_sach_de %}
+
+            <article class="luyenthi-exam-card">
+
+                <!-- SỐ ĐỀ VÀ TÊN ĐỀ -->
+
+                <div class="luyenthi-list-card-heading">
+
+                    <div class="luyenthi-list-number">
+                        {{ de.ThuTu }}
+                    </div>
+
+                    <div>
+                        <h3>{{ de.TenDe }}</h3>
+
+                        <span>
+                            HSK {{ cap_hsk }}
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <!-- THÔNG TIN ĐỀ -->
+
+                <div class="luyenthi-list-card-info">
+
+                    <!-- TỔNG SỐ CÂU -->
+
+                    <span>
+                        <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M7 3h7l4 4v14H7z"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            ></path>
+
+                            <path
+                                d="M14 3v5h4M10 12h5M10 16h5"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            ></path>
+                        </svg>
+
+                        {{ de.TongSoCau }} câu
+                    </span>
+
+
+                    <!-- THỜI GIAN THI -->
+
+                    <span>
+                        <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+                            <circle
+                                cx="12"
+                                cy="12"
+                                r="9"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            ></circle>
+
+                            <path
+                                d="M12 7v6l4 2"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            ></path>
+                        </svg>
+
+                        {% if de.ThoiGianPhut %}
+                            {{ de.ThoiGianPhut }} phút
+                        {% else %}
+                            Chưa cập nhật thời gian
+                        {% endif %}
+                    </span>
+
+                </div>
+
+
+                <!-- ==================================
+                     TRẠNG THÁI LÀM BÀI
+                =================================== -->
+
+                <div class="luyenthi-list-card-bottom">
+
+                    {% if de.DaLam is defined %}
+
+                        {% if de.DaLam %}
+
+                        <span
+                            class="luyenthi-list-status is-done"
+                        >
+                            Đã làm
+                        </span>
+
+                        {% else %}
+
+                        <span class="luyenthi-list-status">
+                            Chưa làm
+                        </span>
+
+                        {% endif %}
+
+                    {% else %}
+
+                    <span class="luyenthi-list-status">
+                        Chưa cập nhật lịch sử
+                    </span>
+
+                    {% endif %}
+
+
+                    <!-- NÚT XEM CHI TIẾT ĐỀ -->
+
+                    <a
+                        href="{{ url_for(
+                            'student_luyen_thi.trang_chi_tiet_de',
+                            ma_de=de.MaDeThi
+                        ) }}"
+                        class="luyenthi-list-open"
+                        aria-label="Xem {{ de.TenDe }}"
+                    >
+                        Xem đề →
+                    </a>
+
+                </div>
+
+            </article>
+
+            {% endfor %}
+
+        </div>
+
+
+        {% else %}
+
+        <!-- ==================================
+             CHƯA CÓ ĐỀ ĐƯỢC XUẤT BẢN
+        =================================== -->
+
+        <div class="luyenthi-empty">
+
+            <div class="luyenthi-empty-icon">
+                📚
+            </div>
+
+            <h3>
+                Chưa có đề thi HSK {{ cap_hsk }}
+            </h3>
+
+            <p>
+                Các đề thi đang được Admin kiểm tra.
+                Khi được xuất bản, đề sẽ xuất hiện
+                tại đây.
+            </p>
+
+        </div>
+
+        {% endif %}
+
+    </section>
+
+</div>
+
+{% endblock %}
+
+
+{% block scripts %}
+
+<script
+    src="{{ url_for(
+        'static',
+        filename='js/student-luyen-thi.js'
+    ) }}"
+></script>
+
+{% endblock %}

@@ -1,0 +1,204 @@
+{
+  "grammar_source_files": [
+    {
+      "path": "data_sources\\hsk\\grammar\\hsk1_48_grammar_standard.csv",
+      "suffix": ".csv",
+      "csv_rows": 48
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\lesson_context\\hsk1_lesson2_grammar_context.csv",
+      "suffix": ".csv",
+      "csv_rows": 77
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\lesson_context\\hsk1_lessons3_23_grammar_context.csv",
+      "suffix": ".csv",
+      "csv_rows": 459
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\lesson_context\\hsk1_lessons3_23_grammar_summary.csv",
+      "suffix": ".csv",
+      "csv_rows": 21
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\backup\\hsk1_lesson1_grammar_mapping_review_before_approve_20260929_143115.csv",
+      "suffix": ".csv",
+      "csv_rows": 7
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\backup\\hsk1_lessons3_23_grammar_content_before_approve_20260929_152515.csv",
+      "suffix": ".csv",
+      "csv_rows": 78
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\backup\\hsk1_lessons3_23_grammar_distribution_before_approve_20260929_150905.csv",
+      "suffix": ".csv",
+      "csv_rows": 78
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\db_backup\\hsk1_grammar_before_lessons3_23_insert_20260929_152919.csv",
+      "suffix": ".csv",
+      "csv_rows": 10
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\db_backup\\hsk1_lesson1_grammar_before_source_apply_20260929_143324.csv",
+      "suffix": ".csv",
+      "csv_rows": 7
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\db_backup\\hsk1_lesson1_grammar_mapping_applied_20260929_143708.csv",
+      "suffix": ".csv",
+      "csv_rows": 7
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\db_backup\\hsk1_lesson2_grammar_before_insert_20260929_145857.csv",
+      "suffix": ".csv",
+      "csv_rows": 1
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\db_backup\\hsk1_lesson2_grammar_review_applied_20260929_145857.csv",
+      "suffix": ".csv",
+      "csv_rows": 3
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\db_backup\\hsk1_lessons3_23_grammar_content_applied_20260929_152919.csv",
+      "suffix": ".csv",
+      "csv_rows": 78
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\db_backup\\hsk1_lessons3_23_grammar_inserted_20260929_152919.csv",
+      "suffix": ".csv",
+      "csv_rows": 78
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\hsk1_lesson1_grammar_mapping_review.csv",
+      "suffix": ".csv",
+      "csv_rows": 7
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\hsk1_lesson2_grammar_review.csv",
+      "suffix": ".csv",
+      "csv_rows": 3
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\hsk1_lessons3_23_grammar_content_review.csv",
+      "suffix": ".csv",
+      "csv_rows": 78
+    },
+    {
+      "path": "data_sources\\hsk\\grammar\\review\\hsk1_lessons3_23_grammar_distribution_review.csv",
+      "suffix": ".csv",
+      "csv_rows": 78
+    }
+  ],
+  "hsk2_grammar_draft_count": 48,
+  "hsk3_grammar_draft_count": 20,
+  "hsk3_review_summary": {
+    "TongNguPhapHSK3BanNhap": 20,
+    "TongNguPhapHSK2ThamChieu": 48,
+    "TrungTenChinhXacVoiHSK2": 0,
+    "ThieuNoiDung": 0,
+    "DaXacMinhChuanHSK3": 0,
+    "GhiChu": "Doi chieu ten cau truc va tinh day du cua du lieu; chua phai kiem dinh cap do theo GF0025-2021.",
+    "DaGhiSQL": false
+  },
+  "sql_grammar_counts": {
+    "1": 88,
+    "2": 48,
+    "3": 32,
+    "4": 0
+  },
+  "ngu_phap_schema": [
+    {
+      "COLUMN_NAME": "MaNguPhap",
+      "DATA_TYPE": "int",
+      "CHARACTER_MAXIMUM_LENGTH": null,
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "COLUMN_NAME": "MaBaiHoc",
+      "DATA_TYPE": "int",
+      "CHARACTER_MAXIMUM_LENGTH": null,
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "COLUMN_NAME": "TenCauTruc",
+      "DATA_TYPE": "nvarchar",
+      "CHARACTER_MAXIMUM_LENGTH": 300,
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "COLUMN_NAME": "MoTa",
+      "DATA_TYPE": "nvarchar",
+      "CHARACTER_MAXIMUM_LENGTH": -1,
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "COLUMN_NAME": "CachDung",
+      "DATA_TYPE": "nvarchar",
+      "CHARACTER_MAXIMUM_LENGTH": -1,
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "COLUMN_NAME": "ViDuTiengTrung",
+      "DATA_TYPE": "nvarchar",
+      "CHARACTER_MAXIMUM_LENGTH": 1000,
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "COLUMN_NAME": "ViDuPinyin",
+      "DATA_TYPE": "nvarchar",
+      "CHARACTER_MAXIMUM_LENGTH": 1000,
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "COLUMN_NAME": "ViDuTiengViet",
+      "DATA_TYPE": "nvarchar",
+      "CHARACTER_MAXIMUM_LENGTH": 1000,
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "COLUMN_NAME": "MaTep",
+      "DATA_TYPE": "int",
+      "CHARACTER_MAXIMUM_LENGTH": null,
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "COLUMN_NAME": "MaNguon",
+      "DATA_TYPE": "int",
+      "CHARACTER_MAXIMUM_LENGTH": null,
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "COLUMN_NAME": "ThuTu",
+      "DATA_TYPE": "int",
+      "CHARACTER_MAXIMUM_LENGTH": null,
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "COLUMN_NAME": "TrangThai",
+      "DATA_TYPE": "varchar",
+      "CHARACTER_MAXIMUM_LENGTH": 32,
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "COLUMN_NAME": "NgayTao",
+      "DATA_TYPE": "datetime2",
+      "CHARACTER_MAXIMUM_LENGTH": null,
+      "IS_NULLABLE": "NO"
+    },
+    {
+      "COLUMN_NAME": "MaQuanTriVienCapNhat",
+      "DATA_TYPE": "int",
+      "CHARACTER_MAXIMUM_LENGTH": null,
+      "IS_NULLABLE": "YES"
+    },
+    {
+      "COLUMN_NAME": "NgayCapNhat",
+      "DATA_TYPE": "datetime2",
+      "CHARACTER_MAXIMUM_LENGTH": null,
+      "IS_NULLABLE": "YES"
+    }
+  ],
+  "hsk4_source_candidates": []
+}

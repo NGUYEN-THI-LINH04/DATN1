@@ -1,0 +1,163 @@
+{
+  "module": "shadowing",
+  "youtube_id": "VkEYoXw7jD0",
+  "title": "差不多 - Gần giống nhau",
+  "status": "draft_needs_audio_review",
+  "source": "reconstructed_from_noisy_asr",
+  "missing_ranges": [
+    [
+      0,
+      28.01
+    ],
+    [
+      82.0,
+      106.5
+    ],
+    [
+      109.5,
+      136.3
+    ],
+    [
+      143.8,
+      146.12
+    ]
+  ],
+  "sentences": [
+    {
+      "start": 28.01,
+      "end": 34.37,
+      "hanzi": "她们都有一双大大的眼睛。",
+      "pinyin": "tā men dōu yǒu yī shuāng dà dà de yǎn jīng 。",
+      "vi": "Cả hai đều có đôi mắt to.",
+      "needs_review": true
+    },
+    {
+      "start": 34.37,
+      "end": 40.5,
+      "hanzi": "她们的头发差不多一样长。",
+      "pinyin": "tā men de tóu fà chà bu duō yī yàng zhǎng 。",
+      "vi": "Tóc của hai chị em dài gần bằng nhau.",
+      "needs_review": true
+    },
+    {
+      "start": 41.24,
+      "end": 46.2,
+      "hanzi": "她们的身高也差不多。",
+      "pinyin": "tā men de shēn gāo yě chà bu duō 。",
+      "vi": "Chiều cao của hai chị em cũng gần bằng nhau.",
+      "needs_review": true
+    },
+    {
+      "start": 46.43,
+      "end": 50.5,
+      "hanzi": "姐姐一米六五。",
+      "pinyin": "jiě jiě yī mǐ liù wǔ 。",
+      "vi": "Chị gái cao 1 mét 65.",
+      "needs_review": true
+    },
+    {
+      "start": 50.89,
+      "end": 54.6,
+      "hanzi": "娜娜一米六二。",
+      "pinyin": "nà nà yī mǐ liù èr 。",
+      "vi": "Na Na cao 1 mét 62.",
+      "needs_review": true
+    },
+    {
+      "start": 55.69,
+      "end": 64.7,
+      "hanzi": "她们都在上初中，在同一所学校上学。",
+      "pinyin": "tā men dōu zài shàng chū zhōng ， zài tóng yī suǒ xué xiào shàng xué 。",
+      "vi": "Hai chị em đều học cấp hai, cùng một trường.",
+      "needs_review": true
+    },
+    {
+      "start": 65.49,
+      "end": 71.0,
+      "hanzi": "成绩差不多一样好。",
+      "pinyin": "chéng jì chà bu duō yī yàng hǎo 。",
+      "vi": "Thành tích học tập của cả hai đều tốt gần như nhau.",
+      "needs_review": true
+    },
+    {
+      "start": 72.71,
+      "end": 82.0,
+      "hanzi": "虽然她们长得差不多，但是性格差很多。",
+      "pinyin": "suī rán tā men zhǎng dé chà bu duō ， dàn shì xìng gé chà hěn duō 。",
+      "vi": "Tuy ngoại hình hai chị em khá giống nhau, nhưng tính cách lại khác nhau rất nhiều.",
+      "needs_review": true
+    },
+    {
+      "start": 106.5,
+      "end": 109.5,
+      "hanzi": "妈妈很爱娜娜。",
+      "pinyin": "mā mā hěn ài nà nà 。",
+      "vi": "Mẹ rất yêu Na Na.",
+      "needs_review": true
+    },
+    {
+      "start": 136.3,
+      "end": 143.8,
+      "hanzi": "妈妈和爸爸的生日差不多在同一天。",
+      "pinyin": "mā mā hé bà bà de shēng rì chà bu duō zài tóng yī tiān 。",
+      "vi": "Sinh nhật bố và mẹ rất gần nhau.",
+      "needs_review": true
+    },
+    {
+      "start": 146.12,
+      "end": 151.2,
+      "hanzi": "妈妈的生日是五月五日。",
+      "pinyin": "mā mā de shēng rì shì wǔ yuè wǔ rì 。",
+      "vi": "Sinh nhật của mẹ là ngày 5 tháng 5.",
+      "needs_review": true
+    },
+    {
+      "start": 151.62,
+      "end": 157.0,
+      "hanzi": "爸爸的生日是五月六日。",
+      "pinyin": "bà bà de shēng rì shì wǔ yuè liù rì 。",
+      "vi": "Sinh nhật của bố là ngày 6 tháng 5.",
+      "needs_review": true
+    },
+    {
+      "start": 159.79,
+      "end": 163.3,
+      "hanzi": "他们都一起过生日。",
+      "pinyin": "tā men dōu yì qǐ guò shēng rì 。",
+      "vi": "Họ cùng nhau tổ chức sinh nhật.",
+      "needs_review": true
+    },
+    {
+      "start": 165.75,
+      "end": 171.5,
+      "hanzi": "妈妈每年的生日愿望都差不多。",
+      "pinyin": "mā mā měi nián de shēng rì yuàn wàng dōu chà bu duō 。",
+      "vi": "Điều ước sinh nhật mỗi năm của mẹ đều gần giống nhau.",
+      "needs_review": true
+    },
+    {
+      "start": 172.33,
+      "end": 180.0,
+      "hanzi": "她希望自己的女儿们健康快乐。",
+      "pinyin": "tā xī wàng zì jǐ de nǚ ér men jiàn kāng kuài lè 。",
+      "vi": "Mẹ mong các con gái luôn khỏe mạnh và vui vẻ.",
+      "needs_review": true
+    },
+    {
+      "start": 181.05,
+      "end": 189.1,
+      "hanzi": "爸爸每年的生日愿望也差不多，都一样。",
+      "pinyin": "bà bà měi nián de shēng rì yuàn wàng yě chà bu duō ， dōu yī yàng 。",
+      "vi": "Điều ước sinh nhật hằng năm của bố cũng tương tự.",
+      "needs_review": true
+    },
+    {
+      "start": 189.38,
+      "end": 198.5,
+      "hanzi": "他希望一家人永远开心幸福。",
+      "pinyin": "tā xī wàng yī jiā rén yǒng yuǎn kāi xīn xìng fú 。",
+      "vi": "Bố mong cả gia đình mãi vui vẻ, hạnh phúc.",
+      "needs_review": true
+    }
+  ]
+}

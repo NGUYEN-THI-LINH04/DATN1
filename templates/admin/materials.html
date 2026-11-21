@@ -1,0 +1,575 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Học liệu | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        QUẢN LÝ HỌC LIỆU
+    </span>
+
+    <h1>
+        Học liệu
+    </h1>
+
+    <p>
+        Quản lý các dữ liệu được sử dụng
+        trong bài học, phần nền tảng và
+        các chức năng học tập của người học.
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     HỌC LIỆU TRONG BÀI HỌC
+===================================================== -->
+
+<section class="panel">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                BÀI HỌC
+            </span>
+
+            <h2>
+                Nội dung học theo bài
+            </h2>
+
+        </div>
+
+        <p>
+            Các dữ liệu này được sử dụng trực tiếp
+            trong từng bài học HSK.
+        </p>
+
+    </div>
+
+
+    <div class="materials-grid">
+
+
+        <!-- =============================================
+             TỪ VỰNG
+        ============================================== -->
+
+        <article class="material-card">
+
+            <div class="material-card-icon">
+                词
+            </div>
+
+            <div class="material-card-content">
+
+                <span class="material-card-label">
+                    TỪ VỰNG
+                </span>
+
+                <h3>
+                    Từ vựng
+                </h3>
+
+                <p>
+                    Quản lý chữ Hán, Pinyin,
+                    nghĩa tiếng Việt, ví dụ
+                    và dữ liệu âm thanh.
+                </p>
+
+
+                <div class="material-card-stats">
+
+                    <strong>
+                        {{ stats.vocabulary_total }}
+                    </strong>
+
+                    <span>
+                        tổng số
+                    </span>
+
+
+                    <strong>
+                        {{ stats.vocabulary_approved }}
+                    </strong>
+
+                    <span>
+                        đã duyệt
+                    </span>
+
+                </div>
+
+
+                <a
+                    href="{{ url_for(
+                        'admin_vocabulary.index'
+                    ) }}"
+                    class="button"
+                >
+                    Quản lý từ vựng
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- =============================================
+             NGỮ PHÁP
+        ============================================== -->
+
+        <article class="material-card">
+
+            <div class="material-card-icon">
+                文
+            </div>
+
+            <div class="material-card-content">
+
+                <span class="material-card-label">
+                    NGỮ PHÁP
+                </span>
+
+                <h3>
+                    Ngữ pháp
+                </h3>
+
+                <p>
+                    Quản lý cấu trúc,
+                    cách dùng và câu ví dụ
+                    trong từng bài học.
+                </p>
+
+
+                <div class="material-card-stats">
+
+                    <strong>
+                        {{ stats.grammar_total }}
+                    </strong>
+
+                    <span>
+                        tổng số
+                    </span>
+
+
+                    <strong>
+                        {{ stats.grammar_published }}
+                    </strong>
+
+                    <span>
+                        đã xuất bản
+                    </span>
+
+                </div>
+
+
+                <a
+                    href="{{ url_for(
+                    'admin_grammar.index'
+                ) }}"
+                    class="button"
+                >
+                Quản lý ngữ pháp
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- =============================================
+             CHỮ HÁN
+        ============================================== -->
+
+        <article class="material-card">
+
+            <div class="material-card-icon">
+                汉
+            </div>
+
+            <div class="material-card-content">
+
+                <span class="material-card-label">
+                    CHỮ HÁN
+                </span>
+
+                <h3>
+                    Chữ Hán
+                </h3>
+
+                <p>
+                    Quản lý chữ Hán,
+                    bộ thủ, số nét,
+                    cách ghi nhớ và ví dụ.
+                </p>
+
+
+                <div class="material-card-stats">
+
+                    <strong>
+                        {{ stats.hanzi_total }}
+                    </strong>
+
+                    <span>
+                        tổng số
+                    </span>
+
+
+                    <strong>
+                        {{ stats.hanzi_published }}
+                    </strong>
+
+                    <span>
+                        đã xuất bản
+                    </span>
+
+                </div>
+
+
+                <a
+                href="{{ url_for(
+                    'admin_hanzi.index'
+                ) }}"
+                class="button"
+            >
+                Quản lý Chữ Hán
+            </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     HỌC LIỆU NỀN TẢNG
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                NỀN TẢNG
+            </span>
+
+            <h2>
+                Kiến thức nền tảng
+            </h2>
+
+        </div>
+
+        <p>
+            Được sử dụng ở khu vực Nền tảng
+            phía Người học.
+        </p>
+
+    </div>
+
+
+    <div class="materials-grid">
+
+
+        <!-- =============================================
+             PINYIN
+        ============================================== -->
+
+        <article class="material-card">
+
+            <div class="material-card-icon">
+                P
+            </div>
+
+            <div class="material-card-content">
+
+                <span class="material-card-label">
+                    PHÁT ÂM
+                </span>
+
+                <h3>
+                    Bảng Pinyin
+                </h3>
+
+                <p>
+                    Thanh mẫu, vận mẫu,
+                    âm ghép, cách đọc
+                    và audio minh họa.
+                </p>
+
+
+                <div class="material-card-stats">
+
+                    <strong>
+                        {{ stats.pinyin_total }}
+                    </strong>
+
+                    <span>
+                        tổng số
+                    </span>
+
+
+                    <strong>
+                        {{ stats.pinyin_published }}
+                    </strong>
+
+                    <span>
+                        đã xuất bản
+                    </span>
+
+                </div>
+
+
+                <a
+                    href="{{ url_for(
+                    'admin_pinyin.index'
+                ) }}"
+                    class="button"
+            >
+                Quản lý Pinyin
+                </a>
+            </div>
+
+        </article>
+
+
+        <!-- =============================================
+             BỘ THỦ
+        ============================================== -->
+
+        <article class="material-card">
+
+            <div class="material-card-icon">
+                部
+            </div>
+
+            <div class="material-card-content">
+
+                <span class="material-card-label">
+                    CHỮ HÁN
+                </span>
+
+                <h3>
+                    Bộ thủ
+                </h3>
+
+                <p>
+                    Quản lý ký hiệu,
+                    tên bộ, ý nghĩa,
+                    số nét và mô tả.
+                </p>
+
+
+                <div class="material-card-stats">
+
+                    <strong>
+                        {{ stats.radical_total }}
+                    </strong>
+
+                    <span>
+                        tổng số
+                    </span>
+
+
+                    <strong>
+                        {{ stats.radical_published }}
+                    </strong>
+
+                    <span>
+                        đã xuất bản
+                    </span>
+
+                </div>
+
+
+                <a
+                    href="{{ url_for(
+                    'admin_radicals.index'
+                ) }}"
+                    class="button"
+            >
+                Quản lý Bộ thủ
+                </a>
+            </div>
+
+        </article>
+
+
+        <!-- =============================================
+             QUY TẮC PHÁT ÂM
+        ============================================== -->
+
+        <article class="material-card">
+
+            <div class="material-card-icon">
+                音
+            </div>
+
+            <div class="material-card-content">
+
+                <span class="material-card-label">
+                    PHÁT ÂM
+                </span>
+
+                <h3>
+                    Quy tắc phát âm
+                </h3>
+
+                <p>
+                    Quản lý quy tắc,
+                    ví dụ tiếng Trung,
+                    Pinyin và nghĩa.
+                </p>
+
+
+                <div class="material-card-stats">
+
+                    <strong>
+                        {{ stats.pronunciation_total }}
+                    </strong>
+
+                    <span>
+                        tổng số
+                    </span>
+
+
+                    <strong>
+                        {{ stats.pronunciation_published }}
+                    </strong>
+
+                    <span>
+                        đã xuất bản
+                    </span>
+
+                </div>
+
+
+                <a
+                    href="{{ url_for(
+                    'admin_pronunciation_rules.index'
+                    ) }}"
+                    class="button"
+                >
+                    Quản lý quy tắc phát âm
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     MEDIA
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                ĐA PHƯƠNG TIỆN
+            </span>
+
+            <h2>
+                Hình ảnh và âm thanh
+            </h2>
+
+        </div>
+
+        <p>
+            Tệp được liên kết với từ vựng,
+            chữ Hán, Pinyin và các học liệu khác.
+        </p>
+
+    </div>
+
+
+    <div class="material-media-summary">
+
+        <div>
+
+            <strong>
+                {{ stats.media_total }}
+            </strong>
+
+            <span>
+                Tổng tệp
+            </span>
+
+        </div>
+
+
+        <div>
+
+            <strong>
+                {{ stats.audio_total }}
+            </strong>
+
+            <span>
+                Âm thanh
+            </span>
+
+        </div>
+
+
+        <div>
+
+            <strong>
+                {{ stats.image_total }}
+            </strong>
+
+            <span>
+                Hình ảnh
+            </span>
+
+        </div>
+
+
+        <div>
+
+            <strong>
+                {{ stats.video_total }}
+            </strong>
+
+            <span>
+                Video
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <a
+    href="{{ url_for(
+        'admin_media.index'
+    ) }}"
+    class="button"
+>
+    Quản lý Media
+</a>
+
+</section>
+
+{% endblock %}

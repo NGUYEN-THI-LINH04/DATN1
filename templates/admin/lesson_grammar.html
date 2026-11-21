@@ -1,0 +1,797 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Ngữ pháp Bài {{ lesson.order }} | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     BREADCRUMB
+===================================================== -->
+
+<div class="lesson-detail-breadcrumb">
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.index',
+            course_id=lesson.course_id
+        ) }}"
+    >
+        Bài học
+    </a>
+
+    <span>›</span>
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Bài {{ lesson.order }}
+    </a>
+
+    <span>›</span>
+
+    <strong>
+        Ngữ pháp
+    </strong>
+
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<section class="lesson-admin-hero">
+
+    <div>
+
+        <span class="eyebrow">
+
+            HSK {{ lesson.course_level }}
+            ·
+            BÀI {{ lesson.order }}
+
+        </span>
+
+
+        <h1>
+            {{ lesson.title }}
+        </h1>
+
+
+        <div class="lesson-admin-meta">
+
+            <span
+                class="
+                    course-status
+                    course-status-{{ lesson.status }}
+                "
+            >
+
+                {{
+                    statuses.get(
+                        lesson.status,
+                        lesson.status
+                    )
+                }}
+
+            </span>
+
+
+            <span>
+                {{ lesson.course_title }}
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <a
+        class="small-button"
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        ← Tổng quan
+    </a>
+
+</section>
+
+
+<!-- =====================================================
+     TABS
+===================================================== -->
+
+<nav class="lesson-admin-tabs">
+
+    <a
+        class="lesson-admin-tab"
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Tổng quan
+    </a>
+
+
+    <a
+        class="lesson-admin-tab"
+        href="{{ url_for(
+            'admin_lessons.vocabulary',
+            lesson_id=lesson.id
+        ) }}"
+    >
+
+        Từ vựng
+
+        <strong>
+            {{ lesson.vocabulary_count }}
+        </strong>
+
+    </a>
+
+
+    <a
+        class="lesson-admin-tab active"
+        href="{{ url_for(
+            'admin_lessons.grammar',
+            lesson_id=lesson.id
+        ) }}"
+    >
+
+        Ngữ pháp
+
+        <strong>
+            {{ lesson.grammar_count }}
+        </strong>
+
+    </a>
+
+
+    <a
+    class="lesson-admin-tab"
+
+    href="{{ url_for(
+        'admin_lessons.hanzi',
+        lesson_id=lesson.id
+    ) }}"
+>
+
+    Chữ Hán
+
+    <strong>
+        {{ lesson.hanzi_count }}
+    </strong>
+
+ </a>
+
+
+    
+
+</nav>
+
+
+<!-- =====================================================
+     THÊM NGỮ PHÁP
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                THÊM NGỮ PHÁP
+            </span>
+
+            <h2>
+                + Thêm ngữ pháp vào Bài {{ lesson.order }}
+            </h2>
+
+            <p>
+                Ngữ pháp mới được tạo trực tiếp
+                trong bài học và ở trạng thái Bản nháp.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <form
+        method="post"
+
+        action="{{ url_for(
+            'admin_lessons.add_grammar',
+            lesson_id=lesson.id
+        ) }}"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <div class="field">
+
+            <label for="grammar-structure">
+                Tên cấu trúc *
+            </label>
+
+
+            <input
+                id="grammar-structure"
+
+                type="text"
+
+                name="structure"
+
+                maxlength="300"
+
+                placeholder="Ví dụ: A 是 B"
+
+                required
+            >
+
+        </div>
+
+
+        <div class="field">
+
+            <label for="grammar-description">
+                Mô tả
+            </label>
+
+
+            <textarea
+                id="grammar-description"
+
+                name="description"
+
+                rows="4"
+
+                placeholder="Giải thích ngắn về cấu trúc..."
+            ></textarea>
+
+        </div>
+
+
+        <div class="field">
+
+            <label for="grammar-usage">
+                Cách dùng
+            </label>
+
+
+            <textarea
+                id="grammar-usage"
+
+                name="usage"
+
+                rows="4"
+
+                placeholder="Mô tả cách sử dụng cấu trúc..."
+            ></textarea>
+
+        </div>
+
+
+        <div class="grid-2">
+
+            <div class="field">
+
+                <label for="grammar-example-zh">
+                    Ví dụ tiếng Trung
+                </label>
+
+
+                <textarea
+                    id="grammar-example-zh"
+
+                    name="example_zh"
+
+                    rows="3"
+
+                    maxlength="1000"
+
+                    placeholder="例如：我是学生。"
+                ></textarea>
+
+            </div>
+
+
+            <div class="field">
+
+                <label for="grammar-example-pinyin">
+                    Pinyin
+                </label>
+
+
+                <textarea
+                    id="grammar-example-pinyin"
+
+                    name="example_pinyin"
+
+                    rows="3"
+
+                    maxlength="1000"
+
+                    placeholder="Wǒ shì xuéshēng."
+                ></textarea>
+
+            </div>
+
+        </div>
+
+
+        <div class="field">
+
+            <label for="grammar-example-vi">
+                Nghĩa tiếng Việt
+            </label>
+
+
+            <textarea
+                id="grammar-example-vi"
+
+                name="example_vi"
+
+                rows="3"
+
+                maxlength="1000"
+
+                placeholder="Tôi là học sinh."
+            ></textarea>
+
+        </div>
+
+
+        <div class="lesson-create-status">
+
+            <strong>
+                Trạng thái sau khi thêm:
+            </strong>
+
+
+            <span
+                class="
+                    course-status
+                    course-status-ban_nhap
+                "
+            >
+                Bản nháp
+            </span>
+
+        </div>
+
+
+        <button
+            type="submit"
+            class="button"
+        >
+            + Thêm ngữ pháp
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- =====================================================
+     DANH SÁCH NGỮ PHÁP
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                NGỮ PHÁP
+            </span>
+
+            <h2>
+                Ngữ pháp của Bài {{ lesson.order }}
+            </h2>
+
+            <p>
+
+                Hiện có
+
+                <strong>
+                    {{ lesson.grammar_count }}
+                </strong>
+
+                cấu trúc ngữ pháp.
+
+            </p>
+
+        </div>
+
+
+        <!-- =====================================
+             LƯU THỨ TỰ
+        ====================================== -->
+
+        {% if lesson.grammar_count > 1 %}
+
+            <form
+                id="reorder-grammar-form"
+
+                method="post"
+
+                action="{{ url_for(
+                    'admin_lessons.reorder_grammar',
+                    lesson_id=lesson.id
+                ) }}"
+            >
+
+                <input
+                    type="hidden"
+                    name="csrf_token"
+                    value="{{ csrf_token() }}"
+                >
+
+
+                <button
+                    type="submit"
+                    class="button"
+                >
+                    Lưu thứ tự
+                </button>
+
+            </form>
+
+        {% endif %}
+
+    </div>
+
+
+    <!-- =================================================
+         HƯỚNG DẪN
+    ================================================== -->
+
+    {% if lesson.grammar_count > 1 %}
+
+        <div class="notice lesson-order-notice">
+
+            Muốn thay đổi thứ tự:
+            nhập lại các số từ
+
+            <strong>
+                1 đến {{ lesson.grammar_count }}
+            </strong>
+
+            sao cho mỗi số chỉ xuất hiện một lần,
+            sau đó bấm
+
+            <strong>
+                Lưu thứ tự
+            </strong>.
+
+        </div>
+
+    {% endif %}
+
+
+    <!-- =================================================
+         DANH SÁCH
+    ================================================== -->
+
+    <div class="lesson-grammar-list">
+
+        {% for grammar in grammar_items %}
+
+            <article class="lesson-grammar-card">
+
+
+                <!-- =========================================
+                     HEADER
+                ========================================== -->
+
+                <div class="lesson-grammar-card-header">
+
+                    <div class="lesson-grammar-title-area">
+
+
+                        <!-- =================================
+                             THỨ TỰ
+                        ================================== -->
+
+                        {% if lesson.grammar_count > 1 %}
+
+                            <input
+                                class="
+                                    lesson-grammar-order-input
+                                "
+
+                                type="number"
+
+                                name="
+                                    grammar_order_{{ grammar.id }}
+                                "
+
+                                value="{{ grammar.order }}"
+
+                                min="1"
+
+                                max="{{ lesson.grammar_count }}"
+
+                                step="1"
+
+                                form="reorder-grammar-form"
+
+                                required
+                            >
+
+                        {% else %}
+
+                            <span class="lesson-grammar-order">
+
+                                {{ grammar.order }}
+
+                            </span>
+
+                        {% endif %}
+
+
+                        <!-- =================================
+                             TÊN CẤU TRÚC
+                        ================================== -->
+
+                        <h3>
+                            {{ grammar.structure }}
+                        </h3>
+
+                    </div>
+
+
+                    <div class="lesson-grammar-actions">
+
+
+    <!-- =====================================
+         TRẠNG THÁI HIỆN TẠI
+    ====================================== -->
+
+    <span
+        class="
+            course-status
+            course-status-{{ grammar.status }}
+        "
+    >
+
+        {{
+            statuses.get(
+                grammar.status,
+                grammar.status
+            )
+        }}
+
+    </span>
+
+
+    <!-- =====================================
+         ĐỔI TRẠNG THÁI
+    ====================================== -->
+
+    <form
+        method="post"
+
+        action="{{ url_for(
+            'admin_lessons.set_grammar_status',
+
+            lesson_id=
+                lesson.id,
+
+            grammar_id=
+                grammar.id
+        ) }}"
+
+        class="lesson-grammar-status-form"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <select
+            name="status"
+            class="lesson-grammar-status-select"
+        >
+
+            {% for status_value, status_label in statuses.items() %}
+
+                <option
+                    value="{{ status_value }}"
+
+                    {% if grammar.status == status_value %}
+                        selected
+                    {% endif %}
+                >
+                    {{ status_label }}
+                </option>
+
+            {% endfor %}
+
+        </select>
+
+
+        <button
+            type="submit"
+            class="small-button"
+        >
+            Cập nhật
+        </button>
+
+    </form>
+
+
+    <!-- =====================================
+         SỬA NỘI DUNG
+    ====================================== -->
+
+    <a
+        class="small-button"
+
+        href="{{ url_for(
+            'admin_lessons.edit_lesson_grammar',
+
+            lesson_id=
+                lesson.id,
+
+            grammar_id=
+                grammar.id
+        ) }}"
+    >
+        Chỉnh sửa
+    </a>
+
+</div>
+
+                </div>
+
+
+                <!-- =========================================
+                     MÔ TẢ
+                ========================================== -->
+
+                {% if grammar.description %}
+
+                    <div class="lesson-grammar-section">
+
+                        <strong>
+                            Mô tả
+                        </strong>
+
+                        <p>
+                            {{ grammar.description }}
+                        </p>
+
+                    </div>
+
+                {% endif %}
+
+
+                <!-- =========================================
+                     CÁCH DÙNG
+                ========================================== -->
+
+                {% if grammar.usage %}
+
+                    <div class="lesson-grammar-section">
+
+                        <strong>
+                            Cách dùng
+                        </strong>
+
+                        <p>
+                            {{ grammar.usage }}
+                        </p>
+
+                    </div>
+
+                {% endif %}
+
+
+                <!-- =========================================
+                     VÍ DỤ
+                ========================================== -->
+
+                {% if
+                    grammar.example_zh
+                    or
+                    grammar.example_pinyin
+                    or
+                    grammar.example_vi
+                %}
+
+                    <div class="lesson-grammar-example">
+
+
+                        {% if grammar.example_zh %}
+
+                            <strong>
+                                {{ grammar.example_zh }}
+                            </strong>
+
+                        {% endif %}
+
+
+                        {% if grammar.example_pinyin %}
+
+                            <span>
+                                {{ grammar.example_pinyin }}
+                            </span>
+
+                        {% endif %}
+
+
+                        {% if grammar.example_vi %}
+
+                            <span>
+                                {{ grammar.example_vi }}
+                            </span>
+
+                        {% endif %}
+
+                    </div>
+
+                {% endif %}
+
+
+                <!-- =========================================
+                     MEDIA
+                ========================================== -->
+
+                {% if grammar.media_id %}
+
+                    <div class="lesson-grammar-media">
+
+                        Media:
+
+                        <strong>
+                            #{{ grammar.media_id }}
+                        </strong>
+
+                    </div>
+
+                {% endif %}
+
+            </article>
+
+
+        {% else %}
+
+            <div class="notice">
+
+                Bài học này chưa có ngữ pháp.
+                Bạn có thể thêm cấu trúc đầu tiên
+                bằng form phía trên.
+
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+{% endblock %}

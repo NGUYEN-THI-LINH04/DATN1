@@ -1,0 +1,501 @@
+﻿1,1,1,8,你,nǐ,bạn; cậu,Đại từ,NULL,NULL,1002,1
+1,1,2,2,好,hǎo,tốt; khỏe,Tính từ,NULL,NULL,1002,1
+1,1,3,12,我,wǒ,tôi; mình,Đại từ,NULL,NULL,1002,1
+1,1,4,11,是,shì,là,Động từ,NULL,NULL,1002,1
+1,1,5,4,叫,jiào,gọi; tên là,Động từ,NULL,NULL,1002,1
+1,1,6,10,什么,shénme,gì; cái gì,Đại từ nghi vấn,NULL,NULL,1002,1
+1,1,7,6,名字,míngzi,tên; tên gọi,Danh từ,NULL,NULL,1002,1
+1,1,8,3,很,hěn,rất,Phó từ,NULL,NULL,1002,1
+1,1,9,1,高兴,gāoxìng,vui; vui mừng,Tính từ,NULL,NULL,1002,1
+1,1,10,9,认识,rènshi,biết; quen; làm quen,Động từ,NULL,NULL,1002,1
+1,1,11,5,吗,ma,trợ từ nghi vấn,Trợ từ,NULL,NULL,1002,1
+1,1,12,7,呢,ne,trợ từ hỏi lại hoặc tiếp nối chủ đề,Trợ từ,NULL,NULL,1002,1
+1,1,13,13,也,yě,cũng,Phó từ,NULL,NULL,1002,1
+2,2,1,140,国,guó,nước; quốc gia,Danh từ,NULL,NULL,1002,1
+2,2,2,141,国家,guójiā,quốc gia; đất nước,Danh từ,NULL,NULL,1002,1
+2,2,3,142,国外,guó wài,nước ngoài; ở nước ngoài,Danh từ chỉ nơi chốn,NULL,NULL,1002,1
+2,2,4,148,汉语,Hànyǔ,tiếng Trung; tiếng Hán,Danh từ,NULL,NULL,1002,1
+2,2,5,149,汉字,Hànzì,chữ Hán,Danh từ,NULL,NULL,1002,1
+2,2,6,188,介绍,jièshào,giới thiệu,Động từ,NULL,NULL,1002,1
+2,2,7,268,男,nán,nam; đàn ông,Danh từ / tính từ,NULL,NULL,1002,1
+2,2,8,271,男人,nánrén,đàn ông; nam giới,Danh từ,NULL,NULL,1002,1
+2,2,9,272,男生,nánshēng,nam sinh; học sinh nam,Danh từ,NULL,NULL,1002,1
+2,2,10,277,你们,nǐmen,các bạn; các cậu,Đại từ,NULL,NULL,1002,1
+2,2,11,279,您,nín,ông; bà; ngài; bạn,Đại từ,NULL,NULL,1002,1
+2,2,12,281,女,nǚ,nữ; phụ nữ,Danh từ / tính từ,NULL,NULL,1002,1
+2,2,13,285,女人,nǚrén,phụ nữ; người phụ nữ,Danh từ,NULL,NULL,1002,1
+2,2,14,286,女生,nǚshēng,nữ sinh; học sinh nữ,Danh từ,NULL,NULL,1002,1
+2,2,15,310,人,rén,người,Danh từ,NULL,NULL,1002,1
+2,2,16,329,谁,shéi/shuí,ai,Đại từ nghi vấn,NULL,NULL,1002,1
+2,2,17,356,他,tā,anh ấy; ông ấy,Đại từ,NULL,NULL,1002,1
+2,2,18,357,他们,tāmen,họ; bọn họ,Đại từ,NULL,NULL,1002,1
+2,2,19,358,她,tā,cô ấy; bà ấy,Đại từ,NULL,NULL,1002,1
+2,2,20,359,她们,tāmen,họ; các cô ấy,Đại từ,NULL,NULL,1002,1
+2,2,21,371,外国,wàiguó,nước ngoài; quốc gia nước ngoài,Danh từ,NULL,NULL,1002,1
+2,2,22,372,外语,wàiyǔ,ngoại ngữ,Danh từ,NULL,NULL,1002,1
+2,2,23,382,我们,wǒmen,chúng tôi; chúng ta,Đại từ,NULL,NULL,1002,1
+2,2,24,399,先生,xiānsheng,ông; ngài; tiên sinh,Danh từ / cách xưng hô,NULL,NULL,1002,1
+2,2,25,404,小姐,xiǎojiě,cô; tiểu thư,Danh từ / cách xưng hô,NULL,NULL,1002,1
+2,2,26,443,有名,yǒumíng,nổi tiếng; có tiếng,Tính từ,NULL,NULL,1002,1
+2,2,27,477,中国,Zhōngguó,Trung Quốc,Danh từ riêng,NULL,NULL,1002,1
+2,2,28,479,中文,Zhōngwén,tiếng Trung; tiếng Trung Quốc,Danh từ,NULL,NULL,1002,1
+2,2,29,501,越南,Yuènán,Việt Nam,Danh từ riêng,NULL,NULL,2,1
+3,3,1,17,爸爸,bàba,bố; ba; cha,Danh từ,NULL,NULL,1002,1
+3,3,2,87,弟弟,dìdi,em trai,Danh từ,NULL,NULL,1002,1
+3,3,3,110,儿子,érzi,con trai,Danh từ,NULL,NULL,1002,1
+3,3,4,130,哥哥,gēge,anh trai,Danh từ,NULL,NULL,1002,1
+3,3,5,147,孩子,háizi,đứa trẻ; con cái,Danh từ,NULL,NULL,1002,1
+3,3,6,179,家,jiā,nhà; gia đình,Danh từ,NULL,NULL,1002,1
+3,3,7,180,家里,jiā li,trong nhà; ở nhà,Danh từ chỉ nơi chốn,NULL,NULL,1002,1
+3,3,8,181,家人,jiārén,người nhà; thành viên gia đình,Danh từ,NULL,NULL,1002,1
+3,3,9,187,姐姐,jiějie,chị gái,Danh từ,NULL,NULL,1002,1
+3,3,10,217,老人,lǎorén,người cao tuổi; người già,Danh từ,NULL,NULL,1002,1
+3,3,11,233,妈妈,māma,mẹ; má,Danh từ,NULL,NULL,1002,1
+3,3,12,245,妹妹,mèimei,em gái,Danh từ,NULL,NULL,1002,1
+3,3,13,249,们（朋友们）,men (péngyoumen),các; những,Hậu tố,NULL,NULL,1002,1
+3,3,14,267,奶奶,nǎinai,bà nội,Danh từ,NULL,NULL,1002,1
+3,3,15,269,男孩儿,nánháir,bé trai; cậu bé,Danh từ,NULL,NULL,1002,1
+3,3,16,270,男朋友,nánpéngyou,bạn trai,Danh từ,NULL,NULL,1002,1
+3,3,17,282,女儿,nǚ'ér,con gái,Danh từ,NULL,NULL,1002,1
+3,3,18,283,女孩儿,nǚháir,bé gái; cô bé,Danh từ,NULL,NULL,1002,1
+3,3,19,284,女朋友,nǚpéngyou,bạn gái,Danh từ,NULL,NULL,1002,1
+3,3,20,289,朋友,péngyou,bạn; bạn bè,Danh từ,NULL,NULL,1002,1
+3,3,21,403,小孩儿,xiǎoháir,trẻ con; đứa trẻ,Danh từ,NULL,NULL,1002,1
+3,3,22,405,小朋友,xiǎopéngyǒu,trẻ em; em nhỏ,Danh từ,NULL,NULL,1002,1
+3,3,23,425,爷爷,yéye,ông nội,Danh từ,NULL,NULL,1002,1
+4,4,1,16,八,bā,tám; 8,Số từ,NULL,NULL,1002,1
+4,4,2,21,百,bǎi,một trăm; 100,Số từ,NULL,NULL,1002,1
+4,4,3,23,半,bàn,một nửa; nửa,Số từ,NULL,NULL,1002,1
+4,4,4,30,杯,bēi,cốc; ly,Lượng từ,NULL,NULL,1002,1
+4,4,5,35,本,běn,quyển; cuốn,Lượng từ,NULL,NULL,1002,1
+4,4,6,66,次,cì,lần,Lượng từ,NULL,NULL,1002,1
+4,4,7,88,第（第二）,dì (dì-èr),thứ; thứ hai,Tiền tố,NULL,NULL,1002,1
+4,4,8,107,多,duō,nhiều; hơn,Tính từ / đại từ,NULL,NULL,1002,1
+4,4,9,108,多少,duōshao,bao nhiêu,Đại từ nghi vấn,NULL,NULL,1002,1
+4,4,10,111,二,èr,hai; 2,Số từ,NULL,NULL,1002,1
+4,4,11,132,个,gè,cái; người; chiếc,Lượng từ,NULL,NULL,1002,1
+4,4,12,175,几,jǐ,mấy; bao nhiêu; vài,Đại từ nghi vấn / số từ,NULL,NULL,1002,1
+4,4,13,194,九,jiǔ,chín; 9,Số từ,NULL,NULL,1002,1
+4,4,14,212,块,kuài,"miếng; cục; đồng, tệ",Danh từ / lượng từ,NULL,NULL,1002,1
+4,4,15,224,两,liǎng,hai,Số từ,NULL,NULL,1002,1
+4,4,16,225,零,líng,không; số 0,Số từ,NULL,NULL,1002,1
+4,4,17,226,六,liù,sáu; 6,Số từ,NULL,NULL,1002,1
+4,4,18,291,七,qī,bảy; 7,Số từ,NULL,NULL,1002,1
+4,4,19,315,三,sān,ba; 3,Số từ,NULL,NULL,1002,1
+4,4,20,328,少,shǎo,ít; thiếu,Tính từ / động từ,NULL,NULL,1002,1
+4,4,21,335,十,shí,mười; 10,Số từ,NULL,NULL,1002,1
+4,4,22,353,四,sì,bốn; 4,Số từ,NULL,NULL,1002,1
+4,4,23,355,岁,suì,tuổi,Lượng từ,NULL,NULL,1002,1
+4,4,24,383,五,wǔ,năm; 5,Số từ,NULL,NULL,1002,1
+4,4,25,427,一,yī,một; 1,Số từ,NULL,NULL,1002,1
+4,4,26,431,一半,yībàn,một nửa,Số từ,NULL,NULL,1002,1
+5,5,1,24,半年,bàn nián,nửa năm; sáu tháng,Danh từ chỉ thời gian,NULL,NULL,1002,1
+5,5,2,154,号,hào,ngày; số,Danh từ,NULL,NULL,1002,1
+5,5,3,159,后天,hòutiān,ngày mốt,Danh từ chỉ thời gian,NULL,NULL,1002,1
+5,5,4,189,今年,jīnnián,năm nay,Danh từ chỉ thời gian,NULL,NULL,1002,1
+5,5,5,190,今天,jīntiān,hôm nay,Danh từ chỉ thời gian,NULL,NULL,1002,1
+5,5,6,254,明年,míngnián,năm sau,Danh từ chỉ thời gian,NULL,NULL,1002,1
+5,5,7,255,明天,míngtiān,ngày mai,Danh từ chỉ thời gian,NULL,NULL,1002,1
+5,5,8,278,年,nián,năm,Danh từ / lượng từ,NULL,NULL,1002,1
+5,5,9,298,前天,qiántiān,hôm kia,Danh từ chỉ thời gian,NULL,NULL,1002,1
+5,5,10,308,去年,qùnián,năm ngoái,Danh từ chỉ thời gian,NULL,NULL,1002,1
+5,5,11,312,日,rì,ngày,Danh từ,NULL,NULL,1002,1
+5,5,12,313,日期,rìqī,ngày tháng; ngày tháng năm,Danh từ,NULL,NULL,1002,1
+5,5,13,334,生日,shēngrì,sinh nhật,Danh từ,NULL,NULL,1002,1
+5,5,14,361,天,tiān,ngày,Danh từ / lượng từ,NULL,NULL,1002,1
+5,5,15,413,新年,xīnnián,năm mới,Danh từ,NULL,NULL,1002,1
+5,5,16,414,星期,xīngqī,tuần; thứ,Danh từ,NULL,NULL,1002,1
+5,5,17,415,星期日,xīngqīrì,Chủ nhật,Danh từ,NULL,NULL,1002,1
+5,5,18,416,星期天,xīngqītiān,Chủ nhật,Danh từ,NULL,NULL,1002,1
+5,5,19,452,月,yuè,tháng,Danh từ,NULL,NULL,1002,1
+5,5,20,495,昨天,zuótiān,hôm qua,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,1,20,白天,báitiān,ban ngày,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,2,25,半天,bàntiān,nửa ngày,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,3,51,常,cháng,thường; thường xuyên,Phó từ,NULL,NULL,1002,1
+6,6,4,52,常常,chángcháng,thường xuyên; thường,Phó từ,NULL,NULL,1002,1
+6,6,5,89,点,diǎn,giờ,Danh từ / lượng từ,NULL,NULL,1002,1
+6,6,6,122,分,fēn,phút,Danh từ / lượng từ,NULL,NULL,1002,1
+6,6,7,235,马上,mǎshàng,ngay; lập tức,Phó từ,NULL,NULL,1002,1
+6,6,8,323,上次,shàng cì,lần trước,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,9,326,上午,shàngwǔ,buổi sáng,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,10,336,时候,shíhou,lúc; khi; thời điểm,Danh từ,NULL,NULL,1002,1
+6,6,11,337,时间,shíjiān,thời gian,Danh từ,NULL,NULL,1002,1
+6,6,12,374,晚,wǎn,muộn; trễ,Tính từ,NULL,NULL,1002,1
+6,6,13,376,晚上,wǎnshang,buổi tối; ban đêm,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,14,394,下次,xià cì,lần sau; lần tới,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,15,396,下午,xiàwǔ,buổi chiều,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,16,398,先,xiān,trước; trước tiên,Phó từ,NULL,NULL,1002,1
+6,6,17,400,现在,xiànzài,bây giờ; hiện tại,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,18,406,小时,xiǎoshí,giờ; tiếng đồng hồ,Danh từ / lượng từ,NULL,NULL,1002,1
+6,6,19,432,一会儿,yīhuìr,một lát; một lúc,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,20,444,有时候,yǒushíhou,đôi khi; thỉnh thoảng,Phó từ,NULL,NULL,1002,1
+6,6,21,457,早,zǎo,sớm,Tính từ / phó từ,NULL,NULL,1002,1
+6,6,22,459,早上,zǎoshang,buổi sáng; sáng sớm,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,23,480,中午,zhōngwǔ,buổi trưa,Danh từ chỉ thời gian,NULL,NULL,1002,1
+6,6,24,494,最后,zuìhòu,cuối cùng; sau cùng,Danh từ / phó từ,NULL,NULL,1002,1
+7,7,1,22,班,bān,lớp; lớp học,Danh từ / lượng từ,NULL,NULL,1002,1
+7,7,2,75,大学,dàxué,trường đại học; đại học,Danh từ,NULL,NULL,1002,1
+7,7,3,76,大学生,dàxuéshēng,sinh viên đại học,Danh từ,NULL,NULL,1002,1
+7,7,4,117,放假,fàngjià,nghỉ; nghỉ học; nghỉ lễ,Động từ,NULL,NULL,1002,1
+7,7,5,118,放学,fàngxué,tan học,Động từ,NULL,NULL,1002,1
+7,7,6,185,教,jiāo,dạy,Động từ,NULL,NULL,1002,1
+7,7,7,186,教学楼,jiàoxuélóu,tòa nhà giảng dạy; giảng đường,Danh từ,NULL,NULL,1002,1
+7,7,8,205,考,kǎo,thi; kiểm tra,Động từ,NULL,NULL,1002,1
+7,7,9,206,考试,kǎoshì,kỳ thi; thi; kiểm tra,Danh từ / động từ,NULL,NULL,1002,1
+7,7,10,208,课,kè,bài học; tiết học; môn học,Danh từ,NULL,NULL,1002,1
+7,7,11,218,老师,lǎoshī,giáo viên; thầy giáo; cô giáo,Danh từ,NULL,NULL,1002,1
+7,7,12,302,请假,qǐngjià,xin nghỉ,Động từ,NULL,NULL,1002,1
+7,7,13,311,认真,rènzhēn,nghiêm túc; chăm chú,Tính từ / phó từ,NULL,NULL,1002,1
+7,7,14,324,上课,shàngkè,học; lên lớp; vào học,Động từ,NULL,NULL,1002,1
+7,7,15,327,上学,shàngxué,đi học,Động từ,NULL,NULL,1002,1
+7,7,16,367,同学,tóngxué,bạn học; bạn cùng lớp,Danh từ,NULL,NULL,1002,1
+7,7,17,368,图书馆,túshūguǎn,thư viện,Danh từ,NULL,NULL,1002,1
+7,7,18,395,下课,xiàkè,tan học; hết tiết,Động từ,NULL,NULL,1002,1
+7,7,19,407,小学,xiǎoxué,trường tiểu học,Danh từ,NULL,NULL,1002,1
+7,7,20,408,小学生,xiǎoxuéshēng,học sinh tiểu học,Danh từ,NULL,NULL,1002,1
+7,7,21,419,学,xué,học,Động từ,NULL,NULL,1002,1
+7,7,22,420,学生,xuéshēng,học sinh; sinh viên,Danh từ,NULL,NULL,1002,1
+7,7,23,421,学习,xuéxí,học; học tập,Động từ,NULL,NULL,1002,1
+7,7,24,422,学校,xuéxiào,trường học,Danh từ,NULL,NULL,1002,1
+7,7,25,423,学院,xuéyuàn,học viện; trường; khoa,Danh từ,NULL,NULL,1002,1
+7,7,26,475,知识,zhīshi,kiến thức,Danh từ,NULL,NULL,1002,1
+7,7,27,481,中学,zhōngxué,trường trung học,Danh từ,NULL,NULL,1002,1
+7,7,28,482,中学生,zhōngxuéshēng,học sinh trung học,Danh từ,NULL,NULL,1002,1
+8,8,1,36,本子,běnzi,vở; quyển vở,Danh từ,NULL,NULL,1002,1
+8,8,2,72,打开,dǎkāi,mở; bật,Động từ,NULL,NULL,1002,1
+8,8,3,103,读,dú,đọc; đọc thành tiếng,Động từ,NULL,NULL,1002,1
+8,8,4,104,读书,dúshū,đọc sách; học,Động từ,NULL,NULL,1002,1
+8,8,5,138,关上,guānshang,đóng; tắt,Động từ,NULL,NULL,1002,1
+8,8,6,165,回答,huídá,trả lời; câu trả lời,Động từ / danh từ,NULL,NULL,1002,1
+8,8,7,176,记,jì,ghi; nhớ; ghi nhớ,Động từ,NULL,NULL,1002,1
+8,8,8,177,记得,jìde,nhớ,Động từ,NULL,NULL,1002,1
+8,8,9,178,记住,jìzhù,ghi nhớ; nhớ kỹ,Động từ,NULL,NULL,1002,1
+8,8,10,209,课本,kèběn,sách giáo khoa,Danh từ,NULL,NULL,1002,1
+8,8,11,210,课文,kèwén,bài khóa; bài đọc,Danh từ,NULL,NULL,1002,1
+8,8,12,339,试,shì,thử,Động từ,NULL,NULL,1002,1
+8,8,13,343,书,shū,sách,Danh từ,NULL,NULL,1002,1
+8,8,14,344,书包,shūbāo,cặp sách; ba lô đi học,Danh từ,NULL,NULL,1002,1
+8,8,15,351,说,shuō,nói,Động từ,NULL,NULL,1002,1
+8,8,16,352,说话,shuōhuà,nói; nói chuyện,Động từ,NULL,NULL,1002,1
+8,8,17,363,听,tīng,nghe,Động từ,NULL,NULL,1002,1
+8,8,18,366,听写,tīngxiě,viết chính tả; bài chính tả,Động từ / danh từ,NULL,NULL,1002,1
+8,8,19,379,忘,wàng,quên,Động từ,NULL,NULL,1002,1
+8,8,20,380,忘记,wàngjì,quên,Động từ,NULL,NULL,1002,1
+8,8,21,381,问,wèn,hỏi,Động từ,NULL,NULL,1002,1
+8,8,22,410,写,xiě,viết,Động từ,NULL,NULL,1002,1
+8,8,23,426,页,yè,trang,Lượng từ,NULL,NULL,1002,1
+8,8,24,488,字,zì,chữ; ký tự,Danh từ,NULL,NULL,1002,1
+8,8,25,489,子（桌子）,zi (zhuōzi),hậu tố danh từ,Hậu tố,NULL,NULL,1002,1
+9,9,1,64,穿,chuān,mặc; đi; mang,Động từ,NULL,NULL,1002,1
+9,9,2,81,等,děng,đợi; chờ,Động từ,NULL,NULL,1002,1
+9,9,3,100,动,dòng,động; di chuyển; cử động,Động từ,NULL,NULL,1002,1
+9,9,4,101,动作,dòngzuò,động tác; hành động; cử động,Danh từ,NULL,NULL,1002,1
+9,9,5,126,干,gàn,làm; làm việc,Động từ,NULL,NULL,1002,1
+9,9,6,135,工人,gōngrén,công nhân,Danh từ,NULL,NULL,1002,1
+9,9,7,136,工作,gōngzuò,làm việc; công việc,Động từ / danh từ,NULL,NULL,1002,1
+9,9,8,167,回家,huí jiā,về nhà,Động từ,NULL,NULL,1002,1
+9,9,9,199,开会,kāihuì,họp; họp hành,Động từ,NULL,NULL,1002,1
+9,9,10,220,累,lèi,mệt; mệt mỏi,Tính từ,NULL,NULL,1002,1
+9,9,11,238,忙,máng,bận,Tính từ,NULL,NULL,1002,1
+9,9,12,292,起,qǐ,dậy; đứng lên; bắt đầu,Động từ,NULL,NULL,1002,1
+9,9,13,293,起床,qǐchuáng,thức dậy; ra khỏi giường,Động từ,NULL,NULL,1002,1
+9,9,14,294,起来,qǐlái,đứng dậy; thức dậy; lên,Động từ / bổ ngữ xu hướng,NULL,NULL,1002,1
+9,9,15,320,上班,shàngbān,đi làm; vào làm,Động từ,NULL,NULL,1002,1
+9,9,16,349,睡,shuì,ngủ,Động từ,NULL,NULL,1002,1
+9,9,17,350,睡觉,shuìjiào,ngủ; đi ngủ,Động từ,NULL,NULL,1002,1
+9,9,18,387,洗,xǐ,rửa; giặt; tắm,Động từ,NULL,NULL,1002,1
+9,9,19,391,下班,xiàbān,tan làm; tan ca,Động từ,NULL,NULL,1002,1
+9,9,20,418,休息,xiūxi,nghỉ; nghỉ ngơi,Động từ,NULL,NULL,1002,1
+9,9,21,456,在家,zàijiā,ở nhà,Động từ / cụm chỉ nơi chốn,NULL,NULL,1002,1
+9,9,22,500,做,zuò,làm,Động từ,NULL,NULL,1002,1
+10,10,1,29,包子,bāozi,bánh bao,Danh từ,NULL,NULL,1002,1
+10,10,2,31,杯子,bēizi,cốc; ly,Danh từ,NULL,NULL,1002,1
+10,10,3,48,菜,cài,rau; món ăn,Danh từ,NULL,NULL,1002,1
+10,10,4,49,茶,chá,trà,Danh từ,NULL,NULL,1002,1
+10,10,5,59,吃,chī,ăn,Động từ,NULL,NULL,1002,1
+10,10,6,60,吃饭,chīfàn,ăn cơm; dùng bữa,Động từ,NULL,NULL,1002,1
+10,10,7,109,饿,è,đói,Tính từ,NULL,NULL,1002,1
+10,10,8,112,饭,fàn,cơm; bữa ăn,Danh từ,NULL,NULL,1002,1
+10,10,9,113,饭店,fàndiàn,nhà hàng,Danh từ,NULL,NULL,1002,1
+10,10,10,150,好吃,hǎochī,ngon; ngon miệng,Tính từ,NULL,NULL,1002,1
+10,10,11,155,喝,hē,uống,Động từ,NULL,NULL,1002,1
+10,10,12,174,鸡蛋,jīdàn,trứng gà,Danh từ,NULL,NULL,1002,1
+10,10,13,207,渴,kě,khát,Tính từ,NULL,NULL,1002,1
+10,10,14,250,米饭,mǐfàn,cơm,Danh từ,NULL,NULL,1002,1
+10,10,15,251,面包,miànbāo,bánh mì,Danh từ,NULL,NULL,1002,1
+10,10,16,252,面条儿,miàntiáor,mì; mì sợi,Danh từ,NULL,NULL,1002,1
+10,10,17,266,奶,nǎi,sữa,Danh từ,NULL,NULL,1002,1
+10,10,18,280,牛奶,niúnǎi,sữa bò,Danh từ,NULL,NULL,1002,1
+10,10,19,314,肉,ròu,thịt,Danh từ,NULL,NULL,1002,1
+10,10,20,347,水,shuǐ,nước,Danh từ,NULL,NULL,1002,1
+10,10,21,348,水果,shuǐguǒ,trái cây; hoa quả,Danh từ,NULL,NULL,1002,1
+10,10,22,375,晚饭,wǎnfàn,bữa tối; cơm tối,Danh từ,NULL,NULL,1002,1
+10,10,23,384,午饭,wǔfàn,bữa trưa; cơm trưa,Danh từ,NULL,NULL,1002,1
+10,10,24,458,早饭,zǎofàn,bữa sáng,Danh từ,NULL,NULL,1002,1
+11,11,1,28,包,bāo,túi; gói; bọc,Danh từ / động từ / lượng từ,NULL,NULL,1002,1
+11,11,2,39,别的,biéde,khác; cái khác,Đại từ,NULL,NULL,1002,1
+11,11,3,99,东西,dōngxi,đồ vật; đồ; thứ,Danh từ,NULL,NULL,1002,1
+11,11,4,139,贵,guì,đắt,Tính từ,NULL,NULL,1002,1
+11,11,5,236,买,mǎi,mua,Động từ,NULL,NULL,1002,1
+11,11,6,257,哪,nǎ,nào; cái nào,Đại từ nghi vấn,NULL,NULL,1002,1
+11,11,7,260,哪些,nǎxiē,những cái nào; những gì,Đại từ nghi vấn,NULL,NULL,1002,1
+11,11,8,261,那,nà,đó; cái đó,Đại từ chỉ định,NULL,NULL,1002,1
+11,11,9,265,那些,nàxiē,những cái đó,Đại từ chỉ định,NULL,NULL,1002,1
+11,11,10,299,钱,qián,tiền,Danh từ,NULL,NULL,1002,1
+11,11,11,300,钱包,qiánbāo,ví; ví tiền,Danh từ,NULL,NULL,1002,1
+11,11,12,317,商场,shāngchǎng,trung tâm thương mại; trung tâm mua sắm,Danh từ,NULL,NULL,1002,1
+11,11,13,318,商店,shāngdiàn,cửa hàng; tiệm,Danh từ,NULL,NULL,1002,1
+11,11,14,345,书店,shūdiàn,nhà sách; cửa hàng sách,Danh từ,NULL,NULL,1002,1
+11,11,15,412,新,xīn,mới,Tính từ,NULL,NULL,1002,1
+11,11,16,428,衣服,yīfu,quần áo,Danh từ,NULL,NULL,1002,1
+11,11,17,437,一点儿,yīdiǎnr,một chút; một ít,Cụm chỉ số lượng,NULL,NULL,1002,1
+11,11,18,439,一些,yīxiē,một số; một vài; một ít,Đại từ / số lượng từ,NULL,NULL,1002,1
+11,11,19,442,有的,yǒude,một số; có cái; có người,Đại từ,NULL,NULL,1002,1
+11,11,20,445,有（一）些,yǒu(yī)xiē,một chút; một ít; một số,Đại từ,NULL,NULL,1002,1
+11,11,21,450,元,yuán,tệ; đồng nhân dân tệ,Lượng từ / đơn vị tiền tệ,NULL,NULL,1002,1
+11,11,22,464,这,zhè,này; cái này,Đại từ chỉ định,NULL,NULL,1002,1
+11,11,23,468,这些,zhèxiē,những cái này,Đại từ chỉ định,NULL,NULL,1002,1
+12,12,1,65,床,chuáng,giường,Danh từ,NULL,NULL,1002,1
+12,12,2,85,地上,dìshang,trên mặt đất; trên sàn,Danh từ chỉ nơi chốn,NULL,NULL,1002,1
+12,12,3,114,房间,fángjiān,phòng; căn phòng,Danh từ,NULL,NULL,1002,1
+12,12,4,115,房子,fángzi,nhà; căn nhà,Danh từ,NULL,NULL,1002,1
+12,12,5,125,干净,gānjìng,sạch; sạch sẽ,Tính từ,NULL,NULL,1002,1
+12,12,6,182,间,jiān,gian; phòng,Lượng từ,NULL,NULL,1002,1
+12,12,7,222,里,lǐ,trong; bên trong,Danh từ chỉ phương vị,NULL,NULL,1002,1
+12,12,8,223,里边,lǐbian,bên trong; phía trong,Danh từ chỉ phương vị,NULL,NULL,1002,1
+12,12,9,227,楼,lóu,tòa nhà; tầng,Danh từ,NULL,NULL,1002,1
+12,12,10,228,楼上,lóu shàng,tầng trên; trên lầu,Danh từ chỉ nơi chốn,NULL,NULL,1002,1
+12,12,11,229,楼下,lóu xià,tầng dưới; dưới lầu,Danh từ chỉ nơi chốn,NULL,NULL,1002,1
+12,12,12,246,门,mén,cửa; cổng,Danh từ,NULL,NULL,1002,1
+12,12,13,247,门口,ménkǒu,cửa ra vào; trước cửa,Danh từ chỉ nơi chốn,NULL,NULL,1002,1
+12,12,14,319,上,shàng,trên; lên,Danh từ chỉ phương vị / động từ,NULL,NULL,1002,1
+12,12,15,321,上边,shàngbian,phía trên; bên trên,Danh từ chỉ phương vị,NULL,NULL,1002,1
+12,12,16,369,外,wài,ngoài; bên ngoài,Danh từ chỉ phương vị,NULL,NULL,1002,1
+12,12,17,370,外边,wàibian,bên ngoài; phía ngoài,Danh từ chỉ phương vị,NULL,NULL,1002,1
+12,12,18,388,洗手间,xǐshǒujiān,nhà vệ sinh; phòng vệ sinh,Danh từ,NULL,NULL,1002,1
+12,12,19,390,下,xià,dưới; xuống,Danh từ chỉ phương vị / động từ,NULL,NULL,1002,1
+12,12,20,392,下边,xiàbian,phía dưới; bên dưới,Danh từ chỉ phương vị,NULL,NULL,1002,1
+12,12,21,485,住,zhù,ở; sống; cư trú,Động từ,NULL,NULL,1002,1
+12,12,22,487,桌子,zhuōzi,bàn,Danh từ,NULL,NULL,1002,1
+13,13,1,32,北,běi,bắc; phía bắc,Danh từ chỉ phương hướng,NULL,NULL,1002,1
+13,13,2,33,北边,běibian,phía bắc; bên phía bắc,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,3,82,地,dì,đất; mặt đất,Danh từ,NULL,NULL,1002,1
+13,13,4,83,地点,dìdiǎn,địa điểm; nơi; chỗ,Danh từ,NULL,NULL,1002,1
+13,13,5,84,地方,dìfang,nơi; chỗ; địa phương,Danh từ,NULL,NULL,1002,1
+13,13,6,97,东,dōng,đông; phía đông,Danh từ chỉ phương hướng,NULL,NULL,1002,1
+13,13,7,98,东边,dōngbian,phía đông; bên phía đông,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,8,157,后,hòu,sau; phía sau,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,9,158,后边,hòubian,phía sau; đằng sau,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,10,262,那边,nàbiān,đằng kia; bên đó,Đại từ chỉ nơi chốn,NULL,NULL,1002,1
+13,13,11,263,那里,nàlǐ,ở đó; nơi đó,Đại từ chỉ nơi chốn,NULL,NULL,1002,1
+13,13,12,264,那儿,nàr,ở đó; đằng đó,Đại từ chỉ nơi chốn,NULL,NULL,1002,1
+13,13,13,273,南,nán,nam; phía nam,Danh từ chỉ phương hướng,NULL,NULL,1002,1
+13,13,14,274,南边,nánbian,phía nam; bên phía nam,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,15,287,旁边,pángbiān,bên cạnh; cạnh bên,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,16,296,前,qián,trước; phía trước,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,17,297,前边,qiánbian,phía trước; đằng trước,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,18,385,西,xī,tây; phía tây,Danh từ chỉ phương hướng,NULL,NULL,1002,1
+13,13,19,386,西边,xībian,phía tây; bên phía tây,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,20,436,一边,yībiān,một bên; một phía,Danh từ / phó từ,NULL,NULL,1002,1
+13,13,21,447,右,yòu,phải; bên phải,Danh từ chỉ phương hướng,NULL,NULL,1002,1
+13,13,22,448,右边,yòubian,bên phải; phía bên phải,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,23,465,这边,zhèbiān,bên này; phía này; ở đây,Đại từ chỉ nơi chốn,NULL,NULL,1002,1
+13,13,24,467,这儿,zhèr,ở đây,Đại từ chỉ nơi chốn,NULL,NULL,1002,1
+13,13,25,466,这里,zhèlǐ,ở đây; nơi này,Đại từ chỉ nơi chốn,NULL,NULL,1002,1
+13,13,26,472,正,zhèng,chính; đúng; ngay,Phó từ / tính từ,NULL,NULL,1002,1
+13,13,27,476,中,zhōng,trong; giữa; ở giữa,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,28,478,中间,zhōngjiān,ở giữa; chính giữa,Danh từ chỉ phương vị,NULL,NULL,1002,1
+13,13,29,496,左,zuǒ,trái; bên trái,Danh từ chỉ phương hướng,NULL,NULL,1002,1
+13,13,30,497,左边,zuǒbian,bên trái; phía bên trái,Danh từ chỉ phương vị,NULL,NULL,1002,1
+14,14,1,55,车,chē,xe; phương tiện,Danh từ,NULL,NULL,1002,1
+14,14,2,57,车上,chē shang,trên xe; ở trên xe,Danh từ chỉ nơi chốn,NULL,NULL,1002,1
+14,14,3,58,车站,chēzhàn,nhà ga; bến xe; trạm xe,Danh từ,NULL,NULL,1002,1
+14,14,4,67,从,cóng,từ,Giới từ,NULL,NULL,1002,1
+14,14,5,70,打车,dǎchē,bắt taxi; đi taxi,Động từ,NULL,NULL,1002,1
+14,14,6,86,地图,dìtú,bản đồ,Danh từ,NULL,NULL,1002,1
+14,14,7,198,开车,kāichē,lái xe,Động từ,NULL,NULL,1002,1
+14,14,8,230,路,lù,đường; tuyến đường,Danh từ,NULL,NULL,1002,1
+14,14,9,231,路口,lùkǒu,ngã tư; giao lộ,Danh từ,NULL,NULL,1002,1
+14,14,10,232,路上,lùshang,trên đường; đang trên đường,Danh từ chỉ nơi chốn,NULL,NULL,1002,1
+14,14,11,234,马路,mǎlù,đường phố; đường,Danh từ,NULL,NULL,1002,1
+14,14,12,258,哪里,nǎlǐ,ở đâu; nơi nào,Đại từ nghi vấn,NULL,NULL,1002,1
+14,14,13,259,哪儿,nǎr,ở đâu; nơi nào,Đại từ nghi vấn,NULL,NULL,1002,1
+14,14,14,288,跑,pǎo,chạy,Động từ,NULL,NULL,1002,1
+14,14,15,295,汽车,qìchē,ô tô; xe hơi,Danh từ,NULL,NULL,1002,1
+14,14,16,304,请问,qǐngwèn,cho hỏi; xin hỏi,Động từ / cách nói lịch sự,NULL,NULL,1002,1
+14,14,17,322,上车,shàng chē,lên xe,Động từ,NULL,NULL,1002,1
+14,14,18,393,下车,xià chē,xuống xe,Động từ,NULL,NULL,1002,1
+14,14,19,451,远,yuǎn,xa,Tính từ,NULL,NULL,1002,1
+14,14,20,461,站,zhàn,trạm; ga; đứng,Danh từ / động từ,NULL,NULL,1002,1
+14,14,21,490,走,zǒu,đi; đi bộ; rời đi,Động từ,NULL,NULL,1002,1
+14,14,22,491,走路,zǒulù,đi bộ,Động từ,NULL,NULL,1002,1
+15,15,1,19,白,bái,trắng,Tính từ,NULL,NULL,1002,1
+15,15,2,123,风,fēng,gió,Danh từ,NULL,NULL,1002,1
+15,15,3,124,干,gān,khô,Tính từ,NULL,NULL,1002,1
+15,15,4,160,花,huā,hoa; bông hoa,Danh từ,NULL,NULL,1002,1
+15,15,5,221,冷,lěng,lạnh,Tính từ,NULL,NULL,1002,1
+15,15,6,309,热,rè,nóng,Tính từ,NULL,NULL,1002,1
+15,15,7,316,山,shān,núi; đồi,Danh từ,NULL,NULL,1002,1
+15,15,8,346,树,shù,cây,Danh từ,NULL,NULL,1002,1
+15,15,9,362,天气,tiānqì,thời tiết,Danh từ,NULL,NULL,1002,1
+15,15,10,397,下雨,xià yǔ,mưa; trời mưa,Động từ,NULL,NULL,1002,1
+15,15,11,449,雨,yǔ,mưa,Danh từ,NULL,NULL,1002,1
+16,16,1,41,病,bìng,bệnh; ốm,Danh từ / động từ,NULL,NULL,1002,1
+16,16,2,42,病人,bìngrén,bệnh nhân; người bệnh,Danh từ,NULL,NULL,1002,1
+16,16,3,202,看病,kànbìng,đi khám bệnh; khám bệnh,Động từ,NULL,NULL,1002,1
+16,16,4,211,口,kǒu,miệng,Danh từ / lượng từ,NULL,NULL,1002,1
+16,16,5,239,毛,máo,lông; tóc,Danh từ,NULL,NULL,1002,1
+16,16,6,330,身上,shēnshang,trên người; trên cơ thể,Danh từ chỉ vị trí,NULL,NULL,1002,1
+16,16,7,331,身体,shēntǐ,cơ thể; sức khỏe,Danh từ,NULL,NULL,1002,1
+16,16,8,332,生病,shēngbìng,bị ốm; mắc bệnh,Động từ,NULL,NULL,1002,1
+16,16,9,333,生气,shēngqì,tức giận; nổi giận,Động từ / tính từ,NULL,NULL,1002,1
+16,16,10,341,手,shǒu,tay; bàn tay,Danh từ,NULL,NULL,1002,1
+16,16,11,429,医生,yīshēng,bác sĩ,Danh từ,NULL,NULL,1002,1
+16,16,12,430,医院,yīyuàn,bệnh viện,Danh từ,NULL,NULL,1002,1
+17,17,1,14,爱,ài,yêu; thích,Động từ,NULL,NULL,1002,1
+17,17,2,15,爱好,àihào,sở thích; yêu thích,Danh từ / động từ,NULL,NULL,1002,1
+17,17,3,53,唱,chàng,hát,Động từ,NULL,NULL,1002,1
+17,17,4,54,唱歌,chànggē,hát; ca hát,Động từ,NULL,NULL,1002,1
+17,17,5,73,打球,dǎ qiú,chơi bóng,Động từ,NULL,NULL,1002,1
+17,17,6,90,电,diàn,điện,Danh từ,NULL,NULL,1002,1
+17,17,7,92,电脑,diànnǎo,máy tính,Danh từ,NULL,NULL,1002,1
+17,17,8,93,电视,diànshì,truyền hình; TV,Danh từ,NULL,NULL,1002,1
+17,17,9,94,电视机,diànshìjī,tivi; máy thu hình,Danh từ,NULL,NULL,1002,1
+17,17,10,95,电影,diànyǐng,phim; điện ảnh,Danh từ,NULL,NULL,1002,1
+17,17,11,96,电影院,diànyǐngyuàn,rạp chiếu phim; rạp phim,Danh từ,NULL,NULL,1002,1
+17,17,12,131,歌,gē,bài hát,Danh từ,NULL,NULL,1002,1
+17,17,13,151,好看,hǎokàn,đẹp; hay,Tính từ,NULL,NULL,1002,1
+17,17,14,152,好听,hǎotīng,nghe hay; hay,Tính từ,NULL,NULL,1002,1
+17,17,15,153,好玩儿,hǎowánr,vui; thú vị,Tính từ,NULL,NULL,1002,1
+17,17,16,196,觉得,juéde,cảm thấy; nghĩ rằng,Động từ,NULL,NULL,1002,1
+17,17,17,200,开玩笑,kāi wánxiào,nói đùa; đùa giỡn,Động từ,NULL,NULL,1002,1
+17,17,18,201,看,kàn,xem; nhìn,Động từ,NULL,NULL,1002,1
+17,17,19,306,球,qiú,quả bóng; bóng,Danh từ,NULL,NULL,1002,1
+17,17,20,325,上网,shàngwǎng,lên mạng; truy cập Internet,Động từ,NULL,NULL,1002,1
+17,17,21,373,玩儿,wánr,chơi; vui chơi; đi chơi,Động từ,NULL,NULL,1002,1
+17,17,22,377,网上,wǎng shang,trên mạng; trực tuyến,Cụm chỉ nơi chốn,NULL,NULL,1002,1
+17,17,23,378,网友,wǎngyǒu,bạn trên mạng; người dùng Internet,Danh từ,NULL,NULL,1002,1
+17,17,24,389,喜欢,xǐhuan,thích; ưa thích,Động từ,NULL,NULL,1002,1
+17,17,25,409,笑,xiào,cười; mỉm cười,Động từ,NULL,NULL,1002,1
+18,18,1,34,北京,Běijīng,Bắc Kinh,Danh từ riêng,NULL,NULL,1002,1
+18,18,2,56,车票,chēpiào,vé xe; vé tàu,Danh từ,NULL,NULL,1002,1
+18,18,3,77,到,dào,đến; tới,Động từ,NULL,NULL,1002,1
+18,18,4,119,飞,fēi,bay,Động từ,NULL,NULL,1002,1
+18,18,5,120,飞机,fēijī,máy bay,Danh từ,NULL,NULL,1002,1
+18,18,6,166,回到,huídào,trở về; quay lại,Động từ,NULL,NULL,1002,1
+18,18,7,171,火车,huǒchē,tàu hỏa,Danh từ,NULL,NULL,1002,1
+18,18,8,172,机场,jīchǎng,sân bay,Danh từ,NULL,NULL,1002,1
+18,18,9,173,机票,jīpiào,vé máy bay,Danh từ,NULL,NULL,1002,1
+18,18,10,214,来,lái,đến; tới,Động từ,NULL,NULL,1002,1
+18,18,11,215,来到,láidào,đến; tới,Động từ,NULL,NULL,1002,1
+18,18,12,248,门票,ménpiào,vé vào cửa,Danh từ,NULL,NULL,1002,1
+18,18,13,290,票,piào,vé; phiếu,Danh từ,NULL,NULL,1002,1
+18,18,14,307,去,qù,đi; đi đến,Động từ,NULL,NULL,1002,1
+18,18,15,354,送,sòng,tiễn; đưa; gửi,Động từ,NULL,NULL,1002,1
+18,18,16,417,行,xíng,được; ổn; có thể,Động từ / tính từ,NULL,NULL,1002,1
+18,18,17,433,一块儿,yīkuàir,cùng nhau,Phó từ,NULL,NULL,1002,1
+18,18,18,438,一起,yīqǐ,cùng nhau,Phó từ,NULL,NULL,1002,1
+18,18,19,462,找,zhǎo,tìm; tìm kiếm,Động từ,NULL,NULL,1002,1
+18,18,20,463,找到,zhǎodào,tìm thấy,Động từ,NULL,NULL,1002,1
+18,18,21,498,坐,zuò,ngồi; đi bằng,Động từ,NULL,NULL,1002,1
+18,18,22,499,坐下,zuò xia,ngồi xuống,Động từ,NULL,NULL,1002,1
+19,19,1,26,帮,bāng,giúp; giúp đỡ,Động từ,NULL,NULL,1002,1
+19,19,2,27,帮忙,bāngmáng,giúp đỡ; giúp một tay,Động từ,NULL,NULL,1002,1
+19,19,3,61,出,chū,ra; đi ra,Động từ,NULL,NULL,1002,1
+19,19,4,62,出来,chūlái,đi ra; ra đây,Động từ / bổ ngữ xu hướng,NULL,NULL,1002,1
+19,19,5,63,出去,chūqù,đi ra ngoài; ra ngoài,Động từ / bổ ngữ xu hướng,NULL,NULL,1002,1
+19,19,6,69,打,dǎ,đánh; gọi; chơi,Động từ,NULL,NULL,1002,1
+19,19,7,116,放,fàng,đặt; để; thả,Động từ,NULL,NULL,1002,1
+19,19,8,127,干什么,gàn shénme,làm gì,Cụm nghi vấn,NULL,NULL,1002,1
+19,19,9,137,关,guān,đóng; tắt,Động từ,NULL,NULL,1002,1
+19,19,10,164,回,huí,về; trở về; quay lại,Động từ,NULL,NULL,1002,1
+19,19,11,168,回来,huílái,trở về; quay lại đây,Động từ / bổ ngữ xu hướng,NULL,NULL,1002,1
+19,19,12,169,回去,huíqù,trở về; quay lại đó,Động từ / bổ ngữ xu hướng,NULL,NULL,1002,1
+19,19,13,191,进,jìn,vào; đi vào,Động từ,NULL,NULL,1002,1
+19,19,14,192,进来,jìnlái,đi vào; vào đây,Động từ / bổ ngữ xu hướng,NULL,NULL,1002,1
+19,19,15,193,进去,jìnqù,đi vào; vào trong,Động từ / bổ ngữ xu hướng,NULL,NULL,1002,1
+19,19,16,197,开,kāi,mở; bật,Động từ,NULL,NULL,1002,1
+19,19,17,256,拿,ná,cầm; lấy,Động từ,NULL,NULL,1002,1
+19,19,18,434,一下儿,yīxiàr,một chút; một lát; một lần,Bổ ngữ số lượng động tác,NULL,NULL,1002,1
+19,19,19,453,再,zài,lại; một lần nữa; rồi,Phó từ,NULL,NULL,1002,1
+19,19,20,455,在,zài,ở; tại; đang,Động từ / giới từ / phó từ,NULL,NULL,1002,1
+19,19,21,469,着,zhe,đang; ở trạng thái tiếp diễn,Trợ từ,NULL,NULL,1002,1
+19,19,22,473,正在,zhèngzài,đang,Phó từ,NULL,NULL,1002,1
+19,19,23,486,准备,zhǔnbèi,chuẩn bị; dự định,Động từ,NULL,NULL,1002,1
+20,20,1,44,不对,bùduì,không đúng; sai,Tính từ,NULL,NULL,1002,1
+20,20,2,68,错,cuò,sai; lỗi,Tính từ / danh từ,NULL,NULL,1002,1
+20,20,3,78,得到,dédào,nhận được; đạt được,Động từ,NULL,NULL,1002,1
+20,20,4,105,对,duì,đúng; chính xác,Tính từ,NULL,NULL,1002,1
+20,20,5,143,过,guò,qua; đi qua; trải qua,Động từ,NULL,NULL,1002,1
+20,20,6,144,还,hái,vẫn; còn,Phó từ,NULL,NULL,1002,1
+20,20,7,163,还,huán,trả lại; hoàn lại,Động từ,NULL,NULL,1002,1
+20,20,8,170,会,huì,biết; có thể,Động từ năng nguyện,NULL,NULL,1002,1
+20,20,9,195,就,jiù,thì; liền; ngay,Phó từ,NULL,NULL,1002,1
+20,20,10,203,看到,kàndào,nhìn thấy,Động từ,NULL,NULL,1002,1
+20,20,11,204,看见,kànjiàn,nhìn thấy; trông thấy,Động từ,NULL,NULL,1002,1
+20,20,12,219,了,le,rồi; đã,Trợ từ,NULL,NULL,1002,1
+20,20,13,244,没有,méiyǒu,không có; chưa,Động từ / phó từ,NULL,NULL,1002,1
+20,20,14,253,明白,míngbai,hiểu; rõ,Động từ / tính từ,NULL,NULL,1002,1
+20,20,15,276,能,néng,có thể; có khả năng,Động từ năng nguyện,NULL,NULL,1002,1
+20,20,16,364,听到,tīngdào,nghe thấy,Động từ,NULL,NULL,1002,1
+20,20,17,365,听见,tīngjiàn,nghe thấy,Động từ,NULL,NULL,1002,1
+20,20,18,401,想,xiǎng,muốn; nghĩ; nghĩ đến,Động từ,NULL,NULL,1002,1
+20,20,19,424,要,yào,muốn; cần; sẽ; sắp,Động từ năng nguyện,NULL,NULL,1002,1
+20,20,20,440,用,yòng,dùng; sử dụng,Động từ,NULL,NULL,1002,1
+20,20,21,441,有,yǒu,có,Động từ,NULL,NULL,1002,1
+20,20,22,446,有用,yǒuyòng,hữu ích; có ích,Tính từ,NULL,NULL,1002,1
+20,20,23,474,知道,zhīdào,biết,Động từ,NULL,NULL,1002,1
+21,21,1,37,比,bǐ,so với; hơn,Giới từ / động từ,NULL,NULL,1002,1
+21,21,2,43,不大,bù dà,không quá; không nhiều,Cụm từ chỉ mức độ,NULL,NULL,1002,1
+21,21,3,50,差,chà,kém; khác; sai,Tính từ / động từ,NULL,NULL,1002,1
+21,21,4,74,大,dà,to; lớn,Tính từ,NULL,NULL,1002,1
+21,21,5,121,非常,fēicháng,rất; vô cùng,Phó từ,NULL,NULL,1002,1
+21,21,6,128,高,gāo,cao,Tính từ,NULL,NULL,1002,1
+21,21,7,162,坏,huài,xấu; hỏng,Tính từ,NULL,NULL,1002,1
+21,21,8,213,快,kuài,nhanh; nhanh chóng,Tính từ / phó từ,NULL,NULL,1002,1
+21,21,9,216,老,lǎo,già; lớn tuổi,Tính từ,NULL,NULL,1002,1
+21,21,10,237,慢,màn,chậm,Tính từ,NULL,NULL,1002,1
+21,21,11,275,难,nán,khó; khó khăn,Tính từ,NULL,NULL,1002,1
+21,21,12,360,太,tài,quá; rất,Phó từ,NULL,NULL,1002,1
+21,21,13,402,小,xiǎo,nhỏ; bé,Tính từ,NULL,NULL,1002,1
+21,21,14,435,一样,yīyàng,giống nhau; như nhau,Tính từ,NULL,NULL,1002,1
+21,21,15,470,真,zhēn,thật; quả thật,Phó từ / tính từ,NULL,NULL,1002,1
+21,21,16,471,真的,zhēn de,thực sự; thật sự; thật,Cụm từ,NULL,NULL,1002,1
+21,21,17,483,重,zhòng,nặng,Tính từ,NULL,NULL,1002,1
+21,21,18,484,重要,zhòngyào,quan trọng,Tính từ,NULL,NULL,1002,1
+21,21,19,492,最,zuì,nhất,Phó từ,NULL,NULL,1002,1
+21,21,20,493,最好,zuìhǎo,tốt nhất; tốt hơn hết nên,Phó từ,NULL,NULL,1002,1
+22,22,1,45,不客气,bù kèqì,không có gì; không có chi,Cụm từ lịch sự,NULL,NULL,1002,1
+22,22,2,71,打电话,dǎ diànhuà,gọi điện thoại,Động từ,NULL,NULL,1002,1
+22,22,3,91,电话,diànhuà,điện thoại; cuộc gọi điện thoại,Danh từ,NULL,NULL,1002,1
+22,22,4,106,对不起,duìbuqǐ,xin lỗi; xin thứ lỗi,Cụm từ lịch sự,NULL,NULL,1002,1
+22,22,5,129,告诉,gàosu,nói; cho biết; thông báo,Động từ,NULL,NULL,1002,1
+22,22,6,133,给,gěi,cho; đưa; cho ai,Động từ / giới từ,NULL,NULL,1002,1
+22,22,7,161,话,huà,lời nói; lời; câu nói,Danh từ,NULL,NULL,1002,1
+22,22,8,183,见,jiàn,gặp; thấy,Động từ,NULL,NULL,1002,1
+22,22,9,184,见面,jiànmiàn,gặp mặt; gặp nhau,Động từ,NULL,NULL,1002,1
+22,22,10,241,没关系,méi guānxi,không sao; không có gì,Cụm từ lịch sự,NULL,NULL,1002,1
+22,22,11,243,没事儿,méishìr,không sao; không có gì,Cụm từ,NULL,NULL,1002,1
+22,22,12,301,请,qǐng,mời; xin; vui lòng,Động từ,NULL,NULL,1002,1
+22,22,13,303,请进,qǐng jìn,mời vào,Cụm từ lịch sự,NULL,NULL,1002,1
+22,22,14,305,请坐,qǐng zuò,mời ngồi,Cụm từ lịch sự,NULL,NULL,1002,1
+22,22,15,338,事,shì,việc; chuyện; sự việc,Danh từ,NULL,NULL,1002,1
+22,22,16,342,手机,shǒujī,điện thoại di động; điện thoại,Danh từ,NULL,NULL,1002,1
+22,22,17,411,谢谢,xièxie,cảm ơn,Động từ / cách nói lịch sự,NULL,NULL,1002,1
+22,22,18,454,再见,zàijiàn,tạm biệt; hẹn gặp lại,Động từ / cách nói lịch sự,NULL,NULL,1002,1
+23,23,1,18,吧,ba,nhé; đi; chứ,Trợ từ ngữ khí,NULL,NULL,1002,1
+23,23,2,38,别,bié,đừng,Phó từ,NULL,NULL,1002,1
+23,23,3,40,别人,biérén,người khác; những người khác,Đại từ,NULL,NULL,1002,1
+23,23,4,46,不用,bùyòng,không cần,Phó từ,NULL,NULL,1002,1
+23,23,5,47,不,bù,không,Phó từ,NULL,NULL,1002,1
+23,23,6,79,地,de,trợ từ nối trạng ngữ với động từ,Trợ từ kết cấu,NULL,NULL,1002,1
+23,23,7,80,的,de,của; trợ từ nối định ngữ,Trợ từ kết cấu,NULL,NULL,1002,1
+23,23,8,102,都,dōu,đều; tất cả,Phó từ,NULL,NULL,1002,1
+23,23,9,134,跟,gēn,với; cùng; theo,Giới từ / liên từ / động từ,NULL,NULL,1002,1
+23,23,10,145,还是,háishi,hay là; vẫn; tốt hơn nên,Phó từ / liên từ,NULL,NULL,1002,1
+23,23,11,146,还有,hái yǒu,còn; còn có; ngoài ra còn,Cụm từ,NULL,NULL,1002,1
+23,23,12,156,和,hé,và; với,Liên từ / giới từ,NULL,NULL,1002,1
+23,23,13,240,没,méi,không; chưa,Phó từ / động từ,NULL,NULL,1002,1
+23,23,14,242,没什么,méi shénme,không có gì; không sao,Cụm từ,NULL,NULL,1002,1
+23,23,15,340,是不是,shì bu shì,có phải... không,Cụm nghi vấn,NULL,NULL,1002,1
+23,23,16,460,怎么,zěnme,thế nào; làm sao; tại sao,Đại từ nghi vấn,NULL,NULL,1002,1

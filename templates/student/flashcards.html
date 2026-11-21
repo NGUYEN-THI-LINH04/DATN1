@@ -1,0 +1,100 @@
+{% extends "student/base.html" %}
+
+{% block title %}Flashcard | Mộc Hán{% endblock %}
+
+{% block content %}
+<div class="container page-area">
+    <div class="narrow-page">
+        <div class="page-title center-text">
+            <span class="eyebrow">ÔN TẬP NHẸ NHÀNG</span>
+            <h1>Bạn còn nhớ từ này không?</h1>
+            <p>Nhấn vào thẻ để xem nghĩa.</p>
+        </div>
+
+        <div class="row-between">
+            <span id="card-counter">Thẻ 1 / 6</span>
+            <button type="button" class="small-button" id="shuffle">
+                Trộn thẻ
+            </button>
+        </div>
+
+        <button type="button" class="flashcard" id="flashcard">
+            <span id="card-label">CHỮ HÁN</span>
+            <strong id="card-value" lang="zh">你好</strong>
+            <span id="card-hint">Nhấn để lật thẻ</span>
+        </button>
+
+        <div class="row-between">
+            <button type="button" class="button button-outline" id="previous">
+                ← Thẻ trước
+            </button>
+
+            <button type="button" class="button" id="next">
+                Thẻ tiếp →
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+const words = [
+    ["你好", "nǐ hǎo", "Xin chào"],
+    ["谢谢", "xièxie", "Cảm ơn"],
+    ["老师", "lǎoshī", "Giáo viên"],
+    ["学生", "xuésheng", "Học sinh"],
+    ["学习", "xuéxí", "Học tập"],
+    ["朋友", "péngyou", "Bạn bè"]
+];
+
+let index = 0;
+let flipped = false;
+
+function renderCard() {
+    const word = words[index];
+
+    document.getElementById("card-counter").textContent =
+        `Thẻ ${index + 1} / ${words.length}`;
+
+    document.getElementById("card-label").textContent =
+        flipped ? "NGHĨA TIẾNG VIỆT" : "CHỮ HÁN";
+
+    const value = document.getElementById("card-value");
+    value.textContent = flipped ? word[2] : word[0];
+    value.lang = flipped ? "vi" : "zh";
+    value.style.fontSize = flipped ? "38px" : "60px";
+
+    document.getElementById("card-hint").textContent =
+        flipped ? word[1] : "Nhấn để lật thẻ";
+}
+
+document.getElementById("flashcard").onclick = function () {
+    flipped = !flipped;
+    renderCard();
+};
+
+document.getElementById("next").onclick = function () {
+    index = (index + 1) % words.length;
+    flipped = false;
+    renderCard();
+};
+
+document.getElementById("previous").onclick = function () {
+    index = (index - 1 + words.length) % words.length;
+    flipped = false;
+    renderCard();
+};
+
+document.getElementById("shuffle").onclick = function () {
+    for (let i = words.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [words[i], words[j]] = [words[j], words[i]];
+    }
+
+    index = 0;
+    flipped = false;
+    renderCard();
+};
+</script>
+{% endblock %}

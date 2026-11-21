@@ -1,0 +1,902 @@
+
+/* ==========================================================
+   MỘC HÁN - TRA TỪ ĐIỂN STUDENT
+   File: static/css/dictionary.css
+
+   Kết nối:
+   - templates/student/dictionary.html
+   - static/js/dictionary.js
+
+   Phong cách: kem, vàng nhạt, viền đen
+   CSS chỉ áp dụng trong .dictionary-page
+========================================================== */
+
+
+/* ==========================================================
+   1. BIẾN MÀU VÀ KHUNG CHÍNH
+========================================================== */
+
+.dictionary-page {
+    --dict-bg: #fff8ef;
+    --dict-card: #fff9f1;
+    --dict-border: #302c29;
+    --dict-text: #302c29;
+    --dict-muted: #85786d;
+    --dict-yellow: #f5bf70;
+    --dict-yellow-hover: #e9a94f;
+    --dict-blue: #9dcfe0;
+    --dict-danger: #b54c43;
+
+    width: 100%;
+    max-width: 1200px;
+    min-height: 75vh;
+    margin: 0 auto;
+    padding: 24px 22px 48px;
+
+    color: var(--dict-text);
+
+    background-color: var(--dict-bg);
+    background-image:
+        linear-gradient(
+            rgba(159, 130, 105, 0.10) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(159, 130, 105, 0.10) 1px,
+            transparent 1px
+        );
+
+    background-size: 20px 20px;
+    border-radius: 10px;
+
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.dictionary-page *,
+.dictionary-page *::before,
+.dictionary-page *::after {
+    box-sizing: border-box;
+}
+
+.dictionary-page [hidden] {
+    display: none !important;
+}
+
+.dictionary-page button,
+.dictionary-page input {
+    font: inherit;
+}
+
+.dictionary-page button {
+    cursor: pointer;
+}
+
+.dictionary-page button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+.dictionary-page button:focus-visible,
+.dictionary-page input:focus-visible {
+    outline: 3px solid var(--dict-yellow-hover);
+    outline-offset: 3px;
+}
+
+
+/* ==========================================================
+   2. PHẦN TIÊU ĐỀ
+========================================================== */
+
+.dictionary-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    margin-bottom: 23px;
+}
+
+.dictionary-header h1 {
+    margin: 0 0 7px;
+
+    font-size: 26px;
+    line-height: 1.3;
+    font-weight: 800;
+
+    color: var(--dict-text);
+}
+
+.dictionary-header p {
+    margin: 0;
+
+    font-size: 13px;
+    line-height: 1.7;
+
+    color: var(--dict-muted);
+}
+
+.dictionary-header-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    width: 54px;
+    height: 54px;
+
+    border: 2px solid var(--dict-border);
+    border-radius: 12px;
+
+    background: var(--dict-yellow);
+
+    font-size: 29px;
+    font-weight: 700;
+
+    box-shadow: 3px 3px 0 rgba(48, 44, 41, 0.17);
+}
+
+
+/* ==========================================================
+   3. KHUNG TÌM KIẾM
+========================================================== */
+
+.dictionary-search-section {
+    margin-bottom: 20px;
+}
+
+.dictionary-search-form {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+
+    width: 100%;
+}
+
+.dictionary-search-field {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+
+    flex: 1;
+    min-width: 0;
+
+    height: 49px;
+    padding: 0 13px;
+
+    border: 2px solid var(--dict-border);
+    border-radius: 6px;
+
+    background: #fffaf4;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.dictionary-search-field:focus-within {
+    border-color: #b58245;
+    box-shadow: 0 0 0 3px rgba(245, 191, 112, 0.18);
+}
+
+.dictionary-search-icon {
+    flex-shrink: 0;
+
+    font-size: 17px;
+    line-height: 1;
+}
+
+.dictionary-search-field input {
+    flex: 1;
+
+    width: 100%;
+    min-width: 0;
+    height: 100%;
+
+    padding: 0;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    color: var(--dict-text);
+    font-size: 13px;
+}
+
+.dictionary-search-field input::placeholder {
+    color: #9c9085;
+}
+
+.dictionary-search-field input:focus-visible {
+    outline: none;
+}
+
+.dictionary-search-field input::-webkit-search-cancel-button {
+    display: none;
+}
+
+.dictionary-clear-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    width: 27px;
+    height: 27px;
+
+    padding: 0;
+
+    border: none;
+    border-radius: 5px;
+
+    background: transparent;
+
+    color: #85786d;
+    font-size: 23px;
+    line-height: 1;
+}
+
+.dictionary-clear-button:hover {
+    background: #efe3d5;
+    color: var(--dict-text);
+}
+
+.dictionary-search-button {
+    flex-shrink: 0;
+
+    min-width: 105px;
+    height: 49px;
+
+    padding: 0 20px;
+
+    border: 2px solid var(--dict-border);
+    border-radius: 6px;
+
+    background: var(--dict-border);
+
+    color: #fffaf3;
+    font-size: 13px;
+    font-weight: 800;
+
+    box-shadow: 3px 3px 0 #cbb9a5;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+.dictionary-search-button:hover:not(:disabled) {
+    background: #4a403a;
+    transform: translateY(-1px);
+}
+
+.dictionary-search-hints {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    margin-top: 11px;
+
+    font-size: 11px;
+    color: var(--dict-muted);
+}
+
+.dictionary-hint {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 4px 9px;
+
+    border: 1px solid #d6c6b3;
+    border-radius: 5px;
+
+    background: #fff8ef;
+
+    color: #695b4f;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+/* ==========================================================
+   4. THÔNG BÁO KẾT QUẢ
+========================================================== */
+
+.dictionary-result-header {
+    display: flex;
+    align-items: center;
+
+    min-height: 27px;
+    margin-bottom: 12px;
+}
+
+.dictionary-result-header p {
+    margin: 0;
+
+    color: #75695e;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.dictionary-result-header strong {
+    color: var(--dict-text);
+}
+
+.dictionary-results {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dictionary-message {
+    margin: 13px 0;
+    padding: 15px 18px;
+
+    border: 1px solid #dfceb8;
+    border-radius: 6px;
+
+    background: #fff8ed;
+
+    color: #705f50;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.dictionary-error {
+    border-color: #e0a9a2;
+    background: #fff0ee;
+    color: var(--dict-danger);
+}
+
+
+/* ==========================================================
+   5. THẺ TỪ VỰNG
+========================================================== */
+
+.dictionary-word-card {
+    width: 100%;
+
+    padding: 21px 22px 23px;
+
+    border: 2px solid var(--dict-border);
+    border-radius: 6px;
+
+    background: var(--dict-card);
+
+    box-shadow: 3px 3px 0 rgba(48, 44, 41, 0.15);
+}
+
+.dictionary-word-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.dictionary-word-information {
+    min-width: 0;
+}
+
+.dictionary-word-pronunciation {
+    margin-bottom: 4px;
+}
+
+.dictionary-word-pinyin {
+    display: inline-block;
+
+    color: #9b8a7b;
+
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 1.5;
+}
+
+.dictionary-word-title-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.dictionary-word-hanzi {
+    margin: 0;
+
+    color: var(--dict-text);
+
+    font-size: 39px;
+    font-weight: 800;
+    line-height: 1.25;
+
+    overflow-wrap: anywhere;
+}
+
+.dictionary-word-traditional {
+    color: #8c7f74;
+
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.dictionary-audio-button,
+.dictionary-example-audio {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    padding: 0;
+
+    border: 2px solid var(--dict-border);
+    border-radius: 6px;
+
+    background: #fff3e2;
+
+    color: var(--dict-text);
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+.dictionary-audio-button {
+    width: 37px;
+    height: 35px;
+
+    font-size: 18px;
+
+    box-shadow: 2px 2px 0 #c8b9a6;
+}
+
+.dictionary-audio-button:hover,
+.dictionary-example-audio:hover {
+    background: var(--dict-yellow);
+    transform: translateY(-1px);
+}
+
+
+/* ==========================================================
+   6. NÚT THÊM VÀO SỔ TAY
+========================================================== */
+
+.dictionary-save-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    flex-shrink: 0;
+
+    min-height: 34px;
+
+    padding: 7px 12px;
+
+    border: 2px solid var(--dict-border);
+    border-radius: 6px;
+
+    background: var(--dict-border);
+
+    color: #fff9ef;
+    font-size: 11px;
+    font-weight: 750;
+
+    box-shadow: 3px 3px 0 #c6b6a4;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+.dictionary-save-button:hover:not(:disabled) {
+    background: #4b413b;
+    transform: translateY(-1px);
+}
+
+.dictionary-save-button.is-saved {
+    border-color: #557867;
+    background: #557867;
+    color: #ffffff;
+}
+
+
+/* ==========================================================
+   7. NHÃN HSK VÀ LOẠI TỪ
+========================================================== */
+
+.dictionary-word-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    margin-top: 15px;
+    margin-bottom: 19px;
+}
+
+.dictionary-hsk-tag,
+.dictionary-type-tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 24px;
+
+    padding: 3px 9px;
+
+    border: 2px solid var(--dict-border);
+    border-radius: 5px;
+
+    font-size: 11px;
+    font-weight: 750;
+    line-height: 1.3;
+}
+
+.dictionary-hsk-tag {
+    background: var(--dict-yellow);
+    color: #2d2926;
+}
+
+.dictionary-type-tag {
+    background: var(--dict-blue);
+    color: #2d2926;
+}
+
+.dictionary-hsk-tag:empty,
+.dictionary-type-tag:empty,
+.dictionary-word-traditional:empty {
+    display: none;
+}
+
+
+/* ==========================================================
+   8. NGHĨA TIẾNG VIỆT
+========================================================== */
+
+.dictionary-meaning-section {
+    margin-top: 12px;
+    padding-bottom: 16px;
+}
+
+.dictionary-meaning-section h3,
+.dictionary-examples-section h3 {
+    margin: 0 0 10px;
+
+    color: #746657;
+
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.dictionary-word-meaning {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    color: var(--dict-text);
+
+    font-size: 14px;
+    font-weight: 650;
+    line-height: 1.7;
+
+    white-space: pre-line;
+    overflow-wrap: anywhere;
+}
+
+.dictionary-word-meaning p {
+    margin: 0;
+}
+
+.dictionary-word-meaning ol,
+.dictionary-word-meaning ul {
+    margin: 0;
+    padding-left: 22px;
+}
+
+.dictionary-word-meaning li {
+    padding-left: 4px;
+    margin-bottom: 6px;
+}
+
+
+/* ==========================================================
+   9. CÁC CÂU VÍ DỤ
+========================================================== */
+
+.dictionary-examples-section {
+    margin-top: 4px;
+    padding-top: 15px;
+
+    border-top: 2px dashed #65584c;
+}
+
+.dictionary-examples-list {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.dictionary-example {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+}
+
+.dictionary-example-audio {
+    width: 29px;
+    height: 29px;
+    margin-top: 14px;
+
+    border: none;
+    border-radius: 5px;
+
+    background: transparent;
+
+    font-size: 14px;
+}
+
+.dictionary-example-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.dictionary-example-pinyin {
+    margin-bottom: 3px;
+
+    color: #97887a;
+    font-size: 11px;
+    line-height: 1.5;
+
+    overflow-wrap: anywhere;
+}
+
+.dictionary-example-chinese {
+    color: #292521;
+
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.6;
+
+    overflow-wrap: anywhere;
+}
+
+.dictionary-example-vietnamese {
+    margin-top: 3px;
+
+    color: #413933;
+
+    font-size: 12px;
+    line-height: 1.65;
+}
+
+.dictionary-examples-list:empty::after {
+    content: "Chưa có ví dụ cho từ vựng này.";
+
+    display: block;
+
+    color: #988a7c;
+    font-size: 12px;
+}
+
+
+/* ==========================================================
+   10. GIAO DIỆN KHI CHƯA TÌM KIẾM
+========================================================== */
+
+.dictionary-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 280px;
+
+    padding: 35px 22px;
+
+    border: 2px dashed #d9c8b5;
+    border-radius: 8px;
+
+    background: rgba(255, 250, 243, 0.78);
+
+    text-align: center;
+}
+
+.dictionary-empty-symbol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 66px;
+    height: 66px;
+    margin-bottom: 15px;
+
+    border: 2px solid var(--dict-border);
+    border-radius: 12px;
+
+    background: #f7d39b;
+
+    color: #302c29;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.dictionary-empty h2 {
+    margin: 0 0 9px;
+
+    color: var(--dict-text);
+
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.dictionary-empty p {
+    max-width: 400px;
+    margin: 0;
+
+    color: var(--dict-muted);
+
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+
+/* ==========================================================
+   11. MÀN HÌNH MÁY TÍNH BẢNG
+========================================================== */
+
+@media (max-width: 900px) {
+
+    .dictionary-page {
+        padding: 21px 17px 38px;
+    }
+
+    .dictionary-header h1 {
+        font-size: 23px;
+    }
+
+    .dictionary-word-card {
+        padding: 19px 17px 21px;
+    }
+
+    .dictionary-word-hanzi {
+        font-size: 35px;
+    }
+
+}
+
+
+/* ==========================================================
+   12. MÀN HÌNH ĐIỆN THOẠI
+========================================================== */
+
+@media (max-width: 600px) {
+
+    .dictionary-page {
+        padding: 17px 12px 30px;
+        border-radius: 0;
+    }
+
+    .dictionary-header {
+        gap: 12px;
+        margin-bottom: 17px;
+    }
+
+    .dictionary-header h1 {
+        font-size: 21px;
+    }
+
+    .dictionary-header p {
+        font-size: 12px;
+    }
+
+    .dictionary-header-icon {
+        width: 43px;
+        height: 43px;
+
+        font-size: 24px;
+    }
+
+    .dictionary-search-form {
+        gap: 8px;
+    }
+
+    .dictionary-search-field {
+        height: 45px;
+        padding: 0 9px;
+        gap: 7px;
+    }
+
+    .dictionary-search-field input {
+        font-size: 12px;
+    }
+
+    .dictionary-search-button {
+        min-width: 76px;
+        height: 45px;
+
+        padding: 0 10px;
+
+        font-size: 12px;
+    }
+
+    .dictionary-search-hints {
+        gap: 6px;
+    }
+
+    .dictionary-hint {
+        padding: 4px 7px;
+        font-size: 10px;
+    }
+
+    .dictionary-word-card {
+        padding: 16px 13px 19px;
+    }
+
+    .dictionary-word-top {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 11px;
+    }
+
+    .dictionary-word-hanzi {
+        font-size: 32px;
+    }
+
+    .dictionary-word-pinyin {
+        font-size: 12px;
+    }
+
+    .dictionary-word-traditional {
+        font-size: 13px;
+    }
+
+    .dictionary-save-button {
+        align-self: flex-start;
+    }
+
+    .dictionary-word-tags {
+        margin-top: 13px;
+        margin-bottom: 15px;
+    }
+
+    .dictionary-word-meaning {
+        font-size: 13px;
+    }
+
+    .dictionary-example {
+        gap: 8px;
+    }
+
+    .dictionary-example-chinese {
+        font-size: 17px;
+    }
+
+    .dictionary-example-pinyin,
+    .dictionary-example-vietnamese {
+        font-size: 11px;
+    }
+
+    .dictionary-empty {
+        min-height: 230px;
+        padding: 28px 15px;
+    }
+
+}
+
+
+/* ==========================================================
+   13. GIẢM HIỆU ỨNG CHUYỂN ĐỘNG
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .dictionary-page *,
+    .dictionary-page *::before,
+    .dictionary-page *::after {
+        transition: none !important;
+        animation: none !important;
+    }
+
+}

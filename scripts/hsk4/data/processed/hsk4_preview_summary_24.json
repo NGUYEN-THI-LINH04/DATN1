@@ -1,0 +1,122 @@
+{
+  "buoc": 24,
+  "trang_thai": "PREVIEW_TRUOC_SQL",
+  "so_bai": 20,
+  "tong_tu_vung": 1000,
+  "tong_ngu_phap": 114,
+  "tong_chu_han_moi": 300,
+  "tu_vung_can_review_21B": 367,
+  "chu_han_can_review_23": 111,
+  "phan_bo": {
+    "1": {
+      "tu_vung": 51,
+      "ngu_phap": 5,
+      "chu_han": 31
+    },
+    "2": {
+      "tu_vung": 48,
+      "ngu_phap": 5,
+      "chu_han": 25
+    },
+    "3": {
+      "tu_vung": 38,
+      "ngu_phap": 6,
+      "chu_han": 16
+    },
+    "4": {
+      "tu_vung": 37,
+      "ngu_phap": 6,
+      "chu_han": 20
+    },
+    "5": {
+      "tu_vung": 38,
+      "ngu_phap": 5,
+      "chu_han": 11
+    },
+    "6": {
+      "tu_vung": 61,
+      "ngu_phap": 6,
+      "chu_han": 31
+    },
+    "7": {
+      "tu_vung": 75,
+      "ngu_phap": 6,
+      "chu_han": 24
+    },
+    "8": {
+      "tu_vung": 55,
+      "ngu_phap": 5,
+      "chu_han": 19
+    },
+    "9": {
+      "tu_vung": 71,
+      "ngu_phap": 6,
+      "chu_han": 17
+    },
+    "10": {
+      "tu_vung": 53,
+      "ngu_phap": 6,
+      "chu_han": 18
+    },
+    "11": {
+      "tu_vung": 24,
+      "ngu_phap": 5,
+      "chu_han": 4
+    },
+    "12": {
+      "tu_vung": 32,
+      "ngu_phap": 5,
+      "chu_han": 9
+    },
+    "13": {
+      "tu_vung": 62,
+      "ngu_phap": 6,
+      "chu_han": 12
+    },
+    "14": {
+      "tu_vung": 65,
+      "ngu_phap": 5,
+      "chu_han": 19
+    },
+    "15": {
+      "tu_vung": 38,
+      "ngu_phap": 5,
+      "chu_han": 7
+    },
+    "16": {
+      "tu_vung": 32,
+      "ngu_phap": 6,
+      "chu_han": 3
+    },
+    "17": {
+      "tu_vung": 18,
+      "ngu_phap": 5,
+      "chu_han": 3
+    },
+    "18": {
+      "tu_vung": 35,
+      "ngu_phap": 6,
+      "chu_han": 5
+    },
+    "19": {
+      "tu_vung": 76,
+      "ngu_phap": 6,
+      "chu_han": 13
+    },
+    "20": {
+      "tu_vung": 91,
+      "ngu_phap": 9,
+      "chu_han": 13
+    }
+  },
+  "inputs": {
+    "lessons_hsk4_draft_20_21B.csv": "32fb32a40a5aa8b60fd64556734e8a0be9b9a6902be865bf5cd5c11a244aa3ab",
+    "vocabulary_hsk4_by_lesson_draft_21B.csv": "79716ce75ee23b869626a546017d5e744a6b0e40d8b214dace8851c009cdc1f2",
+    "grammar_hsk4_by_lesson_draft_22A.csv": "9e71c5f903c88979c4169ec6a26f21dfbc6cb46b082dd18cb57381d21828a20d",
+    "hanzi_hsk4_by_lesson_draft_23.csv": "0aa6b58aee5ddd42adb67bdc3279727c5ec6d0f222eee67a3f06943039422fb9"
+  },
+  "output_csv": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\hsk4_lessons_preview_24.csv",
+  "output_md": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\hsk4_lessons_preview_24.md",
+  "ghi_sql": false,
+  "tao_audio": false
+}

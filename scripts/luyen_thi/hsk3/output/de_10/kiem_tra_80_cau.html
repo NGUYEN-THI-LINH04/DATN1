@@ -1,0 +1,1162 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+>
+
+<title>
+HSK3 Đề 10 – Kiểm tra 80 câu
+</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: #f3f5fa;
+    color: #172b4d;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 21px;
+    margin: 30px 0 18px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #dbe3ef;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0 0 18px;
+}
+
+.note {
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+/* ============================================
+   BANG HINH DUNG CHUNG
+   ============================================ */
+
+.group-card {
+    background: #fff;
+    border: 1px solid #dce4ef;
+    border-radius: 14px;
+    padding: 20px;
+    margin: 18px 0;
+}
+
+.group-image {
+    width: 100%;
+    text-align: center;
+}
+
+.group-image img {
+    display: block;
+    width: 100%;
+    max-width: 820px;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+/* ============================================
+   CAC O SO CAU
+   ============================================ */
+
+.number-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 22px;
+}
+
+.number-btn {
+    padding: 13px 18px;
+    min-width: 95px;
+
+    background: #fff;
+    color: #172b4d;
+
+    border: 1px solid #c9d5e6;
+    border-radius: 9px;
+
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: 0.15s;
+}
+
+.number-btn:hover {
+    background: #eef5ff;
+    border-color: #91b2e5;
+}
+
+.number-btn.active {
+    background: #e8f1ff;
+    border-color: #4387dc;
+    color: #185da9;
+}
+
+/* ============================================
+   ANH CAU 11-80
+   ============================================ */
+
+.question-card {
+    background: #fff;
+
+    border: 1px solid #dce4ef;
+    border-radius: 12px;
+
+    padding: 20px;
+    margin: 16px 0;
+
+    scroll-margin-top: 24px;
+}
+
+.question-card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .group-card,
+    .question-card {
+        padding: 14px;
+    }
+
+    .number-btn {
+        min-width: 75px;
+        padding: 11px;
+        font-size: 15px;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<main class="container">
+
+<h1>HSK3 – Đề 10 (H31328)</h1>
+
+<p class="note">
+Kiểm tra hình ảnh của 80 câu.
+Các bảng hình dùng chung chỉ hiển thị một lần.
+Không hiển thị đáp án.
+</p>
+
+<h2>I. Nghe – Câu 1–40</h2>
+
+<section class="group-card">
+
+    <h3>Câu 1–5</h3>
+
+    <div class="group-image">
+        <img
+            src="groups/nghe_01_05.png"
+            alt="Bảng hình câu 1-5"
+        >
+    </div>
+
+    <div class="number-buttons">
+        <button type="button" class="number-btn" onclick="chonCau(this,1)">Câu 1</button><button type="button" class="number-btn" onclick="chonCau(this,2)">Câu 2</button><button type="button" class="number-btn" onclick="chonCau(this,3)">Câu 3</button><button type="button" class="number-btn" onclick="chonCau(this,4)">Câu 4</button><button type="button" class="number-btn" onclick="chonCau(this,5)">Câu 5</button>
+    </div>
+
+</section>
+
+
+<section class="group-card">
+
+    <h3>Câu 6–10</h3>
+
+    <div class="group-image">
+        <img
+            src="groups/nghe_06_10.png"
+            alt="Bảng hình câu 6-10"
+        >
+    </div>
+
+    <div class="number-buttons">
+        <button type="button" class="number-btn" onclick="chonCau(this,6)">Câu 6</button><button type="button" class="number-btn" onclick="chonCau(this,7)">Câu 7</button><button type="button" class="number-btn" onclick="chonCau(this,8)">Câu 8</button><button type="button" class="number-btn" onclick="chonCau(this,9)">Câu 9</button><button type="button" class="number-btn" onclick="chonCau(this,10)">Câu 10</button>
+    </div>
+
+</section>
+
+
+<section class="question-card" id="cau-11">
+
+    <h3>Câu 11</h3>
+
+    <img
+        src="questions/cau_11.png"
+        alt="Nội dung câu 11"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-12">
+
+    <h3>Câu 12</h3>
+
+    <img
+        src="questions/cau_12.png"
+        alt="Nội dung câu 12"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-13">
+
+    <h3>Câu 13</h3>
+
+    <img
+        src="questions/cau_13.png"
+        alt="Nội dung câu 13"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-14">
+
+    <h3>Câu 14</h3>
+
+    <img
+        src="questions/cau_14.png"
+        alt="Nội dung câu 14"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-15">
+
+    <h3>Câu 15</h3>
+
+    <img
+        src="questions/cau_15.png"
+        alt="Nội dung câu 15"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-16">
+
+    <h3>Câu 16</h3>
+
+    <img
+        src="questions/cau_16.png"
+        alt="Nội dung câu 16"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-17">
+
+    <h3>Câu 17</h3>
+
+    <img
+        src="questions/cau_17.png"
+        alt="Nội dung câu 17"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-18">
+
+    <h3>Câu 18</h3>
+
+    <img
+        src="questions/cau_18.png"
+        alt="Nội dung câu 18"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-19">
+
+    <h3>Câu 19</h3>
+
+    <img
+        src="questions/cau_19.png"
+        alt="Nội dung câu 19"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-20">
+
+    <h3>Câu 20</h3>
+
+    <img
+        src="questions/cau_20.png"
+        alt="Nội dung câu 20"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-21">
+
+    <h3>Câu 21</h3>
+
+    <img
+        src="questions/cau_21.png"
+        alt="Nội dung câu 21"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-22">
+
+    <h3>Câu 22</h3>
+
+    <img
+        src="questions/cau_22.png"
+        alt="Nội dung câu 22"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-23">
+
+    <h3>Câu 23</h3>
+
+    <img
+        src="questions/cau_23.png"
+        alt="Nội dung câu 23"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-24">
+
+    <h3>Câu 24</h3>
+
+    <img
+        src="questions/cau_24.png"
+        alt="Nội dung câu 24"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-25">
+
+    <h3>Câu 25</h3>
+
+    <img
+        src="questions/cau_25.png"
+        alt="Nội dung câu 25"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-26">
+
+    <h3>Câu 26</h3>
+
+    <img
+        src="questions/cau_26.png"
+        alt="Nội dung câu 26"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-27">
+
+    <h3>Câu 27</h3>
+
+    <img
+        src="questions/cau_27.png"
+        alt="Nội dung câu 27"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-28">
+
+    <h3>Câu 28</h3>
+
+    <img
+        src="questions/cau_28.png"
+        alt="Nội dung câu 28"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-29">
+
+    <h3>Câu 29</h3>
+
+    <img
+        src="questions/cau_29.png"
+        alt="Nội dung câu 29"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-30">
+
+    <h3>Câu 30</h3>
+
+    <img
+        src="questions/cau_30.png"
+        alt="Nội dung câu 30"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-31">
+
+    <h3>Câu 31</h3>
+
+    <img
+        src="questions/cau_31.png"
+        alt="Nội dung câu 31"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-32">
+
+    <h3>Câu 32</h3>
+
+    <img
+        src="questions/cau_32.png"
+        alt="Nội dung câu 32"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-33">
+
+    <h3>Câu 33</h3>
+
+    <img
+        src="questions/cau_33.png"
+        alt="Nội dung câu 33"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-34">
+
+    <h3>Câu 34</h3>
+
+    <img
+        src="questions/cau_34.png"
+        alt="Nội dung câu 34"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-35">
+
+    <h3>Câu 35</h3>
+
+    <img
+        src="questions/cau_35.png"
+        alt="Nội dung câu 35"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-36">
+
+    <h3>Câu 36</h3>
+
+    <img
+        src="questions/cau_36.png"
+        alt="Nội dung câu 36"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-37">
+
+    <h3>Câu 37</h3>
+
+    <img
+        src="questions/cau_37.png"
+        alt="Nội dung câu 37"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-38">
+
+    <h3>Câu 38</h3>
+
+    <img
+        src="questions/cau_38.png"
+        alt="Nội dung câu 38"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-39">
+
+    <h3>Câu 39</h3>
+
+    <img
+        src="questions/cau_39.png"
+        alt="Nội dung câu 39"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-40">
+
+    <h3>Câu 40</h3>
+
+    <img
+        src="questions/cau_40.png"
+        alt="Nội dung câu 40"
+    >
+
+</section>
+
+<h2>II. Đọc – Câu 41–70</h2>
+
+<section class="group-card">
+
+    <h3>Câu 41–45</h3>
+
+    <div class="group-image">
+        <img
+            src="groups/doc_41_45.png"
+            alt="Bảng hình câu 41-45"
+        >
+    </div>
+
+    
+
+</section>
+
+
+<section class="question-card" id="cau-41">
+
+    <h3>Câu 41</h3>
+
+    <img
+        src="questions/cau_41.png"
+        alt="Nội dung câu 41"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-42">
+
+    <h3>Câu 42</h3>
+
+    <img
+        src="questions/cau_42.png"
+        alt="Nội dung câu 42"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-43">
+
+    <h3>Câu 43</h3>
+
+    <img
+        src="questions/cau_43.png"
+        alt="Nội dung câu 43"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-44">
+
+    <h3>Câu 44</h3>
+
+    <img
+        src="questions/cau_44.png"
+        alt="Nội dung câu 44"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-45">
+
+    <h3>Câu 45</h3>
+
+    <img
+        src="questions/cau_45.png"
+        alt="Nội dung câu 45"
+    >
+
+</section>
+
+
+<section class="group-card">
+
+    <h3>Câu 46–50</h3>
+
+    <div class="group-image">
+        <img
+            src="groups/doc_46_50.png"
+            alt="Bảng hình câu 46-50"
+        >
+    </div>
+
+    
+
+</section>
+
+
+<section class="question-card" id="cau-46">
+
+    <h3>Câu 46</h3>
+
+    <img
+        src="questions/cau_46.png"
+        alt="Nội dung câu 46"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-47">
+
+    <h3>Câu 47</h3>
+
+    <img
+        src="questions/cau_47.png"
+        alt="Nội dung câu 47"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-48">
+
+    <h3>Câu 48</h3>
+
+    <img
+        src="questions/cau_48.png"
+        alt="Nội dung câu 48"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-49">
+
+    <h3>Câu 49</h3>
+
+    <img
+        src="questions/cau_49.png"
+        alt="Nội dung câu 49"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-50">
+
+    <h3>Câu 50</h3>
+
+    <img
+        src="questions/cau_50.png"
+        alt="Nội dung câu 50"
+    >
+
+</section>
+
+
+<section class="group-card">
+
+    <h3>Câu 51–55</h3>
+
+    <div class="group-image">
+        <img
+            src="groups/doc_51_55.png"
+            alt="Bảng hình câu 51-55"
+        >
+    </div>
+
+    
+
+</section>
+
+
+<section class="question-card" id="cau-51">
+
+    <h3>Câu 51</h3>
+
+    <img
+        src="questions/cau_51.png"
+        alt="Nội dung câu 51"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-52">
+
+    <h3>Câu 52</h3>
+
+    <img
+        src="questions/cau_52.png"
+        alt="Nội dung câu 52"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-53">
+
+    <h3>Câu 53</h3>
+
+    <img
+        src="questions/cau_53.png"
+        alt="Nội dung câu 53"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-54">
+
+    <h3>Câu 54</h3>
+
+    <img
+        src="questions/cau_54.png"
+        alt="Nội dung câu 54"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-55">
+
+    <h3>Câu 55</h3>
+
+    <img
+        src="questions/cau_55.png"
+        alt="Nội dung câu 55"
+    >
+
+</section>
+
+
+<section class="group-card">
+
+    <h3>Câu 56–60</h3>
+
+    <div class="group-image">
+        <img
+            src="groups/doc_56_60.png"
+            alt="Bảng hình câu 56-60"
+        >
+    </div>
+
+    
+
+</section>
+
+
+<section class="question-card" id="cau-56">
+
+    <h3>Câu 56</h3>
+
+    <img
+        src="questions/cau_56.png"
+        alt="Nội dung câu 56"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-57">
+
+    <h3>Câu 57</h3>
+
+    <img
+        src="questions/cau_57.png"
+        alt="Nội dung câu 57"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-58">
+
+    <h3>Câu 58</h3>
+
+    <img
+        src="questions/cau_58.png"
+        alt="Nội dung câu 58"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-59">
+
+    <h3>Câu 59</h3>
+
+    <img
+        src="questions/cau_59.png"
+        alt="Nội dung câu 59"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-60">
+
+    <h3>Câu 60</h3>
+
+    <img
+        src="questions/cau_60.png"
+        alt="Nội dung câu 60"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-61">
+
+    <h3>Câu 61</h3>
+
+    <img
+        src="questions/cau_61.png"
+        alt="Nội dung câu 61"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-62">
+
+    <h3>Câu 62</h3>
+
+    <img
+        src="questions/cau_62.png"
+        alt="Nội dung câu 62"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-63">
+
+    <h3>Câu 63</h3>
+
+    <img
+        src="questions/cau_63.png"
+        alt="Nội dung câu 63"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-64">
+
+    <h3>Câu 64</h3>
+
+    <img
+        src="questions/cau_64.png"
+        alt="Nội dung câu 64"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-65">
+
+    <h3>Câu 65</h3>
+
+    <img
+        src="questions/cau_65.png"
+        alt="Nội dung câu 65"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-66">
+
+    <h3>Câu 66</h3>
+
+    <img
+        src="questions/cau_66.png"
+        alt="Nội dung câu 66"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-67">
+
+    <h3>Câu 67</h3>
+
+    <img
+        src="questions/cau_67.png"
+        alt="Nội dung câu 67"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-68">
+
+    <h3>Câu 68</h3>
+
+    <img
+        src="questions/cau_68.png"
+        alt="Nội dung câu 68"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-69">
+
+    <h3>Câu 69</h3>
+
+    <img
+        src="questions/cau_69.png"
+        alt="Nội dung câu 69"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-70">
+
+    <h3>Câu 70</h3>
+
+    <img
+        src="questions/cau_70.png"
+        alt="Nội dung câu 70"
+    >
+
+</section>
+
+<h2>III. Viết – Câu 71–80</h2>
+
+<section class="question-card" id="cau-71">
+
+    <h3>Câu 71</h3>
+
+    <img
+        src="questions/cau_71.png"
+        alt="Nội dung câu 71"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-72">
+
+    <h3>Câu 72</h3>
+
+    <img
+        src="questions/cau_72.png"
+        alt="Nội dung câu 72"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-73">
+
+    <h3>Câu 73</h3>
+
+    <img
+        src="questions/cau_73.png"
+        alt="Nội dung câu 73"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-74">
+
+    <h3>Câu 74</h3>
+
+    <img
+        src="questions/cau_74.png"
+        alt="Nội dung câu 74"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-75">
+
+    <h3>Câu 75</h3>
+
+    <img
+        src="questions/cau_75.png"
+        alt="Nội dung câu 75"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-76">
+
+    <h3>Câu 76</h3>
+
+    <img
+        src="questions/cau_76.png"
+        alt="Nội dung câu 76"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-77">
+
+    <h3>Câu 77</h3>
+
+    <img
+        src="questions/cau_77.png"
+        alt="Nội dung câu 77"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-78">
+
+    <h3>Câu 78</h3>
+
+    <img
+        src="questions/cau_78.png"
+        alt="Nội dung câu 78"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-79">
+
+    <h3>Câu 79</h3>
+
+    <img
+        src="questions/cau_79.png"
+        alt="Nội dung câu 79"
+    >
+
+</section>
+
+
+<section class="question-card" id="cau-80">
+
+    <h3>Câu 80</h3>
+
+    <img
+        src="questions/cau_80.png"
+        alt="Nội dung câu 80"
+    >
+
+</section>
+
+
+</main>
+
+<script>
+
+function chonCau(button, number) {
+
+    const container = button.closest(
+        ".number-buttons"
+    );
+
+    container.querySelectorAll(
+        ".number-btn"
+    ).forEach(function(item) {
+        item.classList.remove("active");
+    });
+
+    button.classList.add("active");
+
+    // Cau 41-60 co anh cau hoi rieng.
+    // Bam so cau se chuyen den anh tuong ung.
+    const target = document.getElementById(
+        "cau-" + number
+    );
+
+    if (target) {
+        target.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    }
+}
+
+</script>
+
+</body>
+</html>

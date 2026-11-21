@@ -1,0 +1,307 @@
+
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="csrf-token"
+        content="{{ csrf_token() if csrf_token is defined else '' }}"
+    >
+
+    <title>
+        Làm bài {{ ten_de }} - HSK {{ cap_hsk }} | Mộc Hán
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for(
+            'static',
+            filename='css/student-luyen-thi-lam-bai.css'
+        ) }}"
+    >
+</head>
+
+<body
+    class="lt-test"
+    data-start-url="{{ url_for(
+        'student_luyen_thi.api_bat_dau_lam_bai'
+    ) }}"
+    data-exam-id="{{ ma_de }}"
+    data-skill="{{ ky_nang }}"
+    data-detail-url="{{ url_for(
+        'student_luyen_thi.trang_chi_tiet_de',
+        ma_de=ma_de
+    ) }}"
+>
+
+    <!-- THANH TRÊN -->
+    <header class="lt-test-top">
+
+        <div class="lt-test-title">
+
+            <span class="lt-test-hsk">
+                HSK{{ cap_hsk }}
+            </span>
+
+            <strong>{{ ten_de }}</strong>
+
+            <span id="lt-mode-name">
+                Đang tải…
+            </span>
+
+            <span id="lt-top-progress">
+                0/0 câu
+            </span>
+
+        </div>
+
+        <!-- ĐỒNG HỒ -->
+        <div
+            id="lt-clock"
+            class="lt-clock"
+            aria-live="off"
+        >
+            ◷ --:--
+        </div>
+
+        <!-- THAO TÁC -->
+        <div class="lt-test-actions">
+
+            <button
+                type="button"
+                id="lt-submit"
+                class="lt-btn lt-dark"
+                disabled
+            >
+                ⚑ Nộp bài
+            </button>
+
+            <a
+                class="lt-btn"
+                id="lt-exit"
+                href="{{ url_for(
+                    'student_luyen_thi.trang_chi_tiet_de',
+                    ma_de=ma_de
+                ) }}"
+            >
+                ⇥ Thoát
+            </a>
+
+        </div>
+
+    </header>
+
+    <div class="lt-test-layout">
+
+        <!-- SIDEBAR CÁC PHẦN THI -->
+        <aside class="lt-test-sidebar">
+
+            <div class="lt-sidebar-title">
+                PHẦN THI
+            </div>
+
+            <nav
+                id="lt-groups"
+                class="lt-group-list"
+                aria-label="Các phần thi"
+            ></nav>
+
+            <div
+                class="lt-sidebar-title"
+                id="lt-side-count"
+            >
+                0/0 CÂU
+            </div>
+
+            <div
+                id="lt-question-index"
+                class="lt-question-index"
+            ></div>
+
+            <p class="lt-sidebar-note">
+                Đáp án được giữ tạm trong tab này
+                cho đến khi bạn nộp bài.
+            </p>
+
+        </aside>
+
+        <!-- NỘI DUNG LÀM BÀI -->
+        <main class="lt-test-main">
+
+            <div
+                id="lt-loading"
+                class="lt-loading"
+            >
+                Đang chuẩn bị đề thi…
+            </div>
+
+            <div id="lt-exam-body" hidden>
+
+                <!-- AUDIO TOÀN BÀI -->
+                <section
+                    id="lt-audio-panel"
+                    class="lt-audio-panel"
+                    hidden
+                >
+
+                    <audio
+                        id="lt-audio"
+                        preload="metadata"
+                    ></audio>
+
+                    <button
+                        type="button"
+                        class="lt-btn lt-dark"
+                        id="lt-play"
+                        aria-label="Phát hoặc tạm dừng"
+                    >
+                        ▶
+                    </button>
+
+                    <button
+                        type="button"
+                        class="lt-btn"
+                        id="lt-rewind"
+                        title="Lùi 5 giây"
+                    >
+                        ↶ 5s
+                    </button>
+
+                    <span
+                        id="lt-audio-now"
+                        class="lt-audio-time"
+                    >
+                        0:00
+                    </span>
+
+                    <input
+                        id="lt-audio-seek"
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="0"
+                        aria-label="Vị trí âm thanh"
+                    >
+
+                    <span
+                        id="lt-audio-total"
+                        class="lt-audio-time"
+                    >
+                        0:00
+                    </span>
+
+                    <!-- TỐC ĐỘ -->
+                    <div
+                        class="lt-speed"
+                        role="group"
+                        aria-label="Tốc độ phát"
+                    >
+
+                        <button
+                            type="button"
+                            data-speed="0.75"
+                        >
+                            0.75x
+                        </button>
+
+                        <button
+                            type="button"
+                            data-speed="1"
+                            class="is-active"
+                        >
+                            1x
+                        </button>
+
+                        <button
+                            type="button"
+                            data-speed="1.25"
+                        >
+                            1.25x
+                        </button>
+
+                    </div>
+
+                    <span class="lt-audio-note">
+                        MP3 gốc · không chia câu
+                    </span>
+
+                </section>
+
+                <!-- TIÊU ĐỀ PHẦN THI -->
+                <div class="lt-paper-heading">
+
+                    <div>
+
+                        <h1 id="lt-skill-title"></h1>
+
+                        <h2 id="lt-part-title"></h2>
+
+                        <p id="lt-instruction"></p>
+
+                    </div>
+
+                    <span id="lt-group-meta"></span>
+
+                </div>
+
+                <!-- NHÓM HÌNH A-F -->
+                <div
+                    id="lt-group-picture"
+                    class="lt-group-picture"
+                    hidden
+                ></div>
+
+                <!-- CÂU HỎI -->
+                <div
+                    id="lt-question-area"
+                    class="lt-question-area"
+                ></div>
+
+                <!-- CHUYỂN PHẦN -->
+                <div class="lt-test-paging">
+
+                    <button
+                        type="button"
+                        id="lt-prev"
+                        class="lt-btn"
+                    >
+                        ‹ Phần trước
+                    </button>
+
+                    <span id="lt-pager">
+                        Phần 1/1
+                    </span>
+
+                    <button
+                        type="button"
+                        id="lt-next"
+                        class="lt-btn lt-dark"
+                    >
+                        Phần tiếp ›
+                    </button>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script
+        defer
+        src="{{ url_for(
+            'static',
+            filename='js/student-luyen-thi-lam-bai.js'
+        ) }}"
+    ></script>
+
+</body>
+</html>

@@ -1,0 +1,443 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Tổng quan | Admin
+{% endblock %}
+
+
+{% block content %}
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        BẢNG ĐIỀU KHIỂN
+    </span>
+
+    <h1>
+        Chào Admin, một ngày tốt lành!
+    </h1>
+
+    <p>
+        Theo dõi dữ liệu thực tế của
+        hệ thống Mộc Hán.
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     THỐNG KÊ CHÍNH
+===================================================== -->
+
+<div class="stats-grid">
+
+    <article class="panel">
+
+        <span>
+            Người học
+        </span>
+
+        <strong>
+            {{ stats.users }}
+        </strong>
+
+        <small>
+            {{ stats.active_users }}
+            tài khoản đang hoạt động
+        </small>
+
+    </article>
+
+
+    <article class="panel">
+
+        <span>
+            Khóa học
+        </span>
+
+        <strong>
+            {{ stats.courses }}
+        </strong>
+
+        <small>
+            {{ stats.published_courses }}
+            đã xuất bản
+        </small>
+
+    </article>
+
+
+    <article class="panel">
+
+        <span>
+            Bài học
+        </span>
+
+        <strong>
+            {{ stats.lessons }}
+        </strong>
+
+        <small>
+            {{ stats.published_lessons }}
+            đã xuất bản
+        </small>
+
+    </article>
+
+
+    <article class="panel">
+
+        <span>
+            Góp ý mới
+        </span>
+
+        <strong>
+            {{ stats.new_feedback }}
+        </strong>
+
+        <small>
+            Đang chờ xử lý
+        </small>
+
+    </article>
+
+</div>
+
+
+<!-- =====================================================
+     HỌC LIỆU
+===================================================== -->
+
+<div class="stats-grid space-top">
+
+    <article class="panel">
+
+        <span>
+            Từ vựng
+        </span>
+
+        <strong>
+            {{ stats.vocabulary }}
+        </strong>
+
+        <small>
+            Dữ liệu người học đang sử dụng
+        </small>
+
+    </article>
+
+
+    <article class="panel">
+
+        <span>
+            Ngữ pháp
+        </span>
+
+        <strong>
+            {{ stats.grammar }}
+        </strong>
+
+        <small>
+            Dữ liệu bài học
+        </small>
+
+    </article>
+
+
+    <article class="panel">
+
+        <span>
+            Chữ Hán
+        </span>
+
+        <strong>
+            {{ stats.hanzi }}
+        </strong>
+
+        <small>
+            Dữ liệu bài học
+        </small>
+
+    </article>
+
+
+    <article class="panel">
+
+        <span>
+            Kiến thức chatbot
+        </span>
+
+        <strong>
+            {{ stats.pending_knowledge }}
+        </strong>
+
+        <small>
+            Nội dung chưa duyệt
+        </small>
+
+    </article>
+
+</div>
+
+
+<!-- =====================================================
+     LIÊN KẾT HỆ THỐNG
+===================================================== -->
+
+<div class="grid-2 space-top">
+
+    <section class="panel">
+
+        <h2>
+            Học liệu người học
+        </h2>
+
+        <p>
+            Nội dung Admin quản lý tại đây
+            chính là dữ liệu hiển thị
+            cho người học.
+        </p>
+
+        <img
+            class="admin-image"
+            src="{{ url_for(
+                'static',
+                filename='images/courses/chinese-landscape.svg'
+            ) }}"
+            alt="Minh họa học liệu tiếng Trung"
+        >
+
+        <div class="action-row">
+
+            <a
+                class="button"
+                href="{{ url_for(
+                    'admin_courses.index'
+                ) }}"
+            >
+                Quản lý khóa học
+            </a>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_lessons.index'
+                ) }}"
+            >
+                Quản lý bài học
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <section class="panel">
+
+        <h2>
+            Việc cần xử lý
+        </h2>
+
+
+        <div class="example-card">
+
+            <h3>
+                Kiến thức chatbot
+            </h3>
+
+            <p>
+                Có
+                <strong>
+                    {{ stats.pending_knowledge }}
+                </strong>
+                nội dung đang hoạt động
+                nhưng chưa được duyệt.
+            </p>
+
+        </div>
+
+
+        <div class="example-card">
+
+            <h3>
+                Từ chatbot chưa xử lý được
+            </h3>
+
+            <p>
+                Có
+                <strong>
+                    {{ stats.missing_words }}
+                </strong>
+                yêu cầu đang ở trạng thái
+                mới hoặc đang duyệt.
+            </p>
+
+        </div>
+
+
+        <div class="example-card">
+
+            <h3>
+                Góp ý của người học
+            </h3>
+
+            <p>
+                Có
+                <strong>
+                    {{ stats.new_feedback }}
+                </strong>
+                góp ý mới đang chờ xử lý.
+            </p>
+
+        </div>
+
+    </section>
+
+</div>
+
+
+<!-- =====================================================
+     GÓP Ý GẦN ĐÂY
+===================================================== -->
+
+<section class="panel space-top">
+
+    <h2>
+        Góp ý gần đây
+    </h2>
+
+
+    <div class="table-scroll">
+
+        <table class="data-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>
+                        Người học
+                    </th>
+
+                    <th>
+                        Bài học
+                    </th>
+
+                    <th>
+                        Nội dung
+                    </th>
+
+                    <th>
+                        Trạng thái
+                    </th>
+
+                    <th>
+                        Ngày gửi
+                    </th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                {% for item in recent_feedback %}
+
+                    <tr>
+
+                        <td>
+                            {{ item.user_name }}
+                        </td>
+
+
+                        <td>
+
+                            {% if item.lesson_title %}
+
+                                {{ item.lesson_title }}
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <td>
+                            {{ item.content }}
+                        </td>
+
+
+                        <td>
+
+                            {% if item.status == 'moi' %}
+
+                                Mới
+
+                            {% elif item.status == 'dang_xu_ly' %}
+
+                                Đang xử lý
+
+                            {% elif item.status == 'da_xu_ly' %}
+
+                                Đã xử lý
+
+                            {% else %}
+
+                                {{ item.status }}
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <td>
+
+                            {% if item.created_at %}
+
+                                {{
+                                    item.created_at.strftime(
+                                        "%d/%m/%Y %H:%M"
+                                    )
+                                }}
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+                    </tr>
+
+
+                {% else %}
+
+                    <tr>
+
+                        <td
+                            colspan="5"
+                            class="center-text"
+                        >
+                            Chưa có góp ý nào.
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+{% endblock %}

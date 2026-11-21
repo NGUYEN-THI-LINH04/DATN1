@@ -1,0 +1,614 @@
+{
+  "items": [
+    {
+      "MaTuVung": 502,
+      "HSK": 2,
+      "ChuHan": "啊",
+      "PhienAm": "a",
+      "NghiaTiengViet": "thán từ kết thúc câu, thể hiện sự khẳng định, tán thành hoặc đồng ý",
+      "TuLoai": "助",
+      "ViDuTiengTrung": "好啊，那我们明天下午一起去图书馆看书吧。",
+      "ViDuTiengViet": "Được chứ, vậy chiều mai chúng ta cùng nhau đến thư viện đọc sách nhé。"
+    },
+    {
+      "MaTuVung": 503,
+      "HSK": 2,
+      "ChuHan": "爱情",
+      "PhienAm": "àiqíng",
+      "NghiaTiengViet": "lãng mạn; tình yêu (lãng mạn)",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "这部电影讲述了他们两个人感人的爱情故事。",
+      "ViDuTiengViet": "Bộ phim này kể về câu chuyện tình yêu cảm động của hai người họ."
+    },
+    {
+      "MaTuVung": 504,
+      "HSK": 2,
+      "ChuHan": "爱人",
+      "PhienAm": "àiren",
+      "NghiaTiengViet": "vợ hoặc chồng (Trung Quốc) / người yêu (không phải Trung Quốc)",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "周末他经常和爱人一起去超市买新鲜的水果。",
+      "ViDuTiengViet": "Cuối tuần anh ấy thường cùng vợ đi siêu thị mua hoa quả tươi."
+    },
+    {
+      "MaTuVung": 505,
+      "HSK": 2,
+      "ChuHan": "安静",
+      "PhienAm": "ānjìng",
+      "NghiaTiengViet": "yên tĩnh / bình yên / điềm tĩnh",
+      "TuLoai": "形、动",
+      "ViDuTiengTrung": "图书馆里非常安静，大家都在认真地看书。",
+      "ViDuTiengViet": "Trong thư viện rất yên tĩnh, mọi người đều đang chăm chú đọc sách."
+    },
+    {
+      "MaTuVung": 506,
+      "HSK": 2,
+      "ChuHan": "安全",
+      "PhienAm": "ānquán",
+      "NghiaTiengViet": "an toàn / bảo mật; an ninh",
+      "TuLoai": "形、名",
+      "ViDuTiengTrung": "在路上骑自行车的时候，你一定要注意安全。",
+      "ViDuTiengViet": "Khi đi xe đạp trên đường, bạn nhất định phải chú ý an toàn."
+    },
+    {
+      "MaTuVung": 507,
+      "HSK": 2,
+      "ChuHan": "白色",
+      "PhienAm": "báisè",
+      "NghiaTiengViet": "màu trắng / nghĩa bóng: phản động / chống cộng sản",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "她今天穿了一件白色的衬衫，看起来很漂亮。",
+      "ViDuTiengViet": "Hôm nay cô ấy mặc một chiếc áo sơ mi màu trắng, trông rất đẹp."
+    },
+    {
+      "MaTuVung": 508,
+      "HSK": 2,
+      "ChuHan": "班长",
+      "PhienAm": "bānzhǎng",
+      "NghiaTiengViet": "lớp trưởng / đội trưởng / nhóm trưởng",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "我们班的班长学习很好，也很热情。",
+      "ViDuTiengViet": "Lớp trưởng của lớp chúng tôi học rất giỏi, lại còn rất nhiệt tình."
+    },
+    {
+      "MaTuVung": 509,
+      "HSK": 2,
+      "ChuHan": "办",
+      "PhienAm": "bàn",
+      "NghiaTiengViet": "làm / quản lý / xử lý / tiến hành / vận hành / thành lập / giải quyết",
+      "TuLoai": "动",
+      "ViDuTiengTrung": "这件事情有点难，你看应该怎么办？",
+      "ViDuTiengViet": "Chuyện này hơi khó, bạn xem nên giải quyết thế nào?"
+    },
+    {
+      "MaTuVung": 510,
+      "HSK": 2,
+      "ChuHan": "办法",
+      "PhienAm": "bànfǎ",
+      "NghiaTiengViet": "cách / phương pháp / cách thức (làm gì đó)",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "你别着急，我们一定能想出好办法。",
+      "ViDuTiengViet": "Bạn đừng sốt ruột, chúng ta nhất định có thể nghĩ ra cách hay."
+    },
+    {
+      "MaTuVung": 511,
+      "HSK": 2,
+      "ChuHan": "办公室",
+      "PhienAm": "bàngōngshì",
+      "NghiaTiengViet": "văn phòng / cơ sở kinh doanh / cục",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "老师现在不在办公室，他去教室上课了。",
+      "ViDuTiengViet": "Thầy giáo bây giờ không có ở văn phòng, thầy đã đến lớp dạy học rồi."
+    },
+    {
+      "MaTuVung": 512,
+      "HSK": 2,
+      "ChuHan": "半夜",
+      "PhienAm": "bànyè",
+      "NghiaTiengViet": "nửa đêm / trong đêm khuya",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "昨天半夜突然下起大雨，把我吵醒了。",
+      "ViDuTiengViet": "Nửa đêm hôm qua trời bỗng đổ mưa to, làm tôi thức giấc."
+    },
+    {
+      "MaTuVung": 513,
+      "HSK": 2,
+      "ChuHan": "帮助",
+      "PhienAm": "bāngzhù",
+      "NghiaTiengViet": "sự giúp đỡ; hỗ trợ / giúp đỡ; hỗ trợ",
+      "TuLoai": "动",
+      "ViDuTiengTrung": "谢谢你帮助我学习汉语。",
+      "ViDuTiengViet": "Cảm ơn bạn đã giúp đỡ tôi học tiếng Trung."
+    },
+    {
+      "MaTuVung": 514,
+      "HSK": 2,
+      "ChuHan": "饱",
+      "PhienAm": "bǎo",
+      "NghiaTiengViet": "ăn no / hài lòng",
+      "TuLoai": "形",
+      "ViDuTiengTrung": "我已经吃饱了，不想再吃了。",
+      "ViDuTiengViet": "Tôi đã ăn no rồi, không muốn ăn thêm nữa."
+    },
+    {
+      "MaTuVung": 515,
+      "HSK": 2,
+      "ChuHan": "报名",
+      "PhienAm": "bàomíng",
+      "NghiaTiengViet": "đăng ký / ghi tên / nộp đơn / đăng ký nhập học / ghi danh / tuyển",
+      "TuLoai": "",
+      "ViDuTiengTrung": "我想报名参加这个汉语班。",
+      "ViDuTiengViet": "Tôi muốn đăng ký tham gia lớp học tiếng Trung này."
+    },
+    {
+      "MaTuVung": 516,
+      "HSK": 2,
+      "ChuHan": "报纸",
+      "PhienAm": "bàozhǐ",
+      "NghiaTiengViet": "báo / chất liệu in báo",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "爸爸每天早上都会看报纸。",
+      "ViDuTiengViet": "Bố đều đọc báo vào mỗi buổi sáng."
+    },
+    {
+      "MaTuVung": 517,
+      "HSK": 2,
+      "ChuHan": "北方",
+      "PhienAm": "běifāng",
+      "NghiaTiengViet": "phía bắc / phần phía bắc của một quốc gia / Trung Quốc ở phía bắc sông Hoàng Hà",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "北方的冬天很冷，常常下雪。",
+      "ViDuTiengViet": "Mùa đông ở miền bắc rất lạnh, thường xuyên có tuyết rơi."
+    },
+    {
+      "MaTuVung": 518,
+      "HSK": 2,
+      "ChuHan": "背",
+      "PhienAm": "bèi",
+      "NghiaTiengViet": "lưng của cơ thể hoặc vật / ngoảnh lưng lại / che giấu / học thuộc lòng / nhớ để đọc / không may (tiếng lóng) / lãng tai",
+      "TuLoai": "动",
+      "ViDuTiengTrung": "老师让我们背这些生词。",
+      "ViDuTiengViet": "Thầy giáo bảo chúng tôi học thuộc những từ mới này."
+    },
+    {
+      "MaTuVung": 519,
+      "HSK": 2,
+      "ChuHan": "比如",
+      "PhienAm": "bǐrú",
+      "NghiaTiengViet": "ví dụ / chẳng hạn / như là",
+      "TuLoai": "动",
+      "ViDuTiengTrung": "我喜欢很多水果，比如苹果和香蕉。",
+      "ViDuTiengViet": "Tôi thích rất nhiều loại trái cây, ví dụ như táo và chuối."
+    },
+    {
+      "MaTuVung": 520,
+      "HSK": 2,
+      "ChuHan": "比如说",
+      "PhienAm": "bǐrú shuō",
+      "NghiaTiengViet": "ví dụ",
+      "TuLoai": "",
+      "ViDuTiengTrung": "他去过很多地方，比如说北京和上海。",
+      "ViDuTiengViet": "Anh ấy đã đi qua rất nhiều nơi, ví dụ như Bắc Kinh và Thượng Hải."
+    },
+    {
+      "MaTuVung": 521,
+      "HSK": 2,
+      "ChuHan": "笔",
+      "PhienAm": "bǐ",
+      "NghiaTiengViet": "bút / bút chì / bút lông / viết hoặc sáng tác / nét chữ Hán / lượng từ cho khoản tiền, giao dịch",
+      "TuLoai": "名、量",
+      "ViDuTiengTrung": "桌子上有一支红色的笔。",
+      "ViDuTiengViet": "Trên bàn có một cây bút màu đỏ."
+    },
+    {
+      "MaTuVung": 522,
+      "HSK": 2,
+      "ChuHan": "笔记",
+      "PhienAm": "bǐjì",
+      "NghiaTiengViet": "ghi chép lại / bài ghi chú / một loại văn học chủ yếu gồm những bài phác thảo ngắn",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "上课的时候我们要认真做笔记。",
+      "ViDuTiengViet": "Trong giờ học chúng ta phải chăm chỉ ghi chép."
+    },
+    {
+      "MaTuVung": 523,
+      "HSK": 2,
+      "ChuHan": "笔记本",
+      "PhienAm": "bǐjìběn",
+      "NghiaTiengViet": "sổ tay (văn phòng phẩm) / máy tính xách tay",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "老师送给我一本漂亮的笔记本。",
+      "ViDuTiengViet": "Thầy giáo tặng cho tôi một cuốn sổ tay rất đẹp."
+    },
+    {
+      "MaTuVung": 524,
+      "HSK": 2,
+      "ChuHan": "必须",
+      "PhienAm": "bìxū",
+      "NghiaTiengViet": "phải / bắt buộc / cần thiết / nhất thiết",
+      "TuLoai": "副",
+      "ViDuTiengTrung": "想要学好汉语，你必须多练习。",
+      "ViDuTiengViet": "Muốn học tốt tiếng Trung, bạn phải luyện tập nhiều."
+    },
+    {
+      "MaTuVung": 525,
+      "HSK": 2,
+      "ChuHan": "边",
+      "PhienAm": "biān",
+      "NghiaTiengViet": "bên / rìa / lề / biên giới / ranh giới / đồng thời",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "学校的左边有一家书店。",
+      "ViDuTiengViet": "Bên trái trường học có một hiệu sách."
+    },
+    {
+      "MaTuVung": 526,
+      "HSK": 2,
+      "ChuHan": "变",
+      "PhienAm": "biàn",
+      "NghiaTiengViet": "thay đổi / trở nên khác / biến đổi / biến hóa / nổi loạn",
+      "TuLoai": "动",
+      "ViDuTiengTrung": "天气变冷了，你要多穿衣服。",
+      "ViDuTiengViet": "Thời tiết trở lạnh rồi, bạn phải mặc thêm quần áo."
+    },
+    {
+      "MaTuVung": 527,
+      "HSK": 2,
+      "ChuHan": "变成",
+      "PhienAm": "biànchéng",
+      "NghiaTiengViet": "thay đổi thành / biến thành / trở thành",
+      "TuLoai": "",
+      "ViDuTiengTrung": "秋天到了，树叶都变成了黄色。",
+      "ViDuTiengViet": "Mùa thu đến rồi, lá cây đều chuyển thành màu vàng."
+    },
+    {
+      "MaTuVung": 528,
+      "HSK": 2,
+      "ChuHan": "遍",
+      "PhienAm": "biàn",
+      "NghiaTiengViet": "biến thể của 遍[bian4] / khắp mọi nơi / khắp / lượng từ cho hành động: một lần",
+      "TuLoai": "量",
+      "ViDuTiengTrung": "老师，请您再说一遍。",
+      "ViDuTiengViet": "Thầy ơi, xin thầy nói lại một lần nữa ạ."
+    },
+    {
+      "MaTuVung": 529,
+      "HSK": 2,
+      "ChuHan": "表",
+      "PhienAm": "biǎo",
+      "NghiaTiengViet": "bề mặt bên ngoài / quan hệ họ hàng qua nữ giới / thể hiện (ý kiến của một người) / mô hình / bảng (liệt kê thông tin) / biểu mẫu / đồng hồ đo (đo lường cái gì đó) / đồng hồ (dụng cụ đo thời gian) / đồng hồ đo; máy đo",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "我的手表走得很准。",
+      "ViDuTiengViet": "Đồng hồ của tôi chạy rất chuẩn."
+    },
+    {
+      "MaTuVung": 530,
+      "HSK": 2,
+      "ChuHan": "表示",
+      "PhienAm": "biǎoshì",
+      "NghiaTiengViet": "(về ai đó) bày tỏ; phát biểu; cho thấy / (về điều gì đó) biểu thị; có nghĩa; cho thấy / sự biểu đạt; sự thể hiện",
+      "TuLoai": "动、名",
+      "ViDuTiengTrung": "他笑着表示同意我的想法。",
+      "ViDuTiengViet": "Anh ấy cười bày tỏ sự đồng ý với suy nghĩ của tôi."
+    },
+    {
+      "MaTuVung": 531,
+      "HSK": 2,
+      "ChuHan": "不错",
+      "PhienAm": "bùcuò",
+      "NghiaTiengViet": "đúng / chính xác / không tồi / khá tốt",
+      "TuLoai": "形",
+      "ViDuTiengTrung": "这家饭馆的菜味道很不错。",
+      "ViDuTiengViet": "Món ăn của nhà hàng này có hương vị rất ngon."
+    },
+    {
+      "MaTuVung": 532,
+      "HSK": 2,
+      "ChuHan": "不但",
+      "PhienAm": "bùdàn",
+      "NghiaTiengViet": "không chỉ (... mà còn...)",
+      "TuLoai": "连",
+      "ViDuTiengTrung": "他不但会说汉语，还会说英语。",
+      "ViDuTiengViet": "Anh ấy không chỉ biết nói tiếng Trung, mà còn biết nói tiếng Anh."
+    },
+    {
+      "MaTuVung": 533,
+      "HSK": 2,
+      "ChuHan": "不够",
+      "PhienAm": "bùgòu",
+      "NghiaTiengViet": "không đủ / không đủ mức / không thoả đáng",
+      "TuLoai": "动、副",
+      "ViDuTiengTrung": "这点儿钱不够买那件衣服。",
+      "ViDuTiengViet": "Chút tiền này không đủ để mua chiếc áo đó."
+    },
+    {
+      "MaTuVung": 534,
+      "HSK": 2,
+      "ChuHan": "不过",
+      "PhienAm": "bùguò",
+      "NghiaTiengViet": "chỉ / chỉ là / không nhiều hơn / nhưng / tuy nhiên / dù sao (để trở lại chủ đề trước) / không thể hơn (sau tính từ)",
+      "TuLoai": "连",
+      "ViDuTiengTrung": "这件衣服很好看，不过有点儿贵。",
+      "ViDuTiengViet": "Bộ quần áo này rất đẹp, nhưng hơi đắt một chút."
+    },
+    {
+      "MaTuVung": 535,
+      "HSK": 2,
+      "ChuHan": "不太",
+      "PhienAm": "bù tài",
+      "NghiaTiengViet": "không lắm; không quá",
+      "TuLoai": "",
+      "ViDuTiengTrung": "我今天身体不太舒服，想早点儿休息。",
+      "ViDuTiengViet": "Hôm nay tôi thấy trong người không được khỏe lắm, muốn nghỉ ngơi sớm một chút."
+    },
+    {
+      "MaTuVung": 536,
+      "HSK": 2,
+      "ChuHan": "不要",
+      "PhienAm": "bùyào",
+      "NghiaTiengViet": "đừng!; không được",
+      "TuLoai": "副",
+      "ViDuTiengTrung": "上课的时候请大家不要说话。",
+      "ViDuTiengViet": "Trong giờ học xin mọi người đừng nói chuyện."
+    },
+    {
+      "MaTuVung": 537,
+      "HSK": 2,
+      "ChuHan": "不好意思",
+      "PhienAm": "bù hǎoyìsi",
+      "NghiaTiengViet": "cảm thấy xấu hổ / thấy ngại / ngại quá (vì làm phiền ai đó)",
+      "TuLoai": "",
+      "ViDuTiengTrung": "不好意思，让你等了这么久。",
+      "ViDuTiengViet": "Ngại quá, để bạn phải chờ lâu như thế này."
+    },
+    {
+      "MaTuVung": 538,
+      "HSK": 2,
+      "ChuHan": "不久",
+      "PhienAm": "bùjiǔ",
+      "NghiaTiengViet": "không lâu (sau) / chẳng bao lâu / sớm / ngay sau đó",
+      "TuLoai": "形",
+      "ViDuTiengTrung": "他来北京不久，还不习惯这里的天气。",
+      "ViDuTiengViet": "Anh ấy đến Bắc Kinh chưa bao lâu, vẫn chưa quen với thời tiết ở đây."
+    },
+    {
+      "MaTuVung": 539,
+      "HSK": 2,
+      "ChuHan": "不满",
+      "PhienAm": "bùmǎn",
+      "NghiaTiengViet": "bực bội / không hài lòng / không thỏa mãn",
+      "TuLoai": "形",
+      "ViDuTiengTrung": "老师对他的考试成绩很不满。",
+      "ViDuTiengViet": "Thầy giáo rất không hài lòng với kết quả thi của anh ấy."
+    },
+    {
+      "MaTuVung": 540,
+      "HSK": 2,
+      "ChuHan": "不如",
+      "PhienAm": "bùrú",
+      "NghiaTiengViet": "không bằng; không tốt bằng; kém hơn / sẽ tốt hơn nếu",
+      "TuLoai": "动",
+      "ViDuTiengTrung": "他的汉语水平不如你好。",
+      "ViDuTiengViet": "Trình độ tiếng Trung của anh ấy không tốt bằng bạn."
+    },
+    {
+      "MaTuVung": 541,
+      "HSK": 2,
+      "ChuHan": "不少",
+      "PhienAm": "bù shǎo",
+      "NghiaTiengViet": "nhiều / khá nhiều / không ít",
+      "TuLoai": "",
+      "ViDuTiengTrung": "这个学期学校里来了不少新同学。",
+      "ViDuTiengViet": "Học kỳ này trong trường có khá nhiều bạn học mới đến."
+    },
+    {
+      "MaTuVung": 542,
+      "HSK": 2,
+      "ChuHan": "不同",
+      "PhienAm": "bù tóng",
+      "NghiaTiengViet": "khác / riêng biệt / không giống",
+      "TuLoai": "",
+      "ViDuTiengTrung": "我们两个人的想法完全不同。",
+      "ViDuTiengViet": "Suy nghĩ của hai người chúng tôi hoàn toàn khác nhau."
+    },
+    {
+      "MaTuVung": 543,
+      "HSK": 2,
+      "ChuHan": "不行",
+      "PhienAm": "bùxíng",
+      "NghiaTiengViet": "không được / không thể chấp nhận / không tốt / không hiệu quả / không có khả năng",
+      "TuLoai": "动、形",
+      "ViDuTiengTrung": "明天你想去旅游吗？——不行，我明天要考试。",
+      "ViDuTiengViet": "Ngày mai bạn muốn đi du lịch không? —— Không được, ngày mai tôi phải thi."
+    },
+    {
+      "MaTuVung": 544,
+      "HSK": 2,
+      "ChuHan": "不一定",
+      "PhienAm": "bùyīdìng",
+      "NghiaTiengViet": "không nhất thiết / có thể",
+      "TuLoai": "副",
+      "ViDuTiengTrung": "贵的东西不一定都是好的。",
+      "ViDuTiengViet": "Đồ đắt tiền không nhất thiết đều là đồ tốt."
+    },
+    {
+      "MaTuVung": 545,
+      "HSK": 2,
+      "ChuHan": "不一会儿",
+      "PhienAm": "bù yīhuìr",
+      "NghiaTiengViet": "chẳng bao lâu; một lát sau",
+      "TuLoai": "",
+      "ViDuTiengTrung": "他今天太累了，躺下不一会儿就睡着了。",
+      "ViDuTiengViet": "Hôm nay anh ấy mệt quá, nằm xuống một lát sau là ngủ thiếp đi."
+    },
+    {
+      "MaTuVung": 546,
+      "HSK": 2,
+      "ChuHan": "部分",
+      "PhienAm": "bùfen",
+      "NghiaTiengViet": "phần / cổ phần / mục / miếng",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "这本汉语书的大部分内容我都看懂了。",
+      "ViDuTiengViet": "Phần lớn nội dung của cuốn sách tiếng Trung này tôi đều đọc hiểu rồi."
+    },
+    {
+      "MaTuVung": 547,
+      "HSK": 2,
+      "ChuHan": "才",
+      "PhienAm": "cái",
+      "NghiaTiengViet": "khả năng; tài năng / người thuộc một kiểu nào đó / một cá nhân có năng lực / rồi thì và chỉ rồi thì / vừa mới / (trước một biểu hiện về số lượng) chỉ / (biến thể của 才[cai2]) vừa mới / (biến thể của 才[cai2]) (trước một biểu thức chỉ số lượng) chỉ",
+      "TuLoai": "副",
+      "ViDuTiengTrung": "现在才早上六点，你怎么就起床了？",
+      "ViDuTiengViet": "Bây giờ mới sáu giờ sáng, sao bạn đã dậy rồi?"
+    },
+    {
+      "MaTuVung": 548,
+      "HSK": 2,
+      "ChuHan": "菜单",
+      "PhienAm": "càidān",
+      "NghiaTiengViet": "thực đơn",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "服务员，请给我看一下菜单。",
+      "ViDuTiengViet": "Phục vụ ơi, xin cho tôi xem thực đơn một chút."
+    },
+    {
+      "MaTuVung": 549,
+      "HSK": 2,
+      "ChuHan": "参观",
+      "PhienAm": "cānguān",
+      "NghiaTiengViet": "tham quan / đi dạo quanh / thăm",
+      "TuLoai": "动",
+      "ViDuTiengTrung": "明天我们要去参观北京大学。",
+      "ViDuTiengViet": "Ngày mai chúng tôi sẽ đi tham quan trường Đại học Bắc Kinh."
+    },
+    {
+      "MaTuVung": 550,
+      "HSK": 2,
+      "ChuHan": "参加",
+      "PhienAm": "cānjiā",
+      "NghiaTiengViet": "tham gia / tham dự",
+      "TuLoai": "动",
+      "ViDuTiengTrung": "你想和我一起参加这个活动吗？",
+      "ViDuTiengViet": "Bạn có muốn cùng tôi tham gia hoạt động này không?"
+    },
+    {
+      "MaTuVung": 551,
+      "HSK": 2,
+      "ChuHan": "草",
+      "PhienAm": "cǎo",
+      "NghiaTiengViet": "biến thể của 草[cao3] / cỏ / rơm / bản thảo / phác thảo (một văn kiện) / cẩu thả / sơ sài",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "春天到了，地上的草都变绿了。",
+      "ViDuTiengViet": "Mùa xuân đến rồi, cỏ trên mặt đất đều đã xanh tươi."
+    },
+    {
+      "MaTuVung": 552,
+      "HSK": 2,
+      "ChuHan": "草地",
+      "PhienAm": "cǎodì",
+      "NghiaTiengViet": "bãi cỏ / đồng cỏ / thảm cỏ / cỏ nhân tạo",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "几个小孩子正在草地上快乐地玩儿。",
+      "ViDuTiengViet": "Mấy đứa trẻ đang vui vẻ chơi đùa trên bãi cỏ."
+    },
+    {
+      "MaTuVung": 553,
+      "HSK": 2,
+      "ChuHan": "层",
+      "PhienAm": "céng",
+      "NghiaTiengViet": "chồng lên nhau / tầng; lớp / tầng (của tòa nhà); tầng / (toán) bó / số đếm cho các lớp",
+      "TuLoai": "量",
+      "ViDuTiengTrung": "我的办公室在三层，你可以坐电梯上去。",
+      "ViDuTiengViet": "Văn phòng của tôi ở tầng ba, bạn có thể đi thang máy lên."
+    },
+    {
+      "MaTuVung": 554,
+      "HSK": 2,
+      "ChuHan": "查",
+      "PhienAm": "chá",
+      "NghiaTiengViet": "nghiên cứu / kiểm tra / điều tra / khám xét / tham khảo / tra cứu (ví dụ: tra từ trong từ điển)",
+      "TuLoai": "动",
+      "ViDuTiengTrung": "遇到不认识的生词，你可以查词典。",
+      "ViDuTiengViet": "Khi gặp từ mới không biết, bạn có thể tra từ điển."
+    },
+    {
+      "MaTuVung": 555,
+      "HSK": 2,
+      "ChuHan": "差不多",
+      "PhienAm": "chàbuduō",
+      "NghiaTiengViet": "gần / suýt nữa / xấp xỉ / khoảng như nhau / đủ tốt / không tệ",
+      "TuLoai": "形、副",
+      "ViDuTiengTrung": "今天的作业我差不多做完了。",
+      "ViDuTiengViet": "Bài tập hôm nay tôi gần như đã làm xong rồi."
+    },
+    {
+      "MaTuVung": 556,
+      "HSK": 2,
+      "ChuHan": "长",
+      "PhienAm": "cháng",
+      "NghiaTiengViet": "chiều dài / dài / mãi mãi / luôn luôn / liên tục",
+      "TuLoai": "形",
+      "ViDuTiengTrung": "这条裙子太长了，不太适合你。",
+      "ViDuTiengViet": "Chiếc váy này dài quá, không hợp với bạn lắm."
+    },
+    {
+      "MaTuVung": 557,
+      "HSK": 2,
+      "ChuHan": "常见",
+      "PhienAm": "cháng jiàn",
+      "NghiaTiengViet": "thường thấy / phổ biến / thấy thường xuyên",
+      "TuLoai": "",
+      "ViDuTiengTrung": "感冒是冬天很常见的一种病。",
+      "ViDuTiengViet": "Cảm cúm là một căn bệnh rất thường thấy vào mùa đông."
+    },
+    {
+      "MaTuVung": 558,
+      "HSK": 2,
+      "ChuHan": "常用",
+      "PhienAm": "cháng yòng",
+      "NghiaTiengViet": "được sử dụng phổ biến",
+      "TuLoai": "",
+      "ViDuTiengTrung": "这些都是汉语里的常用词。",
+      "ViDuTiengViet": "Đây đều là những từ ngữ được sử dụng phổ biến trong tiếng Trung."
+    },
+    {
+      "MaTuVung": 559,
+      "HSK": 2,
+      "ChuHan": "场",
+      "PhienAm": "chǎng",
+      "NghiaTiengViet": "nơi lớn dùng cho mục đích cụ thể / sân khấu / cảnh (của vở kịch) / lượng từ cho hoạt động thể thao hoặc giải trí / lượng từ cho số lần thi / biến thể của 場|场[chang3]",
+      "TuLoai": "量",
+      "ViDuTiengTrung": "昨天晚上我看了一场足球比赛。",
+      "ViDuTiengViet": "Tối hôm qua tôi đã xem một trận thi đấu bóng đá."
+    },
+    {
+      "MaTuVung": 560,
+      "HSK": 2,
+      "ChuHan": "超过",
+      "PhienAm": "chāoguò",
+      "NghiaTiengViet": "vượt qua / vượt quá / vượt trội",
+      "TuLoai": "动",
+      "ViDuTiengTrung": "他的汉语水平已经超过了我。",
+      "ViDuTiengViet": "Trình độ tiếng Trung của anh ấy đã vượt qua tôi rồi."
+    },
+    {
+      "MaTuVung": 561,
+      "HSK": 2,
+      "ChuHan": "超市",
+      "PhienAm": "chāoshì",
+      "NghiaTiengViet": "siêu thị (viết tắt của 超級市場|超级市场[chao1 ji2 shi4 chang3])",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "我想去超市买一些水果和牛奶。",
+      "ViDuTiengViet": "Tôi muốn đi siêu thị mua một ít hoa quả và sữa tươi."
+    },
+    {
+      "MaTuVung": 562,
+      "HSK": 2,
+      "ChuHan": "车辆",
+      "PhienAm": "chēliàng",
+      "NghiaTiengViet": "phương tiện giao thông",
+      "TuLoai": "名",
+      "ViDuTiengTrung": "这条路上每天都有很多车辆。",
+      "ViDuTiengViet": "Trên con đường này mỗi ngày đều có rất nhiều phương tiện giao thông."
+    }
+  ]
+}

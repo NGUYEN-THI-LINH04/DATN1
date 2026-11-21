@@ -1,0 +1,502 @@
+{% extends "student/base.html" %}
+
+
+{% block title %}
+Bảng Pinyin | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+<section class="foundation-page pinyin-page">
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <div class="foundation-header">
+
+        <div class="foundation-breadcrumb">
+
+            <a href="{{ url_for('home.index') }}">
+                Trang chủ
+            </a>
+
+            <span>
+                /
+            </span>
+
+            <span>
+                Nền tảng
+            </span>
+
+            <span>
+                /
+            </span>
+
+            <strong>
+                Bảng Pinyin
+            </strong>
+
+        </div>
+
+
+        <div class="foundation-title-row">
+
+            <div class="foundation-title-icon">
+                拼
+            </div>
+
+
+            <div>
+
+                <span class="foundation-eyebrow">
+                    HỌC KỸ NĂNG NỀN TẢNG
+                </span>
+
+                <h1>
+                    Bảng Pinyin
+                    <span>
+                        拼音表
+                    </span>
+                </h1>
+
+                <p>
+                    Làm quen với thanh mẫu, vận mẫu và cách đọc
+                    Pinyin trước khi bắt đầu các bài HSK.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         THỐNG KÊ
+    ====================================================== -->
+
+    <div class="foundation-stats">
+
+        <div class="foundation-stat">
+
+            <strong>
+                {{ total_pinyin }}
+            </strong>
+
+            <span>
+                mục Pinyin
+            </span>
+
+        </div>
+
+
+        <div class="foundation-stat">
+
+            <strong>
+                {{ thanh_mau|length }}
+            </strong>
+
+            <span>
+                thanh mẫu
+            </span>
+
+        </div>
+
+
+        <div class="foundation-stat">
+
+            <strong>
+                {{ van_mau|length }}
+            </strong>
+
+            <span>
+                vận mẫu
+            </span>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         THANH MẪU
+    ====================================================== -->
+
+    <section class="pinyin-section">
+
+        <div class="pinyin-section-heading">
+
+            <div>
+
+                <span class="pinyin-section-number">
+                    01
+                </span>
+
+                <h2>
+                    Thanh mẫu
+                    <small>
+                        声母
+                    </small>
+                </h2>
+
+            </div>
+
+
+            <span class="pinyin-count">
+                {{ thanh_mau|length }} mục
+            </span>
+
+        </div>
+
+
+        <p class="pinyin-section-note">
+            Thanh mẫu là phần phụ âm đứng ở đầu một âm tiết
+            tiếng Trung.
+        </p>
+
+
+        <div class="pinyin-grid">
+
+            {% for item in thanh_mau %}
+
+                <article class="pinyin-card">
+
+                    <div class="pinyin-symbol">
+                        {{ item.KyHieu }}
+                    </div>
+
+
+                    {% if item.CachDoc %}
+
+                        <div class="pinyin-reading">
+                            {{ item.CachDoc }}
+                        </div>
+
+                    {% endif %}
+
+
+                    {% if item.ViDu %}
+
+                        <div class="pinyin-example">
+
+                            <span>
+                                Ví dụ
+                            </span>
+
+                            <strong>
+                                {{ item.ViDu }}
+                            </strong>
+
+                        </div>
+
+                    {% endif %}
+
+
+                    {% if item.DuongDanTep %}
+
+                        <button
+                            type="button"
+                            class="pinyin-audio-button"
+                            data-audio-src="{{ item.DuongDanTep }}"
+                            title="Nghe phát âm"
+                        >
+                            🔊
+                        </button>
+
+                    {% endif %}
+
+                </article>
+
+            {% endfor %}
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         VẬN MẪU
+    ====================================================== -->
+
+    <section class="pinyin-section">
+
+        <div class="pinyin-section-heading">
+
+            <div>
+
+                <span class="pinyin-section-number">
+                    02
+                </span>
+
+                <h2>
+                    Vận mẫu
+                    <small>
+                        韵母
+                    </small>
+                </h2>
+
+            </div>
+
+
+            <span class="pinyin-count">
+                {{ van_mau|length }} mục
+            </span>
+
+        </div>
+
+
+        <p class="pinyin-section-note">
+            Vận mẫu là phần còn lại của âm tiết sau thanh mẫu.
+        </p>
+
+
+        <div class="pinyin-grid">
+
+            {% for item in van_mau %}
+
+                <article class="pinyin-card">
+
+                    <div class="pinyin-symbol">
+                        {{ item.KyHieu }}
+                    </div>
+
+
+                    {% if item.CachDoc %}
+
+                        <div class="pinyin-reading">
+                            {{ item.CachDoc }}
+                        </div>
+
+                    {% endif %}
+
+
+                    {% if item.ViDu %}
+
+                        <div class="pinyin-example">
+
+                            <span>
+                                Ví dụ
+                            </span>
+
+                            <strong>
+                                {{ item.ViDu }}
+                            </strong>
+
+                        </div>
+
+                    {% endif %}
+
+
+                    {% if item.DuongDanTep %}
+
+                        <button
+                            type="button"
+                            class="pinyin-audio-button"
+                            data-audio-src="{{ item.DuongDanTep }}"
+                            title="Nghe phát âm"
+                        >
+                            🔊
+                        </button>
+
+                    {% endif %}
+
+                </article>
+
+            {% endfor %}
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ÂM GHÉP - CHỈ HIỆN NẾU DATABASE CÓ
+    ====================================================== -->
+
+    {% if am_ghep %}
+
+        <section class="pinyin-section">
+
+            <div class="pinyin-section-heading">
+
+                <div>
+
+                    <span class="pinyin-section-number">
+                        03
+                    </span>
+
+                    <h2>
+                        Âm ghép
+                    </h2>
+
+                </div>
+
+
+                <span class="pinyin-count">
+                    {{ am_ghep|length }} mục
+                </span>
+
+            </div>
+
+
+            <div class="pinyin-grid">
+
+                {% for item in am_ghep %}
+
+                    <article class="pinyin-card">
+
+                        <div class="pinyin-symbol">
+                            {{ item.KyHieu }}
+                        </div>
+
+
+                        {% if item.CachDoc %}
+
+                            <div class="pinyin-reading">
+                                {{ item.CachDoc }}
+                            </div>
+
+                        {% endif %}
+
+
+                        {% if item.ViDu %}
+
+                            <div class="pinyin-example">
+
+                                <span>
+                                    Ví dụ
+                                </span>
+
+                                <strong>
+                                    {{ item.ViDu }}
+                                </strong>
+
+                            </div>
+
+                        {% endif %}
+
+                    </article>
+
+                {% endfor %}
+
+            </div>
+
+        </section>
+
+    {% endif %}
+
+
+    <!-- =====================================================
+         CHUYỂN SANG PHẦN KHÁC
+    ====================================================== -->
+
+    <div class="foundation-next">
+
+        <a
+            href="{{ url_for('foundation.radicals') }}"
+            class="foundation-next-card"
+        >
+
+            <span>
+                Tiếp theo
+            </span>
+
+            <strong>
+                214 Bộ thủ
+            </strong>
+
+            <b>
+                →
+            </b>
+
+        </a>
+
+
+        <a
+            href="{{ url_for('foundation.pronunciation_rules') }}"
+            class="foundation-next-card"
+        >
+
+            <span>
+                Xem thêm
+            </span>
+
+            <strong>
+                Quy tắc phát âm
+            </strong>
+
+            <b>
+                →
+            </b>
+
+        </a>
+
+    </div>
+
+
+    <audio
+        id="foundationAudio"
+        preload="none"
+    ></audio>
+
+</section>
+
+{% endblock %}
+
+
+
+{% block extra_js %}
+
+<script>
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+        const audio =
+            document.getElementById(
+                "foundationAudio"
+            );
+
+        const buttons =
+            document.querySelectorAll(
+                ".pinyin-audio-button"
+            );
+
+
+        buttons.forEach(
+            function (button) {
+
+                button.addEventListener(
+                    "click",
+                    function () {
+
+                        const source =
+                            button.dataset.audioSrc;
+
+                        if (!source) {
+                            return;
+                        }
+
+                        audio.src = source;
+
+                        audio.play();
+
+                    }
+                );
+
+            }
+        );
+
+    }
+);
+
+</script>
+
+{% endblock %}

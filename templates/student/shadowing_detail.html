@@ -1,0 +1,702 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+{{ video.title }} | Mộc Hán
+{% endblock %}
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/shadowing.css') }}"
+>
+
+<style>
+    /* CHÉP CHÍNH TẢ */
+    .shadowing-dictation-guide {
+        font-size: 13px;
+        line-height: 1.7;
+        color: #766b61;
+        margin: 0 0 16px;
+    }
+
+    #dictationCounter,
+    #assembleCounter {
+        font-size: 12px;
+        font-weight: 700;
+        color: #95622c;
+        white-space: nowrap;
+    }
+
+    .shadowing-dictation-box textarea {
+        width: 100%;
+        box-sizing: border-box;
+        min-height: 160px;
+        resize: vertical;
+    }
+
+    .shadowing-dictation-result {
+        margin-top: 15px;
+        line-height: 1.8;
+        overflow-wrap: anywhere;
+    }
+
+    .shadowing-dictation-result h3 {
+        margin: 0 0 10px;
+        font-size: 16px;
+        color: #37312e;
+    }
+
+    .shadowing-dictation-result p {
+        margin: 7px 0;
+        font-size: 13px;
+    }
+
+    .shadowing-dictation-box textarea:focus {
+        border-color: #d49a35;
+        box-shadow: 0 0 0 2px rgba(212, 154, 53, 0.15);
+    }
+
+    .shadowing-dictation-actions button:hover {
+        background: #f4c56b;
+    }
+
+    .shadowing-focus-hanzi {
+        overflow-wrap: anywhere;
+    }
+
+    /* ẨN PANEL KHÔNG HOẠT ĐỘNG */
+    .shadowing-study [hidden] {
+        display: none !important;
+    }
+
+    .shadowing-study.is-practice-mode
+    [data-study-panel="shadowing"] {
+        display: none !important;
+    }
+
+    @media (max-width: 600px) {
+        .shadowing-dictation-actions {
+            flex-wrap: wrap;
+        }
+
+        .shadowing-focus-hanzi {
+            font-size: 27px;
+        }
+    }
+</style>
+{% endblock %}
+
+
+{% block content %}
+
+<section class="shadowing-page shadowing-study">
+
+    <!-- QUAY LẠI DANH SÁCH -->
+    <a
+        class="shadowing-back"
+        href="{{ url_for('shadowing.level_detail', level=video.level) }}"
+    >
+        ← Quay lại HSK{{ video.level }}
+    </a>
+
+
+    <!-- TIÊU ĐỀ VIDEO -->
+    <div class="shadowing-study-heading">
+
+        <span class="shadowing-video-tag">
+            HSK{{ video.level }}
+        </span>
+
+        <h1>{{ video.title }}</h1>
+
+        {% if video.description %}
+        <p>{{ video.description }}</p>
+        {% endif %}
+
+    </div>
+
+
+    <!-- THANH CHỌN CHẾ ĐỘ -->
+    <div class="shadowing-study-toolbar">
+
+        <div class="shadowing-study-tabs">
+
+            <button
+                type="button"
+                class="active"
+                data-study-tab="shadowing"
+                aria-selected="true"
+            >
+                🎧 Nghe video
+            </button>
+
+            <button
+                type="button"
+                data-study-tab="dictation"
+                aria-selected="false"
+            >
+                ⌨️ Nghe – Chép chính tả
+            </button>
+
+            <button
+                type="button"
+                data-study-tab="assemble"
+                aria-selected="false"
+            >
+                🧩 Ghép câu
+            </button>
+
+        </div>
+
+        <button
+            type="button"
+            id="btnToggleVideo"
+            class="shadowing-feature-btn"
+            aria-pressed="false"
+        >
+            ◉ Ẩn video
+        </button>
+
+    </div>
+
+
+    <!-- BỐ CỤC HỌC -->
+    <div class="shadowing-study-layout">
+
+        <!-- CỘT TRÁI -->
+        <div class="shadowing-study-left">
+
+            <!-- VIDEO -->
+            <div
+                class="shadowing-player"
+                id="shadowingVideoWrapper"
+            >
+                <div id="youtube-player"></div>
+            </div>
+
+
+            <!-- THANH NGHE KHI ẨN VIDEO -->
+            <div
+                class="shadowing-audio-bar"
+                id="shadowingAudioBar"
+                hidden
+            >
+                <span class="shadowing-audio-label">
+                    ♪ Chế độ nghe
+                </span>
+
+                <input
+                    type="range"
+                    id="shadowingAudioSeek"
+                    min="0"
+                    max="100"
+                    step="0.1"
+                    value="0"
+                    aria-label="Tua video"
+                >
+
+                <span id="shadowingAudioTime">
+                    0:00 / 0:00
+                </span>
+            </div>
+
+
+            <!-- NÚT ĐIỀU KHIỂN -->
+            <div class="shadowing-player-controls">
+
+                <button
+                    type="button"
+                    id="btnPrev"
+                    title="Câu trước"
+                    aria-label="Chuyển sang câu trước"
+                >
+                    ⏮
+                </button>
+
+                <button
+                    type="button"
+                    id="btnReplay"
+                    title="Nghe lại câu"
+                    aria-label="Nghe lại câu hiện tại"
+                >
+                    ↺
+                </button>
+
+                <button
+                    type="button"
+                    id="btnPlayPause"
+                    title="Phát hoặc tạm dừng"
+                    aria-label="Phát hoặc tạm dừng video"
+                >
+                    ▶
+                </button>
+
+                <button
+                    type="button"
+                    id="btnNext"
+                    title="Câu tiếp theo"
+                    aria-label="Chuyển sang câu tiếp theo"
+                >
+                    ⏭
+                </button>
+
+                <button
+                    type="button"
+                    id="btnAutoPause"
+                    class="shadowing-feature-btn"
+                    aria-pressed="false"
+                >
+                    ✂ Tự ngắt câu: Tắt
+                </button>
+
+                <button
+                    type="button"
+                    id="btnTogglePinyin"
+                    class="active"
+                >
+                    Pinyin
+                </button>
+
+                <button
+                    type="button"
+                    id="btnToggleVi"
+                    class="active"
+                >
+                    Bản dịch
+                </button>
+
+            </div>
+
+
+            <!-- GHI CHÚ VIDEO -->
+            <div class="shadowing-player-note">
+                Video phát trực tiếp từ YouTube.
+                Nội dung thuộc về chủ sở hữu video.
+            </div>
+
+
+            <!-- CÂU ĐANG HỌC -->
+            <div
+                class="shadowing-focus-box"
+                id="focusSentenceBox"
+            >
+
+                <div
+                    class="shadowing-focus-hanzi"
+                    id="focusHanzi"
+                >
+                    {% if video.sentences %}
+                        {{ video.sentences[0].hanzi }}
+                    {% else %}
+                        Chưa có câu để hiển thị
+                    {% endif %}
+                </div>
+
+                <div
+                    class="shadowing-focus-pinyin"
+                    id="focusPinyin"
+                >
+                    {% if video.sentences %}
+                        {{ video.sentences[0].pinyin }}
+                    {% endif %}
+                </div>
+
+                <div
+                    class="shadowing-focus-vi"
+                    id="focusVi"
+                >
+                    {% if video.sentences %}
+                        {{ video.sentences[0].vi }}
+                    {% endif %}
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CỘT PHẢI -->
+        <div class="shadowing-study-right">
+
+
+            <!-- =====================================
+                 CHẾ ĐỘ 1: BẮT CHƯỚC PHÁT ÂM
+            ====================================== -->
+
+            <div
+                class="shadowing-panel"
+                data-study-panel="shadowing"
+            >
+
+                <div class="shadowing-panel-heading">
+                    <h2>BẢN CHÉP</h2>
+
+                    <span>
+                        {{ video.sentences|length }} câu
+                    </span>
+                </div>
+
+
+                <!-- TÙY CHỌN BẢN CHÉP -->
+                <div class="shadowing-transcript-options">
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            id="transcriptShowPinyin"
+                            checked
+                        >
+                        Pinyin
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            id="transcriptShowVi"
+                            checked
+                        >
+                        Bản dịch
+                    </label>
+
+                </div>
+
+
+                <!-- DANH SÁCH CÂU THOẠI -->
+                {% if video.sentences %}
+
+                <div
+                    class="shadowing-transcript-list"
+                    id="transcriptList"
+                >
+
+                    {% for sentence in video.sentences %}
+
+                    <article
+                        class="shadowing-transcript-item {% if loop.first %}active{% endif %}"
+                        data-index="{{ loop.index0 }}"
+                        data-start="{{ sentence.start }}"
+                        data-end="{{ sentence.end }}"
+                    >
+
+                        <div class="shadowing-transcript-top">
+
+                            <span class="shadowing-transcript-number">
+                                #{{ loop.index }}
+                            </span>
+
+                            <span class="shadowing-transcript-time">
+                                {{ "%02d:%02d"|format(
+                                    (sentence.start|float // 60)|int,
+                                    (sentence.start|float % 60)|int
+                                ) }}
+                            </span>
+
+                        </div>
+
+                        <div class="shadowing-transcript-hanzi">
+                            {{ sentence.hanzi }}
+                        </div>
+
+                        <p class="shadowing-transcript-pinyin">
+                            {{ sentence.pinyin }}
+                        </p>
+
+                        <p class="shadowing-transcript-vi">
+                            {{ sentence.vi }}
+                        </p>
+
+                    </article>
+
+                    {% endfor %}
+
+                </div>
+
+                {% else %}
+
+                <div class="shadowing-study-placeholder">
+                    <h3>Chưa có bản chép</h3>
+
+                    <p>
+                        Video đã được liên kết nhưng chưa có
+                        dữ liệu câu thoại trong SQL Server.
+                    </p>
+                </div>
+
+                {% endif %}
+
+            </div>
+
+
+
+            <!-- =====================================
+                 CHẾ ĐỘ 2: NGHE - CHÉP CHÍNH TẢ
+            ====================================== -->
+
+            <div
+                class="shadowing-panel"
+                data-study-panel="dictation"
+                hidden
+            >
+
+                <div class="shadowing-panel-heading">
+
+                    <h2>CHÉP CHÍNH TẢ</h2>
+
+                    <span id="dictationCounter">
+                        Câu 1 / {{ video.sentences|length }}
+                    </span>
+
+                </div>
+
+                <p class="shadowing-dictation-guide">
+                    Nghe đoạn hội thoại hiện tại và viết lại
+                    bằng chữ Hán. Sử dụng các nút điều khiển
+                    phía dưới video để nghe lại hoặc chuyển câu.
+                </p>
+
+
+                {% if video.sentences %}
+
+                <div class="shadowing-dictation-box">
+
+                    <label
+                        for="dictationAnswer"
+                        class="shadowing-dictation-label"
+                    >
+                        Gõ những gì bạn nghe được:
+                    </label>
+
+                    <textarea
+                        id="dictationAnswer"
+                        rows="5"
+                        spellcheck="false"
+                        autocomplete="off"
+                        placeholder="Nhập câu tiếng Trung bạn nghe được..."
+                    ></textarea>
+
+
+                    <div class="shadowing-dictation-actions">
+
+                        <button
+                            type="button"
+                            id="btnCheckDictation"
+                        >
+                            Kiểm tra đáp án
+                        </button>
+
+                        <button
+                            type="button"
+                            id="btnClearDictation"
+                        >
+                            Xóa
+                        </button>
+
+                    </div>
+
+
+                    <div
+                        class="shadowing-dictation-result"
+                        id="dictationResult"
+                        role="status"
+                        aria-live="polite"
+                    >
+                        Chưa kiểm tra đáp án.
+                    </div>
+
+                </div>
+
+                {% else %}
+
+                <div class="shadowing-study-placeholder">
+                    <h3>Chưa có dữ liệu luyện tập</h3>
+
+                    <p>
+                        Video này chưa có lời thoại trong
+                        SQL Server nên chưa thể chép chính tả.
+                    </p>
+                </div>
+
+                {% endif %}
+
+            </div>
+
+
+
+            <!-- =====================================
+                 CHẾ ĐỘ 3: GHÉP CÂU
+            ====================================== -->
+
+            <div
+                class="shadowing-panel"
+                data-study-panel="assemble"
+                hidden
+            >
+
+                <!-- TIÊU ĐỀ -->
+                <div class="shadowing-panel-heading">
+
+                    <h2>GHÉP CÂU</h2>
+
+                    <span id="assembleCounter">
+                        Câu 1 / {{ video.sentences|length }}
+                    </span>
+
+                </div>
+
+
+                <!-- HƯỚNG DẪN -->
+                <p class="shadowing-dictation-guide">
+                    Nghe câu thoại và sắp xếp các mảnh từ
+                    bên dưới thành một câu tiếng Trung hoàn chỉnh.
+                    Nhấn vào mảnh đã chọn để đưa trở lại.
+                </p>
+
+
+                {% if video.sentences %}
+
+                <div class="shadowing-assemble-box">
+
+                    <!-- KHU VỰC ĐÁP ÁN -->
+                    <div class="assemble-section">
+
+                        <div class="assemble-section-heading">
+                            <label class="shadowing-dictation-label">
+                                Câu bạn đang ghép
+                            </label>
+
+                            <span class="assemble-section-note">
+                                Nhấn để bỏ chọn
+                            </span>
+                        </div>
+
+                        <div
+                            id="assembleSelected"
+                            class="assemble-selected"
+                            aria-label="Các mảnh đã chọn"
+                        >
+                            <span class="assemble-hint">
+                                Chọn các mảnh bên dưới để ghép thành câu...
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <!-- DANH SÁCH MẢNH GHÉP -->
+                    <div class="assemble-section">
+
+                        <div class="assemble-section-heading">
+
+                            <label class="shadowing-dictation-label">
+                                Các mảnh ghép
+                            </label>
+
+                            <span class="assemble-section-note">
+                                Chọn theo thứ tự
+                            </span>
+
+                        </div>
+
+                        <div
+                            id="assembleAvailable"
+                            class="assemble-available"
+                            aria-label="Các mảnh chưa chọn"
+                        ></div>
+
+                    </div>
+
+
+                    <!-- NÚT KIỂM TRA -->
+                    <div class="shadowing-dictation-actions assemble-actions">
+
+                        <button
+                            type="button"
+                            id="btnCheckAssemble"
+                        >
+                            ✓ Kiểm tra đáp án
+                        </button>
+
+                        <button
+                            type="button"
+                            id="btnResetAssemble"
+                        >
+                            ↺ Làm lại
+                        </button>
+
+                    </div>
+
+
+                    <!-- KẾT QUẢ -->
+                    <div
+                        id="assembleResult"
+                        class="shadowing-dictation-result assemble-result"
+                        role="status"
+                        aria-live="polite"
+                    >
+                        Chưa kiểm tra đáp án.
+                    </div>
+
+                </div>
+
+                {% else %}
+
+                <div class="shadowing-study-placeholder">
+
+                    <h3>Chưa có dữ liệu ghép câu</h3>
+
+                    <p>
+                        Video này chưa có lời thoại trong SQL Server
+                        nên chưa thể thực hiện bài ghép câu.
+                    </p>
+
+                </div>
+
+                {% endif %}
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- DỮ LIỆU TỪ FLASK / SQL SERVER -->
+<div
+    id="shadowing-config"
+    data-content-id="{{ video.id }}"
+    data-video-id="{{ video.youtube_id }}"
+    data-sentences='{{ video.sentences | tojson | forceescape }}'
+    data-save-url="{{ url_for('shadowing_results.save_result') }}"
+    data-summary-url="{{ url_for('shadowing_results.get_summary', content_id=video.id) }}"
+    data-csrf-token="{{ csrf_token() }}"
+    hidden
+></div>
+
+
+<!-- JAVASCRIPT SHADOWING GOC -->
+<script
+    src="{{ url_for('static', filename='js/shadowing-study.js') }}"
+    defer
+></script>
+
+
+<!-- JAVASCRIPT LUU KET QUA -->
+<script
+    src="{{ url_for('static', filename='js/shadowing-save.js') }}"
+    defer
+></script>
+
+
+<!-- YOUTUBE IFRAME API -->
+<script
+    src="https://www.youtube.com/iframe_api"
+    defer
+></script>
+
+{% endblock %}
+

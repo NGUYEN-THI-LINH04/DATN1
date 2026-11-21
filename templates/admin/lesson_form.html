@@ -1,0 +1,264 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Thêm bài học | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        QUẢN LÝ BÀI HỌC
+    </span>
+
+    <h1>
+        Thêm bài học
+    </h1>
+
+    <p>
+        Bước này chỉ tạo khung bài học.
+        Sau khi tạo xong mới thêm từ vựng,
+        ngữ pháp, chữ Hán và bài tập.
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     FORM TẠO BÀI HỌC
+===================================================== -->
+
+<section class="panel course-editor">
+
+    <form
+        method="post"
+        action="{{ url_for(
+            'admin_lessons.add'
+        ) }}"
+    >
+
+        <!-- =================================================
+             CSRF
+        ================================================== -->
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <!-- =================================================
+             KHÓA HỌC + SỐ THỨ TỰ
+        ================================================== -->
+
+        <div class="course-form-grid">
+
+
+            <div class="field">
+
+                <label for="lesson-course">
+                    Khóa học *
+                </label>
+
+
+                <select
+                    id="lesson-course"
+                    name="course_id"
+                    required
+                >
+
+                    <option value="">
+                        — Chọn khóa học —
+                    </option>
+
+
+                    {% for course in courses %}
+
+                        <option
+                            value="{{ course.id }}"
+
+                            {% if
+                                lesson.course_id
+                                == course.id
+                            %}
+                                selected
+                            {% endif %}
+                        >
+
+                            HSK {{ course.level }}
+                            ·
+                            {{ course.title }}
+
+                            {% if course.status == 'ban_nhap' %}
+                                · Bản nháp
+                            {% endif %}
+
+                        </option>
+
+                    {% endfor %}
+
+                </select>
+
+
+                <small>
+                    Không hiển thị các khóa
+                    đã chuyển sang Lưu trữ.
+                </small>
+
+            </div>
+
+
+            <div class="field">
+
+                <label for="lesson-order">
+                    Số thứ tự bài *
+                </label>
+
+
+                <input
+                    id="lesson-order"
+                    name="order"
+                    type="number"
+                    min="1"
+                    step="1"
+                    value="{{ lesson.order }}"
+                    placeholder="Ví dụ: 24"
+                    required
+                >
+
+
+                <small>
+                    Không được trùng số bài
+                    trong cùng một khóa học.
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             TIÊU ĐỀ
+        ================================================== -->
+
+        <div class="field">
+
+            <label for="lesson-title">
+                Tên bài học *
+            </label>
+
+
+            <input
+                id="lesson-title"
+                name="title"
+                type="text"
+                maxlength="200"
+                value="{{ lesson.title }}"
+                placeholder="Ví dụ: 你好！ - Xin chào!"
+                required
+            >
+
+        </div>
+
+
+        <!-- =================================================
+             TÓM TẮT
+        ================================================== -->
+
+        <div class="field">
+
+            <label for="lesson-summary">
+                Tóm tắt bài học
+            </label>
+
+
+            <textarea
+                id="lesson-summary"
+                name="summary"
+                rows="6"
+                maxlength="2000"
+                placeholder="Mô tả ngắn nội dung và mục tiêu của bài học..."
+            >{{ lesson.summary }}</textarea>
+
+
+            <small>
+                Tối đa 2.000 ký tự.
+            </small>
+
+        </div>
+
+
+        <!-- =================================================
+             TRẠNG THÁI
+        ================================================== -->
+
+        <div class="lesson-create-status">
+
+            <strong>
+                Trạng thái sau khi tạo:
+            </strong>
+
+            <span
+                class="
+                    course-status
+                    course-status-ban_nhap
+                "
+            >
+                Bản nháp
+            </span>
+
+        </div>
+
+
+        <p>
+
+            Bài mới chưa xuất hiện cho người học.
+            Sau khi bổ sung đủ nội dung,
+            Admin mới chuyển bài sang
+            <strong>Đã xuất bản</strong>.
+
+        </p>
+
+
+        <!-- =================================================
+             ACTION
+        ================================================== -->
+
+        <div class="course-actions">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                + Tạo bài học
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_lessons.index',
+                    course_id=lesson.course_id
+                ) if lesson.course_id else url_for(
+                    'admin_lessons.index'
+                ) }}"
+            >
+                Hủy
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+{% endblock %}

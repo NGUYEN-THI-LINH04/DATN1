@@ -1,0 +1,1084 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Kết quả bài tập | Mộc Hán
+{% endblock %}
+
+
+{% block extra_css %}
+
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/student-exercises.css') }}"
+>
+
+<style>
+/* ===================================================
+   MỘC HÁN - TRANG KẾT QUẢ BÀI TẬP
+   CSS riêng cho result.html
+=================================================== */
+
+.mh-result-page {
+    --result-green: #405c49;
+    --result-green-dark: #304839;
+    --result-cream: #fffaf3;
+    --result-paper: #fffdf8;
+    --result-border: #e3d7c8;
+    --result-text: #38342f;
+    --result-muted: #82786c;
+    --result-red: #bd5148;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px 20px 55px;
+
+    color: var(--result-text);
+
+    font-family:
+        "Segoe UI",
+        "Microsoft YaHei",
+        Arial,
+        sans-serif;
+
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.mh-result-page *,
+.mh-result-page *::before,
+.mh-result-page *::after {
+    box-sizing: border-box;
+}
+
+.mh-result-page [hidden] {
+    display: none !important;
+}
+
+/* HEADER */
+
+.mh-result-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.mh-result-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    padding: 8px 12px;
+
+    border: 1px solid #d9ccbd;
+    border-radius: 7px;
+
+    background: #fffaf3;
+    color: #61594f;
+
+    font-size: 11.5px;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+.mh-result-back:hover {
+    background: #eee7da;
+    color: var(--result-green);
+}
+
+.mh-result-label {
+    color: #a17a55;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+}
+
+/* SUMMARY */
+
+.mh-result-summary {
+    display: grid;
+    grid-template-columns: 175px minmax(0, 1fr);
+    gap: 22px;
+    align-items: center;
+
+    padding: 25px;
+
+    border: 1px solid var(--result-border);
+    border-radius: 13px;
+
+    background: linear-gradient(
+        115deg,
+        #fff8ec,
+        #fffdf8 60%,
+        #eef4e9
+    );
+}
+
+.mh-result-score-ring {
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+
+    border: 9px solid #dce8d8;
+    border-radius: 50%;
+
+    background: #fffdfa;
+}
+
+.mh-result-score-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mh-result-score-value {
+    color: var(--result-green);
+
+    font-size: 32px;
+    font-weight: 850;
+    line-height: 1.15;
+}
+
+.mh-result-score-unit {
+    margin-top: 5px;
+
+    color: var(--result-muted);
+    font-size: 11px;
+}
+
+.mh-result-summary-content {
+    min-width: 0;
+}
+
+.mh-result-hsk {
+    display: inline-block;
+
+    margin-bottom: 7px;
+    padding: 4px 10px;
+
+    border-radius: 5px;
+
+    background: #e7eee3;
+    color: var(--result-green);
+
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.mh-result-summary h1 {
+    margin: 0 0 8px;
+
+    color: var(--result-green);
+
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+.mh-result-summary-description {
+    margin: 0;
+
+    color: var(--result-muted);
+    font-size: 12px;
+}
+
+.mh-result-score-detail {
+    margin-top: 11px;
+
+    color: #6b665c;
+    font-size: 12px;
+}
+
+.mh-result-score-detail strong {
+    color: var(--result-green);
+}
+
+/* STATS */
+
+.mh-result-stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 11px;
+    margin-top: 17px;
+}
+
+.mh-result-stat {
+    padding: 16px 12px;
+
+    border: 1px solid var(--result-border);
+    border-radius: 9px;
+
+    background: var(--result-paper);
+
+    text-align: center;
+}
+
+.mh-result-stat strong {
+    display: block;
+
+    color: var(--result-green);
+
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.mh-result-stat span {
+    display: block;
+
+    margin-top: 4px;
+
+    color: var(--result-muted);
+    font-size: 10.5px;
+}
+
+.mh-result-stat.correct strong {
+    color: #4a8051;
+}
+
+.mh-result-stat.wrong strong {
+    color: var(--result-red);
+}
+
+/* ACTIONS */
+
+.mh-result-actions {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    margin: 20px 0 25px;
+}
+
+.mh-result-primary-btn,
+.mh-result-secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 40px;
+
+    padding: 9px 16px;
+
+    border-radius: 7px;
+
+    font-size: 12px;
+    font-weight: 750;
+
+    text-decoration: none !important;
+}
+
+.mh-result-primary-btn {
+    border: 1px solid var(--result-green);
+
+    background: var(--result-green);
+    color: #fff;
+}
+
+.mh-result-primary-btn:hover {
+    background: var(--result-green-dark);
+    color: #fff;
+}
+
+.mh-result-secondary-btn {
+    border: 1px solid #d1c3b2;
+
+    background: #fffaf3;
+    color: #62584e;
+}
+
+.mh-result-secondary-btn:hover {
+    background: #f0e7d9;
+    color: var(--result-green);
+}
+
+/* REVIEW HEADER */
+
+.mh-result-review {
+    margin-top: 15px;
+}
+
+.mh-result-review-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.mh-result-review-header h2 {
+    margin: 0;
+
+    color: var(--result-text);
+
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.mh-result-review-header p {
+    margin: 5px 0 0;
+
+    color: var(--result-muted);
+    font-size: 11.5px;
+}
+
+.mh-result-review-count {
+    color: #887c6f;
+    font-size: 11px;
+}
+
+/* FILTERS */
+
+.mh-result-filters {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.mh-result-filter {
+    padding: 8px 13px;
+
+    border: 1px solid #ded2c3;
+    border-radius: 7px;
+
+    background: #fffaf3;
+    color: #71675b;
+
+    font-size: 11.5px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.mh-result-filter.active {
+    border-color: var(--result-green);
+
+    background: var(--result-green);
+    color: #fff;
+}
+
+/* QUESTION CARD */
+
+.mh-result-question-list {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.mh-result-question-card {
+    padding: 19px 20px;
+
+    border: 1.5px solid #e3d7c8;
+    border-radius: 10px;
+
+    background: #fffdf8;
+}
+
+.mh-result-question-card.is-correct {
+    border-left: 4px solid #74a279;
+}
+
+.mh-result-question-card.is-wrong {
+    border-left: 4px solid #d98578;
+}
+
+.mh-result-question-card.is-unanswered {
+    border-left: 4px solid #c8b8a1;
+}
+
+.mh-result-question-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+    margin-bottom: 13px;
+}
+
+.mh-result-question-number {
+    color: #8b6d4e;
+
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.mh-result-question-status {
+    padding: 4px 10px;
+
+    border-radius: 5px;
+
+    font-size: 10.5px;
+    font-weight: 800;
+}
+
+.mh-result-question-status.correct {
+    background: #e7f3e7;
+    color: #47804d;
+}
+
+.mh-result-question-status.wrong {
+    background: #fff0ec;
+    color: #b84e44;
+}
+
+.mh-result-question-status.unanswered {
+    background: #f0e9df;
+    color: #85715a;
+}
+
+.mh-result-question-content {
+    margin: 0 0 15px;
+
+    color: #38332e;
+
+    font-size: 16px;
+    font-weight: 750;
+    line-height: 1.8;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+/* ANSWER ROWS */
+
+.mh-result-answer-block {
+    display: grid;
+    gap: 9px;
+}
+
+.mh-result-answer-row {
+    padding: 11px 13px;
+
+    border: 1px solid #e5dbcf;
+    border-radius: 7px;
+
+    background: #fffaf3;
+}
+
+.mh-result-answer-row.correct-answer {
+    border-color: #c6ddc6;
+    background: #edf6ec;
+}
+
+.mh-result-answer-row.user-wrong {
+    border-color: #edc5bf;
+    background: #fff0ed;
+}
+
+.mh-result-answer-caption {
+    display: block;
+
+    margin-bottom: 4px;
+
+    color: #8a7e70;
+    font-size: 10.5px;
+    font-weight: 700;
+}
+
+.mh-result-answer-text {
+    display: block;
+
+    color: #403b35;
+
+    font-size: 13px;
+    font-weight: 650;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.mh-result-explanation {
+    margin-top: 13px;
+    padding: 12px 14px;
+
+    border-left: 3px solid #9eae8b;
+    border-radius: 5px;
+
+    background: #f2f3e9;
+}
+
+.mh-result-explanation strong {
+    display: block;
+
+    margin-bottom: 5px;
+
+    color: var(--result-green);
+    font-size: 11.5px;
+}
+
+.mh-result-explanation p {
+    margin: 0;
+
+    color: #666455;
+    font-size: 12px;
+    line-height: 1.8;
+
+    white-space: pre-wrap;
+}
+
+/* EMPTY */
+
+.mh-result-empty {
+    padding: 30px 20px;
+
+    border: 1px dashed #d6c9b8;
+    border-radius: 9px;
+
+    background: #fffaf3;
+
+    color: var(--result-muted);
+    font-size: 12px;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+    .mh-result-page {
+        padding: 16px 12px 35px;
+    }
+
+    .mh-result-summary {
+        grid-template-columns: 1fr;
+
+        gap: 14px;
+        padding: 20px 15px;
+
+        text-align: center;
+    }
+
+    .mh-result-score-ring {
+        width: 125px;
+        height: 125px;
+    }
+
+    .mh-result-score-value {
+        font-size: 27px;
+    }
+
+    .mh-result-summary h1 {
+        font-size: 21px;
+    }
+
+    .mh-result-stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .mh-result-question-card {
+        padding: 15px 13px;
+    }
+
+    .mh-result-question-content {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .mh-result-actions {
+        flex-direction: column;
+    }
+
+    .mh-result-actions a {
+        width: 100%;
+    }
+
+    .mh-result-review-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+</style>
+
+{% endblock %}
+
+
+{% block content %}
+
+{% set result_data = result if result is defined and result else {} %}
+{% set questions_data = questions if questions is defined and questions else [] %}
+
+{% set score = result_data.get('score', 0) %}
+{% set max_score = result_data.get('max_score', 0) %}
+{% set correct_count = result_data.get('correct_count', 0) %}
+{% set wrong_count = result_data.get('wrong_count', 0) %}
+{% set unanswered_count = result_data.get('unanswered_count', 0) %}
+{% set total_questions = result_data.get('total_questions', questions_data|length) %}
+{% set percentage = result_data.get('percentage', 0) %}
+
+<main class="mh-result-page">
+
+    <!-- =========================================
+         THANH ĐIỀU HƯỚNG
+    ========================================== -->
+
+    <div class="mh-result-top">
+
+        <a
+            href="{{ url_for('student_exercises.index') }}"
+            class="mh-result-back"
+        >
+            ← Danh sách bài tập
+        </a>
+
+        <span class="mh-result-label">
+            MỘC HÁN · KẾT QUẢ LUYỆN TẬP
+        </span>
+
+    </div>
+
+
+    <!-- =========================================
+         TỔNG KẾT ĐIỂM
+    ========================================== -->
+
+    <section class="mh-result-summary">
+
+        <div class="mh-result-score-ring">
+
+            <div class="mh-result-score-inner">
+
+                <strong class="mh-result-score-value">
+                    {{ percentage|round(1) }}%
+                </strong>
+
+                <span class="mh-result-score-unit">
+                    Điểm đạt được
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="mh-result-summary-content">
+
+            <span class="mh-result-hsk">
+                HSK {{ result_data.get('hsk', '') }}
+            </span>
+
+            <h1>
+                {{ result_data.get('title', 'Kết quả bài tập') }}
+            </h1>
+
+            <p class="mh-result-summary-description">
+                Bạn đã hoàn thành lượt làm bài.
+                Dưới đây là kết quả được lưu
+                trong hệ thống.
+            </p>
+
+            <div class="mh-result-score-detail">
+
+                Điểm số:
+
+                <strong>
+                    {{ score }} / {{ max_score }}
+                </strong>
+
+                {% if result_data.get('submitted_at') %}
+
+                <span>
+                    · Nộp lúc
+                    {{ result_data.get('submitted_at') }}
+                </span>
+
+                {% endif %}
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         THỐNG KÊ
+    ========================================== -->
+
+    <section class="mh-result-stats">
+
+        <div class="mh-result-stat">
+
+            <strong>
+                {{ total_questions }}
+            </strong>
+
+            <span>
+                Tổng câu hỏi
+            </span>
+
+        </div>
+
+
+        <div class="mh-result-stat correct">
+
+            <strong>
+                {{ correct_count }}
+            </strong>
+
+            <span>
+                Câu đúng
+            </span>
+
+        </div>
+
+
+        <div class="mh-result-stat wrong">
+
+            <strong>
+                {{ wrong_count }}
+            </strong>
+
+            <span>
+                Câu sai
+            </span>
+
+        </div>
+
+
+        <div class="mh-result-stat">
+
+            <strong>
+                {{ unanswered_count }}
+            </strong>
+
+            <span>
+                Chưa trả lời
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         NÚT ĐIỀU HƯỚNG
+    ========================================== -->
+
+    <div class="mh-result-actions">
+
+        <a
+            href="{{ url_for('student_exercises.index') }}"
+            class="mh-result-secondary-btn"
+        >
+            ← Về danh sách bài tập
+        </a>
+
+        {% if result_data.get('exercise_id') %}
+
+        <a
+            href="{{ url_for('student_exercises.index') }}?start={{ result_data.get('exercise_id') }}"
+            class="mh-result-primary-btn"
+            id="mhResultRetry"
+        >
+            ↻ Làm lại bài tập
+        </a>
+
+        {% endif %}
+
+        <a
+            href="#mhResultReview"
+            class="mh-result-secondary-btn"
+        >
+            Xem lại đáp án ↓
+        </a>
+
+    </div>
+
+
+    <!-- =========================================
+         XEM LẠI CÂU HỎI
+    ========================================== -->
+
+    <section
+        class="mh-result-review"
+        id="mhResultReview"
+    >
+
+        <div class="mh-result-review-header">
+
+            <div>
+
+                <h2>
+                    Xem lại bài làm
+                </h2>
+
+                <p>
+                    Kiểm tra đáp án của từng câu
+                    để biết phần nào cần ôn tập thêm.
+                </p>
+
+            </div>
+
+            <span class="mh-result-review-count">
+                {{ questions_data|length }} câu hỏi
+            </span>
+
+        </div>
+
+
+        <!-- BỘ LỌC -->
+
+        <div class="mh-result-filters">
+
+            <button
+                type="button"
+                class="mh-result-filter active"
+                data-filter="all"
+            >
+                Tất cả
+            </button>
+
+            <button
+                type="button"
+                class="mh-result-filter"
+                data-filter="correct"
+            >
+                Đúng ({{ correct_count }})
+            </button>
+
+            <button
+                type="button"
+                class="mh-result-filter"
+                data-filter="wrong"
+            >
+                Sai ({{ wrong_count }})
+            </button>
+
+            <button
+                type="button"
+                class="mh-result-filter"
+                data-filter="unanswered"
+            >
+                Chưa trả lời ({{ unanswered_count }})
+            </button>
+
+        </div>
+
+
+        <!-- DANH SÁCH CÂU -->
+
+        <div
+            class="mh-result-question-list"
+            id="mhResultQuestionList"
+        >
+
+            {% for question in questions_data %}
+
+            {% set status = question.get('status', 'unanswered') %}
+
+            <article
+                class="mh-result-question-card
+                    {% if status == 'correct' %}is-correct
+                    {% elif status == 'wrong' %}is-wrong
+                    {% else %}is-unanswered{% endif %}"
+                data-status="{{ status }}"
+            >
+
+                <div class="mh-result-question-heading">
+
+                    <span class="mh-result-question-number">
+                        CÂU {{ loop.index }}
+                    </span>
+
+
+                    {% if status == 'correct' %}
+
+                    <span class="mh-result-question-status correct">
+                        ✓ Chính xác
+                    </span>
+
+                    {% elif status == 'wrong' %}
+
+                    <span class="mh-result-question-status wrong">
+                        ✕ Chưa đúng
+                    </span>
+
+                    {% else %}
+
+                    <span class="mh-result-question-status unanswered">
+                        Chưa trả lời
+                    </span>
+
+                    {% endif %}
+
+                </div>
+
+
+                <!-- NỘI DUNG CÂU HỎI -->
+
+                <h3 class="mh-result-question-content">
+                    {{ question.get('content', '') }}
+                </h3>
+
+
+                <!-- ĐÁP ÁN -->
+
+                <div class="mh-result-answer-block">
+
+                    <div class="mh-result-answer-row
+                        {% if status == 'wrong' %}user-wrong{% endif %}"
+                    >
+
+                        <span class="mh-result-answer-caption">
+                            Đáp án bạn đã chọn
+                        </span>
+
+                        <span class="mh-result-answer-text">
+
+                            {% if question.get('user_answer') is not none
+                                  and question.get('user_answer') != '' %}
+
+                                {{ question.get('user_answer') }}
+
+                            {% else %}
+
+                                Chưa trả lời
+
+                            {% endif %}
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="mh-result-answer-row correct-answer">
+
+                        <span class="mh-result-answer-caption">
+                            Đáp án đúng
+                        </span>
+
+                        <span class="mh-result-answer-text">
+                            {{ question.get('correct_answer', '') }}
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- GIẢI THÍCH -->
+
+                {% if question.get('explanation') %}
+
+                <div class="mh-result-explanation">
+
+                    <strong>
+                        Giải thích
+                    </strong>
+
+                    <p>
+                        {{ question.get('explanation') }}
+                    </p>
+
+                </div>
+
+                {% endif %}
+
+            </article>
+
+            {% endfor %}
+
+        </div>
+
+
+        <!-- KHÔNG CÓ DỮ LIỆU -->
+
+        <div
+            class="mh-result-empty"
+            id="mhResultEmpty"
+            {% if questions_data %}hidden{% endif %}
+        >
+            Chưa có dữ liệu chi tiết để xem lại.
+        </div>
+
+    </section>
+
+</main>
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    "use strict";
+
+    const filters = document.querySelectorAll(
+        ".mh-result-filter"
+    );
+
+    const cards = document.querySelectorAll(
+        ".mh-result-question-card"
+    );
+
+    const empty = document.getElementById(
+        "mhResultEmpty"
+    );
+
+    filters.forEach(function (button) {
+
+        button.addEventListener("click", function () {
+
+            const selectedFilter =
+                button.dataset.filter || "all";
+
+            filters.forEach(function (item) {
+                item.classList.remove("active");
+            });
+
+            button.classList.add("active");
+
+            let visible = 0;
+
+            cards.forEach(function (card) {
+
+                const status = card.dataset.status;
+
+                const matches =
+                    selectedFilter === "all" ||
+                    status === selectedFilter;
+
+                card.hidden = !matches;
+
+                if (matches) {
+                    visible++;
+                }
+
+            });
+
+            if (empty) {
+
+                empty.hidden = visible > 0;
+
+                if (visible === 0) {
+
+                    empty.textContent =
+                        selectedFilter === "all"
+                            ? "Chưa có dữ liệu chi tiết để xem lại."
+                            : "Không có câu hỏi nào thuộc nhóm này.";
+
+                }
+
+            }
+
+        });
+
+    });
+
+});
+</script>
+
+{% endblock %}

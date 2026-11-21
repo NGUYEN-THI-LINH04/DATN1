@@ -1,0 +1,506 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <!-- ==========================================
+         TIÊU ĐỀ TRANG ADMIN
+    =========================================== -->
+
+    <title>
+        {% block title %}
+            Quản trị | Mộc Hán
+        {% endblock %}
+    </title>
+
+
+    <!-- ==========================================
+         CSS CHUNG
+    =========================================== -->
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/common.css') }}"
+    >
+
+
+    <!-- ==========================================
+         CSS ADMIN
+    =========================================== -->
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/admin.css') }}"
+    >
+
+
+    <!-- ==========================================
+         CSS RIÊNG TỪNG TRANG
+    =========================================== -->
+
+    {% block extra_css %}
+    {% endblock %}
+
+</head>
+
+
+<body>
+
+    <!-- ==========================================
+         TRANG ĐANG ĐƯỢC CHỌN
+    =========================================== -->
+
+    {% set current_page =
+        active_page | default(
+            (request.view_args or {}).get('page', '')
+        )
+    %}
+
+
+    <!-- ==========================================
+         DANH SÁCH MENU ADMIN
+    =========================================== -->
+
+    {% set admin_menu = [
+
+        ('dashboard', 'Tổng quan'),
+
+        ('users', 'Người học'),
+
+        ('courses', 'Khóa học'),
+
+        ('lessons', 'Bài học'),
+
+        ('materials', 'Học liệu'),
+
+        ('shadowing', 'Shadowing'),
+
+        ('exercises', 'Bài tập'),
+
+        ('questions', 'Câu hỏi'),
+
+        ('luyen_thi', 'Luyện thi HSK'),
+
+        ('chatbot_knowledge', 'Kiến thức chatbot'),
+
+        ('chatbot_settings', 'Cấu hình chatbot'),
+
+        ('feedback', 'Góp ý'),
+
+        ('statistics', 'Thống kê')
+
+    ] %}
+
+
+    <!-- ==========================================
+         BỐ CỤC ADMIN
+    =========================================== -->
+
+    <div class="admin-layout">
+
+
+        <!-- ======================================
+             SIDEBAR ADMIN
+        ======================================= -->
+
+        <aside class="admin-sidebar">
+
+
+            <!-- LOGO -->
+
+            <a
+                class="admin-logo"
+                href="{{ url_for('admin_dashboard.index') }}"
+            >
+                Mộc Hán
+            </a>
+
+
+            <!-- ==================================
+                 MENU ĐIỀU HƯỚNG
+            =================================== -->
+
+            <nav aria-label="Điều hướng quản trị">
+
+                {% for page, label in admin_menu %}
+
+
+                    <!-- ==========================
+                         1. TỔNG QUAN
+                    =========================== -->
+
+                    {% if page == 'dashboard' %}
+
+                        {% set menu_url =
+                            url_for('admin_dashboard.index')
+                        %}
+
+
+                    <!-- ==========================
+                         2. NGƯỜI HỌC
+                    =========================== -->
+
+                    {% elif page == 'users' %}
+
+                        {% set menu_url =
+                            url_for('admin_users.index')
+                        %}
+
+
+                    <!-- ==========================
+                         3. KHÓA HỌC
+                    =========================== -->
+
+                    {% elif page == 'courses' %}
+
+                        {% set menu_url =
+                            url_for('admin_courses.index')
+                        %}
+
+
+                    <!-- ==========================
+                         4. BÀI HỌC
+                    =========================== -->
+
+                    {% elif page == 'lessons' %}
+
+                        {% set menu_url =
+                            url_for('admin_lessons.index')
+                        %}
+
+
+                    <!-- ==========================
+                         5. HỌC LIỆU
+                    =========================== -->
+
+                    {% elif page == 'materials' %}
+
+                        {% set menu_url =
+                            url_for('admin_materials.index')
+                        %}
+
+
+                    <!-- ==========================
+                         6. SHADOWING
+                    =========================== -->
+
+                    {% elif page == 'shadowing' %}
+
+                        {% set menu_url =
+                            url_for('admin_shadowing.index')
+                        %}
+
+
+                    <!-- ==========================
+                         7. BÀI TẬP
+                    =========================== -->
+
+                    {% elif page == 'exercises' %}
+
+                        {% set menu_url =
+                            url_for('admin_exercises.index')
+                        %}
+
+
+                    <!-- ==========================
+                         8. CÂU HỎI
+                    =========================== -->
+
+                    {% elif page == 'questions' %}
+
+                        {% set menu_url =
+                            url_for('admin_questions.index')
+                        %}
+
+
+                    <!-- ==========================
+                         9. LUYỆN THI HSK
+
+                         Blueprint:
+                             admin_luyen_thi
+
+                         Endpoint:
+                             admin_luyen_thi.danh_sach
+                    =========================== -->
+
+                    {% elif page == 'luyen_thi' %}
+
+                        {% set menu_url =
+                            url_for('admin_luyen_thi.danh_sach')
+                        %}
+
+
+                    <!-- ==========================
+                         10. KIẾN THỨC CHATBOT
+                    =========================== -->
+
+                    {% elif page == 'chatbot_knowledge' %}
+
+                        {% set menu_url =
+                            url_for('admin_chatbot_knowledge.index')
+                        %}
+
+
+                    <!-- ==========================
+                         11. CẤU HÌNH CHATBOT
+                    =========================== -->
+
+                    {% elif page == 'chatbot_settings' %}
+
+                        {% set menu_url =
+                            url_for('admin_chatbot.settings_page')
+                        %}
+
+
+                    <!-- ==========================
+                         12. GÓP Ý - ROUTE THẬT
+
+                         Blueprint:
+                             admin_feedback
+
+                         Endpoint:
+                             admin_feedback.index
+
+                         URL:
+                             /admin/gop-y/
+
+                         Chức năng:
+                             - Xem góp ý
+                             - Lọc và tìm kiếm
+                             - Cập nhật trạng thái
+                             - Trả lời người học
+                    =========================== -->
+
+                    {% elif page == 'feedback' %}
+
+                        {% set menu_url =
+                            url_for('admin_feedback.index')
+                        %}
+
+
+                    <!-- ==========================
+                         13. THỐNG KÊ
+
+                         Giữ nguyên liên kết
+                         trong file bạn gửi.
+                    =========================== -->
+
+                    {% elif page == 'statistics' %}
+
+                        {% set menu_url =
+                            url_for(
+                                'preview.show',
+                                group='admin',
+                                page='statistics'
+                            )
+                        %}
+
+
+                    <!-- ==========================
+                         ROUTE DỰ PHÒNG
+                    =========================== -->
+
+                    {% else %}
+
+                        {% set menu_url =
+                            url_for(
+                                'preview.show',
+                                group='admin',
+                                page=page
+                            )
+                        %}
+
+                    {% endif %}
+
+
+                    <!-- ==========================
+                         HIỂN THỊ MENU
+                    =========================== -->
+
+                    <a
+                        href="{{ menu_url }}"
+
+                        {% if current_page == page
+                           or (
+                               page == 'luyen_thi'
+                               and request.blueprint == 'admin_luyen_thi'
+                           ) %}
+                            class="active"
+                            aria-current="page"
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </a>
+
+
+                {% endfor %}
+
+            </nav>
+
+
+            <!-- ==================================
+                 VỀ TRANG NGƯỜI HỌC
+            =================================== -->
+
+            <div class="admin-bottom">
+
+                <a href="{{ url_for('home.index') }}">
+                    Về trang người học
+                </a>
+
+            </div>
+
+        </aside>
+
+
+        <!-- ======================================
+             PHẦN NỘI DUNG CHÍNH
+        ======================================= -->
+
+        <div class="admin-main">
+
+
+            <!-- ==================================
+                 TOPBAR
+            =================================== -->
+
+            <header class="admin-topbar">
+
+                <div>
+
+                    <strong>
+                        Quản trị hệ thống
+                    </strong>
+
+                    <span>
+                        · Mộc Hán
+                    </span>
+
+                </div>
+
+
+                <!-- ==============================
+                     TÀI KHOẢN ADMIN
+                =============================== -->
+
+                {% if
+                    g.account
+                    and
+                    g.account.role == 'admin'
+                %}
+
+                    <div class="account-actions">
+
+                        <span>
+                            Xin chào,
+                            {{ g.account.full_name }}
+                        </span>
+
+
+                        <!-- ĐĂNG XUẤT -->
+
+                        <form
+                            method="post"
+                            action="{{ url_for('auth.logout') }}"
+                        >
+
+                            <input
+                                type="hidden"
+                                name="csrf_token"
+                                value="{{ csrf_token() }}"
+                            >
+
+                            <button
+                                type="submit"
+                                class="small-button"
+                            >
+                                Đăng xuất
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                {% endif %}
+
+            </header>
+
+
+            <!-- ==================================
+                 NỘI DUNG TRANG ADMIN
+            =================================== -->
+
+            <main class="admin-content">
+
+
+                <!-- ==============================
+                     THÔNG BÁO FLASK
+
+                     Giữ nguyên điều kiện
+                     của base.html cũ.
+                =============================== -->
+
+                {% if current_page not in (
+                    'chatbot_settings',
+                    'chatbot_knowledge'
+                ) %}
+
+                    {% for category, message in
+                        get_flashed_messages(
+                            with_categories=true
+                        )
+                    %}
+
+                        <div
+                            class="notice notice-{{ category }}"
+                            role="alert"
+                        >
+                            {{ message }}
+                        </div>
+
+                    {% endfor %}
+
+                {% endif %}
+
+
+                <!-- ==============================
+                     BLOCK NỘI DUNG
+                =============================== -->
+
+                {% block content %}
+                {% endblock %}
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==========================================
+         JAVASCRIPT CHUNG ADMIN
+    =========================================== -->
+
+    <script
+        src="{{ url_for('static', filename='js/admin.js') }}"
+        defer
+    ></script>
+
+
+    <!-- ==========================================
+         JAVASCRIPT RIÊNG TỪNG TRANG
+    =========================================== -->
+
+    {% block extra_js %}
+    {% endblock %}
+
+</body>
+
+</html>

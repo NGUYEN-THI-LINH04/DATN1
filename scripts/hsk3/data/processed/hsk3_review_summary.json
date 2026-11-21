@@ -1,0 +1,16 @@
+{
+  "HSK": 3,
+  "TongMuc": 973,
+  "TuMoiKhongCanhBao": 652,
+  "TuMoiCanRaSoat": 298,
+  "TuCanKiemTraTrungPinyin": 11,
+  "TuTaiSuDung": 12,
+  "SoMucCoCanhBaoNguon": 317,
+  "ThongKeCanhBao": {
+    "CO_GHI_CHU_LUONG_TU": 232,
+    "NGHIA_DAI_CAN_RUT_GON": 93,
+    "CAN_KIEM_TRA_TU_DA_AM": 7,
+    "NGUON_YEU_CAU_RA_SOAT": 2
+  },
+  "DaGhiSQL": false
+}

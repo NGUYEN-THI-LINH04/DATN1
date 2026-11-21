@@ -1,0 +1,62 @@
+{% extends "auth/base.html" %}
+
+{% block title %}Đăng nhập | Mộc Hán{% endblock %}
+
+{% block content %}
+<h1>Chào mừng bạn trở lại</h1>
+<p>Đăng nhập để tiếp tục học tiếng Trung.</p>
+
+{% for category, message in get_flashed_messages(with_categories=true) %}
+    <p class="notice" role="alert">{{ message }}</p>
+{% endfor %}
+
+<form method="post" action="{{ url_for('auth.login') }}">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+    <div class="field">
+        <label for="username">Tên đăng nhập</label>
+        <input
+            id="username"
+            name="username"
+            type="text"
+            maxlength="50"
+            autocomplete="username"
+            value="{{ request.form.get('username', '') }}"
+            required
+        >
+    </div>
+
+    <div class="field">
+        <label for="password">Mật khẩu</label>
+        <input
+            id="password"
+            name="password"
+            type="password"
+            maxlength="128"
+            autocomplete="current-password"
+            required
+        >
+    </div>
+
+    <button type="submit" class="button full-width">
+        Đăng nhập
+    </button>
+</form>
+<p class="space-top">
+    <a href="{{ url_for('preview.show', group='auth', page='forgot_password') }}">
+        Quên mật khẩu?
+    </a>
+</p>
+<p class="space-top">
+    Chưa có tài khoản?
+    <a href="{{ url_for('auth.register') }}">Đăng ký</a>
+</p>
+
+<p>
+    <a href="{{ url_for('auth.admin_login') }}">Đăng nhập quản trị viên</a>
+</p>
+
+<p>
+    <a href="{{ url_for('home.index') }}">Về trang chủ</a>
+</p>
+{% endblock %}

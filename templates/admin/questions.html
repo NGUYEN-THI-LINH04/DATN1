@@ -1,0 +1,1784 @@
+{% extends "admin/base.html" %}
+
+{% block title %}
+Câu hỏi | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+{# ==========================================================
+   XÁC ĐỊNH TRẠNG THÁI BÀI TẬP ĐANG HIỂN THỊ
+========================================================== #}
+
+{% set selected_ns = namespace(status=None) %}
+
+{% if selected_exercise %}
+    {% for exercise in exercises %}
+        {% if exercise.id == selected_exercise %}
+            {% set selected_ns.status = exercise.status %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
+{# ==========================================================
+   XÁC ĐỊNH TRẠNG THÁI CÂU HỎI ĐANG SỬA
+========================================================== #}
+
+{% set edit_ns = namespace(status=None) %}
+
+{% if editing_question %}
+    {% for exercise in exercises %}
+        {% if exercise.id == editing_question.exercise_id %}
+            {% set edit_ns.status = exercise.status %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
+{# ==========================================================
+   CHỈ CHO SẮP XẾP KHI BÀI TẬP LÀ BẢN NHÁP
+========================================================== #}
+
+{% set reorder_allowed =
+    can_reorder
+    and selected_ns.status == 'ban_nhap'
+%}
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        CÂU HỎI
+    </span>
+
+    <h1>
+        Quản lý câu hỏi
+    </h1>
+
+    <p>
+        Tạo, chỉnh sửa và sắp xếp câu hỏi
+        của từng bài tập.
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     THÊM / SỬA CÂU HỎI
+===================================================== -->
+
+<section class="panel">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            {% if editing_question %}
+
+                <span class="eyebrow">
+                    CHỈNH SỬA
+                </span>
+
+                <h2>
+                    Sửa câu hỏi
+                </h2>
+
+            {% else %}
+
+                <span class="eyebrow">
+                    THÊM CÂU HỎI
+                </span>
+
+                <h2>
+                    + Tạo câu hỏi mới
+                </h2>
+
+            {% endif %}
+
+        </div>
+
+
+        {% if editing_question %}
+
+            <a
+                class="small-button"
+
+                href="{{ url_for(
+                    'admin_questions.index',
+
+                    exercise_id=selected_exercise,
+
+                    type=selected_type,
+
+                    skill=selected_skill,
+
+                    q=keyword,
+
+                    page=page
+                ) }}"
+            >
+                Hủy chỉnh sửa
+            </a>
+
+        {% endif %}
+
+    </div>
+
+
+    {% if
+        editing_question
+        and edit_ns.status != 'ban_nhap'
+    %}
+
+        <div class="notice">
+
+            Câu hỏi này thuộc một bài tập đã xuất bản
+            hoặc không còn ở trạng thái bản nháp.
+
+            Vì vậy hệ thống chỉ cho phép xem,
+            không cho chỉnh sửa nội dung hoặc đáp án.
+
+        </div>
+
+    {% else %}
+
+        <form
+            method="post"
+
+            action="{% if editing_question %}{{ url_for(
+                'admin_questions.edit',
+
+                question_id=editing_question.id,
+
+                exercise_id=selected_exercise,
+
+                type=selected_type,
+
+                skill=selected_skill,
+
+                q=keyword,
+
+                page=page
+
+            ) }}{% else %}{{ url_for(
+                'admin_questions.create'
+            ) }}{% endif %}"
+
+            id="question-editor-form"
+        >
+
+            <input
+                type="hidden"
+                name="csrf_token"
+                value="{{ csrf_token() }}"
+            >
+
+
+            <!-- =================================================
+                 BÀI TẬP
+            ================================================== -->
+
+            <div class="field">
+
+                <label for="question-exercise">
+                    Bài tập *
+                </label>
+
+                <select
+                    id="question-exercise"
+                    name="exercise_id"
+                    required
+                >
+
+                    <option value="">
+                        — Chọn bài tập —
+                    </option>
+
+                    {% for exercise in exercises %}
+
+                        <option
+                            value="{{ exercise.id }}"
+
+                            {% if
+                                editing_question
+                                and
+                                editing_question.exercise_id
+                                == exercise.id
+                            %}
+                                selected
+
+                            {% elif
+                                not editing_question
+                                and
+                                selected_exercise
+                                == exercise.id
+                            %}
+                                selected
+                            {% endif %}
+
+                            {% if
+                                exercise.status != 'ban_nhap'
+                            %}
+                                disabled
+                            {% endif %}
+                        >
+
+                            HSK {{ exercise.course_level }}
+                            ·
+                            Bài {{ exercise.lesson_order }}
+                            ·
+                            {{ exercise.title }}
+
+                            {% if exercise.status == 'da_xuat_ban' %}
+                                · Đã xuất bản
+                            {% elif exercise.status != 'ban_nhap' %}
+                                · Không thể chỉnh sửa
+                            {% endif %}
+
+                        </option>
+
+                    {% endfor %}
+
+                </select>
+
+                <small>
+                    Chỉ bài tập ở trạng thái Bản nháp
+                    mới được thêm hoặc chỉnh sửa câu hỏi.
+                </small>
+
+            </div>
+
+
+            <!-- =================================================
+                 LOẠI CÂU HỎI + KỸ NĂNG
+            ================================================== -->
+
+            <div class="grid-2">
+
+                <div class="field">
+
+                    <label for="question-type">
+                        Loại câu hỏi *
+                    </label>
+
+                    <select
+                        id="question-type"
+                        name="question_type"
+                        required
+                    >
+
+                        {% for value, label in question_types.items() %}
+
+                            <option
+                                value="{{ value }}"
+
+                                {% if
+                                    editing_question
+                                    and
+                                    editing_question.type == value
+                                %}
+                                    selected
+                                {% endif %}
+                            >
+                                {{ label }}
+                            </option>
+
+                        {% endfor %}
+
+                    </select>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label for="question-skill">
+                        Kỹ năng *
+                    </label>
+
+                    <select
+                        id="question-skill"
+                        name="skill"
+                        required
+                    >
+
+                        {% for value, label in skills.items() %}
+
+                            <option
+                                value="{{ value }}"
+
+                                {% if
+                                    editing_question
+                                    and
+                                    editing_question.skill == value
+                                %}
+                                    selected
+                                {% endif %}
+                            >
+                                {{ label }}
+                            </option>
+
+                        {% endfor %}
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 NỘI DUNG CÂU HỎI
+            ================================================== -->
+
+            <div class="field">
+
+                <label for="question-content">
+                    Nội dung câu hỏi *
+                </label>
+
+                <textarea
+                    id="question-content"
+                    name="content"
+                    rows="4"
+                    required
+                >{{ editing_question.content if editing_question else '' }}</textarea>
+
+            </div>
+
+
+            <!-- =================================================
+                 ĐOẠN VĂN / NGỮ CẢNH
+            ================================================== -->
+
+            <div class="field">
+
+                <label for="question-passage">
+                    Đoạn văn / ngữ cảnh
+                </label>
+
+                <textarea
+                    id="question-passage"
+                    name="passage"
+                    rows="4"
+                >{{ editing_question.passage if editing_question else '' }}</textarea>
+
+            </div>
+
+
+            <!-- =================================================
+                 MEDIA
+            ================================================== -->
+
+            <div class="field">
+
+                <label for="question-media">
+                    Media
+                </label>
+
+                <select
+                    id="question-media"
+                    name="media_id"
+                >
+
+                    <option value="">
+                        — Không dùng media —
+                    </option>
+
+                    {% for media in media_items %}
+
+                        <option
+                            value="{{ media.id }}"
+
+                            {% if
+                                editing_question
+                                and
+                                editing_question.media_id
+                                == media.id
+                            %}
+                                selected
+                            {% endif %}
+                        >
+
+                            #{{ media.id }}
+                            ·
+                            {{ media.type }}
+                            ·
+                            {{ media.title }}
+
+                        </option>
+
+                    {% endfor %}
+
+                </select>
+
+                <small>
+                    Với câu nghe, chọn file âm thanh
+                    từ kho Media đã có.
+                </small>
+
+            </div>
+
+
+            <!-- =================================================
+                 CHỌN MỘT / CHỌN NHIỀU
+            ================================================== -->
+
+            <div
+                class="question-type-panel"
+                data-question-panel="choice"
+            >
+
+                <div class="question-choice-block">
+
+                    <h3>
+                        Các lựa chọn
+                    </h3>
+
+                    {% for index in range(1, 5) %}
+
+                        {% set existing_choice =
+                            editing_question.choices[index - 1]
+
+                            if
+                                editing_question
+                                and
+                                editing_question.choices|length
+                                >= index
+
+                            else
+                                none
+                        %}
+
+                        <div class="question-choice-row">
+
+                            <div class="field">
+
+                                <label>
+                                    Lựa chọn {{ index }}
+                                </label>
+
+                                <input
+                                    type="text"
+
+                                    name="choice_{{ index }}"
+
+                                    maxlength="2000"
+
+                                    value="{{
+                                        existing_choice.text
+                                        if existing_choice
+                                        else ''
+                                    }}"
+                                >
+
+                            </div>
+
+
+                            <label class="question-correct-check">
+
+                                <input
+                                    type="checkbox"
+
+                                    name="correct_{{ index }}"
+
+                                    value="1"
+
+                                    {% if
+                                        existing_choice
+                                        and
+                                        existing_choice.correct
+                                    %}
+                                        checked
+                                    {% endif %}
+                                >
+
+                                Đáp án đúng
+
+                            </label>
+
+                        </div>
+
+                    {% endfor %}
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 ĐÚNG / SAI
+            ================================================== -->
+
+            <div
+                class="question-type-panel"
+                data-question-panel="true-false"
+            >
+
+                <div class="field">
+
+                    <label>
+                        Đáp án đúng
+                    </label>
+
+                    <select
+                        name="true_false_answer"
+                    >
+
+                        <option value="">
+                            — Chọn —
+                        </option>
+
+
+                        <option
+                            value="dung"
+
+                            {% if
+                                editing_question
+                                and
+                                editing_question.answer_data.get(
+                                    'answer'
+                                )
+                                == 'dung'
+                            %}
+                                selected
+                            {% endif %}
+                        >
+                            Đúng
+                        </option>
+
+
+                        <option
+                            value="sai"
+
+                            {% if
+                                editing_question
+                                and
+                                editing_question.answer_data.get(
+                                    'answer'
+                                )
+                                == 'sai'
+                            %}
+                                selected
+                            {% endif %}
+                        >
+                            Sai
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 ĐIỀN TỪ
+            ================================================== -->
+
+            <div
+                class="question-type-panel"
+                data-question-panel="fill"
+            >
+
+                <div class="field">
+
+                    <label>
+                        Các đáp án được chấp nhận
+                    </label>
+
+                    <textarea
+                        name="fill_answers"
+                        rows="4"
+                        placeholder="Mỗi dòng một đáp án được chấp nhận"
+                    >{% if editing_question %}{{ editing_question.answer_data.get('answers', []) | join('\n') }}{% endif %}</textarea>
+
+                    <small>
+                        Mỗi dòng là một đáp án hệ thống
+                        có thể chấp nhận.
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 GHÉP CẶP
+            ================================================== -->
+
+            <div
+                class="question-type-panel"
+                data-question-panel="matching"
+            >
+
+                <div class="field">
+
+                    <label>
+                        Các cặp đúng
+                    </label>
+
+                    <textarea
+                        name="matching_pairs"
+                        rows="6"
+                        placeholder="你 => bạn&#10;我 => tôi"
+                    >{% if editing_question %}{% for pair in editing_question.answer_data.get('pairs', []) %}{{ pair.left }} => {{ pair.right }}{% if not loop.last %}
+{% endif %}{% endfor %}{% endif %}</textarea>
+
+                    <small>
+                        Mỗi dòng:
+                        vế trái => vế phải
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 SẮP XẾP
+            ================================================== -->
+
+            <div
+                class="question-type-panel"
+                data-question-panel="sorting"
+            >
+
+                <div class="field">
+
+                    <label>
+                        Thứ tự đúng
+                    </label>
+
+                    <textarea
+                        name="sorting_items"
+                        rows="6"
+                        placeholder="我&#10;是&#10;学生"
+                    >{% if editing_question %}{{ editing_question.answer_data.get('items', []) | join('\n') }}{% endif %}</textarea>
+
+                    <small>
+                        Nhập từng thành phần theo đúng thứ tự,
+                        mỗi dòng một phần.
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 VIẾT NGẮN
+            ================================================== -->
+
+            <div
+                class="question-type-panel"
+                data-question-panel="short-writing"
+            >
+
+                <div class="field">
+
+                    <label>
+                        Đáp án mẫu
+                    </label>
+
+                    <textarea
+                        name="sample_answer"
+                        rows="5"
+                        placeholder="Nhập đáp án mẫu..."
+                    >{% if editing_question %}{{ editing_question.answer_data.get('sample_answer', '') }}{% endif %}</textarea>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 GIẢI THÍCH
+            ================================================== -->
+
+            <div class="field">
+
+                <label for="question-explanation">
+                    Giải thích đáp án
+                </label>
+
+                <textarea
+                    id="question-explanation"
+                    name="explanation"
+                    rows="4"
+                >{{ editing_question.explanation if editing_question else '' }}</textarea>
+
+            </div>
+
+
+            <!-- =================================================
+                 ĐIỂM
+            ================================================== -->
+
+            <div class="field">
+
+                <label for="question-score">
+                    Điểm tối đa *
+                </label>
+
+                <input
+                    id="question-score"
+
+                    type="number"
+
+                    name="max_score"
+
+                    min="0.01"
+
+                    step="0.01"
+
+                    value="{{
+                        editing_question.max_score
+                        if editing_question
+                        else 1
+                    }}"
+
+                    required
+                >
+
+            </div>
+
+
+            <!-- =================================================
+                 BUTTON
+            ================================================== -->
+
+            <div class="course-action-buttons">
+
+                <button
+                    type="submit"
+                    class="button"
+                >
+
+                    {% if editing_question %}
+
+                        Lưu thay đổi
+
+                    {% else %}
+
+                        + Thêm câu hỏi
+
+                    {% endif %}
+
+                </button>
+
+
+                {% if editing_question %}
+
+                    <a
+                        class="small-button"
+
+                        href="{{ url_for(
+                            'admin_questions.index',
+
+                            exercise_id=selected_exercise,
+
+                            type=selected_type,
+
+                            skill=selected_skill,
+
+                            q=keyword,
+
+                            page=page
+                        ) }}"
+                    >
+                        Hủy
+                    </a>
+
+                {% endif %}
+
+            </div>
+
+        </form>
+
+    {% endif %}
+
+</section>
+
+
+<!-- =====================================================
+     BỘ LỌC
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                BỘ LỌC
+            </span>
+
+            <h2>
+                Tìm câu hỏi
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <form
+        method="get"
+
+        action="{{ url_for(
+            'admin_questions.index'
+        ) }}"
+
+        class="admin-filter-grid"
+    >
+
+        <!-- BÀI TẬP -->
+
+        <div class="field">
+
+            <label>
+                Bài tập
+            </label>
+
+            <select
+                name="exercise_id"
+            >
+
+                <option value="">
+                    Tất cả bài tập
+                </option>
+
+                {% for exercise in exercises %}
+
+                    <option
+                        value="{{ exercise.id }}"
+
+                        {% if
+                            selected_exercise
+                            == exercise.id
+                        %}
+                            selected
+                        {% endif %}
+                    >
+
+                        HSK {{ exercise.course_level }}
+                        ·
+                        Bài {{ exercise.lesson_order }}
+                        ·
+                        {{ exercise.title }}
+
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- LOẠI CÂU HỎI -->
+
+        <div class="field">
+
+            <label>
+                Loại câu hỏi
+            </label>
+
+            <select
+                name="type"
+            >
+
+                <option
+                    value="all"
+
+                    {% if
+                        selected_type == 'all'
+                    %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+                {% for value, label in question_types.items() %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            selected_type == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- KỸ NĂNG -->
+
+        <div class="field">
+
+            <label>
+                Kỹ năng
+            </label>
+
+            <select
+                name="skill"
+            >
+
+                <option
+                    value="all"
+
+                    {% if
+                        selected_skill == 'all'
+                    %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+                {% for value, label in skills.items() %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            selected_skill == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- TÌM KIẾM -->
+
+        <div class="field">
+
+            <label>
+                Tìm kiếm
+            </label>
+
+            <input
+                type="search"
+
+                name="q"
+
+                value="{{ keyword }}"
+
+                placeholder="Nội dung, giải thích..."
+            >
+
+        </div>
+
+
+        <!-- BUTTON -->
+
+        <div class="course-action-buttons">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lọc
+            </button>
+
+            <a
+                class="small-button"
+
+                href="{{ url_for(
+                    'admin_questions.index'
+                ) }}"
+            >
+                Xóa lọc
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+
+<!-- =====================================================
+     DANH SÁCH
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                CÂU HỎI
+            </span>
+
+            <h2>
+                Danh sách câu hỏi
+            </h2>
+
+            <p>
+
+                Hiện có
+
+                <strong>
+                    {{ total_count }}
+                </strong>
+
+                câu hỏi phù hợp.
+
+                Trang
+                {{ page }}
+                /
+                {{ total_pages }}.
+
+            </p>
+
+        </div>
+
+
+        {% if reorder_allowed %}
+
+            <button
+                type="submit"
+
+                class="button"
+
+                form="question-reorder-form"
+            >
+                Lưu thứ tự
+            </button>
+
+        {% endif %}
+
+    </div>
+
+
+    <!-- =================================================
+         THÔNG BÁO SẮP XẾP
+    ================================================== -->
+
+    {% if reorder_allowed %}
+
+        <div class="notice lesson-order-notice">
+
+            Bài tập hiện có
+
+            <strong>
+                {{ exercise_question_count }}
+            </strong>
+
+            câu hỏi.
+
+            Nhập lại thứ tự từ
+
+            <strong>
+                1 đến {{ exercise_question_count }}
+            </strong>
+
+            sao cho không trùng số,
+            sau đó bấm
+
+            <strong>
+                Lưu thứ tự
+            </strong>.
+
+        </div>
+
+
+        <form
+            id="question-reorder-form"
+
+            method="post"
+
+            action="{{ url_for(
+                'admin_questions.reorder',
+
+                exercise_id=selected_exercise
+            ) }}"
+        >
+
+            <input
+                type="hidden"
+
+                name="csrf_token"
+
+                value="{{ csrf_token() }}"
+            >
+
+        </form>
+
+
+    {% elif
+        selected_exercise
+        and selected_ns.status == 'da_xuat_ban'
+    %}
+
+        <div class="notice">
+
+            Bài tập này đã được xuất bản.
+
+            Hệ thống chỉ cho phép xem câu hỏi,
+            không cho thay đổi thứ tự,
+            chỉnh sửa hoặc xóa câu hỏi.
+
+        </div>
+
+
+    {% elif
+        selected_exercise
+        and selected_ns.status
+        and selected_ns.status != 'ban_nhap'
+    %}
+
+        <div class="notice">
+
+            Bài tập hiện không ở trạng thái Bản nháp.
+
+            Không thể thay đổi thứ tự câu hỏi.
+
+        </div>
+
+
+    {% elif
+        selected_exercise
+        and exercise_question_count > page_size
+    %}
+
+        <div class="notice">
+
+            Bài tập này có hơn
+            {{ page_size }}
+            câu hỏi nên chức năng sắp xếp
+            toàn bộ đang tạm ẩn để tránh
+            cập nhật thiếu thứ tự.
+
+        </div>
+
+    {% endif %}
+
+
+    <!-- =================================================
+         BẢNG CÂU HỎI
+    ================================================== -->
+
+    {% if questions %}
+
+        <div class="table-scroll">
+
+            <table class="data-table question-admin-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Thứ tự
+                        </th>
+
+                        <th>
+                            Nội dung
+                        </th>
+
+                        <th>
+                            Bài tập
+                        </th>
+
+                        <th>
+                            Loại
+                        </th>
+
+                        <th>
+                            Kỹ năng
+                        </th>
+
+                        <th>
+                            Media
+                        </th>
+
+                        <th>
+                            Điểm
+                        </th>
+
+                        <th>
+                            Thao tác
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    {% for question in questions %}
+
+                        <tr>
+
+                            <!-- =============================
+                                 THỨ TỰ
+                            ============================== -->
+
+                            <td>
+
+                                {% if
+                                    reorder_allowed
+                                %}
+
+                                    <input
+                                        class="question-order-input"
+
+                                        type="number"
+
+                                        name="question_order_{{ question.id }}"
+
+                                        value="{{ question.order }}"
+
+                                        min="1"
+
+                                        max="{{ exercise_question_count }}"
+
+                                        step="1"
+
+                                        form="question-reorder-form"
+
+                                        required
+                                    >
+
+                                {% else %}
+
+                                    {{ question.order }}
+
+                                {% endif %}
+
+                            </td>
+
+
+                            <!-- =============================
+                                 NỘI DUNG
+                            ============================== -->
+
+                            <td>
+
+                                <strong>
+                                    {{ question.content }}
+                                </strong>
+
+
+                                {% if question.passage %}
+
+                                    <div class="media-path">
+
+                                        Ngữ cảnh:
+                                        {{ question.passage }}
+
+                                    </div>
+
+                                {% endif %}
+
+
+                                {% if question.explanation %}
+
+                                    <div class="media-path">
+
+                                        Giải thích:
+                                        {{ question.explanation }}
+
+                                    </div>
+
+                                {% endif %}
+
+
+                                {% if question.choice_count %}
+
+                                    <div class="media-path">
+
+                                        {{ question.choice_count }}
+                                        lựa chọn
+
+                                    </div>
+
+                                {% endif %}
+
+                            </td>
+
+
+                            <!-- =============================
+                                 BÀI TẬP
+                            ============================== -->
+
+                            <td>
+
+                                <strong>
+                                    {{ question.exercise_title }}
+                                </strong>
+
+                                <div class="media-path">
+
+                                    HSK {{ question.course_level }}
+
+                                    ·
+
+                                    Bài {{ question.lesson_order }}
+
+                                </div>
+
+
+                                {% if
+                                    question.exercise_status
+                                    == 'da_xuat_ban'
+                                %}
+
+                                    <div class="media-path">
+                                        Đã xuất bản
+                                    </div>
+
+                                {% elif
+                                    question.exercise_status
+                                    == 'ban_nhap'
+                                %}
+
+                                    <div class="media-path">
+                                        Bản nháp
+                                    </div>
+
+                                {% endif %}
+
+                            </td>
+
+
+                            <!-- =============================
+                                 LOẠI
+                            ============================== -->
+
+                            <td>
+
+                                {{
+                                    question_types.get(
+                                        question.type,
+                                        question.type
+                                    )
+                                }}
+
+                            </td>
+
+
+                            <!-- =============================
+                                 KỸ NĂNG
+                            ============================== -->
+
+                            <td>
+
+                                {{
+                                    skills.get(
+                                        question.skill,
+                                        question.skill
+                                    )
+                                }}
+
+                            </td>
+
+
+                            <!-- =============================
+                                 MEDIA
+                            ============================== -->
+
+                            <td>
+
+                                {% if question.media_id %}
+
+                                    <strong>
+                                        #{{ question.media_id }}
+                                    </strong>
+
+                                    <div class="media-path">
+
+                                        {{ question.media_type }}
+
+                                        ·
+
+                                        {{ question.media_title }}
+
+                                    </div>
+
+                                {% else %}
+
+                                    —
+
+                                {% endif %}
+
+                            </td>
+
+
+                            <!-- =============================
+                                 ĐIỂM
+                            ============================== -->
+
+                            <td>
+
+                                {{ question.max_score }}
+
+                            </td>
+
+
+                            <!-- =============================
+                                 THAO TÁC
+                            ============================== -->
+
+                            <td>
+
+                                {% if
+                                    question.exercise_status
+                                    == 'ban_nhap'
+                                %}
+
+                                    <!-- CHỈNH SỬA -->
+
+                                    <a
+                                        class="small-button"
+
+                                        href="{{ url_for(
+                                            'admin_questions.index',
+
+                                            edit=question.id,
+
+                                            exercise_id=
+                                                selected_exercise
+                                                or
+                                                question.exercise_id,
+
+                                            type=selected_type,
+
+                                            skill=selected_skill,
+
+                                            q=keyword,
+
+                                            page=page
+                                        ) }}"
+                                    >
+                                        Chỉnh sửa
+                                    </a>
+
+
+                                    <!-- XÓA -->
+
+                                    <form
+                                        method="post"
+
+                                        action="{{ url_for(
+                                            'admin_questions.delete',
+
+                                            question_id=question.id,
+
+                                            exercise_id=
+                                                selected_exercise,
+
+                                            type=selected_type,
+
+                                            skill=selected_skill,
+
+                                            q=keyword,
+
+                                            page=page
+                                        ) }}"
+
+                                        onsubmit="
+                                            return confirm(
+                                                'Bạn có chắc chắn muốn xóa câu hỏi này? '
+                                                + 'Thao tác chỉ được thực hiện khi '
+                                                + 'câu hỏi chưa có lịch sử làm bài.'
+                                            );
+                                        "
+                                    >
+
+                                        <input
+                                            type="hidden"
+
+                                            name="csrf_token"
+
+                                            value="{{ csrf_token() }}"
+                                        >
+
+                                        <button
+                                            type="submit"
+
+                                            class="small-button"
+                                        >
+                                            Xóa
+                                        </button>
+
+                                    </form>
+
+
+                                {% else %}
+
+                                    <span class="media-path">
+                                        Chỉ xem
+                                    </span>
+
+                                {% endif %}
+
+                            </td>
+
+                        </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <!-- =================================================
+             PHÂN TRANG
+        ================================================== -->
+
+        {% if total_pages > 1 %}
+
+            <nav class="admin-pagination">
+
+
+                {% if page > 1 %}
+
+                    <a
+                        class="small-button"
+
+                        href="{{ url_for(
+                            'admin_questions.index',
+
+                            page=page - 1,
+
+                            exercise_id=selected_exercise,
+
+                            type=selected_type,
+
+                            skill=selected_skill,
+
+                            q=keyword
+                        ) }}"
+                    >
+                        ← Trang trước
+                    </a>
+
+                {% endif %}
+
+
+                <span
+                    class="admin-pagination-info"
+                >
+
+                    Trang
+                    {{ page }}
+                    /
+                    {{ total_pages }}
+
+                </span>
+
+
+                {% if page < total_pages %}
+
+                    <a
+                        class="small-button"
+
+                        href="{{ url_for(
+                            'admin_questions.index',
+
+                            page=page + 1,
+
+                            exercise_id=selected_exercise,
+
+                            type=selected_type,
+
+                            skill=selected_skill,
+
+                            q=keyword
+                        ) }}"
+                    >
+                        Trang sau →
+                    </a>
+
+                {% endif %}
+
+            </nav>
+
+        {% endif %}
+
+
+    {% else %}
+
+        <div class="notice">
+
+            Chưa có câu hỏi phù hợp.
+
+        </div>
+
+    {% endif %}
+
+</section>
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script>
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+        const typeSelect =
+            document.getElementById(
+                "question-type"
+            );
+
+        const panels =
+            document.querySelectorAll(
+                "[data-question-panel]"
+            );
+
+
+        function updateQuestionPanels() {
+
+            if (!typeSelect) {
+                return;
+            }
+
+
+            const type =
+                typeSelect.value;
+
+
+            panels.forEach(
+                function (panel) {
+
+                    panel.hidden = true;
+
+                }
+            );
+
+
+            let panelName = "";
+
+
+            if (
+                type === "chon_mot"
+                ||
+                type === "chon_nhieu"
+            ) {
+
+                panelName = "choice";
+
+            }
+
+            else if (
+                type === "dung_sai"
+            ) {
+
+                panelName =
+                    "true-false";
+
+            }
+
+            else if (
+                type === "dien_tu"
+            ) {
+
+                panelName =
+                    "fill";
+
+            }
+
+            else if (
+                type === "ghep_cap"
+            ) {
+
+                panelName =
+                    "matching";
+
+            }
+
+            else if (
+                type === "sap_xep"
+            ) {
+
+                panelName =
+                    "sorting";
+
+            }
+
+            else if (
+                type === "viet_ngan"
+            ) {
+
+                panelName =
+                    "short-writing";
+
+            }
+
+
+            if (!panelName) {
+                return;
+            }
+
+
+            const activePanel =
+                document.querySelector(
+                    '[data-question-panel="'
+                    + panelName
+                    + '"]'
+                );
+
+
+            if (activePanel) {
+
+                activePanel.hidden = false;
+
+            }
+
+        }
+
+
+        if (typeSelect) {
+
+            typeSelect.addEventListener(
+                "change",
+                updateQuestionPanels
+            );
+
+            updateQuestionPanels();
+
+        }
+
+    }
+);
+
+</script>
+
+{% endblock %}

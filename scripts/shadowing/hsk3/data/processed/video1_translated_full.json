@@ -1,0 +1,1714 @@
+{
+  "module": "shadowing",
+  "youtube_id": "wZDej3Logc4",
+  "sentences": [
+    {
+      "start": 6.133,
+      "end": 9.756,
+      "hanzi": "大家好，欢迎来到“每天中文”。我是李明。",
+      "pinyin": "dà jiā hǎo huān yíng lái dào měi tiān zhōng wén wǒ shì lǐ míng",
+      "vi": "Xin chào mọi người, chào mừng đến với 'Tiếng Trung mỗi ngày'. Tôi là Lý Minh."
+    },
+    {
+      "start": 9.766,
+      "end": 11.69,
+      "hanzi": "大家好，我是王雨。",
+      "pinyin": "dà jiā hǎo wǒ shì wáng yǔ",
+      "vi": "Xin chào mọi người, tôi là Vương Vũ."
+    },
+    {
+      "start": 11.7,
+      "end": 13.123,
+      "hanzi": "李明，你好！",
+      "pinyin": "lǐ míng nǐ hǎo",
+      "vi": "Lý Minh, xin chào!"
+    },
+    {
+      "start": 13.133,
+      "end": 14.423,
+      "hanzi": "王雨，你好！",
+      "pinyin": "wáng yǔ nǐ hǎo",
+      "vi": "Vương Vũ, xin chào!"
+    },
+    {
+      "start": 14.433,
+      "end": 18.123,
+      "hanzi": "今天你看起来很高兴，午饭吃什么好吃的了？",
+      "pinyin": "jīn tiān nǐ kàn qǐ lái hěn gāo xìng wǔ fàn chī shén me hǎo chī de le",
+      "vi": "Hôm nay trông bạn rất vui. Trưa nay bạn ăn món gì ngon thế?"
+    },
+    {
+      "start": 18.133,
+      "end": 19.856,
+      "hanzi": "哈哈，被你发现了。",
+      "pinyin": "hā hā bèi nǐ fā xiàn le",
+      "vi": "Haha, bị bạn phát hiện rồi."
+    },
+    {
+      "start": 19.866,
+      "end": 24.756,
+      "hanzi": "我今天中午吃了一家新开的上海菜，味道特别好。",
+      "pinyin": "wǒ jīn tiān zhōng wǔ chī le yī jiā xīn kāi de shàng hǎi cài wèi dào tè bié hǎo",
+      "vi": "Trưa nay tôi ăn ở một nhà hàng món Thượng Hải mới mở, hương vị đặc biệt ngon."
+    },
+    {
+      "start": 24.766,
+      "end": 25.956,
+      "hanzi": "哦？是吗？",
+      "pinyin": "ó shì ma",
+      "vi": "Ồ? Thật vậy sao?"
+    },
+    {
+      "start": 25.966,
+      "end": 27.923,
+      "hanzi": "那你吃饭快不快？",
+      "pinyin": "nà nǐ chī fàn kuài bù kuài",
+      "vi": "Vậy bạn ăn nhanh không?"
+    },
+    {
+      "start": 27.933,
+      "end": 33.523,
+      "hanzi": "我是说，这么好吃的菜，你是很快就吃完了，还是慢慢吃的？",
+      "pinyin": "wǒ shì shuō zhè me hǎo chī de cài nǐ shì hěn kuài jiù chī wán le hái shì màn màn chī de",
+      "vi": "Ý tôi là, món ăn ngon như thế, bạn ăn hết rất nhanh hay ăn từ từ?"
+    },
+    {
+      "start": 33.533,
+      "end": 36.523,
+      "hanzi": "嗯……这是一个好问题。",
+      "pinyin": "ń zhè shì yí gè hǎo wèn tí",
+      "vi": "Ừm... Đây là một câu hỏi hay."
+    },
+    {
+      "start": 36.533,
+      "end": 39.623,
+      "hanzi": "我好像……吃得非常快。",
+      "pinyin": "wǒ hǎo xiàng chī dé fēi cháng kuài",
+      "vi": "Hình như tôi... ăn rất nhanh."
+    },
+    {
+      "start": 39.633,
+      "end": 44.956,
+      "hanzi": "因为太好吃了，我就不停地吃，很快，我的盘子就空了。",
+      "pinyin": "yīn wèi tài hǎo chī le wǒ jiù bù tíng dì chī hěn kuài wǒ de pán zi jiù kōng le",
+      "vi": "Vì món ăn quá ngon nên tôi cứ ăn liên tục. Chẳng mấy chốc, đĩa của tôi đã hết sạch."
+    },
+    {
+      "start": 44.966,
+      "end": 46.956,
+      "hanzi": "哈哈，我明白了。",
+      "pinyin": "hā hā wǒ míng bái le",
+      "vi": "Haha, tôi hiểu rồi."
+    },
+    {
+      "start": 46.966,
+      "end": 52.023,
+      "hanzi": "其实，我们今天就可以聊一聊这个话题:吃饭的速度。",
+      "pinyin": "qí shí wǒ men jīn tiān jiù kě yǐ liáo yī liáo zhè ge huà tí chī fàn de sù dù",
+      "vi": "Thật ra hôm nay chúng ta có thể trò chuyện về chủ đề này: tốc độ ăn uống."
+    },
+    {
+      "start": 52.033,
+      "end": 53.523,
+      "hanzi": "吃饭的速度？",
+      "pinyin": "chī fàn de sù dù",
+      "vi": "Tốc độ ăn uống à?"
+    },
+    {
+      "start": 53.533,
+      "end": 56.956,
+      "hanzi": "这个话题很有意思！我从来没想过。",
+      "pinyin": "zhè ge huà tí hěn yǒu yì si wǒ cóng lái méi xiǎng guò",
+      "vi": "Chủ đề này thú vị đấy! Tôi chưa từng nghĩ đến."
+    },
+    {
+      "start": 56.966,
+      "end": 61.823,
+      "hanzi": "好啊，我们今天就来聊聊吃饭是快一点好，还是慢一点好。",
+      "pinyin": "hǎo a wǒ men jīn tiān jiù lái liáo liáo chī fàn shì kuài yì diǎn hǎo hái shì màn yì diǎn hǎo",
+      "vi": "Được thôi, hôm nay chúng ta cùng nói xem ăn nhanh tốt hơn hay ăn chậm tốt hơn."
+    },
+    {
+      "start": 61.833,
+      "end": 67.256,
+      "hanzi": "没错。这也是一个和我们每天的生活都非常有关系的话题。",
+      "pinyin": "méi cuò zhè yě shì yí gè hé wǒ men měi tiān de shēng huó dōu fēi cháng yǒu guān xì de huà tí",
+      "vi": "Đúng vậy. Đây cũng là chủ đề liên quan rất nhiều đến cuộc sống hằng ngày của chúng ta."
+    },
+    {
+      "start": 67.266,
+      "end": 70.223,
+      "hanzi": "对，我们每个人每天都要吃饭。",
+      "pinyin": "duì wǒ men měi gè rén měi tiān dōu yào chī fàn",
+      "vi": "Đúng, mỗi người chúng ta đều phải ăn cơm mỗi ngày."
+    },
+    {
+      "start": 70.233,
+      "end": 72.856,
+      "hanzi": "好，那我们马上开始吧！",
+      "pinyin": "hǎo nà wǒ men mǎ shàng kāi shǐ ba",
+      "vi": "Được, vậy chúng ta bắt đầu ngay nhé!"
+    },
+    {
+      "start": 72.866,
+      "end": 79.456,
+      "hanzi": "好，王雨。刚刚你说你今天中午吃饭吃得很快。",
+      "pinyin": "hǎo wáng yǔ gāng gāng nǐ shuō nǐ jīn tiān zhōng wǔ chī fàn chī dé hěn kuài",
+      "vi": "Được, Vương Vũ. Vừa rồi bạn nói trưa nay bạn ăn rất nhanh."
+    },
+    {
+      "start": 79.466,
+      "end": 82.69,
+      "hanzi": "那你平时吃饭也很快吗？",
+      "pinyin": "nà nǐ píng shí chī fàn yě hěn kuài ma",
+      "vi": "Vậy bình thường bạn cũng ăn nhanh như thế à?"
+    },
+    {
+      "start": 82.7,
+      "end": 87.156,
+      "hanzi": "所以，我的第一个问题是:你吃饭快吗？",
+      "pinyin": "suǒ yǐ wǒ de dì yí gè wèn tí shì nǐ chī fàn kuài ma",
+      "vi": "Vì thế câu hỏi đầu tiên của tôi là: Bạn ăn nhanh không?"
+    },
+    {
+      "start": 87.166,
+      "end": 92.856,
+      "hanzi": "嗯，我想一下。我觉得，我吃饭挺快的。",
+      "pinyin": "ń wǒ xiǎng yī xià wǒ jué de wǒ chī fàn tǐng kuài de",
+      "vi": "Ừm, để tôi nghĩ xem. Tôi thấy mình ăn khá nhanh."
+    },
+    {
+      "start": 92.866,
+      "end": 98.123,
+      "hanzi": "特别是工作日的时候，中午只有一个小时的休息时间，",
+      "pinyin": "tè bié shì gōng zuò rì de shí hòu zhōng wǔ zhǐ yǒu yí gè xiǎo shí de xiū xī shí jiān",
+      "vi": "Đặc biệt vào những ngày đi làm, buổi trưa chỉ có một tiếng nghỉ,"
+    },
+    {
+      "start": 98.133,
+      "end": 102.856,
+      "hanzi": "我要去餐厅，要排队，要等饭菜做好。",
+      "pinyin": "wǒ yào qù cān tīng yào pái duì yào děng fàn cài zuò hǎo",
+      "vi": "tôi phải đến nhà hàng, xếp hàng và đợi đồ ăn được làm xong."
+    },
+    {
+      "start": 102.866,
+      "end": 108.29,
+      "hanzi": "所以能坐下来吃饭的时间不多，我就会吃得很快。",
+      "pinyin": "suǒ yǐ néng zuò xià lái chī fàn de shí jiān bù duō wǒ jiù huì chī dé hěn kuài",
+      "vi": "Vì vậy thời gian thực sự ngồi xuống ăn không nhiều nên tôi ăn rất nhanh."
+    },
+    {
+      "start": 108.3,
+      "end": 115.29,
+      "hanzi": "我非常理解。很多上班的人可能都和你一样。时间太少了。",
+      "pinyin": "wǒ fēi cháng lǐ jiě hěn duō shàng bān de rén kě néng dōu hé nǐ yī yàng shí jiān tài shǎo le",
+      "vi": "Tôi rất hiểu. Có lẽ nhiều người đi làm cũng giống bạn. Thời gian quá ít."
+    },
+    {
+      "start": 115.3,
+      "end": 120.656,
+      "hanzi": "是啊。那你呢，李明？你吃饭快吗？",
+      "pinyin": "shì a nà nǐ ne lǐ míng nǐ chī fàn kuài ma",
+      "vi": "Đúng vậy. Còn bạn thì sao, Lý Minh? Bạn ăn nhanh không?"
+    },
+    {
+      "start": 120.666,
+      "end": 129.256,
+      "hanzi": "我？我现在吃饭很慢。但是，我以前也和你一样，吃饭非常快。",
+      "pinyin": "wǒ wǒ xiàn zài chī fàn hěn màn dàn shì wǒ yǐ qián yě hé nǐ yī yàng chī fàn fēi cháng kuài",
+      "vi": "Tôi à? Bây giờ tôi ăn rất chậm. Nhưng trước đây tôi cũng giống bạn, ăn rất nhanh."
+    },
+    {
+      "start": 129.266,
+      "end": 135.89,
+      "hanzi": "上大学的时候，我常常买一个面包，一边走一边吃，可能五分钟",
+      "pinyin": "shàng dà xué de shí hòu wǒ cháng cháng mǎi yí gè miàn bāo yī biān zǒu yī biān chī kě néng wǔ fēn zhōng",
+      "vi": "Hồi học đại học, tôi thường mua một chiếc bánh mì, vừa đi vừa ăn. Có lẽ chỉ mất năm phút"
+    },
+    {
+      "start": 135.9,
+      "end": 137.29,
+      "hanzi": "就吃完了。",
+      "pinyin": "jiù chī wán le",
+      "vi": "là ăn xong rồi."
+    },
+    {
+      "start": 137.3,
+      "end": 144.19,
+      "hanzi": "五分钟？天啊，那太快了！你为什么吃那么快？",
+      "pinyin": "wǔ fēn zhōng tiān a nà tài kuài le nǐ wèi shén me chī nà me kuài",
+      "vi": "Năm phút? Trời ơi, nhanh quá! Sao bạn ăn nhanh như vậy?"
+    },
+    {
+      "start": 144.2,
+      "end": 150.823,
+      "hanzi": "因为那时候总是很忙，有很多课，还有很多活动。",
+      "pinyin": "yīn wèi nà shí hòu zǒng shì hěn máng yǒu hěn duō kè hái yǒu hěn duō huó dòng",
+      "vi": "Vì lúc đó lúc nào cũng bận, có rất nhiều tiết học và nhiều hoạt động."
+    },
+    {
+      "start": 150.833,
+      "end": 158.556,
+      "hanzi": "我觉得吃饭这件事，不是那么重要，快点吃完，我就可以去做别的事情了，",
+      "pinyin": "wǒ jué de chī fàn zhè jiàn shì bú shì nà me zhòng yào kuài diǎn chī wán wǒ jiù kě yǐ qù zuò bié de shì qíng le",
+      "vi": "Tôi thấy chuyện ăn uống không quan trọng đến thế. Ăn xong nhanh thì có thể làm những việc khác,"
+    },
+    {
+      "start": 158.566,
+      "end": 162.756,
+      "hanzi": "比如去图书馆看书，或者去打篮球。",
+      "pinyin": "bǐ rú qù tú shū guǎn kàn shū huò zhě qù dǎ lán qiú",
+      "vi": "ví dụ như đến thư viện đọc sách hoặc đi chơi bóng rổ."
+    },
+    {
+      "start": 162.766,
+      "end": 170.056,
+      "hanzi": "对对对，我上学的时候也是这样。好像总有做不完的事情。",
+      "pinyin": "duì duì duì wǒ shàng xué de shí hòu yě shì zhè yàng hǎo xiàng zǒng yǒu zuò bù wán de shì qíng",
+      "vi": "Đúng, đúng. Hồi đi học tôi cũng vậy. Dường như lúc nào cũng có việc làm không hết."
+    },
+    {
+      "start": 170.066,
+      "end": 178.056,
+      "hanzi": "所以，你吃饭快吗？这个问题，在那个时候，我的回答肯定是“是，我非常",
+      "pinyin": "suǒ yǐ nǐ chī fàn kuài ma zhè ge wèn tí zài nà ge shí hòu wǒ de huí dá kěn dìng shì shì wǒ fēi cháng",
+      "vi": "Vì vậy, nếu hỏi 'Bạn ăn nhanh không?', thì lúc đó câu trả lời của tôi chắc chắn là: 'Có, tôi ăn rất"
+    },
+    {
+      "start": 178.066,
+      "end": 178.79,
+      "hanzi": "快”。",
+      "pinyin": "kuài",
+      "vi": "nhanh.'"
+    },
+    {
+      "start": 178.8,
+      "end": 186.19,
+      "hanzi": "那是什么时候开始，你觉得吃饭快可能不太好呢？",
+      "pinyin": "nà shì shén me shí hòu kāi shǐ nǐ jué de chī fàn kuài kě néng bù tài hǎo ne",
+      "vi": "Vậy từ khi nào bạn bắt đầu cảm thấy ăn nhanh có lẽ không tốt?"
+    },
+    {
+      "start": 186.2,
+      "end": 190.856,
+      "hanzi": "或者说，你是什么时候开始注意到这个问题的？",
+      "pinyin": "huò zhě shuō nǐ shì shén me shí hòu kāi shǐ zhù yì dào zhè ge wèn tí de",
+      "vi": "Hay nói cách khác, bạn bắt đầu chú ý đến vấn đề này từ khi nào?"
+    },
+    {
+      "start": 190.866,
+      "end": 198.456,
+      "hanzi": "我觉得是我工作以后。我妈妈，她总是对我说一句话。",
+      "pinyin": "wǒ jué de shì wǒ gōng zuò yǐ hòu wǒ mā mā tā zǒng shì duì wǒ shuō yī jù huà",
+      "vi": "Tôi nghĩ là sau khi đi làm. Mẹ tôi luôn nói với tôi một câu."
+    },
+    {
+      "start": 198.466,
+      "end": 201.123,
+      "hanzi": "哦？你妈妈说什么？",
+      "pinyin": "ó nǐ mā mā shuō shén me",
+      "vi": "Ồ? Mẹ bạn nói gì?"
+    },
+    {
+      "start": 201.133,
+      "end": 208.456,
+      "hanzi": "她每次看我吃饭那么快，她都说:“王雨，吃饭要慢一点。”",
+      "pinyin": "tā měi cì kàn wǒ chī fàn nà me kuài tā dōu shuō wáng yǔ chī fàn yào màn yì diǎn",
+      "vi": "Mỗi lần thấy tôi ăn nhanh như vậy, mẹ đều nói: 'Vương Vũ, ăn chậm lại một chút.'"
+    },
+    {
+      "start": 208.466,
+      "end": 216.856,
+      "hanzi": "开始我没觉得有什么，我觉得我习惯了。但是有一次，我吃得太快了，",
+      "pinyin": "kāi shǐ wǒ méi jué de yǒu shén me wǒ jué de wǒ xí guàn le dàn shì yǒu yī cì wǒ chī dé tài kuài le",
+      "vi": "Ban đầu tôi không thấy có vấn đề gì vì đã quen rồi. Nhưng có một lần tôi ăn quá nhanh,"
+    },
+    {
+      "start": 216.866,
+      "end": 220.756,
+      "hanzi": "下午我的胃就有一点不舒服。",
+      "pinyin": "xià wǔ wǒ de wèi jiù yǒu yì diǎn bù shū fú",
+      "vi": "đến buổi chiều dạ dày tôi hơi khó chịu."
+    },
+    {
+      "start": 220.766,
+      "end": 223.023,
+      "hanzi": "啊，胃不舒服？",
+      "pinyin": "a wèi bù shū fú",
+      "vi": "À, dạ dày khó chịu à?"
+    },
+    {
+      "start": 223.033,
+      "end": 231.156,
+      "hanzi": "对。那天以后，我才开始想，妈妈说“吃饭要慢一点”，这句话",
+      "pinyin": "duì nà tiān yǐ hòu wǒ cái kāi shǐ xiǎng mā mā shuō chī fàn yào màn yì diǎn zhè jù huà",
+      "vi": "Đúng vậy. Sau hôm đó tôi mới bắt đầu nghĩ rằng lời mẹ nói 'Ăn chậm lại một chút'"
+    },
+    {
+      "start": 231.166,
+      "end": 233.523,
+      "hanzi": "可能是对的。",
+      "pinyin": "kě néng shì duì de",
+      "vi": "có lẽ là đúng."
+    },
+    {
+      "start": 233.533,
+      "end": 236.656,
+      "hanzi": "看来，妈妈的话总是很有道理的。",
+      "pinyin": "kàn lái mā mā de huà zǒng shì hěn yǒu dào lǐ de",
+      "vi": "Xem ra lời mẹ nói lúc nào cũng có lý."
+    },
+    {
+      "start": 236.666,
+      "end": 241.09,
+      "hanzi": "其实我改变习惯也是因为我爸爸。",
+      "pinyin": "qí shí wǒ gǎi biàn xí guàn yě shì yīn wèi wǒ bà bà",
+      "vi": "Thật ra tôi thay đổi thói quen cũng là nhờ bố tôi."
+    },
+    {
+      "start": 241.1,
+      "end": 244.323,
+      "hanzi": "哦？你爸爸也这么说？",
+      "pinyin": "ó nǐ bà bà yě zhè me shuō",
+      "vi": "Ồ? Bố bạn cũng nói như vậy à?"
+    },
+    {
+      "start": 244.333,
+      "end": 248.423,
+      "hanzi": "对。他也是一个吃饭很慢的人。",
+      "pinyin": "duì tā yě shì yí gè chī fàn hěn màn de rén",
+      "vi": "Đúng. Bố tôi cũng là người ăn rất chậm."
+    },
+    {
+      "start": 248.433,
+      "end": 255.923,
+      "hanzi": "他常常告诉我:“李明，吃饭要慢一点。吃饭不是一个任务，它是一种享受。”",
+      "pinyin": "tā cháng cháng gào sù wǒ lǐ míng chī fàn yào màn yì diǎn chī fàn bú shì yí gè rèn wù tā shì yī zhǒng xiǎng shòu",
+      "vi": "Bố thường nói với tôi: 'Lý Minh, phải ăn chậm một chút. Ăn uống không phải nhiệm vụ, mà là một sự tận hưởng.'"
+    },
+    {
+      "start": 255.933,
+      "end": 257.99,
+      "hanzi": "一种享受。”",
+      "pinyin": "yī zhǒng xiǎng shòu",
+      "vi": "Một sự tận hưởng."
+    },
+    {
+      "start": 258.0,
+      "end": 265.456,
+      "hanzi": "“吃饭不是一个任务，它是一种享受。” 这句话说得真好。",
+      "pinyin": "chī fàn bú shì yí gè rèn wù tā shì yī zhǒng xiǎng shòu zhè jù huà shuō dé zhēn hǎo",
+      "vi": "'Ăn uống không phải nhiệm vụ, mà là một sự tận hưởng.' Câu này nói hay thật."
+    },
+    {
+      "start": 265.466,
+      "end": 272.19,
+      "hanzi": "是啊。所以，亲爱的听众朋友们，你们也可以问问自己或者问问你身边",
+      "pinyin": "shì a suǒ yǐ qīn ài de tīng zhòng péng yǒu men nǐ men yě kě yǐ wèn wèn zì jǐ huò zhě wèn wèn nǐ shēn biān",
+      "vi": "Đúng vậy. Vì thế, các thính giả thân mến, các bạn cũng có thể tự hỏi mình hoặc hỏi những người xung quanh"
+    },
+    {
+      "start": 272.2,
+      "end": 275.156,
+      "hanzi": "的人:你吃饭快吗？",
+      "pinyin": "de rén nǐ chī fàn kuài ma",
+      "vi": "rằng: Bạn ăn nhanh không?"
+    },
+    {
+      "start": 275.166,
+      "end": 281.356,
+      "hanzi": "如果答案是“是”，那么也许你们可以听听我们接下来的对话。",
+      "pinyin": "rú guǒ dá àn shì shì nà me yě xǔ nǐ men kě yǐ tīng tīng wǒ men jiē xià lái de duì huà",
+      "vi": "Nếu câu trả lời là 'Có', có lẽ các bạn nên nghe cuộc trò chuyện tiếp theo của chúng tôi."
+    },
+    {
+      "start": 281.366,
+      "end": 287.223,
+      "hanzi": "我们常常听到家人朋友对我们说，“吃饭要慢一点”，这背后其实",
+      "pinyin": "wǒ men cháng cháng tīng dào jiā rén péng yǒu duì wǒ men shuō chī fàn yào màn yì diǎn zhè bèi hòu qí shí",
+      "vi": "Chúng ta thường nghe người thân, bạn bè nhắc rằng 'Ăn chậm lại một chút'. Thật ra đằng sau lời nhắc đó"
+    },
+    {
+      "start": 287.233,
+      "end": 289.556,
+      "hanzi": "是有很多原因的。",
+      "pinyin": "shì yǒu hěn duō yuán yīn de",
+      "vi": "có rất nhiều lý do."
+    },
+    {
+      "start": 289.566,
+      "end": 292.09,
+      "hanzi": "嗯，我很想听听。",
+      "pinyin": "ń wǒ hěn xiǎng tīng tīng",
+      "vi": "Ừm, tôi rất muốn nghe."
+    },
+    {
+      "start": 292.1,
+      "end": 296.356,
+      "hanzi": "好，我们刚才聊了我们以前吃饭快的习惯。",
+      "pinyin": "hǎo wǒ men gāng cái liáo le wǒ men yǐ qián chī fàn kuài de xí guàn",
+      "vi": "Được, vừa rồi chúng ta đã nói về thói quen ăn nhanh trước đây."
+    },
+    {
+      "start": 296.366,
+      "end": 301.256,
+      "hanzi": "王雨，你刚才说，你妈妈让你“吃饭要慢一点”。",
+      "pinyin": "wáng yǔ nǐ gāng cái shuō nǐ mā mā ràng nǐ chī fàn yào màn yì diǎn",
+      "vi": "Vương Vũ, vừa rồi bạn nói mẹ bạn bảo 'Ăn chậm lại một chút'."
+    },
+    {
+      "start": 301.266,
+      "end": 303.69,
+      "hanzi": "那你知道为什么要慢一点吗？",
+      "pinyin": "nà nǐ zhī dào wèi shén me yào màn yì diǎn ma",
+      "vi": "Vậy bạn có biết tại sao phải ăn chậm hơn không?"
+    },
+    {
+      "start": 303.7,
+      "end": 306.09,
+      "hanzi": "嗯，我说不好。",
+      "pinyin": "ń wǒ shuō bù hǎo",
+      "vi": "Ừm, tôi cũng không biết giải thích thế nào."
+    },
+    {
+      "start": 306.1,
+      "end": 309.39,
+      "hanzi": "我只知道，那次我吃得太快，胃不舒服。",
+      "pinyin": "wǒ zhǐ zhī dào nà cì wǒ chī dé tài kuài wèi bù shū fú",
+      "vi": "Tôi chỉ biết lần đó mình ăn quá nhanh nên dạ dày khó chịu."
+    },
+    {
+      "start": 309.4,
+      "end": 313.49,
+      "hanzi": "所以，我想，慢慢吃，可能对胃好？",
+      "pinyin": "suǒ yǐ wǒ xiǎng màn màn chī kě néng duì wèi hǎo",
+      "vi": "Vì vậy tôi nghĩ, ăn từ từ có lẽ tốt cho dạ dày?"
+    },
+    {
+      "start": 313.5,
+      "end": 315.023,
+      "hanzi": "你说的非常对！",
+      "pinyin": "nǐ shuō de fēi cháng duì",
+      "vi": "Bạn nói rất đúng!"
+    },
+    {
+      "start": 315.033,
+      "end": 317.856,
+      "hanzi": "这可能是最重要的一点。",
+      "pinyin": "zhè kě néng shì zuì zhòng yào de yì diǎn",
+      "vi": "Có lẽ đây là điều quan trọng nhất."
+    },
+    {
+      "start": 317.866,
+      "end": 320.49,
+      "hanzi": "我们的那句老话就是这么说的:",
+      "pinyin": "wǒ men de nà jù lǎo huà jiù shì zhè me shuō de",
+      "vi": "Người xưa có một câu nói như thế này:"
+    },
+    {
+      "start": 320.5,
+      "end": 323.223,
+      "hanzi": "慢慢吃，对身体好。",
+      "pinyin": "màn màn chī duì shēn tǐ hǎo",
+      "vi": "Ăn từ từ tốt cho sức khỏe."
+    },
+    {
+      "start": 323.233,
+      "end": 325.39,
+      "hanzi": "慢慢吃，对身体好。",
+      "pinyin": "màn màn chī duì shēn tǐ hǎo",
+      "vi": "Ăn từ từ tốt cho sức khỏe."
+    },
+    {
+      "start": 325.4,
+      "end": 328.123,
+      "hanzi": "嗯，这句话我好像也听过。",
+      "pinyin": "ń zhè jù huà wǒ hǎo xiàng yě tīng guò",
+      "vi": "Ừm, hình như tôi cũng từng nghe câu này."
+    },
+    {
+      "start": 328.133,
+      "end": 332.59,
+      "hanzi": "是的。你想，我们的胃需要时间去工作。",
+      "pinyin": "shì de nǐ xiǎng wǒ men de wèi xū yào shí jiān qù gōng zuò",
+      "vi": "Đúng vậy. Bạn nghĩ xem, dạ dày của chúng ta cần thời gian để hoạt động."
+    },
+    {
+      "start": 332.6,
+      "end": 334.69,
+      "hanzi": "如果我们吃得太快，",
+      "pinyin": "rú guǒ wǒ men chī dé tài kuài",
+      "vi": "Nếu chúng ta ăn quá nhanh,"
+    },
+    {
+      "start": 334.7,
+      "end": 338.523,
+      "hanzi": "很多食物没有好好地嚼，就到了胃里。",
+      "pinyin": "hěn duō shí wù méi yǒu hǎo hǎo dì jué jiù dào le wèi lǐ",
+      "vi": "nhiều thức ăn chưa được nhai kỹ đã đi vào dạ dày."
+    },
+    {
+      "start": 338.533,
+      "end": 340.99,
+      "hanzi": "这样，胃就会很累。",
+      "pinyin": "zhè yàng wèi jiù huì hěn lèi",
+      "vi": "Như vậy dạ dày sẽ rất mệt."
+    },
+    {
+      "start": 341.0,
+      "end": 343.256,
+      "hanzi": "我明白了。就像一个工厂，",
+      "pinyin": "wǒ míng bái le jiù xiàng yí gè gōng chǎng",
+      "vi": "Tôi hiểu rồi. Giống như một nhà máy,"
+    },
+    {
+      "start": 343.266,
+      "end": 345.023,
+      "hanzi": "一下来了太多的工作，",
+      "pinyin": "yī xià lái le tài duō de gōng zuò",
+      "vi": "đột nhiên có quá nhiều việc phải làm,"
+    },
+    {
+      "start": 345.033,
+      "end": 347.323,
+      "hanzi": "工人们就会很累很累。",
+      "pinyin": "gōng rén men jiù huì hěn lèi hěn lèi",
+      "vi": "công nhân sẽ rất, rất mệt."
+    },
+    {
+      "start": 347.333,
+      "end": 349.39,
+      "hanzi": "我们的胃就是那个工厂。",
+      "pinyin": "wǒ men de wèi jiù shì nà ge gōng chǎng",
+      "vi": "Dạ dày của chúng ta chính là nhà máy đó."
+    },
+    {
+      "start": 349.4,
+      "end": 352.356,
+      "hanzi": "这个比喻非常好！就是这个意思。",
+      "pinyin": "zhè ge bǐ yù fēi cháng hǎo jiù shì zhè ge yì si",
+      "vi": "Phép so sánh này hay quá! Chính là ý đó."
+    },
+    {
+      "start": 352.366,
+      "end": 355.423,
+      "hanzi": "所以，慢慢吃，对身体好，",
+      "pinyin": "suǒ yǐ màn màn chī duì shēn tǐ hǎo",
+      "vi": "Vì vậy, ăn từ từ tốt cho sức khỏe,"
+    },
+    {
+      "start": 355.433,
+      "end": 357.923,
+      "hanzi": "尤其是对我们的胃好。",
+      "pinyin": "yóu qí shì duì wǒ men de wèi hǎo",
+      "vi": "đặc biệt là tốt cho dạ dày."
+    },
+    {
+      "start": 357.933,
+      "end": 359.823,
+      "hanzi": "嗯，有道理。",
+      "pinyin": "ń yǒu dào lǐ",
+      "vi": "Ừm, có lý."
+    },
+    {
+      "start": 359.833,
+      "end": 362.69,
+      "hanzi": "除了对胃好，还有别的好处吗？",
+      "pinyin": "chú le duì wèi hǎo hái yǒu bié de hǎo chù ma",
+      "vi": "Ngoài tốt cho dạ dày, còn có lợi ích nào khác không?"
+    },
+    {
+      "start": 362.7,
+      "end": 364.656,
+      "hanzi": "当然有。",
+      "pinyin": "dāng rán yǒu",
+      "vi": "Tất nhiên là có."
+    },
+    {
+      "start": 364.666,
+      "end": 367.79,
+      "hanzi": "你想想，你今天中午吃的上海菜，",
+      "pinyin": "nǐ xiǎng xiǎng nǐ jīn tiān zhōng wǔ chī de shàng hǎi cài",
+      "vi": "Bạn thử nghĩ xem, món Thượng Hải bạn ăn trưa nay,"
+    },
+    {
+      "start": 367.8,
+      "end": 370.423,
+      "hanzi": "你还记得它的味道吗？",
+      "pinyin": "nǐ hái jì de tā de wèi dào ma",
+      "vi": "bạn còn nhớ hương vị của nó không?"
+    },
+    {
+      "start": 370.433,
+      "end": 372.59,
+      "hanzi": "我……我想想。",
+      "pinyin": "wǒ wǒ xiǎng xiǎng",
+      "vi": "Tôi... để tôi nghĩ xem."
+    },
+    {
+      "start": 372.6,
+      "end": 375.79,
+      "hanzi": "有一个红烧肉，还有一个青菜。",
+      "pinyin": "yǒu yí gè hóng shāo ròu hái yǒu yí gè qīng cài",
+      "vi": "Có một món thịt kho tàu và một món rau xanh."
+    },
+    {
+      "start": 375.8,
+      "end": 377.69,
+      "hanzi": "因为我吃得太快了，",
+      "pinyin": "yīn wèi wǒ chī dé tài kuài le",
+      "vi": "Vì tôi ăn quá nhanh,"
+    },
+    {
+      "start": 377.7,
+      "end": 380.623,
+      "hanzi": "我现在只记得它很好吃，",
+      "pinyin": "wǒ xiàn zài zhǐ jì de tā hěn hǎo chī",
+      "vi": "bây giờ tôi chỉ nhớ là nó rất ngon,"
+    },
+    {
+      "start": 380.633,
+      "end": 384.09,
+      "hanzi": "但是具体是什么味道，好像有点忘了。",
+      "pinyin": "dàn shì jù tǐ shì shén me wèi dào hǎo xiàng yǒu diǎn wàng le",
+      "vi": "nhưng cụ thể hương vị như thế nào thì hình như tôi hơi quên rồi."
+    },
+    {
+      "start": 384.1,
+      "end": 386.756,
+      "hanzi": "哈哈，你看，这就是问题所在。",
+      "pinyin": "hā hā nǐ kàn zhè jiù shì wèn tí suǒ zài",
+      "vi": "Haha, bạn thấy chưa, vấn đề chính là ở đó."
+    },
+    {
+      "start": 386.766,
+      "end": 388.59,
+      "hanzi": "如果你吃慢一点，",
+      "pinyin": "rú guǒ nǐ chī màn yì diǎn",
+      "vi": "Nếu bạn ăn chậm hơn một chút,"
+    },
+    {
+      "start": 388.6,
+      "end": 391.99,
+      "hanzi": "你就能更好地品尝食物的味道。",
+      "pinyin": "nǐ jiù néng gèng hǎo dì pǐn cháng shí wù de wèi dào",
+      "vi": "bạn sẽ thưởng thức hương vị món ăn tốt hơn."
+    },
+    {
+      "start": 392.0,
+      "end": 394.523,
+      "hanzi": "每一口，你都能感觉到",
+      "pinyin": "měi yī kǒu nǐ dōu néng gǎn jué dào",
+      "vi": "Mỗi miếng ăn, bạn đều có thể cảm nhận được"
+    },
+    {
+      "start": 394.533,
+      "end": 397.19,
+      "hanzi": "这个菜是甜的，还是咸的，",
+      "pinyin": "zhè ge cài shì tián de hái shì xián de",
+      "vi": "món này ngọt hay mặn,"
+    },
+    {
+      "start": 397.2,
+      "end": 399.356,
+      "hanzi": "是软的，还是脆的。",
+      "pinyin": "shì ruǎn de hái shì cuì de",
+      "vi": "mềm hay giòn."
+    },
+    {
+      "start": 399.366,
+      "end": 400.923,
+      "hanzi": "对！有的时候，",
+      "pinyin": "duì yǒu de shí hòu",
+      "vi": "Đúng! Có những lúc,"
+    },
+    {
+      "start": 400.933,
+      "end": 403.69,
+      "hanzi": "我跟朋友一起去一家很好的餐厅，",
+      "pinyin": "wǒ gēn péng yǒu yì qǐ qù yī jiā hěn hǎo de cān tīng",
+      "vi": "tôi đi cùng bạn bè đến một nhà hàng rất ngon,"
+    },
+    {
+      "start": 403.7,
+      "end": 405.156,
+      "hanzi": "花了很多钱。",
+      "pinyin": "huā le hěn duō qián",
+      "vi": "và tốn rất nhiều tiền."
+    },
+    {
+      "start": 405.166,
+      "end": 406.723,
+      "hanzi": "如果我吃得太快，",
+      "pinyin": "rú guǒ wǒ chī dé tài kuài",
+      "vi": "Nếu tôi ăn quá nhanh,"
+    },
+    {
+      "start": 406.733,
+      "end": 408.49,
+      "hanzi": "感觉有点浪费钱，",
+      "pinyin": "gǎn jué yǒu diǎn làng fèi qián",
+      "vi": "tôi cảm thấy hơi lãng phí tiền,"
+    },
+    {
+      "start": 408.5,
+      "end": 411.79,
+      "hanzi": "因为我都没有好好地享受那个味道。",
+      "pinyin": "yīn wèi wǒ dōu méi yǒu hǎo hǎo dì xiǎng shòu nà ge wèi dào",
+      "vi": "vì tôi chưa thực sự thưởng thức hương vị ấy."
+    },
+    {
+      "start": 411.8,
+      "end": 412.423,
+      "hanzi": "没错。",
+      "pinyin": "méi cuò",
+      "vi": "Chính xác."
+    },
+    {
+      "start": 412.433,
+      "end": 416.49,
+      "hanzi": "当一道你特别喜欢的菜放在你面前，",
+      "pinyin": "dāng yī dào nǐ tè bié xǐ huān de cài fàng zài nǐ miàn qián",
+      "vi": "Khi một món ăn bạn đặc biệt yêu thích được đặt trước mặt,"
+    },
+    {
+      "start": 416.5,
+      "end": 418.09,
+      "hanzi": "你心里一定会想:",
+      "pinyin": "nǐ xīn lǐ yí dìng huì xiǎng",
+      "vi": "trong lòng bạn chắc chắn sẽ nghĩ:"
+    },
+    {
+      "start": 418.1,
+      "end": 421.223,
+      "hanzi": "哇，这个菜太好吃了！",
+      "pinyin": "wa zhè ge cài tài hǎo chī le",
+      "vi": "Ôi, món này ngon quá!"
+    },
+    {
+      "start": 421.233,
+      "end": 423.356,
+      "hanzi": "对！一定会这么想！",
+      "pinyin": "duì yí dìng huì zhè me xiǎng",
+      "vi": "Đúng! Chắc chắn sẽ nghĩ vậy!"
+    },
+    {
+      "start": 423.366,
+      "end": 425.19,
+      "hanzi": "特别是那个红烧肉，",
+      "pinyin": "tè bié shì nà ge hóng shāo ròu",
+      "vi": "Đặc biệt là món thịt kho tàu ấy,"
+    },
+    {
+      "start": 425.2,
+      "end": 427.423,
+      "hanzi": "我第一口吃的时候，心里就说:",
+      "pinyin": "wǒ dì yī kǒu chī de shí hòu xīn lǐ jiù shuō",
+      "vi": "khi ăn miếng đầu tiên, trong lòng tôi đã nói:"
+    },
+    {
+      "start": 427.433,
+      "end": 430.623,
+      "hanzi": "哇，这个菜太好吃了！",
+      "pinyin": "wa zhè ge cài tài hǎo chī le",
+      "vi": "Ôi, món này ngon quá!"
+    },
+    {
+      "start": 430.633,
+      "end": 432.156,
+      "hanzi": "那么，当你说",
+      "pinyin": "nà me dāng nǐ shuō",
+      "vi": "Vậy thì, khi bạn nói"
+    },
+    {
+      "start": 432.166,
+      "end": 434.156,
+      "hanzi": "“这个菜太好吃了！”的时候，",
+      "pinyin": "zhè ge cài tài hǎo chī le de shí hòu",
+      "vi": "'Món này ngon quá!'"
+    },
+    {
+      "start": 434.166,
+      "end": 436.723,
+      "hanzi": "你是不是应该慢下来，",
+      "pinyin": "nǐ shì bú shì yīng gāi màn xià lái",
+      "vi": "chẳng phải bạn nên ăn chậm lại"
+    },
+    {
+      "start": 436.733,
+      "end": 439.19,
+      "hanzi": "多感受一下它的美味呢？",
+      "pinyin": "duō gǎn shòu yī xià tā de měi wèi ne",
+      "vi": "để cảm nhận hương vị thơm ngon của nó nhiều hơn sao?"
+    },
+    {
+      "start": 439.2,
+      "end": 441.956,
+      "hanzi": "一口一口，慢慢地吃。",
+      "pinyin": "yī kǒu yī kǒu màn màn dì chī",
+      "vi": "Từng miếng một, ăn từ từ."
+    },
+    {
+      "start": 441.966,
+      "end": 443.79,
+      "hanzi": "你说得对！",
+      "pinyin": "nǐ shuō dé duì",
+      "vi": "Bạn nói đúng!"
+    },
+    {
+      "start": 443.8,
+      "end": 445.456,
+      "hanzi": "如果一个东西那么好吃，",
+      "pinyin": "rú guǒ yí gè dōng xī nà me hǎo chī",
+      "vi": "Nếu một món ngon đến vậy,"
+    },
+    {
+      "start": 445.466,
+      "end": 447.956,
+      "hanzi": "我应该给它多一点时间。",
+      "pinyin": "wǒ yīng gāi gěi tā duō yì diǎn shí jiān",
+      "vi": "tôi nên dành thêm thời gian cho nó."
+    },
+    {
+      "start": 447.966,
+      "end": 449.856,
+      "hanzi": "我应该慢慢地享受它。",
+      "pinyin": "wǒ yīng gāi màn màn dì xiǎng shòu tā",
+      "vi": "Tôi nên từ từ thưởng thức."
+    },
+    {
+      "start": 449.866,
+      "end": 453.756,
+      "hanzi": "这样，吃饭就真的变成了一种快乐。",
+      "pinyin": "zhè yàng chī fàn jiù zhēn de biàn chéng le yī zhǒng kuài lè",
+      "vi": "Như thế, ăn uống mới thực sự trở thành niềm vui."
+    },
+    {
+      "start": 453.766,
+      "end": 454.623,
+      "hanzi": "是啊。",
+      "pinyin": "shì a",
+      "vi": "Đúng vậy."
+    },
+    {
+      "start": 454.633,
+      "end": 457.09,
+      "hanzi": "所以，慢慢吃，对身体好，",
+      "pinyin": "suǒ yǐ màn màn chī duì shēn tǐ hǎo",
+      "vi": "Vì thế, ăn từ từ tốt cho sức khỏe,"
+    },
+    {
+      "start": 457.1,
+      "end": 460.69,
+      "hanzi": "也能让我们更好地享受美食。",
+      "pinyin": "yě néng ràng wǒ men gèng hǎo dì xiǎng shòu měi shí",
+      "vi": "đồng thời giúp chúng ta thưởng thức món ngon tốt hơn."
+    },
+    {
+      "start": 460.7,
+      "end": 463.123,
+      "hanzi": "下次你再吃到好吃的菜，",
+      "pinyin": "xià cì nǐ zài chī dào hǎo chī de cài",
+      "vi": "Lần sau khi bạn lại được ăn một món ngon,"
+    },
+    {
+      "start": 463.133,
+      "end": 465.19,
+      "hanzi": "别忘了告诉自己，",
+      "pinyin": "bié wàng le gào sù zì jǐ",
+      "vi": "đừng quên tự nhắc mình rằng,"
+    },
+    {
+      "start": 465.2,
+      "end": 467.49,
+      "hanzi": "慢一点，再慢一点。",
+      "pinyin": "màn yì diǎn zài màn yì diǎn",
+      "vi": "chậm lại một chút, rồi chậm thêm chút nữa."
+    },
+    {
+      "start": 467.5,
+      "end": 468.923,
+      "hanzi": "我记住了。",
+      "pinyin": "wǒ jì zhù le",
+      "vi": "Tôi nhớ rồi."
+    },
+    {
+      "start": 468.933,
+      "end": 471.19,
+      "hanzi": "第一，慢慢吃，对身体好。",
+      "pinyin": "dì yī màn màn chī duì shēn tǐ hǎo",
+      "vi": "Thứ nhất, ăn từ từ tốt cho sức khỏe."
+    },
+    {
+      "start": 471.2,
+      "end": 475.123,
+      "hanzi": "第二，可以更好地品尝食物的味道。",
+      "pinyin": "dì èr kě yǐ gèng hǎo dì pǐn cháng shí wù de wèi dào",
+      "vi": "Thứ hai, có thể thưởng thức hương vị món ăn tốt hơn."
+    },
+    {
+      "start": 475.133,
+      "end": 475.756,
+      "hanzi": "当我觉得",
+      "pinyin": "dāng wǒ jué de",
+      "vi": "Khi tôi cảm thấy"
+    },
+    {
+      "start": 475.766,
+      "end": 478.023,
+      "hanzi": "“这个菜太好吃了！”的时候，",
+      "pinyin": "zhè ge cài tài hǎo chī le de shí hòu",
+      "vi": "'Món này ngon quá!'"
+    },
+    {
+      "start": 478.033,
+      "end": 480.523,
+      "hanzi": "就是提醒我要慢下来的信号。",
+      "pinyin": "jiù shì tí xǐng wǒ yào màn xià lái de xìn hào",
+      "vi": "thì đó là tín hiệu nhắc tôi phải chậm lại."
+    },
+    {
+      "start": 480.533,
+      "end": 483.123,
+      "hanzi": "总结得非常好。",
+      "pinyin": "zǒng jié dé fēi cháng hǎo",
+      "vi": "Bạn tổng kết rất hay."
+    },
+    {
+      "start": 483.133,
+      "end": 486.623,
+      "hanzi": "李明，我们刚才说的，好像都是一个人吃饭的时候。",
+      "pinyin": "lǐ míng wǒ men gāng cái shuō de hǎo xiàng dōu shì yí gè rén chī fàn de shí hòu",
+      "vi": "Lý Minh, những điều chúng ta vừa nói hình như đều là khi ăn một mình."
+    },
+    {
+      "start": 486.633,
+      "end": 490.556,
+      "hanzi": "但是很多时候，我们是和家人、朋友一起吃饭的。",
+      "pinyin": "dàn shì hěn duō shí hòu wǒ men shì hé jiā rén péng yǒu yì qǐ chī fàn de",
+      "vi": "Nhưng nhiều lúc, chúng ta ăn cùng gia đình và bạn bè."
+    },
+    {
+      "start": 490.566,
+      "end": 492.556,
+      "hanzi": "你说到了一个非常重要的地方。",
+      "pinyin": "nǐ shuō dào le yí gè fēi cháng zhòng yào de dì fāng",
+      "vi": "Bạn vừa nhắc đến một điều rất quan trọng."
+    },
+    {
+      "start": 492.566,
+      "end": 496.423,
+      "hanzi": "在中国，吃饭很多时候不只是为了吃饱，",
+      "pinyin": "zài zhōng guó chī fàn hěn duō shí hòu bù zhǐ shì wèi le chī bǎo",
+      "vi": "Ở Trung Quốc, nhiều khi ăn uống không chỉ để no bụng,"
+    },
+    {
+      "start": 496.433,
+      "end": 499.056,
+      "hanzi": "它是一种很重要的社交活动。",
+      "pinyin": "tā shì yī zhǒng hěn zhòng yào de shè jiāo huó dòng",
+      "vi": "mà còn là một hoạt động giao tiếp rất quan trọng."
+    },
+    {
+      "start": 499.066,
+      "end": 503.256,
+      "hanzi": "是的，跟家人每个星期一起吃一次饭，",
+      "pinyin": "shì de gēn jiā rén měi gè xīng qī yì qǐ chī yī cì fàn",
+      "vi": "Đúng vậy, mỗi tuần ăn cơm cùng gia đình một lần,"
+    },
+    {
+      "start": 503.266,
+      "end": 505.956,
+      "hanzi": "或者跟好久不见的朋友约个饭。",
+      "pinyin": "huò zhě gēn hǎo jiǔ bú jiàn de péng yǒu yuē gè fàn",
+      "vi": "hoặc hẹn ăn cùng người bạn lâu ngày không gặp."
+    },
+    {
+      "start": 505.966,
+      "end": 511.956,
+      "hanzi": "对。在这些时候，你觉得大家吃饭是快还是慢？",
+      "pinyin": "duì zài zhè xiē shí hòu nǐ jué de dà jiā chī fàn shì kuài hái shì màn",
+      "vi": "Đúng. Những lúc như vậy, bạn nghĩ mọi người ăn nhanh hay chậm?"
+    },
+    {
+      "start": 511.966,
+      "end": 515.723,
+      "hanzi": "我想，肯定是慢的。因为大家要聊天啊！",
+      "pinyin": "wǒ xiǎng kěn dìng shì màn de yīn wèi dà jiā yào liáo tiān a",
+      "vi": "Tôi nghĩ chắc chắn là chậm, vì mọi người còn trò chuyện nữa!"
+    },
+    {
+      "start": 515.733,
+      "end": 519.223,
+      "hanzi": "一边吃，一边说话，时间过得很快，",
+      "pinyin": "yī biān chī yī biān shuō huà shí jiān guò dé hěn kuài",
+      "vi": "Vừa ăn vừa nói chuyện, thời gian trôi qua rất nhanh,"
+    },
+    {
+      "start": 519.233,
+      "end": 520.623,
+      "hanzi": "但是饭吃得很慢。",
+      "pinyin": "dàn shì fàn chī dé hěn màn",
+      "vi": "nhưng mọi người lại ăn khá chậm."
+    },
+    {
+      "start": 520.633,
+      "end": 524.523,
+      "hanzi": "完全正确。比如在家里和爸爸妈妈一起吃饭，",
+      "pinyin": "wán quán zhèng què bǐ rú zài jiā lǐ hé bà bà mā mā yì qǐ chī fàn",
+      "vi": "Hoàn toàn chính xác. Ví dụ khi ăn ở nhà cùng bố mẹ,"
+    },
+    {
+      "start": 524.533,
+      "end": 528.156,
+      "hanzi": "妈妈常常会把一个菜放到我的碗里，然后说……",
+      "pinyin": "mā mā cháng cháng huì bǎ yí gè cài fàng dào wǒ de wǎn lǐ rán hòu shuō",
+      "vi": "mẹ thường gắp một món vào bát tôi rồi nói..."
+    },
+    {
+      "start": 528.166,
+      "end": 530.223,
+      "hanzi": "她会说:“多吃点”！",
+      "pinyin": "tā huì shuō duō chī diǎn",
+      "vi": "Mẹ sẽ nói: 'Ăn thêm chút nữa đi!'"
+    },
+    {
+      "start": 530.233,
+      "end": 534.69,
+      "hanzi": "哈哈，对。她还会说:“李明，你尝尝这个鱼，今天很新鲜。”",
+      "pinyin": "hā hā duì tā hái huì shuō lǐ míng nǐ cháng cháng zhè ge yú jīn tiān hěn xīn xiān",
+      "vi": "Haha, đúng. Mẹ còn nói: 'Lý Minh, con ăn thử món cá này đi, hôm nay cá rất tươi.'"
+    },
+    {
+      "start": 534.7,
+      "end": 537.39,
+      "hanzi": "对对对！我妈妈也一模一样！",
+      "pinyin": "duì duì duì wǒ mā mā yě yī mú yī yàng",
+      "vi": "Đúng, đúng! Mẹ tôi cũng giống hệt vậy!"
+    },
+    {
+      "start": 537.4,
+      "end": 541.956,
+      "hanzi": "她会说:“王雨，你尝尝这个汤，我做了很久。”",
+      "pinyin": "tā huì shuō wáng yǔ nǐ cháng cháng zhè ge tāng wǒ zuò le hěn jiǔ",
+      "vi": "Mẹ nói: 'Vương Vũ, con nếm thử món canh này đi, mẹ nấu lâu lắm đấy.'"
+    },
+    {
+      "start": 541.966,
+      "end": 543.556,
+      "hanzi": "家人之间总是这样。",
+      "pinyin": "jiā rén zhī jiān zǒng shì zhè yàng",
+      "vi": "Người trong gia đình lúc nào cũng vậy."
+    },
+    {
+      "start": 543.566,
+      "end": 545.723,
+      "hanzi": "是啊。朋友之间也是。",
+      "pinyin": "shì a péng yǒu zhī jiān yě shì",
+      "vi": "Đúng thế. Bạn bè cũng vậy."
+    },
+    {
+      "start": 545.733,
+      "end": 547.823,
+      "hanzi": "我们一起去吃火锅的时候，",
+      "pinyin": "wǒ men yì qǐ qù chī huǒ guō de shí hòu",
+      "vi": "Khi chúng tôi cùng nhau đi ăn lẩu,"
+    },
+    {
+      "start": 547.833,
+      "end": 552.356,
+      "hanzi": "我常常会对朋友说:“哎，你尝尝这个牛肉，非常好吃！”",
+      "pinyin": "wǒ cháng cháng huì duì péng yǒu shuō āi nǐ cháng cháng zhè ge niú ròu fēi cháng hǎo chī",
+      "vi": "tôi thường nói với bạn: 'Này, bạn thử thịt bò này đi, ngon lắm!'"
+    },
+    {
+      "start": 552.366,
+      "end": 555.756,
+      "hanzi": "没错！然后我的朋友可能会说:",
+      "pinyin": "méi cuò rán hòu wǒ de péng yǒu kě néng huì shuō",
+      "vi": "Chính xác! Rồi bạn tôi có thể nói:"
+    },
+    {
+      "start": 555.766,
+      "end": 560.123,
+      "hanzi": "“好啊！那你也你尝尝这个，这个也好吃！”",
+      "pinyin": "hǎo a nà nǐ yě nǐ cháng cháng zhè ge zhè ge yě hǎo chī",
+      "vi": "'Được chứ! Bạn cũng thử món này đi, món này cũng ngon lắm!'"
+    },
+    {
+      "start": 560.133,
+      "end": 564.656,
+      "hanzi": "这样一来一去，大家分享食物，也分享快乐。",
+      "pinyin": "zhè yàng yī lái yī qù dà jiā fēn xiǎng shí wù yě fēn xiǎng kuài lè",
+      "vi": "Cứ như vậy, mọi người chia sẻ đồ ăn và chia sẻ cả niềm vui."
+    },
+    {
+      "start": 564.666,
+      "end": 569.09,
+      "hanzi": "你看，在这样的环境里，吃饭的速度自然就慢下来了。",
+      "pinyin": "nǐ kàn zài zhè yàng de huán jìng lǐ chī fàn de sù dù zì rán jiù màn xià lái le",
+      "vi": "Bạn thấy đấy, trong bầu không khí như vậy, tốc độ ăn tự nhiên sẽ chậm lại."
+    },
+    {
+      "start": 569.1,
+      "end": 572.756,
+      "hanzi": "没有人会只低着头，很快地把饭吃完。",
+      "pinyin": "méi yǒu rén huì zhǐ dī zhe tóu hěn kuài dì bǎ fàn chī wán",
+      "vi": "Không ai chỉ cúi đầu ăn thật nhanh cho xong."
+    },
+    {
+      "start": 572.766,
+      "end": 574.356,
+      "hanzi": "大家都在交流。",
+      "pinyin": "dà jiā dōu zài jiāo liú",
+      "vi": "Mọi người đều đang giao lưu với nhau."
+    },
+    {
+      "start": 574.366,
+      "end": 575.756,
+      "hanzi": "我明白了。",
+      "pinyin": "wǒ míng bái le",
+      "vi": "Tôi hiểu rồi."
+    },
+    {
+      "start": 575.766,
+      "end": 578.456,
+      "hanzi": "所以，和别人一起吃饭的时候，",
+      "pinyin": "suǒ yǐ hé bié rén yì qǐ chī fàn de shí hòu",
+      "vi": "Vì vậy, khi ăn cùng người khác,"
+    },
+    {
+      "start": 578.466,
+      "end": 583.523,
+      "hanzi": "重要的不只是食物，还有和我们一起吃饭的人。",
+      "pinyin": "zhòng yào de bù zhǐ shì shí wù hái yǒu hé wǒ men yì qǐ chī fàn de rén",
+      "vi": "điều quan trọng không chỉ là thức ăn mà còn là người đang ăn cùng chúng ta."
+    },
+    {
+      "start": 583.533,
+      "end": 587.356,
+      "hanzi": "慢慢吃，我们才有时间去关心对方，去聊天。",
+      "pinyin": "màn màn chī wǒ men cái yǒu shí jiān qù guān xīn duì fāng qù liáo tiān",
+      "vi": "Ăn chậm lại thì chúng ta mới có thời gian quan tâm và trò chuyện với nhau."
+    },
+    {
+      "start": 587.366,
+      "end": 591.756,
+      "hanzi": "是的。如果一个朋友跟你说，“我最近工作不开心”，",
+      "pinyin": "shì de rú guǒ yí gè péng yǒu gēn nǐ shuō wǒ zuì jìn gōng zuò bù kāi xīn",
+      "vi": "Đúng vậy. Nếu một người bạn nói với bạn rằng 'Gần đây công việc của tôi không vui',"
+    },
+    {
+      "start": 591.766,
+      "end": 594.223,
+      "hanzi": "你总不能一边飞快地吃饭，一边说",
+      "pinyin": "nǐ zǒng bù néng yī biān fēi kuài dì chī fàn yī biān shuō",
+      "vi": "thì bạn đâu thể vừa ăn thật nhanh vừa nói"
+    },
+    {
+      "start": 594.233,
+      "end": 598.856,
+      "hanzi": "“嗯嗯嗯”。你要停下来，看着他，听他说。",
+      "pinyin": "ń ń ń nǐ yào tíng xià lái kàn zhe tā tīng tā shuō",
+      "vi": "'Ừ, ừ, ừ.' Bạn phải dừng lại, nhìn họ và lắng nghe họ nói."
+    },
+    {
+      "start": 598.866,
+      "end": 604.056,
+      "hanzi": "有道理。吃饭的速度，也表示了你对这次聚会的态度。",
+      "pinyin": "yǒu dào lǐ chī fàn de sù dù yě biǎo shì le nǐ duì zhè cì jù huì de tài dù",
+      "vi": "Có lý. Tốc độ ăn uống cũng thể hiện thái độ của bạn đối với buổi gặp mặt."
+    },
+    {
+      "start": 604.066,
+      "end": 607.823,
+      "hanzi": "慢下来，表示我很重视和你们在一起的时间。",
+      "pinyin": "màn xià lái biǎo shì wǒ hěn zhòng shì hé nǐ men zài yì qǐ de shí jiān",
+      "vi": "Chậm lại thể hiện rằng tôi rất trân trọng thời gian được ở cùng mọi người."
+    },
+    {
+      "start": 607.833,
+      "end": 608.923,
+      "hanzi": "正是如此。",
+      "pinyin": "zhèng shì rú cǐ",
+      "vi": "Chính là như vậy."
+    },
+    {
+      "start": 608.933,
+      "end": 614.223,
+      "hanzi": "所以，你看，无论是出于健康，还是为了更好地享受美食，",
+      "pinyin": "suǒ yǐ nǐ kàn wú lùn shì chū yú jiàn kāng hái shì wèi le gèng hǎo dì xiǎng shòu měi shí",
+      "vi": "Vì thế bạn thấy đấy, dù là vì sức khỏe hay để thưởng thức món ăn ngon hơn,"
+    },
+    {
+      "start": 614.233,
+      "end": 619.756,
+      "hanzi": "或者是在社交的时候，慢一点吃饭都是更好的选择。",
+      "pinyin": "huò zhě shì zài shè jiāo de shí hòu màn yì diǎn chī fàn dōu shì gèng hǎo de xuǎn zé",
+      "vi": "hoặc khi giao tiếp với mọi người, ăn chậm hơn đều là lựa chọn tốt hơn."
+    },
+    {
+      "start": 619.766,
+      "end": 622.823,
+      "hanzi": "下次和朋友吃饭，当一道菜上来，",
+      "pinyin": "xià cì hé péng yǒu chī fàn dāng yī dào cài shàng lái",
+      "vi": "Lần sau ăn cùng bạn bè, khi một món ăn được mang lên,"
+    },
+    {
+      "start": 622.833,
+      "end": 626.123,
+      "hanzi": "你可以先说:“哇，这个菜太好吃了！”",
+      "pinyin": "nǐ kě yǐ xiān shuō wa zhè ge cài tài hǎo chī le",
+      "vi": "bạn có thể nói trước: 'Ôi, món này ngon quá!'"
+    },
+    {
+      "start": 626.133,
+      "end": 630.023,
+      "hanzi": "然后把它分给你的朋友，说:“你尝尝这个。”",
+      "pinyin": "rán hòu bǎ tā fēn gěi nǐ de péng yǒu shuō nǐ cháng cháng zhè ge",
+      "vi": "Sau đó chia cho bạn mình và nói: 'Bạn thử món này đi.'"
+    },
+    {
+      "start": 630.033,
+      "end": 631.59,
+      "hanzi": "哈哈，我学会了。",
+      "pinyin": "hā hā wǒ xué huì le",
+      "vi": "Haha, tôi học được rồi."
+    },
+    {
+      "start": 631.6,
+      "end": 634.123,
+      "hanzi": "这样一来，气氛会很好，",
+      "pinyin": "zhè yàng yī lái qì fēn huì hěn hǎo",
+      "vi": "Như vậy, bầu không khí sẽ rất vui vẻ,"
+    },
+    {
+      "start": 634.133,
+      "end": 637.056,
+      "hanzi": "大家吃饭的速度也自然慢下来了。",
+      "pinyin": "dà jiā chī fàn de sù dù yě zì rán màn xià lái le",
+      "vi": "và tốc độ ăn của mọi người cũng tự nhiên chậm lại."
+    },
+    {
+      "start": 637.066,
+      "end": 638.256,
+      "hanzi": "没错。",
+      "pinyin": "méi cuò",
+      "vi": "Đúng vậy."
+    },
+    {
+      "start": 638.266,
+      "end": 643.09,
+      "hanzi": "好了，王雨，今天我们从“你吃饭快吗”",
+      "pinyin": "hǎo le wáng yǔ jīn tiān wǒ men cóng nǐ chī fàn kuài ma",
+      "vi": "Được rồi, Vương Vũ, hôm nay chúng ta bắt đầu từ câu 'Bạn ăn nhanh không?'"
+    },
+    {
+      "start": 643.1,
+      "end": 648.123,
+      "hanzi": "这个问题开始，聊了很多关于吃饭速度的话题。",
+      "pinyin": "zhè ge wèn tí kāi shǐ liáo le hěn duō guān yú chī fàn sù dù de huà tí",
+      "vi": "và đã trò chuyện rất nhiều về tốc độ ăn uống."
+    },
+    {
+      "start": 648.133,
+      "end": 652.223,
+      "hanzi": "是啊，时间过得真快。我学到了很多。",
+      "pinyin": "shì a shí jiān guò dé zhēn kuài wǒ xué dào le hěn duō",
+      "vi": "Đúng vậy, thời gian trôi nhanh thật. Tôi đã học được rất nhiều."
+    },
+    {
+      "start": 652.233,
+      "end": 655.356,
+      "hanzi": "我以前真的没觉得这是个问题。",
+      "pinyin": "wǒ yǐ qián zhēn de méi jué de zhè shì gè wèn tí",
+      "vi": "Trước đây tôi thật sự không nghĩ đây là một vấn đề."
+    },
+    {
+      "start": 655.366,
+      "end": 661.956,
+      "hanzi": "我们今天在聊天的时候，其实反复用到了几句非常有用的中文。",
+      "pinyin": "wǒ men jīn tiān zài liáo tiān de shí hòu qí shí fǎn fù yòng dào le jǐ jù fēi cháng yǒu yòng de zhōng wén",
+      "vi": "Hôm nay khi trò chuyện, thực ra chúng ta đã lặp lại một số câu tiếng Trung rất hữu ích."
+    },
+    {
+      "start": 661.966,
+      "end": 666.756,
+      "hanzi": "我觉得，这些句子在大家每天吃饭的时候，都可能用到。",
+      "pinyin": "wǒ jué de zhè xiē jù zi zài dà jiā měi tiān chī fàn de shí hòu dōu kě néng yòng dào",
+      "vi": "Tôi nghĩ các câu này đều có thể sử dụng trong những bữa ăn hằng ngày."
+    },
+    {
+      "start": 666.766,
+      "end": 670.79,
+      "hanzi": "嗯，是的！我们来总结一下吧？",
+      "pinyin": "ń shì de wǒ men lái zǒng jié yī xià ba",
+      "vi": "Ừm, đúng thế! Chúng ta cùng tổng kết nhé?"
+    },
+    {
+      "start": 670.8,
+      "end": 674.69,
+      "hanzi": "这样听众朋友们也可以再学习一遍。",
+      "pinyin": "zhè yàng tīng zhòng péng yǒu men yě kě yǐ zài xué xí yī biàn",
+      "vi": "Như vậy các thính giả cũng có thể học lại một lần nữa."
+    },
+    {
+      "start": 674.7,
+      "end": 679.856,
+      "hanzi": "好主意。今天我们学习的第一个句子，也是我们的开始，",
+      "pinyin": "hǎo zhǔ yì jīn tiān wǒ men xué xí de dì yí gè jù zi yě shì wǒ men de kāi shǐ",
+      "vi": "Ý hay đấy. Câu đầu tiên chúng ta học hôm nay, cũng là câu mở đầu,"
+    },
+    {
+      "start": 679.866,
+      "end": 682.59,
+      "hanzi": "就是问别人吃饭的习惯。",
+      "pinyin": "jiù shì wèn bié rén chī fàn de xí guàn",
+      "vi": "chính là câu hỏi người khác về thói quen ăn uống."
+    },
+    {
+      "start": 682.6,
+      "end": 683.856,
+      "hanzi": "那句话是？",
+      "pinyin": "nà jù huà shì",
+      "vi": "Câu đó là gì?"
+    },
+    {
+      "start": 683.866,
+      "end": 686.256,
+      "hanzi": "是:你吃饭快吗？",
+      "pinyin": "shì nǐ chī fàn kuài ma",
+      "vi": "Là: Bạn ăn nhanh không?"
+    },
+    {
+      "start": 686.266,
+      "end": 688.823,
+      "hanzi": "对。你吃饭快吗？",
+      "pinyin": "duì nǐ chī fàn kuài ma",
+      "vi": "Đúng. Bạn ăn nhanh không?"
+    },
+    {
+      "start": 688.833,
+      "end": 691.956,
+      "hanzi": "你可以问你的朋友，你的家人。",
+      "pinyin": "nǐ kě yǐ wèn nǐ de péng yǒu nǐ de jiā rén",
+      "vi": "Bạn có thể hỏi bạn bè hoặc người thân."
+    },
+    {
+      "start": 691.966,
+      "end": 694.89,
+      "hanzi": "好。那第二个句子呢？",
+      "pinyin": "hǎo nà dì èr gè jù zi ne",
+      "vi": "Được. Thế câu thứ hai là gì?"
+    },
+    {
+      "start": 694.9,
+      "end": 698.556,
+      "hanzi": "通常是家人朋友给我们的一个建议。",
+      "pinyin": "tōng cháng shì jiā rén péng yǒu gěi wǒ men de yí gè jiàn yì",
+      "vi": "Thông thường đó là một lời khuyên của gia đình hoặc bạn bè."
+    },
+    {
+      "start": 698.566,
+      "end": 702.49,
+      "hanzi": "这个建议就是:吃饭要慢一点。",
+      "pinyin": "zhè ge jiàn yì jiù shì chī fàn yào màn yì diǎn",
+      "vi": "Lời khuyên ấy là: Phải ăn chậm lại một chút."
+    },
+    {
+      "start": 702.5,
+      "end": 706.59,
+      "hanzi": "嗯。吃饭要慢一点。 我妈妈常说。",
+      "pinyin": "ń chī fàn yào màn yì diǎn wǒ mā mā cháng shuō",
+      "vi": "Ừm. Phải ăn chậm lại một chút. Mẹ tôi thường nói thế."
+    },
+    {
+      "start": 706.6,
+      "end": 711.49,
+      "hanzi": "第三个句子，是告诉我们为什么要慢一点。",
+      "pinyin": "dì sān gè jù zi shì gào sù wǒ men wèi shén me yào màn yì diǎn",
+      "vi": "Câu thứ ba cho chúng ta biết vì sao cần ăn chậm."
+    },
+    {
+      "start": 711.5,
+      "end": 716.99,
+      "hanzi": "我想起来了，那句话是:慢慢吃，对身体好。",
+      "pinyin": "wǒ xiǎng qǐ lái le nà jù huà shì màn màn chī duì shēn tǐ hǎo",
+      "vi": "Tôi nhớ ra rồi, câu đó là: Ăn từ từ tốt cho sức khỏe."
+    },
+    {
+      "start": 717.0,
+      "end": 721.056,
+      "hanzi": "完全正确。慢慢吃，对身体好。",
+      "pinyin": "wán quán zhèng què màn màn chī duì shēn tǐ hǎo",
+      "vi": "Hoàn toàn đúng. Ăn từ từ tốt cho sức khỏe."
+    },
+    {
+      "start": 721.066,
+      "end": 723.69,
+      "hanzi": "这是最重要的一个原因。",
+      "pinyin": "zhè shì zuì zhòng yào de yí gè yuán yīn",
+      "vi": "Đây là một trong những lý do quan trọng nhất."
+    },
+    {
+      "start": 723.7,
+      "end": 725.623,
+      "hanzi": "那第四个呢？",
+      "pinyin": "nà dì sì gè ne",
+      "vi": "Thế câu thứ tư thì sao?"
+    },
+    {
+      "start": 725.633,
+      "end": 730.29,
+      "hanzi": "是当我们吃到美食的时候，心里的感叹。",
+      "pinyin": "shì dāng wǒ men chī dào měi shí de shí hòu xīn lǐ de gǎn tàn",
+      "vi": "Là lời cảm thán trong lòng khi chúng ta ăn được một món ngon."
+    },
+    {
+      "start": 730.3,
+      "end": 735.59,
+      "hanzi": "对，那句感叹就是:这个菜太好吃了！",
+      "pinyin": "duì nà jù gǎn tàn jiù shì zhè ge cài tài hǎo chī le",
+      "vi": "Đúng, câu cảm thán đó là: Món này ngon quá!"
+    },
+    {
+      "start": 735.6,
+      "end": 740.79,
+      "hanzi": "这个菜太好吃了！ 我希望我每天都有机会说这句话！",
+      "pinyin": "zhè ge cài tài hǎo chī le wǒ xī wàng wǒ měi tiān dōu yǒu jī huì shuō zhè jù huà",
+      "vi": "Món này ngon quá! Tôi hy vọng ngày nào cũng có cơ hội nói câu này!"
+    },
+    {
+      "start": 740.8,
+      "end": 742.623,
+      "hanzi": "哈哈，我也是。",
+      "pinyin": "hā hā wǒ yě shì",
+      "vi": "Haha, tôi cũng vậy."
+    },
+    {
+      "start": 742.633,
+      "end": 744.456,
+      "hanzi": "那最后一个句子呢？",
+      "pinyin": "nà zuì hòu yí gè jù zi ne",
+      "vi": "Vậy câu cuối cùng là gì?"
+    },
+    {
+      "start": 744.466,
+      "end": 748.123,
+      "hanzi": "通常是在和别人分享美食的时候说。",
+      "pinyin": "tōng cháng shì zài hé bié rén fēn xiǎng měi shí de shí hòu shuō",
+      "vi": "Thường được nói khi chia sẻ món ăn ngon với người khác."
+    },
+    {
+      "start": 748.133,
+      "end": 751.356,
+      "hanzi": "我知道！是:你尝尝这个。",
+      "pinyin": "wǒ zhī dào shì nǐ cháng cháng zhè ge",
+      "vi": "Tôi biết rồi! Là: Bạn thử món này đi."
+    },
+    {
+      "start": 751.366,
+      "end": 757.323,
+      "hanzi": "没错。你尝尝这个。 一句非常友好，非常热情的邀请。",
+      "pinyin": "méi cuò nǐ cháng cháng zhè ge yī jù fēi cháng yǒu hǎo fēi cháng rè qíng de yāo qǐng",
+      "vi": "Chính xác. Bạn thử món này đi. Một lời mời rất thân thiện và nhiệt tình."
+    },
+    {
+      "start": 757.333,
+      "end": 761.956,
+      "hanzi": "太好了。我们再一起快速地读一遍这五个句子吧。",
+      "pinyin": "tài hǎo le wǒ men zài yì qǐ kuài sù dì dú yī biàn zhè wǔ gè jù zi ba",
+      "vi": "Tuyệt quá. Chúng ta cùng đọc nhanh lại năm câu này một lần nữa nhé."
+    },
+    {
+      "start": 761.966,
+      "end": 766.723,
+      "hanzi": "好。 第一句:你吃饭快吗？",
+      "pinyin": "hǎo dì yī jù nǐ chī fàn kuài ma",
+      "vi": "Được. Câu thứ nhất: Bạn ăn nhanh không?"
+    },
+    {
+      "start": 766.733,
+      "end": 770.756,
+      "hanzi": "第二句:吃饭要慢一点。",
+      "pinyin": "dì èr jù chī fàn yào màn yì diǎn",
+      "vi": "Câu thứ hai: Phải ăn chậm lại một chút."
+    },
+    {
+      "start": 770.766,
+      "end": 774.956,
+      "hanzi": "第三句:慢慢吃，对身体好。",
+      "pinyin": "dì sān jù màn màn chī duì shēn tǐ hǎo",
+      "vi": "Câu thứ ba: Ăn từ từ tốt cho sức khỏe."
+    },
+    {
+      "start": 774.966,
+      "end": 779.656,
+      "hanzi": "第四句:这个菜太好吃了！",
+      "pinyin": "dì sì jù zhè ge cài tài hǎo chī le",
+      "vi": "Câu thứ tư: Món này ngon quá!"
+    },
+    {
+      "start": 779.666,
+      "end": 782.69,
+      "hanzi": "第五句:你尝尝这个。",
+      "pinyin": "dì wǔ jù nǐ cháng cháng zhè ge",
+      "vi": "Câu thứ năm: Bạn thử món này đi."
+    },
+    {
+      "start": 782.7,
+      "end": 785.49,
+      "hanzi": "我觉得这五句话都非常实用！",
+      "pinyin": "wǒ jué de zhè wǔ jù huà dōu fēi cháng shí yòng",
+      "vi": "Tôi thấy cả năm câu này đều rất hữu ích!"
+    },
+    {
+      "start": 785.5,
+      "end": 790.556,
+      "hanzi": "我今天晚上回家吃饭，就要用起来。我要慢慢吃，",
+      "pinyin": "wǒ jīn tiān wǎn shàng huí jiā chī fàn jiù yào yòng qǐ lái wǒ yào màn màn chī",
+      "vi": "Tối nay về nhà ăn cơm, tôi sẽ dùng thử. Tôi sẽ ăn từ từ,"
+    },
+    {
+      "start": 790.566,
+      "end": 794.356,
+      "hanzi": "如果我妈妈做了好吃的菜，我就要大声说:",
+      "pinyin": "rú guǒ wǒ mā mā zuò le hǎo chī de cài wǒ jiù yào dà shēng shuō",
+      "vi": "nếu mẹ tôi nấu một món ngon, tôi sẽ nói thật to:"
+    },
+    {
+      "start": 794.366,
+      "end": 797.49,
+      "hanzi": "“妈妈，这个菜太好吃了！”",
+      "pinyin": "mā mā zhè ge cài tài hǎo chī le",
+      "vi": "'Mẹ ơi, món này ngon quá!'"
+    },
+    {
+      "start": 797.5,
+      "end": 801.256,
+      "hanzi": "哈哈，你妈妈听了肯定会很高兴。",
+      "pinyin": "hā hā nǐ mā mā tīng le kěn dìng huì hěn gāo xìng",
+      "vi": "Haha, nghe vậy chắc chắn mẹ bạn sẽ rất vui."
+    },
+    {
+      "start": 801.266,
+      "end": 805.023,
+      "hanzi": "好了，今天的“每天中文”也差不多要结束了。",
+      "pinyin": "hǎo le jīn tiān de měi tiān zhōng wén yě chà bu duō yào jié shù le",
+      "vi": "Được rồi, chương trình 'Tiếng Trung mỗi ngày' hôm nay cũng sắp kết thúc."
+    },
+    {
+      "start": 805.033,
+      "end": 807.29,
+      "hanzi": "希望大家通过今天的节目，",
+      "pinyin": "xī wàng dà jiā tōng guò jīn tiān de jié mù",
+      "vi": "Hy vọng qua chương trình hôm nay, mọi người"
+    },
+    {
+      "start": 807.3,
+      "end": 809.656,
+      "hanzi": "能更关注自己吃饭的习惯。",
+      "pinyin": "néng gèng guān zhù zì jǐ chī fàn de xí guàn",
+      "vi": "sẽ quan tâm hơn đến thói quen ăn uống của mình."
+    },
+    {
+      "start": 809.666,
+      "end": 813.156,
+      "hanzi": "是啊。吃饭是一件每天都做的小事，",
+      "pinyin": "shì a chī fàn shì yī jiàn měi tiān dōu zuò de xiǎo shì",
+      "vi": "Đúng vậy. Ăn uống là một việc nhỏ chúng ta làm mỗi ngày,"
+    },
+    {
+      "start": 813.166,
+      "end": 816.39,
+      "hanzi": "但小事里也有大学问。",
+      "pinyin": "dàn xiǎo shì lǐ yě yǒu dà xué wèn",
+      "vi": "nhưng trong những việc nhỏ cũng có nhiều điều đáng học hỏi."
+    },
+    {
+      "start": 816.4,
+      "end": 819.856,
+      "hanzi": "希望大家都能吃得健康，吃得开心。",
+      "pinyin": "xī wàng dà jiā dōu néng chī dé jiàn kāng chī de kāi xīn",
+      "vi": "Hy vọng mọi người đều ăn uống lành mạnh và vui vẻ."
+    },
+    {
+      "start": 819.866,
+      "end": 824.523,
+      "hanzi": "那么，最后也想问问正在听我们播客的你:",
+      "pinyin": "nà me zuì hòu yě xiǎng wèn wèn zhèng zài tīng wǒ men bō kè de nǐ",
+      "vi": "Vậy cuối cùng chúng tôi cũng muốn hỏi các bạn đang nghe podcast:"
+    },
+    {
+      "start": 824.533,
+      "end": 826.256,
+      "hanzi": "你吃饭快吗？",
+      "pinyin": "nǐ chī fàn kuài ma",
+      "vi": "Bạn ăn nhanh không?"
+    },
+    {
+      "start": 826.266,
+      "end": 831.156,
+      "hanzi": "你身边有没有人总是提醒你“吃饭要慢一点”呢？",
+      "pinyin": "nǐ shēn biān yǒu méi yǒu rén zǒng shì tí xǐng nǐ chī fàn yào màn yì diǎn ne",
+      "vi": "Xung quanh bạn có ai luôn nhắc bạn 'Ăn chậm lại một chút' không?"
+    },
+    {
+      "start": 831.166,
+      "end": 833.256,
+      "hanzi": "欢迎在我们的频道下面留言，",
+      "pinyin": "huān yíng zài wǒ men de pín dào xià miàn liú yán",
+      "vi": "Hãy để lại bình luận bên dưới kênh của chúng tôi,"
+    },
+    {
+      "start": 833.266,
+      "end": 835.356,
+      "hanzi": "跟我们分享你的故事。",
+      "pinyin": "gēn wǒ men fēn xiǎng nǐ de gù shì",
+      "vi": "và chia sẻ câu chuyện của bạn."
+    },
+    {
+      "start": 835.366,
+      "end": 838.19,
+      "hanzi": "我们很期待看到大家的分享。",
+      "pinyin": "wǒ men hěn qī dài kàn dào dà jiā de fēn xiǎng",
+      "vi": "Chúng tôi rất mong được đọc những chia sẻ của mọi người."
+    },
+    {
+      "start": 838.2,
+      "end": 840.556,
+      "hanzi": "好了，今天的节目就到这里。",
+      "pinyin": "hǎo le jīn tiān de jié mù jiù dào zhè lǐ",
+      "vi": "Được rồi, chương trình hôm nay đến đây thôi."
+    },
+    {
+      "start": 840.566,
+      "end": 842.623,
+      "hanzi": "感谢大家的收听！",
+      "pinyin": "gǎn xiè dà jiā de shōu tīng",
+      "vi": "Cảm ơn mọi người đã lắng nghe!"
+    },
+    {
+      "start": 842.633,
+      "end": 843.423,
+      "hanzi": "我是李明。",
+      "pinyin": "wǒ shì lǐ míng",
+      "vi": "Tôi là Lý Minh."
+    },
+    {
+      "start": 843.433,
+      "end": 844.356,
+      "hanzi": "我是王雨。",
+      "pinyin": "wǒ shì wáng yǔ",
+      "vi": "Tôi là Vương Vũ."
+    },
+    {
+      "start": 844.366,
+      "end": 846.2,
+      "hanzi": "我们下期再见！",
+      "pinyin": "wǒ men xià qī zài jiàn",
+      "vi": "Hẹn gặp lại mọi người ở số tiếp theo!"
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+﻿MaChuHanTam,KyTu,MaBaiHoc,SoThuTuBai,ThuTuTam,Pinyin,NghiaTiengViet,SoNet,MaBoThu,CachGhiNho,ViDuTiengTrung,ViDuPinyin,ViDuTiengViet,MaTep,MaNguon,TrangThai,MaChuHanDaCo,TuVungDaiDien,CacBaiXuatHien,NguonPinyinNghia,CanBoSung
+H3-0001,保,1025,1,1,bǎo,phòng thủ; bảo vệ; giữ / bảo đảm; đảm bảo / (cũ) đơn vị hành chính trong hệ thống bảo giáp 保甲[bao3jia3],,,,保留,,,,,ban_nhap,,保留,"1,3,6,9,14,19",TuVungHSKChuan_HSK3,
+H3-0002,留,1025,1,2,liú,"biến thể cũ của 留[liu2] || để lại (tin nhắn, v.v.) / giữ lại / ở lại / duy trì / bảo tồn / lưu giữ",,,,保留,,,,,ban_nhap,342,保留,"1,2",ChuHan_SQL,
+H3-0003,标,1025,1,3,,,,,,标题,,,,,ban_nhap,,标题,"1,19,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0004,题,1025,1,4,tí,chủ đề / vấn đề thảo luận / câu hỏi thi / môn học / đề lên / nhắc đến,,,,标题,,,,,ban_nhap,344,标题,"1,2,6,16",ChuHan_SQL,
+H3-0005,表,1025,1,5,biǎo,bề mặt bên ngoài / quan hệ họ hàng qua nữ giới / thể hiện (ý kiến của một người) / mô hình / bảng (liệt kê thông tin) / biểu mẫu / đồng hồ đo (đo lường cái gì đó) || đồng hồ (dụng cụ đo thời gian) / đồng hồ đo; máy đo,,,,表格,,,,,ban_nhap,477,表格,"1,3,6,9,16,17",ChuHan_SQL,
+H3-0006,格,1025,1,6,,,,,,表格,,,,,ban_nhap,,表格,"1,2,10,17,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0007,并,1025,1,7,bìng,và / hơn nữa / cũng / cùng với / (không) hề / đồng thời / kết hợp / gia nhập / sáp nhập || kết hợp / sáp nhập || biến thể của 並|并[bing4],,,,并,,,,,ban_nhap,,并,"1,10",TuVungHSKChuan_HSK3,
+H3-0008,衬,1025,1,8,,,,,,衬衫,,,,,ban_nhap,,衬衫,"1,10",,THIEU_PINYIN; THIEU_NGHIA
+H3-0009,衫,1025,1,9,,,,,,衬衫,,,,,ban_nhap,,衬衫,1,,THIEU_PINYIN; THIEU_NGHIA
+H3-0010,成,1025,1,10,chéng,thành công / hoàn thành / làm xong / đạt được / trở thành / biến thành / ổn / OK! / một phần mười,,,,成立,,,,,ban_nhap,322,成立,"1,5,15,19,20",ChuHan_SQL,
+H3-0011,立,1025,1,11,,,,,,成立,,,,,ban_nhap,,成立,"1,2,3,6",,THIEU_PINYIN; THIEU_NGHIA
+H3-0012,带,1025,1,12,dài,dải / thắt lưng / ruy băng / lốp / vùng / khu vực / khu / đeo / mang / dẫn theo / chịu / có / dẫn / dắt / chăm sóc / nuôi dưỡng,,,,带动,,,,,ban_nhap,435,带动,"1,4",ChuHan_SQL,
+H3-0013,动,1025,1,13,dòng,động; di chuyển; cử động,,,,带动,,,,,ban_nhap,152,带动,"1,2,4,14,15,18,19",ChuHan_SQL,
+H3-0014,各,1025,1,14,gè,mỗi / từng,,,,各地,,,,,ban_nhap,,各地,"1,2,10,20",TuVungHSKChuan_HSK3,
+H3-0015,地,1025,1,15,de,trợ từ nối trạng ngữ với động từ,,,,各地,,,,,ban_nhap,200,各地,"1,5,9",ChuHan_SQL,
+H3-0016,功,1025,1,16,,,,,,功课,,,,,ban_nhap,,功课,"1,9,16,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0017,课,1025,1,17,kè,bài học; tiết học; môn học,,,,功课,,,,,ban_nhap,120,功课,"1,16",ChuHan_SQL,
+H3-0018,过,1025,1,18,guò,qua; đi qua; trải qua,,,,过程,,,,,ban_nhap,269,过程,"1,19",ChuHan_SQL,
+H3-0019,程,1025,1,19,,,,,,过程,,,,,ban_nhap,,过程,"1,2,9,16",,THIEU_PINYIN; THIEU_NGHIA
+H3-0020,仅,1025,1,20,jǐn,hầu như / chỉ / vừa đủ,,,,仅,,,,,ban_nhap,,仅,"1,19",TuVungHSKChuan_HSK3,
+H3-0021,进,1025,1,21,jìn,vào; đi vào,,,,进展,,,,,ban_nhap,260,进展,"1,2,11,18,20",ChuHan_SQL,
+H3-0022,展,1025,1,22,,,,,,进展,,,,,ban_nhap,,进展,"1,9,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0023,利,1025,1,23,lì,lợi; lợi ích; thuận lợi,,,,利用,,,,,ban_nhap,446,利用,"1,9,20",ChuHan_SQL,
+H3-0024,用,1025,1,24,yòng,dùng; sử dụng,,,,利用,,,,,ban_nhap,278,利用,"1,2,10",ChuHan_SQL,
+H3-0025,胖,1025,1,25,pàng,mập / mũm mĩm,,,,胖,,,,,ban_nhap,,胖,1,TuVungHSKChuan_HSK3,
+H3-0026,齐,1025,1,26,qí,gọn gàng / đồng đều / cùng mức / giống hệt / đồng thời / cùng nhau / làm cho đều,,,,齐,,,,,ban_nhap,,齐,"1,19",TuVungHSKChuan_HSK3,
+H3-0027,巧,1025,1,27,qiǎo,một cách tình cờ / trùng hợp / đúng lúc / khéo léo / kịp thời,,,,巧,,,,,ban_nhap,,巧,1,TuVungHSKChuan_HSK3,
+H3-0028,目,1025,1,28,mù,mắt; mục; mục tiêu,,,,题目,,,,,ban_nhap,515,题目,"1,4,20",ChuHan_SQL,
+H3-0029,甜,1025,1,29,tián,ngọt,,,,甜,,,,,ban_nhap,,甜,1,TuVungHSKChuan_HSK3,
+H3-0030,跳,1025,1,30,tiào,nhảy / nhảy lò cò / nhảy qua / nảy / tim đập mạnh,,,,跳舞,,,,,ban_nhap,,跳舞,"1,11,15",TuVungHSKChuan_HSK3,
+H3-0031,舞,1025,1,31,,,,,,跳舞,,,,,ban_nhap,,跳舞,"1,17",,THIEU_PINYIN; THIEU_NGHIA
+H3-0032,突,1025,1,32,,,,,,突然,,,,,ban_nhap,,突然,"1,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0033,然,1025,1,33,rán,như vậy; thế; đúng,,,,突然,,,,,ban_nhap,401,突然,"1,2,10,13,19",ChuHan_SQL,
+H3-0034,推,1025,1,34,tuī,đẩy / cắt / từ chối / bác bỏ / khước từ / đùn đẩy (trách nhiệm) / hoãn / trì hoãn / thúc đẩy / đề cử / bầu chọn / massage,,,,推动,,,,,ban_nhap,601,推动,"1,2,8,20",ChuHan_SQL,
+H3-0035,卫,1025,1,35,,,,,,卫生间,,,,,ban_nhap,,卫生间,"1,7",,THIEU_PINYIN; THIEU_NGHIA
+H3-0036,生,1025,1,36,shēng,sinh; sinh ra; sống; người học/học sinh (trong từ ghép),,,,卫生间,,,,,ban_nhap,27,卫生间,"1,2,3,4,6,7,9,20",ChuHan_SQL,
+H3-0037,间,1025,1,37,jiān,gian; phòng,,,,卫生间,,,,,ban_nhap,103,卫生间,"1,10",ChuHan_SQL,
+H3-0038,香,1025,1,38,xiāng,thơm / ngửi thơm / hương thơm / ngon hoặc hấp dẫn / (ăn) ngon lành / (ngủ) ngon / nước hoa hoặc gia vị / que hương hoặc cây nhang / LT: 根[gen1],,,,香蕉,,,,,ban_nhap,,香蕉,"1,4",TuVungHSKChuan_HSK3,
+H3-0039,蕉,1025,1,39,,,,,,香蕉,,,,,ban_nhap,,香蕉,1,,THIEU_PINYIN; THIEU_NGHIA
+H3-0040,已,1025,1,40,yǐ,đã; rồi,,,,已,,,,,ban_nhap,539,已,"1,19",ChuHan_SQL,
+H3-0041,意,1025,1,41,yì,ý; ý nghĩa; ý định,,,,意外,,,,,ban_nhap,374,意外,"1,3,6,9,15",ChuHan_SQL,
+H3-0042,外,1025,1,42,wài,ngoài; bên ngoài,,,,意外,,,,,ban_nhap,20,意外,"1,3,9,15",ChuHan_SQL,
+H3-0043,杂,1025,1,43,,,,,,杂志,,,,,ban_nhap,,杂志,"1,10",,THIEU_PINYIN; THIEU_NGHIA
+H3-0044,志,1025,1,44,,,,,,杂志,,,,,ban_nhap,,杂志,"1,2,17",,THIEU_PINYIN; THIEU_NGHIA
+H3-0045,真,1025,1,45,zhēn,thật; quả thật,,,,真实,,,,,ban_nhap,123,真实,1,ChuHan_SQL,
+H3-0046,实,1025,1,46,shí,thật; thực; thực tế,,,,真实,,,,,ban_nhap,347,真实,"1,2,5,9,17,19",ChuHan_SQL,
+H3-0047,值,1025,1,47,zhí,giá trị / (thì) đáng / tình cờ / có phiên trực,,,,值,,,,,ban_nhap,,值,"1,19",TuVungHSKChuan_HSK3,
+H3-0048,得,1025,1,48,de,trợ tố/cách đọc de trong 记得; nhớ,,,,值得,,,,,ban_nhap,139,值得,"1,2,9,19",ChuHan_SQL,
+H3-0049,按,1026,2,1,àn,nhấn / đẩy / để sang một bên hoặc gác lại / kiểm soát / kiềm chế / đặt tay lên / kiểm tra hoặc tham khảo / theo / dựa vào / (của biên tập viên hoặc tác giả) đưa ra bình luận,,,,按,,,,,ban_nhap,,按,"2,12",TuVungHSKChuan_HSK3,
+H3-0050,班,1026,2,2,bān,lớp; lớp học,,,,班级,,,,,ban_nhap,111,班级,2,ChuHan_SQL,
+H3-0051,级,1026,2,3,jí,"cấp / hạng / bậc / bước (cầu thang) / Lượng từ: bước, cấp",,,,班级,,,,,ban_nhap,330,班级,2,ChuHan_SQL,
+H3-0052,比,1026,2,4,bǐ,so với; hơn,,,,比较,,,,,ban_nhap,280,比较,"2,8,17",ChuHan_SQL,
+H3-0053,较,1026,2,5,jiào,(hình thức ràng buộc) so sánh / (văn học) tranh luận / so với / (trước tính từ) tương đối; khá; hơi / cũng đọc là [jiao3],,,,比较,,,,,ban_nhap,,比较,2,TuVungHSKChuan_HSK3,
+H3-0054,采,1026,2,6,,,,,,采用,,,,,ban_nhap,,采用,"2,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0055,厂,1026,2,7,chǎng,nhà máy / sân / kho / xưởng / công xưởng / cơ xưởng (công nghiệp),,,,厂,,,,,ban_nhap,,厂,"2,19",TuVungHSKChuan_HSK3,
+H3-0056,超,1026,2,8,chāo,vượt; vượt quá,,,,超级,,,,,ban_nhap,459,超级,2,ChuHan_SQL,
+H3-0057,初,1026,2,9,chū,lúc đầu / (vào) lúc bắt đầu / đầu tiên / sơ cấp / cơ bản,,,,初步,,,,,ban_nhap,,初步,"2,3,14,17",TuVungHSKChuan_HSK3,
+H3-0058,步,1026,2,10,bù,một bước / nhịp bước / đi / bước đi / các giai đoạn trong một quá trình / tình huống,,,,初步,,,,,ban_nhap,,初步,"2,4,12,16,20",TuVungHSKChuan_HSK3,
+H3-0059,中,1026,2,11,zhōng,trong; giữa; ở giữa,,,,初中,,,,,ban_nhap,38,初中,"2,10,11,15",ChuHan_SQL,
+H3-0060,单,1026,2,12,dān,đơn; đơn lẻ; phiếu,,,,单元,,,,,ban_nhap,343,单元,"2,9",ChuHan_SQL,
+H3-0061,元,1026,2,13,yuán,tệ; đồng nhân dân tệ,,,,单元,,,,,ban_nhap,198,单元,"2,9",ChuHan_SQL,
+H3-0062,分,1026,2,14,fēn,phút,,,,得分,,,,,ban_nhap,97,得分,"2,7,18,20",ChuHan_SQL,
+H3-0063,调,1026,2,15,diào,điều chuyển / di chuyển (quân đội hoặc cán bộ) / điều tra / hỏi về / ngữ điệu / quan điểm / lập luận / tông (trong âm nhạc) / thể loại (nhạc) / giai điệu / âm điệu,,,,调查,,,,,ban_nhap,,调查,"2,9,13,16,18,20",TuVungHSKChuan_HSK3,
+H3-0064,查,1026,2,16,chá,nghiên cứu / kiểm tra / điều tra / khám xét / tham khảo / tra cứu (ví dụ: tra từ trong từ điển),,,,调查,,,,,ban_nhap,321,调查,2,ChuHan_SQL,
+H3-0065,发,1026,2,17,fā,gửi đi / bộc lộ (cảm xúc của một người) / phát hành / phát triển / kiếm được nhiều tiền / lượng từ cho phát súng (phát),,,,发达,,,,,ban_nhap,390,发达,"2,9,14,15,16,17,18,20",ChuHan_SQL,
+H3-0066,达,1026,2,18,,,,,,发达,,,,,ban_nhap,,发达,"2,17,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0067,费,1026,2,19,fèi,tốn / tiêu phí / phí / lãng phí / chi phí,,,,费,,,,,ban_nhap,,费,"2,3,10",TuVungHSKChuan_HSK3,
+H3-0068,复,1026,2,20,fù,lặp lại; trở lại; ôn lại,,,,复印,,,,,ban_nhap,328,复印,"2,7,10",ChuHan_SQL,
+H3-0069,印,1026,2,21,yìn,in; dấu; ấn,,,,复印,,,,,ban_nhap,578,复印,"2,15",ChuHan_SQL,
+H3-0070,富,1026,2,22,fù,giàu / có nhiều / phú quý,,,,富,,,,,ban_nhap,,富,"2,19",TuVungHSKChuan_HSK3,
+H3-0071,敢,1026,2,23,gǎn,dám / cả gan / (lịch sự) tôi xin mạo muội,,,,敢,,,,,ban_nhap,,敢,2,TuVungHSKChuan_HSK3,
+H3-0072,歌,1026,2,24,gē,bài hát,,,,歌手,,,,,ban_nhap,237,歌手,"2,4,8",ChuHan_SQL,
+H3-0073,手,1026,2,25,shǒu,tay; bàn tay,,,,歌手,,,,,ban_nhap,206,歌手,"2,4,8,9,11,19",ChuHan_SQL,
+H3-0074,自,1026,2,26,zì,tự; bản thân,,,,各自,,,,,ban_nhap,402,各自,"2,9,13,19",ChuHan_SQL,
+H3-0075,工,1026,2,27,gōng,công việc; lao động; thợ; nghề,,,,工程师,,,,,ban_nhap,155,工程师,"2,3,4,19,20",ChuHan_SQL,
+H3-0076,师,1026,2,28,shī,thầy; giáo viên; chuyên gia,,,,工程师,,,,,ban_nhap,121,工程师,2,ChuHan_SQL,
+H3-0077,果,1026,2,29,guǒ,quả; trái cây; kết quả,,,,果然,,,,,ban_nhap,183,果然,"2,3,7,19,20",ChuHan_SQL,
+H3-0078,海,1026,2,30,hǎi,đại dương / biển / số lượng lớn người hoặc vật / (phương ngữ) nhiều,,,,海关,,,,,ban_nhap,400,海关,2,ChuHan_SQL,
+H3-0079,关,1026,2,31,guān,đóng; tắt,,,,海关,,,,,ban_nhap,135,海关,"2,5,9",ChuHan_SQL,
+H3-0080,火,1026,2,32,huǒ,lửa,,,,火,,,,,ban_nhap,253,火,2,ChuHan_SQL,
+H3-0081,计,1026,2,33,jì,tính; kế; kế hoạch,,,,计算,,,,,ban_nhap,332,计算,"2,4,16",ChuHan_SQL,
+H3-0082,算,1026,2,34,suàn,coi như / tính toán / tính / toán,,,,计算,,,,,ban_nhap,331,计算,2,ChuHan_SQL,
+H3-0083,简,1026,2,35,,,,,,简直,,,,,ban_nhap,,简直,"2,9",,THIEU_PINYIN; THIEU_NGHIA
+H3-0084,直,1026,2,36,zhí,thẳng; trực tiếp; luôn,,,,简直,,,,,ban_nhap,506,简直,"2,4,18",ChuHan_SQL,
+H3-0085,建,1026,2,37,jiàn,thiết lập / sáng lập / dựng lên / xây dựng / kiến thiết,,,,建立,,,,,ban_nhap,,建立,"2,3,19,20",TuVungHSKChuan_HSK3,
+H3-0086,交,1026,2,38,jiāo,giao nộp; giao; trả (tiền); bàn giao / kết bạn / (đường) giao nhau / biến thể của 跤[jiao1],,,,交费,,,,,ban_nhap,367,交费,"2,3,5,6,11,12",ChuHan_SQL,
+H3-0087,教,1026,2,39,jiāo,dạy,,,,教材,,,,,ban_nhap,116,教材,"2,8",ChuHan_SQL,
+H3-0088,材,1026,2,40,,,,,,教材,,,,,ban_nhap,,教材,2,,THIEU_PINYIN; THIEU_NGHIA
+H3-0089,金,1026,2,41,jīn,vàng / nguyên tố hóa học Au / thuật ngữ chung cho kim loại bóng và dễ dát / tiền / màu vàng / được tôn trọng / một trong tám loại nhạc cụ cổ đại 八音[ba1 yin1],,,,金,,,,,ban_nhap,,金,"2,3",TuVungHSKChuan_HSK3,
+H3-0090,牌,1026,2,42,,,,,,金牌,,,,,ban_nhap,,金牌,"2,13,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0091,精,1026,2,43,,,,,,精神,,,,,ban_nhap,,精神,"2,15,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0092,神,1026,2,44,,,,,,精神,,,,,ban_nhap,,精神,"2,15",,THIEU_PINYIN; THIEU_NGHIA
+H3-0093,开,1026,2,45,kāi,mở; bật,,,,开发,,,,,ban_nhap,133,开发,"2,3,8,9,11,12,19,20",ChuHan_SQL,
+H3-0094,可,1026,2,46,kě,có thể; được; đáng,,,,可靠,,,,,ban_nhap,379,可靠,"2,6,18",ChuHan_SQL,
+H3-0095,靠,1026,2,47,kào,dựa vào / đứng cạnh / đến gần / phụ thuộc vào / tin tưởng / chịch (thô tục) / loại kịch mặc trang phục giáp truyền thống (xưa),,,,可靠,,,,,ban_nhap,489,可靠,2,ChuHan_SQL,
+H3-0096,浪,1026,2,48,,,,,,浪费,,,,,ban_nhap,,浪费,2,,THIEU_PINYIN; THIEU_NGHIA
+H3-0097,学,1026,2,49,xué,học,,,,留学,,,,,ban_nhap,113,留学,2,ChuHan_SQL,NHIEU_BAN_GHI_CHU_HAN_SQL
+H3-0098,没,1026,2,50,méi,không; chưa,,,,没用,,,,,ban_nhap,274,没用,2,ChuHan_SQL,
+H3-0099,每,1026,2,51,měi,mỗi / mọi,,,,每,,,,,ban_nhap,,每,2,TuVungHSKChuan_HSK3,
+H3-0100,民,1026,2,52,,,,,,民族,,,,,ban_nhap,,民族,"2,10,16",,THIEU_PINYIN; THIEU_NGHIA
+H3-0101,族,1026,2,53,,,,,,民族,,,,,ban_nhap,,民族,2,,THIEU_PINYIN; THIEU_NGHIA
+H3-0102,念,1026,2,54,niàn,"biến thể của 念[nian4], đọc to || đọc / học (một môn) / theo học (một trường) / đọc to / la mắng (LT:頓|顿[dun4]) / nhớ (ai đó) / ý tưởng / hồi tưởng / hai mươi (chữ số chống gian lận trong ngân hàng tương ứng với 廿[nian4])",,,,念,,,,,ban_nhap,,念,"2,17",TuVungHSKChuan_HSK3,
+H3-0103,农,1026,2,55,,,,,,农民,,,,,ban_nhap,,农民,"2,11,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0104,皮,1026,2,56,pí,da / da lông / lông / LT:張|张[zhang1] / pico- (một phần nghìn tỷ) / nghịch ngợm,,,,皮包,,,,,ban_nhap,,皮包,"2,10",TuVungHSKChuan_HSK3,
+H3-0105,包,1026,2,57,bāo,túi; gói; bọc,,,,皮包,,,,,ban_nhap,141,皮包,2,ChuHan_SQL,
+H3-0106,破,1026,2,58,pò,"hỏng / hư / hao mòn / tệ / hỏng bét / phá, tách hoặc chẻ / bỏ đi / phá hủy / tuyệt giao / đánh bại / chiếm được (một thành phố,...) / vạch trần sự thật",,,,破,,,,,ban_nhap,,破,"2,3,10",TuVungHSKChuan_HSK3,
+H3-0107,其,1026,2,59,qí,nó; của nó; đó; trong đó,,,,其实,,,,,ban_nhap,598,其实,"2,4",ChuHan_SQL,
+H3-0108,桥,1026,2,60,qiáo,cầu / LT:座[zuo4],,,,桥,,,,,ban_nhap,,桥,2,TuVungHSKChuan_HSK3,
+H3-0109,请,1026,2,61,qǐng,mời; xin; vui lòng,,,,请教,,,,,ban_nhap,122,请教,2,ChuHan_SQL,
+H3-0110,去,1026,2,62,qù,đi; đi đến,,,,去世,,,,,ban_nhap,87,去世,"2,4,15,19,20",ChuHan_SQL,
+H3-0111,世,1026,2,63,,,,,,去世,,,,,ban_nhap,,去世,"2,13,17,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0112,确,1026,2,64,què,chính xác; chắc chắn,,,,确实,,,,,ban_nhap,352,确实,"2,3,10,18",ChuHan_SQL,
+H3-0113,裙,1026,2,65,,,,,,裙子,,,,,ban_nhap,,裙子,2,,THIEU_PINYIN; THIEU_NGHIA
+H3-0114,子,1026,2,66,zi,con; hậu tố danh từ,,,,裙子,,,,,ban_nhap,45,裙子,"2,8,10,12,13,15,18,20",ChuHan_SQL,
+H3-0115,任,1026,2,67,rèn,"bổ nhiệm / chỉ định / nhậm chức / văn phòng / trách nhiệm / để cho / cho phép / tự do / dù (thế nào, cái gì, v.v.) / lượng từ cho nhiệm kỳ trong văn phòng, hoặc cho vợ, bạn gái, v.v. (như trong 前任男友)",,,,任,,,,,ban_nhap,,任,"2,3,15",TuVungHSKChuan_HSK3,
+H3-0116,仍,1026,2,68,réng,vẫn / duy trì / (văn học) thường xuyên; hay,,,,仍,,,,,ban_nhap,,仍,"2,10",TuVungHSKChuan_HSK3,
+H3-0117,验,1026,2,69,,,,,,实验,,,,,ban_nhap,,实验,"2,5,7,15,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0118,使,1026,2,70,shǐ,khiến; làm cho; sử dụng,,,,使,,,,,ban_nhap,599,使,"2,15",ChuHan_SQL,
+H3-0119,事,1026,2,71,shì,việc; chuyện; sự việc,,,,事实,,,,,ban_nhap,295,事实,"2,3,9,10,16,17,19",ChuHan_SQL,
+H3-0120,试,1026,2,72,shì,thử,,,,试题,,,,,ban_nhap,119,试题,"2,7",ChuHan_SQL,
+H3-0121,适,1026,2,73,shì,thích hợp; phù hợp,,,,适用,,,,,ban_nhap,557,适用,"2,10,19",ChuHan_SQL,
+H3-0122,首,1026,2,74,,,,,,首都,,,,,ban_nhap,,首都,"2,15",,THIEU_PINYIN; THIEU_NGHIA
+H3-0123,都,1026,2,75,dōu,đều; tất cả,,,,首都,,,,,ban_nhap,298,首都,2,ChuHan_SQL,
+H3-0124,书,1026,2,76,shū,sách,,,,书架,,,,,ban_nhap,126,书架,2,ChuHan_SQL,
+H3-0125,架,1026,2,77,jià,"chống đỡ / khung / giá / cơ cấu / lượng từ cho máy bay, xe lớn, radio, v.v.",,,,书架,,,,,ban_nhap,,书架,"2,6,10,11",TuVungHSKChuan_HSK3,
+H3-0126,输,1026,2,78,shū,thua; bị đánh bại / (dạng kết hợp) vận chuyển / (văn học) quyên góp; đóng góp / (thông tục) nhập (mật khẩu),,,,输,,,,,ban_nhap,,输,"2,8,11",TuVungHSKChuan_HSK3,
+H3-0127,属,1026,2,79,shǔ,phân loại / chi (phân loại học) / thành viên gia đình / người phụ thuộc / thuộc về / trực thuộc / liên kết với / sinh năm (một trong 12 con giáp) / là / chứng tỏ là / cấu thành,,,,属于,,,,,ban_nhap,,属于,"2,5",TuVungHSKChuan_HSK3,
+H3-0128,于,1026,2,80,yú,ở; tại; đối với,,,,属于,,,,,ban_nhap,550,属于,"2,9,19",ChuHan_SQL,
+H3-0129,所,1026,2,81,suǒ,nơi; chỗ; sở,,,,所长,,,,,ban_nhap,558,所长,"2,3,6",ChuHan_SQL,
+H3-0130,长,1026,2,82,cháng,chiều dài / dài / mãi mãi / luôn luôn / liên tục,,,,所长,,,,,ban_nhap,349,所长,"2,4,10,17,20",ChuHan_SQL,
+H3-0131,提,1026,2,83,tí,xách (thòng xuống từ tay) / nâng / đề xuất / nhắc đến / nêu lên (vấn đề) / nét bút hướng lên / nét nâng bút (trong hội họa) / gàu múc chất lỏng,,,,提问,,,,,ban_nhap,363,提问,"2,4",ChuHan_SQL,
+H3-0132,问,1026,2,84,wèn,hỏi,,,,提问,,,,,ban_nhap,147,提问,"2,18",ChuHan_SQL,
+H3-0133,文,1026,2,85,wén,văn; chữ viết; ngôn ngữ; văn hóa,,,,文件,,,,,ban_nhap,39,文件,"2,9,17",ChuHan_SQL,
+H3-0134,件,1026,2,86,jiàn,"món / thành phần / lượng từ cho sự kiện, đồ vật, quần áo, v.v.",,,,文件,,,,,ban_nhap,466,文件,"2,10,19",ChuHan_SQL,
+H3-0135,章,1026,2,87,,,,,,文章,,,,,ban_nhap,,文章,2,,THIEU_PINYIN; THIEU_NGHIA
+H3-0136,现,1026,2,88,xiàn,hiện; hiện tại; xuất hiện,,,,现实,,,,,ban_nhap,106,现实,"2,3,19,20",ChuHan_SQL,
+H3-0137,相,1026,2,89,xiāng,lẫn nhau; nhau; xem,,,,相关,,,,,ban_nhap,392,相关,"2,8,10,15,19",ChuHan_SQL,
+H3-0138,写,1026,2,90,xiě,viết,,,,写作,,,,,ban_nhap,145,写作,2,ChuHan_SQL,
+H3-0139,作,1026,2,91,zuò,làm; thực hiện; sáng tác,,,,写作,,,,,ban_nhap,153,写作,"2,3,10,16",ChuHan_SQL,
+H3-0140,性,1026,2,92,,,,,,性（积极性）,,,,,ban_nhap,,性（积极性）,"2,9",,THIEU_PINYIN; THIEU_NGHIA
+H3-0141,积,1026,2,93,,,,,,性（积极性）,,,,,ban_nhap,,性（积极性）,"2,9,17",,THIEU_PINYIN; THIEU_NGHIA
+H3-0142,极,1026,2,94,,,,,,性（积极性）,,,,,ban_nhap,,性（积极性）,"2,17,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0143,别,1026,2,95,bié,đừng,,,,性别,,,,,ban_nhap,184,性别,"2,6,20",ChuHan_SQL,
+H3-0144,训,1026,2,96,,,,,,训练,,,,,ban_nhap,,训练,2,,THIEU_PINYIN; THIEU_NGHIA
+H3-0145,练,1026,2,97,liàn,luyện tập / huấn luyện / diễn tập / hoàn thiện (kỹ năng) / tập luyện / (văn học) lụa trắng / luộc và giũ lụa thô,,,,训练,,,,,ban_nhap,341,训练,"2,8",ChuHan_SQL,
+H3-0146,应,1026,2,98,yīng,nên; cần; đáp ứng,,,,应用,,,,,ban_nhap,573,应用,"2,18,19",ChuHan_SQL,
+H3-0147,邮,1026,2,99,,,,,,邮箱,,,,,ban_nhap,,邮箱,"2,9,10,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0148,箱,1026,2,100,,,,,,邮箱,,,,,ban_nhap,,邮箱,2,,THIEU_PINYIN; THIEU_NGHIA
+H3-0149,者,1026,2,101,zhě,người; người mà...,,,,者（志愿者）,,,,,ban_nhap,570,者（志愿者）,"2,9,16,17,19",ChuHan_SQL,
+H3-0150,愿,1026,2,102,yuàn,mong muốn; nguyện; sẵn lòng,,,,者（志愿者）,,,,,ban_nhap,574,者（志愿者）,"2,17,19",ChuHan_SQL,
+H3-0151,争,1026,2,103,zhēng,cố gắng giành / đua tranh / tranh luận hoặc tranh cãi / thiếu hoặc không đủ (phương ngữ) / như thế nào hoặc cái gì (văn học),,,,争取,,,,,ban_nhap,,争取,"2,9",TuVungHSKChuan_HSK3,
+H3-0152,取,1026,2,104,qǔ,lấy / nhận / chọn / mang về,,,,争取,,,,,ban_nhap,387,争取,"2,6,19",ChuHan_SQL,
+H3-0153,证,1026,2,105,zhèng,khiển trách / biến thể của 證|证[zheng4] || chứng chỉ / bằng chứng / chứng minh / biểu thị / xác nhận / biến thể của 症[zheng4],,,,证件,,,,,ban_nhap,,证件,"2,14,18,19",TuVungHSKChuan_HSK3,
+H3-0154,指,1026,2,106,zhǐ,ngón tay / chỉ vào hoặc đến / chỉ ra hoặc đề cập đến / phụ thuộc vào / dựa vào / (tóc) dựng đứng lên,,,,指导,,,,,ban_nhap,,指导,"2,3,11",TuVungHSKChuan_HSK3,
+H3-0155,导,1026,2,107,,,,,,指导,,,,,ban_nhap,,指导,"2,4,9",,THIEU_PINYIN; THIEU_NGHIA
+H3-0156,华,1026,2,108,,,,,,中华民族,,,,,ban_nhap,,中华民族,"2,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0157,专,1026,2,109,,,,,,专门,,,,,ban_nhap,,专门,"2,16,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0158,门,1026,2,110,mén,cửa; cổng,,,,专门,,,,,ban_nhap,204,专门,"2,16",ChuHan_SQL,
+H3-0159,业,1026,2,111,yè,nghề; nghiệp; công việc,,,,专业,,,,,ban_nhap,353,专业,"2,3,12,18",ChuHan_SQL,
+H3-0160,追,1026,2,112,zhuī,đuổi / theo đuổi / điều tra / nghiên cứu / hồi tưởng / nhớ lại / tán tỉnh (người yêu) / cày phim (một bộ phim truyền hình) / truy cứu hồi tố / truy tặng sau khi qua đời,,,,追,,,,,ban_nhap,,追,2,TuVungHSKChuan_HSK3,
+H3-0161,资,1026,2,113,,,,,,资金,,,,,ban_nhap,,资金,"2,3,17",,THIEU_PINYIN; THIEU_NGHIA
+H3-0162,安,1027,3,1,ān,yên; yên ổn; an toàn,,,,保安,,,,,ban_nhap,314,保安,"3,8,15,18",ChuHan_SQL,
+H3-0163,场,1027,3,2,chǎng,nơi; sân; địa điểm; lượng từ cho buổi/trận,,,,场所,,,,,ban_nhap,195,场所,"3,4,7,17,19",ChuHan_SQL,
+H3-0164,打,1027,3,3,dǎ,đánh; gọi; chơi,,,,打破,,,,,ban_nhap,132,打破,"3,12",ChuHan_SQL,
+H3-0165,当,1027,3,4,dāng,(từ tượng thanh) đong / đinh đong (chuông) || làm / làm việc / quản lý / chịu đựng / khi / trong lúc / nên / phải / tương xứng / bằng / giống / cản trở / đúng lúc (thời gian hoặc địa điểm) / tại chỗ / ngay / lúc đó,,,,当初,,,,,ban_nhap,305,当初,"3,5,15,19",ChuHan_SQL,
+H3-0166,队,1027,3,5,duì,phi đội / đội / nhóm,,,,队员,,,,,ban_nhap,518,队员,"3,8",ChuHan_SQL,
+H3-0167,员,1027,3,6,,,,,,队员,,,,,ban_nhap,,队员,"3,5,9,16",,THIEU_PINYIN; THIEU_NGHIA
+H3-0168,公,1027,3,7,gōng,công; chung; công cộng,,,,公务员,,,,,ban_nhap,355,公务员,"3,11,13,16",ChuHan_SQL,
+H3-0169,务,1027,3,8,wù,việc; công việc; phục vụ,,,,公务员,,,,,ban_nhap,357,公务员,"3,9",ChuHan_SQL,
+H3-0170,管,1027,3,9,guǎn,biến thể của 管[guan3] || chăm sóc / kiểm soát / quản lý / phụ trách / trông nom / vận hành / quan tâm / ống / đường ống / nhạc cụ họ gỗ / lượng từ cho vật hình ống / tiểu từ giống 把[ba3] trong cấu trúc 管...叫 / bút lông / (khẩu ngữ) đến / hướng tới,,,,管理,,,,,ban_nhap,,管理,"3,9",TuVungHSKChuan_HSK3,
+H3-0171,理,1027,3,10,lǐ,lý; lý lẽ; xử lý,,,,管理,,,,,ban_nhap,359,管理,"3,9,15,17,19",ChuHan_SQL,
+H3-0172,哈,1027,3,11,,,,,,哈哈,,,,,ban_nhap,,哈哈,3,,THIEU_PINYIN; THIEU_NGHIA
+H3-0173,行,1027,3,12,xíng,được; ổn; có thể,,,,行,,,,,ban_nhap,255,行,"3,7,12,19",ChuHan_SQL,
+H3-0174,后,1027,3,13,hòu,sau; phía sau,,,,后果,,,,,ban_nhap,82,后果,"3,7,11,17,18,19",ChuHan_SQL,
+H3-0175,活,1027,3,14,huó,sống; hoạt động,,,,活,,,,,ban_nhap,312,活,3,ChuHan_SQL,
+H3-0176,基,1027,3,15,,,,,,基础,,,,,ban_nhap,,基础,"3,4,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0177,础,1027,3,16,,,,,,基础,,,,,ban_nhap,,基础,3,,THIEU_PINYIN; THIEU_NGHIA
+H3-0178,议,1027,3,17,,,,,,建议,,,,,ban_nhap,,建议,"3,17",,THIEU_PINYIN; THIEU_NGHIA
+H3-0179,经,1027,3,18,jīng,qua; kinh qua; thường,,,,经营,,,,,ban_nhap,309,经营,"3,15,19",ChuHan_SQL,
+H3-0180,营,1027,3,19,,,,,,经营,,,,,ban_nhap,,经营,"3,5",,THIEU_PINYIN; THIEU_NGHIA
+H3-0181,就,1027,3,20,jiù,thì; liền; ngay,,,,就业,,,,,ban_nhap,271,就业,"3,19,20",ChuHan_SQL,
+H3-0182,老,1027,3,21,lǎo,già; lớn tuổi,,,,老板,,,,,ban_nhap,49,老板,"3,10,11,20",ChuHan_SQL,
+H3-0183,板,1027,3,22,bǎn,tấm; bảng,,,,老板,,,,,ban_nhap,462,老板,"3,9",ChuHan_SQL,
+H3-0184,排,1027,3,23,pái,"một hàng / một dòng / sắp xếp / theo thứ tự / xếp hàng / loại bỏ / thoát nước / đẩy ra / tiểu đội / bè / lượng từ cho hàng, dòng, v.v.",,,,排名,,,,,ban_nhap,522,排名,"3,8",ChuHan_SQL,
+H3-0185,名,1027,3,24,míng,tên; danh xưng,,,,排名,,,,,ban_nhap,8,排名,3,ChuHan_SQL,
+H3-0186,人,1027,3,25,rén,người,,,,人工,,,,,ban_nhap,26,人工,"3,4,5,9,10,11,15,19",ChuHan_SQL,
+H3-0187,类,1027,3,26,lèi,loại / kiểu / lớp / hạng / tương tự / giống / giống như,,,,人类,,,,,ban_nhap,,人类,"3,15",TuVungHSKChuan_HSK3,
+H3-0188,商,1027,3,27,shāng,thương mại; buôn bán; thương nhân,,,,商品,,,,,ban_nhap,194,商品,3,ChuHan_SQL,
+H3-0189,品,1027,3,28,,,,,,商品,,,,,ban_nhap,,商品,"3,9,16",,THIEU_PINYIN; THIEU_NGHIA
+H3-0190,设,1027,3,29,,,,,,设立,,,,,ban_nhap,,设立,"3,16,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0191,深,1027,3,30,shēn,biến thể cũ của 深[shen1] || sâu (cả nghĩa đen và bóng),,,,深入,,,,,ban_nhap,,深入,"3,4,15",TuVungHSKChuan_HSK3,
+H3-0192,入,1027,3,31,rù,vào; gia nhập,,,,深入,,,,,ban_nhap,361,深入,"3,11",ChuHan_SQL,
+H3-0193,产,1027,3,32,,,,,,生产,,,,,ban_nhap,,生产,"3,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0194,收,1027,3,33,shōu,nhận / chấp nhận / sưu tầm / cất đi / kiềm chế / dừng / chăm sóc (dùng sau tên trên dòng địa chỉ),,,,收费,,,,,ban_nhap,362,收费,"3,4,16",ChuHan_SQL,
+H3-0195,体,1027,3,34,tǐ,thể; cơ thể; hình thức,,,,体现,,,,,ban_nhap,233,体现,"3,6,8,11,15,17,19",ChuHan_SQL,
+H3-0196,为,1027,3,35,wèi,bởi vì / vì / để || biến thể của 為|为[wei4],,,,为了,,,,,ban_nhap,560,为了,"3,6,16,20",ChuHan_SQL,
+H3-0197,了,1027,3,36,le,rồi; đã,,,,为了,,,,,ban_nhap,273,为了,"3,17,19,20",ChuHan_SQL,
+H3-0198,显,1027,3,37,,,,,,显示,,,,,ban_nhap,,显示,"3,9,10",,THIEU_PINYIN; THIEU_NGHIA
+H3-0199,示,1027,3,38,shì,biểu thị; chỉ ra; cho thấy,,,,显示,,,,,ban_nhap,524,显示,3,ChuHan_SQL,
+H3-0200,消,1027,3,39,,,,,,消费,,,,,ban_nhap,,消费,"3,6",,THIEU_PINYIN; THIEU_NGHIA
+H3-0201,效,1027,3,40,,,,,,效果,,,,,ban_nhap,,效果,3,,THIEU_PINYIN; THIEU_NGHIA
+H3-0202,因,1027,3,41,yīn,nguyên nhân; vì,,,,因此,,,,,ban_nhap,572,因此,3,ChuHan_SQL,
+H3-0203,此,1027,3,42,,,,,,因此,,,,,ban_nhap,,因此,3,,THIEU_PINYIN; THIEU_NGHIA
+H3-0204,有,1027,3,43,yǒu,có,,,,有效,,,,,ban_nhap,37,有效,"3,9,10,15,19,20",ChuHan_SQL,
+H3-0205,责,1027,3,44,,,,,,责任,,,,,ban_nhap,,责任,"3,11",,THIEU_PINYIN; THIEU_NGHIA
+H3-0206,职,1027,3,45,,,,,,职工,,,,,ban_nhap,,职工,3,,THIEU_PINYIN; THIEU_NGHIA
+H3-0207,出,1027,3,46,chū,ra; đi ra,,,,指出,,,,,ban_nhap,259,指出,"3,9,16,18,19",ChuHan_SQL,
+H3-0208,制,1027,3,47,,,,,,制造,,,,,ban_nhap,,制造,"3,9,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0209,造,1027,3,48,zào,làm / xây dựng / sản xuất / phát minh / bịa đặt / đi đến / bên (trong vụ kiện hoặc thỏa thuận pháp lý) / mùa vụ / lượng từ cho mùa vụ,,,,制造,,,,,ban_nhap,,制造,"3,19,20",TuVungHSKChuan_HSK3,
+H3-0210,主,1027,3,49,zhǔ,chủ; chính; chủ yếu,,,,主任,,,,,ban_nhap,371,主任,"3,9,11,17,18",ChuHan_SQL,
+H3-0211,不,1028,4,1,bù,không,,,,不断,,,,,ban_nhap,266,不断,"4,5,15,18,19",ChuHan_SQL,
+H3-0212,断,1028,4,2,duàn,làm gãy / bẻ gãy / cắt đứt / từ bỏ hoặc kiêng cữ cái gì / phán đoán / (thường dùng ở dạng phủ định) tuyệt đối / chắc chắn / dứt khoát,,,,不断,,,,,ban_nhap,,不断,"4,18,19",TuVungHSKChuan_HSK3,
+H3-0213,期,1028,4,3,qī,kỳ; thời kỳ; giai đoạn; thời hạn,,,,长期,,,,,ban_nhap,89,长期,4,ChuHan_SQL,
+H3-0214,从,1028,4,4,cóng,từ,,,,从来,,,,,ban_nhap,215,从来,"4,19",ChuHan_SQL,
+H3-0215,来,1028,4,5,lái,đến; tới,,,,从来,,,,,ban_nhap,160,从来,"4,6,9,10,19,20",ChuHan_SQL,
+H3-0216,代,1028,4,6,dài,thay thế / làm thay cho người khác / thế hệ / triều đại / thời đại / giai đoạn / kỷ nguyên (lịch sử) / đại (địa chất),,,,代,,,,,ban_nhap,,代,"4,7,9,19,20",TuVungHSKChuan_HSK3,
+H3-0217,领,1028,4,7,lǐng,"cổ / cổ áo / dẫn dắt / nhận / lượng từ cho quần áo, chiếu, màn hình, v.v.",,,,带领,,,,,ban_nhap,,带领,"4,9,10,15",TuVungHSKChuan_HSK3,
+H3-0218,等,1028,4,8,děng,đợi; chờ,,,,等待,,,,,ban_nhap,151,等待,4,ChuHan_SQL,
+H3-0219,待,1028,4,9,,,,,,等待,,,,,ban_nhap,,等待,"4,9,10",,THIEU_PINYIN; THIEU_NGHIA
+H3-0220,底,1028,4,10,,,,,,底下,,,,,ban_nhap,,底下,"4,10,17",,THIEU_PINYIN; THIEU_NGHIA
+H3-0221,下,1028,4,11,xià,dưới; xuống,,,,底下,,,,,ban_nhap,105,底下,4,ChuHan_SQL,
+H3-0222,定,1028,4,12,dìng,định; xác định; nhất định,,,,定期,,,,,ban_nhap,548,定期,"4,6,10,18,19",ChuHan_SQL,
+H3-0223,力,1028,4,13,lì,sức; lực; sức lực,,,,动力,,,,,ban_nhap,345,动力,"4,9",ChuHan_SQL,
+H3-0224,短,1028,4,14,duǎn,ngắn / gọn / thiếu / điểm yếu / lỗi,,,,短期,,,,,ban_nhap,552,短期,"4,10,15",ChuHan_SQL,
+H3-0225,声,1028,4,15,shēng,âm thanh; tiếng; giọng,,,,歌声,,,,,ban_nhap,579,歌声,"4,16",ChuHan_SQL,
+H3-0226,夫,1028,4,16,,,,,,工夫,,,,,ban_nhap,,工夫,"4,7,16",,THIEU_PINYIN; THIEU_NGHIA
+H3-0227,好,1028,4,17,hǎo,tốt; khỏe,,,,好奇,,,,,ban_nhap,2,好奇,"4,7,15,19",ChuHan_SQL,
+H3-0228,奇,1028,4,18,,,,,,好奇,,,,,ban_nhap,,好奇,"4,15",,THIEU_PINYIN; THIEU_NGHIA
+H3-0229,本,1028,4,19,běn,quyển; cuốn,,,,基本上,,,,,ban_nhap,60,基本上,"4,9,19",ChuHan_SQL,
+H3-0230,上,1028,4,20,shàng,trên; lên,,,,基本上,,,,,ban_nhap,99,基本上,"4,10,15,17,20",ChuHan_SQL,
+H3-0231,继,1028,4,21,,,,,,继续,,,,,ban_nhap,,继续,4,,THIEU_PINYIN; THIEU_NGHIA
+H3-0232,续,1028,4,22,,,,,,继续,,,,,ban_nhap,,继续,"4,6,16",,THIEU_PINYIN; THIEU_NGHIA
+H3-0233,近,1028,4,23,jìn,gần / sát / khoảng chừng,,,,近期,,,,,ban_nhap,488,近期,"4,11",ChuHan_SQL,
+H3-0234,久,1028,4,24,jiǔ,lâu; lâu dài,,,,久,,,,,ban_nhap,304,久,4,ChuHan_SQL,
+H3-0235,旧,1028,4,25,jiù,cũ / đối lập: mới 新 / trước / hao mòn (theo thời gian),,,,旧,,,,,ban_nhap,,旧,4,TuVungHSKChuan_HSK3,
+H3-0236,空,1028,4,26,kōng,trống; không; bầu trời,,,,空儿,,,,,ban_nhap,409,空儿,"4,13,18",ChuHan_SQL,
+H3-0237,儿,1028,4,27,ér,con; con trai,,,,空儿,,,,,ban_nhap,44,空儿,"4,10",ChuHan_SQL,
+H3-0238,里,1028,4,28,lǐ,trong; bên trong,,,,里面,,,,,ban_nhap,48,里面,4,ChuHan_SQL,
+H3-0239,面,1028,4,29,miàn,mặt; bề mặt; bột/mì,,,,里面,,,,,ban_nhap,178,里面,"4,9,11,19",ChuHan_SQL,
+H3-0240,连,1028,4,30,lián,"liên kết / gia nhập / kết nối / liên tục / liên tiếp / bao gồm / (dùng với 也[ye3], 都[dou1],...) thậm chí / đại đội (quân đội)",,,,连续,,,,,ban_nhap,,连续,"4,6,16",TuVungHSKChuan_HSK3,
+H3-0241,母,1028,4,31,,,,,,母亲,,,,,ban_nhap,,母亲,"4,10",,THIEU_PINYIN; THIEU_NGHIA
+H3-0242,亲,1028,4,32,qīn,cha mẹ / người thân (ruột thịt) / họ hàng / có quan hệ / hôn nhân / cô dâu / gần gũi / thân thiết / trực tiếp / tận mắt / ủng hộ / thuận- / hôn / (tiếng lóng Internet) thân mến,,,,母亲,,,,,ban_nhap,,母亲,"4,5,9,15",TuVungHSKChuan_HSK3,
+H3-0243,木,1028,4,33,,,,,,木头,,,,,ban_nhap,,木头,4,,THIEU_PINYIN; THIEU_NGHIA
+H3-0244,头,1028,4,34,tóu,đầu / kiểu tóc / trên cùng / cuối / đoạn còn lại / tàn dư / trưởng / sếp / mặt / phương diện / đầu tiên / dẫn đầu / lượng từ cho heo hoặc gia súc,,,,木头,,,,,ban_nhap,389,木头,"4,10,11,15,19",ChuHan_SQL,
+H3-0245,前,1028,4,35,qián,trước; phía trước,,,,目前,,,,,ban_nhap,86,目前,"4,11,19",ChuHan_SQL,
+H3-0246,年,1028,4,36,nián,năm,,,,年代,,,,,ban_nhap,80,年代,"4,17",ChuHan_SQL,
+H3-0247,派,1028,4,37,pài,"bè phái / trường phái / nhóm / phái / cử / đi / phái đi / bổ nhiệm / pi (chữ cái Hy Lạp Ππ) / tỉ số đường tròn pi = 3,1415926 / (từ mượn) bánh pie",,,,派,,,,,ban_nhap,,派,4,TuVungHSKChuan_HSK3,
+H3-0248,次,1028,4,38,cì,lần,,,,其次,,,,,ban_nhap,61,其次,4,ChuHan_SQL,
+H3-0249,全,1028,4,39,quán,tất cả / toàn bộ / toàn thể / mọi / hoàn toàn,,,,全场,,,,,ban_nhap,368,全场,"4,11,13",ChuHan_SQL,
+H3-0250,群,1028,4,40,qún,"biến thể của 群[qun2] || nhóm / đám / bầy, đàn, nhóm v.v.",,,,群,,,,,ban_nhap,,群,"4,11",TuVungHSKChuan_HSK3,
+H3-0251,日,1028,4,41,rì,ngày,,,,日常,,,,,ban_nhap,88,日常,4,ChuHan_SQL,
+H3-0252,常,1028,4,42,cháng,thường; thường xuyên,,,,日常,,,,,ban_nhap,95,日常,"4,20",ChuHan_SQL,
+H3-0253,时,1028,4,43,shí,thời gian; giờ; lúc,,,,时,,,,,ban_nhap,101,时,"4,6",ChuHan_SQL,
+H3-0254,刻,1028,4,44,kè,một phần tư (giờ) / khoảnh khắc / khắc / chạm khắc / cắt / áp bức / lượng từ cho khoảng thời gian ngắn,,,,时刻,,,,,ban_nhap,512,时刻,"4,6,15",ChuHan_SQL,
+H3-0255,音,1028,4,45,yīn,âm; âm thanh,,,,收音机,,,,,ban_nhap,350,收音机,"4,8",ChuHan_SQL,
+H3-0256,机,1028,4,46,jī,máy; máy móc; cơ hội,,,,收音机,,,,,ban_nhap,242,收音机,"4,19",ChuHan_SQL,
+H3-0257,糖,1028,4,47,táng,"đường / kẹo / ngọt / LT:顆|颗[ke1],塊|块[kuai4] || biến thể cũ của 糖[tang2]",,,,糖,,,,,ban_nhap,,糖,4,TuVungHSKChuan_HSK3,
+H3-0258,退,1028,4,48,tuì,rút lui; rút khỏi / từ chối; trả lại (cái gì đó) / từ chối,,,,退休,,,,,ban_nhap,,退休,"4,6,18",TuVungHSKChuan_HSK3,
+H3-0259,休,1028,4,49,xiū,nghỉ; dừng,,,,退休,,,,,ban_nhap,164,退休,4,ChuHan_SQL,
+H3-0260,眼,1028,4,50,yǎn,"mắt / lỗ nhỏ / trọng tâm (của vấn đề) / lượng từ cho vật rỗng lớn (giếng, bếp, nồi vv)",,,,眼前,,,,,ban_nhap,394,眼前,4,ChuHan_SQL,
+H3-0261,预,1028,4,51,,,,,,预报,,,,,ban_nhap,,预报,"4,9,14",,THIEU_PINYIN; THIEU_NGHIA
+H3-0262,报,1028,4,52,bào,báo; báo cáo; thông báo,,,,预报,,,,,ban_nhap,318,预报,"4,6",ChuHan_SQL,
+H3-0263,至,1028,4,53,,,,,,至今,,,,,ban_nhap,,至今,"4,10",,THIEU_PINYIN; THIEU_NGHIA
+H3-0264,今,1028,4,54,jīn,nay; hiện nay; hiện tại,,,,至今,,,,,ban_nhap,84,至今,4,ChuHan_SQL,
+H3-0265,钟,1028,4,55,zhōng,chuông; đồng hồ,,,,钟,,,,,ban_nhap,306,钟,4,ChuHan_SQL,
+H3-0266,光,1029,5,1,guāng,ánh sáng; tia (Lượng từ: 道[dao4]) / sáng; bóng loáng / chỉ; chỉ mỗi / dùng hết; hoàn thành / để lộ (một phần cơ thể),,,,不光,,,,,ban_nhap,,不光,"5,7,20",TuVungHSKChuan_HSK3,
+H3-0267,房,1029,5,2,fáng,nhà; phòng,,,,房东,,,,,ban_nhap,201,房东,"5,6,10",ChuHan_SQL,
+H3-0268,东,1029,5,3,dōng,đông; phía đông,,,,房东,,,,,ban_nhap,186,房东,"5,11",ChuHan_SQL,
+H3-0269,父,1029,5,4,,,,,,父亲,,,,,ban_nhap,,父亲,"5,10",,THIEU_PINYIN; THIEU_NGHIA
+H3-0270,系,1029,5,5,xì,hệ; quan hệ; liên hệ; nối/buộc,,,,关系,,,,,ban_nhap,294,关系,"5,6,15",ChuHan_SQL,
+H3-0271,会,1029,5,6,huì,biết; có thể,,,,会员,,,,,ban_nhap,108,会员,"5,6,15,16,17",ChuHan_SQL,
+H3-0272,家,1029,5,7,jiā,nhà; gia đình,,,,家属,,,,,ban_nhap,19,家属,"5,8,9,18,20",ChuHan_SQL,
+H3-0273,往,1029,5,8,wǎng,đi (một hướng) / đến / hướng tới / (tàu) đi về / quá khứ / trước đây || biến thể cũ của 往[wang3],,,,交往,,,,,ban_nhap,505,交往,"5,19,20",ChuHan_SQL,
+H3-0274,结,1029,5,9,jié,kết; nối; kết quả,,,,结婚,,,,,ban_nhap,537,结婚,"5,6,15,19",ChuHan_SQL,
+H3-0275,婚,1029,5,10,,,,,,结婚,,,,,ban_nhap,,结婚,5,,THIEU_PINYIN; THIEU_NGHIA
+H3-0276,决,1029,5,11,,,,,,决心,,,,,ban_nhap,,决心,"5,8,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0277,心,1029,5,12,xīn,tim; lòng; tâm,,,,决心,,,,,ban_nhap,365,决心,"5,11,15",ChuHan_SQL,
+H3-0278,离,1029,5,13,lí,"rời khỏi / tách khỏi / cách / (khi nói về khoảng cách) từ / không có (gì) / độc lập với / một trong Bát Quái 八卦[ba1 gua4], tượng trưng cho lửa / ☲",,,,离婚,,,,,ban_nhap,490,离婚,5,ChuHan_SQL,
+H3-0279,室,1029,5,14,shì,phòng; căn phòng,,,,实验室,,,,,ban_nhap,334,实验室,5,ChuHan_SQL,
+H3-0280,熟,1029,5,15,shú/shóu,"chín; trưởng thành / nấu chín; xong / quen thuộc; quen biết / có kinh nghiệm; thành thạo / (về giấc ngủ, v.v.) sâu; sâu sắc / cũng phát âm là [shou2]",,,,熟人,,,,,ban_nhap,388,熟人,"5,15",ChuHan_SQL,
+H3-0281,铁,1029,5,16,tiě,sắt,,,,铁,,,,,ban_nhap,498,铁,"5,11",ChuHan_SQL,
+H3-0282,养,1029,5,17,yǎng,nuôi (động vật) / nuôi dưỡng (trẻ em) / nuôi (thú cưng) / chu cấp / sinh đẻ,,,,营养,,,,,ban_nhap,370,营养,5,ChuHan_SQL,
+H3-0283,整,1029,5,18,zhěng,(hình thức liên kết) toàn bộ; hoàn chỉnh; toàn thể; (trước lượng từ) toàn bộ; (trước hoặc sau số + lượng từ) chính xác / (hình thức liên kết) gọn gàng; ngăn nắp; chỉnh tề / (hình thức liên kết) sắp xếp; chỉnh đốn / (hình thức liên kết) sửa chữa; phục hồi; tân trang / (thông tục) xử lý ai đó; gây khó dễ cho ai đó; chọc phá ai đó / (tiếng địa phương) mày mò; làm gì đó với,,,,整整,,,,,ban_nhap,,整整,"5,10,13,19,20",TuVungHSKChuan_HSK3,
+H3-0284,持,1030,6,1,,,,,,保持,,,,,ban_nhap,,保持,"6,11,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0285,存,1030,6,2,cún,tồn tại / gửi / lưu trữ / giữ / sống sót,,,,保存,,,,,ban_nhap,,保存,6,TuVungHSKChuan_HSK3,
+H3-0286,到,1030,6,3,dào,đến; tới,,,,报到,,,,,ban_nhap,251,报到,"6,10,11,18,20",ChuHan_SQL,
+H3-0287,道,1030,6,4,dào,đường; con đường; cách; đạo/lẽ,,,,报道,,,,,ban_nhap,279,报道,"6,9",ChuHan_SQL,
+H3-0288,告,1030,6,5,gào,nói; báo; thông báo,,,,报告,,,,,ban_nhap,291,报告,6,ChuHan_SQL,
+H3-0289,明,1030,6,6,míng,sáng; rõ; tiếp theo/ngày mai (trong từ chỉ thời gian),,,,表明,,,,,ban_nhap,85,表明,"6,7,10,16,17,18",ChuHan_SQL,
+H3-0290,布,1030,6,7,bù,biến thể của 布[bu4] / thông báo / lan truyền || vải / tuyên bố / thông báo / truyền ra / làm cho biết,,,,布,,,,,ban_nhap,,布,"6,13",TuVungHSKChuan_HSK3,
+H3-0291,吵,1030,6,8,chǎo,cãi nhau / gây ồn ào / ồn ào / làm phiền bằng cách gây ồn,,,,吵架,,,,,ban_nhap,,吵架,"6,9",TuVungHSKChuan_HSK3,
+H3-0292,传,1030,6,9,chuán,truyền đạt / lan truyền / lây / truyền nhiễm / chuyển giao / lưu hành / dẫn điện,,,,传来,,,,,ban_nhap,,传来,"6,7,9,13",TuVungHSKChuan_HSK3,
+H3-0293,说,1030,6,10,shuō,nói,,,,传说,,,,,ban_nhap,142,传说,6,ChuHan_SQL,
+H3-0294,在,1030,6,11,zài,ở; tại; đang,,,,存在,,,,,ban_nhap,107,存在,6,ChuHan_SQL,
+H3-0295,屋,1030,6,12,,,,,,房屋,,,,,ban_nhap,,房屋,"6,8",,THIEU_PINYIN; THIEU_NGHIA
+H3-0296,否,1030,6,13,,,,,,否定,,,,,ban_nhap,,否定,6,,THIEU_PINYIN; THIEU_NGHIA
+H3-0297,认,1030,6,14,rèn,nhận biết; nhận ra; công nhận,,,,否认,,,,,ban_nhap,13,否认,"6,19",ChuHan_SQL,
+H3-0298,赶,1030,6,15,gǎn,"đuổi kịp; bắt kịp / vội; gấp / cố gắng bắt (xe buýt,...) / lùa (gia súc,...) đi; đuổi (ai đó) đi / tận dụng (cơ hội) / cho đến; trước (một thời điểm nhất định)",,,,赶快,,,,,ban_nhap,,赶快,"6,11",TuVungHSKChuan_HSK3,
+H3-0299,快,1030,6,16,kuài,nhanh; nhanh chóng,,,,赶快,,,,,ban_nhap,284,赶快,"6,8,16",ChuHan_SQL,
+H3-0300,故,1030,6,17,gù,cố; nguyên nhân; sự việc,,,,故乡,,,,,ban_nhap,527,故乡,"6,16",ChuHan_SQL,
+H3-0301,乡,1030,6,18,,,,,,故乡,,,,,ban_nhap,,故乡,"6,9",,THIEU_PINYIN; THIEU_NGHIA
+H3-0302,话,1030,6,19,huà,lời nói; lời; câu nói,,,,话题,,,,,ban_nhap,143,话题,"6,17",ChuHan_SQL,
+H3-0303,及,1030,6,20,,,,,,及时,,,,,ban_nhap,,及时,"6,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0304,流,1030,6,21,liú,"chảy / truyền bá / lưu thông hoặc lan truyền / di chuyển hoặc trôi dạt / sa sút / đày ải hoặc lưu đày / dòng nước hoặc thứ gì đó giống dòng nước / hạng, mức hoặc cấp",,,,交流,,,,,ban_nhap,411,交流,6,ChuHan_SQL,
+H3-0305,叫,1030,6,22,jiào,gọi; tên là,,,,叫,,,,,ban_nhap,5,叫,6,ChuHan_SQL,
+H3-0306,节,1030,6,23,jié,"khớp; đốt / (dạng kết hợp) phần; đoạn / tiết khí (một trong 24 phân đoạn của năm trong lịch truyền thống Trung Quốc) / lễ hội theo mùa / (dạng kết hợp) tiết kiệm / (dạng kết hợp) tiết tháo; trinh tiết / lượng từ cho các đoạn: bài học, toa tàu, câu kinh thánh, v.v. / hải lý (dặm biển mỗi giờ)",,,,节约,,,,,ban_nhap,336,节约,6,ChuHan_SQL,
+H3-0307,约,1030,6,24,yuē,hẹn / mời / xấp xỉ / ước định / hiệp ước / tiết kiệm / hạn chế / rút gọn (phân số) / súc tích,,,,节约,,,,,ban_nhap,,节约,"6,10,11",TuVungHSKChuan_HSK3,
+H3-0308,合,1030,6,25,hé,hợp; phù hợp; kết hợp,,,,结合,,,,,ban_nhap,556,结合,"6,9,10,12,17,19",ChuHan_SQL,
+H3-0309,据,1030,6,26,,,,,,据说,,,,,ban_nhap,,据说,"6,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0310,忙,1030,6,27,máng,bận,,,,连忙,,,,,ban_nhap,157,连忙,6,ChuHan_SQL,
+H3-0311,联,1030,6,28,,,,,,联合,,,,,ban_nhap,,联合,"6,12,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0312,媒,1030,6,29,,,,,,媒体,,,,,ban_nhap,,媒体,6,,THIEU_PINYIN; THIEU_NGHIA
+H3-0313,批,1030,6,30,,,,,,批评,,,,,ban_nhap,,批评,6,,THIEU_PINYIN; THIEU_NGHIA
+H3-0314,评,1030,6,31,,,,,,批评,,,,,ban_nhap,,批评,"6,17",,THIEU_PINYIN; THIEU_NGHIA
+H3-0315,准,1030,6,32,zhǔn,chuẩn; chính xác; cho phép; sắp,,,,批准,,,,,ban_nhap,264,批准,"6,19",ChuHan_SQL,
+H3-0316,社,1030,6,33,,,,,,社会,,,,,ban_nhap,,社会,"6,12",,THIEU_PINYIN; THIEU_NGHIA
+H3-0317,谈,1030,6,34,tán,nói / trò chuyện / đàm thoại / tán gẫu / thảo luận,,,,谈,,,,,ban_nhap,,谈,6,TuVungHSKChuan_HSK3,
+H3-0318,判,1030,6,35,,,,,,谈判,,,,,ban_nhap,,谈判,"6,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0319,通,1030,6,36,tōng,"đi qua / biết rõ / (hậu tố) chuyên gia / kết nối / giao tiếp / mở / thông / lượng từ cho thư, điện báo, cuộc gọi điện thoại, v.v.",,,,通信,,,,,ban_nhap,448,通信,"6,20",ChuHan_SQL,
+H3-0320,信,1030,6,37,xìn,thư / tín / tin tưởng / tin / tín ngưỡng / thành thật / tự tin / tin cậy / tùy ý / ngẫu nhiên,,,,通信,,,,,ban_nhap,391,通信,"6,15,19",ChuHan_SQL,
+H3-0321,同,1030,6,38,tóng,cùng; giống; như nhau,,,,同意,,,,,ban_nhap,124,同意,"6,10",ChuHan_SQL,
+H3-0322,武,1030,6,39,,,,,,武器,,,,,ban_nhap,,武器,"6,11",,THIEU_PINYIN; THIEU_NGHIA
+H3-0323,器,1030,6,40,,,,,,武器,,,,,ban_nhap,,武器,"6,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0324,失,1030,6,41,,,,,,消失,,,,,ban_nhap,,消失,"6,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0325,息,1030,6,42,xī,nghỉ; hơi thở; ngừng,,,,消息,,,,,ban_nhap,165,消息,6,ChuHan_SQL,
+H3-0326,需,1030,6,43,,,,,,需求,,,,,ban_nhap,,需求,6,,THIEU_PINYIN; THIEU_NGHIA
+H3-0327,求,1030,6,44,qiú,tìm kiếm / tìm / thỉnh cầu / yêu cầu / cầu xin,,,,需求,,,,,ban_nhap,585,需求,6,ChuHan_SQL,
+H3-0328,要,1030,6,45,yào,muốn; cần; sẽ; sắp,,,,需要,,,,,ban_nhap,277,需要,"6,7,15",ChuHan_SQL,
+H3-0329,宣,1030,6,46,,,,,,宣布,,,,,ban_nhap,,宣布,"6,9",,THIEU_PINYIN; THIEU_NGHIA
+H3-0330,迎,1030,6,47,yíng,đón; chào đón,,,,迎接,,,,,ban_nhap,581,迎接,6,ChuHan_SQL,
+H3-0331,接,1030,6,48,jiē,nhận / trả lời (điện thoại) / gặp hoặc chào đón ai / kết nối / bắt / ghép / mở rộng / tiếp nhận ca trực / tiếp quản cho ai,,,,迎接,,,,,ban_nhap,536,迎接,"6,10,11",ChuHan_SQL,
+H3-0332,背,1031,7,1,bèi,lưng của cơ thể hoặc vật / ngoảnh lưng lại / che giấu / học thuộc lòng / nhớ để đọc / không may (tiếng lóng) / lãng tai,,,,背,,,,,ban_nhap,319,背,7,ChuHan_SQL,
+H3-0333,错,1031,7,2,cuò,sai; lỗi,,,,错误,,,,,ban_nhap,268,错误,7,ChuHan_SQL,
+H3-0334,误,1031,7,3,,,,,,错误,,,,,ban_nhap,,错误,7,,THIEU_PINYIN; THIEU_NGHIA
+H3-0335,大,1031,7,4,dà,to; lớn,,,,大夫,,,,,ban_nhap,112,大夫,"7,10,11,15",ChuHan_SQL,
+H3-0336,反,1031,7,5,,,,,,反复,,,,,ban_nhap,,反复,"7,10,17,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0337,配,1031,7,6,pèi,kết hợp / phù hợp / giao phối / trộn / phối hợp / xứng đáng / chế (đơn thuốc) / phân bổ,,,,分配,,,,,ban_nhap,,分配,"7,19",TuVungHSKChuan_HSK3,
+H3-0338,感,1031,7,7,gǎn,cảm; cảm giác; cảm nhận,,,,感冒,,,,,ban_nhap,376,感冒,"7,15",ChuHan_SQL,
+H3-0339,冒,1031,7,8,,,,,,感冒,,,,,ban_nhap,,感冒,7,,THIEU_PINYIN; THIEU_NGHIA
+H3-0340,古,1031,7,9,gǔ,cổ / thời xa xưa / tiền sử-,,,,古代,,,,,ban_nhap,,古代,"7,15",TuVungHSKChuan_HSK3,
+H3-0341,挂,1031,7,10,guà,treo; móc (từ móc v.v.) / gác máy (điện thoại) / (đường dây) bị ngắt / lo lắng; quan tâm / (tiếng địa phương) gọi điện thoại / đăng ký (bệnh viện); hẹn (bác sĩ) / (tiếng lóng) giết; chết; xong; rớt (kỳ thi) / lượng từ cho bộ hoặc cụm vật,,,,挂,,,,,ban_nhap,,挂,7,TuVungHSKChuan_HSK3,
+H3-0342,汁,1031,7,11,,,,,,果汁,,,,,ban_nhap,,果汁,7,,THIEU_PINYIN; THIEU_NGHIA
+H3-0343,剧,1031,7,12,,,,,,剧场,,,,,ban_nhap,,剧场,"7,10,16,17",,THIEU_PINYIN; THIEU_NGHIA
+H3-0344,毛,1031,7,13,máo,lông; tóc,,,,毛病,,,,,ban_nhap,231,毛病,"7,10",ChuHan_SQL,
+H3-0345,病,1031,7,14,bìng,bệnh; ốm,,,,毛病,,,,,ban_nhap,229,毛病,7,ChuHan_SQL,
+H3-0346,美,1031,7,15,měi,đẹp / rất thỏa mãn; tốt / làm đẹp / hài lòng với bản thân,,,,美好,,,,,ban_nhap,,美好,"7,9,16,17,19",TuVungHSKChuan_HSK3,
+H3-0347,食,1031,7,16,shí,ăn; thức ăn,,,,美食,,,,,ban_nhap,445,美食,"7,9",ChuHan_SQL,
+H3-0348,汤,1031,7,17,tāng,canh / nước nóng hoặc sôi / thang thuốc đông y / nước luộc thứ gì đó,,,,汤,,,,,ban_nhap,,汤,7,TuVungHSKChuan_HSK3,
+H3-0349,痛,1031,7,18,tòng,đau / đau đớn / phiền muộn / sâu sắc / thấu đáo,,,,痛苦,,,,,ban_nhap,,痛苦,"7,15",TuVungHSKChuan_HSK3,
+H3-0350,苦,1031,7,19,,,,,,痛苦,,,,,ban_nhap,,痛苦,7,,THIEU_PINYIN; THIEU_NGHIA
+H3-0351,土,1031,7,20,tǔ,đất / bụi / đất sét / địa phương / bản địa / thuốc phiện thô / không tinh tế / một trong tám loại nhạc cụ cổ đại 八音[ba1 yin1],,,,土,,,,,ban_nhap,,土,7,TuVungHSKChuan_HSK3,
+H3-0352,李,1031,7,21,,,,,,行李,,,,,ban_nhap,,行李,7,,THIEU_PINYIN; THIEU_NGHIA
+H3-0353,烟,1031,7,22,yān,thuốc lá hoặc thuốc lào / LT:根[gen1] / khói / sương / hơi nước / LT:縷|缕[lu:3] / cây thuốc lá / (mắt) bị kích thích bởi khói,,,,烟,,,,,ban_nhap,,烟,7,TuVungHSKChuan_HSK3,
+H3-0354,是,1031,7,23,shì,là,,,,要是,,,,,ban_nhap,4,要是,"7,15,19,20",ChuHan_SQL,
+H3-0355,搬,1032,8,1,bān,di chuyển (tức là tự dời đi) / di chuyển (thứ gì đó tương đối nặng hoặc cồng kềnh) / chuyển / dọn sao chép mà không chọn lọc,,,,搬家,,,,,ban_nhap,,搬家,"8,11",TuVungHSKChuan_HSK3,
+H3-0356,赛,1032,8,2,,,,,,比赛,,,,,ban_nhap,,比赛,8,,THIEU_PINYIN; THIEU_NGHIA
+H3-0357,迷,1032,8,3,mí,làm bối rối / mê mẩn / người hâm mộ / nhà nhiệt tình / lạc / mơ hồ,,,,歌迷,,,,,ban_nhap,,歌迷,"8,15",TuVungHSKChuan_HSK3,
+H3-0358,集,1032,8,4,,,,,,集体,,,,,ban_nhap,,集体,"8,10",,THIEU_PINYIN; THIEU_NGHIA
+H3-0359,记,1032,8,5,jì,ghi; nhớ; ghi nhớ,,,,记录,,,,,ban_nhap,138,记录,"8,19",ChuHan_SQL,
+H3-0360,录,1032,8,6,lù,khắc gỗ || nhật ký / ghi chép / quay / sao chép,,,,记录,,,,,ban_nhap,,记录,"8,20",TuVungHSKChuan_HSK3,
+H3-0361,加,1032,8,7,jiā,"thêm / cộng / (dùng sau một trạng ngữ như 不, 大, 稍,..., và trước động từ hai âm tiết, để chỉ rằng hành động của động từ được áp dụng cho cái gì đó hoặc ai đó đã được nhắc đến trước đó) / áp dụng (hạn chế,...) cho (ai đó) / đưa ra (hỗ trợ, xem xét,...) cho (điều gì đó)",,,,加快,,,,,ban_nhap,519,加快,"8,10,19,20",ChuHan_SQL,
+H3-0362,命,1032,8,8,,,,,,命运,,,,,ban_nhap,,命运,"8,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0363,运,1032,8,9,yùn,vận chuyển; vận động; vận hành,,,,命运,,,,,ban_nhap,523,命运,"8,15",ChuHan_SQL,
+H3-0364,球,1032,8,10,qiú,quả bóng; bóng,,,,球迷,,,,,ban_nhap,238,球迷,"8,13",ChuHan_SQL,
+H3-0365,选,1032,8,11,xuǎn,chọn / lựa / chọn lựa / bầu,,,,选手,,,,,ban_nhap,480,选手,8,ChuHan_SQL,
+H3-0366,游,1032,8,12,yóu,đi chơi; du lịch; bơi,,,,游泳,,,,,ban_nhap,514,游泳,"8,12",ChuHan_SQL,
+H3-0367,泳,1032,8,13,,,,,,游泳,,,,,ban_nhap,,游泳,8,,THIEU_PINYIN; THIEU_NGHIA
+H3-0368,乐,1032,8,14,lè,vui; vui vẻ; âm nhạc,,,,乐队,,,,,ban_nhap,529,乐队,"8,15,18,20",ChuHan_SQL,
+H3-0369,增,1032,8,15,,,,,,增加,,,,,ban_nhap,,增加,"8,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0370,足,1032,8,16,,,,,,足球,,,,,ban_nhap,,足球,"8,16,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0371,把,1033,9,1,bǎ,"cầm; nắm / đỡ em bé để đi tiểu hoặc đại tiện / tay cầm / lượng từ: nắm, bó, chùm / lượng từ cho vật có cán / (dùng để đưa tân ngữ lên trước động từ: 把[ba3] + {danh từ} + {động từ})",,,,把,,,,,ban_nhap,,把,"9,19",TuVungHSKChuan_HSK3,
+H3-0372,白,1033,9,2,bái,trắng,,,,白菜,,,,,ban_nhap,94,白菜,"9,10",ChuHan_SQL,
+H3-0373,菜,1033,9,3,cài,rau; món ăn,,,,白菜,,,,,ban_nhap,167,白菜,9,ChuHan_SQL,
+H3-0374,才,1033,9,4,cái,khả năng; tài năng / người thuộc một kiểu nào đó / một cá nhân có năng lực / rồi thì và chỉ rồi thì / vừa mới / (trước một biểu hiện về số lượng) chỉ || (biến thể của 才[cai2]) vừa mới / (biến thể của 才[cai2]) (trước một biểu thức chỉ số lượng) chỉ,,,,才能,,,,,ban_nhap,308,才能,9,ChuHan_SQL,
+H3-0375,能,1033,9,5,néng,có thể; có khả năng,,,,才能,,,,,ban_nhap,275,才能,"9,19",ChuHan_SQL,
+H3-0376,城,1033,9,6,chéng,"tường thành / thành phố / thị trấn / LT:座[zuo4],道[dao4],個|个[ge4]",,,,城,,,,,ban_nhap,,城,"9,11,17",TuVungHSKChuan_HSK3,
+H3-0377,度,1033,9,7,dù,"vượt qua / trải qua (thời gian) / đo / lượng giới hạn / mức độ / mức độ cường độ / độ (góc, nhiệt độ, v.v.) / kilowatt-giờ / lượng từ cho sự kiện và tình huống",,,,程度,,,,,ban_nhap,419,程度,"9,16",ChuHan_SQL,
+H3-0378,团,1033,9,8,tuán,"tròn / cục / khối / cuộn thành bóng / tụ tập / trung đoàn / nhóm / hội / lượng từ cho một khối hoặc chất mềm: nắm (giấy), cuộn (len), đám (khói) || bánh hấp",,,,代表团,,,,,ban_nhap,,代表团,"9,15,17",TuVungHSKChuan_HSK3,
+H3-0379,刀,1033,9,9,dāo,dao / lưỡi dao / kiếm một lưỡi / đoản đao / LT:把[ba3] / (tiếng lóng) đô la (từ mượn) / lượng từ cho bộ một trăm tờ (giấy) / lượng từ cho vết cắt hoặc nhát đâm,,,,刀,,,,,ban_nhap,,刀,9,TuVungHSKChuan_HSK3,
+H3-0380,演,1033,9,10,yǎn,"biểu diễn (vở kịch, v.v.); dàn dựng (một buổi diễn) / (hình thức kết hợp) phát triển; diễn ra; thực hiện (một nhiệm vụ)",,,,导演,,,,,ban_nhap,,导演,"9,16",TuVungHSKChuan_HSK3,
+H3-0381,区,1033,9,11,qū,khu vực / vùng / quận / nhỏ / phân biệt / LT:個|个[ge4],,,,地区,,,,,ban_nhap,,地区,"9,20",TuVungHSKChuan_HSK3,
+H3-0382,读,1033,9,12,dú,đọc; đọc thành tiếng,,,,读者,,,,,ban_nhap,134,读者,9,ChuHan_SQL,
+H3-0383,对,1033,9,13,duì,đúng; chính xác,,,,对待,,,,,ban_nhap,267,对待,"9,11,17,19,20",ChuHan_SQL,
+H3-0384,顿,1033,9,14,dùn,"dừng / tạm dừng / sắp xếp / bày ra / dập đầu / dậm (chân) / ngay lập tức / lượng từ cho bữa ăn, trận đòn, lời mắng, v.v.: lần, trận, đợt, bữa",,,,顿,,,,,ban_nhap,,顿,9,TuVungHSKChuan_HSK3,
+H3-0385,送,1033,9,15,sòng,tiễn; đưa; gửi,,,,发送,,,,,ban_nhap,254,发送,9,ChuHan_SQL,
+H3-0386,范,1033,9,16,,,,,,范围,,,,,ban_nhap,,范围,"9,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0387,围,1033,9,17,wéi,"bao quanh / bao vây / xung quanh / đeo bằng cách quấn quanh (khăn quàng, khăn choàng)",,,,范围,,,,,ban_nhap,,范围,"9,11,14",TuVungHSKChuan_HSK3,
+H3-0388,方,1033,9,18,fāng,phương; hướng; phía; nơi; cách,,,,方式,,,,,ban_nhap,208,方式,"9,11,15",ChuHan_SQL,
+H3-0389,式,1033,9,19,,,,,,方式,,,,,ban_nhap,,方式,"9,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0390,个,1033,9,20,gè,cái; người; chiếc,,,,个人,,,,,ban_nhap,66,个人,"9,10",ChuHan_SQL,
+H3-0391,注,1033,9,21,,,,,,关注,,,,,ban_nhap,,关注,9,,THIEU_PINYIN; THIEU_NGHIA
+H3-0392,观,1033,9,22,guān,xem; quan sát; quan điểm,,,,观察,,,,,ban_nhap,508,观察,"9,12,17,20",ChuHan_SQL,
+H3-0393,察,1033,9,23,,,,,,观察,,,,,ban_nhap,,观察,"9,11",,THIEU_PINYIN; THIEU_NGHIA
+H3-0394,法,1033,9,24,fǎ,phương pháp; cách; pháp luật,,,,合法,,,,,ban_nhap,433,合法,9,ChuHan_SQL,
+H3-0395,坚,1033,9,25,,,,,,坚强,,,,,ban_nhap,,坚强,"9,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0396,强,1033,9,26,qiáng,"mạnh / mạnh mẽ / tốt hơn / nhỉnh hơn / sôi nổi / bạo lực / tốt nhất trong nhóm của họ, ví dụ xem 百強|百强[bai3 qiang2] || biến thể của 強|强[qiang2]",,,,坚强,,,,,ban_nhap,,坚强,"9,10,13,15,20",TuVungHSKChuan_HSK3,
+H3-0397,咖,1033,9,27,,,,,,咖啡,,,,,ban_nhap,,咖啡,9,,THIEU_PINYIN; THIEU_NGHIA
+H3-0398,啡,1033,9,28,,,,,,咖啡,,,,,ban_nhap,,咖啡,9,,THIEU_PINYIN; THIEU_NGHIA
+H3-0399,放,1033,9,29,fàng,đặt; để; thả,,,,开放,,,,,ban_nhap,114,开放,"9,11,18",ChuHan_SQL,
+H3-0400,恐,1033,9,30,,,,,,恐怕,,,,,ban_nhap,,恐怕,9,,THIEU_PINYIN; THIEU_NGHIA
+H3-0401,怕,1033,9,31,pà,sợ / e ngại / khiếp sợ / không thể chịu đựng / có lẽ,,,,恐怕,,,,,ban_nhap,380,恐怕,"9,15",ChuHan_SQL,
+H3-0402,论,1033,9,32,lún,bàn luận; luận,,,,理论,,,,,ban_nhap,588,理论,"9,18",ChuHan_SQL,
+H3-0403,量,1033,9,33,liàng,lượng; số lượng; đo lường,,,,力量,,,,,ban_nhap,561,力量,"9,10,20",ChuHan_SQL,
+H3-0404,另,1033,9,34,,,,,,另一方面,,,,,ban_nhap,,另一方面,"9,15",,THIEU_PINYIN; THIEU_NGHIA
+H3-0405,一,1033,9,35,yī,một; 1,,,,另一方面,,,,,ban_nhap,79,另一方面,"9,14,18,20",ChuHan_SQL,
+H3-0406,米,1033,9,36,mǐ,gạo; mét (đơn vị đo),,,,米,,,,,ban_nhap,177,米,9,ChuHan_SQL,
+H3-0407,难,1033,9,37,nán,khó; khó khăn,,,,难道,,,,,ban_nhap,286,难道,"9,19",ChuHan_SQL,
+H3-0408,缺,1033,9,38,quē,sự thiếu / hụt / không đủ / vị trí trống / thiếu hụt,,,,缺,,,,,ban_nhap,,缺,"9,15",TuVungHSKChuan_HSK3,
+H3-0409,少,1033,9,39,shǎo,ít; thiếu,,,,缺少,,,,,ban_nhap,65,缺少,"9,10",ChuHan_SQL,
+H3-0410,容,1033,9,40,,,,,,容易,,,,,ban_nhap,,容易,"9,10",,THIEU_PINYIN; THIEU_NGHIA
+H3-0411,易,1033,9,41,,,,,,容易,,,,,ban_nhap,,容易,"9,12",,THIEU_PINYIN; THIEU_NGHIA
+H3-0412,束,1033,9,42,shù,"buộc / bó / gói / lượng từ cho bó, gói, tia sáng, v.v. / kiểm soát",,,,束,,,,,ban_nhap,,束,"9,19",TuVungHSKChuan_HSK3,
+H3-0413,听,1033,9,43,tīng,nghe,,,,听力,,,,,ban_nhap,144,听力,"9,12,16",ChuHan_SQL,
+H3-0414,字,1033,9,44,zì,chữ; ký tự,,,,文字,,,,,ban_nhap,9,文字,9,ChuHan_SQL,
+H3-0415,线,1033,9,45,xiàn,"biến thể của 線|线[xian4] || chỉ / sợi / dây / đường / LT:條|条[tiao2],股[gu3],根[gen1] / (sau một con số) hạng (xếp hạng không chính thức của một thành phố ở Trung Quốc)",,,,线,,,,,ban_nhap,,线,"9,12",TuVungHSKChuan_HSK3,
+H3-0416,血,1033,9,46,xiě,"máu / khẩu ngữ đọc là [xie3] / Lượng từ: 滴[di1],片[pian4]",,,,血,,,,,ban_nhap,,血,9,TuVungHSKChuan_HSK3,
+H3-0417,压,1033,9,47,yā,đè / ấn xuống / kiềm chế / áp lực,,,,压力,,,,,ban_nhap,,压力,"9,10",TuVungHSKChuan_HSK3,
+H3-0418,以,1033,9,48,yǐ,dùng; lấy; để; bằng,,,,以来,,,,,ban_nhap,441,以来,9,ChuHan_SQL,
+H3-0419,由,1033,9,49,yóu,do; bởi; từ,,,,由,,,,,ban_nhap,594,由,"9,17",ChuHan_SQL,
+H3-0420,票,1033,9,50,piào,vé; phiếu,,,,邮票,,,,,ban_nhap,250,邮票,"9,11",ChuHan_SQL,
+H3-0421,习,1033,9,51,xí,học; luyện tập; thói quen,,,,预习,,,,,ban_nhap,128,预习,9,ChuHan_SQL,
+H3-0422,服,1033,9,52,fú,quần áo; mặc; phục/tùng,,,,员（服务员）,,,,,ban_nhap,197,员（服务员）,"9,10,19",ChuHan_SQL,
+H3-0423,张,1033,9,53,zhāng,"mở ra / trải ra / tờ giấy / lượng từ cho vật phẳng, tờ / lượng từ cho phiếu bầu",,,,张,,,,,ban_nhap,,张,"9,17,19",TuVungHSKChuan_HSK3,
+H3-0424,正,1033,9,54,zhèng,chính; đúng; ngay,,,,正式,,,,,ban_nhap,211,正式,"9,10,19",ChuHan_SQL,
+H3-0425,觉,1033,9,55,jiào,ngủ (cách đọc jiào trong 睡觉),,,,自觉,,,,,ban_nhap,162,自觉,9,ChuHan_SQL,
+H3-0426,身,1033,9,56,shēn,thân; cơ thể; bản thân,,,,自身,,,,,ban_nhap,232,自身,"9,18",ChuHan_SQL,
+H3-0427,且,1034,10,1,qiě,và; lại; hơn nữa,,,,并且,,,,,ban_nhap,553,并且,10,ChuHan_SQL,
+H3-0428,部,1034,10,2,bù,bộ; phần; bộ phận,,,,部长,,,,,ban_nhap,549,部长,"10,11,16",ChuHan_SQL,
+H3-0429,彩,1034,10,3,,,,,,彩色,,,,,ban_nhap,,彩色,"10,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0430,色,1034,10,4,sè,màu; màu sắc; sắc,,,,彩色,,,,,ban_nhap,457,彩色,"10,20",ChuHan_SQL,
+H3-0431,处,1034,10,5,chù,nơi; chỗ; xử lý,,,,长处,,,,,ban_nhap,486,长处,"10,15,19",ChuHan_SQL,
+H3-0432,朝,1034,10,6,cháo,triều đình hoặc hoàng gia / chính phủ / triều đại / triều vua hoặc hoàng đế / thiết triều hoặc họp bởi vua hoặc hoàng đế / hành hương / hướng / phía,,,,朝,,,,,ban_nhap,,朝,10,TuVungHSKChuan_HSK3,
+H3-0433,衣,1034,10,7,yī,quần áo; y phục,,,,衬衣,,,,,ban_nhap,196,衬衣,10,ChuHan_SQL,
+H3-0434,创,1034,10,8,,,,,,创作,,,,,ban_nhap,,创作,"10,12,17,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0435,电,1034,10,9,diàn,điện,,,,电子邮件,,,,,ban_nhap,239,电子邮件,"10,16,18",ChuHan_SQL,
+H3-0436,裤,1034,10,10,,,,,,短裤,,,,,ban_nhap,,短裤,10,,THIEU_PINYIN; THIEU_NGHIA
+H3-0437,租,1034,10,11,zū,thuê / mướn / thuê bao / cho thuê / cho mướn / tiền thuê / thuế đất,,,,房租,,,,,ban_nhap,460,房租,10,ChuHan_SQL,
+H3-0438,装,1034,10,12,zhuāng,trang sức / trang trí / mặc / quần áo / trang phục (của diễn viên trong vở kịch) / đóng vai / giả vờ / lắp đặt / sửa chữa / gói (thứ gì vào túi) / tải / đóng gói,,,,服装,,,,,ban_nhap,484,服装,"10,18",ChuHan_SQL,
+H3-0439,位,1034,10,13,wèi,vị trí / địa điểm / chỗ / ngồi / lượng từ cho người (kính trọng) / lượng từ cho bit nhị phân (ví dụ: 十六位 16-bit hoặc 2 byte) / (vật lý) thế năng,,,,各位,,,,,ban_nhap,356,各位,10,ChuHan_SQL,
+H3-0440,更,1034,10,14,gèng,hơn / còn hơn / nữa / vẫn / càng,,,,更加,,,,,ban_nhap,555,更加,10,ChuHan_SQL,
+H3-0441,共,1034,10,15,gòng,cùng; chung; tổng cộng,,,,共同,,,,,ban_nhap,500,共同,"10,11,15",ChuHan_SQL,
+H3-0442,广,1034,10,16,guǎng,rộng; rộng lớn,,,,广大,,,,,ban_nhap,329,广大,"10,16,20",ChuHan_SQL,
+H3-0443,规,1034,10,17,,,,,,规定,,,,,ban_nhap,,规定,"10,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0444,和,1034,10,18,hé,và; với,,,,和平,,,,,ban_nhap,300,和平,"10,15",ChuHan_SQL,
+H3-0445,平,1034,10,19,píng,phẳng / bằng / ngang / hòa (điểm số) / kết quả hòa / điềm tĩnh / yên bình / viết tắt của 平聲|平声[ping2 sheng1],,,,和平,,,,,ban_nhap,310,和平,10,ChuHan_SQL,
+H3-0446,互,1034,10,20,,,,,,互相,,,,,ban_nhap,,互相,"10,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0447,环,1034,10,21,huán,"nhẫn / vòng / lặp / mắt xích (chuỗi) / lượng từ cho điểm bắn cung, v.v. / bao quanh / vây quanh / vây kín",,,,环,,,,,ban_nhap,,环,"10,14",TuVungHSKChuan_HSK3,
+H3-0448,价,1034,10,22,,,,,,价格,,,,,ban_nhap,,价格,"10,11,17,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0449,钱,1034,10,23,qián,tiền,,,,价钱,,,,,ban_nhap,193,价钱,10,ChuHan_SQL,
+H3-0450,京,1034,10,24,jīng,kinh đô; thủ đô,,,,京剧,,,,,ban_nhap,249,京剧,10,ChuHan_SQL,
+H3-0451,具,1034,10,25,,,,,,具有,,,,,ban_nhap,,具有,"10,11,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0452,看,1034,10,26,kàn,xem; nhìn,,,,看起来,,,,,ban_nhap,230,看起来,"10,15,16,17",ChuHan_SQL,
+H3-0453,起,1034,10,27,qǐ,dậy; đứng lên; bắt đầu,,,,看起来,,,,,ban_nhap,158,看起来,10,ChuHan_SQL,
+H3-0454,困,1034,10,28,kùn,bẫy / bao vây / bị áp lực / mắc kẹt / cùng quẫn || buồn ngủ / mệt mỏi,,,,困,,,,,ban_nhap,,困,"10,19",TuVungHSKChuan_HSK3,
+H3-0455,绿,1034,10,29,lǜ,"màu xanh lá / (tiếng lóng) (xuất phát từ 綠帽子|绿帽子[lu:4 mao4 zi5]) cắm sừng (vợ, chồng, bạn trai hoặc bạn gái)",,,,绿茶,,,,,ban_nhap,472,绿茶,10,ChuHan_SQL,
+H3-0456,茶,1034,10,30,chá,trà,,,,绿茶,,,,,ban_nhap,168,绿茶,"10,15",ChuHan_SQL,
+H3-0457,慢,1034,10,31,màn,chậm,,,,慢慢,,,,,ban_nhap,285,慢慢,10,ChuHan_SQL,
+H3-0458,内,1034,10,32,nèi,bên trong / nội bộ / trong / nội địa,,,,内容,,,,,ban_nhap,,内容,"10,11,15,17",TuVungHSKChuan_HSK3,
+H3-0459,坏,1034,10,33,huài,xấu; hỏng,,,,破坏,,,,,ban_nhap,283,破坏,10,ChuHan_SQL,
+H3-0460,币,1034,10,34,,,,,,人民币,,,,,ban_nhap,,人民币,10,,THIEU_PINYIN; THIEU_NGHIA
+H3-0461,升,1034,10,35,shēng,thăng lên / tăng lên chức / thăng chức / kéo lên / lít / đơn vị đo lường ngũ cốc khô bằng một phần mười đấu 斗[dou3] || biến thể của 升[sheng1],,,,升,,,,,ban_nhap,,升,"10,20",TuVungHSKChuan_HSK3,
+H3-0462,数,1034,10,36,shǔ,đếm / coi như; xem như / liệt kê; liệt kê danh sách,,,,数量,,,,,ban_nhap,327,数量,10,ChuHan_SQL,
+H3-0463,危,1034,10,37,,,,,,危害,,,,,ban_nhap,,危害,"10,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0464,害,1034,10,38,,,,,,危害,,,,,ban_nhap,,危害,"10,15",,THIEU_PINYIN; THIEU_NGHIA
+H3-0465,形,1034,10,39,,,,,,形状,,,,,ban_nhap,,形状,"10,12,19,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0466,状,1034,10,40,,,,,,形状,,,,,ban_nhap,,形状,"10,15,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0467,羊,1034,10,41,yáng,"cừu; dê / LT:頭|头[tou2],隻|只[zhi1]",,,,羊,,,,,ban_nhap,,羊,10,TuVungHSKChuan_HSK3,
+H3-0468,优,1034,10,42,,,,,,优点,,,,,ban_nhap,,优点,"10,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0469,点,1034,10,43,diǎn,giờ,,,,优点,,,,,ban_nhap,96,优点,"10,15",ChuHan_SQL,
+H3-0470,支,1034,10,44,zhī,"hỗ trợ / duy trì / dựng / lên / nhánh / phân nhánh / rút tiền / lượng từ cho gậy như bút và súng, cho sư đoàn quân đội và cho bài hát hoặc tác phẩm",,,,支,,,,,ban_nhap,,支,"10,11",TuVungHSKChuan_HSK3,
+H3-0471,付,1034,10,45,fù,trả / giao cho / lượng từ cho cặp hoặc bộ,,,,支付,,,,,ban_nhap,,支付,"10,14",TuVungHSKChuan_HSK3,
+H3-0472,做,1034,10,46,zuò,làm,,,,做客,,,,,ban_nhap,166,做客,10,ChuHan_SQL,
+H3-0473,客,1034,10,47,kè,khách; khách hàng,,,,做客,,,,,ban_nhap,290,做客,"10,17",ChuHan_SQL,
+H3-0474,北,1035,11,1,běi,bắc; phía bắc,,,,北部,,,,,ban_nhap,207,北部,11,ChuHan_SQL,
+H3-0475,市,1035,11,2,shì,chợ / thành phố,,,,城市,,,,,ban_nhap,458,城市,"11,17",ChuHan_SQL,
+H3-0476,概,1035,11,3,,,,,,大概,,,,,ban_nhap,,大概,"11,17",,THIEU_PINYIN; THIEU_NGHIA
+H3-0477,风,1035,11,4,fēng,gió,,,,风险,,,,,ban_nhap,221,风险,11,ChuHan_SQL,
+H3-0478,险,1035,11,5,,,,,,风险,,,,,ban_nhap,,风险,"11,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0479,负,1035,11,6,,,,,,负责,,,,,ban_nhap,,负责,11,,THIEU_PINYIN; THIEU_NGHIA
+H3-0480,紧,1035,11,7,jǐn,chặt / chặt chẽ / sát gần / gần / cấp bách / căng thẳng / kẹt tiền / thiếu tiền / thắt chặt,,,,赶紧,,,,,ban_nhap,,赶紧,"11,14,19",TuVungHSKChuan_HSK3,
+H3-0481,干,1035,11,8,gàn,làm; làm việc,,,,干吗,,,,,ban_nhap,154,干吗,11,ChuHan_SQL,
+H3-0482,吗,1035,11,9,ma,trợ từ nghi vấn,,,,干吗,,,,,ban_nhap,15,干吗,11,ChuHan_SQL,
+H3-0483,高,1035,11,10,gāo,cao,,,,高速,,,,,ban_nhap,11,高速,11,ChuHan_SQL,
+H3-0484,速,1035,11,11,,,,,,高速,,,,,ban_nhap,,高速,"11,16",,THIEU_PINYIN; THIEU_NGHIA
+H3-0485,路,1035,11,12,lù,đường; tuyến đường,,,,高速公路,,,,,ban_nhap,216,高速公路,"11,12",ChuHan_SQL,
+H3-0486,将,1035,11,13,,,,,,将近,,,,,ban_nhap,,将近,"11,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0487,警,1035,11,14,,,,,,交警,,,,,ban_nhap,,交警,11,,THIEU_PINYIN; THIEU_NGHIA
+H3-0488,太,1035,11,15,tài,quá; rất,,,,老太太,,,,,ban_nhap,287,老太太,11,ChuHan_SQL,
+H3-0489,龙,1035,11,16,lóng,rồng / LT:條|条[tiao2] / hoàng gia,,,,龙,,,,,ban_nhap,,龙,11,TuVungHSKChuan_HSK3,
+H3-0490,马,1035,11,17,mǎ,ngựa,,,,马,,,,,ban_nhap,98,马,11,ChuHan_SQL,
+H3-0491,南,1035,11,18,nán,nam; phía nam,,,,南部,,,,,ban_nhap,41,南部,11,ChuHan_SQL,
+H3-0492,村,1035,11,19,cūn,ngôi làng || biến thể của 村[cun1],,,,农村,,,,,ban_nhap,,农村,"11,13",TuVungHSKChuan_HSK3,
+H3-0493,石,1035,11,20,,,,,,石头,,,,,ban_nhap,,石头,"11,15",,THIEU_PINYIN; THIEU_NGHIA
+H3-0494,远,1035,11,21,yuǎn,xa,,,,跳远,,,,,ban_nhap,219,跳远,11,ChuHan_SQL,
+H3-0495,停,1035,11,22,tíng,dừng / ngừng / đỗ (xe),,,,停止,,,,,ban_nhap,504,停止,11,ChuHan_SQL,
+H3-0496,止,1035,11,23,,,,,,停止,,,,,ban_nhap,,停止,"11,12",,THIEU_PINYIN; THIEU_NGHIA
+H3-0497,术,1035,11,24,,,,,,武术,,,,,ban_nhap,,武术,"11,16,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0498,西,1035,11,25,xī,tây; phía tây,,,,西部,,,,,ban_nhap,187,西部,11,ChuHan_SQL,
+H3-0499,周,1035,11,26,zhōu,đi một vòng / xoay vòng / đường tròn / chu vi / vòng / chu kỳ / hoàn thành / tất cả / khắp / triệt để / hỗ trợ tài chính || tuần / hàng tuần / biến thể của 周[zhou1],,,,周围,,,,,ban_nhap,311,周围,11,ChuHan_SQL,
+H3-0500,左,1035,11,27,zuǒ,trái; bên trái,,,,左右,,,,,ban_nhap,212,左右,11,ChuHan_SQL,
+H3-0501,右,1035,11,28,yòu,phải; bên phải,,,,左右,,,,,ban_nhap,210,左右,11,ChuHan_SQL,
+H3-0502,照,1036,12,1,zhào,chiếu; chụp; theo; chăm sóc,,,,按照,,,,,ban_nhap,454,按照,"12,18",ChuHan_SQL,
+H3-0503,被,1036,12,2,bèi,"chăn / đắp (bằng) / (văn học) chịu (một điều không may) / dùng để chỉ thể bị động (đặt trước người thực hiện hành động như ""bởi"" trong câu bị động tiếng Anh, hoặc, nếu không nhắc đến người thực hiện, thì đặt trước động từ) / (khoảng năm 2009) (mỉa mai hoặc hài hước) dùng để chỉ rằng từ sau đó nên được hiểu là trong dấu ngoặc kép (như trong 被旅遊|被旅游[bei4 lu:3 you2] ""đi du lịch"", chẳng hạn)",,,,被,,,,,ban_nhap,,被,12,TuVungHSKChuan_HSK3,
+H3-0504,防,1036,12,3,fáng,bảo vệ / phòng thủ / đề phòng / ngăn chặn,,,,防止,,,,,ban_nhap,,防止,"12,14",TuVungHSKChuan_HSK3,
+H3-0505,飞,1036,12,4,fēi,bay,,,,飞行,,,,,ban_nhap,252,飞行,12,ChuHan_SQL,
+H3-0506,姑,1036,12,5,,,,,,姑娘,,,,,ban_nhap,,姑娘,12,,THIEU_PINYIN; THIEU_NGHIA
+H3-0507,娘,1036,12,6,,,,,,姑娘,,,,,ban_nhap,,姑娘,12,,THIEU_PINYIN; THIEU_NGHIA
+H3-0508,众,1036,12,7,,,,,,观众,,,,,ban_nhap,,观众,12,,THIEU_PINYIN; THIEU_NGHIA
+H3-0509,国,1036,12,8,guó,nước; quốc gia,,,,国庆,,,,,ban_nhap,18,国庆,"12,17",ChuHan_SQL,
+H3-0510,庆,1036,12,9,,,,,,国庆,,,,,ban_nhap,,国庆,"12,15",,THIEU_PINYIN; THIEU_NGHIA
+H3-0511,红,1036,12,10,hóng,đỏ / phổ biến / cách mạng / thưởng,,,,红酒,,,,,ban_nhap,463,红酒,"12,15",ChuHan_SQL,
+H3-0512,酒,1036,12,11,jiǔ,rượu (đặc biệt là rượu gạo) / đồ uống có cồn / rượu bia / thức uống có cồn,,,,红酒,,,,,ban_nhap,440,红酒,"12,13",ChuHan_SQL,
+H3-0513,划,1036,12,12,huà,vạch; phân chia; hoạch định,,,,划船,,,,,ban_nhap,528,划船,12,ChuHan_SQL,
+H3-0514,船,1036,12,13,chuán,biến thể của 船[chuan2] || thuyền / tàu / tàu thủy,,,,划船,,,,,ban_nhap,509,划船,12,ChuHan_SQL,
+H3-0515,始,1036,12,14,,,,,,开始,,,,,ban_nhap,,开始,"12,15",,THIEU_PINYIN; THIEU_NGHIA
+H3-0516,旅,1036,12,15,lǚ,du lịch; chuyến đi,,,,旅馆,,,,,ban_nhap,513,旅馆,12,ChuHan_SQL,
+H3-0517,馆,1036,12,16,guǎn,quán; nhà/phòng/cơ sở phục vụ một chức năng,,,,旅馆,,,,,ban_nhap,127,旅馆,"12,15",ChuHan_SQL,
+H3-0518,女,1036,12,17,nǚ,nữ; phụ nữ,,,,女子,,,,,ban_nhap,30,女子,"12,20",ChuHan_SQL,
+H3-0519,散,1036,12,18,,,,,,散步,,,,,ban_nhap,,散步,12,,THIEU_PINYIN; THIEU_NGHIA
+H3-0520,图,1036,12,19,tú,hình; tranh; bản đồ; sơ đồ,,,,图画,,,,,ban_nhap,125,图画,"12,16",ChuHan_SQL,
+H3-0521,画,1036,12,20,huà,vẽ; tô tranh / bức tranh; hội họa ( / vẽ (một đường) (biến thể của 劃|划[hua4]) / nét chữ Hán (biến thể của 劃|划[hua4]) / (thư pháp) nét ngang (biến thể của 劃|划[hua4]),,,,图画,,,,,ban_nhap,501,图画,12,ChuHan_SQL,
+H3-0522,象,1036,12,21,,,,,,形象,,,,,ban_nhap,,形象,"12,15,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0523,戏,1036,12,22,,,,,,游戏,,,,,ban_nhap,,游戏,12,,THIEU_PINYIN; THIEU_NGHIA
+H3-0524,播,1037,13,1,,,,,,传播,,,,,ban_nhap,,传播,"13,16,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0525,凉,1037,13,2,liáng,mát / lạnh,,,,凉水,,,,,ban_nhap,410,凉水,13,ChuHan_SQL,
+H3-0526,水,1037,13,3,shuǐ,nước,,,,凉水,,,,,ban_nhap,182,凉水,13,ChuHan_SQL,
+H3-0527,牛,1037,13,4,niú,bò,,,,牛,,,,,ban_nhap,180,牛,13,ChuHan_SQL,
+H3-0528,啤,1037,13,5,,,,,,啤酒,,,,,ban_nhap,,啤酒,13,,THIEU_PINYIN; THIEU_NGHIA
+H3-0529,气,1037,13,6,qì,khí; không khí; thời tiết; tức giận,,,,气候,,,,,ban_nhap,227,气候,13,ChuHan_SQL,
+H3-0530,候,1037,13,7,hòu,đợi; thời điểm; lúc (trong 时候),,,,气候,,,,,ban_nhap,102,气候,13,ChuHan_SQL,
+H3-0531,界,1037,13,8,,,,,,世界,,,,,ban_nhap,,世界,"13,17",,THIEU_PINYIN; THIEU_NGHIA
+H3-0532,天,1037,13,9,tiān,ngày,,,,天空,,,,,ban_nhap,83,天空,13,ChuHan_SQL,
+H3-0533,影,1037,13,10,yǐng,hình ảnh; bóng; phim,,,,影视,,,,,ban_nhap,243,影视,13,ChuHan_SQL,
+H3-0534,视,1037,13,11,shì,nhìn; xem; thị,,,,影视,,,,,ban_nhap,241,影视,"13,16,18",ChuHan_SQL,
+H3-0535,护,1038,14,1,hù,bảo vệ; che chở,,,,保护,,,,,ban_nhap,511,保护,14,ChuHan_SQL,
+H3-0536,境,1038,14,2,,,,,,环境,,,,,ban_nhap,,环境,14,,THIEU_PINYIN; THIEU_NGHIA
+H3-0537,急,1038,14,3,jí,khẩn cấp / cấp bách / nhanh / vội / vẻ lo lắng / làm cho (ai đó) lo lắng,,,,紧急,,,,,ban_nhap,378,紧急,14,ChuHan_SQL,
+H3-0538,双,1038,14,4,shuāng,hai / cặp / đôi / cả hai / số chẵn,,,,双,,,,,ban_nhap,,双,"14,15",TuVungHSKChuan_HSK3,
+H3-0539,只,1038,14,5,zhǐ,chỉ / chỉ đơn thuần / chỉ là / nhưng || biến thể của 只[zhi3],,,,只,,,,,ban_nhap,575,只,"14,19",ChuHan_SQL,
+H3-0540,爱,1039,15,1,ài,yêu; thích,,,,爱心,,,,,ban_nhap,235,爱心,15,ChuHan_SQL,
+H3-0541,必,1039,15,2,bì,nhất định; ắt; phải,,,,必要,,,,,ban_nhap,546,必要,"15,19",ChuHan_SQL,
+H3-0542,补,1039,15,3,bǔ,sửa / chắp vá / vá / bù đắp / lấp đầy (chỗ trống) / bổ sung,,,,补,,,,,ban_nhap,,补,15,TuVungHSKChuan_HSK3,
+H3-0543,充,1039,15,4,,,,,,补充,,,,,ban_nhap,,补充,"15,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0544,福,1039,15,5,fú,phúc lành / hạnh phúc / may mắn,,,,福,,,,,ban_nhap,,福,15,TuVungHSKChuan_HSK3,
+H3-0545,情,1039,15,6,qíng,tình cảm; tình; cảm xúc,,,,感情,,,,,ban_nhap,360,感情,"15,19",ChuHan_SQL,
+H3-0546,受,1039,15,7,shòu,nhận; chịu; chịu đựng,,,,感受,,,,,ban_nhap,427,感受,"15,19",ChuHan_SQL,
+H3-0547,欢,1039,15,8,huān,vui; hoan hỉ; dùng trong 喜欢 (thích),,,,欢乐,,,,,ban_nhap,248,欢乐,15,ChuHan_SQL,
+H3-0548,济,1039,15,9,,,,,,经济,,,,,ban_nhap,,经济,15,,THIEU_PINYIN; THIEU_NGHIA
+H3-0549,历,1039,15,10,,,,,,经历,,,,,ban_nhap,,经历,15,,THIEU_PINYIN; THIEU_NGHIA
+H3-0550,静,1039,15,11,jìng,yên tĩnh; tĩnh lặng,,,,静,,,,,ban_nhap,372,静,15,ChuHan_SQL,
+H3-0551,似,1039,15,12,,,,,,类似,,,,,ban_nhap,,类似,15,,THIEU_PINYIN; THIEU_NGHIA
+H3-0552,先,1039,15,13,xiān,trước; trước tiên,,,,领先,,,,,ban_nhap,34,领先,"15,18",ChuHan_SQL,
+H3-0553,乱,1039,15,14,luàn,trong tình trạng rối loạn / trạng thái tinh thần bối rối / mất trật tự / biến động / bạo loạn / quan hệ tình dục phi pháp / làm rối loạn / trộn lẫn / không phân biệt / bừa bãi / tùy tiện,,,,乱,,,,,ban_nhap,,乱,15,TuVungHSKChuan_HSK3,
+H3-0554,麻,1039,15,15,,,,,,麻烦,,,,,ban_nhap,,麻烦,15,,THIEU_PINYIN; THIEU_NGHIA
+H3-0555,烦,1039,15,16,,,,,,麻烦,,,,,ban_nhap,,麻烦,15,,THIEU_PINYIN; THIEU_NGHIA
+H3-0556,奶,1039,15,17,nǎi,sữa,,,,奶茶,,,,,ban_nhap,54,奶茶,15,ChuHan_SQL,
+H3-0557,暖,1039,15,18,,,,,,暖和,,,,,ban_nhap,,暖和,15,,THIEU_PINYIN; THIEU_NGHIA
+H3-0558,怪,1039,15,19,,,,,,奇怪,,,,,ban_nhap,,奇怪,15,,THIEU_PINYIN; THIEU_NGHIA
+H3-0559,烈,1039,15,20,,,,,,强烈,,,,,ban_nhap,,强烈,15,,THIEU_PINYIN; THIEU_NGHIA
+H3-0560,切,1039,15,21,,,,,,亲切,,,,,ban_nhap,,亲切,"15,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0561,祝,1039,15,22,zhù,"cầu nguyện / chúc (ai đó thượng lộ bình an, sinh nhật vui vẻ, v.v.) / người cầu khấn thần linh trong các nghi lễ tế tự",,,,庆祝,,,,,ban_nhap,,庆祝,15,TuVungHSKChuan_HSK3,
+H3-0562,热,1039,15,23,rè,nóng,,,,热爱,,,,,ban_nhap,224,热爱,15,ChuHan_SQL,
+H3-0563,何,1039,15,24,,,,,,任何,,,,,ban_nhap,,任何,"15,18",,THIEU_PINYIN; THIEU_NGHIA
+H3-0564,伤,1039,15,25,shāng,làm bị thương / vết thương / thương tích,,,,伤,,,,,ban_nhap,,伤,"15,19",TuVungHSKChuan_HSK3,
+H3-0565,油,1039,15,26,yóu,"dầu / mỡ / chất béo / dầu mỏ / thoa dầu trẩu, sơn hoặc vecni / nhờn / béo / lém lỉnh / xảo quyệt",,,,石油,,,,,ban_nhap,396,石油,15,ChuHan_SQL,
+H3-0566,终,1039,15,27,,,,,,始终,,,,,ban_nhap,,始终,"15,19",,THIEU_PINYIN; THIEU_NGHIA
+H3-0567,伟,1039,15,28,,,,,,伟大,,,,,ban_nhap,,伟大,15,,THIEU_PINYIN; THIEU_NGHIA
+H3-0568,温,1039,15,29,wēn,ấm; nhiệt độ,,,,温暖,,,,,ban_nhap,415,温暖,15,ChuHan_SQL,
+H3-0569,幸,1039,15,30,,,,,,幸福,,,,,ban_nhap,,幸福,15,,THIEU_PINYIN; THIEU_NGHIA
+H3-0570,义,1039,15,31,,,,,,意义,,,,,ban_nhap,,意义,15,,THIEU_PINYIN; THIEU_NGHIA
+H3-0571,银,1039,15,32,yín,bạc; màu bạc,,,,银,,,,,ban_nhap,483,银,"15,18",ChuHan_SQL,
+H3-0572,种,1039,15,33,zhǒng,"hạt / loài / loại / kiểu / lượng từ cho loại, kiểu, dạng",,,,种,,,,,ban_nhap,,种,"15,20",TuVungHSKChuan_HSK3,
+H3-0573,重,1039,15,34,zhòng,nặng,,,,重大,,,,,ban_nhap,289,重大,"15,19",ChuHan_SQL,
+H3-0574,猪,1039,15,35,zhū,"lợn / heo / LT:口[kou3],頭|头[tou2]",,,,猪,,,,,ban_nhap,,猪,15,TuVungHSKChuan_HSK3,
+H3-0575,态,1039,15,36,tài,trạng thái; thái độ,,,,状态,,,,,ban_nhap,591,状态,15,ChuHan_SQL,
+H3-0576,总,1039,15,37,zǒng,tổng thể; toàn bộ / tóm lại / trong mọi trường hợp; luôn luôn; lúc nào cũng / dù sao; sau tất cả; cuối cùng; không sớm thì muộn / chắc chắn / (sau tên người) viết tắt của 總經理|总经理[zong3 jing1 li3] hoặc 總編|总编[zong3 bian1] v.v.,,,,总,,,,,ban_nhap,,总,"15,19",TuVungHSKChuan_HSK3,
+H3-0577,称,1040,16,1,chēng,gọi; gọi là; xưng; cân,,,,称为,,,,,ban_nhap,525,称为,16,ChuHan_SQL,
+H3-0578,台,1040,16,2,tái,(văn cổ) ông (trong thư từ) / biến thể của 臺|台[tai2] || bàn; cái bàn; quầy || bục / sân khấu / sân / đài / hỗ trợ / nhà ga / đài phát thanh / lượng từ cho xe cộ hoặc máy móc || bão,,,,电台,,,,,ban_nhap,,电台,"16,17,18",TuVungHSKChuan_HSK3,
+H3-0579,言,1040,16,3,yán,lời nói; nói; ngôn ngữ,,,,发言,,,,,ban_nhap,593,发言,16,ChuHan_SQL,
+H3-0580,满,1040,16,4,mǎn,lấp đầy / đầy / đầy đủ / nhét kín / hoàn toàn / trọn vẹn / khá / đạt đến giới hạn / thỏa mãn / hài lòng / mãn nguyện,,,,满足,,,,,ban_nhap,375,满足,"16,20",ChuHan_SQL,
+H3-0581,丽,1040,16,5,,,,,,美丽,,,,,ban_nhap,,美丽,16,,THIEU_PINYIN; THIEU_NGHIA
+H3-0582,跑,1040,16,6,pǎo,chạy,,,,跑步,,,,,ban_nhap,217,跑步,16,ChuHan_SQL,
+H3-0583,唱,1040,16,7,chàng,hát,,,,演唱,,,,,ban_nhap,236,演唱,16,ChuHan_SQL,
+H3-0584,艺,1040,16,8,,,,,,艺术,,,,,ban_nhap,,艺术,16,,THIEU_PINYIN; THIEU_NGHIA
+H3-0585,例,1041,17,1,lì,ví dụ; trường hợp,,,,比例,,,,,ban_nhap,340,比例,17,ChuHan_SQL,
+H3-0586,除,1041,17,2,,,,,,除了,,,,,ban_nhap,,除了,17,,THIEU_PINYIN; THIEU_NGHIA
+H3-0587,新,1041,17,3,xīn,mới,,,,创新,,,,,ban_nhap,90,创新,17,ChuHan_SQL,
+H3-0588,纪,1041,17,4,,,,,,纪念,,,,,ban_nhap,,纪念,"17,19,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0589,举,1041,17,5,jǔ,biến thể của 舉|举[ju3] || nâng / giơ lên / dẫn chứng / liệt kê / hành động / giơ / chọn / bầu / cử động / việc làm,,,,举办,,,,,ban_nhap,337,举办,17,ChuHan_SQL,
+H3-0590,办,1041,17,6,bàn,làm / quản lý / xử lý / tiến hành / vận hành / thành lập / giải quyết,,,,举办,,,,,ban_nhap,354,举办,"17,19",ChuHan_SQL,
+H3-0591,际,1041,17,7,jì,ranh giới; khoảng; quốc tế,,,,实际上,,,,,ban_nhap,510,实际上,17,ChuHan_SQL,
+H3-0592,杯,1041,17,8,bēi,cốc; ly,,,,世界杯,,,,,ban_nhap,59,世界杯,17,ChuHan_SQL,
+H3-0593,思,1041,17,9,sī,nghĩ; suy nghĩ,,,,思想,,,,,ban_nhap,373,思想,17,ChuHan_SQL,
+H3-0594,想,1041,17,10,xiǎng,muốn; nghĩ; nghĩ đến,,,,思想,,,,,ban_nhap,276,思想,17,ChuHan_SQL,
+H3-0595,完,1041,17,11,wán,hoàn thành / kết thúc / toàn bộ / hoàn chỉnh / hoàn toàn,,,,完美,,,,,ban_nhap,538,完美,"17,19,20",ChuHan_SQL,
+H3-0596,化,1041,17,12,,,,,,文化,,,,,ban_nhap,,文化,"17,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0597,访,1042,18,1,,,,,,访问,,,,,ban_nhap,,访问,18,,THIEU_PINYIN; THIEU_NGHIA
+H3-0598,组,1042,18,2,zǔ,"hình thành / tổ chức / nhóm / đội / lượng từ cho bộ, loạt, nhóm người, pin",,,,分组,,,,,ban_nhap,364,分组,"18,19",ChuHan_SQL,
+H3-0599,网,1042,18,3,wǎng,lưới; mạng; mạng internet,,,,互联网,,,,,ban_nhap,246,互联网,18,ChuHan_SQL,
+H3-0600,技,1042,18,4,,,,,,技术,,,,,ban_nhap,,技术,18,,THIEU_PINYIN; THIEU_NGHIA
+H3-0601,救,1042,18,5,jiù,biến thể của 救[jiu4] || cứu / cứu giúp / cứu thoát,,,,救,,,,,ban_nhap,,救,18,TuVungHSKChuan_HSK3,
+H3-0602,科,1042,18,6,kē,"ngành học / phòng ban / học phần / lĩnh vực / ngành / hướng dẫn sân khấu / họ (phân loại) / quy tắc / pháp luật / phân xử (hình phạt) / truy thu (thuế, v.v.) / phạt ai đó",,,,科技,,,,,ban_nhap,333,科技,18,ChuHan_SQL,
+H3-0603,落,1042,18,7,,,,,,落后,,,,,ban_nhap,,落后,18,,THIEU_PINYIN; THIEU_NGHIA
+H3-0604,某,1042,18,8,mǒu,một vài / một cái nào đó / ai đó hoặc cái gì đó không xác định / nào đó,,,,某,,,,,ban_nhap,,某,18,TuVungHSKChuan_HSK3,
+H3-0605,男,1042,18,9,nán,nam; đàn ông,,,,男子,,,,,ban_nhap,25,男子,18,ChuHan_SQL,
+H3-0606,拍,1042,18,10,pāi,vỗ / vỗ tay / tát / đập / chụp (ảnh) / quay (phim) / vợt (thể thao) / nhịp (âm nhạc),,,,拍,,,,,ban_nhap,,拍,18,TuVungHSKChuan_HSK3,
+H3-0607,如,1042,18,11,rú,như; giống như,,,,如何,,,,,ban_nhap,545,如何,18,ChuHan_SQL,
+H3-0608,沙,1042,18,12,,,,,,沙发,,,,,ban_nhap,,沙发,18,,THIEU_PINYIN; THIEU_NGHIA
+H3-0609,份,1042,18,13,fèn,"lượng từ cho quà tặng, báo, tạp chí, giấy tờ, báo cáo, hợp đồng, v.v. / biến thể của 分[fen4]",,,,身份证,,,,,ban_nhap,534,身份证,18,ChuHan_SQL,
+H3-0610,转,1042,18,14,zhuǎn,xoay / chuyển hướng / chuyển giao / chuyển tiếp (thư) / (Internet) chia sẻ (nội dung của người khác),,,,转,,,,,ban_nhap,,转,"18,20",TuVungHSKChuan_HSK3,
+H3-0611,握,1043,19,1,,,,,,把握,,,,,ban_nhap,,把握,19,,THIEU_PINYIN; THIEU_NGHIA
+H3-0612,曾,1043,19,2,,,,,,曾经,,,,,ban_nhap,,曾经,19,,THIEU_PINYIN; THIEU_NGHIA
+H3-0613,订,1043,19,3,dìng,"đồng ý / kết luận / lập ra / đặt mua (báo chí,...) / đặt hàng",,,,订,,,,,ban_nhap,,订,19,TuVungHSKChuan_HSK3,
+H3-0614,丰,1043,19,4,,,,,,丰富,,,,,ban_nhap,,丰富,19,,THIEU_PINYIN; THIEU_NGHIA
+H3-0615,改,1043,19,5,gǎi,thay đổi / sửa đổi / biến đổi / sửa chữa,,,,改造,,,,,ban_nhap,563,改造,"19,20",ChuHan_SQL,
+H3-0616,根,1043,19,6,,,,,,根本,,,,,ban_nhap,,根本,19,,THIEU_PINYIN; THIEU_NGHIA
+H3-0617,解,1043,19,7,,,,,,解决,,,,,ban_nhap,,解决,19,,THIEU_PINYIN; THIEU_NGHIA
+H3-0618,绝,1043,19,8,,,,,,绝对,,,,,ban_nhap,,绝对,19,,THIEU_PINYIN; THIEU_NGHIA
+H3-0619,考,1043,19,9,kǎo,thi; kiểm tra,,,,考验,,,,,ban_nhap,118,考验,19,ChuHan_SQL,
+H3-0620,克,1043,19,10,kè,"có thể / chế ngự / kiềm chế / vượt qua / gram / đơn vị diện tích đất của Tây Tạng, khoảng 6 are || biến thể của 克[ke4] / lật đổ / kiềm chế || biến thể của 剋|克[ke4]",,,,克服,,,,,ban_nhap,470,克服,19,ChuHan_SQL,
+H3-0621,苹,1043,19,11,,,,,,苹果,,,,,ban_nhap,,苹果,19,,THIEU_PINYIN; THIEU_NGHIA
+H3-0622,千,1043,19,12,qiān,một nghìn || xem 鞦韆|秋千[qiu1 qian1],,,,千万,,,,,ban_nhap,475,千万,19,ChuHan_SQL,
+H3-0623,万,1043,19,13,wàn,mười nghìn / một số lượng lớn,,,,千万,,,,,ban_nhap,479,千万,19,ChuHan_SQL,
+H3-0624,况,1043,19,14,,,,,,情况,,,,,ban_nhap,,情况,19,,THIEU_PINYIN; THIEU_NGHIA
+H3-0625,脑,1043,19,15,nǎo,não; đầu óc,,,,头脑,,,,,ban_nhap,240,头脑,19,ChuHan_SQL,
+H3-0626,封,1043,19,16,fēng,"phong tước / ban tặng / phong làm / phong kín / lượng từ cho vật kín, đặc biệt là thư từ",,,,信封,,,,,ban_nhap,562,信封,19,ChuHan_SQL,
+H3-0627,修,1043,19,17,xiū,trang trí / tô điểm / sửa chữa / xây dựng / viết / trau dồi / học / theo học (một lớp) || biến thể của 修[xiu1],,,,修,,,,,ban_nhap,,修,"19,20",TuVungHSKChuan_HSK3,
+H3-0628,望,1043,19,18,,,,,,愿望,,,,,ban_nhap,,愿望,"19,20",,THIEU_PINYIN; THIEU_NGHIA
+H3-0629,早,1043,19,19,zǎo,sớm,,,,早已,,,,,ban_nhap,109,早已,19,ChuHan_SQL,
+H3-0630,抓,1043,19,20,zhuā,bắt / nắm / túm / chộp / cào,,,,抓,,,,,ban_nhap,,抓,19,TuVungHSKChuan_HSK3,
+H3-0631,住,1043,19,21,zhù,ở; sống; cư trú,,,,抓住,,,,,ban_nhap,140,抓住,19,ChuHan_SQL,
+H3-0632,变,1044,20,1,biàn,thay đổi / trở nên khác / biến đổi / biến hóa / nổi loạn,,,,变化,,,,,ban_nhap,559,变化,20,ChuHan_SQL,
+H3-0633,尽,1044,20,2,,,,,,尽量,,,,,ban_nhap,,尽量,20,,THIEU_PINYIN; THIEU_NGHIA
+H3-0634,景,1044,20,3,,,,,,景色,,,,,ban_nhap,,景色,20,,THIEU_PINYIN; THIEU_NGHIA
+H3-0635,百,1044,20,4,bǎi,một trăm; 100,,,,老百姓,,,,,ban_nhap,57,老百姓,20,ChuHan_SQL,
+H3-0636,姓,1044,20,5,xìng,họ; họ tên / là họ ...,,,,老百姓,,,,,ban_nhap,369,老百姓,20,ChuHan_SQL,
+H3-0637,普,1044,20,6,pǔ,phổ biến; phổ thông,,,,普遍,,,,,ban_nhap,564,普遍,20,ChuHan_SQL,
+H3-0638,遍,1044,20,7,biàn,biến thể của 遍[bian4] || khắp mọi nơi / khắp / lượng từ cho hành động: một lần,,,,普遍,,,,,ban_nhap,541,普遍,20,ChuHan_SQL,
+H3-0639,备,1044,20,8,bèi,chuẩn bị; trang bị,,,,设备,,,,,ban_nhap,265,设备,20,ChuHan_SQL,
+H3-0640,胜,1044,20,9,shèng,chiến thắng / thành công / đánh bại / vượt qua / vượt trội / hơn / thắng / thắng thế / tuyệt đẹp (phong cảnh) / đẹp (cảnh sắc) / tuyệt vời (quang cảnh) / (cách phát âm ở Đài Loan [sheng1]) chịu đựng được / khám nổi (một nhiệm vụ),,,,胜,,,,,ban_nhap,,胜,20,TuVungHSKChuan_HSK3,
+H3-0641,死,1044,20,10,sǐ,chết / không thể qua được / không linh hoạt / cứng nhắc / cực kỳ / chết tiệt,,,,死,,,,,ban_nhap,,死,20,TuVungHSKChuan_HSK3,
+H3-0642,随,1044,20,11,suí,theo; tùy; cùng,,,,随,,,,,ban_nhap,313,随,20,ChuHan_SQL,
+H3-0643,特,1044,20,12,tè,đặc biệt; riêng,,,,特色,,,,,ban_nhap,565,特色,20,ChuHan_SQL,
+H3-0644,善,1044,20,13,,,,,,完善,,,,,ban_nhap,,完善,20,,THIEU_PINYIN; THIEU_NGHIA
+H3-0645,玩,1044,20,14,wán,chơi; vui chơi,,,,玩具,,,,,ban_nhap,244,玩具,20,ChuHan_SQL,
+H3-0646,希,1044,20,15,,,,,,希望,,,,,ban_nhap,,希望,20,,THIEU_PINYIN; THIEU_NGHIA
+H3-0647,阳,1044,20,16,yáng,mặt trời; dương,,,,阳光,,,,,ban_nhap,418,阳光,20,ChuHan_SQL,
+H3-0648,赢,1044,20,17,yíng,thắng / chiến thắng / có lợi,,,,赢,,,,,ban_nhap,,赢,20,TuVungHSKChuan_HSK3,
+H3-0649,势,1044,20,18,,,,,,优势,,,,,ban_nhap,,优势,20,,THIEU_PINYIN; THIEU_NGHIA
+H3-0650,的,1044,20,19,de,của; trợ từ nối định ngữ,,,,有的是,,,,,ban_nhap,185,有的是,20,ChuHan_SQL,
+H3-0651,够,1044,20,20,gòu,đủ (đầy đủ) / đủ (quá nhiều) / (thông tục) (trước tính từ) thật sự / (thông tục) với tới bằng cách vươn ra,,,,足够,,,,,ban_nhap,437,足够,20,ChuHan_SQL,

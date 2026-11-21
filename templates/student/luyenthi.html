@@ -1,0 +1,265 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Luyện thi HSK | Mộc Hán
+{% endblock %}
+
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for(
+        'static',
+        filename='css/student-luyen-thi.css'
+    ) }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+<!-- =====================================================
+     MỘC HÁN - TRANG CHỌN CẤP ĐỘ LUYỆN THI
+
+     Chức năng:
+     - Hiển thị HSK1, HSK2, HSK3, HSK4.
+     - Hiển thị số đề đã xuất bản.
+     - Nhấn cấp HSK để mở danh sách đề riêng.
+
+     Không hiển thị câu hỏi tại trang này.
+     Dữ liệu cấp độ lấy từ Flask và SQL Server.
+===================================================== -->
+
+<div class="luyenthi-page">
+
+
+    <!-- =================================================
+         1. BANNER LUYỆN THI
+    ================================================== -->
+
+    <section class="luyenthi-header">
+
+        <div class="luyenthi-header-text">
+
+            <span class="luyenthi-label">
+                MỘC HÁN · LUYỆN THI
+            </span>
+
+            <h1>
+                Luyện thi chứng chỉ HSK
+            </h1>
+
+            <p>
+                Lựa chọn cấp độ HSK và làm các đề thi
+                để kiểm tra kiến thức tiếng Trung.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         2. DANH SÁCH CẤP ĐỘ HSK
+    ================================================== -->
+
+    <section
+        class="luyenthi-section"
+        aria-labelledby="luyenthi-level-heading"
+    >
+
+        <!-- TIÊU ĐỀ -->
+
+        <div class="luyenthi-section-heading">
+
+            <div>
+
+                <h2 id="luyenthi-level-heading">
+                    Chọn cấp độ HSK
+                </h2>
+
+                <p>
+                    Các đề thi được chia theo từng cấp độ
+                    từ HSK1 đến HSK4.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- DANH SÁCH 4 THẺ HSK -->
+
+        <div class="luyenthi-level-grid">
+
+            {% for cap in cap_do %}
+
+            <!-- =====================================
+                 THẺ CẤP ĐỘ HSK
+
+                 Điều hướng sang trang danh sách đề:
+                 /student/luyen-thi/hsk/1
+                 /student/luyen-thi/hsk/2
+                 /student/luyen-thi/hsk/3
+                 /student/luyen-thi/hsk/4
+            ====================================== -->
+
+            <a
+                href="{{ url_for(
+                    'student_luyen_thi.trang_danh_sach_de',
+                    ma_cap_do=cap.MaCapDo
+                ) }}"
+                class="luyenthi-level-card"
+                title="Xem đề thi HSK {{ cap.MaCapDo }}"
+                aria-label="Xem danh sách đề thi HSK {{ cap.MaCapDo }}"
+            >
+
+                <!-- SỐ CẤP ĐỘ VÀ MŨI TÊN -->
+
+                <div class="luyenthi-level-top">
+
+                    <span class="luyenthi-level-number">
+                        {{ '%02d'|format(cap.MaCapDo) }}
+                    </span>
+
+                    <span
+                        class="luyenthi-level-arrow"
+                        aria-hidden="true"
+                    >
+                        →
+                    </span>
+
+                </div>
+
+
+                <!-- TÊN CẤP HSK -->
+
+                <h3>
+                    HSK {{ cap.MaCapDo }}
+                </h3>
+
+
+                <!-- MÔ TẢ CẤP ĐỘ -->
+
+                <p>
+
+                    {% if cap.MaCapDo == 1 %}
+
+                        Cấp độ cơ bản
+
+                    {% elif cap.MaCapDo == 2 %}
+
+                        Cấp độ sơ cấp
+
+                    {% elif cap.MaCapDo == 3 %}
+
+                        Cấp độ trung cấp
+
+                    {% elif cap.MaCapDo == 4 %}
+
+                        Cấp độ nâng cao hơn
+
+                    {% else %}
+
+                        Luyện tập tiếng Trung
+
+                    {% endif %}
+
+                </p>
+
+
+                <!-- SỐ ĐỀ THI ĐÃ XUẤT BẢN -->
+
+                <div class="luyenthi-level-footer">
+
+                    <span>
+                        {{ cap.SoDeDaXuatBan or 0 }} đề thi
+                    </span>
+
+                    <span>
+                        Xem đề thi
+                    </span>
+
+                </div>
+
+            </a>
+
+            {% else %}
+
+            <!-- KHÔNG CÓ CẤP HSK TỪ SQL -->
+
+            <div class="luyenthi-empty">
+
+                <div class="luyenthi-empty-icon">
+                    📚
+                </div>
+
+                <h3>
+                    Chưa có cấp độ HSK
+                </h3>
+
+                <p>
+                    Hệ thống chưa tải được danh sách
+                    cấp độ luyện thi.
+                </p>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         3. HƯỚNG DẪN LUYỆN THI
+    ================================================== -->
+
+    <section class="luyenthi-intro">
+
+        <div class="luyenthi-intro-content">
+
+            <span class="luyenthi-label">
+                HƯỚNG DẪN
+            </span>
+
+            <h2>
+                Bắt đầu luyện thi như thế nào?
+            </h2>
+
+            <p>
+                Đầu tiên, chọn một cấp độ HSK ở phía trên
+                để xem danh sách đề thi.
+            </p>
+
+            <p>
+                Sau đó, chọn đề và lựa chọn thi toàn bộ
+                hoặc luyện tập riêng từng kỹ năng
+                Nghe, Đọc và Viết nếu đề có phần Viết.
+            </p>
+
+            <p>
+                Sau khi nộp bài, hệ thống sẽ chấm điểm,
+                hiển thị kết quả và cho phép xem lại
+                các câu trả lời.
+            </p>
+
+        </div>
+
+    </section>
+
+</div>
+
+{% endblock %}
+
+
+{% block scripts %}
+<script
+    src="{{ url_for(
+        'static',
+        filename='js/student-luyen-thi.js'
+    ) }}"
+></script>
+{% endblock %}

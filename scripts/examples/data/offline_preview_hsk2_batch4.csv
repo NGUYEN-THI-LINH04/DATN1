@@ -1,0 +1,698 @@
+﻿MaTuVung,HSK,ChuHan,NghiaTiengViet,TuLoai,ViDuTiengTrung,ViDuTiengViet,LoaiCau,TrangThaiImport
+563,2,称1,cân / phát biểu / đặt tên / tên / gọi / tán dương,动,大家都称他为李老师。,Mọi người đều gọi ông ấy là thầy Lý.,REAL,READY
+564,2,成,thành công / hoàn thành / làm xong / đạt được / trở thành / biến thành / ổn / OK! / một phần mười,动,这件事终于办成了。,Cuối cùng việc này cũng đã làm xong.,REAL,READY
+565,2,成绩,thành tích / kết quả học tập / điểm số,名,这次考试我的成绩很好。,Kết quả kỳ thi lần này của tôi rất tốt.,REAL,READY
+566,2,成为,trở thành; biến thành,动,我想成为一名老师。,Tôi muốn trở thành một giáo viên.,REAL,READY
+567,2,重复,lặp lại / sao chép / biến thể của 重複|重复[chong2 fu4],动,请你再重复一遍。,Bạn hãy lặp lại một lần nữa.,REAL,READY
+568,2,重新,lại; một lần nữa; tái-,副,请你重新做一次。,Bạn hãy làm lại một lần nữa.,REAL,READY
+569,2,出发,khởi hành / bắt đầu (một hành trình),动,我们明天早上七点出发。,Chúng tôi khởi hành lúc bảy giờ sáng mai.,REAL,READY
+570,2,出国,ra nước ngoài; rời khỏi đất nước,,他明年要出国学习。,Năm sau anh ấy sẽ ra nước ngoài học tập.,REAL,READY
+571,2,出口,lối ra / nói / xuất khẩu / (tàu thuyền) rời cảng,名,出口在前面。,Lối ra ở phía trước.,REAL,READY
+572,2,出门,ra ngoài / rời nhà / đi du lịch / xa nhà / (phụ nữ) đi lấy chồng,,我每天八点出门。,Hằng ngày tôi ra khỏi nhà lúc tám giờ.,REAL,READY
+573,2,出生,được sinh ra,动,我出生在越南。,Tôi sinh ra ở Việt Nam.,REAL,READY
+574,2,出现,xuất hiện / phát sinh / nổi lên / có mặt,动,他突然出现在门口。,Anh ấy đột nhiên xuất hiện ở cửa.,REAL,READY
+575,2,出院,xuất viện / được xuất viện,,他明天可以出院了。,Ngày mai anh ấy có thể xuất viện.,REAL,READY
+576,2,出租,cho thuê,动,这套房子可以出租。,Căn nhà này có thể cho thuê.,REAL,READY
+577,2,出租车,taxi / xe thuê (Đài Loan),名,我们坐出租车去学校。,Chúng tôi đi taxi đến trường.,REAL,READY
+578,2,船,biến thể của 船[chuan2] / thuyền / tàu / tàu thủy,名,他们坐船去对岸。,Họ đi thuyền sang bờ bên kia.,REAL,READY
+579,2,吹,thổi / chơi nhạc cụ hơi / thổi tung / phồng lên / khoe khoang / tự phụ / kết thúc thất bại / hỏng việc,动,外面的风吹得很大。,Gió bên ngoài thổi rất mạnh.,REAL,READY
+580,2,春节,Lễ hội mùa xuân (Tết Nguyên Đán),名,春节我们全家一起吃饭。,Tết Nguyên Đán cả gia đình tôi cùng ăn cơm.,REAL,READY
+581,2,春天,mùa xuân,名,春天的天气很暖和。,Thời tiết mùa xuân rất ấm áp.,REAL,READY
+582,2,词,"biến thể cũ của 詞|词[ci2] / từ / ngôn từ; lời nói; lời bài hát / một thể thơ trữ tình, thịnh hành thời Tống 宋朝|宋朝[Song4 chao2] (",名,我不认识这个词。,Tôi không biết từ này.,REAL,READY
+583,2,词典,từ điển / cũng viết 辭典|辞典[ci2 dian3],名,这个字我需要查词典。,Chữ này tôi cần tra từ điển.,REAL,READY
+584,2,词语,từ (thuật ngữ chung bao gồm từ đơn âm đến cụm ngắn) / thuật ngữ (ví dụ: thuật ngữ kỹ thuật) / biểu đạt,名,这个词语是什么意思？,Từ ngữ này có nghĩa là gì.,REAL,READY
+585,2,从小,từ nhỏ; từ bé,副,我从小就喜欢中文。,Từ nhỏ tôi đã thích tiếng Trung.,REAL,READY
+586,2,答应,trả lời; phản hồi / trả lời tích cực; đồng ý; chấp nhận; hứa,动,妈妈答应带我去公园。,Mẹ đồng ý đưa tôi đi công viên.,REAL,READY
+587,2,打工,"làm công việc tạm thời hoặc không chính thức / (đối với học sinh, sinh viên) đi làm ngoài giờ học, hoặc trong kỳ nghỉ",,他周末在饭馆打工。,Cuối tuần anh ấy làm thêm tại nhà hàng.,REAL,READY
+588,2,打算,dự định / dự tính / tính toán / kế hoạch,动、名,我打算明天去北京。,Tôi dự định ngày mai đi Bắc Kinh.,REAL,READY
+589,2,打印,đóng dấu / đóng mộc / in ra (bằng máy in),动,请帮我打印这份文件。,Hãy giúp tôi in tài liệu này.,REAL,READY
+590,2,大部分,phần lớn / phần nhiều / đại đa số,名,大部分学生都喜欢这门课。,Phần lớn học sinh đều thích môn học này.,REAL,READY
+591,2,大大,rất nhiều / cực kỳ / (phương ngữ) ba / bác,副,他的汉语水平大大提高了。,Trình độ tiếng Trung của anh ấy đã tiến bộ rất nhiều.,REAL,READY
+592,2,大多数,đại đa số,名,大多数学生都按时到了。,Đại đa số học sinh đều đến đúng giờ.,REAL,READY
+593,2,大海,biển / đại dương,名,我第一次看到了美丽的大海。,Lần đầu tiên tôi nhìn thấy biển lớn xinh đẹp.,REAL,READY
+594,2,大家,mọi người / gia đình có ảnh hưởng / đại gia,代,大家都喜欢这个老师。,Mọi người đều thích giáo viên này.,REAL,READY
+595,2,大量,lượng lớn / số lượng nhiều / số lượng lớn / đông đảo / rộng lượng / khoan dung,形,图书馆里有大量的书。,Trong thư viện có rất nhiều sách.,REAL,READY
+596,2,大门,lối vào / cửa / cổng / gia đình lớn và có ảnh hưởng,名,学校的大门已经关了。,Cổng lớn của trường đã đóng rồi.,REAL,READY
+597,2,大人,người lớn / trưởng thành / cách xưng hô tôn trọng với cấp trên,名,小孩子应该尊重大人。,Trẻ nhỏ nên tôn trọng người lớn.,REAL,READY
+598,2,大声,giọng to / bằng giọng to / to tiếng,,请不要在图书馆大声说话。,Xin đừng nói lớn tiếng trong thư viện.,REAL,READY
+599,2,大小,lớn và nhỏ / kích cỡ / người lớn và trẻ em / xem xét thứ bậc / dù sao đi nữa,名,这两件衣服大小不一样。,Hai bộ quần áo này có kích cỡ khác nhau.,REAL,READY
+600,2,大衣,áo khoác dài / áo măng tô / áo choàng,名,冬天我经常穿这件大衣。,Mùa đông tôi thường mặc chiếc áo khoác dài này.,REAL,READY
+601,2,大自然,thiên nhiên (thế giới tự nhiên),名,我们应该保护大自然。,Chúng ta nên bảo vệ thiên nhiên.,REAL,READY
+602,2,带,dải / thắt lưng / ruy băng / lốp / vùng / khu vực / khu / đeo / mang / dẫn theo / chịu / có / dẫn / dắt / chăm sóc / nuôi dưỡng,动,出门的时候别忘了带手机。,Khi ra ngoài đừng quên mang điện thoại.,REAL,READY
+603,2,带来,mang đến / (nghĩa bóng) mang lại; tạo ra,,这本书给我带来了很多快乐。,Cuốn sách này mang lại cho tôi nhiều niềm vui.,REAL,READY
+604,2,单位,"đơn vị (đo lường) / đơn vị (nhóm người) / đơn vị công tác (nơi làm việc, đặc biệt ở Trung Quốc trước cải cách kinh tế)",名,米是长度单位。,Mét là đơn vị đo chiều dài.,REAL,READY
+605,2,但,nhưng; tuy nhiên; thế nhưng / chỉ; chỉ là; đúng,连,我很累，但还想继续学习。,Tôi rất mệt nhưng vẫn muốn tiếp tục học.,REAL,READY
+606,2,但是,nhưng; tuy nhiên,连,今天很冷，但是没有下雨。,Hôm nay rất lạnh nhưng không mưa.,REAL,READY
+607,2,蛋,trứng / vật hình bầu dục,名,我早上吃了一个鸡蛋。,Buổi sáng tôi đã ăn một quả trứng gà.,REAL,READY
+608,2,当,(từ tượng thanh) đong / đinh đong (chuông) / làm / làm việc / quản lý / chịu đựng / khi / trong lúc / nên / phải / tương xứng / bằng / giống / cản trở / đúng lúc (thời gian hoặc địa điểm) / tại chỗ / ngay / lúc đó,动、介,我长大以后想当医生。,Khi lớn lên tôi muốn làm bác sĩ.,REAL,READY
+609,2,当时,lúc đó / vào thời điểm đó / trong khi,名,当时我不知道发生了什么。,Lúc đó tôi không biết chuyện gì đã xảy ra.,REAL,READY
+610,2,倒,ngã; sụp đổ; nằm ngang / thất bại; phá sản / lật đổ / đổi (tàu hoặc xe buýt) / di chuyển xung quanh / buôn bán kiếm lời,动,他不小心摔倒了。,Anh ấy không cẩn thận nên bị ngã.,REAL,READY
+611,2,到处,khắp nơi,副,春天到处都是鲜花。,Mùa xuân khắp nơi đều có hoa tươi.,REAL,READY
+612,2,倒,lật ngược; đặt úp hoặc lộn ngược / rót ra / đổ ra; trút ra / bị lật; lộn ngược; đảo ngược / đi lùi / ngược với dự đoán; nhưng; tuy nhiên,动,请给我倒一杯水。,Hãy rót cho tôi một cốc nước.,REAL,READY
+613,2,道,"đường; con đường ( / (hình thức kết hợp) cách; lý do; nguyên tắc / (hình thức kết hợp) một kỹ năng; một nghệ thuật; một chuyên môn / (Đạo giáo) con Đường; Đạo / nói (dùng để dẫn lời trực tiếp, như trong tiểu thuyết) / (hình thức kết hợp) biểu đạt; gửi lời (lời nói lịch sự) / lượng từ cho những vật dài mỏng (sông, vết nứt, v.v.), rào cản (tường, cửa, v.v.), câu hỏi (trong kỳ thi, v.v.), mệnh lệnh, món ăn trong bữa ăn, bước trong quy trình / (cũ) đạo lộ (đơn vị hành chính)",量,这道题我不会做。,Tôi không biết làm câu hỏi này.,REAL,READY
+614,2,道理,lý do / tranh luận / hợp lý / nguyên tắc / cơ sở / sự biện minh,名,你说的话很有道理。,Những lời bạn nói rất có lý.,REAL,READY
+615,2,道路,đường / lối / cách,名,这条道路很宽。,Con đường này rất rộng.,REAL,READY
+616,2,得,được / nhận / giành được / bị (bệnh) / thích hợp / phù hợp / tự hào / hài lòng / cho phép / đồng ý / sẵn sàng / xong,动,我得到了老师的帮助。,Tôi đã nhận được sự giúp đỡ của giáo viên.,REAL,READY
+617,2,得出,đạt được (kết quả); đi đến (kết luận),,我们得出了同样的结论。,Chúng tôi đã đi đến cùng một kết luận.,REAL,READY
+618,2,的话,nếu (đứng sau mệnh đề điều kiện),助,你有时间的话，我们一起去吧。,Nếu bạn có thời gian thì chúng ta cùng đi nhé.,REAL,READY
+619,2,得,"trợ từ kết cấu: dùng sau động từ (hoặc tính từ làm động từ chính), liên kết với cụm sau chỉ kết quả, mức độ, khả năng, v.v.",助,他跑得很快。,Anh ấy chạy rất nhanh.,REAL,READY
+620,2,灯,đèn / ánh sáng / đèn lồng,名,请把房间里的灯打开。,Hãy bật đèn trong phòng lên.,REAL,READY
+621,2,等到,"đợi đến / khi mà (cái gì sẵn sàng,...)",介,等到下课以后我们再讨论。,Đợi đến khi tan học rồi chúng ta thảo luận tiếp.,REAL,READY
+622,2,等于,bằng / tương đương với,动,二加三等于五。,Hai cộng ba bằng năm.,REAL,READY
+623,2,低,thấp / bên dưới / cúi (đầu) / để rũ xuống / treo xuống / nghiêng,形、动,这张桌子有点儿低。,Chiếc bàn này hơi thấp.,REAL,READY
+624,2,地球,trái đất,名,我们都生活在地球上。,Tất cả chúng ta đều sống trên Trái Đất.,REAL,READY
+625,2,地铁,đường sắt ngầm; tàu điện ngầm / tàu điện ngầm,名,我每天坐地铁上班。,Hằng ngày tôi đi tàu điện ngầm đi làm.,REAL,READY
+626,2,地铁站,ga tàu điện ngầm,名,地铁站离我家很近。,Ga tàu điện ngầm rất gần nhà tôi.,REAL,READY
+627,2,点头,gật đầu,,老师问我时，我点了点头。,"Khi giáo viên hỏi, tôi đã gật đầu.",REAL,READY
+628,2,店,quán trọ; khách sạn kiểu cũ ( / (hình thức kết hợp) cửa hàng; tiệm,名,这家店的东西很便宜。,Đồ ở cửa hàng này rất rẻ.,REAL,READY
+629,2,掉,"rơi / rớt / tụt lại / mất / thất lạc / giảm / rớt (giá) / mất (giá trị, cân nặng v.v.) / vẫy / đung đưa / quay / đổi / thay / trao đổi / khoe / rụng (tóc) / (dùng sau một số động từ để biểu đạt hoàn thành, thực hiện xong, loại bỏ v.v.)",动,我的手机掉在地上了。,Điện thoại của tôi rơi xuống đất rồi.,REAL,READY
+630,2,东北,đông bắc,名,冬天东北的天气很冷。,Mùa đông thời tiết vùng Đông Bắc rất lạnh.,REAL,READY
+631,2,东方,đông,名,太阳从东方升起。,Mặt trời mọc từ phía đông.,REAL,READY
+632,2,东南,đông nam,名,我们的学校在城市的东南方向。,Trường chúng tôi nằm ở phía đông nam thành phố.,REAL,READY
+633,2,冬天,mùa đông,名,冬天我喜欢喝热茶。,Mùa đông tôi thích uống trà nóng.,REAL,READY
+634,2,懂,hiểu / nhận thức,动,老师说的话我都懂。,Những điều giáo viên nói tôi đều hiểu.,REAL,READY
+635,2,懂得,hiểu; biết; thấu hiểu,动,他从小就懂得帮助别人。,Từ nhỏ anh ấy đã biết giúp đỡ người khác.,REAL,READY
+636,2,动物,động vật,名,我最喜欢的动物是熊猫。,Động vật tôi thích nhất là gấu trúc.,REAL,READY
+637,2,动物园,sở thú,名,周末我们一起去动物园。,Cuối tuần chúng tôi cùng đi sở thú.,REAL,READY
+638,2,读音,cách phát âm / âm đọc mang tính văn liệu (thay vì khẩu ngữ) của một chữ Hán,名,这个汉字的读音是什么？,Cách phát âm của chữ Hán này là gì?,REAL,READY
+639,2,度,"vượt qua / trải qua (thời gian) / đo / lượng giới hạn / mức độ / mức độ cường độ / độ (góc, nhiệt độ, v.v.) / kilowatt-giờ / lượng từ cho sự kiện và tình huống",名、量,今天的气温是三十度。,Nhiệt độ hôm nay là ba mươi độ.,REAL,READY
+640,2,短,ngắn / gọn / thiếu / điểm yếu / lỗi,形,这条裤子太短了。,Chiếc quần này quá ngắn.,REAL,READY
+641,2,短信,tin nhắn văn bản / SMS,名,我刚收到妈妈发来的短信。,Tôi vừa nhận được tin nhắn mẹ gửi.,REAL,READY
+642,2,段,"đoạn / phần / mẩu / giai đoạn (của một quá trình) / lượng từ cho câu chuyện, khoảng thời gian, độ dài sợi chỉ, v.v.",量,请读一下这段文章。,Hãy đọc đoạn văn này.,REAL,READY
+643,2,队,phi đội / đội / nhóm,名,我们队今天赢了比赛。,Đội chúng tôi hôm nay đã thắng trận đấu.,REAL,READY
+644,2,队长,đội trưởng / nhóm trưởng,名,队长正在安排今天的训练。,Đội trưởng đang sắp xếp buổi tập hôm nay.,REAL,READY
+645,2,对话,nói chuyện (với ai đó) / đối thoại; cuộc trò chuyện,动、名,请两个人练习这段对话。,Hai người hãy luyện tập đoạn hội thoại này.,REAL,READY
+646,2,对面,(ngồi) đối diện / bên kia (đường) / trực tiếp phía trước / đối mặt,名,银行就在学校对面。,Ngân hàng nằm ngay đối diện trường học.,REAL,READY
+647,2,多久,(về thời gian) bao lâu? / (không) lâu,代,从这里到机场要多久？,Từ đây đến sân bay mất bao lâu?,REAL,READY
+648,2,多么,"như thế nào (tuyệt vời, v.v.) / thật là (một ý tưởng tuyệt vời, v.v.) / dù (có khó khăn, v.v.) / (trong câu nghi vấn) bao nhiêu / mức độ nào",副,今天的天气多么好啊！,Thời tiết hôm nay đẹp biết bao!,REAL,READY
+649,2,多数,đa số; phần lớn,名,我们班多数学生喜欢运动。,Phần lớn học sinh lớp chúng tôi thích vận động.,REAL,READY
+650,2,多云,có mây (khí tượng),名,明天多云，可能不会下雨。,"Ngày mai nhiều mây, có thể sẽ không mưa.",REAL,READY
+651,2,而且,(không những...) mà còn / hơn nữa / thêm vào đó / hơn thế nữa,连,今天我们学习了“而且”这个词。,"Hôm nay chúng tôi đã học từ ""而且"".",TEMPLATE,NEED_REVIEW
+652,2,发,gửi đi / bộc lộ (cảm xúc của một người) / phát hành / phát triển / kiếm được nhiều tiền / lượng từ cho phát súng (phát),动,我已经学会了“发”这个词。,"Tôi đã học được từ ""发"".",TEMPLATE,NEED_REVIEW
+653,2,发现,để ý; nhận ra / phát hiện; tìm thấy; phát giác / một khám phá,动、名,老师让我们读一读“发现”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""发现"".",TEMPLATE,NEED_REVIEW
+654,2,饭馆,nhà hàng,名,请用“饭馆”造一个句子。,"Hãy dùng từ ""饭馆"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+655,2,方便,tiện lợi; thích hợp / tạo điều kiện; làm cho dễ dàng / có tiền dư / (nói giảm) đi vệ sinh,形,我把“方便”写在了本子上。,"Tôi đã viết từ ""方便"" vào vở.",TEMPLATE,NEED_REVIEW
+656,2,方便面,mì ăn liền,名,我在课本里看到了“方便面”这个词。,"Tôi đã nhìn thấy từ ""方便面"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+657,2,方法,phương pháp; cách thức; cách,名,老师正在解释“方法”这个词。,"Giáo viên đang giải thích từ ""方法"".",TEMPLATE,NEED_REVIEW
+658,2,方面,khía cạnh / phương diện / lĩnh vực / mặt,名,请大家一起读“方面”这个词。,"Mọi người hãy cùng đọc từ ""方面"".",TEMPLATE,NEED_REVIEW
+659,2,方向,hướng; phương hướng,名,这个单元我们要学习“方向”。,"Trong bài này chúng tôi sẽ học từ ""方向"".",TEMPLATE,NEED_REVIEW
+660,2,放下,đặt xuống; để xuống / buông bỏ; từ bỏ; gác lại / hạ xuống (rèm v.v.),,今天老师教我们“放下”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""放下"".",TEMPLATE,NEED_REVIEW
+661,2,放心,cảm thấy nhẹ nhõm / cảm thấy yên tâm / an tâm,,今天我们学习了“放心”这个词。,"Hôm nay chúng tôi đã học từ ""放心"".",TEMPLATE,NEED_REVIEW
+662,2,分开,tách ra / chia ra,,我已经学会了“分开”这个词。,"Tôi đã học được từ ""分开"".",TEMPLATE,NEED_REVIEW
+663,2,分数,điểm (thi) / điểm số / thành tích / phân số,名,老师让我们读一读“分数”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""分数"".",TEMPLATE,NEED_REVIEW
+664,2,分钟,phút,量,请用“分钟”造一个句子。,"Hãy dùng từ ""分钟"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+665,2,份,"lượng từ cho quà tặng, báo, tạp chí, giấy tờ, báo cáo, hợp đồng, v.v. / biến thể của 分[fen4]",量,我把“份”写在了本子上。,"Tôi đã viết từ ""份"" vào vở.",TEMPLATE,NEED_REVIEW
+666,2,封,"phong tước / ban tặng / phong làm / phong kín / lượng từ cho vật kín, đặc biệt là thư từ",量,我在课本里看到了“封”这个词。,"Tôi đã nhìn thấy từ ""封"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+667,2,服务,phục vụ / dịch vụ,动,老师正在解释“服务”这个词。,"Giáo viên đang giải thích từ ""服务"".",TEMPLATE,NEED_REVIEW
+668,2,复习,xem lại / ôn tập / biến thể của 復習|复习[fu4 xi2],动,请大家一起读“复习”这个词。,"Mọi người hãy cùng đọc từ ""复习"".",TEMPLATE,NEED_REVIEW
+669,2,该,nên / phải / có lẽ / phải là / xứng đáng / nợ / đến lượt làm gì / đó / đã nói ở trên,动,这个单元我们要学习“该”。,"Trong bài này chúng tôi sẽ học từ ""该"".",TEMPLATE,NEED_REVIEW
+670,2,改,thay đổi / sửa đổi / biến đổi / sửa chữa,动,今天老师教我们“改”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""改"".",TEMPLATE,NEED_REVIEW
+671,2,改变,thay đổi / sửa đổi / biến đổi,动、名,今天我们学习了“改变”这个词。,"Hôm nay chúng tôi đã học từ ""改变"".",TEMPLATE,NEED_REVIEW
+672,2,干杯,nâng ly chúc mừng / Cạn ly! (đề xuất nâng ly) / Chúc mừng bạn! / Uống cạn nhé! / nghĩa đen: cạn ly,,我已经学会了“干杯”这个词。,"Tôi đã học được từ ""干杯"".",TEMPLATE,NEED_REVIEW
+673,2,感到,cảm thấy; cảm nhận; nhận ra,动,老师让我们读一读“感到”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""感到"".",TEMPLATE,NEED_REVIEW
+674,2,感动,làm cảm động / chạm đến (cảm xúc của ai đó) / cảm động,形、动,请用“感动”造一个句子。,"Hãy dùng từ ""感动"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+675,2,感觉,cảm giác; ấn tượng; cảm nhận / cảm thấy; nhận biết,动、名,我把“感觉”写在了本子上。,"Tôi đã viết từ ""感觉"" vào vở.",TEMPLATE,NEED_REVIEW
+676,2,感谢,(bày tỏ) cảm ơn / lòng biết ơn / biết ơn / cảm ơn / xin cảm ơn,动,我在课本里看到了“感谢”这个词。,"Tôi đã nhìn thấy từ ""感谢"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+677,2,干活儿,biến thể er hoá của 幹活|干活[gan4 huo2],,老师正在解释“干活儿”这个词。,"Giáo viên đang giải thích từ ""干活儿"".",TEMPLATE,NEED_REVIEW
+678,2,刚,cứng / vững / mạnh / vừa / mới / chính xác,副,请大家一起读“刚”这个词。,"Mọi người hãy cùng đọc từ ""刚"".",TEMPLATE,NEED_REVIEW
+679,2,刚才,vừa nãy / mới đây / vừa mới (biến thể của 剛才|刚才[gang1 cai2]),名,这个单元我们要学习“刚才”。,"Trong bài này chúng tôi sẽ học từ ""刚才"".",TEMPLATE,NEED_REVIEW
+680,2,刚刚,mới đây / ngay vừa rồi,副,今天老师教我们“刚刚”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""刚刚"".",TEMPLATE,NEED_REVIEW
+681,2,高级,cấp cao / chất lượng cao / tiên tiến / cấp bậc cao,形,今天我们学习了“高级”这个词。,"Hôm nay chúng tôi đã học từ ""高级"".",TEMPLATE,NEED_REVIEW
+682,2,高中,trường trung học phổ thông / viết tắt của 高級中學|高级中学[gao1 ji2 zhong1 xue2],名,我已经学会了“高中”这个词。,"Tôi đã học được từ ""高中"".",TEMPLATE,NEED_REVIEW
+683,2,个子,chiều cao / dáng vóc / thể trạng / kích cỡ,名,老师让我们读一读“个子”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""个子"".",TEMPLATE,NEED_REVIEW
+684,2,更,hơn / còn hơn / nữa / vẫn / càng,副,请用“更”造一个句子。,"Hãy dùng từ ""更"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+685,2,公共汽车,xe buýt,,我把“公共汽车”写在了本子上。,"Tôi đã viết từ ""公共汽车"" vào vở.",TEMPLATE,NEED_REVIEW
+686,2,公交车,phương tiện giao thông công cộng / xe buýt thành phố / Lượng từ: 輛|辆[liang4],名,我在课本里看到了“公交车”这个词。,"Tôi đã nhìn thấy từ ""公交车"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+687,2,公斤,kilôgam (kg),量,老师正在解释“公斤”这个词。,"Giáo viên đang giải thích từ ""公斤"".",TEMPLATE,NEED_REVIEW
+688,2,公里,kilômét,量,请大家一起读“公里”这个词。,"Mọi người hãy cùng đọc từ ""公里"".",TEMPLATE,NEED_REVIEW
+689,2,公路,đường cao tốc / đường bộ,名,这个单元我们要学习“公路”。,"Trong bài này chúng tôi sẽ học từ ""公路"".",TEMPLATE,NEED_REVIEW
+690,2,公平,công bằng / không thiên vị,形,今天老师教我们“公平”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""公平"".",TEMPLATE,NEED_REVIEW
+691,2,公司,công ty; hãng; tập đoàn,名,今天我们学习了“公司”这个词。,"Hôm nay chúng tôi đã học từ ""公司"".",TEMPLATE,NEED_REVIEW
+692,2,公园,công viên (dành cho công chúng giải trí),名,我已经学会了“公园”这个词。,"Tôi đã học được từ ""公园"".",TEMPLATE,NEED_REVIEW
+693,2,狗,chó,名,老师让我们读一读“狗”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""狗"".",TEMPLATE,NEED_REVIEW
+694,2,够,đủ (đầy đủ) / đủ (quá nhiều) / (thông tục) (trước tính từ) thật sự / (thông tục) với tới bằng cách vươn ra,动、副,请用“够”造一个句子。,"Hãy dùng từ ""够"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+695,2,故事,câu chuyện; truyện,名,我把“故事”写在了本子上。,"Tôi đã viết từ ""故事"" vào vở.",TEMPLATE,NEED_REVIEW
+696,2,故意,cố ý; có chủ đích,副,我在课本里看到了“故意”这个词。,"Tôi đã nhìn thấy từ ""故意"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+697,2,顾客,khách hàng; thân chủ,名,老师正在解释“顾客”这个词。,"Giáo viên đang giải thích từ ""顾客"".",TEMPLATE,NEED_REVIEW
+698,2,关机,tắt (máy móc hoặc thiết bị) / hoàn thành quay phim,,请大家一起读“关机”这个词。,"Mọi người hãy cùng đọc từ ""关机"".",TEMPLATE,NEED_REVIEW
+699,2,关心,quan tâm đến; chăm sóc,动,这个单元我们要学习“关心”。,"Trong bài này chúng tôi sẽ học từ ""关心"".",TEMPLATE,NEED_REVIEW
+700,2,观点,quan điểm / góc nhìn / lập trường,名,今天老师教我们“观点”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""观点"".",TEMPLATE,NEED_REVIEW
+701,2,广场,quảng trường,名,今天我们学习了“广场”这个词。,"Hôm nay chúng tôi đã học từ ""广场"".",TEMPLATE,NEED_REVIEW
+702,2,广告,quảng cáo / mục quảng cáo,名,我已经学会了“广告”这个词。,"Tôi đã học được từ ""广告"".",TEMPLATE,NEED_REVIEW
+703,2,国际,quốc tế,名,老师让我们读一读“国际”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""国际"".",TEMPLATE,NEED_REVIEW
+704,2,过来,đến / quản lý / xử lý / có thể chăm sóc được,动,请用“过来”造一个句子。,"Hãy dùng từ ""过来"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+705,2,过年,đón Tết Nguyên Đán,,我把“过年”写在了本子上。,"Tôi đã viết từ ""过年"" vào vở.",TEMPLATE,NEED_REVIEW
+706,2,过去,(trong quá khứ); trước đây; trước đó / đi qua; trôi qua,动,过去我住在北京，现在住在上海。,"Trước đây tôi sống ở Bắc Kinh, bây giờ sống ở Thượng Hải.",REAL,READY
+707,2,过,(trợ từ chỉ hành động đã trải qua),助,我去过中国两次。,Tôi đã từng đến Trung Quốc hai lần.,REAL,READY
+708,2,海,đại dương / biển / số lượng lớn người hoặc vật / (phương ngữ) nhiều,名,我第一次看见这么美丽的海。,Đây là lần đầu tiên tôi nhìn thấy biển đẹp như vậy.,REAL,READY
+709,2,海边,bờ biển / bãi biển,,暑假我们打算去海边玩。,Kỳ nghỉ hè chúng tôi dự định đi chơi ở bờ biển.,REAL,READY
+710,2,喊,la hét / hò hét / gọi to (người),动,妈妈在门口喊我的名字。,Mẹ gọi to tên tôi ở cửa.,REAL,READY
+711,2,好处,lợi ích; ưu điểm; công dụng / lợi nhuận; lợi ích / cũng đọc là [hao3 chu4],名,每天运动对身体有很多好处。,Tập thể dục hằng ngày có nhiều lợi ích cho sức khỏe.,REAL,READY
+712,2,好多,nhiều / khá nhiều / tốt hơn nhiều,数,今天超市里有好多新鲜水果。,Hôm nay trong siêu thị có rất nhiều trái cây tươi.,REAL,READY
+713,2,好久,một khoảng thời gian khá lâu,形,我们已经好久没有见面了。,Chúng ta đã lâu không gặp nhau rồi.,REAL,READY
+714,2,好人,"người tốt / người khỏe mạnh / người cố gắng không làm phật lòng ai, thậm chí hy sinh nguyên tắc",名,他经常帮助别人，是个好人。,"Anh ấy thường giúp đỡ người khác, là một người tốt.",REAL,READY
+715,2,好事,"hành động, việc làm, điều hoặc công việc tốt (cũng có thể mỉa mai, ""thật là một việc hay"") / từ thiện / dịp vui / lễ đạo hoặc Phật cho linh hồn người chết",名,帮助老人过马路是一件好事。,Giúp người già qua đường là một việc tốt.,REAL,READY
+716,2,好像,như thể / giống như,副、动,外面好像下雨了。,Bên ngoài hình như trời mưa rồi.,REAL,READY
+717,2,合适,thích hợp; vừa vặn; phù hợp,形,这件衣服的大小很合适。,Kích cỡ bộ quần áo này rất vừa vặn.,REAL,READY
+718,2,河,sông,名,学校旁边有一条小河。,Bên cạnh trường học có một con sông nhỏ.,REAL,READY
+719,2,黑,"đen / tối / tà ác / bí mật / mờ ám / phi pháp / cất giấu (thứ gì đó) / bôi nhọ / tin tặc (mượn từ, tin học)",形,天已经黑了，我们回家吧。,"Trời đã tối rồi, chúng ta về nhà thôi.",REAL,READY
+720,2,黑板,bảng đen,名,老师正在黑板上写汉字。,Giáo viên đang viết chữ Hán lên bảng đen.,REAL,READY
+721,2,黑色,màu đen,名,我买了一双黑色的鞋。,Tôi đã mua một đôi giày màu đen.,REAL,READY
+722,2,红,đỏ / phổ biến / cách mạng / thưởng,形,她今天穿了一件红衣服。,Hôm nay cô ấy mặc một bộ quần áo màu đỏ.,REAL,READY
+723,2,红色,màu đỏ (màu sắc) / cách mạng,名,我妹妹最喜欢红色。,Em gái tôi thích màu đỏ nhất.,REAL,READY
+724,2,后来,sau này; sau đó / mới đến,名,开始我不明白，后来终于懂了。,"Ban đầu tôi không hiểu, sau đó cuối cùng cũng hiểu.",REAL,READY
+725,2,忽然,đột nhiên; bỗng nhiên,副,他忽然想起今天有考试。,Anh ấy đột nhiên nhớ ra hôm nay có bài thi.,REAL,READY
+726,2,湖,hồ,名,公园里有一个很大的湖。,Trong công viên có một cái hồ rất lớn.,REAL,READY
+727,2,护照,hộ chiếu,名,出国旅行的时候别忘了带护照。,Khi đi du lịch nước ngoài đừng quên mang hộ chiếu.,REAL,READY
+728,2,花园,vườn,名,奶奶每天早上都在花园里浇花。,Bà nội tưới hoa trong vườn mỗi sáng.,REAL,READY
+729,2,画,vẽ; tô tranh / bức tranh; hội họa ( / vẽ (một đường) (biến thể của 劃|划[hua4]) / nét chữ Hán (biến thể của 劃|划[hua4]) / (thư pháp) nét ngang (biến thể của 劃|划[hua4]),动,妹妹正在画一只小猫。,Em gái đang vẽ một con mèo nhỏ.,REAL,READY
+730,2,画家,họa sĩ,名,我的梦想是成为一名画家。,Ước mơ của tôi là trở thành một họa sĩ.,REAL,READY
+731,2,画儿,bức tranh / hình vẽ / bức vẽ,名,墙上挂着一张漂亮的画儿。,Trên tường treo một bức tranh đẹp.,REAL,READY
+732,2,坏处,tổn hại / rắc rối,名,晚上睡得太晚对身体有坏处。,Ngủ quá muộn vào buổi tối có hại cho sức khỏe.,REAL,READY
+733,2,坏人,người xấu / kẻ xấu,名,那个坏人偷走了我的钱包。,Kẻ xấu đó đã lấy trộm ví của tôi.,REAL,READY
+734,2,欢迎,chào đón / chào mừng,动,欢迎大家来我们学校参观。,Chào mừng mọi người đến tham quan trường chúng tôi.,REAL,READY
+735,2,换,"trao đổi / thay đổi (quần áo, v.v.) / thay thế / chuyển đổi / đổi (tiền tệ)",动,这件衣服太小了，我想换一件。,"Bộ quần áo này quá nhỏ, tôi muốn đổi bộ khác.",REAL,READY
+736,2,黄,màu vàng / khiêu dâm / thất bại,形,秋天到了，树叶慢慢变黄了。,"Mùa thu đến rồi, lá cây dần chuyển vàng.",REAL,READY
+737,2,黄色,màu vàng / thô tục; khiêu dâm,名,她买了一条黄色的裙子。,Cô ấy đã mua một chiếc váy màu vàng.,REAL,READY
+738,2,回国,trở về nước,,他打算明年毕业以后回国工作。,Anh ấy dự định sau khi tốt nghiệp năm sau sẽ về nước làm việc.,REAL,READY
+739,2,活动,tập thể dục / di chuyển / vận hành / sử dụng mối quan hệ (ảnh hưởng cá nhân) / lỏng / lung lay / chủ động / có thể di chuyển / hoạt động / chiến dịch / diễn tập / hành vi,动、名,学校周末组织了一个有趣的活动。,Cuối tuần trường tổ chức một hoạt động thú vị.,REAL,READY
+740,2,或,có thể / có lẽ / có khả năng / có thể là / hoặc,连,你可以坐公交车或地铁去机场。,Bạn có thể đi xe buýt hoặc tàu điện ngầm đến sân bay.,REAL,READY
+741,2,或者,hoặc / có thể; có lẽ,连,你可以坐公交车或者坐地铁去学校。,Bạn có thể đi xe buýt hoặc tàu điện ngầm đến trường.,REAL,READY
+742,2,机会,cơ hội / thời cơ / dịp,名,我希望有机会去中国学习汉语。,Tôi hy vọng có cơ hội đến Trung Quốc học tiếng Trung.,REAL,READY
+743,2,鸡,gia cầm / gà / (tiếng lóng) gái mại dâm,名,奶奶家养了三只鸡。,Nhà bà nuôi ba con gà.,REAL,READY
+744,2,级,"cấp / hạng / bậc / bước (cầu thang) / Lượng từ: bước, cấp",名,我弟弟现在上小学三年级。,Em trai tôi hiện đang học lớp ba tiểu học.,REAL,READY
+745,2,急,khẩn cấp / cấp bách / nhanh / vội / vẻ lo lắng / làm cho (ai đó) lo lắng,形,别急，我们还有时间。,"Đừng vội, chúng ta vẫn còn thời gian.",REAL,READY
+746,2,计划,kế hoạch / dự án / chương trình / lên kế hoạch / vạch ra,名、动,我计划明年去北京旅行。,Tôi dự định năm sau đi du lịch Bắc Kinh.,REAL,READY
+747,2,计算机,máy tính / (Đài Loan) máy tính cầm tay,名,学校的计算机都可以上网。,Các máy tính của trường đều có thể truy cập Internet.,REAL,READY
+748,2,加,"thêm / cộng / (dùng sau một trạng ngữ như 不, 大, 稍,..., và trước động từ hai âm tiết, để chỉ rằng hành động của động từ được áp dụng cho cái gì đó hoặc ai đó đã được nhắc đến trước đó) / áp dụng (hạn chế,...) cho (ai đó) / đưa ra (hỗ trợ, xem xét,...) cho (điều gì đó)",动,咖啡里请不要加太多糖。,Xin đừng cho quá nhiều đường vào cà phê.,REAL,READY
+749,2,加油,thêm dầu; đổ xăng; tiếp nhiên liệu / tăng tốc; đạp ga / (nghĩa bóng) nỗ lực thêm; cổ vũ ai đó,,明天要考试了，大家加油！,"Ngày mai thi rồi, mọi người cố lên!",REAL,READY
+750,2,家（科学家）,"dùng trong 傢伙|家伙[jia1 huo5] và 傢俱|家俱[jia1 ju4] / nhà / gia đình / (lịch sự) của tôi (chị, chú, v.v.) / lượng từ cho gia đình hoặc doanh nghiệp / chỉ các trường phái triết học Trung Quốc thời Tiền Hán / hậu tố danh từ cho chuyên gia trong một hoạt động nào đó, như nhạc sĩ hoặc nhà cách mạng, tương ứng với tiếng Anh -ist, -er, -ary hoặc -ian",后缀,我的哥哥想成为一名科学家。,Anh trai tôi muốn trở thành một nhà khoa học.,REAL,READY
+751,2,家庭,gia đình / hộ gia đình,名,她出生在一个幸福的家庭。,Cô ấy sinh ra trong một gia đình hạnh phúc.,REAL,READY
+752,2,家长,chủ hộ / người đứng đầu gia đình / gia trưởng / phụ huynh hoặc người giám hộ của một đứa trẻ,名,开学第一天，很多家长送孩子来学校。,"Ngày đầu khai giảng, nhiều phụ huynh đưa con đến trường.",REAL,READY
+753,2,假,giả / sai / nhân tạo / mượn / nếu / giả sử / biến thể của 假[jia3],形,这张票是假的，不能用。,"Tấm vé này là giả, không thể sử dụng.",REAL,READY
+754,2,假期,kỳ nghỉ,名,这个假期我想在家好好休息。,Kỳ nghỉ này tôi muốn nghỉ ngơi thật tốt ở nhà.,REAL,READY
+755,2,检查,kiểm tra / khám xét / kiểm định,动、名,考试以后老师会检查我们的答案。,Sau kỳ thi giáo viên sẽ kiểm tra đáp án của chúng tôi.,REAL,READY
+756,2,见到,nhìn thấy,,今天很高兴见到你。,Hôm nay rất vui được gặp bạn.,REAL,READY
+757,2,见过,đã từng gặp; đã từng thấy,,我以前见过这位老师。,Trước đây tôi đã từng gặp giáo viên này.,REAL,READY
+758,2,件,"món / thành phần / lượng từ cho sự kiện, đồ vật, quần áo, v.v.",量,我今天买了两件衣服。,Hôm nay tôi đã mua hai bộ quần áo.,REAL,READY
+759,2,健康,sức khỏe / khỏe mạnh,形、名,每天运动对健康有好处。,Vận động hằng ngày có lợi cho sức khỏe.,REAL,READY
+760,2,讲,nói / giải thích / đàm phán / nhấn mạnh / kĩ lưỡng / về mặt nào đó / bài nói / chia sẻ,动,老师正在给我们讲这个故事。,Giáo viên đang kể câu chuyện này cho chúng tôi.,REAL,READY
+761,2,讲话,bài phát biểu / nói / trò chuyện / phát biểu,,上课的时候不要大声讲话。,Trong giờ học đừng nói chuyện lớn tiếng.,REAL,READY
+762,2,交,giao nộp; giao; trả (tiền); bàn giao / kết bạn / (đường) giao nhau / biến thể của 跤[jiao1],动,我已经把今天的作业交了。,Tôi đã nộp bài tập hôm nay rồi.,REAL,READY
+763,2,交给,đưa; giao; chuyển giao,,请把这本书交给王老师。,Hãy đưa quyển sách này cho thầy Vương.,REAL,READY
+764,2,交朋友,kết bạn / (tiếng địa phương) bắt đầu mối quan hệ tình cảm với ai đó,,我喜欢和不同国家的人交朋友。,Tôi thích kết bạn với người từ các quốc gia khác nhau.,REAL,READY
+765,2,交通,kết nối / giao thông / vận tải / truyền thông / liên lạc,名,这里的交通很方便。,Giao thông ở đây rất thuận tiện.,REAL,READY
+766,2,角,"góc / góc cạnh / sừng / hình dạng sừng / đơn vị tiền bằng 0,1 nhân dân tệ, hoặc 10 xu (một hào)",量、名,这支笔两块五角钱。,Cây bút này giá hai tệ năm hào.,REAL,READY
+767,2,角度,góc / quan điểm,名,从这个角度看，问题很简单。,"Nhìn từ góc độ này, vấn đề rất đơn giản.",REAL,READY
+768,2,饺子,bánh sủi cảo / bánh hấp,名,春节的时候我们全家一起吃饺子。,"Vào dịp Tết, cả gia đình tôi cùng ăn sủi cảo.",REAL,READY
+769,2,脚,"bàn chân / chân (của động vật hoặc đồ vật) / đế, chân (của đồ vật) / lượng từ: 雙|双[shuang1], 隻|只[zhi1] / lượng từ cho cú đá",名,我走了一天，脚有点儿疼。,Tôi đi cả ngày nên chân hơi đau.,REAL,READY
+770,2,叫作,gọi / được gọi là,动,这种水果叫作火龙果。,Loại trái cây này được gọi là thanh long.,REAL,READY
+771,2,教师,giáo viên,名,我的妈妈是一名中学教师。,Mẹ tôi là một giáo viên trung học.,REAL,READY
+772,2,教室,phòng học,名,学生们正在教室里上课。,Các học sinh đang học trong lớp.,REAL,READY
+773,2,教学,giảng dạy; hướng dẫn,名,这位老师有十年的教学经验。,Giáo viên này có mười năm kinh nghiệm giảng dạy.,REAL,READY
+774,2,教育,giáo dục / dạy học,动、名,父母应该重视孩子的教育。,Cha mẹ nên coi trọng việc giáo dục con cái.,REAL,READY
+775,2,接,nhận / trả lời (điện thoại) / gặp hoặc chào đón ai / kết nối / bắt / ghép / mở rộng / tiếp nhận ca trực / tiếp quản cho ai,动,我下午去机场接朋友。,Buổi chiều tôi ra sân bay đón bạn.,REAL,READY
+776,2,接到,"nhận được (thư từ, v.v.)",,我刚刚接到妈妈的电话。,Tôi vừa nhận được điện thoại của mẹ.,REAL,READY
+777,2,接受,"chấp nhận (đề nghị, trừng phạt, hối lộ, v.v.); đồng ý",动,我很高兴接受你的邀请。,Tôi rất vui khi nhận lời mời của bạn.,REAL,READY
+778,2,接下来,chấp nhận / tiếp nhận / tiếp theo / theo sau,,接下来我们学习新的课文。,Tiếp theo chúng ta học bài khóa mới.,REAL,READY
+779,2,接着,bắt và giữ / tiếp tục / tiến hành làm gì đó / theo sau / tiếp nối / rồi / sau đó / tiếp theo / tiến hành / tiếp diễn / lần lượt / đến lượt,动、副,他喝了一口水，接着继续工作。,Anh ấy uống một ngụm nước rồi tiếp tục làm việc.,REAL,READY
+780,2,街,đường phố,名,这条街晚上非常热闹。,Con phố này buổi tối rất nhộn nhịp.,REAL,READY
+781,2,节,"khớp; đốt / (dạng kết hợp) phần; đoạn / tiết khí (một trong 24 phân đoạn của năm trong lịch truyền thống Trung Quốc) / lễ hội theo mùa / (dạng kết hợp) tiết kiệm / (dạng kết hợp) tiết tháo; trinh tiết / lượng từ cho các đoạn: bài học, toa tàu, câu kinh thánh, v.v. / hải lý (dặm biển mỗi giờ)",名、量,今天上午我们有四节课。,Sáng nay chúng tôi có bốn tiết học.,REAL,READY
+782,2,节目,chương trình / mục (trong chương trình),名,这个电视节目很有意思。,Chương trình truyền hình này rất thú vị.,REAL,READY
+783,2,节日,ngày lễ / lễ hội,名,春节是中国很重要的节日。,Tết Nguyên Đán là một ngày lễ rất quan trọng của Trung Quốc.,REAL,READY
+784,2,结果,kết quả / kết cục / kết luận / cuối cùng / do đó / giết / xử lý,名、连,我等了很久，结果他没有来。,"Tôi đã đợi rất lâu, cuối cùng anh ấy không đến.",REAL,READY
+785,2,借,"mượn / (dùng kết hợp với 給|给[gei3] hoặc 出[chu1],...) cho mượn / tận dụng; lợi dụng / (đôi khi theo sau bởi 著|着[zhe5]) bằng; với / biến thể của 借[jie4]",动,我可以借你的词典用一下吗？,Tôi có thể mượn từ điển của bạn dùng một chút không?,REAL,READY
+786,2,斤,"cân / (Trung Quốc) đơn vị đo lường bằng 500 g / (Đài Loan) đơn vị đo lường bằng 600 g / (HK, Malaysia, Singapore) hơi hơn 604 g",量,我买了两斤苹果。,Tôi đã mua hai cân táo.,REAL,READY
+787,2,今后,sau này / từ nay trở đi / trong tương lai / từ bây giờ,名,今后我要每天练习汉语。,Từ nay về sau tôi sẽ luyện tiếng Trung mỗi ngày.,REAL,READY
+788,2,进入,đi vào / gia nhập / đi vào trong,动,请不要进入这个房间。,Xin đừng đi vào căn phòng này.,REAL,READY
+789,2,进行,tiến hành / thực hiện / đang tiến hành / trong quá trình / làm / tiếp tục / thực thi,动,比赛正在进行，请大家安静。,"Trận đấu đang diễn ra, xin mọi người giữ yên lặng.",REAL,READY
+790,2,近,gần / sát / khoảng chừng,形,我家离学校很近。,Nhà tôi rất gần trường.,REAL,READY
+791,2,经常,thường xuyên; liên tục; đều đặn; thường / ngày thường; hằng ngày; mỗi ngày,副,我经常和朋友一起去图书馆。,Tôi thường xuyên đi thư viện cùng bạn.,REAL,READY
+792,2,经过,đi qua / trải qua / quá trình / tiến trình,动、名,每天上学我都要经过这个公园。,Mỗi ngày đi học tôi đều đi qua công viên này.,REAL,READY
+793,2,经理,"quản lý / giám đốc / Lượng từ: 個|个[ge4], 位[wei4], 名[ming2]",名,饭店经理正在和客人说话。,Quản lý nhà hàng đang nói chuyện với khách.,REAL,READY
+794,2,酒,rượu (đặc biệt là rượu gạo) / đồ uống có cồn / rượu bia / thức uống có cồn,名,他不喝酒，只喝茶。,"Anh ấy không uống rượu, chỉ uống trà.",REAL,READY
+795,2,酒店,quán rượu / quán bar / khách sạn / nhà hàng / (Đài Loan) hostess club,名,我们晚上住在机场附近的酒店。,Buổi tối chúng tôi ở khách sạn gần sân bay.,REAL,READY
+796,2,就要,sẽ / sắp / sắp sửa,副,电影就要开始了，我们进去吧。,"Bộ phim sắp bắt đầu rồi, chúng ta vào thôi.",REAL,READY
+797,2,举,biến thể của 舉|举[ju3] / nâng / giơ lên / dẫn chứng / liệt kê / hành động / giơ / chọn / bầu / cử động / việc làm,动,老师举了一个简单的例子。,Giáo viên đã nêu một ví dụ đơn giản.,REAL,READY
+798,2,举手,giơ tay / giơ tay lên (làm tín hiệu),动,知道答案的同学请举手。,Bạn nào biết đáp án thì hãy giơ tay.,REAL,READY
+799,2,举行,"tổ chức (cuộc họp, buổi lễ, v.v.)",动,学校明天要举行运动会。,Ngày mai trường sẽ tổ chức hội thao.,REAL,READY
+800,2,句,câu / mệnh đề / cụm từ / lượng từ cho cụm từ hoặc câu thơ,量,老师让我读第一句。,Giáo viên bảo tôi đọc câu đầu tiên.,REAL,READY
+801,2,句子,câu,名,这个句子我已经读懂了。,Tôi đã đọc hiểu câu này rồi.,REAL,READY
+802,2,卡,"dừng / chặn / (tin học) (khẩu ngữ) chậm / (từ mượn) thẻ / xe tải (từ ""car"") / calo (viết tắt của 卡路里[ka3 lu4 li3]) / băng cassette",名,这张卡是我的银行卡。,Tấm thẻ này là thẻ ngân hàng của tôi.,REAL,READY
+803,2,开机,khởi động máy / khởi động máy tính / nhấn Ctrl-Alt-Delete / bắt đầu quay phim hoặc chương trình TV,,电脑开机以后有点儿慢。,Máy tính sau khi khởi động hơi chậm.,REAL,READY
+804,2,开心,cảm thấy vui / vui mừng / có khoảng thời gian tuyệt vời / trêu chọc ai đó,形、动,今天见到老朋友，我很开心。,"Hôm nay gặp lại bạn cũ, tôi rất vui.",REAL,READY
+805,2,开学,(đối với học sinh) bắt đầu đi học / (đối với học kỳ) bắt đầu / (cũ) sáng lập trường / sự bắt đầu của học kỳ mới,,下星期学校就要开学了。,Tuần sau trường sẽ bắt đầu học kỳ mới.,REAL,READY
+806,2,看法,cách nhìn / quan điểm / ý kiến,名,我想听听你对这件事的看法。,Tôi muốn nghe quan điểm của bạn về việc này.,REAL,READY
+807,2,考生,thí sinh / học sinh được đề cử tham gia kỳ thi,名,考生必须按时进入考场。,Thí sinh phải vào phòng thi đúng giờ.,REAL,READY
+808,2,靠,dựa vào / đứng cạnh / đến gần / phụ thuộc vào / tin tưởng / chịch (thô tục) / loại kịch mặc trang phục giáp truyền thống (xưa),动,他累了，靠在椅子上休息。,Anh ấy mệt nên dựa vào ghế nghỉ ngơi.,REAL,READY
+809,2,科,"ngành học / phòng ban / học phần / lĩnh vực / ngành / hướng dẫn sân khấu / họ (phân loại) / quy tắc / pháp luật / phân xử (hình phạt) / truy thu (thuế, v.v.) / phạt ai đó",名,我今天上午要考两科。,Sáng nay tôi phải thi hai môn.,REAL,READY
+810,2,科学,khoa học / kiến thức khoa học / mang tính khoa học / hợp lý,名、形,我弟弟对科学很感兴趣。,Em trai tôi rất hứng thú với khoa học.,REAL,READY
+811,2,可爱,đáng yêu / dễ thương / đáng mến,形,这只小猫非常可爱。,Chú mèo con này rất đáng yêu.,REAL,READY
+812,2,可能,có thể (xảy ra) / có khả năng / có xác suất / khả năng / xác suất / có lẽ / có thể,动、形、名,今天下午可能会下雨。,Chiều nay có thể trời sẽ mưa.,REAL,READY
+813,2,可怕,kinh khủng / đáng sợ / đáng gờm / dữ dội / xấu xí / khủng khiếp / tồi tệ / rất tệ,形,晚上一个人走这条路有点儿可怕。,Buổi tối đi một mình trên con đường này hơi đáng sợ.,REAL,READY
+814,2,可是,nhưng; tuy nhiên / (dùng để nhấn mạnh) thật sự,连,我很想去，可是今天没有时间。,"Tôi rất muốn đi, nhưng hôm nay không có thời gian.",REAL,READY
+815,2,可以,có thể / được / khả thi / có khả năng / không tệ / khá tốt,动,这里可以坐下吗？,Ở đây có thể ngồi được không?,REAL,READY
+816,2,克,"có thể / chế ngự / kiềm chế / vượt qua / gram / đơn vị diện tích đất của Tây Tạng, khoảng 6 are / biến thể của 克[ke4] / lật đổ / biến thể của 剋|克[ke4]",量,这个苹果大约两百克。,Quả táo này nặng khoảng hai trăm gam.,REAL,READY
+817,2,刻,một phần tư (giờ) / khoảnh khắc / khắc / chạm khắc / cắt / áp bức / lượng từ cho khoảng thời gian ngắn,量,现在八点一刻，我们该出发了。,"Bây giờ là tám giờ mười lăm, chúng ta nên xuất phát rồi.",REAL,READY
+818,2,客人,khách thăm / khách hàng / khách,名,家里来了几位客人。,Nhà có vài vị khách đến.,REAL,READY
+819,2,课堂,lớp học,名,课堂上请认真听老师讲课。,Trong lớp hãy chú ý nghe giáo viên giảng bài.,REAL,READY
+820,2,空气,không khí / bầu không khí,名,早上的空气很新鲜。,Không khí buổi sáng rất trong lành.,REAL,READY
+821,2,哭,khóc; rơi lệ,动,小妹妹找不到妈妈，急得哭了。,Cô bé không tìm thấy mẹ nên lo đến phát khóc.,REAL,READY
+822,2,快餐,thức ăn nhanh / đồ ăn nhẹ / bữa ăn nhanh,名,中午没时间，我只吃了一份快餐。,Buổi trưa không có thời gian nên tôi chỉ ăn một suất đồ ăn nhanh.,REAL,READY
+823,2,快点儿,biến thể er hoá của 快點|快点[kuai4 dian3],,快点儿，我们马上要迟到了！,"Nhanh lên, chúng ta sắp muộn rồi!",REAL,READY
+824,2,快乐,vui vẻ; hạnh phúc,形,祝你生日快乐！,Chúc bạn sinh nhật vui vẻ!,REAL,READY
+825,2,快要,gần như sắp (làm gì đó); sắp (làm gì đó),副,火车快要开了，我们上车吧。,"Tàu sắp chạy rồi, chúng ta lên tàu thôi.",REAL,READY
+826,2,筷子,đũa,名,中国人吃饭常常用筷子。,Người Trung Quốc thường dùng đũa khi ăn cơm.,REAL,READY
+827,2,拉,kéo / chơi (nhạc cụ dùng vĩ kéo) / kéo lê / vẽ / trò chuyện / (khẩu ngữ) đi tiêu,动,请帮我把门拉开。,Hãy giúp tôi kéo cửa ra.,REAL,READY
+828,2,来自,đến từ (một nơi) / Từ: (trong tiêu đề email),动,我来自越南，现在在北京学习。,"Tôi đến từ Việt Nam, hiện đang học ở Bắc Kinh.",REAL,READY
+829,2,蓝,màu xanh / dị thảo chàm,形,今天的天空很蓝。,Bầu trời hôm nay rất xanh.,REAL,READY
+830,2,蓝色,màu xanh lam,名,他今天穿了一件蓝色的衣服。,Hôm nay anh ấy mặc một bộ quần áo màu xanh lam.,REAL,READY
+831,2,篮球,bóng rổ,名,我哥哥每个周末都打篮球。,Anh trai tôi chơi bóng rổ mỗi cuối tuần.,REAL,READY
+832,2,老（老王）,"tiền tố dùng trước họ của một người hoặc số thứ tự sinh của các con trong gia đình hoặc để chỉ sự thân mật hoặc quen thuộc / già (người) / người đáng kính / có kinh nghiệm / lâu năm / luôn luôn / lúc nào cũng / của quá khứ / rất / lỗi thời / (thịt,...) dai",前缀,老王每天骑自行车上班。,Ông Vương đi xe đạp đi làm mỗi ngày.,REAL,READY
+833,2,老年,cao tuổi / tuổi già / mùa thu của cuộc đời,名,我们应该关心老年人的健康。,Chúng ta nên quan tâm đến sức khỏe của người cao tuổi.,REAL,READY
+834,2,老朋友,bạn cũ / (tiếng lóng) kỳ kinh nguyệt / hành kinh,,昨天我见到了一位十年没见的老朋友。,Hôm qua tôi gặp một người bạn cũ đã mười năm không gặp.,REAL,READY
+835,2,老是,luôn luôn,副,他最近老是忘记带手机。,Gần đây anh ấy cứ hay quên mang điện thoại.,REAL,READY
+836,2,离,"rời khỏi / tách khỏi / cách / (khi nói về khoảng cách) từ / không có (gì) / độc lập với / một trong Bát Quái 八卦[ba1 gua4], tượng trưng cho lửa / ☲",动、介,学校离我家只有两公里。,Trường chỉ cách nhà tôi hai ki-lô-mét.,REAL,READY
+837,2,离开,rời khỏi; rời đi,,他明天就要离开北京了。,Ngày mai anh ấy sẽ rời Bắc Kinh.,REAL,READY
+838,2,礼物,quà; món quà,名,这是朋友送给我的生日礼物。,Đây là quà sinh nhật bạn tặng tôi.,REAL,READY
+839,2,里头,bên trong / nội bộ,名,我的钱包在书包里头。,Ví của tôi ở bên trong cặp sách.,REAL,READY
+840,2,理想,một lý tưởng / một giấc mơ / lý tưởng / hoàn hảo,名,我的理想是成为一名汉语老师。,Lý tưởng của tôi là trở thành một giáo viên tiếng Trung.,REAL,READY
+841,2,例如,ví dụ; chẳng hạn; như là,动,我喜欢很多运动，例如游泳和跑步。,"Tôi thích nhiều môn thể thao, ví dụ như bơi và chạy bộ.",REAL,READY
+842,2,例子,trường hợp / (ví dụ) / ví dụ,名,老师给我们举了一个简单的例子。,Giáo viên đã đưa ra cho chúng tôi một ví dụ đơn giản.,REAL,READY
+843,2,脸,khuôn mặt,名,她洗完脸就去上学了。,Cô ấy rửa mặt xong thì đi học.,REAL,READY
+844,2,练,luyện tập / huấn luyện / diễn tập / hoàn thiện (kỹ năng) / tập luyện / (văn học) lụa trắng / luộc và giũ lụa thô,动,我每天早上练汉语发音。,Mỗi sáng tôi luyện phát âm tiếng Trung.,REAL,READY
+845,2,练习,luyện tập / bài tập / rèn luyện / thực hành,动、名,我每天做汉语听力练习。,Mỗi ngày tôi làm bài luyện nghe tiếng Trung.,REAL,READY
+846,2,凉,mát / lạnh,形,晚上的风有点儿凉。,Gió buổi tối hơi lạnh.,REAL,READY
+847,2,凉快,mát mẻ / dễ chịu và mát,形,下雨以后天气凉快多了。,"Sau khi mưa, thời tiết mát mẻ hơn nhiều.",REAL,READY
+848,2,亮,"sáng; ánh / soi rọi; loé sáng / to rõ và rõ ràng / đưa ra (hộ chiếu, v.v.); công khai (quan điểm, v.v.)",形、动,房间里的灯很亮。,Đèn trong phòng rất sáng.,REAL,READY
+849,2,辆,lượng từ cho xe cộ,量,门口停着三辆汽车。,Trước cửa đang đỗ ba chiếc ô tô.,REAL,READY
+850,2,零下,dưới không,,今天晚上气温会到零下五度。,Tối nay nhiệt độ sẽ xuống âm năm độ.,REAL,READY
+851,2,留,"biến thể cũ của 留[liu2] / để lại (tin nhắn, v.v.) / giữ lại / ở lại / duy trì / bảo tồn / lưu giữ",动,请给我留一个座位。,Hãy giữ lại cho tôi một chỗ ngồi.,REAL,READY
+852,2,留下,để lại / ở lại / duy trì / giữ lại / không để cho (ai) đi,,他决定留下来再住两天。,Anh ấy quyết định ở lại thêm hai ngày.,REAL,READY
+853,2,留学生,du học sinh / sinh viên trao đổi (nước ngoài),名,学校里有很多外国留学生。,Trong trường có rất nhiều du học sinh nước ngoài.,REAL,READY
+854,2,流,"chảy / truyền bá / lưu thông hoặc lan truyền / di chuyển hoặc trôi dạt / sa sút / đày ải hoặc lưu đày / dòng nước hoặc thứ gì đó giống dòng nước / hạng, mức hoặc cấp",动,河里的水慢慢地流向南方。,Nước trong sông từ từ chảy về phía nam.,REAL,READY
+855,2,流利,lưu loát,形,她汉语说得很流利。,Cô ấy nói tiếng Trung rất lưu loát.,REAL,READY
+856,2,流行,"(về bệnh truyền nhiễm, v.v.) lan truyền / lây lan / (về phong cách quần áo, bài hát, v.v.) phổ biến / thịnh hành",动、形,这首歌最近很流行。,Bài hát này gần đây rất thịnh hành.,REAL,READY
+857,2,路边,lề đường; ven đường; vệ đường,,路边有一家小咖啡店。,Ven đường có một quán cà phê nhỏ.,REAL,READY
+858,2,旅客,du khách; khách du lịch,名,旅客们正在排队上车。,Các hành khách đang xếp hàng lên xe.,REAL,READY
+859,2,旅行,du lịch / hành trình; chuyến đi,动,我喜欢和朋友一起旅行。,Tôi thích đi du lịch cùng bạn bè.,REAL,READY
+860,2,旅游,chuyến đi / hành trình / du lịch / du hành / tour / đi du lịch,动,暑假我想去北京旅游。,Kỳ nghỉ hè tôi muốn đi du lịch Bắc Kinh.,REAL,READY
+861,2,绿,"màu xanh lá / (tiếng lóng) (xuất phát từ 綠帽子|绿帽子[lu:4 mao4 zi5]) cắm sừng (vợ, chồng, bạn trai hoặc bạn gái)",形,春天来了，树叶都变绿了。,"Mùa xuân đến rồi, lá cây đều chuyển xanh.",REAL,READY
+862,2,绿色,màu xanh lá,名,我最喜欢绿色的书包。,Tôi thích nhất chiếc cặp màu xanh lá.,REAL,READY
+863,2,卖,bán / phản bội / không tiếc công sức / phô trương hoặc khoe khoang,动,这家商店卖很多水果。,Cửa hàng này bán rất nhiều trái cây.,REAL,READY
+864,2,满,lấp đầy / đầy / đầy đủ / nhét kín / hoàn toàn / trọn vẹn / khá / đạt đến giới hạn / thỏa mãn / hài lòng / mãn nguyện,形,公交车上已经坐满了人。,Trên xe buýt đã đầy người.,REAL,READY
+865,2,满意,hài lòng / vui lòng / đúng như mong đợi,动,我对这次考试成绩很满意。,Tôi rất hài lòng với kết quả kỳ thi lần này.,REAL,READY
+866,2,猫,mèo ( / (phương ngữ) trốn / (từ mượn) (thông tục) modem,名,那只猫正在桌子下面睡觉。,Con mèo đó đang ngủ dưới bàn.,REAL,READY
+867,2,米,gạo / mét (đơn vị đo),量,我家离学校有两千米。,Nhà tôi cách trường hai nghìn mét.,REAL,READY
+868,2,面1,"mặt / bên / bề mặt / khía cạnh / Lượng từ cho vật có bề mặt phẳng như trống, gương, cờ, v.v. / biến thể của 麵|面[mian4] / bột / mì / (thức ăn) mềm (không giòn) / (tiếng lóng) (người) kém cỏi / nhu nhược",名、量,墙上有一面镜子。,Trên tường có một chiếc gương.,REAL,READY
+869,2,面2,"mặt / bên / bề mặt / khía cạnh / Lượng từ cho vật có bề mặt phẳng như trống, gương, cờ, v.v. / biến thể của 麵|面[mian4] / bột / mì / (thức ăn) mềm (không giòn) / (tiếng lóng) (người) kém cỏi / nhu nhược",名,我中午吃了一碗牛肉面。,Buổi trưa tôi đã ăn một bát mì bò.,REAL,READY
+870,2,面前,trước mặt / đối diện / (trong) sự hiện diện (của),名,老师站在我们面前讲话。,Giáo viên đứng trước mặt chúng tôi nói chuyện.,REAL,READY
+871,2,名,tên / danh từ (loại từ) / vị trí (vd: trong danh sách trúng giải) / nổi tiếng / lượng từ cho người,名、量,我们班有二十名学生。,Lớp chúng tôi có hai mươi học sinh.,REAL,READY
+872,2,名称,tên (của một sự vật) / tên (của một tổ chức),名,请在这里写上学校的名称。,Hãy viết tên của trường vào đây.,REAL,READY
+873,2,名单,danh sách tên,名,老师把学生名单放在桌子上。,Giáo viên đặt danh sách học sinh lên bàn.,REAL,READY
+874,2,明星,ngôi sao; người nổi tiếng,名,她最喜欢的明星是一位歌手。,Ngôi sao cô ấy thích nhất là một ca sĩ.,REAL,READY
+875,2,目的,mục đích; đích; mục tiêu; đối tượng,名,我这次来北京的目的是学习汉语。,Mục đích lần này tôi đến Bắc Kinh là học tiếng Trung.,REAL,READY
+876,2,拿出,lấy ra / đưa ra / cung cấp / đề xuất (một đề án) / nghĩ ra (bằng chứng),,请拿出你的学生证。,Hãy lấy thẻ học sinh của bạn ra.,REAL,READY
+877,2,拿到,lấy được / đạt được,,我终于拿到考试成绩了。,Cuối cùng tôi đã nhận được kết quả thi.,REAL,READY
+878,2,那会儿,vào lúc đó (trong quá khứ hoặc tương lai) / cũng đọc là [nei4 hui4 r5],代,我那会儿还在上小学。,Lúc đó tôi vẫn còn học tiểu học.,REAL,READY
+879,2,那么,như vậy / theo cách đó / hoặc là / quá / rất nhiều / khoảng / nếu vậy,代,外面那么冷，你多穿一点儿吧。,"Bên ngoài lạnh như vậy, bạn mặc thêm một chút đi.",REAL,READY
+880,2,那时候,lúc đó / vào thời điểm đó / những ngày đó,,那时候我每天骑自行车上学。,Lúc đó tôi đi xe đạp đến trường mỗi ngày.,REAL,READY
+881,2,那样,loại đó / kiểu đó,代,请不要那样说话。,Xin đừng nói chuyện như vậy.,REAL,READY
+882,2,南方,phía nam / miền nam Trung Quốc (khu vực phía nam sông Dương Tử),名,冬天南方比北方暖和一些。,Mùa đông miền Nam ấm hơn miền Bắc một chút.,REAL,READY
+883,2,难过,cảm thấy buồn / cảm thấy không khỏe / (cuộc sống) cảm thấy khó khăn,形,听到这个消息以后，她很难过。,"Sau khi nghe tin này, cô ấy rất buồn.",REAL,READY
+884,2,难看,xấu / xấu xí,形,这件衣服的颜色有点儿难看。,Màu của bộ quần áo này hơi xấu.,REAL,READY
+885,2,难受,cảm thấy không khỏe / chịu đau khổ / khó chịu đựng,形,我今天感冒了，身体很难受。,Hôm nay tôi bị cảm nên cơ thể rất khó chịu.,REAL,READY
+886,2,难题,vấn đề khó,名,这道数学题对我来说是个难题。,Bài toán này đối với tôi là một bài khó.,REAL,READY
+887,2,难听,khó nghe / thô tục / tục tĩu / phản cảm / đáng xấu hổ,形,这个声音太难听了。,Âm thanh này khó nghe quá.,REAL,READY
+888,2,能够,có khả năng / có thể,动,我希望明年能够去中国学习。,Tôi hy vọng năm sau có thể đến Trung Quốc học.,REAL,READY
+889,2,年级,"lớp / năm (trong trường học, đại học, v.v.)",名,我妹妹今年上五年级。,Em gái tôi năm nay học lớp năm.,REAL,READY
+890,2,年轻,trẻ,形,王老师很年轻。,Thầy Vương rất trẻ.,REAL,READY
+891,2,鸟,"chim / Lượng từ: 隻|只[zhi1],群[qun2] / bộ ""chim"" trong chữ Hán (bộ Khang Hy số 196) / (tiếng địa phương) để ý đến / (nhấn mạnh) chết tiệt / chết tiệt",名,树上有两只小鸟。,Trên cây có hai con chim nhỏ.,REAL,READY
+892,2,弄,làm / quản lý / xử lý / chơi với / nghịch với / đùa với / sửa / chạm vào / biến thể cũ của 弄[nong4],动,别弄坏我的电脑。,Đừng làm hỏng máy tính của tôi.,REAL,READY
+893,2,努力,nỗ lực; cố gắng; phấn đấu / chăm chỉ; tận tụy,形,我要努力学习中文。,Tôi phải cố gắng học tiếng Trung.,REAL,READY
+894,2,爬,bò / leo / ngồi dậy hoặc đứng dậy,动,小孩子正在地上爬。,Đứa trẻ đang bò trên mặt đất.,REAL,READY
+895,2,爬山,leo núi / đi bộ đường dài / môn leo núi,,周末我们一起去爬山吧。,Cuối tuần chúng ta cùng đi leo núi nhé.,REAL,READY
+896,2,怕,sợ / e ngại / khiếp sợ / không thể chịu đựng / có lẽ,动,我妹妹很怕狗。,Em gái tôi rất sợ chó.,REAL,READY
+897,2,排,"một hàng / một dòng / sắp xếp / theo thứ tự / xếp hàng / loại bỏ / thoát nước / đẩy ra / tiểu đội / bè / lượng từ cho hàng, dòng, v.v.",名、量,教室里有三排桌子。,Trong lớp học có ba hàng bàn.,REAL,READY
+898,2,排队,xếp hàng,,买票的人正在门口排队。,Những người mua vé đang xếp hàng ở cửa.,REAL,READY
+899,2,排球,bóng chuyền,名,下午我们去打排球。,Buổi chiều chúng tôi đi chơi bóng chuyền.,REAL,READY
+900,2,碰,biến thể của 碰[peng4] / chạm / gặp / va phải / biến thể cũ của 碰[peng4],动,小心，别碰桌子上的杯子。,"Cẩn thận, đừng chạm vào chiếc cốc trên bàn.",REAL,READY
+901,2,碰到,tình cờ gặp / phải đối mặt / gặp / phải,,我昨天在超市碰到了一位老朋友。,Hôm qua tôi tình cờ gặp một người bạn cũ ở siêu thị.,REAL,READY
+902,2,碰见,tình cờ gặp / gặp (bất ngờ) / chạm mặt,,我刚才在楼下碰见王老师。,Vừa nãy tôi tình cờ gặp thầy Vương ở dưới tầng.,REAL,READY
+903,2,篇,"tờ / mảnh viết / tập thẻ tre dùng để ghi chép (xưa) / lượng từ cho tác phẩm viết: chương, bài viết",量,老师让我们写一篇短文。,Giáo viên yêu cầu chúng tôi viết một bài văn ngắn.,REAL,READY
+904,2,便宜,rẻ; không đắt / lợi ích nhỏ / cho qua một cách nhẹ nhàng,形、名,这件衣服又好看又便宜。,Bộ quần áo này vừa đẹp vừa rẻ.,REAL,READY
+905,2,片,"mảnh mỏng / bông / một lát / phim / phim truyền hình / thái / lát mỏng / một phần / không hoàn chỉnh / phiến diện / lượng từ cho lát, viên, mảnh đất, vùng nước / lượng từ cho CD, phim, DVD, v.v. / dùng với số từ 一[yi1]: lượng từ cho kịch bản, cảnh, cảm giác, bầu không khí, âm thanh, v.v. / bộ Khang Hy số 91",量,我想吃一片面包。,Tôi muốn ăn một lát bánh mì.,REAL,READY
+906,2,漂亮,xinh đẹp; đẹp,形,这个公园春天很漂亮。,Công viên này vào mùa xuân rất đẹp.,REAL,READY
+907,2,平,phẳng / bằng / ngang / hòa (điểm số) / kết quả hòa / điềm tĩnh / yên bình / viết tắt của 平聲|平声[ping2 sheng1],形,这条路很平。,Con đường này rất bằng phẳng.,REAL,READY
+908,2,平安,bình an / khỏe mạnh / không có chuyện gì / yên tĩnh và an toàn / an bình,形,祝你一路平安。,Chúc bạn thượng lộ bình an.,REAL,READY
+909,2,平常,bình thường / phổ biến / thường thường / thông thường,名、形,我平常七点起床。,Bình thường tôi thức dậy lúc bảy giờ.,REAL,READY
+910,2,平等,bình đẳng / sự bình đẳng,形,在我们班，大家都是平等的。,"Trong lớp chúng tôi, mọi người đều bình đẳng.",REAL,READY
+911,2,平时,thường lệ / trong thời gian bình thường / trong thời bình,名,我平时喜欢在家看书。,Bình thường tôi thích đọc sách ở nhà.,REAL,READY
+912,2,瓶,chai / bình / ấm / lượng từ cho rượu và chất lỏng / biến thể của 瓶[ping2],名、量,请给我一瓶水。,Hãy cho tôi một chai nước.,REAL,READY
+913,2,瓶子,chai,名,桌子上有一个空瓶子。,Trên bàn có một chiếc chai rỗng.,REAL,READY
+914,2,普通,phổ thông / bình thường / chung / chung bình,形,这只是一家普通的小商店。,Đây chỉ là một cửa hàng nhỏ bình thường.,REAL,READY
+915,2,普通话,Quan Thoại (ngôn ngữ phổ thông) / Phổ thông thoại (lời nói chung của tiếng Trung Quốc) / lời nói thông thường,名,她的普通话说得很好。,Cô ấy nói tiếng Phổ thông rất tốt.,REAL,READY
+916,2,其他,khác / (điều gì đó hoặc ai đó) khác / phần còn lại,代,这个问题我懂，其他问题还不懂。,"Vấn đề này tôi hiểu, những vấn đề khác thì vẫn chưa hiểu.",REAL,READY
+917,2,其中,trong số / trong / bao gồm trong số này,名,我买了三本书，其中一本是汉语书。,"Tôi mua ba quyển sách, trong đó một quyển là sách tiếng Trung.",REAL,READY
+918,2,骑,"ngồi cưỡi / cưỡi (ngựa, xe đạp, v.v.) / lượng từ cho ngựa cưỡi",动,他每天骑自行车去上班。,Anh ấy đi xe đạp đi làm mỗi ngày.,REAL,READY
+919,2,骑车,lái xe đạp hoặc xe máy,,下雨天骑车要小心。,Ngày mưa đi xe đạp phải cẩn thận.,REAL,READY
+920,2,起飞,(của máy bay) cất cánh,动,飞机十分钟以后起飞。,Máy bay sẽ cất cánh sau mười phút.,REAL,READY
+921,2,气,khí; không khí / mùi / thời tiết / làm tức giận; gây bực mình; tức giận / năng lượng sống; khí,动、名,这个气球里没有气了。,Quả bóng này hết hơi rồi.,REAL,READY
+922,2,气温,nhiệt độ không khí,名,今天的气温是二十五度。,Nhiệt độ hôm nay là hai mươi lăm độ.,REAL,READY
+923,2,千,một nghìn / xem 鞦韆|秋千[qiu1 qian1],数,这台电脑三千块钱。,Chiếc máy tính này giá ba nghìn tệ.,REAL,READY
+924,2,千克,kilogram,量,这个西瓜有五千克。,Quả dưa hấu này nặng năm ki-lô-gam.,REAL,READY
+925,2,前年,năm kia,名,前年我第一次去了上海。,Năm kia tôi lần đầu tiên đến Thượng Hải.,REAL,READY
+926,2,墙,"biến thể của 牆|墙[qiang2], tường / tường ( / (tiếng lóng) chặn (trang web) (thường ở dạng bị động: 被牆|被墙[bei4 qiang2])",名,墙上挂着一张全家照片。,Trên tường treo một bức ảnh gia đình.,REAL,READY
+927,2,青年,thanh niên / tuổi trẻ / người trẻ / giới trẻ,名,很多青年喜欢来这里运动。,Nhiều thanh niên thích đến đây tập thể thao.,REAL,READY
+928,2,青少年,thanh thiếu niên / tuổi trẻ / thanh niên,名,这个活动很适合青少年参加。,Hoạt động này rất phù hợp cho thanh thiếu niên tham gia.,REAL,READY
+929,2,轻,nhẹ / dễ / dịu dàng / mềm mại / khinh suất / không quan trọng / hời hợt / ít số lượng / không nhấn mạnh / trung lập / coi thường,形,这个箱子很轻，我一个人能拿。,"Chiếc vali này rất nhẹ, một mình tôi có thể cầm được.",REAL,READY
+930,2,清楚,rõ ràng / minh bạch / hiểu rõ / nắm rõ,形,老师讲得很清楚。,Giáo viên giảng rất rõ ràng.,REAL,READY
+931,2,晴,trời quang / rõ ràng (thời tiết),形,雨停了，天晴了。,"Mưa đã tạnh, trời đã quang.",REAL,READY
+932,2,晴天,trời quang / ngày nắng,名,晴天的时候我们常去公园。,Khi trời nắng chúng tôi thường đi công viên.,REAL,READY
+933,2,请客,mời tiệc / chiêu đãi khách / mời ăn tối,,今天我生日，我请客。,"Hôm nay là sinh nhật tôi, tôi mời mọi người.",REAL,READY
+934,2,请求,yêu cầu; hỏi / một yêu cầu (,动、名,老师接受了我的请求。,Giáo viên đã chấp nhận yêu cầu của tôi.,REAL,READY
+935,2,秋天,mùa thu,名,我最喜欢北京的秋天。,Tôi thích nhất mùa thu ở Bắc Kinh.,REAL,READY
+936,2,求,tìm kiếm / tìm / thỉnh cầu / yêu cầu / cầu xin,动,他来求我帮他一次。,Anh ấy đến cầu xin tôi giúp anh ấy một lần.,REAL,READY
+937,2,球场,sân vận động / sân thể thao / sân bóng / sân cỏ / sân / chỗ chơi golf,名,学生们正在球场上踢足球。,Các học sinh đang đá bóng trên sân.,REAL,READY
+938,2,球队,"đội thể thao (bóng rổ, bóng đá, bóng bầu dục, v.v.)",名,我哥哥参加了学校的球队。,Anh trai tôi đã tham gia đội bóng của trường.,REAL,READY
+939,2,球鞋,giày thể thao,名,我买了一双新的球鞋。,Tôi đã mua một đôi giày thể thao mới.,REAL,READY
+940,2,取,lấy / nhận / chọn / mang về,动,我下午去银行取钱。,Buổi chiều tôi đến ngân hàng rút tiền.,REAL,READY
+941,2,取得,giành được; lấy được; đạt được,动,她在比赛中取得了好成绩。,Cô ấy đã đạt được thành tích tốt trong cuộc thi.,REAL,READY
+942,2,全,tất cả / toàn bộ / toàn thể / mọi / hoàn toàn,副、形,我们班的学生全来了。,Học sinh lớp chúng tôi đều đến hết rồi.,REAL,READY
+943,2,全部,toàn bộ; tất cả,名,今天的作业我已经全部做完了。,Bài tập hôm nay tôi đã làm xong toàn bộ rồi.,REAL,READY
+944,2,全国,cả nước / toàn quốc / toàn quốc gia,名,请用“全国”造一个句子。,"Hãy dùng từ ""全国"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+945,2,全家,cả gia đình,名,我把“全家”写在了本子上。,"Tôi đã viết từ ""全家"" vào vở.",TEMPLATE,NEED_REVIEW
+946,2,全年,cả năm / suốt cả năm,名,我在课本里看到了“全年”这个词。,"Tôi đã nhìn thấy từ ""全年"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+947,2,全身,toàn bộ cơ thể / (ngành in) em,名,老师正在解释“全身”这个词。,"Giáo viên đang giải thích từ ""全身"".",TEMPLATE,NEED_REVIEW
+948,2,全体,tất cả / toàn bộ,名,请大家一起读“全体”这个词。,"Mọi người hãy cùng đọc từ ""全体"".",TEMPLATE,NEED_REVIEW
+949,2,然后,sau đó; sau này,连,这个单元我们要学习“然后”。,"Trong bài này chúng tôi sẽ học từ ""然后"".",TEMPLATE,NEED_REVIEW
+950,2,让,"nhường / cho phép / để ai đó làm gì / bảo ai đó làm gì / khiến ai đó (cảm thấy buồn, v.v.) / bởi (chỉ tác nhân trong câu bị động, như 被[bei4])",动、介,今天老师教我们“让”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""让"".",TEMPLATE,NEED_REVIEW
+951,2,热情,nồng nhiệt / nhiệt tình / đam mê / một cách đam mê,名、形,今天我们学习了“热情”这个词。,"Hôm nay chúng tôi đã học từ ""热情"".",TEMPLATE,NEED_REVIEW
+952,2,人口,dân số / con người,名,我已经学会了“人口”这个词。,"Tôi đã học được từ ""人口"".",TEMPLATE,NEED_REVIEW
+953,2,人们,mọi người,名,老师让我们读一读“人们”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""人们"".",TEMPLATE,NEED_REVIEW
+954,2,人数,số lượng người,名,请用“人数”造一个句子。,"Hãy dùng từ ""人数"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+955,2,认为,tin; nghĩ; xem xét; cảm thấy,动,我把“认为”写在了本子上。,"Tôi đã viết từ ""认为"" vào vở.",TEMPLATE,NEED_REVIEW
+956,2,日报,báo hàng ngày,名,我在课本里看到了“日报”这个词。,"Tôi đã nhìn thấy từ ""日报"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+957,2,日子,ngày / một ngày (trong lịch) / những ngày trong cuộc sống,名,老师正在解释“日子”这个词。,"Giáo viên đang giải thích từ ""日子"".",TEMPLATE,NEED_REVIEW
+958,2,如果,nếu / trong trường hợp / nếu như,连,请大家一起读“如果”这个词。,"Mọi người hãy cùng đọc từ ""如果"".",TEMPLATE,NEED_REVIEW
+959,2,入口,lối vào / nhập khẩu,名,这个单元我们要学习“入口”。,"Trong bài này chúng tôi sẽ học từ ""入口"".",TEMPLATE,NEED_REVIEW
+960,2,商量,trao đổi / bàn bạc / thảo luận,动,今天老师教我们“商量”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""商量"".",TEMPLATE,NEED_REVIEW
+961,2,商人,thương nhân / doanh nhân,名,今天我们学习了“商人”这个词。,"Hôm nay chúng tôi đã học từ ""商人"".",TEMPLATE,NEED_REVIEW
+962,2,上周,tuần trước,,我已经学会了“上周”这个词。,"Tôi đã học được từ ""上周"".",TEMPLATE,NEED_REVIEW
+963,2,少数,số lượng nhỏ / ít / thiểu số,名,老师让我们读一读“少数”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""少数"".",TEMPLATE,NEED_REVIEW
+964,2,少年,tuổi thiếu niên / người trẻ / (văn học) thiếu niên; chàng trai,名,请用“少年”造一个句子。,"Hãy dùng từ ""少年"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+965,2,身边,bên cạnh / có sẵn,名,我把“身边”写在了本子上。,"Tôi đã viết từ ""身边"" vào vở.",TEMPLATE,NEED_REVIEW
+966,2,什么样,loại gì?; dạng gì?,代,我在课本里看到了“什么样”这个词。,"Tôi đã nhìn thấy từ ""什么样"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+967,2,生,được sinh / sinh ra / cuộc sống / phát triển / sống / chưa chín / học sinh,动,老师正在解释“生”这个词。,"Giáo viên đang giải thích từ ""生"".",TEMPLATE,NEED_REVIEW
+968,2,生词,từ mới (trong sách giáo khoa) / từ không quen hoặc chưa học,名,请大家一起读“生词”这个词。,"Mọi người hãy cùng đọc từ ""生词"".",TEMPLATE,NEED_REVIEW
+969,2,生活,sống / cuộc sống / sinh kế,名、动,这个单元我们要学习“生活”。,"Trong bài này chúng tôi sẽ học từ ""生活"".",TEMPLATE,NEED_REVIEW
+970,2,声音,giọng / âm thanh,名,今天老师教我们“声音”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""声音"".",TEMPLATE,NEED_REVIEW
+971,2,省,tiết kiệm; kinh tế; tằn tiện / lược bỏ; xoá; bỏ ra / tỉnh / tỉnh lỵ / một bộ (của chính phủ Nhật Bản),名,今天我们学习了“省”这个词。,"Hôm nay chúng tôi đã học từ ""省"".",TEMPLATE,NEED_REVIEW
+972,2,省,tiết kiệm; kinh tế; tằn tiện / lược bỏ; xoá; bỏ ra / tỉnh / tỉnh lỵ / một bộ (của chính phủ Nhật Bản),动,我已经学会了“省”这个词。,"Tôi đã học được từ ""省"".",TEMPLATE,NEED_REVIEW
+973,2,十分,rất / hoàn toàn / cực kỳ / vô cùng / tuyệt đối / một trăm phần trăm / chia thành mười phần bằng nhau,副,老师让我们读一读“十分”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""十分"".",TEMPLATE,NEED_REVIEW
+974,2,实际,thực tế / thực hành / thực tiễn / thực / sự thật,名、形,请用“实际”造一个句子。,"Hãy dùng từ ""实际"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+975,2,实习,thực hành / thực tập / sự thực tập,动、名,我把“实习”写在了本子上。,"Tôi đã viết từ ""实习"" vào vở.",TEMPLATE,NEED_REVIEW
+976,2,实现,đạt được; thực hiện; nhận ra; làm cho xảy ra,动,我在课本里看到了“实现”这个词。,"Tôi đã nhìn thấy từ ""实现"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+977,2,实在,thực sự / thật sự / quả thật / đúng / thành thật / đáng tin cậy / (triết học) hiện thực,副,老师正在解释“实在”这个词。,"Giáo viên đang giải thích từ ""实在"".",TEMPLATE,NEED_REVIEW
+978,2,实在,thực sự / thật sự / quả thật / đúng / thành thật / đáng tin cậy / (triết học) hiện thực,形,请大家一起读“实在”这个词。,"Mọi người hãy cùng đọc từ ""实在"".",TEMPLATE,NEED_REVIEW
+979,2,食物,thực phẩm,名,这个单元我们要学习“食物”。,"Trong bài này chúng tôi sẽ học từ ""食物"".",TEMPLATE,NEED_REVIEW
+980,2,使用,sử dụng / tận dụng / áp dụng,动,今天老师教我们“使用”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""使用"".",TEMPLATE,NEED_REVIEW
+981,2,市,chợ / thành phố,名,今天我们学习了“市”这个词。,"Hôm nay chúng tôi đã học từ ""市"".",TEMPLATE,NEED_REVIEW
+982,2,市长,thị trưởng,名,我已经学会了“市长”这个词。,"Tôi đã học được từ ""市长"".",TEMPLATE,NEED_REVIEW
+983,2,事情,sự việc; vấn đề; điều; công việc,名,老师让我们读一读“事情”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""事情"".",TEMPLATE,NEED_REVIEW
+984,2,收,nhận / chấp nhận / sưu tầm / cất đi / kiềm chế / dừng / chăm sóc (dùng sau tên trên dòng địa chỉ),动,请用“收”造一个句子。,"Hãy dùng từ ""收"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+985,2,收到,nhận được,,我把“收到”写在了本子上。,"Tôi đã viết từ ""收到"" vào vở.",TEMPLATE,NEED_REVIEW
+986,2,收入,thu vào / thu nhập / doanh thu,动、名,我在课本里看到了“收入”这个词。,"Tôi đã nhìn thấy từ ""收入"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+987,2,手表,đồng hồ đeo tay,名,老师正在解释“手表”这个词。,"Giáo viên đang giải thích từ ""手表"".",TEMPLATE,NEED_REVIEW
+988,2,受到,"nhận được (lời khen ngợi, sự giáo dục, hình phạt, v.v.) / bị (khen ngợi, giáo dục, trừng phạt, v.v.)",,请大家一起读“受到”这个词。,"Mọi người hãy cùng đọc từ ""受到"".",TEMPLATE,NEED_REVIEW
+989,2,舒服,thoải mái / cảm thấy khỏe,形,这个单元我们要学习“舒服”。,"Trong bài này chúng tôi sẽ học từ ""舒服"".",TEMPLATE,NEED_REVIEW
+990,2,熟,"chín; trưởng thành / nấu chín; xong / quen thuộc; quen biết / có kinh nghiệm; thành thạo / (về giấc ngủ, v.v.) sâu; sâu sắc / cũng phát âm là [shou2]",形,今天老师教我们“熟”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""熟"".",TEMPLATE,NEED_REVIEW
+991,2,数,đếm / coi như; xem như / liệt kê; liệt kê danh sách,动,今天我们学习了“数”这个词。,"Hôm nay chúng tôi đã học từ ""数"".",TEMPLATE,NEED_REVIEW
+992,2,数字,"chữ số / số / hình / số lượng / kỹ thuật số (điện tử, v.v.)",名,我已经学会了“数字”这个词。,"Tôi đã học được từ ""数字"".",TEMPLATE,NEED_REVIEW
+993,2,水平,"mức độ (thành tựu, v.v.) / tiêu chuẩn / ngang",名,老师让我们读一读“水平”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""水平"".",TEMPLATE,NEED_REVIEW
+994,2,顺利,một cách suôn sẻ; không gặp trở ngại,形,请用“顺利”造一个句子。,"Hãy dùng từ ""顺利"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+995,2,说明,giải thích / minh họa / chỉ ra / cho thấy / chứng minh / hướng dẫn / chú thích,动、名,我把“说明”写在了本子上。,"Tôi đã viết từ ""说明"" vào vở.",TEMPLATE,NEED_REVIEW
+996,2,司机,tài xế; người lái xe,名,我在课本里看到了“司机”这个词。,"Tôi đã nhìn thấy từ ""司机"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+997,2,送到,đưa đến; giao đến; chuyển đến,,老师正在解释“送到”这个词。,"Giáo viên đang giải thích từ ""送到"".",TEMPLATE,NEED_REVIEW
+998,2,送给,gửi / tặng quà,,请大家一起读“送给”这个词。,"Mọi người hãy cùng đọc từ ""送给"".",TEMPLATE,NEED_REVIEW
+999,2,算,coi như / tính toán / tính / toán,动,这个单元我们要学习“算”。,"Trong bài này chúng tôi sẽ học từ ""算"".",TEMPLATE,NEED_REVIEW
+1000,2,虽然,"mặc dù; cho dù (thường dùng kết hợp với 可是[ke3 shi4] hoặc 但是[dan4 shi4],...)",连,今天老师教我们“虽然”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""虽然"".",TEMPLATE,NEED_REVIEW
+1001,2,随便,tuỳ ý / tùy thích / ngẫu nhiên / cẩu thả / tự nhiên / tùy tiện,形,今天我们学习了“随便”这个词。,"Hôm nay chúng tôi đã học từ ""随便"".",TEMPLATE,NEED_REVIEW
+1002,2,随时,bất kỳ lúc nào; mọi lúc / đúng lúc; khi cần thiết,副,我已经学会了“随时”这个词。,"Tôi đã học được từ ""随时"".",TEMPLATE,NEED_REVIEW
+1003,2,所以,vì vậy / do đó / nên / lý do tại sao,连,老师让我们读一读“所以”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""所以"".",TEMPLATE,NEED_REVIEW
+1004,2,所有,tất cả / có; sở hữu,形,请用“所有”造一个句子。,"Hãy dùng từ ""所有"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1005,2,它,nó,代,我把“它”写在了本子上。,"Tôi đã viết từ ""它"" vào vở.",TEMPLATE,NEED_REVIEW
+1006,2,它们,chúng; chúng nó,代,我在课本里看到了“它们”这个词。,"Tôi đã nhìn thấy từ ""它们"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1007,2,太太,phụ nữ đã kết hôn / Bà / Phu nhân / vợ,名,老师正在解释“太太”这个词。,"Giáo viên đang giải thích từ ""太太"".",TEMPLATE,NEED_REVIEW
+1008,2,太阳,mặt trời / viết tắt của 太陽穴|太阳穴[tai4 yang2 xue2],名,请大家一起读“太阳”这个词。,"Mọi người hãy cùng đọc từ ""太阳"".",TEMPLATE,NEED_REVIEW
+1009,2,态度,cách thức / tác phong / thái độ / phương pháp,名,这个单元我们要学习“态度”。,"Trong bài này chúng tôi sẽ học từ ""态度"".",TEMPLATE,NEED_REVIEW
+1010,2,讨论,thảo luận; bàn luận,动,今天老师教我们“讨论”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""讨论"".",TEMPLATE,NEED_REVIEW
+1011,2,套,"che đậy / bọc / vỏ / bao / trùng lặp / đan xen / mô phỏng / theo mẫu / công thức / bộ dây cương / vòng dây / thao tác khéo léo / đạt được một cách lươn lẹo / lượng từ cho bộ, tập hợp / khúc quanh (của sông hoặc dãy núi, trong địa danh) / tau (chữ cái Hy Lạp Ττ)",量,今天我们学习了“套”这个词。,"Hôm nay chúng tôi đã học từ ""套"".",TEMPLATE,NEED_REVIEW
+1012,2,特别,khác thường; đặc biệt / rất; đặc biệt; đặc biệt là / đặc biệt; cho một mục đích cụ thể / (thường theo sau bởi 是[shi4]) đặc biệt là,形、副,我已经学会了“特别”这个词。,"Tôi đã học được từ ""特别"".",TEMPLATE,NEED_REVIEW
+1013,2,特点,đặc điểm (nét đặc trưng) / phẩm chất / đặc tính,名,老师让我们读一读“特点”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""特点"".",TEMPLATE,NEED_REVIEW
+1014,2,疼,(bị) đau; nhức / yêu thương hết mực,动,请用“疼”造一个句子。,"Hãy dùng từ ""疼"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1015,2,提,xách (thòng xuống từ tay) / nâng / đề xuất / nhắc đến / nêu lên (vấn đề) / nét bút hướng lên / nét nâng bút (trong hội họa) / gàu múc chất lỏng,动,我把“提”写在了本子上。,"Tôi đã viết từ ""提"" vào vở.",TEMPLATE,NEED_REVIEW
+1016,2,提出,nêu (vấn đề) / đề xuất / đưa ra / đề nghị / đăng (trên trang web) / rút (tiền mặt),,我在课本里看到了“提出”这个词。,"Tôi đã nhìn thấy từ ""提出"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1017,2,提到,đề cập / nêu (một chủ đề) / nhắc đến,,老师正在解释“提到”这个词。,"Giáo viên đang giải thích từ ""提到"".",TEMPLATE,NEED_REVIEW
+1018,2,提高,nâng cao / tăng / cải thiện,,请大家一起读“提高”这个词。,"Mọi người hãy cùng đọc từ ""提高"".",TEMPLATE,NEED_REVIEW
+1019,2,题,chủ đề / vấn đề thảo luận / câu hỏi thi / môn học / đề lên / nhắc đến,名,这个单元我们要学习“题”。,"Trong bài này chúng tôi sẽ học từ ""题"".",TEMPLATE,NEED_REVIEW
+1020,2,体育,thể thao / giáo dục thể chất,名,今天老师教我们“体育”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""体育"".",TEMPLATE,NEED_REVIEW
+1021,2,体育场,sân vận động,名,今天我们学习了“体育场”这个词。,"Hôm nay chúng tôi đã học từ ""体育场"".",TEMPLATE,NEED_REVIEW
+1022,2,体育馆,phòng gym / nhà thi đấu / sân vận động,名,我已经学会了“体育馆”这个词。,"Tôi đã học được từ ""体育馆"".",TEMPLATE,NEED_REVIEW
+1023,2,天上,thuộc về trời / thần thánh,名,老师让我们读一读“天上”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""天上"".",TEMPLATE,NEED_REVIEW
+1024,2,条,"dải / mục / điều / khoản (của luật hoặc hiệp ước) / lượng từ cho những vật dài mỏng (ruy băng, sông, đường, quần dài, v.v.)",量,请用“条”造一个句子。,"Hãy dùng từ ""条"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1025,2,条件,điều kiện; hoàn cảnh; điều khoản; yếu tố / yêu cầu; điều kiện tiên quyết; tiêu chuẩn / tình huống; trạng thái; điều kiện / lượng từ: 個|个[ge4],名,我把“条件”写在了本子上。,"Tôi đã viết từ ""条件"" vào vở.",TEMPLATE,NEED_REVIEW
+1026,2,听讲,tham dự buổi nói chuyện / nghe bài giảng,,我在课本里看到了“听讲”这个词。,"Tôi đã nhìn thấy từ ""听讲"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1027,2,听说,nghe (nói) / nghe rằng / nghe đồn / nghe và nói,动,老师正在解释“听说”这个词。,"Giáo viên đang giải thích từ ""听说"".",TEMPLATE,NEED_REVIEW
+1028,2,停,dừng / ngừng / đỗ (xe),动,请大家一起读“停”这个词。,"Mọi người hãy cùng đọc từ ""停"".",TEMPLATE,NEED_REVIEW
+1029,2,停车,dừng xe (dừng phương tiện) / đỗ xe / (máy móc) ngừng hoạt động / chết máy,,这个单元我们要学习“停车”。,"Trong bài này chúng tôi sẽ học từ ""停车"".",TEMPLATE,NEED_REVIEW
+1030,2,停车场,bãi đỗ xe / bãi gửi xe,名,今天老师教我们“停车场”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""停车场"".",TEMPLATE,NEED_REVIEW
+1031,2,挺,thẳng / đứng thẳng / chìa ra (một phần cơ thể) / (về thể chất) đứng thẳng / hỗ trợ / chống chịu / xuất sắc / (khẩu ngữ) khá / rất / lượng từ cho súng máy,副,今天我们学习了“挺”这个词。,"Hôm nay chúng tôi đã học từ ""挺"".",TEMPLATE,NEED_REVIEW
+1032,2,挺好,rất tốt,,我已经学会了“挺好”这个词。,"Tôi đã học được từ ""挺好"".",TEMPLATE,NEED_REVIEW
+1033,2,通,"đi qua / biết rõ / (hậu tố) chuyên gia / kết nối / giao tiếp / mở / thông / lượng từ cho thư, điện báo, cuộc gọi điện thoại, v.v.",动、形,老师让我们读一读“通”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""通"".",TEMPLATE,NEED_REVIEW
+1034,2,通过,đi qua; vượt qua / thông qua (một nghị quyết); thông qua (luật pháp) / vượt qua (một kỳ thi) / bằng cách; thông qua; qua,介、动,请用“通过”造一个句子。,"Hãy dùng từ ""通过"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1035,2,通知,thông báo / thông tin / thông tri,动、名,我把“通知”写在了本子上。,"Tôi đã viết từ ""通知"" vào vở.",TEMPLATE,NEED_REVIEW
+1036,2,同时,đồng thời; cùng lúc,连、名,我在课本里看到了“同时”这个词。,"Tôi đã nhìn thấy từ ""同时"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1037,2,同事,đồng nghiệp; cộng sự,名,老师正在解释“同事”这个词。,"Giáo viên đang giải thích từ ""同事"".",TEMPLATE,NEED_REVIEW
+1038,2,同样,giống nhau; bằng nhau; tương tự / tương tự; cũng; nữa,形、连,请大家一起读“同样”这个词。,"Mọi người hãy cùng đọc từ ""同样"".",TEMPLATE,NEED_REVIEW
+1039,2,头,đầu / kiểu tóc / trên cùng / cuối / đoạn còn lại / tàn dư / trưởng / sếp / mặt / phương diện / đầu tiên / dẫn đầu / lượng từ cho heo hoặc gia súc,名、量,这个单元我们要学习“头”。,"Trong bài này chúng tôi sẽ học từ ""头"".",TEMPLATE,NEED_REVIEW
+1040,2,头发,tóc (trên đầu),名,今天老师教我们“头发”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""头发"".",TEMPLATE,NEED_REVIEW
+1041,2,头（里头）,hậu tố cho danh từ,后缀,今天我们学习了“里头”这个词。,"Hôm nay chúng tôi đã học từ ""里头"".",TEMPLATE,NEED_REVIEW
+1042,2,图片,bức tranh; bức ảnh,名,我已经学会了“图片”这个词。,"Tôi đã học được từ ""图片"".",TEMPLATE,NEED_REVIEW
+1043,2,推,đẩy / cắt / từ chối / bác bỏ / khước từ / đùn đẩy (trách nhiệm) / hoãn / trì hoãn / thúc đẩy / đề cử / bầu chọn / massage,动,老师让我们读一读“推”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""推"".",TEMPLATE,NEED_REVIEW
+1044,2,腿,chân / Lượng từ:條|条[tiao2] / xương hông / biến thể cũ của 腿[tui3],名,请用“腿”造一个句子。,"Hãy dùng từ ""腿"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1045,2,外地,các khu vực trong nước khác với nơi một người đang ở,名,我把“外地”写在了本子上。,"Tôi đã viết từ ""外地"" vào vở.",TEMPLATE,NEED_REVIEW
+1046,2,外卖,(của nhà hàng) cung cấp bữa ăn mang về hoặc giao hàng tận nhà / kinh doanh đồ ăn mang về / bữa ăn mang về,名、动,我在课本里看到了“外卖”这个词。,"Tôi đã nhìn thấy từ ""外卖"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1047,2,完,hoàn thành / kết thúc / toàn bộ / hoàn chỉnh / hoàn toàn,动,老师正在解释“完”这个词。,"Giáo viên đang giải thích từ ""完"".",TEMPLATE,NEED_REVIEW
+1048,2,完成,hoàn thành; thực hiện,,请大家一起读“完成”这个词。,"Mọi người hãy cùng đọc từ ""完成"".",TEMPLATE,NEED_REVIEW
+1049,2,完全,hoàn chỉnh; toàn bộ / hoàn toàn; toàn diện,形、副,这个单元我们要学习“完全”。,"Trong bài này chúng tôi sẽ học từ ""完全"".",TEMPLATE,NEED_REVIEW
+1050,2,晚安,Chúc ngủ ngon! / Chào buổi tối!,动,今天老师教我们“晚安”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""晚安"".",TEMPLATE,NEED_REVIEW
+1051,2,晚报,báo chiều / (trong tên tờ báo) Tin Tức Buổi Chiều,名,今天我们学习了“晚报”这个词。,"Hôm nay chúng tôi đã học từ ""晚报"".",TEMPLATE,NEED_REVIEW
+1052,2,晚餐,bữa tối / bữa ăn tối,名,我已经学会了“晚餐”这个词。,"Tôi đã học được từ ""晚餐"".",TEMPLATE,NEED_REVIEW
+1053,2,晚会,buổi dạ tiệc,名,老师让我们读一读“晚会”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""晚会"".",TEMPLATE,NEED_REVIEW
+1054,2,碗,biến thể của 碗[wan3] / bát / chén,名,请用“碗”造一个句子。,"Hãy dùng từ ""碗"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1055,2,万,mười nghìn / một số lượng lớn,数,我把“万”写在了本子上。,"Tôi đã viết từ ""万"" vào vở.",TEMPLATE,NEED_REVIEW
+1056,2,网,lưới / mạng lưới,名,我在课本里看到了“网”这个词。,"Tôi đã nhìn thấy từ ""网"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1057,2,网球,quần vợt / trái bóng tennis,名,老师正在解释“网球”这个词。,"Giáo viên đang giải thích từ ""网球"".",TEMPLATE,NEED_REVIEW
+1058,2,网站,trang web,名,请大家一起读“网站”这个词。,"Mọi người hãy cùng đọc từ ""网站"".",TEMPLATE,NEED_REVIEW
+1059,2,往,đi (một hướng) / đến / hướng tới / (tàu) đi về / quá khứ / trước đây / biến thể cũ của 往[wang3],动、介,这个单元我们要学习“往”。,"Trong bài này chúng tôi sẽ học từ ""往"".",TEMPLATE,NEED_REVIEW
+1060,2,为,bởi vì / vì / để / biến thể của 為|为[wei4],介,今天老师教我们“为”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""为"".",TEMPLATE,NEED_REVIEW
+1061,2,为什么,tại sao? / vì lý do gì?,,今天我们学习了“为什么”这个词。,"Hôm nay chúng tôi đã học từ ""为什么"".",TEMPLATE,NEED_REVIEW
+1062,2,位,vị trí / địa điểm / chỗ / ngồi / lượng từ cho người (kính trọng) / lượng từ cho bit nhị phân (ví dụ: 十六位 16-bit hoặc 2 byte) / (vật lý) thế năng,量,我已经学会了“位”这个词。,"Tôi đã học được từ ""位"".",TEMPLATE,NEED_REVIEW
+1063,2,味道,hương vị; mùi vị / (nghĩa bóng) cảm giác (về...); cảm nhận (về...); nét (của...) / (nghĩa bóng) hứng thú; thú vị / (phương ngữ) mùi; mùi hương,名,老师让我们读一读“味道”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""味道"".",TEMPLATE,NEED_REVIEW
+1064,2,喂,"này / cho ăn (động vật, em bé, người bệnh v.v.) / biến thể của 餵|喂[wei4] / cho ăn",Intj,请用“喂”造一个句子。,"Hãy dùng từ ""喂"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1065,2,温度,nhiệt độ,名,我把“温度”写在了本子上。,"Tôi đã viết từ ""温度"" vào vở.",TEMPLATE,NEED_REVIEW
+1066,2,闻,nghe / tin tức / nổi tiếng / nổi danh / danh tiếng / tên tuổi / ngửi / ngửi thấy,动,我在课本里看到了“闻”这个词。,"Tôi đã nhìn thấy từ ""闻"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1067,2,问路,hỏi đường / hỏi đường đến đâu đó,动,老师正在解释“问路”这个词。,"Giáo viên đang giải thích từ ""问路"".",TEMPLATE,NEED_REVIEW
+1068,2,问题,câu hỏi / vấn đề / chủ đề,名,请大家一起读“问题”这个词。,"Mọi người hãy cùng đọc từ ""问题"".",TEMPLATE,NEED_REVIEW
+1069,2,午餐,bữa trưa / buổi ăn trưa,名,这个单元我们要学习“午餐”。,"Trong bài này chúng tôi sẽ học từ ""午餐"".",TEMPLATE,NEED_REVIEW
+1070,2,午睡,ngủ trưa / giấc ngủ ngắn,名、动,今天老师教我们“午睡”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""午睡"".",TEMPLATE,NEED_REVIEW
+1071,2,西北,tây bắc,名,今天我们学习了“西北”这个词。,"Hôm nay chúng tôi đã học từ ""西北"".",TEMPLATE,NEED_REVIEW
+1072,2,西餐,Món ăn kiểu Tây,名,我已经学会了“西餐”这个词。,"Tôi đã học được từ ""西餐"".",TEMPLATE,NEED_REVIEW
+1073,2,西方,phương Tây / các nước phương Tây,名,老师让我们读一读“西方”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""西方"".",TEMPLATE,NEED_REVIEW
+1074,2,西南,tây nam,名,请用“西南”造一个句子。,"Hãy dùng từ ""西南"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1075,2,西医,y học phương Tây / bác sĩ được đào tạo theo y học phương Tây,名,我把“西医”写在了本子上。,"Tôi đã viết từ ""西医"" vào vở.",TEMPLATE,NEED_REVIEW
+1076,2,习惯,thói quen / phong tục / thói quen thường lệ / quen với,名、动,我在课本里看到了“习惯”这个词。,"Tôi đã nhìn thấy từ ""习惯"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1077,2,洗衣机,máy giặt,名,老师正在解释“洗衣机”这个词。,"Giáo viên đang giải thích từ ""洗衣机"".",TEMPLATE,NEED_REVIEW
+1078,2,洗澡,tắm / tắm vòi sen,,请大家一起读“洗澡”这个词。,"Mọi người hãy cùng đọc từ ""洗澡"".",TEMPLATE,NEED_REVIEW
+1079,2,下雪,tuyết rơi,,这个单元我们要学习“下雪”。,"Trong bài này chúng tôi sẽ học từ ""下雪"".",TEMPLATE,NEED_REVIEW
+1080,2,下周,tuần sau,,今天老师教我们“下周”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""下周"".",TEMPLATE,NEED_REVIEW
+1081,2,夏天,mùa hè,名,今天我们学习了“夏天”这个词。,"Hôm nay chúng tôi đã học từ ""夏天"".",TEMPLATE,NEED_REVIEW
+1082,2,相同,giống hệt / giống nhau,形,我已经学会了“相同”这个词。,"Tôi đã học được từ ""相同"".",TEMPLATE,NEED_REVIEW
+1083,2,相信,tin tưởng; bị thuyết phục; chấp nhận là thật,动,老师让我们读一读“相信”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""相信"".",TEMPLATE,NEED_REVIEW
+1084,2,响,tiếng / vang / âm thanh / phát ra âm thanh / kêu / rung / to / lượng từ cho âm thanh,形,请用“响”造一个句子。,"Hãy dùng từ ""响"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1085,2,想到,nghĩ đến / gợi nhớ / dự đoán,,我把“想到”写在了本子上。,"Tôi đã viết từ ""想到"" vào vở.",TEMPLATE,NEED_REVIEW
+1086,2,想法,cách nghĩ; ý kiến; quan niệm / nghĩ cách (làm gì đó),名,我在课本里看到了“想法”这个词。,"Tôi đã nhìn thấy từ ""想法"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1087,2,想起,nhớ lại / nghĩ đến / nhớ ra,,老师正在解释“想起”这个词。,"Giáo viên đang giải thích từ ""想起"".",TEMPLATE,NEED_REVIEW
+1088,2,向,hướng / về phía / quay về / phương hướng / hỗ trợ / đứng về phía / ngay trước đây / trước đây / luôn luôn / suốt / dùng làm hậu tố cho... / hướng đến... / có xu hướng / hướng dẫn / biến thể của 向[xiang4] / hướng đi / đối mặt / đến / về / ngay trước,介、动,请大家一起读“向”这个词。,"Mọi người hãy cùng đọc từ ""向"".",TEMPLATE,NEED_REVIEW
+1089,2,相机,máy ảnh (viết tắt của 照相機|照相机[zhao4 xiang4 ji1]) / vào thời điểm thích hợp / tùy cơ ứng biến,名,这个单元我们要学习“相机”。,"Trong bài này chúng tôi sẽ học từ ""相机"".",TEMPLATE,NEED_REVIEW
+1090,2,像,giống / như / nhìn như / chẳng hạn / diện mạo / hình ảnh / chân dung / hình ảnh trong ánh xạ (toán học),动,今天老师教我们“像”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""像"".",TEMPLATE,NEED_REVIEW
+1091,2,小（小王）,nhỏ / bé / một vài / trẻ,前缀,今天我们学习了“小王”这个词。,"Hôm nay chúng tôi đã học từ ""小王"".",TEMPLATE,NEED_REVIEW
+1092,2,小声,giọng nhỏ / (nói) thì thầm,,我已经学会了“小声”这个词。,"Tôi đã học được từ ""小声"".",TEMPLATE,NEED_REVIEW
+1093,2,小时候,khi còn nhỏ,名,老师让我们读一读“小时候”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""小时候"".",TEMPLATE,NEED_REVIEW
+1094,2,小说,tiểu thuyết / hư cấu,名,请用“小说”造一个句子。,"Hãy dùng từ ""小说"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1095,2,小心,cẩn thận / chú ý,形、动,我把“小心”写在了本子上。,"Tôi đã viết từ ""小心"" vào vở.",TEMPLATE,NEED_REVIEW
+1096,2,小组,nhóm,名,我在课本里看到了“小组”这个词。,"Tôi đã nhìn thấy từ ""小组"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1097,2,校园,khuôn viên trường,名,老师正在解释“校园”这个词。,"Giáo viên đang giải thích từ ""校园"".",TEMPLATE,NEED_REVIEW
+1098,2,校长,"(trường cao đẳng, đại học) hiệu trưởng",名,请大家一起读“校长”这个词。,"Mọi người hãy cùng đọc từ ""校长"".",TEMPLATE,NEED_REVIEW
+1099,2,笑话,trò đùa; chuyện cười (Lượng từ: 個|个[ge4]) / chế nhạo; chế giễu / lố bịch; vô lý,动,这个单元我们要学习“笑话”。,"Trong bài này chúng tôi sẽ học từ ""笑话"".",TEMPLATE,NEED_REVIEW
+1100,2,笑话儿,biến thể er hoá của 笑話|笑话[xiao4 hua5],名,今天老师教我们“笑话儿”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""笑话儿"".",TEMPLATE,NEED_REVIEW
+1101,2,鞋,giày / biến thể của 鞋[xie2],名,今天我们学习了“鞋”这个词。,"Hôm nay chúng tôi đã học từ ""鞋"".",TEMPLATE,NEED_REVIEW
+1102,2,心里,ngực / tim; tâm trí,名,我已经学会了“心里”这个词。,"Tôi đã học được từ ""心里"".",TEMPLATE,NEED_REVIEW
+1103,2,心情,tâm trạng; trạng thái tinh thần,名,老师让我们读一读“心情”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""心情"".",TEMPLATE,NEED_REVIEW
+1104,2,心中,điểm trung tâm / trong suy nghĩ / trong lòng,名,请用“心中”造一个句子。,"Hãy dùng từ ""心中"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1105,2,新闻,tin tức,名,我把“新闻”写在了本子上。,"Tôi đã viết từ ""新闻"" vào vở.",TEMPLATE,NEED_REVIEW
+1106,2,信,thư / tín / tin tưởng / tin / tín ngưỡng / thành thật / tự tin / tin cậy / tùy ý / ngẫu nhiên,名,我在课本里看到了“信”这个词。,"Tôi đã nhìn thấy từ ""信"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1107,2,信号,tín hiệu,名,老师正在解释“信号”这个词。,"Giáo viên đang giải thích từ ""信号"".",TEMPLATE,NEED_REVIEW
+1108,2,信息,thông tin / tin tức / tin nhắn,名,请大家一起读“信息”这个词。,"Mọi người hãy cùng đọc từ ""信息"".",TEMPLATE,NEED_REVIEW
+1109,2,信心,niềm tin / tin tưởng (vào ai đó hoặc điều gì đó),名,这个单元我们要学习“信心”。,"Trong bài này chúng tôi sẽ học từ ""信心"".",TEMPLATE,NEED_REVIEW
+1110,2,信用卡,thẻ tín dụng,名,今天老师教我们“信用卡”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""信用卡"".",TEMPLATE,NEED_REVIEW
+1111,2,星星,(thông tục) một ngôi sao; những ngôi sao trên trời,名,今天我们学习了“星星”这个词。,"Hôm nay chúng tôi đã học từ ""星星"".",TEMPLATE,NEED_REVIEW
+1112,2,行动,hoạt động / hành động / di chuyển / di động,动、名,我已经学会了“行动”这个词。,"Tôi đã học được từ ""行动"".",TEMPLATE,NEED_REVIEW
+1113,2,行人,người đi bộ / khách bộ hành / người qua đường / quan chức phụ trách sắp xếp yết kiến hoàng đế,名,老师让我们读一读“行人”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""行人"".",TEMPLATE,NEED_REVIEW
+1114,2,行为,hành động / cách cư xử / hành vi / hoạt động,名,请用“行为”造一个句子。,"Hãy dùng từ ""行为"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1115,2,姓,họ; họ tên / là họ...,名、动,我把“姓”写在了本子上。,"Tôi đã viết từ ""姓"" vào vở.",TEMPLATE,NEED_REVIEW
+1116,2,姓名,họ và tên; tên đầy đủ,名,我在课本里看到了“姓名”这个词。,"Tôi đã nhìn thấy từ ""姓名"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1117,2,休假,đi nghỉ; có kỳ nghỉ; xin nghỉ,,老师正在解释“休假”这个词。,"Giáo viên đang giải thích từ ""休假"".",TEMPLATE,NEED_REVIEW
+1118,2,许多,nhiều / rất nhiều,数,请大家一起读“许多”这个词。,"Mọi người hãy cùng đọc từ ""许多"".",TEMPLATE,NEED_REVIEW
+1119,2,选,chọn / lựa / chọn lựa / bầu,动,这个单元我们要学习“选”。,"Trong bài này chúng tôi sẽ học từ ""选"".",TEMPLATE,NEED_REVIEW
+1120,2,学期,học kỳ,名,今天老师教我们“学期”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""学期"".",TEMPLATE,NEED_REVIEW
+1121,2,雪,"tuyết / (văn học) xoá đi (nhục nhã, v.v.)",名,今天我们学习了“雪”这个词。,"Hôm nay chúng tôi đã học từ ""雪"".",TEMPLATE,NEED_REVIEW
+1122,2,颜色,màu sắc / diện mạo / bề ngoài / vẻ mặt / sắc tố / chất nhuộm,名,我已经学会了“颜色”这个词。,"Tôi đã học được từ ""颜色"".",TEMPLATE,NEED_REVIEW
+1123,2,眼,"mắt / lỗ nhỏ / trọng tâm (của vấn đề) / lượng từ cho vật rỗng lớn (giếng, bếp, nồi vv)",名、量,老师让我们读一读“眼”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""眼"".",TEMPLATE,NEED_REVIEW
+1124,2,眼睛,mắt,名,请用“眼睛”造一个句子。,"Hãy dùng từ ""眼睛"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1125,2,养,nuôi (động vật) / nuôi dưỡng (trẻ em) / nuôi (thú cưng) / chu cấp / sinh đẻ,动,我把“养”写在了本子上。,"Tôi đã viết từ ""养"" vào vở.",TEMPLATE,NEED_REVIEW
+1126,2,样子,dáng vẻ / tác phong / kiểu mẫu / hình mẫu,名,我在课本里看到了“样子”这个词。,"Tôi đã nhìn thấy từ ""样子"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1127,2,要求,yêu cầu / đòi hỏi / đòi quyền / hỏi,动、名,老师正在解释“要求”这个词。,"Giáo viên đang giải thích từ ""要求"".",TEMPLATE,NEED_REVIEW
+1128,2,药,"lá của cây diên vĩ / biến thể của 藥|药[yao4] / thuốc / dược phẩm / chất dùng cho mục đích cụ thể (ví dụ: đầu độc, nổ, lên men) / đầu độc",名,请大家一起读“药”这个词。,"Mọi người hãy cùng đọc từ ""药"".",TEMPLATE,NEED_REVIEW
+1129,2,药店,nhà thuốc,名,这个单元我们要学习“药店”。,"Trong bài này chúng tôi sẽ học từ ""药店"".",TEMPLATE,NEED_REVIEW
+1130,2,药片,viên thuốc hoặc viên nén,名,今天老师教我们“药片”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""药片"".",TEMPLATE,NEED_REVIEW
+1131,2,药水,thuốc dạng lỏng / thuốc đóng chai / dung dịch,名,今天我们学习了“药水”这个词。,"Hôm nay chúng tôi đã học từ ""药水"".",TEMPLATE,NEED_REVIEW
+1132,2,也许,có lẽ / có thể,副,我已经学会了“也许”这个词。,"Tôi đã học được từ ""也许"".",TEMPLATE,NEED_REVIEW
+1133,2,夜,biến thể của 夜[ye4] / đêm,名,老师让我们读一读“夜”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""夜"".",TEMPLATE,NEED_REVIEW
+1134,2,夜里,trong đêm / vào ban đêm / ban đêm,名,请用“夜里”造一个句子。,"Hãy dùng từ ""夜里"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1135,2,一部分,phần / một phần / tập hợp con,,我把“一部分”写在了本子上。,"Tôi đã viết từ ""一部分"" vào vở.",TEMPLATE,NEED_REVIEW
+1136,2,一定,chắc chắn / nhất định / nhất thiết / cố định / một mức độ nhất định (v.v.) / đã cho / cụ thể / phải,形、副,我在课本里看到了“一定”这个词。,"Tôi đã nhìn thấy từ ""一定"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1137,2,一共,tổng cộng,副,老师正在解释“一共”这个词。,"Giáo viên đang giải thích từ ""一共"".",TEMPLATE,NEED_REVIEW
+1138,2,一路平安,có chuyến đi vui vẻ / Thượng lộ bình an!,,请大家一起读“一路平安”这个词。,"Mọi người hãy cùng đọc từ ""一路平安"".",TEMPLATE,NEED_REVIEW
+1139,2,一路顺风,chúc lên đường bình an (thành ngữ),,这个单元我们要学习“一路顺风”。,"Trong bài này chúng tôi sẽ học từ ""一路顺风"".",TEMPLATE,NEED_REVIEW
+1140,2,已经,đã,副,今天老师教我们“已经”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""已经"".",TEMPLATE,NEED_REVIEW
+1141,2,以后,sau / khi đó / sau này / theo sau / sau đó / trong tương lai,名,今天我们学习了“以后”这个词。,"Hôm nay chúng tôi đã học từ ""以后"".",TEMPLATE,NEED_REVIEW
+1142,2,以前,trước đây / trước / thuở trước / cách đây,名,我已经学会了“以前”这个词。,"Tôi đã học được từ ""以前"".",TEMPLATE,NEED_REVIEW
+1143,2,以上,mức đó hoặc cao hơn / số lượng đó hoặc nhiều hơn / đã đề cập ở trên / (dùng để chỉ đã hoàn thành phần phát biểu) Xin hết.,名,老师让我们读一读“以上”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""以上"".",TEMPLATE,NEED_REVIEW
+1144,2,以外,ngoài ra / khác ngoài / trừ / phía ngoài / bên ngoài / ở phía bên kia / vượt ra ngoài,名,请用“以外”造一个句子。,"Hãy dùng từ ""以外"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1145,2,以为,nghĩ rằng (tức là cho là đúng...) (Thường có hàm ý rằng quan niệm đó là sai lầm – ngoại trừ khi diễn đạt ý kiến hiện tại của chính mình.),动,我把“以为”写在了本子上。,"Tôi đã viết từ ""以为"" vào vở.",TEMPLATE,NEED_REVIEW
+1146,2,以下,mức đó hoặc thấp hơn / số lượng đó hoặc ít hơn / những điều sau,名,我在课本里看到了“以下”这个词。,"Tôi đã nhìn thấy từ ""以下"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1147,2,椅子,ghế,名,老师正在解释“椅子”这个词。,"Giáo viên đang giải thích từ ""椅子"".",TEMPLATE,NEED_REVIEW
+1148,2,一般,giống / bình thường / tàm tạm / phổ thông / chung / chung chung / nói chung,形,请大家一起读“一般”这个词。,"Mọi người hãy cùng đọc từ ""一般"".",TEMPLATE,NEED_REVIEW
+1149,2,一点点,một chút,,这个单元我们要学习“一点点”。,"Trong bài này chúng tôi sẽ học từ ""一点点"".",TEMPLATE,NEED_REVIEW
+1150,2,一生,cả đời; suốt đời,名,今天老师教我们“一生”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""一生"".",TEMPLATE,NEED_REVIEW
+1151,2,一直,thẳng (theo đường thẳng) / liên tục; luôn luôn; suốt,副,今天我们学习了“一直”这个词。,"Hôm nay chúng tôi đã học từ ""一直"".",TEMPLATE,NEED_REVIEW
+1152,2,亿,100 triệu,数,我已经学会了“亿”这个词。,"Tôi đã học được từ ""亿"".",TEMPLATE,NEED_REVIEW
+1153,2,意见,ý kiến / quan điểm / đề xuất / phản đối / phàn nàn,名,老师让我们读一读“意见”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""意见"".",TEMPLATE,NEED_REVIEW
+1154,2,意思,"ý tưởng / ý kiến / nghĩa / ước nguyện / mong muốn / hứng thú / vui / lòng biết ơn, tình cảm, v.v. / tặng như một biểu thị nhỏ / làm gì đó như một cử chỉ thiện chí, v.v.",名,请用“意思”造一个句子。,"Hãy dùng từ ""意思"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1155,2,因为,bởi vì / do / bởi,连、介,我把“因为”写在了本子上。,"Tôi đã viết từ ""因为"" vào vở.",TEMPLATE,NEED_REVIEW
+1156,2,阴,u ám (thời tiết) / nhiều mây / râm mát / Âm (nguyên lý âm trong Âm và Dương) / âm (điện) / nữ tính / mặt trăng / hàm ý / ẩn giấu / bộ phận sinh dục / biến thể của 陰|阴[yin1],形,我在课本里看到了“阴”这个词。,"Tôi đã nhìn thấy từ ""阴"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1157,2,阴天,ngày nhiều mây; trời u ám,名,老师正在解释“阴天”这个词。,"Giáo viên đang giải thích từ ""阴天"".",TEMPLATE,NEED_REVIEW
+1158,2,音节,âm tiết,名,请大家一起读“音节”这个词。,"Mọi người hãy cùng đọc từ ""音节"".",TEMPLATE,NEED_REVIEW
+1159,2,音乐,âm nhạc,名,这个单元我们要学习“音乐”。,"Trong bài này chúng tôi sẽ học từ ""音乐"".",TEMPLATE,NEED_REVIEW
+1160,2,音乐会,buổi hòa nhạc,名,今天老师教我们“音乐会”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""音乐会"".",TEMPLATE,NEED_REVIEW
+1161,2,银行,ngân hàng,名,今天我们学习了“银行”这个词。,"Hôm nay chúng tôi đã học từ ""银行"".",TEMPLATE,NEED_REVIEW
+1162,2,银行卡,thẻ ngân hàng / thẻ ATM,名,我已经学会了“银行卡”这个词。,"Tôi đã học được từ ""银行卡"".",TEMPLATE,NEED_REVIEW
+1163,2,应该,nên / phải / cần,动,老师让我们读一读“应该”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""应该"".",TEMPLATE,NEED_REVIEW
+1164,2,英文,tiếng Anh (ngôn ngữ),名,请用“英文”造一个句子。,"Hãy dùng từ ""英文"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1165,2,英语,tiếng Anh,名,我把“英语”写在了本子上。,"Tôi đã viết từ ""英语"" vào vở.",TEMPLATE,NEED_REVIEW
+1166,2,影片,bản sao của phim / phim; điện ảnh; bộ phim,名,我在课本里看到了“影片”这个词。,"Tôi đã nhìn thấy từ ""影片"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1167,2,影响,ảnh hưởng / tác động / ảnh hưởng đến / tác động đến (thường là tiêu cực) / làm phiền,动、名,老师正在解释“影响”这个词。,"Giáo viên đang giải thích từ ""影响"".",TEMPLATE,NEED_REVIEW
+1168,2,永远,mãi mãi / vĩnh cửu,副,请大家一起读“永远”这个词。,"Mọi người hãy cùng đọc từ ""永远"".",TEMPLATE,NEED_REVIEW
+1169,2,油,"dầu / mỡ / chất béo / dầu mỏ / thoa dầu trẩu, sơn hoặc vecni / nhờn / béo / lém lỉnh / xảo quyệt",名,这个单元我们要学习“油”。,"Trong bài này chúng tôi sẽ học từ ""油"".",TEMPLATE,NEED_REVIEW
+1170,2,游客,khách du lịch; du khách / (trò chơi trực tuyến) người chơi khách,名,今天老师教我们“游客”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""游客"".",TEMPLATE,NEED_REVIEW
+1171,2,友好,thân thiện; hòa nhã / bạn thân,形,今天我们学习了“友好”这个词。,"Hôm nay chúng tôi đã học từ ""友好"".",TEMPLATE,NEED_REVIEW
+1172,2,有空儿,biến thể er hoá của 有空|有空[you3 kong4],动,我已经学会了“有空儿”这个词。,"Tôi đã học được từ ""有空儿"".",TEMPLATE,NEED_REVIEW
+1173,2,有人,ai đó / mọi người / bất kỳ ai / có người ở đó / đang có người (như trong nhà vệ sinh),,老师让我们读一读“有人”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""有人"".",TEMPLATE,NEED_REVIEW
+1174,2,有（一）点儿,hơi / một chút / phần nào / một ít,副,请用“一”造一个句子。,"Hãy dùng từ ""一"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1175,2,有意思,thú vị / có ý nghĩa / vui vẻ / vui,,我把“有意思”写在了本子上。,"Tôi đã viết từ ""有意思"" vào vở.",TEMPLATE,NEED_REVIEW
+1176,2,又,(một lần) nữa / cũng / vừa... vừa... / thế nhưng / (dùng để nhấn mạnh) dù sao đi nữa,副,我在课本里看到了“又”这个词。,"Tôi đã nhìn thấy từ ""又"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1177,2,鱼,cá,名,老师正在解释“鱼”这个词。,"Giáo viên đang giải thích từ ""鱼"".",TEMPLATE,NEED_REVIEW
+1178,2,语言,ngôn ngữ,名,请大家一起读“语言”这个词。,"Mọi người hãy cùng đọc từ ""语言"".",TEMPLATE,NEED_REVIEW
+1179,2,原来,"gốc; trước đây / vốn dĩ; lúc đầu / thì ra, hóa ra",形、副,这个单元我们要学习“原来”。,"Trong bài này chúng tôi sẽ học từ ""原来"".",TEMPLATE,NEED_REVIEW
+1180,2,原因,nguyên nhân / nguồn gốc / nguyên nhân gốc / lý do / Lượng từ: 個|个[ge4],名,今天老师教我们“原因”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""原因"".",TEMPLATE,NEED_REVIEW
+1181,2,院,sân / tổ chức / Lượng từ: 個|个[ge4],名,今天我们学习了“院”这个词。,"Hôm nay chúng tôi đã học từ ""院"".",TEMPLATE,NEED_REVIEW
+1182,2,院长,người đứng đầu của một tổ chức có tên kết thúc bằng 院[yuan4] / chủ tịch hội đồng / hiệu trưởng đại học / trưởng khoa / viện trưởng / thủ tướng Trung Hoa Dân Quốc,名,我已经学会了“院长”这个词。,"Tôi đã học được từ ""院长"".",TEMPLATE,NEED_REVIEW
+1183,2,院子,sân / vườn / sân trong / sân nhà / Lượng từ: 個|个[ge4] / (cũ) đầy tớ,名,老师让我们读一读“院子”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""院子"".",TEMPLATE,NEED_REVIEW
+1184,2,愿意,muốn / nguyện / sẵn sàng / tự nguyện (làm gì đó),动,请用“愿意”造一个句子。,"Hãy dùng từ ""愿意"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1185,2,月份,tháng,名,我把“月份”写在了本子上。,"Tôi đã viết từ ""月份"" vào vở.",TEMPLATE,NEED_REVIEW
+1186,2,月亮,mặt trăng,名,我在课本里看到了“月亮”这个词。,"Tôi đã nhìn thấy từ ""月亮"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1187,2,越,vượt / vượt qua / vượt hơn / càng... càng...,副,老师正在解释“越”这个词。,"Giáo viên đang giải thích từ ""越"".",TEMPLATE,NEED_REVIEW
+1188,2,越来越,ngày càng...,,请大家一起读“越来越”这个词。,"Mọi người hãy cùng đọc từ ""越来越"".",TEMPLATE,NEED_REVIEW
+1189,2,云,(văn cổ) nói / mây,名,这个单元我们要学习“云”。,"Trong bài này chúng tôi sẽ học từ ""云"".",TEMPLATE,NEED_REVIEW
+1190,2,运动,di chuyển / tập thể dục / thể thao / vận động / chuyển động / phong trào / chiến dịch,动、名,今天老师教我们“运动”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""运动"".",TEMPLATE,NEED_REVIEW
+1191,2,咱,biến thể của 咱[zan2] / tôi hoặc tao / chúng ta (bao gồm cả người nói và người nghe),代,今天我们学习了“咱”这个词。,"Hôm nay chúng tôi đã học từ ""咱"".",TEMPLATE,NEED_REVIEW
+1192,2,咱们,chúng ta hoặc chúng tôi (bao gồm cả người nói và người nghe) / (phương ngữ) tôi hoặc mình / (phương ngữ) (một cách thân mật hoặc dỗ dành) bạn / cũng đọc là [za2 men5],代,我已经学会了“咱们”这个词。,"Tôi đã học được từ ""咱们"".",TEMPLATE,NEED_REVIEW
+1193,2,脏,bẩn / thô tục / làm bẩn (cái gì),形,老师让我们读一读“脏”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""脏"".",TEMPLATE,NEED_REVIEW
+1194,2,早餐,bữa sáng,名,请用“早餐”造一个句子。,"Hãy dùng từ ""早餐"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1195,2,早晨,buổi sáng sớm / cũng đọc [zao3 chen5],名,我把“早晨”写在了本子上。,"Tôi đã viết từ ""早晨"" vào vở.",TEMPLATE,NEED_REVIEW
+1196,2,早就,đã từ sớm,,我在课本里看到了“早就”这个词。,"Tôi đã nhìn thấy từ ""早就"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1197,2,怎么办,phải làm sao đây,,老师正在解释“怎么办”这个词。,"Giáo viên đang giải thích từ ""怎么办"".",TEMPLATE,NEED_REVIEW
+1198,2,怎么样,như thế nào? / thế nào? / ra sao? / mọi thứ sao rồi?,代,请大家一起读“怎么样”这个词。,"Mọi người hãy cùng đọc từ ""怎么样"".",TEMPLATE,NEED_REVIEW
+1199,2,怎样,như thế nào / loại gì,代,这个单元我们要学习“怎样”。,"Trong bài này chúng tôi sẽ học từ ""怎样"".",TEMPLATE,NEED_REVIEW
+1200,2,占,biến thể của 占[zhan4] / chiếm giữ / chiếm đóng / chiếm,动,今天老师教我们“占”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""占"".",TEMPLATE,NEED_REVIEW
+1201,2,站住,đứng lại,,今天我们学习了“站住”这个词。,"Hôm nay chúng tôi đã học từ ""站住"".",TEMPLATE,NEED_REVIEW
+1202,2,长,trưởng / đứng đầu / người lớn / mọc / phát triển / tăng / cải thiện,动,我已经学会了“长”这个词。,"Tôi đã học được từ ""长"".",TEMPLATE,NEED_REVIEW
+1203,2,长大,trưởng thành,,老师让我们读一读“长大”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""长大"".",TEMPLATE,NEED_REVIEW
+1204,2,找出,tìm / tìm ra,,请用“找出”造一个句子。,"Hãy dùng từ ""找出"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1205,2,照顾,chăm sóc / quan tâm / chú ý đến / trông nom,动,我把“照顾”写在了本子上。,"Tôi đã viết từ ""照顾"" vào vở.",TEMPLATE,NEED_REVIEW
+1206,2,照片,bức ảnh / hình ảnh,名,我在课本里看到了“照片”这个词。,"Tôi đã nhìn thấy từ ""照片"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1207,2,照相,chụp ảnh,,老师正在解释“照相”这个词。,"Giáo viên đang giải thích từ ""照相"".",TEMPLATE,NEED_REVIEW
+1208,2,这么,nhiều như vậy / như thế này / bao nhiêu? / theo cách này / như thế,代,请大家一起读“这么”这个词。,"Mọi người hãy cùng đọc từ ""这么"".",TEMPLATE,NEED_REVIEW
+1209,2,这时候,lúc này / khoảnh khắc này,,这个单元我们要学习“这时候”。,"Trong bài này chúng tôi sẽ học từ ""这时候"".",TEMPLATE,NEED_REVIEW
+1210,2,这样,loại này / như vậy / cách này / như thế,代,今天老师教我们“这样”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""这样"".",TEMPLATE,NEED_REVIEW
+1211,2,真正,chính hãng; thật; đúng / thật sự; quả thật,形,今天我们学习了“真正”这个词。,"Hôm nay chúng tôi đã học từ ""真正"".",TEMPLATE,NEED_REVIEW
+1212,2,正常,bình thường / thông thường,形,我已经学会了“正常”这个词。,"Tôi đã học được từ ""正常"".",TEMPLATE,NEED_REVIEW
+1213,2,正好,vừa (đúng lúc) / vừa đủ / đúng / tình cờ / ngẫu nhiên / đúng lúc,形、副,老师让我们读一读“正好”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""正好"".",TEMPLATE,NEED_REVIEW
+1214,2,正确,đúng; chính xác; phải; hợp lý,形,请用“正确”造一个句子。,"Hãy dùng từ ""正确"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1215,2,正是,chính xác là,动,我把“正是”写在了本子上。,"Tôi đã viết từ ""正是"" vào vở.",TEMPLATE,NEED_REVIEW
+1216,2,直接,trực tiếp (đối lập: gián tiếp 間接|间接[jian4 jie1]) / ngay lập tức / thẳng thắn,形,我在课本里看到了“直接”这个词。,"Tôi đã nhìn thấy từ ""直接"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1217,2,只,chỉ / chỉ đơn thuần / chỉ là / nhưng / biến thể của 只[zhi3],副,老师正在解释“只”这个词。,"Giáo viên đang giải thích từ ""只"".",TEMPLATE,NEED_REVIEW
+1218,2,只能,chỉ có thể / buộc phải làm gì đó / không có lựa chọn nào khác,,请大家一起读“只能”这个词。,"Mọi người hãy cùng đọc từ ""只能"".",TEMPLATE,NEED_REVIEW
+1219,2,只要,chỉ cần / miễn là,连,这个单元我们要学习“只要”。,"Trong bài này chúng tôi sẽ học từ ""只要"".",TEMPLATE,NEED_REVIEW
+1220,2,纸,"biến thể của 紙|纸[zhi3] / giấy / lượng từ cho tài liệu, thư từ, v.v.",名,今天老师教我们“纸”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""纸"".",TEMPLATE,NEED_REVIEW
+1221,2,中餐,bữa trưa / món ăn Trung Quốc; đồ ăn Trung Quốc,名,今天我们学习了“中餐”这个词。,"Hôm nay chúng tôi đã học từ ""中餐"".",TEMPLATE,NEED_REVIEW
+1222,2,中级,cấp trung (trong hệ thống phân cấp),形,我已经学会了“中级”这个词。,"Tôi đã học được từ ""中级"".",TEMPLATE,NEED_REVIEW
+1223,2,中年,tuổi trung niên,名,老师让我们读一读“中年”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""中年"".",TEMPLATE,NEED_REVIEW
+1224,2,中小学,trường trung học và tiểu học,,请用“中小学”造一个句子。,"Hãy dùng từ ""中小学"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1225,2,中心,trung tâm; trái tim; cốt lõi,名,我把“中心”写在了本子上。,"Tôi đã viết từ ""中心"" vào vở.",TEMPLATE,NEED_REVIEW
+1226,2,中医,y học cổ truyền Trung Quốc / bác sĩ được đào tạo về y học cổ truyền,名,我在课本里看到了“中医”这个词。,"Tôi đã nhìn thấy từ ""中医"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1227,2,重点,điểm quan trọng; điểm chính; trọng tâm / dự án quan trọng / tập trung vào; nhấn mạnh vào,名、副,老师正在解释“重点”这个词。,"Giáo viên đang giải thích từ ""重点"".",TEMPLATE,NEED_REVIEW
+1228,2,重视,coi trọng; đánh giá cao,动,请大家一起读“重视”这个词。,"Mọi người hãy cùng đọc từ ""重视"".",TEMPLATE,NEED_REVIEW
+1229,2,周,đi một vòng / xoay vòng / đường tròn / chu vi / vòng / chu kỳ / hoàn thành / tất cả / khắp / triệt để / hỗ trợ tài chính / tuần / hàng tuần / biến thể của 周[zhou1],量,这个单元我们要学习“周”。,"Trong bài này chúng tôi sẽ học từ ""周"".",TEMPLATE,NEED_REVIEW
+1230,2,周末,cuối tuần,名,今天老师教我们“周末”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""周末"".",TEMPLATE,NEED_REVIEW
+1231,2,周年,kỷ niệm / hàng năm,名,今天我们学习了“周年”这个词。,"Hôm nay chúng tôi đã học từ ""周年"".",TEMPLATE,NEED_REVIEW
+1232,2,主人,chủ / chủ nhà / người chủ,名,我已经学会了“主人”这个词。,"Tôi đã học được từ ""主人"".",TEMPLATE,NEED_REVIEW
+1233,2,主要,chính; chủ yếu; quan trọng; hàng đầu,形,老师让我们读一读“主要”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""主要"".",TEMPLATE,NEED_REVIEW
+1234,2,住房,nhà ở,名,请用“住房”造一个句子。,"Hãy dùng từ ""住房"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1235,2,住院,nhập viện / điều trị nội trú,,我把“住院”写在了本子上。,"Tôi đã viết từ ""住院"" vào vở.",TEMPLATE,NEED_REVIEW
+1236,2,装,trang sức / trang trí / mặc / quần áo / trang phục (của diễn viên trong vở kịch) / đóng vai / giả vờ / lắp đặt / sửa chữa / gói (thứ gì vào túi) / tải / đóng gói,动,我在课本里看到了“装”这个词。,"Tôi đã nhìn thấy từ ""装"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1237,2,准确,chính xác; đúng; chuẩn xác,形,老师正在解释“准确”这个词。,"Giáo viên đang giải thích từ ""准确"".",TEMPLATE,NEED_REVIEW
+1238,2,自己,bản thân / tự mình,代,请大家一起读“自己”这个词。,"Mọi người hãy cùng đọc từ ""自己"".",TEMPLATE,NEED_REVIEW
+1239,2,自行车,xe đạp,名,这个单元我们要学习“自行车”。,"Trong bài này chúng tôi sẽ học từ ""自行车"".",TEMPLATE,NEED_REVIEW
+1240,2,自由,tự do; sự tự do / tự do; không bị hạn chế,名、形,今天老师教我们“自由”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""自由"".",TEMPLATE,NEED_REVIEW
+1241,2,字典,"Từ điển chữ Hán (chứa mục từ cho từng chữ đơn, khác với 詞典|词典[ci2 dian3], chứa mục từ cho từ gồm một hoặc nhiều chữ) / (thông tục) từ điển / Lượng từ: 本[ben3]",名,不知道这个字的时候可以查字典。,Khi không biết chữ này có thể tra từ điển.,REAL,READY
+1242,2,走过,đi qua / đi ngang qua,,我已经学会了“走过”这个词。,"Tôi đã học được từ ""走过"".",TEMPLATE,NEED_REVIEW
+1243,2,走进,đi vào,,老师走进了教室。,Giáo viên bước vào lớp học.,REAL,READY
+1244,2,走开,rời đi; bỏ đi; cút đi / di chuyển sang bên,,他生气地走开了。,Anh ấy tức giận bỏ đi.,REAL,READY
+1245,2,租,thuê / mướn / thuê bao / cho thuê / cho mướn / tiền thuê / thuế đất,动,我想在学校附近租一个房间。,Tôi muốn thuê một căn phòng gần trường.,REAL,READY
+1246,2,组,"hình thành / tổ chức / nhóm / đội / lượng từ cho bộ, loạt, nhóm người, pin",动、名,我在课本里看到了“组”这个词。,"Tôi đã nhìn thấy từ ""组"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+1247,2,组成,hình thành / tạo thành / cấu thành,动,老师正在解释“组成”这个词。,"Giáo viên đang giải thích từ ""组成"".",TEMPLATE,NEED_REVIEW
+1248,2,组长,tổ trưởng,名,他是我们小组的组长。,Anh ấy là trưởng nhóm của chúng tôi.,REAL,READY
+1249,2,嘴,"miệng / mỏ / vòi / vòi ấm trà, v.v.",名,这个孩子的嘴很小。,Miệng của đứa trẻ này rất nhỏ.,REAL,READY
+1250,2,最近,gần đây / sắp / tới nhất,名,我最近工作很忙。,Gần đây tôi rất bận công việc.,REAL,READY
+1251,2,作家,tác giả,名,他是一位很有名的作家。,Anh ấy là một nhà văn rất nổi tiếng.,REAL,READY
+1252,2,作文,viết bài văn / bài làm văn (bài luận của học sinh),名,老师让我们写一篇作文。,Giáo viên yêu cầu chúng tôi viết một bài văn.,REAL,READY
+1253,2,作业,bài tập về nhà / bài tập / công việc / nhiệm vụ / vận hành / thao tác,名,我每天晚上做完作业再睡觉。,Mỗi tối tôi làm xong bài tập rồi mới đi ngủ.,REAL,READY
+1254,2,作用,"tác động đến; ảnh hưởng / hành động; chức năng; hoạt động / tác động; kết quả; hiệu quả / mục đích; ý định / hậu tố -ation, -tion, v.v., như trong 抑制作用[yi4 zhi4 zuo4 yong4], ức chế",名,请用“作用”造一个句子。,"Hãy dùng từ ""作用"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+1255,2,座,"chỗ ngồi / cơ sở / đế / (cổ) hậu tố dùng trong cách xưng hô tôn kính, ví dụ: 师座|师座[shi1 zuo4] / lượng từ cho tòa nhà, núi và các vật thể cố định tương tự",量,我把“座”写在了本子上。,"Tôi đã viết từ ""座"" vào vở.",TEMPLATE,NEED_REVIEW
+1256,2,座位,chỗ ngồi,名,我的座位在教室前面。,Chỗ ngồi của tôi ở phía trước lớp học.,REAL,READY
+1257,2,做到,hoàn thành / đạt được,,老师正在解释“做到”这个词。,"Giáo viên đang giải thích từ ""做到"".",TEMPLATE,NEED_REVIEW
+1258,2,做法,cách xử lý / phương pháp làm / cách làm / công thức / thực hành,名,请大家一起读“做法”这个词。,"Mọi người hãy cùng đọc từ ""做法"".",TEMPLATE,NEED_REVIEW
+1259,2,做饭,chuẩn bị bữa ăn / nấu ăn,,妈妈正在厨房做饭。,Mẹ đang nấu ăn trong bếp.,REAL,READY

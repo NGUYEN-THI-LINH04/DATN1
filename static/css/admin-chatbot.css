@@ -1,0 +1,1435 @@
+
+/* =========================================================
+   MỘC HÁN - ADMIN CHATBOT
+   File: static/css/admin-chatbot.css
+
+   Giao diện dành riêng cho quản trị Chatbot AI.
+   Không thay đổi sidebar hoặc các trang Admin khác.
+========================================================= */
+
+
+/* =========================================================
+   01. KHUNG TRANG CHATBOT
+========================================================= */
+
+.admin-content:has(.admin-chatbot-page) {
+    background: #f6f8f5;
+    background-image: none;
+}
+
+.admin-chatbot-page {
+    --cb-green: #347b55;
+    --cb-green-dark: #286543;
+    --cb-green-light: #eaf5ed;
+    --cb-text: #24382c;
+    --cb-muted: #748178;
+    --cb-border: #e2eae1;
+    --cb-background: #f6f8f5;
+
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: var(--cb-text);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.admin-chatbot-page,
+.admin-chatbot-page * {
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   02. TIÊU ĐỀ TRANG
+========================================================= */
+
+.admin-chatbot-page .chatbot-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    padding: 0;
+    margin-bottom: 22px;
+}
+
+.admin-chatbot-page .chatbot-eyebrow {
+    display: inline-block;
+
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+    background: #e7f2e8;
+    color: #35774b;
+
+    border: 1px solid #d6e8d8;
+    border-radius: 6px;
+
+    font-size: 10px;
+    font-weight: 750;
+    letter-spacing: 1px;
+}
+
+.admin-chatbot-page .chatbot-heading h1 {
+    margin: 0 0 6px;
+
+    color: #22392b;
+    font-size: 25px;
+    font-weight: 750;
+    line-height: 1.35;
+    letter-spacing: -0.5px;
+}
+
+.admin-chatbot-page .chatbot-heading p {
+    margin: 0;
+
+    color: #77827a;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   03. CÁC THẺ THỐNG KÊ
+========================================================= */
+
+.admin-chatbot-page .chatbot-overview {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+
+    margin: 0 0 18px;
+}
+
+.admin-chatbot-page .chatbot-stat {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    min-width: 0;
+    min-height: 118px;
+
+    padding: 17px 19px;
+
+    background: #ffffff;
+
+    border: 1px solid var(--cb-border);
+    border-radius: 12px;
+
+    box-shadow: 0 3px 12px rgba(32, 62, 39, 0.035);
+
+    transition:
+        border-color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.admin-chatbot-page .chatbot-stat:hover {
+    transform: translateY(-2px);
+    border-color: #bfd8c5;
+    box-shadow: 0 7px 18px rgba(32, 62, 39, 0.07);
+}
+
+.admin-chatbot-page .chatbot-stat::before {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    top: 19px;
+    bottom: 19px;
+
+    width: 3px;
+
+    border-radius: 0 3px 3px 0;
+    background: #89b99a;
+}
+
+.admin-chatbot-page .chatbot-stat > span {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #7b877e;
+    font-size: 11px;
+    font-weight: 550;
+}
+
+.admin-chatbot-page .chatbot-stat > strong {
+    display: block;
+
+    color: #263d2e;
+    font-size: 24px;
+    font-weight: 750;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+.admin-chatbot-page .chatbot-stat > small {
+    display: block;
+
+    margin-top: 8px;
+
+    color: #89958c;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.admin-chatbot-page .chatbot-stat .chatbot-online {
+    color: #27834a;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+.admin-chatbot-page .chatbot-stat .chatbot-offline {
+    color: #c44e47;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+
+/* =========================================================
+   04. BỐ CỤC HAI CỘT
+========================================================= */
+
+.admin-chatbot-page .chatbot-layout {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1.15fr)
+        minmax(0, 0.85fr);
+
+    gap: 17px;
+    align-items: start;
+}
+
+.admin-chatbot-page .chatbot-panel {
+    min-width: 0;
+
+    padding: 22px 24px;
+
+    background: #ffffff;
+
+    border: 1px solid var(--cb-border);
+    border-radius: 13px;
+
+    box-shadow: 0 3px 14px rgba(32, 62, 39, 0.035);
+}
+
+
+/* =========================================================
+   05. TIÊU ĐỀ TRONG CÁC KHUNG
+========================================================= */
+
+.admin-chatbot-page .chatbot-panel-title {
+    padding-bottom: 16px;
+    margin-bottom: 18px;
+
+    border-bottom: 1px solid #eef1ec;
+}
+
+.admin-chatbot-page .chatbot-panel-title h2 {
+    margin: 0 0 5px;
+
+    color: #2b4534;
+    font-size: 16px;
+    font-weight: 750;
+    line-height: 1.4;
+}
+
+.admin-chatbot-page .chatbot-panel-title p {
+    margin: 0;
+
+    color: #828d84;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   06. CÔNG TẮC BẬT / TẮT CHATBOT
+========================================================= */
+
+.admin-chatbot-page .chatbot-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 16px;
+
+    min-height: 68px;
+    padding: 13px 15px;
+    margin: 0 0 11px;
+
+    background: #f6faf5;
+
+    border: 1px solid #e3eee1;
+    border-radius: 9px;
+
+    cursor: pointer;
+}
+
+.admin-chatbot-page .chatbot-toggle > span {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    min-width: 0;
+    flex: 1;
+}
+
+.admin-chatbot-page .chatbot-toggle strong {
+    color: #344a3a;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.admin-chatbot-page .chatbot-toggle small {
+    color: #829083;
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+/* Công tắc dạng trượt */
+
+.admin-chatbot-page .chatbot-toggle input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+
+    position: relative;
+
+    width: 40px;
+    height: 23px;
+
+    flex: 0 0 40px;
+
+    margin: 0;
+
+    border: 0;
+    border-radius: 30px;
+
+    background: #cbd5cb;
+
+    cursor: pointer;
+
+    transition: background 0.2s ease;
+}
+
+.admin-chatbot-page .chatbot-toggle input[type="checkbox"]::before {
+    content: "";
+
+    position: absolute;
+
+    top: 3px;
+    left: 3px;
+
+    width: 17px;
+    height: 17px;
+
+    background: #ffffff;
+    border-radius: 50%;
+
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+
+    transition: transform 0.2s ease;
+}
+
+.admin-chatbot-page .chatbot-toggle input[type="checkbox"]:checked {
+    background: #41855a;
+}
+
+.admin-chatbot-page .chatbot-toggle input[type="checkbox"]:checked::before {
+    transform: translateX(17px);
+}
+
+.admin-chatbot-page .chatbot-toggle input[type="checkbox"]:focus-visible {
+    outline: 3px solid #b6d8be;
+    outline-offset: 3px;
+}
+
+
+/* =========================================================
+   07. BỐ CỤC FORM CẤU HÌNH
+========================================================= */
+
+.admin-chatbot-page .chatbot-form-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    column-gap: 14px;
+    row-gap: 2px;
+
+    margin-top: 20px;
+}
+
+.admin-chatbot-page .chatbot-field {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+
+    margin-bottom: 16px;
+}
+
+.admin-chatbot-page .chatbot-field > label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #405347;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.admin-chatbot-page .chatbot-field input,
+.admin-chatbot-page .chatbot-field select,
+.admin-chatbot-page .chatbot-field textarea {
+    display: block;
+
+    width: 100%;
+    min-width: 0;
+
+    padding: 10px 12px;
+
+    background: #ffffff;
+    color: #324338;
+
+    border: 1px solid #dae4d9;
+    border-radius: 8px;
+
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+
+    box-shadow: none;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.admin-chatbot-page .chatbot-field input,
+.admin-chatbot-page .chatbot-field select {
+    min-height: 40px;
+}
+
+.admin-chatbot-page .chatbot-field select {
+    cursor: pointer;
+}
+
+.admin-chatbot-page .chatbot-field textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.admin-chatbot-page .chatbot-field input:focus,
+.admin-chatbot-page .chatbot-field select:focus,
+.admin-chatbot-page .chatbot-field textarea:focus {
+    outline: none;
+
+    border-color: #6da781;
+
+    box-shadow: 0 0 0 3px rgba(82, 151, 106, 0.1);
+}
+
+.admin-chatbot-page .chatbot-field small {
+    display: block;
+
+    margin-top: 6px;
+
+    color: #8a948a;
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   08. NÚT BẤM
+========================================================= */
+
+.admin-chatbot-page .chatbot-actions {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.admin-chatbot-page .chatbot-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    min-height: 39px;
+    padding: 9px 17px;
+
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.admin-chatbot-page .chatbot-btn-primary {
+    background: #377c54;
+    color: #ffffff;
+}
+
+.admin-chatbot-page .chatbot-btn-primary:hover {
+    background: #286942;
+    color: #ffffff;
+}
+
+.admin-chatbot-page .chatbot-btn-secondary {
+    background: #eff5ef;
+
+    color: #39724b;
+    border-color: #dce9dd;
+}
+
+.admin-chatbot-page .chatbot-btn-secondary:hover {
+    background: #e1efe3;
+    border-color: #c7dfcb;
+}
+
+.admin-chatbot-page .chatbot-btn:active {
+    transform: translateY(1px);
+}
+
+.admin-chatbot-page .chatbot-btn:focus-visible {
+    outline: 3px solid #b8d8c1;
+    outline-offset: 2px;
+}
+
+.admin-chatbot-page .chatbot-btn:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    transform: none;
+}
+
+
+/* =========================================================
+   09. THÔNG TIN MÔ HÌNH AI
+========================================================= */
+
+.admin-chatbot-page .chatbot-model-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 12px 0;
+
+    border-bottom: 1px solid #edf1eb;
+}
+
+.admin-chatbot-page .chatbot-model-info > span {
+    color: #78857b;
+    font-size: 11px;
+}
+
+.admin-chatbot-page .chatbot-model-info > strong {
+    color: #355641;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+    overflow-wrap: anywhere;
+}
+
+.admin-chatbot-page .chatbot-model-info + .chatbot-actions {
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+
+/* =========================================================
+   10. KHUNG HIỂN THỊ CÂU TRẢ LỜI AI
+========================================================= */
+
+.admin-chatbot-page .chatbot-test-result {
+    width: 100%;
+
+    min-height: 135px;
+    max-height: 360px;
+
+    margin-top: 16px;
+    padding: 15px;
+
+    overflow-y: auto;
+    overflow-wrap: anywhere;
+
+    background: #f6f9f5;
+
+    border: 1px solid #e0e9de;
+    border-radius: 9px;
+
+    color: #3a5140;
+
+    font-size: 12px;
+    line-height: 1.8;
+
+    white-space: pre-wrap;
+}
+
+.admin-chatbot-page .chatbot-note {
+    margin: 14px 0 0;
+
+    padding: 11px 13px;
+
+    background: #f1f6f0;
+    border-left: 3px solid #a1c6aa;
+    border-radius: 5px;
+
+    color: #758375;
+    font-size: 10px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   11. THÔNG BÁO LƯU CẤU HÌNH
+========================================================= */
+
+.admin-chatbot-page .chatbot-flash-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 9px;
+    margin-bottom: 17px;
+}
+
+.admin-chatbot-page .chatbot-flash {
+    padding: 11px 14px;
+
+    border: 1px solid #d8e6da;
+    border-radius: 8px;
+
+    background: #f0f8f0;
+    color: #357147;
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.admin-chatbot-page .chatbot-flash-success {
+    background: #eff9f0;
+    color: #287e43;
+    border-color: #cce9d2;
+}
+
+.admin-chatbot-page .chatbot-flash-error {
+    background: #fff3f1;
+    color: #b44a40;
+    border-color: #f0d3cf;
+}
+
+.admin-chatbot-page .chatbot-flash-warning {
+    background: #fff8e9;
+    color: #9d7428;
+    border-color: #efdfb8;
+}
+
+
+/* =========================================================
+   12. RESPONSIVE - MÀN HÌNH VỪA
+========================================================= */
+
+@media (max-width: 1150px) {
+    .admin-chatbot-page .chatbot-overview {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .admin-chatbot-page .chatbot-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+
+/* =========================================================
+   13. RESPONSIVE - MÁY TÍNH BẢNG
+========================================================= */
+
+@media (max-width: 700px) {
+    .admin-chatbot-page .chatbot-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-chatbot-page .chatbot-panel {
+        padding: 18px;
+    }
+
+    .admin-chatbot-page .chatbot-heading h1 {
+        font-size: 22px;
+    }
+}
+
+
+/* =========================================================
+   14. RESPONSIVE - ĐIỆN THOẠI
+========================================================= */
+
+@media (max-width: 480px) {
+    .admin-chatbot-page .chatbot-overview {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-chatbot-page .chatbot-stat {
+        min-height: 95px;
+    }
+
+    .admin-chatbot-page .chatbot-panel {
+        padding: 15px;
+    }
+
+    .admin-chatbot-page .chatbot-toggle {
+        padding: 12px;
+    }
+
+    .admin-chatbot-page .chatbot-toggle small {
+        font-size: 10px;
+    }
+
+    .admin-chatbot-page .chatbot-btn {
+        width: 100%;
+    }
+}
+
+/* ==========================================================
+   MỘC HÁN - CẤU HÌNH CHATBOT ADMIN
+   File: static/css/admin-chatbot.css
+
+   Phong cách:
+   - Đồng bộ nền giấy ô lưới của Admin
+   - Tông kem, be và nâu ấm
+   - Khung gọn, nhẹ, không quá nổi bật
+   - Chỉ áp dụng cho trang cấu hình chatbot
+========================================================== */
+
+
+/* ==========================================================
+   01. NỀN TRANG
+========================================================== */
+
+.admin-content:has(.admin-chatbot-page) {
+    background-color: #f7efe2;
+
+    background-image:
+        linear-gradient(
+            rgba(167, 142, 108, 0.09) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(167, 142, 108, 0.09) 1px,
+            transparent 1px
+        );
+
+    background-size: 26px 26px;
+}
+
+.admin-chatbot-page {
+    --cb-bg: #f7efe2;
+    --cb-card: #fbf5ea;
+    --cb-card-soft: #f5ead9;
+    --cb-input: #fffaf1;
+
+    --cb-border: #e4d5c1;
+    --cb-border-dark: #d7c2a8;
+
+    --cb-text: #3d3026;
+    --cb-muted: #82715d;
+
+    --cb-accent: #876744;
+    --cb-accent-hover: #715333;
+
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    background: transparent;
+    color: var(--cb-text);
+
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.admin-chatbot-page,
+.admin-chatbot-page * {
+    box-sizing: border-box;
+}
+
+
+/* ==========================================================
+   02. TIÊU ĐỀ
+========================================================== */
+
+.admin-chatbot-page .chatbot-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 0 22px;
+    padding: 0;
+
+    background: transparent;
+}
+
+.admin-chatbot-page .chatbot-eyebrow {
+    display: inline-block;
+
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+    color: #826040;
+    background: #efe1ce;
+
+    border: 1px solid #e4d2b8;
+    border-radius: 6px;
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.admin-chatbot-page .chatbot-heading h1 {
+    margin: 0 0 5px;
+
+    color: #3c2e23;
+    font-size: 25px;
+    font-weight: 750;
+    letter-spacing: -0.4px;
+    line-height: 1.35;
+}
+
+.admin-chatbot-page .chatbot-heading p {
+    margin: 0;
+
+    color: #877765;
+    font-size: 12px;
+}
+
+
+/* ==========================================================
+   03. THỐNG KÊ HỌC LIỆU
+========================================================== */
+
+.admin-chatbot-page .chatbot-overview {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+.admin-chatbot-page .chatbot-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    position: relative;
+
+    min-width: 0;
+    min-height: 111px;
+
+    padding: 17px 18px;
+
+    background: rgba(255, 249, 239, 0.94);
+
+    border: 1px solid var(--cb-border);
+    border-radius: 11px;
+
+    box-shadow:
+        0 2px 7px rgba(91, 65, 37, 0.035);
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.admin-chatbot-page .chatbot-stat:hover {
+    border-color: #ccb391;
+
+    box-shadow:
+        0 4px 12px rgba(91, 65, 37, 0.07);
+}
+
+.admin-chatbot-page .chatbot-stat::before {
+    content: "";
+
+    position: absolute;
+
+    top: 20px;
+    bottom: 20px;
+    left: 0;
+
+    width: 3px;
+
+    background: #c5a27a;
+    border-radius: 0 3px 3px 0;
+}
+
+.admin-chatbot-page .chatbot-stat > span {
+    margin-bottom: 7px;
+
+    color: #8a7864;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.admin-chatbot-page .chatbot-stat > strong {
+    color: #49382b;
+
+    font-size: 23px;
+    font-weight: 750;
+    line-height: 1.25;
+}
+
+.admin-chatbot-page .chatbot-stat > small {
+    margin-top: 7px;
+
+    color: #998773;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+/* Màu trạng thái kết nối */
+
+.admin-chatbot-page .chatbot-stat .chatbot-online {
+    color: #527850;
+    font-size: 14px;
+}
+
+.admin-chatbot-page .chatbot-stat .chatbot-offline {
+    color: #af584a;
+    font-size: 14px;
+}
+
+
+/* ==========================================================
+   04. BỐ CỤC HAI CỘT
+========================================================== */
+
+.admin-chatbot-page .chatbot-layout {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1.15fr)
+        minmax(0, 0.85fr);
+
+    align-items: start;
+    gap: 17px;
+}
+
+.admin-chatbot-page .chatbot-panel {
+    min-width: 0;
+    padding: 22px 24px;
+
+    background: rgba(255, 249, 239, 0.96);
+
+    border: 1px solid var(--cb-border);
+    border-radius: 12px;
+
+    box-shadow:
+        0 3px 10px rgba(91, 65, 37, 0.04);
+}
+
+
+/* ==========================================================
+   05. TIÊU ĐỀ CÁC KHUNG
+========================================================== */
+
+.admin-chatbot-page .chatbot-panel-title {
+    padding-bottom: 15px;
+    margin-bottom: 18px;
+
+    border-bottom: 1px solid #e9ddca;
+}
+
+.admin-chatbot-page .chatbot-panel-title h2 {
+    margin: 0 0 5px;
+
+    color: #4c3828;
+    font-size: 16px;
+    font-weight: 750;
+}
+
+.admin-chatbot-page .chatbot-panel-title p {
+    margin: 0;
+
+    color: #91806c;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+
+/* ==========================================================
+   06. KHUNG BẬT / TẮT
+========================================================== */
+
+.admin-chatbot-page .chatbot-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 15px;
+
+    min-height: 69px;
+    padding: 13px 15px;
+    margin-bottom: 11px;
+
+    background: #f5ead9;
+
+    border: 1px solid #e8dac5;
+    border-radius: 9px;
+
+    cursor: pointer;
+}
+
+.admin-chatbot-page .chatbot-toggle > span {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    min-width: 0;
+    gap: 4px;
+}
+
+.admin-chatbot-page .chatbot-toggle strong {
+    color: #4b3829;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.admin-chatbot-page .chatbot-toggle small {
+    color: #8d7963;
+
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+
+/* ==========================================================
+   07. CÔNG TẮC TRƯỢT
+========================================================== */
+
+.admin-chatbot-page
+.chatbot-toggle input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+
+    position: relative;
+
+    width: 41px;
+    height: 23px;
+    flex: 0 0 41px;
+
+    margin: 0;
+
+    background: #cfc2b0;
+
+    border: none;
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    transition: background 0.2s ease;
+}
+
+.admin-chatbot-page
+.chatbot-toggle input[type="checkbox"]::before {
+    content: "";
+
+    position: absolute;
+
+    top: 3px;
+    left: 3px;
+
+    width: 17px;
+    height: 17px;
+
+    background: #fffaf2;
+
+    border-radius: 50%;
+
+    box-shadow:
+        0 1px 3px rgba(63, 43, 22, 0.16);
+
+    transition: transform 0.2s ease;
+}
+
+.admin-chatbot-page
+.chatbot-toggle input[type="checkbox"]:checked {
+    background: #94714e;
+}
+
+.admin-chatbot-page
+.chatbot-toggle input[type="checkbox"]:checked::before {
+    transform: translateX(18px);
+}
+
+.admin-chatbot-page
+.chatbot-toggle input[type="checkbox"]:focus-visible {
+    outline: 3px solid #d6b994;
+    outline-offset: 3px;
+}
+
+
+/* ==========================================================
+   08. FORM CẤU HÌNH
+========================================================== */
+
+.admin-chatbot-page .chatbot-form-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    column-gap: 14px;
+    row-gap: 2px;
+
+    margin-top: 20px;
+}
+
+.admin-chatbot-page .chatbot-field {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+
+    margin-bottom: 16px;
+}
+
+.admin-chatbot-page .chatbot-field > label {
+    margin-bottom: 7px;
+
+    color: #5b4633;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.admin-chatbot-page .chatbot-field input,
+.admin-chatbot-page .chatbot-field select,
+.admin-chatbot-page .chatbot-field textarea {
+    display: block;
+
+    width: 100%;
+    min-width: 0;
+
+    padding: 10px 12px;
+
+    background: #fffaf2;
+    color: #443326;
+
+    border: 1px solid #dfcfb9;
+    border-radius: 8px;
+
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1.6;
+
+    box-shadow: none;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.admin-chatbot-page .chatbot-field input,
+.admin-chatbot-page .chatbot-field select {
+    min-height: 40px;
+}
+
+.admin-chatbot-page .chatbot-field select {
+    cursor: pointer;
+}
+
+.admin-chatbot-page .chatbot-field textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.admin-chatbot-page .chatbot-field input:focus,
+.admin-chatbot-page .chatbot-field select:focus,
+.admin-chatbot-page .chatbot-field textarea:focus {
+    outline: none;
+
+    border-color: #b7956e;
+
+    box-shadow:
+        0 0 0 3px rgba(183, 149, 110, 0.14);
+}
+
+.admin-chatbot-page .chatbot-field small {
+    margin-top: 6px;
+
+    color: #9a8871;
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+
+/* ==========================================================
+   09. NÚT BẤM
+========================================================== */
+
+.admin-chatbot-page .chatbot-actions {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.admin-chatbot-page .chatbot-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 39px;
+
+    padding: 9px 17px;
+
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        color 0.2s ease;
+}
+
+/* Nút lưu cấu hình / gửi AI */
+
+.admin-chatbot-page .chatbot-btn-primary {
+    background: #896744;
+    color: #fff9f0;
+}
+
+.admin-chatbot-page .chatbot-btn-primary:hover {
+    background: #715131;
+    color: #ffffff;
+}
+
+/* Nút kiểm tra kết nối */
+
+.admin-chatbot-page .chatbot-btn-secondary {
+    background: #f1e5d4;
+
+    color: #765637;
+    border-color: #dfcbb0;
+}
+
+.admin-chatbot-page .chatbot-btn-secondary:hover {
+    background: #e8d7bf;
+    border-color: #ccb18e;
+}
+
+.admin-chatbot-page .chatbot-btn:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+
+/* ==========================================================
+   10. THÔNG TIN MÔ HÌNH
+========================================================== */
+
+.admin-chatbot-page .chatbot-model-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 12px;
+    padding: 12px 0;
+
+    border-bottom: 1px solid #eadfcd;
+}
+
+.admin-chatbot-page .chatbot-model-info > span {
+    color: #8b7963;
+    font-size: 11px;
+}
+
+.admin-chatbot-page .chatbot-model-info > strong {
+    color: #61482f;
+
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+
+    overflow-wrap: anywhere;
+}
+
+.admin-chatbot-page
+.chatbot-model-info + .chatbot-actions {
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+
+/* ==========================================================
+   11. KHU VỰC KẾT QUẢ AI
+========================================================== */
+
+.admin-chatbot-page .chatbot-test-result {
+    width: 100%;
+
+    min-height: 130px;
+    max-height: 360px;
+
+    margin-top: 16px;
+    padding: 15px;
+
+    overflow-y: auto;
+    overflow-wrap: anywhere;
+
+    background: #f6ecdc;
+
+    border: 1px solid #e4d4be;
+    border-radius: 9px;
+
+    color: #59432e;
+
+    font-size: 12px;
+    line-height: 1.8;
+
+    white-space: pre-wrap;
+}
+
+.admin-chatbot-page .chatbot-note {
+    margin: 14px 0 0;
+
+    padding: 10px 12px;
+
+    background: #f2e7d5;
+
+    border-left: 3px solid #bc9d77;
+    border-radius: 5px;
+
+    color: #826d55;
+
+    font-size: 10px;
+    line-height: 1.7;
+}
+
+
+/* ==========================================================
+   12. THÔNG BÁO
+========================================================== */
+
+.admin-chatbot-page .chatbot-flash-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 9px;
+    margin-bottom: 17px;
+}
+
+.admin-chatbot-page .chatbot-flash {
+    padding: 11px 14px;
+
+    background: #f4e8d7;
+    color: #735334;
+
+    border: 1px solid #dfcdb5;
+    border-radius: 8px;
+
+    font-size: 12px;
+}
+
+.admin-chatbot-page .chatbot-flash-success {
+    background: #edf3e5;
+    color: #4e7445;
+    border-color: #d2e0c8;
+}
+
+.admin-chatbot-page .chatbot-flash-error {
+    background: #faebe5;
+    color: #ae5141;
+    border-color: #efcfc5;
+}
+
+.admin-chatbot-page .chatbot-flash-warning {
+    background: #faf0d8;
+    color: #916e34;
+    border-color: #e9d6ad;
+}
+
+
+/* ==========================================================
+   13. MÀN HÌNH NHỎ HƠN
+========================================================== */
+
+@media (max-width: 1150px) {
+    .admin-chatbot-page .chatbot-overview {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .admin-chatbot-page .chatbot-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .admin-chatbot-page .chatbot-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-chatbot-page .chatbot-panel {
+        padding: 18px;
+    }
+
+    .admin-chatbot-page .chatbot-heading h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .admin-chatbot-page .chatbot-overview {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-chatbot-page .chatbot-stat {
+        min-height: 95px;
+    }
+
+    .admin-chatbot-page .chatbot-panel {
+        padding: 15px;
+    }
+
+    .admin-chatbot-page .chatbot-toggle {
+        padding: 12px;
+    }
+
+    .admin-chatbot-page .chatbot-btn {
+        width: 100%;
+    }
+}

@@ -1,0 +1,321 @@
+{
+  "HSK": 3,
+  "courses": [
+    {
+      "MaKhoaHoc": 3,
+      "MaCapDo": 3,
+      "TieuDe": "Tieng Trung HSK 3",
+      "TrangThai": "ban_nhap"
+    }
+  ],
+  "lessons": [],
+  "schema": {
+    "CapDoHSK": [
+      {
+        "COLUMN_NAME": "MaCapDo",
+        "DATA_TYPE": "tinyint"
+      },
+      {
+        "COLUMN_NAME": "MaKyHieu",
+        "DATA_TYPE": "varchar"
+      },
+      {
+        "COLUMN_NAME": "TieuDe",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "DaMo",
+        "DATA_TYPE": "bit"
+      }
+    ],
+    "KhoaHoc": [
+      {
+        "COLUMN_NAME": "MaKhoaHoc",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "MaCapDo",
+        "DATA_TYPE": "tinyint"
+      },
+      {
+        "COLUMN_NAME": "MaKyHieu",
+        "DATA_TYPE": "varchar"
+      },
+      {
+        "COLUMN_NAME": "TieuDe",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "MoTa",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "PhienBanChuanHSK",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "TrangThai",
+        "DATA_TYPE": "varchar"
+      },
+      {
+        "COLUMN_NAME": "NgayTao",
+        "DATA_TYPE": "datetime2"
+      },
+      {
+        "COLUMN_NAME": "MaQuanTriVienCapNhat",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "NgayCapNhat",
+        "DATA_TYPE": "datetime2"
+      }
+    ],
+    "BaiHoc": [
+      {
+        "COLUMN_NAME": "MaBaiHoc",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "MaKhoaHoc",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "SoThuTuBai",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "TieuDe",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "TomTat",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "TrangThai",
+        "DATA_TYPE": "varchar"
+      },
+      {
+        "COLUMN_NAME": "NgayTao",
+        "DATA_TYPE": "datetime2"
+      },
+      {
+        "COLUMN_NAME": "MaQuanTriVienCapNhat",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "NgayCapNhat",
+        "DATA_TYPE": "datetime2"
+      }
+    ],
+    "TuVung": [
+      {
+        "COLUMN_NAME": "MaTuVung",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "ChuHan",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "ChuPhonThe",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "PhienAm",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "NghiaTiengViet",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "TuLoai",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "ViDuTiengTrung",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "ViDuTiengViet",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "MaAmThanh",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "MaNguon",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "DaDuyet",
+        "DATA_TYPE": "bit"
+      },
+      {
+        "COLUMN_NAME": "NgayTao",
+        "DATA_TYPE": "datetime2"
+      },
+      {
+        "COLUMN_NAME": "MaQuanTriVienCapNhat",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "NgayCapNhat",
+        "DATA_TYPE": "datetime2"
+      }
+    ],
+    "TuVungBaiHoc": [
+      {
+        "COLUMN_NAME": "MaBaiHoc",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "MaTuVung",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "ThuTu",
+        "DATA_TYPE": "int"
+      }
+    ],
+    "NguPhap": [
+      {
+        "COLUMN_NAME": "MaNguPhap",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "MaBaiHoc",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "TenCauTruc",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "MoTa",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "CachDung",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "ViDuTiengTrung",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "ViDuPinyin",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "ViDuTiengViet",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "MaTep",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "MaNguon",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "ThuTu",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "TrangThai",
+        "DATA_TYPE": "varchar"
+      },
+      {
+        "COLUMN_NAME": "NgayTao",
+        "DATA_TYPE": "datetime2"
+      },
+      {
+        "COLUMN_NAME": "MaQuanTriVienCapNhat",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "NgayCapNhat",
+        "DATA_TYPE": "datetime2"
+      }
+    ],
+    "ChuHan": [
+      {
+        "COLUMN_NAME": "MaChuHan",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "MaBaiHoc",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "MaBoThu",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "KyTu",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "Pinyin",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "NghiaTiengViet",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "SoNet",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "CachGhiNho",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "ViDuTiengTrung",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "ViDuPinyin",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "ViDuTiengViet",
+        "DATA_TYPE": "nvarchar"
+      },
+      {
+        "COLUMN_NAME": "MaTep",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "MaNguon",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "ThuTu",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "TrangThai",
+        "DATA_TYPE": "varchar"
+      },
+      {
+        "COLUMN_NAME": "NgayTao",
+        "DATA_TYPE": "datetime2"
+      },
+      {
+        "COLUMN_NAME": "MaQuanTriVienCapNhat",
+        "DATA_TYPE": "int"
+      },
+      {
+        "COLUMN_NAME": "NgayCapNhat",
+        "DATA_TYPE": "datetime2"
+      }
+    ],
+    "ChuHanBaiHoc": []
+  }
+}

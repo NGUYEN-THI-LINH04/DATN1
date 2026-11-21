@@ -1,0 +1,672 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Quản lý Bài {{ lesson.order }} | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     BREADCRUMB
+===================================================== -->
+
+<div class="lesson-detail-breadcrumb">
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.index',
+            course_id=lesson.course_id
+        ) }}"
+    >
+        Bài học
+    </a>
+
+    <span>›</span>
+
+    <span>
+        HSK {{ lesson.course_level }}
+    </span>
+
+    <span>›</span>
+
+    <strong>
+        Bài {{ lesson.order }}
+    </strong>
+
+</div>
+
+
+<!-- =====================================================
+     HEADER BÀI HỌC
+===================================================== -->
+
+<section class="lesson-admin-hero">
+
+    <div>
+
+        <span class="eyebrow">
+
+            HSK {{ lesson.course_level }}
+            ·
+            BÀI {{ lesson.order }}
+
+        </span>
+
+
+        <h1>
+            {{ lesson.title }}
+        </h1>
+
+
+        {% if lesson.summary %}
+
+            <p>
+                {{ lesson.summary }}
+            </p>
+
+        {% else %}
+
+            <p>
+                Bài học chưa có phần tóm tắt.
+            </p>
+
+        {% endif %}
+
+
+        <div class="lesson-admin-meta">
+
+            <span
+                class="
+                    course-status
+                    course-status-{{ lesson.status }}
+                "
+            >
+
+                {{
+                    statuses.get(
+                        lesson.status,
+                        lesson.status
+                    )
+                }}
+
+            </span>
+
+
+            <span>
+                {{ lesson.course_title }}
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="course-action-buttons">
+
+        <a
+            class="small-button"
+            href="{{ url_for(
+                'admin_lessons.edit',
+                lesson_id=lesson.id
+            ) }}"
+        >
+            Chỉnh sửa
+        </a>
+
+
+        <a
+            class="small-button"
+            href="{{ url_for(
+                'admin_lessons.index',
+                course_id=lesson.course_id
+            ) }}"
+        >
+            ← Danh sách bài
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CÁC TAB QUẢN LÝ BÀI HỌC
+===================================================== -->
+
+<nav class="lesson-admin-tabs">
+
+
+    <!-- =================================================
+         TỔNG QUAN
+    ================================================== -->
+
+    <a
+        class="lesson-admin-tab active"
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Tổng quan
+    </a>
+
+
+    <!-- =================================================
+         TỪ VỰNG
+    ================================================== -->
+
+    <a
+        class="lesson-admin-tab"
+        href="{{ url_for(
+            'admin_lessons.vocabulary',
+            lesson_id=lesson.id
+        ) }}"
+    >
+
+        Từ vựng
+
+        <strong>
+            {{ lesson.vocabulary_count }}
+        </strong>
+
+    </a>
+
+
+    <!-- =================================================
+         NGỮ PHÁP
+    ================================================== -->
+
+    <a
+        class="lesson-admin-tab"
+        href="{{ url_for(
+            'admin_lessons.grammar',
+            lesson_id=lesson.id
+        ) }}"
+    >
+
+        Ngữ pháp
+
+        <strong>
+            {{ lesson.grammar_count }}
+        </strong>
+
+    </a>
+
+
+    <!-- =================================================
+         CHỮ HÁN
+    ================================================== -->
+
+    <a
+        class="lesson-admin-tab"
+        href="{{ url_for(
+            'admin_lessons.hanzi',
+            lesson_id=lesson.id
+        ) }}"
+    >
+
+        Chữ Hán
+
+        <strong>
+            {{ lesson.hanzi_count }}
+        </strong>
+
+    </a>
+
+</nav>
+
+
+<!-- =====================================================
+     TỔNG QUAN NỘI DUNG BÀI HỌC
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                TỔNG QUAN
+            </span>
+
+            <h2>
+                Nội dung của bài học
+            </h2>
+
+            <p>
+                Theo dõi các nội dung học tập
+                đã được xây dựng trong bài.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         THỐNG KÊ 3 MẢNG NỘI DUNG
+    ================================================== -->
+
+    <div class="lesson-content-summary">
+
+
+        <!-- =============================================
+             TỪ VỰNG
+        ============================================== -->
+
+        <article class="lesson-content-summary-card">
+
+            <span class="lesson-content-label">
+                Từ vựng
+            </span>
+
+            <strong>
+                {{ lesson.vocabulary_count }}
+            </strong>
+
+            <p>
+                từ đang được gắn vào bài
+            </p>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_lessons.vocabulary',
+                    lesson_id=lesson.id
+                ) }}"
+            >
+                Quản lý từ vựng
+            </a>
+
+        </article>
+
+
+        <!-- =============================================
+             NGỮ PHÁP
+        ============================================== -->
+
+        <article class="lesson-content-summary-card">
+
+            <span class="lesson-content-label">
+                Ngữ pháp
+            </span>
+
+            <strong>
+                {{ lesson.grammar_count }}
+            </strong>
+
+            <p>
+                cấu trúc ngữ pháp
+            </p>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_lessons.grammar',
+                    lesson_id=lesson.id
+                ) }}"
+            >
+                Quản lý ngữ pháp
+            </a>
+
+        </article>
+
+
+        <!-- =============================================
+             CHỮ HÁN
+        ============================================== -->
+
+        <article class="lesson-content-summary-card">
+
+            <span class="lesson-content-label">
+                Chữ Hán
+            </span>
+
+            <strong>
+                {{ lesson.hanzi_count }}
+            </strong>
+
+            <p>
+                chữ Hán trong bài
+            </p>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_lessons.hanzi',
+                    lesson_id=lesson.id
+                ) }}"
+            >
+                Quản lý Chữ Hán
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     THÔNG TIN CƠ BẢN CỦA BÀI
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                THÔNG TIN BÀI
+            </span>
+
+            <h2>
+                Thông tin cơ bản
+            </h2>
+
+            <p>
+                Thông tin chung dùng để nhận diện
+                và hiển thị bài học trong khóa.
+            </p>
+
+        </div>
+
+
+        <a
+            class="small-button"
+            href="{{ url_for(
+                'admin_lessons.edit',
+                lesson_id=lesson.id
+            ) }}"
+        >
+            Chỉnh sửa
+        </a>
+
+    </div>
+
+
+    <!-- =================================================
+         THÔNG TIN NHANH
+    ================================================== -->
+
+    <div class="lesson-overview-grid">
+
+
+        <!-- =============================================
+             MÃ BÀI
+        ============================================== -->
+
+        <div class="lesson-overview-item">
+
+            <span>
+                Mã bài
+            </span>
+
+            <strong>
+                {{ lesson.id }}
+            </strong>
+
+        </div>
+
+
+        <!-- =============================================
+             SỐ THỨ TỰ
+        ============================================== -->
+
+        <div class="lesson-overview-item">
+
+            <span>
+                Số thứ tự
+            </span>
+
+            <strong>
+                Bài {{ lesson.order }}
+            </strong>
+
+        </div>
+
+
+        <!-- =============================================
+             CẤP ĐỘ
+        ============================================== -->
+
+        <div class="lesson-overview-item">
+
+            <span>
+                Cấp độ
+            </span>
+
+            <strong>
+                HSK {{ lesson.course_level }}
+            </strong>
+
+        </div>
+
+
+        <!-- =============================================
+             TRẠNG THÁI
+        ============================================== -->
+
+        <div class="lesson-overview-item">
+
+            <span>
+                Trạng thái
+            </span>
+
+            <strong>
+
+                {{
+                    statuses.get(
+                        lesson.status,
+                        lesson.status
+                    )
+                }}
+
+            </strong>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         KHÓA HỌC
+    ================================================== -->
+
+    <div class="space-top">
+
+        <strong>
+            Khóa học
+        </strong>
+
+        <p>
+
+            HSK {{ lesson.course_level }}
+            ·
+            {{ lesson.course_title }}
+
+        </p>
+
+    </div>
+
+
+    <!-- =================================================
+         TÓM TẮT
+    ================================================== -->
+
+    <div class="space-top">
+
+        <strong>
+            Tóm tắt
+        </strong>
+
+
+        <p>
+
+            {% if lesson.summary %}
+
+                {{ lesson.summary }}
+
+            {% else %}
+
+                Chưa có tóm tắt cho bài học này.
+
+            {% endif %}
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     TRẠNG THÁI NỘI DUNG
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                TRẠNG THÁI NỘI DUNG
+            </span>
+
+            <h2>
+                Mức độ hoàn thiện bài học
+            </h2>
+
+            <p>
+                Kiểm tra nhanh ba nội dung chính
+                của bài học.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="lesson-overview-grid">
+
+
+        <!-- =============================================
+             TỪ VỰNG
+        ============================================== -->
+
+        <div class="lesson-overview-item">
+
+            <span>
+                Từ vựng
+            </span>
+
+
+            {% if lesson.vocabulary_count > 0 %}
+
+                <strong>
+                    {{ lesson.vocabulary_count }} từ
+                </strong>
+
+            {% else %}
+
+                <strong>
+                    Chưa có
+                </strong>
+
+            {% endif %}
+
+        </div>
+
+
+        <!-- =============================================
+             NGỮ PHÁP
+        ============================================== -->
+
+        <div class="lesson-overview-item">
+
+            <span>
+                Ngữ pháp
+            </span>
+
+
+            {% if lesson.grammar_count > 0 %}
+
+                <strong>
+                    {{ lesson.grammar_count }} cấu trúc
+                </strong>
+
+            {% else %}
+
+                <strong>
+                    Chưa có
+                </strong>
+
+            {% endif %}
+
+        </div>
+
+
+        <!-- =============================================
+             CHỮ HÁN
+        ============================================== -->
+
+        <div class="lesson-overview-item">
+
+            <span>
+                Chữ Hán
+            </span>
+
+
+            {% if lesson.hanzi_count > 0 %}
+
+                <strong>
+                    {{ lesson.hanzi_count }} chữ
+                </strong>
+
+            {% else %}
+
+                <strong>
+                    Chưa có
+                </strong>
+
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CẢNH BÁO BÀI CHƯA CÓ NỘI DUNG
+===================================================== -->
+
+{% if
+    lesson.vocabulary_count == 0
+    and lesson.grammar_count == 0
+    and lesson.hanzi_count == 0
+%}
+
+    <div class="notice space-top">
+
+        Bài học này hiện mới chỉ có phần thông tin cơ bản.
+
+        Hãy bổ sung Từ vựng, Ngữ pháp và Chữ Hán
+        trước khi xuất bản bài học.
+
+    </div>
+
+{% endif %}
+
+
+{% endblock %}

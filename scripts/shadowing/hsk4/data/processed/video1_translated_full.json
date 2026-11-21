@@ -1,0 +1,2204 @@
+{
+  "module": "shadowing",
+  "youtube_id": "qAbVNWgPRJE",
+  "sentences": [
+    {
+      "start": 6.4,
+      "end": 10.533,
+      "hanzi": "大家好，欢迎收听新一期的“每天中文”。",
+      "pinyin": "dà jiā hǎo huān yíng shōu tīng xīn yī qī de měi tiān zhōng wén",
+      "vi": "Xin chào mọi người, chào mừng đến với số mới của chương trình \"Tiếng Trung mỗi ngày\"."
+    },
+    {
+      "start": 10.566,
+      "end": 11.7,
+      "hanzi": "我是李明。",
+      "pinyin": "wǒ shì lǐ míng",
+      "vi": "Tôi là Lý Minh."
+    },
+    {
+      "start": 11.733,
+      "end": 14.066,
+      "hanzi": "大家好，我是王雨。",
+      "pinyin": "dà jiā hǎo wǒ shì wáng yǔ",
+      "vi": "Xin chào mọi người, tôi là Vương Vũ."
+    },
+    {
+      "start": 14.1,
+      "end": 15.7,
+      "hanzi": "李明，你最近怎么样？",
+      "pinyin": "lǐ míng nǐ zuì jìn zěn me yàng",
+      "vi": "Lý Minh, dạo này bạn thế nào?"
+    },
+    {
+      "start": 15.733,
+      "end": 17.9,
+      "hanzi": "看起来心情不错。",
+      "pinyin": "kàn qǐ lái xīn qíng bù cuò",
+      "vi": "Trông tâm trạng bạn khá tốt đấy."
+    },
+    {
+      "start": 17.933,
+      "end": 21.866,
+      "hanzi": "(笑)，是吗？我最近挺好的，就是工作有点忙。",
+      "pinyin": "xiào shì ma wǒ zuì jìn tǐng hǎo de jiù shì gōng zuò yǒu diǎn máng",
+      "vi": "[Cười] Vậy sao? Dạo này tôi khá ổn, chỉ là công việc hơi bận."
+    },
+    {
+      "start": 21.9,
+      "end": 24.633,
+      "hanzi": "你呢，王雨？我也差不多，",
+      "pinyin": "nǐ ne wáng yǔ wǒ yě chà bu duō",
+      "vi": "Còn bạn thì sao, Vương Vũ? Tôi cũng gần như vậy,"
+    },
+    {
+      "start": 24.666,
+      "end": 26.3,
+      "hanzi": "不过忙里偷闲，",
+      "pinyin": "bù guò máng lǐ tōu xián",
+      "vi": "nhưng vẫn tranh thủ chút thời gian rảnh giữa lúc bận rộn,"
+    },
+    {
+      "start": 26.333,
+      "end": 28.433,
+      "hanzi": "前两天跟朋友发现了一家",
+      "pinyin": "qián liǎng tiān gēn péng yǒu fā xiàn le yī jiā",
+      "vi": "mấy hôm trước tôi cùng bạn bè phát hiện một"
+    },
+    {
+      "start": 28.466,
+      "end": 32.366,
+      "hanzi": "特别好吃的饭店，心情一下子就变好了。",
+      "pinyin": "tè bié hǎo chī de fàn diàn xīn qíng yī xià zi jiù biàn hǎo le",
+      "vi": "nhà hàng có món ăn đặc biệt ngon, tâm trạng lập tức tốt lên."
+    },
+    {
+      "start": 32.4,
+      "end": 34.766,
+      "hanzi": "美食的力量真的很强大。",
+      "pinyin": "měi shí de lì liàng zhēn de hěn qiáng dà",
+      "vi": "Sức mạnh của đồ ăn ngon thật sự rất lớn."
+    },
+    {
+      "start": 34.8,
+      "end": 37.333,
+      "hanzi": "我完全同意。说真的，",
+      "pinyin": "wǒ wán quán tóng yì shuō zhēn de",
+      "vi": "Tôi hoàn toàn đồng ý. Nói thật nhé,"
+    },
+    {
+      "start": 37.366,
+      "end": 39.1,
+      "hanzi": "能吃到好吃的东西，",
+      "pinyin": "néng chī dào hǎo chī de dōng xī",
+      "vi": "được ăn những món ngon"
+    },
+    {
+      "start": 39.133,
+      "end": 42.766,
+      "hanzi": "真的是生活中一件非常幸福的事情。",
+      "pinyin": "zhēn de shì shēng huó zhōng yī jiàn fēi cháng xìng fú de shì qíng",
+      "vi": "thật sự là một điều vô cùng hạnh phúc trong cuộc sống."
+    },
+    {
+      "start": 42.8,
+      "end": 45.466,
+      "hanzi": "“每天中文”就是这样一个播客，",
+      "pinyin": "měi tiān zhōng wén jiù shì zhè yàng yí gè bō kè",
+      "vi": "\"Tiếng Trung mỗi ngày\" chính là một chương trình podcast như vậy,"
+    },
+    {
+      "start": 45.5,
+      "end": 48.7,
+      "hanzi": "我们希望通过轻松、真实的聊天，",
+      "pinyin": "wǒ men xī wàng tōng guò qīng sōng zhēn shí de liáo tiān",
+      "vi": "chúng tôi hy vọng thông qua những cuộc trò chuyện thoải mái và chân thực,"
+    },
+    {
+      "start": 48.733,
+      "end": 51.133,
+      "hanzi": "帮助正在学习中文的朋友们，",
+      "pinyin": "bāng zhù zhèng zài xué xí zhōng wén de péng yǒu men",
+      "vi": "có thể giúp những người bạn đang học tiếng Trung"
+    },
+    {
+      "start": 51.166,
+      "end": 54.766,
+      "hanzi": "在每天的生活中找到学习的乐趣，",
+      "pinyin": "zài měi tiān de shēng huó zhōng zhǎo dào xué xí de lè qù",
+      "vi": "tìm thấy niềm vui học tập trong cuộc sống hằng ngày,"
+    },
+    {
+      "start": 54.8,
+      "end": 59.166,
+      "hanzi": "让中文成为你生活的一部分，就像美食一样。",
+      "pinyin": "ràng zhōng wén chéng wéi nǐ shēng huó de yī bù fèn jiù xiàng měi shí yī yàng",
+      "vi": "để tiếng Trung trở thành một phần cuộc sống của bạn, giống như đồ ăn ngon vậy."
+    },
+    {
+      "start": 59.2,
+      "end": 60.666,
+      "hanzi": "说得太好了！",
+      "pinyin": "shuō dé tài hǎo le",
+      "vi": "Bạn nói hay quá!"
+    },
+    {
+      "start": 60.7,
+      "end": 63.866,
+      "hanzi": "我们希望大家可以像听朋友聊天一样，",
+      "pinyin": "wǒ men xī wàng dà jiā kě yǐ xiàng tīng péng yǒu liáo tiān yī yàng",
+      "vi": "Chúng tôi hy vọng mọi người có thể nghe chương trình"
+    },
+    {
+      "start": 63.9,
+      "end": 66.533,
+      "hanzi": "很放松地来收听我们的节目。",
+      "pinyin": "hěn fàng sōng dì lái shōu tīng wǒ men de jié mù",
+      "vi": "một cách thư giãn, giống như đang nghe bạn bè trò chuyện."
+    },
+    {
+      "start": 66.566,
+      "end": 69.5,
+      "hanzi": "所以，今天正在收听我们节目的你，",
+      "pinyin": "suǒ yǐ jīn tiān zhèng zài shōu tīng wǒ men jié mù de nǐ",
+      "vi": "Vậy nên, bạn đang nghe chương trình của chúng tôi hôm nay,"
+    },
+    {
+      "start": 69.533,
+      "end": 71.266,
+      "hanzi": "现在是在做什么呢？",
+      "pinyin": "xiàn zài shì zài zuò shén me ne",
+      "vi": "bây giờ bạn đang làm gì?"
+    },
+    {
+      "start": 71.3,
+      "end": 76.333,
+      "hanzi": "是在散步，还是在做饭，或者是在上班的路上？",
+      "pinyin": "shì zài sàn bù hái shì zài zuò fàn huò zhě shì zài shàng bān de lù shàng",
+      "vi": "Bạn đang đi dạo, nấu ăn hay đang trên đường đi làm?"
+    },
+    {
+      "start": 76.366,
+      "end": 79.666,
+      "hanzi": "不管你在哪里，都很高兴有你的陪伴。",
+      "pinyin": "bù guǎn nǐ zài nǎ lǐ dōu hěn gāo xìng yǒu nǐ de péi bàn",
+      "vi": "Dù bạn ở đâu, chúng tôi cũng rất vui vì có bạn đồng hành."
+    },
+    {
+      "start": 79.7,
+      "end": 83.566,
+      "hanzi": "说到美食和饭店，我突然有个想法。",
+      "pinyin": "shuō dào měi shí hé fàn diàn wǒ tū rán yǒu gè xiǎng fǎ",
+      "vi": "Nhắc đến đồ ăn ngon và nhà hàng, tôi chợt có một ý tưởng."
+    },
+    {
+      "start": 83.6,
+      "end": 87.5,
+      "hanzi": "王雨，你刚才说你发现了一家新饭店。",
+      "pinyin": "wáng yǔ nǐ gāng cái shuō nǐ fā xiàn le yī jiā xīn fàn diàn",
+      "vi": "Vương Vũ, vừa rồi bạn nói đã phát hiện một nhà hàng mới."
+    },
+    {
+      "start": 87.533,
+      "end": 88.166,
+      "hanzi": "我想，",
+      "pinyin": "wǒ xiǎng",
+      "vi": "Tôi nghĩ,"
+    },
+    {
+      "start": 88.2,
+      "end": 91.266,
+      "hanzi": "对于很多正在学习中文的朋友来说，",
+      "pinyin": "duì yú hěn duō zhèng zài xué xí zhōng wén de péng yǒu lái shuō",
+      "vi": "đối với nhiều người bạn đang học tiếng Trung,"
+    },
+    {
+      "start": 91.3,
+      "end": 94.5,
+      "hanzi": "自己一个人去一家地道的中餐厅，",
+      "pinyin": "zì jǐ yí gè rén qù yī jiā dì dào de zhōng cān tīng",
+      "vi": "việc tự mình đến một nhà hàng Trung Quốc đúng kiểu địa phương"
+    },
+    {
+      "start": 94.533,
+      "end": 97.266,
+      "hanzi": "可能是一件有点挑战的事情。",
+      "pinyin": "kě néng shì yī jiàn yǒu diǎn tiǎo zhàn de shì qíng",
+      "vi": "có thể là một thử thách không nhỏ."
+    },
+    {
+      "start": 97.3,
+      "end": 100.466,
+      "hanzi": "从进门到点菜，再到买单，",
+      "pinyin": "cóng jìn mén dào diǎn cài zài dào mǎi dān",
+      "vi": "Từ lúc bước vào cửa, gọi món cho đến thanh toán,"
+    },
+    {
+      "start": 100.5,
+      "end": 102.933,
+      "hanzi": "可能会遇到各种各样的问题。",
+      "pinyin": "kě néng huì yù dào gè zhǒng gè yàng de wèn tí",
+      "vi": "có thể gặp đủ loại vấn đề."
+    },
+    {
+      "start": 102.966,
+      "end": 105.033,
+      "hanzi": "对对对！我完全理解。",
+      "pinyin": "duì duì duì wǒ wán quán lǐ jiě",
+      "vi": "Đúng, đúng! Tôi hoàn toàn hiểu."
+    },
+    {
+      "start": 105.066,
+      "end": 107.466,
+      "hanzi": "我刚开始自己出去吃饭的时候，",
+      "pinyin": "wǒ gāng kāi shǐ zì jǐ chū qù chī fàn de shí hòu",
+      "vi": "Khi mới bắt đầu tự ra ngoài ăn,"
+    },
+    {
+      "start": 107.5,
+      "end": 111.566,
+      "hanzi": "也经常拿着菜单不知道点什么好，特别紧张。",
+      "pinyin": "yě jīng cháng ná zhe cài dān bù zhī dào diǎn shén me hǎo tè bié jǐn zhāng",
+      "vi": "tôi cũng thường cầm thực đơn mà không biết gọi món gì, rất căng thẳng."
+    },
+    {
+      "start": 111.6,
+      "end": 117.233,
+      "hanzi": "给我们的听众朋友们一份",
+      "pinyin": "gěi wǒ men de tīng zhòng péng yǒu men yī fèn",
+      "vi": "Hay là chúng ta dành tặng các thính giả"
+    },
+    {
+      "start": 117.266,
+      "end": 119.666,
+      "hanzi": "“中餐厅生存指南”？",
+      "pinyin": "zhōng cān tīng shēng cún zhǐ nán",
+      "vi": "một \"cẩm nang sinh tồn tại nhà hàng Trung Quốc\" nhé?"
+    },
+    {
+      "start": 119.7,
+      "end": 121.433,
+      "hanzi": "这个主意太棒了。",
+      "pinyin": "zhè ge zhǔ yì tài bàng le",
+      "vi": "Ý tưởng này tuyệt quá."
+    },
+    {
+      "start": 121.466,
+      "end": 124.633,
+      "hanzi": "“生存指南”，听起来很有趣。",
+      "pinyin": "shēng cún zhǐ nán tīng qǐ lái hěn yǒu qù",
+      "vi": "\"Cẩm nang sinh tồn\", nghe thú vị thật."
+    },
+    {
+      "start": 124.666,
+      "end": 129.433,
+      "hanzi": "那我们今天就来聊一聊：如何在中国餐厅里轻松、",
+      "pinyin": "nà wǒ men jīn tiān jiù lái liáo yī liáo rú hé zài zhōng guó cān tīng lǐ qīng sōng",
+      "vi": "Vậy hôm nay chúng ta cùng nói về cách thoải mái"
+    },
+    {
+      "start": 129.466,
+      "end": 132.1,
+      "hanzi": "自信地享受一顿美餐。",
+      "pinyin": "zì xìn dì xiǎng shòu yī dùn měi cān",
+      "vi": "và tự tin thưởng thức một bữa ăn ngon ở nhà hàng Trung Quốc nhé."
+    },
+    {
+      "start": 132.133,
+      "end": 133.233,
+      "hanzi": "好的，王雨。",
+      "pinyin": "hǎo de wáng yǔ",
+      "vi": "Được, Vương Vũ."
+    },
+    {
+      "start": 133.266,
+      "end": 135.666,
+      "hanzi": "那么，我们的“生存指南”",
+      "pinyin": "nà me wǒ men de shēng cún zhǐ nán",
+      "vi": "Vậy bước đầu tiên trong \"cẩm nang sinh tồn\""
+    },
+    {
+      "start": 135.7,
+      "end": 138.133,
+      "hanzi": "第一步，应该从哪里开始呢？",
+      "pinyin": "dì yī bù yīng gāi cóng nǎ lǐ kāi shǐ ne",
+      "vi": "của chúng ta nên bắt đầu từ đâu?"
+    },
+    {
+      "start": 138.166,
+      "end": 141.966,
+      "hanzi": "嗯……我觉得应该是去饭店之前吧？",
+      "pinyin": "ń wǒ jué de yīng gāi shì qù fàn diàn zhī qián ba",
+      "vi": "Ừm... tôi nghĩ nên bắt đầu từ trước khi đến nhà hàng?"
+    },
+    {
+      "start": 142.0,
+      "end": 144.833,
+      "hanzi": "比如说，要不要提前预订座位？",
+      "pinyin": "bǐ rú shuō yào bù yào tí qián yù dìng zuò wèi",
+      "vi": "Ví dụ, có cần đặt bàn trước không?"
+    },
+    {
+      "start": 144.866,
+      "end": 146.833,
+      "hanzi": "我上次就是因为没有预订，",
+      "pinyin": "wǒ shàng cì jiù shì yīn wèi méi yǒu yù dìng",
+      "vi": "Lần trước chính vì tôi không đặt bàn,"
+    },
+    {
+      "start": 146.866,
+      "end": 150.666,
+      "hanzi": "在一家很有名的火锅店门口等了快两个小时！",
+      "pinyin": "zài yī jiā hěn yǒu míng de huǒ guō diàn mén kǒu děng le kuài liǎng gè xiǎo shí",
+      "vi": "nên phải đợi gần hai tiếng trước một nhà hàng lẩu rất nổi tiếng!"
+    },
+    {
+      "start": 150.7,
+      "end": 152.933,
+      "hanzi": "那次经历太难忘了。",
+      "pinyin": "nà cì jīng lì tài nán wàng le",
+      "vi": "Trải nghiệm lần đó thật khó quên."
+    },
+    {
+      "start": 152.966,
+      "end": 157.1,
+      "hanzi": "(笑)，看来你已经用亲身经历告诉我们答案了。",
+      "pinyin": "xiào kàn lái nǐ yǐ jīng yòng qīn shēn jīng lì gào sù wǒ men dá àn le",
+      "vi": "[Cười] Xem ra bạn đã dùng trải nghiệm thực tế để cho chúng ta biết câu trả lời rồi."
+    },
+    {
+      "start": 157.133,
+      "end": 160.266,
+      "hanzi": "没错，第一步就是“预订”，",
+      "pinyin": "méi cuò dì yī bù jiù shì yù dìng",
+      "vi": "Đúng vậy, bước đầu tiên chính là \"đặt bàn\","
+    },
+    {
+      "start": 160.3,
+      "end": 163.5,
+      "hanzi": "特别是那些很受欢迎的“网红餐厅”",
+      "pinyin": "tè bié shì nà xiē hěn shòu huān yíng de wǎng hóng cān tīng",
+      "vi": "đặc biệt ở những \"nhà hàng nổi tiếng trên mạng\" rất được yêu thích,"
+    },
+    {
+      "start": 163.533,
+      "end": 166.366,
+      "hanzi": "或者是在周末、节假日的时候。",
+      "pinyin": "huò zhě shì zài zhōu mò jié jià rì de shí hòu",
+      "vi": "hoặc vào cuối tuần và các ngày lễ."
+    },
+    {
+      "start": 166.4,
+      "end": 168.9,
+      "hanzi": "如果你不想花很长时间排队，",
+      "pinyin": "rú guǒ nǐ bù xiǎng huā hěn zhǎng shí jiān pái duì",
+      "vi": "Nếu bạn không muốn mất quá nhiều thời gian xếp hàng,"
+    },
+    {
+      "start": 168.933,
+      "end": 170.566,
+      "hanzi": "最好提前打个电话",
+      "pinyin": "zuì hǎo tí qián dǎ gè diàn huà",
+      "vi": "tốt nhất nên gọi điện trước"
+    },
+    {
+      "start": 170.6,
+      "end": 173.733,
+      "hanzi": "或者用手机上的应用预订一个位子。",
+      "pinyin": "huò zhě yòng shǒu jī shàng de yìng yòng yù dìng yí gè wèi zi",
+      "vi": "hoặc dùng ứng dụng trên điện thoại để đặt chỗ."
+    },
+    {
+      "start": 173.766,
+      "end": 177.1,
+      "hanzi": "那打电话预订的时候，应该怎么说呢？",
+      "pinyin": "nà dǎ diàn huà yù dìng de shí hòu yīng gāi zěn me shuō ne",
+      "vi": "Vậy khi gọi điện đặt bàn, chúng ta nên nói thế nào?"
+    },
+    {
+      "start": 177.133,
+      "end": 177.966,
+      "hanzi": "很简单。",
+      "pinyin": "hěn jiǎn dān",
+      "vi": "Rất đơn giản."
+    },
+    {
+      "start": 178.0,
+      "end": 181.333,
+      "hanzi": "电话接通后，你可以直接说：“你好，",
+      "pinyin": "diàn huà jiē tōng hòu nǐ kě yǐ zhí jiē shuō nǐ hǎo",
+      "vi": "Sau khi có người nghe máy, bạn có thể nói ngay: \"Xin chào,"
+    },
+    {
+      "start": 181.366,
+      "end": 183.366,
+      "hanzi": "我想预订一个位子。”",
+      "pinyin": "wǒ xiǎng yù dìng yí gè wèi zi",
+      "vi": "tôi muốn đặt một bàn.\""
+    },
+    {
+      "start": 183.4,
+      "end": 184.966,
+      "hanzi": "然后他们会问你：",
+      "pinyin": "rán hòu tā men huì wèn nǐ",
+      "vi": "Sau đó họ sẽ hỏi:"
+    },
+    {
+      "start": 185.0,
+      "end": 186.9,
+      "hanzi": "“几位？什么时候来？”",
+      "pinyin": "jǐ wèi shén me shí hòu lái",
+      "vi": "\"Mấy người? Khi nào đến?\""
+    },
+    {
+      "start": 186.933,
+      "end": 189.433,
+      "hanzi": "你就告诉他们人数和时间，",
+      "pinyin": "nǐ jiù gào sù tā men rén shù hé shí jiān",
+      "vi": "Bạn chỉ cần nói cho họ số người và thời gian,"
+    },
+    {
+      "start": 189.466,
+      "end": 193.533,
+      "hanzi": "比如：“我们有两个人，今天晚上七点到。”",
+      "pinyin": "bǐ rú wǒ men yǒu liǎng gè rén jīn tiān wǎn shàng qī diǎn dào",
+      "vi": "ví dụ: \"Chúng tôi có hai người, tối nay bảy giờ đến.\""
+    },
+    {
+      "start": 193.566,
+      "end": 194.233,
+      "hanzi": "最后，",
+      "pinyin": "zuì hòu",
+      "vi": "Cuối cùng,"
+    },
+    {
+      "start": 194.266,
+      "end": 197.266,
+      "hanzi": "他们可能会问你的姓氏和电话号码，",
+      "pinyin": "tā men kě néng huì wèn nǐ de xìng shì hé diàn huà hào mǎ",
+      "vi": "họ có thể hỏi họ của bạn và số điện thoại,"
+    },
+    {
+      "start": 197.3,
+      "end": 200.233,
+      "hanzi": "方便联系。哦，这个很简单！",
+      "pinyin": "fāng biàn lián xì ó zhè ge hěn jiǎn dān",
+      "vi": "để tiện liên lạc. Ồ, đơn giản thật!"
+    },
+    {
+      "start": 200.266,
+      "end": 203.5,
+      "hanzi": "“你好，我想预订。两位，晚上七点。”",
+      "pinyin": "nǐ hǎo wǒ xiǎng yù dìng liǎng wèi wǎn shàng qī diǎn",
+      "vi": "\"Xin chào, tôi muốn đặt bàn. Hai người, bảy giờ tối.\""
+    },
+    {
+      "start": 203.533,
+      "end": 205.266,
+      "hanzi": "这样说清楚就行了。",
+      "pinyin": "zhè yàng shuō qīng chǔ jiù xíng le",
+      "vi": "Chỉ cần nói rõ như vậy là được."
+    },
+    {
+      "start": 205.3,
+      "end": 208.433,
+      "hanzi": "那如果我们没有预订，直接去了饭店，",
+      "pinyin": "nà rú guǒ wǒ men méi yǒu yù dìng zhí jiē qù le fàn diàn",
+      "vi": "Vậy nếu chúng ta không đặt trước mà đến thẳng nhà hàng,"
+    },
+    {
+      "start": 208.466,
+      "end": 210.466,
+      "hanzi": "进门之后要怎么做呢？",
+      "pinyin": "jìn mén zhī hòu yào zěn me zuò ne",
+      "vi": "sau khi bước vào cửa thì nên làm gì?"
+    },
+    {
+      "start": 210.5,
+      "end": 214.633,
+      "hanzi": "走进饭店，一般会有一个服务员在门口迎接你。",
+      "pinyin": "zǒu jìn fàn diàn yì bān huì yǒu yí gè fú wù yuán zài mén kǒu yíng jiē nǐ",
+      "vi": "Khi bước vào nhà hàng, thông thường sẽ có nhân viên phục vụ đón bạn ở cửa."
+    },
+    {
+      "start": 214.666,
+      "end": 217.833,
+      "hanzi": "他会笑着问：“你好，请问几位？”",
+      "pinyin": "tā huì xiào zhe wèn nǐ hǎo qǐng wèn jǐ wèi",
+      "vi": "Họ sẽ mỉm cười hỏi: \"Xin chào, xin hỏi có mấy người?\""
+    },
+    {
+      "start": 217.866,
+      "end": 220.133,
+      "hanzi": "你直接告诉他人就可以了，",
+      "pinyin": "nǐ zhí jiē gào sù tā rén jiù kě yǐ le",
+      "vi": "Bạn chỉ cần nói cho họ biết số người,"
+    },
+    {
+      "start": 220.166,
+      "end": 222.166,
+      "hanzi": "比如伸出两个手指，",
+      "pinyin": "bǐ rú shēn chū liǎng gè shǒu zhǐ",
+      "vi": "ví dụ giơ hai ngón tay lên,"
+    },
+    {
+      "start": 222.2,
+      "end": 224.033,
+      "hanzi": "然后说：“两位。”",
+      "pinyin": "rán hòu shuō liǎng wèi",
+      "vi": "rồi nói: \"Hai người.\""
+    },
+    {
+      "start": 224.066,
+      "end": 225.733,
+      "hanzi": "服务员就会带你到座位",
+      "pinyin": "fú wù yuán jiù huì dài nǐ dào zuò wèi",
+      "vi": "Nhân viên phục vụ sẽ dẫn bạn đến bàn,"
+    },
+    {
+      "start": 225.766,
+      "end": 229.933,
+      "hanzi": "上，说：“这边请。”这个场景我太熟悉了。",
+      "pinyin": "shàng shuō zhè biān qǐng zhè ge chǎng jǐng wǒ tài shú xī le",
+      "vi": "rồi nói: \"Mời đi lối này.\" Tình huống này tôi quá quen rồi."
+    },
+    {
+      "start": 229.966,
+      "end": 232.666,
+      "hanzi": "然后服务员会给我们菜单，对吧？",
+      "pinyin": "rán hòu fú wù yuán huì gěi wǒ men cài dān duì ba",
+      "vi": "Sau đó nhân viên phục vụ sẽ đưa thực đơn cho chúng ta, đúng không?"
+    },
+    {
+      "start": 232.7,
+      "end": 234.933,
+      "hanzi": "接下来就是最难的部分了……",
+      "pinyin": "jiē xià lái jiù shì zuì nán de bù fèn le",
+      "vi": "Tiếp theo mới là phần khó nhất..."
+    },
+    {
+      "start": 234.966,
+      "end": 237.333,
+      "hanzi": "别着急，我们一步一步来。",
+      "pinyin": "bié zháo jí wǒ men yí bù yí bù lái",
+      "vi": "Đừng vội, chúng ta làm từng bước một."
+    },
+    {
+      "start": 237.366,
+      "end": 240.266,
+      "hanzi": "顺利坐下，已经成功了第一步。",
+      "pinyin": "shùn lì zuò xià yǐ jīng chéng gōng le dì yī bù",
+      "vi": "Ngồi vào bàn thuận lợi tức là đã thành công bước đầu tiên."
+    },
+    {
+      "start": 240.3,
+      "end": 244.333,
+      "hanzi": "这就像玩一个游戏，我们已经进入了第一个关卡。",
+      "pinyin": "zhè jiù xiàng wán yí gè yóu xì wǒ men yǐ jīng jìn rù le dì yí gè guān qiǎ",
+      "vi": "Giống như chơi trò chơi, chúng ta đã vượt qua cửa ải đầu tiên."
+    },
+    {
+      "start": 244.366,
+      "end": 245.766,
+      "hanzi": "好的，李明老师，",
+      "pinyin": "hǎo de lǐ míng lǎo shī",
+      "vi": "Được rồi, thầy Lý Minh,"
+    },
+    {
+      "start": 245.8,
+      "end": 249.766,
+      "hanzi": "现在我们进入了最难的关卡——点菜！",
+      "pinyin": "xiàn zài wǒ men jìn rù le zuì nán de guān qiǎ diǎn cài",
+      "vi": "bây giờ chúng ta bước vào cửa ải khó nhất: gọi món!"
+    },
+    {
+      "start": 249.8,
+      "end": 253.333,
+      "hanzi": "打开菜单，上面密密麻麻都是汉字，",
+      "pinyin": "dǎ kāi cài dān shàng miàn mì mì má má dōu shì hàn zì",
+      "vi": "Mở thực đơn ra, bên trên toàn chữ Hán dày đặc,"
+    },
+    {
+      "start": 253.366,
+      "end": 255.166,
+      "hanzi": "有时候有图片还好，",
+      "pinyin": "yǒu shí hòu yǒu tú piàn hái hǎo",
+      "vi": "đôi khi có hình ảnh thì còn đỡ,"
+    },
+    {
+      "start": 255.2,
+      "end": 256.933,
+      "hanzi": "要是没有图片，我真",
+      "pinyin": "yào shì méi yǒu tú piàn wǒ zhēn",
+      "vi": "nhưng nếu không có hình, tôi thật"
+    },
+    {
+      "start": 256.966,
+      "end": 259.3,
+      "hanzi": "真的感觉像在看一本“天书”。",
+      "pinyin": "zhēn de gǎn jué xiàng zài kàn yī běn tiān shū",
+      "vi": "sự cảm thấy như đang đọc một cuốn \"sách trời\" không hiểu nổi."
+    },
+    {
+      "start": 259.333,
+      "end": 260.7,
+      "hanzi": "很多字我都认识，",
+      "pinyin": "hěn duō zì wǒ dōu rèn shí",
+      "vi": "Có rất nhiều chữ tôi đều biết,"
+    },
+    {
+      "start": 260.733,
+      "end": 263.433,
+      "hanzi": "但它们组合在一起变成一个菜名，",
+      "pinyin": "dàn tā men zǔ hé zài yì qǐ biàn chéng yí gè cài míng",
+      "vi": "nhưng khi chúng kết hợp lại thành tên một món ăn,"
+    },
+    {
+      "start": 263.466,
+      "end": 265.733,
+      "hanzi": "我就完全不知道它是什么了。",
+      "pinyin": "wǒ jiù wán quán bù zhī dào tā shì shén me le",
+      "vi": "thì tôi hoàn toàn không biết đó là món gì."
+    },
+    {
+      "start": 265.766,
+      "end": 267.966,
+      "hanzi": "我非常理解这种感觉，",
+      "pinyin": "wǒ fēi cháng lǐ jiě zhè zhǒng gǎn jué",
+      "vi": "Tôi rất hiểu cảm giác đó,"
+    },
+    {
+      "start": 268.0,
+      "end": 269.5,
+      "hanzi": "这可能是所有学习",
+      "pinyin": "zhè kě néng shì suǒ yǒu xué xí",
+      "vi": "đây có lẽ là một trong những"
+    },
+    {
+      "start": 269.533,
+      "end": 271.633,
+      "hanzi": "中文的朋友都会遇到的一个大",
+      "pinyin": "zhōng wén de péng yǒu dū huì yù dào de yí gè dà",
+      "vi": "vấn đề khó khăn lớn mà tất cả các bạn học"
+    },
+    {
+      "start": 271.666,
+      "end": 275.633,
+      "hanzi": "难题。但其实，点菜也是有技巧的。",
+      "pinyin": "nán tí dàn qí shí diǎn cài yě shì yǒu jì qiǎo de",
+      "vi": "tiếng Trung đều gặp phải. Nhưng thật ra gọi món cũng có mẹo."
+    },
+    {
+      "start": 275.666,
+      "end": 276.833,
+      "hanzi": "首先，你可以",
+      "pinyin": "shǒu xiān nǐ kě yǐ",
+      "vi": "Trước tiên, bạn có thể"
+    },
+    {
+      "start": 276.866,
+      "end": 279.7,
+      "hanzi": "找一找菜单上有没有“推荐菜”",
+      "pinyin": "zhǎo yī zhǎo cài dān shàng yǒu méi yǒu tuī jiàn cài",
+      "vi": "tìm xem trên thực đơn có dòng chữ \"món được đề xuất\""
+    },
+    {
+      "start": 279.733,
+      "end": 282.066,
+      "hanzi": "或者“招牌菜”这几个字。",
+      "pinyin": "huò zhě zhāo pái cài zhè jǐ gè zì",
+      "vi": "hoặc \"món đặc trưng của nhà hàng\" hay không."
+    },
+    {
+      "start": 282.1,
+      "end": 284.5,
+      "hanzi": "“招牌菜”？这是什么意思？",
+      "pinyin": "zhāo pái cài zhè shì shén me yì si",
+      "vi": "\"Món đặc trưng\" à? Nghĩa là gì?"
+    },
+    {
+      "start": 284.533,
+      "end": 287.533,
+      "hanzi": "“招牌菜”就是一个饭店做得最好、",
+      "pinyin": "zhāo pái cài jiù shì yí gè fàn diàn zuò dé zuì hǎo",
+      "vi": "\"Món đặc trưng\" là món mà nhà hàng nấu ngon nhất,"
+    },
+    {
+      "start": 287.566,
+      "end": 290.1,
+      "hanzi": "最有名、最受欢迎的菜。",
+      "pinyin": "zuì yǒu míng zuì shòu huān yíng de cài",
+      "vi": "nổi tiếng nhất và được nhiều người yêu thích nhất."
+    },
+    {
+      "start": 290.133,
+      "end": 293.5,
+      "hanzi": "一般来说，点“招牌菜”都不会错。",
+      "pinyin": "yì bān lái shuō diǎn zhāo pái cài dōu bú huì cuò",
+      "vi": "Nói chung, gọi món đặc trưng thường sẽ không sai."
+    },
+    {
+      "start": 293.533,
+      "end": 295.566,
+      "hanzi": "这就像你去一个城市旅游，",
+      "pinyin": "zhè jiù xiàng nǐ qù yí gè chéng shì lǚ yóu",
+      "vi": "Giống như khi bạn đi du lịch đến một thành phố,"
+    },
+    {
+      "start": 295.6,
+      "end": 298.633,
+      "hanzi": "肯定会去它最有名的那个景点一样。",
+      "pinyin": "kěn dìng huì qù tā zuì yǒu míng de nà ge jǐng diǎn yī yàng",
+      "vi": "chắc chắn sẽ đến địa điểm tham quan nổi tiếng nhất ở đó."
+    },
+    {
+      "start": 298.666,
+      "end": 301.266,
+      "hanzi": "所以，当你不知道点什么的时候，",
+      "pinyin": "suǒ yǐ dāng nǐ bù zhī dào diǎn shén me de shí hòu",
+      "vi": "Vì vậy, khi không biết nên gọi món gì,"
+    },
+    {
+      "start": 301.3,
+      "end": 303.833,
+      "hanzi": "可以直接问服务员：“你好，",
+      "pinyin": "kě yǐ zhí jiē wèn fú wù yuán nǐ hǎo",
+      "vi": "bạn có thể hỏi thẳng nhân viên phục vụ: \"Xin chào,"
+    },
+    {
+      "start": 303.866,
+      "end": 306.066,
+      "hanzi": "请问你们的招牌菜是什么？”",
+      "pinyin": "qǐng wèn nǐ men de zhāo pái cài shì shén me",
+      "vi": "xin hỏi món đặc trưng của nhà hàng mình là gì?\""
+    },
+    {
+      "start": 306.1,
+      "end": 308.566,
+      "hanzi": "他们会非常乐意向你推荐的。",
+      "pinyin": "tā men huì fēi cháng lè yì xiàng nǐ tuī jiàn de",
+      "vi": "Họ sẽ rất sẵn lòng giới thiệu cho bạn."
+    },
+    {
+      "start": 308.6,
+      "end": 311.233,
+      "hanzi": "哇，这是一个非常实用的技巧！",
+      "pinyin": "wa zhè shì yí gè fēi cháng shí yòng de jì qiǎo",
+      "vi": "Ồ, đây là một mẹo vô cùng hữu ích!"
+    },
+    {
+      "start": 311.266,
+      "end": 312.766,
+      "hanzi": "直接问服务员！",
+      "pinyin": "zhí jiē wèn fú wù yuán",
+      "vi": "Hỏi trực tiếp nhân viên phục vụ!"
+    },
+    {
+      "start": 312.8,
+      "end": 315.666,
+      "hanzi": "这样就不用自己看着菜单头疼了。",
+      "pinyin": "zhè yàng jiù bù yòng zì jǐ kàn zhe cài dān tóu téng le",
+      "vi": "Như vậy sẽ không phải đau đầu nhìn thực đơn nữa."
+    },
+    {
+      "start": 315.7,
+      "end": 317.566,
+      "hanzi": "我以前总是不好意思问，",
+      "pinyin": "wǒ yǐ qián zǒng shì bù hǎo yì sī wèn",
+      "vi": "Trước đây tôi luôn ngại hỏi,"
+    },
+    {
+      "start": 317.6,
+      "end": 319.766,
+      "hanzi": "怕他们觉得我什么都不懂。",
+      "pinyin": "pà tā men jué de wǒ shén me dōu bù dǒng",
+      "vi": "vì sợ họ nghĩ rằng tôi chẳng hiểu gì cả."
+    },
+    {
+      "start": 319.8,
+      "end": 321.433,
+      "hanzi": "完全不用担心。",
+      "pinyin": "wán quán bù yòng dān xīn",
+      "vi": "Hoàn toàn không cần lo lắng."
+    },
+    {
+      "start": 321.466,
+      "end": 324.066,
+      "hanzi": "其实，当你作为一个外国人，",
+      "pinyin": "qí shí dāng nǐ zuò wéi yí gè wài guó rén",
+      "vi": "Thật ra khi bạn là người nước ngoài"
+    },
+    {
+      "start": 324.1,
+      "end": 326.666,
+      "hanzi": "用中文去询问和学习，",
+      "pinyin": "yòng zhōng wén qù xún wèn hé xué xí",
+      "vi": "và dùng tiếng Trung để hỏi han, tìm hiểu,"
+    },
+    {
+      "start": 326.7,
+      "end": 330.533,
+      "hanzi": "大多数人都会非常友好和耐心地帮助你。",
+      "pinyin": "dà duō shù rén dū huì fēi cháng yǒu hǎo hé nài xīn dì bāng zhù nǐ",
+      "vi": "đa số mọi người sẽ rất thân thiện và kiên nhẫn giúp đỡ bạn."
+    },
+    {
+      "start": 330.566,
+      "end": 333.366,
+      "hanzi": "嗯，你这么一说，我就有信心了。",
+      "pinyin": "ń nǐ zhè me yī shuō wǒ jiù yǒu xìn xīn le",
+      "vi": "Ừm, nghe bạn nói vậy, tôi thấy tự tin hơn rồi."
+    },
+    {
+      "start": 333.4,
+      "end": 335.3,
+      "hanzi": "其实大家听我们聊天，",
+      "pinyin": "qí shí dà jiā tīng wǒ men liáo tiān",
+      "vi": "Thật ra các bạn đang nghe chúng tôi trò chuyện,"
+    },
+    {
+      "start": 335.333,
+      "end": 337.733,
+      "hanzi": "如果有些词或者有些句子",
+      "pinyin": "rú guǒ yǒu xiē cí huò zhě yǒu xiē jù zi",
+      "vi": "nếu có một vài từ hoặc câu"
+    },
+    {
+      "start": 337.766,
+      "end": 340.366,
+      "hanzi": "你一下子没听懂，真的没关系。",
+      "pinyin": "nǐ yī xià zi méi tīng dǒng zhēn de méi guān xì",
+      "vi": "mà bạn chưa hiểu ngay thì cũng không sao cả."
+    },
+    {
+      "start": 340.4,
+      "end": 342.666,
+      "hanzi": "你可以根据我们说话的感觉",
+      "pinyin": "nǐ kě yǐ gēn jù wǒ men shuō huà de gǎn jué",
+      "vi": "Bạn có thể dựa vào ngữ điệu và cách chúng tôi nói"
+    },
+    {
+      "start": 342.7,
+      "end": 347.033,
+      "hanzi": "猜一猜大概的意思，或者打开油管的字幕看一看。",
+      "pinyin": "cāi yī cāi dà gài de yì si huò zhě dǎ kāi yóu guǎn de zì mù kàn yī kàn",
+      "vi": "để đoán ý chính, hoặc bật phụ đề YouTube lên xem."
+    },
+    {
+      "start": 347.066,
+      "end": 350.166,
+      "hanzi": "我们节目的博客上也会有完整的文本，",
+      "pinyin": "wǒ men jié mù de bó kè shàng yě huì yǒu wán zhěng de wén běn",
+      "vi": "Trên blog của chương trình cũng có toàn bộ nội dung lời thoại,"
+    },
+    {
+      "start": 350.2,
+      "end": 354.233,
+      "hanzi": "别担心，慢慢来，语言学习就是这样的过程。",
+      "pinyin": "bié dān xīn màn màn lái yǔ yán xué xí jiù shì zhè yàng de guò chéng",
+      "vi": "đừng lo, cứ từ từ, học ngôn ngữ chính là một quá trình như vậy."
+    },
+    {
+      "start": 354.266,
+      "end": 355.833,
+      "hanzi": "王雨说的没错。",
+      "pinyin": "wáng yǔ shuō de méi cuò",
+      "vi": "Vương Vũ nói đúng."
+    },
+    {
+      "start": 355.866,
+      "end": 359.133,
+      "hanzi": "回到点菜的话题，除了问服务员，",
+      "pinyin": "huí dào diǎn cài de huà tí chú le wèn fú wù yuán",
+      "vi": "Quay lại chủ đề gọi món, ngoài việc hỏi nhân viên phục vụ,"
+    },
+    {
+      "start": 359.166,
+      "end": 360.866,
+      "hanzi": "还有一个好方法。",
+      "pinyin": "hái yǒu yí gè hǎo fāng fǎ",
+      "vi": "còn có một cách hay nữa."
+    },
+    {
+      "start": 360.9,
+      "end": 365.433,
+      "hanzi": "你可以悄悄地看看你旁边桌的客人都点了什么菜。",
+      "pinyin": "nǐ kě yǐ qiāo qiāo dì kàn kàn nǐ páng biān zhuō de kè rén dōu diǎn le shén me cài",
+      "vi": "Bạn có thể kín đáo nhìn xem những vị khách ở bàn bên cạnh đã gọi món gì."
+    },
+    {
+      "start": 365.466,
+      "end": 368.366,
+      "hanzi": "如果看到某个菜看起来特别好吃，",
+      "pinyin": "rú guǒ kàn dào mǒu gè cài kàn qǐ lái tè bié hǎo chī",
+      "vi": "Nếu thấy một món trông đặc biệt ngon,"
+    },
+    {
+      "start": 368.4,
+      "end": 370.866,
+      "hanzi": "你甚至可以直接指着那个菜，",
+      "pinyin": "nǐ shèn zhì kě yǐ zhí jiē zhǐ zhe nà ge cài",
+      "vi": "thậm chí bạn có thể chỉ vào món đó,"
+    },
+    {
+      "start": 370.9,
+      "end": 374.1,
+      "hanzi": "问服务员：“请问，那个是什么菜？”",
+      "pinyin": "wèn fú wù yuán qǐng wèn nà ge shì shén me cài",
+      "vi": "rồi hỏi nhân viên phục vụ: \"Xin hỏi, đó là món gì?\""
+    },
+    {
+      "start": 374.133,
+      "end": 376.333,
+      "hanzi": "(笑)，这个方法我用过！",
+      "pinyin": "xiào zhè ge fāng fǎ wǒ yòng guò",
+      "vi": "[Cười] Cách này tôi từng dùng rồi!"
+    },
+    {
+      "start": 376.366,
+      "end": 377.733,
+      "hanzi": "真的很有用！",
+      "pinyin": "zhēn de hěn yǒu yòng",
+      "vi": "Thật sự rất hiệu quả!"
+    },
+    {
+      "start": 377.766,
+      "end": 380.566,
+      "hanzi": "有一次我看到旁边桌上的一盘鱼",
+      "pinyin": "yǒu yī cì wǒ kàn dào páng biān zhuō shàng de yī pán yú",
+      "vi": "Có lần tôi thấy một đĩa cá ở bàn bên cạnh"
+    },
+    {
+      "start": 380.6,
+      "end": 383.533,
+      "hanzi": "看起来特别香，我就问了服务员，",
+      "pinyin": "kàn qǐ lái tè bié xiāng wǒ jiù wèn le fú wù yuán",
+      "vi": "trông rất thơm ngon nên đã hỏi nhân viên phục vụ,"
+    },
+    {
+      "start": 383.566,
+      "end": 385.133,
+      "hanzi": "然后也点了一份，",
+      "pinyin": "rán hòu yě diǎn le yī fèn",
+      "vi": "sau đó cũng gọi một phần,"
+    },
+    {
+      "start": 385.166,
+      "end": 388.7,
+      "hanzi": "结果真的超级好吃！对吧？这叫",
+      "pinyin": "jié guǒ zhēn de chāo jí hǎo chī duì ba zhè jiào",
+      "vi": "kết quả ngon cực kỳ! Đúng không? Cách này gọi là"
+    },
+    {
+      "start": 388.733,
+      "end": 391.566,
+      "hanzi": "“跟着本地人吃，总没错”。",
+      "pinyin": "gēn zhe běn dì rén chī zǒng méi cuò",
+      "vi": "\"Cứ ăn theo người địa phương thì thường không sai.\""
+    },
+    {
+      "start": 391.6,
+      "end": 394.133,
+      "hanzi": "点菜其实就像一个导演",
+      "pinyin": "diǎn cài qí shí jiù xiàng yí gè dǎo yǎn",
+      "vi": "Thật ra, gọi món giống như một đạo diễn"
+    },
+    {
+      "start": 394.166,
+      "end": 398.966,
+      "hanzi": "在安排一场电影，你要考虑到整桌菜的搭配。",
+      "pinyin": "zài ān pái yī cháng diàn yǐng nǐ yào kǎo lǜ dào zhěng zhuō cài de dā pèi",
+      "vi": "đang sắp xếp một bộ phim, bạn cần chú ý phối hợp các món trên bàn."
+    },
+    {
+      "start": 399.0,
+      "end": 400.766,
+      "hanzi": "一顿完美的中餐，",
+      "pinyin": "yī dùn wán měi de zhōng cān",
+      "vi": "Một bữa ăn Trung Quốc hoàn hảo"
+    },
+    {
+      "start": 400.8,
+      "end": 405.3,
+      "hanzi": "最好有肉、有蔬菜、有汤，味道上最",
+      "pinyin": "zuì hǎo yǒu ròu yǒu shū cài yǒu tāng wèi dào shàng zuì",
+      "vi": "tốt nhất nên có thịt, rau và canh. Về hương vị thì"
+    },
+    {
+      "start": 405.333,
+      "end": 408.7,
+      "hanzi": "好也有一些变化，比如一个辣的菜，",
+      "pinyin": "hǎo yě yǒu yī xiē biàn huà bǐ rú yí gè là de cài",
+      "vi": "cũng nên có sự thay đổi, ví dụ một món cay,"
+    },
+    {
+      "start": 408.733,
+      "end": 410.133,
+      "hanzi": "一个不辣的菜。",
+      "pinyin": "yí gè bù là de cài",
+      "vi": "một món không cay."
+    },
+    {
+      "start": 410.166,
+      "end": 412.933,
+      "hanzi": "哇，点菜还有这么多学问！",
+      "pinyin": "wa diǎn cài hái yǒu zhè me duō xué wèn",
+      "vi": "Ồ, hóa ra gọi món cũng có nhiều điều cần học như vậy!"
+    },
+    {
+      "start": 412.966,
+      "end": 417.266,
+      "hanzi": "像导演一样安排一桌菜，这个比喻很有意思。",
+      "pinyin": "xiàng dǎo yǎn yī yàng ān pái yī zhuō cài zhè ge bǐ yù hěn yǒu yì si",
+      "vi": "Sắp xếp cả bàn ăn như đạo diễn dàn dựng phim, phép so sánh này thú vị đấy."
+    },
+    {
+      "start": 417.3,
+      "end": 419.466,
+      "hanzi": "那如果我有一些东西不吃，",
+      "pinyin": "nà rú guǒ wǒ yǒu yī xiē dōng xī bù chī",
+      "vi": "Vậy nếu tôi có một số món không ăn được,"
+    },
+    {
+      "start": 419.5,
+      "end": 422.633,
+      "hanzi": "比如我不吃辣，或者我不吃香菜，",
+      "pinyin": "bǐ rú wǒ bù chī là huò zhě wǒ bù chī xiāng cài",
+      "vi": "ví dụ tôi không ăn cay hoặc không ăn rau mùi,"
+    },
+    {
+      "start": 422.666,
+      "end": 424.7,
+      "hanzi": "我应该怎么告诉服务员呢？",
+      "pinyin": "wǒ yīng gāi zěn me gào sù fú wù yuán ne",
+      "vi": "thì nên nói với nhân viên phục vụ thế nào?"
+    },
+    {
+      "start": 424.733,
+      "end": 429.466,
+      "hanzi": "这个很重要，我们把这种情况叫做“忌口”。",
+      "pinyin": "zhè ge hěn zhòng yào wǒ men bǎ zhè zhǒng qíng kuàng jiào zuò jì kǒu",
+      "vi": "Điều này rất quan trọng, chúng ta gọi trường hợp đó là \"kiêng ăn\"."
+    },
+    {
+      "start": 429.5,
+      "end": 433.566,
+      "hanzi": "你可以在点菜的时候，直接跟服务员说清楚。",
+      "pinyin": "nǐ kě yǐ zài diǎn cài de shí hòu zhí jiē gēn fú wù yuán shuō qīng chǔ",
+      "vi": "Bạn có thể nói rõ với nhân viên phục vụ ngay khi gọi món."
+    },
+    {
+      "start": 433.6,
+      "end": 437.566,
+      "hanzi": "比如点一个“宫保鸡丁”，你可以说：",
+      "pinyin": "bǐ rú diǎn yí gè gōng bǎo jī dīng nǐ kě yǐ shuō",
+      "vi": "Ví dụ khi gọi món \"gà xào Cung Bảo\", bạn có thể nói:"
+    },
+    {
+      "start": 437.6,
+      "end": 440.533,
+      "hanzi": "“宫保鸡丁，请不要放辣椒。”",
+      "pinyin": "gōng bǎo jī dīng qǐng bú yào fàng là jiāo",
+      "vi": "\"Món gà xào Cung Bảo, xin đừng cho ớt.\""
+    },
+    {
+      "start": 440.566,
+      "end": 442.466,
+      "hanzi": "或者更简单地说：",
+      "pinyin": "huò zhě gèng jiǎn dān dì shuō",
+      "vi": "Hoặc nói đơn giản hơn:"
+    },
+    {
+      "start": 442.5,
+      "end": 445.166,
+      "hanzi": "“这个菜，我不要辣的。”",
+      "pinyin": "zhè ge cài wǒ bú yào là de",
+      "vi": "\"Món này tôi không muốn ăn cay.\""
+    },
+    {
+      "start": 445.2,
+      "end": 446.666,
+      "hanzi": "如果你不吃香菜，",
+      "pinyin": "rú guǒ nǐ bù chī xiāng cài",
+      "vi": "Nếu bạn không ăn rau mùi,"
+    },
+    {
+      "start": 446.7,
+      "end": 449.9,
+      "hanzi": "就说：“请不要放香菜。”哦，",
+      "pinyin": "jiù shuō qǐng bú yào fàng xiāng cài ó",
+      "vi": "thì nói: \"Xin đừng cho rau mùi.\" Ồ,"
+    },
+    {
+      "start": 449.933,
+      "end": 452.233,
+      "hanzi": "“忌口”，这个词我记住了。",
+      "pinyin": "jì kǒu zhè ge cí wǒ jì zhù le",
+      "vi": "\"Kiêng ăn\", tôi nhớ từ này rồi."
+    },
+    {
+      "start": 452.266,
+      "end": 454.466,
+      "hanzi": "比如说：“我有一些忌口，",
+      "pinyin": "bǐ rú shuō wǒ yǒu yī xiē jì kǒu",
+      "vi": "Ví dụ: \"Tôi có một số thứ phải kiêng,"
+    },
+    {
+      "start": 454.5,
+      "end": 457.633,
+      "hanzi": "我不吃海鲜。”这样服务员就能明白了。",
+      "pinyin": "wǒ bù chī hǎi xiān zhè yàng fú wù yuán jiù néng míng bái le",
+      "vi": "tôi không ăn hải sản.\" Như vậy nhân viên phục vụ sẽ hiểu."
+    },
+    {
+      "start": 457.666,
+      "end": 458.833,
+      "hanzi": "完全正确。",
+      "pinyin": "wán quán zhèng què",
+      "vi": "Hoàn toàn chính xác."
+    },
+    {
+      "start": 458.866,
+      "end": 460.7,
+      "hanzi": "只要你提前说清楚，",
+      "pinyin": "zhǐ yào nǐ tí qián shuō qīng chǔ",
+      "vi": "Chỉ cần bạn nói rõ từ trước,"
+    },
+    {
+      "start": 460.733,
+      "end": 464.666,
+      "hanzi": "饭店的厨房都会尽量满足你的要求。",
+      "pinyin": "fàn diàn de chú fáng dū huì jǐn liàng mǎn zú nǐ de yāo qiú",
+      "vi": "nhà bếp sẽ cố gắng đáp ứng yêu cầu của bạn."
+    },
+    {
+      "start": 464.7,
+      "end": 467.466,
+      "hanzi": "所以，总结一下点菜的技巧：",
+      "pinyin": "suǒ yǐ zǒng jié yī xià diǎn cài de jì qiǎo",
+      "vi": "Vậy chúng ta tổng kết các mẹo gọi món nhé:"
+    },
+    {
+      "start": 467.5,
+      "end": 470.7,
+      "hanzi": "第一，问服务员要“招牌菜”；",
+      "pinyin": "dì yī wèn fú wù yuán yào zhāo pái cài",
+      "vi": "Thứ nhất, hỏi nhân viên phục vụ về \"món đặc trưng\";"
+    },
+    {
+      "start": 470.733,
+      "end": 473.933,
+      "hanzi": "第二，看别人桌上点了什么；",
+      "pinyin": "dì èr kàn bié rén zhuō shàng diǎn le shén me",
+      "vi": "thứ hai, xem các bàn khác gọi món gì;"
+    },
+    {
+      "start": 473.966,
+      "end": 476.766,
+      "hanzi": "第三，注意荤素搭配；",
+      "pinyin": "dì sān zhù yì hūn sù dā pèi",
+      "vi": "thứ ba, chú ý kết hợp món mặn và món rau;"
+    },
+    {
+      "start": 476.8,
+      "end": 480.166,
+      "hanzi": "第四，告诉服务员你的“忌口”。",
+      "pinyin": "dì sì gào sù fú wù yuán nǐ de jì kǒu",
+      "vi": "thứ tư, nói cho nhân viên phục vụ biết những món bạn \"kiêng ăn\"."
+    },
+    {
+      "start": 480.2,
+      "end": 483.5,
+      "hanzi": "掌握了这几点，点菜就没那么可怕了。",
+      "pinyin": "zhǎng wò le zhè jǐ diǎn diǎn cài jiù méi nà me kě pà le",
+      "vi": "Nắm được những điểm này, việc gọi món sẽ không còn đáng sợ nữa."
+    },
+    {
+      "start": 483.533,
+      "end": 487.733,
+      "hanzi": "好的，菜点好了，热气腾腾的菜也上来了。",
+      "pinyin": "hǎo de cài diǎn hǎo le rè qì téng téng de cài yě shàng lái le",
+      "vi": "Được rồi, chúng ta đã gọi món xong, các món ăn nóng hổi cũng được mang lên."
+    },
+    {
+      "start": 487.766,
+      "end": 489.133,
+      "hanzi": "在吃饭的过程中，",
+      "pinyin": "zài chī fàn de guò chéng zhōng",
+      "vi": "Trong quá trình ăn,"
+    },
+    {
+      "start": 489.166,
+      "end": 491.266,
+      "hanzi": "我们可能还需要一些东西，",
+      "pinyin": "wǒ men kě néng hái xū yào yī xiē dōng xī",
+      "vi": "có thể chúng ta sẽ cần thêm một vài thứ,"
+    },
+    {
+      "start": 491.3,
+      "end": 494.933,
+      "hanzi": "比如想再要一碗米饭，或者想加点水，",
+      "pinyin": "bǐ rú xiǎng zài yào yī wǎn mǐ fàn huò zhě xiǎng jiā diǎn shuǐ",
+      "vi": "ví dụ muốn lấy thêm một bát cơm hoặc thêm nước,"
+    },
+    {
+      "start": 494.966,
+      "end": 497.1,
+      "hanzi": "这时候怎么叫服务员呢？",
+      "pinyin": "zhè shí hòu zěn me jiào fú wù yuán ne",
+      "vi": "lúc ấy nên gọi nhân viên phục vụ thế nào?"
+    },
+    {
+      "start": 497.133,
+      "end": 500.466,
+      "hanzi": "我总不能一直对着他招手吧？(笑)，",
+      "pinyin": "wǒ zǒng bù néng yì zhí duì zhe tā zhāo shǒu ba xiào",
+      "vi": "Tôi không thể cứ liên tục vẫy tay với họ được chứ? [Cười]"
+    },
+    {
+      "start": 500.5,
+      "end": 502.033,
+      "hanzi": "当然可以招手。",
+      "pinyin": "dāng rán kě yǐ zhāo shǒu",
+      "vi": "Tất nhiên bạn có thể vẫy tay."
+    },
+    {
+      "start": 502.066,
+      "end": 504.933,
+      "hanzi": "不过更礼貌、更普遍的做法是，",
+      "pinyin": "bù guò gèng lǐ mào gèng pǔ biàn de zuò fǎ shì",
+      "vi": "Nhưng cách lịch sự và phổ biến hơn là"
+    },
+    {
+      "start": 504.966,
+      "end": 509.533,
+      "hanzi": "你可以稍微提高一点声音，叫一声“服务员”。",
+      "pinyin": "nǐ kě yǐ shāo wēi tí gāo yì diǎn shēng yīn jiào yī shēng fú wù yuán",
+      "vi": "bạn có thể nói lớn hơn một chút, gọi \"Nhân viên phục vụ ơi!\"."
+    },
+    {
+      "start": 509.566,
+      "end": 511.266,
+      "hanzi": "他们听到了就会过来。",
+      "pinyin": "tā men tīng dào le jiù huì guò lái",
+      "vi": "Khi nghe thấy, họ sẽ đến."
+    },
+    {
+      "start": 511.3,
+      "end": 514.466,
+      "hanzi": "就是直接叫“服务员”这三个字吗？",
+      "pinyin": "jiù shì zhí jiē jiào fú wù yuán zhè sān gè zì ma",
+      "vi": "Chỉ cần gọi ba chữ \"nhân viên phục vụ\" thôi sao?"
+    },
+    {
+      "start": 514.5,
+      "end": 517.633,
+      "hanzi": "是的。或者你也可以说“你好”，",
+      "pinyin": "shì de huò zhě nǐ yě kě yǐ shuō nǐ hǎo",
+      "vi": "Đúng vậy. Hoặc bạn cũng có thể nói \"Xin chào\","
+    },
+    {
+      "start": 517.666,
+      "end": 520.833,
+      "hanzi": "只要能吸引到他们的注意就可以。",
+      "pinyin": "zhǐ yào néng xī yǐn dào tā men de zhù yì jiù kě yǐ",
+      "vi": "chỉ cần thu hút được sự chú ý của họ là được."
+    },
+    {
+      "start": 520.866,
+      "end": 524.166,
+      "hanzi": "等他们过来了，你就可以直接说你的需求。",
+      "pinyin": "děng tā men guò lái le nǐ jiù kě yǐ zhí jiē shuō nǐ de xū qiú",
+      "vi": "Sau khi họ đến, bạn có thể nói thẳng nhu cầu của mình."
+    },
+    {
+      "start": 524.2,
+      "end": 527.533,
+      "hanzi": "比如：“你好，请再给我一碗米饭。”",
+      "pinyin": "bǐ rú nǐ hǎo qǐng zài gěi wǒ yī wǎn mǐ fàn",
+      "vi": "Ví dụ: \"Xin chào, cho tôi thêm một bát cơm.\""
+    },
+    {
+      "start": 527.566,
+      "end": 529.1,
+      "hanzi": "或者 “你好，",
+      "pinyin": "huò zhě nǐ hǎo",
+      "vi": "Hoặc: \"Xin chào,"
+    },
+    {
+      "start": 529.133,
+      "end": 530.833,
+      "hanzi": "可以帮我们加点水吗？”",
+      "pinyin": "kě yǐ bāng wǒ men jiā diǎn shuǐ ma",
+      "vi": "có thể thêm nước giúp chúng tôi không?\""
+    },
+    {
+      "start": 530.866,
+      "end": 533.366,
+      "hanzi": "明白了。“服务员，加水。”",
+      "pinyin": "míng bái le fú wù yuán jiā shuǐ",
+      "vi": "Tôi hiểu rồi. \"Nhân viên ơi, thêm nước.\""
+    },
+    {
+      "start": 533.4,
+      "end": 536.9,
+      "hanzi": "“服务员，再来一碗米饭。”这样说很清楚。",
+      "pinyin": "fú wù yuán zài lái yī wǎn mǐ fàn zhè yàng shuō hěn qīng chǔ",
+      "vi": "\"Nhân viên ơi, cho thêm một bát cơm.\" Nói như vậy rất rõ ràng."
+    },
+    {
+      "start": 536.933,
+      "end": 539.233,
+      "hanzi": "那如果我想用餐巾纸呢？",
+      "pinyin": "nà rú guǒ wǒ xiǎng yòng cān jīn zhǐ ne",
+      "vi": "Vậy nếu tôi muốn dùng khăn giấy ăn thì sao?"
+    },
+    {
+      "start": 539.266,
+      "end": 542.3,
+      "hanzi": "你可以问：“请问有餐巾纸吗？”",
+      "pinyin": "nǐ kě yǐ wèn qǐng wèn yǒu cān jīn zhǐ ma",
+      "vi": "Bạn có thể hỏi: \"Xin hỏi có khăn giấy ăn không?\""
+    },
+    {
+      "start": 542.333,
+      "end": 544.7,
+      "hanzi": "一般饭店的桌子上都会有，",
+      "pinyin": "yì bān fàn diàn de zhuō zi shàng dū huì yǒu",
+      "vi": "Thông thường trên bàn ở nhà hàng đều có sẵn,"
+    },
+    {
+      "start": 544.733,
+      "end": 547.166,
+      "hanzi": "如果没有，他们会拿给你。",
+      "pinyin": "rú guǒ méi yǒu tā men huì ná gěi nǐ",
+      "vi": "nếu không có, họ sẽ mang đến cho bạn."
+    },
+    {
+      "start": 547.2,
+      "end": 550.3,
+      "hanzi": "这些都是非常简单和直接的交流，",
+      "pinyin": "zhè xiē dōu shì fēi cháng jiǎn dān hé zhí jiē de jiāo liú",
+      "vi": "Đây đều là những cách giao tiếp rất đơn giản và trực tiếp,"
+    },
+    {
+      "start": 550.333,
+      "end": 552.033,
+      "hanzi": "不用想得太复杂。",
+      "pinyin": "bù yòng xiǎng dé tài fù zá",
+      "vi": "không cần nghĩ quá phức tạp."
+    },
+    {
+      "start": 552.066,
+      "end": 553.333,
+      "hanzi": "嗯，确实。",
+      "pinyin": "ń què shí",
+      "vi": "Ừm, đúng thật."
+    },
+    {
+      "start": 553.366,
+      "end": 556.966,
+      "hanzi": "吃饭的时候，最重要的就是放松和享受。",
+      "pinyin": "chī fàn de shí hòu zuì zhòng yào de jiù shì fàng sōng hé xiǎng shòu",
+      "vi": "Khi ăn, điều quan trọng nhất là thư giãn và thưởng thức."
+    },
+    {
+      "start": 557.0,
+      "end": 560.9,
+      "hanzi": "有任何需要，直接、礼貌地告诉服务员就好了。",
+      "pinyin": "yǒu rèn hé xū yào zhí jiē lǐ mào dì gào sù fú wù yuán jiù hǎo le",
+      "vi": "Có bất kỳ nhu cầu gì, cứ lịch sự và trực tiếp nói với nhân viên phục vụ là được."
+    },
+    {
+      "start": 560.933,
+      "end": 564.433,
+      "hanzi": "没错。享受美食，享受和朋友在",
+      "pinyin": "méi cuò xiǎng shòu měi shí xiǎng shòu hé péng yǒu zài",
+      "vi": "Đúng vậy. Thưởng thức món ngon, tận hưởng khoảng thời gian ở"
+    },
+    {
+      "start": 564.466,
+      "end": 566.933,
+      "hanzi": "一起的时光，这才是最重要的。",
+      "pinyin": "yì qǐ de shí guāng zhè cái shì zuì zhòng yào de",
+      "vi": "bên bạn bè mới là điều quan trọng nhất."
+    },
+    {
+      "start": 566.966,
+      "end": 569.766,
+      "hanzi": "好了，一顿饭吃得心满意足，",
+      "pinyin": "hǎo le yī dùn fàn chī dé xīn mǎn yì zú",
+      "vi": "Được rồi, sau khi ăn một bữa thật no và thỏa mãn,"
+    },
+    {
+      "start": 569.8,
+      "end": 574.3,
+      "hanzi": "酒足饭饱之后，就到了最后一个环节——买单。",
+      "pinyin": "jiǔ zú fàn bǎo zhī hòu jiù dào le zuì hòu yí gè huán jié mǎi dān",
+      "vi": "đến bước cuối cùng, chính là thanh toán."
+    },
+    {
+      "start": 574.333,
+      "end": 576.933,
+      "hanzi": "在中国，我发现买单是一件",
+      "pinyin": "zài zhōng guó wǒ fā xiàn mǎi dān shì yī jiàn",
+      "vi": "Ở Trung Quốc, tôi phát hiện việc thanh toán là một chuyện"
+    },
+    {
+      "start": 576.966,
+      "end": 579.1,
+      "hanzi": "特别有意思的事情，",
+      "pinyin": "tè bié yǒu yì si de shì qíng",
+      "vi": "đặc biệt thú vị,"
+    },
+    {
+      "start": 579.133,
+      "end": 582.1,
+      "hanzi": "尤其是和朋友一起吃饭的时候。哦？",
+      "pinyin": "yóu qí shì hé péng yǒu yì qǐ chī fàn de shí hòu ó",
+      "vi": "nhất là khi ăn cùng bạn bè. Ồ?"
+    },
+    {
+      "start": 582.133,
+      "end": 583.3,
+      "hanzi": "怎么有意思了？",
+      "pinyin": "zěn me yǒu yì si le",
+      "vi": "Có gì thú vị vậy?"
+    },
+    {
+      "start": 583.333,
+      "end": 585.366,
+      "hanzi": "我经常看到饭店里的人",
+      "pinyin": "wǒ jīng cháng kàn dào fàn diàn lǐ de rén",
+      "vi": "Tôi thường thấy mọi người trong nhà hàng"
+    },
+    {
+      "start": 585.4,
+      "end": 587.5,
+      "hanzi": "为了谁来买单“吵架”，",
+      "pinyin": "wèi le shuí lái mǎi dān chǎo jià",
+      "vi": "\"tranh cãi\" xem ai sẽ trả tiền,"
+    },
+    {
+      "start": 587.533,
+      "end": 590.166,
+      "hanzi": "每个人都抢着说“我来！我来！”，",
+      "pinyin": "měi gè rén dōu qiǎng zhe shuō wǒ lái wǒ lái",
+      "vi": "ai cũng tranh nhau nói: \"Để tôi! Để tôi!\","
+    },
+    {
+      "start": 590.2,
+      "end": 592.166,
+      "hanzi": "然后拿出手机扫码。",
+      "pinyin": "rán hòu ná chū shǒu jī sǎo mǎ",
+      "vi": "rồi lấy điện thoại ra quét mã."
+    },
+    {
+      "start": 592.2,
+      "end": 594.266,
+      "hanzi": "那个场面真的很有趣，",
+      "pinyin": "nà ge chǎng miàn zhēn de hěn yǒu qù",
+      "vi": "Cảnh tượng đó thật sự rất thú vị,"
+    },
+    {
+      "start": 594.3,
+      "end": 598.066,
+      "hanzi": "感觉大家不是在花钱，而是在抢一个奖品。",
+      "pinyin": "gǎn jué dà jiā bú shì zài huā qián ér shì zài qiǎng yí gè jiǎng pǐn",
+      "vi": "cảm giác như mọi người không phải đang tiêu tiền mà đang tranh giành một phần thưởng."
+    },
+    {
+      "start": 598.1,
+      "end": 600.7,
+      "hanzi": "(笑)，你观察得很仔细。",
+      "pinyin": "xiào nǐ guān chá dé hěn zǐ xì",
+      "vi": "[Cười] Bạn quan sát kỹ thật đấy."
+    },
+    {
+      "start": 600.733,
+      "end": 603.033,
+      "hanzi": "这确实是中国餐桌上一个",
+      "pinyin": "zhè què shí shì zhōng guó cān zhuō shàng yí gè",
+      "vi": "Đây quả thực là một"
+    },
+    {
+      "start": 603.066,
+      "end": 607.733,
+      "hanzi": "很独特的文化现象，我们叫“抢着买单”。",
+      "pinyin": "hěn dú tè de wén huà xiàn xiàng wǒ men jiào qiǎng zhe mǎi dān",
+      "vi": "hiện tượng văn hóa rất đặc trưng trên bàn ăn Trung Quốc, gọi là \"tranh nhau trả tiền\"."
+    },
+    {
+      "start": 607.766,
+      "end": 612.966,
+      "hanzi": "这背后其实是一种热情好客和表达友谊的方式。",
+      "pinyin": "zhè bèi hòu qí shí shì yī zhǒng rè qíng hào kè hé biǎo dá yǒu yì de fāng shì",
+      "vi": "Đằng sau đó là cách thể hiện sự hiếu khách và tình bạn."
+    },
+    {
+      "start": 613.0,
+      "end": 616.5,
+      "hanzi": "大家都想“请客”，通过请对方吃饭",
+      "pinyin": "dà jiā dōu xiǎng qǐng kè tōng guò qǐng duì fāng chī fàn",
+      "vi": "Mọi người đều muốn \"mời khách\", thông qua việc mời người khác ăn"
+    },
+    {
+      "start": 616.533,
+      "end": 619.266,
+      "hanzi": "来表达自己的感谢或者情意。",
+      "pinyin": "lái biǎo dá zì jǐ de gǎn xiè huò zhě qíng yì",
+      "vi": "để bày tỏ lòng cảm ơn hoặc tình cảm của mình."
+    },
+    {
+      "start": 619.3,
+      "end": 621.166,
+      "hanzi": "原来是这样！",
+      "pinyin": "yuán lái shì zhè yàng",
+      "vi": "Hóa ra là như vậy!"
+    },
+    {
+      "start": 621.2,
+      "end": 623.666,
+      "hanzi": "是一种表达感情的方式。",
+      "pinyin": "shì yī zhǒng biǎo dá gǎn qíng de fāng shì",
+      "vi": "Đó là một cách thể hiện tình cảm."
+    },
+    {
+      "start": 623.7,
+      "end": 626.066,
+      "hanzi": "那如果我们是跟朋友一起吃饭，",
+      "pinyin": "nà rú guǒ wǒ men shì gēn péng yǒu yì qǐ chī fàn",
+      "vi": "Vậy nếu chúng ta ăn cùng bạn bè,"
+    },
+    {
+      "start": 626.1,
+      "end": 628.733,
+      "hanzi": "我们想各付各的，应该怎么说呢？",
+      "pinyin": "wǒ men xiǎng gè fù gè de yīng gāi zěn me shuō ne",
+      "vi": "và muốn mỗi người tự trả phần của mình thì nói thế nào?"
+    },
+    {
+      "start": 628.766,
+      "end": 631.833,
+      "hanzi": "这个很简单，现在年轻人之间吃饭，",
+      "pinyin": "zhè ge hěn jiǎn dān xiàn zài nián qīng rén zhī jiān chī fàn",
+      "vi": "Rất đơn giản. Hiện nay khi người trẻ ở Trung Quốc đi ăn cùng nhau,"
+    },
+    {
+      "start": 631.866,
+      "end": 634.366,
+      "hanzi": "各付各的已经非常普遍了。",
+      "pinyin": "gè fù gè de yǐ jīng fēi cháng pǔ biàn le",
+      "vi": "việc ai trả phần người ấy đã rất phổ biến."
+    },
+    {
+      "start": 634.4,
+      "end": 637.566,
+      "hanzi": "你可以直接跟朋友或者服务员说：",
+      "pinyin": "nǐ kě yǐ zhí jiē gēn péng yǒu huò zhě fú wù yuán shuō",
+      "vi": "Bạn có thể nói trực tiếp với bạn bè hoặc nhân viên phục vụ:"
+    },
+    {
+      "start": 637.6,
+      "end": 639.266,
+      "hanzi": "“我们各付各的吧。”",
+      "pinyin": "wǒ men gè fù gè de ba",
+      "vi": "\"Chúng ta mỗi người tự trả phần của mình nhé.\""
+    },
+    {
+      "start": 639.3,
+      "end": 643.666,
+      "hanzi": "哦，直接说“各付各的”就行了，真方便！",
+      "pinyin": "ó zhí jiē shuō gè fù gè de jiù xíng le zhēn fāng biàn",
+      "vi": "Ồ, chỉ cần nói \"ai trả phần người ấy\" là được, tiện thật!"
+    },
+    {
+      "start": 643.7,
+      "end": 647.7,
+      "hanzi": "现在在中国，用手机付钱非常方便，到",
+      "pinyin": "xiàn zài zài zhōng guó yòng shǒu jī fù qián fēi cháng fāng biàn dào",
+      "vi": "Ngày nay ở Trung Quốc, thanh toán bằng điện thoại rất tiện lợi, ở"
+    },
+    {
+      "start": 647.733,
+      "end": 650.466,
+      "hanzi": "处都可以用微信或者支付宝。",
+      "pinyin": "chù dōu kě yǐ yòng wēi xìn huò zhě zhī fù bǎo",
+      "vi": "khắp nơi đều có thể dùng WeChat hoặc Alipay."
+    },
+    {
+      "start": 650.5,
+      "end": 652.633,
+      "hanzi": "是的，所以买单的时候，",
+      "pinyin": "shì de suǒ yǐ mǎi dān de shí hòu",
+      "vi": "Đúng vậy, vì thế khi thanh toán,"
+    },
+    {
+      "start": 652.666,
+      "end": 655.3,
+      "hanzi": "你只要跟服务员说一声“买单”，",
+      "pinyin": "nǐ zhǐ yào gēn fú wù yuán shuō yī shēng mǎi dān",
+      "vi": "bạn chỉ cần nói với nhân viên phục vụ \"Tính tiền\","
+    },
+    {
+      "start": 655.333,
+      "end": 656.733,
+      "hanzi": "然后拿出手机，",
+      "pinyin": "rán hòu ná chū shǒu jī",
+      "vi": "rồi lấy điện thoại ra,"
+    },
+    {
+      "start": 656.766,
+      "end": 659.5,
+      "hanzi": "他会拿一个二维码过来让你扫，",
+      "pinyin": "tā huì ná yí gè èr wéi mǎ guò lái ràng nǐ sǎo",
+      "vi": "họ sẽ mang một mã QR đến để bạn quét,"
+    },
+    {
+      "start": 659.533,
+      "end": 662.933,
+      "hanzi": "整个过程非常快，几秒钟就完成了。",
+      "pinyin": "zhěng gè guò chéng fēi cháng kuài jǐ miǎo zhōng jiù wán chéng le",
+      "vi": "toàn bộ quá trình rất nhanh, chỉ vài giây là hoàn thành."
+    },
+    {
+      "start": 662.966,
+      "end": 666.533,
+      "hanzi": "你也可以说“结账”，和“买单”是一个意思。",
+      "pinyin": "nǐ yě kě yǐ shuō jié zhàng hé mǎi dān shì yí gè yì si",
+      "vi": "Bạn cũng có thể nói \"Thanh toán\", nghĩa giống như \"Tính tiền\"."
+    },
+    {
+      "start": 666.566,
+      "end": 669.1,
+      "hanzi": "嗯，“买单”或者“结账”。",
+      "pinyin": "ń mǎi dān huò zhě jié zhàng",
+      "vi": "Ừm, \"tính tiền\" hoặc \"thanh toán\"."
+    },
+    {
+      "start": 669.133,
+      "end": 671.7,
+      "hanzi": "然后用手机扫码支付。",
+      "pinyin": "rán hòu yòng shǒu jī sǎo mǎ zhī fù",
+      "vi": "Sau đó dùng điện thoại quét mã để trả tiền."
+    },
+    {
+      "start": 671.733,
+      "end": 674.766,
+      "hanzi": "听你这么一分解，从进门、点菜、",
+      "pinyin": "tīng nǐ zhè me yī fēn jiě cóng jìn mén diǎn cài",
+      "vi": "Nghe bạn giải thích từng bước như vậy, từ khi bước vào, gọi món,"
+    },
+    {
+      "start": 674.8,
+      "end": 677.033,
+      "hanzi": "吃饭到最后的买单，",
+      "pinyin": "chī fàn dào zuì hòu de mǎi dān",
+      "vi": "ăn uống cho đến lúc cuối cùng thanh toán,"
+    },
+    {
+      "start": 677.066,
+      "end": 680.233,
+      "hanzi": "整个过程好像都变得清晰和简单了。",
+      "pinyin": "zhěng gè guò chéng hǎo xiàng dōu biàn dé qīng xī hé jiǎn dān le",
+      "vi": "cả quá trình dường như đã trở nên rõ ràng và đơn giản hơn."
+    },
+    {
+      "start": 680.266,
+      "end": 682.833,
+      "hanzi": "当然。其实去餐厅吃饭，",
+      "pinyin": "dāng rán qí shí qù cān tīng chī fàn",
+      "vi": "Đúng vậy. Thật ra khi đến nhà hàng ăn,"
+    },
+    {
+      "start": 682.866,
+      "end": 685.9,
+      "hanzi": "本质上就是一次交流和体验。",
+      "pinyin": "běn zhì shàng jiù shì yī cì jiāo liú hé tǐ yàn",
+      "vi": "về bản chất đó là một lần giao tiếp và trải nghiệm."
+    },
+    {
+      "start": 685.933,
+      "end": 687.833,
+      "hanzi": "语言只是一个工具，",
+      "pinyin": "yǔ yán zhǐ shì yí gè gōng jù",
+      "vi": "Ngôn ngữ chỉ là một công cụ,"
+    },
+    {
+      "start": 687.866,
+      "end": 691.366,
+      "hanzi": "最重要的是敢于开口去说，去问。",
+      "pinyin": "zuì zhòng yào de shì gǎn yú kāi kǒu qù shuō qù wèn",
+      "vi": "quan trọng nhất là dám mở miệng nói và dám hỏi."
+    },
+    {
+      "start": 691.4,
+      "end": 695.3,
+      "hanzi": "即使说错了，或者发音不标准，都没有关系。",
+      "pinyin": "jí shǐ shuō cuò le huò zhě fā yīn bù biāo zhǔn dōu méi yǒu guān xì",
+      "vi": "Dù nói sai hoặc phát âm chưa chuẩn cũng không sao."
+    },
+    {
+      "start": 695.333,
+      "end": 697.966,
+      "hanzi": "勇敢地迈出第一步，你会发现，",
+      "pinyin": "yǒng gǎn dì mài chū dì yī bù nǐ huì fā xiàn",
+      "vi": "Hãy dũng cảm bước bước đầu tiên, bạn sẽ nhận ra rằng"
+    },
+    {
+      "start": 698.0,
+      "end": 702.133,
+      "hanzi": "享受一顿地道的中餐，其实一点也不难。",
+      "pinyin": "xiǎng shòu yī dùn dì dào de zhōng cān qí shí yì diǎn yě bù nán",
+      "vi": "thưởng thức một bữa ăn Trung Quốc đúng kiểu địa phương thật ra chẳng khó chút nào."
+    },
+    {
+      "start": 702.166,
+      "end": 702.766,
+      "hanzi": "王雨，",
+      "pinyin": "wáng yǔ",
+      "vi": "Vương Vũ,"
+    },
+    {
+      "start": 702.8,
+      "end": 705.733,
+      "hanzi": "我们今天聊了去饭店的整个过程，",
+      "pinyin": "wǒ men jīn tiān liáo le qù fàn diàn de zhěng gè guò chéng",
+      "vi": "hôm nay chúng ta đã trò chuyện về toàn bộ quá trình đi ăn nhà hàng,"
+    },
+    {
+      "start": 705.766,
+      "end": 707.233,
+      "hanzi": "其中有几个词，",
+      "pinyin": "qí zhōng yǒu jǐ gè cí",
+      "vi": "trong đó có một vài từ"
+    },
+    {
+      "start": 707.266,
+      "end": 710.433,
+      "hanzi": "我觉得对我们的听众朋友们特别有用。",
+      "pinyin": "wǒ jué de duì wǒ men de tīng zhòng péng yǒu men tè bié yǒu yòng",
+      "vi": "mà tôi nghĩ rất hữu ích đối với các thính giả."
+    },
+    {
+      "start": 710.466,
+      "end": 712.733,
+      "hanzi": "我们来一起复习一下，好吗？",
+      "pinyin": "wǒ men lái yì qǐ fù xí yī xià hǎo ma",
+      "vi": "Chúng ta cùng ôn tập một chút nhé?"
+    },
+    {
+      "start": 712.766,
+      "end": 716.833,
+      "hanzi": "好啊！ / 李明: 第一个词是“招牌菜”。如果",
+      "pinyin": "hǎo a lǐ míng dì yí gè cí shì zhāo pái cài rú guǒ",
+      "vi": "Được chứ! / Lý Minh: Từ đầu tiên là \"món đặc trưng\". Nếu"
+    },
+    {
+      "start": 716.866,
+      "end": 720.1,
+      "hanzi": "一个听众朋友在菜单上看到这三个字，",
+      "pinyin": "yí gè tīng zhòng péng yǒu zài cài dān shàng kàn dào zhè sān gè zì",
+      "vi": "một thính giả nhìn thấy ba chữ này trên thực đơn,"
+    },
+    {
+      "start": 720.133,
+      "end": 721.5,
+      "hanzi": "它是什么意思呢？",
+      "pinyin": "tā shì shén me yì si ne",
+      "vi": "thì chúng có nghĩa là gì?"
+    },
+    {
+      "start": 721.533,
+      "end": 723.633,
+      "hanzi": "“招牌菜”的意思很简单，",
+      "pinyin": "zhāo pái cài de yì si hěn jiǎn dān",
+      "vi": "\"Món đặc trưng\" có nghĩa rất đơn giản,"
+    },
+    {
+      "start": 723.666,
+      "end": 727.333,
+      "hanzi": "就是这个饭店里最好吃、最有名的菜。",
+      "pinyin": "jiù shì zhè ge fàn diàn lǐ zuì hǎo chī zuì yǒu míng de cài",
+      "vi": "chính là món ngon nhất và nổi tiếng nhất của nhà hàng đó."
+    },
+    {
+      "start": 727.366,
+      "end": 731.433,
+      "hanzi": "如果你不知道点什么，点招牌菜肯定没错！",
+      "pinyin": "rú guǒ nǐ bù zhī dào diǎn shén me diǎn zhāo pái cài kěn dìng méi cuò",
+      "vi": "Nếu bạn không biết gọi món gì thì gọi món đặc trưng chắc chắn không sai!"
+    },
+    {
+      "start": 731.466,
+      "end": 732.466,
+      "hanzi": "说得很好。",
+      "pinyin": "shuō dé hěn hǎo",
+      "vi": "Bạn nói rất hay."
+    },
+    {
+      "start": 732.5,
+      "end": 733.7,
+      "hanzi": "第二个词，",
+      "pinyin": "dì èr gè cí",
+      "vi": "Từ thứ hai,"
+    },
+    {
+      "start": 733.733,
+      "end": 738.066,
+      "hanzi": "“地道”。我们经常说这家饭店很“地道”，",
+      "pinyin": "dì dào wǒ men jīng cháng shuō zhè jiā fàn diàn hěn dì dào",
+      "vi": "là \"đúng kiểu địa phương\". Chúng ta thường nói nhà hàng này rất \"chuẩn vị\","
+    },
+    {
+      "start": 738.1,
+      "end": 740.066,
+      "hanzi": "这个“地道”是什么意思？",
+      "pinyin": "zhè ge dì dào shì shén me yì si",
+      "vi": "vậy \"chuẩn vị\" có nghĩa là gì?"
+    },
+    {
+      "start": 740.1,
+      "end": 742.233,
+      "hanzi": "嗯，“地道”就是说，",
+      "pinyin": "ń dì dào jiù shì shuō",
+      "vi": "Ừm, \"chuẩn vị\" có nghĩa là"
+    },
+    {
+      "start": 742.266,
+      "end": 745.033,
+      "hanzi": "这个地方的菜做得非常传统，",
+      "pinyin": "zhè ge dì fāng de cài zuò dé fēi cháng chuán tǒng",
+      "vi": "món ăn ở nơi này được chế biến theo cách rất truyền thống,"
+    },
+    {
+      "start": 745.066,
+      "end": 749.266,
+      "hanzi": "味道特别好，跟本地人平时吃的一模一样。",
+      "pinyin": "wèi dào tè bié hǎo gēn běn dì rén píng shí chī de yī mú yī yàng",
+      "vi": "hương vị đặc biệt ngon, giống hệt món người địa phương thường ăn."
+    },
+    {
+      "start": 749.3,
+      "end": 751.833,
+      "hanzi": "它代表了一种很高的评价。",
+      "pinyin": "tā dài biǎo le yī zhǒng hěn gāo de píng jià",
+      "vi": "Đó là một lời đánh giá rất cao."
+    },
+    {
+      "start": 751.866,
+      "end": 753.033,
+      "hanzi": "完全正确。",
+      "pinyin": "wán quán zhèng què",
+      "vi": "Hoàn toàn chính xác."
+    },
+    {
+      "start": 753.066,
+      "end": 755.433,
+      "hanzi": "下一个词，“忌口”。",
+      "pinyin": "xià yí gè cí jì kǒu",
+      "vi": "Từ tiếp theo là \"kiêng ăn\"."
+    },
+    {
+      "start": 755.466,
+      "end": 758.666,
+      "hanzi": "这个词在点菜的时候非常重要。",
+      "pinyin": "zhè ge cí zài diǎn cài de shí hòu fēi cháng zhòng yào",
+      "vi": "Từ này rất quan trọng khi gọi món."
+    },
+    {
+      "start": 758.7,
+      "end": 760.9,
+      "hanzi": "“忌口”就是指你因为身",
+      "pinyin": "jì kǒu jiù shì zhǐ nǐ yīn wèi shēn",
+      "vi": "\"Kiêng ăn\" chỉ việc vì lý do sức"
+    },
+    {
+      "start": 760.933,
+      "end": 763.1,
+      "hanzi": "体原因或者个人习惯，",
+      "pinyin": "tǐ yuán yīn huò zhě gè rén xí guàn",
+      "vi": "khỏe hoặc thói quen cá nhân,"
+    },
+    {
+      "start": 763.133,
+      "end": 765.966,
+      "hanzi": "不能吃或者不喜欢吃的东西。",
+      "pinyin": "bù néng chī huò zhě bù xǐ huān chī de dōng xī",
+      "vi": "mà có những món bạn không thể ăn hoặc không thích ăn."
+    },
+    {
+      "start": 766.0,
+      "end": 769.566,
+      "hanzi": "比如，有的人不吃辣，有的人不吃肉，",
+      "pinyin": "bǐ rú yǒu de rén bù chī là yǒu de rén bù chī ròu",
+      "vi": "Ví dụ có người không ăn cay, có người không ăn thịt,"
+    },
+    {
+      "start": 769.6,
+      "end": 772.033,
+      "hanzi": "这些都是你的“忌口”。",
+      "pinyin": "zhè xiē dōu shì nǐ de jì kǒu",
+      "vi": "đó đều là những món bạn cần \"kiêng ăn\"."
+    },
+    {
+      "start": 772.066,
+      "end": 774.933,
+      "hanzi": "点菜的时候一定要告诉服务员。",
+      "pinyin": "diǎn cài de shí hòu yí dìng yào gào sù fú wù yuán",
+      "vi": "Khi gọi món, nhất định phải nói với nhân viên phục vụ."
+    },
+    {
+      "start": 774.966,
+      "end": 776.766,
+      "hanzi": "解释得非常清楚。",
+      "pinyin": "jiě shì dé fēi cháng qīng chǔ",
+      "vi": "Bạn giải thích rất rõ ràng."
+    },
+    {
+      "start": 776.8,
+      "end": 778.933,
+      "hanzi": "最后一个词，“买单”。",
+      "pinyin": "zuì hòu yí gè cí mǎi dān",
+      "vi": "Từ cuối cùng là \"tính tiền\"."
+    },
+    {
+      "start": 778.966,
+      "end": 781.966,
+      "hanzi": "“买单”就是指吃完饭付钱。",
+      "pinyin": "mǎi dān jiù shì zhǐ chī wán fàn fù qián",
+      "vi": "\"Tính tiền\" có nghĩa là trả tiền sau khi ăn xong."
+    },
+    {
+      "start": 782.0,
+      "end": 784.733,
+      "hanzi": "在饭店里，你也可以说“结账”，",
+      "pinyin": "zài fàn diàn lǐ nǐ yě kě yǐ shuō jié zhàng",
+      "vi": "Trong nhà hàng bạn cũng có thể nói \"thanh toán\","
+    },
+    {
+      "start": 784.766,
+      "end": 786.566,
+      "hanzi": "它们的意思是一样的。",
+      "pinyin": "tā men de yì si shì yī yàng de",
+      "vi": "hai cách nói có cùng ý nghĩa."
+    },
+    {
+      "start": 786.6,
+      "end": 790.033,
+      "hanzi": "太棒了。希望这几个词能帮助大家",
+      "pinyin": "tài bàng le xī wàng zhè jǐ gè cí néng bāng zhù dà jiā",
+      "vi": "Tuyệt quá. Hy vọng những từ này sẽ giúp mọi người"
+    },
+    {
+      "start": 790.066,
+      "end": 793.833,
+      "hanzi": "在下一次去中餐厅的时候，用得更自信。",
+      "pinyin": "zài xià yī cì qù zhōng cān tīng de shí hòu yòng dé gèng zì xìn",
+      "vi": "tự tin sử dụng hơn trong lần tới đến nhà hàng Trung Quốc."
+    },
+    {
+      "start": 793.866,
+      "end": 796.766,
+      "hanzi": "好了，今天的“中餐厅生存指南”",
+      "pinyin": "hǎo le jīn tiān de zhōng cān tīng shēng cún zhǐ nán",
+      "vi": "Được rồi, chương trình \"Cẩm nang sinh tồn tại nhà hàng Trung Quốc\""
+    },
+    {
+      "start": 796.8,
+      "end": 798.466,
+      "hanzi": "差不多就到这里了。",
+      "pinyin": "chà bu duō jiù dào zhè lǐ le",
+      "vi": "hôm nay gần đến đây là kết thúc rồi."
+    },
+    {
+      "start": 798.5,
+      "end": 802.3,
+      "hanzi": "我们从预订座位开始，聊了如何点菜，",
+      "pinyin": "wǒ men cóng yù dìng zuò wèi kāi shǐ liáo le rú hé diǎn cài",
+      "vi": "Chúng ta bắt đầu từ việc đặt bàn, rồi nói về cách gọi món,"
+    },
+    {
+      "start": 802.333,
+      "end": 806.966,
+      "hanzi": "如何在用餐中提出需求，以及最后如何买单。",
+      "pinyin": "rú hé zài yòng cān zhōng tí chū xū qiú yǐ jí zuì hòu rú hé mǎi dān",
+      "vi": "cách yêu cầu phục vụ trong bữa ăn và cuối cùng là cách thanh toán."
+    },
+    {
+      "start": 807.0,
+      "end": 810.966,
+      "hanzi": "希望今天的内容能给大家带来一些实用的帮助。",
+      "pinyin": "xī wàng jīn tiān de nèi róng néng gěi dà jiā dài lái yī xiē shí yòng de bāng zhù",
+      "vi": "Hy vọng nội dung hôm nay mang đến cho mọi người những điều hữu ích."
+    },
+    {
+      "start": 811.0,
+      "end": 812.566,
+      "hanzi": "是呀，希望大家下",
+      "pinyin": "shì ya xī wàng dà jiā xià",
+      "vi": "Đúng vậy, hy vọng lần"
+    },
+    {
+      "start": 812.6,
+      "end": 814.633,
+      "hanzi": "次走进一家中餐厅的时候，",
+      "pinyin": "cì zǒu jìn yī jiā zhōng cān tīng de shí hòu",
+      "vi": "sau khi bước vào một nhà hàng Trung Quốc,"
+    },
+    {
+      "start": 814.666,
+      "end": 818.833,
+      "hanzi": "心里能更有底气，更放松地去享受美食。",
+      "pinyin": "xīn lǐ néng gèng yǒu dǐ qì gèng fàng sōng dì qù xiǎng shòu měi shí",
+      "vi": "mọi người sẽ tự tin hơn và thoải mái thưởng thức những món ngon."
+    },
+    {
+      "start": 818.866,
+      "end": 821.466,
+      "hanzi": "如果你想看我们今天聊天的完整",
+      "pinyin": "rú guǒ nǐ xiǎng kàn wǒ men jīn tiān liáo tiān de wán zhěng",
+      "vi": "Nếu bạn muốn xem toàn bộ"
+    },
+    {
+      "start": 821.5,
+      "end": 824.1,
+      "hanzi": "文本，可以访问我们的博客。",
+      "pinyin": "wén běn kě yǐ fǎng wèn wǒ men de bó kè",
+      "vi": "lời thoại hôm nay, có thể truy cập blog của chúng tôi."
+    },
+    {
+      "start": 824.133,
+      "end": 826.5,
+      "hanzi": "如果今天的内容对你有帮助，",
+      "pinyin": "rú guǒ jīn tiān de nèi róng duì nǐ yǒu bāng zhù",
+      "vi": "Nếu nội dung hôm nay hữu ích với bạn,"
+    },
+    {
+      "start": 826.533,
+      "end": 830.866,
+      "hanzi": "请一定给我们点个赞，分享和订阅我们的频道。",
+      "pinyin": "qǐng yí dìng gěi wǒ men diǎn gè zàn fēn xiǎng hé dìng yuè wǒ men de pín dào",
+      "vi": "hãy nhớ nhấn thích, chia sẻ và đăng ký kênh của chúng tôi."
+    },
+    {
+      "start": 830.9,
+      "end": 831.733,
+      "hanzi": "你们的支持",
+      "pinyin": "nǐ men de zhī chí",
+      "vi": "Sự ủng hộ của các bạn"
+    },
+    {
+      "start": 831.766,
+      "end": 834.166,
+      "hanzi": "是我们继续创作的最大动力，",
+      "pinyin": "shì wǒ men jì xù chuàng zuò de zuì dà dòng lì",
+      "vi": "là động lực lớn nhất để chúng tôi tiếp tục sáng tạo nội dung,"
+    },
+    {
+      "start": 834.2,
+      "end": 835.9,
+      "hanzi": "这真的对我们很重要。",
+      "pinyin": "zhè zhēn de duì wǒ men hěn zhòng yào",
+      "vi": "điều đó thật sự rất quan trọng đối với chúng tôi."
+    },
+    {
+      "start": 835.933,
+      "end": 838.666,
+      "hanzi": "我们也非常想听听大家的故事！",
+      "pinyin": "wǒ men yě fēi cháng xiǎng tīng tīng dà jiā de gù shì",
+      "vi": "Chúng tôi cũng rất muốn nghe câu chuyện của mọi người!"
+    },
+    {
+      "start": 838.7,
+      "end": 840.733,
+      "hanzi": "我们想问大家一个问题：",
+      "pinyin": "wǒ men xiǎng wèn dà jiā yí gè wèn tí",
+      "vi": "Chúng tôi muốn hỏi mọi người một câu:"
+    },
+    {
+      "start": 840.766,
+      "end": 842.566,
+      "hanzi": "你去中国饭店的时候，",
+      "pinyin": "nǐ qù zhōng guó fàn diàn de shí hòu",
+      "vi": "Khi đến nhà hàng Trung Quốc,"
+    },
+    {
+      "start": 842.6,
+      "end": 845.233,
+      "hanzi": "最喜欢点的一道菜是什么呢？",
+      "pinyin": "zuì xǐ huān diǎn de yī dào cài shì shén me ne",
+      "vi": "bạn thích gọi món ăn nào nhất?"
+    },
+    {
+      "start": 845.266,
+      "end": 847.966,
+      "hanzi": "欢迎在下面的评论区给我们留言，",
+      "pinyin": "huān yíng zài xià miàn de píng lùn qū gěi wǒ men liú yán",
+      "vi": "Hoan nghênh mọi người để lại bình luận bên dưới,"
+    },
+    {
+      "start": 848.0,
+      "end": 851.666,
+      "hanzi": "分享你最爱的那道中国菜和你的故事。",
+      "pinyin": "fēn xiǎng nǐ zuì ài de nà dào zhōng guó cài hé nǐ de gù shì",
+      "vi": "chia sẻ món Trung Quốc bạn yêu thích nhất và câu chuyện của mình."
+    },
+    {
+      "start": 851.7,
+      "end": 854.7,
+      "hanzi": "如果你有任何关于中文学习的问题，",
+      "pinyin": "rú guǒ nǐ yǒu rèn hé guān yú zhōng wén xué xí de wèn tí",
+      "vi": "Nếu bạn có bất kỳ câu hỏi nào về việc học tiếng Trung,"
+    },
+    {
+      "start": 854.733,
+      "end": 856.566,
+      "hanzi": "也随时可以问我们，",
+      "pinyin": "yě suí shí kě yǐ wèn wǒ men",
+      "vi": "cũng có thể hỏi chúng tôi bất cứ lúc nào,"
+    },
+    {
+      "start": 856.6,
+      "end": 859.966,
+      "hanzi": "我们会认真阅读和回复每一条评论。",
+      "pinyin": "wǒ men huì rèn zhēn yuè dú hé huí fù měi yī tiáo píng lùn",
+      "vi": "chúng tôi sẽ đọc và trả lời từng bình luận một cách nghiêm túc."
+    },
+    {
+      "start": 860.0,
+      "end": 861.866,
+      "hanzi": "说不定，你提出的问题",
+      "pinyin": "shuō bù dìng nǐ tí chū de wèn tí",
+      "vi": "Biết đâu câu hỏi bạn đưa ra"
+    },
+    {
+      "start": 861.9,
+      "end": 864.733,
+      "hanzi": "就会成为我们下一期节目的主题哦！",
+      "pinyin": "jiù huì chéng wéi wǒ men xià yī qī jié mù de zhǔ tí ó",
+      "vi": "sẽ trở thành chủ đề cho số chương trình tiếp theo của chúng tôi!"
+    },
+    {
+      "start": 864.766,
+      "end": 866.066,
+      "hanzi": "期待大家的分享。",
+      "pinyin": "qī dài dà jiā de fēn xiǎng",
+      "vi": "Mong nhận được những chia sẻ của mọi người."
+    },
+    {
+      "start": 866.1,
+      "end": 867.866,
+      "hanzi": "那我们今天就到这里。",
+      "pinyin": "nà wǒ men jīn tiān jiù dào zhè lǐ",
+      "vi": "Vậy chương trình hôm nay đến đây thôi."
+    },
+    {
+      "start": 867.9,
+      "end": 869.6,
+      "hanzi": "下次再见！拜拜！",
+      "pinyin": "xià cì zài jiàn bài bài",
+      "vi": "Hẹn gặp lại lần sau! Tạm biệt!"
+    }
+  ]
+}

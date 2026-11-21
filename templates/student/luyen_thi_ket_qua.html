@@ -1,0 +1,203 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Kết quả {{ de.TenDe }} - HSK {{ de.MaCapDo }} | Mộc Hán
+{% endblock %}
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/student-luyen-thi-ket-qua.css') }}"
+>
+{% endblock %}
+
+{% block content %}
+
+<div class="lt-result-page">
+
+    <main class="lt-result-wrap">
+
+        <!-- TRỞ VỀ CHI TIẾT ĐỀ -->
+        <a
+            class="lt-result-back"
+            href="{{ url_for('student_luyen_thi.trang_chi_tiet_de', ma_de=de.MaDeThi) }}"
+        >
+            ← Trở về đề thi
+        </a>
+
+        <!-- TRẠNG THÁI KẾT QUẢ -->
+        <div class="lt-result-mascot">
+            <span class="lt-result-emoji">
+                {% if dat %}
+                    🎉
+                {% else %}
+                    💪
+                {% endif %}
+            </span>
+        </div>
+
+        <p class="lt-result-kicker">
+            MỘC HÁN · KẾT QUẢ LUYỆN THI
+        </p>
+
+        <h1 class="lt-result-status {% if dat %}is-pass{% else %}is-fail{% endif %}">
+            {% if dat %}
+                Đã đạt
+            {% else %}
+                Chưa đạt
+            {% endif %}
+        </h1>
+
+        <p class="lt-result-exam-name">
+            {{ de.TenDe }} · HSK {{ de.MaCapDo }}
+        </p>
+
+        <!-- THẺ KẾT QUẢ CHÍNH -->
+        <section class="lt-result-card">
+
+            <!-- ĐIỂM TRÊN THANG 100/200/300 -->
+            <div class="lt-result-score">
+
+                <strong class="lt-result-score-main">
+                    {{ diem_hien_thi|round(1) }}
+                </strong>
+
+                <span class="lt-result-score-total">
+                    / {{ diem_toi_da_hien_thi }}
+                </span>
+
+            </div>
+
+            <p class="lt-result-meta">
+                Đúng {{ so_cau_dung }}/{{ so_cau }} câu
+                · Thời gian {{ thoi_gian_lam }}
+                · {{ ty_le }}%
+            </p>
+
+            <!-- THANH TỔNG ĐIỂM -->
+            {% if lan.KyNang == 'tat_ca' %}
+
+            <div class="lt-result-progress">
+
+                <div class="lt-result-progress-label">
+                    <span>Tổng điểm Cả đề</span>
+                    <strong>
+                        {{ diem_hien_thi|round(1) }}
+                        / {{ diem_toi_da_hien_thi }}
+                    </strong>
+                </div>
+
+                <progress
+                    class="lt-result-progress-bar"
+                    value="{{ ty_le }}"
+                    max="100"
+                    aria-label="Tỷ lệ điểm cả đề"
+                >
+                    {{ ty_le }}%
+                </progress>
+
+            </div>
+
+            {% endif %}
+
+            <!-- ĐIỂM TỪNG KỸ NĂNG -->
+            <div class="lt-result-skill-scores">
+
+                {% for item in bang_diem %}
+
+                <div class="lt-result-progress">
+
+                    <div class="lt-result-progress-label">
+
+                        <span>{{ item.ten }}</span>
+
+                        <strong>
+                            {{ item.diem|round(1) }}
+                            / 100
+                        </strong>
+
+                    </div>
+
+                    <progress
+                        class="lt-result-progress-bar"
+                        value="{{ item.diem }}"
+                        max="100"
+                        aria-label="Điểm {{ item.ten }}"
+                    >
+                        {{ item.diem }}%
+                    </progress>
+
+                    <p class="lt-result-raw-score">
+                        Đúng {{ item.so_cau_dung }}
+                        / {{ item.so_cau }} câu
+                    </p>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+            <!-- MỐC ĐẠT -->
+            <p class="lt-result-raw-score">
+                Mốc đạt:
+                <strong>
+                    {{ diem_dat }}
+                    / {{ diem_toi_da_hien_thi }} điểm
+                </strong>
+            </p>
+
+            {% if thieu_ky_nang %}
+
+            <p class="lt-result-raw-score">
+                Đề chưa có đủ dữ liệu kỹ năng:
+                {{ thieu_ky_nang|join(', ') }}.
+                Cần bổ sung trước khi sử dụng
+                như một đề thi hoàn chỉnh.
+            </p>
+
+            {% endif %}
+
+            <p class="lt-result-note">
+                ✓ Kết quả đã được lưu vào tài khoản.
+            </p>
+
+        </section>
+
+        <!-- CÁC NÚT SAU KHI THI -->
+        <nav class="lt-result-actions">
+
+            <a
+                class="lt-btn lt-btn-primary"
+                href="{{ url_for('student_luyen_thi.trang_xem_lai_dap_an_luyen_thi', ma_lan=lan.MaLanThi) }}"
+            >
+                ✓ Xem lại đáp án
+            </a>
+
+            <a
+                class="lt-btn"
+                href="{{ url_for('student_luyen_thi.trang_lam_bai', ma_de=de.MaDeThi, ky_nang=lan.KyNang) }}"
+            >
+                ↻ Làm lại
+            </a>
+
+            <a
+                class="lt-btn"
+                href="{{ url_for('student_luyen_thi.trang_danh_sach_de', ma_cap_do=de.MaCapDo) }}"
+            >
+                ☰ Danh sách đề
+            </a>
+
+        </nav>
+
+        <p class="lt-result-footnote">
+            Mỗi kỹ năng tối đa 100 điểm.
+            Mốc đạt được tính bằng 60% tổng điểm tối đa.
+        </p>
+
+    </main>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,773 @@
+﻿MaTuHSK,MaMucNoiBo,ChuHan,PhienAm,NghiaTiengViet,TuLoai,MaTuVung,HanhDong
+501,L2-0001,啊,a,"thán từ kết thúc câu, thể hiện sự khẳng định, tán thành hoặc đồng ý",助,502,INSERT_MOI
+502,L2-0002,爱情,àiqíng,lãng mạn; tình yêu (lãng mạn),名,503,INSERT_MOI
+503,L2-0003,爱人,àiren,vợ hoặc chồng (Trung Quốc) / người yêu (không phải Trung Quốc),名,504,INSERT_MOI
+504,L2-0004,安静,ānjìng,yên tĩnh / bình yên / điềm tĩnh,形、动,505,INSERT_MOI
+505,L2-0005,安全,ānquán,an toàn / bảo mật; an ninh,形、名,506,INSERT_MOI
+506,L2-0006,白色,báisè,màu trắng / nghĩa bóng: phản động / chống cộng sản,名,507,INSERT_MOI
+507,L2-0007,班长,bānzhǎng,lớp trưởng / đội trưởng / nhóm trưởng,名,508,INSERT_MOI
+508,L2-0008,办,bàn,làm / quản lý / xử lý / tiến hành / vận hành / thành lập / giải quyết,动,509,INSERT_MOI
+509,L2-0009,办法,bànfǎ,cách / phương pháp / cách thức (làm gì đó),名,510,INSERT_MOI
+510,L2-0010,办公室,bàngōngshì,văn phòng / cơ sở kinh doanh / cục,名,511,INSERT_MOI
+511,L2-0011,半夜,bànyè,nửa đêm / trong đêm khuya,名,512,INSERT_MOI
+512,L2-0012,帮助,bāngzhù,sự giúp đỡ; hỗ trợ / giúp đỡ; hỗ trợ,动,513,INSERT_MOI
+513,L2-0013,饱,bǎo,ăn no / hài lòng,形,514,INSERT_MOI
+514,L2-0014,报名,bàomíng,đăng ký / ghi tên / nộp đơn / đăng ký nhập học / ghi danh / tuyển,,515,INSERT_MOI
+515,L2-0015,报纸,bàozhǐ,báo / chất liệu in báo,名,516,INSERT_MOI
+516,L2-0016,北方,běifāng,phía bắc / phần phía bắc của một quốc gia / Trung Quốc ở phía bắc sông Hoàng Hà,名,517,INSERT_MOI
+517,L2-0017,背,bèi,lưng của cơ thể hoặc vật / ngoảnh lưng lại / che giấu / học thuộc lòng / nhớ để đọc / không may (tiếng lóng) / lãng tai,动,518,INSERT_MOI
+518,L2-0018,比如,bǐrú,ví dụ / chẳng hạn / như là,动,519,INSERT_MOI
+519,L2-0019,比如说,bǐrú shuō,ví dụ,,520,INSERT_MOI
+520,L2-0020,笔,bǐ,"bút / bút chì / bút lông / viết hoặc sáng tác / nét chữ Hán / lượng từ cho khoản tiền, giao dịch",名、量,521,INSERT_MOI
+521,L2-0021,笔记,bǐjì,ghi chép lại / bài ghi chú / một loại văn học chủ yếu gồm những bài phác thảo ngắn,名,522,INSERT_MOI
+522,L2-0022,笔记本,bǐjìběn,sổ tay (văn phòng phẩm) / máy tính xách tay,名,523,INSERT_MOI
+523,L2-0023,必须,bìxū,phải / bắt buộc / cần thiết / nhất thiết,副,524,INSERT_MOI
+524,L2-0024,边,biān,bên / rìa / lề / biên giới / ranh giới / đồng thời,名,525,INSERT_MOI
+525,L2-0025,变,biàn,thay đổi / trở nên khác / biến đổi / biến hóa / nổi loạn,动,526,INSERT_MOI
+526,L2-0026,变成,biànchéng,thay đổi thành / biến thành / trở thành,,527,INSERT_MOI
+527,L2-0027,遍,biàn,biến thể của 遍[bian4] / khắp mọi nơi / khắp / lượng từ cho hành động: một lần,量,528,INSERT_MOI
+528,L2-0028,表,biǎo,bề mặt bên ngoài / quan hệ họ hàng qua nữ giới / thể hiện (ý kiến của một người) / mô hình / bảng (liệt kê thông tin) / biểu mẫu / đồng hồ đo (đo lường cái gì đó) / đồng hồ (dụng cụ đo thời gian) / đồng hồ đo; máy đo,名,529,INSERT_MOI
+529,L2-0029,表示,biǎoshì,(về ai đó) bày tỏ; phát biểu; cho thấy / (về điều gì đó) biểu thị; có nghĩa; cho thấy / sự biểu đạt; sự thể hiện,动、名,530,INSERT_MOI
+530,L2-0030,不错,bùcuò,đúng / chính xác / không tồi / khá tốt,形,531,INSERT_MOI
+531,L2-0031,不但,bùdàn,không chỉ (... mà còn...),连,532,INSERT_MOI
+532,L2-0032,不够,bùgòu,không đủ / không đủ mức / không thoả đáng,动、副,533,INSERT_MOI
+533,L2-0033,不过,bùguò,chỉ / chỉ là / không nhiều hơn / nhưng / tuy nhiên / dù sao (để trở lại chủ đề trước) / không thể hơn (sau tính từ),连,534,INSERT_MOI
+534,L2-0034,不太,bù tài,không lắm; không quá,,535,INSERT_MOI
+535,L2-0035,不要,bùyào,đừng!; không được,副,536,INSERT_MOI
+536,L2-0036,不好意思,bù hǎoyìsi,cảm thấy xấu hổ / thấy ngại / ngại quá (vì làm phiền ai đó),,537,INSERT_MOI
+537,L2-0037,不久,bùjiǔ,không lâu (sau) / chẳng bao lâu / sớm / ngay sau đó,形,538,INSERT_MOI
+538,L2-0038,不满,bùmǎn,bực bội / không hài lòng / không thỏa mãn,形,539,INSERT_MOI
+539,L2-0039,不如,bùrú,không bằng; không tốt bằng; kém hơn / sẽ tốt hơn nếu,动,540,INSERT_MOI
+540,L2-0040,不少,bù shǎo,nhiều / khá nhiều / không ít,,541,INSERT_MOI
+541,L2-0041,不同,bù tóng,khác / riêng biệt / không giống,,542,INSERT_MOI
+542,L2-0042,不行,bùxíng,không được / không thể chấp nhận / không tốt / không hiệu quả / không có khả năng,动、形,543,INSERT_MOI
+543,L2-0043,不一定,bùyīdìng,không nhất thiết / có thể,副,544,INSERT_MOI
+544,L2-0044,不一会儿,bù yīhuìr,chẳng bao lâu; một lát sau,,545,INSERT_MOI
+545,L2-0045,部分,bùfen,phần / cổ phần / mục / miếng,名,546,INSERT_MOI
+546,L2-0046,才,cái,khả năng; tài năng / người thuộc một kiểu nào đó / một cá nhân có năng lực / rồi thì và chỉ rồi thì / vừa mới / (trước một biểu hiện về số lượng) chỉ / (biến thể của 才[cai2]) vừa mới / (biến thể của 才[cai2]) (trước một biểu thức chỉ số lượng) chỉ,副,547,INSERT_MOI
+547,L2-0047,菜单,càidān,thực đơn,名,548,INSERT_MOI
+548,L2-0048,参观,cānguān,tham quan / đi dạo quanh / thăm,动,549,INSERT_MOI
+549,L2-0049,参加,cānjiā,tham gia / tham dự,动,550,INSERT_MOI
+550,L2-0050,草,cǎo,biến thể của 草[cao3] / cỏ / rơm / bản thảo / phác thảo (một văn kiện) / cẩu thả / sơ sài,名,551,INSERT_MOI
+551,L2-0051,草地,cǎodì,bãi cỏ / đồng cỏ / thảm cỏ / cỏ nhân tạo,名,552,INSERT_MOI
+552,L2-0052,层,céng,chồng lên nhau / tầng; lớp / tầng (của tòa nhà); tầng / (toán) bó / số đếm cho các lớp,量,553,INSERT_MOI
+553,L2-0053,查,chá,nghiên cứu / kiểm tra / điều tra / khám xét / tham khảo / tra cứu (ví dụ: tra từ trong từ điển),动,554,INSERT_MOI
+554,L2-0054,差不多,chàbuduō,gần / suýt nữa / xấp xỉ / khoảng như nhau / đủ tốt / không tệ,形、副,555,INSERT_MOI
+555,L2-0055,长,cháng,chiều dài / dài / mãi mãi / luôn luôn / liên tục,形,556,INSERT_MOI
+556,L2-0056,常见,cháng jiàn,thường thấy / phổ biến / thấy thường xuyên,,557,INSERT_MOI
+557,L2-0057,常用,cháng yòng,được sử dụng phổ biến,,558,INSERT_MOI
+558,L2-0058,场,chǎng,nơi lớn dùng cho mục đích cụ thể / sân khấu / cảnh (của vở kịch) / lượng từ cho hoạt động thể thao hoặc giải trí / lượng từ cho số lần thi / biến thể của 場|场[chang3],量,559,INSERT_MOI
+559,L2-0059,超过,chāoguò,vượt qua / vượt quá / vượt trội,动,560,INSERT_MOI
+560,L2-0060,超市,chāoshì,siêu thị (viết tắt của 超級市場|超级市场[chao1 ji2 shi4 chang3]),名,561,INSERT_MOI
+561,L2-0061,车辆,chēliàng,phương tiện giao thông,名,562,INSERT_MOI
+562,L2-0062,称1,chēng,cân / phát biểu / đặt tên / tên / gọi / tán dương,动,563,INSERT_MOI
+563,L2-0063,成,chéng,thành công / hoàn thành / làm xong / đạt được / trở thành / biến thành / ổn / OK! / một phần mười,动,564,INSERT_MOI
+564,L2-0064,成绩,chéngjì,thành tích / kết quả học tập / điểm số,名,565,INSERT_MOI
+565,L2-0065,成为,chéngwéi,trở thành; biến thành,动,566,INSERT_MOI
+566,L2-0066,重复,chóngfù,lặp lại / sao chép / biến thể của 重複|重复[chong2 fu4],动,567,INSERT_MOI
+567,L2-0067,重新,chóngxīn,lại; một lần nữa; tái-,副,568,INSERT_MOI
+568,L2-0068,出发,chūfā,khởi hành / bắt đầu (một hành trình),动,569,INSERT_MOI
+569,L2-0069,出国,chūguó,ra nước ngoài; rời khỏi đất nước,,570,INSERT_MOI
+570,L2-0070,出口,chūkǒu,lối ra / nói / xuất khẩu / (tàu thuyền) rời cảng,名,571,INSERT_MOI
+571,L2-0071,出门,chūmén,ra ngoài / rời nhà / đi du lịch / xa nhà / (phụ nữ) đi lấy chồng,,572,INSERT_MOI
+572,L2-0072,出生,chūshēng,được sinh ra,动,573,INSERT_MOI
+573,L2-0073,出现,chūxiàn,xuất hiện / phát sinh / nổi lên / có mặt,动,574,INSERT_MOI
+574,L2-0074,出院,chūyuàn,xuất viện / được xuất viện,,575,INSERT_MOI
+575,L2-0075,出租,chūzū,cho thuê,动,576,INSERT_MOI
+576,L2-0076,出租车,chūzūchē,taxi / xe thuê (Đài Loan),名,577,INSERT_MOI
+577,L2-0077,船,chuán,biến thể của 船[chuan2] / thuyền / tàu / tàu thủy,名,578,INSERT_MOI
+578,L2-0078,吹,chuī,thổi / chơi nhạc cụ hơi / thổi tung / phồng lên / khoe khoang / tự phụ / kết thúc thất bại / hỏng việc,动,579,INSERT_MOI
+579,L2-0079,春节,Chūnjié,Lễ hội mùa xuân (Tết Nguyên Đán),名,580,INSERT_MOI
+580,L2-0080,春天,chūntiān,mùa xuân,名,581,INSERT_MOI
+581,L2-0081,词,cí,"biến thể cũ của 詞|词[ci2] / từ / ngôn từ; lời nói; lời bài hát / một thể thơ trữ tình, thịnh hành thời Tống 宋朝|宋朝[Song4 chao2] (",名,582,INSERT_MOI
+582,L2-0082,词典,cídiǎn,từ điển / cũng viết 辭典|辞典[ci2 dian3],名,583,INSERT_MOI
+583,L2-0083,词语,cíyǔ,từ (thuật ngữ chung bao gồm từ đơn âm đến cụm ngắn) / thuật ngữ (ví dụ: thuật ngữ kỹ thuật) / biểu đạt,名,584,INSERT_MOI
+584,L2-0084,从小,cóngxiǎo,từ nhỏ; từ bé,副,585,INSERT_MOI
+585,L2-0085,答应,dāying,trả lời; phản hồi / trả lời tích cực; đồng ý; chấp nhận; hứa,动,586,INSERT_MOI
+586,L2-0086,打工,dǎgōng,"làm công việc tạm thời hoặc không chính thức / (đối với học sinh, sinh viên) đi làm ngoài giờ học, hoặc trong kỳ nghỉ",,587,INSERT_MOI
+587,L2-0087,打算,dǎsuàn,dự định / dự tính / tính toán / kế hoạch,动、名,588,INSERT_MOI
+588,L2-0088,打印,dǎyìn,đóng dấu / đóng mộc / in ra (bằng máy in),动,589,INSERT_MOI
+589,L2-0089,大部分,dàbùfen,phần lớn / phần nhiều / đại đa số,名,590,INSERT_MOI
+590,L2-0090,大大,dàdà,rất nhiều / cực kỳ / (phương ngữ) ba / bác,副,591,INSERT_MOI
+591,L2-0091,大多数,dàduōshù,đại đa số,名,592,INSERT_MOI
+592,L2-0092,大海,dàhǎi,biển / đại dương,名,593,INSERT_MOI
+593,L2-0093,大家,dàjiā,mọi người / gia đình có ảnh hưởng / đại gia,代,594,INSERT_MOI
+594,L2-0094,大量,dàliàng,lượng lớn / số lượng nhiều / số lượng lớn / đông đảo / rộng lượng / khoan dung,形,595,INSERT_MOI
+595,L2-0095,大门,dàmén,lối vào / cửa / cổng / gia đình lớn và có ảnh hưởng,名,596,INSERT_MOI
+596,L2-0096,大人,dàren,người lớn / trưởng thành / cách xưng hô tôn trọng với cấp trên,名,597,INSERT_MOI
+597,L2-0097,大声,dà shēng,giọng to / bằng giọng to / to tiếng,,598,INSERT_MOI
+598,L2-0098,大小,dàxiǎo,lớn và nhỏ / kích cỡ / người lớn và trẻ em / xem xét thứ bậc / dù sao đi nữa,名,599,INSERT_MOI
+599,L2-0099,大衣,dàyī,áo khoác dài / áo măng tô / áo choàng,名,600,INSERT_MOI
+600,L2-0100,大自然,dàzìrán,thiên nhiên (thế giới tự nhiên),名,601,INSERT_MOI
+601,L2-0101,带,dài,dải / thắt lưng / ruy băng / lốp / vùng / khu vực / khu / đeo / mang / dẫn theo / chịu / có / dẫn / dắt / chăm sóc / nuôi dưỡng,动,602,INSERT_MOI
+602,L2-0102,带来,dàilái,mang đến / (nghĩa bóng) mang lại; tạo ra,,603,INSERT_MOI
+603,L2-0103,单位,dānwèi,"đơn vị (đo lường) / đơn vị (nhóm người) / đơn vị công tác (nơi làm việc, đặc biệt ở Trung Quốc trước cải cách kinh tế)",名,604,INSERT_MOI
+604,L2-0104,但,dàn,nhưng; tuy nhiên; thế nhưng / chỉ; chỉ là; đúng,连,605,INSERT_MOI
+605,L2-0105,但是,dànshì,nhưng; tuy nhiên,连,606,INSERT_MOI
+606,L2-0106,蛋,dàn,trứng / vật hình bầu dục,名,607,INSERT_MOI
+607,L2-0107,当,dāng,(từ tượng thanh) đong / đinh đong (chuông) / làm / làm việc / quản lý / chịu đựng / khi / trong lúc / nên / phải / tương xứng / bằng / giống / cản trở / đúng lúc (thời gian hoặc địa điểm) / tại chỗ / ngay / lúc đó,动、介,608,INSERT_MOI
+608,L2-0108,当时,dāngshí,lúc đó / vào thời điểm đó / trong khi,名,609,INSERT_MOI
+609,L2-0109,倒,dǎo,ngã; sụp đổ; nằm ngang / thất bại; phá sản / lật đổ / đổi (tàu hoặc xe buýt) / di chuyển xung quanh / buôn bán kiếm lời,动,610,INSERT_MOI
+610,L2-0110,到处,dàochù,khắp nơi,副,611,INSERT_MOI
+611,L2-0111,倒,dào,lật ngược; đặt úp hoặc lộn ngược / rót ra / đổ ra; trút ra / bị lật; lộn ngược; đảo ngược / đi lùi / ngược với dự đoán; nhưng; tuy nhiên,动,612,INSERT_MOI
+612,L2-0112,道,dào,"đường; con đường ( / (hình thức kết hợp) cách; lý do; nguyên tắc / (hình thức kết hợp) một kỹ năng; một nghệ thuật; một chuyên môn / (Đạo giáo) con Đường; Đạo / nói (dùng để dẫn lời trực tiếp, như trong tiểu thuyết) / (hình thức kết hợp) biểu đạt; gửi lời (lời nói lịch sự) / lượng từ cho những vật dài mỏng (sông, vết nứt, v.v.), rào cản (tường, cửa, v.v.), câu hỏi (trong kỳ thi, v.v.), mệnh lệnh, món ăn trong bữa ăn, bước trong quy trình / (cũ) đạo lộ (đơn vị hành chính)",量,613,INSERT_MOI
+613,L2-0113,道理,dàolǐ,lý do / tranh luận / hợp lý / nguyên tắc / cơ sở / sự biện minh,名,614,INSERT_MOI
+614,L2-0114,道路,dàolù,đường / lối / cách,名,615,INSERT_MOI
+615,L2-0115,得,dé,được / nhận / giành được / bị (bệnh) / thích hợp / phù hợp / tự hào / hài lòng / cho phép / đồng ý / sẵn sàng / xong,动,616,INSERT_MOI
+616,L2-0116,得出,déchū,đạt được (kết quả); đi đến (kết luận),,617,INSERT_MOI
+617,L2-0117,的话,dehuà,nếu (đứng sau mệnh đề điều kiện),助,618,INSERT_MOI
+618,L2-0118,得,de,"trợ từ kết cấu: dùng sau động từ (hoặc tính từ làm động từ chính), liên kết với cụm sau chỉ kết quả, mức độ, khả năng, v.v.",助,619,INSERT_MOI
+619,L2-0119,灯,dēng,đèn / ánh sáng / đèn lồng,名,620,INSERT_MOI
+620,L2-0120,等,děng,đợi; chờ,助、名,81,DA_CO
+621,L2-0121,等到,děngdào,"đợi đến / khi mà (cái gì sẵn sàng,...)",介,621,INSERT_MOI
+622,L2-0122,等于,děngyú,bằng / tương đương với,动,622,INSERT_MOI
+623,L2-0123,低,dī,thấp / bên dưới / cúi (đầu) / để rũ xuống / treo xuống / nghiêng,形、动,623,INSERT_MOI
+624,L2-0124,地球,dìqiú,trái đất,名,624,INSERT_MOI
+625,L2-0125,地铁,dìtiě,đường sắt ngầm; tàu điện ngầm / tàu điện ngầm,名,625,INSERT_MOI
+626,L2-0126,地铁站,dìtiězhàn,ga tàu điện ngầm,名,626,INSERT_MOI
+627,L2-0127,点头,diǎntóu,gật đầu,,627,INSERT_MOI
+628,L2-0128,店,diàn,quán trọ; khách sạn kiểu cũ ( / (hình thức kết hợp) cửa hàng; tiệm,名,628,INSERT_MOI
+629,L2-0129,掉,diào,"rơi / rớt / tụt lại / mất / thất lạc / giảm / rớt (giá) / mất (giá trị, cân nặng v.v.) / vẫy / đung đưa / quay / đổi / thay / trao đổi / khoe / rụng (tóc) / (dùng sau một số động từ để biểu đạt hoàn thành, thực hiện xong, loại bỏ v.v.)",动,629,INSERT_MOI
+630,L2-0130,东北,dōngběi,đông bắc,名,630,INSERT_MOI
+631,L2-0131,东方,dōngfāng,đông,名,631,INSERT_MOI
+632,L2-0132,东南,dōngnán,đông nam,名,632,INSERT_MOI
+633,L2-0133,冬天,dōngtiān,mùa đông,名,633,INSERT_MOI
+634,L2-0134,懂,dǒng,hiểu / nhận thức,动,634,INSERT_MOI
+635,L2-0135,懂得,dǒngde,hiểu; biết; thấu hiểu,动,635,INSERT_MOI
+636,L2-0136,动物,dòngwù,động vật,名,636,INSERT_MOI
+637,L2-0137,动物园,dòngwùyuán,sở thú,名,637,INSERT_MOI
+638,L2-0138,读音,dúyīn,cách phát âm / âm đọc mang tính văn liệu (thay vì khẩu ngữ) của một chữ Hán,名,638,INSERT_MOI
+639,L2-0139,度,dù,"vượt qua / trải qua (thời gian) / đo / lượng giới hạn / mức độ / mức độ cường độ / độ (góc, nhiệt độ, v.v.) / kilowatt-giờ / lượng từ cho sự kiện và tình huống",名、量,639,INSERT_MOI
+640,L2-0140,短,duǎn,ngắn / gọn / thiếu / điểm yếu / lỗi,形,640,INSERT_MOI
+641,L2-0141,短信,duǎnxìn,tin nhắn văn bản / SMS,名,641,INSERT_MOI
+642,L2-0142,段,duàn,"đoạn / phần / mẩu / giai đoạn (của một quá trình) / lượng từ cho câu chuyện, khoảng thời gian, độ dài sợi chỉ, v.v.",量,642,INSERT_MOI
+643,L2-0143,队,duì,phi đội / đội / nhóm,名,643,INSERT_MOI
+644,L2-0144,队长,duìzhǎng,đội trưởng / nhóm trưởng,名,644,INSERT_MOI
+645,L2-0145,对,duì,đúng; chính xác,介、动,105,DA_CO
+646,L2-0146,对话,duìhuà,nói chuyện (với ai đó) / đối thoại; cuộc trò chuyện,动、名,645,INSERT_MOI
+647,L2-0147,对面,duìmiàn,(ngồi) đối diện / bên kia (đường) / trực tiếp phía trước / đối mặt,名,646,INSERT_MOI
+648,L2-0148,多,duō,nhiều; hơn,副,107,DA_CO
+649,L2-0149,多久,duōjiǔ,(về thời gian) bao lâu? / (không) lâu,代,647,INSERT_MOI
+650,L2-0150,多么,duōme,"như thế nào (tuyệt vời, v.v.) / thật là (một ý tưởng tuyệt vời, v.v.) / dù (có khó khăn, v.v.) / (trong câu nghi vấn) bao nhiêu / mức độ nào",副,648,INSERT_MOI
+651,L2-0151,多数,duōshù,đa số; phần lớn,名,649,INSERT_MOI
+652,L2-0152,多云,duōyún,có mây (khí tượng),名,650,INSERT_MOI
+653,L2-0153,而且,érqiě,(không những...) mà còn / hơn nữa / thêm vào đó / hơn thế nữa,连,651,INSERT_MOI
+654,L2-0154,发,fā,gửi đi / bộc lộ (cảm xúc của một người) / phát hành / phát triển / kiếm được nhiều tiền / lượng từ cho phát súng (phát),动,652,INSERT_MOI
+655,L2-0155,发现,fāxiàn,để ý; nhận ra / phát hiện; tìm thấy; phát giác / một khám phá,动、名,653,INSERT_MOI
+656,L2-0156,饭馆,fànguǎn,nhà hàng,名,654,INSERT_MOI
+657,L2-0157,方便,fāngbiàn,tiện lợi; thích hợp / tạo điều kiện; làm cho dễ dàng / có tiền dư / (nói giảm) đi vệ sinh,形,655,INSERT_MOI
+658,L2-0158,方便面,fāngbiànmiàn,mì ăn liền,名,656,INSERT_MOI
+659,L2-0159,方法,fāngfǎ,phương pháp; cách thức; cách,名,657,INSERT_MOI
+660,L2-0160,方面,fāngmiàn,khía cạnh / phương diện / lĩnh vực / mặt,名,658,INSERT_MOI
+661,L2-0161,方向,fāngxiàng,hướng; phương hướng,名,659,INSERT_MOI
+662,L2-0162,放下,fàngxia,đặt xuống; để xuống / buông bỏ; từ bỏ; gác lại / hạ xuống (rèm v.v.),,660,INSERT_MOI
+663,L2-0163,放心,fàngxīn,cảm thấy nhẹ nhõm / cảm thấy yên tâm / an tâm,,661,INSERT_MOI
+664,L2-0164,分,fēn,phút,动,122,DA_CO
+665,L2-0165,分开,fēnkāi,tách ra / chia ra,,662,INSERT_MOI
+666,L2-0166,分数,fēnshù,điểm (thi) / điểm số / thành tích / phân số,名,663,INSERT_MOI
+667,L2-0167,分钟,fēnzhōng,phút,量,664,INSERT_MOI
+668,L2-0168,份,fèn,"lượng từ cho quà tặng, báo, tạp chí, giấy tờ, báo cáo, hợp đồng, v.v. / biến thể của 分[fen4]",量,665,INSERT_MOI
+669,L2-0169,封,fēng,"phong tước / ban tặng / phong làm / phong kín / lượng từ cho vật kín, đặc biệt là thư từ",量,666,INSERT_MOI
+670,L2-0170,服务,fúwù,phục vụ / dịch vụ,动,667,INSERT_MOI
+671,L2-0171,复习,fùxí,xem lại / ôn tập / biến thể của 復習|复习[fu4 xi2],动,668,INSERT_MOI
+672,L2-0172,该,gāi,nên / phải / có lẽ / phải là / xứng đáng / nợ / đến lượt làm gì / đó / đã nói ở trên,动,669,INSERT_MOI
+673,L2-0173,改,gǎi,thay đổi / sửa đổi / biến đổi / sửa chữa,动,670,INSERT_MOI
+674,L2-0174,改变,gǎibiàn,thay đổi / sửa đổi / biến đổi,动、名,671,INSERT_MOI
+675,L2-0175,干杯,gānbēi,nâng ly chúc mừng / Cạn ly! (đề xuất nâng ly) / Chúc mừng bạn! / Uống cạn nhé! / nghĩa đen: cạn ly,,672,INSERT_MOI
+676,L2-0176,感到,gǎndào,cảm thấy; cảm nhận; nhận ra,动,673,INSERT_MOI
+677,L2-0177,感动,gǎndòng,làm cảm động / chạm đến (cảm xúc của ai đó) / cảm động,形、动,674,INSERT_MOI
+678,L2-0178,感觉,gǎnjué,cảm giác; ấn tượng; cảm nhận / cảm thấy; nhận biết,动、名,675,INSERT_MOI
+679,L2-0179,感谢,gǎnxiè,(bày tỏ) cảm ơn / lòng biết ơn / biết ơn / cảm ơn / xin cảm ơn,动,676,INSERT_MOI
+680,L2-0180,干活儿,gànhuór,biến thể er hoá của 幹活|干活[gan4 huo2],,677,INSERT_MOI
+681,L2-0181,刚,gāng,cứng / vững / mạnh / vừa / mới / chính xác,副,678,INSERT_MOI
+682,L2-0182,刚才,gāngcái,vừa nãy / mới đây / vừa mới (biến thể của 剛才|刚才[gang1 cai2]),名,679,INSERT_MOI
+683,L2-0183,刚刚,gānggāng,mới đây / ngay vừa rồi,副,680,INSERT_MOI
+684,L2-0184,高级,gāojí,cấp cao / chất lượng cao / tiên tiến / cấp bậc cao,形,681,INSERT_MOI
+685,L2-0185,高中,gāozhōng,trường trung học phổ thông / viết tắt của 高級中學|高级中学[gao1 ji2 zhong1 xue2],名,682,INSERT_MOI
+686,L2-0186,个子,gèzi,chiều cao / dáng vóc / thể trạng / kích cỡ,名,683,INSERT_MOI
+687,L2-0187,更,gèng,hơn / còn hơn / nữa / vẫn / càng,副,684,INSERT_MOI
+688,L2-0188,公共汽车,gōnggòng qìchē,xe buýt,,685,INSERT_MOI
+689,L2-0189,公交车,gōngjiāochē,phương tiện giao thông công cộng / xe buýt thành phố / Lượng từ: 輛|辆[liang4],名,686,INSERT_MOI
+690,L2-0190,公斤,gōngjīn,kilôgam (kg),量,687,INSERT_MOI
+691,L2-0191,公里,gōnglǐ,kilômét,量,688,INSERT_MOI
+692,L2-0192,公路,gōnglù,đường cao tốc / đường bộ,名,689,INSERT_MOI
+693,L2-0193,公平,gōngpíng,công bằng / không thiên vị,形,690,INSERT_MOI
+694,L2-0194,公司,gōngsī,công ty; hãng; tập đoàn,名,691,INSERT_MOI
+695,L2-0195,公园,gōngyuán,công viên (dành cho công chúng giải trí),名,692,INSERT_MOI
+696,L2-0196,狗,gǒu,chó,名,693,INSERT_MOI
+697,L2-0197,够,gòu,đủ (đầy đủ) / đủ (quá nhiều) / (thông tục) (trước tính từ) thật sự / (thông tục) với tới bằng cách vươn ra,动、副,694,INSERT_MOI
+698,L2-0198,故事,gùshi,câu chuyện; truyện,名,695,INSERT_MOI
+699,L2-0199,故意,gùyì,cố ý; có chủ đích,副,696,INSERT_MOI
+700,L2-0200,顾客,gùkè,khách hàng; thân chủ,名,697,INSERT_MOI
+701,L2-0201,关机,guānjī,tắt (máy móc hoặc thiết bị) / hoàn thành quay phim,,698,INSERT_MOI
+702,L2-0202,关心,guānxīn,quan tâm đến; chăm sóc,动,699,INSERT_MOI
+703,L2-0203,观点,guāndiǎn,quan điểm / góc nhìn / lập trường,名,700,INSERT_MOI
+704,L2-0204,广场,guǎngchǎng,quảng trường,名,701,INSERT_MOI
+705,L2-0205,广告,guǎnggào,quảng cáo / mục quảng cáo,名,702,INSERT_MOI
+706,L2-0206,国际,guójì,quốc tế,名,703,INSERT_MOI
+707,L2-0207,过来,guòlái,đến / quản lý / xử lý / có thể chăm sóc được,动,704,INSERT_MOI
+708,L2-0208,过年,guònián,đón Tết Nguyên Đán,,705,INSERT_MOI
+709,L2-0209,过去,guòqù,(trong quá khứ); trước đây; trước đó / đi qua; trôi qua,动,706,INSERT_MOI
+710,L2-0210,过,guo,(trợ từ chỉ hành động đã trải qua),助,707,INSERT_MOI
+711,L2-0211,海,hǎi,đại dương / biển / số lượng lớn người hoặc vật / (phương ngữ) nhiều,名,708,INSERT_MOI
+712,L2-0212,海边,hǎi biān,bờ biển / bãi biển,,709,INSERT_MOI
+713,L2-0213,喊,hǎn,la hét / hò hét / gọi to (người),动,710,INSERT_MOI
+714,L2-0214,好,hǎo,tốt; khỏe,副,2,DA_CO
+715,L2-0215,好处,hǎochù,lợi ích; ưu điểm; công dụng / lợi nhuận; lợi ích / cũng đọc là [hao3 chu4],名,711,INSERT_MOI
+716,L2-0216,好多,hǎoduō,nhiều / khá nhiều / tốt hơn nhiều,数,712,INSERT_MOI
+717,L2-0217,好久,hǎojiǔ,một khoảng thời gian khá lâu,形,713,INSERT_MOI
+718,L2-0218,好人,hǎorén,"người tốt / người khỏe mạnh / người cố gắng không làm phật lòng ai, thậm chí hy sinh nguyên tắc",名,714,INSERT_MOI
+719,L2-0219,好事,hǎoshì,"hành động, việc làm, điều hoặc công việc tốt (cũng có thể mỉa mai, ""thật là một việc hay"") / từ thiện / dịp vui / lễ đạo hoặc Phật cho linh hồn người chết",名,715,INSERT_MOI
+720,L2-0220,好像,hǎoxiàng,như thể / giống như,副、动,716,INSERT_MOI
+721,L2-0221,合适,héshì,thích hợp; vừa vặn; phù hợp,形,717,INSERT_MOI
+722,L2-0222,河,hé,sông,名,718,INSERT_MOI
+723,L2-0223,黑,hēi,"đen / tối / tà ác / bí mật / mờ ám / phi pháp / cất giấu (thứ gì đó) / bôi nhọ / tin tặc (mượn từ, tin học)",形,719,INSERT_MOI
+724,L2-0224,黑板,hēibǎn,bảng đen,名,720,INSERT_MOI
+725,L2-0225,黑色,hēisè,màu đen,名,721,INSERT_MOI
+726,L2-0226,红,hóng,đỏ / phổ biến / cách mạng / thưởng,形,722,INSERT_MOI
+727,L2-0227,红色,hóngsè,màu đỏ (màu sắc) / cách mạng,名,723,INSERT_MOI
+728,L2-0228,后来,hòulái,sau này; sau đó / mới đến,名,724,INSERT_MOI
+729,L2-0229,忽然,hūrán,đột nhiên; bỗng nhiên,副,725,INSERT_MOI
+730,L2-0230,湖,hú,hồ,名,726,INSERT_MOI
+731,L2-0231,护照,hùzhào,hộ chiếu,名,727,INSERT_MOI
+732,L2-0232,花,huā,hoa; bông hoa,动,160,DA_CO
+733,L2-0233,花园,huāyuán,vườn,名,728,INSERT_MOI
+734,L2-0234,画,huà,vẽ; tô tranh / bức tranh; hội họa ( / vẽ (một đường) (biến thể của 劃|划[hua4]) / nét chữ Hán (biến thể của 劃|划[hua4]) / (thư pháp) nét ngang (biến thể của 劃|划[hua4]),动,729,INSERT_MOI
+735,L2-0235,画家,huàjiā,họa sĩ,名,730,INSERT_MOI
+736,L2-0236,画儿,huàr,bức tranh / hình vẽ / bức vẽ,名,731,INSERT_MOI
+737,L2-0237,坏处,huàichù,tổn hại / rắc rối,名,732,INSERT_MOI
+738,L2-0238,坏人,huàirén,người xấu / kẻ xấu,名,733,INSERT_MOI
+739,L2-0239,欢迎,huānyíng,chào đón / chào mừng,动,734,INSERT_MOI
+740,L2-0240,换,huàn,"trao đổi / thay đổi (quần áo, v.v.) / thay thế / chuyển đổi / đổi (tiền tệ)",动,735,INSERT_MOI
+741,L2-0241,黄,huáng,màu vàng / khiêu dâm / thất bại,形,736,INSERT_MOI
+742,L2-0242,黄色,huángsè,màu vàng / thô tục; khiêu dâm,名,737,INSERT_MOI
+743,L2-0243,回,huí,về; trở về; quay lại,量,164,DA_CO
+744,L2-0244,回国,huí guó,trở về nước,,738,INSERT_MOI
+745,L2-0245,会,huì,biết; có thể,名,170,DA_CO
+746,L2-0246,活动,huódòng,tập thể dục / di chuyển / vận hành / sử dụng mối quan hệ (ảnh hưởng cá nhân) / lỏng / lung lay / chủ động / có thể di chuyển / hoạt động / chiến dịch / diễn tập / hành vi,动、名,739,INSERT_MOI
+747,L2-0247,或,huò,có thể / có lẽ / có khả năng / có thể là / hoặc,连,740,INSERT_MOI
+748,L2-0248,或者,huòzhě,hoặc / có thể; có lẽ,连,741,INSERT_MOI
+749,L2-0249,机会,jīhuì,cơ hội / thời cơ / dịp,名,742,INSERT_MOI
+750,L2-0250,鸡,jī,gia cầm / gà / (tiếng lóng) gái mại dâm,名,743,INSERT_MOI
+751,L2-0251,级,jí,"cấp / hạng / bậc / bước (cầu thang) / Lượng từ: bước, cấp",名,744,INSERT_MOI
+752,L2-0252,急,jí,khẩn cấp / cấp bách / nhanh / vội / vẻ lo lắng / làm cho (ai đó) lo lắng,形,745,INSERT_MOI
+753,L2-0253,计划,jìhuà,kế hoạch / dự án / chương trình / lên kế hoạch / vạch ra,名、动,746,INSERT_MOI
+754,L2-0254,计算机,jìsuànjī,máy tính / (Đài Loan) máy tính cầm tay,名,747,INSERT_MOI
+755,L2-0255,加,jiā,"thêm / cộng / (dùng sau một trạng ngữ như 不, 大, 稍,..., và trước động từ hai âm tiết, để chỉ rằng hành động của động từ được áp dụng cho cái gì đó hoặc ai đó đã được nhắc đến trước đó) / áp dụng (hạn chế,...) cho (ai đó) / đưa ra (hỗ trợ, xem xét,...) cho (điều gì đó)",动,748,INSERT_MOI
+756,L2-0256,加油,jiāyóu,thêm dầu; đổ xăng; tiếp nhiên liệu / tăng tốc; đạp ga / (nghĩa bóng) nỗ lực thêm; cổ vũ ai đó,,749,INSERT_MOI
+757,L2-0257,家（科学家）,jiā (kēxuéjiā),"dùng trong 傢伙|家伙[jia1 huo5] và 傢俱|家俱[jia1 ju4] / nhà / gia đình / (lịch sự) của tôi (chị, chú, v.v.) / lượng từ cho gia đình hoặc doanh nghiệp / chỉ các trường phái triết học Trung Quốc thời Tiền Hán / hậu tố danh từ cho chuyên gia trong một hoạt động nào đó, như nhạc sĩ hoặc nhà cách mạng, tương ứng với tiếng Anh -ist, -er, -ary hoặc -ian",后缀,750,INSERT_MOI
+758,L2-0258,家庭,jiātíng,gia đình / hộ gia đình,名,751,INSERT_MOI
+759,L2-0259,家长,jiāzhǎng,chủ hộ / người đứng đầu gia đình / gia trưởng / phụ huynh hoặc người giám hộ của một đứa trẻ,名,752,INSERT_MOI
+760,L2-0260,假,jiǎ,giả / sai / nhân tạo / mượn / nếu / giả sử / biến thể của 假[jia3],形,753,INSERT_MOI
+761,L2-0261,假期,jiàqī,kỳ nghỉ,名,754,INSERT_MOI
+762,L2-0262,检查,jiǎnchá,kiểm tra / khám xét / kiểm định,动、名,755,INSERT_MOI
+763,L2-0263,见到,jiàndào,nhìn thấy,,756,INSERT_MOI
+764,L2-0264,见过,jiànguo,đã từng gặp; đã từng thấy,,757,INSERT_MOI
+765,L2-0265,件,jiàn,"món / thành phần / lượng từ cho sự kiện, đồ vật, quần áo, v.v.",量,758,INSERT_MOI
+766,L2-0266,健康,jiànkāng,sức khỏe / khỏe mạnh,形、名,759,INSERT_MOI
+767,L2-0267,讲,jiǎng,nói / giải thích / đàm phán / nhấn mạnh / kĩ lưỡng / về mặt nào đó / bài nói / chia sẻ,动,760,INSERT_MOI
+768,L2-0268,讲话,jiǎnghuà,bài phát biểu / nói / trò chuyện / phát biểu,,761,INSERT_MOI
+769,L2-0269,交,jiāo,giao nộp; giao; trả (tiền); bàn giao / kết bạn / (đường) giao nhau / biến thể của 跤[jiao1],动,762,INSERT_MOI
+770,L2-0270,交给,jiāo gěi,đưa; giao; chuyển giao,,763,INSERT_MOI
+771,L2-0271,交朋友,jiāo péngyou,kết bạn / (tiếng địa phương) bắt đầu mối quan hệ tình cảm với ai đó,,764,INSERT_MOI
+772,L2-0272,交通,jiāotōng,kết nối / giao thông / vận tải / truyền thông / liên lạc,名,765,INSERT_MOI
+773,L2-0273,角,jiǎo,"góc / góc cạnh / sừng / hình dạng sừng / đơn vị tiền bằng 0,1 nhân dân tệ, hoặc 10 xu (một hào)",量、名,766,INSERT_MOI
+774,L2-0274,角度,jiǎodù,góc / quan điểm,名,767,INSERT_MOI
+775,L2-0275,饺子,jiǎozi,bánh sủi cảo / bánh hấp,名,768,INSERT_MOI
+776,L2-0276,脚,jiǎo,"bàn chân / chân (của động vật hoặc đồ vật) / đế, chân (của đồ vật) / lượng từ: 雙|双[shuang1], 隻|只[zhi1] / lượng từ cho cú đá",名,769,INSERT_MOI
+777,L2-0277,叫作,jiàozuò,gọi / được gọi là,动,770,INSERT_MOI
+778,L2-0278,教师,jiàoshī,giáo viên,名,771,INSERT_MOI
+779,L2-0279,教室,jiàoshì,phòng học,名,772,INSERT_MOI
+780,L2-0280,教学,jiàoxué,giảng dạy; hướng dẫn,名,773,INSERT_MOI
+781,L2-0281,教育,jiàoyù,giáo dục / dạy học,动、名,774,INSERT_MOI
+782,L2-0282,接,jiē,nhận / trả lời (điện thoại) / gặp hoặc chào đón ai / kết nối / bắt / ghép / mở rộng / tiếp nhận ca trực / tiếp quản cho ai,动,775,INSERT_MOI
+783,L2-0283,接到,jiēdào,"nhận được (thư từ, v.v.)",,776,INSERT_MOI
+784,L2-0284,接受,jiēshòu,"chấp nhận (đề nghị, trừng phạt, hối lộ, v.v.); đồng ý",动,777,INSERT_MOI
+785,L2-0285,接下来,jiē xiàlái,chấp nhận / tiếp nhận / tiếp theo / theo sau,,778,INSERT_MOI
+786,L2-0286,接着,jiēzhe,bắt và giữ / tiếp tục / tiến hành làm gì đó / theo sau / tiếp nối / rồi / sau đó / tiếp theo / tiến hành / tiếp diễn / lần lượt / đến lượt,动、副,779,INSERT_MOI
+787,L2-0287,街,jiē,đường phố,名,780,INSERT_MOI
+788,L2-0288,节,jié,"khớp; đốt / (dạng kết hợp) phần; đoạn / tiết khí (một trong 24 phân đoạn của năm trong lịch truyền thống Trung Quốc) / lễ hội theo mùa / (dạng kết hợp) tiết kiệm / (dạng kết hợp) tiết tháo; trinh tiết / lượng từ cho các đoạn: bài học, toa tàu, câu kinh thánh, v.v. / hải lý (dặm biển mỗi giờ)",名、量,781,INSERT_MOI
+789,L2-0289,节目,jiémù,chương trình / mục (trong chương trình),名,782,INSERT_MOI
+790,L2-0290,节日,jiérì,ngày lễ / lễ hội,名,783,INSERT_MOI
+791,L2-0291,结果,jiéguǒ,kết quả / kết cục / kết luận / cuối cùng / do đó / giết / xử lý,名、连,784,INSERT_MOI
+792,L2-0292,借,jiè,"mượn / (dùng kết hợp với 給|给[gei3] hoặc 出[chu1],...) cho mượn / tận dụng; lợi dụng / (đôi khi theo sau bởi 著|着[zhe5]) bằng; với / biến thể của 借[jie4]",动,785,INSERT_MOI
+793,L2-0293,斤,jīn,"cân / (Trung Quốc) đơn vị đo lường bằng 500 g / (Đài Loan) đơn vị đo lường bằng 600 g / (HK, Malaysia, Singapore) hơi hơn 604 g",量,786,INSERT_MOI
+794,L2-0294,今后,jīnhòu,sau này / từ nay trở đi / trong tương lai / từ bây giờ,名,787,INSERT_MOI
+795,L2-0295,进入,jìnrù,đi vào / gia nhập / đi vào trong,动,788,INSERT_MOI
+796,L2-0296,进行,jìnxíng,tiến hành / thực hiện / đang tiến hành / trong quá trình / làm / tiếp tục / thực thi,动,789,INSERT_MOI
+797,L2-0297,近,jìn,gần / sát / khoảng chừng,形,790,INSERT_MOI
+798,L2-0298,经常,jīngcháng,thường xuyên; liên tục; đều đặn; thường / ngày thường; hằng ngày; mỗi ngày,副,791,INSERT_MOI
+799,L2-0299,经过,jīngguò,đi qua / trải qua / quá trình / tiến trình,动、名,792,INSERT_MOI
+800,L2-0300,经理,jīnglǐ,"quản lý / giám đốc / Lượng từ: 個|个[ge4], 位[wei4], 名[ming2]",名,793,INSERT_MOI
+801,L2-0301,酒,jiǔ,rượu (đặc biệt là rượu gạo) / đồ uống có cồn / rượu bia / thức uống có cồn,名,794,INSERT_MOI
+802,L2-0302,酒店,jiǔdiàn,quán rượu / quán bar / khách sạn / nhà hàng / (Đài Loan) hostess club,名,795,INSERT_MOI
+803,L2-0303,就要,jiùyào,sẽ / sắp / sắp sửa,副,796,INSERT_MOI
+804,L2-0304,举,jǔ,biến thể của 舉|举[ju3] / nâng / giơ lên / dẫn chứng / liệt kê / hành động / giơ / chọn / bầu / cử động / việc làm,动,797,INSERT_MOI
+805,L2-0305,举手,jǔshǒu,giơ tay / giơ tay lên (làm tín hiệu),动,798,INSERT_MOI
+806,L2-0306,举行,jǔxíng,"tổ chức (cuộc họp, buổi lễ, v.v.)",动,799,INSERT_MOI
+807,L2-0307,句,jù,câu / mệnh đề / cụm từ / lượng từ cho cụm từ hoặc câu thơ,量,800,INSERT_MOI
+808,L2-0308,句子,jùzi,câu,名,801,INSERT_MOI
+809,L2-0309,卡,kǎ,"dừng / chặn / (tin học) (khẩu ngữ) chậm / (từ mượn) thẻ / xe tải (từ ""car"") / calo (viết tắt của 卡路里[ka3 lu4 li3]) / băng cassette",名,802,INSERT_MOI
+810,L2-0310,开机,kāijī,khởi động máy / khởi động máy tính / nhấn Ctrl-Alt-Delete / bắt đầu quay phim hoặc chương trình TV,,803,INSERT_MOI
+811,L2-0311,开心,kāixīn,cảm thấy vui / vui mừng / có khoảng thời gian tuyệt vời / trêu chọc ai đó,形、动,804,INSERT_MOI
+812,L2-0312,开学,kāixué,(đối với học sinh) bắt đầu đi học / (đối với học kỳ) bắt đầu / (cũ) sáng lập trường / sự bắt đầu của học kỳ mới,,805,INSERT_MOI
+813,L2-0313,看法,kànfǎ,cách nhìn / quan điểm / ý kiến,名,806,INSERT_MOI
+814,L2-0314,考生,kǎoshēng,thí sinh / học sinh được đề cử tham gia kỳ thi,名,807,INSERT_MOI
+815,L2-0315,靠,kào,dựa vào / đứng cạnh / đến gần / phụ thuộc vào / tin tưởng / chịch (thô tục) / loại kịch mặc trang phục giáp truyền thống (xưa),动,808,INSERT_MOI
+816,L2-0316,科,kē,"ngành học / phòng ban / học phần / lĩnh vực / ngành / hướng dẫn sân khấu / họ (phân loại) / quy tắc / pháp luật / phân xử (hình phạt) / truy thu (thuế, v.v.) / phạt ai đó",名,809,INSERT_MOI
+817,L2-0317,科学,kēxué,khoa học / kiến thức khoa học / mang tính khoa học / hợp lý,名、形,810,INSERT_MOI
+818,L2-0318,可爱,kě'ài,đáng yêu / dễ thương / đáng mến,形,811,INSERT_MOI
+819,L2-0319,可能,kěnéng,có thể (xảy ra) / có khả năng / có xác suất / khả năng / xác suất / có lẽ / có thể,动、形、名,812,INSERT_MOI
+820,L2-0320,可怕,kěpà,kinh khủng / đáng sợ / đáng gờm / dữ dội / xấu xí / khủng khiếp / tồi tệ / rất tệ,形,813,INSERT_MOI
+821,L2-0321,可是,kěshì,nhưng; tuy nhiên / (dùng để nhấn mạnh) thật sự,连,814,INSERT_MOI
+822,L2-0322,可以,kěyǐ,có thể / được / khả thi / có khả năng / không tệ / khá tốt,动,815,INSERT_MOI
+823,L2-0323,克,kè,"có thể / chế ngự / kiềm chế / vượt qua / gram / đơn vị diện tích đất của Tây Tạng, khoảng 6 are / biến thể của 克[ke4] / lật đổ / biến thể của 剋|克[ke4]",量,816,INSERT_MOI
+824,L2-0324,刻,kè,một phần tư (giờ) / khoảnh khắc / khắc / chạm khắc / cắt / áp bức / lượng từ cho khoảng thời gian ngắn,量,817,INSERT_MOI
+825,L2-0325,客人,kèrén,khách thăm / khách hàng / khách,名,818,INSERT_MOI
+826,L2-0326,课堂,kètáng,lớp học,名,819,INSERT_MOI
+827,L2-0327,空气,kōngqì,không khí / bầu không khí,名,820,INSERT_MOI
+828,L2-0328,哭,kū,khóc; rơi lệ,动,821,INSERT_MOI
+829,L2-0329,快餐,kuàicān,thức ăn nhanh / đồ ăn nhẹ / bữa ăn nhanh,名,822,INSERT_MOI
+830,L2-0330,快点儿,kuài diǎnr,biến thể er hoá của 快點|快点[kuai4 dian3],,823,INSERT_MOI
+831,L2-0331,快乐,kuàilè,vui vẻ; hạnh phúc,形,824,INSERT_MOI
+832,L2-0332,快要,kuàiyào,gần như sắp (làm gì đó); sắp (làm gì đó),副,825,INSERT_MOI
+833,L2-0333,筷子,kuàizi,đũa,名,826,INSERT_MOI
+834,L2-0334,拉,lā,kéo / chơi (nhạc cụ dùng vĩ kéo) / kéo lê / vẽ / trò chuyện / (khẩu ngữ) đi tiêu,动,827,INSERT_MOI
+835,L2-0335,来自,láizì,đến từ (một nơi) / Từ: (trong tiêu đề email),动,828,INSERT_MOI
+836,L2-0336,蓝,lán,màu xanh / dị thảo chàm,形,829,INSERT_MOI
+837,L2-0337,蓝色,lánsè,màu xanh lam,名,830,INSERT_MOI
+838,L2-0338,篮球,lánqiú,bóng rổ,名,831,INSERT_MOI
+839,L2-0339,老,lǎo,già; lớn tuổi,副,216,DA_CO
+840,L2-0340,老（老王）,lǎo (Lǎo Wáng),"tiền tố dùng trước họ của một người hoặc số thứ tự sinh của các con trong gia đình hoặc để chỉ sự thân mật hoặc quen thuộc / già (người) / người đáng kính / có kinh nghiệm / lâu năm / luôn luôn / lúc nào cũng / của quá khứ / rất / lỗi thời / (thịt,...) dai",前缀,832,INSERT_MOI
+841,L2-0341,老年,lǎonián,cao tuổi / tuổi già / mùa thu của cuộc đời,名,833,INSERT_MOI
+842,L2-0342,老朋友,lǎo péngyou,bạn cũ / (tiếng lóng) kỳ kinh nguyệt / hành kinh,,834,INSERT_MOI
+843,L2-0343,老是,lǎoshì,luôn luôn,副,835,INSERT_MOI
+844,L2-0344,离,lí,"rời khỏi / tách khỏi / cách / (khi nói về khoảng cách) từ / không có (gì) / độc lập với / một trong Bát Quái 八卦[ba1 gua4], tượng trưng cho lửa / ☲",动、介,836,INSERT_MOI
+845,L2-0345,离开,líkāi,rời khỏi; rời đi,,837,INSERT_MOI
+846,L2-0346,礼物,lǐwù,quà; món quà,名,838,INSERT_MOI
+847,L2-0347,里头,lǐtou,bên trong / nội bộ,名,839,INSERT_MOI
+848,L2-0348,理想,lǐxiǎng,một lý tưởng / một giấc mơ / lý tưởng / hoàn hảo,名,840,INSERT_MOI
+849,L2-0349,例如,lìrú,ví dụ; chẳng hạn; như là,动,841,INSERT_MOI
+850,L2-0350,例子,lìzi,trường hợp / (ví dụ) / ví dụ,名,842,INSERT_MOI
+851,L2-0351,脸,liǎn,khuôn mặt,名,843,INSERT_MOI
+852,L2-0352,练,liàn,luyện tập / huấn luyện / diễn tập / hoàn thiện (kỹ năng) / tập luyện / (văn học) lụa trắng / luộc và giũ lụa thô,动,844,INSERT_MOI
+853,L2-0353,练习,liànxí,luyện tập / bài tập / rèn luyện / thực hành,动、名,845,INSERT_MOI
+854,L2-0354,凉,liáng,mát / lạnh,形,846,INSERT_MOI
+855,L2-0355,凉快,liángkuai,mát mẻ / dễ chịu và mát,形,847,INSERT_MOI
+856,L2-0356,两,liǎng,hai,量,224,DA_CO
+857,L2-0357,亮,liàng,"sáng; ánh / soi rọi; loé sáng / to rõ và rõ ràng / đưa ra (hộ chiếu, v.v.); công khai (quan điểm, v.v.)",形、动,848,INSERT_MOI
+858,L2-0358,辆,liàng,lượng từ cho xe cộ,量,849,INSERT_MOI
+859,L2-0359,零下,líng xià,dưới không,,850,INSERT_MOI
+860,L2-0360,留,liú,"biến thể cũ của 留[liu2] / để lại (tin nhắn, v.v.) / giữ lại / ở lại / duy trì / bảo tồn / lưu giữ",动,851,INSERT_MOI
+861,L2-0361,留下,liúxia,để lại / ở lại / duy trì / giữ lại / không để cho (ai) đi,,852,INSERT_MOI
+862,L2-0362,留学生,liúxuéshēng,du học sinh / sinh viên trao đổi (nước ngoài),名,853,INSERT_MOI
+863,L2-0363,流,liú,"chảy / truyền bá / lưu thông hoặc lan truyền / di chuyển hoặc trôi dạt / sa sút / đày ải hoặc lưu đày / dòng nước hoặc thứ gì đó giống dòng nước / hạng, mức hoặc cấp",动,854,INSERT_MOI
+864,L2-0364,流利,liúlì,lưu loát,形,855,INSERT_MOI
+865,L2-0365,流行,liúxíng,"(về bệnh truyền nhiễm, v.v.) lan truyền / lây lan / (về phong cách quần áo, bài hát, v.v.) phổ biến / thịnh hành",动、形,856,INSERT_MOI
+866,L2-0366,路边,lù biān,lề đường; ven đường; vệ đường,,857,INSERT_MOI
+867,L2-0367,旅客,lǚkè,du khách; khách du lịch,名,858,INSERT_MOI
+868,L2-0368,旅行,lǚxíng,du lịch / hành trình; chuyến đi,动,859,INSERT_MOI
+869,L2-0369,旅游,lǚyóu,chuyến đi / hành trình / du lịch / du hành / tour / đi du lịch,动,860,INSERT_MOI
+870,L2-0370,绿,lǜ,"màu xanh lá / (tiếng lóng) (xuất phát từ 綠帽子|绿帽子[lu:4 mao4 zi5]) cắm sừng (vợ, chồng, bạn trai hoặc bạn gái)",形,861,INSERT_MOI
+871,L2-0371,绿色,lǜsè,màu xanh lá,名,862,INSERT_MOI
+872,L2-0372,卖,mài,bán / phản bội / không tiếc công sức / phô trương hoặc khoe khoang,动,863,INSERT_MOI
+873,L2-0373,满,mǎn,lấp đầy / đầy / đầy đủ / nhét kín / hoàn toàn / trọn vẹn / khá / đạt đến giới hạn / thỏa mãn / hài lòng / mãn nguyện,形,864,INSERT_MOI
+874,L2-0374,满意,mǎnyì,hài lòng / vui lòng / đúng như mong đợi,动,865,INSERT_MOI
+875,L2-0375,猫,māo,mèo ( / (phương ngữ) trốn / (từ mượn) (thông tục) modem,名,866,INSERT_MOI
+876,L2-0376,米,mǐ,gạo / mét (đơn vị đo),量,867,INSERT_MOI
+877,L2-0377,面1,miàn,"mặt / bên / bề mặt / khía cạnh / Lượng từ cho vật có bề mặt phẳng như trống, gương, cờ, v.v. / biến thể của 麵|面[mian4] / bột / mì / (thức ăn) mềm (không giòn) / (tiếng lóng) (người) kém cỏi / nhu nhược",名、量,868,INSERT_MOI
+878,L2-0378,面2,miàn,"mặt / bên / bề mặt / khía cạnh / Lượng từ cho vật có bề mặt phẳng như trống, gương, cờ, v.v. / biến thể của 麵|面[mian4] / bột / mì / (thức ăn) mềm (không giòn) / (tiếng lóng) (người) kém cỏi / nhu nhược",名,869,INSERT_MOI
+879,L2-0379,面前,miànqián,trước mặt / đối diện / (trong) sự hiện diện (của),名,870,INSERT_MOI
+880,L2-0380,名,míng,tên / danh từ (loại từ) / vị trí (vd: trong danh sách trúng giải) / nổi tiếng / lượng từ cho người,名、量,871,INSERT_MOI
+881,L2-0381,名称,míngchēng,tên (của một sự vật) / tên (của một tổ chức),名,872,INSERT_MOI
+882,L2-0382,名单,míngdān,danh sách tên,名,873,INSERT_MOI
+883,L2-0383,明星,míngxīng,ngôi sao; người nổi tiếng,名,874,INSERT_MOI
+884,L2-0384,目的,mùdì,mục đích; đích; mục tiêu; đối tượng,名,875,INSERT_MOI
+885,L2-0385,拿出,náchū,lấy ra / đưa ra / cung cấp / đề xuất (một đề án) / nghĩ ra (bằng chứng),,876,INSERT_MOI
+886,L2-0386,拿到,nádào,lấy được / đạt được,,877,INSERT_MOI
+887,L2-0387,那,nà,đó; cái đó,连,261,DA_CO
+888,L2-0388,那会儿,nàhuìr,vào lúc đó (trong quá khứ hoặc tương lai) / cũng đọc là [nei4 hui4 r5],代,878,INSERT_MOI
+889,L2-0389,那么,nàme,như vậy / theo cách đó / hoặc là / quá / rất nhiều / khoảng / nếu vậy,代,879,INSERT_MOI
+890,L2-0390,那时候,nà shíhou,lúc đó / vào thời điểm đó / những ngày đó,,880,INSERT_MOI
+891,L2-0391,那样,nàyàng,loại đó / kiểu đó,代,881,INSERT_MOI
+892,L2-0392,南方,nánfāng,phía nam / miền nam Trung Quốc (khu vực phía nam sông Dương Tử),名,882,INSERT_MOI
+893,L2-0393,难过,nánguò,cảm thấy buồn / cảm thấy không khỏe / (cuộc sống) cảm thấy khó khăn,形,883,INSERT_MOI
+894,L2-0394,难看,nánkàn,xấu / xấu xí,形,884,INSERT_MOI
+895,L2-0395,难受,nánshòu,cảm thấy không khỏe / chịu đau khổ / khó chịu đựng,形,885,INSERT_MOI
+896,L2-0396,难题,nántí,vấn đề khó,名,886,INSERT_MOI
+897,L2-0397,难听,nántīng,khó nghe / thô tục / tục tĩu / phản cảm / đáng xấu hổ,形,887,INSERT_MOI
+898,L2-0398,能够,nénggòu,có khả năng / có thể,动,888,INSERT_MOI
+899,L2-0399,年级,niánjí,"lớp / năm (trong trường học, đại học, v.v.)",名,889,INSERT_MOI
+900,L2-0400,年轻,niánqīng,trẻ,形,890,INSERT_MOI
+901,L2-0401,鸟,niǎo,"chim / Lượng từ: 隻|只[zhi1],群[qun2] / bộ ""chim"" trong chữ Hán (bộ Khang Hy số 196) / (tiếng địa phương) để ý đến / (nhấn mạnh) chết tiệt / chết tiệt",名,891,INSERT_MOI
+902,L2-0402,弄,nòng,làm / quản lý / xử lý / chơi với / nghịch với / đùa với / sửa / chạm vào / biến thể cũ của 弄[nong4],动,892,INSERT_MOI
+903,L2-0403,努力,nǔlì,nỗ lực; cố gắng; phấn đấu / chăm chỉ; tận tụy,形,893,INSERT_MOI
+904,L2-0404,爬,pá,bò / leo / ngồi dậy hoặc đứng dậy,动,894,INSERT_MOI
+905,L2-0405,爬山,pá shān,leo núi / đi bộ đường dài / môn leo núi,,895,INSERT_MOI
+906,L2-0406,怕,pà,sợ / e ngại / khiếp sợ / không thể chịu đựng / có lẽ,动,896,INSERT_MOI
+907,L2-0407,排,pái,"một hàng / một dòng / sắp xếp / theo thứ tự / xếp hàng / loại bỏ / thoát nước / đẩy ra / tiểu đội / bè / lượng từ cho hàng, dòng, v.v.",名、量,897,INSERT_MOI
+908,L2-0408,排队,páiduì,xếp hàng,,898,INSERT_MOI
+909,L2-0409,排球,páiqiú,bóng chuyền,名,899,INSERT_MOI
+910,L2-0410,碰,pèng,biến thể của 碰[peng4] / chạm / gặp / va phải / biến thể cũ của 碰[peng4],动,900,INSERT_MOI
+911,L2-0411,碰到,pèngdào,tình cờ gặp / phải đối mặt / gặp / phải,,901,INSERT_MOI
+912,L2-0412,碰见,pèngjiàn,tình cờ gặp / gặp (bất ngờ) / chạm mặt,,902,INSERT_MOI
+913,L2-0413,篇,piān,"tờ / mảnh viết / tập thẻ tre dùng để ghi chép (xưa) / lượng từ cho tác phẩm viết: chương, bài viết",量,903,INSERT_MOI
+914,L2-0414,便宜,piányi,rẻ; không đắt / lợi ích nhỏ / cho qua một cách nhẹ nhàng,形、名,904,INSERT_MOI
+915,L2-0415,片,piàn,"mảnh mỏng / bông / một lát / phim / phim truyền hình / thái / lát mỏng / một phần / không hoàn chỉnh / phiến diện / lượng từ cho lát, viên, mảnh đất, vùng nước / lượng từ cho CD, phim, DVD, v.v. / dùng với số từ 一[yi1]: lượng từ cho kịch bản, cảnh, cảm giác, bầu không khí, âm thanh, v.v. / bộ Khang Hy số 91",量,905,INSERT_MOI
+916,L2-0416,漂亮,piàoliang,xinh đẹp; đẹp,形,906,INSERT_MOI
+917,L2-0417,平,píng,phẳng / bằng / ngang / hòa (điểm số) / kết quả hòa / điềm tĩnh / yên bình / viết tắt của 平聲|平声[ping2 sheng1],形,907,INSERT_MOI
+918,L2-0418,平安,píng'ān,bình an / khỏe mạnh / không có chuyện gì / yên tĩnh và an toàn / an bình,形,908,INSERT_MOI
+919,L2-0419,平常,píngcháng,bình thường / phổ biến / thường thường / thông thường,名、形,909,INSERT_MOI
+920,L2-0420,平等,píngděng,bình đẳng / sự bình đẳng,形,910,INSERT_MOI
+921,L2-0421,平时,píngshí,thường lệ / trong thời gian bình thường / trong thời bình,名,911,INSERT_MOI
+922,L2-0422,瓶,píng,chai / bình / ấm / lượng từ cho rượu và chất lỏng / biến thể của 瓶[ping2],名、量,912,INSERT_MOI
+923,L2-0423,瓶子,píngzi,chai,名,913,INSERT_MOI
+924,L2-0424,普通,pǔtōng,phổ thông / bình thường / chung / chung bình,形,914,INSERT_MOI
+925,L2-0425,普通话,pǔtōnghuà,Quan Thoại (ngôn ngữ phổ thông) / Phổ thông thoại (lời nói chung của tiếng Trung Quốc) / lời nói thông thường,名,915,INSERT_MOI
+926,L2-0426,其他,qítā,khác / (điều gì đó hoặc ai đó) khác / phần còn lại,代,916,INSERT_MOI
+927,L2-0427,其中,qízhōng,trong số / trong / bao gồm trong số này,名,917,INSERT_MOI
+928,L2-0428,骑,qí,"ngồi cưỡi / cưỡi (ngựa, xe đạp, v.v.) / lượng từ cho ngựa cưỡi",动,918,INSERT_MOI
+929,L2-0429,骑车,qí chē,lái xe đạp hoặc xe máy,,919,INSERT_MOI
+930,L2-0430,起飞,qǐfēi,(của máy bay) cất cánh,动,920,INSERT_MOI
+931,L2-0431,气,qì,khí; không khí / mùi / thời tiết / làm tức giận; gây bực mình; tức giận / năng lượng sống; khí,动、名,921,INSERT_MOI
+932,L2-0432,气温,qìwēn,nhiệt độ không khí,名,922,INSERT_MOI
+933,L2-0433,千,qiān,một nghìn / xem 鞦韆|秋千[qiu1 qian1],数,923,INSERT_MOI
+934,L2-0434,千克,qiānkè,kilogram,量,924,INSERT_MOI
+935,L2-0435,前年,qiánnián,năm kia,名,925,INSERT_MOI
+936,L2-0436,墙,qiáng,"biến thể của 牆|墙[qiang2], tường / tường ( / (tiếng lóng) chặn (trang web) (thường ở dạng bị động: 被牆|被墙[bei4 qiang2])",名,926,INSERT_MOI
+937,L2-0437,青年,qīngnián,thanh niên / tuổi trẻ / người trẻ / giới trẻ,名,927,INSERT_MOI
+938,L2-0438,青少年,qīng-shàonián,thanh thiếu niên / tuổi trẻ / thanh niên,名,928,INSERT_MOI
+939,L2-0439,轻,qīng,nhẹ / dễ / dịu dàng / mềm mại / khinh suất / không quan trọng / hời hợt / ít số lượng / không nhấn mạnh / trung lập / coi thường,形,929,INSERT_MOI
+940,L2-0440,清楚,qīngchu,rõ ràng / minh bạch / hiểu rõ / nắm rõ,形,930,INSERT_MOI
+941,L2-0441,晴,qíng,trời quang / rõ ràng (thời tiết),形,931,INSERT_MOI
+942,L2-0442,晴天,qíngtiān,trời quang / ngày nắng,名,932,INSERT_MOI
+943,L2-0443,请客,qǐngkè,mời tiệc / chiêu đãi khách / mời ăn tối,,933,INSERT_MOI
+944,L2-0444,请求,qǐngqiú,yêu cầu; hỏi / một yêu cầu (,动、名,934,INSERT_MOI
+945,L2-0445,秋天,qiūtiān,mùa thu,名,935,INSERT_MOI
+946,L2-0446,求,qiú,tìm kiếm / tìm / thỉnh cầu / yêu cầu / cầu xin,动,936,INSERT_MOI
+947,L2-0447,球场,qiúchǎng,sân vận động / sân thể thao / sân bóng / sân cỏ / sân / chỗ chơi golf,名,937,INSERT_MOI
+948,L2-0448,球队,qiúduì,"đội thể thao (bóng rổ, bóng đá, bóng bầu dục, v.v.)",名,938,INSERT_MOI
+949,L2-0449,球鞋,qiúxié,giày thể thao,名,939,INSERT_MOI
+950,L2-0450,取,qǔ,lấy / nhận / chọn / mang về,动,940,INSERT_MOI
+951,L2-0451,取得,qǔdé,giành được; lấy được; đạt được,动,941,INSERT_MOI
+952,L2-0452,全,quán,tất cả / toàn bộ / toàn thể / mọi / hoàn toàn,副、形,942,INSERT_MOI
+953,L2-0453,全部,quánbù,toàn bộ; tất cả,名,943,INSERT_MOI
+954,L2-0454,全国,quánguó,cả nước / toàn quốc / toàn quốc gia,名,944,INSERT_MOI
+955,L2-0455,全家,quánjiā,cả gia đình,名,945,INSERT_MOI
+956,L2-0456,全年,quánnián,cả năm / suốt cả năm,名,946,INSERT_MOI
+957,L2-0457,全身,quánshēn,toàn bộ cơ thể / (ngành in) em,名,947,INSERT_MOI
+958,L2-0458,全体,quántǐ,tất cả / toàn bộ,名,948,INSERT_MOI
+959,L2-0459,然后,ránhòu,sau đó; sau này,连,949,INSERT_MOI
+960,L2-0460,让,ràng,"nhường / cho phép / để ai đó làm gì / bảo ai đó làm gì / khiến ai đó (cảm thấy buồn, v.v.) / bởi (chỉ tác nhân trong câu bị động, như 被[bei4])",动、介,950,INSERT_MOI
+961,L2-0461,热情,rèqíng,nồng nhiệt / nhiệt tình / đam mê / một cách đam mê,名、形,951,INSERT_MOI
+962,L2-0462,人口,rénkǒu,dân số / con người,名,952,INSERT_MOI
+963,L2-0463,人们,rénmen,mọi người,名,953,INSERT_MOI
+964,L2-0464,人数,rénshù,số lượng người,名,954,INSERT_MOI
+965,L2-0465,认为,rènwéi,tin; nghĩ; xem xét; cảm thấy,动,955,INSERT_MOI
+966,L2-0466,日报,rìbào,báo hàng ngày,名,956,INSERT_MOI
+967,L2-0467,日子,rìzi,ngày / một ngày (trong lịch) / những ngày trong cuộc sống,名,957,INSERT_MOI
+968,L2-0468,如果,rúguǒ,nếu / trong trường hợp / nếu như,连,958,INSERT_MOI
+969,L2-0469,入口,rùkǒu,lối vào / nhập khẩu,名,959,INSERT_MOI
+970,L2-0470,商量,shāngliang,trao đổi / bàn bạc / thảo luận,动,960,INSERT_MOI
+971,L2-0471,商人,shāngrén,thương nhân / doanh nhân,名,961,INSERT_MOI
+972,L2-0472,上周,shàng zhōu,tuần trước,,962,INSERT_MOI
+973,L2-0473,少数,shǎoshù,số lượng nhỏ / ít / thiểu số,名,963,INSERT_MOI
+974,L2-0474,少年,shàonián,tuổi thiếu niên / người trẻ / (văn học) thiếu niên; chàng trai,名,964,INSERT_MOI
+975,L2-0475,身边,shēnbiān,bên cạnh / có sẵn,名,965,INSERT_MOI
+976,L2-0476,什么样,shénmeyàng,loại gì?; dạng gì?,代,966,INSERT_MOI
+977,L2-0477,生,shēng,được sinh / sinh ra / cuộc sống / phát triển / sống / chưa chín / học sinh,动,967,INSERT_MOI
+978,L2-0478,生词,shēngcí,từ mới (trong sách giáo khoa) / từ không quen hoặc chưa học,名,968,INSERT_MOI
+979,L2-0479,生活,shēnghuó,sống / cuộc sống / sinh kế,名、动,969,INSERT_MOI
+980,L2-0480,声音,shēngyīn,giọng / âm thanh,名,970,INSERT_MOI
+981,L2-0481,省,shěng,tiết kiệm; kinh tế; tằn tiện / lược bỏ; xoá; bỏ ra / tỉnh / tỉnh lỵ / một bộ (của chính phủ Nhật Bản),名,971,INSERT_MOI
+982,L2-0482,省,shěng,tiết kiệm; kinh tế; tằn tiện / lược bỏ; xoá; bỏ ra / tỉnh / tỉnh lỵ / một bộ (của chính phủ Nhật Bản),动,972,INSERT_MOI
+983,L2-0483,十分,shífēn,rất / hoàn toàn / cực kỳ / vô cùng / tuyệt đối / một trăm phần trăm / chia thành mười phần bằng nhau,副,973,INSERT_MOI
+984,L2-0484,实际,shíjì,thực tế / thực hành / thực tiễn / thực / sự thật,名、形,974,INSERT_MOI
+985,L2-0485,实习,shíxí,thực hành / thực tập / sự thực tập,动、名,975,INSERT_MOI
+986,L2-0486,实现,shíxiàn,đạt được; thực hiện; nhận ra; làm cho xảy ra,动,976,INSERT_MOI
+987,L2-0487,实在,shízài,thực sự / thật sự / quả thật / đúng / thành thật / đáng tin cậy / (triết học) hiện thực,副,977,INSERT_MOI
+988,L2-0488,实在,shízai,thực sự / thật sự / quả thật / đúng / thành thật / đáng tin cậy / (triết học) hiện thực,形,978,INSERT_MOI
+989,L2-0489,食物,shíwù,thực phẩm,名,979,INSERT_MOI
+990,L2-0490,使用,shǐyòng,sử dụng / tận dụng / áp dụng,动,980,INSERT_MOI
+991,L2-0491,市,shì,chợ / thành phố,名,981,INSERT_MOI
+992,L2-0492,市长,shìzhǎng,thị trưởng,名,982,INSERT_MOI
+993,L2-0493,事情,shìqing,sự việc; vấn đề; điều; công việc,名,983,INSERT_MOI
+994,L2-0494,收,shōu,nhận / chấp nhận / sưu tầm / cất đi / kiềm chế / dừng / chăm sóc (dùng sau tên trên dòng địa chỉ),动,984,INSERT_MOI
+995,L2-0495,收到,shōudào,nhận được,,985,INSERT_MOI
+996,L2-0496,收入,shōurù,thu vào / thu nhập / doanh thu,动、名,986,INSERT_MOI
+997,L2-0497,手表,shǒubiǎo,đồng hồ đeo tay,名,987,INSERT_MOI
+998,L2-0498,受到,shòudào,"nhận được (lời khen ngợi, sự giáo dục, hình phạt, v.v.) / bị (khen ngợi, giáo dục, trừng phạt, v.v.)",,988,INSERT_MOI
+999,L2-0499,舒服,shūfu,thoải mái / cảm thấy khỏe,形,989,INSERT_MOI
+1000,L2-0500,熟,shú/shóu,"chín; trưởng thành / nấu chín; xong / quen thuộc; quen biết / có kinh nghiệm; thành thạo / (về giấc ngủ, v.v.) sâu; sâu sắc / cũng phát âm là [shou2]",形,990,INSERT_MOI
+1001,L2-0501,数,shǔ,đếm / coi như; xem như / liệt kê; liệt kê danh sách,动,991,INSERT_MOI
+1002,L2-0502,数字,shùzì,"chữ số / số / hình / số lượng / kỹ thuật số (điện tử, v.v.)",名,992,INSERT_MOI
+1003,L2-0503,水平,shuǐpíng,"mức độ (thành tựu, v.v.) / tiêu chuẩn / ngang",名,993,INSERT_MOI
+1004,L2-0504,顺利,shùnlì,một cách suôn sẻ; không gặp trở ngại,形,994,INSERT_MOI
+1005,L2-0505,说明,shuōmíng,giải thích / minh họa / chỉ ra / cho thấy / chứng minh / hướng dẫn / chú thích,动、名,995,INSERT_MOI
+1006,L2-0506,司机,sījī,tài xế; người lái xe,名,996,INSERT_MOI
+1007,L2-0507,送到,sòngdào,đưa đến; giao đến; chuyển đến,,997,INSERT_MOI
+1008,L2-0508,送给,sòng gěi,gửi / tặng quà,,998,INSERT_MOI
+1009,L2-0509,算,suàn,coi như / tính toán / tính / toán,动,999,INSERT_MOI
+1010,L2-0510,虽然,suīrán,"mặc dù; cho dù (thường dùng kết hợp với 可是[ke3 shi4] hoặc 但是[dan4 shi4],...)",连,1000,INSERT_MOI
+1011,L2-0511,随便,suíbiàn,tuỳ ý / tùy thích / ngẫu nhiên / cẩu thả / tự nhiên / tùy tiện,形,1001,INSERT_MOI
+1012,L2-0512,随时,suíshí,bất kỳ lúc nào; mọi lúc / đúng lúc; khi cần thiết,副,1002,INSERT_MOI
+1013,L2-0513,所以,suǒyǐ,vì vậy / do đó / nên / lý do tại sao,连,1003,INSERT_MOI
+1014,L2-0514,所有,suǒyǒu,tất cả / có; sở hữu,形,1004,INSERT_MOI
+1015,L2-0515,它,tā,nó,代,1005,INSERT_MOI
+1016,L2-0516,它们,tāmen,chúng; chúng nó,代,1006,INSERT_MOI
+1017,L2-0517,太太,tàitai,phụ nữ đã kết hôn / Bà / Phu nhân / vợ,名,1007,INSERT_MOI
+1018,L2-0518,太阳,tàiyáng,mặt trời / viết tắt của 太陽穴|太阳穴[tai4 yang2 xue2],名,1008,INSERT_MOI
+1019,L2-0519,态度,tàidù,cách thức / tác phong / thái độ / phương pháp,名,1009,INSERT_MOI
+1020,L2-0520,讨论,tǎolùn,thảo luận; bàn luận,动,1010,INSERT_MOI
+1021,L2-0521,套,tào,"che đậy / bọc / vỏ / bao / trùng lặp / đan xen / mô phỏng / theo mẫu / công thức / bộ dây cương / vòng dây / thao tác khéo léo / đạt được một cách lươn lẹo / lượng từ cho bộ, tập hợp / khúc quanh (của sông hoặc dãy núi, trong địa danh) / tau (chữ cái Hy Lạp Ττ)",量,1011,INSERT_MOI
+1022,L2-0522,特别,tèbié,khác thường; đặc biệt / rất; đặc biệt; đặc biệt là / đặc biệt; cho một mục đích cụ thể / (thường theo sau bởi 是[shi4]) đặc biệt là,形、副,1012,INSERT_MOI
+1023,L2-0523,特点,tèdiǎn,đặc điểm (nét đặc trưng) / phẩm chất / đặc tính,名,1013,INSERT_MOI
+1024,L2-0524,疼,téng,(bị) đau; nhức / yêu thương hết mực,动,1014,INSERT_MOI
+1025,L2-0525,提,tí,xách (thòng xuống từ tay) / nâng / đề xuất / nhắc đến / nêu lên (vấn đề) / nét bút hướng lên / nét nâng bút (trong hội họa) / gàu múc chất lỏng,动,1015,INSERT_MOI
+1026,L2-0526,提出,tíchū,nêu (vấn đề) / đề xuất / đưa ra / đề nghị / đăng (trên trang web) / rút (tiền mặt),,1016,INSERT_MOI
+1027,L2-0527,提到,tídào,đề cập / nêu (một chủ đề) / nhắc đến,,1017,INSERT_MOI
+1028,L2-0528,提高,tígāo,nâng cao / tăng / cải thiện,,1018,INSERT_MOI
+1029,L2-0529,题,tí,chủ đề / vấn đề thảo luận / câu hỏi thi / môn học / đề lên / nhắc đến,名,1019,INSERT_MOI
+1030,L2-0530,体育,tǐyù,thể thao / giáo dục thể chất,名,1020,INSERT_MOI
+1031,L2-0531,体育场,tǐyùchǎng,sân vận động,名,1021,INSERT_MOI
+1032,L2-0532,体育馆,tǐyùguǎn,phòng gym / nhà thi đấu / sân vận động,名,1022,INSERT_MOI
+1033,L2-0533,天上,tiānshàng,thuộc về trời / thần thánh,名,1023,INSERT_MOI
+1034,L2-0534,条,tiáo,"dải / mục / điều / khoản (của luật hoặc hiệp ước) / lượng từ cho những vật dài mỏng (ruy băng, sông, đường, quần dài, v.v.)",量,1024,INSERT_MOI
+1035,L2-0535,条件,tiáojiàn,điều kiện; hoàn cảnh; điều khoản; yếu tố / yêu cầu; điều kiện tiên quyết; tiêu chuẩn / tình huống; trạng thái; điều kiện / lượng từ: 個|个[ge4],名,1025,INSERT_MOI
+1036,L2-0536,听讲,tīngjiǎng,tham dự buổi nói chuyện / nghe bài giảng,,1026,INSERT_MOI
+1037,L2-0537,听说,tīngshuō,nghe (nói) / nghe rằng / nghe đồn / nghe và nói,动,1027,INSERT_MOI
+1038,L2-0538,停,tíng,dừng / ngừng / đỗ (xe),动,1028,INSERT_MOI
+1039,L2-0539,停车,tíngchē,dừng xe (dừng phương tiện) / đỗ xe / (máy móc) ngừng hoạt động / chết máy,,1029,INSERT_MOI
+1040,L2-0540,停车场,tíngchēchǎng,bãi đỗ xe / bãi gửi xe,名,1030,INSERT_MOI
+1041,L2-0541,挺,tǐng,thẳng / đứng thẳng / chìa ra (một phần cơ thể) / (về thể chất) đứng thẳng / hỗ trợ / chống chịu / xuất sắc / (khẩu ngữ) khá / rất / lượng từ cho súng máy,副,1031,INSERT_MOI
+1042,L2-0542,挺好,tǐng hǎo,rất tốt,,1032,INSERT_MOI
+1043,L2-0543,通,tōng,"đi qua / biết rõ / (hậu tố) chuyên gia / kết nối / giao tiếp / mở / thông / lượng từ cho thư, điện báo, cuộc gọi điện thoại, v.v.",动、形,1033,INSERT_MOI
+1044,L2-0544,通过,tōngguò,đi qua; vượt qua / thông qua (một nghị quyết); thông qua (luật pháp) / vượt qua (một kỳ thi) / bằng cách; thông qua; qua,介、动,1034,INSERT_MOI
+1045,L2-0545,通知,tōngzhī,thông báo / thông tin / thông tri,动、名,1035,INSERT_MOI
+1046,L2-0546,同时,tóngshí,đồng thời; cùng lúc,连、名,1036,INSERT_MOI
+1047,L2-0547,同事,tóngshì,đồng nghiệp; cộng sự,名,1037,INSERT_MOI
+1048,L2-0548,同样,tóngyàng,giống nhau; bằng nhau; tương tự / tương tự; cũng; nữa,形、连,1038,INSERT_MOI
+1049,L2-0549,头,tóu,đầu / kiểu tóc / trên cùng / cuối / đoạn còn lại / tàn dư / trưởng / sếp / mặt / phương diện / đầu tiên / dẫn đầu / lượng từ cho heo hoặc gia súc,名、量,1039,INSERT_MOI
+1050,L2-0550,头（里头）,tou (lǐtou),hậu tố cho danh từ,后缀,1041,INSERT_MOI
+1051,L2-0551,头发,tóufa,tóc (trên đầu),名,1040,INSERT_MOI
+1052,L2-0552,图片,túpiàn,bức tranh; bức ảnh,名,1042,INSERT_MOI
+1053,L2-0553,推,tuī,đẩy / cắt / từ chối / bác bỏ / khước từ / đùn đẩy (trách nhiệm) / hoãn / trì hoãn / thúc đẩy / đề cử / bầu chọn / massage,动,1043,INSERT_MOI
+1054,L2-0554,腿,tuǐ,chân / Lượng từ:條|条[tiao2] / xương hông / biến thể cũ của 腿[tui3],名,1044,INSERT_MOI
+1055,L2-0555,外地,wàidì,các khu vực trong nước khác với nơi một người đang ở,名,1045,INSERT_MOI
+1056,L2-0556,外卖,wàimài,(của nhà hàng) cung cấp bữa ăn mang về hoặc giao hàng tận nhà / kinh doanh đồ ăn mang về / bữa ăn mang về,名、动,1046,INSERT_MOI
+1057,L2-0557,完,wán,hoàn thành / kết thúc / toàn bộ / hoàn chỉnh / hoàn toàn,动,1047,INSERT_MOI
+1058,L2-0558,完成,wánchéng,hoàn thành; thực hiện,,1048,INSERT_MOI
+1059,L2-0559,完全,wánquán,hoàn chỉnh; toàn bộ / hoàn toàn; toàn diện,形、副,1049,INSERT_MOI
+1060,L2-0560,晚安,wǎn'ān,Chúc ngủ ngon! / Chào buổi tối!,动,1050,INSERT_MOI
+1061,L2-0561,晚报,wǎnbào,báo chiều / (trong tên tờ báo) Tin Tức Buổi Chiều,名,1051,INSERT_MOI
+1062,L2-0562,晚餐,wǎncān,bữa tối / bữa ăn tối,名,1052,INSERT_MOI
+1063,L2-0563,晚会,wǎnhuì,buổi dạ tiệc,名,1053,INSERT_MOI
+1064,L2-0564,碗,wǎn,biến thể của 碗[wan3] / bát / chén,名,1054,INSERT_MOI
+1065,L2-0565,万,wàn,mười nghìn / một số lượng lớn,数,1055,INSERT_MOI
+1066,L2-0566,网,wǎng,lưới / mạng lưới,名,1056,INSERT_MOI
+1067,L2-0567,网球,wǎngqiú,quần vợt / trái bóng tennis,名,1057,INSERT_MOI
+1068,L2-0568,网站,wǎngzhàn,trang web,名,1058,INSERT_MOI
+1069,L2-0569,往,wǎng,đi (một hướng) / đến / hướng tới / (tàu) đi về / quá khứ / trước đây / biến thể cũ của 往[wang3],动、介,1059,INSERT_MOI
+1070,L2-0570,为,wèi,bởi vì / vì / để / biến thể của 為|为[wei4],介,1060,INSERT_MOI
+1071,L2-0571,为什么,wèi shénme,tại sao? / vì lý do gì?,,1061,INSERT_MOI
+1072,L2-0572,位,wèi,vị trí / địa điểm / chỗ / ngồi / lượng từ cho người (kính trọng) / lượng từ cho bit nhị phân (ví dụ: 十六位 16-bit hoặc 2 byte) / (vật lý) thế năng,量,1062,INSERT_MOI
+1073,L2-0573,味道,wèidào,hương vị; mùi vị / (nghĩa bóng) cảm giác (về...); cảm nhận (về...); nét (của...) / (nghĩa bóng) hứng thú; thú vị / (phương ngữ) mùi; mùi hương,名,1063,INSERT_MOI
+1074,L2-0574,喂,wèi,"này / cho ăn (động vật, em bé, người bệnh v.v.) / biến thể của 餵|喂[wei4] / cho ăn",Intj,1064,INSERT_MOI
+1075,L2-0575,温度,wēndù,nhiệt độ,名,1065,INSERT_MOI
+1076,L2-0576,闻,wén,nghe / tin tức / nổi tiếng / nổi danh / danh tiếng / tên tuổi / ngửi / ngửi thấy,动,1066,INSERT_MOI
+1077,L2-0577,问路,wènlù,hỏi đường / hỏi đường đến đâu đó,动,1067,INSERT_MOI
+1078,L2-0578,问题,wèntí,câu hỏi / vấn đề / chủ đề,名,1068,INSERT_MOI
+1079,L2-0579,午餐,wǔcān,bữa trưa / buổi ăn trưa,名,1069,INSERT_MOI
+1080,L2-0580,午睡,wǔshuì,ngủ trưa / giấc ngủ ngắn,名、动,1070,INSERT_MOI
+1081,L2-0581,西北,xīběi,tây bắc,名,1071,INSERT_MOI
+1082,L2-0582,西餐,xīcān,Món ăn kiểu Tây,名,1072,INSERT_MOI
+1083,L2-0583,西方,xīfāng,phương Tây / các nước phương Tây,名,1073,INSERT_MOI
+1084,L2-0584,西南,xīnán,tây nam,名,1074,INSERT_MOI
+1085,L2-0585,西医,xīyī,y học phương Tây / bác sĩ được đào tạo theo y học phương Tây,名,1075,INSERT_MOI
+1086,L2-0586,习惯,xíguàn,thói quen / phong tục / thói quen thường lệ / quen với,名、动,1076,INSERT_MOI
+1087,L2-0587,洗衣机,xǐyījī,máy giặt,名,1077,INSERT_MOI
+1088,L2-0588,洗澡,xǐzǎo,tắm / tắm vòi sen,,1078,INSERT_MOI
+1089,L2-0589,下,xià,dưới; xuống,量,390,DA_CO
+1090,L2-0590,下雪,xià xuě,tuyết rơi,,1079,INSERT_MOI
+1091,L2-0591,下周,xià zhōu,tuần sau,,1080,INSERT_MOI
+1092,L2-0592,夏天,xiàtiān,mùa hè,名,1081,INSERT_MOI
+1093,L2-0593,相同,xiāngtóng,giống hệt / giống nhau,形,1082,INSERT_MOI
+1094,L2-0594,相信,xiāngxìn,tin tưởng; bị thuyết phục; chấp nhận là thật,动,1083,INSERT_MOI
+1095,L2-0595,响,xiǎng,tiếng / vang / âm thanh / phát ra âm thanh / kêu / rung / to / lượng từ cho âm thanh,形,1084,INSERT_MOI
+1096,L2-0596,想到,xiǎngdào,nghĩ đến / gợi nhớ / dự đoán,,1085,INSERT_MOI
+1097,L2-0597,想法,xiǎngfǎ,cách nghĩ; ý kiến; quan niệm / nghĩ cách (làm gì đó),名,1086,INSERT_MOI
+1098,L2-0598,想起,xiǎngqǐ,nhớ lại / nghĩ đến / nhớ ra,,1087,INSERT_MOI
+1099,L2-0599,向,xiàng,hướng / về phía / quay về / phương hướng / hỗ trợ / đứng về phía / ngay trước đây / trước đây / luôn luôn / suốt / dùng làm hậu tố cho... / hướng đến... / có xu hướng / hướng dẫn / biến thể của 向[xiang4] / hướng đi / đối mặt / đến / về / ngay trước,介、动,1088,INSERT_MOI
+1100,L2-0600,相机,xiàngjī,máy ảnh (viết tắt của 照相機|照相机[zhao4 xiang4 ji1]) / vào thời điểm thích hợp / tùy cơ ứng biến,名,1089,INSERT_MOI
+1101,L2-0601,像,xiàng,giống / như / nhìn như / chẳng hạn / diện mạo / hình ảnh / chân dung / hình ảnh trong ánh xạ (toán học),动,1090,INSERT_MOI
+1102,L2-0602,小（小王）,xiǎo (Xiǎo Wáng),nhỏ / bé / một vài / trẻ,前缀,1091,INSERT_MOI
+1103,L2-0603,小声,xiǎo shēng,giọng nhỏ / (nói) thì thầm,,1092,INSERT_MOI
+1104,L2-0604,小时候,xiǎoshíhou,khi còn nhỏ,名,1093,INSERT_MOI
+1105,L2-0605,小说,xiǎoshuō,tiểu thuyết / hư cấu,名,1094,INSERT_MOI
+1106,L2-0606,小心,xiǎoxīn,cẩn thận / chú ý,形、动,1095,INSERT_MOI
+1107,L2-0607,小组,xiǎozǔ,nhóm,名,1096,INSERT_MOI
+1108,L2-0608,校园,xiàoyuán,khuôn viên trường,名,1097,INSERT_MOI
+1109,L2-0609,校长,xiàozhǎng,"(trường cao đẳng, đại học) hiệu trưởng",名,1098,INSERT_MOI
+1110,L2-0610,笑话,xiàohua,trò đùa; chuyện cười (Lượng từ: 個|个[ge4]) / chế nhạo; chế giễu / lố bịch; vô lý,动,1099,INSERT_MOI
+1111,L2-0611,笑话儿,xiàohuar,biến thể er hoá của 笑話|笑话[xiao4 hua5],名,1100,INSERT_MOI
+1112,L2-0612,鞋,xié,giày / biến thể của 鞋[xie2],名,1101,INSERT_MOI
+1113,L2-0613,心里,xīnlǐ,ngực / tim; tâm trí,名,1102,INSERT_MOI
+1114,L2-0614,心情,xīnqíng,tâm trạng; trạng thái tinh thần,名,1103,INSERT_MOI
+1115,L2-0615,心中,xīnzhōng,điểm trung tâm / trong suy nghĩ / trong lòng,名,1104,INSERT_MOI
+1116,L2-0616,新闻,xīnwén,tin tức,名,1105,INSERT_MOI
+1117,L2-0617,信,xìn,thư / tín / tin tưởng / tin / tín ngưỡng / thành thật / tự tin / tin cậy / tùy ý / ngẫu nhiên,名,1106,INSERT_MOI
+1118,L2-0618,信号,xìnhào,tín hiệu,名,1107,INSERT_MOI
+1119,L2-0619,信息,xìnxī,thông tin / tin tức / tin nhắn,名,1108,INSERT_MOI
+1120,L2-0620,信心,xìnxīn,niềm tin / tin tưởng (vào ai đó hoặc điều gì đó),名,1109,INSERT_MOI
+1121,L2-0621,信用卡,xìnyòngkǎ,thẻ tín dụng,名,1110,INSERT_MOI
+1122,L2-0622,星星,xīngxing,(thông tục) một ngôi sao; những ngôi sao trên trời,名,1111,INSERT_MOI
+1123,L2-0623,行动,xíngdòng,hoạt động / hành động / di chuyển / di động,动、名,1112,INSERT_MOI
+1124,L2-0624,行人,xíngrén,người đi bộ / khách bộ hành / người qua đường / quan chức phụ trách sắp xếp yết kiến hoàng đế,名,1113,INSERT_MOI
+1125,L2-0625,行为,xíngwéi,hành động / cách cư xử / hành vi / hoạt động,名,1114,INSERT_MOI
+1126,L2-0626,姓,xìng,họ; họ tên / là họ...,名、动,1115,INSERT_MOI
+1127,L2-0627,姓名,xìngmíng,họ và tên; tên đầy đủ,名,1116,INSERT_MOI
+1128,L2-0628,休假,xiūjià,đi nghỉ; có kỳ nghỉ; xin nghỉ,,1117,INSERT_MOI
+1129,L2-0629,许多,xǔduō,nhiều / rất nhiều,数,1118,INSERT_MOI
+1130,L2-0630,选,xuǎn,chọn / lựa / chọn lựa / bầu,动,1119,INSERT_MOI
+1131,L2-0631,学期,xuéqī,học kỳ,名,1120,INSERT_MOI
+1132,L2-0632,雪,xuě,"tuyết / (văn học) xoá đi (nhục nhã, v.v.)",名,1121,INSERT_MOI
+1133,L2-0633,颜色,yánsè,màu sắc / diện mạo / bề ngoài / vẻ mặt / sắc tố / chất nhuộm,名,1122,INSERT_MOI
+1134,L2-0634,眼,yǎn,"mắt / lỗ nhỏ / trọng tâm (của vấn đề) / lượng từ cho vật rỗng lớn (giếng, bếp, nồi vv)",名、量,1123,INSERT_MOI
+1135,L2-0635,眼睛,yǎnjing,mắt,名,1124,INSERT_MOI
+1136,L2-0636,养,yǎng,nuôi (động vật) / nuôi dưỡng (trẻ em) / nuôi (thú cưng) / chu cấp / sinh đẻ,动,1125,INSERT_MOI
+1137,L2-0637,样子,yàngzi,dáng vẻ / tác phong / kiểu mẫu / hình mẫu,名,1126,INSERT_MOI
+1138,L2-0638,要求,yāoqiú,yêu cầu / đòi hỏi / đòi quyền / hỏi,动、名,1127,INSERT_MOI
+1139,L2-0639,药,yào,"lá của cây diên vĩ / biến thể của 藥|药[yao4] / thuốc / dược phẩm / chất dùng cho mục đích cụ thể (ví dụ: đầu độc, nổ, lên men) / đầu độc",名,1128,INSERT_MOI
+1140,L2-0640,药店,yàodiàn,nhà thuốc,名,1129,INSERT_MOI
+1141,L2-0641,药片,yàopiàn,viên thuốc hoặc viên nén,名,1130,INSERT_MOI
+1142,L2-0642,药水,yàoshuǐ,thuốc dạng lỏng / thuốc đóng chai / dung dịch,名,1131,INSERT_MOI
+1143,L2-0643,也许,yěxǔ,có lẽ / có thể,副,1132,INSERT_MOI
+1144,L2-0644,夜,yè,biến thể của 夜[ye4] / đêm,名,1133,INSERT_MOI
+1145,L2-0645,夜里,yèlǐ,trong đêm / vào ban đêm / ban đêm,名,1134,INSERT_MOI
+1146,L2-0646,一部分,yī bùfen,phần / một phần / tập hợp con,,1135,INSERT_MOI
+1147,L2-0647,一定,yīdìng,chắc chắn / nhất định / nhất thiết / cố định / một mức độ nhất định (v.v.) / đã cho / cụ thể / phải,形、副,1136,INSERT_MOI
+1148,L2-0648,一共,yīgòng,tổng cộng,副,1137,INSERT_MOI
+1149,L2-0649,一会儿,yīhuìr,một lát; một lúc,副,432,DA_CO
+1150,L2-0650,一路平安,yīlù-píng'ān,có chuyến đi vui vẻ / Thượng lộ bình an!,,1138,INSERT_MOI
+1151,L2-0651,一路顺风,yīlù-shùnfēng,chúc lên đường bình an (thành ngữ),,1139,INSERT_MOI
+1152,L2-0652,已经,yǐjīng,đã,副,1140,INSERT_MOI
+1153,L2-0653,以后,yǐhòu,sau / khi đó / sau này / theo sau / sau đó / trong tương lai,名,1141,INSERT_MOI
+1154,L2-0654,以前,yǐqián,trước đây / trước / thuở trước / cách đây,名,1142,INSERT_MOI
+1155,L2-0655,以上,yǐshàng,mức đó hoặc cao hơn / số lượng đó hoặc nhiều hơn / đã đề cập ở trên / (dùng để chỉ đã hoàn thành phần phát biểu) Xin hết.,名,1143,INSERT_MOI
+1156,L2-0656,以外,yǐwài,ngoài ra / khác ngoài / trừ / phía ngoài / bên ngoài / ở phía bên kia / vượt ra ngoài,名,1144,INSERT_MOI
+1157,L2-0657,以为,yǐwéi,nghĩ rằng (tức là cho là đúng...) (Thường có hàm ý rằng quan niệm đó là sai lầm – ngoại trừ khi diễn đạt ý kiến hiện tại của chính mình.),动,1145,INSERT_MOI
+1158,L2-0658,以下,yǐxià,mức đó hoặc thấp hơn / số lượng đó hoặc ít hơn / những điều sau,名,1146,INSERT_MOI
+1159,L2-0659,椅子,yǐzi,ghế,名,1147,INSERT_MOI
+1160,L2-0660,一般,yībān,giống / bình thường / tàm tạm / phổ thông / chung / chung chung / nói chung,形,1148,INSERT_MOI
+1161,L2-0661,一点点,yī diǎndiǎn,một chút,,1149,INSERT_MOI
+1162,L2-0662,一生,yīshēng,cả đời; suốt đời,名,1150,INSERT_MOI
+1163,L2-0663,一直,yīzhí,thẳng (theo đường thẳng) / liên tục; luôn luôn; suốt,副,1151,INSERT_MOI
+1164,L2-0664,亿,yì,100 triệu,数,1152,INSERT_MOI
+1165,L2-0665,意见,yìjiàn,ý kiến / quan điểm / đề xuất / phản đối / phàn nàn,名,1153,INSERT_MOI
+1166,L2-0666,意思,yìsi,"ý tưởng / ý kiến / nghĩa / ước nguyện / mong muốn / hứng thú / vui / lòng biết ơn, tình cảm, v.v. / tặng như một biểu thị nhỏ / làm gì đó như một cử chỉ thiện chí, v.v.",名,1154,INSERT_MOI
+1167,L2-0667,因为,yīnwèi,bởi vì / do / bởi,连、介,1155,INSERT_MOI
+1168,L2-0668,阴,yīn,u ám (thời tiết) / nhiều mây / râm mát / Âm (nguyên lý âm trong Âm và Dương) / âm (điện) / nữ tính / mặt trăng / hàm ý / ẩn giấu / bộ phận sinh dục / biến thể của 陰|阴[yin1],形,1156,INSERT_MOI
+1169,L2-0669,阴天,yīntiān,ngày nhiều mây; trời u ám,名,1157,INSERT_MOI
+1170,L2-0670,音节,yīnjié,âm tiết,名,1158,INSERT_MOI
+1171,L2-0671,音乐,yīnyuè,âm nhạc,名,1159,INSERT_MOI
+1172,L2-0672,音乐会,yīnyuèhuì,buổi hòa nhạc,名,1160,INSERT_MOI
+1173,L2-0673,银行,yínháng,ngân hàng,名,1161,INSERT_MOI
+1174,L2-0674,银行卡,yínhángkǎ,thẻ ngân hàng / thẻ ATM,名,1162,INSERT_MOI
+1175,L2-0675,应该,yīnggāi,nên / phải / cần,动,1163,INSERT_MOI
+1176,L2-0676,英文,Yīngwén,tiếng Anh (ngôn ngữ),名,1164,INSERT_MOI
+1177,L2-0677,英语,Yīngyǔ,tiếng Anh,名,1165,INSERT_MOI
+1178,L2-0678,影片,yǐngpiàn,bản sao của phim / phim; điện ảnh; bộ phim,名,1166,INSERT_MOI
+1179,L2-0679,影响,yǐngxiǎng,ảnh hưởng / tác động / ảnh hưởng đến / tác động đến (thường là tiêu cực) / làm phiền,动、名,1167,INSERT_MOI
+1180,L2-0680,永远,yǒngyuǎn,mãi mãi / vĩnh cửu,副,1168,INSERT_MOI
+1181,L2-0681,油,yóu,"dầu / mỡ / chất béo / dầu mỏ / thoa dầu trẩu, sơn hoặc vecni / nhờn / béo / lém lỉnh / xảo quyệt",名,1169,INSERT_MOI
+1182,L2-0682,游客,yóukè,khách du lịch; du khách / (trò chơi trực tuyến) người chơi khách,名,1170,INSERT_MOI
+1183,L2-0683,友好,yǒuhǎo,thân thiện; hòa nhã / bạn thân,形,1171,INSERT_MOI
+1184,L2-0684,有空儿,yǒukòngr,biến thể er hoá của 有空|有空[you3 kong4],动,1172,INSERT_MOI
+1185,L2-0685,有人,yǒu rén,ai đó / mọi người / bất kỳ ai / có người ở đó / đang có người (như trong nhà vệ sinh),,1173,INSERT_MOI
+1186,L2-0686,有（一）点儿,yǒu(yī)diǎnr,hơi / một chút / phần nào / một ít,副,1174,INSERT_MOI
+1187,L2-0687,有意思,yǒu yìsi,thú vị / có ý nghĩa / vui vẻ / vui,,1175,INSERT_MOI
+1188,L2-0688,又,yòu,(một lần) nữa / cũng / vừa... vừa... / thế nhưng / (dùng để nhấn mạnh) dù sao đi nữa,副,1176,INSERT_MOI
+1189,L2-0689,鱼,yú,cá,名,1177,INSERT_MOI
+1190,L2-0690,语言,yǔyán,ngôn ngữ,名,1178,INSERT_MOI
+1191,L2-0691,原来,yuánlái,"gốc; trước đây / vốn dĩ; lúc đầu / thì ra, hóa ra",形、副,1179,INSERT_MOI
+1192,L2-0692,原因,yuányīn,nguyên nhân / nguồn gốc / nguyên nhân gốc / lý do / Lượng từ: 個|个[ge4],名,1180,INSERT_MOI
+1193,L2-0693,院,yuàn,sân / tổ chức / Lượng từ: 個|个[ge4],名,1181,INSERT_MOI
+1194,L2-0694,院长,yuànzhǎng,người đứng đầu của một tổ chức có tên kết thúc bằng 院[yuan4] / chủ tịch hội đồng / hiệu trưởng đại học / trưởng khoa / viện trưởng / thủ tướng Trung Hoa Dân Quốc,名,1182,INSERT_MOI
+1195,L2-0695,院子,yuànzi,sân / vườn / sân trong / sân nhà / Lượng từ: 個|个[ge4] / (cũ) đầy tớ,名,1183,INSERT_MOI
+1196,L2-0696,愿意,yuànyì,muốn / nguyện / sẵn sàng / tự nguyện (làm gì đó),动,1184,INSERT_MOI
+1197,L2-0697,月份,yuèfèn,tháng,名,1185,INSERT_MOI
+1198,L2-0698,月亮,yuèliang,mặt trăng,名,1186,INSERT_MOI
+1199,L2-0699,越,yuè,vượt / vượt qua / vượt hơn / càng... càng...,副,1187,INSERT_MOI
+1200,L2-0700,越来越,yuè lái yuè,ngày càng...,,1188,INSERT_MOI
+1201,L2-0701,云,yún,(văn cổ) nói / mây,名,1189,INSERT_MOI
+1202,L2-0702,运动,yùndòng,di chuyển / tập thể dục / thể thao / vận động / chuyển động / phong trào / chiến dịch,动、名,1190,INSERT_MOI
+1203,L2-0703,咱,zán,biến thể của 咱[zan2] / tôi hoặc tao / chúng ta (bao gồm cả người nói và người nghe),代,1191,INSERT_MOI
+1204,L2-0704,咱们,zánmen,chúng ta hoặc chúng tôi (bao gồm cả người nói và người nghe) / (phương ngữ) tôi hoặc mình / (phương ngữ) (một cách thân mật hoặc dỗ dành) bạn / cũng đọc là [za2 men5],代,1192,INSERT_MOI
+1205,L2-0705,脏,zāng,bẩn / thô tục / làm bẩn (cái gì),形,1193,INSERT_MOI
+1206,L2-0706,早餐,zǎocān,bữa sáng,名,1194,INSERT_MOI
+1207,L2-0707,早晨,zǎochen,buổi sáng sớm / cũng đọc [zao3 chen5],名,1195,INSERT_MOI
+1208,L2-0708,早就,zǎo jiù,đã từ sớm,,1196,INSERT_MOI
+1209,L2-0709,怎么办,zěnme bàn,phải làm sao đây,,1197,INSERT_MOI
+1210,L2-0710,怎么样,zěnmeyàng,như thế nào? / thế nào? / ra sao? / mọi thứ sao rồi?,代,1198,INSERT_MOI
+1211,L2-0711,怎样,zěnyàng,như thế nào / loại gì,代,1199,INSERT_MOI
+1212,L2-0712,占,zhàn,biến thể của 占[zhan4] / chiếm giữ / chiếm đóng / chiếm,动,1200,INSERT_MOI
+1213,L2-0713,站,zhàn,trạm; ga; đứng,动,461,DA_CO
+1214,L2-0714,站住,zhànzhù,đứng lại,,1201,INSERT_MOI
+1215,L2-0715,长,zhǎng,trưởng / đứng đầu / người lớn / mọc / phát triển / tăng / cải thiện,动,1202,INSERT_MOI
+1216,L2-0716,长大,zhǎngdà,trưởng thành,,1203,INSERT_MOI
+1217,L2-0717,找出,zhǎochū,tìm / tìm ra,,1204,INSERT_MOI
+1218,L2-0718,照顾,zhàogù,chăm sóc / quan tâm / chú ý đến / trông nom,动,1205,INSERT_MOI
+1219,L2-0719,照片,zhàopiàn,bức ảnh / hình ảnh,名,1206,INSERT_MOI
+1220,L2-0720,照相,zhàoxiàng,chụp ảnh,,1207,INSERT_MOI
+1221,L2-0721,这么,zhème,nhiều như vậy / như thế này / bao nhiêu? / theo cách này / như thế,代,1208,INSERT_MOI
+1222,L2-0722,这时候,zhè shíhou,lúc này / khoảnh khắc này,,1209,INSERT_MOI
+1223,L2-0723,这样,zhèyàng,loại này / như vậy / cách này / như thế,代,1210,INSERT_MOI
+1224,L2-0724,真正,zhēnzhèng,chính hãng; thật; đúng / thật sự; quả thật,形,1211,INSERT_MOI
+1225,L2-0725,正常,zhèngcháng,bình thường / thông thường,形,1212,INSERT_MOI
+1226,L2-0726,正好,zhènghǎo,vừa (đúng lúc) / vừa đủ / đúng / tình cờ / ngẫu nhiên / đúng lúc,形、副,1213,INSERT_MOI
+1227,L2-0727,正确,zhèngquè,đúng; chính xác; phải; hợp lý,形,1214,INSERT_MOI
+1228,L2-0728,正是,zhèngshì,chính xác là,动,1215,INSERT_MOI
+1229,L2-0729,直接,zhíjiē,trực tiếp (đối lập: gián tiếp 間接|间接[jian4 jie1]) / ngay lập tức / thẳng thắn,形,1216,INSERT_MOI
+1230,L2-0730,只,zhǐ,chỉ / chỉ đơn thuần / chỉ là / nhưng / biến thể của 只[zhi3],副,1217,INSERT_MOI
+1231,L2-0731,只能,zhǐ néng,chỉ có thể / buộc phải làm gì đó / không có lựa chọn nào khác,,1218,INSERT_MOI
+1232,L2-0732,只要,zhǐyào,chỉ cần / miễn là,连,1219,INSERT_MOI
+1233,L2-0733,纸,zhǐ,"biến thể của 紙|纸[zhi3] / giấy / lượng từ cho tài liệu, thư từ, v.v.",名,1220,INSERT_MOI
+1234,L2-0734,中餐,zhōngcān,bữa trưa / món ăn Trung Quốc; đồ ăn Trung Quốc,名,1221,INSERT_MOI
+1235,L2-0735,中级,zhōngjí,cấp trung (trong hệ thống phân cấp),形,1222,INSERT_MOI
+1236,L2-0736,中年,zhōngnián,tuổi trung niên,名,1223,INSERT_MOI
+1237,L2-0737,中小学,zhōng-xiǎoxué,trường trung học và tiểu học,,1224,INSERT_MOI
+1238,L2-0738,中心,zhōngxīn,trung tâm; trái tim; cốt lõi,名,1225,INSERT_MOI
+1239,L2-0739,中医,zhōngyī,y học cổ truyền Trung Quốc / bác sĩ được đào tạo về y học cổ truyền,名,1226,INSERT_MOI
+1240,L2-0740,重点,zhòngdiǎn,điểm quan trọng; điểm chính; trọng tâm / dự án quan trọng / tập trung vào; nhấn mạnh vào,名、副,1227,INSERT_MOI
+1241,L2-0741,重视,zhòngshì,coi trọng; đánh giá cao,动,1228,INSERT_MOI
+1242,L2-0742,周,zhōu,đi một vòng / xoay vòng / đường tròn / chu vi / vòng / chu kỳ / hoàn thành / tất cả / khắp / triệt để / hỗ trợ tài chính / tuần / hàng tuần / biến thể của 周[zhou1],量,1229,INSERT_MOI
+1243,L2-0743,周末,zhōumò,cuối tuần,名,1230,INSERT_MOI
+1244,L2-0744,周年,zhōunián,kỷ niệm / hàng năm,名,1231,INSERT_MOI
+1245,L2-0745,主人,zhǔrén,chủ / chủ nhà / người chủ,名,1232,INSERT_MOI
+1246,L2-0746,主要,zhǔyào,chính; chủ yếu; quan trọng; hàng đầu,形,1233,INSERT_MOI
+1247,L2-0747,住房,zhùfáng,nhà ở,名,1234,INSERT_MOI
+1248,L2-0748,住院,zhùyuàn,nhập viện / điều trị nội trú,,1235,INSERT_MOI
+1249,L2-0749,装,zhuāng,trang sức / trang trí / mặc / quần áo / trang phục (của diễn viên trong vở kịch) / đóng vai / giả vờ / lắp đặt / sửa chữa / gói (thứ gì vào túi) / tải / đóng gói,动,1236,INSERT_MOI
+1250,L2-0750,准确,zhǔnquè,chính xác; đúng; chuẩn xác,形,1237,INSERT_MOI
+1251,L2-0751,自己,zìjǐ,bản thân / tự mình,代,1238,INSERT_MOI
+1252,L2-0752,自行车,zìxíngchē,xe đạp,名,1239,INSERT_MOI
+1253,L2-0753,自由,zìyóu,tự do; sự tự do / tự do; không bị hạn chế,名、形,1240,INSERT_MOI
+1254,L2-0754,字典,zìdiǎn,"Từ điển chữ Hán (chứa mục từ cho từng chữ đơn, khác với 詞典|词典[ci2 dian3], chứa mục từ cho từ gồm một hoặc nhiều chữ) / (thông tục) từ điển / Lượng từ: 本[ben3]",名,1241,INSERT_MOI
+1255,L2-0755,走过,zǒuguò,đi qua / đi ngang qua,,1242,INSERT_MOI
+1256,L2-0756,走进,zǒujìn,đi vào,,1243,INSERT_MOI
+1257,L2-0757,走开,zǒukāi,rời đi; bỏ đi; cút đi / di chuyển sang bên,,1244,INSERT_MOI
+1258,L2-0758,租,zū,thuê / mướn / thuê bao / cho thuê / cho mướn / tiền thuê / thuế đất,动,1245,INSERT_MOI
+1259,L2-0759,组,zǔ,"hình thành / tổ chức / nhóm / đội / lượng từ cho bộ, loạt, nhóm người, pin",动、名,1246,INSERT_MOI
+1260,L2-0760,组成,zǔchéng,hình thành / tạo thành / cấu thành,动,1247,INSERT_MOI
+1261,L2-0761,组长,zǔzhǎng,tổ trưởng,名,1248,INSERT_MOI
+1262,L2-0762,嘴,zuǐ,"miệng / mỏ / vòi / vòi ấm trà, v.v.",名,1249,INSERT_MOI
+1263,L2-0763,最近,zuìjìn,gần đây / sắp / tới nhất,名,1250,INSERT_MOI
+1264,L2-0764,作家,zuòjiā,tác giả,名,1251,INSERT_MOI
+1265,L2-0765,作文,zuòwén,viết bài văn / bài làm văn (bài luận của học sinh),名,1252,INSERT_MOI
+1266,L2-0766,作业,zuòyè,bài tập về nhà / bài tập / công việc / nhiệm vụ / vận hành / thao tác,名,1253,INSERT_MOI
+1267,L2-0767,作用,zuòyòng,"tác động đến; ảnh hưởng / hành động; chức năng; hoạt động / tác động; kết quả; hiệu quả / mục đích; ý định / hậu tố -ation, -tion, v.v., như trong 抑制作用[yi4 zhi4 zuo4 yong4], ức chế",名,1254,INSERT_MOI
+1268,L2-0768,座,zuò,"chỗ ngồi / cơ sở / đế / (cổ) hậu tố dùng trong cách xưng hô tôn kính, ví dụ: 师座|师座[shi1 zuo4] / lượng từ cho tòa nhà, núi và các vật thể cố định tương tự",量,1255,INSERT_MOI
+1269,L2-0769,座位,zuòwèi,chỗ ngồi,名,1256,INSERT_MOI
+1270,L2-0770,做到,zuòdào,hoàn thành / đạt được,,1257,INSERT_MOI
+1271,L2-0771,做法,zuòfǎ,cách xử lý / phương pháp làm / cách làm / công thức / thực hành,名,1258,INSERT_MOI
+1272,L2-0772,做饭,zuòfàn,chuẩn bị bữa ăn / nấu ăn,,1259,INSERT_MOI

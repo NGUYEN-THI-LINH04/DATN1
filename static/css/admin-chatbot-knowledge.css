@@ -1,0 +1,657 @@
+
+/* ==========================================================
+   MỘC HÁN - ADMIN QUẢN LÝ KIẾN THỨC CHATBOT
+
+   File: static/css/admin-chatbot-knowledge.css
+
+   Chức năng:
+   - Giao diện thống kê kiến thức
+   - Biểu mẫu thêm và sửa
+   - Tìm kiếm và lọc
+   - Danh sách kiến thức
+   - Nút duyệt, bỏ duyệt, kích hoạt
+   - Responsive
+
+   CSS riêng, không ảnh hưởng các trang Admin khác.
+========================================================== */
+
+
+/* ==========================================================
+   01. BIẾN MÀU VÀ KHUNG CHÍNH
+========================================================== */
+
+.chatbot-knowledge-page {
+    --ck-bg: #fffaf4;
+    --ck-surface: #fffdf9;
+    --ck-border: #e7d8c4;
+    --ck-text: #382b20;
+    --ck-muted: #86715d;
+    --ck-primary: #96653e;
+    --ck-primary-hover: #7d502e;
+
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 24px 28px 42px;
+
+    color: var(--ck-text);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.chatbot-knowledge-page,
+.chatbot-knowledge-page * {
+    box-sizing: border-box;
+}
+
+
+/* ==========================================================
+   02. TIÊU ĐỀ TRANG
+========================================================== */
+
+.ck-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    margin-bottom: 22px;
+}
+
+.ck-eyebrow {
+    display: inline-block;
+    margin-bottom: 9px;
+    padding: 5px 11px;
+
+    border: 1px solid #e8d1b3;
+    border-radius: 7px;
+
+    background: #f5e7d2;
+    color: #916139;
+
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.ck-header h1 {
+    margin: 0 0 5px;
+
+    color: #30251e;
+    font-size: 25px;
+    font-weight: 750;
+    line-height: 1.3;
+}
+
+.ck-header p {
+    margin: 0;
+    color: var(--ck-muted);
+    font-size: 13px;
+}
+
+
+/* ==========================================================
+   03. NÚT DÙNG CHUNG
+========================================================== */
+
+.ck-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 37px;
+    padding: 8px 14px;
+
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 650;
+    line-height: 1.4;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition:
+        background-color 0.15s ease,
+        border-color 0.15s ease;
+}
+
+.ck-button-primary {
+    background: var(--ck-primary);
+    color: #ffffff;
+    border-color: var(--ck-primary);
+}
+
+.ck-button-primary:hover {
+    background: var(--ck-primary-hover);
+    border-color: var(--ck-primary-hover);
+    color: #ffffff;
+}
+
+.ck-button-light {
+    background: #fffaf2;
+    color: #684c35;
+    border-color: #d9c7af;
+}
+
+.ck-button-light:hover {
+    background: #f4e8d8;
+    color: #533921;
+}
+
+.ck-button:focus-visible {
+    outline: 3px solid #e6bb83;
+    outline-offset: 2px;
+}
+
+
+/* ==========================================================
+   04. THÔNG BÁO THAO TÁC
+========================================================== */
+
+.ck-flash-list {
+    display: grid;
+    gap: 9px;
+    margin-bottom: 18px;
+}
+
+.ck-flash {
+    padding: 11px 14px;
+
+    border: 1px solid var(--ck-border);
+    border-radius: 9px;
+
+    background: #fffaf0;
+    font-size: 13px;
+}
+
+.ck-flash-success {
+    background: #eef7e9;
+    border-color: #c8e2c4;
+    color: #356638;
+}
+
+.ck-flash-error,
+.ck-flash-danger {
+    background: #fff0ed;
+    border-color: #edc4bb;
+    color: #a34235;
+}
+
+
+/* ==========================================================
+   05. THẺ THỐNG KÊ
+========================================================== */
+
+.ck-stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+    margin-bottom: 19px;
+}
+
+.ck-stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+
+    min-width: 0;
+    min-height: 95px;
+    padding: 15px 17px;
+
+    background: var(--ck-bg);
+    border: 1px solid var(--ck-border);
+    border-radius: 11px;
+}
+
+.ck-stat span {
+    color: var(--ck-muted);
+    font-size: 12px;
+}
+
+.ck-stat strong {
+    color: #3c2c20;
+    font-size: 27px;
+    line-height: 1.2;
+    font-weight: 750;
+    font-variant-numeric: tabular-nums;
+}
+
+
+/* ==========================================================
+   06. KHUNG NỘI DUNG
+========================================================== */
+
+.ck-panel {
+    margin-bottom: 19px;
+    padding: 21px 23px;
+
+    background: var(--ck-bg);
+    border: 1px solid var(--ck-border);
+    border-radius: 12px;
+}
+
+.ck-panel-header {
+    margin-bottom: 17px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #eddfce;
+}
+
+.ck-panel-header h2 {
+    margin: 0 0 4px;
+
+    color: #35271c;
+    font-size: 17px;
+    font-weight: 750;
+}
+
+.ck-panel-header p {
+    margin: 0;
+    color: var(--ck-muted);
+    font-size: 12px;
+}
+
+
+/* ==========================================================
+   07. FORM THÊM VÀ SỬA KIẾN THỨC
+========================================================== */
+
+.ck-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.ck-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+}
+
+.ck-field label {
+    color: #453426;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.ck-field input,
+.ck-field textarea,
+.ck-field select {
+    display: block;
+
+    width: 100%;
+    min-width: 0;
+    padding: 10px 12px;
+
+    background: var(--ck-surface);
+    border: 1px solid #d9c8b5;
+    border-radius: 8px;
+
+    color: var(--ck-text);
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.ck-field textarea {
+    min-height: 110px;
+    resize: vertical;
+    white-space: pre-wrap;
+}
+
+.ck-field input:focus,
+.ck-field textarea:focus,
+.ck-field select:focus {
+    outline: none;
+    border-color: #ac845d;
+    box-shadow: 0 0 0 3px rgba(172, 132, 93, 0.12);
+}
+
+.ck-field input::placeholder,
+.ck-field textarea::placeholder {
+    color: #ac9a87;
+}
+
+.ck-field small {
+    color: var(--ck-muted);
+    font-size: 11px;
+}
+
+.ck-field-small {
+    max-width: 240px;
+}
+
+.ck-actions {
+    display: flex;
+    gap: 9px;
+    flex-wrap: wrap;
+}
+
+
+/* ==========================================================
+   08. THANH TÌM KIẾM VÀ LỌC
+========================================================== */
+
+.ck-filter {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 11px;
+
+    margin-bottom: 17px;
+}
+
+.ck-filter .ck-field:first-child {
+    flex: 1 1 260px;
+}
+
+.ck-filter .ck-field:nth-child(2) {
+    flex: 0 1 190px;
+}
+
+.ck-filter .ck-button {
+    margin-bottom: 1px;
+}
+
+
+/* ==========================================================
+   09. DANH SÁCH KIẾN THỨC
+========================================================== */
+
+.ck-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ck-item {
+    padding: 17px 19px;
+
+    background: var(--ck-surface);
+    border: 1px solid var(--ck-border);
+    border-radius: 10px;
+}
+
+.ck-item-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin-bottom: 12px;
+}
+
+.ck-item-title {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 9px;
+    min-width: 0;
+}
+
+.ck-item-id {
+    color: #987f64;
+    font-size: 12px;
+    font-weight: 650;
+}
+
+.ck-item-title h3 {
+    margin: 0;
+
+    color: #36291f;
+    font-size: 15px;
+    font-weight: 750;
+
+    overflow-wrap: anywhere;
+}
+
+
+/* ==========================================================
+   10. TRẠNG THÁI KIẾN THỨC
+========================================================== */
+
+.ck-badges {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.ck-badge {
+    display: inline-block;
+    padding: 3px 9px;
+
+    border: 1px solid transparent;
+    border-radius: 999px;
+
+    font-size: 11px;
+    font-weight: 650;
+    white-space: nowrap;
+}
+
+.ck-approved {
+    color: #376642;
+    background: #eaf4e8;
+    border-color: #c9e0c7;
+}
+
+.ck-pending {
+    color: #94631e;
+    background: #fff1d5;
+    border-color: #eed5a7;
+}
+
+.ck-active {
+    color: #476b49;
+    background: #eef6e9;
+    border-color: #d0e3c9;
+}
+
+.ck-inactive {
+    color: #746b61;
+    background: #f2eeea;
+    border-color: #ded7d0;
+}
+
+
+/* ==========================================================
+   11. HIỂN THỊ NỘI DUNG KIẾN THỨC
+========================================================== */
+
+.ck-item-content {
+    padding: 12px 14px;
+    margin-bottom: 12px;
+
+    color: #514238;
+    background: #fbf3e8;
+    border: 1px solid #efe1cf;
+    border-radius: 8px;
+
+    font-size: 13px;
+    line-height: 1.75;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.ck-item-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+
+    margin-bottom: 13px;
+    color: var(--ck-muted);
+    font-size: 11px;
+}
+
+
+/* ==========================================================
+   12. NÚT DUYỆT VÀ KÍCH HOẠT
+========================================================== */
+
+.ck-item-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    margin-bottom: 12px;
+}
+
+.ck-item-actions form {
+    margin: 0;
+}
+
+.ck-item-actions .ck-button {
+    min-height: 34px;
+    padding: 7px 12px;
+    font-size: 12px;
+}
+
+
+/* ==========================================================
+   13. BIỂU MẪU CHỈNH SỬA
+========================================================== */
+
+.ck-edit {
+    border-top: 1px solid #ede0d0;
+    padding-top: 11px;
+}
+
+.ck-edit summary {
+    width: fit-content;
+    color: #855a38;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.ck-edit summary:hover {
+    color: #5e3c23;
+}
+
+.ck-edit[open] summary {
+    margin-bottom: 14px;
+}
+
+.ck-edit .ck-form {
+    padding: 15px;
+
+    background: #fff8ee;
+    border: 1px solid #ecddc9;
+    border-radius: 9px;
+}
+
+.ck-edit-note {
+    margin: 0;
+    color: #96662e;
+    font-size: 12px;
+}
+
+
+/* ==========================================================
+   14. TRẠNG THÁI TRỐNG
+========================================================== */
+
+.ck-empty {
+    padding: 28px 18px;
+    text-align: center;
+
+    background: #fffdf9;
+    border: 1px dashed #dccbb6;
+    border-radius: 10px;
+}
+
+.ck-empty h3 {
+    margin: 0 0 6px;
+
+    color: #4b392a;
+    font-size: 15px;
+}
+
+.ck-empty p {
+    margin: 0;
+    color: var(--ck-muted);
+    font-size: 12px;
+}
+
+.ck-note {
+    margin: 14px 0 0;
+
+    color: var(--ck-muted);
+    font-size: 11px;
+}
+
+
+/* ==========================================================
+   15. RESPONSIVE
+========================================================== */
+
+@media (max-width: 1100px) {
+
+    .ck-stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .chatbot-knowledge-page {
+        padding: 17px 14px 28px;
+    }
+
+    .ck-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ck-header h1 {
+        font-size: 21px;
+    }
+
+    .ck-panel {
+        padding: 16px 14px;
+    }
+
+    .ck-stats {
+        gap: 9px;
+    }
+
+    .ck-stat {
+        min-height: 85px;
+        padding: 12px;
+    }
+
+    .ck-stat strong {
+        font-size: 23px;
+    }
+
+    .ck-filter {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .ck-filter .ck-field,
+    .ck-filter .ck-field:first-child,
+    .ck-filter .ck-field:nth-child(2) {
+        width: 100%;
+        flex: auto;
+    }
+
+    .ck-field-small {
+        max-width: none;
+    }
+
+    .ck-item {
+        padding: 14px;
+    }
+
+    .ck-item-actions .ck-button {
+        flex: 1;
+    }
+
+}

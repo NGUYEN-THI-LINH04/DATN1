@@ -1,0 +1,761 @@
+
+{% extends "admin/base.html" %}
+
+{# ==========================================================
+   MỘC HÁN - QUẢN LÝ GÓP Ý BÊN ADMIN
+
+   File:
+       templates/admin/feedback.html
+
+   Backend:
+       routes/admin/feedback.py
+
+   CSS:
+       static/css/admin-feedback.css
+
+   JavaScript:
+       static/js/admin-feedback.js
+
+   Chức năng:
+       - Thống kê góp ý
+       - Danh sách góp ý
+       - Tìm kiếm
+       - Lọc theo trạng thái
+       - Phân trang
+       - Trả lời người học
+       - Cập nhật trạng thái xử lý
+
+   Sử dụng bảng dbo.GopY có sẵn.
+========================================================== #}
+
+
+{% block title %}
+Quản lý góp ý | Admin Mộc Hán
+{% endblock %}
+
+
+{% block extra_css %}
+
+{{ super() }}
+
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/admin-feedback.css') }}"
+>
+
+{% endblock %}
+
+
+{% block content %}
+
+<section
+    class="admin-feedback-page"
+    id="adminFeedbackPage"
+    data-list-url="{{ url_for('admin_feedback.api_list') }}"
+    data-update-url-template="{{ url_for('admin_feedback.api_update', feedback_id=0) }}"
+>
+
+    <!-- ==================================================
+         1. CSRF TOKEN
+    ================================================== -->
+
+    <input
+        type="hidden"
+        id="adminFeedbackCsrfToken"
+        name="csrf_token"
+        value="{{ csrf_token() }}"
+    >
+
+
+    <!-- ==================================================
+         2. TIÊU ĐỀ TRANG
+    ================================================== -->
+
+    <header class="admin-feedback-header">
+
+        <div class="admin-feedback-header-text">
+
+            <div class="admin-feedback-breadcrumb">
+                QUẢN TRỊ HỆ THỐNG
+                <span>/</span>
+                GÓP Ý
+            </div>
+
+            <h1>
+                Quản lý góp ý
+            </h1>
+
+            <p>
+                Theo dõi các góp ý từ người học,
+                cập nhật trạng thái xử lý và gửi phản hồi.
+            </p>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="admin-feedback-refresh"
+            id="adminFeedbackRefreshButton"
+            title="Tải lại danh sách góp ý"
+        >
+
+            <span aria-hidden="true">
+                ↻
+            </span>
+
+            Làm mới
+
+        </button>
+
+    </header>
+
+
+    <!-- ==================================================
+         3. THÔNG BÁO THAO TÁC
+    ================================================== -->
+
+    <div
+        id="adminFeedbackNotice"
+        class="admin-feedback-notice"
+        role="status"
+        aria-live="polite"
+        hidden
+    ></div>
+
+
+    <!-- ==================================================
+         4. THỐNG KÊ TỔNG QUAN
+    ================================================== -->
+
+    <section
+        class="admin-feedback-summary"
+        aria-label="Thống kê góp ý"
+    >
+
+        <!-- TỔNG GÓP Ý -->
+
+        <div class="admin-feedback-stat-card">
+
+            <div class="admin-feedback-stat-top">
+
+                <span class="admin-feedback-stat-label">
+                    Tổng góp ý
+                </span>
+
+                <span
+                    class="admin-feedback-stat-icon"
+                    aria-hidden="true"
+                >
+                    ✉
+                </span>
+
+            </div>
+
+            <strong
+                class="admin-feedback-stat-number"
+                id="adminFeedbackTotalCount"
+            >
+                0
+            </strong>
+
+            <small>
+                Tất cả góp ý đã gửi
+            </small>
+
+        </div>
+
+
+        <!-- CHỜ XỬ LÝ -->
+
+        <div
+            class="admin-feedback-stat-card"
+            data-stat="moi"
+        >
+
+            <div class="admin-feedback-stat-top">
+
+                <span class="admin-feedback-stat-label">
+                    Chờ xử lý
+                </span>
+
+                <span
+                    class="admin-feedback-stat-icon"
+                    aria-hidden="true"
+                >
+                    ◷
+                </span>
+
+            </div>
+
+            <strong
+                class="admin-feedback-stat-number"
+                id="adminFeedbackNewCount"
+            >
+                0
+            </strong>
+
+            <small>
+                Chưa được tiếp nhận
+            </small>
+
+        </div>
+
+
+        <!-- ĐANG XỬ LÝ -->
+
+        <div
+            class="admin-feedback-stat-card"
+            data-stat="dang_xu_ly"
+        >
+
+            <div class="admin-feedback-stat-top">
+
+                <span class="admin-feedback-stat-label">
+                    Đang xử lý
+                </span>
+
+                <span
+                    class="admin-feedback-stat-icon"
+                    aria-hidden="true"
+                >
+                    ◌
+                </span>
+
+            </div>
+
+            <strong
+                class="admin-feedback-stat-number"
+                id="adminFeedbackProcessingCount"
+            >
+                0
+            </strong>
+
+            <small>
+                Đang xem xét phản hồi
+            </small>
+
+        </div>
+
+
+        <!-- ĐÃ XỬ LÝ -->
+
+        <div
+            class="admin-feedback-stat-card"
+            data-stat="da_xu_ly"
+        >
+
+            <div class="admin-feedback-stat-top">
+
+                <span class="admin-feedback-stat-label">
+                    Đã xử lý
+                </span>
+
+                <span
+                    class="admin-feedback-stat-icon"
+                    aria-hidden="true"
+                >
+                    ✓
+                </span>
+
+            </div>
+
+            <strong
+                class="admin-feedback-stat-number"
+                id="adminFeedbackDoneCount"
+            >
+                0
+            </strong>
+
+            <small>
+                Đã hoàn tất xử lý
+            </small>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         5. KHUNG DANH SÁCH GÓP Ý
+    ================================================== -->
+
+    <section
+        class="admin-feedback-management"
+        aria-labelledby="adminFeedbackListTitle"
+    >
+
+        <!-- TIÊU ĐỀ DANH SÁCH -->
+
+        <div class="admin-feedback-section-header">
+
+            <div>
+
+                <h2 id="adminFeedbackListTitle">
+                    Danh sách góp ý
+                </h2>
+
+                <p>
+                    Xem nội dung và phản hồi
+                    các góp ý của người học.
+                </p>
+
+            </div>
+
+
+            <span
+                class="admin-feedback-result-count"
+                id="adminFeedbackResultCount"
+            >
+                0 kết quả
+            </span>
+
+        </div>
+
+
+        <!-- ==================================================
+             6. TÌM KIẾM
+        ================================================== -->
+
+        <form
+            class="admin-feedback-search-form"
+            id="adminFeedbackSearchForm"
+            role="search"
+        >
+
+            <div class="admin-feedback-search-field">
+
+                <span
+                    class="admin-feedback-search-icon"
+                    aria-hidden="true"
+                >
+                    ⌕
+                </span>
+
+                <input
+                    type="search"
+                    id="adminFeedbackSearchInput"
+                    maxlength="100"
+                    placeholder="Tìm theo nội dung, tên hoặc email người học..."
+                    aria-label="Tìm kiếm góp ý"
+                    autocomplete="off"
+                >
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="admin-feedback-search-button"
+                id="adminFeedbackSearchButton"
+            >
+                Tìm kiếm
+            </button>
+
+        </form>
+
+
+        <!-- ==================================================
+             7. BỘ LỌC TRẠNG THÁI
+        ================================================== -->
+
+        <div
+            class="admin-feedback-filters"
+            id="adminFeedbackFilters"
+            role="group"
+            aria-label="Lọc góp ý theo trạng thái"
+        >
+
+            <button
+                type="button"
+                class="admin-feedback-filter active"
+                data-status="all"
+                aria-pressed="true"
+            >
+                Tất cả
+            </button>
+
+
+            <button
+                type="button"
+                class="admin-feedback-filter"
+                data-status="moi"
+                aria-pressed="false"
+            >
+                Chờ xử lý
+            </button>
+
+
+            <button
+                type="button"
+                class="admin-feedback-filter"
+                data-status="dang_xu_ly"
+                aria-pressed="false"
+            >
+                Đang xử lý
+            </button>
+
+
+            <button
+                type="button"
+                class="admin-feedback-filter"
+                data-status="da_xu_ly"
+                aria-pressed="false"
+            >
+                Đã xử lý
+            </button>
+
+        </div>
+
+
+        <!-- ==================================================
+             8. TRẠNG THÁI TẢI DỮ LIỆU
+        ================================================== -->
+
+        <div
+            class="admin-feedback-loading"
+            id="adminFeedbackLoading"
+            role="status"
+            hidden
+        >
+
+            <span
+                class="admin-feedback-spinner"
+                aria-hidden="true"
+            ></span>
+
+            Đang tải danh sách góp ý...
+
+        </div>
+
+
+        <!-- LỖI TẢI DỮ LIỆU -->
+
+        <div
+            class="admin-feedback-error"
+            id="adminFeedbackError"
+            role="alert"
+            hidden
+        ></div>
+
+
+        <!-- ==================================================
+             9. DANH SÁCH GÓP Ý
+        ================================================== -->
+
+        <div
+            class="admin-feedback-list"
+            id="adminFeedbackList"
+            aria-live="polite"
+        ></div>
+
+
+        <!-- ==================================================
+             10. KHÔNG CÓ GÓP Ý
+        ================================================== -->
+
+        <div
+            class="admin-feedback-empty"
+            id="adminFeedbackEmpty"
+            hidden
+        >
+
+            <div
+                class="admin-feedback-empty-icon"
+                aria-hidden="true"
+            >
+                信
+            </div>
+
+            <h3 id="adminFeedbackEmptyTitle">
+                Chưa có góp ý nào
+            </h3>
+
+            <p id="adminFeedbackEmptyDescription">
+                Khi người học gửi góp ý,
+                nội dung sẽ xuất hiện tại đây.
+            </p>
+
+        </div>
+
+
+        <!-- ==================================================
+             11. PHÂN TRANG
+        ================================================== -->
+
+        <nav
+            class="admin-feedback-pagination"
+            id="adminFeedbackPagination"
+            aria-label="Phân trang góp ý"
+            hidden
+        >
+
+            <button
+                type="button"
+                class="admin-feedback-page-button"
+                id="adminFeedbackPrevButton"
+                disabled
+            >
+                ‹ Trang trước
+            </button>
+
+            <span
+                class="admin-feedback-page-info"
+                id="adminFeedbackPageInfo"
+            >
+                Trang 1 / 1
+            </span>
+
+            <button
+                type="button"
+                class="admin-feedback-page-button"
+                id="adminFeedbackNextButton"
+                disabled
+            >
+                Trang sau ›
+            </button>
+
+        </nav>
+
+    </section>
+
+
+    <!-- ==================================================
+         12. TEMPLATE THẺ GÓP Ý
+
+         Mỗi thẻ có:
+             - Mã góp ý
+             - Người gửi
+             - Ngày gửi
+             - Trạng thái
+             - Nội dung góp ý
+             - Phản hồi của Admin
+             - Nút cập nhật
+
+         JavaScript sẽ tạo thẻ từ template này.
+    ================================================== -->
+
+    <template id="adminFeedbackItemTemplate">
+
+        <article class="admin-feedback-item">
+
+            <!-- ==========================================
+                 THÔNG TIN GÓP Ý
+            =========================================== -->
+
+            <div class="admin-feedback-item-header">
+
+                <div class="admin-feedback-item-identification">
+
+                    <span class="admin-feedback-item-number">
+                        Góp ý
+                    </span>
+
+                    <span class="admin-feedback-item-date">
+                    </span>
+
+                </div>
+
+
+                <span class="admin-feedback-status">
+                    Chờ xử lý
+                </span>
+
+            </div>
+
+
+            <!-- ==========================================
+                 NGƯỜI GỬI
+            =========================================== -->
+
+            <div class="admin-feedback-student">
+
+                <span
+                    class="admin-feedback-avatar"
+                    aria-hidden="true"
+                >
+                    N
+                </span>
+
+
+                <div class="admin-feedback-student-details">
+
+                    <strong class="admin-feedback-student-name">
+                    </strong>
+
+                    <div class="admin-feedback-student-meta">
+
+                        <span class="admin-feedback-student-username">
+                        </span>
+
+                        <span class="admin-feedback-student-email">
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==========================================
+                 NỘI DUNG GÓP Ý
+            =========================================== -->
+
+            <div class="admin-feedback-content-box">
+
+                <h3>
+                    Nội dung góp ý
+                </h3>
+
+                <p class="admin-feedback-content">
+                </p>
+
+            </div>
+
+
+            <!-- ==========================================
+                 KHUNG XỬ LÝ
+            =========================================== -->
+
+            <form class="admin-feedback-reply-form">
+
+                <div class="admin-feedback-reply-heading">
+
+                    <h3>
+                        Xử lý và phản hồi
+                    </h3>
+
+                    <span class="admin-feedback-reply-note">
+                        Phản hồi sẽ hiển thị bên Người học
+                    </span>
+
+                </div>
+
+
+                <!-- CHỌN TRẠNG THÁI -->
+
+                <div class="admin-feedback-field">
+
+                    <label class="admin-feedback-field-label">
+                        Trạng thái xử lý
+                    </label>
+
+                    <select
+                        class="admin-feedback-status-select"
+                        name="status"
+                        aria-label="Trạng thái xử lý góp ý"
+                        required
+                    >
+
+                        <option value="moi">
+                            Chờ xử lý
+                        </option>
+
+                        <option value="dang_xu_ly">
+                            Đang xử lý
+                        </option>
+
+                        <option value="da_xu_ly">
+                            Đã xử lý
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- NHẬP PHẢN HỒI -->
+
+                <div class="admin-feedback-field">
+
+                    <label class="admin-feedback-field-label">
+                        Nội dung phản hồi
+                    </label>
+
+                    <textarea
+                        class="admin-feedback-reply-input"
+                        name="reply"
+                        rows="4"
+                        maxlength="4000"
+                        placeholder="Nhập nội dung phản hồi cho người học..."
+                        aria-label="Nội dung phản hồi góp ý"
+                    ></textarea>
+
+                    <div class="admin-feedback-reply-footer">
+
+                        <small class="admin-feedback-reply-help">
+                            Khi chọn Đã xử lý,
+                            cần nhập nội dung phản hồi.
+                        </small>
+
+                        <small class="admin-feedback-reply-count">
+                            0 / 4000
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <!-- THÔNG BÁO RIÊNG TỪNG THẺ -->
+
+                <div
+                    class="admin-feedback-item-notice"
+                    role="status"
+                    aria-live="polite"
+                    hidden
+                ></div>
+
+
+                <!-- NÚT LƯU -->
+
+                <div class="admin-feedback-item-actions">
+
+                    <span class="admin-feedback-processed-date">
+                    </span>
+
+                    <button
+                        type="submit"
+                        class="admin-feedback-save-button"
+                    >
+
+                        <span aria-hidden="true">
+                            ✓
+                        </span>
+
+                        <span class="admin-feedback-save-text">
+                            Lưu xử lý
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </article>
+
+    </template>
+
+</section>
+
+{% endblock %}
+
+
+<!-- ==================================================
+     13. JAVASCRIPT RIÊNG CHO ADMIN GÓP Ý
+
+     admin/base.html sử dụng block extra_js.
+================================================== -->
+
+{% block extra_js %}
+
+{{ super() }}
+
+<script
+    src="{{ url_for('static', filename='js/admin-feedback.js') }}"
+    defer
+></script>
+
+{% endblock %}

@@ -1,0 +1,332 @@
+{
+  "lang": "en",
+  "availableLangs": [
+    "en",
+    "fr",
+    "ru",
+    "si",
+    "es",
+    "uk",
+    "vi"
+  ],
+  "content": [
+    {
+      "text": "Xiao Zhang is 28 years old.",
+      "offset": 1000,
+      "duration": 4800,
+      "lang": "en"
+    },
+    {
+      "text": "He is not from Beijing.",
+      "offset": 5800,
+      "duration": 3700,
+      "lang": "en"
+    },
+    {
+      "text": "But he lives in Beijing.",
+      "offset": 9500,
+      "duration": 4680,
+      "lang": "en"
+    },
+    {
+      "text": "He works for a big company in Beijing.",
+      "offset": 14180,
+      "duration": 7960,
+      "lang": "en"
+    },
+    {
+      "text": "Six years ago,",
+      "offset": 22140,
+      "duration": 2000,
+      "lang": "en"
+    },
+    {
+      "text": "Xiao Zhang travelled",
+      "offset": 24140,
+      "duration": 2460,
+      "lang": "en"
+    },
+    {
+      "text": "for the first time to Beijing.",
+      "offset": 26600,
+      "duration": 3000,
+      "lang": "en"
+    },
+    {
+      "text": "There is plenty of delicious food",
+      "offset": 29600,
+      "duration": 3580,
+      "lang": "en"
+    },
+    {
+      "text": "and interesting things to do in Beijing.",
+      "offset": 33180,
+      "duration": 3000,
+      "lang": "en"
+    },
+    {
+      "text": "From the first visit",
+      "offset": 36180,
+      "duration": 4040,
+      "lang": "en"
+    },
+    {
+      "text": "he already liked Beijing.",
+      "offset": 40220,
+      "duration": 3000,
+      "lang": "en"
+    },
+    {
+      "text": "When he went back home,",
+      "offset": 43220,
+      "duration": 2020,
+      "lang": "en"
+    },
+    {
+      "text": "he wanted to go to Beijing",
+      "offset": 45240,
+      "duration": 2600,
+      "lang": "en"
+    },
+    {
+      "text": "to look for work.",
+      "offset": 47840,
+      "duration": 2000,
+      "lang": "en"
+    },
+    {
+      "text": "His sister's classmate lived in Beijing.",
+      "offset": 49840,
+      "duration": 5700,
+      "lang": "en"
+    },
+    {
+      "text": "Her last name was Zhang,",
+      "offset": 55540,
+      "duration": 2000,
+      "lang": "en"
+    },
+    {
+      "text": "and she worked",
+      "offset": 57540,
+      "duration": 3000,
+      "lang": "en"
+    },
+    {
+      "text": "for a large company in Beijing.",
+      "offset": 60540,
+      "duration": 4000,
+      "lang": "en"
+    },
+    {
+      "text": "She told Xiao Zhang",
+      "offset": 64540,
+      "duration": 3360,
+      "lang": "en"
+    },
+    {
+      "text": "that the company needed a person",
+      "offset": 67900,
+      "duration": 3680,
+      "lang": "en"
+    },
+    {
+      "text": "who spoke English.",
+      "offset": 71580,
+      "duration": 3000,
+      "lang": "en"
+    },
+    {
+      "text": "Xiao Zhang spoke English very well,",
+      "offset": 74580,
+      "duration": 3280,
+      "lang": "en"
+    },
+    {
+      "text": "and that is why",
+      "offset": 77860,
+      "duration": 2000,
+      "lang": "en"
+    },
+    {
+      "text": "he was able to go there to work.",
+      "offset": 79860,
+      "duration": 6180,
+      "lang": "en"
+    },
+    {
+      "text": "A week later,",
+      "offset": 86040,
+      "duration": 2840,
+      "lang": "en"
+    },
+    {
+      "text": "Xiao Zhang bought",
+      "offset": 88880,
+      "duration": 4300,
+      "lang": "en"
+    },
+    {
+      "text": "a plane ticket to Beijing.",
+      "offset": 93180,
+      "duration": 3000,
+      "lang": "en"
+    },
+    {
+      "text": "This way,",
+      "offset": 96180,
+      "duration": 1660,
+      "lang": "en"
+    },
+    {
+      "text": "he began his life in Beijing.",
+      "offset": 97840,
+      "duration": 4920,
+      "lang": "en"
+    },
+    {
+      "text": "He met many new friends here.",
+      "offset": 102760,
+      "duration": 6240,
+      "lang": "en"
+    },
+    {
+      "text": "Every day he had a great time.",
+      "offset": 109000,
+      "duration": 5120,
+      "lang": "en"
+    },
+    {
+      "text": "Beijing is very big",
+      "offset": 114120,
+      "duration": 3100,
+      "lang": "en"
+    },
+    {
+      "text": "and the rent price is very expensive.",
+      "offset": 117220,
+      "duration": 4500,
+      "lang": "en"
+    },
+    {
+      "text": "He lived far from his company.",
+      "offset": 121720,
+      "duration": 5660,
+      "lang": "en"
+    },
+    {
+      "text": "It took a lot of time each day",
+      "offset": 127380,
+      "duration": 2980,
+      "lang": "en"
+    },
+    {
+      "text": "to go to work and get back from work.",
+      "offset": 130360,
+      "duration": 4000,
+      "lang": "en"
+    },
+    {
+      "text": "Xiao Zhang is currently",
+      "offset": 134360,
+      "duration": 4380,
+      "lang": "en"
+    },
+    {
+      "text": "looking for a house with a colleague.",
+      "offset": 138740,
+      "duration": 3000,
+      "lang": "en"
+    },
+    {
+      "text": "They want to live closer to the company.",
+      "offset": 141740,
+      "duration": 6780,
+      "lang": "en"
+    },
+    {
+      "text": "So every morning",
+      "offset": 148520,
+      "duration": 4220,
+      "lang": "en"
+    },
+    {
+      "text": "they can sleep an extra hour.",
+      "offset": 152740,
+      "duration": 4000,
+      "lang": "en"
+    },
+    {
+      "text": "Their new house is not big",
+      "offset": 156740,
+      "duration": 5020,
+      "lang": "en"
+    },
+    {
+      "text": "but it's close to the company.",
+      "offset": 161760,
+      "duration": 5060,
+      "lang": "en"
+    },
+    {
+      "text": "Each has his own room.",
+      "offset": 166820,
+      "duration": 6220,
+      "lang": "en"
+    },
+    {
+      "text": "Each pays half of the monthly rent.",
+      "offset": 173040,
+      "duration": 6300,
+      "lang": "en"
+    },
+    {
+      "text": "Now,",
+      "offset": 179340,
+      "duration": 1640,
+      "lang": "en"
+    },
+    {
+      "text": "he gets up every morning at 7 am.",
+      "offset": 181000,
+      "duration": 4400,
+      "lang": "en"
+    },
+    {
+      "text": "He returns home at 6 pm.",
+      "offset": 185400,
+      "duration": 3780,
+      "lang": "en"
+    },
+    {
+      "text": "As he has more time to rest,",
+      "offset": 189180,
+      "duration": 5600,
+      "lang": "en"
+    },
+    {
+      "text": "he can read, play soccer",
+      "offset": 194780,
+      "duration": 4440,
+      "lang": "en"
+    },
+    {
+      "text": "and do many things he likes.",
+      "offset": 199220,
+      "duration": 4300,
+      "lang": "en"
+    },
+    {
+      "text": "As he exercises every day,",
+      "offset": 203520,
+      "duration": 4080,
+      "lang": "en"
+    },
+    {
+      "text": "so his body is healthier.",
+      "offset": 207600,
+      "duration": 5600,
+      "lang": "en"
+    }
+  ]
+}

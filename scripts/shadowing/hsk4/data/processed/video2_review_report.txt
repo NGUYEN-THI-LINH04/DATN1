@@ -1,0 +1,29 @@
+SHADOWING HSK4 - VIDEO 2
+YouTube ID: rTOwIJeG7sM
+So doan: 528
+So ban dich: 528
+Doan < 0.8s: 4
+Doan > 10s: 0
+Timestamp chong nhau: 0
+
+===== DOAN NGAN =====
+091 | 0.790s | 说到这里，
+127 | 0.656s | 没错！
+157 | 0.690s | 心理学上
+376 | 0.724s | 第四，
+
+===== DOAN DAI =====
+
+===== CAC VI TRI CAN RA SOAT =====
+039-040: Tu 语速 bi cat giua doan.
+069-070: Tu 历史 bi cat giua doan.
+165-166: Tu 应该 bi cat giua doan.
+214-215: Tu 简单 bi cat giua doan.
+259-260: Tu 掌控感 bi cat giua doan.
+289-291: Cum 心理阻力 bi cat giua doan.
+336-337: Tu 舒适 bi cat giua doan.
+Kiem tra 4 doan ngan duoi 0.8 giay.
+Kiem tra tu da am va thanh dieu pinyin.
+Ban dich can doi chieu voi am thanh goc.
+
+CHUA CAP NHAT SQL SERVER.

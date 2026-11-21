@@ -1,0 +1,45 @@
+{
+  "status": "PASS_INTERNAL_REVIEW",
+  "total_rows": 182,
+  "priority_reviewed": 37,
+  "normal_reviewed": 145,
+  "missing_final_pinyin": 0,
+  "missing_final_meaning": 0,
+  "pinyin_changes_in_182_pack": [
+    {
+      "MaChuHanTam": "H4-0406",
+      "KyTu": "载",
+      "PinyinCu": "zài",
+      "PinyinChot": "zǎi"
+    },
+    {
+      "MaChuHanTam": "H4-0474",
+      "KyTu": "卷",
+      "PinyinCu": "",
+      "PinyinChot": "juǎn"
+    },
+    {
+      "MaChuHanTam": "H4-0621",
+      "KyTu": "甚",
+      "PinyinCu": "",
+      "PinyinChot": "shèn"
+    },
+    {
+      "MaChuHanTam": "H4-0670",
+      "KyTu": "挑",
+      "PinyinCu": "",
+      "PinyinChot": "tiāo"
+    },
+    {
+      "MaChuHanTam": "H4-0724",
+      "KyTu": "著",
+      "PinyinCu": "zhe",
+      "PinyinChot": "zhù"
+    }
+  ],
+  "source_file": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\hanzi_hsk4_182_meaning_review_proposed.csv",
+  "source_sha256": "846848de877623616df2c956e8671e1834dbeb2dd4f35ff14be0ef00f1c9244e",
+  "output_file": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\hanzi_hsk4_182_meaning_reviewed_internal.csv",
+  "output_sha256": "fd5c9c22ff8e4f2ab1d1dbf35934a7777de6df174405986d519bdc1a50bc94c2",
+  "note": "Review noi bo/model-assisted theo nguon du an; khong phai kiem dinh chuyen gia doc lap."
+}

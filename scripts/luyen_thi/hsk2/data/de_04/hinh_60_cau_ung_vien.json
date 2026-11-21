@@ -1,0 +1,644 @@
+{
+  "cap_hsk": 2,
+  "so_de": 2,
+  "ma_de_goc": "H21004",
+  "tong_cau": 60,
+  "nghe": 35,
+  "doc": 25,
+  "trang_cau_hoi": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "trang_bo_qua": [
+    1,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "cau_hoi": {
+    "1": {
+      "trang_pdf": 2,
+      "anh": "questions/cau_01.png",
+      "toa_do": null
+    },
+    "2": {
+      "trang_pdf": 2,
+      "anh": "questions/cau_02.png",
+      "toa_do": null
+    },
+    "3": {
+      "trang_pdf": 2,
+      "anh": "questions/cau_03.png",
+      "toa_do": null
+    },
+    "4": {
+      "trang_pdf": 2,
+      "anh": "questions/cau_04.png",
+      "toa_do": null
+    },
+    "5": {
+      "trang_pdf": 2,
+      "anh": "questions/cau_05.png",
+      "toa_do": null
+    },
+    "6": {
+      "trang_pdf": 3,
+      "anh": "questions/cau_06.png",
+      "toa_do": null
+    },
+    "7": {
+      "trang_pdf": 3,
+      "anh": "questions/cau_07.png",
+      "toa_do": null
+    },
+    "8": {
+      "trang_pdf": 3,
+      "anh": "questions/cau_08.png",
+      "toa_do": null
+    },
+    "9": {
+      "trang_pdf": 3,
+      "anh": "questions/cau_09.png",
+      "toa_do": null
+    },
+    "10": {
+      "trang_pdf": 3,
+      "anh": "questions/cau_10.png",
+      "toa_do": null
+    },
+    "11": {
+      "trang_pdf": 4,
+      "anh": "questions/cau_11.png",
+      "toa_do": [
+        30.0,
+        599.84,
+        571.22,
+        631.84
+      ]
+    },
+    "12": {
+      "trang_pdf": 4,
+      "anh": "questions/cau_12.png",
+      "toa_do": [
+        30.0,
+        631.05,
+        571.22,
+        663.05
+      ]
+    },
+    "13": {
+      "trang_pdf": 4,
+      "anh": "questions/cau_13.png",
+      "toa_do": [
+        30.0,
+        662.25,
+        571.22,
+        694.25
+      ]
+    },
+    "14": {
+      "trang_pdf": 4,
+      "anh": "questions/cau_14.png",
+      "toa_do": [
+        30.0,
+        693.45,
+        571.22,
+        725.45
+      ]
+    },
+    "15": {
+      "trang_pdf": 4,
+      "anh": "questions/cau_15.png",
+      "toa_do": [
+        30.0,
+        724.66,
+        571.22,
+        756.66
+      ]
+    },
+    "16": {
+      "trang_pdf": 5,
+      "anh": "questions/cau_16.png",
+      "toa_do": [
+        30.0,
+        506.25,
+        571.22,
+        538.25
+      ]
+    },
+    "17": {
+      "trang_pdf": 5,
+      "anh": "questions/cau_17.png",
+      "toa_do": [
+        30.0,
+        549.44,
+        571.22,
+        581.44
+      ]
+    },
+    "18": {
+      "trang_pdf": 5,
+      "anh": "questions/cau_18.png",
+      "toa_do": [
+        30.0,
+        592.64,
+        571.22,
+        624.64
+      ]
+    },
+    "19": {
+      "trang_pdf": 5,
+      "anh": "questions/cau_19.png",
+      "toa_do": [
+        30.0,
+        635.84,
+        571.22,
+        667.84
+      ]
+    },
+    "20": {
+      "trang_pdf": 5,
+      "anh": "questions/cau_20.png",
+      "toa_do": [
+        30.0,
+        679.04,
+        571.22,
+        711.04
+      ]
+    },
+    "21": {
+      "trang_pdf": 6,
+      "anh": "questions/cau_21.png",
+      "toa_do": [
+        30.0,
+        335.82,
+        571.22,
+        378.36
+      ]
+    },
+    "22": {
+      "trang_pdf": 6,
+      "anh": "questions/cau_22.png",
+      "toa_do": [
+        30.0,
+        378.36,
+        571.22,
+        420.9
+      ]
+    },
+    "23": {
+      "trang_pdf": 6,
+      "anh": "questions/cau_23.png",
+      "toa_do": [
+        30.0,
+        420.9,
+        571.22,
+        463.44
+      ]
+    },
+    "24": {
+      "trang_pdf": 6,
+      "anh": "questions/cau_24.png",
+      "toa_do": [
+        30.0,
+        463.44,
+        571.22,
+        506.04
+      ]
+    },
+    "25": {
+      "trang_pdf": 6,
+      "anh": "questions/cau_25.png",
+      "toa_do": [
+        30.0,
+        506.04,
+        571.22,
+        548.58
+      ]
+    },
+    "26": {
+      "trang_pdf": 6,
+      "anh": "questions/cau_26.png",
+      "toa_do": [
+        30.0,
+        548.58,
+        571.22,
+        591.12
+      ]
+    },
+    "27": {
+      "trang_pdf": 6,
+      "anh": "questions/cau_27.png",
+      "toa_do": [
+        30.0,
+        591.12,
+        571.22,
+        633.66
+      ]
+    },
+    "28": {
+      "trang_pdf": 6,
+      "anh": "questions/cau_28.png",
+      "toa_do": [
+        30.0,
+        633.66,
+        571.22,
+        676.2
+      ]
+    },
+    "29": {
+      "trang_pdf": 6,
+      "anh": "questions/cau_29.png",
+      "toa_do": [
+        30.0,
+        676.2,
+        571.22,
+        718.74
+      ]
+    },
+    "30": {
+      "trang_pdf": 6,
+      "anh": "questions/cau_30.png",
+      "toa_do": [
+        30.0,
+        718.74,
+        571.22,
+        760.4
+      ]
+    },
+    "31": {
+      "trang_pdf": 7,
+      "anh": "questions/cau_31.png",
+      "toa_do": [
+        30.0,
+        418.14,
+        571.22,
+        462.06
+      ]
+    },
+    "32": {
+      "trang_pdf": 7,
+      "anh": "questions/cau_32.png",
+      "toa_do": [
+        30.0,
+        462.06,
+        571.22,
+        506.04
+      ]
+    },
+    "33": {
+      "trang_pdf": 7,
+      "anh": "questions/cau_33.png",
+      "toa_do": [
+        30.0,
+        506.04,
+        571.22,
+        549.96
+      ]
+    },
+    "34": {
+      "trang_pdf": 7,
+      "anh": "questions/cau_34.png",
+      "toa_do": [
+        30.0,
+        549.96,
+        571.22,
+        593.94
+      ]
+    },
+    "35": {
+      "trang_pdf": 7,
+      "anh": "questions/cau_35.png",
+      "toa_do": [
+        30.0,
+        593.94,
+        571.22,
+        635.6
+      ]
+    },
+    "36": {
+      "trang_pdf": 8,
+      "anh": "questions/cau_36.png",
+      "toa_do": [
+        30.0,
+        571.08,
+        571.22,
+        605.4
+      ]
+    },
+    "37": {
+      "trang_pdf": 8,
+      "anh": "questions/cau_37.png",
+      "toa_do": [
+        30.0,
+        605.4,
+        571.22,
+        639.72
+      ]
+    },
+    "38": {
+      "trang_pdf": 8,
+      "anh": "questions/cau_38.png",
+      "toa_do": [
+        30.0,
+        639.72,
+        571.22,
+        673.98
+      ]
+    },
+    "39": {
+      "trang_pdf": 8,
+      "anh": "questions/cau_39.png",
+      "toa_do": [
+        30.0,
+        673.98,
+        571.22,
+        708.3
+      ]
+    },
+    "40": {
+      "trang_pdf": 8,
+      "anh": "questions/cau_40.png",
+      "toa_do": [
+        30.0,
+        708.3,
+        571.22,
+        749.78
+      ]
+    },
+    "41": {
+      "trang_pdf": 9,
+      "anh": "questions/cau_41.png",
+      "toa_do": [
+        30.0,
+        321.18,
+        571.22,
+        383.58
+      ]
+    },
+    "42": {
+      "trang_pdf": 9,
+      "anh": "questions/cau_42.png",
+      "toa_do": [
+        30.0,
+        383.58,
+        571.22,
+        449.04
+      ]
+    },
+    "43": {
+      "trang_pdf": 9,
+      "anh": "questions/cau_43.png",
+      "toa_do": [
+        30.0,
+        449.04,
+        571.22,
+        511.44
+      ]
+    },
+    "44": {
+      "trang_pdf": 9,
+      "anh": "questions/cau_44.png",
+      "toa_do": [
+        30.0,
+        511.44,
+        571.22,
+        573.84
+      ]
+    },
+    "45": {
+      "trang_pdf": 9,
+      "anh": "questions/cau_45.png",
+      "toa_do": [
+        30.0,
+        573.84,
+        571.22,
+        645.48
+      ]
+    },
+    "46": {
+      "trang_pdf": 10,
+      "anh": "questions/cau_46.png",
+      "toa_do": [
+        30.0,
+        341.46,
+        571.22,
+        466.26
+      ]
+    },
+    "47": {
+      "trang_pdf": 10,
+      "anh": "questions/cau_47.png",
+      "toa_do": [
+        30.0,
+        466.26,
+        571.22,
+        591.06
+      ]
+    },
+    "48": {
+      "trang_pdf": 10,
+      "anh": "questions/cau_48.png",
+      "toa_do": [
+        30.0,
+        591.06,
+        571.22,
+        697.02
+      ]
+    },
+    "49": {
+      "trang_pdf": 11,
+      "anh": "questions/cau_49.png",
+      "toa_do": [
+        30.0,
+        84.06,
+        571.22,
+        208.86
+      ]
+    },
+    "50": {
+      "trang_pdf": 11,
+      "anh": "questions/cau_50.png",
+      "toa_do": [
+        30.0,
+        208.86,
+        571.22,
+        314.82
+      ]
+    },
+    "51": {
+      "trang_pdf": 12,
+      "anh": "questions/cau_51.png",
+      "toa_do": [
+        30.0,
+        535.98,
+        571.22,
+        579.18
+      ]
+    },
+    "52": {
+      "trang_pdf": 12,
+      "anh": "questions/cau_52.png",
+      "toa_do": [
+        30.0,
+        579.18,
+        571.22,
+        622.38
+      ]
+    },
+    "53": {
+      "trang_pdf": 12,
+      "anh": "questions/cau_53.png",
+      "toa_do": [
+        30.0,
+        622.38,
+        571.22,
+        665.58
+      ]
+    },
+    "54": {
+      "trang_pdf": 12,
+      "anh": "questions/cau_54.png",
+      "toa_do": [
+        30.0,
+        665.58,
+        571.22,
+        708.78
+      ]
+    },
+    "55": {
+      "trang_pdf": 12,
+      "anh": "questions/cau_55.png",
+      "toa_do": [
+        30.0,
+        708.78,
+        571.22,
+        750.26
+      ]
+    },
+    "56": {
+      "trang_pdf": 13,
+      "anh": "questions/cau_56.png",
+      "toa_do": [
+        30.0,
+        445.44,
+        571.22,
+        488.64
+      ]
+    },
+    "57": {
+      "trang_pdf": 13,
+      "anh": "questions/cau_57.png",
+      "toa_do": [
+        30.0,
+        488.64,
+        571.22,
+        531.84
+      ]
+    },
+    "58": {
+      "trang_pdf": 13,
+      "anh": "questions/cau_58.png",
+      "toa_do": [
+        30.0,
+        531.84,
+        571.22,
+        575.04
+      ]
+    },
+    "59": {
+      "trang_pdf": 13,
+      "anh": "questions/cau_59.png",
+      "toa_do": [
+        30.0,
+        575.04,
+        571.22,
+        618.24
+      ]
+    },
+    "60": {
+      "trang_pdf": 13,
+      "anh": "questions/cau_60.png",
+      "toa_do": [
+        30.0,
+        618.24,
+        571.22,
+        659.72
+      ]
+    }
+  },
+  "bang_lua_chon": {
+    "nghe_11_15": {
+      "trang_pdf": 4,
+      "anh": "groups/nghe_11_15.png",
+      "toa_do": [
+        12.0,
+        71.57,
+        583.22,
+        524.62
+      ]
+    },
+    "nghe_16_20": {
+      "trang_pdf": 5,
+      "anh": "groups/nghe_16_20.png",
+      "toa_do": [
+        12.0,
+        71.57,
+        583.22,
+        480.25
+      ]
+    },
+    "doc_36_40": {
+      "trang_pdf": 8,
+      "anh": "groups/doc_36_40.png",
+      "toa_do": [
+        12.0,
+        71.57,
+        583.22,
+        529.72
+      ]
+    },
+    "doc_41_45": {
+      "trang_pdf": 9,
+      "anh": "groups/doc_41_45.png",
+      "toa_do": [
+        12.0,
+        71.57,
+        583.22,
+        248.62
+      ]
+    },
+    "doc_51_55": {
+      "trang_pdf": 12,
+      "anh": "groups/doc_51_55.png",
+      "toa_do": [
+        12.0,
+        71.57,
+        583.22,
+        479.02
+      ]
+    },
+    "doc_56_60": {
+      "trang_pdf": 13,
+      "anh": "groups/doc_56_60.png",
+      "toa_do": [
+        12.0,
+        71.57,
+        583.22,
+        427.44
+      ]
+    }
+  }
+}

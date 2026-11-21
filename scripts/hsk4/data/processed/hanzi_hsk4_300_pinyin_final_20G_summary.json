@@ -1,0 +1,22 @@
+{
+  "buoc": "20G",
+  "status": "PASS",
+  "tong": 300,
+  "pinyin_day_du": 300,
+  "nghia_day_du": 300,
+  "pinyin_can_review_con_lai": 0,
+  "patch": {
+    "MaChuHanTam": "H4-0751",
+    "KyTu": "呀",
+    "PinyinCu": "ya",
+    "PinyinChot": "ya",
+    "ly_do": "GF0025=ya; Unihan=ya; Make Me a Hanzi=ya; CC-CEDICT co ya5 (thanh nhe) va ya1."
+  },
+  "source20f_sha256": "a59a279855c51192286a11afba03a9180e24674ab65d09c9bfa26a5cbdf94834",
+  "output": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\hanzi_hsk4_300_pinyin_final_20G.csv",
+  "output_sha256": "869384a0bda7976a1ae09e14763f41545822b3ac2d665ec5224cbfbebf3f12ba",
+  "ghi_sql": false,
+  "gan_bai_hoc": false,
+  "tao_audio": false,
+  "xu_ly_cau_truc": false
+}

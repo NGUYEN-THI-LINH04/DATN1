@@ -1,0 +1,26 @@
+﻿hsk_level,lesson_id,lesson_order,lesson_title,order,source_type,source_id,question_group,question_type,skill,content,passage,choice_1,choice_2,choice_3,choice_4,choice_5,choice_6,correct_choices,answer_json,explanation,score
+1,1,1,你好！ - Xin chào!,1,chu_han,5,chu_han_nghia,chon_mot,doc,Chữ “叫” có nghĩa là gì?,,trợ từ nghi vấn,gọi; tên là,là,tôi; mình,,,2,,"“叫” đọc là jiào, có nghĩa là “gọi; tên là”.",1
+1,1,1,你好！ - Xin chào!,2,ngu_phap,5,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+呢 (ne) là trợ từ ngữ khí có thể dùng để hỏi lại người đối thoại về cùng một chủ đề đã được nhắc đến.",,A + 是 + B,...呢？ - hỏi lại hoặc tiếp nối,很 + tính từ,"什么 - hỏi ""gì / cái gì""",,,2,,"Cấu trúc đúng là “...呢？ - hỏi lại hoặc tiếp nối”. Khi ngữ cảnh đã rõ, có thể dùng ""chủ ngữ + 呢？"" để hỏi ""còn ... thì sao?"".",1
+1,1,1,你好！ - Xin chào!,3,ngu_phap,3,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+什么 (shénme) là đại từ nghi vấn, dùng để hỏi về sự vật hoặc thông tin chưa biết.",,Câu trần thuật + 吗？,"什么 - hỏi ""gì / cái gì""",...呢？ - hỏi lại hoặc tiếp nối,A + 是 + B,,,2,,"Cấu trúc đúng là “什么 - hỏi ""gì / cái gì""”. Trong câu hỏi tên, có thể dùng mẫu: 你叫什么名字？ nghĩa là ""Bạn tên là gì?"". Không cần thêm 吗 khi câu đã có từ nghi vấn 什么.",1
+1,1,1,你好！ - Xin chào!,4,ngu_phap,2,ngu_phap_dien_tu,dien_tu,doc,"Điền từ thích hợp vào chỗ trống:
+我___安娜。",,,,,,,,,"{""answers"": [""叫""]}",Câu đầy đủ là: 我叫安娜。 Cấu trúc: Chủ ngữ + 叫 + tên.,1
+1,1,1,你好！ - Xin chào!,5,ngu_phap,7,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+也 (yě) là phó từ mang nghĩa ""cũng"", dùng khi thông tin của chủ ngữ tương tự với thông tin đã được nhắc đến trước đó.",,A + 是 + B,"也 - ""cũng""",Chủ ngữ + 叫 + tên,很 + tính từ,,,2,,"Cấu trúc đúng là “也 - ""cũng""”. 也 thường đứng sau chủ ngữ và trước động từ hoặc cụm vị ngữ.",1
+1,1,1,你好！ - Xin chào!,6,tu_vung,4,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “叫” là gì?,,nǐ,shénme,jiào,hǎo,,,3,,“叫” được đọc là jiào.,1
+1,1,1,你好！ - Xin chào!,7,chu_han,9,chu_han_nghia,chon_mot,doc,Chữ “字” có nghĩa là gì?,,chữ; ký tự,là,hứng; hứng thú; sự hào hứng,gọi; tên là,,,1,,"“字” đọc là zì, có nghĩa là “chữ; ký tự”.",1
+1,1,1,你好！ - Xin chào!,8,ngu_phap,1,ngu_phap_sap_xep,sap_xep,doc,Sắp xếp các thành phần thành câu đúng.,,,,,,,,,"{""items"": [""我"", ""是"", ""安娜""]}",Câu đúng là: 我是安娜。,1
+1,1,1,你好！ - Xin chào!,9,tu_vung,9,tu_vung_nghia,chon_mot,doc,“认识” có nghĩa là gì?,,biết; quen; làm quen,là,vui; vui mừng,tốt; khỏe,,,1,,认识 (rènshi) có nghĩa là “biết; quen; làm quen”.,1
+1,1,1,你好！ - Xin chào!,10,tu_vung,1,tu_vung_nghia,chon_mot,doc,“高兴” có nghĩa là gì?,,cũng,rất,trợ từ hỏi lại hoặc tiếp nối chủ đề,vui; vui mừng,,,4,,高兴 (gāoxìng) có nghĩa là “vui; vui mừng”.,1
+1,1,1,你好！ - Xin chào!,11,ngu_phap,6,ngu_phap_dien_tu,dien_tu,doc,"Điền từ thích hợp vào chỗ trống:
+我___高兴。",,,,,,,,,"{""answers"": [""很""]}",Câu đầy đủ là: 我很高兴。 Cấu trúc: 很 + tính từ.,1
+1,1,1,你好！ - Xin chào!,12,tu_vung,13,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “也” là gì?,,gāoxìng,nǐ,míngzi,yě,,,4,,“也” được đọc là yě.,1
+1,1,1,你好！ - Xin chào!,13,tu_vung,3,tu_vung_dung_sai,dung_sai,doc,“很” có nghĩa là “rất”.,,,,,,,,,"{""answer"": ""dung""}",很 (hěn) có nghĩa là “rất”.,1
+1,1,1,你好！ - Xin chào!,14,tu_vung,8,tu_vung_dung_sai,dung_sai,doc,“你” có nghĩa là “gì; cái gì”.,,,,,,,,,"{""answer"": ""sai""}","Phát biểu sai. 你 (nǐ) có nghĩa là “bạn; cậu”, không phải “gì; cái gì”.",1
+1,1,1,你好！ - Xin chào!,15,tu_vung,5,tu_vung_nghia,chon_mot,doc,“吗” có nghĩa là gì?,,tốt; khỏe,tên; tên gọi,trợ từ nghi vấn,biết; quen; làm quen,,,3,,吗 (ma) có nghĩa là “trợ từ nghi vấn”.,1
+1,1,1,你好！ - Xin chào!,16,tu_vung,7,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “呢” là gì?,,ma,ne,shì,jiào,,,2,,“呢” được đọc là ne.,1
+1,1,1,你好！ - Xin chào!,17,tu_vung,12,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “tôi; mình”?,,名字,什么,也,我,,,4,,我 (wǒ) có nghĩa là “tôi; mình”.,1
+1,1,1,你好！ - Xin chào!,18,tu_vung,11,tu_vung_chon_chu,chon_mot,doc,Từ nào có nghĩa là “là”?,,我,是,也,名字,,,2,,是 (shì) có nghĩa là “là”.,1
+1,1,1,你好！ - Xin chào!,19,tu_vung,6,tu_vung_nghia,chon_mot,doc,“名字” có nghĩa là gì?,,trợ từ hỏi lại hoặc tiếp nối chủ đề,tên; tên gọi,gì; cái gì,là,,,2,,名字 (míngzi) có nghĩa là “tên; tên gọi”.,1
+1,1,1,你好！ - Xin chào!,20,tu_vung,2,tu_vung_nghia,chon_mot,doc,“好” có nghĩa là gì?,,tôi; mình,tốt; khỏe,cũng,vui; vui mừng,,,2,,好 (hǎo) có nghĩa là “tốt; khỏe”.,1

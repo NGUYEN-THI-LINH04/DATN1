@@ -1,0 +1,14 @@
+SHADOWING HSK2 - VIDEO 5
+YouTube ID: MYQrQvbR8Vk
+So doan: 121
+
+DOAN NGAN HON 0.8 GIAY:
+004 | 0.700s | 李明，你好！
+120 | 0.333s | 再见！
+121 | 0.167s | 拜拜！
+
+Luu y:
+- Ban dich duoc bien soan tu transcript.
+- Pinyin duoc tao tu dong, can ra soat tu da am.
+- Chua doi chieu tat ca cau voi am thanh.
+- Chua cap nhat SQL Server.

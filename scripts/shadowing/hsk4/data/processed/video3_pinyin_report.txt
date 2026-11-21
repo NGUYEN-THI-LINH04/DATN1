@@ -1,0 +1,20 @@
+SHADOWING HSK4 - VIDEO 3
+YouTube ID: KIMnS86vgPE
+So doan: 312
+Doan ngan < 0.8s: 1
+Doan dai > 10s: 0
+Timestamp chong nhau: 0
+
+===== DOAN NGAN =====
+099 | 0.567s | 但如果
+
+===== DOAN DAI =====
+
+===== CAN RA SOAT =====
+Kiem tra doan ngan duoi 0.8 giay.
+Kiem tra cach doc tu da am.
+Kiem tra tu bi ngat giua hai doan.
+Can doi chieu voi am thanh goc.
+
+CHUA DICH TIENG VIET.
+CHUA CAP NHAT SQL SERVER.

@@ -1,0 +1,2396 @@
+{
+  "lang": "zh",
+  "availableLangs": [
+    "ar",
+    "my",
+    "zh",
+    "id",
+    "ja",
+    "km",
+    "ko",
+    "lo",
+    "pt",
+    "es",
+    "th",
+    "tr",
+    "vi"
+  ],
+  "content": [
+    {
+      "text": "李明，你快看手机，",
+      "offset": 7166,
+      "duration": 2000,
+      "lang": "zh"
+    },
+    {
+      "text": "你看这个周末的天气！",
+      "offset": 9166,
+      "duration": 2267,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯？我看看……周末，",
+      "offset": 11466,
+      "duration": 3567,
+      "lang": "zh"
+    },
+    {
+      "text": "天气晴，二十五度。",
+      "offset": 15033,
+      "duration": 2333,
+      "lang": "zh"
+    },
+    {
+      "text": "很不错啊。怎么了？",
+      "offset": 17366,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "是“很不错”吗？",
+      "offset": 19300,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "这是“非常好”！",
+      "offset": 20900,
+      "duration": 2266,
+      "lang": "zh"
+    },
+    {
+      "text": "你看，太阳那么大，天那么蓝。",
+      "offset": 23200,
+      "duration": 3766,
+      "lang": "zh"
+    },
+    {
+      "text": "我们一直工作，",
+      "offset": 27000,
+      "duration": 1466,
+      "lang": "zh"
+    },
+    {
+      "text": "这个周末我们应该出去玩！",
+      "offset": 28466,
+      "duration": 2700,
+      "lang": "zh"
+    },
+    {
+      "text": "出去玩？",
+      "offset": 31200,
+      "duration": 1433,
+      "lang": "zh"
+    },
+    {
+      "text": "听起来不错。",
+      "offset": 32633,
+      "duration": 1033,
+      "lang": "zh"
+    },
+    {
+      "text": "我们很久没出去了。",
+      "offset": 33700,
+      "duration": 2266,
+      "lang": "zh"
+    },
+    {
+      "text": "你想去哪儿玩？",
+      "offset": 35966,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "我们去野餐吧！",
+      "offset": 37600,
+      "duration": 1333,
+      "lang": "zh"
+    },
+    {
+      "text": "找一个漂亮的公园，或者去山上，",
+      "offset": 38933,
+      "duration": 3467,
+      "lang": "zh"
+    },
+    {
+      "text": "带很多好吃的东西，在草地上坐一天。",
+      "offset": 42433,
+      "duration": 3533,
+      "lang": "zh"
+    },
+    {
+      "text": "想想就很高兴！",
+      "offset": 45966,
+      "duration": 1867,
+      "lang": "zh"
+    },
+    {
+      "text": "野餐？嗯……这是个好主意。",
+      "offset": 47866,
+      "duration": 4867,
+      "lang": "zh"
+    },
+    {
+      "text": "我喜欢这个想法。",
+      "offset": 52733,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "周末出去走走，看看外面的世界，很好。",
+      "offset": 54666,
+      "duration": 4167,
+      "lang": "zh"
+    },
+    {
+      "text": "太好了！",
+      "offset": 58866,
+      "duration": 1334,
+      "lang": "zh"
+    },
+    {
+      "text": "我就知道你喜欢。",
+      "offset": 60200,
+      "duration": 1633,
+      "lang": "zh"
+    },
+    {
+      "text": "那我们现在就开始准备吧！",
+      "offset": 61833,
+      "duration": 2800,
+      "lang": "zh"
+    },
+    {
+      "text": "我们去哪儿呢？",
+      "offset": 64666,
+      "duration": 1467,
+      "lang": "zh"
+    },
+    {
+      "text": "别着急，别着急。",
+      "offset": 66166,
+      "duration": 1200,
+      "lang": "zh"
+    },
+    {
+      "text": "你总是这么快。",
+      "offset": 67400,
+      "duration": 1333,
+      "lang": "zh"
+    },
+    {
+      "text": "我们得先好好想一想。",
+      "offset": 68766,
+      "duration": 1867,
+      "lang": "zh"
+    },
+    {
+      "text": "去哪儿？什么时候去？",
+      "offset": 70666,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "怎么去？要带什么东西？",
+      "offset": 72600,
+      "duration": 2600,
+      "lang": "zh"
+    },
+    {
+      "text": "这些都是问题。",
+      "offset": 75233,
+      "duration": 2633,
+      "lang": "zh"
+    },
+    {
+      "text": "（笑）你看你，",
+      "offset": 78000,
+      "duration": 1633,
+      "lang": "zh"
+    },
+    {
+      "text": "我一说出去玩，",
+      "offset": 79666,
+      "duration": 1667,
+      "lang": "zh"
+    },
+    {
+      "text": "你就开始工作了。",
+      "offset": 81366,
+      "duration": 2367,
+      "lang": "zh"
+    },
+    {
+      "text": "好吧好吧，",
+      "offset": 83766,
+      "duration": 700,
+      "lang": "zh"
+    },
+    {
+      "text": "李老师，",
+      "offset": 84500,
+      "duration": 866,
+      "lang": "zh"
+    },
+    {
+      "text": "我们来“工作”一下，",
+      "offset": 85400,
+      "duration": 1733,
+      "lang": "zh"
+    },
+    {
+      "text": "说说我们的野餐计划。",
+      "offset": 87166,
+      "duration": 3200,
+      "lang": "zh"
+    },
+    {
+      "text": "好。",
+      "offset": 90400,
+      "duration": 233,
+      "lang": "zh"
+    },
+    {
+      "text": "第一个问题，",
+      "offset": 90666,
+      "duration": 1034,
+      "lang": "zh"
+    },
+    {
+      "text": "也是最重要的问题：",
+      "offset": 91733,
+      "duration": 1533,
+      "lang": "zh"
+    },
+    {
+      "text": "我们的目的地是哪里？",
+      "offset": 93300,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "你想去公园",
+      "offset": 95033,
+      "duration": 1400,
+      "lang": "zh"
+    },
+    {
+      "text": "还是去山上？",
+      "offset": 96466,
+      "duration": 1734,
+      "lang": "zh"
+    },
+    {
+      "text": "我想去一个很漂亮、",
+      "offset": 98233,
+      "duration": 2100,
+      "lang": "zh"
+    },
+    {
+      "text": "人很少的地方。",
+      "offset": 100366,
+      "duration": 2067,
+      "lang": "zh"
+    },
+    {
+      "text": "我上次在网上看到一个地方，",
+      "offset": 102466,
+      "duration": 2434,
+      "lang": "zh"
+    },
+    {
+      "text": "叫“百花山”，",
+      "offset": 104933,
+      "duration": 2300,
+      "lang": "zh"
+    },
+    {
+      "text": "听名字就觉得很美。",
+      "offset": 107266,
+      "duration": 2300,
+      "lang": "zh"
+    },
+    {
+      "text": "我们去那儿，怎么样？",
+      "offset": 109600,
+      "duration": 2066,
+      "lang": "zh"
+    },
+    {
+      "text": "百花山？",
+      "offset": 111700,
+      "duration": 1766,
+      "lang": "zh"
+    },
+    {
+      "text": "我听过。",
+      "offset": 113500,
+      "duration": 766,
+      "lang": "zh"
+    },
+    {
+      "text": "但是，我得查一下。",
+      "offset": 114300,
+      "duration": 2400,
+      "lang": "zh"
+    },
+    {
+      "text": "你等一下，",
+      "offset": 116733,
+      "duration": 533,
+      "lang": "zh"
+    },
+    {
+      "text": "我用手机看看地图。",
+      "offset": 117300,
+      "duration": 2333,
+      "lang": "zh"
+    },
+    {
+      "text": "好啊，",
+      "offset": 119666,
+      "duration": 500,
+      "lang": "zh"
+    },
+    {
+      "text": "你快查查。",
+      "offset": 120200,
+      "duration": 1166,
+      "lang": "zh"
+    },
+    {
+      "text": "那里是不是有很多花，",
+      "offset": 121400,
+      "duration": 2300,
+      "lang": "zh"
+    },
+    {
+      "text": "很多树？",
+      "offset": 123733,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯……",
+      "offset": 125366,
+      "duration": 400,
+      "lang": "zh"
+    },
+    {
+      "text": "我看到了。",
+      "offset": 125800,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "百花山是很漂亮，",
+      "offset": 127433,
+      "duration": 2700,
+      "lang": "zh"
+    },
+    {
+      "text": "但是……",
+      "offset": 130166,
+      "duration": 400,
+      "lang": "zh"
+    },
+    {
+      "text": "它离我们太远了。",
+      "offset": 130600,
+      "duration": 2133,
+      "lang": "zh"
+    },
+    {
+      "text": "你看地图，",
+      "offset": 132766,
+      "duration": 1000,
+      "lang": "zh"
+    },
+    {
+      "text": "我们开车去要三个多小时。",
+      "offset": 133800,
+      "duration": 2766,
+      "lang": "zh"
+    },
+    {
+      "text": "三个小时？",
+      "offset": 136600,
+      "duration": 1800,
+      "lang": "zh"
+    },
+    {
+      "text": "这么远啊……",
+      "offset": 138433,
+      "duration": 1633,
+      "lang": "zh"
+    },
+    {
+      "text": "那我们早上很早就要起床了。",
+      "offset": 140100,
+      "duration": 3066,
+      "lang": "zh"
+    },
+    {
+      "text": "回来的时候也会很晚，",
+      "offset": 143200,
+      "duration": 2400,
+      "lang": "zh"
+    },
+    {
+      "text": "可能会很累。",
+      "offset": 145633,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "是啊。",
+      "offset": 147366,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "我们去野餐是为了放松，",
+      "offset": 149000,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "为了高兴。",
+      "offset": 150933,
+      "duration": 1367,
+      "lang": "zh"
+    },
+    {
+      "text": "如果路上花太多时间，",
+      "offset": 152333,
+      "duration": 1867,
+      "lang": "zh"
+    },
+    {
+      "text": "就太累了。",
+      "offset": 154233,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "我觉得第一次，",
+      "offset": 156166,
+      "duration": 1167,
+      "lang": "zh"
+    },
+    {
+      "text": "我们可以选一个近一点的地方。",
+      "offset": 157366,
+      "duration": 3367,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯……",
+      "offset": 160766,
+      "duration": 1034,
+      "lang": "zh"
+    },
+    {
+      "text": "你说的对。",
+      "offset": 161833,
+      "duration": 1567,
+      "lang": "zh"
+    },
+    {
+      "text": "太远了确实很累。",
+      "offset": 163433,
+      "duration": 2300,
+      "lang": "zh"
+    },
+    {
+      "text": "那……你有什么好主意吗？",
+      "offset": 165766,
+      "duration": 2934,
+      "lang": "zh"
+    },
+    {
+      "text": "你认识什么好地方吗？",
+      "offset": 168733,
+      "duration": 2500,
+      "lang": "zh"
+    },
+    {
+      "text": "我想想……",
+      "offset": 171266,
+      "duration": 1567,
+      "lang": "zh"
+    },
+    {
+      "text": "我们城市西边有一个“西山森林公园”，",
+      "offset": 172866,
+      "duration": 3800,
+      "lang": "zh"
+    },
+    {
+      "text": "你觉得怎么样？",
+      "offset": 176700,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "那个公园很大，",
+      "offset": 178333,
+      "duration": 1067,
+      "lang": "zh"
+    },
+    {
+      "text": "里面有山，有水，",
+      "offset": 179433,
+      "duration": 1800,
+      "lang": "zh"
+    },
+    {
+      "text": "也有很大的草地。",
+      "offset": 181266,
+      "duration": 2167,
+      "lang": "zh"
+    },
+    {
+      "text": "西山森林公园？",
+      "offset": 183466,
+      "duration": 2500,
+      "lang": "zh"
+    },
+    {
+      "text": "我听我的朋友说过，",
+      "offset": 186000,
+      "duration": 2066,
+      "lang": "zh"
+    },
+    {
+      "text": "她说那里很漂亮。",
+      "offset": 188100,
+      "duration": 2766,
+      "lang": "zh"
+    },
+    {
+      "text": "离我们远吗？",
+      "offset": 190900,
+      "duration": 1066,
+      "lang": "zh"
+    },
+    {
+      "text": "不远。",
+      "offset": 192000,
+      "duration": 733,
+      "lang": "zh"
+    },
+    {
+      "text": "我们坐地铁就可以到。",
+      "offset": 192766,
+      "duration": 1767,
+      "lang": "zh"
+    },
+    {
+      "text": "坐地铁大概一个小时，",
+      "offset": 194566,
+      "duration": 2767,
+      "lang": "zh"
+    },
+    {
+      "text": "很方便。",
+      "offset": 197366,
+      "duration": 1067,
+      "lang": "zh"
+    },
+    {
+      "text": "下了地铁，走十分钟",
+      "offset": 198466,
+      "duration": 2067,
+      "lang": "zh"
+    },
+    {
+      "text": "就到公园门口了。",
+      "offset": 200566,
+      "duration": 1800,
+      "lang": "zh"
+    },
+    {
+      "text": "坐地铁就能到？",
+      "offset": 202400,
+      "duration": 1166,
+      "lang": "zh"
+    },
+    {
+      "text": "那太好了！",
+      "offset": 203600,
+      "duration": 2133,
+      "lang": "zh"
+    },
+    {
+      "text": "我最不喜欢开车去很远的地方，",
+      "offset": 205766,
+      "duration": 2700,
+      "lang": "zh"
+    },
+    {
+      "text": "很麻烦。",
+      "offset": 208500,
+      "duration": 1000,
+      "lang": "zh"
+    },
+    {
+      "text": "而且坐地铁还不用找地方停车。",
+      "offset": 209533,
+      "duration": 3767,
+      "lang": "zh"
+    },
+    {
+      "text": "对。",
+      "offset": 213333,
+      "duration": 1200,
+      "lang": "zh"
+    },
+    {
+      "text": "而且那个公园非常大，",
+      "offset": 214566,
+      "duration": 1767,
+      "lang": "zh"
+    },
+    {
+      "text": "我们早点去，",
+      "offset": 216366,
+      "duration": 1267,
+      "lang": "zh"
+    },
+    {
+      "text": "总能找到一个人少又干净的地方。",
+      "offset": 217666,
+      "duration": 3667,
+      "lang": "zh"
+    },
+    {
+      "text": "我们可以找一棵大树，",
+      "offset": 221366,
+      "duration": 1500,
+      "lang": "zh"
+    },
+    {
+      "text": "在树下面坐着，会很舒服。",
+      "offset": 222900,
+      "duration": 3333,
+      "lang": "zh"
+    },
+    {
+      "text": "好！",
+      "offset": 226266,
+      "duration": 434,
+      "lang": "zh"
+    },
+    {
+      "text": "听你这么说，",
+      "offset": 226733,
+      "duration": 1333,
+      "lang": "zh"
+    },
+    {
+      "text": "我觉得这个西山森林公园真的很好。",
+      "offset": 228100,
+      "duration": 4800,
+      "lang": "zh"
+    },
+    {
+      "text": "行！",
+      "offset": 232933,
+      "duration": 233,
+      "lang": "zh"
+    },
+    {
+      "text": "那我们就去西山森林公园！",
+      "offset": 233200,
+      "duration": 3300,
+      "lang": "zh"
+    },
+    {
+      "text": "目的地，",
+      "offset": 236533,
+      "duration": 1100,
+      "lang": "zh"
+    },
+    {
+      "text": "决定了！",
+      "offset": 237666,
+      "duration": 1534,
+      "lang": "zh"
+    },
+    {
+      "text": "太好了。",
+      "offset": 239233,
+      "duration": 967,
+      "lang": "zh"
+    },
+    {
+      "text": "第一个问题解决了。",
+      "offset": 240233,
+      "duration": 1633,
+      "lang": "zh"
+    },
+    {
+      "text": "那我们是周六去还是周日去？",
+      "offset": 241900,
+      "duration": 2600,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯……",
+      "offset": 244533,
+      "duration": 1233,
+      "lang": "zh"
+    },
+    {
+      "text": "周六吧！",
+      "offset": 245800,
+      "duration": 1566,
+      "lang": "zh"
+    },
+    {
+      "text": "周六去玩，",
+      "offset": 247400,
+      "duration": 1266,
+      "lang": "zh"
+    },
+    {
+      "text": "周日可以在家休息一天。",
+      "offset": 248700,
+      "duration": 2266,
+      "lang": "zh"
+    },
+    {
+      "text": "这样周一工作的时候",
+      "offset": 251000,
+      "duration": 2366,
+      "lang": "zh"
+    },
+    {
+      "text": "就不会觉得那么累了。",
+      "offset": 253400,
+      "duration": 2666,
+      "lang": "zh"
+    },
+    {
+      "text": "你想得很周到。",
+      "offset": 256100,
+      "duration": 1166,
+      "lang": "zh"
+    },
+    {
+      "text": "好，那就决定了，",
+      "offset": 257300,
+      "duration": 1833,
+      "lang": "zh"
+    },
+    {
+      "text": "这个周六，我们去西山森林公园野餐。",
+      "offset": 259166,
+      "duration": 3800,
+      "lang": "zh"
+    },
+    {
+      "text": "耶！太棒了！",
+      "offset": 263033,
+      "duration": 1967,
+      "lang": "zh"
+    },
+    {
+      "text": "我现在已经开始高兴了！",
+      "offset": 265000,
+      "duration": 1933,
+      "lang": "zh"
+    },
+    {
+      "text": "好，解决了第一个问题，",
+      "offset": 266966,
+      "duration": 2434,
+      "lang": "zh"
+    },
+    {
+      "text": "现在是第二个问题。",
+      "offset": 269433,
+      "duration": 2067,
+      "lang": "zh"
+    },
+    {
+      "text": "也是你最喜欢的部分。",
+      "offset": 271533,
+      "duration": 2167,
+      "lang": "zh"
+    },
+    {
+      "text": "我知道！",
+      "offset": 273733,
+      "duration": 1200,
+      "lang": "zh"
+    },
+    {
+      "text": "是准备吃的东西！对不对？",
+      "offset": 274933,
+      "duration": 2233,
+      "lang": "zh"
+    },
+    {
+      "text": "没错。",
+      "offset": 277200,
+      "duration": 1566,
+      "lang": "zh"
+    },
+    {
+      "text": "我们要带什么吃的？",
+      "offset": 278800,
+      "duration": 1733,
+      "lang": "zh"
+    },
+    {
+      "text": "带什么喝的？",
+      "offset": 280533,
+      "duration": 833,
+      "lang": "zh"
+    },
+    {
+      "text": "吃的……我想想。",
+      "offset": 281400,
+      "duration": 2133,
+      "lang": "zh"
+    },
+    {
+      "text": "首先，一定要有三明治或者面包。",
+      "offset": 283566,
+      "duration": 3300,
+      "lang": "zh"
+    },
+    {
+      "text": "吃起来很方便。",
+      "offset": 286900,
+      "duration": 1400,
+      "lang": "zh"
+    },
+    {
+      "text": "我们可以去商店买一些好吃的面包。",
+      "offset": 288333,
+      "duration": 3033,
+      "lang": "zh"
+    },
+    {
+      "text": "同意。面包很好。",
+      "offset": 291400,
+      "duration": 2500,
+      "lang": "zh"
+    },
+    {
+      "text": "我们还可以自己做三明治。",
+      "offset": 293933,
+      "duration": 2633,
+      "lang": "zh"
+    },
+    {
+      "text": "我们可以买一些鸡蛋，",
+      "offset": 296600,
+      "duration": 1466,
+      "lang": "zh"
+    },
+    {
+      "text": "一些生菜，一些西红柿。",
+      "offset": 298100,
+      "duration": 1966,
+      "lang": "zh"
+    },
+    {
+      "text": "早上起来做，很新鲜，也很好吃。",
+      "offset": 300100,
+      "duration": 3433,
+      "lang": "zh"
+    },
+    {
+      "text": "自己做？",
+      "offset": 303566,
+      "duration": 1867,
+      "lang": "zh"
+    },
+    {
+      "text": "听起来不错，但是会不会很麻烦？",
+      "offset": 305466,
+      "duration": 2700,
+      "lang": "zh"
+    },
+    {
+      "text": "我早上可能起不来……",
+      "offset": 308200,
+      "duration": 2733,
+      "lang": "zh"
+    },
+    {
+      "text": "不麻烦，很简单。",
+      "offset": 310966,
+      "duration": 1634,
+      "lang": "zh"
+    },
+    {
+      "text": "我来做。",
+      "offset": 312633,
+      "duration": 1300,
+      "lang": "zh"
+    },
+    {
+      "text": "我做得很快。",
+      "offset": 313933,
+      "duration": 1400,
+      "lang": "zh"
+    },
+    {
+      "text": "你想想，我们吃着自己做的三明治，",
+      "offset": 315366,
+      "duration": 2834,
+      "lang": "zh"
+    },
+    {
+      "text": "会觉得特别好吃。",
+      "offset": 318233,
+      "duration": 2267,
+      "lang": "zh"
+    },
+    {
+      "text": "哇，你来做？",
+      "offset": 320533,
+      "duration": 1567,
+      "lang": "zh"
+    },
+    {
+      "text": "那太好了！谢谢你！",
+      "offset": 322133,
+      "duration": 2167,
+      "lang": "zh"
+    },
+    {
+      "text": "我最喜欢吃你做的东西了。",
+      "offset": 324333,
+      "duration": 2533,
+      "lang": "zh"
+    },
+    {
+      "text": "那我要吃两个！",
+      "offset": 326900,
+      "duration": 2066,
+      "lang": "zh"
+    },
+    {
+      "text": "一个鸡蛋的，",
+      "offset": 329000,
+      "duration": 1566,
+      "lang": "zh"
+    },
+    {
+      "text": "一个……嗯……你看着做吧，",
+      "offset": 330600,
+      "duration": 2800,
+      "lang": "zh"
+    },
+    {
+      "text": "你做的我都喜欢。",
+      "offset": 333433,
+      "duration": 1933,
+      "lang": "zh"
+    },
+    {
+      "text": "没问题。",
+      "offset": 335400,
+      "duration": 1466,
+      "lang": "zh"
+    },
+    {
+      "text": "那吃的，我们有三明治了。",
+      "offset": 336900,
+      "duration": 2800,
+      "lang": "zh"
+    },
+    {
+      "text": "还想吃什么？",
+      "offset": 339733,
+      "duration": 1000,
+      "lang": "zh"
+    },
+    {
+      "text": "水果！一定要有水果！",
+      "offset": 340766,
+      "duration": 2434,
+      "lang": "zh"
+    },
+    {
+      "text": "天气那么好，",
+      "offset": 343233,
+      "duration": 1267,
+      "lang": "zh"
+    },
+    {
+      "text": "吃一点甜甜的水果，",
+      "offset": 344533,
+      "duration": 2033,
+      "lang": "zh"
+    },
+    {
+      "text": "会特别舒服。",
+      "offset": 346600,
+      "duration": 1266,
+      "lang": "zh"
+    },
+    {
+      "text": "我想吃西瓜！",
+      "offset": 347900,
+      "duration": 1333,
+      "lang": "zh"
+    },
+    {
+      "text": "很大很甜的西瓜！",
+      "offset": 349266,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "西瓜？",
+      "offset": 351200,
+      "duration": 2000,
+      "lang": "zh"
+    },
+    {
+      "text": "王雨，你想想，",
+      "offset": 353233,
+      "duration": 1933,
+      "lang": "zh"
+    },
+    {
+      "text": "一个大西瓜很重啊，",
+      "offset": 355200,
+      "duration": 2066,
+      "lang": "zh"
+    },
+    {
+      "text": "我们怎么带去公园？",
+      "offset": 357300,
+      "duration": 2166,
+      "lang": "zh"
+    },
+    {
+      "text": "我们还要切开，会很麻烦。",
+      "offset": 359500,
+      "duration": 2666,
+      "lang": "zh"
+    },
+    {
+      "text": "呃……你说的也对。",
+      "offset": 362200,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "西瓜是很好吃，",
+      "offset": 364133,
+      "duration": 1667,
+      "lang": "zh"
+    },
+    {
+      "text": "但是太重了，也不好带。",
+      "offset": 365833,
+      "duration": 2167,
+      "lang": "zh"
+    },
+    {
+      "text": "那……我们换一种水果？",
+      "offset": 368033,
+      "duration": 2633,
+      "lang": "zh"
+    },
+    {
+      "text": "对。我们可以买一些苹果，",
+      "offset": 370700,
+      "duration": 2966,
+      "lang": "zh"
+    },
+    {
+      "text": "或者香蕉。",
+      "offset": 373700,
+      "duration": 1633,
+      "lang": "zh"
+    },
+    {
+      "text": "这些水果洗干净了就可以吃，",
+      "offset": 375366,
+      "duration": 2167,
+      "lang": "zh"
+    },
+    {
+      "text": "非常方便。",
+      "offset": 377566,
+      "duration": 1400,
+      "lang": "zh"
+    },
+    {
+      "text": "我们还可以买一些葡萄，",
+      "offset": 379000,
+      "duration": 2166,
+      "lang": "zh"
+    },
+    {
+      "text": "或者草莓，",
+      "offset": 381200,
+      "duration": 900,
+      "lang": "zh"
+    },
+    {
+      "text": "放在小盒子里面。",
+      "offset": 382133,
+      "duration": 2067,
+      "lang": "zh"
+    },
+    {
+      "text": "好主意！我喜欢吃草莓！",
+      "offset": 384233,
+      "duration": 1967,
+      "lang": "zh"
+    },
+    {
+      "text": "我们就买草莓和苹果吧。",
+      "offset": 386233,
+      "duration": 2333,
+      "lang": "zh"
+    },
+    {
+      "text": "又好看，又好吃，",
+      "offset": 388600,
+      "duration": 1666,
+      "lang": "zh"
+    },
+    {
+      "text": "带着也方便。",
+      "offset": 390300,
+      "duration": 1433,
+      "lang": "zh"
+    },
+    {
+      "text": "好的。",
+      "offset": 391766,
+      "duration": 1434,
+      "lang": "zh"
+    },
+    {
+      "text": "那我们有三明治，",
+      "offset": 393233,
+      "duration": 1333,
+      "lang": "zh"
+    },
+    {
+      "text": "有水果了。",
+      "offset": 394600,
+      "duration": 1366,
+      "lang": "zh"
+    },
+    {
+      "text": "还缺点心，",
+      "offset": 396000,
+      "duration": 1566,
+      "lang": "zh"
+    },
+    {
+      "text": "就是小零食。",
+      "offset": 397600,
+      "duration": 1766,
+      "lang": "zh"
+    },
+    {
+      "text": "你想吃什么零食？",
+      "offset": 399400,
+      "duration": 1066,
+      "lang": "zh"
+    },
+    {
+      "text": "薯片！",
+      "offset": 400500,
+      "duration": 666,
+      "lang": "zh"
+    },
+    {
+      "text": "我特别想吃薯片！",
+      "offset": 401200,
+      "duration": 2066,
+      "lang": "zh"
+    },
+    {
+      "text": "还想吃一点饼干，",
+      "offset": 403300,
+      "duration": 2033,
+      "lang": "zh"
+    },
+    {
+      "text": "还有巧克力。",
+      "offset": 405366,
+      "duration": 1534,
+      "lang": "zh"
+    },
+    {
+      "text": "可以。",
+      "offset": 406933,
+      "duration": 1333,
+      "lang": "zh"
+    },
+    {
+      "text": "但是我觉得，",
+      "offset": 408300,
+      "duration": 1300,
+      "lang": "zh"
+    },
+    {
+      "text": "我们还可以准备一点健康的零食。",
+      "offset": 409633,
+      "duration": 2833,
+      "lang": "zh"
+    },
+    {
+      "text": "比如说，",
+      "offset": 412500,
+      "duration": 1166,
+      "lang": "zh"
+    },
+    {
+      "text": "一些坚果，",
+      "offset": 413700,
+      "duration": 1033,
+      "lang": "zh"
+    },
+    {
+      "text": "或者我们自己做一点简单的沙拉，",
+      "offset": 414766,
+      "duration": 2934,
+      "lang": "zh"
+    },
+    {
+      "text": "用小盒子装着。",
+      "offset": 417733,
+      "duration": 1633,
+      "lang": "zh"
+    },
+    {
+      "text": "沙拉？好啊！",
+      "offset": 419400,
+      "duration": 1866,
+      "lang": "zh"
+    },
+    {
+      "text": "我喜欢吃沙拉。",
+      "offset": 421300,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "那这个谁来做？",
+      "offset": 422933,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "不会又是你吧？",
+      "offset": 424566,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "当然是我。",
+      "offset": 426200,
+      "duration": 2133,
+      "lang": "zh"
+    },
+    {
+      "text": "做沙拉很简单，",
+      "offset": 428366,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "就是把菜和水果洗干净，",
+      "offset": 430100,
+      "duration": 2366,
+      "lang": "zh"
+    },
+    {
+      "text": "放在一起。",
+      "offset": 432500,
+      "duration": 1066,
+      "lang": "zh"
+    },
+    {
+      "text": "五分钟就能做好。",
+      "offset": 433600,
+      "duration": 1766,
+      "lang": "zh"
+    },
+    {
+      "text": "李明，你太好了！",
+      "offset": 435400,
+      "duration": 2066,
+      "lang": "zh"
+    },
+    {
+      "text": "我发现，",
+      "offset": 437500,
+      "duration": 1200,
+      "lang": "zh"
+    },
+    {
+      "text": "跟你一起出去玩，",
+      "offset": 438733,
+      "duration": 1633,
+      "lang": "zh"
+    },
+    {
+      "text": "我什么都不用做，",
+      "offset": 440400,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "只用想吃什么就行了。",
+      "offset": 442133,
+      "duration": 2633,
+      "lang": "zh"
+    },
+    {
+      "text": "因为我喜欢计划，",
+      "offset": 444800,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "喜欢准备。",
+      "offset": 446533,
+      "duration": 1667,
+      "lang": "zh"
+    },
+    {
+      "text": "准备去玩，",
+      "offset": 448233,
+      "duration": 1033,
+      "lang": "zh"
+    },
+    {
+      "text": "就像做菜一样。",
+      "offset": 449300,
+      "duration": 1400,
+      "lang": "zh"
+    },
+    {
+      "text": "我们要先把东西都准备好，",
+      "offset": 450733,
+      "duration": 2167,
+      "lang": "zh"
+    },
+    {
+      "text": "然后才能做出好吃的东西，",
+      "offset": 452933,
+      "duration": 2567,
+      "lang": "zh"
+    },
+    {
+      "text": "才能玩得高兴。",
+      "offset": 455533,
+      "duration": 1467,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯，",
+      "offset": 457033,
+      "duration": 733,
+      "lang": "zh"
+    },
+    {
+      "text": "这个说法我喜欢。",
+      "offset": 457800,
+      "duration": 2133,
+      "lang": "zh"
+    },
+    {
+      "text": "那我们喝什么呢？",
+      "offset": 459966,
+      "duration": 1667,
+      "lang": "zh"
+    },
+    {
+      "text": "要带水吗？",
+      "offset": 461666,
+      "duration": 1534,
+      "lang": "zh"
+    },
+    {
+      "text": "水是一定要带的。",
+      "offset": 463233,
+      "duration": 1467,
+      "lang": "zh"
+    },
+    {
+      "text": "我们每人带一个大瓶子。",
+      "offset": 464733,
+      "duration": 3000,
+      "lang": "zh"
+    },
+    {
+      "text": "除了水，",
+      "offset": 467766,
+      "duration": 1000,
+      "lang": "zh"
+    },
+    {
+      "text": "你还想喝什么？",
+      "offset": 468800,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "果汁？",
+      "offset": 470433,
+      "duration": 467,
+      "lang": "zh"
+    },
+    {
+      "text": "可乐？",
+      "offset": 470933,
+      "duration": 1633,
+      "lang": "zh"
+    },
+    {
+      "text": "我想喝我自己做的柠檬茶。",
+      "offset": 472600,
+      "duration": 3300,
+      "lang": "zh"
+    },
+    {
+      "text": "我前天刚买了新杯子，",
+      "offset": 475933,
+      "duration": 2100,
+      "lang": "zh"
+    },
+    {
+      "text": "我可以做一大杯，",
+      "offset": 478066,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "然后我们两个人一起喝。",
+      "offset": 479800,
+      "duration": 2433,
+      "lang": "zh"
+    },
+    {
+      "text": "你自己做的柠檬茶？",
+      "offset": 482266,
+      "duration": 1834,
+      "lang": "zh"
+    },
+    {
+      "text": "那一定很好喝。",
+      "offset": 484133,
+      "duration": 2367,
+      "lang": "zh"
+    },
+    {
+      "text": "好，喝的也决定了。",
+      "offset": 486533,
+      "duration": 1767,
+      "lang": "zh"
+    },
+    {
+      "text": "我们总结一下我们的食物清单：",
+      "offset": 488333,
+      "duration": 2867,
+      "lang": "zh"
+    },
+    {
+      "text": "三明治、",
+      "offset": 491233,
+      "duration": 800,
+      "lang": "zh"
+    },
+    {
+      "text": "苹果、",
+      "offset": 492066,
+      "duration": 1134,
+      "lang": "zh"
+    },
+    {
+      "text": "草莓、",
+      "offset": 493233,
+      "duration": 833,
+      "lang": "zh"
+    },
+    {
+      "text": "一些小零食、",
+      "offset": 494100,
+      "duration": 1400,
+      "lang": "zh"
+    },
+    {
+      "text": "沙拉、",
+      "offset": 495533,
+      "duration": 1000,
+      "lang": "zh"
+    },
+    {
+      "text": "水，",
+      "offset": 496566,
+      "duration": 634,
+      "lang": "zh"
+    },
+    {
+      "text": "还有你的柠檬茶。",
+      "offset": 497233,
+      "duration": 2333,
+      "lang": "zh"
+    },
+    {
+      "text": "你觉得够吗？",
+      "offset": 499600,
+      "duration": 833,
+      "lang": "zh"
+    },
+    {
+      "text": "我觉得够了！",
+      "offset": 500466,
+      "duration": 1467,
+      "lang": "zh"
+    },
+    {
+      "text": "太多了我们也吃不完。",
+      "offset": 501966,
+      "duration": 2534,
+      "lang": "zh"
+    },
+    {
+      "text": "哇，",
+      "offset": 504533,
+      "duration": 700,
+      "lang": "zh"
+    },
+    {
+      "text": "这么多好吃的东西，",
+      "offset": 505233,
+      "duration": 1667,
+      "lang": "zh"
+    },
+    {
+      "text": "我真希望明天就是周六！",
+      "offset": 506933,
+      "duration": 2967,
+      "lang": "zh"
+    },
+    {
+      "text": "别着急，",
+      "offset": 509933,
+      "duration": 1367,
+      "lang": "zh"
+    },
+    {
+      "text": "准备这么多东西，",
+      "offset": 511333,
+      "duration": 1500,
+      "lang": "zh"
+    },
+    {
+      "text": "我觉得有点儿麻烦，",
+      "offset": 512866,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "有点儿累。",
+      "offset": 514600,
+      "duration": 1366,
+      "lang": "zh"
+    },
+    {
+      "text": "我明白。",
+      "offset": 516000,
+      "duration": 1166,
+      "lang": "zh"
+    },
+    {
+      "text": "但是你想想，",
+      "offset": 517200,
+      "duration": 1066,
+      "lang": "zh"
+    },
+    {
+      "text": "我们准备得好，",
+      "offset": 518300,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "到那里的时候就会很高兴，",
+      "offset": 519933,
+      "duration": 2433,
+      "lang": "zh"
+    },
+    {
+      "text": "很舒服。",
+      "offset": 522400,
+      "duration": 900,
+      "lang": "zh"
+    },
+    {
+      "text": "什么都有，",
+      "offset": 523333,
+      "duration": 1033,
+      "lang": "zh"
+    },
+    {
+      "text": "什么都好吃。",
+      "offset": 524400,
+      "duration": 1833,
+      "lang": "zh"
+    },
+    {
+      "text": "你看，",
+      "offset": 526266,
+      "duration": 234,
+      "lang": "zh"
+    },
+    {
+      "text": "我们可以写一个单子，",
+      "offset": 526533,
+      "duration": 2033,
+      "lang": "zh"
+    },
+    {
+      "text": "把我们要买的东西都写下来，",
+      "offset": 528600,
+      "duration": 2733,
+      "lang": "zh"
+    },
+    {
+      "text": "明天去超市的时候，",
+      "offset": 531366,
+      "duration": 1867,
+      "lang": "zh"
+    },
+    {
+      "text": "看着单子买，",
+      "offset": 533266,
+      "duration": 1334,
+      "lang": "zh"
+    },
+    {
+      "text": "这样就不会忘记了。",
+      "offset": 534633,
+      "duration": 2500,
+      "lang": "zh"
+    },
+    {
+      "text": "这个方法好！",
+      "offset": 537166,
+      "duration": 967,
+      "lang": "zh"
+    },
+    {
+      "text": "我们现在就写一个单子。",
+      "offset": 538166,
+      "duration": 1734,
+      "lang": "zh"
+    },
+    {
+      "text": "你来说，",
+      "offset": 539933,
+      "duration": 900,
+      "lang": "zh"
+    },
+    {
+      "text": "我来写。",
+      "offset": 540866,
+      "duration": 1200,
+      "lang": "zh"
+    },
+    {
+      "text": "好！",
+      "offset": 542100,
+      "duration": 233,
+      "lang": "zh"
+    },
+    {
+      "text": "我要买……",
+      "offset": 542366,
+      "duration": 2000,
+      "lang": "zh"
+    },
+    {
+      "text": "好了，",
+      "offset": 544400,
+      "duration": 600,
+      "lang": "zh"
+    },
+    {
+      "text": "吃的和喝的，",
+      "offset": 545033,
+      "duration": 1167,
+      "lang": "zh"
+    },
+    {
+      "text": "我们都写在单子上了。",
+      "offset": 546233,
+      "duration": 1533,
+      "lang": "zh"
+    },
+    {
+      "text": "明天下午下班以后，",
+      "offset": 547800,
+      "duration": 1966,
+      "lang": "zh"
+    },
+    {
+      "text": "我们就一起去超市买。",
+      "offset": 549800,
+      "duration": 2300,
+      "lang": "zh"
+    },
+    {
+      "text": "没问题。",
+      "offset": 552133,
+      "duration": 933,
+      "lang": "zh"
+    },
+    {
+      "text": "那除了吃的，",
+      "offset": 553100,
+      "duration": 1300,
+      "lang": "zh"
+    },
+    {
+      "text": "我们还需要带别的东西吗？",
+      "offset": 554433,
+      "duration": 2533,
+      "lang": "zh"
+    },
+    {
+      "text": "当然需要。",
+      "offset": 557000,
+      "duration": 1200,
+      "lang": "zh"
+    },
+    {
+      "text": "我们是去野餐，",
+      "offset": 558200,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "最重要的东西之一，就是一块布，",
+      "offset": 559966,
+      "duration": 3367,
+      "lang": "zh"
+    },
+    {
+      "text": "我们可以叫它“野餐垫”。",
+      "offset": 563366,
+      "duration": 2534,
+      "lang": "zh"
+    },
+    {
+      "text": "我们把它铺在草地上，",
+      "offset": 565933,
+      "duration": 2067,
+      "lang": "zh"
+    },
+    {
+      "text": "然后就可以坐在上面了，很干净。",
+      "offset": 568000,
+      "duration": 3300,
+      "lang": "zh"
+    },
+    {
+      "text": "对对对，这个很重要！",
+      "offset": 571333,
+      "duration": 2333,
+      "lang": "zh"
+    },
+    {
+      "text": "我家好像有一块，是上次朋友送我的，",
+      "offset": 573700,
+      "duration": 4066,
+      "lang": "zh"
+    },
+    {
+      "text": "红白色的，很漂亮。",
+      "offset": 577800,
+      "duration": 2533,
+      "lang": "zh"
+    },
+    {
+      "text": "我去找找。",
+      "offset": 580333,
+      "duration": 1133,
+      "lang": "zh"
+    },
+    {
+      "text": "好，那你负责带野餐垫。",
+      "offset": 581500,
+      "duration": 3000,
+      "lang": "zh"
+    },
+    {
+      "text": "我们还需要带一些纸巾，还有湿纸巾，",
+      "offset": 584533,
+      "duration": 3367,
+      "lang": "zh"
+    },
+    {
+      "text": "吃完东西可以擦手。",
+      "offset": 588033,
+      "duration": 1967,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯，这个我也带。",
+      "offset": 590033,
+      "duration": 2367,
+      "lang": "zh"
+    },
+    {
+      "text": "我的包里总是有很多纸巾。",
+      "offset": 592400,
+      "duration": 2466,
+      "lang": "zh"
+    },
+    {
+      "text": "还需要一个垃圾袋。",
+      "offset": 594900,
+      "duration": 1866,
+      "lang": "zh"
+    },
+    {
+      "text": "我们吃完东西，",
+      "offset": 596800,
+      "duration": 1433,
+      "lang": "zh"
+    },
+    {
+      "text": "要把所有的垃圾都带走，",
+      "offset": 598233,
+      "duration": 2133,
+      "lang": "zh"
+    },
+    {
+      "text": "不能留在公园里。",
+      "offset": 600400,
+      "duration": 1833,
+      "lang": "zh"
+    },
+    {
+      "text": "保护环境很重要。",
+      "offset": 602233,
+      "duration": 2167,
+      "lang": "zh"
+    },
+    {
+      "text": "你说的非常对。",
+      "offset": 604433,
+      "duration": 1800,
+      "lang": "zh"
+    },
+    {
+      "text": "这个我记下了，一定带。",
+      "offset": 606233,
+      "duration": 2467,
+      "lang": "zh"
+    },
+    {
+      "text": "我们要做爱护环境的好孩子。",
+      "offset": 608733,
+      "duration": 3133,
+      "lang": "zh"
+    },
+    {
+      "text": "对。还有什么呢？",
+      "offset": 611900,
+      "duration": 3533,
+      "lang": "zh"
+    },
+    {
+      "text": "啊，对了，你想在那里做什么？",
+      "offset": 615466,
+      "duration": 3134,
+      "lang": "zh"
+    },
+    {
+      "text": "就是，除了吃东西，我们还做什么？",
+      "offset": 618633,
+      "duration": 3633,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯……我想看书。",
+      "offset": 622300,
+      "duration": 2966,
+      "lang": "zh"
+    },
+    {
+      "text": "在那么好的天气里，",
+      "offset": 625300,
+      "duration": 2266,
+      "lang": "zh"
+    },
+    {
+      "text": "在大树下面，安安静静地看一会儿书，",
+      "offset": 627566,
+      "duration": 3934,
+      "lang": "zh"
+    },
+    {
+      "text": "一定特别舒服。",
+      "offset": 631533,
+      "duration": 1800,
+      "lang": "zh"
+    },
+    {
+      "text": "我带一本我最喜欢的书去。",
+      "offset": 633366,
+      "duration": 2834,
+      "lang": "zh"
+    },
+    {
+      "text": "看书，很好。",
+      "offset": 636233,
+      "duration": 1633,
+      "lang": "zh"
+    },
+    {
+      "text": "那我带我的相机吧。",
+      "offset": 637866,
+      "duration": 2334,
+      "lang": "zh"
+    },
+    {
+      "text": "那个公园很漂亮，我可以拍一些照片。",
+      "offset": 640233,
+      "duration": 2933,
+      "lang": "zh"
+    },
+    {
+      "text": "拍风景，也拍你。",
+      "offset": 643200,
+      "duration": 2666,
+      "lang": "zh"
+    },
+    {
+      "text": "好啊！你一定要把我拍得漂亮一点！",
+      "offset": 645900,
+      "duration": 3833,
+      "lang": "zh"
+    },
+    {
+      "text": "我还可以带我的小音箱，",
+      "offset": 649766,
+      "duration": 2567,
+      "lang": "zh"
+    },
+    {
+      "text": "我们可以听一点儿音乐。",
+      "offset": 652333,
+      "duration": 2267,
+      "lang": "zh"
+    },
+    {
+      "text": "声音开小一点，不影响别人。",
+      "offset": 654633,
+      "duration": 3167,
+      "lang": "zh"
+    },
+    {
+      "text": "可以。那我们的活动也有了：",
+      "offset": 657833,
+      "duration": 3033,
+      "lang": "zh"
+    },
+    {
+      "text": "吃东西、看书、拍照、听音乐。",
+      "offset": 660900,
+      "duration": 3800,
+      "lang": "zh"
+    },
+    {
+      "text": "非常放松，我很喜欢。",
+      "offset": 664700,
+      "duration": 2700,
+      "lang": "zh"
+    },
+    {
+      "text": "我也是。",
+      "offset": 667433,
+      "duration": 1433,
+      "lang": "zh"
+    },
+    {
+      "text": "那最后一个问题，李老师，",
+      "offset": 668900,
+      "duration": 2866,
+      "lang": "zh"
+    },
+    {
+      "text": "我们明天早上几点出发？",
+      "offset": 671800,
+      "duration": 2766,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯，这个问题很重要。",
+      "offset": 674600,
+      "duration": 3000,
+      "lang": "zh"
+    },
+    {
+      "text": "我建议我们早一点出发。",
+      "offset": 677633,
+      "duration": 2567,
+      "lang": "zh"
+    },
+    {
+      "text": "比如，早上八点半，我们从家里走。",
+      "offset": 680233,
+      "duration": 3067,
+      "lang": "zh"
+    },
+    {
+      "text": "八点半？",
+      "offset": 683333,
+      "duration": 1267,
+      "lang": "zh"
+    },
+    {
+      "text": "会不会太早了？",
+      "offset": 684600,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "周末我想多睡一会儿。",
+      "offset": 686533,
+      "duration": 2567,
+      "lang": "zh"
+    },
+    {
+      "text": "九点半，怎么样？",
+      "offset": 689133,
+      "duration": 1767,
+      "lang": "zh"
+    },
+    {
+      "text": "九点半也可以。",
+      "offset": 690933,
+      "duration": 2033,
+      "lang": "zh"
+    },
+    {
+      "text": "但是你想，我们坐地铁要一个小时，",
+      "offset": 693000,
+      "duration": 3466,
+      "lang": "zh"
+    },
+    {
+      "text": "到公园就十点半了。",
+      "offset": 696466,
+      "duration": 2267,
+      "lang": "zh"
+    },
+    {
+      "text": "那个时候公园里的人可能已经很多了。",
+      "offset": 698766,
+      "duration": 3334,
+      "lang": "zh"
+    },
+    {
+      "text": "我们早点去，人会少一点，",
+      "offset": 702133,
+      "duration": 2633,
+      "lang": "zh"
+    },
+    {
+      "text": "也更容易找到一个好地方。",
+      "offset": 704766,
+      "duration": 2100,
+      "lang": "zh"
+    },
+    {
+      "text": "天气也没有中午那么热。",
+      "offset": 706900,
+      "duration": 2500,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯……你说的有道理。",
+      "offset": 709433,
+      "duration": 3067,
+      "lang": "zh"
+    },
+    {
+      "text": "去晚了，好地方可能都被别人占了。",
+      "offset": 712533,
+      "duration": 3700,
+      "lang": "zh"
+    },
+    {
+      "text": "好吧，那就辛苦一点，",
+      "offset": 716266,
+      "duration": 2534,
+      "lang": "zh"
+    },
+    {
+      "text": "我们九点出门，怎么样？",
+      "offset": 718833,
+      "duration": 2467,
+      "lang": "zh"
+    },
+    {
+      "text": "我八点起床。",
+      "offset": 721333,
+      "duration": 1333,
+      "lang": "zh"
+    },
+    {
+      "text": "九点出门，可以。",
+      "offset": 722700,
+      "duration": 1800,
+      "lang": "zh"
+    },
+    {
+      "text": "我没问题。",
+      "offset": 724500,
+      "duration": 1266,
+      "lang": "zh"
+    },
+    {
+      "text": "那我们就这么定了。",
+      "offset": 725800,
+      "duration": 1266,
+      "lang": "zh"
+    },
+    {
+      "text": "周六早上九点，我们准时出门。",
+      "offset": 727100,
+      "duration": 3300,
+      "lang": "zh"
+    },
+    {
+      "text": "太好了！",
+      "offset": 730433,
+      "duration": 933,
+      "lang": "zh"
+    },
+    {
+      "text": "所有的计划都做好了！",
+      "offset": 731366,
+      "duration": 1767,
+      "lang": "zh"
+    },
+    {
+      "text": "我现在觉得特别放心，也特别期待！",
+      "offset": 733166,
+      "duration": 3234,
+      "lang": "zh"
+    },
+    {
+      "text": "有一个会计划的朋友，真好！",
+      "offset": 736433,
+      "duration": 2767,
+      "lang": "zh"
+    },
+    {
+      "text": "跟你这样有热情的朋友一起出去玩，",
+      "offset": 739233,
+      "duration": 2533,
+      "lang": "zh"
+    },
+    {
+      "text": "也很好。",
+      "offset": 741766,
+      "duration": 934,
+      "lang": "zh"
+    },
+    {
+      "text": "你总能想到很多有意思的事情。",
+      "offset": 742733,
+      "duration": 2567,
+      "lang": "zh"
+    },
+    {
+      "text": "好，那我们再最后确认一下。",
+      "offset": 745333,
+      "duration": 2367,
+      "lang": "zh"
+    },
+    {
+      "text": "这个周六，我们早上九点出门，",
+      "offset": 747733,
+      "duration": 2567,
+      "lang": "zh"
+    },
+    {
+      "text": "坐地铁去西山森林公园。",
+      "offset": 750333,
+      "duration": 2733,
+      "lang": "zh"
+    },
+    {
+      "text": "我们带了野餐垫、纸巾、垃圾袋。",
+      "offset": 753100,
+      "duration": 4000,
+      "lang": "zh"
+    },
+    {
+      "text": "我们还准备了很多好吃的。",
+      "offset": 757133,
+      "duration": 1833,
+      "lang": "zh"
+    },
+    {
+      "text": "都有什么好吃的来着？",
+      "offset": 759000,
+      "duration": 1833,
+      "lang": "zh"
+    },
+    {
+      "text": "你帮大家总结一下。",
+      "offset": 760833,
+      "duration": 1533,
+      "lang": "zh"
+    },
+    {
+      "text": "好的。",
+      "offset": 762400,
+      "duration": 866,
+      "lang": "zh"
+    },
+    {
+      "text": "我们准备的食物有：三明治、",
+      "offset": 763266,
+      "duration": 2700,
+      "lang": "zh"
+    },
+    {
+      "text": "苹果、草莓、沙拉，还有一些小零食。",
+      "offset": 766000,
+      "duration": 4600,
+      "lang": "zh"
+    },
+    {
+      "text": "喝的东西有水，",
+      "offset": 770633,
+      "duration": 2400,
+      "lang": "zh"
+    },
+    {
+      "text": "还有王雨亲手做的柠檬茶。",
+      "offset": 773033,
+      "duration": 2900,
+      "lang": "zh"
+    },
+    {
+      "text": "听起来就很好吃！",
+      "offset": 775966,
+      "duration": 1767,
+      "lang": "zh"
+    },
+    {
+      "text": "我已经等不及了！",
+      "offset": 777733,
+      "duration": 1733,
+      "lang": "zh"
+    },
+    {
+      "text": "李明，谢谢你的计划，",
+      "offset": 779500,
+      "duration": 2066,
+      "lang": "zh"
+    },
+    {
+      "text": "现在我觉得我们的周末一定会非常非常开心。",
+      "offset": 781600,
+      "duration": 4100,
+      "lang": "zh"
+    },
+    {
+      "text": "我肯定会很开心。",
+      "offset": 785733,
+      "duration": 1667,
+      "lang": "zh"
+    },
+    {
+      "text": "好了，那听我们播客的朋友们，你们呢？",
+      "offset": 787433,
+      "duration": 2800,
+      "lang": "zh"
+    },
+    {
+      "text": "这个周末你们有什么计划？",
+      "offset": 790266,
+      "duration": 2134,
+      "lang": "zh"
+    },
+    {
+      "text": "你们喜欢去野餐吗？",
+      "offset": 792433,
+      "duration": 2000,
+      "lang": "zh"
+    },
+    {
+      "text": "如果你们去野餐，",
+      "offset": 794466,
+      "duration": 1367,
+      "lang": "zh"
+    },
+    {
+      "text": "你们最喜欢带什么好吃的东西呢？",
+      "offset": 795866,
+      "duration": 2434,
+      "lang": "zh"
+    },
+    {
+      "text": "可以告诉我们。",
+      "offset": 798333,
+      "duration": 933,
+      "lang": "zh"
+    },
+    {
+      "text": "对，欢迎大家给我们留言，",
+      "offset": 799300,
+      "duration": 2366,
+      "lang": "zh"
+    },
+    {
+      "text": "分享你们的周末计划和你们最喜欢的野餐食物！",
+      "offset": 801700,
+      "duration": 4166,
+      "lang": "zh"
+    },
+    {
+      "text": "好的，那我们今天就聊到这里。",
+      "offset": 805900,
+      "duration": 2766,
+      "lang": "zh"
+    },
+    {
+      "text": "希望大家都有一个轻松愉快的周末。",
+      "offset": 808700,
+      "duration": 3366,
+      "lang": "zh"
+    },
+    {
+      "text": "下次再见！",
+      "offset": 812100,
+      "duration": 1066,
+      "lang": "zh"
+    },
+    {
+      "text": "朋友们再见！拜拜！",
+      "offset": 813200,
+      "duration": 1300,
+      "lang": "zh"
+    }
+  ]
+}

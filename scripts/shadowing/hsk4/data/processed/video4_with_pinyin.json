@@ -1,0 +1,1637 @@
+{
+  "module": "shadowing",
+  "youtube_id": "xdULRJN_RZM",
+  "sentences": [
+    {
+      "start": 7.633,
+      "end": 11.333,
+      "hanzi": "大家好，欢迎收听新一期的“每天中文”。",
+      "pinyin": "dà jiā hǎo huān yíng shōu tīng xīn yī qī de měi tiān zhōng wén",
+      "vi": ""
+    },
+    {
+      "start": 11.366,
+      "end": 12.5,
+      "hanzi": "我是李明。",
+      "pinyin": "wǒ shì lǐ míng",
+      "vi": ""
+    },
+    {
+      "start": 12.533,
+      "end": 14.633,
+      "hanzi": "大家好，我是王雨。",
+      "pinyin": "dà jiā hǎo wǒ shì wáng yǔ",
+      "vi": ""
+    },
+    {
+      "start": 14.666,
+      "end": 16.066,
+      "hanzi": "上一期节目播出后，",
+      "pinyin": "shàng yī qī jié mù bō chū hòu",
+      "vi": ""
+    },
+    {
+      "start": 16.1,
+      "end": 18.633,
+      "hanzi": "我们收到了好多朋友的留言，",
+      "pinyin": "wǒ men shōu dào le hǎo duō péng yǒu de liú yán",
+      "vi": ""
+    },
+    {
+      "start": 18.666,
+      "end": 21.7,
+      "hanzi": "看到大家的评论，我们真的特别开心！",
+      "pinyin": "kàn dào dà jiā de píng lùn wǒ men zhēn de tè bié kāi xīn",
+      "vi": ""
+    },
+    {
+      "start": 21.733,
+      "end": 24.6,
+      "hanzi": "是的，非常感谢大家的支持。",
+      "pinyin": "shì de fēi cháng gǎn xiè dà jiā de zhī chí",
+      "vi": ""
+    },
+    {
+      "start": 24.633,
+      "end": 27.866,
+      "hanzi": "我注意到很多朋友分享了自己喝茶",
+      "pinyin": "wǒ zhù yì dào hěn duō péng yǒu fēn xiǎng le zì jǐ hē chá",
+      "vi": ""
+    },
+    {
+      "start": 27.9,
+      "end": 30.0,
+      "hanzi": "或者喝咖啡的习惯。",
+      "pinyin": "huò zhě hē kā fēi de xí guàn",
+      "vi": ""
+    },
+    {
+      "start": 30.033,
+      "end": 33.433,
+      "hanzi": "其中有一条留言，让我印象特别深刻。",
+      "pinyin": "qí zhōng yǒu yī tiáo liú yán ràng wǒ yìn xiàng tè bié shēn kè",
+      "vi": ""
+    },
+    {
+      "start": 33.466,
+      "end": 35.4,
+      "hanzi": "哦？是哪一条？",
+      "pinyin": "ó shì nǎ yī tiáo",
+      "vi": ""
+    },
+    {
+      "start": 35.433,
+      "end": 38.866,
+      "hanzi": "是的，我看到一条留言，印象特别深刻。",
+      "pinyin": "shì de wǒ kàn dào yī tiáo liú yán yìn xiàng tè bié shēn kè",
+      "vi": ""
+    },
+    {
+      "start": 38.9,
+      "end": 41.933,
+      "hanzi": "有一位朋友用中文分享了他的习惯，",
+      "pinyin": "yǒu yī wèi péng yǒu yòng zhōng wén fēn xiǎng le tā de xí guàn",
+      "vi": ""
+    },
+    {
+      "start": 41.966,
+      "end": 46.0,
+      "hanzi": "他说：“我每天早上喜欢喝一杯咖啡，",
+      "pinyin": "tā shuō wǒ měi tiān zǎo shàng xǐ huān hē yī bēi kā fēi",
+      "vi": ""
+    },
+    {
+      "start": 46.033,
+      "end": 50.433,
+      "hanzi": "吃午饭后我和家人一起喝红茶。”",
+      "pinyin": "chī wǔ fàn hòu wǒ hé jiā rén yì qǐ hē hóng chá",
+      "vi": ""
+    },
+    {
+      "start": 50.466,
+      "end": 52.933,
+      "hanzi": "哇，这个生活习惯听起来真不错！",
+      "pinyin": "wa zhè ge shēng huó xí guàn tīng qǐ lái zhēn bù cuò",
+      "vi": ""
+    },
+    {
+      "start": 52.966,
+      "end": 55.8,
+      "hanzi": "早上用咖啡开始新的一天，",
+      "pinyin": "zǎo shàng yòng kā fēi kāi shǐ xīn de yī tiān",
+      "vi": ""
+    },
+    {
+      "start": 55.833,
+      "end": 59.1,
+      "hanzi": "下午和家人一起享受喝茶的慢时光。",
+      "pinyin": "xià wǔ hé jiā rén yì qǐ xiǎng shòu hē chá de màn shí guāng",
+      "vi": ""
+    },
+    {
+      "start": 59.133,
+      "end": 59.833,
+      "hanzi": "没错。",
+      "pinyin": "méi cuò",
+      "vi": ""
+    },
+    {
+      "start": 59.833,
+      "end": 62.066,
+      "hanzi": "我看到这条留言的时候，",
+      "pinyin": "wǒ kàn dào zhè tiáo liú yán de shí hòu",
+      "vi": ""
+    },
+    {
+      "start": 62.1,
+      "end": 63.833,
+      "hanzi": "突然有了一个新的想法。",
+      "pinyin": "tū rán yǒu le yí gè xīn de xiǎng fǎ",
+      "vi": ""
+    },
+    {
+      "start": 63.866,
+      "end": 68.133,
+      "hanzi": "你看，早上一个人喝咖啡，为了工作和学习，",
+      "pinyin": "nǐ kàn zǎo shàng yí gè rén hē kā fēi wèi le gōng zuò hé xué xí",
+      "vi": ""
+    },
+    {
+      "start": 68.166,
+      "end": 71.266,
+      "hanzi": "这更像是一种“独处”的状态，对吧？",
+      "pinyin": "zhè gèng xiàng shì yī zhǒng dú chǔ de zhuàng tài duì ba",
+      "vi": ""
+    },
+    {
+      "start": 71.3,
+      "end": 72.833,
+      "hanzi": "嗯，是这样。",
+      "pinyin": "ń shì zhè yàng",
+      "vi": ""
+    },
+    {
+      "start": 72.866,
+      "end": 76.733,
+      "hanzi": "但是，下午和家人一起喝茶、聊天，",
+      "pinyin": "dàn shì xià wǔ hé jiā rén yì qǐ hē chá liáo tiān",
+      "vi": ""
+    },
+    {
+      "start": 76.766,
+      "end": 80.266,
+      "hanzi": "这又变成了一种温暖的“社交”活动。",
+      "pinyin": "zhè yòu biàn chéng le yī zhǒng wēn nuǎn de shè jiāo huó dòng",
+      "vi": ""
+    },
+    {
+      "start": 80.3,
+      "end": 82.2,
+      "hanzi": "你这么一说，我才发现！",
+      "pinyin": "nǐ zhè me yī shuō wǒ cái fā xiàn",
+      "vi": ""
+    },
+    {
+      "start": 82.233,
+      "end": 86.2,
+      "hanzi": "原来，喝茶还是喝咖啡，这个选择的背后，",
+      "pinyin": "yuán lái hē chá hái shì hē kā fēi zhè ge xuǎn zé de bèi hòu",
+      "vi": ""
+    },
+    {
+      "start": 86.233,
+      "end": 89.133,
+      "hanzi": "还藏着我们是喜欢一个人待着，",
+      "pinyin": "hái cáng zhe wǒ men shì xǐ huān yí gè rén dài zhe",
+      "vi": ""
+    },
+    {
+      "start": 89.166,
+      "end": 92.0,
+      "hanzi": "还是喜欢和别人在一起的问题。",
+      "pinyin": "hái shì xǐ huān hé bié rén zài yì qǐ de wèn tí",
+      "vi": ""
+    },
+    {
+      "start": 92.033,
+      "end": 93.133,
+      "hanzi": "正是如此。",
+      "pinyin": "zhèng shì rú cǐ",
+      "vi": ""
+    },
+    {
+      "start": 93.166,
+      "end": 96.6,
+      "hanzi": "所以我们今天就想借着这位朋友的留言，",
+      "pinyin": "suǒ yǐ wǒ men jīn tiān jiù xiǎng jiè zhe zhè wèi péng yǒu de liú yán",
+      "vi": ""
+    },
+    {
+      "start": 96.633,
+      "end": 99.4,
+      "hanzi": "和大家深入地聊一聊这个话题：",
+      "pinyin": "hé dà jiā shēn rù dì liáo yī liáo zhè ge huà tí",
+      "vi": ""
+    },
+    {
+      "start": 99.433,
+      "end": 101.4,
+      "hanzi": "独处，还是社交？",
+      "pinyin": "dú chǔ hái shì shè jiāo",
+      "vi": ""
+    },
+    {
+      "start": 101.433,
+      "end": 103.833,
+      "hanzi": "你觉得哪个对我们更重要？",
+      "pinyin": "nǐ jué de nǎ ge duì wǒ men gèng zhòng yào",
+      "vi": ""
+    },
+    {
+      "start": 103.866,
+      "end": 105.733,
+      "hanzi": "这个话题太好了！",
+      "pinyin": "zhè ge huà tí tài hǎo le",
+      "vi": ""
+    },
+    {
+      "start": 105.766,
+      "end": 109.833,
+      "hanzi": "我觉得很多人都会在这个问题上感到困惑。",
+      "pinyin": "wǒ jué de hěn duō rén dū huì zài zhè ge wèn tí shàng gǎn dào kùn huò",
+      "vi": ""
+    },
+    {
+      "start": 109.866,
+      "end": 112.333,
+      "hanzi": "那我们今天就好好聊一聊吧！",
+      "pinyin": "nà wǒ men jīn tiān jiù hǎo hǎo liáo yī liáo ba",
+      "vi": ""
+    },
+    {
+      "start": 112.366,
+      "end": 114.0,
+      "hanzi": "好的，明白了。",
+      "pinyin": "hǎo de míng bái le",
+      "vi": ""
+    },
+    {
+      "start": 114.033,
+      "end": 116.9,
+      "hanzi": "我们更换一个全新的话题，但依然",
+      "pinyin": "wǒ men gēng huàn yí gè quán xīn de huà tí dàn yī rán",
+      "vi": ""
+    },
+    {
+      "start": 116.933,
+      "end": 120.0,
+      "hanzi": "会遵循您提供的所有参数和结构，",
+      "pinyin": "huì zūn xún nín tí gōng de suǒ yǒu cān shù hé jié gòu",
+      "vi": ""
+    },
+    {
+      "start": 120.033,
+      "end": 122.7,
+      "hanzi": "从上一集“茶与咖啡”的话题",
+      "pinyin": "cóng shàng yī jí chá yǔ kā fēi de huà tí",
+      "vi": ""
+    },
+    {
+      "start": 122.733,
+      "end": 124.666,
+      "hanzi": "自然过渡过来。好。",
+      "pinyin": "zì rán guò dù guò lái hǎo",
+      "vi": ""
+    },
+    {
+      "start": 124.7,
+      "end": 127.066,
+      "hanzi": "那为了让大家更了解我们，",
+      "pinyin": "nà wèi le ràng dà jiā gèng liǎo jiě wǒ men",
+      "vi": ""
+    },
+    {
+      "start": 127.1,
+      "end": 129.5,
+      "hanzi": "不如我们先说说自己的情况吧。",
+      "pinyin": "bù rú wǒ men xiān shuō shuō zì jǐ de qíng kuàng ba",
+      "vi": ""
+    },
+    {
+      "start": 129.533,
+      "end": 133.1,
+      "hanzi": "王雨，你觉得自己是一个喜欢热闹的人，",
+      "pinyin": "wáng yǔ nǐ jué de zì jǐ shì yí gè xǐ huān rè nào de rén",
+      "vi": ""
+    },
+    {
+      "start": 133.133,
+      "end": 135.9,
+      "hanzi": "还是一个喜欢安静的人？",
+      "pinyin": "hái shì yí gè xǐ huān ān jìng de rén",
+      "vi": ""
+    },
+    {
+      "start": 135.933,
+      "end": 137.433,
+      "hanzi": "这个太明显了！",
+      "pinyin": "zhè ge tài míng xiǎn le",
+      "vi": ""
+    },
+    {
+      "start": 137.466,
+      "end": 139.833,
+      "hanzi": "我肯定是喜欢热闹的人。",
+      "pinyin": "wǒ kěn dìng shì xǐ huān rè nào de rén",
+      "vi": ""
+    },
+    {
+      "start": 139.866,
+      "end": 144.233,
+      "hanzi": "我特别喜欢和一大群朋友在一起的感觉，",
+      "pinyin": "wǒ tè bié xǐ huān hé yī dà qún péng yǒu zài yì qǐ de gǎn jué",
+      "vi": ""
+    },
+    {
+      "start": 144.266,
+      "end": 147.3,
+      "hanzi": "大家一起吃饭、聊天、唱歌，",
+      "pinyin": "dà jiā yì qǐ chī fàn liáo tiān chàng gē",
+      "vi": ""
+    },
+    {
+      "start": 147.333,
+      "end": 149.2,
+      "hanzi": "感觉非常有活力。",
+      "pinyin": "gǎn jué fēi cháng yǒu huó lì",
+      "vi": ""
+    },
+    {
+      "start": 149.233,
+      "end": 151.333,
+      "hanzi": "用一个流行的词来说，",
+      "pinyin": "yòng yí gè liú xíng de cí lái shuō",
+      "vi": ""
+    },
+    {
+      "start": 151.366,
+      "end": 154.1,
+      "hanzi": "我应该是一个“外向”的人。",
+      "pinyin": "wǒ yīng gāi shì yí gè wài xiàng de rén",
+      "vi": ""
+    },
+    {
+      "start": 154.133,
+      "end": 155.066,
+      "hanzi": "外向。",
+      "pinyin": "wài xiàng",
+      "vi": ""
+    },
+    {
+      "start": 155.066,
+      "end": 157.3,
+      "hanzi": "嗯，这个词很准确。",
+      "pinyin": "ń zhè ge cí hěn zhǔn què",
+      "vi": ""
+    },
+    {
+      "start": 157.333,
+      "end": 161.6,
+      "hanzi": "就是说，你通过和别人交流来获得能量。",
+      "pinyin": "jiù shì shuō nǐ tōng guò hé bié rén jiāo liú lái huò dé néng liàng",
+      "vi": ""
+    },
+    {
+      "start": 161.633,
+      "end": 163.866,
+      "hanzi": "对对对！就是这个意思。",
+      "pinyin": "duì duì duì jiù shì zhè ge yì si",
+      "vi": ""
+    },
+    {
+      "start": 163.9,
+      "end": 167.933,
+      "hanzi": "每次和朋友们聚会之后，我都觉得特别开心，",
+      "pinyin": "měi cì hé péng yǒu men jù huì zhī hòu wǒ dōu jué de tè bié kāi xīn",
+      "vi": ""
+    },
+    {
+      "start": 167.966,
+      "end": 170.8,
+      "hanzi": "感觉自己又“充满电”了。",
+      "pinyin": "gǎn jué zì jǐ yòu chōng mǎn diàn le",
+      "vi": ""
+    },
+    {
+      "start": 170.833,
+      "end": 171.966,
+      "hanzi": "你呢，李明？",
+      "pinyin": "nǐ ne lǐ míng",
+      "vi": ""
+    },
+    {
+      "start": 171.966,
+      "end": 175.166,
+      "hanzi": "你看起来总是很冷静，很安稳。",
+      "pinyin": "nǐ kàn qǐ lái zǒng shì hěn lěng jìng hěn ān wěn",
+      "vi": ""
+    },
+    {
+      "start": 175.166,
+      "end": 177.933,
+      "hanzi": "(笑)，你观察得很准。",
+      "pinyin": "xiào nǐ guān chá dé hěn zhǔn",
+      "vi": ""
+    },
+    {
+      "start": 177.966,
+      "end": 180.0,
+      "hanzi": "我可能正好和你相反。",
+      "pinyin": "wǒ kě néng zhèng hǎo hé nǐ xiāng fǎn",
+      "vi": ""
+    },
+    {
+      "start": 180.033,
+      "end": 181.5,
+      "hanzi": "我更喜欢安静。",
+      "pinyin": "wǒ gèng xǐ huān ān jìng",
+      "vi": ""
+    },
+    {
+      "start": 181.533,
+      "end": 183.1,
+      "hanzi": "用刚才那个词来说，",
+      "pinyin": "yòng gāng cái nà ge cí lái shuō",
+      "vi": ""
+    },
+    {
+      "start": 183.133,
+      "end": 185.833,
+      "hanzi": "我是一个比较“内向”的人。",
+      "pinyin": "wǒ shì yí gè bǐ jiào nèi xiàng de rén",
+      "vi": ""
+    },
+    {
+      "start": 185.866,
+      "end": 188.0,
+      "hanzi": "我不是不喜欢和朋友在一起，",
+      "pinyin": "wǒ bú shì bù xǐ huān hé péng yǒu zài yì qǐ",
+      "vi": ""
+    },
+    {
+      "start": 188.033,
+      "end": 190.833,
+      "hanzi": "但是我更喜欢小范围的聚会，",
+      "pinyin": "dàn shì wǒ gèng xǐ huān xiǎo fàn wéi de jù huì",
+      "vi": ""
+    },
+    {
+      "start": 190.866,
+      "end": 193.133,
+      "hanzi": "比如两个或者三个人，",
+      "pinyin": "bǐ rú liǎng gè huò zhě sān gè rén",
+      "vi": ""
+    },
+    {
+      "start": 193.166,
+      "end": 196.133,
+      "hanzi": "找个安静的地方，深入地聊聊天。",
+      "pinyin": "zhǎo gè ān jìng de dì fāng shēn rù dì liáo liáo tiān",
+      "vi": ""
+    },
+    {
+      "start": 196.133,
+      "end": 198.4,
+      "hanzi": "哦，深入地聊天。",
+      "pinyin": "ó shēn rù dì liáo tiān",
+      "vi": ""
+    },
+    {
+      "start": 198.433,
+      "end": 199.066,
+      "hanzi": "是的。",
+      "pinyin": "shì de",
+      "vi": ""
+    },
+    {
+      "start": 199.1,
+      "end": 201.666,
+      "hanzi": "如果参加一个非常多人的派对，",
+      "pinyin": "rú guǒ cān jiā yí gè fēi cháng duō rén de pài duì",
+      "vi": ""
+    },
+    {
+      "start": 201.7,
+      "end": 205.033,
+      "hanzi": "周围有很多人在说话，我会觉得很累，",
+      "pinyin": "zhōu wéi yǒu hěn duō rén zài shuō huà wǒ huì jué de hěn lèi",
+      "vi": ""
+    },
+    {
+      "start": 205.066,
+      "end": 207.9,
+      "hanzi": "感觉自己的能量很快就被用完了。",
+      "pinyin": "gǎn jué zì jǐ de néng liàng hěn kuài jiù bèi yòng wán le",
+      "vi": ""
+    },
+    {
+      "start": 207.933,
+      "end": 210.033,
+      "hanzi": "所以对我来说，独处，",
+      "pinyin": "suǒ yǐ duì wǒ lái shuō dú chǔ",
+      "vi": ""
+    },
+    {
+      "start": 210.066,
+      "end": 213.1,
+      "hanzi": "比如一个人在家看书或者看电影，",
+      "pinyin": "bǐ rú yí gè rén zài jiā kàn shū huò zhě kàn diàn yǐng",
+      "vi": ""
+    },
+    {
+      "start": 213.133,
+      "end": 215.433,
+      "hanzi": "是给我“充电”的方式。",
+      "pinyin": "shì gěi wǒ chōng diàn de fāng shì",
+      "vi": ""
+    },
+    {
+      "start": 215.466,
+      "end": 217.1,
+      "hanzi": "原来是这样！",
+      "pinyin": "yuán lái shì zhè yàng",
+      "vi": ""
+    },
+    {
+      "start": 217.133,
+      "end": 221.7,
+      "hanzi": "一个是通过社交充电，一个是通过独处充电。",
+      "pinyin": "yí gè shì tōng guò shè jiāo chōng diàn yí gè shì tōng guò dú chǔ chōng diàn",
+      "vi": ""
+    },
+    {
+      "start": 221.733,
+      "end": 223.533,
+      "hanzi": "这太有趣了。",
+      "pinyin": "zhè tài yǒu qù le",
+      "vi": ""
+    },
+    {
+      "start": 223.566,
+      "end": 228.266,
+      "hanzi": "这让我想到了我们现在最常用的社交方式——手机。",
+      "pinyin": "zhè ràng wǒ xiǎng dào le wǒ men xiàn zài zuì cháng yòng de shè jiāo fāng shì shǒu jī",
+      "vi": ""
+    },
+    {
+      "start": 228.266,
+      "end": 230.833,
+      "hanzi": "你觉得手机上的社交，",
+      "pinyin": "nǐ jué de shǒu jī shàng de shè jiāo",
+      "vi": ""
+    },
+    {
+      "start": 230.866,
+      "end": 232.933,
+      "hanzi": "算是真正的社交吗？",
+      "pinyin": "suàn shì zhēn zhèng de shè jiāo ma",
+      "vi": ""
+    },
+    {
+      "start": 232.966,
+      "end": 235.666,
+      "hanzi": "这正是我接下来想讨论的。",
+      "pinyin": "zhè zhèng shì wǒ jiē xià lái xiǎng tǎo lùn de",
+      "vi": ""
+    },
+    {
+      "start": 235.7,
+      "end": 239.8,
+      "hanzi": "手机和网络，完全改变了我们的社交方式。",
+      "pinyin": "shǒu jī hé wǎng luò wán quán gǎi biàn le wǒ men de shè jiāo fāng shì",
+      "vi": ""
+    },
+    {
+      "start": 239.8,
+      "end": 240.7,
+      "hanzi": "是啊！",
+      "pinyin": "shì a",
+      "vi": ""
+    },
+    {
+      "start": 240.7,
+      "end": 242.333,
+      "hanzi": "现在我们有微信，",
+      "pinyin": "xiàn zài wǒ men yǒu wēi xìn",
+      "vi": ""
+    },
+    {
+      "start": 242.366,
+      "end": 245.7,
+      "hanzi": "可以随时随地和朋友发信息、打电话。",
+      "pinyin": "kě yǐ suí shí suí dì hé péng yǒu fā xìn xī dǎ diàn huà",
+      "vi": ""
+    },
+    {
+      "start": 245.7,
+      "end": 249.366,
+      "hanzi": "方便是方便了很多，但我总觉得，",
+      "pinyin": "fāng biàn shì fāng biàn le hěn duō dàn wǒ zǒng jué de",
+      "vi": ""
+    },
+    {
+      "start": 249.366,
+      "end": 251.4,
+      "hanzi": "好像少了点什么。",
+      "pinyin": "hǎo xiàng shǎo le diǎn shén me",
+      "vi": ""
+    },
+    {
+      "start": 251.433,
+      "end": 252.266,
+      "hanzi": "少了点什么？",
+      "pinyin": "shǎo le diǎn shén me",
+      "vi": ""
+    },
+    {
+      "start": 252.3,
+      "end": 253.933,
+      "hanzi": "你具体说说看。",
+      "pinyin": "nǐ jù tǐ shuō shuō kàn",
+      "vi": ""
+    },
+    {
+      "start": 253.966,
+      "end": 255.433,
+      "hanzi": "少了“温度”。",
+      "pinyin": "shǎo le wēn dù",
+      "vi": ""
+    },
+    {
+      "start": 255.466,
+      "end": 259.0,
+      "hanzi": "在手机上聊天，你看不到对方的表情，",
+      "pinyin": "zài shǒu jī shàng liáo tiān nǐ kàn bú dào duì fāng de biǎo qíng",
+      "vi": ""
+    },
+    {
+      "start": 259.033,
+      "end": 261.633,
+      "hanzi": "也听不到他说话的语气。",
+      "pinyin": "yě tīng bú dào tā shuō huà de yǔ qì",
+      "vi": ""
+    },
+    {
+      "start": 261.666,
+      "end": 265.666,
+      "hanzi": "有时候，同样一句话，用不同的语气说出来，",
+      "pinyin": "yǒu shí hòu tóng yàng yī jù huà yòng bù tóng de yǔ qì shuō chū lái",
+      "vi": ""
+    },
+    {
+      "start": 265.7,
+      "end": 267.5,
+      "hanzi": "意思是完全不一样的。",
+      "pinyin": "yì si shì wán quán bù yí yàng de",
+      "vi": ""
+    },
+    {
+      "start": 267.533,
+      "end": 268.4,
+      "hanzi": "我同意。",
+      "pinyin": "wǒ tóng yì",
+      "vi": ""
+    },
+    {
+      "start": 268.433,
+      "end": 271.6,
+      "hanzi": "文字确实有时候会引起误会。对！",
+      "pinyin": "wén zì què shí yǒu shí hòu huì yǐn qǐ wù huì duì",
+      "vi": ""
+    },
+    {
+      "start": 271.633,
+      "end": 273.533,
+      "hanzi": "我就有一次这样的经历。",
+      "pinyin": "wǒ jiù yǒu yī cì zhè yàng de jīng lì",
+      "vi": ""
+    },
+    {
+      "start": 273.566,
+      "end": 277.8,
+      "hanzi": "我给一个朋友发信息，开玩笑地说了他一句。",
+      "pinyin": "wǒ gěi yí gè péng yǒu fā xìn xī kāi wán xiào dì shuō le tā yī jù",
+      "vi": ""
+    },
+    {
+      "start": 277.833,
+      "end": 280.433,
+      "hanzi": "结果他可能以为我很生气，",
+      "pinyin": "jié guǒ tā kě néng yǐ wéi wǒ hěn shēng qì",
+      "vi": ""
+    },
+    {
+      "start": 280.466,
+      "end": 283.1,
+      "hanzi": "很长时间都没回我信息。",
+      "pinyin": "hěn zhǎng shí jiān dōu méi huí wǒ xìn xī",
+      "vi": ""
+    },
+    {
+      "start": 283.133,
+      "end": 287.266,
+      "hanzi": "后来我们打电话说清楚了，才发现是个误会。",
+      "pinyin": "hòu lái wǒ men dǎ diàn huà shuō qīng chǔ le cái fā xiàn shì gè wù huì",
+      "vi": ""
+    },
+    {
+      "start": 287.3,
+      "end": 290.7,
+      "hanzi": "如果是见面说，肯定不会有这样的问题。",
+      "pinyin": "rú guǒ shì jiàn miàn shuō kěn dìng bú huì yǒu zhè yàng de wèn tí",
+      "vi": ""
+    },
+    {
+      "start": 290.733,
+      "end": 291.533,
+      "hanzi": "我理解。",
+      "pinyin": "wǒ lǐ jiě",
+      "vi": ""
+    },
+    {
+      "start": 291.566,
+      "end": 294.7,
+      "hanzi": "不过，线上社交也有它的好处，对吧？",
+      "pinyin": "bù guò xiàn shàng shè jiāo yě yǒu tā de hǎo chù duì ba",
+      "vi": ""
+    },
+    {
+      "start": 294.733,
+      "end": 297.5,
+      "hanzi": "比如，有些朋友在很远的城市，",
+      "pinyin": "bǐ rú yǒu xiē péng yǒu zài hěn yuǎn de chéng shì",
+      "vi": ""
+    },
+    {
+      "start": 297.533,
+      "end": 299.466,
+      "hanzi": "我们不可能经常见面。",
+      "pinyin": "wǒ men bù kě néng jīng cháng jiàn miàn",
+      "vi": ""
+    },
+    {
+      "start": 299.5,
+      "end": 301.733,
+      "hanzi": "通过网络，我们可以保持联系，",
+      "pinyin": "tōng guò wǎng luò wǒ men kě yǐ bǎo chí lián xì",
+      "vi": ""
+    },
+    {
+      "start": 301.766,
+      "end": 303.533,
+      "hanzi": "分享彼此的生活。",
+      "pinyin": "fēn xiǎng bǐ cǐ de shēng huó",
+      "vi": ""
+    },
+    {
+      "start": 303.566,
+      "end": 305.1,
+      "hanzi": "这倒是真的。",
+      "pinyin": "zhè dǎo shì zhēn de",
+      "vi": ""
+    },
+    {
+      "start": 305.133,
+      "end": 309.133,
+      "hanzi": "我的朋友圈里，就有很多年没见过的老同学，",
+      "pinyin": "wǒ de péng yǒu quān lǐ jiù yǒu hěn duō nián méi jiàn guò de lǎo tóng xué",
+      "vi": ""
+    },
+    {
+      "start": 309.166,
+      "end": 312.266,
+      "hanzi": "看到他们现在过得很好，我也很开心。",
+      "pinyin": "kàn dào tā men xiàn zài guò dé hěn hǎo wǒ yě hěn kāi xīn",
+      "vi": ""
+    },
+    {
+      "start": 312.3,
+      "end": 316.6,
+      "hanzi": "而且，我觉得线上交流给了像我这样的内向者",
+      "pinyin": "ér qiě wǒ jué de xiàn shàng jiāo liú gěi le xiàng wǒ zhè yàng de nèi xiàng zhě",
+      "vi": ""
+    },
+    {
+      "start": 316.633,
+      "end": 318.333,
+      "hanzi": "一个很好的空间。",
+      "pinyin": "yí gè hěn hǎo de kōng jiān",
+      "vi": ""
+    },
+    {
+      "start": 318.366,
+      "end": 320.8,
+      "hanzi": "有时候，当面不知道怎么说的话，",
+      "pinyin": "yǒu shí hòu dāng miàn bù zhī dào zěn me shuō de huà",
+      "vi": ""
+    },
+    {
+      "start": 320.833,
+      "end": 324.1,
+      "hanzi": "通过打字就可以很轻松地表达出来。",
+      "pinyin": "tōng guò dǎ zì jiù kě yǐ hěn qīng sōng dì biǎo dá chū lái",
+      "vi": ""
+    },
+    {
+      "start": 324.133,
+      "end": 326.6,
+      "hanzi": "这对我来说，压力会小很多。",
+      "pinyin": "zhè duì wǒ lái shuō yā lì huì xiǎo hěn duō",
+      "vi": ""
+    },
+    {
+      "start": 326.633,
+      "end": 328.933,
+      "hanzi": "嗯，你说的也有道理。",
+      "pinyin": "ń nǐ shuō de yě yǒu dào lǐ",
+      "vi": ""
+    },
+    {
+      "start": 328.966,
+      "end": 332.733,
+      "hanzi": "而且现在微信的“表情包”特别流行，",
+      "pinyin": "ér qiě xiàn zài wēi xìn de biǎo qíng bāo tè bié liú xíng",
+      "vi": ""
+    },
+    {
+      "start": 332.766,
+      "end": 337.066,
+      "hanzi": "大家用各种有趣的图片来表达自己的心情，",
+      "pinyin": "dà jiā yòng gè zhǒng yǒu qù de tú piàn lái biǎo dá zì jǐ de xīn qíng",
+      "vi": ""
+    },
+    {
+      "start": 337.1,
+      "end": 341.0,
+      "hanzi": "也算是增加了一点聊天的乐趣和温度。",
+      "pinyin": "yě suàn shì zēng jiā le yì diǎn liáo tiān de lè qù hé wēn dù",
+      "vi": ""
+    },
+    {
+      "start": 341.033,
+      "end": 345.533,
+      "hanzi": "是的，表情包现在已经成了一种新的语言。",
+      "pinyin": "shì de biǎo qíng bāo xiàn zài yǐ jīng chéng le yī zhǒng xīn de yǔ yán",
+      "vi": ""
+    },
+    {
+      "start": 345.566,
+      "end": 349.666,
+      "hanzi": "不过，说到这里，我又想到了另一个问题。",
+      "pinyin": "bù guò shuō dào zhè lǐ wǒ yòu xiǎng dào le lìng yí gè wèn tí",
+      "vi": ""
+    },
+    {
+      "start": 349.7,
+      "end": 352.133,
+      "hanzi": "因为网络社交太方便了，",
+      "pinyin": "yīn wèi wǎng luò shè jiāo tài fāng biàn le",
+      "vi": ""
+    },
+    {
+      "start": 352.166,
+      "end": 354.633,
+      "hanzi": "会不会让我们变得越来越懒，",
+      "pinyin": "huì bú huì ràng wǒ men biàn dé yuè lái yuè lǎn",
+      "vi": ""
+    },
+    {
+      "start": 354.666,
+      "end": 357.866,
+      "hanzi": "懒得出门去见真正的朋友了？",
+      "pinyin": "lǎn de chū mén qù jiàn zhēn zhèng de péng yǒu le",
+      "vi": ""
+    },
+    {
+      "start": 357.9,
+      "end": 359.066,
+      "hanzi": "我觉得会！",
+      "pinyin": "wǒ jué de huì",
+      "vi": ""
+    },
+    {
+      "start": 359.1,
+      "end": 362.4,
+      "hanzi": "有时候周末，朋友约我出去吃饭，",
+      "pinyin": "yǒu shí hòu zhōu mò péng yǒu yuē wǒ chū qù chī fàn",
+      "vi": ""
+    },
+    {
+      "start": 362.433,
+      "end": 367.466,
+      "hanzi": "我一想到要换衣服，要坐车，就觉得好麻烦，",
+      "pinyin": "wǒ yī xiǎng dào yào huàn yī fú yào zuò chē jiù jué de hǎo má fán",
+      "vi": ""
+    },
+    {
+      "start": 367.5,
+      "end": 371.7,
+      "hanzi": "心想，还不如我们在线上聊聊天算了。",
+      "pinyin": "xīn xiǎng hái bù rú wǒ men zài xiàn shàng liáo liáo tiān suàn le",
+      "vi": ""
+    },
+    {
+      "start": 371.733,
+      "end": 374.133,
+      "hanzi": "你看，这就是问题所在。",
+      "pinyin": "nǐ kàn zhè jiù shì wèn tí suǒ zài",
+      "vi": ""
+    },
+    {
+      "start": 374.166,
+      "end": 375.9,
+      "hanzi": "我们节省了时间，",
+      "pinyin": "wǒ men jié shěng le shí jiān",
+      "vi": ""
+    },
+    {
+      "start": 375.933,
+      "end": 379.7,
+      "hanzi": "但可能也失去了一些更珍贵的东西。",
+      "pinyin": "dàn kě néng yě shī qù le yī xiē gèng zhēn guì de dōng xī",
+      "vi": ""
+    },
+    {
+      "start": 379.733,
+      "end": 382.7,
+      "hanzi": "比如，和朋友面对面吃饭时，",
+      "pinyin": "bǐ rú hé péng yǒu miàn duì miàn chī fàn shí",
+      "vi": ""
+    },
+    {
+      "start": 382.733,
+      "end": 385.233,
+      "hanzi": "那种分享食物的快乐，",
+      "pinyin": "nà zhǒng fēn xiǎng shí wù de kuài lè",
+      "vi": ""
+    },
+    {
+      "start": 385.266,
+      "end": 388.633,
+      "hanzi": "那种看到对方真实笑容的温暖。",
+      "pinyin": "nà zhǒng kàn dào duì fāng zhēn shí xiào róng de wēn nuǎn",
+      "vi": ""
+    },
+    {
+      "start": 388.666,
+      "end": 390.133,
+      "hanzi": "我完全同意。",
+      "pinyin": "wǒ wán quán tóng yì",
+      "vi": ""
+    },
+    {
+      "start": 390.166,
+      "end": 391.866,
+      "hanzi": "这种真实的体验，",
+      "pinyin": "zhè zhǒng zhēn shí de tǐ yàn",
+      "vi": ""
+    },
+    {
+      "start": 391.9,
+      "end": 395.033,
+      "hanzi": "是任何表情包都代替不了的。",
+      "pinyin": "shì rèn hé biǎo qíng bāo dōu dài tì bù liǎo de",
+      "vi": ""
+    },
+    {
+      "start": 395.066,
+      "end": 398.7,
+      "hanzi": "而且，不管是线上还是线下，",
+      "pinyin": "ér qiě bù guǎn shì xiàn shàng hái shì xiàn xià",
+      "vi": ""
+    },
+    {
+      "start": 398.733,
+      "end": 401.866,
+      "hanzi": "社交有时候也会给我们带来压力。",
+      "pinyin": "shè jiāo yǒu shí hòu yě huì gěi wǒ men dài lái yā lì",
+      "vi": ""
+    },
+    {
+      "start": 401.9,
+      "end": 402.866,
+      "hanzi": "你觉得呢？",
+      "pinyin": "nǐ jué de ne",
+      "vi": ""
+    },
+    {
+      "start": 402.9,
+      "end": 406.666,
+      "hanzi": "当然有！这叫“社交压力”。",
+      "pinyin": "dāng rán yǒu zhè jiào shè jiāo yā lì",
+      "vi": ""
+    },
+    {
+      "start": 406.7,
+      "end": 411.133,
+      "hanzi": "比如，有时候我工作了一天，晚上真的很累，",
+      "pinyin": "bǐ rú yǒu shí hòu wǒ gōng zuò le yī tiān wǎn shàng zhēn de hěn lèi",
+      "vi": ""
+    },
+    {
+      "start": 411.166,
+      "end": 414.466,
+      "hanzi": "只想一个人安安静静地待着。",
+      "pinyin": "zhǐ xiǎng yí gè rén ān ān jìng jìng dì dài zhe",
+      "vi": ""
+    },
+    {
+      "start": 414.5,
+      "end": 416.1,
+      "hanzi": "但是，如果这时候",
+      "pinyin": "dàn shì rú guǒ zhè shí hòu",
+      "vi": ""
+    },
+    {
+      "start": 416.133,
+      "end": 418.933,
+      "hanzi": "有朋友打电话叫我出去聚会，",
+      "pinyin": "yǒu péng yǒu dǎ diàn huà jiào wǒ chū qù jù huì",
+      "vi": ""
+    },
+    {
+      "start": 418.966,
+      "end": 421.833,
+      "hanzi": "我有时候会不知道怎么拒绝。",
+      "pinyin": "wǒ yǒu shí hòu huì bù zhī dào zěn me jù jué",
+      "vi": ""
+    },
+    {
+      "start": 421.866,
+      "end": 423.0,
+      "hanzi": "为什么呢？",
+      "pinyin": "wèi shén me ne",
+      "vi": ""
+    },
+    {
+      "start": 423.033,
+      "end": 425.533,
+      "hanzi": "我害怕如果我拒绝了，",
+      "pinyin": "wǒ hài pà rú guǒ wǒ jù jué le",
+      "vi": ""
+    },
+    {
+      "start": 425.566,
+      "end": 428.133,
+      "hanzi": "朋友会觉得我不喜欢他们，",
+      "pinyin": "péng yǒu huì jué de wǒ bù xǐ huān tā men",
+      "vi": ""
+    },
+    {
+      "start": 428.166,
+      "end": 432.1,
+      "hanzi": "或者下次他们就不会再叫我了。",
+      "pinyin": "huò zhě xià cì tā men jiù bú huì zài jiào wǒ le",
+      "vi": ""
+    },
+    {
+      "start": 432.133,
+      "end": 437.1,
+      "hanzi": "而且看到大家都在朋友圈里发一起玩的照片，",
+      "pinyin": "ér qiě kàn dào dà jiā dōu zài péng yǒu quān lǐ fā yì qǐ wán de zhào piān",
+      "vi": ""
+    },
+    {
+      "start": 437.133,
+      "end": 440.8,
+      "hanzi": "只有我不在，心里会有点儿不舒服。",
+      "pinyin": "zhǐ yǒu wǒ bù zài xīn lǐ huì yǒu diǎn ér bù shū fú",
+      "vi": ""
+    },
+    {
+      "start": 440.833,
+      "end": 443.4,
+      "hanzi": "我非常理解这种感觉。",
+      "pinyin": "wǒ fēi cháng lǐ jiě zhè zhǒng gǎn jué",
+      "vi": ""
+    },
+    {
+      "start": 443.433,
+      "end": 445.733,
+      "hanzi": "好像我们害怕被大家忘记，",
+      "pinyin": "hǎo xiàng wǒ men hài pà bèi dà jiā wàng jì",
+      "vi": ""
+    },
+    {
+      "start": 445.766,
+      "end": 448.233,
+      "hanzi": "害怕错过一些重要的事。",
+      "pinyin": "hài pà cuò guò yī xiē zhòng yào de shì",
+      "vi": ""
+    },
+    {
+      "start": 448.266,
+      "end": 451.733,
+      "hanzi": "这可能是很多现代人的共同烦恼。",
+      "pinyin": "zhè kě néng shì hěn duō xiàn dài rén de gòng tóng fán nǎo",
+      "vi": ""
+    },
+    {
+      "start": 451.766,
+      "end": 454.333,
+      "hanzi": "是啊，你有没有这种时候？",
+      "pinyin": "shì a nǐ yǒu méi yǒu zhè zhǒng shí hòu",
+      "vi": ""
+    },
+    {
+      "start": 454.366,
+      "end": 459.133,
+      "hanzi": "当然有。不过后来我慢慢想明白了。",
+      "pinyin": "dāng rán yǒu bù guò hòu lái wǒ màn màn xiǎng míng bái le",
+      "vi": ""
+    },
+    {
+      "start": 459.166,
+      "end": 463.633,
+      "hanzi": "我觉得，社交的能量就像手机的电池。",
+      "pinyin": "wǒ jué de shè jiāo de néng liàng jiù xiàng shǒu jī de diàn chí",
+      "vi": ""
+    },
+    {
+      "start": 463.666,
+      "end": 467.5,
+      "hanzi": "有些活动能给你的电池充电，让你开心；",
+      "pinyin": "yǒu xiē huó dòng néng gěi nǐ de diàn chí chōng diàn ràng nǐ kāi xīn",
+      "vi": ""
+    },
+    {
+      "start": 467.533,
+      "end": 471.933,
+      "hanzi": "有些活动会消耗你的电池，让你疲惫。",
+      "pinyin": "yǒu xiē huó dòng huì xiāo hào nǐ de diàn chí ràng nǐ pí bèi",
+      "vi": ""
+    },
+    {
+      "start": 471.966,
+      "end": 475.7,
+      "hanzi": "你需要清楚地知道，哪些是充电的，",
+      "pinyin": "nǐ xū yào qīng chǔ dì zhī dào nǎ xiē shì chōng diàn de",
+      "vi": ""
+    },
+    {
+      "start": 475.733,
+      "end": 477.533,
+      "hanzi": "哪些是耗电的。",
+      "pinyin": "nǎ xiē shì hào diàn de",
+      "vi": ""
+    },
+    {
+      "start": 477.533,
+      "end": 478.666,
+      "hanzi": "哇，",
+      "pinyin": "wa",
+      "vi": ""
+    },
+    {
+      "start": 478.7,
+      "end": 480.733,
+      "hanzi": "这个比喻太好了！",
+      "pinyin": "zhè ge bǐ yù tài hǎo le",
+      "vi": ""
+    },
+    {
+      "start": 480.766,
+      "end": 483.833,
+      "hanzi": "社交能量像手机电池。对。",
+      "pinyin": "shè jiāo néng liàng xiàng shǒu jī diàn chí duì",
+      "vi": ""
+    },
+    {
+      "start": 483.866,
+      "end": 486.4,
+      "hanzi": "所以，当你觉得累的时候，",
+      "pinyin": "suǒ yǐ dāng nǐ jué de lèi de shí hòu",
+      "vi": ""
+    },
+    {
+      "start": 486.433,
+      "end": 489.533,
+      "hanzi": "拒绝一个让你耗电的社交活动，",
+      "pinyin": "jù jué yí gè ràng nǐ hào diàn de shè jiāo huó dòng",
+      "vi": ""
+    },
+    {
+      "start": 489.566,
+      "end": 493.0,
+      "hanzi": "其实是在保护你自己的“电池”。",
+      "pinyin": "qí shí shì zài bǎo hù nǐ zì jǐ de diàn chí",
+      "vi": ""
+    },
+    {
+      "start": 493.033,
+      "end": 495.8,
+      "hanzi": "真正的好朋友，是会理解你的。",
+      "pinyin": "zhēn zhèng de hǎo péng yǒu shì huì lǐ jiě nǐ de",
+      "vi": ""
+    },
+    {
+      "start": 495.833,
+      "end": 498.633,
+      "hanzi": "他们关心的是你是否开心，",
+      "pinyin": "tā men guān xīn de shì nǐ shì fǒu kāi xīn",
+      "vi": ""
+    },
+    {
+      "start": 498.666,
+      "end": 502.066,
+      "hanzi": "而不是你是否参加了每一次聚会。",
+      "pinyin": "ér bú shì nǐ shì fǒu cān jiā le měi yī cì jù huì",
+      "vi": ""
+    },
+    {
+      "start": 502.066,
+      "end": 503.7,
+      "hanzi": "你说得对。",
+      "pinyin": "nǐ shuō dé duì",
+      "vi": ""
+    },
+    {
+      "start": 503.7,
+      "end": 508.0,
+      "hanzi": "我们应该更关注社交的质量，而不是数量。",
+      "pinyin": "wǒ men yīng gāi gèng guān zhù shè jiāo de zhì liàng ér bú shì shù liàng",
+      "vi": ""
+    },
+    {
+      "start": 508.033,
+      "end": 511.733,
+      "hanzi": "与其参加十个无聊的派对，不如和一两个",
+      "pinyin": "yǔ qí cān jiā shí gè wú liáo de pài duì bù rú hé yī liǎng gè",
+      "vi": ""
+    },
+    {
+      "start": 511.766,
+      "end": 515.2,
+      "hanzi": "好朋友进行一次深入的谈话。",
+      "pinyin": "hǎo péng yǒu jìn xíng yī cì shēn rù de tán huà",
+      "vi": ""
+    },
+    {
+      "start": 515.233,
+      "end": 516.433,
+      "hanzi": "完全正确。",
+      "pinyin": "wán quán zhèng què",
+      "vi": ""
+    },
+    {
+      "start": 516.466,
+      "end": 518.133,
+      "hanzi": "独处也是一样。",
+      "pinyin": "dú chǔ yě shì yī yàng",
+      "vi": ""
+    },
+    {
+      "start": 518.166,
+      "end": 521.833,
+      "hanzi": "高质量的独处，不是把自己关起来玩手机，",
+      "pinyin": "gāo zhì liàng de dú chǔ bú shì bǎ zì jǐ guān qǐ lái wán shǒu jī",
+      "vi": ""
+    },
+    {
+      "start": 521.866,
+      "end": 526.233,
+      "hanzi": "而是利用那段时间，做一些真正让自己放松",
+      "pinyin": "ér shì lì yòng nà duàn shí jiān zuò yī xiē zhēn zhèng ràng zì jǐ fàng sōng",
+      "vi": ""
+    },
+    {
+      "start": 526.266,
+      "end": 529.1,
+      "hanzi": "和成长的事情，比如阅读、",
+      "pinyin": "hé chéng zhǎng de shì qíng bǐ rú yuè dú",
+      "vi": ""
+    },
+    {
+      "start": 529.133,
+      "end": 532.0,
+      "hanzi": "运动、学习一个新技能。",
+      "pinyin": "yùn dòng xué xí yí gè xīn jì néng",
+      "vi": ""
+    },
+    {
+      "start": 532.033,
+      "end": 535.033,
+      "hanzi": "这才是独处的真正意义。",
+      "pinyin": "zhè cái shì dú chǔ de zhēn zhèng yì yì",
+      "vi": ""
+    },
+    {
+      "start": 535.066,
+      "end": 536.266,
+      "hanzi": "我明白了。",
+      "pinyin": "wǒ míng bái le",
+      "vi": ""
+    },
+    {
+      "start": 536.3,
+      "end": 539.2,
+      "hanzi": "无论是选择社交还是独处，",
+      "pinyin": "wú lùn shì xuǎn zé shè jiāo huán shì dú chǔ",
+      "vi": ""
+    },
+    {
+      "start": 539.233,
+      "end": 542.9,
+      "hanzi": "最重要的都不是形式，而是我们",
+      "pinyin": "zuì zhòng yào de dōu bú shì xíng shì ér shì wǒ men",
+      "vi": ""
+    },
+    {
+      "start": 542.933,
+      "end": 546.666,
+      "hanzi": "能不能从中获得真正的快乐和能量。",
+      "pinyin": "néng bù néng cóng zhōng huò dé zhēn zhèng de kuài lè hé néng liàng",
+      "vi": ""
+    },
+    {
+      "start": 546.7,
+      "end": 551.1,
+      "hanzi": "是的，找到那个让自己最舒服的平衡点。",
+      "pinyin": "shì de zhǎo dào nà ge ràng zì jǐ zuì shū fú de píng héng diǎn",
+      "vi": ""
+    },
+    {
+      "start": 551.133,
+      "end": 554.333,
+      "hanzi": "好了，今天我们围绕“独处",
+      "pinyin": "hǎo le jīn tiān wǒ men wéi rào dú chǔ",
+      "vi": ""
+    },
+    {
+      "start": 554.366,
+      "end": 556.5,
+      "hanzi": "还是社交”这个话题，",
+      "pinyin": "hái shì shè jiāo zhè ge huà tí",
+      "vi": ""
+    },
+    {
+      "start": 556.533,
+      "end": 559.233,
+      "hanzi": "从不同的角度进行了探讨。",
+      "pinyin": "cóng bù tóng de jiǎo dù jìn xíng le tàn tǎo",
+      "vi": ""
+    },
+    {
+      "start": 559.266,
+      "end": 562.233,
+      "hanzi": "我们来简单总结一下今天聊到的几个",
+      "pinyin": "wǒ men lái jiǎn dān zǒng jié yī xià jīn tiān liáo dào de jǐ gè",
+      "vi": ""
+    },
+    {
+      "start": 562.266,
+      "end": 564.133,
+      "hanzi": "关键点。好的。",
+      "pinyin": "guān jiàn diǎn hǎo de",
+      "vi": ""
+    },
+    {
+      "start": 564.166,
+      "end": 568.733,
+      "hanzi": "第一，每个人对社交和独处的需求是不同的，",
+      "pinyin": "dì yī měi gè rén duì shè jiāo hé dú chǔ de xū qiú shì bù tóng de",
+      "vi": ""
+    },
+    {
+      "start": 568.766,
+      "end": 572.233,
+      "hanzi": "这和我们是内向还是外向的性格有关，",
+      "pinyin": "zhè hé wǒ men shì nèi xiàng hái shì wài xiàng de xìng gé yǒu guān",
+      "vi": ""
+    },
+    {
+      "start": 572.266,
+      "end": 573.9,
+      "hanzi": "没有好坏之分。",
+      "pinyin": "méi yǒu hǎo huài zhī fēn",
+      "vi": ""
+    },
+    {
+      "start": 573.933,
+      "end": 575.9,
+      "hanzi": "重要的是了解自己，",
+      "pinyin": "zhòng yào de shì liǎo jiě zì jǐ",
+      "vi": ""
+    },
+    {
+      "start": 575.933,
+      "end": 579.1,
+      "hanzi": "知道什么能给自己“充电”。",
+      "pinyin": "zhī dào shén me néng gěi zì jǐ chōng diàn",
+      "vi": ""
+    },
+    {
+      "start": 579.133,
+      "end": 582.5,
+      "hanzi": "第二，现代的线上社交很方便，",
+      "pinyin": "dì èr xiàn dài de xiàn shàng shè jiāo hěn fāng biàn",
+      "vi": ""
+    },
+    {
+      "start": 582.533,
+      "end": 586.266,
+      "hanzi": "但它缺少了面对面交流的“温度”，",
+      "pinyin": "dàn tā quē shǎo le miàn duì miàn jiāo liú de wēn dù",
+      "vi": ""
+    },
+    {
+      "start": 586.3,
+      "end": 590.866,
+      "hanzi": "我们不能完全依赖它而忽略了真实的见面。",
+      "pinyin": "wǒ men bù néng wán quán yī lài tā ér hū lüè le zhēn shí de jiàn miàn",
+      "vi": ""
+    },
+    {
+      "start": 590.9,
+      "end": 593.066,
+      "hanzi": "第三，也是最重要的，",
+      "pinyin": "dì sān yě shì zuì zhòng yào de",
+      "vi": ""
+    },
+    {
+      "start": 593.1,
+      "end": 595.866,
+      "hanzi": "我们要学会处理“社交压力”，",
+      "pinyin": "wǒ men yào xué huì chǔ lǐ shè jiāo yā lì",
+      "vi": ""
+    },
+    {
+      "start": 595.9,
+      "end": 599.533,
+      "hanzi": "勇敢地选择让自己舒服的方式。",
+      "pinyin": "yǒng gǎn dì xuǎn zé ràng zì jǐ shū fú de fāng shì",
+      "vi": ""
+    },
+    {
+      "start": 599.566,
+      "end": 603.433,
+      "hanzi": "社交的意义在于质量，而不是数量。",
+      "pinyin": "shè jiāo de yì yì zài yú zhì liàng ér bú shì shù liàng",
+      "vi": ""
+    },
+    {
+      "start": 603.466,
+      "end": 605.333,
+      "hanzi": "总结得非常清晰！",
+      "pinyin": "zǒng jié dé fēi cháng qīng xī",
+      "vi": ""
+    },
+    {
+      "start": 605.366,
+      "end": 606.5,
+      "hanzi": "希望我们的讨论，",
+      "pinyin": "xī wàng wǒ men de tǎo lùn",
+      "vi": ""
+    },
+    {
+      "start": 606.533,
+      "end": 609.3,
+      "hanzi": "能给大家带来一些新的思考。",
+      "pinyin": "néng gěi dà jiā dài lái yī xiē xīn de sī kǎo",
+      "vi": ""
+    },
+    {
+      "start": 609.333,
+      "end": 610.066,
+      "hanzi": "嗯！",
+      "pinyin": "ń",
+      "vi": ""
+    },
+    {
+      "start": 610.066,
+      "end": 613.466,
+      "hanzi": "如果大家想回顾今天我们聊天的内容，",
+      "pinyin": "rú guǒ dà jiā xiǎng huí gù jīn tiān wǒ men liáo tiān de nèi róng",
+      "vi": ""
+    },
+    {
+      "start": 613.5,
+      "end": 616.0,
+      "hanzi": "可以去我们的博客看看。",
+      "pinyin": "kě yǐ qù wǒ men de bó kè kàn kàn",
+      "vi": ""
+    },
+    {
+      "start": 616.033,
+      "end": 619.866,
+      "hanzi": "我们把每一期节目的完整文本都放在上面了，",
+      "pinyin": "wǒ men bǎ měi yī qī jié mù de wán zhěng wén běn dōu fàng zài shàng miàn le",
+      "vi": ""
+    },
+    {
+      "start": 619.9,
+      "end": 622.233,
+      "hanzi": "方便大家学习。",
+      "pinyin": "fāng biàn dà jiā xué xí",
+      "vi": ""
+    },
+    {
+      "start": 622.266,
+      "end": 623.933,
+      "hanzi": "博客的地址是",
+      "pinyin": "bó kè de dì zhǐ shì",
+      "vi": ""
+    },
+    {
+      "start": 623.966,
+      "end": 628.133,
+      "hanzi": "chinesedailypodcast.blogspot.com。",
+      "pinyin": "chinesedailypodcast blogspot com",
+      "vi": ""
+    },
+    {
+      "start": 628.166,
+      "end": 631.333,
+      "hanzi": "是的，欢迎大家去阅读和复习。",
+      "pinyin": "shì de huān yíng dà jiā qù yuè dú hé fù xí",
+      "vi": ""
+    },
+    {
+      "start": 631.366,
+      "end": 635.833,
+      "hanzi": "那么，节目的最后，也想问问正在收听的你：",
+      "pinyin": "nà me jié mù de zuì hòu yě xiǎng wèn wèn zhèng zài shōu tīng de nǐ",
+      "vi": ""
+    },
+    {
+      "start": 635.866,
+      "end": 638.3,
+      "hanzi": "你是更喜欢一个人待着，",
+      "pinyin": "nǐ shì gèng xǐ huān yí gè rén dài zhe",
+      "vi": ""
+    },
+    {
+      "start": 638.333,
+      "end": 641.866,
+      "hanzi": "还是更喜欢和朋友们在一起呢？",
+      "pinyin": "hái shì gèng xǐ huān hé péng yǒu men zài yì qǐ ne",
+      "vi": ""
+    },
+    {
+      "start": 641.9,
+      "end": 645.133,
+      "hanzi": "你最喜欢的社交方式又是什么呢？",
+      "pinyin": "nǐ zuì xǐ huān de shè jiāo fāng shì yòu shì shén me ne",
+      "vi": ""
+    },
+    {
+      "start": 645.166,
+      "end": 648.066,
+      "hanzi": "非常欢迎大家在评论区给我们留言，",
+      "pinyin": "fēi cháng huān yíng dà jiā zài píng lùn qū gěi wǒ men liú yán",
+      "vi": ""
+    },
+    {
+      "start": 648.1,
+      "end": 650.133,
+      "hanzi": "分享你的想法和故事！",
+      "pinyin": "fēn xiǎng nǐ de xiǎng fǎ hé gù shì",
+      "vi": ""
+    },
+    {
+      "start": 650.166,
+      "end": 652.466,
+      "hanzi": "我们期待着看到大家的分享。",
+      "pinyin": "wǒ men qī dài zhe kàn dào dà jiā de fēn xiǎng",
+      "vi": ""
+    },
+    {
+      "start": 652.5,
+      "end": 655.7,
+      "hanzi": "好了，这期的“每天中文”就到这里了。",
+      "pinyin": "hǎo le zhè qī de měi tiān zhōng wén jiù dào zhè lǐ le",
+      "vi": ""
+    },
+    {
+      "start": 655.733,
+      "end": 657.1,
+      "hanzi": "感谢大家的收听，",
+      "pinyin": "gǎn xiè dà jiā de shōu tīng",
+      "vi": ""
+    },
+    {
+      "start": 657.133,
+      "end": 658.433,
+      "hanzi": "我们下期再见！",
+      "pinyin": "wǒ men xià qī zài jiàn",
+      "vi": ""
+    },
+    {
+      "start": 658.433,
+      "end": 659.166,
+      "hanzi": "再见！",
+      "pinyin": "zài jiàn",
+      "vi": ""
+    }
+  ]
+}

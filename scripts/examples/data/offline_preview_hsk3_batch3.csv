@@ -1,0 +1,962 @@
+﻿MaTuVung,HSK,ChuHan,NghiaTiengViet,TuLoai,ViDuTiengTrung,ViDuTiengViet,LoaiCau,TrangThaiImport
+1502,3,爱心,"lòng trắc ẩn / nhân ái / quan tâm đến người khác / tình yêu / từ thiện (chợ từ thiện, ngày hội golf v.v.) / trái tim (biểu tượng ♥)",名,她经常帮助老人，是一个很有爱心的人。,"Cô ấy thường giúp đỡ người già, là một người rất giàu lòng nhân ái.",REAL,READY
+1503,3,安排,sắp xếp / lên kế hoạch / tổ chức / sự sắp xếp / kế hoạch,动、名,老师已经安排好了明天的活动。,Giáo viên đã sắp xếp xong hoạt động ngày mai.,REAL,READY
+1504,3,安装,lắp đặt / dựng / lắp / gắn / cài đặt,动,我昨天在电脑上安装了一个新软件。,Hôm qua tôi cài một phần mềm mới trên máy tính.,REAL,READY
+1505,3,按,nhấn / đẩy / để sang một bên hoặc gác lại / kiểm soát / kiềm chế / đặt tay lên / kiểm tra hoặc tham khảo / theo / dựa vào / (của biên tập viên hoặc tác giả) đưa ra bình luận,动、介,请按一下这个按钮。,Hãy nhấn nút này một cái.,REAL,READY
+1506,3,按照,theo / dựa theo / chiếu theo / dựa trên,介,请按照老师的要求完成作业。,Hãy hoàn thành bài tập theo yêu cầu của giáo viên.,REAL,READY
+1507,3,把,"cầm; nắm / đỡ em bé để đi tiểu hoặc đại tiện / tay cầm / lượng từ: nắm, bó, chùm / lượng từ cho vật có cán / (dùng để đưa tân ngữ lên trước động từ: 把[ba3] + {danh từ} + {động từ})",介,请把书放在桌子上。,Hãy đặt sách lên bàn.,REAL,READY
+1508,3,把,"cầm; nắm / đỡ em bé để đi tiểu hoặc đại tiện / tay cầm / lượng từ: nắm, bó, chùm / lượng từ cho vật có cán / (dùng để đưa tân ngữ lên trước động từ: 把[ba3] + {danh từ} + {động từ})",量,我买了一把新椅子。,Tôi mua một chiếc ghế mới.,REAL,READY
+1509,3,把握,nắm bắt (cũng nghĩa bóng) / nắm giữ / cầm / nắm chắc / chắc chắn / chắc (kết quả),动、名,我没有把握通过这次考试。,Tôi không chắc mình sẽ vượt qua kỳ thi lần này.,REAL,READY
+1510,3,白菜,cải thảo / cải bẹ trắng,名,妈妈买了一棵新鲜的白菜。,Mẹ mua một cây cải thảo tươi.,REAL,READY
+1511,3,班级,lớp học (nhóm học sinh) / khối lớp (trong trường),名,我们班级一共有三十名学生。,Lớp chúng tôi có tổng cộng ba mươi học sinh.,REAL,READY
+1512,3,搬,di chuyển (tức là tự dời đi) / di chuyển (thứ gì đó tương đối nặng hoặc cồng kềnh) / chuyển / dọn sao chép mà không chọn lọc,动,请帮我把箱子搬到楼上。,Hãy giúp tôi chuyển chiếc thùng lên tầng trên.,REAL,READY
+1513,3,搬家,chuyển nhà; di dời / loại bỏ (cái gì đó),,下个月我们准备搬家。,Tháng sau chúng tôi dự định chuyển nhà.,REAL,READY
+1514,3,板,"tấm / ván / mặt phẳng / cánh cửa ván / vợt bóng bàn / phách (nhạc) / nhịp mạnh trong nhạc Trung Quốc / cứng / đơ / ngừng cười hoặc trông nghiêm túc / xem 老闆|老板, ông chủ",名,爸爸用一块木板做了一张桌子。,Bố dùng một tấm ván gỗ làm một chiếc bàn.,REAL,READY
+1515,3,办理,xử lý; tiến hành; thực hiện,动,我明天去银行办理手续。,Ngày mai tôi đến ngân hàng làm thủ tục.,REAL,READY
+1516,3,保,phòng thủ; bảo vệ; giữ / bảo đảm; đảm bảo / (cũ) đơn vị hành chính trong hệ thống bảo giáp 保甲[bao3jia3],动,天气冷了，出门要注意保暖。,"Trời lạnh rồi, ra ngoài phải chú ý giữ ấm.",REAL,READY
+1517,3,保安,bảo đảm an ninh công cộng / bảo đảm an toàn (cho công nhân tham gia sản xuất) / công an / nhân viên bảo vệ,名,小区门口有一位保安。,Ở cổng khu dân cư có một nhân viên bảo vệ.,REAL,READY
+1518,3,保持,giữ / duy trì / nắm giữ / bảo tồn,动,我们应该保持教室干净。,Chúng ta nên giữ lớp học sạch sẽ.,REAL,READY
+1519,3,保存,"bảo tồn / bảo quản / giữ / lưu (tệp, v.v.) (tin học)",动,写完文件以后记得保存。,Sau khi viết xong tài liệu nhớ lưu lại.,REAL,READY
+1520,3,保护,bảo vệ / phòng thủ / bảo hộ / sự bảo vệ,动,我们要一起保护环境。,Chúng ta phải cùng nhau bảo vệ môi trường.,REAL,READY
+1521,3,保留,giữ / lưu giữ / có bảo lưu (về điều gì đó) / giữ lại (không nói điều gì đó) / để dành cho sau,动,我想保留这张旧照片。,Tôi muốn giữ lại bức ảnh cũ này.,REAL,READY
+1522,3,保险,bảo hiểm / an toàn / bảo đảm / chắc chắn / nhất định phải,形、名,出国旅游前最好买一份保险。,Trước khi đi du lịch nước ngoài tốt nhất nên mua bảo hiểm.,REAL,READY
+1523,3,保证,bảo đảm / đảm bảo / bảo chứng / bảo vệ / cam kết,动、名,我保证明天不会迟到。,Tôi bảo đảm ngày mai sẽ không đến muộn.,REAL,READY
+1524,3,报,thông báo / thông tin / báo cáo / báo chí / báo đáp / trả thù,名,爷爷每天早上都看报。,Ông đọc báo mỗi sáng.,REAL,READY
+1525,3,报到,báo cáo có mặt / đăng ký / điểm danh,,新生今天要到学校报到。,Hôm nay sinh viên mới phải đến trường đăng ký nhập học.,REAL,READY
+1526,3,报道,đưa tin (tin tức) / bản tin,动、名,电视正在报道昨天的比赛。,Truyền hình đang đưa tin về trận đấu hôm qua.,REAL,READY
+1527,3,报告,thông báo / báo cáo / cho biết / bản báo cáo / bài phát biểu / bài nói chuyện / bài giảng,动、名,他正在准备一份工作报告。,Anh ấy đang chuẩn bị một bản báo cáo công việc.,REAL,READY
+1528,3,背,biến thể của 背[bei1] / mang nặng / mang trên lưng hoặc vai,动,弟弟每天背着书包去学校。,Em trai mỗi ngày đeo cặp sách đến trường.,REAL,READY
+1529,3,北部,phần phía bắc,名,中国北部冬天比较冷。,Miền bắc Trung Quốc mùa đông tương đối lạnh.,REAL,READY
+1530,3,背后,phía sau / ở đằng sau / phía sau lưng / sau lưng ai đó,名,他站在我的背后。,Anh ấy đứng phía sau lưng tôi.,REAL,READY
+1531,3,被,"chăn / đắp (bằng) / (văn học) chịu (một điều không may) / dùng để chỉ thể bị động (đặt trước người thực hiện hành động như ""bởi"" trong câu bị động tiếng Anh, hoặc, nếu không nhắc đến người thực hiện, thì đặt trước động từ) / (khoảng năm 2009) (mỉa mai hoặc hài hước) dùng để chỉ rằng từ sau đó nên được hiểu là trong dấu ngoặc kép (như trong 被旅遊|被旅游[bei4 lu:3 you2] ""đi du lịch"", chẳng hạn)",介,我的手机被弟弟拿走了。,Điện thoại của tôi bị em trai lấy đi.,REAL,READY
+1532,3,被子,chăn,名,天气冷了，晚上要盖好被子。,"Trời lạnh rồi, buổi tối phải đắp chăn cẩn thận.",REAL,READY
+1533,3,本来,gốc gác / vốn dĩ / lúc đầu / không cần nói cũng rõ / tất nhiên,形、副,我本来想去公园，可是下雨了。,"Ban đầu tôi định đi công viên, nhưng trời mưa.",REAL,READY
+1534,3,本领,kỹ năng / khả năng / năng lực,名,他有修理电脑的本领。,Anh ấy có kỹ năng sửa máy tính.,REAL,READY
+1535,3,本事,khả năng / kỹ năng,名,你真有本事，自己修好了电脑。,"Bạn thật giỏi, tự sửa được máy tính.",REAL,READY
+1536,3,比较,so sánh / đối chiếu / tương đối / khá / phân tích so sánh / sự so sánh,副、动,今天的天气比较凉快。,Thời tiết hôm nay tương đối mát mẻ.,REAL,READY
+1537,3,比例,tỷ lệ / quy mô,名,这个班男女学生的比例差不多。,Tỷ lệ học sinh nam và nữ của lớp này gần bằng nhau.,REAL,READY
+1538,3,比赛,"cuộc thi (thể thao, v.v.) / trận đấu / thi đấu",动、名,明天下午我们有一场篮球比赛。,Chiều mai chúng tôi có một trận bóng rổ.,REAL,READY
+1539,3,必然,không thể tránh khỏi / chắc chắn / tất yếu,形,只要认真练习，进步是必然的。,"Chỉ cần luyện tập nghiêm túc, tiến bộ là điều tất yếu.",REAL,READY
+1540,3,必要,cần thiết / thiết yếu / không thể thiếu / bắt buộc,形、名,没有必要为这件小事生气。,Không cần thiết phải tức giận vì chuyện nhỏ này.,REAL,READY
+1541,3,变化,thay đổi; biến đổi; biến hoá,动、名,这几年城市发生了很大的变化。,Mấy năm nay thành phố đã có những thay đổi lớn.,REAL,READY
+1542,3,变为,thay đổi thành,,雨水可以变为河里的水。,Nước mưa có thể trở thành nước trong sông.,REAL,READY
+1543,3,标题,tiêu đề / đề mục / tựa đề / chú thích / chủ đề,名,请给这篇文章写一个标题。,Hãy đặt một tiêu đề cho bài viết này.,REAL,READY
+1544,3,标准,tiêu chuẩn; chuẩn mực; tiêu chí / (tính từ) chuẩn / tốt; đúng; phù hợp với tiêu chuẩn,名、形,这家饭馆的卫生标准很高。,Tiêu chuẩn vệ sinh của nhà hàng này rất cao.,REAL,READY
+1545,3,表达,diễn đạt; truyền tải,动,我不知道怎么表达自己的想法。,Tôi không biết diễn đạt suy nghĩ của mình thế nào.,REAL,READY
+1546,3,表格,biểu mẫu / bảng,名,请先把这张表格填好。,Hãy điền xong biểu mẫu này trước.,REAL,READY
+1547,3,表面,bề mặt / bề ngoài / bên ngoài / diện mạo,名,桌子的表面很干净。,Bề mặt chiếc bàn rất sạch.,REAL,READY
+1548,3,表明,làm rõ / cho biết / nói rõ / chỉ ra / được biết,动,他的回答表明他已经明白了。,Câu trả lời của anh ấy cho thấy anh ấy đã hiểu.,REAL,READY
+1549,3,表现,"thể hiện / phô diễn / trình bày / biểu lộ / biểu hiện / sự thể hiện / sự phô diễn / màn trình diễn / hiệu suất (trong công việc, v.v.) / hành vi",动、名,她今天在比赛中的表现很好。,Hôm nay cô ấy thể hiện rất tốt trong cuộc thi.,REAL,READY
+1550,3,表演,vở kịch / buổi biểu diễn / trình diễn / biểu diễn / diễn xuất / minh họa,动、名,孩子们正在舞台上表演节目。,Bọn trẻ đang biểu diễn tiết mục trên sân khấu.,REAL,READY
+1551,3,并,và / hơn nữa / cũng / cùng với / (không) hề / đồng thời / kết hợp / gia nhập / sáp nhập / kết hợp / sáp nhập / biến thể của 並|并[bing4],副、连,我并不觉得这个问题很难。,Tôi hoàn toàn không thấy vấn đề này khó.,REAL,READY
+1552,3,并且,và; bên cạnh đó; hơn nữa; ngoài ra; thêm vào đó,连,这本书很有意思，并且不贵。,"Quyển sách này rất thú vị, hơn nữa không đắt.",REAL,READY
+1553,3,播出,"phát sóng / phát (chương trình TV, v.v.)",,这个节目每天晚上八点播出。,Chương trình này phát sóng lúc tám giờ tối mỗi ngày.,REAL,READY
+1554,3,播放,phát sóng; truyền tải (qua radio hoặc TV),动,老师正在播放一段中文录音。,Giáo viên đang phát một đoạn ghi âm tiếng Trung.,REAL,READY
+1555,3,不必,không cần / không phải / cũng không nhất thiết,副,你不必担心，我会帮你的。,"Bạn không cần lo, tôi sẽ giúp bạn.",REAL,READY
+1556,3,不断,không ngừng / không gián đoạn / liên tục / không đổi,动、副,通过不断练习，他的汉语进步很快。,"Thông qua luyện tập không ngừng, tiếng Trung của anh ấy tiến bộ rất nhanh.",REAL,READY
+1557,3,不论,"bất kể / cho dù là (ai, như thế nào, v.v.) / bất chấp / không bàn đến",连,不论天气怎么样，我都要去上课。,"Bất kể thời tiết thế nào, tôi vẫn phải đi học.",REAL,READY
+1558,3,补,sửa / chắp vá / vá / bù đắp / lấp đầy (chỗ trống) / bổ sung,动,这件衣服破了，妈妈帮我补好了。,"Bộ quần áo này bị rách, mẹ đã vá giúp tôi.",REAL,READY
+1559,3,补充,bổ sung / bổ trợ / thêm vào,动、名,你还有什么需要补充的吗？,Bạn còn điều gì cần bổ sung không?,REAL,READY
+1560,3,不安,không yên / bất ổn / bất an / rối bời / bồn chồn / lo lắng,形,听到这个消息，我心里有些不安。,"Nghe tin này, trong lòng tôi hơi bất an.",REAL,READY
+1561,3,不得不,không có lựa chọn nào khác ngoài / phải / đành phải / không thể không / không tránh được,,雨下得太大，我们不得不回家。,"Mưa quá lớn, chúng tôi đành phải về nhà.",REAL,READY
+1562,3,不光,không phải duy nhất / không chỉ,副、连,他不光会说汉语，还会说英语。,Anh ấy không chỉ biết nói tiếng Trung mà còn biết nói tiếng Anh.,REAL,READY
+1563,3,不仅,"không chỉ; không giới hạn ở / (như một liên từ tương quan) không những (..., mà còn ...)",连,她不仅学习好，而且很乐于助人。,Cô ấy không những học giỏi mà còn rất thích giúp đỡ người khác.,REAL,READY
+1564,3,布,biến thể của 布[bu4] / thông báo / lan truyền / vải / tuyên bố / thông báo / truyền ra / làm cho biết,名,妈妈买了一块蓝色的布。,Mẹ mua một tấm vải màu xanh.,REAL,READY
+1565,3,步,một bước / nhịp bước / đi / bước đi / các giai đoạn trong một quá trình / tình huống,名、量,他向前走了几步。,Anh ấy bước về phía trước vài bước.,REAL,READY
+1566,3,部,"bộ / phòng / ban / phần / khoa / quân đội / cục / lượng từ cho tác phẩm văn học, phim ảnh, máy móc, v.v.",名、量,昨天我看了一部中国电影。,Hôm qua tôi xem một bộ phim Trung Quốc.,REAL,READY
+1567,3,部门,phòng / ban / chi nhánh / bộ phận,名,我在公司的销售部门工作。,Tôi làm việc ở bộ phận kinh doanh của công ty.,REAL,READY
+1568,3,部长,"người đứng đầu một bộ (chính phủ, v.v.) / trưởng phòng / trưởng khoa / thư ký / bộ trưởng",名,部长今天上午参加了会议。,Bộ trưởng tham dự cuộc họp sáng nay.,REAL,READY
+1569,3,才能,tài năng / khả năng / năng lực,名,他很有音乐才能。,Anh ấy rất có tài năng âm nhạc.,REAL,READY
+1570,3,采取,"áp dụng hoặc tiến hành (biện pháp, chính sách, hành động) / thực hiện",动,学校采取了新的安全措施。,Nhà trường đã áp dụng các biện pháp an toàn mới.,REAL,READY
+1571,3,采用,áp dụng / sử dụng / dùng,动,我们决定采用这个学习方法。,Chúng tôi quyết định áp dụng phương pháp học này.,REAL,READY
+1572,3,彩色,màu / sặc sỡ,名,妹妹喜欢穿彩色的衣服。,Em gái thích mặc quần áo nhiều màu sắc.,REAL,READY
+1573,3,曾经,một lần / đã / từng / trước đây / (dùng ở thì quá khứ trước động từ hoặc mệnh đề),副,我曾经在北京学习过一年。,Tôi từng học ở Bắc Kinh một năm.,REAL,READY
+1574,3,产生,phát sinh; hình thành; xảy ra / tạo ra; làm phát sinh; dẫn đến; sản xuất; sinh ra; tạo thành,动,这件事产生了很大的影响。,Việc này đã tạo ra ảnh hưởng rất lớn.,REAL,READY
+1575,3,长城,Vạn Lý Trường Thành,名,我一直想去看看中国的长城。,Tôi luôn muốn đến thăm Vạn Lý Trường Thành của Trung Quốc.,REAL,READY
+1576,3,长处,điểm tốt / điểm mạnh,名,每个人都有自己的长处。,Mỗi người đều có điểm mạnh riêng.,REAL,READY
+1577,3,长期,dài hạn / thời gian dài / dài hạn (của dự báo),名,长期熬夜对身体不好。,Thức khuya trong thời gian dài không tốt cho sức khỏe.,REAL,READY
+1578,3,厂,nhà máy / sân / kho / xưởng / công xưởng / cơ xưởng (công nghiệp),名,我爸爸在一家工厂工作。,Bố tôi làm việc ở một nhà máy.,REAL,READY
+1579,3,场合,tình huống / dịp / ngữ cảnh / bối cảnh / địa điểm,名,在正式场合应该穿得整齐一点。,Trong dịp trang trọng nên ăn mặc chỉnh tề một chút.,REAL,READY
+1580,3,场所,địa điểm / nơi chốn,名,图书馆是一个安静的学习场所。,Thư viện là một nơi học tập yên tĩnh.,REAL,READY
+1581,3,超级,siêu- / cực- / siêu cấp-,形,今天的比赛超级精彩。,Trận đấu hôm nay cực kỳ hấp dẫn.,REAL,READY
+1582,3,朝,triều đình hoặc hoàng gia / chính phủ / triều đại / triều vua hoặc hoàng đế / thiết triều hoặc họp bởi vua hoặc hoàng đế / hành hương / hướng / phía,介、动,请朝前走，然后向左转。,"Hãy đi về phía trước, sau đó rẽ trái.",REAL,READY
+1583,3,吵,cãi nhau / gây ồn ào / ồn ào / làm phiền bằng cách gây ồn,形、动,外面太吵了，我没办法学习。,"Bên ngoài quá ồn, tôi không thể học được.",REAL,READY
+1584,3,吵架,cãi nhau / có cuộc cãi vã / cãi vã,,他们因为一点小事吵架了。,Họ cãi nhau vì một chuyện nhỏ.,REAL,READY
+1585,3,衬衫,áo sơ mi / áo blouse,名,我买了一件白色的衬衫。,Tôi mua một chiếc áo sơ mi trắng.,REAL,READY
+1586,3,衬衣,áo sơ mi,名,这件蓝色衬衣很适合你。,Chiếc áo sơ mi xanh này rất hợp với bạn.,REAL,READY
+1587,3,称为,"được gọi là; được biết đến như; gọi là ""...""",,这座城市被称为花城。,Thành phố này được gọi là thành phố hoa.,REAL,READY
+1588,3,成功,thành công / sự thành công / thành công; có kết quả tốt,动、形,经过努力，他终于成功了。,"Sau khi nỗ lực, cuối cùng anh ấy đã thành công.",REAL,READY
+1589,3,成果,kết quả / thành tựu / thu được / lợi nhuận,名,老师对我们的学习成果很满意。,Giáo viên rất hài lòng với thành quả học tập của chúng tôi.,REAL,READY
+1590,3,成就,thành tựu / thành công / đạt được / đạt được (một kết quả) / tạo ra / mang lại,名、动,她在科学研究方面取得了很大成就。,Cô ấy đạt được thành tựu lớn trong nghiên cứu khoa học.,REAL,READY
+1591,3,成立,thiết lập / lập nên / có thể đứng vững / hợp lý,动,这家公司成立于十年前。,Công ty này được thành lập mười năm trước.,REAL,READY
+1592,3,成熟,trưởng thành; chín / trưởng thành; làm cho chín / cách phát âm ở Đài Loan [cheng2 shou2],形,这些苹果已经成熟了。,Những quả táo này đã chín.,REAL,READY
+1593,3,成员,thành viên,名,我们小组一共有六名成员。,Nhóm chúng tôi có tổng cộng sáu thành viên.,REAL,READY
+1594,3,成长,trưởng thành / phát triển / tăng trưởng,动,孩子们在快乐地成长。,Bọn trẻ đang lớn lên vui vẻ.,REAL,READY
+1595,3,城,tường thành / thành phố / thị trấn,名,这座古城有几百年的历史。,Thành cổ này có lịch sử vài trăm năm.,REAL,READY
+1596,3,城市,thành phố; thị trấn,名,我很喜欢这座安静的城市。,Tôi rất thích thành phố yên tĩnh này.,REAL,READY
+1597,3,程度,mức độ; trình độ; phạm vi,名,他的汉语已经达到很高的程度。,Tiếng Trung của anh ấy đã đạt trình độ rất cao.,REAL,READY
+1598,3,持续,tiếp tục / kiên trì / kéo dài / bền vững / bảo tồn,动,大雨持续了三个小时。,Mưa lớn kéo dài ba tiếng đồng hồ.,REAL,READY
+1599,3,充满,đầy / rạng rỡ / rất đầy / thấm đẫm,动,房间里充满了花香。,Căn phòng tràn ngập hương hoa.,REAL,READY
+1600,3,重,lặp lại / sự lặp lại / lần nữa / tái- / lượng từ: tầng,副,这道题做错了，请重做一遍。,"Bài này làm sai rồi, hãy làm lại một lần.",REAL,READY
+1601,3,初,lúc đầu / (vào) lúc bắt đầu / đầu tiên / sơ cấp / cơ bản,副,我第一次见他是在今年年初。,Lần đầu tôi gặp anh ấy là vào đầu năm nay.,REAL,READY
+1602,3,初（初一）,lúc đầu / (vào) lúc bắt đầu / đầu tiên / sơ cấp / cơ bản,前缀,我妹妹今年上初一。,Em gái tôi năm nay học lớp 7.,REAL,READY
+1603,3,初步,ban đầu / sơ bộ / dự kiến,形,我们已经有了一个初步的计划。,Chúng tôi đã có một kế hoạch sơ bộ.,REAL,READY
+1604,3,初级,sơ cấp / cơ bản,形,这是一本初级汉语教材。,Đây là một giáo trình tiếng Trung sơ cấp.,REAL,READY
+1605,3,初中,trường trung học cơ sở (viết tắt của 初級中學|初级中学[chu1 ji2 zhong1 xue2]),名,我弟弟正在上初中。,Em trai tôi đang học trung học cơ sở.,REAL,READY
+1606,3,除了,ngoài ra / ngoài (... còn...) / thêm vào / ngoại trừ,介,除了汉语，我还会说英语。,"Ngoài tiếng Trung, tôi còn biết nói tiếng Anh.",REAL,READY
+1607,3,处理,xử lý; đối phó / xử phạt / xử lý bằng quy trình đặc biệt; gia công / bán giảm giá,动、名,这个问题需要马上处理。,Vấn đề này cần được xử lý ngay.,REAL,READY
+1608,3,传,truyền đạt / lan truyền / lây / truyền nhiễm / chuyển giao / lưu hành / dẫn điện,动,请把这个消息传给大家。,Hãy truyền tin này cho mọi người.,REAL,READY
+1609,3,传播,truyền bá; phổ biến; lan truyền,动,互联网让信息传播得更快。,Internet làm cho thông tin lan truyền nhanh hơn.,REAL,READY
+1610,3,传来,(về âm thanh) truyền đến / được nghe thấy / (về tin tức) đến,,教室外面传来了音乐声。,Từ bên ngoài lớp học truyền đến tiếng nhạc.,REAL,READY
+1611,3,传说,truyền thuyết; câu chuyện dân gian / thuật lại từ người này sang người khác; người ta nói rằng...,动、名,这个村子里有一个古老的传说。,Trong ngôi làng này có một truyền thuyết cổ.,REAL,READY
+1612,3,创新,đề xuất ý tưởng mới; mở đường mới / đổi mới,动、名,公司鼓励年轻人不断创新。,Công ty khuyến khích người trẻ không ngừng đổi mới.,REAL,READY
+1613,3,创业,bắt đầu sự nghiệp; khởi nghiệp / tinh thần khởi nghiệp,动,大学毕业后，他决定创业。,"Sau khi tốt nghiệp đại học, anh ấy quyết định khởi nghiệp.",REAL,READY
+1614,3,创造,tạo ra / mang lại / sản xuất / lập (kỷ lục),动、名,我们要努力创造更好的生活。,Chúng ta phải cố gắng tạo ra cuộc sống tốt đẹp hơn.,REAL,READY
+1615,3,创作,sáng tác; sản xuất; viết / một tác phẩm sáng tạo; một sự sáng tạo,动、名,这位作家正在创作一部新小说。,Nhà văn này đang sáng tác một cuốn tiểu thuyết mới.,REAL,READY
+1616,3,从来,luôn luôn / mọi lúc / không bao giờ (nếu dùng trong câu phủ định),副,我从来没有去过那里。,Tôi chưa bao giờ đến đó.,REAL,READY
+1617,3,从前,trước đây / ngày xưa / ngày xửa ngày xưa,名,从前这里是一个小村子。,Trước đây nơi này là một ngôi làng nhỏ.,REAL,READY
+1618,3,从事,làm / gia nhập / thực hiện / xử lý / đối phó,动,她一直从事教育工作。,Cô ấy luôn làm công việc giáo dục.,REAL,READY
+1619,3,村,ngôi làng / biến thể của 村[cun1],名,我爷爷住在一个安静的小村里。,Ông tôi sống trong một ngôi làng nhỏ yên tĩnh.,REAL,READY
+1620,3,存,tồn tại / gửi / lưu trữ / giữ / sống sót,动,我想把这些钱存进银行。,Tôi muốn gửi số tiền này vào ngân hàng.,REAL,READY
+1621,3,存在,tồn tại / là / sự tồn tại,动,这个问题还存在。,Vấn đề này vẫn còn tồn tại.,REAL,READY
+1622,3,错误,sai lầm; sai; không đúng / lỗi; sai sót,形、名,我发现了自己的错误。,Tôi đã phát hiện ra lỗi của mình.,REAL,READY
+1623,3,达到,đạt tới; đạt được; đạt đến,,今天气温达到三十五度。,Hôm nay nhiệt độ đạt đến 35 độ.,REAL,READY
+1624,3,打破,làm vỡ; đập vỡ,,弟弟不小心打破了杯子。,Em trai không cẩn thận làm vỡ chiếc cốc.,REAL,READY
+1625,3,打听,hỏi thăm / tìm hiểu / hỏi quanh,动,我想向你打听一个人的情况。,Tôi muốn hỏi thăm bạn về tình hình của một người.,REAL,READY
+1626,3,大概,đại khái / có lẽ / không chi tiết / xấp xỉ / khoảng / ý tổng quát,形、副,他大概十分钟以后到。,Có lẽ anh ấy sẽ đến sau khoảng mười phút.,REAL,READY
+1627,3,大使馆,đại sứ quán,名,我明天要去中国大使馆。,Ngày mai tôi phải đến Đại sứ quán Trung Quốc.,REAL,READY
+1628,3,大约,khoảng / chắc là,副,从这里到机场大约需要一个小时。,Từ đây đến sân bay mất khoảng một tiếng.,REAL,READY
+1629,3,大夫,bác sĩ / thầy thuốc,名,大夫让我多休息。,Bác sĩ bảo tôi nghỉ ngơi nhiều hơn.,REAL,READY
+1630,3,代,thay thế / làm thay cho người khác / thế hệ / triều đại / thời đại / giai đoạn / kỷ nguyên (lịch sử) / đại (địa chất),动、名,今天我代老师通知大家一件事。,Hôm nay tôi thay giáo viên thông báo cho mọi người một việc.,REAL,READY
+1631,3,代表,đại diện / đại biểu / tượng trưng / thay mặt / nhân danh,名、动,他代表我们班参加比赛。,Anh ấy đại diện lớp chúng tôi tham gia cuộc thi.,REAL,READY
+1632,3,代表团,đoàn đại biểu,名,代表团明天上午到达北京。,Đoàn đại biểu sẽ đến Bắc Kinh vào sáng mai.,REAL,READY
+1633,3,带动,thúc đẩy; tạo động lực; dẫn động,动,旅游业带动了当地经济的发展。,Ngành du lịch đã thúc đẩy sự phát triển kinh tế địa phương.,REAL,READY
+1634,3,带领,dẫn dắt / lãnh đạo,动,老师带领我们参观博物馆。,Giáo viên dẫn chúng tôi tham quan bảo tàng.,REAL,READY
+1635,3,单元,đơn vị (hình thành một thể) / thành phần / (trong toà nhà chung cư) lối vào hoặc cầu thang,名,我们今天学习第三单元。,Hôm nay chúng tôi học bài thứ ba.,REAL,READY
+1636,3,当初,lúc đó / ban đầu,名,当初我并不知道这件事。,Ban đầu tôi không hề biết việc này.,REAL,READY
+1637,3,当地,địa phương,名,我们品尝了很多当地的美食。,Chúng tôi đã thưởng thức nhiều món ăn địa phương.,REAL,READY
+1638,3,当然,đương nhiên / như lẽ ra phải thế / tất nhiên / dĩ nhiên / không nghi ngờ gì,形、副,你当然可以和我们一起去。,Tất nhiên bạn có thể đi cùng chúng tôi.,REAL,READY
+1639,3,当中,giữa / ở giữa / ở trung tâm,名,这些学生当中，他的汉语最好。,"Trong số những học sinh này, tiếng Trung của anh ấy tốt nhất.",REAL,READY
+1640,3,刀,dao / lưỡi dao / kiếm một lưỡi / đoản đao / (tiếng lóng) đô la (từ mượn) / lượng từ cho bộ một trăm tờ (giấy) / lượng từ cho vết cắt hoặc nhát đâm,名,切水果的时候要小心用刀。,Khi cắt trái cây phải cẩn thận khi dùng dao.,REAL,READY
+1641,3,导演,"đạo diễn / đạo diễn (phim, v.v.)",动、名,这部电影的导演很有名。,Đạo diễn của bộ phim này rất nổi tiếng.,REAL,READY
+1642,3,到达,đạt đến; đến nơi,动,火车将在下午三点到达上海。,Tàu sẽ đến Thượng Hải lúc ba giờ chiều.,REAL,READY
+1643,3,到底,cuối cùng / rốt cuộc / khi tất cả đã được nói và làm / xét cho cùng / đến cuối cùng / đến tận cùng,副,你到底想说什么？,Rốt cuộc bạn muốn nói gì?,REAL,READY
+1644,3,得分,ghi điểm,动、名,他在比赛中得分最高。,Anh ấy ghi được số điểm cao nhất trong trận đấu.,REAL,READY
+1645,3,等待,chờ; chờ đợi,动,请在这里等待几分钟。,Hãy chờ ở đây vài phút.,REAL,READY
+1646,3,底下,vị trí bên dưới cái gì / sau đó,名,猫躲在桌子底下。,Con mèo trốn dưới bàn.,REAL,READY
+1647,3,地区,"địa phương / khu vực / quận (không nhất thiết là đơn vị hành chính chính thức) / vùng / khu / ví dụ như hậu tố tên thành phố, có nghĩa là quận hoặc huyện (khu vực do thành phố cấp địa khu hoặc thành phố cấp huyện quản lý)",名,这个地区冬天经常下雪。,Khu vực này mùa đông thường có tuyết.,REAL,READY
+1648,3,电视剧,phim truyền hình / phim bộ,名,妈妈晚上喜欢看电视剧。,Buổi tối mẹ thích xem phim truyền hình.,REAL,READY
+1649,3,电视台,đài truyền hình,名,这家电视台每天播出新闻。,Đài truyền hình này phát tin tức mỗi ngày.,REAL,READY
+1650,3,电台,máy phát thu / trạm phát sóng / đài phát thanh,名,爸爸每天开车时听电台。,Bố nghe đài mỗi ngày khi lái xe.,REAL,READY
+1651,3,电子邮件,email,,我已经给老师发了电子邮件。,Tôi đã gửi email cho giáo viên.,REAL,READY
+1652,3,调,điều chuyển / di chuyển (quân đội hoặc cán bộ) / điều tra / hỏi về / ngữ điệu / quan điểm / lập luận / tông (trong âm nhạc) / thể loại (nhạc) / giai điệu / âm điệu,动,公司把他调到上海工作了。,Công ty đã điều anh ấy đến Thượng Hải làm việc.,REAL,READY
+1653,3,调查,điều tra / cuộc điều tra / khảo sát / cuộc thăm dò (ý kiến),动、名,我们正在做一项学生调查。,Chúng tôi đang thực hiện một cuộc khảo sát sinh viên.,REAL,READY
+1654,3,订,"đồng ý / kết luận / lập ra / đặt mua (báo chí,...) / đặt hàng",动,我已经在网上订了两张票。,Tôi đã đặt hai vé trên mạng.,REAL,READY
+1655,3,定期,vào các ngày cố định / định kỳ / theo định kỳ / có thời hạn giới hạn / thời hạn cố định,动、形,汽车需要定期检查。,Ô tô cần được kiểm tra định kỳ.,REAL,READY
+1656,3,东部,miền đông / phần phía đông,名,这个城市位于中国东部。,Thành phố này nằm ở miền đông Trung Quốc.,REAL,READY
+1657,3,动力,động lực (vật lý) / lực / (nghĩa bóng) động cơ / thúc đẩy,名,家人的支持是我学习的动力。,Sự ủng hộ của gia đình là động lực học tập của tôi.,REAL,READY
+1658,3,动人,cảm động / xúc động,形,这个故事非常动人。,Câu chuyện này rất cảm động.,REAL,READY
+1659,3,读者,độc giả,名,这本书很受年轻读者欢迎。,Quyển sách này rất được độc giả trẻ yêu thích.,REAL,READY
+1660,3,短处,khuyết điểm / thiếu sót / lỗi / điểm yếu của một người,名,每个人都有长处，也有短处。,Mỗi người đều có điểm mạnh và cũng có điểm yếu.,REAL,READY
+1661,3,短裤,quần ngắn / quần shorts,名,夏天我常穿短裤。,Mùa hè tôi thường mặc quần short.,REAL,READY
+1662,3,短期,ngắn hạn,名,他来北京参加一个短期培训班。,Anh ấy đến Bắc Kinh tham gia một khóa đào tạo ngắn hạn.,REAL,READY
+1663,3,断,làm gãy / bẻ gãy / cắt đứt / từ bỏ hoặc kiêng cữ cái gì / phán đoán / (thường dùng ở dạng phủ định) tuyệt đối / chắc chắn / dứt khoát,动,这根绳子突然断了。,Sợi dây này đột nhiên bị đứt.,REAL,READY
+1664,3,队员,thành viên đội,名,所有队员都参加了今天的训练。,Tất cả thành viên trong đội đều tham gia buổi tập hôm nay.,REAL,READY
+1665,3,对待,đối xử / sự đối xử,动,我们应该认真对待每一次考试。,Chúng ta nên nghiêm túc đối với mỗi kỳ thi.,REAL,READY
+1666,3,对方,người kia; bên kia; phía bên kia,名,我听不清电话里对方说的话。,Tôi không nghe rõ lời người bên kia nói trong điện thoại.,REAL,READY
+1667,3,对手,đối thủ / địch thủ / đối thủ ngang sức / đối phương,名,今天的对手实力很强。,Đối thủ hôm nay có thực lực rất mạnh.,REAL,READY
+1668,3,对象,mục tiêu; đối tượng / bạn đời; bạn trai; bạn gái,名,这次调查的对象是大学生。,Đối tượng của cuộc khảo sát lần này là sinh viên đại học.,REAL,READY
+1669,3,顿,"dừng / tạm dừng / sắp xếp / bày ra / dập đầu / dậm (chân) / ngay lập tức / lượng từ cho bữa ăn, trận đòn, lời mắng, v.v.: lần, trận, đợt, bữa",量,我们一起吃了一顿丰盛的晚饭。,Chúng tôi cùng ăn một bữa tối thịnh soạn.,REAL,READY
+1670,3,发表,phát hành / công bố,动,他在杂志上发表了一篇文章。,Anh ấy đã đăng một bài viết trên tạp chí.,REAL,READY
+1671,3,发出,"ban hành (mệnh lệnh, sắc lệnh, v.v.); gửi đi; phái đi / phát ra (âm thanh); bật ra (tiếng cười)",动,手机突然发出了声音。,Điện thoại đột nhiên phát ra âm thanh.,REAL,READY
+1672,3,发达,phát triển tốt; hưng thịnh / phát triển; thúc đẩy; mở rộng / (văn học) đạt được danh vọng và tài lộc; thịnh vượng,形,这里的交通很发达。,Giao thông ở đây rất phát triển.,REAL,READY
+1673,3,发动,bắt đầu / phát động / khơi dậy / huy động / kích động,动,天气太冷，汽车发动不了。,Trời quá lạnh nên ô tô không khởi động được.,REAL,READY
+1674,3,发明,phát minh / một phát minh,动、名,电话是谁发明的？,Điện thoại do ai phát minh?,REAL,READY
+1675,3,发生,xảy ra; xảy đến; diễn ra; bùng phát,动,昨天这里发生了一起交通事故。,Hôm qua ở đây xảy ra một vụ tai nạn giao thông.,REAL,READY
+1676,3,发送,truyền đi / gửi đi / phát hành (tài liệu hoặc giấy tờ chính thức),动,请把文件发送到我的邮箱。,Hãy gửi tài liệu vào hộp thư của tôi.,REAL,READY
+1677,3,发言,phát biểu / tuyên bố / lời phát biểu,动、名,他代表小组在会上发言。,Anh ấy đại diện nhóm phát biểu tại cuộc họp.,REAL,READY
+1678,3,发展,sự phát triển / tăng trưởng / phát triển / mở rộng,动、名,这个城市发展得很快。,Thành phố này phát triển rất nhanh.,REAL,READY
+1679,3,反对,phản đối; chống lại,动,我不反对你的决定。,Tôi không phản đối quyết định của bạn.,REAL,READY
+1680,3,反复,biến thể của 反覆|反复[fan3 fu4] / lặp đi lặp lại / làm đi làm lại / lật ngược / không ổn định / đi đi lại lại / (bệnh) tái phát,副、名,这篇课文我反复读了好几遍。,Bài khóa này tôi đã đọc đi đọc lại nhiều lần.,REAL,READY
+1681,3,反应,phản ứng / đáp lại / phản hồi / trả lời / phản ứng hóa học,动、名,听到这个消息，他没有什么反应。,"Nghe tin này, anh ấy không có phản ứng gì.",REAL,READY
+1682,3,反正,dù sao đi nữa / dù thế nào / chuyển từ phe địch sang,副,反正明天不上课，我们晚一点儿起床吧。,"Dù sao ngày mai cũng không học, chúng ta dậy muộn một chút nhé.",REAL,READY
+1683,3,范围,phạm vi / quy mô / giới hạn / mức độ,名,这家医院的服务范围很广。,Phạm vi phục vụ của bệnh viện này rất rộng.,REAL,READY
+1684,3,方式,cách thức; kiểu; phong cách; chế độ; mẫu hình,名,我们应该找到适合自己的学习方式。,Chúng ta nên tìm phương thức học phù hợp với bản thân.,REAL,READY
+1685,3,防,bảo vệ / phòng thủ / đề phòng / ngăn chặn,动,这件外套可以防风。,Chiếc áo khoác này có thể chắn gió.,REAL,READY
+1686,3,防止,ngăn chặn / phòng ngừa / thực hiện biện pháp phòng ngừa,动,为了防止迟到，我每天都早一点儿出门。,"Để tránh đến muộn, mỗi ngày tôi đều ra khỏi nhà sớm hơn một chút.",REAL,READY
+1687,3,房东,chủ nhà,名,房东说明天来检查房子。,Chủ nhà nói ngày mai sẽ đến kiểm tra căn nhà.,REAL,READY
+1688,3,房屋,nhà / toà nhà,名,这里的房屋都很漂亮。,Nhà cửa ở đây đều rất đẹp.,REAL,READY
+1689,3,房租,tiền thuê phòng hoặc nhà,名,这个月的房租我已经付了。,Tiền thuê nhà tháng này tôi đã trả rồi.,REAL,READY
+1690,3,访问,thăm / ghé thăm / phỏng vấn,动,代表团正在访问我们学校。,Đoàn đại biểu đang đến thăm trường chúng tôi.,REAL,READY
+1691,3,放到,đặt vào; để vào một vị trí,,请把水果放到冰箱里。,Hãy đặt trái cây vào tủ lạnh.,REAL,READY
+1692,3,飞行,"(máy bay,...) bay / đang bay / chuyến bay / hàng không",动,飞机正在高空飞行。,Máy bay đang bay trên cao.,REAL,READY
+1693,3,费,tốn / tiêu phí / phí / lãng phí / chi phí,动、名,修电脑很费时间。,Sửa máy tính rất tốn thời gian.,REAL,READY
+1694,3,费用,chi phí / kinh phí / số tiền cần trả,名,这次旅行的费用不高。,Chi phí chuyến đi lần này không cao.,REAL,READY
+1695,3,分别,chia tay; rời nhau / phân biệt; nhận ra sự khác biệt / sự khác nhau; sự phân biệt / bằng các cách khác nhau; khác nhau / tách biệt; riêng lẻ,动、副,会议结束后，我们分别回家了。,"Sau khi cuộc họp kết thúc, chúng tôi lần lượt về nhà.",REAL,READY
+1696,3,分配,phân phối / giao / phân bổ / phân vùng (ổ cứng),动,老师给每个小组分配了不同的任务。,Giáo viên phân công nhiệm vụ khác nhau cho từng nhóm.,REAL,READY
+1697,3,分组,chia thành nhóm / nhóm (hình thành từ một nhóm lớn hơn) / nhóm phụ / gói (mạng máy tính),,老师让我们分组讨论这个问题。,Giáo viên yêu cầu chúng tôi chia nhóm thảo luận vấn đề này.,REAL,READY
+1698,3,丰富,làm phong phú / giàu có / phong phú / dồi dào,形,这本书的内容很丰富。,Nội dung quyển sách này rất phong phú.,REAL,READY
+1699,3,风险,rủi ro; mối nguy,名,投资有一定的风险。,Đầu tư có một mức độ rủi ro nhất định.,REAL,READY
+1700,3,否定,phủ định / phủ nhận / từ chối / câu trả lời phủ định / sự phủ định,动、形,不能因为一次失败就否定自己。,Không thể vì một lần thất bại mà phủ định bản thân.,REAL,READY
+1701,3,否认,tuyên bố không đúng / phủ nhận,动,他否认自己说过这句话。,Anh ấy phủ nhận mình từng nói câu này.,REAL,READY
+1702,3,服装,trang phục / quần áo / phục trang / đồ hóa trang,名,这家商店主要卖年轻人的服装。,Cửa hàng này chủ yếu bán quần áo dành cho người trẻ.,REAL,READY
+1703,3,福,phúc lành / hạnh phúc / may mắn,名,春节时人们常在门上贴“福”字。,"Vào dịp Tết, mọi người thường dán chữ “Phúc” lên cửa.",REAL,READY
+1704,3,父母,cha và mẹ; phụ huynh,名,我的父母都很支持我学习汉语。,Cha mẹ tôi đều rất ủng hộ tôi học tiếng Trung.,REAL,READY
+1705,3,父亲,cha / hoặc đọc là [fu4 qin5],名,我的父亲是一名医生。,Cha tôi là một bác sĩ.,REAL,READY
+1706,3,付,trả / giao cho / lượng từ cho cặp hoặc bộ,动,这个月的房租我已经付了。,Tiền thuê nhà tháng này tôi đã trả rồi.,REAL,READY
+1707,3,负责,chịu trách nhiệm về; phụ trách; gánh vác trách nhiệm / tận tâm,动、形,王老师负责这次活动。,Thầy Vương phụ trách hoạt động lần này.,REAL,READY
+1708,3,复印,sao chép / tạo bản sao tài liệu,动,请帮我复印这份文件。,Hãy giúp tôi photocopy tài liệu này.,REAL,READY
+1709,3,复杂,phức tạp; rắc rối,形,这个问题比我想的复杂。,Vấn đề này phức tạp hơn tôi nghĩ.,REAL,READY
+1710,3,富,giàu / có nhiều / phú quý,形,这个村子现在越来越富。,Ngôi làng này hiện ngày càng giàu có.,REAL,READY
+1711,3,改进,cải thiện; làm cho tốt hơn / sự cải thiện,动,我们需要不断改进学习方法。,Chúng ta cần không ngừng cải thiện phương pháp học.,REAL,READY
+1712,3,改造,cải tạo / cải cách / tân trang / tái tạo,动,这个旧工厂已经被改造了。,Nhà máy cũ này đã được cải tạo.,REAL,READY
+1713,3,概念,khái niệm / ý tưởng,名,老师正在给我们解释这个概念。,Giáo viên đang giải thích khái niệm này cho chúng tôi.,REAL,READY
+1714,3,赶,"đuổi kịp; bắt kịp / vội; gấp / cố gắng bắt (xe buýt,...) / lùa (gia súc,...) đi; đuổi (ai đó) đi / tận dụng (cơ hội) / cho đến; trước (một thời điểm nhất định)",动,我每天早上赶七点的公交车。,Mỗi sáng tôi vội bắt chuyến xe buýt lúc bảy giờ.,REAL,READY
+1715,3,赶到,vội đến (một nơi),,医生很快赶到了医院。,Bác sĩ nhanh chóng đến bệnh viện.,REAL,READY
+1716,3,赶紧,vội vàng / không chậm trễ,副,快下雨了，我们赶紧回家吧。,"Sắp mưa rồi, chúng ta mau về nhà thôi.",REAL,READY
+1717,3,赶快,nhanh chóng; ngay lập tức,副,时间不早了，你赶快出发吧。,"Không còn sớm nữa, bạn mau xuất phát đi.",REAL,READY
+1718,3,敢,dám / cả gan / (lịch sự) tôi xin mạo muội,动,他不敢一个人走夜路。,Anh ấy không dám đi đường ban đêm một mình.,REAL,READY
+1719,3,感冒,bị cảm lạnh / bệnh cảm lạnh / (thông tục) hứng thú (thường dùng ở phủ định) / (Đài Loan) ghét / không chịu nổi,名、动,我昨天感冒了，所以没有去上课。,Hôm qua tôi bị cảm nên không đi học.,REAL,READY
+1720,3,感情,cảm xúc; tình cảm / tình cảm giữa hai người,名,他们两个人的感情很好。,Tình cảm giữa hai người họ rất tốt.,REAL,READY
+1721,3,感受,cảm nhận / nhận thức / cảm thấy (qua giác quan) / trải nghiệm / một cảm giác / một ấn tượng / một trải nghiệm,名、动,第一次来到这里，我有很多新的感受。,"Lần đầu đến đây, tôi có rất nhiều cảm nhận mới.",REAL,READY
+1722,3,干吗,xem 幹嘛|干嘛[gan4 ma2],代,你站在门口干吗？,Bạn đứng ở cửa làm gì vậy?,REAL,READY
+1723,3,高速,tốc độ cao / đường cao tốc (viết tắt của 高速公路[gao1 su4 gong1 lu4]),形,这列高速列车非常快。,Chuyến tàu cao tốc này rất nhanh.,REAL,READY
+1724,3,高速公路,đường cao tốc; xa lộ,,我们开车走高速公路去上海。,Chúng tôi lái xe theo đường cao tốc đến Thượng Hải.,REAL,READY
+1725,3,告别,rời đi; chia tay / chào tạm biệt; nói lời tạm biệt,,毕业那天，我们和老师告别。,"Ngày tốt nghiệp, chúng tôi nói lời tạm biệt với giáo viên.",REAL,READY
+1726,3,歌迷,người hâm mộ ca sĩ,名,门口站着很多年轻歌迷。,Ngoài cửa có rất nhiều người hâm mộ ca sĩ trẻ.,REAL,READY
+1727,3,歌声,giọng hát / nghĩa bóng: giọng gốc của nhà thơ,名,我从房间里听到了她的歌声。,Tôi nghe thấy giọng hát của cô ấy từ trong phòng.,REAL,READY
+1728,3,歌手,ca sĩ,名,她长大以后想成为一名歌手。,Sau khi lớn lên cô ấy muốn trở thành ca sĩ.,REAL,READY
+1729,3,个人,cá nhân / riêng tư / bản thân,名,这是我个人的意见。,Đây là ý kiến cá nhân của tôi.,REAL,READY
+1730,3,个性,cá tính / tính cách,名,这个孩子很有个性。,Đứa trẻ này rất có cá tính.,REAL,READY
+1731,3,各,mỗi / từng,代、副,各班学生都要参加这次活动。,Học sinh của mỗi lớp đều phải tham gia hoạt động lần này.,REAL,READY
+1732,3,各地,ở khắp mọi nơi (của một quốc gia) / các vùng khác nhau,名,春节期间，各地都有很多游客。,"Trong dịp Tết, khắp các vùng đều có nhiều du khách.",REAL,READY
+1733,3,各位,"mọi người / tất cả (khách, đồng nghiệp, v.v.) / các bạn",代,各位同学，请安静一下。,"Các bạn học sinh, xin hãy yên lặng một chút.",REAL,READY
+1734,3,各种,mỗi loại; mọi loại; các loại khác nhau,代,超市里有各种水果。,Trong siêu thị có đủ loại trái cây.,REAL,READY
+1735,3,各自,mỗi / tương ứng / mỗi người một phần,代,会议结束后，大家各自回家。,"Sau khi cuộc họp kết thúc, mọi người tự về nhà mình.",REAL,READY
+1736,3,根本,cơ bản / cơ sở / gốc rễ / đơn giản / tuyệt đối (không) / (không) chút nào,副、形、名,我根本不知道这件事。,Tôi hoàn toàn không biết việc này.,REAL,READY
+1737,3,更加,hơn (so với cái gì đó) / càng hơn,副,经过练习，她的汉语更加流利了。,"Sau khi luyện tập, tiếng Trung của cô ấy càng lưu loát hơn.",REAL,READY
+1738,3,工厂,nhà máy,名,我爸爸在一家工厂工作。,Bố tôi làm việc tại một nhà máy.,REAL,READY
+1739,3,工程师,kỹ sư,名,我哥哥是一名工程师。,Anh trai tôi là một kỹ sư.,REAL,READY
+1740,3,工夫,"khoảng thời gian (có thể là vài tháng, hoặc chỉ vài giây) / thời gian rảnh / kỹ năng / lao động / nỗ lực",名,做这件事需要花不少工夫。,Làm việc này cần tốn khá nhiều công sức.,REAL,READY
+1741,3,工具,công cụ / dụng cụ / đồ dùng / phương tiện (để đạt mục tiêu v.v.),名,这些都是修理汽车的工具。,Đây đều là những dụng cụ sửa ô tô.,REAL,READY
+1742,3,工业,công nghiệp,名,这个城市的工业发展得很快。,Công nghiệp của thành phố này phát triển rất nhanh.,REAL,READY
+1743,3,工资,tiền lương; lương,名,公司每个月十号发工资。,Công ty trả lương vào ngày mười hằng tháng.,REAL,READY
+1744,3,公布,công bố; công khai; xuất bản,动,学校明天公布考试成绩。,Ngày mai nhà trường sẽ công bố kết quả thi.,REAL,READY
+1745,3,公共,công cộng; chung; công,形,请不要在公共场所大声说话。,Xin đừng nói lớn tiếng ở nơi công cộng.,REAL,READY
+1746,3,公开,mở; công khai; công cộng / công bố; phát hành,形、动,比赛结果已经公开了。,Kết quả cuộc thi đã được công khai.,REAL,READY
+1747,3,公民,công dân,名,每个公民都应该遵守法律。,Mỗi công dân đều nên tuân thủ pháp luật.,REAL,READY
+1748,3,公务员,công chức / người làm việc văn phòng,名,他毕业以后想当公务员。,Sau khi tốt nghiệp anh ấy muốn làm công chức.,REAL,READY
+1749,3,功夫,kỹ năng / nghệ thuật / kung fu / lao động / nỗ lực,名,他从小就喜欢练中国功夫。,Từ nhỏ anh ấy đã thích luyện võ Trung Quốc.,REAL,READY
+1750,3,功课,bài tập / giao bài / nhiệm vụ / bài trên lớp / bài học / học hành,名,我做完功课以后才出去玩。,Tôi làm xong bài học rồi mới ra ngoài chơi.,REAL,READY
+1751,3,功能,chức năng; khả năng,名,这个手机有很多新功能。,Điện thoại này có nhiều chức năng mới.,REAL,READY
+1752,3,共同,chung / cùng / chung sức / cùng nhau / hợp tác,形,保护环境是我们共同的责任。,Bảo vệ môi trường là trách nhiệm chung của chúng ta.,REAL,READY
+1753,3,共有,có tất cả / tổng cộng,动,我们班共有三十二名学生。,Lớp chúng tôi có tổng cộng ba mươi hai học sinh.,REAL,READY
+1754,3,姑娘,cô gái / người phụ nữ trẻ / cô thiếu nữ / con gái / cô (cách gọi cũ),名,那位姑娘正在等公交车。,Cô gái đó đang chờ xe buýt.,REAL,READY
+1755,3,古,cổ / thời xa xưa / tiền sử-,形,这座古城有很长的历史。,Thành cổ này có lịch sử lâu đời.,REAL,READY
+1756,3,古代,thời cổ đại,名,古代的人没有手机和电脑。,Người thời cổ đại không có điện thoại và máy tính.,REAL,READY
+1757,3,故乡,quê hương / quê nhà / nơi sinh,名,离开故乡以后，他经常想家。,"Sau khi rời quê hương, anh ấy thường nhớ nhà.",REAL,READY
+1758,3,挂,treo; móc (từ móc v.v.) / gác máy (điện thoại) / (đường dây) bị ngắt / lo lắng; quan tâm / (tiếng địa phương) gọi điện thoại / đăng ký (bệnh viện); hẹn (bác sĩ) / (tiếng lóng) giết; chết; xong; rớt (kỳ thi) / lượng từ cho bộ hoặc cụm vật,动,墙上挂着一张中国地图。,Trên tường treo một tấm bản đồ Trung Quốc.,REAL,READY
+1759,3,关系,quan hệ / mối quan hệ / liên quan / ảnh hưởng / có liên quan / biến thể của 關係|关系[guan1 xi5],名、动,我和他的关系一直很好。,Mối quan hệ giữa tôi và anh ấy luôn rất tốt.,REAL,READY
+1760,3,关注,chú ý đến; theo dõi sát sao; theo dõi (trên mạng xã hội) / quan tâm; hứng thú; chú ý,动,越来越多的人开始关注健康问题。,Ngày càng nhiều người bắt đầu quan tâm đến vấn đề sức khỏe.,REAL,READY
+1761,3,观察,quan sát; theo dõi; khảo sát,动,老师让我们仔细观察这个现象。,Giáo viên yêu cầu chúng tôi quan sát hiện tượng này thật kỹ.,REAL,READY
+1762,3,观看,xem; quan sát,动,很多人在网上观看这场比赛。,Rất nhiều người xem trận đấu này trên mạng.,REAL,READY
+1763,3,观念,khái niệm / suy nghĩ / ý tưởng / cảm giác / quan điểm / tư tưởng / ấn tượng chung,名,年轻人的生活观念发生了变化。,Quan niệm sống của người trẻ đã thay đổi.,REAL,READY
+1764,3,观众,"khán giả; thính giả; khách tham quan (một triển lãm, v.v.)",名,表演结束后，观众都站起来鼓掌。,"Sau khi buổi biểu diễn kết thúc, khán giả đều đứng lên vỗ tay.",REAL,READY
+1765,3,管,biến thể của 管[guan3] / chăm sóc / kiểm soát / quản lý / phụ trách / trông nom / vận hành / quan tâm / ống / đường ống / nhạc cụ họ gỗ / lượng từ cho vật hình ống / tiểu từ giống 把[ba3] trong cấu trúc 管...叫 / bút lông / (khẩu ngữ) đến / hướng tới,动,这件事由王老师管。,Việc này do thầy Vương phụ trách.,REAL,READY
+1766,3,管理,giám sát / quản lý / quản trị / sự quản lý / sự quản trị,动,她负责管理这个部门。,Cô ấy phụ trách quản lý bộ phận này.,REAL,READY
+1767,3,光,ánh sáng; tia (Lượng từ: 道[dao4]) / sáng; bóng loáng / chỉ; chỉ mỗi / dùng hết; hoàn thành / để lộ (một phần cơ thể),副、名、形,早上的太阳光很温暖。,Ánh nắng buổi sáng rất ấm áp.,REAL,READY
+1768,3,光明,"ánh sáng / rực rỡ / (bóng) tươi sáng (triển vọng, v.v.) / cởi mở",形、名,我们对未来充满光明的希望。,Chúng tôi tràn đầy hy vọng tươi sáng về tương lai.,REAL,READY
+1769,3,广播,phát sóng / phát thanh / (trang trọng) truyền bá / công bố,动、名,我每天早上都听新闻广播。,Mỗi sáng tôi đều nghe chương trình phát thanh tin tức.,REAL,READY
+1770,3,广大,(về diện tích) rộng hoặc bao la / quy mô lớn / phổ biến / (về người) đông đúc,形,这个产品受到广大顾客的欢迎。,Sản phẩm này được đông đảo khách hàng yêu thích.,REAL,READY
+1771,3,规定,quy định; chỉ định; kê đơn; ấn định (giá cả); đặt (chỉ tiêu) / quy tắc; quy định; điều khoản; sự quy định,动、名,学校规定上课不能使用手机。,Nhà trường quy định không được dùng điện thoại trong giờ học.,REAL,READY
+1772,3,规范,chuẩn mực / tiêu chuẩn / quy cách / quy định / quy tắc / trong phạm vi quy định / đặt ra quy tắc / điều chỉnh / quy định cụ thể,形、名、动,我们应该规范自己的行为。,Chúng ta nên điều chỉnh hành vi của mình theo đúng chuẩn mực.,REAL,READY
+1773,3,国内,nội địa / bên trong (một quốc gia) / dân sự,,今年国内旅游的人很多。,Năm nay có rất nhiều người du lịch trong nước.,REAL,READY
+1774,3,国庆,Quốc khánh,名,国庆期间很多人出去旅游。,"Trong dịp Quốc khánh, rất nhiều người đi du lịch.",REAL,READY
+1775,3,果然,thực sự / quả nhiên / đúng như dự đoán / nếu thực sự,副,天气预报说会下雨，下午果然下雨了。,"Dự báo thời tiết nói sẽ mưa, buổi chiều quả nhiên trời mưa.",REAL,READY
+1776,3,果汁,nước ép trái cây,名,我想喝一杯橙子果汁。,Tôi muốn uống một cốc nước cam.,REAL,READY
+1777,3,过程,quá trình sự kiện / quá trình,名,学习汉语是一个长期的过程。,Học tiếng Trung là một quá trình lâu dài.,REAL,READY
+1778,3,哈哈,(tượng thanh) cười to,拟声,听完这个笑话，大家都哈哈大笑。,"Nghe xong câu chuyện cười này, mọi người đều cười ha ha.",REAL,READY
+1779,3,海关,hải quan (tức kiểm tra cửa khẩu),名,我们下飞机以后先过海关。,"Sau khi xuống máy bay, chúng tôi làm thủ tục hải quan trước.",REAL,READY
+1780,3,害怕,sợ hãi; lo sợ,,妹妹很害怕一个人待在家里。,Em gái rất sợ ở nhà một mình.,REAL,READY
+1781,3,行,"hàng / dòng / công ty thương mại / ngành kinh doanh / nghề / xếp hạng (nhất, hai, v.v.) trong anh chị em (theo tuổi) / (trong bảng dữ liệu) hàng / (Đài Loan) cột",量,请在第一行写上你的名字。,Hãy viết tên của bạn ở dòng đầu tiên.,REAL,READY
+1782,3,好好,tốt; cẩn thận; đẹp đẽ; đúng mực,形、副,考试前你应该好好复习。,Trước kỳ thi bạn nên ôn tập thật tốt.,REAL,READY
+1783,3,好奇,tò mò / hiếu kỳ / sự tò mò / tính hiếu kỳ,形,孩子们对外面的世界很好奇。,Bọn trẻ rất tò mò về thế giới bên ngoài.,REAL,READY
+1784,3,合,đóng / gia nhập / phù hợp / bằng / toàn bộ / cùng nhau / vòng (trong chiến đấu) / giao hội (thiên văn) / nốt thứ nhất của ngũ cung / biến thể cũ của 盒[he2] / biến thể của 合[he2],动,这个盒子的盖子合不上。,Nắp của chiếc hộp này không đóng lại được.,REAL,READY
+1785,3,合法,hợp pháp / chính đáng / hợp lệ,形,他通过合法的方法解决了问题。,Anh ấy giải quyết vấn đề bằng phương pháp hợp pháp.,REAL,READY
+1786,3,合格,"đáp ứng tiêu chuẩn yêu cầu / đủ tiêu chuẩn / đủ điều kiện (cử tri, v.v.)",形,只有考试合格才能毕业。,Chỉ khi thi đạt yêu cầu mới có thể tốt nghiệp.,REAL,READY
+1787,3,合理,hợp lý; có lý; công bằng,形,我觉得这个价格很合理。,Tôi thấy mức giá này rất hợp lý.,REAL,READY
+1788,3,合作,hợp tác; cộng tác; làm việc cùng nhau,动,两家公司决定继续合作。,Hai công ty quyết định tiếp tục hợp tác.,REAL,READY
+1789,3,和平,hòa bình,名,大家都希望世界和平。,Mọi người đều mong thế giới hòa bình.,REAL,READY
+1790,3,红茶,trà đen,名,我每天早上喜欢喝一杯红茶。,Mỗi sáng tôi thích uống một cốc trà đen.,REAL,READY
+1791,3,红酒,rượu vang đỏ,名,桌子上有一瓶红酒。,Trên bàn có một chai rượu vang đỏ.,REAL,READY
+1792,3,后果,hậu quả / hệ quả,名,做事情以前要想一想后果。,Trước khi làm việc gì nên suy nghĩ về hậu quả.,REAL,READY
+1793,3,后面,phía sau; phía đuôi; đoạn cuối / đằng sau; gần cuối; ở phía sau / sau này; sau đó,名,我的座位在教室后面。,Chỗ ngồi của tôi ở phía sau lớp học.,REAL,READY
+1794,3,后年,năm sau nữa,名,我计划后年去中国留学。,Tôi dự định năm sau nữa sẽ sang Trung Quốc du học.,REAL,READY
+1795,3,互联网,Internet,名,现在人们可以通过互联网学习。,Ngày nay mọi người có thể học thông qua Internet.,REAL,READY
+1796,3,互相,lẫn nhau / tương hỗ,副,同学之间应该互相帮助。,Các bạn học nên giúp đỡ lẫn nhau.,REAL,READY
+1797,3,划船,chèo thuyền / môn chèo thuyền / thuyền nhỏ,动,天气好的时候我们去湖上划船。,Khi thời tiết đẹp chúng tôi đi chèo thuyền trên hồ.,REAL,READY
+1798,3,华人,người Hoa hoặc người gốc Hoa,名,这个城市生活着很多海外华人。,Thành phố này có nhiều người Hoa ở nước ngoài sinh sống.,REAL,READY
+1799,3,化（现代化）,làm thành / thay đổi thành / -hóa / hoá... / biến đổi / viết tắt của 化學|化学[hua4 xue2] / hiện đại hóa,后缀,这个城市的交通越来越现代化。,Giao thông của thành phố này ngày càng hiện đại hóa.,REAL,READY
+1800,3,话剧,vở kịch sân khấu / kịch hiện đại,名,学校今晚有一场话剧表演。,Tối nay trường có một buổi biểu diễn kịch nói.,REAL,READY
+1801,3,话题,chủ đề (của cuộc nói chuyện) / đề tài,名,大家正在讨论一个有意思的话题。,Mọi người đang thảo luận một chủ đề thú vị.,REAL,READY
+1802,3,欢乐,sự vui vẻ / vui mừng / hân hoan / hân hỉ / niềm vui / hạnh phúc / vui sướng / vui tươi,形,孩子们度过了一个欢乐的周末。,Bọn trẻ đã trải qua một cuối tuần vui vẻ.,REAL,READY
+1803,3,环,"nhẫn / vòng / lặp / mắt xích (chuỗi) / lượng từ cho điểm bắn cung, v.v. / bao quanh / vây quanh / vây kín",名,她手上戴着一个银环。,Cô ấy đeo một chiếc vòng bạc trên tay.,REAL,READY
+1804,3,环保,bảo vệ môi trường / thân thiện với môi trường / viết tắt của 環境保護|环境保护[huan2 jing4 bao3 hu4],名、形,我们应该选择环保的生活方式。,Chúng ta nên lựa chọn lối sống thân thiện với môi trường.,REAL,READY
+1805,3,环境,môi trường / tình huống / xung quanh / không gian xung quanh,名,这里的学习环境很好。,Môi trường học tập ở đây rất tốt.,REAL,READY
+1806,3,会议,cuộc họp / hội nghị,名,今天下午三点有一个重要会议。,Ba giờ chiều nay có một cuộc họp quan trọng.,REAL,READY
+1807,3,会员,thành viên,名,我是这个体育馆的会员。,Tôi là thành viên của nhà thi đấu này.,REAL,READY
+1808,3,活,sống / còn sống / đang sống / công việc / tay nghề,形、动,这条鱼还活着。,Con cá này vẫn còn sống.,REAL,READY
+1809,3,火,lửa / khẩn cấp / đạn dược / rừng rực hoặc bốc cháy / nội nhiệt (y học Trung Quốc) / nóng (phổ biến) / lượng từ cho đơn vị quân đội (cổ) / bộ Khang Hy số 86,名,做饭的时候要小心火。,Khi nấu ăn phải cẩn thận với lửa.,REAL,READY
+1810,3,机器,máy móc,名,工人正在检查这台机器。,Công nhân đang kiểm tra chiếc máy này.,REAL,READY
+1811,3,积极,chủ động / năng động / sôi nổi / tích cực (quan điểm) / chủ động đối phó,形,她积极参加学校的各种活动。,Cô ấy tích cực tham gia các hoạt động của trường.,REAL,READY
+1812,3,基本,cơ bản / nền tảng / chính / yếu tố cơ bản,形,我已经了解了基本情况。,Tôi đã hiểu tình hình cơ bản.,REAL,READY
+1813,3,基本上,về cơ bản / nhìn chung,副,这个问题基本上已经解决了。,Vấn đề này về cơ bản đã được giải quyết.,REAL,READY
+1814,3,基础,nền; nền tảng; cơ sở / căn bản; cơ bản,名,学好发音是学习汉语的重要基础。,Học tốt phát âm là nền tảng quan trọng khi học tiếng Trung.,REAL,READY
+1815,3,及时,kịp thời; đúng lúc / ngay lập tức; không chậm trễ,形,幸好医生及时赶到了。,May mà bác sĩ đã đến kịp thời.,REAL,READY
+1816,3,…极了,cực kỳ / vô cùng,,今天的天气好极了。,Thời tiết hôm nay tuyệt vời vô cùng.,REAL,READY
+1817,3,集体,tập thể (quyết định) / nỗ lực chung / một nhóm / một đội / đồng loạt / như một nhóm,名,这是我们集体讨论后的决定。,Đây là quyết định sau khi tập thể chúng tôi thảo luận.,REAL,READY
+1818,3,集中,tập trung / tập hợp / hợp nhất / tập trung lại / đặt cùng nhau,动、形,上课的时候要集中注意力。,Trong giờ học phải tập trung chú ý.,REAL,READY
+1819,3,计算,đếm / tính toán / tính ra,动,请帮我计算一下总费用。,Hãy giúp tôi tính tổng chi phí.,REAL,READY
+1820,3,记录,"ghi chép / bản ghi chép / người ghi chép / kỷ lục (trong thể thao, v.v.)",名、动,我把每天的学习情况记录下来。,Tôi ghi lại tình hình học tập mỗi ngày.,REAL,READY
+1821,3,记者,phóng viên; nhà báo,名,那位记者正在采访运动员。,Phóng viên đó đang phỏng vấn vận động viên.,REAL,READY
+1822,3,纪录,"biến thể của 記錄|记录[ji4 lu4] (nhưng ở Đài Loan, không dùng cho nghĩa động từ ""ghi lại"")",名,他打破了学校的跑步纪录。,Anh ấy đã phá kỷ lục chạy của trường.,REAL,READY
+1823,3,纪念,tưởng niệm; tôn vinh ký ức của / quà lưu niệm; kỷ vật; đồ lưu niệm,动、名,我们拍了一张照片纪念这次旅行。,Chúng tôi chụp một bức ảnh để kỷ niệm chuyến đi này.,REAL,READY
+1824,3,技术,công nghệ; kỹ thuật; kỹ năng,名,这家公司需要很多技术人员。,Công ty này cần nhiều nhân viên kỹ thuật.,REAL,READY
+1825,3,继续,tiếp tục; tiến hành; tiếp diễn,动,休息十分钟以后我们继续学习。,Sau khi nghỉ mười phút chúng tôi tiếp tục học.,REAL,READY
+1826,3,加工,chế biến / xử lý / vận hành (máy móc),,这些水果会被加工成果汁。,Những loại trái cây này sẽ được chế biến thành nước ép.,REAL,READY
+1827,3,加快,tăng tốc / đẩy nhanh,动,我们需要加快工作速度。,Chúng ta cần tăng nhanh tốc độ làm việc.,REAL,READY
+1828,3,加强,củng cố; tăng cường; nâng cao,动,学校决定加强安全管理。,Nhà trường quyết định tăng cường quản lý an toàn.,REAL,READY
+1829,3,家具,đồ nội thất,名,新房子里的家具都是新的。,Đồ nội thất trong căn nhà mới đều là đồ mới.,REAL,READY
+1830,3,家属,thành viên gia đình / người phụ thuộc (trong gia đình),名,医院通知了病人的家属。,Bệnh viện đã thông báo cho người nhà của bệnh nhân.,REAL,READY
+1831,3,家乡,quê hương / nơi sinh,名,我的家乡是一个美丽的小城市。,Quê hương tôi là một thành phố nhỏ xinh đẹp.,REAL,READY
+1832,3,价格,giá,名,这件衣服的价格有点儿高。,Giá của bộ quần áo này hơi cao.,REAL,READY
+1833,3,价钱,giá cả,名,我想问一下这台电脑的价钱。,Tôi muốn hỏi giá của chiếc máy tính này.,REAL,READY
+1834,3,价值,"giá trị / đáng giá / bóng nghĩa giá trị (đạo đức, văn hoá, v.v.)",名,这本书很有学习价值。,Quyển sách này có giá trị học tập rất lớn.,REAL,READY
+1835,3,架,"chống đỡ / khung / giá / cơ cấu / lượng từ cho máy bay, xe lớn, radio, v.v.",量、名、动,机场里停着三架飞机。,Trong sân bay đang có ba chiếc máy bay.,REAL,READY
+1836,3,坚持,kiên trì / khăng khăng / nhất định,动,只要坚持练习，你一定会进步。,"Chỉ cần kiên trì luyện tập, bạn nhất định sẽ tiến bộ.",REAL,READY
+1837,3,坚决,vững vàng; kiên quyết; quyết tâm,形,他坚决不同意这个计划。,Anh ấy kiên quyết không đồng ý với kế hoạch này.,REAL,READY
+1838,3,坚强,kiên cường / mạnh mẽ,形,遇到困难的时候我们要坚强。,Khi gặp khó khăn chúng ta phải mạnh mẽ.,REAL,READY
+1839,3,简单,đơn giản; không phức tạp,形,这个问题其实很简单。,Vấn đề này thực ra rất đơn giản.,REAL,READY
+1840,3,简直,thực sự; thật sự,副,这里的景色简直太美了。,Phong cảnh ở đây thật sự quá đẹp.,REAL,READY
+1841,3,建,thiết lập / sáng lập / dựng lên / xây dựng / kiến thiết,动,他们准备在这里建一所新学校。,Họ chuẩn bị xây một ngôi trường mới ở đây.,REAL,READY
+1842,3,建成,xây dựng / thiết lập,,这座大桥去年已经建成了。,Cây cầu lớn này đã được xây xong năm ngoái.,REAL,READY
+1843,3,建立,thiết lập / thành lập / sáng lập,动,我们应该建立良好的学习习惯。,Chúng ta nên xây dựng thói quen học tập tốt.,REAL,READY
+1844,3,建设,xây dựng; kiến thiết; thành lập; phát triển; thiết lập,动、名,政府正在建设新的公路。,Chính phủ đang xây dựng một tuyến đường mới.,REAL,READY
+1845,3,建议,đề xuất; đề nghị; kiến nghị,动、名,老师给了我很多学习建议。,Giáo viên đã cho tôi nhiều lời khuyên học tập.,REAL,READY
+1846,3,将近,gần như / hầu như / gần tới,副,会议开了将近三个小时。,Cuộc họp kéo dài gần ba tiếng.,REAL,READY
+1847,3,将来,trong tương lai / tương lai,名,我希望将来能成为一名老师。,Tôi hy vọng trong tương lai có thể trở thành giáo viên.,REAL,READY
+1848,3,交费,trả phí,动,新学期开始前需要先交费。,Trước khi học kỳ mới bắt đầu cần đóng phí trước.,REAL,READY
+1849,3,交警,cảnh sát giao thông (viết tắt của 交通警察[jiao1 tong1 jing3 cha2]),名,路口有一位交警在指挥交通。,Ở ngã tư có một cảnh sát giao thông đang điều khiển giao thông.,REAL,READY
+1850,3,交流,trao đổi / sự trao đổi / giao tiếp / tương tác / có tiếp xúc xã hội (với ai),动、名,我经常和中国朋友交流学习经验。,Tôi thường trao đổi kinh nghiệm học tập với bạn Trung Quốc.,REAL,READY
+1851,3,交往,giao thiệp (với) / có liên hệ (với) / đi chơi (với) / hẹn hò / mối quan hệ (giữa người với người) / quan hệ / liên hệ,动,和别人交往时应该互相尊重。,Khi giao tiếp với người khác nên tôn trọng lẫn nhau.,REAL,READY
+1852,3,交易,giao dịch; buôn bán; thực hiện giao dịch / giao dịch; thỏa thuận,名,这笔交易已经完成了。,Giao dịch này đã hoàn thành.,REAL,READY
+1853,3,较,(hình thức ràng buộc) so sánh / (văn học) tranh luận / so với / (trước tính từ) tương đối; khá; hơi / cũng đọc là [jiao3],副,今天的气温较昨天低。,Nhiệt độ hôm nay thấp hơn hôm qua.,REAL,READY
+1854,3,教材,tài liệu giảng dạy,名,老师给我们发了新的汉语教材。,Giáo viên phát cho chúng tôi giáo trình tiếng Trung mới.,REAL,READY
+1855,3,教练,người hướng dẫn / huấn luyện viên thể thao / huấn luyện viên,名,教练正在教队员怎么训练。,Huấn luyện viên đang dạy các thành viên trong đội cách luyện tập.,REAL,READY
+1856,3,结实,rắn chắc / cường tráng / mạnh mẽ / bền / buff (thể chất),形,这张桌子很结实，可以用很多年。,"Chiếc bàn này rất chắc chắn, có thể dùng nhiều năm.",REAL,READY
+1857,3,接待,"tiếp đón; chiêu đãi; tiếp khách (khách, du khách hoặc khách hàng)",动,酒店工作人员正在接待客人。,Nhân viên khách sạn đang tiếp đón khách.,REAL,READY
+1858,3,接近,tiếp cận; đến gần,动,考试时间越来越接近了。,Thời gian thi ngày càng đến gần.,REAL,READY
+1859,3,节约,tiết kiệm / bảo tồn (tài nguyên) / tính tiết kiệm / đạm bạc,动,我们应该节约用水。,Chúng ta nên tiết kiệm nước.,REAL,READY
+1860,3,结合,kết hợp / liên kết / tích hợp / ràng buộc,动,学习语言要把听和说结合起来。,Học ngôn ngữ phải kết hợp nghe và nói.,REAL,READY
+1861,3,结婚,kết hôn / cưới,,他们准备明年结婚。,Họ chuẩn bị kết hôn vào năm sau.,REAL,READY
+1862,3,结束,chấm dứt / hoàn thành / kết thúc / kết luận / khép lại,动,会议下午五点结束。,Cuộc họp kết thúc lúc năm giờ chiều.,REAL,READY
+1863,3,解决,"giải quyết; xử lý; giải quyết (một vấn đề) / loại bỏ; tiêu diệt (kẻ thù, cướp bóc, v.v.)",动,我们终于找到了解决这个问题的方法。,Cuối cùng chúng tôi đã tìm ra cách giải quyết vấn đề này.,REAL,READY
+1864,3,解开,tháo ra / mở ra / giải (một bí ẩn),,请帮我解开这个袋子。,Hãy giúp tôi mở chiếc túi này.,REAL,READY
+1865,3,金,vàng / nguyên tố hóa học Au / thuật ngữ chung cho kim loại bóng và dễ dát / tiền / màu vàng / được tôn trọng / một trong tám loại nhạc cụ cổ đại 八音[ba1 yin1],名,她戴着一条金项链。,Cô ấy đang đeo một chiếc dây chuyền vàng.,REAL,READY
+1866,3,金牌,huy chương vàng,名,他在比赛中获得了一块金牌。,Anh ấy giành được một huy chương vàng trong cuộc thi.,REAL,READY
+1867,3,仅,hầu như / chỉ / vừa đủ,副,今天仅有十名学生来上课。,Hôm nay chỉ có mười học sinh đến lớp.,REAL,READY
+1868,3,仅仅,hầu như không / chỉ / đơn thuần / chỉ (cái này và không hơn),副,我仅仅问了他一个问题。,Tôi chỉ hỏi anh ấy một câu hỏi.,REAL,READY
+1869,3,尽量,càng nhiều càng tốt / đến mức tối đa,副,考试的时候请尽量认真一点儿。,Khi thi hãy cố gắng cẩn thận hết mức có thể.,REAL,READY
+1870,3,紧,chặt / chặt chẽ / sát gần / gần / cấp bách / căng thẳng / kẹt tiền / thiếu tiền / thắt chặt,形,请把瓶盖拧紧。,Hãy vặn chặt nắp chai.,REAL,READY
+1871,3,紧急,khẩn cấp / tình huống khẩn cấp,形,发生紧急情况时请马上报警。,Khi xảy ra tình huống khẩn cấp hãy lập tức báo cảnh sát.,REAL,READY
+1872,3,紧张,căng thẳng / hồi hộp / mạnh / mức độ cao / khẩn trương / khó khăn / khan hiếm,形,明天要考试了，我有一点儿紧张。,"Ngày mai thi rồi, tôi hơi căng thẳng.",REAL,READY
+1873,3,进步,tiến bộ; cải thiện / cải thiện; tiến bộ,动、形,经过一个学期的学习，他进步很大。,"Sau một học kỳ học tập, anh ấy tiến bộ rất nhiều.",REAL,READY
+1874,3,进一步,"tiến thêm một bước / (phát triển, hiểu, cải thiện, v.v.) hơn nữa; thêm",副,我们需要进一步了解情况。,Chúng ta cần tìm hiểu tình hình thêm một bước nữa.,REAL,READY
+1875,3,进展,tiến triển; đạt tiến bộ,动,这个项目目前进展顺利。,Dự án này hiện đang tiến triển thuận lợi.,REAL,READY
+1876,3,近期,gần về mặt thời gian / gần đây / trong tương lai gần / rất sớm,名,我近期没有出国的计划。,Gần đây tôi không có kế hoạch ra nước ngoài.,REAL,READY
+1877,3,京剧,Kinh kịch,名,我的爷爷非常喜欢听京剧。,Ông tôi rất thích nghe Kinh kịch.,REAL,READY
+1878,3,经济,kinh tế / thuộc về kinh tế,名、形,旅游业对当地经济很重要。,Ngành du lịch rất quan trọng đối với kinh tế địa phương.,REAL,READY
+1879,3,经历,kinh nghiệm / trải qua / trải nghiệm,动、名,这次旅行是一次难忘的经历。,Chuyến đi này là một trải nghiệm khó quên.,REAL,READY
+1880,3,经验,kinh nghiệm / trải nghiệm,名,他有很多教学经验。,Anh ấy có rất nhiều kinh nghiệm giảng dạy.,REAL,READY
+1881,3,经营,"tham gia (kinh doanh, v.v.); điều hành; vận hành",动,他们一家经营着一家小饭馆。,Gia đình họ điều hành một nhà hàng nhỏ.,REAL,READY
+1882,3,精彩,tuyệt vời / kỳ diệu / xuất sắc,形,昨天的足球比赛非常精彩。,Trận bóng đá hôm qua vô cùng精彩.,REAL,READY
+1883,3,精神,tinh thần / tâm trí / ý thức / suy nghĩ / tâm lý / tinh hoa / cốt lõi,名,我们应该学习他的认真精神。,Chúng ta nên học tinh thần nghiêm túc của anh ấy.,REAL,READY
+1884,3,精神,sinh lực; sức sống / phấn chấn / ưa nhìn,形、名,他今天看起来很精神。,Hôm nay anh ấy trông rất khỏe khoắn.,REAL,READY
+1885,3,景色,phong cảnh / cảnh / quang cảnh / tầm nhìn,名,山上的景色非常漂亮。,Phong cảnh trên núi rất đẹp.,REAL,READY
+1886,3,警察,cảnh sát; sĩ quan cảnh sát,名,我向警察问了去车站的路。,Tôi đã hỏi cảnh sát đường đến nhà ga.,REAL,READY
+1887,3,静,yên / tĩnh / lặng / không động đậy,形、动,夜里四周非常静。,Ban đêm xung quanh rất yên tĩnh.,REAL,READY
+1888,3,久,thời gian (dài) / (khoảng) thời gian dài,形,我已经很久没有见到他了。,Tôi đã lâu rồi không gặp anh ấy.,REAL,READY
+1889,3,旧,cũ / đối lập: mới 新 / trước / hao mòn (theo thời gian),形,这台旧电脑还能使用。,Chiếc máy tính cũ này vẫn còn dùng được.,REAL,READY
+1890,3,救,biến thể của 救[jiu4] / cứu / cứu giúp / cứu thoát,动,消防员救出了房子里的人。,Lính cứu hỏa đã cứu những người trong căn nhà ra ngoài.,REAL,READY
+1891,3,就是,chính xác; đúng / chỉ; đơn giản; chỉ là / (dùng với 也[ye3]) ngay cả; thậm chí nếu,连,我想找的人就是他。,Người tôi muốn tìm chính là anh ấy.,REAL,READY
+1892,3,就业,tìm được việc làm / việc làm,,学校为学生提供就业帮助。,Nhà trường cung cấp hỗ trợ việc làm cho sinh viên.,REAL,READY
+1893,3,举办,tổ chức / tiến hành,动,学校下个月举办运动会。,Tháng sau trường sẽ tổ chức hội thao.,REAL,READY
+1894,3,具体,cụ thể; chi tiết; rõ ràng,形,请告诉我具体的时间和地点。,Hãy nói cho tôi thời gian và địa điểm cụ thể.,REAL,READY
+1895,3,具有,có; sở hữu,动,这种植物具有很高的经济价值。,Loại thực vật này có giá trị kinh tế rất cao.,REAL,READY
+1896,3,剧场,rạp hát,名,我们晚上去剧场看表演。,Buổi tối chúng tôi đến nhà hát xem biểu diễn.,REAL,READY
+1897,3,据说,nghe nói rằng; theo báo cáo,动,据说这家饭馆已经开了三十年。,Nghe nói nhà hàng này đã mở được ba mươi năm.,REAL,READY
+1898,3,决定,quyết định (làm gì đó) / quyết tâm / quyết định / chắc chắn,动、名,我决定明年去中国留学。,Tôi quyết định năm sau sang Trung Quốc du học.,REAL,READY
+1899,3,决赛,chung kết (của một cuộc thi),动、名,我们队已经进入了决赛。,Đội chúng tôi đã vào vòng chung kết.,REAL,READY
+1900,3,决心,quyết tâm / sự kiên quyết / quyết đoán / kiên quyết và dứt khoát / quyết định,名、动,我下定决心每天学习两个小时。,Tôi quyết tâm học hai tiếng mỗi ngày.,REAL,READY
+1901,3,绝对,tuyệt đối; vô điều kiện,副,这个消息绝对是真的。,Tin này tuyệt đối là thật.,REAL,READY
+1902,3,咖啡,cà phê (từ mượn),名,我每天早上喝一杯咖啡。,Mỗi sáng tôi uống một cốc cà phê.,REAL,READY
+1903,3,开发,khai thác (tài nguyên); mở ra (để phát triển); phát triển,动,公司正在开发一个新的手机应用。,Công ty đang phát triển một ứng dụng điện thoại mới.,REAL,READY
+1904,3,开放,nở hoa / mở / mở cửa (cho công chúng) / mở ra (với bên ngoài) / cởi mở / phóng khoáng về quan niệm / không gò bó trong tình dục,动,图书馆周末也对学生开放。,Thư viện cuối tuần cũng mở cửa cho sinh viên.,REAL,READY
+1905,3,开始,bắt đầu / khởi đầu / ban đầu / lúc đầu,动、名,会议九点开始。,Cuộc họp bắt đầu lúc chín giờ.,REAL,READY
+1906,3,开业,khai trương kinh doanh / mở phòng khám / mở cửa (kinh doanh),,那家新饭店下周开业。,Nhà hàng mới đó sẽ khai trương vào tuần sau.,REAL,READY
+1907,3,开展,khai mạc / phát triển / mở ra / (ví dụ: triển lãm) mở cửa,动,学校正在开展环保活动。,Nhà trường đang triển khai hoạt động bảo vệ môi trường.,REAL,READY
+1908,3,看起来,hình như; rõ ràng; trông có vẻ; hiện ra như; cho ấn tượng rằng; dường như bề ngoài là,,他今天看起来很累。,Hôm nay trông anh ấy rất mệt.,REAL,READY
+1909,3,看上去,dường như / có vẻ (như),,这件衣服看上去很适合你。,Bộ quần áo này trông rất hợp với bạn.,REAL,READY
+1910,3,考验,"thử thách / đưa vào thử thách / thử nghiệm / khó khăn, thử thách nghiêm trọng",动,这次比赛是对我们能力的一次考验。,Cuộc thi lần này là một thử thách đối với năng lực của chúng tôi.,REAL,READY
+1911,3,科技,khoa học và công nghệ,名,现代科技改变了我们的生活。,Khoa học công nghệ hiện đại đã thay đổi cuộc sống của chúng ta.,REAL,READY
+1912,3,可靠,đáng tin cậy,形,他是一个很可靠的朋友。,Anh ấy là một người bạn rất đáng tin cậy.,REAL,READY
+1913,3,可乐,"vui / hay ho, thú vị / (từ mượn) cola",名,我不常喝可乐。,Tôi không thường uống cola.,REAL,READY
+1914,3,克服,"(cố gắng) khắc phục (khó khăn, v.v.) / chinh phục / chịu đựng / nhẫn nại",动,我们要努力克服学习中的困难。,Chúng ta phải cố gắng khắc phục những khó khăn trong học tập.,REAL,READY
+1915,3,客观,khách quan / công bằng,形,我们应该客观地看待这个问题。,Chúng ta nên nhìn nhận vấn đề này một cách khách quan.,REAL,READY
+1916,3,课程,khóa học / chương trình học,名,这学期我选了五门课程。,Học kỳ này tôi chọn năm môn học.,REAL,READY
+1917,3,空,trống không / không khí / bầu trời / uổng phí,形、副,教室里一个人也没有，很空。,"Trong lớp không có ai, rất trống.",REAL,READY
+1918,3,空调,điều hòa không khí / máy điều hòa (bao gồm cả loại có chế độ sưởi),名,天太热了，请打开空调。,"Trời nóng quá, hãy bật điều hòa.",REAL,READY
+1919,3,恐怕,sợ / sợ rằng / tôi e rằng... / có lẽ / có thể,副,今天恐怕要下雨。,Hôm nay e rằng trời sẽ mưa.,REAL,READY
+1920,3,空儿,thời gian rảnh / thời gian tự do,名,你有空儿的时候给我打电话。,"Khi có thời gian rảnh, bạn hãy gọi cho tôi.",REAL,READY
+1921,3,裤子,"biến thể của 褲子|裤子, quần dài / quần tây / quần dài / quần",名,这条裤子有点儿长。,Chiếc quần này hơi dài.,REAL,READY
+1922,3,快速,nhanh; tốc độ cao; mau lẹ,形,城市正在快速发展。,Thành phố đang phát triển nhanh chóng.,REAL,READY
+1923,3,困,bẫy / bao vây / bị áp lực / mắc kẹt / cùng quẫn / buồn ngủ / mệt mỏi,形、动,昨晚没睡好，我现在很困。,Tối qua tôi ngủ không ngon nên bây giờ rất buồn ngủ.,REAL,READY
+1924,3,困难,khó khăn / thử thách / tình cảnh eo hẹp / tình huống khó khăn,名、形,遇到困难不要轻易放弃。,Khi gặp khó khăn đừng dễ dàng bỏ cuộc.,REAL,READY
+1925,3,浪费,lãng phí / phung phí,动,不要浪费时间。,Đừng lãng phí thời gian.,REAL,READY
+1926,3,老百姓,người dân thường / người bình thường,名,这个政策给老百姓带来了方便。,Chính sách này mang lại sự thuận tiện cho người dân.,REAL,READY
+1927,3,老板,biến thể của 老闆|老板[lao3 ban3] / sếp / chủ doanh nghiệp,名,老板今天不在公司。,Hôm nay ông chủ không có ở công ty.,REAL,READY
+1928,3,老太太,bà lão (tôn kính) / mẹ kính yêu,名,那位老太太每天早上来公园散步。,Bà lão đó mỗi sáng đều đến công viên đi dạo.,REAL,READY
+1929,3,老头儿,xem 老頭子|老头子[lao3 tou2 zi5],名,门口坐着一个老头儿。,Ở cửa có một ông lão đang ngồi.,REAL,READY
+1930,3,乐,vui / vui vẻ / cười,动,听到这个好消息，大家都乐了。,"Nghe tin tốt này, mọi người đều vui.",REAL,READY
+1931,3,乐观,lạc quan; đầy hy vọng,形,她一直保持乐观的态度。,Cô ấy luôn giữ thái độ lạc quan.,REAL,READY
+1932,3,类,loại / kiểu / lớp / hạng / tương tự / giống / giống như,名、量,这里有很多类商品。,Ở đây có rất nhiều loại hàng hóa.,REAL,READY
+1933,3,类似,tương tự; tương đồng,动、形,我以前遇到过类似的问题。,Trước đây tôi từng gặp vấn đề tương tự.,REAL,READY
+1934,3,离婚,ly hôn,,他们去年离婚了。,Họ đã ly hôn vào năm ngoái.,REAL,READY
+1935,3,里面,bên trong / nội bộ / cũng đọc là [li3 mian5],名,包里面有一本书。,Bên trong túi có một quyển sách.,REAL,READY
+1936,3,理发,cắt tóc; làm tóc / cắt tóc (cho ai đó); cắt tóc cho (ai đó),,我下午去理发。,Chiều nay tôi đi cắt tóc.,REAL,READY
+1937,3,理解,lĩnh hội; hiểu,动,谢谢你理解我的想法。,Cảm ơn bạn đã hiểu suy nghĩ của tôi.,REAL,READY
+1938,3,理论,lý thuyết / tranh luận / chú ý đến,名,学习理论以后还要多实践。,Sau khi học lý thuyết còn phải thực hành nhiều.,REAL,READY
+1939,3,理由,lý do / cơ sở / sự biện minh,名,你迟到有什么理由吗？,Bạn có lý do gì cho việc đến muộn không?,REAL,READY
+1940,3,力,sức mạnh / lực / sức / khả năng / một cách gắng sức,名,他使出全身的力推开了门。,Anh ấy dùng hết sức đẩy cánh cửa ra.,REAL,READY
+1941,3,力量,sức mạnh; lực lượng; sức lực,名,团结就是力量。,Đoàn kết chính là sức mạnh.,REAL,READY
+1942,3,立刻,ngay lập tức / lập tức / ngay / ngay tức khắc / lúc đó,副,听到消息后，他立刻赶来了。,"Sau khi nghe tin, anh ấy lập tức chạy đến.",REAL,READY
+1943,3,利用,tận dụng / sử dụng / lợi dụng / khai thác,动,我们要充分利用时间。,Chúng ta phải tận dụng tốt thời gian.,REAL,READY
+1944,3,连,"liên kết / gia nhập / kết nối / liên tục / liên tiếp / bao gồm / (dùng với 也[ye3], 都[dou1],...) thậm chí / đại đội (quân đội)",动、副,他太忙了，连午饭都没吃。,"Anh ấy quá bận, đến cả bữa trưa cũng không ăn.",REAL,READY
+1945,3,连忙,ngay lập tức / lập tức,副,孩子摔倒了，妈妈连忙跑过去。,"Đứa trẻ bị ngã, mẹ lập tức chạy tới.",REAL,READY
+1946,3,连续,liên tục / liền một mạch / theo chuỗi / liên tiếp,动,他连续工作了八个小时。,Anh ấy làm việc liên tục tám tiếng.,REAL,READY
+1947,3,连续剧,phim truyền hình nhiều tập / phim bộ / chương trình nhiều phần,名,奶奶每天晚上都看连续剧。,Bà mỗi tối đều xem phim truyền hình nhiều tập.,REAL,READY
+1948,3,联合,kết hợp / gia nhập / hợp nhất / liên minh,动,两家公司决定联合开发新产品。,Hai công ty quyết định cùng phát triển sản phẩm mới.,REAL,READY
+1949,3,联合国,Liên Hợp Quốc,名,联合国总部在纽约。,Trụ sở Liên Hợp Quốc ở New York.,REAL,READY
+1950,3,联系,biến thể của 聯繫|联系[lian2 xi4] / kết nối / liên hệ / quan hệ / liên lạc / tích hợp / liên kết / tiếp xúc,动、名,到北京以后请联系我。,Sau khi đến Bắc Kinh hãy liên lạc với tôi.,REAL,READY
+1951,3,凉水,nước mát / nước chưa đun sôi,名,运动以后不要马上喝太多凉水。,Sau khi vận động không nên uống quá nhiều nước lạnh ngay.,REAL,READY
+1952,3,了,hoàn thành / đạt được / biến thể của 瞭|了[liao3] / hiểu rõ / (mắt) sáng / rõ ràng / hiểu rõ,动,他终于了却了多年的心愿。,Cuối cùng anh ấy đã hoàn thành tâm nguyện nhiều năm.,REAL,READY
+1953,3,领,"cổ / cổ áo / dẫn dắt / nhận / lượng từ cho quần áo, chiếu, màn hình, v.v.",动,我去办公室领新教材。,Tôi đến văn phòng nhận giáo trình mới.,REAL,READY
+1954,3,领导,dẫn dắt / dẫn đầu / lãnh đạo / sự lãnh đạo / người lãnh đạo,动、名,领导正在开会。,Lãnh đạo đang họp.,REAL,READY
+1955,3,领先,dẫn đầu / dẫn trước,,我们队现在领先两分。,Đội chúng tôi hiện đang dẫn trước hai điểm.,REAL,READY
+1956,3,另外,bổ sung / thêm vào / ngoài ra / tách biệt / khác / hơn nữa / hơn thế,代、副、连,我买了苹果，另外还买了香蕉。,"Tôi mua táo, ngoài ra còn mua chuối.",REAL,READY
+1957,3,另一方面,mặt khác / một khía cạnh khác,,这份工作工资高，另一方面压力也很大。,"Công việc này lương cao, mặt khác áp lực cũng rất lớn.",REAL,READY
+1958,3,留学,du học,,她明年准备去中国留学。,Năm sau cô ấy dự định sang Trung Quốc du học.,REAL,READY
+1959,3,龙,rồng / hoàng gia,名,中国文化中常常可以看到龙的形象。,Trong văn hóa Trung Quốc thường thấy hình tượng rồng.,REAL,READY
+1960,3,录,khắc gỗ / nhật ký / ghi chép / quay / sao chép,动,请帮我把这段声音录下来。,Hãy giúp tôi ghi lại đoạn âm thanh này.,REAL,READY
+1961,3,录音,ghi âm (âm thanh) / bản ghi âm,动、名,我每天听中文录音练习听力。,Mỗi ngày tôi nghe bản ghi âm tiếng Trung để luyện nghe.,REAL,READY
+1962,3,路线,hành trình / tuyến đường / đường lối chính trị (ví dụ: con đường xét lại hữu),名,我们先查一下去机场的路线。,Trước tiên chúng ta hãy xem tuyến đường đến sân bay.,REAL,READY
+1963,3,旅馆,khách sạn / lượng từ: 家[jia1],名,我们在火车站附近找了一家旅馆。,Chúng tôi tìm một khách sạn gần ga tàu.,REAL,READY
+1964,3,旅行社,công ty du lịch,名,这家旅行社安排了我们的行程。,Công ty du lịch này đã sắp xếp hành trình cho chúng tôi.,REAL,READY
+1965,3,绿茶,trà xanh / (tiếng lóng) (về một cô gái) tưởng chừng như ngây thơ và quyến rũ nhưng thực ra lại toan tính và thủ đoạn / một cô gái có những nét này,名,我喜欢喝不加糖的绿茶。,Tôi thích uống trà xanh không đường.,REAL,READY
+1966,3,乱,trong tình trạng rối loạn / trạng thái tinh thần bối rối / mất trật tự / biến động / bạo loạn / quan hệ tình dục phi pháp / làm rối loạn / trộn lẫn / không phân biệt / bừa bãi / tùy tiện,形,房间太乱了，你收拾一下吧。,"Phòng bừa bộn quá, bạn dọn một chút đi.",REAL,READY
+1967,3,落后,"tụt hậu / lạc hậu (về công nghệ, v.v.) / lạc hậu / thụt lùi",,这种技术已经落后了。,Công nghệ này đã lạc hậu rồi.,REAL,READY
+1968,3,麻烦,rắc rối; bất tiện / không tiện; phiền phức; gây khó chịu / làm phiền ai; làm phiền ai đó,动、形,麻烦你帮我开一下门。,Phiền bạn giúp tôi mở cửa.,REAL,READY
+1969,3,马,ngựa / Lượng từ: 匹[pi3] / quân mã trong cờ tướng / quân mã trong cờ vua,名,草地上有几匹马。,Trên bãi cỏ có vài con ngựa.,REAL,READY
+1970,3,满足,thoả mãn / đáp ứng (nhu cầu) / hài lòng / hài dạ,动,这个结果不能满足大家的要求。,Kết quả này không thể đáp ứng yêu cầu của mọi người.,REAL,READY
+1971,3,慢慢,chậm rãi; dần dần,,别着急，慢慢说。,"Đừng vội, hãy nói từ từ.",REAL,READY
+1972,3,毛病,lỗi / sai sót / khuyết điểm / bệnh tật,名,这台电脑出了点儿毛病。,Máy tính này gặp một chút trục trặc.,REAL,READY
+1973,3,没用,vô dụng,动,现在后悔也没用。,Bây giờ hối hận cũng vô ích.,REAL,READY
+1974,3,媒体,"truyền thông, đặc biệt là truyền thông tin tức",名,这件事受到了媒体的关注。,Việc này đã nhận được sự quan tâm của truyền thông.,REAL,READY
+1975,3,每,mỗi / mọi,代、副,我每天七点起床。,Mỗi ngày tôi thức dậy lúc bảy giờ.,REAL,READY
+1976,3,美,đẹp / rất thỏa mãn; tốt / làm đẹp / hài lòng với bản thân,形,春天的校园真美。,Khuôn viên trường vào mùa xuân thật đẹp.,REAL,READY
+1977,3,美好,đẹp / tốt đẹp,形,我希望大家都有美好的未来。,Tôi hy vọng mọi người đều có tương lai tốt đẹp.,REAL,READY
+1978,3,美丽,đẹp,形,这个海边城市非常美丽。,Thành phố ven biển này rất đẹp.,REAL,READY
+1979,3,美食,món ngon / món ăn tinh tế / ẩm thực hảo hạng,名,这里有很多当地美食。,Ở đây có rất nhiều món ngon địa phương.,REAL,READY
+1980,3,美术,nghệ thuật / mỹ thuật / hội họa,名,妹妹从小就喜欢美术。,Em gái từ nhỏ đã thích mỹ thuật.,REAL,READY
+1981,3,美元,đô la Mỹ / đô la Hoa Kỳ,名,这本书十美元。,Quyển sách này giá mười đô la Mỹ.,REAL,READY
+1982,3,迷,làm bối rối / mê mẩn / người hâm mộ / nhà nhiệt tình / lạc / mơ hồ,动,他是一个足球迷。,Anh ấy là một người hâm mộ bóng đá.,REAL,READY
+1983,3,面对,đối mặt; đương đầu,动,面对困难时要保持冷静。,Khi đối mặt với khó khăn phải giữ bình tĩnh.,REAL,READY
+1984,3,面积,"diện tích (của sàn, mảnh đất, v.v.) / diện tích bề mặt / khu đất",名,这个房间的面积是二十平方米。,Diện tích căn phòng này là hai mươi mét vuông.,REAL,READY
+1985,3,民间,trong nhân dân / dân gian / thuộc về dân chúng / phi chính phủ / liên quan đến người dân thay vì chính phủ,名,这个故事来自民间传说。,Câu chuyện này bắt nguồn từ truyền thuyết dân gian.,REAL,READY
+1986,3,民族,quốc tịch; dân tộc,名,中国有很多民族。,Trung Quốc có nhiều dân tộc.,REAL,READY
+1987,3,明确,rõ ràng; dứt khoát; rõ rệt / làm rõ; chỉ rõ; làm cho rõ ràng,形、动,老师明确说明了考试要求。,Giáo viên đã nói rõ yêu cầu của kỳ thi.,REAL,READY
+1988,3,明显,rõ ràng / rõ rệt / hiển nhiên,形,他的汉语进步很明显。,Tiếng Trung của anh ấy tiến bộ rất rõ rệt.,REAL,READY
+1989,3,命运,số phận; định mệnh,名,我们要努力改变自己的命运。,Chúng ta phải cố gắng thay đổi vận mệnh của mình.,REAL,READY
+1990,3,某,một vài / một cái nào đó / ai đó hoặc cái gì đó không xác định / nào đó,代,某公司正在招聘新员工。,Một công ty nào đó đang tuyển nhân viên mới.,REAL,READY
+1991,3,母亲,mẹ / cũng đọc là [mu3 qin5],名,我的母亲是一名老师。,Mẹ tôi là một giáo viên.,REAL,READY
+1992,3,木头,"chậm chạp / đần độn / khúc gỗ (gỗ, gỗ timber, v.v.)",名,这张桌子是用木头做的。,Chiếc bàn này được làm bằng gỗ.,REAL,READY
+1993,3,目标,mục tiêu / mục đích,名,我的目标是通过HSK考试。,Mục tiêu của tôi là vượt qua kỳ thi HSK.,REAL,READY
+1994,3,目前,hiện tại / bây giờ,名,目前一切都很顺利。,Hiện tại mọi việc đều rất thuận lợi.,REAL,READY
+1995,3,奶茶,trà sữa,名,她喜欢喝热奶茶。,Cô ấy thích uống trà sữa nóng.,REAL,READY
+1996,3,男子,một người đàn ông; nam giới,名,一名男子正在路边等车。,Một người đàn ông đang đợi xe bên đường.,REAL,READY
+1997,3,南部,phần phía nam,名,这个国家南部气候温暖。,Phần phía nam của quốc gia này có khí hậu ấm áp.,REAL,READY
+1998,3,难道,chẳng lẽ... / có thể nào...?,副,难道你忘了今天的考试吗？,Chẳng lẽ bạn quên kỳ thi hôm nay rồi sao?,REAL,READY
+1999,3,难度,mức độ khó,名,这道题的难度比较大。,Mức độ khó của câu này tương đối cao.,REAL,READY
+2000,3,内,bên trong / nội bộ / trong / nội địa,名,请在三天内完成这项工作。,Hãy hoàn thành công việc này trong ba ngày.,REAL,READY
+2001,3,内容,nội dung / bản chất / chi tiết,名,这篇文章的内容很有意思。,Nội dung bài viết này rất thú vị.,REAL,READY
+2002,3,内心,trái tim; tận sâu trong lòng / (toán) tâm nội tiếp,名,听到这个消息，我内心很激动。,"Nghe tin này, trong lòng tôi rất xúc động.",REAL,READY
+2003,3,能不能,có thể hay không; có ... được không,,你能不能再说一遍？,Bạn có thể nói lại một lần nữa không?,REAL,READY
+2004,3,能力,năng lực / khả năng,名,她有很强的工作能力。,Cô ấy có năng lực làm việc rất tốt.,REAL,READY
+2005,3,年初,đầu năm,名,公司在年初制定了新的计划。,Công ty đã lập kế hoạch mới vào đầu năm.,REAL,READY
+2006,3,年代,thập kỷ của một thế kỷ (ví dụ: những năm sáu mươi) / thời đại / kỷ nguyên / giai đoạn,名,这首歌在九十年代很流行。,Bài hát này rất thịnh hành vào những năm 1990.,REAL,READY
+2007,3,年底,cuối năm,名,这个项目计划在年底完成。,Dự án này dự kiến hoàn thành vào cuối năm.,REAL,READY
+2008,3,年纪,tuổi,名,他年纪虽然大，但是身体很好。,Tuy tuổi ông ấy cao nhưng sức khỏe rất tốt.,REAL,READY
+2009,3,念,"biến thể của 念[nian4], đọc to / đọc / học (một môn) / theo học (một trường) / đọc to / la mắng (LT:頓|顿[dun4]) / nhớ (ai đó) / ý tưởng / hồi tưởng / hai mươi (chữ số chống gian lận trong ngân hàng tương ứng với 廿[nian4])",动,老师让我们一起念这段课文。,Giáo viên yêu cầu chúng tôi cùng đọc đoạn bài khóa này.,REAL,READY
+2010,3,牛,"con bò / newton (viết tắt của 牛頓|牛顿[niu2 dun4]) / (lóng) đỉnh, chất",名,农场里养了很多牛。,Trong trang trại nuôi rất nhiều bò.,REAL,READY
+2011,3,农村,khu vực nông thôn / làng,名,我的爷爷奶奶住在农村。,Ông bà tôi sống ở nông thôn.,REAL,READY
+2012,3,农民,nông dân; nông phu,名,这些农民每天很早就开始工作。,Những người nông dân này mỗi ngày bắt đầu làm việc rất sớm.,REAL,READY
+2013,3,农业,nông nghiệp,名,这个地区主要发展农业。,Khu vực này chủ yếu phát triển nông nghiệp.,REAL,READY
+2014,3,女子,phụ nữ / nữ,名,那名女子正在向警察问路。,Người phụ nữ đó đang hỏi đường cảnh sát.,REAL,READY
+2015,3,暖和,ấm / ấm áp,形,今天比昨天暖和多了。,Hôm nay ấm hơn hôm qua nhiều.,REAL,READY
+2016,3,拍,vỗ / vỗ tay / tát / đập / chụp (ảnh) / quay (phim) / vợt (thể thao) / nhịp (âm nhạc),动,我想给你拍一张照片。,Tôi muốn chụp cho bạn một bức ảnh.,REAL,READY
+2017,3,排名,"xếp hạng (1, 2 v.v.) / bảng xếp hạng",,这所大学的排名很高。,Thứ hạng của trường đại học này rất cao.,REAL,READY
+2018,3,牌子,biển hiệu / thương hiệu / nhãn hiệu,名,商店门口挂着一个大牌子。,Trước cửa hàng treo một tấm biển lớn.,REAL,READY
+2019,3,派,"bè phái / trường phái / nhóm / phái / cử / đi / phái đi / bổ nhiệm / pi (chữ cái Hy Lạp Ππ) / tỉ số đường tròn pi = 3,1415926 / (từ mượn) bánh pie",动、名,公司派我去上海出差。,Công ty cử tôi đi Thượng Hải công tác.,REAL,READY
+2020,3,判断,phán đoán / xác định / phán xét,动、名,我们不能只根据外表判断一个人。,Chúng ta không thể chỉ dựa vào bề ngoài để phán đoán một người.,REAL,READY
+2021,3,胖,mập / mũm mĩm,形,他最近胖了一点儿。,Gần đây anh ấy béo lên một chút.,REAL,READY
+2022,3,跑步,chạy / chạy bộ / (quân đội) diễu hành nhanh,,我每天早上去公园跑步。,Mỗi sáng tôi đến công viên chạy bộ.,REAL,READY
+2023,3,配,kết hợp / phù hợp / giao phối / trộn / phối hợp / xứng đáng / chế (đơn thuốc) / phân bổ,动,这条裤子很配你的鞋。,Chiếc quần này rất hợp với đôi giày của bạn.,REAL,READY
+2024,3,配合,phù hợp / phối hợp với / tương thích với / tương ứng / tuân thủ / quan hệ tốt / hành động cùng nhau / hợp tác / trở thành vợ chồng / kết hợp các bộ phận của máy móc,动,谢谢大家配合我们的工作。,Cảm ơn mọi người đã phối hợp với công việc của chúng tôi.,REAL,READY
+2025,3,批评,phê bình; chỉ trích,动,老师没有批评他，而是耐心地帮助他。,Giáo viên không phê bình anh ấy mà kiên nhẫn giúp đỡ.,REAL,READY
+2026,3,批准,phê duyệt; phê chuẩn,动,经理已经批准了我的请假申请。,Quản lý đã phê duyệt đơn xin nghỉ của tôi.,REAL,READY
+2027,3,皮,da / da lông / lông / pico- (một phần nghìn tỷ) / nghịch ngợm,名,苹果的皮可以吃。,Vỏ táo có thể ăn được.,REAL,READY
+2028,3,皮包,túi xách / cặp tài liệu,名,她手里拿着一个黑色皮包。,Cô ấy đang cầm một chiếc túi da màu đen.,REAL,READY
+2029,3,啤酒,bia (từ mượn),名,爸爸晚饭时喝了一杯啤酒。,Bố uống một cốc bia trong bữa tối.,REAL,READY
+2030,3,票价,giá vé; giá vé xe; phí vào cửa,名,这趟火车的票价不贵。,Giá vé chuyến tàu này không đắt.,REAL,READY
+2031,3,评价,đánh giá,动、名,大家对这部电影的评价很高。,Mọi người đánh giá bộ phim này rất cao.,REAL,READY
+2032,3,苹果,quả táo,名,我每天吃一个苹果。,Mỗi ngày tôi ăn một quả táo.,REAL,READY
+2033,3,破,"hỏng / hư / hao mòn / tệ / hỏng bét / phá, tách hoặc chẻ / bỏ đi / phá hủy / tuyệt giao / đánh bại / chiếm được (một thành phố,...) / vạch trần sự thật",形、动,我的鞋破了，需要换一双新的。,"Giày của tôi bị rách rồi, cần đổi một đôi mới.",REAL,READY
+2034,3,破坏,sự phá hủy / hư hại / phá hoại / làm vỡ / phá hủy,动,请不要破坏公共设施。,Xin đừng phá hoại các công trình công cộng.,REAL,READY
+2035,3,普遍,phổ quát / chung chung / lan rộng / phổ biến,形,这种学习方法很普遍。,Phương pháp học này rất phổ biến.,REAL,READY
+2036,3,普及,lan rộng / phổ biến / phổ cập / phổ thông / khắp nơi / thịnh hành / toàn cầu,动、形,智能手机已经非常普及。,Điện thoại thông minh đã trở nên rất phổ biến.,REAL,READY
+2037,3,期,"biến thể của 期[qi1] / thời kỳ / chu kỳ / một khoảng thời gian / giai đoạn / lượng từ cho số phát hành của tạp chí, khóa học / thời gian / học kỳ / thời kỳ / kỳ vọng / âm đọc ở Đài Loan: [qi2]",量,这期杂志介绍了很多旅游景点。,Số tạp chí kỳ này giới thiệu nhiều địa điểm du lịch.,REAL,READY
+2038,3,齐,gọn gàng / đồng đều / cùng mức / giống hệt / đồng thời / cùng nhau / làm cho đều,形、动,大家都到齐了，我们开始吧。,"Mọi người đã đến đủ rồi, chúng ta bắt đầu nhé.",REAL,READY
+2039,3,其次,tiếp theo / thứ hai,代,首先要保证质量，其次才考虑价格。,"Trước hết phải bảo đảm chất lượng, tiếp theo mới cân nhắc giá cả.",REAL,READY
+2040,3,其实,thực ra; thực tế; thật sự,副,其实这个问题没有那么难。,Thực ra vấn đề này không khó đến vậy.,REAL,READY
+2041,3,奇怪,kỳ lạ / lập dị / ngạc nhiên / bối rối,形,今天他没来上课，真奇怪。,"Hôm nay anh ấy không đến học, thật kỳ lạ.",REAL,READY
+2042,3,气候,(khí tượng) khí hậu / (bóng) bầu không khí; điều kiện thịnh hành (trong các vấn đề nhân sự) / Lượng từ: 種|种[zhong3],名,这里的气候四季都很温和。,Khí hậu ở đây ôn hòa quanh năm.,REAL,READY
+2043,3,千万,mười triệu / vô số / nhiều / một người nhất định phải,副,下雨天开车千万要小心。,Khi lái xe ngày mưa nhất định phải cẩn thận.,REAL,READY
+2044,3,前后,khoảng / từ đầu đến cuối / khắp nơi / trước và sau,名,搬家前后我们都很忙。,Trước và sau khi chuyển nhà chúng tôi đều rất bận.,REAL,READY
+2045,3,前进,tiến lên / tiến về phía trước / xúc tiến / tiến tới,动,队伍继续前进。,Đội ngũ tiếp tục tiến về phía trước.,REAL,READY
+2046,3,前面,phía trước / ở trước / trước đó / bên trên / cũng đọc là [qian2 mian5],名,前面就是地铁站。,Phía trước chính là ga tàu điện ngầm.,REAL,READY
+2047,3,前往,đi đến; tiến về; đi tới,动,明天我们将前往北京。,Ngày mai chúng tôi sẽ đi đến Bắc Kinh.,REAL,READY
+2048,3,强,"mạnh / mạnh mẽ / tốt hơn / nhỉnh hơn / sôi nổi / bạo lực / tốt nhất trong nhóm của họ, ví dụ xem 百強|百强[bai3 qiang2] / biến thể của 強|强[qiang2]",形,他的身体很强。,Cơ thể anh ấy rất khỏe.,REAL,READY
+2049,3,强大,to lớn và mạnh mẽ; đáng gờm; hùng mạnh,形,团结让我们的团队更加强大。,Sự đoàn kết khiến đội của chúng tôi mạnh mẽ hơn.,REAL,READY
+2050,3,强调,nhấn mạnh (một tuyên bố) / nhấn mạnh,动,老师再次强调了安全问题。,Giáo viên một lần nữa nhấn mạnh vấn đề an toàn.,REAL,READY
+2051,3,强烈,mạnh mẽ; dữ dội,形,我强烈建议你早点休息。,Tôi rất khuyên bạn nên nghỉ sớm.,REAL,READY
+2052,3,桥,cầu,名,河上有一座老桥。,Trên sông có một cây cầu cũ.,REAL,READY
+2053,3,巧,một cách tình cờ / trùng hợp / đúng lúc / khéo léo / kịp thời,形,真巧，我们又在这里见面了。,"Thật trùng hợp, chúng ta lại gặp nhau ở đây.",REAL,READY
+2054,3,亲,cha mẹ / người thân (ruột thịt) / họ hàng / có quan hệ / hôn nhân / cô dâu / gần gũi / thân thiết / trực tiếp / tận mắt / ủng hộ / thuận- / hôn / (tiếng lóng Internet) thân mến,形,她是我的亲姐姐。,Cô ấy là chị ruột của tôi.,REAL,READY
+2055,3,亲切,thân thiện / ấm áp / gần gũi / quen thuộc,形,新老师说话很亲切。,Giáo viên mới nói chuyện rất thân thiện.,REAL,READY
+2056,3,亲人,người thân thiết,名,春节时大家都想和亲人团聚。,Vào Tết mọi người đều muốn đoàn tụ với người thân.,REAL,READY
+2057,3,亲自,đích thân / tự mình / bản thân,副,经理亲自来接我们。,Quản lý đích thân đến đón chúng tôi.,REAL,READY
+2058,3,情感,cảm giác / cảm xúc / xúc động (về mặt tình cảm),名,音乐可以表达丰富的情感。,Âm nhạc có thể biểu đạt những cảm xúc phong phú.,REAL,READY
+2059,3,情况,hoàn cảnh; tình hình; tình huống,名,请告诉我现在的情况。,Hãy cho tôi biết tình hình hiện tại.,REAL,READY
+2060,3,请教,hỏi để được hướng dẫn / tham khảo,动,我想向老师请教一个问题。,Tôi muốn hỏi giáo viên để được chỉ dẫn về một vấn đề.,REAL,READY
+2061,3,庆祝,ăn mừng,动,我们一起吃饭庆祝考试通过。,Chúng tôi cùng ăn cơm để ăn mừng việc thi đỗ.,REAL,READY
+2062,3,球迷,người hâm mộ (thể thao bóng),名,体育场里来了很多球迷。,Có rất nhiều người hâm mộ bóng đến sân vận động.,REAL,READY
+2063,3,区,khu vực / vùng / quận / nhỏ / phân biệt,名,这个区有三所大学。,Khu vực này có ba trường đại học.,REAL,READY
+2064,3,区别,sự khác biệt / phân biệt / kỳ thị / tạo sự khác nhau,名、动,这两个词有什么区别？,Hai từ này có gì khác nhau?,REAL,READY
+2065,3,取消,hủy / bãi bỏ,动,因为下雨，比赛取消了。,Vì trời mưa nên trận đấu đã bị hủy.,REAL,READY
+2066,3,去世,qua đời / chết,动,他的爷爷去年去世了。,Ông của anh ấy đã qua đời năm ngoái.,REAL,READY
+2067,3,全场,mọi người có mặt / toàn bộ khán giả / toàn diện / nhất trí / toàn bộ thời gian (của một cuộc thi đấu hoặc trận đấu),名,比赛结束后，全场观众都站起来鼓掌。,"Sau khi trận đấu kết thúc, toàn bộ khán giả đứng dậy vỗ tay.",REAL,READY
+2068,3,全面,toàn diện / toàn bộ / tổng thể / tổng quát,形,医生给他做了全面检查。,Bác sĩ đã kiểm tra toàn diện cho anh ấy.,REAL,READY
+2069,3,全球,toàn thế giới / toàn cầu,名,这个品牌在全球都有商店。,Thương hiệu này có cửa hàng trên toàn cầu.,REAL,READY
+2070,3,缺,sự thiếu / hụt / không đủ / vị trí trống / thiếu hụt,动,我们现在缺两个人。,Hiện tại chúng tôi thiếu hai người.,REAL,READY
+2071,3,缺点,điểm yếu / lỗi / khuyết điểm / bất lợi,名,每个人都有自己的缺点。,Mỗi người đều có khuyết điểm riêng.,REAL,READY
+2072,3,缺少,thiếu / sự thiếu hụt / thâm hụt / bị thiếu (hụt),动,这个计划还缺少一些重要信息。,Kế hoạch này vẫn thiếu một số thông tin quan trọng.,REAL,READY
+2073,3,确保,đảm bảo; bảo đảm,动,请提前出发，确保不会迟到。,Hãy xuất phát sớm để bảo đảm không đến muộn.,REAL,READY
+2074,3,确定,rõ ràng / chắc chắn / cố định / để cố định (cái gì đó) / xác định / đảm bảo / bảo đảm / xác minh / đạt được / thừa nhận / xác nhận / OK (trong hộp thoại máy tính),形、动,我还没有确定出发时间。,Tôi vẫn chưa xác định thời gian xuất phát.,REAL,READY
+2075,3,确实,thực sự / thật / sự thật / có thật / đáng tin cậy / đúng,形、副,这本书确实很好看。,Quyển sách này thực sự rất hay.,REAL,READY
+2076,3,裙子,váy,名,她今天穿了一条红裙子。,Hôm nay cô ấy mặc một chiếc váy đỏ.,REAL,READY
+2077,3,群,"biến thể của 群[qun2] / nhóm / đám / bầy, đàn, nhóm v.v.",量,门口站着一群学生。,Trước cửa có một nhóm học sinh đang đứng.,REAL,READY
+2078,3,热爱,yêu nhiệt thành / ngưỡng mộ,动,他从小就热爱音乐。,Anh ấy từ nhỏ đã rất yêu âm nhạc.,REAL,READY
+2079,3,热烈,nhiệt tình / nồng nhiệt / ấm áp,形,大家用热烈的掌声欢迎老师。,Mọi người dùng tràng pháo tay nồng nhiệt chào đón giáo viên.,REAL,READY
+2080,3,人才,tài năng / người tài năng / ngoại hình / ngoại hình hấp dẫn,名,公司需要更多专业人才。,Công ty cần thêm nhiều nhân tài chuyên môn.,REAL,READY
+2081,3,人工,nhân tạo / nhân lực / công việc thủ công,名、形,这个湖是人工建成的。,Hồ này được xây dựng nhân tạo.,REAL,READY
+2082,3,人类,nhân loại / chủng tộc loài người,名,保护环境是全人类的责任。,Bảo vệ môi trường là trách nhiệm của toàn nhân loại.,REAL,READY
+2083,3,人民,nhân dân,名,人民的生活越来越好。,Cuộc sống của nhân dân ngày càng tốt hơn.,REAL,READY
+2084,3,人民币,Nhân dân tệ (NDT) / Đồng Yuan Trung Quốc (CNY),名,这件衣服要二百元人民币。,Bộ quần áo này có giá hai trăm nhân dân tệ.,REAL,READY
+2085,3,人群,đám đông,名,他在人群中找到了朋友。,Anh ấy đã tìm thấy bạn mình trong đám đông.,REAL,READY
+2086,3,人生,đời người (thời gian sống trên thế gian),名,每个人都有自己的人生目标。,Mỗi người đều có mục tiêu cuộc đời riêng.,REAL,READY
+2087,3,人员,nhân viên / đội ngũ / nhân sự,名,工作人员正在检查设备。,Nhân viên đang kiểm tra thiết bị.,REAL,READY
+2088,3,认出,nhận ra / nhận diện,,我一眼就认出了小学老师。,Tôi vừa nhìn đã nhận ra giáo viên tiểu học của mình.,REAL,READY
+2089,3,认得,nhận ra / nhớ điều gì đó (hoặc ai đó) khi nhìn thấy / biết,动,你还认得我吗？,Bạn vẫn nhận ra tôi chứ?,REAL,READY
+2090,3,认可,phê duyệt / chấp thuận / thừa nhận / đồng ý,动,他的工作得到了大家的认可。,Công việc của anh ấy đã nhận được sự công nhận của mọi người.,REAL,READY
+2091,3,任,"bổ nhiệm / chỉ định / nhậm chức / văn phòng / trách nhiệm / để cho / cho phép / tự do / dù (thế nào, cái gì, v.v.) / lượng từ cho nhiệm kỳ trong văn phòng, hoặc cho vợ, bạn gái, v.v. (như trong 前任男友)",动,他连任了两任校长。,Ông ấy đã đảm nhiệm hai nhiệm kỳ hiệu trưởng liên tiếp.,REAL,READY
+2092,3,任,"bổ nhiệm / chỉ định / nhậm chức / văn phòng / trách nhiệm / để cho / cho phép / tự do / dù (thế nào, cái gì, v.v.) / lượng từ cho nhiệm kỳ trong văn phòng, hoặc cho vợ, bạn gái, v.v. (như trong 前任男友)",连,任你怎么说，我都不会改变决定。,"Dù bạn nói thế nào, tôi cũng sẽ không thay đổi quyết định.",REAL,READY
+2093,3,任何,bất kỳ; bất cứ; nào cũng được,代,有任何问题都可以问我。,Có bất kỳ vấn đề gì đều có thể hỏi tôi.,REAL,READY
+2094,3,任务,nhiệm vụ; công việc; bổn phận; vai trò,名,我们已经完成今天的任务。,Chúng tôi đã hoàn thành nhiệm vụ hôm nay.,REAL,READY
+2095,3,仍,vẫn / duy trì / (văn học) thường xuyên; hay,副,天已经黑了，他仍在工作。,Trời đã tối nhưng anh ấy vẫn đang làm việc.,REAL,READY
+2096,3,仍然,vẫn; như trước,副,下着大雨，他仍然坚持去上课。,Trời đang mưa lớn nhưng anh ấy vẫn kiên trì đi học.,REAL,READY
+2097,3,日常,hằng ngày; thường nhật; mỗi ngày,形,这些都是我的日常工作。,Đây đều là công việc hằng ngày của tôi.,REAL,READY
+2098,3,容易,dễ dàng; đơn giản / có khả năng; dễ có thể; có khuynh hướng,形,这道题比我想的容易。,Câu này dễ hơn tôi nghĩ.,REAL,READY
+2099,3,如何,như thế nào / cách gì / cái gì,代,我们正在讨论如何解决这个问题。,Chúng tôi đang thảo luận cách giải quyết vấn đề này.,REAL,READY
+2100,3,散步,đi dạo; đi bộ,,晚饭后我们去公园散步。,Sau bữa tối chúng tôi đi công viên dạo bộ.,REAL,READY
+2101,3,沙发,ghế sô pha (từ mượn) / (tiếng lóng Internet) người đầu tiên trả lời một bài đăng trên diễn đàn,名,爸爸坐在沙发上看电视。,Bố ngồi trên ghế sofa xem tivi.,REAL,READY
+2102,3,沙子,cát / sạn,名,我已经学会了“沙子”这个词。,"Tôi đã học được từ ""沙子"".",TEMPLATE,NEED_REVIEW
+2103,3,伤,làm bị thương / vết thương / thương tích,动、名,老师让我们读一读“伤”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""伤"".",TEMPLATE,NEED_REVIEW
+2104,3,伤心,đau buồn / tan nát cõi lòng / cảm thấy tổn thương sâu sắc,,请用“伤心”造一个句子。,"Hãy dùng từ ""伤心"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2105,3,商品,hàng hóa; sản phẩm; thương phẩm,名,我把“商品”写在了本子上。,"Tôi đã viết từ ""商品"" vào vở.",TEMPLATE,NEED_REVIEW
+2106,3,商业,kinh doanh / thương mại / buôn bán,名,我在课本里看到了“商业”这个词。,"Tôi đã nhìn thấy từ ""商业"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2107,3,上来,đi lên / tiếp cận / (bổ ngữ động từ chỉ sự thành công),,老师正在解释“上来”这个词。,"Giáo viên đang giải thích từ ""上来"".",TEMPLATE,NEED_REVIEW
+2108,3,上面,bên trên / đã đề cập / cũng đọc là [shang4 mian5],名,请大家一起读“上面”这个词。,"Mọi người hãy cùng đọc từ ""上面"".",TEMPLATE,NEED_REVIEW
+2109,3,上去,đi lên,,这个单元我们要学习“上去”。,"Trong bài này chúng tôi sẽ học từ ""上去"".",TEMPLATE,NEED_REVIEW
+2110,3,上升,tăng lên / đi lên / thăng,动,今天老师教我们“上升”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""上升"".",TEMPLATE,NEED_REVIEW
+2111,3,上衣,áo khoác / áo ngoài / lượng từ: 件[jian4],名,今天我们学习了“上衣”这个词。,"Hôm nay chúng tôi đã học từ ""上衣"".",TEMPLATE,NEED_REVIEW
+2112,3,设备,thiết bị; cơ sở vật chất; lắp đặt,名,我已经学会了“设备”这个词。,"Tôi đã học được từ ""设备"".",TEMPLATE,NEED_REVIEW
+2113,3,设计,thiết kế; lập kế hoạch / thiết kế; kế hoạch,动、名,老师让我们读一读“设计”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""设计"".",TEMPLATE,NEED_REVIEW
+2114,3,设立,thiết lập; thành lập,动,请用“设立”造一个句子。,"Hãy dùng từ ""设立"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2115,3,社会,xã hội,名,我把“社会”写在了本子上。,"Tôi đã viết từ ""社会"" vào vở.",TEMPLATE,NEED_REVIEW
+2116,3,身份证,thẻ căn cước / chứng minh thư,名,我在课本里看到了“身份证”这个词。,"Tôi đã nhìn thấy từ ""身份证"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2117,3,深,biến thể cũ của 深[shen1] / sâu (cả nghĩa đen và bóng),形,老师正在解释“深”这个词。,"Giáo viên đang giải thích từ ""深"".",TEMPLATE,NEED_REVIEW
+2118,3,深刻,sâu sắc / sâu / chuyên sâu,形,请大家一起读“深刻”这个词。,"Mọi người hãy cùng đọc từ ""深刻"".",TEMPLATE,NEED_REVIEW
+2119,3,深入,thâm nhập sâu / kỹ lưỡng,动、形,这个单元我们要学习“深入”。,"Trong bài này chúng tôi sẽ học từ ""深入"".",TEMPLATE,NEED_REVIEW
+2120,3,升,thăng lên / tăng lên chức / thăng chức / kéo lên / lít / đơn vị đo lường ngũ cốc khô bằng một phần mười đấu 斗[dou3] / biến thể của 升[sheng1],动,今天老师教我们“升”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""升"".",TEMPLATE,NEED_REVIEW
+2121,3,生产,sản xuất; chế tạo / sinh con,动,今天我们学习了“生产”这个词。,"Hôm nay chúng tôi đã học từ ""生产"".",TEMPLATE,NEED_REVIEW
+2122,3,生存,tồn tại / sống sót,动,我已经学会了“生存”这个词。,"Tôi đã học được từ ""生存"".",TEMPLATE,NEED_REVIEW
+2123,3,生动,sinh động / sống động,形,老师让我们读一读“生动”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""生动"".",TEMPLATE,NEED_REVIEW
+2124,3,生命,"sự sống (như đặc trưng của sinh vật) / sinh vật; sinh thể (LT:個|个[ge4],條|条[tiao2])",名,请用“生命”造一个句子。,"Hãy dùng từ ""生命"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2125,3,生意,kinh doanh / Lượng từ: 筆|笔[bi3],名,我把“生意”写在了本子上。,"Tôi đã viết từ ""生意"" vào vở.",TEMPLATE,NEED_REVIEW
+2126,3,生长,phát triển / lớn lên / được nuôi dưỡng,动,我在课本里看到了“生长”这个词。,"Tôi đã nhìn thấy từ ""生长"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2127,3,声明,phát biểu / tuyên bố / lời phát biểu / bản tuyên bố,动、名,老师正在解释“声明”这个词。,"Giáo viên đang giải thích từ ""声明"".",TEMPLATE,NEED_REVIEW
+2128,3,胜,chiến thắng / thành công / đánh bại / vượt qua / vượt trội / hơn / thắng / thắng thế / tuyệt đẹp (phong cảnh) / đẹp (cảnh sắc) / tuyệt vời (quang cảnh) / (cách phát âm ở Đài Loan [sheng1]) chịu đựng được / khám nổi (một nhiệm vụ),动,请大家一起读“胜”这个词。,"Mọi người hãy cùng đọc từ ""胜"".",TEMPLATE,NEED_REVIEW
+2129,3,胜利,chiến thắng,动、名,这个单元我们要学习“胜利”。,"Trong bài này chúng tôi sẽ học từ ""胜利"".",TEMPLATE,NEED_REVIEW
+2130,3,失去,mất,动,今天老师教我们“失去”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""失去"".",TEMPLATE,NEED_REVIEW
+2131,3,石头,đá,名,今天我们学习了“石头”这个词。,"Hôm nay chúng tôi đã học từ ""石头"".",TEMPLATE,NEED_REVIEW
+2132,3,石油,dầu / dầu mỏ,名,我已经学会了“石油”这个词。,"Tôi đã học được từ ""石油"".",TEMPLATE,NEED_REVIEW
+2133,3,时,biến thể cũ của 時|时[shi2] / giờ / thời gian / khi / mùa / giai đoạn,名,老师让我们读一读“时”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""时"".",TEMPLATE,NEED_REVIEW
+2134,3,时代,thời đại / kỷ nguyên / thời kỳ / giai đoạn (trong cuộc đời),名,请用“时代”造一个句子。,"Hãy dùng từ ""时代"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2135,3,时刻,thời gian / thời điểm / khoảnh khắc / giai đoạn thời gian / liên tục / luôn luôn,名、副,我把“时刻”写在了本子上。,"Tôi đã viết từ ""时刻"" vào vở.",TEMPLATE,NEED_REVIEW
+2136,3,实际上,thực ra / trên thực tế / thực tế là / trong thực hành,副,我在课本里看到了“实际上”这个词。,"Tôi đã nhìn thấy từ ""实际上"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2137,3,实力,sức mạnh,名,老师正在解释“实力”这个词。,"Giáo viên đang giải thích từ ""实力"".",TEMPLATE,NEED_REVIEW
+2138,3,实行,thực hiện / tiến hành / đưa vào thực tiễn,动,请大家一起读“实行”这个词。,"Mọi người hãy cùng đọc từ ""实行"".",TEMPLATE,NEED_REVIEW
+2139,3,实验,thí nghiệm / kiểm tra / mang tính thí nghiệm / tiến hành thí nghiệm,动、名,这个单元我们要学习“实验”。,"Trong bài này chúng tôi sẽ học từ ""实验"".",TEMPLATE,NEED_REVIEW
+2140,3,实验室,phòng thí nghiệm,名,今天老师教我们“实验室”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""实验室"".",TEMPLATE,NEED_REVIEW
+2141,3,食品,thực phẩm; đồ ăn; lương thực,名,今天我们学习了“食品”这个词。,"Hôm nay chúng tôi đã học từ ""食品"".",TEMPLATE,NEED_REVIEW
+2142,3,使,khiến / làm cho / cho phép / sử dụng / thuê / phái / dạy ai làm việc gì / đặc phái viên / người đưa tin,动,我已经学会了“使”这个词。,"Tôi đã học được từ ""使"".",TEMPLATE,NEED_REVIEW
+2143,3,始终,từ đầu đến cuối / luôn luôn,副,老师让我们读一读“始终”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""始终"".",TEMPLATE,NEED_REVIEW
+2144,3,世纪,thế kỷ / Lượng từ:個|个[ge4],名,请用“世纪”造一个句子。,"Hãy dùng từ ""世纪"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2145,3,世界,thế giới (LT:個|个[ge4]),名,我把“世界”写在了本子上。,"Tôi đã viết từ ""世界"" vào vở.",TEMPLATE,NEED_REVIEW
+2146,3,世界杯,World Cup,名,我在课本里看到了“世界杯”这个词。,"Tôi đã nhìn thấy từ ""世界杯"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2147,3,市场,khu chợ / thị trường (cũng dùng trong nghĩa trừu tượng),名,老师正在解释“市场”这个词。,"Giáo viên đang giải thích từ ""市场"".",TEMPLATE,NEED_REVIEW
+2148,3,事故,tai nạn,名,请大家一起读“事故”这个词。,"Mọi người hãy cùng đọc từ ""事故"".",TEMPLATE,NEED_REVIEW
+2149,3,事件,sự kiện / sự việc / sự cố,名,这个单元我们要学习“事件”。,"Trong bài này chúng tôi sẽ học từ ""事件"".",TEMPLATE,NEED_REVIEW
+2150,3,事实,sự thật,名,今天老师教我们“事实”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""事实"".",TEMPLATE,NEED_REVIEW
+2151,3,事实上,thực tế / trong thực tế / thực ra / trên thực tế,,今天我们学习了“事实上”这个词。,"Hôm nay chúng tôi đã học từ ""事实上"".",TEMPLATE,NEED_REVIEW
+2152,3,事业,"công việc / dự án / hoạt động / sự nghiệp (từ thiện, chính trị hoặc cách mạng) / cơ quan, doanh nghiệp hoặc quỹ công lập / nghề nghiệp",名,我已经学会了“事业”这个词。,"Tôi đã học được từ ""事业"".",TEMPLATE,NEED_REVIEW
+2153,3,试题,câu hỏi thi / chủ đề kiểm tra,名,老师让我们读一读“试题”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""试题"".",TEMPLATE,NEED_REVIEW
+2154,3,试验,thí nghiệm / kiểm tra / thử nghiệm,动,请用“试验”造一个句子。,"Hãy dùng từ ""试验"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2155,3,适合,phù hợp; thích hợp,动,我把“适合”写在了本子上。,"Tôi đã viết từ ""适合"" vào vở.",TEMPLATE,NEED_REVIEW
+2156,3,适应,thích nghi / phù hợp / hợp với,动,我在课本里看到了“适应”这个词。,"Tôi đã nhìn thấy từ ""适应"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2157,3,适用,có thể áp dụng,形,老师正在解释“适用”这个词。,"Giáo viên đang giải thích từ ""适用"".",TEMPLATE,NEED_REVIEW
+2158,3,室,phòng / đơn vị công tác / mộ / bao kiếm / gia đình hoặc thị tộc / một trong 28 chòm sao của thiên văn học Trung Quốc,名,请大家一起读“室”这个词。,"Mọi người hãy cùng đọc từ ""室"".",TEMPLATE,NEED_REVIEW
+2159,3,收费,thu phí,动,这个单元我们要学习“收费”。,"Trong bài này chúng tôi sẽ học từ ""收费"".",TEMPLATE,NEED_REVIEW
+2160,3,收看,xem (chương trình TV),动,今天老师教我们“收看”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""收看"".",TEMPLATE,NEED_REVIEW
+2161,3,收听,nghe (chương trình phát thanh),动,今天我们学习了“收听”这个词。,"Hôm nay chúng tôi đã học từ ""收听"".",TEMPLATE,NEED_REVIEW
+2162,3,收音机,radio / Lượng từ: 臺|台[tai2],名,我已经学会了“收音机”这个词。,"Tôi đã học được từ ""收音机"".",TEMPLATE,NEED_REVIEW
+2163,3,手续,thủ tục,名,老师让我们读一读“手续”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""手续"".",TEMPLATE,NEED_REVIEW
+2164,3,手指,ngón tay,名,请用“手指”造一个句子。,"Hãy dùng từ ""手指"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2165,3,首都,thủ đô,名,我把“首都”写在了本子上。,"Tôi đã viết từ ""首都"" vào vở.",TEMPLATE,NEED_REVIEW
+2166,3,首先,trước tiên / điều đầu tiên,副,我在课本里看到了“首先”这个词。,"Tôi đã nhìn thấy từ ""首先"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2167,3,受,nhận / chấp nhận / chịu / phải chịu / chịu đựng / đứng vững / dễ chịu / (dấu hiệu bị động),动,老师正在解释“受”这个词。,"Giáo viên đang giải thích từ ""受"".",TEMPLATE,NEED_REVIEW
+2168,3,受伤,"bị thương / bị thương (trong tai nạn, v.v.) / bị hại",,请大家一起读“受伤”这个词。,"Mọi người hãy cùng đọc từ ""受伤"".",TEMPLATE,NEED_REVIEW
+2169,3,书架,giá sách,名,这个单元我们要学习“书架”。,"Trong bài này chúng tôi sẽ học từ ""书架"".",TEMPLATE,NEED_REVIEW
+2170,3,输,thua; bị đánh bại / (dạng kết hợp) vận chuyển / (văn học) quyên góp; đóng góp / (thông tục) nhập (mật khẩu),动,今天老师教我们“输”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""输"".",TEMPLATE,NEED_REVIEW
+2171,3,输入,nhập khẩu / nhập liệu,动,今天我们学习了“输入”这个词。,"Hôm nay chúng tôi đã học từ ""输入"".",TEMPLATE,NEED_REVIEW
+2172,3,熟人,người quen / bạn bè,名,我已经学会了“熟人”这个词。,"Tôi đã học được từ ""熟人"".",TEMPLATE,NEED_REVIEW
+2173,3,属,phân loại / chi (phân loại học) / thành viên gia đình / người phụ thuộc / thuộc về / trực thuộc / liên kết với / sinh năm (một trong 12 con giáp) / là / chứng tỏ là / cấu thành,动,老师让我们读一读“属”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""属"".",TEMPLATE,NEED_REVIEW
+2174,3,属于,được phân loại là / thuộc về / là một phần của,动,请用“属于”造一个句子。,"Hãy dùng từ ""属于"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2175,3,束,"buộc / bó / gói / lượng từ cho bó, gói, tia sáng, v.v. / kiểm soát",量,我把“束”写在了本子上。,"Tôi đã viết từ ""束"" vào vở.",TEMPLATE,NEED_REVIEW
+2176,3,数量,số lượng (LT:個|个[ge4]) / thuộc về số lượng / (toán) đại lượng vô hướng,名,我在课本里看到了“数量”这个词。,"Tôi đã nhìn thấy từ ""数量"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2177,3,双,hai / cặp / đôi / cả hai / số chẵn,量、形,老师正在解释“双”这个词。,"Giáo viên đang giải thích từ ""双"".",TEMPLATE,NEED_REVIEW
+2178,3,双方,song phương / hai bên / cả hai bên liên quan,名,请大家一起读“双方”这个词。,"Mọi người hãy cùng đọc từ ""双方"".",TEMPLATE,NEED_REVIEW
+2179,3,思想,suy nghĩ / tư duy / ý tưởng / tư tưởng,名,这个单元我们要学习“思想”。,"Trong bài này chúng tôi sẽ học từ ""思想"".",TEMPLATE,NEED_REVIEW
+2180,3,死,chết / không thể qua được / không linh hoạt / cứng nhắc / cực kỳ / chết tiệt,动、形,今天老师教我们“死”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""死"".",TEMPLATE,NEED_REVIEW
+2181,3,速度,tốc độ / tốc suất / vận tốc / (âm nhạc) nhịp độ,名,今天我们学习了“速度”这个词。,"Hôm nay chúng tôi đã học từ ""速度"".",TEMPLATE,NEED_REVIEW
+2182,3,随,theo / tuân theo / thay đổi theo... / cho phép / sau đó,动,我已经学会了“随”这个词。,"Tôi đã học được từ ""随"".",TEMPLATE,NEED_REVIEW
+2183,3,所,"thực ra / nơi / lượng từ cho nhà, toà nhà nhỏ, cơ quan, v.v. / cái mà / phó từ giới thiệu mệnh đề quan hệ hoặc bị động",名、量,老师让我们读一读“所”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""所"".",TEMPLATE,NEED_REVIEW
+2184,3,所长,"người đứng đầu một viện, v.v.",名,请用“所长”造一个句子。,"Hãy dùng từ ""所长"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2185,3,台,(văn cổ) ông (trong thư từ) / biến thể của 臺|台[tai2] / bàn; cái bàn; quầy / bục / sân khấu / sân / đài / hỗ trợ / nhà ga / đài phát thanh / lượng từ cho xe cộ hoặc máy móc / bão,名、量,我把“台”写在了本子上。,"Tôi đã viết từ ""台"" vào vở.",TEMPLATE,NEED_REVIEW
+2186,3,谈,nói / trò chuyện / đàm thoại / tán gẫu / thảo luận,动,我在课本里看到了“谈”这个词。,"Tôi đã nhìn thấy từ ""谈"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2187,3,谈话,nói chuyện (với ai đó) / có cuộc trò chuyện / nói chuyện / cuộc trò chuyện,,老师正在解释“谈话”这个词。,"Giáo viên đang giải thích từ ""谈话"".",TEMPLATE,NEED_REVIEW
+2188,3,谈判,đàm phán / thương lượng / đàm thoại / hội nghị,动、名,请大家一起读“谈判”这个词。,"Mọi người hãy cùng đọc từ ""谈判"".",TEMPLATE,NEED_REVIEW
+2189,3,汤,canh / nước nóng hoặc sôi / thang thuốc đông y / nước luộc thứ gì đó,名,这个单元我们要学习“汤”。,"Trong bài này chúng tôi sẽ học từ ""汤"".",TEMPLATE,NEED_REVIEW
+2190,3,糖,đường / kẹo / ngọt / biến thể cũ của 糖[tang2],名,今天老师教我们“糖”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""糖"".",TEMPLATE,NEED_REVIEW
+2191,3,特色,đặc trưng / nét đặc biệt hoặc chất lượng,名,今天我们学习了“特色”这个词。,"Hôm nay chúng tôi đã học từ ""特色"".",TEMPLATE,NEED_REVIEW
+2192,3,提前,dời lên ngày sớm hơn / làm gì đó trước thời hạn / trước thời hạn,动,我已经学会了“提前”这个词。,"Tôi đã học được từ ""提前"".",TEMPLATE,NEED_REVIEW
+2193,3,提问,đặt câu hỏi; kiểm tra; chất vấn,动,老师让我们读一读“提问”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""提问"".",TEMPLATE,NEED_REVIEW
+2194,3,题目,chủ đề; tiêu đề; đề tài (LT:個|个[ge4]) / câu hỏi bài tập hoặc thi cử (LT:道[dao4]),名,请用“题目”造一个句子。,"Hãy dùng từ ""题目"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2195,3,体会,biết từ kinh nghiệm / học qua trải nghiệm / nhận ra / sự hiểu biết / kinh nghiệm,动、名,我把“体会”写在了本子上。,"Tôi đã viết từ ""体会"" vào vở.",TEMPLATE,NEED_REVIEW
+2196,3,体现,thể hiện / phản ánh / hiện thân,动,我在课本里看到了“体现”这个词。,"Tôi đã nhìn thấy từ ""体现"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2197,3,体验,trải nghiệm,动,老师正在解释“体验”这个词。,"Giáo viên đang giải thích từ ""体验"".",TEMPLATE,NEED_REVIEW
+2198,3,天空,bầu trời,名,请大家一起读“天空”这个词。,"Mọi người hãy cùng đọc từ ""天空"".",TEMPLATE,NEED_REVIEW
+2199,3,甜,ngọt,形,这个单元我们要学习“甜”。,"Trong bài này chúng tôi sẽ học từ ""甜"".",TEMPLATE,NEED_REVIEW
+2200,3,调,hòa hợp / hòa giải / phối hợp / phù hợp tốt / điều chỉnh / điều tiết / nêm nếm (thức ăn) / kích động / xúi giục,动,今天老师教我们“调”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""调"".",TEMPLATE,NEED_REVIEW
+2201,3,调整,điều chỉnh / sự điều chỉnh / sửa đổi,动,今天我们学习了“调整”这个词。,"Hôm nay chúng tôi đã học từ ""调整"".",TEMPLATE,NEED_REVIEW
+2202,3,跳,nhảy / nhảy lò cò / nhảy qua / nảy / tim đập mạnh,动,我已经学会了“跳”这个词。,"Tôi đã học được từ ""跳"".",TEMPLATE,NEED_REVIEW
+2203,3,跳高,nhảy cao (điền kinh),动,老师让我们读一读“跳高”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""跳高"".",TEMPLATE,NEED_REVIEW
+2204,3,跳舞,nhảy múa,,请用“跳舞”造一个句子。,"Hãy dùng từ ""跳舞"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2205,3,跳远,nhảy xa (điền kinh),动,我把“跳远”写在了本子上。,"Tôi đã viết từ ""跳远"" vào vở.",TEMPLATE,NEED_REVIEW
+2206,3,铁,sắt (kim loại) / vũ khí / cứng / mạnh / bạo lực / không lay chuyển / quyết tâm / thân thiết / chặt (tiếng lóng),名,我在课本里看到了“铁”这个词。,"Tôi đã nhìn thấy từ ""铁"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2207,3,铁路,đường sắt / đường ray,名,老师正在解释“铁路”这个词。,"Giáo viên đang giải thích từ ""铁路"".",TEMPLATE,NEED_REVIEW
+2208,3,听力,thính giác / khả năng nghe,名,请大家一起读“听力”这个词。,"Mọi người hãy cùng đọc từ ""听力"".",TEMPLATE,NEED_REVIEW
+2209,3,听众,khán giả / thính giả,名,这个单元我们要学习“听众”。,"Trong bài này chúng tôi sẽ học từ ""听众"".",TEMPLATE,NEED_REVIEW
+2210,3,停止,dừng; tạm dừng; ngừng lại,动,今天老师教我们“停止”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""停止"".",TEMPLATE,NEED_REVIEW
+2211,3,通常,thông thường; bình thường / thường xuyên; thường thường,形,今天我们学习了“通常”这个词。,"Hôm nay chúng tôi đã học từ ""通常"".",TEMPLATE,NEED_REVIEW
+2212,3,通信,trao đổi thư từ / giao tiếp / truyền thông,,我已经学会了“通信”这个词。,"Tôi đã học được từ ""通信"".",TEMPLATE,NEED_REVIEW
+2213,3,同意,đồng ý / tán thành / chấp thuận,动,老师让我们读一读“同意”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""同意"".",TEMPLATE,NEED_REVIEW
+2214,3,痛,đau / đau đớn / phiền muộn / sâu sắc / thấu đáo,形,请用“痛”造一个句子。,"Hãy dùng từ ""痛"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2215,3,痛苦,đau đớn / khổ sở / đau khổ,形,我把“痛苦”写在了本子上。,"Tôi đã viết từ ""痛苦"" vào vở.",TEMPLATE,NEED_REVIEW
+2216,3,头脑,bộ não / tâm trí / hộp sọ / (bóng) ý chính (của vấn đề) / người đứng đầu / sếp,名,我在课本里看到了“头脑”这个词。,"Tôi đã nhìn thấy từ ""头脑"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2217,3,突出,nổi bật / xuất sắc / làm nổi bật / lồi ra / nhô ra,形、动,老师正在解释“突出”这个词。,"Giáo viên đang giải thích từ ""突出"".",TEMPLATE,NEED_REVIEW
+2218,3,突然,đột ngột; bất ngờ; không dự kiến,形,请大家一起读“突然”这个词。,"Mọi người hãy cùng đọc từ ""突然"".",TEMPLATE,NEED_REVIEW
+2219,3,图,sơ đồ / hình ảnh / bức vẽ / biểu đồ / bản đồ / lên kế hoạch / am mưu / cố gắng / theo đuổi / tìm kiếm,名,这个单元我们要学习“图”。,"Trong bài này chúng tôi sẽ học từ ""图"".",TEMPLATE,NEED_REVIEW
+2220,3,图画,tranh / hình ảnh,名,今天老师教我们“图画”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""图画"".",TEMPLATE,NEED_REVIEW
+2221,3,土,đất / bụi / đất sét / địa phương / bản địa / thuốc phiện thô / không tinh tế / một trong tám loại nhạc cụ cổ đại 八音[ba1 yin1],名,今天我们学习了“土”这个词。,"Hôm nay chúng tôi đã học từ ""土"".",TEMPLATE,NEED_REVIEW
+2222,3,团,"tròn / cục / khối / cuộn thành bóng / tụ tập / trung đoàn / nhóm / hội / lượng từ cho một khối hoặc chất mềm: nắm (giấy), cuộn (len), đám (khói) / bánh hấp",名、量,我已经学会了“团”这个词。,"Tôi đã học được từ ""团"".",TEMPLATE,NEED_REVIEW
+2223,3,团结,đoàn kết / sự đoàn kết; tinh thần đoàn kết,动,老师让我们读一读“团结”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""团结"".",TEMPLATE,NEED_REVIEW
+2224,3,团体,nhóm / tổ chức / đội,名,请用“团体”造一个句子。,"Hãy dùng từ ""团体"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2225,3,推动,thúc đẩy (ví dụ: để chấp nhận một kế hoạch); khuyến khích; tạo động lực cho,,我把“推动”写在了本子上。,"Tôi đã viết từ ""推动"" vào vở.",TEMPLATE,NEED_REVIEW
+2226,3,推广,"mở rộng / lan rộng / phổ biến / khái quát hóa / quảng bá (sản phẩm, v.v.)",动,我在课本里看到了“推广”这个词。,"Tôi đã nhìn thấy từ ""推广"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2227,3,推进,thúc đẩy / tiến hành / đẩy tới / phát triển / thúc tiến,动,老师正在解释“推进”这个词。,"Giáo viên đang giải thích từ ""推进"".",TEMPLATE,NEED_REVIEW
+2228,3,推开,"đẩy ra (cổng, v.v.) / đẩy đi / từ chối",,请大家一起读“推开”这个词。,"Mọi người hãy cùng đọc từ ""推开"".",TEMPLATE,NEED_REVIEW
+2229,3,退,rút lui; rút khỏi / từ chối; trả lại (cái gì đó) / từ chối,动,这个单元我们要学习“退”。,"Trong bài này chúng tôi sẽ học từ ""退"".",TEMPLATE,NEED_REVIEW
+2230,3,退出,rút lui / hủy bỏ / thoát / đăng xuất (máy tính),动,今天老师教我们“退出”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""退出"".",TEMPLATE,NEED_REVIEW
+2231,3,退休,nghỉ hưu (khỏi lực lượng lao động); đi vào nghỉ hưu,,今天我们学习了“退休”这个词。,"Hôm nay chúng tôi đã học từ ""退休"".",TEMPLATE,NEED_REVIEW
+2232,3,外交,ngoại giao / thuộc ngoại giao / công việc đối ngoại,名,我已经学会了“外交”这个词。,"Tôi đã học được từ ""外交"".",TEMPLATE,NEED_REVIEW
+2233,3,外面,bên ngoài (cũng phát âm [wai4 mian5] cho nghĩa này) / bề mặt / bên ngoài / diện mạo bên ngoài,名,老师让我们读一读“外面”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""外面"".",TEMPLATE,NEED_REVIEW
+2234,3,外文,ngoại ngữ (viết),名,请用“外文”造一个句子。,"Hãy dùng từ ""外文"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2235,3,完美,hoàn hảo,形,我把“完美”写在了本子上。,"Tôi đã viết từ ""完美"" vào vở.",TEMPLATE,NEED_REVIEW
+2236,3,完善,"(hệ thống, cơ sở vật chất, v.v.) toàn diện / phát triển tốt / xuất sắc / cải thiện / nâng cao",形、动,我在课本里看到了“完善”这个词。,"Tôi đã nhìn thấy từ ""完善"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2237,3,完整,hoàn chỉnh / nguyên vẹn,形,老师正在解释“完整”这个词。,"Giáo viên đang giải thích từ ""完整"".",TEMPLATE,NEED_REVIEW
+2238,3,玩具,đồ chơi,名,请大家一起读“玩具”这个词。,"Mọi người hãy cùng đọc từ ""玩具"".",TEMPLATE,NEED_REVIEW
+2239,3,往往,thường thường / trong nhiều trường hợp / thường là,副,这个单元我们要学习“往往”。,"Trong bài này chúng tôi sẽ học từ ""往往"".",TEMPLATE,NEED_REVIEW
+2240,3,危害,gây nguy hại / làm hại / gây nguy hiểm / tác động có hại / tổn hại,动、名,今天老师教我们“危害”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""危害"".",TEMPLATE,NEED_REVIEW
+2241,3,危险,nguy hiểm,形、名,今天我们学习了“危险”这个词。,"Hôm nay chúng tôi đã học từ ""危险"".",TEMPLATE,NEED_REVIEW
+2242,3,为,làm (với tư cách) / xem cái gì như / làm như / phục vụ như / cư xử như / trở thành / là / làm / bởi (trong câu bị động) / biến thể của 為|为[wei2],动,我已经学会了“为”这个词。,"Tôi đã học được từ ""为"".",TEMPLATE,NEED_REVIEW
+2243,3,为,làm (với tư cách) / xem cái gì như / làm như / phục vụ như / cư xử như / trở thành / là / làm / bởi (trong câu bị động) / biến thể của 為|为[wei2],介,老师让我们读一读“为”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""为"".",TEMPLATE,NEED_REVIEW
+2244,3,围,"bao quanh / bao vây / xung quanh / đeo bằng cách quấn quanh (khăn quàng, khăn choàng)",动,请用“围”造一个句子。,"Hãy dùng từ ""围"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2245,3,伟大,"to lớn; vĩ đại; đáng ngưỡng mộ nhất; quan trọng (đóng góp, v.v.)",形,我把“伟大”写在了本子上。,"Tôi đã viết từ ""伟大"" vào vở.",TEMPLATE,NEED_REVIEW
+2246,3,卫生,sức khỏe / vệ sinh / hệ thống vệ sinh,形、名,我在课本里看到了“卫生”这个词。,"Tôi đã nhìn thấy từ ""卫生"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2247,3,卫生间,phòng tắm / nhà vệ sinh / WC,名,老师正在解释“卫生间”这个词。,"Giáo viên đang giải thích từ ""卫生间"".",TEMPLATE,NEED_REVIEW
+2248,3,为了,để; nhằm mục đích; để mà,介,请大家一起读“为了”这个词。,"Mọi người hãy cùng đọc từ ""为了"".",TEMPLATE,NEED_REVIEW
+2249,3,温暖,ấm áp,形、动,这个单元我们要学习“温暖”。,"Trong bài này chúng tôi sẽ học từ ""温暖"".",TEMPLATE,NEED_REVIEW
+2250,3,文化,văn hóa / nền văn minh / thuộc về văn hóa,名,今天老师教我们“文化”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""文化"".",TEMPLATE,NEED_REVIEW
+2251,3,文件,tài liệu / tệp,名,今天我们学习了“文件”这个词。,"Hôm nay chúng tôi đã học từ ""文件"".",TEMPLATE,NEED_REVIEW
+2252,3,文明,văn minh / nền văn minh / văn hóa,名、形,我已经学会了“文明”这个词。,"Tôi đã học được từ ""文明"".",TEMPLATE,NEED_REVIEW
+2253,3,文学,văn học,名,老师让我们读一读“文学”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""文学"".",TEMPLATE,NEED_REVIEW
+2254,3,文章,bài viết / bài luận / tác phẩm văn học / văn bản / nghĩa ẩn,名,请用“文章”造一个句子。,"Hãy dùng từ ""文章"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2255,3,文字,chữ viết / kịch bản / văn bản / ngôn ngữ viết / phong cách viết / cách hành văn,名,我把“文字”写在了本子上。,"Tôi đã viết từ ""文字"" vào vở.",TEMPLATE,NEED_REVIEW
+2256,3,握手,bắt tay,,我在课本里看到了“握手”这个词。,"Tôi đã nhìn thấy từ ""握手"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2257,3,屋子,nhà / phòng,名,老师正在解释“屋子”这个词。,"Giáo viên đang giải thích từ ""屋子"".",TEMPLATE,NEED_REVIEW
+2258,3,武器,vũ khí / đồ quân dụng,名,请大家一起读“武器”这个词。,"Mọi người hãy cùng đọc từ ""武器"".",TEMPLATE,NEED_REVIEW
+2259,3,武术,kỹ năng hoặc kỹ thuật quân sự (thời xưa) / các môn thể thao võ thuật (một số tuyên bố phát triển tâm linh) / tự vệ / truyền thống các trận đấu được biên đạo từ kinh kịch và phim ảnh (cách dùng gần đây) / còn gọi là kungfu 功夫,名,这个单元我们要学习“武术”。,"Trong bài này chúng tôi sẽ học từ ""武术"".",TEMPLATE,NEED_REVIEW
+2260,3,舞台,(nghĩa đen và bóng) sân khấu; đấu trường,名,今天老师教我们“舞台”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""舞台"".",TEMPLATE,NEED_REVIEW
+2261,3,西部,phần phía tây,名,今天我们学习了“西部”这个词。,"Hôm nay chúng tôi đã học từ ""西部"".",TEMPLATE,NEED_REVIEW
+2262,3,希望,hy vọng / một hy vọng; một điều ước (LT:個|个[ge4]),动、名,我已经学会了“希望”这个词。,"Tôi đã học được từ ""希望"".",TEMPLATE,NEED_REVIEW
+2263,3,系,kết nối / liên quan đến / buộc / ràng buộc / là (văn học) / hệ thống / khoa / ban / kết nối / bắt giữ / lo lắng,名,老师让我们读一读“系”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""系"".",TEMPLATE,NEED_REVIEW
+2264,3,下来,"đi xuống / (thành tố động tác hoàn thành) / (sau động từ chỉ sự chuyển động xuống và hướng về phía chúng ta, cả nghĩa bóng) / (chỉ sự tiếp diễn từ quá khứ đến hiện tại) / được thu hoạch (hoa màu) / kết thúc (một giai đoạn thời gian) / đi vào quần chúng (nói về lãnh đạo)",,请用“下来”造一个句子。,"Hãy dùng từ ""下来"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2265,3,下面,bên dưới / dưới / tiếp theo / sau đây / cũng đọc là [xia4 mian5] / luộc mì,名,我把“下面”写在了本子上。,"Tôi đã viết từ ""下面"" vào vở.",TEMPLATE,NEED_REVIEW
+2266,3,下去,đi xuống / tiếp tục / (của người hầu) lui ra,,我在课本里看到了“下去”这个词。,"Tôi đã nhìn thấy từ ""下去"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2267,3,先进,"tiên tiến (công nghệ, v.v.) / xuất sắc; gương mẫu (hành động, v.v.)",形、名,老师正在解释“先进”这个词。,"Giáo viên đang giải thích từ ""先进"".",TEMPLATE,NEED_REVIEW
+2268,3,显得,dường như / trông / có vẻ,动,请大家一起读“显得”这个词。,"Mọi người hãy cùng đọc từ ""显得"".",TEMPLATE,NEED_REVIEW
+2269,3,显然,rõ ràng; hiển nhiên,形,这个单元我们要学习“显然”。,"Trong bài này chúng tôi sẽ học từ ""显然"".",TEMPLATE,NEED_REVIEW
+2270,3,显示,hiển thị / minh họa / trình bày / chứng minh,动,今天老师教我们“显示”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""显示"".",TEMPLATE,NEED_REVIEW
+2271,3,现场,"hiện trường (của vụ án, tai nạn, v.v.) / tại chỗ / tại hiện trường",名,今天我们学习了“现场”这个词。,"Hôm nay chúng tôi đã học từ ""现场"".",TEMPLATE,NEED_REVIEW
+2272,3,现代,thời hiện đại / kỷ nguyên hiện đại,名,我已经学会了“现代”这个词。,"Tôi đã học được từ ""现代"".",TEMPLATE,NEED_REVIEW
+2273,3,现金,tiền mặt,名,老师让我们读一读“现金”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""现金"".",TEMPLATE,NEED_REVIEW
+2274,3,现实,thực tế; hiện thực / thật; thực / tính thực tế; thực dụng; vật chất; tư lợi,名,请用“现实”造一个句子。,"Hãy dùng từ ""现实"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2275,3,现象,hiện tượng / bề ngoài,名,我把“现象”写在了本子上。,"Tôi đã viết từ ""现象"" vào vở.",TEMPLATE,NEED_REVIEW
+2276,3,线,biến thể của 線|线[xian4] / chỉ / sợi / dây / đường / (sau một con số) hạng (xếp hạng không chính thức của một thành phố ở Trung Quốc),名,我在课本里看到了“线”这个词。,"Tôi đã nhìn thấy từ ""线"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2277,3,相比,so sánh,动,老师正在解释“相比”这个词。,"Giáo viên đang giải thích từ ""相比"".",TEMPLATE,NEED_REVIEW
+2278,3,相当,tương đương / phù hợp / khá / đến một mức độ nhất định / tương đối,副、动,请大家一起读“相当”这个词。,"Mọi người hãy cùng đọc từ ""相当"".",TEMPLATE,NEED_REVIEW
+2279,3,相关,liên quan / tương ứng / thích hợp / có quan hệ với nhau / (thống kê) tương quan,动,这个单元我们要学习“相关”。,"Trong bài này chúng tôi sẽ học từ ""相关"".",TEMPLATE,NEED_REVIEW
+2280,3,相互,lẫn nhau / tương hỗ,副,今天老师教我们“相互”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""相互"".",TEMPLATE,NEED_REVIEW
+2281,3,相似,tương tự; giống nhau,形,今天我们学习了“相似”这个词。,"Hôm nay chúng tôi đã học từ ""相似"".",TEMPLATE,NEED_REVIEW
+2282,3,香,thơm / ngửi thơm / hương thơm / ngon hoặc hấp dẫn / (ăn) ngon lành / (ngủ) ngon / nước hoa hoặc gia vị / que hương hoặc cây nhang,形,我已经学会了“香”这个词。,"Tôi đã học được từ ""香"".",TEMPLATE,NEED_REVIEW
+2283,3,香蕉,quả chuối,名,老师让我们读一读“香蕉”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""香蕉"".",TEMPLATE,NEED_REVIEW
+2284,3,消费,"tiêu thụ (hàng hóa và dịch vụ, tài nguyên, v.v.)",动,请用“消费”造一个句子。,"Hãy dùng từ ""消费"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2285,3,消失,biến mất; phai nhạt,动,我把“消失”写在了本子上。,"Tôi đã viết từ ""消失"" vào vở.",TEMPLATE,NEED_REVIEW
+2286,3,消息,tin tức / thông tin,名,我在课本里看到了“消息”这个词。,"Tôi đã nhìn thấy từ ""消息"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2287,3,效果,kết quả / hiệu quả / tác dụng / (rạp hát) hiệu ứng âm thanh hoặc hình ảnh,名,老师正在解释“效果”这个词。,"Giáo viên đang giải thích từ ""效果"".",TEMPLATE,NEED_REVIEW
+2288,3,写作,viết / sáng tác / bài viết / tác phẩm viết,动,请大家一起读“写作”这个词。,"Mọi người hãy cùng đọc từ ""写作"".",TEMPLATE,NEED_REVIEW
+2289,3,血,"máu / khẩu ngữ đọc là [xie3] / Lượng từ: 滴[di1],片[pian4]",名,这个单元我们要学习“血”。,"Trong bài này chúng tôi sẽ học từ ""血"".",TEMPLATE,NEED_REVIEW
+2290,3,心,tim / tâm / trái tim / trung tâm / lõi,名,今天老师教我们“心”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""心"".",TEMPLATE,NEED_REVIEW
+2291,3,信封,phong bì / Lượng từ:個|个[ge4],名,今天我们学习了“信封”这个词。,"Hôm nay chúng tôi đã học từ ""信封"".",TEMPLATE,NEED_REVIEW
+2292,3,信任,tin tưởng / có niềm tin vào,动,我已经学会了“信任”这个词。,"Tôi đã học được từ ""信任"".",TEMPLATE,NEED_REVIEW
+2293,3,行李,hành lý,名,老师让我们读一读“行李”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""行李"".",TEMPLATE,NEED_REVIEW
+2294,3,形成,hình thành; định hình,动,请用“形成”造一个句子。,"Hãy dùng từ ""形成"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2295,3,形式,bề ngoài / hình thức / hình dáng / Lượng từ: 個|个[ge4],名,我把“形式”写在了本子上。,"Tôi đã viết từ ""形式"" vào vở.",TEMPLATE,NEED_REVIEW
+2296,3,形象,hình ảnh / hình tượng / hình dung / sinh động,名、形,我在课本里看到了“形象”这个词。,"Tôi đã nhìn thấy từ ""形象"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2297,3,形状,hình dạng; hình dáng,名,老师正在解释“形状”这个词。,"Giáo viên đang giải thích từ ""形状"".",TEMPLATE,NEED_REVIEW
+2298,3,幸福,hạnh phúc / vui vẻ / được ban phước,形、名,请大家一起读“幸福”这个词。,"Mọi người hãy cùng đọc từ ""幸福"".",TEMPLATE,NEED_REVIEW
+2299,3,幸运,may mắn / phúc lành; vận may,形,这个单元我们要学习“幸运”。,"Trong bài này chúng tôi sẽ học từ ""幸运"".",TEMPLATE,NEED_REVIEW
+2300,3,性（积极性）,"bản chất / tính cách / đặc tính / chất lượng / thuộc tính / tính dục / tình dục / giới tính / hậu tố hình thành tính từ từ động từ / hậu tố hình thành danh từ từ tính từ, tương ứng với -ness hoặc -ity",后缀,今天老师教我们“积极性”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""积极性"".",TEMPLATE,NEED_REVIEW
+2301,3,性别,giới tính,名,今天我们学习了“性别”这个词。,"Hôm nay chúng tôi đã học từ ""性别"".",TEMPLATE,NEED_REVIEW
+2302,3,性格,bản chất / tính tình / tính khí / nhân cách,名,我已经学会了“性格”这个词。,"Tôi đã học được từ ""性格"".",TEMPLATE,NEED_REVIEW
+2303,3,修,trang trí / tô điểm / sửa chữa / xây dựng / viết / trau dồi / học / theo học (một lớp) / biến thể của 修[xiu1],动,老师让我们读一读“修”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""修"".",TEMPLATE,NEED_REVIEW
+2304,3,修改,sửa đổi / thay đổi / chỉnh sửa,动,请用“修改”造一个句子。,"Hãy dùng từ ""修改"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2305,3,需求,yêu cầu / cần / (kinh tế) nhu cầu,名,我把“需求”写在了本子上。,"Tôi đã viết từ ""需求"" vào vở.",TEMPLATE,NEED_REVIEW
+2306,3,需要,cần; muốn; yêu cầu; đòi hỏi / nhu cầu,动、名,我在课本里看到了“需要”这个词。,"Tôi đã nhìn thấy từ ""需要"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2307,3,宣布,tuyên bố / thông báo / công bố,动,老师正在解释“宣布”这个词。,"Giáo viên đang giải thích từ ""宣布"".",TEMPLATE,NEED_REVIEW
+2308,3,宣传,truyền bá / quảng cáo / tuyên truyền,动、名,请大家一起读“宣传”这个词。,"Mọi người hãy cùng đọc từ ""宣传"".",TEMPLATE,NEED_REVIEW
+2309,3,选手,vận động viên / thí sinh,名,这个单元我们要学习“选手”。,"Trong bài này chúng tôi sẽ học từ ""选手"".",TEMPLATE,NEED_REVIEW
+2310,3,学费,học phí / tiền học,名,今天老师教我们“学费”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""学费"".",TEMPLATE,NEED_REVIEW
+2311,3,训练,huấn luyện / diễn tập / đào tạo,动、名,今天我们学习了“训练”这个词。,"Hôm nay chúng tôi đã học từ ""训练"".",TEMPLATE,NEED_REVIEW
+2312,3,压,đè / ấn xuống / kiềm chế / áp lực,动,我已经学会了“压”这个词。,"Tôi đã học được từ ""压"".",TEMPLATE,NEED_REVIEW
+2313,3,压力,áp lực,名,最近工作太多，我觉得压力很大。,"Gần đây công việc quá nhiều, tôi cảm thấy áp lực rất lớn.",REAL,READY
+2314,3,烟,thuốc lá hoặc thuốc lào / khói / sương / hơi nước / cây thuốc lá / (mắt) bị kích thích bởi khói,名,请用“烟”造一个句子。,"Hãy dùng từ ""烟"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2315,3,眼前,trước mắt / bây giờ / hiện tại,名,我把“眼前”写在了本子上。,"Tôi đã viết từ ""眼前"" vào vở.",TEMPLATE,NEED_REVIEW
+2316,3,演,"biểu diễn (vở kịch, v.v.); dàn dựng (một buổi diễn) / (hình thức kết hợp) phát triển; diễn ra; thực hiện (một nhiệm vụ)",动,我在课本里看到了“演”这个词。,"Tôi đã nhìn thấy từ ""演"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2317,3,演唱,hát (trước khán giả) / biểu diễn thanh nhạc,动,老师正在解释“演唱”这个词。,"Giáo viên đang giải thích từ ""演唱"".",TEMPLATE,NEED_REVIEW
+2318,3,演唱会,buổi hòa nhạc hoặc buổi biểu diễn,名,请大家一起读“演唱会”这个词。,"Mọi người hãy cùng đọc từ ""演唱会"".",TEMPLATE,NEED_REVIEW
+2319,3,演出,diễn (trong một vở kịch) / biểu diễn / dàn dựng (một buổi diễn) / buổi biểu diễn / hòa nhạc / chương trình,动、名,这个单元我们要学习“演出”。,"Trong bài này chúng tôi sẽ học từ ""演出"".",TEMPLATE,NEED_REVIEW
+2320,3,演员,diễn viên; diễn viên nam; diễn viên nữ; người biểu diễn,名,今天老师教我们“演员”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""演员"".",TEMPLATE,NEED_REVIEW
+2321,3,羊,cừu; dê,名,今天我们学习了“羊”这个词。,"Hôm nay chúng tôi đã học từ ""羊"".",TEMPLATE,NEED_REVIEW
+2322,3,阳光,ánh nắng / (về tính cách) lạc quan; năng động / minh bạch (công khai cho công chúng xem xét),名,我已经学会了“阳光”这个词。,"Tôi đã học được từ ""阳光"".",TEMPLATE,NEED_REVIEW
+2323,3,要是,(thông tục) nếu,连,老师让我们读一读“要是”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""要是"".",TEMPLATE,NEED_REVIEW
+2324,3,衣架,móc treo quần áo / giá treo quần áo,名,请用“衣架”造一个句子。,"Hãy dùng từ ""衣架"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2325,3,一切,mọi thứ / mọi / tất cả,代,我把“一切”写在了本子上。,"Tôi đã viết từ ""一切"" vào vở.",TEMPLATE,NEED_REVIEW
+2326,3,已,đã / ngừng / rồi / sau đó,副,我在课本里看到了“已”这个词。,"Tôi đã nhìn thấy từ ""已"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2327,3,以来,kể từ (một sự kiện trước),名,老师正在解释“以来”这个词。,"Giáo viên đang giải thích từ ""以来"".",TEMPLATE,NEED_REVIEW
+2328,3,一方面,một mặt,名,请大家一起读“一方面”这个词。,"Mọi người hãy cùng đọc từ ""一方面"".",TEMPLATE,NEED_REVIEW
+2329,3,艺术,nghệ thuật,名,这个单元我们要学习“艺术”。,"Trong bài này chúng tôi sẽ học từ ""艺术"".",TEMPLATE,NEED_REVIEW
+2330,3,意外,bất ngờ / tai nạn / sự cố,形、名,今天老师教我们“意外”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""意外"".",TEMPLATE,NEED_REVIEW
+2331,3,意义,ý nghĩa / tầm quan trọng / sự quan trọng,名,今天我们学习了“意义”这个词。,"Hôm nay chúng tôi đã học từ ""意义"".",TEMPLATE,NEED_REVIEW
+2332,3,因此,do đó; vì vậy; kết quả là,连,我已经学会了“因此”这个词。,"Tôi đã học được từ ""因此"".",TEMPLATE,NEED_REVIEW
+2333,3,银,bạc / màu bạc / liên quan đến tiền bạc hoặc tiền tệ,名,老师让我们读一读“银”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""银"".",TEMPLATE,NEED_REVIEW
+2334,3,银牌,huy chương bạc,名,请用“银牌”造一个句子。,"Hãy dùng từ ""银牌"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2335,3,印象,ấn tượng (điều gì đó lưu lại trong tâm trí) / một ký ức,名,我把“印象”写在了本子上。,"Tôi đã viết từ ""印象"" vào vở.",TEMPLATE,NEED_REVIEW
+2336,3,应当,nên; cần phải,动,我在课本里看到了“应当”这个词。,"Tôi đã nhìn thấy từ ""应当"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2337,3,迎接,chào đón; đón tiếp,动,老师正在解释“迎接”这个词。,"Giáo viên đang giải thích từ ""迎接"".",TEMPLATE,NEED_REVIEW
+2338,3,营养,dinh dưỡng / nuôi dưỡng,名,请大家一起读“营养”这个词。,"Mọi người hãy cùng đọc từ ""营养"".",TEMPLATE,NEED_REVIEW
+2339,3,赢,thắng / chiến thắng / có lợi,动,这个单元我们要学习“赢”。,"Trong bài này chúng tôi sẽ học từ ""赢"".",TEMPLATE,NEED_REVIEW
+2340,3,影视,phim và truyền hình,名,今天老师教我们“影视”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""影视"".",TEMPLATE,NEED_REVIEW
+2341,3,应用,"đưa vào sử dụng; áp dụng / thực tiễn; ứng dụng (khoa học, ngôn ngữ học, v.v.) / ứng dụng; sử dụng thực tế / (tin học) ứng dụng",动,今天我们学习了“应用”这个词。,"Hôm nay chúng tôi đã học từ ""应用"".",TEMPLATE,NEED_REVIEW
+2342,3,优点,ưu điểm / lợi ích / điểm mạnh / lợi thế,名,我已经学会了“优点”这个词。,"Tôi đã học được từ ""优点"".",TEMPLATE,NEED_REVIEW
+2343,3,优势,sự vượt trội / sự thống trị / lợi thế,名,老师让我们读一读“优势”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""优势"".",TEMPLATE,NEED_REVIEW
+2344,3,由,theo / từ / bởi vì; do / bằng; qua; thông qua / (trước danh từ và động từ) là để ... làm ...,介,请用“由”造一个句子。,"Hãy dùng từ ""由"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2345,3,由于,do / bởi vì / nhờ vào / tại vì / kể từ / vì,介、连,我把“由于”写在了本子上。,"Tôi đã viết từ ""由于"" vào vở.",TEMPLATE,NEED_REVIEW
+2346,3,邮件,thư từ / bưu phẩm / email,名,我在课本里看到了“邮件”这个词。,"Tôi đã nhìn thấy từ ""邮件"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2347,3,邮票,"tem (bưu chính) / Lượng từ: 枚[mei2], 張|张[zhang1]",名,老师正在解释“邮票”这个词。,"Giáo viên đang giải thích từ ""邮票"".",TEMPLATE,NEED_REVIEW
+2348,3,邮箱,hộp thư / hộp thư bưu điện / thư điện tử / hộp thư email,名,请大家一起读“邮箱”这个词。,"Mọi người hãy cùng đọc từ ""邮箱"".",TEMPLATE,NEED_REVIEW
+2349,3,游,bơi / biến thể của 遊|游[you2] / đi / du lịch / đi rong ruổi / du hành,动,这个单元我们要学习“游”。,"Trong bài này chúng tôi sẽ học từ ""游"".",TEMPLATE,NEED_REVIEW
+2350,3,游戏,trò chơi / chơi,名,今天老师教我们“游戏”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""游戏"".",TEMPLATE,NEED_REVIEW
+2351,3,游泳,bơi lội / bơi,名、动,今天我们学习了“游泳”这个词。,"Hôm nay chúng tôi đã học từ ""游泳"".",TEMPLATE,NEED_REVIEW
+2352,3,有的是,có nhiều / không thiếu,,我已经学会了“有的是”这个词。,"Tôi đã học được từ ""有的是"".",TEMPLATE,NEED_REVIEW
+2353,3,有利,có lợi; thuận lợi,形,老师让我们读一读“有利”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""有利"".",TEMPLATE,NEED_REVIEW
+2354,3,有效,hiệu quả / có hiệu lực / hợp lệ,动,请用“有效”造一个句子。,"Hãy dùng từ ""有效"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2355,3,预报,dự báo,动、名,我把“预报”写在了本子上。,"Tôi đã viết từ ""预报"" vào vở.",TEMPLATE,NEED_REVIEW
+2356,3,预防,ngăn ngừa / phòng chống / bảo vệ / chống lại / mang tính phòng ngừa / dự phòng,动,我在课本里看到了“预防”这个词。,"Tôi đã nhìn thấy từ ""预防"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2357,3,预计,dự báo / dự đoán / ước tính,动,老师正在解释“预计”这个词。,"Giáo viên đang giải thích từ ""预计"".",TEMPLATE,NEED_REVIEW
+2358,3,预习,chuẩn bị bài,动,请大家一起读“预习”这个词。,"Mọi người hãy cùng đọc từ ""预习"".",TEMPLATE,NEED_REVIEW
+2359,3,员（服务员）,(hình thức kết hợp) người tham gia một lĩnh vực hoạt động nhất định / (hình thức kết hợp) thành viên,后缀,这个单元我们要学习“服务员”。,"Trong bài này chúng tôi sẽ học từ ""服务员"".",TEMPLATE,NEED_REVIEW
+2360,3,员工,nhân viên; nhân sự; nhân công,名,今天老师教我们“员工”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""员工"".",TEMPLATE,NEED_REVIEW
+2361,3,愿望,khát vọng / ước muốn,名,今天我们学习了“愿望”这个词。,"Hôm nay chúng tôi đã học từ ""愿望"".",TEMPLATE,NEED_REVIEW
+2362,3,约,hẹn / mời / xấp xỉ / ước định / hiệp ước / tiết kiệm / hạn chế / rút gọn (phân số) / súc tích,动,我已经学会了“约”这个词。,"Tôi đã học được từ ""约"".",TEMPLATE,NEED_REVIEW
+2363,3,乐队,ban nhạc / nhóm nhạc,名,老师让我们读一读“乐队”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""乐队"".",TEMPLATE,NEED_REVIEW
+2364,3,运输,vận chuyển / mang / chuyên chở,动,请用“运输”造一个句子。,"Hãy dùng từ ""运输"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2365,3,杂志,tạp chí,名,我把“杂志”写在了本子上。,"Tôi đã viết từ ""杂志"" vào vở.",TEMPLATE,NEED_REVIEW
+2366,3,早已,đã từ lâu; từ lâu / (tiếng địa phương) trước đây,副,我在课本里看到了“早已”这个词。,"Tôi đã nhìn thấy từ ""早已"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2367,3,造,làm / xây dựng / sản xuất / phát minh / bịa đặt / đi đến / bên (trong vụ kiện hoặc thỏa thuận pháp lý) / mùa vụ / lượng từ cho mùa vụ,动,老师正在解释“造”这个词。,"Giáo viên đang giải thích từ ""造"".",TEMPLATE,NEED_REVIEW
+2368,3,造成,gây ra; tạo ra; khiến,动,请大家一起读“造成”这个词。,"Mọi người hãy cùng đọc từ ""造成"".",TEMPLATE,NEED_REVIEW
+2369,3,责任,trách nhiệm / lỗi / phận sự,名,这个单元我们要学习“责任”。,"Trong bài này chúng tôi sẽ học từ ""责任"".",TEMPLATE,NEED_REVIEW
+2370,3,增加,tăng; tăng thêm,动,今天老师教我们“增加”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""增加"".",TEMPLATE,NEED_REVIEW
+2371,3,增长,tăng trưởng / tăng lên,动,今天我们学习了“增长”这个词。,"Hôm nay chúng tôi đã học từ ""增长"".",TEMPLATE,NEED_REVIEW
+2372,3,展开,mở ra; trải ra; mở rộng / phát động; tiến hành,,我已经学会了“展开”这个词。,"Tôi đã học được từ ""展开"".",TEMPLATE,NEED_REVIEW
+2373,3,张,"mở ra / trải ra / tờ giấy / lượng từ cho vật phẳng, tờ / lượng từ cho phiếu bầu",量、动,老师让我们读一读“张”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""张"".",TEMPLATE,NEED_REVIEW
+2374,3,照,biến thể của 照[zhao4] / chiếu / soi sáng / theo / theo như / chiếu / soi / phản chiếu / nhìn (hình phản chiếu) / chụp (ảnh) / ảnh / theo yêu cầu / như trước,动、介,请用“照”造一个句子。,"Hãy dùng từ ""照"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2375,3,者（志愿者）,"(sau động từ hoặc tính từ) người mà ... / (sau danh từ) người liên quan đến ... / (dùng sau một số hoặc 後|后[hou4] hoặc 前[qian2] để chỉ điều đã được nhắc đến trước đó) / (dùng sau một thuật ngữ, để ngắt trước khi định nghĩa thuật ngữ đó) / (cổ) (dùng ở cuối mệnh lệnh) / (cổ) này",后缀,我把“志愿者”写在了本子上。,"Tôi đã viết từ ""志愿者"" vào vở.",TEMPLATE,NEED_REVIEW
+2376,3,真实,thật; chân thật,形,我在课本里看到了“真实”这个词。,"Tôi đã nhìn thấy từ ""真实"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2377,3,争,cố gắng giành / đua tranh / tranh luận hoặc tranh cãi / thiếu hoặc không đủ (phương ngữ) / như thế nào hoặc cái gì (văn học),动,老师正在解释“争”这个词。,"Giáo viên đang giải thích từ ""争"".",TEMPLATE,NEED_REVIEW
+2378,3,争取,đấu tranh giành / nỗ lực giành / lôi kéo,动,请大家一起读“争取”这个词。,"Mọi người hãy cùng đọc từ ""争取"".",TEMPLATE,NEED_REVIEW
+2379,3,整,(hình thức liên kết) toàn bộ; hoàn chỉnh; toàn thể; (trước lượng từ) toàn bộ; (trước hoặc sau số + lượng từ) chính xác / (hình thức liên kết) gọn gàng; ngăn nắp; chỉnh tề / (hình thức liên kết) sắp xếp; chỉnh đốn / (hình thức liên kết) sửa chữa; phục hồi; tân trang / (thông tục) xử lý ai đó; gây khó dễ cho ai đó; chọc phá ai đó / (tiếng địa phương) mày mò; làm gì đó với,形、动,这个单元我们要学习“整”。,"Trong bài này chúng tôi sẽ học từ ""整"".",TEMPLATE,NEED_REVIEW
+2380,3,整个,toàn bộ / toàn thể / tổng thể,形,今天老师教我们“整个”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""整个"".",TEMPLATE,NEED_REVIEW
+2381,3,整理,"sắp xếp / dọn dẹp / chỉnh lý / liệt kê có hệ thống / đối chiếu (dữ liệu, hồ sơ) / đóng gói (hành lý)",动,今天我们学习了“整理”这个词。,"Hôm nay chúng tôi đã học từ ""整理"".",TEMPLATE,NEED_REVIEW
+2382,3,整齐,ngăn nắp / gọn gàng / đều / ngay ngắn,形,我已经学会了“整齐”这个词。,"Tôi đã học được từ ""整齐"".",TEMPLATE,NEED_REVIEW
+2383,3,整体,"thực thể toàn bộ / toàn thân / tổng hợp / như một tổng thể (tình huống, cấu trúc, đội nhóm, v.v.) / toàn cầu / vĩ mô / tích hợp / toàn diện / toàn bộ",名,老师让我们读一读“整体”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""整体"".",TEMPLATE,NEED_REVIEW
+2384,3,整天,cả ngày / suốt ngày,名,请用“整天”造一个句子。,"Hãy dùng từ ""整天"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2385,3,整整,toàn bộ / đầy đủ,副,我把“整整”写在了本子上。,"Tôi đã viết từ ""整整"" vào vở.",TEMPLATE,NEED_REVIEW
+2386,3,正式,trang trọng; chính thức,形,我在课本里看到了“正式”这个词。,"Tôi đã nhìn thấy từ ""正式"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2387,3,证,khiển trách / biến thể của 證|证[zheng4] / chứng chỉ / bằng chứng / chứng minh / biểu thị / xác nhận / biến thể của 症[zheng4],名,老师正在解释“证”这个词。,"Giáo viên đang giải thích từ ""证"".",TEMPLATE,NEED_REVIEW
+2388,3,证件,giấy chứng nhận; giấy tờ; thông tin xác thực; tài liệu; ID,名,请大家一起读“证件”这个词。,"Mọi người hãy cùng đọc từ ""证件"".",TEMPLATE,NEED_REVIEW
+2389,3,证据,bằng chứng / chứng cứ / lời khai,名,这个单元我们要学习“证据”。,"Trong bài này chúng tôi sẽ học từ ""证据"".",TEMPLATE,NEED_REVIEW
+2390,3,证明,bằng chứng / chứng chỉ / giấy tờ tùy thân / lời chứng thực / chứng minh / làm chứng / xác nhận tính đúng đắn của,动、名,今天老师教我们“证明”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""证明"".",TEMPLATE,NEED_REVIEW
+2391,3,支,"hỗ trợ / duy trì / dựng / lên / nhánh / phân nhánh / rút tiền / lượng từ cho gậy như bút và súng, cho sư đoàn quân đội và cho bài hát hoặc tác phẩm",量,今天我们学习了“支”这个词。,"Hôm nay chúng tôi đã học từ ""支"".",TEMPLATE,NEED_REVIEW
+2392,3,支持,tán thành / hỗ trợ / ủng hộ / sự hỗ trợ / sự ủng hộ / đứng về phía,动,我已经学会了“支持”这个词。,"Tôi đã học được từ ""支持"".",TEMPLATE,NEED_REVIEW
+2393,3,支付,trả tiền,动,老师让我们读一读“支付”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""支付"".",TEMPLATE,NEED_REVIEW
+2394,3,只,"hạt bắt đầu chín / lượng từ cho chim và một số động vật, một trong một cặp, một số dụng cụ, đồ chứa, v.v.",量,请用“只”造一个句子。,"Hãy dùng từ ""只"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2395,3,直,thẳng / làm thẳng / công bằng và hợp lý / thẳng thắn / trung thực / (chỉ sự chuyển động hoặc hành động liên tục) / dọc / nét sổ dọc trong chữ Hán,形、动、副,我把“直”写在了本子上。,"Tôi đã viết từ ""直"" vào vở.",TEMPLATE,NEED_REVIEW
+2396,3,直播,"(TV, radio) phát sóng trực tiếp / phát trực tiếp / (Internet) phát livestream / (nông nghiệp) gieo sạ trực tiếp",动,我在课本里看到了“直播”这个词。,"Tôi đã nhìn thấy từ ""直播"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2397,3,直到,cho đến,动,老师正在解释“直到”这个词。,"Giáo viên đang giải thích từ ""直到"".",TEMPLATE,NEED_REVIEW
+2398,3,值,giá trị / (thì) đáng / tình cờ / có phiên trực,动,请大家一起读“值”这个词。,"Mọi người hãy cùng đọc từ ""值"".",TEMPLATE,NEED_REVIEW
+2399,3,值得,đáng / đáng để,,这个单元我们要学习“值得”。,"Trong bài này chúng tôi sẽ học từ ""值得"".",TEMPLATE,NEED_REVIEW
+2400,3,职工,nhân viên; cán bộ nhân viên; công nhân,名,今天老师教我们“职工”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""职工"".",TEMPLATE,NEED_REVIEW
+2401,3,职业,nghề nghiệp; chuyên nghiệp; công việc / chuyên nghiệp,名,今天我们学习了“职业”这个词。,"Hôm nay chúng tôi đã học từ ""职业"".",TEMPLATE,NEED_REVIEW
+2402,3,只好,không còn lựa chọn nào khác ngoài...; đành phải; bị buộc phải,副,我已经学会了“只好”这个词。,"Tôi đã học được từ ""只好"".",TEMPLATE,NEED_REVIEW
+2403,3,只是,chỉ; chỉ là; không gì ngoài / đơn giản / tuy nhiên,副、连,老师让我们读一读“只是”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""只是"".",TEMPLATE,NEED_REVIEW
+2404,3,只有,"chỉ có ... / (dùng cùng với 才[cai2]) chỉ nếu một ... (thì mới có thể ...) (Ví dụ: 只有通過治療才能痊愈|只有通过治疗才能痊愈[zhi3 you3 tong1 guo4 zhi4 liao2 cai2 neng2 quan2 yu4] ""cách duy nhất để chữa khỏi là thông qua trị liệu"") / chỉ có ... (mới ...) (Ví dụ: 只有男性才有此需要[zhi3 you3 nan2 xing4 cai2 you3 ci3 xu1 yao4] ""chỉ có nam giới mới có nhu cầu này"") / (dùng để chỉ không có lựa chọn nào khác) chỉ có thể (làm một việc nhất định) (Ví dụ: 只有屈服[zhi3 you3 qu1 fu2] ""điều duy nhất có thể làm là khuất phục"")",连,请用“只有”造一个句子。,"Hãy dùng từ ""只有"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2405,3,指,ngón tay / chỉ vào hoặc đến / chỉ ra hoặc đề cập đến / phụ thuộc vào / dựa vào / (tóc) dựng đứng lên,动,我把“指”写在了本子上。,"Tôi đã viết từ ""指"" vào vở.",TEMPLATE,NEED_REVIEW
+2406,3,指出,chỉ ra / nêu ra,,我在课本里看到了“指出”这个词。,"Tôi đã nhìn thấy từ ""指出"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2407,3,指导,hướng dẫn / đưa ra chỉ đạo / chỉ đạo / huấn luyện / dạy học,动,老师正在解释“指导”这个词。,"Giáo viên đang giải thích từ ""指导"".",TEMPLATE,NEED_REVIEW
+2408,3,至今,cho đến nay / đến ngày hôm nay / cho đến bây giờ,副,请大家一起读“至今”这个词。,"Mọi người hãy cùng đọc từ ""至今"".",TEMPLATE,NEED_REVIEW
+2409,3,至少,ít nhất / (nói một cách) tối thiểu,副,这个单元我们要学习“至少”。,"Trong bài này chúng tôi sẽ học từ ""至少"".",TEMPLATE,NEED_REVIEW
+2410,3,志愿,nguyện vọng / tham vọng / tình nguyện,名,今天老师教我们“志愿”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""志愿"".",TEMPLATE,NEED_REVIEW
+2411,3,志愿者,tình nguyện viên,名,今天我们学习了“志愿者”这个词。,"Hôm nay chúng tôi đã học từ ""志愿者"".",TEMPLATE,NEED_REVIEW
+2412,3,制定,soạn thảo; xây dựng,动,我已经学会了“制定”这个词。,"Tôi đã học được từ ""制定"".",TEMPLATE,NEED_REVIEW
+2413,3,制度,"hệ thống (ví dụ: chính trị, hành chính, v.v.) / thiết chế",名,老师让我们读一读“制度”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""制度"".",TEMPLATE,NEED_REVIEW
+2414,3,制造,sản xuất; làm,动,请用“制造”造一个句子。,"Hãy dùng từ ""制造"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2415,3,制作,làm; sản xuất,动,我把“制作”写在了本子上。,"Tôi đã viết từ ""制作"" vào vở.",TEMPLATE,NEED_REVIEW
+2416,3,中部,phần giữa / khu vực trung tâm,名,我在课本里看到了“中部”这个词。,"Tôi đã nhìn thấy từ ""中部"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2417,3,中华民族,dân tộc Trung Hoa / nhân dân Trung Hoa (cách gọi chung cho tất cả các nhóm dân tộc ở Trung Quốc),,老师正在解释“中华民族”这个词。,"Giáo viên đang giải thích từ ""中华民族"".",TEMPLATE,NEED_REVIEW
+2418,3,终于,cuối cùng / rốt cuộc / sau cùng / rốt cuộc thì,副,请大家一起读“终于”这个词。,"Mọi người hãy cùng đọc từ ""终于"".",TEMPLATE,NEED_REVIEW
+2419,3,钟,"cốc không quai; ly rượu / hình thức kết hợp, tập trung (tình cảm, v.v.) / biến thể của 鐘|钟[zhong1] / một cái chuông (lớn) (LT: 架[jia4]) / đồng hồ (LT: 座[zuo4]) / khoảng thời gian; giờ (LT: 點|点[dian3], 分[fen1], 秒[miao3]) (như trong 三點鐘|三点钟[san1dian3zhong1] ""ba giờ"" hoặc ""ba tiếng"" hoặc 五分鐘|五分钟[wu3fen1zhong1] ""năm phút"" v.v.)",名,这个单元我们要学习“钟”。,"Trong bài này chúng tôi sẽ học từ ""钟"".",TEMPLATE,NEED_REVIEW
+2420,3,种,"hạt / loài / loại / kiểu / lượng từ cho loại, kiểu, dạng",量,今天老师教我们“种”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""种"".",TEMPLATE,NEED_REVIEW
+2421,3,种子,hạt giống,名,今天我们学习了“种子”这个词。,"Hôm nay chúng tôi đã học từ ""种子"".",TEMPLATE,NEED_REVIEW
+2422,3,重大,lớn / lao / quan trọng / đáng kể,形,我已经学会了“重大”这个词。,"Tôi đã học được từ ""重大"".",TEMPLATE,NEED_REVIEW
+2423,3,周围,vùng lân cận; xung quanh; ngoại vi,名,老师让我们读一读“周围”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""周围"".",TEMPLATE,NEED_REVIEW
+2424,3,猪,lợn / heo,名,请用“猪”造一个句子。,"Hãy dùng từ ""猪"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2425,3,主持,"phụ trách / quản lý hoặc điều hành / chủ trì / bảo vệ / đứng về phía (công lý, v.v.) / dẫn chương trình (truyền hình hoặc radio, v.v.) / người dẫn chương trình (truyền hình)",动,我把“主持”写在了本子上。,"Tôi đã viết từ ""主持"" vào vở.",TEMPLATE,NEED_REVIEW
+2426,3,主动,"chủ động / tự làm gì đó / tự giác / tích cực / đối lập: bị động 被動|被动[bei4 dong4] / dẫn động (của bánh răng, trục, v.v.)",形,我在课本里看到了“主动”这个词。,"Tôi đã nhìn thấy từ ""主动"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2427,3,主任,giám đốc / trưởng,名,老师正在解释“主任”这个词。,"Giáo viên đang giải thích từ ""主任"".",TEMPLATE,NEED_REVIEW
+2428,3,主意,kế hoạch / ý tưởng / quyết định / cách phát âm Bắc Kinh [zhu2 yi5],名,请大家一起读“主意”这个词。,"Mọi người hãy cùng đọc từ ""主意"".",TEMPLATE,NEED_REVIEW
+2429,3,主张,ủng hộ / tán thành / quan điểm / lập trường / chủ trương / khẳng định,动、名,这个单元我们要学习“主张”。,"Trong bài này chúng tôi sẽ học từ ""主张"".",TEMPLATE,NEED_REVIEW
+2430,3,注意,chú ý đến; quan tâm đến,,今天老师教我们“注意”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""注意"".",TEMPLATE,NEED_REVIEW
+2431,3,祝,"cầu nguyện / chúc (ai đó thượng lộ bình an, sinh nhật vui vẻ, v.v.) / người cầu khấn thần linh trong các nghi lễ tế tự",动,今天我们学习了“祝”这个词。,"Hôm nay chúng tôi đã học từ ""祝"".",TEMPLATE,NEED_REVIEW
+2432,3,抓,bắt / nắm / túm / chộp / cào,动,我已经学会了“抓”这个词。,"Tôi đã học được từ ""抓"".",TEMPLATE,NEED_REVIEW
+2433,3,抓住,nắm bắt; bắt giữ,,老师让我们读一读“抓住”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""抓住"".",TEMPLATE,NEED_REVIEW
+2434,3,专家,chuyên gia; chuyên viên,名,请用“专家”造一个句子。,"Hãy dùng từ ""专家"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2435,3,专门,chuyên gia / chuyên môn / tùy chỉnh,副,我把“专门”写在了本子上。,"Tôi đã viết từ ""专门"" vào vở.",TEMPLATE,NEED_REVIEW
+2436,3,专题,"chủ đề cụ thể (được đề cập trong sách, bài giảng, chương trình TV, v.v.) / bài viết, báo cáo hoặc chương trình về một chủ đề cụ thể",名,我在课本里看到了“专题”这个词。,"Tôi đã nhìn thấy từ ""专题"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2437,3,专业,chuyên môn / lĩnh vực chuyên ngành / ngành học chính (ở đại học) / ngành / chuyên nghiệp,名,老师正在解释“专业”这个词。,"Giáo viên đang giải thích từ ""专业"".",TEMPLATE,NEED_REVIEW
+2438,3,转,xoay / chuyển hướng / chuyển giao / chuyển tiếp (thư) / (Internet) chia sẻ (nội dung của người khác),动,请大家一起读“转”这个词。,"Mọi người hãy cùng đọc từ ""转"".",TEMPLATE,NEED_REVIEW
+2439,3,转变,thay đổi / chuyển hóa / chuyển đổi / sự thay đổi,动,这个单元我们要学习“转变”。,"Trong bài này chúng tôi sẽ học từ ""转变"".",TEMPLATE,NEED_REVIEW
+2440,3,状况,tình trạng; trạng thái; tình huống,名,今天老师教我们“状况”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""状况"".",TEMPLATE,NEED_REVIEW
+2441,3,状态,tình trạng; trạng thái; tình hình,名,今天我们学习了“状态”这个词。,"Hôm nay chúng tôi đã học từ ""状态"".",TEMPLATE,NEED_REVIEW
+2442,3,追,đuổi / theo đuổi / điều tra / nghiên cứu / hồi tưởng / nhớ lại / tán tỉnh (người yêu) / cày phim (một bộ phim truyền hình) / truy cứu hồi tố / truy tặng sau khi qua đời,动,我已经学会了“追”这个词。,"Tôi đã học được từ ""追"".",TEMPLATE,NEED_REVIEW
+2443,3,准,"cho phép / chấp thuận / theo / phù hợp với / chính xác / tiêu chuẩn / chắc chắn / nhất định / sắp trở thành (cô dâu, con rể, v.v.) / chuẩn- / cận-",形、副,老师让我们读一读“准”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""准"".",TEMPLATE,NEED_REVIEW
+2444,3,资格,trình độ / người có thâm niên,名,请用“资格”造一个句子。,"Hãy dùng từ ""资格"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2445,3,资金,quỹ; vốn,名,我把“资金”写在了本子上。,"Tôi đã viết từ ""资金"" vào vở.",TEMPLATE,NEED_REVIEW
+2446,3,子女,con cái; con trai và con gái,名,我在课本里看到了“子女”这个词。,"Tôi đã nhìn thấy từ ""子女"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2447,3,自从,kể từ khi / từ khi,介,老师正在解释“自从”这个词。,"Giáo viên đang giải thích từ ""自从"".",TEMPLATE,NEED_REVIEW
+2448,3,自动,tự động / tự nguyện,形、副,请大家一起读“自动”这个词。,"Mọi người hãy cùng đọc từ ""自动"".",TEMPLATE,NEED_REVIEW
+2449,3,自觉,có ý thức / nhận thức / tự mình chủ động / tận tâm,形,这个单元我们要学习“自觉”。,"Trong bài này chúng tôi sẽ học từ ""自觉"".",TEMPLATE,NEED_REVIEW
+2450,3,自然,tự nhiên / một cách tự nhiên,名、形、副,今天老师教我们“自然”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""自然"".",TEMPLATE,NEED_REVIEW
+2451,3,自身,bản thân / tự mình / của riêng mình,名,今天我们学习了“自身”这个词。,"Hôm nay chúng tôi đã học từ ""自身"".",TEMPLATE,NEED_REVIEW
+2452,3,自主,độc lập / tự mình quyết định / tự chủ,动,我已经学会了“自主”这个词。,"Tôi đã học được từ ""自主"".",TEMPLATE,NEED_REVIEW
+2453,3,总,tổng thể; toàn bộ / tóm lại / trong mọi trường hợp; luôn luôn; lúc nào cũng / dù sao; sau tất cả; cuối cùng; không sớm thì muộn / chắc chắn / (sau tên người) viết tắt của 總經理|总经理[zong3 jing1 li3] hoặc 總編|总编[zong3 bian1] v.v.,副,老师让我们读一读“总”这个词。,"Giáo viên yêu cầu chúng tôi đọc từ ""总"".",TEMPLATE,NEED_REVIEW
+2454,3,总结,tóm tắt / kết luận / tóm lược / sơ yếu lý lịch,动、名,请用“总结”造一个句子。,"Hãy dùng từ ""总结"" để đặt một câu.",TEMPLATE,NEED_REVIEW
+2455,3,总是,luôn luôn,副,我把“总是”写在了本子上。,"Tôi đã viết từ ""总是"" vào vở.",TEMPLATE,NEED_REVIEW
+2456,3,足够,đủ; đủ mức,动,我在课本里看到了“足够”这个词。,"Tôi đã nhìn thấy từ ""足够"" trong sách giáo khoa.",TEMPLATE,NEED_REVIEW
+2457,3,足球,quả bóng đá / một quả bóng đá / môn bóng đá / bóng đá,名,老师正在解释“足球”这个词。,"Giáo viên đang giải thích từ ""足球"".",TEMPLATE,NEED_REVIEW
+2458,3,组合,lắp ráp; kết hợp; cấu thành / kết hợp; liên kết; bộ; biên soạn / (toán) tổ hợp,动,请大家一起读“组合”这个词。,"Mọi người hãy cùng đọc từ ""组合"".",TEMPLATE,NEED_REVIEW
+2459,3,左右,trái phải / gần đây / xấp xỉ / người phục vụ / kiểm soát / ảnh hưởng,名、动,这个单元我们要学习“左右”。,"Trong bài này chúng tôi sẽ học từ ""左右"".",TEMPLATE,NEED_REVIEW
+2460,3,作品,tác phẩm / tác phẩm nghệ thuật,名,今天老师教我们“作品”这个词。,"Hôm nay giáo viên dạy chúng tôi từ ""作品"".",TEMPLATE,NEED_REVIEW
+2461,3,作者,tác giả; nhà văn,名,今天我们学习了“作者”这个词。,"Hôm nay chúng tôi đã học từ ""作者"".",TEMPLATE,NEED_REVIEW
+2462,3,做客,làm khách hoặc thăm viếng,,我已经学会了“做客”这个词。,"Tôi đã học được từ ""做客"".",TEMPLATE,NEED_REVIEW

@@ -1,0 +1,339 @@
+{% extends "student/base.html" %}
+
+
+{% block title %}
+Quy tắc phát âm | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+<section class="foundation-page pronunciation-page">
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <div class="foundation-header">
+
+        <div class="foundation-breadcrumb">
+
+            <a href="{{ url_for('home.index') }}">
+                Trang chủ
+            </a>
+
+            <span>/</span>
+
+            <span>Nền tảng</span>
+
+            <span>/</span>
+
+            <strong>
+                Quy tắc phát âm
+            </strong>
+
+        </div>
+
+
+        <div class="foundation-title-row">
+
+            <div class="foundation-title-icon">
+                音
+            </div>
+
+
+            <div>
+
+                <span class="foundation-eyebrow">
+                    KIẾN THỨC PHÁT ÂM CƠ BẢN
+                </span>
+
+                <h1>
+                    Quy tắc phát âm
+                    <span>
+                        发音规则
+                    </span>
+                </h1>
+
+                <p>
+                    Hệ thống các quy tắc thanh điệu, cách đọc
+                    và biến đổi âm trong tiếng Trung.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         THỐNG KÊ
+    ====================================================== -->
+
+    <div class="pronunciation-summary">
+
+        <div class="pronunciation-summary-number">
+
+            <strong>
+                {{ total_rules }}
+            </strong>
+
+            <span>
+                quy tắc
+            </span>
+
+        </div>
+
+
+        <div class="pronunciation-summary-content">
+
+            <strong>
+                Học phát âm trước khi vào bài HSK
+            </strong>
+
+            <p>
+                Các quy tắc được sắp xếp theo thứ tự học để
+                giúp người học nắm cách đọc Pinyin, thanh điệu
+                và những trường hợp phát âm cần chú ý.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         DANH SÁCH QUY TẮC
+    ====================================================== -->
+
+    <div class="pronunciation-list">
+
+        {% for rule in rules %}
+
+            <article class="pronunciation-card">
+
+                <!-- Số thứ tự -->
+                <div class="pronunciation-index">
+                    {{ "%02d"|format(loop.index) }}
+                </div>
+
+
+                <!-- Nội dung -->
+                <div class="pronunciation-card-main">
+
+                    <div class="pronunciation-card-head">
+
+                        <div>
+
+                            {% if rule.LoaiQuyTac %}
+
+                                <span class="pronunciation-type">
+                                    {{ rule.LoaiQuyTac
+                                        | replace('_', ' ')
+                                    }}
+                                </span>
+
+                            {% endif %}
+
+
+                            <h2>
+                                {{ rule.TenQuyTac }}
+                            </h2>
+
+                        </div>
+
+
+                        {% if rule.DuongDanTep %}
+
+                            <button
+                                type="button"
+                                class="pronunciation-audio-button"
+                                data-audio-src="{{ rule.DuongDanTep }}"
+                                title="Nghe phát âm"
+                            >
+                                🔊
+                            </button>
+
+                        {% endif %}
+
+                    </div>
+
+
+                    <!-- Nội dung quy tắc -->
+                    <div class="pronunciation-content">
+                        {{ rule.NoiDung }}
+                    </div>
+
+
+                    <!-- Ví dụ -->
+                    {% if
+                        rule.ViDuTiengTrung
+                        or rule.ViDuPinyin
+                        or rule.NghiaTiengViet
+                    %}
+
+                        <div class="pronunciation-example">
+
+                            <div class="pronunciation-example-label">
+                                VÍ DỤ
+                            </div>
+
+
+                            {% if rule.ViDuTiengTrung %}
+
+                                <div class="pronunciation-example-cn">
+                                    {{ rule.ViDuTiengTrung }}
+                                </div>
+
+                            {% endif %}
+
+
+                            {% if rule.ViDuPinyin %}
+
+                                <div class="pronunciation-example-pinyin">
+                                    {{ rule.ViDuPinyin }}
+                                </div>
+
+                            {% endif %}
+
+
+                            {% if rule.NghiaTiengViet %}
+
+                                <div class="pronunciation-example-vi">
+                                    {{ rule.NghiaTiengViet }}
+                                </div>
+
+                            {% endif %}
+
+                        </div>
+
+                    {% endif %}
+
+                </div>
+
+            </article>
+
+        {% else %}
+
+            <div class="pronunciation-empty">
+
+                <strong>
+                    Chưa có quy tắc phát âm.
+                </strong>
+
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+
+    <!-- =====================================================
+         ĐIỀU HƯỚNG
+    ====================================================== -->
+
+    <div class="foundation-next">
+
+        <a
+            href="{{ url_for('foundation.pinyin') }}"
+            class="foundation-next-card"
+        >
+
+            <span>
+                Xem lại
+            </span>
+
+            <strong>
+                Bảng Pinyin
+            </strong>
+
+            <b>
+                ←
+            </b>
+
+        </a>
+
+
+        <a
+            href="{{ url_for('foundation.radicals') }}"
+            class="foundation-next-card"
+        >
+
+            <span>
+                Xem thêm
+            </span>
+
+            <strong>
+                214 Bộ thủ
+            </strong>
+
+            <b>
+                →
+            </b>
+
+        </a>
+
+    </div>
+
+
+    <audio
+        id="pronunciationAudio"
+        preload="none"
+    ></audio>
+
+</section>
+
+{% endblock %}
+
+
+
+{% block extra_js %}
+
+<script>
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+        const audio =
+            document.getElementById(
+                "pronunciationAudio"
+            );
+
+        const buttons =
+            document.querySelectorAll(
+                ".pronunciation-audio-button"
+            );
+
+
+        buttons.forEach(
+            function (button) {
+
+                button.addEventListener(
+                    "click",
+                    function () {
+
+                        const source =
+                            button.dataset.audioSrc;
+
+                        if (!source) {
+                            return;
+                        }
+
+                        audio.src = source;
+
+                        audio.play();
+
+                    }
+                );
+
+            }
+        );
+
+    }
+);
+
+</script>
+
+{% endblock %}

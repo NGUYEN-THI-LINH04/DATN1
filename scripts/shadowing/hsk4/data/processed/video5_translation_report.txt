@@ -1,0 +1,20 @@
+SHADOWING HSK4 - VIDEO 5
+
+YouTube ID: Q1FO6dr5T_Y
+MaKhoaHoc: 4
+MaBaiHoc: 2059
+So doan: 313
+So ban dich: 313
+
+JSON: OK
+Timestamp va du lieu goc: OK
+
+CAC DOAN CAN RA SOAT:
+072-073: Tu tieng Trung bi ngat.
+134-135: Tu tieng Trung bi ngat.
+277-279: Tu tieng Trung bi ngat.
+Kiem tra cac doan ngan duoi 0.8 giay.
+Kiem tra pinyin cua tu da am.
+Can doi chieu transcript voi am thanh.
+
+CHUA CAP NHAT SQL SERVER.

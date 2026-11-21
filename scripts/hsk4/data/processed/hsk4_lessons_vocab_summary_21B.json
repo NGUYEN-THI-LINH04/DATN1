@@ -1,0 +1,120 @@
+{
+  "buoc": "21B",
+  "cach_gan": {
+    "GIU_SEED_STEP21": 120,
+    "MANUAL_OVERRIDE": 71,
+    "MODEL_NGU_NGHIA": 367,
+    "MODEL_NGU_NGHIA_RO": 1,
+    "RULE_NGU_NGHIA": 202,
+    "RULE_NGU_NGHIA_MANH": 239
+  },
+  "do_tin_cay": {
+    "CAO": 310,
+    "THAP": 367,
+    "TRUNG_BINH": 323
+  },
+  "ghi_sql": false,
+  "lesson_source_sha256": "a542e017dcc116451399258de617178d31dd91121440dbe64ad4efa27364ed0b",
+  "manual_overrides": 71,
+  "outputs": {
+    "changes": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\vocabulary_hsk4_by_lesson_changes_21B.csv",
+    "changes_sha256": "88400998f6b1dda5b315fcd94bcd7a5d7565de6151d1e1bc1041ac33e3520f72",
+    "lessons": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\lessons_hsk4_draft_20_21B.csv",
+    "lessons_sha256": "32fb32a40a5aa8b60fd64556734e8a0be9b9a6902be865bf5cd5c11a244aa3ab",
+    "review": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\vocabulary_hsk4_by_lesson_review_21B.csv",
+    "review_sha256": "06a8be3b333e24e8a302c9da06cf471bc17bc0bdc5e3f0865df4f6fe2b86d870",
+    "vocabulary": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\vocabulary_hsk4_by_lesson_draft_21B.csv",
+    "vocabulary_sha256": "79716ce75ee23b869626a546017d5e744a6b0e40d8b214dace8851c009cdc1f2"
+  },
+  "phan_bo": {
+    "1": {
+      "can_review": 21,
+      "so_tu": 51
+    },
+    "10": {
+      "can_review": 17,
+      "so_tu": 53
+    },
+    "11": {
+      "can_review": 10,
+      "so_tu": 24
+    },
+    "12": {
+      "can_review": 8,
+      "so_tu": 32
+    },
+    "13": {
+      "can_review": 29,
+      "so_tu": 62
+    },
+    "14": {
+      "can_review": 14,
+      "so_tu": 65
+    },
+    "15": {
+      "can_review": 13,
+      "so_tu": 38
+    },
+    "16": {
+      "can_review": 10,
+      "so_tu": 32
+    },
+    "17": {
+      "can_review": 9,
+      "so_tu": 18
+    },
+    "18": {
+      "can_review": 12,
+      "so_tu": 35
+    },
+    "19": {
+      "can_review": 30,
+      "so_tu": 76
+    },
+    "2": {
+      "can_review": 4,
+      "so_tu": 48
+    },
+    "20": {
+      "can_review": 29,
+      "so_tu": 91
+    },
+    "3": {
+      "can_review": 9,
+      "so_tu": 38
+    },
+    "4": {
+      "can_review": 16,
+      "so_tu": 37
+    },
+    "5": {
+      "can_review": 11,
+      "so_tu": 38
+    },
+    "6": {
+      "can_review": 34,
+      "so_tu": 61
+    },
+    "7": {
+      "can_review": 42,
+      "so_tu": 75
+    },
+    "8": {
+      "can_review": 9,
+      "so_tu": 55
+    },
+    "9": {
+      "can_review": 40,
+      "so_tu": 71
+    }
+  },
+  "seed_step21": 434,
+  "so_bai": 20,
+  "source": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\vocabulary_hsk4_by_lesson_draft_21A.csv",
+  "source_sha256": "f991c2a26d0abe9e38b93fbb472f6e0269e62a4c31910ee58272c1bfcebf96ab",
+  "status": "PASS",
+  "tao_audio": false,
+  "thay_doi_so_voi_21A": 262,
+  "tong_can_review": 367,
+  "tong_tu": 1000
+}

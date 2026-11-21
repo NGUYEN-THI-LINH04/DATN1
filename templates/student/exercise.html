@@ -1,0 +1,1160 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Bài tập HSK | Mộc Hán
+{% endblock %}
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/student-exercises.css') }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+<main
+    class="mh-ex-page"
+    id="mhExerciseApp"
+    data-list-url="{{ url_for('student_exercises.api_exercises') }}"
+    data-exercise-api-base="{{ url_for('student_exercises.api_exercises') }}"
+    data-history-url="{{ url_for('student_exercises.api_history') }}"
+>
+
+    <!-- CSRF TOKEN -->
+    <input
+        type="hidden"
+        id="mhExCsrfToken"
+        name="csrf_token"
+        value="{{ csrf_token() }}"
+    >
+
+    <!-- THÔNG BÁO -->
+    <div
+        id="mhExNotice"
+        class="mh-ex-notice"
+        role="status"
+        aria-live="polite"
+        hidden
+    ></div>
+
+
+    <!-- ==============================================
+         MÀN HÌNH 1: DANH SÁCH BÀI TẬP
+    =============================================== -->
+
+    <section
+        id="mhExOverview"
+        class="mh-ex-overview"
+    >
+
+        <!-- HEADER -->
+        <header class="mh-ex-header">
+
+            <div class="mh-ex-header-content">
+
+                <span class="mh-ex-eyebrow">
+                    练习 · LUYỆN TẬP TIẾNG TRUNG
+                </span>
+
+                <h1>
+                    Luyện tập tiếng Trung
+                </h1>
+
+                <p>
+                    Chọn bài tập phù hợp, ôn lại kiến thức
+                    và theo dõi kết quả học tập của bạn.
+                </p>
+
+            </div>
+
+            <div
+                class="mh-ex-header-symbol"
+                aria-hidden="true"
+            >
+                习
+            </div>
+
+        </header>
+
+
+        <!-- THỐNG KÊ TỔNG QUAN -->
+        <div class="mh-ex-overview-stats">
+
+            <div class="mh-ex-mini-stat">
+
+                <span class="mh-ex-mini-stat-icon">
+                    习
+                </span>
+
+                <div>
+                    <strong id="mhExTotalCount">
+                        {{ exercises|length }}
+                    </strong>
+
+                    <span>
+                        Bài tập
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="mh-ex-mini-stat">
+
+                <span class="mh-ex-mini-stat-icon">
+                    ✓
+                </span>
+
+                <div>
+                    <strong id="mhExCompletedCount">
+                        0
+                    </strong>
+
+                    <span>
+                        Đã từng làm
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="mh-ex-mini-stat">
+
+                <span class="mh-ex-mini-stat-icon">
+                    ▤
+                </span>
+
+                <div>
+                    <strong id="mhExQuestionCount">
+                        0
+                    </strong>
+
+                    <span>
+                        Tổng câu hỏi
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==========================================
+             THANH CHỌN HSK
+        =========================================== -->
+
+        <section class="mh-ex-level-section">
+
+            <nav
+                class="mh-ex-level-tabs"
+                aria-label="Chọn cấp độ HSK"
+            >
+
+                <a
+                    href="{{ url_for('student_exercises.index') }}"
+                    class="mh-ex-level-tab {% if selected_level is none %}active{% endif %}"
+                    {% if selected_level is none %}
+                        aria-current="page"
+                    {% endif %}
+                >
+                    Tất cả
+                </a>
+
+                {% for level in levels %}
+
+                <a
+                    href="{{ url_for('student_exercises.index', hsk=level) }}"
+                    class="mh-ex-level-tab {% if selected_level == level %}active{% endif %}"
+                    {% if selected_level == level %}
+                        aria-current="page"
+                    {% endif %}
+                >
+                    HSK {{ level }}
+                </a>
+
+                {% endfor %}
+
+            </nav>
+
+        </section>
+
+
+        <!-- ==========================================
+             DANH SÁCH BÀI TẬP
+        =========================================== -->
+
+        <section class="mh-ex-library">
+
+            <!-- TIÊU ĐỀ DANH SÁCH -->
+            <div class="mh-ex-library-header">
+
+                <div>
+
+                    <span class="mh-ex-section-eyebrow">
+                        DANH SÁCH LUYỆN TẬP
+                    </span>
+
+                    <h2>
+                        Bài tập của bạn
+                    </h2>
+
+                    <p>
+                        Chọn một bài tập để bắt đầu.
+                        Bạn có thể làm lại nhiều lần
+                        để cải thiện kết quả.
+                    </p>
+
+                </div>
+
+                <button
+                    type="button"
+                    class="mh-ex-outline-btn"
+                    id="mhExHistoryButton"
+                >
+                    <span aria-hidden="true">◷</span>
+                    Lịch sử làm bài
+                </button>
+
+            </div>
+
+
+            <!-- BỘ LỌC -->
+            <div class="mh-ex-filter-bar">
+
+                <label
+                    class="mh-ex-filter-field"
+                    for="mhExLessonFilter"
+                >
+
+                    <span class="mh-ex-filter-label">
+                        Bài học
+                    </span>
+
+                    <select id="mhExLessonFilter">
+                        <option value="">
+                            Tất cả bài học
+                        </option>
+                    </select>
+
+                </label>
+
+
+                <label
+                    class="mh-ex-search-field"
+                    for="mhExSearchInput"
+                >
+
+                    <span class="mh-ex-filter-label">
+                        Tìm bài tập
+                    </span>
+
+                    <input
+                        type="search"
+                        id="mhExSearchInput"
+                        placeholder="Nhập tên bài tập..."
+                        autocomplete="off"
+                    >
+
+                </label>
+
+            </div>
+
+
+            <!-- SỐ LƯỢNG BÀI HIỂN THỊ -->
+            <div class="mh-ex-list-info">
+
+                <span>
+                    Tìm thấy
+
+                    <strong id="mhExVisibleCount">
+                        {{ exercises|length }}
+                    </strong>
+
+                    bài tập
+                </span>
+
+                <span class="mh-ex-list-caption">
+                    Các bài tập đã được xuất bản
+                </span>
+
+            </div>
+
+
+            <!-- ======================================
+                 DANH SÁCH CARD
+            ======================================= -->
+
+            <div
+                class="mh-ex-card-grid"
+                id="mhExExerciseGrid"
+            >
+
+                {% for exercise in exercises %}
+
+                <article
+                    class="mh-ex-exercise-card"
+                    data-exercise-id="{{ exercise.MaBaiTap }}"
+                    data-lesson-id="{{ exercise.MaBaiHoc }}"
+                    data-lesson-order="{{ exercise.SoThuTuBai }}"
+                    data-lesson-title="{{ exercise.TenBaiHoc|e }}"
+                    data-exercise-title="{{ exercise.TieuDe|e }}"
+                    data-hsk="{{ exercise.MaCapDo }}"
+                >
+
+                    <!-- TRẠNG THÁI -->
+                    <div class="mh-ex-card-top">
+
+                        <span class="mh-ex-hsk-badge">
+                            HSK {{ exercise.MaCapDo }}
+                        </span>
+
+                        {% if exercise.SoLanDaLam|int > 0 %}
+
+                        <span class="mh-ex-status-badge done">
+                            ✓ Đã từng làm
+                        </span>
+
+                        {% else %}
+
+                        <span class="mh-ex-status-badge new">
+                            Chưa làm
+                        </span>
+
+                        {% endif %}
+
+                    </div>
+
+
+                    <!-- NỘI DUNG CARD -->
+                    <div class="mh-ex-card-content">
+
+                        <span class="mh-ex-card-lesson">
+                            Bài {{ exercise.SoThuTuBai }}
+                            ·
+                            {{ exercise.TenBaiHoc }}
+                        </span>
+
+                        <h3>
+                            {{ exercise.TieuDe }}
+                        </h3>
+
+                        <p class="mh-ex-card-description">
+
+                            {% if exercise.HuongDan %}
+
+                                {{ exercise.HuongDan }}
+
+                            {% else %}
+
+                                Luyện tập và củng cố
+                                kiến thức đã học.
+
+                            {% endif %}
+
+                        </p>
+
+                    </div>
+
+
+                    <!-- THÔNG TIN BÀI -->
+                    <div class="mh-ex-card-meta">
+
+                        <span>
+                            <span aria-hidden="true">▤</span>
+                            {{ exercise.SoCauHoi }} câu hỏi
+                        </span>
+
+                        <span>
+                            <span aria-hidden="true">◷</span>
+
+                            {% if exercise.ThoiGianGioiHanGiay %}
+
+                                {{ (exercise.ThoiGianGioiHanGiay / 60)|round(1) }}
+                                phút
+
+                            {% else %}
+
+                                Không giới hạn
+
+                            {% endif %}
+
+                        </span>
+
+                    </div>
+
+
+                    <!-- NÚT LÀM BÀI -->
+                    <div class="mh-ex-card-footer">
+
+                        {% if exercise.CoTheLam %}
+
+                        <button
+                            type="button"
+                            class="mh-ex-start-btn"
+                            data-mh-start-exercise="{{ exercise.MaBaiTap }}"
+                        >
+
+                            {% if exercise.SoLanDaLam|int > 0 %}
+
+                                ↻ Làm lại
+
+                            {% else %}
+
+                                ▶ Bắt đầu làm
+
+                            {% endif %}
+
+                        </button>
+
+                        {% else %}
+
+                        <button
+                            type="button"
+                            class="mh-ex-start-btn"
+                            disabled
+                            title="Bài tập chưa đủ điều kiện để làm"
+                        >
+                            Chưa khả dụng
+                        </button>
+
+                        {% endif %}
+
+                        <span class="mh-ex-attempt-count">
+                            {{ exercise.SoLanDaLam }} lượt đã làm
+                        </span>
+
+                    </div>
+
+                </article>
+
+                {% endfor %}
+
+            </div>
+
+
+            <!-- PHÂN TRANG: JS SẼ ĐIỀU KHIỂN -->
+            <nav
+                class="mh-ex-pagination"
+                id="mhExPagination"
+                aria-label="Chuyển trang bài tập"
+                hidden
+            ></nav>
+
+
+            <!-- KHÔNG CÓ BÀI TẬP -->
+            <div
+                class="mh-ex-empty"
+                id="mhExEmptyState"
+                {% if exercises %}hidden{% endif %}
+            >
+
+                <span
+                    class="mh-ex-empty-icon"
+                    aria-hidden="true"
+                >
+                    习
+                </span>
+
+                <h3>
+                    Chưa có bài tập phù hợp
+                </h3>
+
+                <p>
+                    Hiện chưa có bài tập phù hợp
+                    với bộ lọc của bạn.
+                    Hãy thử chọn cấp độ HSK khác.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             LỊCH SỬ LÀM BÀI
+             Giữ lại để JS hiện tại hoạt động.
+             Sau này sẽ chuyển sang trang riêng.
+        =========================================== -->
+
+        <section
+            class="mh-ex-history"
+            id="mhExHistory"
+            hidden
+        >
+
+            <div class="mh-ex-history-heading">
+
+                <div>
+
+                    <span class="mh-ex-section-eyebrow">
+                        KẾT QUẢ ĐÃ LƯU
+                    </span>
+
+                    <h2>
+                        Lịch sử làm bài
+                    </h2>
+
+                </div>
+
+                <button
+                    type="button"
+                    id="mhExCloseHistory"
+                    class="mh-ex-outline-btn"
+                >
+                    Đóng
+                </button>
+
+            </div>
+
+            <div
+                class="mh-ex-history-list"
+                id="mhExHistoryList"
+            ></div>
+
+            <div
+                class="mh-ex-history-empty"
+                id="mhExHistoryEmpty"
+                hidden
+            >
+                Bạn chưa có lượt làm bài nào.
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <!-- ==============================================
+         MÀN HÌNH 2: LÀM BÀI TẬP
+    =============================================== -->
+
+    <section
+        class="mh-ex-quiz-screen"
+        id="mhExQuizScreen"
+        hidden
+    >
+
+        <!-- HEADER BÀI TẬP -->
+        <div class="mh-ex-quiz-header">
+
+            <button
+                type="button"
+                class="mh-ex-back-btn"
+                id="mhExBackButton"
+            >
+                ← Quay lại
+            </button>
+
+            <div class="mh-ex-quiz-heading">
+
+                <span
+                    class="mh-ex-quiz-kicker"
+                    id="mhExQuizKicker"
+                >
+                    LUYỆN TẬP HSK
+                </span>
+
+                <h1 id="mhExQuizTitle">
+                    Bài tập
+                </h1>
+
+                <p id="mhExQuizInstruction"></p>
+
+            </div>
+
+            <!-- ĐỒNG HỒ -->
+            <div
+                class="mh-ex-timer"
+                id="mhExTimer"
+                hidden
+                role="timer"
+            >
+
+                <span aria-hidden="true">
+                    ◷
+                </span>
+
+                <strong id="mhExTimerValue">
+                    00:00
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- TIẾN ĐỘ LÀM BÀI -->
+        <div class="mh-ex-progress-panel">
+
+            <div class="mh-ex-progress-info">
+
+                <span>
+                    Câu hỏi
+
+                    <strong id="mhExCurrentQuestionNumber">
+                        1
+                    </strong>
+
+                    /
+
+                    <strong id="mhExTotalQuestions">
+                        0
+                    </strong>
+                </span>
+
+                <span>
+                    Đã trả lời:
+
+                    <strong id="mhExAnsweredCount">
+                        0
+                    </strong>
+                </span>
+
+            </div>
+
+            <div
+                class="mh-ex-progress-track"
+                role="progressbar"
+                aria-label="Tiến độ trả lời"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="0"
+                id="mhExProgressTrack"
+            >
+
+                <div
+                    class="mh-ex-progress-fill"
+                    id="mhExProgressFill"
+                    style="width: 0%"
+                ></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- BỐ CỤC CÂU HỎI -->
+        <div class="mh-ex-quiz-layout">
+
+            <!-- CỘT TRÁI -->
+            <section class="mh-ex-question-panel">
+
+                <!-- LOẠI CÂU HỎI -->
+                <div class="mh-ex-question-top">
+
+                    <span
+                        class="mh-ex-question-type"
+                        id="mhExQuestionType"
+                    >
+                        Trắc nghiệm
+                    </span>
+
+                    <span
+                        class="mh-ex-question-score"
+                        id="mhExQuestionScore"
+                    >
+                        1 điểm
+                    </span>
+
+                </div>
+
+
+                <!-- NỘI DUNG CÂU HỎI -->
+                <h2
+                    class="mh-ex-question-content"
+                    id="mhExQuestionContent"
+                ></h2>
+
+
+                <!-- ĐOẠN VĂN -->
+                <div
+                    class="mh-ex-question-passage"
+                    id="mhExQuestionPassage"
+                    hidden
+                ></div>
+
+
+                <!-- MEDIA -->
+                <div
+                    class="mh-ex-question-media"
+                    id="mhExQuestionMedia"
+                    hidden
+                ></div>
+
+
+                <!-- ==============================
+                     CHỌN MỘT / CHỌN NHIỀU
+                =============================== -->
+
+                <fieldset
+                    class="mh-ex-answer-options"
+                    id="mhExChoiceArea"
+                    hidden
+                >
+
+                    <legend class="mh-ex-answer-label">
+                        Chọn đáp án
+                    </legend>
+
+                    <p
+                        class="mh-ex-answer-hint"
+                        id="mhExChoiceHint"
+                    >
+                        Chọn phương án mà bạn cho là đúng.
+                    </p>
+
+                    <div
+                        class="mh-ex-option-list"
+                        id="mhExOptionList"
+                    ></div>
+
+                </fieldset>
+
+
+                <!-- ==============================
+                     ĐÚNG / SAI
+                =============================== -->
+
+                <fieldset
+                    class="mh-ex-true-false-area"
+                    id="mhExTrueFalseArea"
+                    hidden
+                >
+
+                    <legend class="mh-ex-answer-label">
+                        Nhận định trên đúng hay sai?
+                    </legend>
+
+                    <div class="mh-ex-true-false-grid">
+
+                        <label class="mh-ex-true-false-option">
+
+                            <input
+                                type="radio"
+                                name="mhExTrueFalse"
+                                value="dung"
+                            >
+
+                            <span class="mh-ex-answer-circle">
+                                ✓
+                            </span>
+
+                            <strong>
+                                Đúng
+                            </strong>
+
+                        </label>
+
+
+                        <label class="mh-ex-true-false-option">
+
+                            <input
+                                type="radio"
+                                name="mhExTrueFalse"
+                                value="sai"
+                            >
+
+                            <span class="mh-ex-answer-circle">
+                                ✕
+                            </span>
+
+                            <strong>
+                                Sai
+                            </strong>
+
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- ==============================
+                     ĐIỀN TỪ
+                =============================== -->
+
+                <div
+                    class="mh-ex-fill-area"
+                    id="mhExFillArea"
+                    hidden
+                >
+
+                    <label
+                        class="mh-ex-answer-label"
+                        for="mhExFillInput"
+                    >
+                        Nhập câu trả lời
+                    </label>
+
+                    <p class="mh-ex-answer-hint">
+                        Nhập từ hoặc cụm từ phù hợp
+                        với nội dung câu hỏi.
+                    </p>
+
+                    <input
+                        type="text"
+                        id="mhExFillInput"
+                        class="mh-ex-fill-input"
+                        placeholder="Nhập đáp án của bạn..."
+                        autocomplete="off"
+                        spellcheck="false"
+                    >
+
+                </div>
+
+
+                <!-- ==============================
+                     SẮP XẾP CÂU
+                =============================== -->
+
+                <div
+                    class="mh-ex-sort-area"
+                    id="mhExSortArea"
+                    hidden
+                >
+
+                    <span class="mh-ex-answer-label">
+                        Sắp xếp thành câu đúng
+                    </span>
+
+                    <p class="mh-ex-answer-hint">
+                        Nhấn vào các thành phần
+                        theo thứ tự để ghép thành câu.
+                    </p>
+
+                    <div
+                        class="mh-ex-sort-answer"
+                        id="mhExSortAnswer"
+                        aria-label="Thứ tự câu đã ghép"
+                    ></div>
+
+                    <div
+                        class="mh-ex-sort-items"
+                        id="mhExSortItems"
+                    ></div>
+
+                    <button
+                        type="button"
+                        class="mh-ex-sort-reset"
+                        id="mhExSortReset"
+                    >
+                        ↻ Xếp lại
+                    </button>
+
+                </div>
+
+
+                <!--
+                    GHÉP CẶP VÀ VIẾT NGẮN
+
+                    JavaScript sẽ tự tạo:
+                    - mhExMatchingArea
+                    - mhExShortWritingArea
+
+                    Không tạo trùng hai ID ở đây.
+                -->
+
+
+                <!-- GHI CHÚ -->
+                <p class="mh-ex-question-footnote">
+                    Bạn có thể quay lại thay đổi đáp án
+                    trước khi nộp bài.
+                </p>
+
+
+                <!-- NÚT ĐIỀU HƯỚNG -->
+                <div class="mh-ex-question-navigation">
+
+                    <button
+                        type="button"
+                        class="mh-ex-prev-btn"
+                        id="mhExPreviousButton"
+                    >
+                        ← Câu trước
+                    </button>
+
+                    <button
+                        type="button"
+                        class="mh-ex-next-btn"
+                        id="mhExNextButton"
+                    >
+                        Câu tiếp →
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- ======================================
+                 CỘT PHẢI: DANH SÁCH CÂU HỎI
+            ======================================= -->
+
+            <aside class="mh-ex-question-sidebar">
+
+                <div class="mh-ex-sidebar-title">
+
+                    <h3>
+                        Danh sách câu hỏi
+                    </h3>
+
+                    <p>
+                        Chọn số câu để chuyển nhanh.
+                    </p>
+
+                </div>
+
+
+                <!-- SỐ CÂU -->
+                <div
+                    class="mh-ex-question-numbers"
+                    id="mhExQuestionNumbers"
+                ></div>
+
+
+                <!-- CHÚ THÍCH -->
+                <div class="mh-ex-question-legend">
+
+                    <span>
+                        <i class="mh-ex-legend-dot current"></i>
+                        Đang làm
+                    </span>
+
+                    <span>
+                        <i class="mh-ex-legend-dot answered"></i>
+                        Đã trả lời
+                    </span>
+
+                    <span>
+                        <i class="mh-ex-legend-dot unanswered"></i>
+                        Chưa trả lời
+                    </span>
+
+                </div>
+
+
+                <!-- THỐNG KÊ -->
+                <div class="mh-ex-sidebar-summary">
+
+                    <div>
+
+                        <span>
+                            Tổng số câu
+                        </span>
+
+                        <strong id="mhExSideTotal">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            Đã trả lời
+                        </span>
+
+                        <strong id="mhExSideAnswered">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            Còn lại
+                        </span>
+
+                        <strong id="mhExSideRemaining">
+                            0
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- NỘP BÀI -->
+                <button
+                    type="button"
+                    class="mh-ex-submit-btn"
+                    id="mhExSubmitButton"
+                >
+                    ✓ Nộp bài
+                </button>
+
+                <p class="mh-ex-submit-hint">
+                    Kết quả sẽ được chấm và lưu
+                    vào lịch sử làm bài của bạn.
+                </p>
+
+            </aside>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================================
+         MÀN HÌNH 3: ĐANG XỬ LÝ
+    =============================================== -->
+
+    <section
+        class="mh-ex-loading-screen"
+        id="mhExLoadingScreen"
+        hidden
+        aria-live="polite"
+    >
+
+        <div class="mh-ex-loading-box">
+
+            <div
+                class="mh-ex-loading-spinner"
+                aria-hidden="true"
+            ></div>
+
+            <h2 id="mhExLoadingTitle">
+                Đang xử lý...
+            </h2>
+
+            <p id="mhExLoadingMessage">
+                Hệ thống đang xử lý dữ liệu.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================================
+         HỘP XÁC NHẬN NỘP BÀI
+    =============================================== -->
+
+    <div
+        class="mh-ex-modal-overlay"
+        id="mhExSubmitModal"
+        hidden
+    >
+
+        <section
+            class="mh-ex-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="mhExSubmitModalTitle"
+        >
+
+            <div
+                class="mh-ex-modal-icon"
+                aria-hidden="true"
+            >
+                ✓
+            </div>
+
+            <h2 id="mhExSubmitModalTitle">
+                Xác nhận nộp bài
+            </h2>
+
+            <p id="mhExSubmitModalMessage">
+                Bạn có chắc chắn muốn nộp bài?
+            </p>
+
+            <div class="mh-ex-modal-actions">
+
+                <button
+                    type="button"
+                    class="mh-ex-outline-btn"
+                    id="mhExCancelSubmit"
+                >
+                    Tiếp tục làm
+                </button>
+
+                <button
+                    type="button"
+                    class="mh-ex-confirm-btn"
+                    id="mhExConfirmSubmit"
+                >
+                    Nộp bài
+                </button>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- ==============================================
+         HỘP XÁC NHẬN THOÁT BÀI
+    =============================================== -->
+
+    <div
+        class="mh-ex-modal-overlay"
+        id="mhExExitModal"
+        hidden
+    >
+
+        <section
+            class="mh-ex-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="mhExExitModalTitle"
+        >
+
+            <div
+                class="mh-ex-modal-icon warning"
+                aria-hidden="true"
+            >
+                !
+            </div>
+
+            <h2 id="mhExExitModalTitle">
+                Thoát bài tập?
+            </h2>
+
+            <p>
+                Những câu trả lời chưa nộp
+                sẽ không được lưu vào lịch sử.
+            </p>
+
+            <div class="mh-ex-modal-actions">
+
+                <button
+                    type="button"
+                    class="mh-ex-outline-btn"
+                    id="mhExCancelExit"
+                >
+                    Tiếp tục làm
+                </button>
+
+                <button
+                    type="button"
+                    class="mh-ex-confirm-btn danger"
+                    id="mhExConfirmExit"
+                >
+                    Thoát bài
+                </button>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</main>
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script
+    src="{{ url_for('static', filename='js/exercises.js') }}"
+></script>
+
+{% endblock %}

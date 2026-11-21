@@ -1,0 +1,1905 @@
+{
+  "lang": "zh",
+  "availableLangs": [
+    "ar",
+    "my",
+    "zh",
+    "id",
+    "ja",
+    "km",
+    "ko",
+    "lo",
+    "pt",
+    "ru",
+    "es",
+    "th",
+    "tr",
+    "vi"
+  ],
+  "content": [
+    {
+      "text": "大家好，欢迎收听新一期的“每天中文”。",
+      "offset": 6400,
+      "duration": 4133,
+      "lang": "zh"
+    },
+    {
+      "text": "我是李明。",
+      "offset": 10566,
+      "duration": 1134,
+      "lang": "zh"
+    },
+    {
+      "text": "大家好，我是王雨。",
+      "offset": 11733,
+      "duration": 2333,
+      "lang": "zh"
+    },
+    {
+      "text": "李明，你最近怎么样？",
+      "offset": 14100,
+      "duration": 1600,
+      "lang": "zh"
+    },
+    {
+      "text": "看起来心情不错。",
+      "offset": 15733,
+      "duration": 2167,
+      "lang": "zh"
+    },
+    {
+      "text": "(笑)，是吗？我最近挺好的，就是工作有点忙。",
+      "offset": 17933,
+      "duration": 3933,
+      "lang": "zh"
+    },
+    {
+      "text": "你呢，王雨？我也差不多，",
+      "offset": 21900,
+      "duration": 2733,
+      "lang": "zh"
+    },
+    {
+      "text": "不过忙里偷闲，",
+      "offset": 24666,
+      "duration": 1634,
+      "lang": "zh"
+    },
+    {
+      "text": "前两天跟朋友发现了一家",
+      "offset": 26333,
+      "duration": 2100,
+      "lang": "zh"
+    },
+    {
+      "text": "特别好吃的饭店，心情一下子就变好了。",
+      "offset": 28466,
+      "duration": 3900,
+      "lang": "zh"
+    },
+    {
+      "text": "美食的力量真的很强大。",
+      "offset": 32400,
+      "duration": 2366,
+      "lang": "zh"
+    },
+    {
+      "text": "我完全同意。说真的，",
+      "offset": 34800,
+      "duration": 2533,
+      "lang": "zh"
+    },
+    {
+      "text": "能吃到好吃的东西，",
+      "offset": 37366,
+      "duration": 1734,
+      "lang": "zh"
+    },
+    {
+      "text": "真的是生活中一件非常幸福的事情。",
+      "offset": 39133,
+      "duration": 3633,
+      "lang": "zh"
+    },
+    {
+      "text": "“每天中文”就是这样一个播客，",
+      "offset": 42800,
+      "duration": 2666,
+      "lang": "zh"
+    },
+    {
+      "text": "我们希望通过轻松、真实的聊天，",
+      "offset": 45500,
+      "duration": 3200,
+      "lang": "zh"
+    },
+    {
+      "text": "帮助正在学习中文的朋友们，",
+      "offset": 48733,
+      "duration": 2400,
+      "lang": "zh"
+    },
+    {
+      "text": "在每天的生活中找到学习的乐趣，",
+      "offset": 51166,
+      "duration": 3600,
+      "lang": "zh"
+    },
+    {
+      "text": "让中文成为你生活的一部分，就像美食一样。",
+      "offset": 54800,
+      "duration": 4366,
+      "lang": "zh"
+    },
+    {
+      "text": "说得太好了！",
+      "offset": 59200,
+      "duration": 1466,
+      "lang": "zh"
+    },
+    {
+      "text": "我们希望大家可以像听朋友聊天一样，",
+      "offset": 60700,
+      "duration": 3166,
+      "lang": "zh"
+    },
+    {
+      "text": "很放松地来收听我们的节目。",
+      "offset": 63900,
+      "duration": 2633,
+      "lang": "zh"
+    },
+    {
+      "text": "所以，今天正在收听我们节目的你，",
+      "offset": 66566,
+      "duration": 2934,
+      "lang": "zh"
+    },
+    {
+      "text": "现在是在做什么呢？",
+      "offset": 69533,
+      "duration": 1733,
+      "lang": "zh"
+    },
+    {
+      "text": "是在散步，还是在做饭，或者是在上班的路上？",
+      "offset": 71300,
+      "duration": 5033,
+      "lang": "zh"
+    },
+    {
+      "text": "不管你在哪里，都很高兴有你的陪伴。",
+      "offset": 76366,
+      "duration": 3300,
+      "lang": "zh"
+    },
+    {
+      "text": "说到美食和饭店，我突然有个想法。",
+      "offset": 79700,
+      "duration": 3866,
+      "lang": "zh"
+    },
+    {
+      "text": "王雨，你刚才说你发现了一家新饭店。",
+      "offset": 83600,
+      "duration": 3900,
+      "lang": "zh"
+    },
+    {
+      "text": "我想，",
+      "offset": 87533,
+      "duration": 633,
+      "lang": "zh"
+    },
+    {
+      "text": "对于很多正在学习中文的朋友来说，",
+      "offset": 88200,
+      "duration": 3066,
+      "lang": "zh"
+    },
+    {
+      "text": "自己一个人去一家地道的中餐厅，",
+      "offset": 91300,
+      "duration": 3200,
+      "lang": "zh"
+    },
+    {
+      "text": "可能是一件有点挑战的事情。",
+      "offset": 94533,
+      "duration": 2733,
+      "lang": "zh"
+    },
+    {
+      "text": "从进门到点菜，再到买单，",
+      "offset": 97300,
+      "duration": 3166,
+      "lang": "zh"
+    },
+    {
+      "text": "可能会遇到各种各样的问题。",
+      "offset": 100500,
+      "duration": 2433,
+      "lang": "zh"
+    },
+    {
+      "text": "对对对！我完全理解。",
+      "offset": 102966,
+      "duration": 2067,
+      "lang": "zh"
+    },
+    {
+      "text": "我刚开始自己出去吃饭的时候，",
+      "offset": 105066,
+      "duration": 2400,
+      "lang": "zh"
+    },
+    {
+      "text": "也经常拿着菜单不知道点什么好，特别紧张。",
+      "offset": 107500,
+      "duration": 4066,
+      "lang": "zh"
+    },
+    {
+      "text": "给我们的听众朋友们一份",
+      "offset": 111600,
+      "duration": 5633,
+      "lang": "zh"
+    },
+    {
+      "text": "“中餐厅生存指南”？",
+      "offset": 117266,
+      "duration": 2400,
+      "lang": "zh"
+    },
+    {
+      "text": "这个主意太棒了。",
+      "offset": 119700,
+      "duration": 1733,
+      "lang": "zh"
+    },
+    {
+      "text": "“生存指南”，听起来很有趣。",
+      "offset": 121466,
+      "duration": 3167,
+      "lang": "zh"
+    },
+    {
+      "text": "那我们今天就来聊一聊：如何在中国餐厅里轻松、",
+      "offset": 124666,
+      "duration": 4767,
+      "lang": "zh"
+    },
+    {
+      "text": "自信地享受一顿美餐。",
+      "offset": 129466,
+      "duration": 2634,
+      "lang": "zh"
+    },
+    {
+      "text": "好的，王雨。",
+      "offset": 132133,
+      "duration": 1100,
+      "lang": "zh"
+    },
+    {
+      "text": "那么，我们的“生存指南”",
+      "offset": 133266,
+      "duration": 2400,
+      "lang": "zh"
+    },
+    {
+      "text": "第一步，应该从哪里开始呢？",
+      "offset": 135700,
+      "duration": 2433,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯……我觉得应该是去饭店之前吧？",
+      "offset": 138166,
+      "duration": 3800,
+      "lang": "zh"
+    },
+    {
+      "text": "比如说，要不要提前预订座位？",
+      "offset": 142000,
+      "duration": 2833,
+      "lang": "zh"
+    },
+    {
+      "text": "我上次就是因为没有预订，",
+      "offset": 144866,
+      "duration": 1967,
+      "lang": "zh"
+    },
+    {
+      "text": "在一家很有名的火锅店门口等了快两个小时！",
+      "offset": 146866,
+      "duration": 3800,
+      "lang": "zh"
+    },
+    {
+      "text": "那次经历太难忘了。",
+      "offset": 150700,
+      "duration": 2233,
+      "lang": "zh"
+    },
+    {
+      "text": "(笑)，看来你已经用亲身经历告诉我们答案了。",
+      "offset": 152966,
+      "duration": 4134,
+      "lang": "zh"
+    },
+    {
+      "text": "没错，第一步就是“预订”，",
+      "offset": 157133,
+      "duration": 3133,
+      "lang": "zh"
+    },
+    {
+      "text": "特别是那些很受欢迎的“网红餐厅”",
+      "offset": 160300,
+      "duration": 3200,
+      "lang": "zh"
+    },
+    {
+      "text": "或者是在周末、节假日的时候。",
+      "offset": 163533,
+      "duration": 2833,
+      "lang": "zh"
+    },
+    {
+      "text": "如果你不想花很长时间排队，",
+      "offset": 166400,
+      "duration": 2500,
+      "lang": "zh"
+    },
+    {
+      "text": "最好提前打个电话",
+      "offset": 168933,
+      "duration": 1633,
+      "lang": "zh"
+    },
+    {
+      "text": "或者用手机上的应用预订一个位子。",
+      "offset": 170600,
+      "duration": 3133,
+      "lang": "zh"
+    },
+    {
+      "text": "那打电话预订的时候，应该怎么说呢？",
+      "offset": 173766,
+      "duration": 3334,
+      "lang": "zh"
+    },
+    {
+      "text": "很简单。",
+      "offset": 177133,
+      "duration": 833,
+      "lang": "zh"
+    },
+    {
+      "text": "电话接通后，你可以直接说：“你好，",
+      "offset": 178000,
+      "duration": 3333,
+      "lang": "zh"
+    },
+    {
+      "text": "我想预订一个位子。”",
+      "offset": 181366,
+      "duration": 2000,
+      "lang": "zh"
+    },
+    {
+      "text": "然后他们会问你：",
+      "offset": 183400,
+      "duration": 1566,
+      "lang": "zh"
+    },
+    {
+      "text": "“几位？什么时候来？”",
+      "offset": 185000,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "你就告诉他们人数和时间，",
+      "offset": 186933,
+      "duration": 2500,
+      "lang": "zh"
+    },
+    {
+      "text": "比如：“我们有两个人，今天晚上七点到。”",
+      "offset": 189466,
+      "duration": 4067,
+      "lang": "zh"
+    },
+    {
+      "text": "最后，",
+      "offset": 193566,
+      "duration": 667,
+      "lang": "zh"
+    },
+    {
+      "text": "他们可能会问你的姓氏和电话号码，",
+      "offset": 194266,
+      "duration": 3000,
+      "lang": "zh"
+    },
+    {
+      "text": "方便联系。哦，这个很简单！",
+      "offset": 197300,
+      "duration": 2933,
+      "lang": "zh"
+    },
+    {
+      "text": "“你好，我想预订。两位，晚上七点。”",
+      "offset": 200266,
+      "duration": 3234,
+      "lang": "zh"
+    },
+    {
+      "text": "这样说清楚就行了。",
+      "offset": 203533,
+      "duration": 1733,
+      "lang": "zh"
+    },
+    {
+      "text": "那如果我们没有预订，直接去了饭店，",
+      "offset": 205300,
+      "duration": 3133,
+      "lang": "zh"
+    },
+    {
+      "text": "进门之后要怎么做呢？",
+      "offset": 208466,
+      "duration": 2000,
+      "lang": "zh"
+    },
+    {
+      "text": "走进饭店，一般会有一个服务员在门口迎接你。",
+      "offset": 210500,
+      "duration": 4133,
+      "lang": "zh"
+    },
+    {
+      "text": "他会笑着问：“你好，请问几位？”",
+      "offset": 214666,
+      "duration": 3167,
+      "lang": "zh"
+    },
+    {
+      "text": "你直接告诉他人就可以了，",
+      "offset": 217866,
+      "duration": 2267,
+      "lang": "zh"
+    },
+    {
+      "text": "比如伸出两个手指，",
+      "offset": 220166,
+      "duration": 2000,
+      "lang": "zh"
+    },
+    {
+      "text": "然后说：“两位。”",
+      "offset": 222200,
+      "duration": 1833,
+      "lang": "zh"
+    },
+    {
+      "text": "服务员就会带你到座位",
+      "offset": 224066,
+      "duration": 1667,
+      "lang": "zh"
+    },
+    {
+      "text": "上，说：“这边请。”这个场景我太熟悉了。",
+      "offset": 225766,
+      "duration": 4167,
+      "lang": "zh"
+    },
+    {
+      "text": "然后服务员会给我们菜单，对吧？",
+      "offset": 229966,
+      "duration": 2700,
+      "lang": "zh"
+    },
+    {
+      "text": "接下来就是最难的部分了……",
+      "offset": 232700,
+      "duration": 2233,
+      "lang": "zh"
+    },
+    {
+      "text": "别着急，我们一步一步来。",
+      "offset": 234966,
+      "duration": 2367,
+      "lang": "zh"
+    },
+    {
+      "text": "顺利坐下，已经成功了第一步。",
+      "offset": 237366,
+      "duration": 2900,
+      "lang": "zh"
+    },
+    {
+      "text": "这就像玩一个游戏，我们已经进入了第一个关卡。",
+      "offset": 240300,
+      "duration": 4033,
+      "lang": "zh"
+    },
+    {
+      "text": "好的，李明老师，",
+      "offset": 244366,
+      "duration": 1400,
+      "lang": "zh"
+    },
+    {
+      "text": "现在我们进入了最难的关卡——点菜！",
+      "offset": 245800,
+      "duration": 3966,
+      "lang": "zh"
+    },
+    {
+      "text": "打开菜单，上面密密麻麻都是汉字，",
+      "offset": 249800,
+      "duration": 3533,
+      "lang": "zh"
+    },
+    {
+      "text": "有时候有图片还好，",
+      "offset": 253366,
+      "duration": 1800,
+      "lang": "zh"
+    },
+    {
+      "text": "要是没有图片，我真",
+      "offset": 255200,
+      "duration": 1733,
+      "lang": "zh"
+    },
+    {
+      "text": "真的感觉像在看一本“天书”。",
+      "offset": 256966,
+      "duration": 2334,
+      "lang": "zh"
+    },
+    {
+      "text": "很多字我都认识，",
+      "offset": 259333,
+      "duration": 1367,
+      "lang": "zh"
+    },
+    {
+      "text": "但它们组合在一起变成一个菜名，",
+      "offset": 260733,
+      "duration": 2700,
+      "lang": "zh"
+    },
+    {
+      "text": "我就完全不知道它是什么了。",
+      "offset": 263466,
+      "duration": 2267,
+      "lang": "zh"
+    },
+    {
+      "text": "我非常理解这种感觉，",
+      "offset": 265766,
+      "duration": 2200,
+      "lang": "zh"
+    },
+    {
+      "text": "这可能是所有学习",
+      "offset": 268000,
+      "duration": 1500,
+      "lang": "zh"
+    },
+    {
+      "text": "中文的朋友都会遇到的一个大",
+      "offset": 269533,
+      "duration": 2100,
+      "lang": "zh"
+    },
+    {
+      "text": "难题。但其实，点菜也是有技巧的。",
+      "offset": 271666,
+      "duration": 3967,
+      "lang": "zh"
+    },
+    {
+      "text": "首先，你可以",
+      "offset": 275666,
+      "duration": 1167,
+      "lang": "zh"
+    },
+    {
+      "text": "找一找菜单上有没有“推荐菜”",
+      "offset": 276866,
+      "duration": 2834,
+      "lang": "zh"
+    },
+    {
+      "text": "或者“招牌菜”这几个字。",
+      "offset": 279733,
+      "duration": 2333,
+      "lang": "zh"
+    },
+    {
+      "text": "“招牌菜”？这是什么意思？",
+      "offset": 282100,
+      "duration": 2400,
+      "lang": "zh"
+    },
+    {
+      "text": "“招牌菜”就是一个饭店做得最好、",
+      "offset": 284533,
+      "duration": 3000,
+      "lang": "zh"
+    },
+    {
+      "text": "最有名、最受欢迎的菜。",
+      "offset": 287566,
+      "duration": 2534,
+      "lang": "zh"
+    },
+    {
+      "text": "一般来说，点“招牌菜”都不会错。",
+      "offset": 290133,
+      "duration": 3367,
+      "lang": "zh"
+    },
+    {
+      "text": "这就像你去一个城市旅游，",
+      "offset": 293533,
+      "duration": 2033,
+      "lang": "zh"
+    },
+    {
+      "text": "肯定会去它最有名的那个景点一样。",
+      "offset": 295600,
+      "duration": 3033,
+      "lang": "zh"
+    },
+    {
+      "text": "所以，当你不知道点什么的时候，",
+      "offset": 298666,
+      "duration": 2600,
+      "lang": "zh"
+    },
+    {
+      "text": "可以直接问服务员：“你好，",
+      "offset": 301300,
+      "duration": 2533,
+      "lang": "zh"
+    },
+    {
+      "text": "请问你们的招牌菜是什么？”",
+      "offset": 303866,
+      "duration": 2200,
+      "lang": "zh"
+    },
+    {
+      "text": "他们会非常乐意向你推荐的。",
+      "offset": 306100,
+      "duration": 2466,
+      "lang": "zh"
+    },
+    {
+      "text": "哇，这是一个非常实用的技巧！",
+      "offset": 308600,
+      "duration": 2633,
+      "lang": "zh"
+    },
+    {
+      "text": "直接问服务员！",
+      "offset": 311266,
+      "duration": 1500,
+      "lang": "zh"
+    },
+    {
+      "text": "这样就不用自己看着菜单头疼了。",
+      "offset": 312800,
+      "duration": 2866,
+      "lang": "zh"
+    },
+    {
+      "text": "我以前总是不好意思问，",
+      "offset": 315700,
+      "duration": 1866,
+      "lang": "zh"
+    },
+    {
+      "text": "怕他们觉得我什么都不懂。",
+      "offset": 317600,
+      "duration": 2166,
+      "lang": "zh"
+    },
+    {
+      "text": "完全不用担心。",
+      "offset": 319800,
+      "duration": 1633,
+      "lang": "zh"
+    },
+    {
+      "text": "其实，当你作为一个外国人，",
+      "offset": 321466,
+      "duration": 2600,
+      "lang": "zh"
+    },
+    {
+      "text": "用中文去询问和学习，",
+      "offset": 324100,
+      "duration": 2566,
+      "lang": "zh"
+    },
+    {
+      "text": "大多数人都会非常友好和耐心地帮助你。",
+      "offset": 326700,
+      "duration": 3833,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯，你这么一说，我就有信心了。",
+      "offset": 330566,
+      "duration": 2800,
+      "lang": "zh"
+    },
+    {
+      "text": "其实大家听我们聊天，",
+      "offset": 333400,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "如果有些词或者有些句子",
+      "offset": 335333,
+      "duration": 2400,
+      "lang": "zh"
+    },
+    {
+      "text": "你一下子没听懂，真的没关系。",
+      "offset": 337766,
+      "duration": 2600,
+      "lang": "zh"
+    },
+    {
+      "text": "你可以根据我们说话的感觉",
+      "offset": 340400,
+      "duration": 2266,
+      "lang": "zh"
+    },
+    {
+      "text": "猜一猜大概的意思，或者打开油管的字幕看一看。",
+      "offset": 342700,
+      "duration": 4333,
+      "lang": "zh"
+    },
+    {
+      "text": "我们节目的博客上也会有完整的文本，",
+      "offset": 347066,
+      "duration": 3100,
+      "lang": "zh"
+    },
+    {
+      "text": "别担心，慢慢来，语言学习就是这样的过程。",
+      "offset": 350200,
+      "duration": 4033,
+      "lang": "zh"
+    },
+    {
+      "text": "王雨说的没错。",
+      "offset": 354266,
+      "duration": 1567,
+      "lang": "zh"
+    },
+    {
+      "text": "回到点菜的话题，除了问服务员，",
+      "offset": 355866,
+      "duration": 3267,
+      "lang": "zh"
+    },
+    {
+      "text": "还有一个好方法。",
+      "offset": 359166,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "你可以悄悄地看看你旁边桌的客人都点了什么菜。",
+      "offset": 360900,
+      "duration": 4533,
+      "lang": "zh"
+    },
+    {
+      "text": "如果看到某个菜看起来特别好吃，",
+      "offset": 365466,
+      "duration": 2900,
+      "lang": "zh"
+    },
+    {
+      "text": "你甚至可以直接指着那个菜，",
+      "offset": 368400,
+      "duration": 2466,
+      "lang": "zh"
+    },
+    {
+      "text": "问服务员：“请问，那个是什么菜？”",
+      "offset": 370900,
+      "duration": 3200,
+      "lang": "zh"
+    },
+    {
+      "text": "(笑)，这个方法我用过！",
+      "offset": 374133,
+      "duration": 2200,
+      "lang": "zh"
+    },
+    {
+      "text": "真的很有用！",
+      "offset": 376366,
+      "duration": 1367,
+      "lang": "zh"
+    },
+    {
+      "text": "有一次我看到旁边桌上的一盘鱼",
+      "offset": 377766,
+      "duration": 2800,
+      "lang": "zh"
+    },
+    {
+      "text": "看起来特别香，我就问了服务员，",
+      "offset": 380600,
+      "duration": 2933,
+      "lang": "zh"
+    },
+    {
+      "text": "然后也点了一份，",
+      "offset": 383566,
+      "duration": 1567,
+      "lang": "zh"
+    },
+    {
+      "text": "结果真的超级好吃！对吧？这叫",
+      "offset": 385166,
+      "duration": 3534,
+      "lang": "zh"
+    },
+    {
+      "text": "“跟着本地人吃，总没错”。",
+      "offset": 388733,
+      "duration": 2833,
+      "lang": "zh"
+    },
+    {
+      "text": "点菜其实就像一个导演",
+      "offset": 391600,
+      "duration": 2533,
+      "lang": "zh"
+    },
+    {
+      "text": "在安排一场电影，你要考虑到整桌菜的搭配。",
+      "offset": 394166,
+      "duration": 4800,
+      "lang": "zh"
+    },
+    {
+      "text": "一顿完美的中餐，",
+      "offset": 399000,
+      "duration": 1766,
+      "lang": "zh"
+    },
+    {
+      "text": "最好有肉、有蔬菜、有汤，味道上最",
+      "offset": 400800,
+      "duration": 4500,
+      "lang": "zh"
+    },
+    {
+      "text": "好也有一些变化，比如一个辣的菜，",
+      "offset": 405333,
+      "duration": 3367,
+      "lang": "zh"
+    },
+    {
+      "text": "一个不辣的菜。",
+      "offset": 408733,
+      "duration": 1400,
+      "lang": "zh"
+    },
+    {
+      "text": "哇，点菜还有这么多学问！",
+      "offset": 410166,
+      "duration": 2767,
+      "lang": "zh"
+    },
+    {
+      "text": "像导演一样安排一桌菜，这个比喻很有意思。",
+      "offset": 412966,
+      "duration": 4300,
+      "lang": "zh"
+    },
+    {
+      "text": "那如果我有一些东西不吃，",
+      "offset": 417300,
+      "duration": 2166,
+      "lang": "zh"
+    },
+    {
+      "text": "比如我不吃辣，或者我不吃香菜，",
+      "offset": 419500,
+      "duration": 3133,
+      "lang": "zh"
+    },
+    {
+      "text": "我应该怎么告诉服务员呢？",
+      "offset": 422666,
+      "duration": 2034,
+      "lang": "zh"
+    },
+    {
+      "text": "这个很重要，我们把这种情况叫做“忌口”。",
+      "offset": 424733,
+      "duration": 4733,
+      "lang": "zh"
+    },
+    {
+      "text": "你可以在点菜的时候，直接跟服务员说清楚。",
+      "offset": 429500,
+      "duration": 4066,
+      "lang": "zh"
+    },
+    {
+      "text": "比如点一个“宫保鸡丁”，你可以说：",
+      "offset": 433600,
+      "duration": 3966,
+      "lang": "zh"
+    },
+    {
+      "text": "“宫保鸡丁，请不要放辣椒。”",
+      "offset": 437600,
+      "duration": 2933,
+      "lang": "zh"
+    },
+    {
+      "text": "或者更简单地说：",
+      "offset": 440566,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "“这个菜，我不要辣的。”",
+      "offset": 442500,
+      "duration": 2666,
+      "lang": "zh"
+    },
+    {
+      "text": "如果你不吃香菜，",
+      "offset": 445200,
+      "duration": 1466,
+      "lang": "zh"
+    },
+    {
+      "text": "就说：“请不要放香菜。”哦，",
+      "offset": 446700,
+      "duration": 3200,
+      "lang": "zh"
+    },
+    {
+      "text": "“忌口”，这个词我记住了。",
+      "offset": 449933,
+      "duration": 2300,
+      "lang": "zh"
+    },
+    {
+      "text": "比如说：“我有一些忌口，",
+      "offset": 452266,
+      "duration": 2200,
+      "lang": "zh"
+    },
+    {
+      "text": "我不吃海鲜。”这样服务员就能明白了。",
+      "offset": 454500,
+      "duration": 3133,
+      "lang": "zh"
+    },
+    {
+      "text": "完全正确。",
+      "offset": 457666,
+      "duration": 1167,
+      "lang": "zh"
+    },
+    {
+      "text": "只要你提前说清楚，",
+      "offset": 458866,
+      "duration": 1834,
+      "lang": "zh"
+    },
+    {
+      "text": "饭店的厨房都会尽量满足你的要求。",
+      "offset": 460733,
+      "duration": 3933,
+      "lang": "zh"
+    },
+    {
+      "text": "所以，总结一下点菜的技巧：",
+      "offset": 464700,
+      "duration": 2766,
+      "lang": "zh"
+    },
+    {
+      "text": "第一，问服务员要“招牌菜”；",
+      "offset": 467500,
+      "duration": 3200,
+      "lang": "zh"
+    },
+    {
+      "text": "第二，看别人桌上点了什么；",
+      "offset": 470733,
+      "duration": 3200,
+      "lang": "zh"
+    },
+    {
+      "text": "第三，注意荤素搭配；",
+      "offset": 473966,
+      "duration": 2800,
+      "lang": "zh"
+    },
+    {
+      "text": "第四，告诉服务员你的“忌口”。",
+      "offset": 476800,
+      "duration": 3366,
+      "lang": "zh"
+    },
+    {
+      "text": "掌握了这几点，点菜就没那么可怕了。",
+      "offset": 480200,
+      "duration": 3300,
+      "lang": "zh"
+    },
+    {
+      "text": "好的，菜点好了，热气腾腾的菜也上来了。",
+      "offset": 483533,
+      "duration": 4200,
+      "lang": "zh"
+    },
+    {
+      "text": "在吃饭的过程中，",
+      "offset": 487766,
+      "duration": 1367,
+      "lang": "zh"
+    },
+    {
+      "text": "我们可能还需要一些东西，",
+      "offset": 489166,
+      "duration": 2100,
+      "lang": "zh"
+    },
+    {
+      "text": "比如想再要一碗米饭，或者想加点水，",
+      "offset": 491300,
+      "duration": 3633,
+      "lang": "zh"
+    },
+    {
+      "text": "这时候怎么叫服务员呢？",
+      "offset": 494966,
+      "duration": 2134,
+      "lang": "zh"
+    },
+    {
+      "text": "我总不能一直对着他招手吧？(笑)，",
+      "offset": 497133,
+      "duration": 3333,
+      "lang": "zh"
+    },
+    {
+      "text": "当然可以招手。",
+      "offset": 500500,
+      "duration": 1533,
+      "lang": "zh"
+    },
+    {
+      "text": "不过更礼貌、更普遍的做法是，",
+      "offset": 502066,
+      "duration": 2867,
+      "lang": "zh"
+    },
+    {
+      "text": "你可以稍微提高一点声音，叫一声“服务员”。",
+      "offset": 504966,
+      "duration": 4567,
+      "lang": "zh"
+    },
+    {
+      "text": "他们听到了就会过来。",
+      "offset": 509566,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "就是直接叫“服务员”这三个字吗？",
+      "offset": 511300,
+      "duration": 3166,
+      "lang": "zh"
+    },
+    {
+      "text": "是的。或者你也可以说“你好”，",
+      "offset": 514500,
+      "duration": 3133,
+      "lang": "zh"
+    },
+    {
+      "text": "只要能吸引到他们的注意就可以。",
+      "offset": 517666,
+      "duration": 3167,
+      "lang": "zh"
+    },
+    {
+      "text": "等他们过来了，你就可以直接说你的需求。",
+      "offset": 520866,
+      "duration": 3300,
+      "lang": "zh"
+    },
+    {
+      "text": "比如：“你好，请再给我一碗米饭。”",
+      "offset": 524200,
+      "duration": 3333,
+      "lang": "zh"
+    },
+    {
+      "text": "或者 “你好，",
+      "offset": 527566,
+      "duration": 1534,
+      "lang": "zh"
+    },
+    {
+      "text": "可以帮我们加点水吗？”",
+      "offset": 529133,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "明白了。“服务员，加水。”",
+      "offset": 530866,
+      "duration": 2500,
+      "lang": "zh"
+    },
+    {
+      "text": "“服务员，再来一碗米饭。”这样说很清楚。",
+      "offset": 533400,
+      "duration": 3500,
+      "lang": "zh"
+    },
+    {
+      "text": "那如果我想用餐巾纸呢？",
+      "offset": 536933,
+      "duration": 2300,
+      "lang": "zh"
+    },
+    {
+      "text": "你可以问：“请问有餐巾纸吗？”",
+      "offset": 539266,
+      "duration": 3034,
+      "lang": "zh"
+    },
+    {
+      "text": "一般饭店的桌子上都会有，",
+      "offset": 542333,
+      "duration": 2367,
+      "lang": "zh"
+    },
+    {
+      "text": "如果没有，他们会拿给你。",
+      "offset": 544733,
+      "duration": 2433,
+      "lang": "zh"
+    },
+    {
+      "text": "这些都是非常简单和直接的交流，",
+      "offset": 547200,
+      "duration": 3100,
+      "lang": "zh"
+    },
+    {
+      "text": "不用想得太复杂。",
+      "offset": 550333,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯，确实。",
+      "offset": 552066,
+      "duration": 1267,
+      "lang": "zh"
+    },
+    {
+      "text": "吃饭的时候，最重要的就是放松和享受。",
+      "offset": 553366,
+      "duration": 3600,
+      "lang": "zh"
+    },
+    {
+      "text": "有任何需要，直接、礼貌地告诉服务员就好了。",
+      "offset": 557000,
+      "duration": 3900,
+      "lang": "zh"
+    },
+    {
+      "text": "没错。享受美食，享受和朋友在",
+      "offset": 560933,
+      "duration": 3500,
+      "lang": "zh"
+    },
+    {
+      "text": "一起的时光，这才是最重要的。",
+      "offset": 564466,
+      "duration": 2467,
+      "lang": "zh"
+    },
+    {
+      "text": "好了，一顿饭吃得心满意足，",
+      "offset": 566966,
+      "duration": 2800,
+      "lang": "zh"
+    },
+    {
+      "text": "酒足饭饱之后，就到了最后一个环节——买单。",
+      "offset": 569800,
+      "duration": 4500,
+      "lang": "zh"
+    },
+    {
+      "text": "在中国，我发现买单是一件",
+      "offset": 574333,
+      "duration": 2600,
+      "lang": "zh"
+    },
+    {
+      "text": "特别有意思的事情，",
+      "offset": 576966,
+      "duration": 2134,
+      "lang": "zh"
+    },
+    {
+      "text": "尤其是和朋友一起吃饭的时候。哦？",
+      "offset": 579133,
+      "duration": 2967,
+      "lang": "zh"
+    },
+    {
+      "text": "怎么有意思了？",
+      "offset": 582133,
+      "duration": 1167,
+      "lang": "zh"
+    },
+    {
+      "text": "我经常看到饭店里的人",
+      "offset": 583333,
+      "duration": 2033,
+      "lang": "zh"
+    },
+    {
+      "text": "为了谁来买单“吵架”，",
+      "offset": 585400,
+      "duration": 2100,
+      "lang": "zh"
+    },
+    {
+      "text": "每个人都抢着说“我来！我来！”，",
+      "offset": 587533,
+      "duration": 2633,
+      "lang": "zh"
+    },
+    {
+      "text": "然后拿出手机扫码。",
+      "offset": 590200,
+      "duration": 1966,
+      "lang": "zh"
+    },
+    {
+      "text": "那个场面真的很有趣，",
+      "offset": 592200,
+      "duration": 2066,
+      "lang": "zh"
+    },
+    {
+      "text": "感觉大家不是在花钱，而是在抢一个奖品。",
+      "offset": 594300,
+      "duration": 3766,
+      "lang": "zh"
+    },
+    {
+      "text": "(笑)，你观察得很仔细。",
+      "offset": 598100,
+      "duration": 2600,
+      "lang": "zh"
+    },
+    {
+      "text": "这确实是中国餐桌上一个",
+      "offset": 600733,
+      "duration": 2300,
+      "lang": "zh"
+    },
+    {
+      "text": "很独特的文化现象，我们叫“抢着买单”。",
+      "offset": 603066,
+      "duration": 4667,
+      "lang": "zh"
+    },
+    {
+      "text": "这背后其实是一种热情好客和表达友谊的方式。",
+      "offset": 607766,
+      "duration": 5200,
+      "lang": "zh"
+    },
+    {
+      "text": "大家都想“请客”，通过请对方吃饭",
+      "offset": 613000,
+      "duration": 3500,
+      "lang": "zh"
+    },
+    {
+      "text": "来表达自己的感谢或者情意。",
+      "offset": 616533,
+      "duration": 2733,
+      "lang": "zh"
+    },
+    {
+      "text": "原来是这样！",
+      "offset": 619300,
+      "duration": 1866,
+      "lang": "zh"
+    },
+    {
+      "text": "是一种表达感情的方式。",
+      "offset": 621200,
+      "duration": 2466,
+      "lang": "zh"
+    },
+    {
+      "text": "那如果我们是跟朋友一起吃饭，",
+      "offset": 623700,
+      "duration": 2366,
+      "lang": "zh"
+    },
+    {
+      "text": "我们想各付各的，应该怎么说呢？",
+      "offset": 626100,
+      "duration": 2633,
+      "lang": "zh"
+    },
+    {
+      "text": "这个很简单，现在年轻人之间吃饭，",
+      "offset": 628766,
+      "duration": 3067,
+      "lang": "zh"
+    },
+    {
+      "text": "各付各的已经非常普遍了。",
+      "offset": 631866,
+      "duration": 2500,
+      "lang": "zh"
+    },
+    {
+      "text": "你可以直接跟朋友或者服务员说：",
+      "offset": 634400,
+      "duration": 3166,
+      "lang": "zh"
+    },
+    {
+      "text": "“我们各付各的吧。”",
+      "offset": 637600,
+      "duration": 1666,
+      "lang": "zh"
+    },
+    {
+      "text": "哦，直接说“各付各的”就行了，真方便！",
+      "offset": 639300,
+      "duration": 4366,
+      "lang": "zh"
+    },
+    {
+      "text": "现在在中国，用手机付钱非常方便，到",
+      "offset": 643700,
+      "duration": 4000,
+      "lang": "zh"
+    },
+    {
+      "text": "处都可以用微信或者支付宝。",
+      "offset": 647733,
+      "duration": 2733,
+      "lang": "zh"
+    },
+    {
+      "text": "是的，所以买单的时候，",
+      "offset": 650500,
+      "duration": 2133,
+      "lang": "zh"
+    },
+    {
+      "text": "你只要跟服务员说一声“买单”，",
+      "offset": 652666,
+      "duration": 2634,
+      "lang": "zh"
+    },
+    {
+      "text": "然后拿出手机，",
+      "offset": 655333,
+      "duration": 1400,
+      "lang": "zh"
+    },
+    {
+      "text": "他会拿一个二维码过来让你扫，",
+      "offset": 656766,
+      "duration": 2734,
+      "lang": "zh"
+    },
+    {
+      "text": "整个过程非常快，几秒钟就完成了。",
+      "offset": 659533,
+      "duration": 3400,
+      "lang": "zh"
+    },
+    {
+      "text": "你也可以说“结账”，和“买单”是一个意思。",
+      "offset": 662966,
+      "duration": 3567,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯，“买单”或者“结账”。",
+      "offset": 666566,
+      "duration": 2534,
+      "lang": "zh"
+    },
+    {
+      "text": "然后用手机扫码支付。",
+      "offset": 669133,
+      "duration": 2567,
+      "lang": "zh"
+    },
+    {
+      "text": "听你这么一分解，从进门、点菜、",
+      "offset": 671733,
+      "duration": 3033,
+      "lang": "zh"
+    },
+    {
+      "text": "吃饭到最后的买单，",
+      "offset": 674800,
+      "duration": 2233,
+      "lang": "zh"
+    },
+    {
+      "text": "整个过程好像都变得清晰和简单了。",
+      "offset": 677066,
+      "duration": 3167,
+      "lang": "zh"
+    },
+    {
+      "text": "当然。其实去餐厅吃饭，",
+      "offset": 680266,
+      "duration": 2567,
+      "lang": "zh"
+    },
+    {
+      "text": "本质上就是一次交流和体验。",
+      "offset": 682866,
+      "duration": 3034,
+      "lang": "zh"
+    },
+    {
+      "text": "语言只是一个工具，",
+      "offset": 685933,
+      "duration": 1900,
+      "lang": "zh"
+    },
+    {
+      "text": "最重要的是敢于开口去说，去问。",
+      "offset": 687866,
+      "duration": 3500,
+      "lang": "zh"
+    },
+    {
+      "text": "即使说错了，或者发音不标准，都没有关系。",
+      "offset": 691400,
+      "duration": 3900,
+      "lang": "zh"
+    },
+    {
+      "text": "勇敢地迈出第一步，你会发现，",
+      "offset": 695333,
+      "duration": 2633,
+      "lang": "zh"
+    },
+    {
+      "text": "享受一顿地道的中餐，其实一点也不难。",
+      "offset": 698000,
+      "duration": 4133,
+      "lang": "zh"
+    },
+    {
+      "text": "王雨，",
+      "offset": 702166,
+      "duration": 600,
+      "lang": "zh"
+    },
+    {
+      "text": "我们今天聊了去饭店的整个过程，",
+      "offset": 702800,
+      "duration": 2933,
+      "lang": "zh"
+    },
+    {
+      "text": "其中有几个词，",
+      "offset": 705766,
+      "duration": 1467,
+      "lang": "zh"
+    },
+    {
+      "text": "我觉得对我们的听众朋友们特别有用。",
+      "offset": 707266,
+      "duration": 3167,
+      "lang": "zh"
+    },
+    {
+      "text": "我们来一起复习一下，好吗？",
+      "offset": 710466,
+      "duration": 2267,
+      "lang": "zh"
+    },
+    {
+      "text": "好啊！ / 李明: 第一个词是“招牌菜”。如果",
+      "offset": 712766,
+      "duration": 4067,
+      "lang": "zh"
+    },
+    {
+      "text": "一个听众朋友在菜单上看到这三个字，",
+      "offset": 716866,
+      "duration": 3234,
+      "lang": "zh"
+    },
+    {
+      "text": "它是什么意思呢？",
+      "offset": 720133,
+      "duration": 1367,
+      "lang": "zh"
+    },
+    {
+      "text": "“招牌菜”的意思很简单，",
+      "offset": 721533,
+      "duration": 2100,
+      "lang": "zh"
+    },
+    {
+      "text": "就是这个饭店里最好吃、最有名的菜。",
+      "offset": 723666,
+      "duration": 3667,
+      "lang": "zh"
+    },
+    {
+      "text": "如果你不知道点什么，点招牌菜肯定没错！",
+      "offset": 727366,
+      "duration": 4067,
+      "lang": "zh"
+    },
+    {
+      "text": "说得很好。",
+      "offset": 731466,
+      "duration": 1000,
+      "lang": "zh"
+    },
+    {
+      "text": "第二个词，",
+      "offset": 732500,
+      "duration": 1200,
+      "lang": "zh"
+    },
+    {
+      "text": "“地道”。我们经常说这家饭店很“地道”，",
+      "offset": 733733,
+      "duration": 4333,
+      "lang": "zh"
+    },
+    {
+      "text": "这个“地道”是什么意思？",
+      "offset": 738100,
+      "duration": 1966,
+      "lang": "zh"
+    },
+    {
+      "text": "嗯，“地道”就是说，",
+      "offset": 740100,
+      "duration": 2133,
+      "lang": "zh"
+    },
+    {
+      "text": "这个地方的菜做得非常传统，",
+      "offset": 742266,
+      "duration": 2767,
+      "lang": "zh"
+    },
+    {
+      "text": "味道特别好，跟本地人平时吃的一模一样。",
+      "offset": 745066,
+      "duration": 4200,
+      "lang": "zh"
+    },
+    {
+      "text": "它代表了一种很高的评价。",
+      "offset": 749300,
+      "duration": 2533,
+      "lang": "zh"
+    },
+    {
+      "text": "完全正确。",
+      "offset": 751866,
+      "duration": 1167,
+      "lang": "zh"
+    },
+    {
+      "text": "下一个词，“忌口”。",
+      "offset": 753066,
+      "duration": 2367,
+      "lang": "zh"
+    },
+    {
+      "text": "这个词在点菜的时候非常重要。",
+      "offset": 755466,
+      "duration": 3200,
+      "lang": "zh"
+    },
+    {
+      "text": "“忌口”就是指你因为身",
+      "offset": 758700,
+      "duration": 2200,
+      "lang": "zh"
+    },
+    {
+      "text": "体原因或者个人习惯，",
+      "offset": 760933,
+      "duration": 2167,
+      "lang": "zh"
+    },
+    {
+      "text": "不能吃或者不喜欢吃的东西。",
+      "offset": 763133,
+      "duration": 2833,
+      "lang": "zh"
+    },
+    {
+      "text": "比如，有的人不吃辣，有的人不吃肉，",
+      "offset": 766000,
+      "duration": 3566,
+      "lang": "zh"
+    },
+    {
+      "text": "这些都是你的“忌口”。",
+      "offset": 769600,
+      "duration": 2433,
+      "lang": "zh"
+    },
+    {
+      "text": "点菜的时候一定要告诉服务员。",
+      "offset": 772066,
+      "duration": 2867,
+      "lang": "zh"
+    },
+    {
+      "text": "解释得非常清楚。",
+      "offset": 774966,
+      "duration": 1800,
+      "lang": "zh"
+    },
+    {
+      "text": "最后一个词，“买单”。",
+      "offset": 776800,
+      "duration": 2133,
+      "lang": "zh"
+    },
+    {
+      "text": "“买单”就是指吃完饭付钱。",
+      "offset": 778966,
+      "duration": 3000,
+      "lang": "zh"
+    },
+    {
+      "text": "在饭店里，你也可以说“结账”，",
+      "offset": 782000,
+      "duration": 2733,
+      "lang": "zh"
+    },
+    {
+      "text": "它们的意思是一样的。",
+      "offset": 784766,
+      "duration": 1800,
+      "lang": "zh"
+    },
+    {
+      "text": "太棒了。希望这几个词能帮助大家",
+      "offset": 786600,
+      "duration": 3433,
+      "lang": "zh"
+    },
+    {
+      "text": "在下一次去中餐厅的时候，用得更自信。",
+      "offset": 790066,
+      "duration": 3767,
+      "lang": "zh"
+    },
+    {
+      "text": "好了，今天的“中餐厅生存指南”",
+      "offset": 793866,
+      "duration": 2900,
+      "lang": "zh"
+    },
+    {
+      "text": "差不多就到这里了。",
+      "offset": 796800,
+      "duration": 1666,
+      "lang": "zh"
+    },
+    {
+      "text": "我们从预订座位开始，聊了如何点菜，",
+      "offset": 798500,
+      "duration": 3800,
+      "lang": "zh"
+    },
+    {
+      "text": "如何在用餐中提出需求，以及最后如何买单。",
+      "offset": 802333,
+      "duration": 4633,
+      "lang": "zh"
+    },
+    {
+      "text": "希望今天的内容能给大家带来一些实用的帮助。",
+      "offset": 807000,
+      "duration": 3966,
+      "lang": "zh"
+    },
+    {
+      "text": "是呀，希望大家下",
+      "offset": 811000,
+      "duration": 1566,
+      "lang": "zh"
+    },
+    {
+      "text": "次走进一家中餐厅的时候，",
+      "offset": 812600,
+      "duration": 2033,
+      "lang": "zh"
+    },
+    {
+      "text": "心里能更有底气，更放松地去享受美食。",
+      "offset": 814666,
+      "duration": 4167,
+      "lang": "zh"
+    },
+    {
+      "text": "如果你想看我们今天聊天的完整",
+      "offset": 818866,
+      "duration": 2600,
+      "lang": "zh"
+    },
+    {
+      "text": "文本，可以访问我们的博客。",
+      "offset": 821500,
+      "duration": 2600,
+      "lang": "zh"
+    },
+    {
+      "text": "如果今天的内容对你有帮助，",
+      "offset": 824133,
+      "duration": 2367,
+      "lang": "zh"
+    },
+    {
+      "text": "请一定给我们点个赞，分享和订阅我们的频道。",
+      "offset": 826533,
+      "duration": 4333,
+      "lang": "zh"
+    },
+    {
+      "text": "你们的支持",
+      "offset": 830900,
+      "duration": 833,
+      "lang": "zh"
+    },
+    {
+      "text": "是我们继续创作的最大动力，",
+      "offset": 831766,
+      "duration": 2400,
+      "lang": "zh"
+    },
+    {
+      "text": "这真的对我们很重要。",
+      "offset": 834200,
+      "duration": 1700,
+      "lang": "zh"
+    },
+    {
+      "text": "我们也非常想听听大家的故事！",
+      "offset": 835933,
+      "duration": 2733,
+      "lang": "zh"
+    },
+    {
+      "text": "我们想问大家一个问题：",
+      "offset": 838700,
+      "duration": 2033,
+      "lang": "zh"
+    },
+    {
+      "text": "你去中国饭店的时候，",
+      "offset": 840766,
+      "duration": 1800,
+      "lang": "zh"
+    },
+    {
+      "text": "最喜欢点的一道菜是什么呢？",
+      "offset": 842600,
+      "duration": 2633,
+      "lang": "zh"
+    },
+    {
+      "text": "欢迎在下面的评论区给我们留言，",
+      "offset": 845266,
+      "duration": 2700,
+      "lang": "zh"
+    },
+    {
+      "text": "分享你最爱的那道中国菜和你的故事。",
+      "offset": 848000,
+      "duration": 3666,
+      "lang": "zh"
+    },
+    {
+      "text": "如果你有任何关于中文学习的问题，",
+      "offset": 851700,
+      "duration": 3000,
+      "lang": "zh"
+    },
+    {
+      "text": "也随时可以问我们，",
+      "offset": 854733,
+      "duration": 1833,
+      "lang": "zh"
+    },
+    {
+      "text": "我们会认真阅读和回复每一条评论。",
+      "offset": 856600,
+      "duration": 3366,
+      "lang": "zh"
+    },
+    {
+      "text": "说不定，你提出的问题",
+      "offset": 860000,
+      "duration": 1866,
+      "lang": "zh"
+    },
+    {
+      "text": "就会成为我们下一期节目的主题哦！",
+      "offset": 861900,
+      "duration": 2833,
+      "lang": "zh"
+    },
+    {
+      "text": "期待大家的分享。",
+      "offset": 864766,
+      "duration": 1300,
+      "lang": "zh"
+    },
+    {
+      "text": "那我们今天就到这里。",
+      "offset": 866100,
+      "duration": 1766,
+      "lang": "zh"
+    },
+    {
+      "text": "下次再见！拜拜！",
+      "offset": 867900,
+      "duration": 1700,
+      "lang": "zh"
+    }
+  ]
+}

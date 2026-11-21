@@ -1,0 +1,85 @@
+﻿MaMucNguPhapChuan,CapDoHSK,SoThuTuChuan,SoThuTuNguon,NhomLonTrung,NhomConTrung,TenMucTrung,ChiTietTrung,NoiDungChuanTrung,MaNguon,TrangThaiReview,GhiChu
+GF4-001,4,1,212,词类,动词,能愿动词,能愿动词,得,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-002,4,2,213,词类,代词,人称代词,人称代词,人家,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-003,4,3,214,词类,量词,名量词,名量词,打、袋、根、卷、棵、批,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-004,4,4,215,词类,量词,借用量词,借用量词,"（1）名量词：碗、脸、手、屋子、桌子 
+（2）动量词：刀、针",1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-005,4,5,216,词类,副词,程度副词,程度副词,格外、极、极其,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-006,4,6,217,词类,副词,范围、协同副词,范围、协同副词,共,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-007,4,7,218,词类,副词,时间副词,时间副词,按时、即将、急忙、渐渐、尽快,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-008,4,8,219,词类,副词,频率、重复副词,频率、重复副词,一再、再三,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-009,4,9,220,词类,副词,关联副词,关联副词,却,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-010,4,10,221,词类,副词,否定副词,否定副词,未必,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-011,4,11,222,词类,副词,情态副词,情态副词,几乎、似乎,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-012,4,12,223,词类,副词,语气副词,语气副词,的确、反而、还4、竟然、究竟,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-013,4,13,224,词类,介词,引出时间、处所,引出时间、处所,自,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-014,4,14,225,词类,介词,引出对象,引出对象,对于,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-015,4,15,226,词类,介词,引出对象,引出对象,关于,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-016,4,16,227,词类,介词,引出对象,引出对象,替,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-017,4,17,228,词类,介词,引出凭借、依据,引出凭借、依据,根据,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-018,4,18,229,词类,介词,引出凭借、依据,引出凭借、依据,作为,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-019,4,19,230,词类,连词,连接词或词组,连接词或词组,并2、以及,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-020,4,20,231,词类,连词,连接分句或句子,连接分句或句子,此外、而1、而是、既然、可见、甚至、假如、总之,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-021,4,21,232,词类,助词,其他助词,其他助词,似的,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-022,4,22,233,词类,叹词,啊2,啊2,啊2,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-023,4,23,234,短语,固定短语,四字格,四字格,大A大B,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-024,4,24,235,短语,固定短语,四字格,四字格,一A一B,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-025,4,25,236,短语,固定短语,看来,其他,看来,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-026,4,26,237,短语,固定短语,来得及/来不及,其他,来得及/来不及,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-027,4,27,238,短语,固定短语,说不定,其他,说不定,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-028,4,28,239,短语,固定短语,一般来说,其他,一般来说,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-029,4,29,240,固定格式,一+量词+比+一+量词,一+量词+比+一+量词,,一+量词+比+一+量词,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-030,4,30,241,固定格式,（自）……以来,（自）……以来,,（自）……以来,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-031,4,31,242,固定格式,由……组成,由……组成,,由……组成,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-032,4,32,243,固定格式,在……方面,在……方面,,在……方面,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-033,4,33,244,固定格式,在……上/下/中,在……上/下/中,,在……上/下/中,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-034,4,34,245,句子成分,主语,主谓短语作主语,主谓短语作主语,主谓短语作主语,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-035,4,35,246,句子成分,主语,受事主语,受事主语,受事主语,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-036,4,36,247,句子成分,定语,多项定语,多项定语,多项定语,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-037,4,37,248,句子成分,补语,趋向补语,趋向补语,"趋向补语3 
+表示结果意义（引申用法）：动词+上/出/起/下",1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-038,4,38,249,句子的类型,特殊句型,“把”字句,“把”字句,"“把”字句2：表处置（1） 
+主语+把+宾语+动词（+一/了）+动词（2）主语+把+宾语（+给）+动词+了/着（3）主语+把+宾语+动词+动量补语/时量补语",1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-039,4,39,250,句子的类型,特殊句型,被动句,被动句,被动句2：主语+被+动词+其他成分,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-040,4,40,251,句子的类型,特殊句型,存现句,存现句,"存现句2： 
+（1）表示出现：处所词+动词+趋向补语/结果补语+动态助词（了）+数量短语+人/物（2）表示消失：处所词+动词+结果补语+动态助词（了）+数量短语+人/物",1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-041,4,41,252,句子的类型,特殊句型,兼语句,兼语句,"兼语句2 
+（1）表爱憎义：主语+表扬/批评+宾语1+动词+宾语2（2）表称谓或认定义：主语+叫/称（呼）/说/收/选+宾语1 +做/为/当/是+宾语2",1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-042,4,42,253,句子的类型,特殊句型,“是……的”句,“是……的”句,“是……的”句2：强调说话人的看法或态度,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-043,4,43,254,句子的类型,复句,并列复句,并列复句,不是……，而是……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-044,4,44,255,句子的类型,复句,并列复句,并列复句,既……，又/也……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-045,4,45,256,句子的类型,复句,承接复句,承接复句,首先……，其次……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-046,4,46,257,句子的类型,复句,承接复句,承接复句,……，于是……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-047,4,47,258,句子的类型,复句,递进复句,递进复句,……，甚至……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-048,4,48,259,句子的类型,复句,选择复句,选择复句,或者……，或者……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-049,4,49,260,句子的类型,复句,转折复句,转折复句,……，然而……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-050,4,50,261,句子的类型,复句,假设复句,假设复句,……，否则……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-051,4,51,262,句子的类型,复句,假设复句,假设复句,假如……，（就）……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-052,4,52,263,句子的类型,复句,假设复句,假设复句,万一……，（就）……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-053,4,53,264,句子的类型,复句,条件复句,条件复句,不管……，都/也……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-054,4,54,265,句子的类型,复句,条件复句,条件复句,无论……，都/也……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-055,4,55,266,句子的类型,复句,因果复句,因果复句,既然……，就……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-056,4,56,267,句子的类型,复句,因果复句,因果复句,……，可见……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-057,4,57,268,句子的类型,复句,让步复句,让步复句,哪怕……，也/还……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-058,4,58,269,句子的类型,复句,目的复句,目的复句,……，好……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-059,4,59,270,句子的类型,复句,紧缩复句,紧缩复句,无标记,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-060,4,60,271,句子的类型,复句,紧缩复句,紧缩复句,不……也……,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-061,4,61,272,特殊表达法,数的表示法,概数表示法3：数词+来+量词,概数表示法3：数词+来+量词,概数表示法3：数词+来+量词,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-062,4,62,273,特殊表达法,数的表示法,小数、分数、百分数、倍数的表示法；,小数、分数、百分数、倍数的表示法；,小数、分数、百分数、倍数的表示法；,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-063,4,63,274,强调的方法,"用反问句表示强调 
+反问句2：由疑问代词构成的反问句","用反问句表示强调 
+反问句2：由疑问代词构成的反问句",,"用反问句表示强调 
+反问句2：由疑问代词构成的反问句",1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-064,4,64,275,强调的方法,用双重否定表示强调,用双重否定表示强调,,用双重否定表示强调,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-065,4,65,276,强调的方法,用“一+量词（+名词）+也（都）/也没（不）……”表示强调,用“一+量词（+名词）+也（都）/也没（不）……”表示强调,,用“一+量词（+名词）+也（都）/也没（不）……”表示强调,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-066,4,66,277,强调的方法,用“连……也/都……”表示强调,用“连……也/都……”表示强调,,用“连……也/都……”表示强调,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-067,4,67,278,口语格式,不X白不X,不X白不X,,不X白不X,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-068,4,68,279,口语格式,动词+一X是一X,动词+一X是一X,,动词+一X是一X,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-069,4,69,280,口语格式,（没）有什么（好）X的,（没）有什么（好）X的,,（没）有什么（好）X的,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-070,4,70,281,口语格式,X是X，Y是Y,X是X，Y是Y,,X是X，Y是Y,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-071,4,71,282,口语格式,X也得X，不X也得X,X也得X，不X也得X,,X也得X，不X也得X,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-072,4,72,283,口语格式,X就是了,X就是了,,X就是了,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-073,4,73,284,口语格式,还X呢,还X呢,,还X呢,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-074,4,74,285,口语格式,你X你的吧,你X你的吧,,你X你的吧,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-075,4,75,286,口语格式,让/叫你X你就X,让/叫你X你就X,,让/叫你X你就X,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.
+GF4-076,4,76,287,口语格式,说什么/怎么（着）也得X,说什么/怎么（着）也得X,,说什么/怎么（着）也得X,1004,nguon_chuan,GF0025-2021 cap 4; machine-readable cross-check tu ivankra/hsk30. Chua phai noi dung giang day tieng Viet.

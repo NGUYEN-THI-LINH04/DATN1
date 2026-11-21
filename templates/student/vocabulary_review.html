@@ -1,0 +1,856 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Ôn tập từ vựng | Mộc Hán
+{% endblock %}
+
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/vocabulary-review.css') }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+<!-- CSRF TOKEN CHO FLASK -->
+<input
+    type="hidden"
+    name="csrf_token"
+    value="{{ csrf_token() }}"
+>
+
+
+<main class="vr-page" id="vocabularyReviewPage">
+
+    <!-- =================================================
+         THÔNG BÁO
+    ================================================= -->
+
+    <div
+        class="vr-notice"
+        id="vrNotice"
+        role="status"
+        aria-live="polite"
+        hidden
+    ></div>
+
+
+    <!-- =================================================
+         PHẦN 1: TỔNG QUAN ÔN TẬP
+    ================================================= -->
+
+    <section
+        class="vr-overview"
+        id="vrOverview"
+    >
+
+        <!-- HEADER -->
+
+        <header class="vr-header">
+
+            <div>
+
+                <span class="vr-eyebrow">
+                    复习 · ÔN TẬP CÁ NHÂN
+                </span>
+
+                <h1>Ôn tập từ vựng</h1>
+
+                <p>
+                    Theo dõi tiến độ và ôn lại những từ
+                    đã lưu từ các bài học HSK.
+                </p>
+
+            </div>
+
+            <div class="vr-header-character">
+                复
+            </div>
+
+        </header>
+
+
+        <!-- TAB TỪ VỰNG / NGỮ PHÁP -->
+
+        <div class="vr-tabs">
+
+            <div class="vr-tab active">
+
+                <span>▣ Từ vựng</span>
+
+                <span
+                    class="vr-tab-count"
+                    id="vrTabCount"
+                >
+                    0
+                </span>
+
+            </div>
+
+            <div
+                class="vr-tab vr-tab-disabled"
+                aria-disabled="true"
+            >
+                语 Ngữ pháp
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             6 Ô THỐNG KÊ NHỎ
+        ============================================== -->
+
+        <div class="vr-stats-grid">
+
+            <!-- CẦN ÔN -->
+
+            <div class="vr-stat-card">
+
+                <strong
+                    class="vr-stat-number vr-stat-danger"
+                    id="vrDueCount"
+                >
+                    0
+                </strong>
+
+                <span>Cần ôn</span>
+
+            </div>
+
+
+            <!-- MỚI THÊM -->
+
+            <div class="vr-stat-card">
+
+                <strong
+                    class="vr-stat-number"
+                    id="vrNewCount"
+                >
+                    0
+                </strong>
+
+                <span>Mới thêm</span>
+
+            </div>
+
+
+            <!-- ĐÃ ÔN -->
+
+            <div class="vr-stat-card">
+
+                <strong
+                    class="vr-stat-number"
+                    id="vrReviewedCount"
+                >
+                    0
+                </strong>
+
+                <span>Đã ôn</span>
+
+            </div>
+
+
+            <!-- CHƯA ĐẾN HẠN -->
+
+            <div class="vr-stat-card">
+
+                <strong
+                    class="vr-stat-number vr-stat-green"
+                    id="vrNotDueCount"
+                >
+                    0
+                </strong>
+
+                <span>Chưa đến hạn</span>
+
+            </div>
+
+
+            <!-- TỔNG TỪ ĐÃ LƯU -->
+
+            <div class="vr-stat-card">
+
+                <strong
+                    class="vr-stat-number"
+                    id="vrSavedCount"
+                >
+                    0
+                </strong>
+
+                <span>Tổng từ đã lưu</span>
+
+            </div>
+
+
+            <!-- TỔNG LƯỢT ÔN -->
+
+            <div class="vr-stat-card">
+
+                <strong
+                    class="vr-stat-number"
+                    id="vrTotalReviews"
+                >
+                    0
+                </strong>
+
+                <span>Tổng lượt ôn</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             KHUNG CẦN ÔN VÀ LỊCH ÔN
+        ============================================== -->
+
+        <div class="vr-summary-grid">
+
+            <!-- KHUNG TRÁI -->
+
+            <div class="vr-summary-card">
+
+                <div class="vr-summary-heading">
+
+                    <h2>Thẻ cần ôn hôm nay</h2>
+
+                    <span class="vr-summary-icon">
+                        ◷
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="vr-summary-number"
+                    id="vrTodayCount"
+                >
+                    0
+                </div>
+
+
+                <p class="vr-summary-description">
+                    Ưu tiên ôn những từ mới và từ
+                    đã đến lịch ôn.
+                </p>
+
+
+                <div class="vr-summary-actions">
+
+                    <button
+                        type="button"
+                        class="vr-primary-button"
+                        id="vrStartButton"
+                        disabled
+                    >
+                        ▶ Ôn tập ngay
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="vr-outline-button"
+                        id="vrStudyAllButton"
+                        disabled
+                    >
+                        ↻ Ôn tất cả
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- KHUNG PHẢI -->
+
+            <div class="vr-summary-card">
+
+                <div class="vr-summary-heading">
+
+                    <h2>Lượt ôn tập tiếp theo</h2>
+
+                    <span class="vr-summary-icon">
+                        ◷
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="vr-next-review"
+                    id="vrNextReview"
+                >
+                    Chưa có lịch
+                </div>
+
+
+                <p class="vr-summary-description">
+                    Hệ thống lưu kết quả để sắp xếp
+                    lịch ôn tập cho những lần tiếp theo.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             CHỌN CHẾ ĐỘ HỌC
+        ============================================== -->
+
+        <section class="vr-mode-section">
+
+            <div class="vr-section-heading">
+
+                <div>
+
+                    <h2>Chọn chế độ học</h2>
+
+                    <p>
+                        Chọn cách bạn muốn luyện tập
+                        những từ đã lưu.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="vr-mode-grid">
+
+                <!-- FLASHCARD -->
+
+                <button
+                    type="button"
+                    class="vr-mode-card active"
+                    data-vr-mode="flashcard"
+                    aria-pressed="true"
+                >
+
+                    <span class="vr-mode-icon">
+                        ▱
+                    </span>
+
+                    <strong>Flashcard</strong>
+
+                    <small>
+                        Lật thẻ để ghi nhớ từ vựng
+                    </small>
+
+                </button>
+
+
+                <!-- GÕ PINYIN -->
+
+                <button
+                    type="button"
+                    class="vr-mode-card"
+                    data-vr-mode="pinyin"
+                    aria-pressed="false"
+                >
+
+                    <span class="vr-mode-icon">
+                        拼
+                    </span>
+
+                    <strong>Gõ Pinyin</strong>
+
+                    <small>
+                        Nhìn chữ Hán, nhập phiên âm
+                    </small>
+
+                </button>
+
+
+                <!-- GÕ CHỮ HÁN -->
+
+                <button
+                    type="button"
+                    class="vr-mode-card"
+                    data-vr-mode="hanzi"
+                    aria-pressed="false"
+                >
+
+                    <span class="vr-mode-icon">
+                        汉
+                    </span>
+
+                    <strong>Gõ chữ Hán</strong>
+
+                    <small>
+                        Nhìn nghĩa, nhập chữ Hán
+                    </small>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- KHI CHƯA CÓ TỪ NÀO -->
+
+        <div
+            class="vr-empty"
+            id="vrEmpty"
+            hidden
+        >
+
+            <div class="vr-empty-character">
+                字
+            </div>
+
+            <h3>Bạn chưa có từ vựng để ôn</h3>
+
+            <p>
+                Vào bài học HSK và bấm dấu ☆
+                hoặc chọn “Thêm cả bài vào ôn tập”
+                để lưu từ vựng.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         PHẦN 2: MÀN HÌNH HỌC
+         Chỉ hiện khi nhấn "Ôn tập ngay"
+    ================================================= -->
+
+    <section
+        class="vr-study"
+        id="vrStudy"
+        hidden
+    >
+
+        <!-- THANH TRÊN -->
+
+        <div class="vr-study-top">
+
+            <button
+                type="button"
+                class="vr-back-button"
+                id="vrBackButton"
+            >
+                ← Quay lại
+            </button>
+
+
+            <div class="vr-study-title">
+
+                <strong id="vrStudyModeTitle">
+                    Flashcard
+                </strong>
+
+                <span>
+                    <b id="vrCurrentNumber">1</b>
+                    /
+                    <b id="vrTotalNumber">0</b>
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- THANH TIẾN TRÌNH -->
+
+        <div class="vr-progress">
+
+            <div
+                class="vr-progress-fill"
+                id="vrProgressFill"
+                style="width: 0%"
+            ></div>
+
+        </div>
+
+
+        <!-- =============================================
+             CHUYỂN CHẾ ĐỘ NGAY TRONG LÚC HỌC
+        ============================================== -->
+
+        <div class="vr-study-modes">
+
+            <button
+                type="button"
+                class="vr-study-mode active"
+                data-vr-study-mode="flashcard"
+                aria-pressed="true"
+            >
+                ▱ Flashcard
+            </button>
+
+
+            <button
+                type="button"
+                class="vr-study-mode"
+                data-vr-study-mode="pinyin"
+                aria-pressed="false"
+            >
+                拼 Gõ Pinyin
+            </button>
+
+
+            <button
+                type="button"
+                class="vr-study-mode"
+                data-vr-study-mode="hanzi"
+                aria-pressed="false"
+            >
+                汉 Gõ chữ Hán
+            </button>
+
+        </div>
+
+
+        <!-- =============================================
+             FLASHCARD
+        ============================================== -->
+
+        <div
+            class="vr-flashcard-area"
+            id="vrFlashcardArea"
+        >
+
+            <button
+                type="button"
+                class="vr-flashcard"
+                id="vrFlashcard"
+                aria-label="Lật thẻ từ vựng"
+                aria-pressed="false"
+            >
+
+                <!-- MẶT TRƯỚC -->
+
+                <div class="vr-card-front">
+
+                    <span class="vr-card-label">
+                        TỪ VỰNG
+                    </span>
+
+                    <div
+                        class="vr-card-hanzi"
+                        id="vrCardHanzi"
+                    ></div>
+
+
+                    <div
+                        class="vr-card-pinyin"
+                        id="vrCardPinyin"
+                    ></div>
+
+
+                    <span class="vr-card-hint">
+                        Nhấn vào thẻ để xem đáp án
+                    </span>
+
+                </div>
+
+
+                <!-- MẶT SAU -->
+
+                <div class="vr-card-back">
+
+                    <span class="vr-card-label">
+                        ĐÁP ÁN
+                    </span>
+
+
+                    <div
+                        class="vr-card-back-hanzi"
+                        id="vrCardBackHanzi"
+                    ></div>
+
+
+                    <div
+                        class="vr-card-back-pinyin"
+                        id="vrCardBackPinyin"
+                    ></div>
+
+
+                    <div
+                        class="vr-card-meaning"
+                        id="vrCardMeaning"
+                    ></div>
+
+
+                    <div
+                        class="vr-card-example"
+                        id="vrCardExample"
+                    ></div>
+
+                </div>
+
+            </button>
+
+
+            <button
+                type="button"
+                class="vr-audio-button"
+                id="vrAudioButton"
+                hidden
+            >
+                🔊 Nghe phát âm
+            </button>
+
+        </div>
+
+
+        <!-- =============================================
+             GÕ PINYIN / GÕ CHỮ HÁN
+        ============================================== -->
+
+        <div
+            class="vr-typing-area"
+            id="vrTypingArea"
+            hidden
+        >
+
+            <div class="vr-question-card">
+
+                <span
+                    class="vr-question-label"
+                    id="vrQuestionLabel"
+                >
+                    HÃY NHẬP ĐÁP ÁN
+                </span>
+
+
+                <div
+                    class="vr-question-main"
+                    id="vrQuestionMain"
+                ></div>
+
+
+                <div
+                    class="vr-question-hint"
+                    id="vrQuestionHint"
+                ></div>
+
+            </div>
+
+
+            <div class="vr-answer-row">
+
+                <input
+                    type="text"
+                    id="vrAnswerInput"
+                    placeholder="Nhập đáp án..."
+                    autocomplete="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    aria-label="Nhập đáp án"
+                >
+
+
+                <button
+                    type="button"
+                    class="vr-check-button"
+                    id="vrCheckButton"
+                >
+                    Kiểm tra
+                </button>
+
+            </div>
+
+
+            <div
+                class="vr-feedback"
+                id="vrFeedback"
+                aria-live="polite"
+            ></div>
+
+
+            <button
+                type="button"
+                class="vr-reveal-button"
+                id="vrRevealButton"
+            >
+                Xem đáp án
+            </button>
+
+        </div>
+
+
+        <!-- =============================================
+             ĐÁNH GIÁ MỨC ĐỘ NHỚ
+        ============================================== -->
+
+        <div
+            class="vr-rating"
+            id="vrRating"
+            hidden
+        >
+
+            <h3>
+                Bạn nhớ từ này ở mức nào?
+            </h3>
+
+
+            <div class="vr-rating-grid">
+
+                <button
+                    type="button"
+                    class="vr-rating-button vr-forgot"
+                    data-vr-grade="1"
+                >
+                    <strong>Quên rồi</strong>
+                    <small>Ôn lại ngay</small>
+                </button>
+
+
+                <button
+                    type="button"
+                    class="vr-rating-button vr-hard"
+                    data-vr-grade="2"
+                >
+                    <strong>Khó</strong>
+                    <small>Cần luyện thêm</small>
+                </button>
+
+
+                <button
+                    type="button"
+                    class="vr-rating-button vr-good"
+                    data-vr-grade="3"
+                >
+                    <strong>Tốt</strong>
+                    <small>Ôn sau 1 ngày</small>
+                </button>
+
+
+                <button
+                    type="button"
+                    class="vr-rating-button vr-easy"
+                    data-vr-grade="4"
+                >
+                    <strong>Dễ</strong>
+                    <small>Ôn sau 4 ngày</small>
+                </button>
+
+            </div>
+
+
+            <p
+                class="vr-save-status"
+                id="vrSaveStatus"
+                aria-live="polite"
+            ></p>
+
+        </div>
+
+
+        <!-- ĐIỀU HƯỚNG -->
+
+        <div class="vr-navigation">
+
+            <button
+                type="button"
+                id="vrPreviousButton"
+            >
+                ‹ Từ trước
+            </button>
+
+
+            <button
+                type="button"
+                id="vrNextButton"
+            >
+                Từ tiếp theo ›
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         PHẦN 3: HOÀN THÀNH BUỔI ÔN
+    ================================================= -->
+
+    <section
+        class="vr-result"
+        id="vrResult"
+        hidden
+    >
+
+        <div class="vr-result-icon">
+            ✓
+        </div>
+
+
+        <h2>Hoàn thành buổi ôn!</h2>
+
+        <p>
+            Kết quả đã được lưu vào lịch sử ôn tập.
+        </p>
+
+
+        <div class="vr-result-stats">
+
+            <div>
+
+                <strong id="vrCompletedCount">
+                    0
+                </strong>
+
+                <span>Từ đã ôn</span>
+
+            </div>
+
+
+            <div>
+
+                <strong id="vrSessionTotal">
+                    0
+                </strong>
+
+                <span>Tổng số từ</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="vr-result-actions">
+
+            <button
+                type="button"
+                class="vr-primary-button"
+                id="vrRestartButton"
+            >
+                ↻ Ôn lại
+            </button>
+
+
+            <button
+                type="button"
+                class="vr-outline-button"
+                id="vrReturnButton"
+            >
+                ← Trang tổng quan
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script
+    src="{{ url_for('static', filename='js/vocabulary-review.js') }}"
+></script>
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "gf0025_hsk4_standard_points": 76,
+  "tong_don_vi_giang_day": 114,
+  "da_review_batch01": 20,
+  "da_review_batch02": 20,
+  "bien_soan_review_15e": 74,
+  "phu_gf4": 76,
+  "trang_thai_sql_tuong_lai": "ban_nhap",
+  "review_status_counts": {
+    "DA_REVIEW_BATCH_01": 20,
+    "DA_REVIEW_BATCH_02": 20,
+    "DA_REVIEW_15E": 74
+  },
+  "review_result_counts": {
+    "PASS": 111,
+    "PASS_SAU_HIEU_CHINH": 3
+  },
+  "plan_sha256": "5a213b92fe25c2947c25bb4d00536425aa0a4d315f454b462f4b4fd59835088f",
+  "batch01_sha256": "81e6f0fcb9ddf8e16a71abb3b1aa5094fb3c0671f5063b25c01c2c7b311b23e6",
+  "batch02_sha256": "1e9c53fa5192a1ceaf4e89b1a9e3441fad52f15bbc22d93250b8f09c383f6f6f",
+  "remaining74_sha256": "247bd93d3bc4d76bef2d96db73106c767379093f7c4e8d27ce8befe9600a22da",
+  "final114_sha256": "9b3097dcc6e7a149e3d07fb07223226b5d15192aec6eb5a9ada77bfe8cd87e65",
+  "da_gan_bai_hoc": false,
+  "da_ghi_sql": false,
+  "da_publish": false,
+  "ghi_chu": "76 la diem chuan GF0025 HSK4; 114 la don vi giang day Moc Han. File final nay van la hoc lieu ban_nhap, chua gan BaiHoc va chua ghi SQL."
+}

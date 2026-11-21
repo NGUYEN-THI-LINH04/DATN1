@@ -1,0 +1,196 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Hồ sơ cá nhân | Mộc Hán
+{% endblock %}
+
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/student-profile.css') }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="mh-profile-page">
+
+    <!-- ==========================================
+         TIEU DE
+    ========================================== -->
+
+    <div class="mh-profile-header">
+
+        <h1>Hồ sơ cá nhân</h1>
+
+        <p>
+            Quản lý thông tin tài khoản
+            học tiếng Trung Mộc Hán.
+        </p>
+
+    </div>
+
+
+    <!-- ==========================================
+         THE HO SO
+    ========================================== -->
+
+    <section class="mh-profile-card">
+
+        <!-- THONG TIN DAI DIEN -->
+
+        <div class="mh-profile-user">
+
+            <div class="mh-profile-avatar">
+                {{ (profile.full_name or profile.username or 'U')[0] | upper }}
+            </div>
+
+            <div class="mh-profile-user-info">
+
+                <h2>
+                    {{ profile.full_name or profile.username }}
+                </h2>
+
+                <p>
+                    @{{ profile.username }}
+                </p>
+
+                <span class="mh-profile-role">
+                    Người học
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==========================================
+             FORM CAP NHAT
+        ========================================== -->
+
+        <form
+            method="POST"
+            action="{{ url_for('profile.index') }}"
+            class="mh-profile-form"
+        >
+
+            <!-- CSRF -->
+
+            <input
+                type="hidden"
+                name="csrf_token"
+                value="{{ csrf_token() }}"
+            >
+
+
+            <!-- TEN DANG NHAP -->
+
+            <div class="mh-profile-field">
+
+                <label for="profile-username">
+                    Tên đăng nhập
+                </label>
+
+                <input
+                    id="profile-username"
+                    type="text"
+                    value="{{ profile.username }}"
+                    disabled
+                >
+
+                <small>
+                    Tên đăng nhập không thể thay đổi.
+                </small>
+
+            </div>
+
+
+            <!-- HO TEN -->
+
+            <div class="mh-profile-field">
+
+                <label for="profile-fullname">
+                    Họ và tên
+                </label>
+
+                <input
+                    id="profile-fullname"
+                    name="full_name"
+                    type="text"
+                    value="{{ profile.full_name }}"
+                    minlength="2"
+                    maxlength="150"
+                    autocomplete="name"
+                    required
+                >
+
+            </div>
+
+
+            <!-- EMAIL -->
+
+            <div class="mh-profile-field">
+
+                <label for="profile-email">
+                    Địa chỉ email
+                </label>
+
+                <input
+                    id="profile-email"
+                    name="email"
+                    type="email"
+                    value="{{ profile.email }}"
+                    maxlength="254"
+                    autocomplete="email"
+                    required
+                >
+
+            </div>
+
+
+            <!-- GHI CHU -->
+
+            <div class="mh-profile-note">
+
+                <span>🔒</span>
+
+                <p>
+                    Thay đổi thông tin cá nhân không
+                    ảnh hưởng đến lịch sử học tập,
+                    kết quả luyện thi hoặc tiến độ
+                    đã được lưu.
+                </p>
+
+            </div>
+
+
+            <!-- HANH DONG -->
+
+            <div class="mh-profile-actions">
+
+                <a
+                    href="{{ url_for('progress.index') }}"
+                    class="mh-profile-progress-link"
+                >
+                    📈 Xem tiến độ học
+                </a>
+
+                <button
+                    type="submit"
+                    class="mh-profile-save"
+                >
+                    Lưu thay đổi
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+</div>
+
+{% endblock %}

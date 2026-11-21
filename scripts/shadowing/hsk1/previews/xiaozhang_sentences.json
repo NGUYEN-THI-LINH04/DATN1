@@ -1,0 +1,27 @@
+
+[
+  {
+    "start": 0.0,
+    "end": 5.8,
+    "hanzi": "小张今年二十八岁。",
+    "vi": "Năm nay Tiểu Trương 28 tuổi."
+  },
+  {
+    "start": 5.8,
+    "end": 9.6,
+    "hanzi": "他不是北京人。",
+    "vi": "Anh ấy không phải người Bắc Kinh."
+  },
+  {
+    "start": 9.6,
+    "end": 14.5,
+    "hanzi": "但是住在北京。",
+    "vi": "Nhưng anh ấy sống ở Bắc Kinh."
+  },
+  {
+    "start": 14.5,
+    "end": 21.12,
+    "hanzi": "他在北京的一家大公司工作。",
+    "vi": "Anh ấy làm việc tại một công ty lớn ở Bắc Kinh."
+  }
+]

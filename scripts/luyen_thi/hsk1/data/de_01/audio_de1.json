@@ -1,0 +1,152 @@
+{
+  "ma_de_goc": "H10000",
+  "cap_hsk": 1,
+  "ten_de": "Đề 1",
+  "file_audio": "H10000.mp3",
+  "thoi_luong_giay": 879.96,
+  "so_cau_nghe": 20,
+  "che_do_phat": "toan_bai",
+  "moc_thoi_gian_da_xac_minh": false,
+  "cau_nghe": [
+    {
+      "so_cau": 1,
+      "phan": 1,
+      "bat_dau_giay": 86.96,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 2,
+      "phan": 1,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 3,
+      "phan": 1,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 4,
+      "phan": 1,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 5,
+      "phan": 1,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 6,
+      "phan": 2,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 7,
+      "phan": 2,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 8,
+      "phan": 2,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 9,
+      "phan": 2,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 10,
+      "phan": 2,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 11,
+      "phan": 3,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 12,
+      "phan": 3,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 13,
+      "phan": 3,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 14,
+      "phan": 3,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 15,
+      "phan": 3,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 16,
+      "phan": 4,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 17,
+      "phan": 4,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 18,
+      "phan": 4,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 19,
+      "phan": 4,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    },
+    {
+      "so_cau": 20,
+      "phan": 4,
+      "bat_dau_giay": null,
+      "ket_thuc_giay": null,
+      "da_kiem_tra": false
+    }
+  ]
+}

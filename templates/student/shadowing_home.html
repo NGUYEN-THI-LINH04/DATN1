@@ -1,0 +1,61 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}Shadowing | Mộc Hán{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/shadowing.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="shadowing-page">
+
+    <div class="shadowing-banner">
+        <div>
+            <span class="shadowing-kicker">MỘC HÁN · 汉语学习</span>
+            <h1>欢迎! Shadowing</h1>
+            <h2>Luyện nghe & Chép chính tả</h2>
+            <p>
+                Luyện phát âm tiếng Trung qua video,
+                nghe từng câu, chép chính tả và ghép câu.
+            </p>
+        </div>
+
+        <div class="shadowing-banner-icon">🎧</div>
+    </div>
+
+    <div class="shadowing-intro">
+        <h2>Shadowing & Chép chính tả</h2>
+        <p>
+            Chọn cấp độ phù hợp để bắt đầu hành trình
+            luyện nghe và nói tiếng Trung.
+        </p>
+    </div>
+
+    <div class="shadowing-modes">
+        <span>🎧 Nghe video</span>
+        <span>⌨️ Nghe – Chép chính tả</span>
+        <span>🧩 Ghép câu</span>
+    </div>
+
+    <h2 class="shadowing-section-title">Chọn cấp độ HSK</h2>
+
+    <div class="shadowing-levels">
+        {% for item in levels %}
+        <a
+            class="shadowing-level-card"
+            href="{{ url_for('shadowing.level_detail', level=item.level) }}"
+        >
+            <span class="shadowing-level-label">MỘC HÁN</span>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.description }}</p>
+            <span class="shadowing-level-action">
+                Khám phá video →
+            </span>
+        </a>
+        {% endfor %}
+    </div>
+
+</section>
+{% endblock %}

@@ -1,0 +1,832 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Chữ Hán Bài {{ lesson.order }} | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     BREADCRUMB
+===================================================== -->
+
+<div class="lesson-detail-breadcrumb">
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.index',
+            course_id=lesson.course_id
+        ) }}"
+    >
+        Bài học
+    </a>
+
+    <span>›</span>
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Bài {{ lesson.order }}
+    </a>
+
+    <span>›</span>
+
+    <strong>
+        Chữ Hán
+    </strong>
+
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<section class="lesson-admin-hero">
+
+    <div>
+
+        <span class="eyebrow">
+
+            HSK {{ lesson.course_level }}
+            ·
+            BÀI {{ lesson.order }}
+
+        </span>
+
+        <h1>
+            {{ lesson.title }}
+        </h1>
+
+
+        <div class="lesson-admin-meta">
+
+            <span
+                class="
+                    course-status
+                    course-status-{{ lesson.status }}
+                "
+            >
+                {{
+                    statuses.get(
+                        lesson.status,
+                        lesson.status
+                    )
+                }}
+            </span>
+
+            <span>
+                {{ lesson.course_title }}
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <a
+        class="small-button"
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        ← Tổng quan
+    </a>
+
+</section>
+
+
+<!-- =====================================================
+     TABS
+===================================================== -->
+
+<nav class="lesson-admin-tabs">
+
+    <a
+        class="lesson-admin-tab"
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Tổng quan
+    </a>
+
+
+    <a
+        class="lesson-admin-tab"
+        href="{{ url_for(
+            'admin_lessons.vocabulary',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Từ vựng
+
+        <strong>
+            {{ lesson.vocabulary_count }}
+        </strong>
+    </a>
+
+
+    <a
+        class="lesson-admin-tab"
+        href="{{ url_for(
+            'admin_lessons.grammar',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Ngữ pháp
+
+        <strong>
+            {{ lesson.grammar_count }}
+        </strong>
+    </a>
+
+
+    <a
+        class="lesson-admin-tab active"
+        href="{{ url_for(
+            'admin_lessons.hanzi',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Chữ Hán
+
+        <strong>
+            {{ lesson.hanzi_count }}
+        </strong>
+    </a>
+
+
+</nav>
+
+
+<!-- =====================================================
+     THÊM CHỮ HÁN
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                THÊM CHỮ HÁN
+            </span>
+
+            <h2>
+                + Thêm Chữ Hán vào Bài {{ lesson.order }}
+            </h2>
+
+            <p>
+                Chữ mới sẽ được tạo ở trạng thái
+                Bản nháp.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <form
+        method="post"
+        action="{{ url_for(
+            'admin_lessons.add_hanzi',
+            lesson_id=lesson.id
+        ) }}"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <!-- =============================================
+             KÝ TỰ + PINYIN + NGHĨA
+        ============================================== -->
+
+        <div class="grid-2">
+
+            <div class="field">
+
+                <label for="hanzi-character">
+                    Chữ Hán *
+                </label>
+
+                <input
+                    id="hanzi-character"
+                    type="text"
+                    name="character"
+                    maxlength="20"
+                    placeholder="Ví dụ: 你"
+                    required
+                >
+
+            </div>
+
+
+            <div class="field">
+
+                <label for="hanzi-pinyin">
+                    Pinyin
+                </label>
+
+                <input
+                    id="hanzi-pinyin"
+                    type="text"
+                    name="pinyin"
+                    maxlength="200"
+                    placeholder="Ví dụ: nǐ"
+                >
+
+            </div>
+
+        </div>
+
+
+        <div class="field">
+
+            <label for="hanzi-meaning">
+                Nghĩa tiếng Việt
+            </label>
+
+            <input
+                id="hanzi-meaning"
+                type="text"
+                name="meaning"
+                maxlength="1000"
+                placeholder="Ví dụ: bạn; cậu"
+            >
+
+        </div>
+
+
+        <!-- =============================================
+             BỘ THỦ + SỐ NÉT
+        ============================================== -->
+
+        <div class="grid-2">
+
+            <div class="field">
+
+                <label for="hanzi-radical">
+                    Bộ thủ
+                </label>
+
+                <select
+                    id="hanzi-radical"
+                    name="radical_id"
+                >
+
+                    <option value="">
+                        — Chưa chọn bộ thủ —
+                    </option>
+
+
+                    {% for radical in radicals %}
+
+                        <option value="{{ radical.id }}">
+
+                            {{ radical.symbol }}
+                            ·
+                            {{ radical.name }}
+
+                            {% if radical.meaning %}
+                                · {{ radical.meaning }}
+                            {% endif %}
+
+                        </option>
+
+                    {% endfor %}
+
+                </select>
+
+            </div>
+
+
+            <div class="field">
+
+                <label for="hanzi-strokes">
+                    Số nét
+                </label>
+
+                <input
+                    id="hanzi-strokes"
+                    type="number"
+                    name="stroke_count"
+                    min="1"
+                    step="1"
+                    placeholder="Ví dụ: 7"
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             CÁCH GHI NHỚ
+        ============================================== -->
+
+        <div class="field">
+
+            <label for="hanzi-memory">
+                Cách ghi nhớ
+            </label>
+
+            <textarea
+                id="hanzi-memory"
+                name="memory_tip"
+                rows="4"
+                placeholder="Mẹo giúp người học ghi nhớ chữ..."
+            ></textarea>
+
+        </div>
+
+
+        <!-- =============================================
+             VÍ DỤ
+        ============================================== -->
+
+        <div class="grid-2">
+
+            <div class="field">
+
+                <label for="hanzi-example-zh">
+                    Ví dụ tiếng Trung
+                </label>
+
+                <textarea
+                    id="hanzi-example-zh"
+                    name="example_zh"
+                    rows="3"
+                    maxlength="1000"
+                    placeholder="你好！"
+                ></textarea>
+
+            </div>
+
+
+            <div class="field">
+
+                <label for="hanzi-example-pinyin">
+                    Pinyin ví dụ
+                </label>
+
+                <textarea
+                    id="hanzi-example-pinyin"
+                    name="example_pinyin"
+                    rows="3"
+                    maxlength="1000"
+                    placeholder="Nǐ hǎo!"
+                ></textarea>
+
+            </div>
+
+        </div>
+
+
+        <div class="field">
+
+            <label for="hanzi-example-vi">
+                Nghĩa ví dụ
+            </label>
+
+            <textarea
+                id="hanzi-example-vi"
+                name="example_vi"
+                rows="3"
+                maxlength="1000"
+                placeholder="Xin chào!"
+            ></textarea>
+
+        </div>
+
+
+        <div class="lesson-create-status">
+
+            <strong>
+                Trạng thái sau khi thêm:
+            </strong>
+
+            <span
+                class="
+                    course-status
+                    course-status-ban_nhap
+                "
+            >
+                Bản nháp
+            </span>
+
+        </div>
+
+
+        <button
+            type="submit"
+            class="button"
+        >
+            + Thêm Chữ Hán
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- =====================================================
+     DANH SÁCH CHỮ HÁN
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                CHỮ HÁN
+            </span>
+
+            <h2>
+                Chữ Hán của Bài {{ lesson.order }}
+            </h2>
+
+            <p>
+                Hiện có
+                <strong>
+                    {{ lesson.hanzi_count }}
+                </strong>
+                chữ trong bài học.
+            </p>
+
+        </div>
+
+
+        {% if lesson.hanzi_count > 1 %}
+
+            <form
+                id="reorder-hanzi-form"
+                method="post"
+                action="{{ url_for(
+                    'admin_lessons.reorder_hanzi',
+                    lesson_id=lesson.id
+                ) }}"
+            >
+
+                <input
+                    type="hidden"
+                    name="csrf_token"
+                    value="{{ csrf_token() }}"
+                >
+
+                <button
+                    type="submit"
+                    class="button"
+                >
+                    Lưu thứ tự
+                </button>
+
+            </form>
+
+        {% endif %}
+
+    </div>
+
+
+    {% if lesson.hanzi_count > 1 %}
+
+        <div class="notice lesson-order-notice">
+
+            Nhập lại các số từ
+
+            <strong>
+                1 đến {{ lesson.hanzi_count }}
+            </strong>
+
+            sao cho mỗi số chỉ xuất hiện một lần,
+            sau đó bấm
+            <strong>Lưu thứ tự</strong>.
+
+        </div>
+
+    {% endif %}
+
+
+    <div class="lesson-hanzi-list">
+
+        {% for hanzi in hanzi_items %}
+
+            <article class="lesson-hanzi-card">
+
+
+                <!-- =========================================
+                     HEADER
+                ========================================== -->
+
+                <div class="lesson-hanzi-card-header">
+
+
+                    <div class="lesson-hanzi-title-area">
+
+
+                        {% if lesson.hanzi_count > 1 %}
+
+                            <input
+                                class="lesson-hanzi-order-input"
+                                type="number"
+                                name="hanzi_order_{{ hanzi.id }}"
+                                value="{{ hanzi.order }}"
+                                min="1"
+                                max="{{ lesson.hanzi_count }}"
+                                step="1"
+                                form="reorder-hanzi-form"
+                                required
+                            >
+
+                        {% else %}
+
+                            <span class="lesson-grammar-order">
+                                {{ hanzi.order }}
+                            </span>
+
+                        {% endif %}
+
+
+                        <strong class="lesson-hanzi-character">
+                            {{ hanzi.character }}
+                        </strong>
+
+
+                        <div class="lesson-hanzi-main-info">
+
+                            {% if hanzi.pinyin %}
+
+                                <strong>
+                                    {{ hanzi.pinyin }}
+                                </strong>
+
+                            {% endif %}
+
+
+                            {% if hanzi.meaning %}
+
+                                <span>
+                                    {{ hanzi.meaning }}
+                                </span>
+
+                            {% endif %}
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- =====================================
+                         ACTIONS
+                    ====================================== -->
+
+                    <div class="lesson-hanzi-actions">
+
+                        <span
+                            class="
+                                course-status
+                                course-status-{{ hanzi.status }}
+                            "
+                        >
+                            {{
+                                statuses.get(
+                                    hanzi.status,
+                                    hanzi.status
+                                )
+                            }}
+                        </span>
+
+
+                        <form
+                            method="post"
+                            action="{{ url_for(
+                                'admin_lessons.set_hanzi_status',
+
+                                lesson_id=
+                                    lesson.id,
+
+                                hanzi_id=
+                                    hanzi.id
+                            ) }}"
+                            class="lesson-hanzi-status-form"
+                        >
+
+                            <input
+                                type="hidden"
+                                name="csrf_token"
+                                value="{{ csrf_token() }}"
+                            >
+
+
+                            <select
+                                name="status"
+                                class="lesson-hanzi-status-select"
+                            >
+
+                                {% for status_value, status_label in statuses.items() %}
+
+                                    <option
+                                        value="{{ status_value }}"
+
+                                        {% if hanzi.status == status_value %}
+                                            selected
+                                        {% endif %}
+                                    >
+                                        {{ status_label }}
+                                    </option>
+
+                                {% endfor %}
+
+                            </select>
+
+
+                            <button
+                                type="submit"
+                                class="small-button"
+                            >
+                                Cập nhật
+                            </button>
+
+                        </form>
+
+
+                        <a
+                            class="small-button"
+                            href="{{ url_for(
+                                'admin_lessons.edit_lesson_hanzi',
+
+                                lesson_id=
+                                    lesson.id,
+
+                                hanzi_id=
+                                    hanzi.id
+                            ) }}"
+                        >
+                            Chỉnh sửa
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================================
+                     THÔNG TIN CHỮ
+                ========================================== -->
+
+                <div class="lesson-hanzi-info-grid">
+
+                    <div>
+
+                        <span>
+                            Bộ thủ
+                        </span>
+
+                        <strong>
+
+                            {% if hanzi.radical_id %}
+
+                                {{ hanzi.radical_symbol }}
+                                ·
+                                {{ hanzi.radical_name }}
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            Số nét
+                        </span>
+
+                        <strong>
+                            {{ hanzi.stroke_count or '—' }}
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================================
+                     CÁCH GHI NHỚ
+                ========================================== -->
+
+                {% if hanzi.memory_tip %}
+
+                    <div class="lesson-hanzi-section">
+
+                        <strong>
+                            Cách ghi nhớ
+                        </strong>
+
+                        <p>
+                            {{ hanzi.memory_tip }}
+                        </p>
+
+                    </div>
+
+                {% endif %}
+
+
+                <!-- =========================================
+                     VÍ DỤ
+                ========================================== -->
+
+                {% if
+                    hanzi.example_zh
+                    or
+                    hanzi.example_pinyin
+                    or
+                    hanzi.example_vi
+                %}
+
+                    <div class="lesson-grammar-example">
+
+                        {% if hanzi.example_zh %}
+
+                            <strong>
+                                {{ hanzi.example_zh }}
+                            </strong>
+
+                        {% endif %}
+
+
+                        {% if hanzi.example_pinyin %}
+
+                            <span>
+                                {{ hanzi.example_pinyin }}
+                            </span>
+
+                        {% endif %}
+
+
+                        {% if hanzi.example_vi %}
+
+                            <span>
+                                {{ hanzi.example_vi }}
+                            </span>
+
+                        {% endif %}
+
+                    </div>
+
+                {% endif %}
+
+
+                {% if hanzi.media_id %}
+
+                    <div class="lesson-grammar-media">
+
+                        Media:
+                        <strong>
+                            #{{ hanzi.media_id }}
+                        </strong>
+
+                    </div>
+
+                {% endif %}
+
+            </article>
+
+
+        {% else %}
+
+            <div class="notice">
+
+                Bài học này chưa có Chữ Hán.
+                Hãy thêm chữ đầu tiên bằng form phía trên.
+
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+{% endblock %}

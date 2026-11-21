@@ -1,0 +1,995 @@
+
+/* ==========================================================
+   MỘC HÁN - STUDENT CHATBOT
+   File: static/css/student-chatbot.css
+   Giao diện sáng, chữ rõ khi trình chiếu.
+   Chỉ áp dụng trong .student-chatbot-page.
+========================================================== */
+
+/* ==========================================================
+   01. MÀU SẮC VÀ TRANG CHATBOT
+========================================================== */
+.student-chatbot-page {
+    --chat-bg: #fffaf3;
+    --chat-card: #fffdf9;
+    --chat-card-soft: #fff1dd;
+    --chat-card-hover: #ffebd4;
+    --chat-border: #e0c5a8;
+    --chat-border-dark: #d4a879;
+    --chat-text: #30251c;
+    --chat-muted: #654e3c;
+    --chat-accent: #a75c2c;
+    --chat-accent-hover: #88451d;
+    --chat-user: #f5d19c;
+    --chat-assistant: #ffffff;
+
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 14px 12px 25px;
+
+    color: var(--chat-text);
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.student-chatbot-page,
+.student-chatbot-page * {
+    box-sizing: border-box;
+}
+
+/* ==========================================================
+   02. TIÊU ĐỀ TRANG
+========================================================== */
+.student-chatbot-page .student-chatbot-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    margin-bottom: 19px;
+}
+
+.student-chatbot-page .student-chatbot-heading-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.student-chatbot-page .student-chatbot-eyebrow {
+    display: inline-block;
+    margin-bottom: 9px;
+    padding: 5px 10px;
+    background: #ffebcf;
+    color: #663d1d;
+    border: 1px solid #e3bd8f;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 750;
+    letter-spacing: 0.9px;
+}
+
+.student-chatbot-page .student-chatbot-heading h1 {
+    margin: 0 0 7px;
+    color: #30251c;
+    font-size: 25px;
+    font-weight: 750;
+    letter-spacing: -0.5px;
+    line-height: 1.35;
+}
+
+.student-chatbot-page .student-chatbot-heading p {
+    max-width: 680px;
+    margin: 0;
+    color: var(--chat-muted);
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.student-chatbot-page .student-chatbot-heading-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 57px;
+    height: 57px;
+    flex: 0 0 57px;
+    background: #ffe0b3;
+    color: #754019;
+    border: 2px solid #cd9253;
+    border-radius: 14px;
+    box-shadow: 3px 3px 0 #edd0aa;
+    font-size: 29px;
+    font-weight: 750;
+}
+
+/* ==========================================================
+   03. BỐ CỤC CHÍNH
+
+   Khi hiện lịch sử:
+   - Bên trái: danh sách trò chuyện
+   - Bên phải: khung chat
+
+   Tăng chiều rộng và chiều cao để người học
+   theo dõi hội thoại dài dễ dàng hơn.
+========================================================== */
+.student-chatbot-page .student-chatbot-layout {
+    display: grid;
+    grid-template-columns:
+        minmax(220px, 260px)
+        minmax(0, 1fr);
+
+    gap: 15px;
+    height: clamp(650px, 82dvh, 900px);
+    min-height: 650px;
+
+    align-items: stretch;
+    transition: grid-template-columns 0.24s ease;
+}
+
+/* ==========================================================
+   03A. TRẠNG THÁI ẨN / HIỆN LỊCH SỬ
+
+   JavaScript sẽ thêm hoặc bỏ class:
+       is-history-collapsed
+
+   Khi ẩn lịch sử:
+   - Sidebar không hiển thị
+   - Khung chat chiếm toàn bộ chiều ngang
+   - Không xóa dữ liệu lịch sử trong SQL
+   - Không xóa cuộc trò chuyện đang mở
+========================================================== */
+.student-chatbot-page
+.student-chatbot-layout.is-history-collapsed {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.student-chatbot-page
+.student-chatbot-layout.is-history-collapsed
+.student-chatbot-sidebar {
+    display: none;
+}
+
+/* ==========================================================
+   04. KHUNG LỊCH SỬ VÀ KHUNG CHAT
+========================================================== */
+.student-chatbot-page .student-chatbot-sidebar,
+.student-chatbot-page .student-chatbot-main {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+
+    background: var(--chat-card);
+    border: 1px solid var(--chat-border);
+    border-radius: 12px;
+
+    box-shadow:
+        0 3px 12px rgba(80, 55, 32, 0.05);
+}
+
+/* ==========================================================
+   05. TIÊU ĐỀ LỊCH SỬ HỘI THOẠI
+========================================================== */
+.student-chatbot-page
+.student-chatbot-sidebar-header {
+    flex-shrink: 0;
+    padding: 19px 17px 13px;
+}
+
+.student-chatbot-page
+.student-chatbot-sidebar-header h2 {
+    margin: 0 0 5px;
+    color: var(--chat-text);
+    font-size: 15px;
+    font-weight: 750;
+}
+
+.student-chatbot-page
+.student-chatbot-sidebar-header p {
+    margin: 0;
+    color: var(--chat-muted);
+    font-size: 12px;
+}
+
+/* ==========================================================
+   06. NÚT TẠO CUỘC TRÒ CHUYỆN MỚI
+========================================================== */
+.student-chatbot-page .student-chatbot-new-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-shrink: 0;
+
+    min-height: 40px;
+    margin: 0 14px 13px;
+    padding: 9px 12px;
+
+    background: var(--chat-accent);
+    color: #ffffff;
+    border: 1px solid var(--chat-accent);
+    border-radius: 8px;
+
+    font: inherit;
+    font-size: 12px;
+    font-weight: 750;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.student-chatbot-page
+.student-chatbot-new-button:hover {
+    background: var(--chat-accent-hover);
+    color: #ffffff;
+}
+
+.student-chatbot-page
+.student-chatbot-new-button span {
+    font-size: 17px;
+    line-height: 1;
+    color: inherit;
+}
+
+/* ==========================================================
+   07. DANH SÁCH LỊCH SỬ HỘI THOẠI
+
+   Dữ liệu được chatbot.js tải từ Flask.
+   Chỉ danh sách hội thoại cuộn theo chiều dọc.
+========================================================== */
+.student-chatbot-page .student-chatbot-conversations {
+    flex: 1;
+    min-height: 0;
+    padding: 5px 10px 12px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top: 1px solid #edd7bf;
+}
+
+.student-chatbot-page .chatbot-conversations-empty {
+    padding: 22px 10px;
+    color: var(--chat-muted);
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.student-chatbot-page .chatbot-conversation-item {
+    display: block;
+    width: 100%;
+    min-height: 43px;
+    margin: 5px 0;
+    padding: 10px 12px;
+
+    background: transparent;
+    color: #443125;
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+    font: inherit;
+    font-size: 12px;
+    font-weight: 650;
+    text-align: left;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.student-chatbot-page
+.chatbot-conversation-item:hover {
+    background: var(--chat-card-hover);
+    border-color: #e5bc8c;
+}
+
+.student-chatbot-page
+.chatbot-conversation-item.active {
+    background: #ffe5c4;
+    color: #452815;
+    border-color: #dbad77;
+    font-weight: 750;
+}
+
+/* ==========================================================
+   08. GHI CHÚ DƯỚI LỊCH SỬ
+========================================================== */
+.student-chatbot-page .student-chatbot-sidebar-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    padding: 12px 14px;
+
+    background: #fff0dc;
+    border-top: 1px solid #e9cfae;
+}
+
+.student-chatbot-page
+.student-chatbot-sidebar-note span {
+    color: #98561d;
+    font-size: 14px;
+}
+
+.student-chatbot-page
+.student-chatbot-sidebar-note p {
+    margin: 0;
+    color: #604631;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+/* ==========================================================
+   09. HEADER TRỢ LÝ MỘC HÁN
+
+   Gồm:
+   - Nút ẩn / hiện lịch sử
+   - Biểu tượng Mộc Hán
+   - Tên và mô tả trợ lý
+
+   Không hiển thị tên mô hình Qwen3 AI.
+========================================================== */
+.student-chatbot-page .student-chatbot-chat-header {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    flex-shrink: 0;
+
+    min-height: 70px;
+    padding: 13px 18px;
+
+    background: #fff0da;
+    border-bottom: 1px solid #e6c6a1;
+}
+
+.student-chatbot-page .student-chatbot-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+    flex: 0 0 40px;
+
+    color: #754019;
+    background: #ffdcaa;
+    border: 1px solid #d7a26a;
+    border-radius: 10px;
+
+    font-size: 21px;
+    font-weight: 750;
+}
+
+.student-chatbot-page .student-chatbot-chat-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.student-chatbot-page .student-chatbot-chat-info h2 {
+    margin: 0 0 3px;
+    color: #35261a;
+    font-size: 15px;
+    font-weight: 750;
+}
+
+.student-chatbot-page .student-chatbot-chat-info p {
+    margin: 0;
+    color: #644c39;
+    font-size: 11px;
+}
+
+/* ==========================================================
+   09A. NÚT ẨN / HIỆN LỊCH SỬ
+
+   HTML:
+       id="chatbot-history-toggle"
+
+   Khi nhấn nút:
+   - JavaScript cập nhật aria-expanded
+   - JavaScript đổi chữ Ẩn / Hiện lịch sử
+   - CSS mở rộng khung trò chuyện
+
+   Nút không gửi dữ liệu lên backend.
+========================================================== */
+.student-chatbot-page .student-chatbot-history-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    flex: 0 0 auto;
+
+    min-height: 36px;
+    padding: 7px 10px;
+
+    background: #fffaf3;
+    color: #754019;
+    border: 1px solid #d7ae80;
+    border-radius: 8px;
+
+    font: inherit;
+    font-size: 11px;
+    font-weight: 750;
+    white-space: nowrap;
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.student-chatbot-page
+.student-chatbot-history-toggle:hover {
+    background: #ffe4c1;
+    border-color: #ba8450;
+}
+
+.student-chatbot-page
+.student-chatbot-history-toggle[aria-expanded="false"] {
+    background: #ffe4c1;
+}
+
+.student-chatbot-page .student-chatbot-toggle-icon {
+    font-size: 17px;
+    line-height: 1;
+}
+
+/* ==========================================================
+   10. KHU VỰC HIỂN THỊ TIN NHẮN
+
+   Nền sáng, giữ họa tiết giấy ô vuông.
+   Chiều cao tăng theo khung chatbot.
+
+   Chỉ vùng này cuộn khi nội dung dài.
+========================================================== */
+.student-chatbot-page .student-chatbot-messages {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    flex: 1;
+
+    min-height: 0;
+    padding: 21px 23px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    background-color: #fffdf8;
+    background-image:
+        linear-gradient(
+            rgba(169, 132, 92, 0.045) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(169, 132, 92, 0.045) 1px,
+            transparent 1px
+        );
+
+    background-size: 27px 27px;
+    scroll-behavior: smooth;
+}
+
+/* ==========================================================
+   11. BỐ CỤC TIN NHẮN
+========================================================== */
+.student-chatbot-page .chatbot-message {
+    display: flex;
+    width: 100%;
+    min-width: 0;
+}
+
+.student-chatbot-page .chatbot-message-user {
+    justify-content: flex-end;
+}
+
+.student-chatbot-page .chatbot-message-assistant {
+    justify-content: flex-start;
+}
+
+/* ==========================================================
+   12. KHUNG NỘI DUNG TIN NHẮN
+
+   Chữ đậm, nét hơn nhưng không quá to.
+   Tin nhắn có thể rộng hơn trên màn hình lớn.
+========================================================== */
+.student-chatbot-page .chatbot-message-bubble {
+    max-width: min(84%, 800px);
+    padding: 12px 15px;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.05px;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: normal;
+
+    box-shadow:
+        0 2px 6px rgba(70, 45, 25, 0.05);
+}
+
+/* ==========================================================
+   13. TIN NHẮN NGƯỜI HỌC
+
+   Vàng đào sáng, chữ gần đen.
+========================================================== */
+.student-chatbot-page
+.chatbot-message-user
+.chatbot-message-bubble {
+    background: var(--chat-user);
+    color: #2e251d;
+    border: 1px solid #dfb27c;
+    border-radius: 13px 13px 4px 13px;
+}
+
+/* ==========================================================
+   14. TIN NHẮN TRỢ LÝ AI
+
+   Nền trắng, chữ rõ ràng.
+========================================================== */
+.student-chatbot-page
+.chatbot-message-assistant
+.chatbot-message-bubble {
+    background: var(--chat-assistant);
+    color: #29231e;
+    border: 1px solid #e2c9ac;
+    border-radius: 13px 13px 13px 4px;
+}
+
+/* Các thẻ con trong bubble giữ đúng màu chữ. */
+.student-chatbot-page
+.chatbot-message-bubble
+:is(p, span, strong, em) {
+    color: inherit;
+}
+
+/* ==========================================================
+   15. TRẠNG THÁI ĐANG NHẬP
+========================================================== */
+.student-chatbot-page
+.chatbot-message-typing
+.chatbot-message-bubble {
+    color: #6b5140;
+    font-style: italic;
+    animation:
+        chatbot-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes chatbot-pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.65;
+    }
+}
+
+/* ==========================================================
+   16. THÔNG BÁO LỖI
+========================================================== */
+.student-chatbot-page .student-chatbot-status {
+    padding: 0 19px;
+    color: #a12f2b;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.student-chatbot-page
+.student-chatbot-status:not(:empty) {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: #fff1e9;
+    border-top: 1px solid #f0c4aa;
+}
+
+/* ==========================================================
+   17. KHU VỰC NHẬP CÂU HỎI
+
+   Khu vực nhập luôn nằm cuối khung chat.
+   Không cuộn theo tin nhắn phía trên.
+========================================================== */
+.student-chatbot-page .student-chatbot-composer {
+    flex-shrink: 0;
+    padding: 14px 17px 12px;
+    background: #fffdf9;
+    border-top: 1px solid #e7caaa;
+}
+
+.student-chatbot-page .student-chatbot-form {
+    margin: 0;
+}
+
+.student-chatbot-page .student-chatbot-input-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #483221;
+    font-size: 12px;
+    font-weight: 750;
+}
+
+.student-chatbot-page .student-chatbot-input-row {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+/* ==========================================================
+   18. Ô NHẬP TIN NHẮN
+========================================================== */
+.student-chatbot-page #chatbot-input {
+    display: block;
+    flex: 1;
+    width: 100%;
+    min-width: 0;
+
+    min-height: 62px;
+    max-height: 150px;
+    padding: 11px 13px;
+
+    background: #ffffff;
+    color: #2d241d;
+    border: 1px solid #cfa475;
+    border-radius: 9px;
+
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 1.65;
+
+    resize: vertical;
+    outline: none;
+    box-shadow: none;
+}
+
+.student-chatbot-page #chatbot-input::placeholder {
+    color: #715844;
+    opacity: 1;
+}
+
+.student-chatbot-page #chatbot-input:focus {
+    border-color: #a9642d;
+    box-shadow:
+        0 0 0 3px rgba(187, 109, 47, 0.16);
+}
+
+.student-chatbot-page #chatbot-input:disabled {
+    background: #f8eee2;
+    cursor: wait;
+}
+
+/* ==========================================================
+   19. NÚT GỬI TIN NHẮN
+========================================================== */
+.student-chatbot-page .student-chatbot-send-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    flex-shrink: 0;
+
+    min-width: 83px;
+    min-height: 43px;
+    padding: 10px 14px;
+
+    background: var(--chat-accent);
+    color: #ffffff;
+    border: 1px solid var(--chat-accent);
+    border-radius: 8px;
+
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 750;
+
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.student-chatbot-page
+.student-chatbot-send-button:hover {
+    background: var(--chat-accent-hover);
+    color: #ffffff;
+}
+
+.student-chatbot-page
+.student-chatbot-send-button:disabled {
+    background: #bda88f;
+    border-color: #bda88f;
+    cursor: wait;
+}
+
+.student-chatbot-page
+.student-chatbot-send-button span {
+    font-size: 12px;
+    color: inherit;
+}
+
+/* ==========================================================
+   20. GHI CHÚ DƯỚI Ô NHẬP
+========================================================== */
+.student-chatbot-page .student-chatbot-input-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 9px;
+}
+
+.student-chatbot-page
+.student-chatbot-input-footer span {
+    color: #68513e;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+/* ==========================================================
+   21. LƯU Ý CUỐI TRANG
+========================================================== */
+.student-chatbot-page .student-chatbot-footer {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+
+    margin-top: 15px;
+    padding: 11px 14px;
+
+    background: #fff1db;
+    border: 1px solid #e7c69e;
+    border-radius: 8px;
+}
+
+.student-chatbot-page .student-chatbot-footer span {
+    color: #97571c;
+    font-size: 14px;
+}
+
+.student-chatbot-page .student-chatbot-footer p {
+    margin: 0;
+    color: #604833;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+/* ==========================================================
+   22. THANH CUỘN
+
+   Áp dụng cho:
+   - Danh sách lịch sử
+   - Nội dung tin nhắn
+========================================================== */
+.student-chatbot-page
+.student-chatbot-conversations::-webkit-scrollbar,
+.student-chatbot-page
+.student-chatbot-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+.student-chatbot-page
+.student-chatbot-conversations::-webkit-scrollbar-thumb,
+.student-chatbot-page
+.student-chatbot-messages::-webkit-scrollbar-thumb {
+    background: #c9a47b;
+    border-radius: 10px;
+}
+
+.student-chatbot-page
+.student-chatbot-conversations::-webkit-scrollbar-track,
+.student-chatbot-page
+.student-chatbot-messages::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* ==========================================================
+   23. FOCUS CHO CÁC NÚT
+========================================================== */
+.student-chatbot-page button:focus-visible {
+    outline: 3px solid #d9ac72;
+    outline-offset: 2px;
+}
+
+/* ==========================================================
+   24. RESPONSIVE TABLET
+
+   Thu nhỏ chiều rộng lịch sử trên tablet.
+   Khi ẩn lịch sử, khung chat vẫn mở rộng.
+========================================================== */
+@media (max-width: 1050px) {
+    .student-chatbot-page .student-chatbot-layout {
+        grid-template-columns:
+            minmax(190px, 220px)
+            minmax(0, 1fr);
+    }
+
+    .student-chatbot-page
+    .student-chatbot-layout.is-history-collapsed {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .student-chatbot-page
+    .student-chatbot-heading h1 {
+        font-size: 23px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-messages {
+        padding: 18px 16px;
+    }
+
+    .student-chatbot-page
+    .chatbot-message-bubble {
+        max-width: 88%;
+    }
+}
+
+/* ==========================================================
+   25. MÀN HÌNH NHỎ
+
+   Lịch sử nằm phía trên khung chat.
+   Có thể ẩn lịch sử bằng nút trong header.
+   Khung chat vẫn có chiều cao đủ để sử dụng.
+========================================================== */
+@media (max-width: 720px) {
+    .student-chatbot-page {
+        padding: 12px 5px 20px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-heading {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-heading h1 {
+        font-size: 20px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-heading p {
+        font-size: 11px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-heading-icon {
+        width: 45px;
+        height: 45px;
+        flex-basis: 45px;
+        font-size: 23px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-layout {
+        display: flex;
+        flex-direction: column;
+
+        height: auto;
+        max-height: none;
+        min-height: 0;
+        gap: 12px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-sidebar {
+        flex: 0 0 auto;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-sidebar-header {
+        padding: 13px 15px 9px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-new-button {
+        margin-bottom: 10px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-conversations {
+        max-height: 130px;
+        min-height: 0;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-sidebar-note {
+        display: none;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-main {
+        height: min(78dvh, 720px);
+        min-height: 520px;
+        flex: 0 0 auto;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-layout.is-history-collapsed
+    .student-chatbot-sidebar {
+        display: none;
+    }
+}
+
+/* ==========================================================
+   26. ĐIỆN THOẠI
+
+   Nút lịch sử thu nhỏ thành biểu tượng.
+   Giữ đủ không gian cho nội dung trò chuyện.
+========================================================== */
+@media (max-width: 480px) {
+    .student-chatbot-page
+    .student-chatbot-chat-header {
+        padding: 11px 12px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-toggle-text {
+        display: none;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-history-toggle {
+        width: 38px;
+        min-width: 38px;
+        padding: 7px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-messages {
+        padding: 14px 10px;
+        gap: 11px;
+    }
+
+    .student-chatbot-page
+    .chatbot-message-bubble {
+        max-width: 92%;
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-composer {
+        padding: 11px 10px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-input-row {
+        gap: 7px;
+    }
+
+    .student-chatbot-page #chatbot-input {
+        min-height: 57px;
+        padding: 9px 10px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-send-button {
+        min-width: 65px;
+        padding: 9px 10px;
+    }
+
+    .student-chatbot-page
+    .student-chatbot-input-footer {
+        flex-wrap: wrap;
+        gap: 3px;
+    }
+}
+
+/* ==========================================================
+   27. GIẢM CHUYỂN ĐỘNG
+
+   Tôn trọng cài đặt giảm chuyển động của người dùng.
+========================================================== */
+@media (prefers-reduced-motion: reduce) {
+    .student-chatbot-page *,
+    .student-chatbot-page *::before,
+    .student-chatbot-page *::after {
+        animation: none !important;
+        scroll-behavior: auto !important;
+        transition: none !important;
+    }
+}

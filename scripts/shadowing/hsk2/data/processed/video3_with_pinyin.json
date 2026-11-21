@@ -1,0 +1,1821 @@
+{
+  "module": "shadowing",
+  "youtube_id": "uv8KNcXpels",
+  "title": "每日学习法 - Phuong phap hoc moi ngay",
+  "status": "needs_translation",
+  "sentences": [
+    {
+      "start": 6.133,
+      "end": 9.2,
+      "hanzi": "大家好！欢迎来到“每天中文”。我是李明。",
+      "pinyin": "dà jiā hǎo huān yíng lái dào “ měi tiān zhōng wén ” wǒ shì lǐ míng",
+      "vi": ""
+    },
+    {
+      "start": 9.233,
+      "end": 10.766,
+      "hanzi": "大家好！我是王雨。",
+      "pinyin": "dà jiā hǎo wǒ shì wáng yǔ",
+      "vi": ""
+    },
+    {
+      "start": 10.8,
+      "end": 11.866,
+      "hanzi": "李明，你好！",
+      "pinyin": "lǐ míng nǐ hǎo",
+      "vi": ""
+    },
+    {
+      "start": 11.9,
+      "end": 12.833,
+      "hanzi": "王雨，你好！",
+      "pinyin": "wáng yǔ nǐ hǎo",
+      "vi": ""
+    },
+    {
+      "start": 12.866,
+      "end": 16.933,
+      "hanzi": "今天你看起来很高兴，有什么开心的事吗？",
+      "pinyin": "jīn tiān nǐ kàn qǐ lái hěn gāo xìng yǒu shén me kāi xīn de shì ma",
+      "vi": ""
+    },
+    {
+      "start": 16.966,
+      "end": 17.733,
+      "hanzi": "嗯！是有一件。",
+      "pinyin": "ń shì yǒu yī jiàn",
+      "vi": ""
+    },
+    {
+      "start": 17.766,
+      "end": 21.333,
+      "hanzi": "我有一个越南的朋友，她叫小月。",
+      "pinyin": "wǒ yǒu yí gè yuè nán de péng yǒu tā jiào xiǎo yuè",
+      "vi": ""
+    },
+    {
+      "start": 21.366,
+      "end": 27.8,
+      "hanzi": "她学习中文才三个月，但是现在她已经可以说很多中文了。",
+      "pinyin": "tā xué xí zhōng wén cái sān gè yuè dàn shì xiàn zài tā yǐ jīng kě yǐ shuō hěn duō zhōng wén le",
+      "vi": ""
+    },
+    {
+      "start": 27.833,
+      "end": 29.1,
+      "hanzi": "真的吗？三个月？",
+      "pinyin": "zhēn de ma sān gè yuè",
+      "vi": ""
+    },
+    {
+      "start": 29.133,
+      "end": 30.2,
+      "hanzi": "那很不错啊！",
+      "pinyin": "nà hěn bú cuò a",
+      "vi": ""
+    },
+    {
+      "start": 30.233,
+      "end": 32.5,
+      "hanzi": "是啊！我觉得她非常棒。",
+      "pinyin": "shì a wǒ jué de tā fēi cháng bàng",
+      "vi": ""
+    },
+    {
+      "start": 32.533,
+      "end": 34.633,
+      "hanzi": "她每天都在进步。",
+      "pinyin": "tā měi tiān dōu zài jìn bù",
+      "vi": ""
+    },
+    {
+      "start": 34.666,
+      "end": 39.666,
+      "hanzi": "所以，我今天就在想，学习一门新的语言，",
+      "pinyin": "suǒ yǐ wǒ jīn tiān jiù zài xiǎng xué xí yī mén xīn de yǔ yán",
+      "vi": ""
+    },
+    {
+      "start": 39.666,
+      "end": 45.633,
+      "hanzi": "比如中文，是不是有一些很简单，但是很有用的方法，",
+      "pinyin": "bǐ rú zhōng wén shì bú shì yǒu yī xiē hěn jiǎn dān dàn shì hěn yǒu yòng de fāng fǎ",
+      "vi": ""
+    },
+    {
+      "start": 45.633,
+      "end": 49.033,
+      "hanzi": "可以帮助我们每天都进步一点点？",
+      "pinyin": "kě yǐ bāng zhù wǒ men měi tiān dōu jìn bù yì diǎn diǎn",
+      "vi": ""
+    },
+    {
+      "start": 49.066,
+      "end": 49.733,
+      "hanzi": "问得好！",
+      "pinyin": "wèn dé hǎo",
+      "vi": ""
+    },
+    {
+      "start": 49.766,
+      "end": 52.5,
+      "hanzi": "这确实是一个很好的问题。",
+      "pinyin": "zhè què shí shì yí gè hěn hǎo de wèn tí",
+      "vi": ""
+    },
+    {
+      "start": 52.533,
+      "end": 55.066,
+      "hanzi": "很多学习中文的朋友可能都会想，",
+      "pinyin": "hěn duō xué xí zhōng wén de péng yǒu kě néng dū huì xiǎng",
+      "vi": ""
+    },
+    {
+      "start": 55.066,
+      "end": 58.366,
+      "hanzi": "我每天很忙，没有很多时间，怎么学习呢？",
+      "pinyin": "wǒ měi tiān hěn máng méi yǒu hěn duō shí jiān zěn me xué xí ne",
+      "vi": ""
+    },
+    {
+      "start": 58.4,
+      "end": 62.3,
+      "hanzi": "其实，有很多小事情，我们每天都可以做。",
+      "pinyin": "qí shí yǒu hěn duō xiǎo shì qíng wǒ men měi tiān dōu kě yǐ zuò",
+      "vi": ""
+    },
+    {
+      "start": 62.333,
+      "end": 62.966,
+      "hanzi": "对对对！",
+      "pinyin": "duì duì duì",
+      "vi": ""
+    },
+    {
+      "start": 63.0,
+      "end": 64.2,
+      "hanzi": "就是这个意思！",
+      "pinyin": "jiù shì zhè ge yì si",
+      "vi": ""
+    },
+    {
+      "start": 64.233,
+      "end": 70.033,
+      "hanzi": "不是说每天要学习五个小时，而是我们可以做什么小事，",
+      "pinyin": "bú shì shuō měi tiān yào xué xí wǔ gè xiǎo shí ér shì wǒ men kě yǐ zuò shén me xiǎo shì",
+      "vi": ""
+    },
+    {
+      "start": 70.033,
+      "end": 74.633,
+      "hanzi": "每天十分钟、二十分钟，也能有帮助。",
+      "pinyin": "měi tiān shí fēn zhōng èr shí fēn zhōng yě néng yǒu bāng zhù",
+      "vi": ""
+    },
+    {
+      "start": 74.666,
+      "end": 75.133,
+      "hanzi": "没错。",
+      "pinyin": "méi cuò",
+      "vi": ""
+    },
+    {
+      "start": 75.166,
+      "end": 78.2,
+      "hanzi": "那今天，我们就来聊一聊这个话题吧：",
+      "pinyin": "nà jīn tiān wǒ men jiù lái liáo yī liáo zhè ge huà tí ba",
+      "vi": ""
+    },
+    {
+      "start": 78.2,
+      "end": 83.133,
+      "hanzi": "那些可以帮助我们每天进步一点点的中文学习小方法。",
+      "pinyin": "nà xiē kě yǐ bāng zhù wǒ men měi tiān jìn bù yì diǎn diǎn de zhōng wén xué xí xiǎo fāng fǎ",
+      "vi": ""
+    },
+    {
+      "start": 83.166,
+      "end": 83.866,
+      "hanzi": "太好了！",
+      "pinyin": "tài hǎo le",
+      "vi": ""
+    },
+    {
+      "start": 83.9,
+      "end": 85.533,
+      "hanzi": "这个话题很有用。",
+      "pinyin": "zhè ge huà tí hěn yǒu yòng",
+      "vi": ""
+    },
+    {
+      "start": 85.566,
+      "end": 88.133,
+      "hanzi": "听众朋友们，你们准备好了吗？",
+      "pinyin": "tīng zhòng péng yǒu men nǐ men zhǔn bèi hǎo le ma",
+      "vi": ""
+    },
+    {
+      "start": 88.166,
+      "end": 89.866,
+      "hanzi": "我们开始吧！",
+      "pinyin": "wǒ men kāi shǐ ba",
+      "vi": ""
+    },
+    {
+      "start": 89.9,
+      "end": 94.166,
+      "hanzi": "好了，王雨，如果让你说第一个方法，你会说什么？",
+      "pinyin": "hǎo le wáng yǔ rú guǒ ràng nǐ shuō dì yí gè fāng fǎ nǐ huì shuō shén me",
+      "vi": ""
+    },
+    {
+      "start": 94.166,
+      "end": 98.766,
+      "hanzi": "嗯……我想想。我觉得第一个，也是最简单的一个，",
+      "pinyin": "ń …… wǒ xiǎng xiǎng wǒ jué de dì yí gè yě shì zuì jiǎn dān de yí gè",
+      "vi": ""
+    },
+    {
+      "start": 98.866,
+      "end": 105.366,
+      "hanzi": "就是让中文出现在你的生活里，让你每天都能看到它，听到它。",
+      "pinyin": "jiù shì ràng zhōng wén chū xiàn zài nǐ de shēng huó lǐ ràng nǐ měi tiān dōu néng kàn dào tā tīng dào tā",
+      "vi": ""
+    },
+    {
+      "start": 105.366,
+      "end": 108.166,
+      "hanzi": "哦？怎么说？你可以说得更清楚一点吗？",
+      "pinyin": "ó zěn me shuō nǐ kě yǐ shuō dé gèng qīng chǔ yì diǎn ma",
+      "vi": ""
+    },
+    {
+      "start": 108.2,
+      "end": 111.733,
+      "hanzi": "可以。比如，我们大家都有手机，对吧？",
+      "pinyin": "kě yǐ bǐ rú wǒ men dà jiā dōu yǒu shǒu jī duì ba",
+      "vi": ""
+    },
+    {
+      "start": 111.766,
+      "end": 116.266,
+      "hanzi": "我们可以把手机的语言，从自己的母语换成中文。",
+      "pinyin": "wǒ men kě yǐ bǎ shǒu jī de yǔ yán cóng zì jǐ de mǔ yǔ huàn chéng zhōng wén",
+      "vi": ""
+    },
+    {
+      "start": 116.3,
+      "end": 120.2,
+      "hanzi": "啊，这个方法我听过！你试过吗？",
+      "pinyin": "a zhè ge fāng fǎ wǒ tīng guò nǐ shì guò ma",
+      "vi": ""
+    },
+    {
+      "start": 120.233,
+      "end": 123.733,
+      "hanzi": "我试过！我学习英语的时候就是这么做的。",
+      "pinyin": "wǒ shì guò wǒ xué xí yīng yǔ de shí hòu jiù shì zhè me zuò de",
+      "vi": ""
+    },
+    {
+      "start": 123.766,
+      "end": 127.266,
+      "hanzi": "一开始，我什么都看不懂，觉得很难。",
+      "pinyin": "yī kāi shǐ wǒ shén me dōu kàn bù dǒng jué de hěn nán",
+      "vi": ""
+    },
+    {
+      "start": 127.3,
+      "end": 133.4,
+      "hanzi": "手机上的“设置”、“信息”、“电话”，这些词我都不认识。",
+      "pinyin": "shǒu jī shàng de “ shè zhì ”“ xìn xī ”“ diàn huà ” zhè xiē cí wǒ dōu bù rèn shí",
+      "vi": ""
+    },
+    {
+      "start": 133.433,
+      "end": 134.566,
+      "hanzi": "那你怎么办呢？",
+      "pinyin": "nà nǐ zěn me bàn ne",
+      "vi": ""
+    },
+    {
+      "start": 134.6,
+      "end": 139.266,
+      "hanzi": "我就猜！或者，我去问朋友，这个词是什么意思。",
+      "pinyin": "wǒ jiù cāi huò zhě wǒ qù wèn péng yǒu zhè ge cí shì shén me yì si",
+      "vi": ""
+    },
+    {
+      "start": 139.3,
+      "end": 142.466,
+      "hanzi": "一个星期，两个星期以后，我就都认识了。",
+      "pinyin": "yí gè xīng qī liǎng gè xīng qī yǐ hòu wǒ jiù dōu rèn shí le",
+      "vi": ""
+    },
+    {
+      "start": 142.466,
+      "end": 145.2,
+      "hanzi": "因为你每天都要用手机，",
+      "pinyin": "yīn wèi nǐ měi tiān dōu yào yòng shǒu jī",
+      "vi": ""
+    },
+    {
+      "start": 145.233,
+      "end": 149.8,
+      "hanzi": "所以你看这些词的次数非常多，很快就记住了。",
+      "pinyin": "suǒ yǐ nǐ kàn zhè xiē cí de cì shù fēi cháng duō hěn kuài jiù jì zhù le",
+      "vi": ""
+    },
+    {
+      "start": 149.866,
+      "end": 153.1,
+      "hanzi": "我明白了。这是一个很好的方法。",
+      "pinyin": "wǒ míng bái le zhè shì yí gè hěn hǎo de fāng fǎ",
+      "vi": ""
+    },
+    {
+      "start": 153.133,
+      "end": 159.1,
+      "hanzi": "每天看，每天用，就像吃饭喝水一样，慢慢地就习惯了。",
+      "pinyin": "měi tiān kàn měi tiān yòng jiù xiàng chī fàn hē shuǐ yī yàng màn màn dì jiù xí guàn le",
+      "vi": ""
+    },
+    {
+      "start": 159.133,
+      "end": 161.833,
+      "hanzi": "学习中文的朋友也可以这样做。",
+      "pinyin": "xué xí zhōng wén de péng yǒu yě kě yǐ zhè yàng zuò",
+      "vi": ""
+    },
+    {
+      "start": 161.833,
+      "end": 165.666,
+      "hanzi": "你的手机上有“微信”，有“相机”，有“天气”，",
+      "pinyin": "nǐ de shǒu jī shàng yǒu “ wēi xìn ” yǒu “ xiàng jī ” yǒu “ tiān qì ”",
+      "vi": ""
+    },
+    {
+      "start": 165.7,
+      "end": 168.166,
+      "hanzi": "你每天看，就认识这些汉字了。",
+      "pinyin": "nǐ měi tiān kàn jiù rèn shí zhè xiē hàn zì le",
+      "vi": ""
+    },
+    {
+      "start": 168.233,
+      "end": 172.866,
+      "hanzi": "是的！而且，你不只是看，你还要用它。",
+      "pinyin": "shì de ér qiě nǐ bù zhǐ shì kàn nǐ hái yào yòng tā",
+      "vi": ""
+    },
+    {
+      "start": 172.933,
+      "end": 175.3,
+      "hanzi": "你想打电话，就要找到“电话”；",
+      "pinyin": "nǐ xiǎng dǎ diàn huà jiù yào zhǎo dào “ diàn huà ”",
+      "vi": ""
+    },
+    {
+      "start": 175.333,
+      "end": 177.9,
+      "hanzi": "你想看天气，就要找到“天气”。",
+      "pinyin": "nǐ xiǎng kàn tiān qì jiù yào zhǎo dào “ tiān qì ”",
+      "vi": ""
+    },
+    {
+      "start": 177.9,
+      "end": 180.7,
+      "hanzi": "这样学习，又快又好。",
+      "pinyin": "zhè yàng xué xí yòu kuài yòu hǎo",
+      "vi": ""
+    },
+    {
+      "start": 180.733,
+      "end": 184.666,
+      "hanzi": "我还有一个类似的小方法，可以和大家分享。",
+      "pinyin": "wǒ hái yǒu yí gè lèi sì de xiǎo fāng fǎ kě yǐ hé dà jiā fēn xiǎng",
+      "vi": ""
+    },
+    {
+      "start": 184.7,
+      "end": 186.0,
+      "hanzi": "快说来听听！",
+      "pinyin": "kuài shuō lái tīng tīng",
+      "vi": ""
+    },
+    {
+      "start": 186.033,
+      "end": 192.6,
+      "hanzi": "就是在你的家里，在很多东西上面，贴上写有中文名字的纸。",
+      "pinyin": "jiù shì zài nǐ de jiā lǐ zài hěn duō dōng xī shàng miàn tiē shàng xiě yǒu zhōng wén míng zì de zhǐ",
+      "vi": ""
+    },
+    {
+      "start": 192.633,
+      "end": 194.3,
+      "hanzi": "哈哈，这个有意思！比如呢？",
+      "pinyin": "hā hā zhè ge yǒu yì si bǐ rú ne",
+      "vi": ""
+    },
+    {
+      "start": 194.333,
+      "end": 199.9,
+      "hanzi": "比如，在你的桌子上，贴一张纸，上面写“桌子”。",
+      "pinyin": "bǐ rú zài nǐ de zhuō zi shàng tiē yī zhāng zhǐ shàng miàn xiě “ zhuō zi ”",
+      "vi": ""
+    },
+    {
+      "start": 199.933,
+      "end": 204.2,
+      "hanzi": "在你的椅子上，贴一张纸，写“椅子”。",
+      "pinyin": "zài nǐ de yǐ zi shàng tiē yī zhāng zhǐ xiě “ yǐ zi ”",
+      "vi": ""
+    },
+    {
+      "start": 204.266,
+      "end": 210.333,
+      "hanzi": "在电脑上贴“电脑”，在电视上贴“电视”，在门上贴“门”，",
+      "pinyin": "zài diàn nǎo shàng tiē “ diàn nǎo ” zài diàn shì shàng tiē “ diàn shì ” zài mén shàng tiē “ mén ”",
+      "vi": ""
+    },
+    {
+      "start": 210.366,
+      "end": 211.866,
+      "hanzi": "在床上贴“床”。",
+      "pinyin": "zài chuáng shàng tiē “ chuáng ”",
+      "vi": ""
+    },
+    {
+      "start": 211.866,
+      "end": 213.4,
+      "hanzi": "对！就是这样。",
+      "pinyin": "duì jiù shì zhè yàng",
+      "vi": ""
+    },
+    {
+      "start": 213.433,
+      "end": 219.333,
+      "hanzi": "你每天早上起来，看到“床”；你坐下工作，看到“桌子”和“椅子”；",
+      "pinyin": "nǐ měi tiān zǎo shàng qǐ lái kàn dào “ chuáng ” nǐ zuò xià gōng zuò kàn dào “ zhuō zi ” hé “ yǐ zi ”",
+      "vi": ""
+    },
+    {
+      "start": 219.366,
+      "end": 223.866,
+      "hanzi": "你看电视，看到“电视”。这些词都是你生活里的一部分，",
+      "pinyin": "nǐ kàn diàn shì kàn dào “ diàn shì ” zhè xiē cí dōu shì nǐ shēng huó lǐ de yī bù fèn",
+      "vi": ""
+    },
+    {
+      "start": 223.9,
+      "end": 229.366,
+      "hanzi": "你不用花专门的时间去背，看着看着就记住了。",
+      "pinyin": "nǐ bù yòng huā zhuān mén de shí jiān qù bèi kàn zhe kàn zhe jiù jì zhù le",
+      "vi": ""
+    },
+    {
+      "start": 229.4,
+      "end": 234.066,
+      "hanzi": "这个方法太适合初学者了！都是最基本的东西。",
+      "pinyin": "zhè ge fāng fǎ tài shì hé chū xué zhě le dōu shì zuì jī běn de dōng xī",
+      "vi": ""
+    },
+    {
+      "start": 234.066,
+      "end": 240.966,
+      "hanzi": "而且，你可以一边指着它，一边读出来。指着桌子，说：“这是桌子。”",
+      "pinyin": "ér qiě nǐ kě yǐ yī biān zhǐ zhe tā yī biān dú chū lái zhǐ zhe zhuō zi shuō “ zhè shì zhuō zi ”",
+      "vi": ""
+    },
+    {
+      "start": 241.0,
+      "end": 244.266,
+      "hanzi": "指着苹果，说：“这是一个苹果。”",
+      "pinyin": "zhǐ zhe píng guǒ shuō “ zhè shì yí gè píng guǒ ”",
+      "vi": ""
+    },
+    {
+      "start": 244.3,
+      "end": 249.7,
+      "hanzi": "没错。这就是我们说的第一点：让中文成为你生活的一部分。",
+      "pinyin": "méi cuò zhè jiù shì wǒ men shuō de dì yì diǎn ràng zhōng wén chéng wéi nǐ shēng huó de yī bù fèn",
+      "vi": ""
+    },
+    {
+      "start": 249.766,
+      "end": 253.0,
+      "hanzi": "不需要你做什么难的事情，只需要做一点小小的改变。",
+      "pinyin": "bù xū yào nǐ zuò shén me nán de shì qíng zhǐ xū yào zuò yì diǎn xiǎo xiǎo de gǎi biàn",
+      "vi": ""
+    },
+    {
+      "start": 253.033,
+      "end": 257.3,
+      "hanzi": "好了，李明，说完了“看”，我们再说说别的。",
+      "pinyin": "hǎo le lǐ míng shuō wán le “ kàn ” wǒ men zài shuō shuō bié de",
+      "vi": ""
+    },
+    {
+      "start": 257.333,
+      "end": 259.5,
+      "hanzi": "我觉得“听”也非常重要。",
+      "pinyin": "wǒ jué de “ tīng ” yě fēi cháng zhòng yào",
+      "vi": ""
+    },
+    {
+      "start": 259.533,
+      "end": 263.933,
+      "hanzi": "我同意。语言，首先是用来听和说的。",
+      "pinyin": "wǒ tóng yì yǔ yán shǒu xiān shì yòng lái tīng hé shuō de",
+      "vi": ""
+    },
+    {
+      "start": 263.966,
+      "end": 266.533,
+      "hanzi": "那在“听”这方面，你有什么建议吗？",
+      "pinyin": "nà zài “ tīng ” zhè fāng miàn nǐ yǒu shén me jiàn yì ma",
+      "vi": ""
+    },
+    {
+      "start": 266.566,
+      "end": 271.566,
+      "hanzi": "当然有！我最喜欢的一个方法就是听中文歌。",
+      "pinyin": "dāng rán yǒu wǒ zuì xǐ huān de yí gè fāng fǎ jiù shì tīng zhōng wén gē",
+      "vi": ""
+    },
+    {
+      "start": 271.6,
+      "end": 274.033,
+      "hanzi": "哦？听歌？",
+      "pinyin": "ó tīng gē",
+      "vi": ""
+    },
+    {
+      "start": 274.066,
+      "end": 278.0,
+      "hanzi": "很多朋友说，歌里唱得太快了，他们听不懂。",
+      "pinyin": "hěn duō péng yǒu shuō gē lǐ chàng dé tài kuài le tā men tīng bù dǒng",
+      "vi": ""
+    },
+    {
+      "start": 278.033,
+      "end": 280.866,
+      "hanzi": "一开始是会听不懂，没关系。",
+      "pinyin": "yī kāi shǐ shì huì tīng bù dǒng méi guān xì",
+      "vi": ""
+    },
+    {
+      "start": 280.9,
+      "end": 284.433,
+      "hanzi": "我们可以找一些很慢的、很简单的歌。",
+      "pinyin": "wǒ men kě yǐ zhǎo yī xiē hěn màn de hěn jiǎn dān de gē",
+      "vi": ""
+    },
+    {
+      "start": 284.466,
+      "end": 287.666,
+      "hanzi": "比如，很多给小孩子听的歌。",
+      "pinyin": "bǐ rú hěn duō gěi xiǎo hái zi tīng de gē",
+      "vi": ""
+    },
+    {
+      "start": 287.7,
+      "end": 289.8,
+      "hanzi": "像“两只老虎”？",
+      "pinyin": "xiàng “ liǎng zhǐ lǎo hǔ ”",
+      "vi": ""
+    },
+    {
+      "start": 289.833,
+      "end": 290.733,
+      "hanzi": "对！哈哈！",
+      "pinyin": "duì hā hā",
+      "vi": ""
+    },
+    {
+      "start": 290.766,
+      "end": 299.733,
+      "hanzi": "“两只老虎，两只老虎，跑得快，跑得快……”这样的歌，词很简单，也很有意思。",
+      "pinyin": "“ liǎng zhǐ lǎo hǔ liǎng zhǐ lǎo hǔ pǎo dé kuài pǎo dé kuài ……” zhè yàng de gē cí hěn jiǎn dān yě hěn yǒu yì si",
+      "vi": ""
+    },
+    {
+      "start": 299.766,
+      "end": 306.533,
+      "hanzi": "或者，有一些很老的，但是很经典的歌，唱得也比较慢，比较清楚。",
+      "pinyin": "huò zhě yǒu yī xiē hěn lǎo de dàn shì hěn jīng diǎn de gē chàng dé yě bǐ jiào màn bǐ jiào qīng chǔ",
+      "vi": ""
+    },
+    {
+      "start": 306.566,
+      "end": 309.3,
+      "hanzi": "你能给我们推荐一首吗？",
+      "pinyin": "nǐ néng gěi wǒ men tuī jiàn yī shǒu ma",
+      "vi": ""
+    },
+    {
+      "start": 309.333,
+      "end": 311.466,
+      "hanzi": "嗯……我想一想。",
+      "pinyin": "ń …… wǒ xiǎng yī xiǎng",
+      "vi": ""
+    },
+    {
+      "start": 311.5,
+      "end": 314.433,
+      "hanzi": "啊，有一首歌叫《朋友》。",
+      "pinyin": "a yǒu yī shǒu gē jiào 《 péng yǒu 》",
+      "vi": ""
+    },
+    {
+      "start": 314.466,
+      "end": 316.5,
+      "hanzi": "我觉得很多中国人都会唱。",
+      "pinyin": "wǒ jué de hěn duō zhōng guó rén dū huì chàng",
+      "vi": ""
+    },
+    {
+      "start": 316.533,
+      "end": 320.3,
+      "hanzi": "它的歌词不难，而且很友好。",
+      "pinyin": "tā de gē cí bù nán ér qiě hěn yǒu hǎo",
+      "vi": ""
+    },
+    {
+      "start": 320.366,
+      "end": 322.4,
+      "hanzi": "比如里面唱：",
+      "pinyin": "bǐ rú lǐ miàn chàng",
+      "vi": ""
+    },
+    {
+      "start": 322.433,
+      "end": 324.3,
+      "hanzi": "“朋友一生一起走，",
+      "pinyin": "“ péng yǒu yī shēng yì qǐ zǒu",
+      "vi": ""
+    },
+    {
+      "start": 324.333,
+      "end": 327.333,
+      "hanzi": "那些日子不再有……”",
+      "pinyin": "nà xiē rì zi bù zài yǒu ……”",
+      "vi": ""
+    },
+    {
+      "start": 327.366,
+      "end": 330.266,
+      "hanzi": "听这样的歌，你会觉得很温暖。",
+      "pinyin": "tīng zhè yàng de gē nǐ huì jué de hěn wēn nuǎn",
+      "vi": ""
+    },
+    {
+      "start": 330.266,
+      "end": 332.2,
+      "hanzi": "这个建议很好。",
+      "pinyin": "zhè ge jiàn yì hěn hǎo",
+      "vi": ""
+    },
+    {
+      "start": 332.233,
+      "end": 335.133,
+      "hanzi": "你可以先不看歌词，就听。",
+      "pinyin": "nǐ kě yǐ xiān bù kàn gē cí jiù tīng",
+      "vi": ""
+    },
+    {
+      "start": 335.166,
+      "end": 338.433,
+      "hanzi": "感受一下音乐和中文发音的感觉。",
+      "pinyin": "gǎn shòu yī xià yīn yuè hé zhōng wén fā yīn de gǎn jué",
+      "vi": ""
+    },
+    {
+      "start": 338.466,
+      "end": 342.833,
+      "hanzi": "然后，你可以看着歌词，一边听一边看。",
+      "pinyin": "rán hòu nǐ kě yǐ kàn zhe gē cí yī biān tīng yī biān kàn",
+      "vi": ""
+    },
+    {
+      "start": 342.866,
+      "end": 345.7,
+      "hanzi": "最后，你可以试着自己唱一唱。",
+      "pinyin": "zuì hòu nǐ kě yǐ shì zhe zì jǐ chàng yī chàng",
+      "vi": ""
+    },
+    {
+      "start": 345.733,
+      "end": 350.766,
+      "hanzi": "是的！唱歌是很快乐的学习方法。",
+      "pinyin": "shì de chàng gē shì hěn kuài lè de xué xí fāng fǎ",
+      "vi": ""
+    },
+    {
+      "start": 350.8,
+      "end": 354.066,
+      "hanzi": "除了听歌，我们还可以听什么呢？",
+      "pinyin": "chú le tīng gē wǒ men hái kě yǐ tīng shén me ne",
+      "vi": ""
+    },
+    {
+      "start": 354.1,
+      "end": 357.0,
+      "hanzi": "当然是我们的播客，“每天中文”！",
+      "pinyin": "dāng rán shì wǒ men de bō kè “ měi tiān zhōng wén ”",
+      "vi": ""
+    },
+    {
+      "start": 357.033,
+      "end": 359.633,
+      "hanzi": "哈哈，谢谢你的推荐！",
+      "pinyin": "hā hā xiè xiè nǐ de tuī jiàn",
+      "vi": ""
+    },
+    {
+      "start": 359.666,
+      "end": 365.1,
+      "hanzi": "是的，听一些语速比较慢的播客，也是一个好方法。",
+      "pinyin": "shì de tīng yī xiē yǔ sù bǐ jiào màn de bō kè yě shì yí gè hǎo fāng fǎ",
+      "vi": ""
+    },
+    {
+      "start": 365.133,
+      "end": 368.7,
+      "hanzi": "我们说话不快，用的词也比较简单。",
+      "pinyin": "wǒ men shuō huà bù kuài yòng de cí yě bǐ jiào jiǎn dān",
+      "vi": ""
+    },
+    {
+      "start": 368.733,
+      "end": 373.133,
+      "hanzi": "对。然后，除了“听”，还有“看”。",
+      "pinyin": "duì rán hòu chú le “ tīng ” hái yǒu “ kàn ”",
+      "vi": ""
+    },
+    {
+      "start": 373.166,
+      "end": 373.9,
+      "hanzi": "看什么呢？",
+      "pinyin": "kàn shén me ne",
+      "vi": ""
+    },
+    {
+      "start": 373.933,
+      "end": 378.3,
+      "hanzi": "我觉得，可以看一些给小孩子看的动画片。",
+      "pinyin": "wǒ jué de kě yǐ kàn yī xiē gěi xiǎo hái zi kàn de dòng huà piàn",
+      "vi": ""
+    },
+    {
+      "start": 378.333,
+      "end": 380.066,
+      "hanzi": "动画片？为什么？",
+      "pinyin": "dòng huà piàn wèi shén me",
+      "vi": ""
+    },
+    {
+      "start": 380.133,
+      "end": 383.533,
+      "hanzi": "因为动画片是给孩子看的，",
+      "pinyin": "yīn wèi dòng huà piàn shì gěi hái zi kàn de",
+      "vi": ""
+    },
+    {
+      "start": 383.566,
+      "end": 388.466,
+      "hanzi": "所以里面的人说话会非常慢，非常清楚。",
+      "pinyin": "suǒ yǐ lǐ miàn de rén shuō huà huì fēi cháng màn fēi cháng qīng chǔ",
+      "vi": ""
+    },
+    {
+      "start": 388.466,
+      "end": 391.533,
+      "hanzi": "用的词和句子也都是最简单的。",
+      "pinyin": "yòng de cí hé jù zi yě dōu shì zuì jiǎn dān de",
+      "vi": ""
+    },
+    {
+      "start": 391.533,
+      "end": 395.033,
+      "hanzi": "比如，中国有一个很有名的动画片，",
+      "pinyin": "bǐ rú zhōng guó yǒu yí gè hěn yǒu míng de dòng huà piàn",
+      "vi": ""
+    },
+    {
+      "start": 395.066,
+      "end": 398.0,
+      "hanzi": "叫《大头儿子和小头爸爸》。",
+      "pinyin": "jiào 《 dà tóu ér zi hé xiǎo tóu bà bà 》",
+      "vi": ""
+    },
+    {
+      "start": 398.066,
+      "end": 401.533,
+      "hanzi": "啊！我知道！我小时候也看！",
+      "pinyin": "a wǒ zhī dào wǒ xiǎo shí hòu yě kàn",
+      "vi": ""
+    },
+    {
+      "start": 401.6,
+      "end": 406.366,
+      "hanzi": "“大头儿子，小头爸爸，一对好朋友，快乐父子俩！”",
+      "pinyin": "“ dà tóu ér zi xiǎo tóu bà bà yī duì hǎo péng yǒu kuài lè fù zǐ liǎ ”",
+      "vi": ""
+    },
+    {
+      "start": 406.4,
+      "end": 410.466,
+      "hanzi": "对，就是这个。里面的对话很简单，",
+      "pinyin": "duì jiù shì zhè ge lǐ miàn de duì huà hěn jiǎn dān",
+      "vi": ""
+    },
+    {
+      "start": 410.5,
+      "end": 414.366,
+      "hanzi": "比如：“爸爸，我们去哪儿玩？”",
+      "pinyin": "bǐ rú “ bà bà wǒ men qù nǎ ér wán ”",
+      "vi": ""
+    },
+    {
+      "start": 414.4,
+      "end": 416.933,
+      "hanzi": "“我们去公园，好不好？”",
+      "pinyin": "“ wǒ men qù gōng yuán hǎo bù hǎo ”",
+      "vi": ""
+    },
+    {
+      "start": 416.966,
+      "end": 419.433,
+      "hanzi": "都是我们生活中会说的话。",
+      "pinyin": "dōu shì wǒ men shēng huó zhōng huì shuō de huà",
+      "vi": ""
+    },
+    {
+      "start": 419.433,
+      "end": 426.0,
+      "hanzi": "这个方法好。而且看动画片很有趣，不觉得是在学习。",
+      "pinyin": "zhè ge fāng fǎ hǎo ér qiě kàn dòng huà piàn hěn yǒu qù bù jué dé shì zài xué xí",
+      "vi": ""
+    },
+    {
+      "start": 426.033,
+      "end": 429.9,
+      "hanzi": "每天看十分钟，就能学到很多有用的句子。",
+      "pinyin": "měi tiān kàn shí fēn zhōng jiù néng xué dào hěn duō yǒu yòng de jù zi",
+      "vi": ""
+    },
+    {
+      "start": 429.966,
+      "end": 433.966,
+      "hanzi": "还有，现在很多人都喜欢看短视频，",
+      "pinyin": "hái yǒu xiàn zài hěn duō rén dōu xǐ huān kàn duǎn shì pín",
+      "vi": ""
+    },
+    {
+      "start": 434.0,
+      "end": 439.166,
+      "hanzi": "比如抖音。上面也有很多教中文的视频，",
+      "pinyin": "bǐ rú dǒu yīn shàng miàn yě yǒu hěn duō jiāo zhōng wén de shì pín",
+      "vi": ""
+    },
+    {
+      "start": 439.2,
+      "end": 442.966,
+      "hanzi": "或者是一些中国人分享他们生活的视频。",
+      "pinyin": "huò zhě shì yī xiē zhōng guó rén fēn xiǎng tā men shēng huó de shì pín",
+      "vi": ""
+    },
+    {
+      "start": 442.966,
+      "end": 447.9,
+      "hanzi": "是的，那些视频很短，可能只有一分钟，",
+      "pinyin": "shì de nà xiē shì pín hěn duǎn kě néng zhǐ yǒu yì fēn zhōng",
+      "vi": ""
+    },
+    {
+      "start": 447.933,
+      "end": 452.266,
+      "hanzi": "你不会觉得累。你可以看他们怎么做饭，",
+      "pinyin": "nǐ bú huì jué de lèi nǐ kě yǐ kàn tā men zěn me zuò fàn",
+      "vi": ""
+    },
+    {
+      "start": 452.3,
+      "end": 456.833,
+      "hanzi": "怎么去旅游，听他们用最自然的中文聊天。",
+      "pinyin": "zěn me qù lǚ yóu tīng tā men yòng zuì zì rán de zhōng wén liáo tiān",
+      "vi": ""
+    },
+    {
+      "start": 456.866,
+      "end": 461.633,
+      "hanzi": "总结一下，这第二部分就是：多听、多看。",
+      "pinyin": "zǒng jié yī xià zhè dì èr bù fèn jiù shì duō tīng duō kàn",
+      "vi": ""
+    },
+    {
+      "start": 461.7,
+      "end": 465.4,
+      "hanzi": "听简单的中文歌，听我们的播客；",
+      "pinyin": "tīng jiǎn dān de zhōng wén gē tīng wǒ men de bō kè",
+      "vi": ""
+    },
+    {
+      "start": 465.433,
+      "end": 469.933,
+      "hanzi": "看简单的动画片，看有趣的短视频。",
+      "pinyin": "kàn jiǎn dān de dòng huà piàn kàn yǒu qù de duǎn shì pín",
+      "vi": ""
+    },
+    {
+      "start": 469.933,
+      "end": 474.033,
+      "hanzi": "让你的耳朵和眼睛，都熟悉中文。",
+      "pinyin": "ràng nǐ de ěr duǒ hé yǎn jīng dōu shú xī zhōng wén",
+      "vi": ""
+    },
+    {
+      "start": 474.066,
+      "end": 482.066,
+      "hanzi": "好了，我们说了“看”和“听”，都是“输入”。现在，我们要说“输出”了，也就是“说”。",
+      "pinyin": "hǎo le wǒ men shuō le “ kàn ” hé “ tīng ” dōu shì “ shū rù ” xiàn zài wǒ men yào shuō “ shū chū ” le yě jiù shì “ shuō ”",
+      "vi": ""
+    },
+    {
+      "start": 482.1,
+      "end": 485.166,
+      "hanzi": "对，“说”非常非常重要。",
+      "pinyin": "duì “ shuō ” fēi cháng fēi cháng zhòng yào",
+      "vi": ""
+    },
+    {
+      "start": 485.2,
+      "end": 492.233,
+      "hanzi": "很多朋友认识很多汉字，也能听懂一些话，但是他们不敢说。",
+      "pinyin": "hěn duō péng yǒu rèn shí hěn duō hàn zì yě néng tīng dǒng yī xiē huà dàn shì tā men bù gǎn shuō",
+      "vi": ""
+    },
+    {
+      "start": 492.266,
+      "end": 498.966,
+      "hanzi": "我完全明白！因为他们害怕说错。怕别人听不懂，或者笑话他们。",
+      "pinyin": "wǒ wán quán míng bái yīn wèi tā men hài pà shuō cuò pà bié rén tīng bù dǒng huò zhě xiào huà tā men",
+      "vi": ""
+    },
+    {
+      "start": 499.0,
+      "end": 500.733,
+      "hanzi": "我以前也有这个问题。",
+      "pinyin": "wǒ yǐ qián yě yǒu zhè ge wèn tí",
+      "vi": ""
+    },
+    {
+      "start": 500.766,
+      "end": 502.933,
+      "hanzi": "真的吗？你给我们讲讲你的故事？",
+      "pinyin": "zhēn de ma nǐ gěi wǒ men jiǎng jiǎng nǐ de gù shì",
+      "vi": ""
+    },
+    {
+      "start": 502.966,
+      "end": 509.933,
+      "hanzi": "好的。我记得我第一次自己去咖啡店买咖啡，想用中文点单。",
+      "pinyin": "hǎo de wǒ jì de wǒ dì yī cì zì jǐ qù kā fēi diàn mǎi kā fēi xiǎng yòng zhōng wén diǎn dān",
+      "vi": ""
+    },
+    {
+      "start": 509.966,
+      "end": 513.133,
+      "hanzi": "我的心跳得非常快。",
+      "pinyin": "wǒ de xīn tiào dé fēi cháng kuài",
+      "vi": ""
+    },
+    {
+      "start": 513.166,
+      "end": 514.1,
+      "hanzi": "你紧张了。",
+      "pinyin": "nǐ jǐn zhāng le",
+      "vi": ""
+    },
+    {
+      "start": 514.166,
+      "end": 518.9,
+      "hanzi": "非常紧张！我在去以前，在家里练习了很多遍：",
+      "pinyin": "fēi cháng jǐn zhāng wǒ zài qù yǐ qián zài jiā lǐ liàn xí le hěn duō biàn",
+      "vi": ""
+    },
+    {
+      "start": 518.933,
+      "end": 523.566,
+      "hanzi": "“你好，我要一杯咖啡。”这句话很简单，对不对？",
+      "pinyin": "“ nǐ hǎo wǒ yào yī bēi kā fēi ” zhè jù huà hěn jiǎn dān duì bú duì",
+      "vi": ""
+    },
+    {
+      "start": 523.566,
+      "end": 524.633,
+      "hanzi": "对，很简单。",
+      "pinyin": "duì hěn jiǎn dān",
+      "vi": ""
+    },
+    {
+      "start": 524.7,
+      "end": 531.966,
+      "hanzi": "但是，我走到店里，看到服务员，我还是很害怕。我小声地说：",
+      "pinyin": "dàn shì wǒ zǒu dào diàn lǐ kàn dào fú wù yuán wǒ hái shì hěn hài pà wǒ xiǎo shēng dì shuō",
+      "vi": ""
+    },
+    {
+      "start": 532.0,
+      "end": 537.566,
+      "hanzi": "“你好……我……我要……咖啡。”",
+      "pinyin": "“ nǐ hǎo …… wǒ …… wǒ yào …… kā fēi ”",
+      "vi": ""
+    },
+    {
+      "start": 537.6,
+      "end": 539.666,
+      "hanzi": "哈哈，然后呢？服务员怎么说？",
+      "pinyin": "hā hā rán hòu ne fú wù yuán zěn me shuō",
+      "vi": ""
+    },
+    {
+      "start": 539.7,
+      "end": 546.2,
+      "hanzi": "服务员非常友好。他笑着问我：“好的。请问您要大杯、中杯，",
+      "pinyin": "fú wù yuán fēi cháng yǒu hǎo tā xiào zhe wèn wǒ “ hǎo de qǐng wèn nín yào dà bēi zhōng bēi",
+      "vi": ""
+    },
+    {
+      "start": 546.233,
+      "end": 549.7,
+      "hanzi": "还是小杯？要热的还是冰的？”",
+      "pinyin": "hái shì xiǎo bēi yào rè de hái shì bīng de ”",
+      "vi": ""
+    },
+    {
+      "start": 549.733,
+      "end": 551.166,
+      "hanzi": "哇，他问了你很多问题。",
+      "pinyin": "wa tā wèn le nǐ hěn duō wèn tí",
+      "vi": ""
+    },
+    {
+      "start": 551.2,
+      "end": 558.066,
+      "hanzi": "是啊！我当时就呆住了。我只准备了“我要一杯咖啡”，没准备",
+      "pinyin": "shì a wǒ dāng shí jiù dāi zhù le wǒ zhǐ zhǔn bèi le “ wǒ yào yī bēi kā fēi ” méi zhǔn bèi",
+      "vi": ""
+    },
+    {
+      "start": 558.1,
+      "end": 559.966,
+      "hanzi": "回答这些问题！",
+      "pinyin": "huí dá zhè xiē wèn tí",
+      "vi": ""
+    },
+    {
+      "start": 559.966,
+      "end": 561.466,
+      "hanzi": "那你最后怎么办了？",
+      "pinyin": "nà nǐ zuì hòu zěn me bàn le",
+      "vi": ""
+    },
+    {
+      "start": 561.533,
+      "end": 569.233,
+      "hanzi": "我就指着菜单上的图片，说：“这个……大的……热的。”虽然我说得很",
+      "pinyin": "wǒ jiù zhǐ zhe cài dān shàng de tú piàn shuō “ zhè ge …… dà de …… rè de ” suī rán wǒ shuō dé hěn",
+      "vi": ""
+    },
+    {
+      "start": 569.266,
+      "end": 574.266,
+      "hanzi": "不好，但是服务员听懂了。他给了我一杯又大又热的咖",
+      "pinyin": "bù hǎo dàn shì fú wù yuán tīng dǒng le tā gěi le wǒ yī bēi yòu dà yòu rè de kā",
+      "vi": ""
+    },
+    {
+      "start": 574.3,
+      "end": 575.0,
+      "hanzi": "啡。",
+      "pinyin": "fēi",
+      "vi": ""
+    },
+    {
+      "start": 575.0,
+      "end": 578.566,
+      "hanzi": "当我拿到那杯咖啡的时候，我真的太高兴了！",
+      "pinyin": "dāng wǒ ná dào nà bēi kā fēi de shí hòu wǒ zhēn de tài gāo xìng le",
+      "vi": ""
+    },
+    {
+      "start": 578.566,
+      "end": 585.7,
+      "hanzi": "我明白了。你虽然说得不完美，但是你成功了。你买到了",
+      "pinyin": "wǒ míng bái le nǐ suī rán shuō dé bù wán měi dàn shì nǐ chéng gōng le nǐ mǎi dào le",
+      "vi": ""
+    },
+    {
+      "start": 585.733,
+      "end": 586.866,
+      "hanzi": "你想喝的咖啡。",
+      "pinyin": "nǐ xiǎng hē de kā fēi",
+      "vi": ""
+    },
+    {
+      "start": 586.933,
+      "end": 593.5,
+      "hanzi": "对！从那以后，我就觉得，说错了没关系，说得慢也没关系。",
+      "pinyin": "duì cóng nà yǐ hòu wǒ jiù jué de shuō cuò le méi guān xì shuō dé màn yě méi guān xì",
+      "vi": ""
+    },
+    {
+      "start": 593.533,
+      "end": 600.466,
+      "hanzi": "最重要的是，你要敢说！你说出来了，别人才可能帮助你，你才能进步。",
+      "pinyin": "zuì zhòng yào de shì nǐ yào gǎn shuō nǐ shuō chū lái le bié rén cái kě néng bāng zhù nǐ nǐ cái néng jìn bù",
+      "vi": ""
+    },
+    {
+      "start": 600.5,
+      "end": 602.866,
+      "hanzi": "你这个故事太棒了。",
+      "pinyin": "nǐ zhè ge gù shì tài bàng le",
+      "vi": ""
+    },
+    {
+      "start": 602.866,
+      "end": 607.066,
+      "hanzi": "这正是我想说的：不要害怕犯错误。",
+      "pinyin": "zhè zhèng shì wǒ xiǎng shuō de bú yào hài pà fàn cuò wù",
+      "vi": ""
+    },
+    {
+      "start": 607.066,
+      "end": 611.333,
+      "hanzi": "每一个学习语言的人，都会犯错误。",
+      "pinyin": "měi yí gè xué xí yǔ yán de rén dū huì fàn cuò wù",
+      "vi": ""
+    },
+    {
+      "start": 611.366,
+      "end": 619.066,
+      "hanzi": "中国人学习英语的时候，也会犯很多错误。犯错误，是学习的一部分。",
+      "pinyin": "zhōng guó rén xué xí yīng yǔ de shí hòu yě huì fàn hěn duō cuò wù fàn cuò wù shì xué xí de yī bù fèn",
+      "vi": ""
+    },
+    {
+      "start": 619.1,
+      "end": 626.1,
+      "hanzi": "是的。那除了去商店买东西，还有什么练习“说”的好方法吗？",
+      "pinyin": "shì de nà chú le qù shāng diàn mǎi dōng xī hái yǒu shén me liàn xí “ shuō ” de hǎo fāng fǎ ma",
+      "vi": ""
+    },
+    {
+      "start": 626.133,
+      "end": 629.166,
+      "hanzi": "如果我身边没有中国人，怎么办？",
+      "pinyin": "rú guǒ wǒ shēn biān méi yǒu zhōng guó rén zěn me bàn",
+      "vi": ""
+    },
+    {
+      "start": 629.2,
+      "end": 631.233,
+      "hanzi": "这是一个好问题。",
+      "pinyin": "zhè shì yí gè hǎo wèn tí",
+      "vi": ""
+    },
+    {
+      "start": 631.233,
+      "end": 637.233,
+      "hanzi": "如果你的身边没有中国朋友，你可以……和自己说话。",
+      "pinyin": "rú guǒ nǐ de shēn biān méi yǒu zhōng guó péng yǒu nǐ kě yǐ …… hé zì jǐ shuō huà",
+      "vi": ""
+    },
+    {
+      "start": 637.266,
+      "end": 638.766,
+      "hanzi": "和自己说话？",
+      "pinyin": "hé zì jǐ shuō huà",
+      "vi": ""
+    },
+    {
+      "start": 638.766,
+      "end": 643.633,
+      "hanzi": "对。这听起来可能有点奇怪，但是非常有用。",
+      "pinyin": "duì zhè tīng qǐ lái kě néng yǒu diǎn qí guài dàn shì fēi cháng yǒu yòng",
+      "vi": ""
+    },
+    {
+      "start": 643.633,
+      "end": 645.833,
+      "hanzi": "比如，你早上起来，你可以",
+      "pinyin": "bǐ rú nǐ zǎo shàng qǐ lái nǐ kě yǐ",
+      "vi": ""
+    },
+    {
+      "start": 645.866,
+      "end": 650.933,
+      "hanzi": "看着镜子里的自己，说：“你好！今天天气很好。",
+      "pinyin": "kàn zhe jìng zi lǐ de zì jǐ shuō “ nǐ hǎo jīn tiān tiān qì hěn hǎo",
+      "vi": ""
+    },
+    {
+      "start": 650.933,
+      "end": 654.933,
+      "hanzi": "我要去工作。我今天很高兴。”",
+      "pinyin": "wǒ yào qù gōng zuò wǒ jīn tiān hěn gāo xìng ”",
+      "vi": ""
+    },
+    {
+      "start": 654.933,
+      "end": 656.966,
+      "hanzi": "哈哈，这个方法很有意思。",
+      "pinyin": "hā hā zhè ge fāng fǎ hěn yǒu yì si",
+      "vi": ""
+    },
+    {
+      "start": 657.066,
+      "end": 662.1,
+      "hanzi": "或者，你看到什么东西，就用中文说出它的名字。",
+      "pinyin": "huò zhě nǐ kàn dào shén me dōng xī jiù yòng zhōng wén shuō chū tā de míng zì",
+      "vi": ""
+    },
+    {
+      "start": 662.1,
+      "end": 663.333,
+      "hanzi": "你拿起一个杯子，",
+      "pinyin": "nǐ ná qǐ yí gè bēi zi",
+      "vi": ""
+    },
+    {
+      "start": 663.366,
+      "end": 668.933,
+      "hanzi": "就说：“这是一个杯子。杯子里有水。我想喝水。”",
+      "pinyin": "jiù shuō “ zhè shì yí gè bēi zi bēi zi lǐ yǒu shuǐ wǒ xiǎng hē shuǐ ”",
+      "vi": ""
+    },
+    {
+      "start": 668.966,
+      "end": 675.066,
+      "hanzi": "我明白了。就是自己和自己对话，自己做自己的老师和学生。",
+      "pinyin": "wǒ míng bái le jiù shì zì jǐ hé zì jǐ duì huà zì jǐ zuò zì jǐ de lǎo shī hé xué shēng",
+      "vi": ""
+    },
+    {
+      "start": 675.1,
+      "end": 680.5,
+      "hanzi": "没错。这样练习，你不会感到紧张，因为没有别人在听。",
+      "pinyin": "méi cuò zhè yàng liàn xí nǐ bú huì gǎn dào jǐn zhāng yīn wèi méi yǒu bié rén zài tīng",
+      "vi": ""
+    },
+    {
+      "start": 680.5,
+      "end": 683.666,
+      "hanzi": "你可以慢慢说，想一想再说。",
+      "pinyin": "nǐ kě yǐ màn màn shuō xiǎng yī xiǎng zài shuō",
+      "vi": ""
+    },
+    {
+      "start": 683.7,
+      "end": 688.666,
+      "hanzi": "这可以帮助你的嘴巴和大脑，习惯说中文。",
+      "pinyin": "zhè kě yǐ bāng zhù nǐ de zuǐ bā hé dà nǎo xí guàn shuō zhōng wén",
+      "vi": ""
+    },
+    {
+      "start": 688.666,
+      "end": 693.4,
+      "hanzi": "这个建议太好了！敢于开口，不怕犯错。",
+      "pinyin": "zhè ge jiàn yì tài hǎo le gǎn yú kāi kǒu bù pà fàn cuò",
+      "vi": ""
+    },
+    {
+      "start": 693.4,
+      "end": 697.966,
+      "hanzi": "可以和朋友说，也可以和自己说。",
+      "pinyin": "kě yǐ hé péng yǒu shuō yě kě yǐ hé zì jǐ shuō",
+      "vi": ""
+    },
+    {
+      "start": 698.0,
+      "end": 702.166,
+      "hanzi": "好了，我们说了听、说、看。",
+      "pinyin": "hǎo le wǒ men shuō le tīng shuō kàn",
+      "vi": ""
+    },
+    {
+      "start": 702.166,
+      "end": 706.566,
+      "hanzi": "学习语言还有很重要的一项，就是“写”。",
+      "pinyin": "xué xí yǔ yán hái yǒu hěn zhòng yào de yī xiàng jiù shì “ xiě ”",
+      "vi": ""
+    },
+    {
+      "start": 706.6,
+      "end": 708.333,
+      "hanzi": "啊，“写”汉字吗？",
+      "pinyin": "a “ xiě ” hàn zì ma",
+      "vi": ""
+    },
+    {
+      "start": 708.366,
+      "end": 712.133,
+      "hanzi": "很多朋友觉得写汉字是学习中文最难的部分。",
+      "pinyin": "hěn duō péng yǒu jué de xiě hàn zì shì xué xí zhōng wén zuì nán de bù fèn",
+      "vi": ""
+    },
+    {
+      "start": 712.166,
+      "end": 715.066,
+      "hanzi": "是的，写汉字需要练习。",
+      "pinyin": "shì de xiě hàn zì xū yào liàn xí",
+      "vi": ""
+    },
+    {
+      "start": 715.1,
+      "end": 719.933,
+      "hanzi": "但是我们这里说的“写”，不只是把一个汉字写一百遍。",
+      "pinyin": "dàn shì wǒ men zhè lǐ shuō de “ xiě ” bù zhǐ shì bǎ yí gè hàn zì xiě yì bǎi biàn",
+      "vi": ""
+    },
+    {
+      "start": 719.933,
+      "end": 722.6,
+      "hanzi": "我们说的，是更有趣的“写”。",
+      "pinyin": "wǒ men shuō de shì gèng yǒu qù de “ xiě ”",
+      "vi": ""
+    },
+    {
+      "start": 722.633,
+      "end": 723.066,
+      "hanzi": "怎么说？",
+      "pinyin": "zěn me shuō",
+      "vi": ""
+    },
+    {
+      "start": 723.1,
+      "end": 729.6,
+      "hanzi": "我建议大家，每天可以试着写一句话的日记。就一句话。",
+      "pinyin": "wǒ jiàn yì dà jiā měi tiān kě yǐ shì zhe xiě yī jù huà de rì jì jiù yī jù huà",
+      "vi": ""
+    },
+    {
+      "start": 729.633,
+      "end": 732.7,
+      "hanzi": "一句话日记？这个听起来很简单。",
+      "pinyin": "yī jù huà rì jì zhè ge tīng qǐ lái hěn jiǎn dān",
+      "vi": ""
+    },
+    {
+      "start": 732.733,
+      "end": 736.433,
+      "hanzi": "非常简单。比如，你今天做了什么？",
+      "pinyin": "fēi cháng jiǎn dān bǐ rú nǐ jīn tiān zuò le shén me",
+      "vi": ""
+    },
+    {
+      "start": 736.433,
+      "end": 739.9,
+      "hanzi": "你今天心情怎么样？你就可以写下来。",
+      "pinyin": "nǐ jīn tiān xīn qíng zěn me yàng nǐ jiù kě yǐ xiě xià lái",
+      "vi": ""
+    },
+    {
+      "start": 739.966,
+      "end": 743.933,
+      "hanzi": "比如说：“今天星期一。我去学校了。”",
+      "pinyin": "bǐ rú shuō “ jīn tiān xīng qī yī wǒ qù xué xiào le ”",
+      "vi": ""
+    },
+    {
+      "start": 743.933,
+      "end": 747.9,
+      "hanzi": "或者，“今天我吃了中国菜，很好吃。”",
+      "pinyin": "huò zhě “ jīn tiān wǒ chī le zhōng guó cài hěn hǎo chī ”",
+      "vi": ""
+    },
+    {
+      "start": 747.933,
+      "end": 751.6,
+      "hanzi": "“今天我认识了一个新朋友，我很高兴。”",
+      "pinyin": "“ jīn tiān wǒ rèn shí le yí gè xīn péng yǒu wǒ hěn gāo xìng ”",
+      "vi": ""
+    },
+    {
+      "start": 751.633,
+      "end": 757.6,
+      "hanzi": "对！就这么简单的一句话。你不需要写很长的文章。每天",
+      "pinyin": "duì jiù zhè me jiǎn dān de yī jù huà nǐ bù xū yào xiě hěn zhǎng de wén zhāng měi tiān",
+      "vi": ""
+    },
+    {
+      "start": 757.633,
+      "end": 758.833,
+      "hanzi": "写一句，",
+      "pinyin": "xiě yī jù",
+      "vi": ""
+    },
+    {
+      "start": 758.866,
+      "end": 761.766,
+      "hanzi": "第一，你可以练习写汉字；",
+      "pinyin": "dì yī nǐ kě yǐ liàn xí xiě hàn zì",
+      "vi": ""
+    },
+    {
+      "start": 761.8,
+      "end": 765.733,
+      "hanzi": "第二，你可以练习用中文表达你的想法。",
+      "pinyin": "dì èr nǐ kě yǐ liàn xí yòng zhōng wén biǎo dá nǐ de xiǎng fǎ",
+      "vi": ""
+    },
+    {
+      "start": 765.733,
+      "end": 767.466,
+      "hanzi": "这个方法我喜欢。",
+      "pinyin": "zhè ge fāng fǎ wǒ xǐ huān",
+      "vi": ""
+    },
+    {
+      "start": 767.466,
+      "end": 769.5,
+      "hanzi": "每天花五分钟就够了。",
+      "pinyin": "měi tiān huā wǔ fēn zhōng jiù gòu le",
+      "vi": ""
+    },
+    {
+      "start": 769.5,
+      "end": 773.7,
+      "hanzi": "坚持下去，一个月，你就能写三十个句子了。",
+      "pinyin": "jiān chí xià qù yí gè yuè nǐ jiù néng xiě sān shí gè jù zi le",
+      "vi": ""
+    },
+    {
+      "start": 773.733,
+      "end": 776.7,
+      "hanzi": "一年以后，你就有一个用中文写的日记本了。",
+      "pinyin": "yī nián yǐ hòu nǐ jiù yǒu yí gè yòng zhōng wén xiě de rì jì běn le",
+      "vi": ""
+    },
+    {
+      "start": 776.733,
+      "end": 782.633,
+      "hanzi": "是的。当你回头看的时候，你会发现自己进步了非常多。",
+      "pinyin": "shì de dāng nǐ huí tóu kàn de shí hòu nǐ huì fā xiàn zì jǐ jìn bù le fēi cháng duō",
+      "vi": ""
+    },
+    {
+      "start": 782.666,
+      "end": 787.633,
+      "hanzi": "除了写日记，我们生活在网络时代，还有别的方法吗？",
+      "pinyin": "chú le xiě rì jì wǒ men shēng huó zài wǎng luò shí dài hái yǒu bié de fāng fǎ ma",
+      "vi": ""
+    },
+    {
+      "start": 787.666,
+      "end": 791.366,
+      "hanzi": "当然。你可以在社交媒体上写。",
+      "pinyin": "dāng rán nǐ kě yǐ zài shè jiāo méi tǐ shàng xiě",
+      "vi": ""
+    },
+    {
+      "start": 791.366,
+      "end": 796.333,
+      "hanzi": "比如，用微信。你可以给你的中国朋友发一条信息。",
+      "pinyin": "bǐ rú yòng wēi xìn nǐ kě yǐ gěi nǐ de zhōng guó péng yǒu fā yī tiáo xìn xī",
+      "vi": ""
+    },
+    {
+      "start": 796.366,
+      "end": 797.466,
+      "hanzi": "发什么呢？",
+      "pinyin": "fā shén me ne",
+      "vi": ""
+    },
+    {
+      "start": 797.533,
+      "end": 799.666,
+      "hanzi": "最简单的问候就可以。",
+      "pinyin": "zuì jiǎn dān de wèn hòu jiù kě yǐ",
+      "vi": ""
+    },
+    {
+      "start": 799.666,
+      "end": 805.233,
+      "hanzi": "比如早上发：“早上好！”吃饭的时候问：“你吃饭了吗？”",
+      "pinyin": "bǐ rú zǎo shàng fā “ zǎo shàng hǎo ” chī fàn de shí hòu wèn “ nǐ chī fàn le ma ”",
+      "vi": ""
+    },
+    {
+      "start": 805.233,
+      "end": 808.0,
+      "hanzi": "哈哈，这是中国人最喜欢问的问题之一。",
+      "pinyin": "hā hā zhè shì zhōng guó rén zuì xǐ huān wèn de wèn tí zhī yī",
+      "vi": ""
+    },
+    {
+      "start": 808.033,
+      "end": 812.7,
+      "hanzi": "是的。或者，如果你在一个中文学习小组里，",
+      "pinyin": "shì de huò zhě rú guǒ nǐ zài yí gè zhōng wén xué xí xiǎo zǔ lǐ",
+      "vi": ""
+    },
+    {
+      "start": 812.733,
+      "end": 817.6,
+      "hanzi": "你可以分享你今天学到的一个新词，一句话。",
+      "pinyin": "nǐ kě yǐ fēn xiǎng nǐ jīn tiān xué dào de yí gè xīn cí yī jù huà",
+      "vi": ""
+    },
+    {
+      "start": 817.633,
+      "end": 825.366,
+      "hanzi": "比如，你今天学了“天气”，你就可以在群里写：“今天北京的天气怎么样？”",
+      "pinyin": "bǐ rú nǐ jīn tiān xué le “ tiān qì ” nǐ jiù kě yǐ zài qún lǐ xiě “ jīn tiān běi jīng de tiān qì zěn me yàng ”",
+      "vi": ""
+    },
+    {
+      "start": 825.366,
+      "end": 830.533,
+      "hanzi": "我明白了。通过写这些简短的信息，我们就在使用中文了。",
+      "pinyin": "wǒ míng bái le tōng guò xiě zhè xiē jiǎn duǎn de xìn xī wǒ men jiù zài shǐ yòng zhōng wén le",
+      "vi": ""
+    },
+    {
+      "start": 830.6,
+      "end": 834.866,
+      "hanzi": "写的目的不是为了考试，而是为了交流。",
+      "pinyin": "xiě de mù dì bú shì wèi le kǎo shì ér shì wèi le jiāo liú",
+      "vi": ""
+    },
+    {
+      "start": 834.933,
+      "end": 841.666,
+      "hanzi": "完全正确。所以，第四个小方法就是：每天写一点点。",
+      "pinyin": "wán quán zhèng què suǒ yǐ dì sì gè xiǎo fāng fǎ jiù shì měi tiān xiě yì diǎn diǎn",
+      "vi": ""
+    },
+    {
+      "start": 841.666,
+      "end": 844.2,
+      "hanzi": "可以是一句话的日记，",
+      "pinyin": "kě yǐ shì yī jù huà de rì jì",
+      "vi": ""
+    },
+    {
+      "start": 844.233,
+      "end": 847.633,
+      "hanzi": "也可以是一条发给朋友的信息。",
+      "pinyin": "yě kě yǐ shì yī tiáo fā gěi péng yǒu de xìn xī",
+      "vi": ""
+    },
+    {
+      "start": 847.633,
+      "end": 851.066,
+      "hanzi": "让“写”也成为一件轻松快",
+      "pinyin": "ràng “ xiě ” yě chéng wéi yī jiàn qīng sōng kuài",
+      "vi": ""
+    },
+    {
+      "start": 851.1,
+      "end": 852.333,
+      "hanzi": "乐的事情。",
+      "pinyin": "lè de shì qíng",
+      "vi": ""
+    },
+    {
+      "start": 852.333,
+      "end": 854.666,
+      "hanzi": "好了，时间过得真快。",
+      "pinyin": "hǎo le shí jiān guò dé zhēn kuài",
+      "vi": ""
+    },
+    {
+      "start": 854.7,
+      "end": 861.9,
+      "hanzi": "今天我们聊了四个帮助大家每天进步一点点的中文学习小方法。",
+      "pinyin": "jīn tiān wǒ men liáo le sì gè bāng zhù dà jiā měi tiān jìn bù yì diǎn diǎn de zhōng wén xué xí xiǎo fāng fǎ",
+      "vi": ""
+    },
+    {
+      "start": 861.933,
+      "end": 863.633,
+      "hanzi": "我们来简单回顾一下吧。",
+      "pinyin": "wǒ men lái jiǎn dān huí gù yī xià ba",
+      "vi": ""
+    },
+    {
+      "start": 863.666,
+      "end": 865.066,
+      "hanzi": "好的。",
+      "pinyin": "hǎo de",
+      "vi": ""
+    },
+    {
+      "start": 865.1,
+      "end": 868.233,
+      "hanzi": "第一，是让中文成为你生活的一部分。",
+      "pinyin": "dì yī shì ràng zhōng wén chéng wéi nǐ shēng huó de yī bù fèn",
+      "vi": ""
+    },
+    {
+      "start": 868.266,
+      "end": 873.866,
+      "hanzi": "比如，把手机语言换成中文，或者在家里贴上中文标签。",
+      "pinyin": "bǐ rú bǎ shǒu jī yǔ yán huàn chéng zhōng wén huò zhě zài jiā lǐ tiē shàng zhōng wén biāo qiān",
+      "vi": ""
+    },
+    {
+      "start": 873.9,
+      "end": 876.466,
+      "hanzi": "第二，是多听、多看。",
+      "pinyin": "dì èr shì duō tīng duō kàn",
+      "vi": ""
+    },
+    {
+      "start": 876.466,
+      "end": 879.4,
+      "hanzi": "听中文歌，看动画片和短视频，",
+      "pinyin": "tīng zhōng wén gē kàn dòng huà piàn hé duǎn shì pín",
+      "vi": ""
+    },
+    {
+      "start": 879.433,
+      "end": 882.7,
+      "hanzi": "让你的耳朵和眼睛熟悉中文。",
+      "pinyin": "ràng nǐ de ěr duǒ hé yǎn jīng shú xī zhōng wén",
+      "vi": ""
+    },
+    {
+      "start": 882.766,
+      "end": 885.566,
+      "hanzi": "第三，是敢说，不怕错。",
+      "pinyin": "dì sān shì gǎn shuō bù pà cuò",
+      "vi": ""
+    },
+    {
+      "start": 885.6,
+      "end": 888.6,
+      "hanzi": "勇敢地开口，去和别人交流，",
+      "pinyin": "yǒng gǎn dì kāi kǒu qù hé bié rén jiāo liú",
+      "vi": ""
+    },
+    {
+      "start": 888.633,
+      "end": 890.266,
+      "hanzi": "或者和自己说话。",
+      "pinyin": "huò zhě hé zì jǐ shuō huà",
+      "vi": ""
+    },
+    {
+      "start": 890.3,
+      "end": 892.966,
+      "hanzi": "第四，是每天写一点点。",
+      "pinyin": "dì sì shì měi tiān xiě yì diǎn diǎn",
+      "vi": ""
+    },
+    {
+      "start": 893.0,
+      "end": 898.133,
+      "hanzi": "可以写一句话的日记，或者发一条简单的中文信息。",
+      "pinyin": "kě yǐ xiě yī jù huà de rì jì huò zhě fā yī tiáo jiǎn dān de zhōng wén xìn xī",
+      "vi": ""
+    },
+    {
+      "start": 898.166,
+      "end": 902.533,
+      "hanzi": "是的。这些方法听起来都非常简单，对不对？",
+      "pinyin": "shì de zhè xiē fāng fǎ tīng qǐ lái dōu fēi cháng jiǎn dān duì bú duì",
+      "vi": ""
+    },
+    {
+      "start": 902.566,
+      "end": 904.6,
+      "hanzi": "对，都非常简单。",
+      "pinyin": "duì dōu fēi cháng jiǎn dān",
+      "vi": ""
+    },
+    {
+      "start": 904.666,
+      "end": 907.933,
+      "hanzi": "我觉得，学习语言，最重要的事情",
+      "pinyin": "wǒ jué de xué xí yǔ yán zuì zhòng yào de shì qíng",
+      "vi": ""
+    },
+    {
+      "start": 907.966,
+      "end": 909.7,
+      "hanzi": "可能不是你有多聪明，",
+      "pinyin": "kě néng bú shì nǐ yǒu duō cōng míng",
+      "vi": ""
+    },
+    {
+      "start": 909.733,
+      "end": 912.466,
+      "hanzi": "而是你能不能每天都坚持。",
+      "pinyin": "ér shì nǐ néng bù néng měi tiān dōu jiān chí",
+      "vi": ""
+    },
+    {
+      "start": 912.466,
+      "end": 914.7,
+      "hanzi": "哪怕每天只有十分钟，",
+      "pinyin": "nǎ pà měi tiān zhǐ yǒu shí fēn zhōng",
+      "vi": ""
+    },
+    {
+      "start": 914.733,
+      "end": 916.3,
+      "hanzi": "只要你坚持下去，",
+      "pinyin": "zhǐ yào nǐ jiān chí xià qù",
+      "vi": ""
+    },
+    {
+      "start": 916.333,
+      "end": 917.333,
+      "hanzi": "一年后，",
+      "pinyin": "yī nián hòu",
+      "vi": ""
+    },
+    {
+      "start": 917.366,
+      "end": 920.8,
+      "hanzi": "你一定会看到一个完全不一样的自己。",
+      "pinyin": "nǐ yí dìng huì kàn dào yí gè wán quán bù yí yàng de zì jǐ",
+      "vi": ""
+    },
+    {
+      "start": 920.833,
+      "end": 922.733,
+      "hanzi": "王雨说得太好了。",
+      "pinyin": "wáng yǔ shuō dé tài hǎo le",
+      "vi": ""
+    },
+    {
+      "start": 922.766,
+      "end": 928.233,
+      "hanzi": "希望今天我们的对话，能给正在学习中文的你一些帮助和鼓励。",
+      "pinyin": "xī wàng jīn tiān wǒ men de duì huà néng gěi zhèng zài xué xí zhōng wén de nǐ yī xiē bāng zhù hé gǔ lì",
+      "vi": ""
+    },
+    {
+      "start": 928.266,
+      "end": 935.033,
+      "hanzi": "是的！学习的路很长，但是只要我们每天都走一小步，就一定会到终点。",
+      "pinyin": "shì de xué xí de lù hěn zhǎng dàn shì zhǐ yào wǒ men měi tiān dōu zǒu yī xiǎo bù jiù yí dìng huì dào zhōng diǎn",
+      "vi": ""
+    },
+    {
+      "start": 935.066,
+      "end": 935.9,
+      "hanzi": "大家加油！",
+      "pinyin": "dà jiā jiā yóu",
+      "vi": ""
+    },
+    {
+      "start": 935.933,
+      "end": 939.833,
+      "hanzi": "好了，今天我们的“每天中文”就到这里了。",
+      "pinyin": "hǎo le jīn tiān wǒ men de “ měi tiān zhōng wén ” jiù dào zhè lǐ le",
+      "vi": ""
+    },
+    {
+      "start": 939.866,
+      "end": 941.2,
+      "hanzi": "感谢大家的收听。",
+      "pinyin": "gǎn xiè dà jiā de shōu tīng",
+      "vi": ""
+    },
+    {
+      "start": 941.233,
+      "end": 944.666,
+      "hanzi": "如果你们喜欢我们的播客，请记得关注我们。",
+      "pinyin": "rú guǒ nǐ men xǐ huān wǒ men de bō kè qǐng jì de guān zhù wǒ men",
+      "vi": ""
+    },
+    {
+      "start": 944.7,
+      "end": 946.0,
+      "hanzi": "我们下次再见！",
+      "pinyin": "wǒ men xià cì zài jiàn",
+      "vi": ""
+    },
+    {
+      "start": 946.033,
+      "end": 947.433,
+      "hanzi": "下次再见！",
+      "pinyin": "xià cì zài jiàn",
+      "vi": ""
+    },
+    {
+      "start": 947.6,
+      "end": 948.133,
+      "hanzi": "拜拜！",
+      "pinyin": "bài bài",
+      "vi": ""
+    }
+  ]
+}

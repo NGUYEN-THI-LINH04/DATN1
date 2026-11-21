@@ -1,0 +1,86 @@
+{% extends "student/base.html" %}
+
+{% block title %}Từ vựng | Mộc Hán{% endblock %}
+
+{% block content %}
+<div class="container page-area">
+    <div class="page-title">
+        <span class="eyebrow">SỔ TAY TIẾNG TRUNG</span>
+        <h1>Mỗi ngày, thêm một từ mới</h1>
+        <p>Bộ từ vựng minh họa cho giao diện tra cứu.</p>
+    </div>
+
+    <div class="toolbar">
+        <label class="field">
+            Tìm từ
+            <input id="word-search" type="search"
+                   placeholder="Nhập chữ Hán, pinyin hoặc nghĩa...">
+        </label>
+
+        <a class="button"
+           href="{{ url_for('preview.show', group='student', page='flashcards') }}">
+            Ôn flashcard →
+        </a>
+    </div>
+
+    <div class="grid-3">
+        {% for hanzi, pinyin, meaning in [
+            ('你好', 'nǐ hǎo', 'Xin chào'),
+            ('谢谢', 'xièxie', 'Cảm ơn'),
+            ('老师', 'lǎoshī', 'Giáo viên'),
+            ('学生', 'xuésheng', 'Học sinh'),
+            ('学习', 'xuéxí', 'Học tập'),
+            ('朋友', 'péngyou', 'Bạn bè')
+        ] %}
+        <article class="panel" data-word
+                 data-search="{{ hanzi }} {{ pinyin }} {{ meaning }}">
+            <span class="status-tag">Từ mẫu</span>
+            <div class="word-large" lang="zh">{{ hanzi }}</div>
+            <p class="muted">{{ pinyin }}</p>
+            <h3>{{ meaning }}</h3>
+
+            <button type="button" class="small-button save-word"
+                    aria-pressed="false">
+                ♡ Đánh dấu thử
+            </button>
+        </article>
+        {% endfor %}
+    </div>
+
+    <p id="word-empty" class="muted space-top" hidden>
+        Chưa có từ phù hợp trong bộ từ mẫu.
+    </p>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function normalizeWord(text) {
+    return text.toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/đ/g, "d");
+}
+
+document.getElementById("word-search").addEventListener("input", function () {
+    const query = normalizeWord(this.value.trim());
+    let count = 0;
+
+    document.querySelectorAll("[data-word]").forEach(function (card) {
+        const visible = normalizeWord(card.dataset.search).includes(query);
+        card.hidden = !visible;
+        if (visible) count++;
+    });
+
+    document.getElementById("word-empty").hidden = count > 0;
+});
+
+document.querySelectorAll(".save-word").forEach(function (button) {
+    button.addEventListener("click", function () {
+        const saved = button.getAttribute("aria-pressed") !== "true";
+        button.setAttribute("aria-pressed", String(saved));
+        button.textContent = saved ? "♥ Đã đánh dấu thử" : "♡ Đánh dấu thử";
+    });
+});
+</script>
+{% endblock %}

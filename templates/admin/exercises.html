@@ -1,0 +1,1330 @@
+
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Bài tập | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        BÀI TẬP · LUYỆN TẬP
+    </span>
+
+    <h1>
+        Quản lý bài tập
+    </h1>
+
+    <p>
+        Tạo và quản lý các bài tập theo từng bài học.
+        Câu hỏi được quản lý riêng tại mục Câu hỏi.
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     THÊM / SỬA BÀI TẬP
+===================================================== -->
+
+<section class="panel">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            {% if editing_exercise %}
+
+                <span class="eyebrow">
+                    CHỈNH SỬA
+                </span>
+
+                <h2>
+                    Sửa bài tập
+                </h2>
+
+            {% else %}
+
+                <span class="eyebrow">
+                    THÊM BÀI TẬP
+                </span>
+
+                <h2>
+                    + Tạo bài tập mới
+                </h2>
+
+            {% endif %}
+
+            <p>
+                Bài tập mới sẽ được tạo
+                ở trạng thái Bản nháp.
+            </p>
+
+        </div>
+
+
+        {% if editing_exercise %}
+
+            <a
+                class="small-button"
+
+                href="{{ url_for(
+                    'admin_exercises.index'
+                ) }}"
+            >
+                Hủy chỉnh sửa
+            </a>
+
+        {% endif %}
+
+    </div>
+
+
+    <form
+        method="post"
+
+        action="{% if editing_exercise %}{{ url_for('admin_exercises.edit', exercise_id=editing_exercise.id) }}{% else %}{{ url_for('admin_exercises.create') }}{% endif %}"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <!-- =============================================
+             BÀI HỌC
+        ============================================== -->
+
+        <div class="field">
+
+            <label for="exercise-lesson">
+                Bài học *
+            </label>
+
+            <select
+                id="exercise-lesson"
+                name="lesson_id"
+                required
+            >
+
+                <option value="">
+                    — Chọn bài học —
+                </option>
+
+                {% for lesson in lessons %}
+
+                    <option
+                        value="{{ lesson.id }}"
+
+                        {% if editing_exercise and editing_exercise.lesson_id == lesson.id %}
+                            selected
+                        {% endif %}
+                    >
+
+                        HSK {{ lesson.course_level }}
+
+                        ·
+
+                        Bài {{ lesson.order }}
+
+                        ·
+
+                        {{ lesson.title }}
+
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- =============================================
+             TÊN BÀI TẬP
+        ============================================== -->
+
+        <div class="field">
+
+            <label for="exercise-title">
+                Tên bài tập *
+            </label>
+
+            <input
+                id="exercise-title"
+
+                type="text"
+
+                name="title"
+
+                maxlength="200"
+
+                value="{{ editing_exercise.title if editing_exercise else '' }}"
+
+                placeholder="Ví dụ: Luyện tập Bài 1 - Chào hỏi"
+
+                required
+            >
+
+        </div>
+
+
+        <!-- =============================================
+             HƯỚNG DẪN
+        ============================================== -->
+
+        <div class="field">
+
+            <label for="exercise-instruction">
+                Hướng dẫn
+            </label>
+
+            <textarea
+                id="exercise-instruction"
+
+                name="instruction"
+
+                rows="4"
+
+                placeholder="Ví dụ: Chọn đáp án đúng cho mỗi câu hỏi."
+            >{{ editing_exercise.instruction if editing_exercise else '' }}</textarea>
+
+        </div>
+
+
+        <!-- =============================================
+             THỜI GIAN + PHẦN TRĂM ĐẠT
+        ============================================== -->
+
+        <div class="grid-2">
+
+            <div class="field">
+
+                <label for="exercise-time">
+                    Thời gian giới hạn (phút)
+                </label>
+
+                <input
+                    id="exercise-time"
+
+                    type="number"
+
+                    name="limit_minutes"
+
+                    min="0.1"
+
+                    step="0.1"
+
+                    value="{{ editing_exercise.limit_minutes if editing_exercise else '' }}"
+
+                    placeholder="Ví dụ: 15"
+                >
+
+                <small>
+                    Để trống nếu bài tập
+                    không giới hạn thời gian.
+                </small>
+
+            </div>
+
+
+            <div class="field">
+
+                <label for="exercise-pass">
+                    Phần trăm đạt *
+                </label>
+
+                <input
+                    id="exercise-pass"
+
+                    type="number"
+
+                    name="pass_percent"
+
+                    min="0"
+
+                    max="100"
+
+                    step="0.01"
+
+                    value="{{ editing_exercise.pass_percent if editing_exercise else 70 }}"
+
+                    required
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- =============================================
+             TRẠNG THÁI KHI TẠO / SỬA
+        ============================================== -->
+
+        {% if editing_exercise %}
+
+            <div class="notice">
+
+                Trạng thái hiện tại:
+
+                <strong>
+                    {{
+                        statuses.get(
+                            editing_exercise.status,
+                            editing_exercise.status
+                        )
+                    }}
+                </strong>.
+
+                Trạng thái được đổi tại
+                danh sách bài tập phía dưới.
+
+            </div>
+
+        {% else %}
+
+            <div class="lesson-create-status">
+
+                <strong>
+                    Trạng thái sau khi tạo:
+                </strong>
+
+                <span
+                    class="
+                        course-status
+                        course-status-ban_nhap
+                    "
+                >
+                    Bản nháp
+                </span>
+
+            </div>
+
+        {% endif %}
+
+
+        <!-- =============================================
+             NÚT LƯU
+        ============================================== -->
+
+        <div class="course-action-buttons space-top">
+
+            <button
+                type="submit"
+                class="button"
+            >
+
+                {% if editing_exercise %}
+
+                    Lưu thay đổi
+
+                {% else %}
+
+                    + Tạo bài tập
+
+                {% endif %}
+
+            </button>
+
+
+            {% if editing_exercise %}
+
+                <a
+                    class="small-button"
+
+                    href="{{ url_for(
+                        'admin_exercises.index'
+                    ) }}"
+                >
+                    Hủy
+                </a>
+
+            {% endif %}
+
+        </div>
+
+    </form>
+
+</section>
+
+
+<!-- =====================================================
+     BỘ LỌC BÀI TẬP
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                BỘ LỌC
+            </span>
+
+            <h2>
+                Lọc danh sách bài tập
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <form
+        method="get"
+
+        action="{{ url_for(
+            'admin_exercises.index'
+        ) }}"
+
+        class="admin-filter-grid"
+    >
+
+
+        <!-- =============================================
+             KHÓA HỌC
+        ============================================== -->
+
+        <div class="field">
+
+            <label for="filter-course">
+                Khóa học
+            </label>
+
+            <select
+                id="filter-course"
+                name="course_id"
+            >
+
+                <option value="">
+                    Tất cả khóa học
+                </option>
+
+                {% for course in courses %}
+
+                    <option
+                        value="{{ course.id }}"
+
+                        {% if selected_course == course.id %}
+                            selected
+                        {% endif %}
+                    >
+
+                        HSK {{ course.level }}
+
+                        ·
+
+                        {{ course.title }}
+
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- =============================================
+             BÀI HỌC
+        ============================================== -->
+
+        <div class="field">
+
+            <label for="filter-lesson">
+                Bài học
+            </label>
+
+            <select
+                id="filter-lesson"
+                name="lesson_id"
+            >
+
+                <option value="">
+                    Tất cả bài học
+                </option>
+
+                {% for lesson in lessons %}
+
+                    <option
+                        value="{{ lesson.id }}"
+
+                        {% if selected_lesson == lesson.id %}
+                            selected
+                        {% endif %}
+                    >
+
+                        HSK {{ lesson.course_level }}
+
+                        ·
+
+                        Bài {{ lesson.order }}
+
+                        ·
+
+                        {{ lesson.title }}
+
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- =============================================
+             TRẠNG THÁI LỌC
+        ============================================== -->
+
+        <div class="field">
+
+            <label for="filter-status">
+                Trạng thái
+            </label>
+
+            <select
+                id="filter-status"
+                name="status"
+            >
+
+                <option
+                    value="all"
+
+                    {% if selected_status == 'all' %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+                {% for status_value, status_label in statuses.items() %}
+
+                    <option
+                        value="{{ status_value }}"
+
+                        {% if selected_status == status_value %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ status_label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- =============================================
+             TÌM KIẾM
+        ============================================== -->
+
+        <div class="field">
+
+            <label for="filter-keyword">
+                Tìm kiếm
+            </label>
+
+            <input
+                id="filter-keyword"
+
+                type="search"
+
+                name="q"
+
+                value="{{ keyword }}"
+
+                placeholder="Tên bài tập, hướng dẫn..."
+            >
+
+        </div>
+
+
+        <!-- =============================================
+             NÚT LỌC
+        ============================================== -->
+
+        <div class="course-action-buttons">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lọc
+            </button>
+
+            <a
+                class="small-button"
+
+                href="{{ url_for(
+                    'admin_exercises.index'
+                ) }}"
+            >
+                Xóa lọc
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+
+<!-- =====================================================
+     TỔNG QUAN XUẤT BẢN BÀI TẬP
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                XUẤT BẢN BÀI TẬP
+            </span>
+
+            <h2>
+                Tổng quan bài tập
+            </h2>
+
+            {% set selected_course_item = namespace(value=none) %}
+
+            {% for course in courses %}
+
+                {% if course.id == selected_course %}
+
+                    {% set selected_course_item.value = course %}
+
+                {% endif %}
+
+            {% endfor %}
+
+
+            {% if selected_course_item.value %}
+
+                <p>
+
+                    <strong>
+                        HSK {{ selected_course_item.value.level }}
+                        ·
+                        {{ selected_course_item.value.title }}
+                    </strong>
+
+                </p>
+
+            {% elif selected_lesson %}
+
+                <p>
+                    Đang xem bài học đã chọn.
+                </p>
+
+            {% else %}
+
+                <p>
+                    Đang xem tất cả khóa học.
+                </p>
+
+            {% endif %}
+
+
+            <p>
+
+                Tổng:
+
+                <strong>
+                    {{ scope_total_count }}
+                </strong>
+
+                bài tập
+
+                ·
+
+                Còn:
+
+                <strong>
+                    {{ draft_count }}
+                </strong>
+
+                bài nháp.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============================================
+         XUẤT BẢN TOÀN BỘ BÀI NHÁP
+    ============================================== -->
+
+<!-- =====================================================
+     TỔNG QUAN XUẤT BẢN BÀI TẬP
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                XUẤT BẢN BÀI TẬP
+            </span>
+
+            <h2>
+                Tổng quan bài tập
+            </h2>
+
+
+            {% set selected_course_item = namespace(value=none) %}
+
+
+            {% for course in courses %}
+
+                {% if course.id == selected_course %}
+
+                    {% set selected_course_item.value = course %}
+
+                {% endif %}
+
+            {% endfor %}
+
+
+            {% if selected_course_item.value %}
+
+                <p>
+
+                    <strong>
+
+                        HSK {{ selected_course_item.value.level }}
+
+                        ·
+
+                        {{ selected_course_item.value.title }}
+
+                    </strong>
+
+                </p>
+
+
+            {% elif selected_lesson %}
+
+                <p>
+                    Đang xem bài học đã chọn.
+                </p>
+
+
+            {% else %}
+
+                <p>
+                    Đang xem tất cả khóa học.
+                </p>
+
+            {% endif %}
+
+
+            <p>
+
+                Tổng:
+
+                <strong>
+                    {{ scope_total_count }}
+                </strong>
+
+                bài tập
+
+                ·
+
+                Còn:
+
+                <strong>
+                    {{ draft_count }}
+                </strong>
+
+                bài nháp.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =============================================
+         XUẤT BẢN TOÀN BỘ BÀI NHÁP
+    ============================================== -->
+
+
+    {% if draft_count > 0 %}
+
+        <form
+            method="post"
+
+            action="{{ url_for(
+                'admin_exercises.publish_all'
+            ) }}"
+
+            onsubmit="return confirm('Bạn có chắc chắn muốn xuất bản toàn bộ các bài tập Bản nháp đủ điều kiện không?');"
+        >
+
+            <input
+                type="hidden"
+                name="csrf_token"
+                value="{{ csrf_token() }}"
+            >
+
+
+            <input
+                type="hidden"
+                name="course_id"
+                value="{{ selected_course or '' }}"
+            >
+
+
+            <input
+                type="hidden"
+                name="lesson_id"
+                value="{{ selected_lesson or '' }}"
+            >
+
+
+            <input
+                type="hidden"
+                name="q"
+                value="{{ keyword }}"
+            >
+
+
+            <button
+                type="submit"
+                class="button"
+            >
+
+                ✓ Xuất bản toàn bộ
+
+                {{ draft_count }}
+
+                bài nháp
+
+            </button>
+
+        </form>
+
+
+        <p class="media-path">
+
+            {% if selected_course or selected_lesson %}
+
+                Chỉ các bài tập Bản nháp
+                trong phạm vi đang lọc
+                được xử lý.
+
+            {% else %}
+
+                Đang áp dụng cho toàn bộ
+
+                {{ draft_count }}
+
+                bài tập Bản nháp.
+
+            {% endif %}
+
+        </p>
+
+
+    {% else %}
+
+        <div class="notice">
+
+            Không còn bài tập Bản nháp
+            trong phạm vi đang xem.
+
+        </div>
+
+    {% endif %}
+
+</section>
+
+<!-- =====================================================
+     DANH SÁCH BÀI TẬP
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                BÀI TẬP
+            </span>
+
+            <h2>
+                Danh sách bài tập
+            </h2>
+
+            <p>
+
+                Hiện có
+
+                <strong>
+                    {{ total_count }}
+                </strong>
+
+                bài tập phù hợp với bộ lọc.
+
+                Trang {{ page }} / {{ total_pages }}.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    {% if exercises %}
+
+        <div class="table-scroll">
+
+            <table class="data-table exercise-admin-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            ID
+                        </th>
+
+                        <th>
+                            Bài tập
+                        </th>
+
+                        <th>
+                            Bài học
+                        </th>
+
+                        <th>
+                            Câu hỏi
+                        </th>
+
+                        <th>
+                            Thời gian
+                        </th>
+
+                        <th>
+                            Điểm đạt
+                        </th>
+
+                        <th>
+                            Trạng thái
+                        </th>
+
+                        <th>
+                            Thao tác
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    {% for exercise in exercises %}
+
+                        <tr>
+
+
+                            <!-- =========================
+                                 ID
+                            ========================== -->
+
+                            <td>
+                                {{ exercise.id }}
+                            </td>
+
+
+                            <!-- =========================
+                                 BÀI TẬP
+                            ========================== -->
+
+                            <td>
+
+                                <strong>
+                                    {{ exercise.title }}
+                                </strong>
+
+                                {% if exercise.instruction %}
+
+                                    <div class="media-path">
+                                        {{ exercise.instruction }}
+                                    </div>
+
+                                {% endif %}
+
+                            </td>
+
+
+                            <!-- =========================
+                                 BÀI HỌC
+                            ========================== -->
+
+                            <td>
+
+                                <strong>
+                                    HSK {{ exercise.course_level }}
+                                </strong>
+
+                                <div class="media-path">
+
+                                    Bài {{ exercise.lesson_order }}
+
+                                    ·
+
+                                    {{ exercise.lesson_title }}
+
+                                </div>
+
+                            </td>
+
+
+                            <!-- =========================
+                                 SỐ CÂU HỎI
+                            ========================== -->
+
+                            <td>
+
+                                <strong>
+                                    {{ exercise.question_count }}
+                                </strong>
+
+                                câu
+
+                            </td>
+
+
+                            <!-- =========================
+                                 THỜI GIAN
+                            ========================== -->
+
+                            <td>
+
+                                {% if exercise.limit_minutes is not none %}
+
+                                    {{ exercise.limit_minutes|round(1) }}
+
+                                    phút
+
+                                {% else %}
+
+                                    Không giới hạn
+
+                                {% endif %}
+
+                            </td>
+
+
+                            <!-- =========================
+                                 PHẦN TRĂM ĐẠT
+                            ========================== -->
+
+                            <td>
+
+                                <strong>
+                                    {{ exercise.pass_percent }}%
+                                </strong>
+
+                            </td>
+
+
+                            <!-- =========================
+                                 TRẠNG THÁI
+                            ========================== -->
+
+                            <td>
+
+                                <span
+                                    class="
+                                        course-status
+                                        course-status-{{ exercise.status }}
+                                    "
+                                >
+
+                                    {{
+                                        statuses.get(
+                                            exercise.status,
+                                            exercise.status
+                                        )
+                                    }}
+
+                                </span>
+
+
+                                <!-- =====================
+                                     ĐỔI TRẠNG THÁI
+                                ====================== -->
+
+                                <form
+                                    method="post"
+
+                                    action="{{ url_for(
+                                        'admin_exercises.set_status',
+
+                                        exercise_id=exercise.id,
+
+                                        course_id=selected_course,
+
+                                        lesson_id=selected_lesson,
+
+                                        status=selected_status,
+
+                                        q=keyword,
+
+                                        page=page
+                                    ) }}"
+
+                                    class="exercise-status-form"
+                                >
+
+                                    <input
+                                        type="hidden"
+                                        name="csrf_token"
+                                        value="{{ csrf_token() }}"
+                                    >
+
+
+                                    <select
+                                        name="status"
+                                        class="exercise-status-select"
+                                    >
+
+                                        {% for status_value, status_label in statuses.items() %}
+
+                                            <option
+                                                value="{{ status_value }}"
+
+                                                {% if exercise.status == status_value %}
+                                                    selected
+                                                {% endif %}
+                                            >
+
+                                                {{ status_label }}
+
+                                            </option>
+
+                                        {% endfor %}
+
+                                    </select>
+
+
+                                    <button
+                                        type="submit"
+                                        class="small-button"
+                                    >
+                                        Cập nhật
+                                    </button>
+
+                                </form>
+
+                            </td>
+
+
+                            <!-- =========================
+                                 THAO TÁC
+                            ========================== -->
+
+                            <td>
+
+
+                                <!-- CHỈNH SỬA -->
+
+                                <a
+                                    class="small-button"
+
+                                    href="{{ url_for(
+                                        'admin_exercises.index',
+
+                                        edit=exercise.id,
+
+                                        course_id=selected_course,
+
+                                        lesson_id=selected_lesson,
+
+                                        status=selected_status,
+
+                                        q=keyword,
+
+                                        page=page
+                                    ) }}"
+                                >
+                                    Chỉnh sửa
+                                </a>
+
+
+                                <!-- XÓA BẢN NHÁP -->
+
+                                {% if exercise.status == 'ban_nhap' %}
+
+                                    <form
+                                        method="post"
+
+                                        action="{{ url_for(
+                                            'admin_exercises.delete',
+
+                                            exercise_id=exercise.id,
+
+                                            course_id=selected_course,
+
+                                            lesson_id=selected_lesson,
+
+                                            status=selected_status,
+
+                                            q=keyword,
+
+                                            page=page
+                                        ) }}"
+
+                                        onsubmit="return confirm('Bạn có chắc chắn muốn xóa bài tập Bản nháp này và các câu hỏi thuộc bài tập?');"
+                                    >
+
+                                        <input
+                                            type="hidden"
+                                            name="csrf_token"
+                                            value="{{ csrf_token() }}"
+                                        >
+
+
+                                        <button
+                                            type="submit"
+                                            class="small-button"
+                                        >
+                                            Xóa
+                                        </button>
+
+                                    </form>
+
+                                {% endif %}
+
+                            </td>
+
+                        </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <!-- =================================================
+             PHÂN TRANG
+        ================================================== -->
+
+        {% if total_pages > 1 %}
+
+            <nav class="admin-pagination">
+
+
+                <!-- TRANG TRƯỚC -->
+
+                {% if page > 1 %}
+
+                    <a
+                        class="small-button"
+
+                        href="{{ url_for(
+                            'admin_exercises.index',
+
+                            page=page - 1,
+
+                            course_id=selected_course,
+
+                            lesson_id=selected_lesson,
+
+                            status=selected_status,
+
+                            q=keyword
+                        ) }}"
+                    >
+                        ← Trang trước
+                    </a>
+
+                {% endif %}
+
+
+                <!-- TRANG HIỆN TẠI -->
+
+                <span class="admin-pagination-info">
+
+                    Trang {{ page }} / {{ total_pages }}
+
+                </span>
+
+
+                <!-- TRANG SAU -->
+
+                {% if page < total_pages %}
+
+                    <a
+                        class="small-button"
+
+                        href="{{ url_for(
+                            'admin_exercises.index',
+
+                            page=page + 1,
+
+                            course_id=selected_course,
+
+                            lesson_id=selected_lesson,
+
+                            status=selected_status,
+
+                            q=keyword
+                        ) }}"
+                    >
+                        Trang sau →
+                    </a>
+
+                {% endif %}
+
+            </nav>
+
+        {% endif %}
+
+
+    {% else %}
+
+        <div class="notice">
+
+            Chưa có bài tập nào phù hợp với bộ lọc.
+
+            Bạn có thể thay đổi bộ lọc
+            hoặc tạo bài tập mới.
+
+        </div>
+
+    {% endif %}
+
+</section>
+
+
+{% endblock %}

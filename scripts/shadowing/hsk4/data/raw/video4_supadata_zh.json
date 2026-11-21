@@ -1,0 +1,1419 @@
+{
+  "lang": "zh",
+  "availableLangs": [
+    "ar",
+    "my",
+    "zh",
+    "id",
+    "ja",
+    "km",
+    "ko",
+    "lo",
+    "pt",
+    "ru",
+    "es",
+    "th",
+    "tr",
+    "vi"
+  ],
+  "content": [
+    {
+      "lang": "zh",
+      "text": "大家好，欢迎收听新一期的“每天中文”。",
+      "offset": 7633,
+      "duration": 3700
+    },
+    {
+      "lang": "zh",
+      "text": "我是李明。",
+      "offset": 11366,
+      "duration": 1134
+    },
+    {
+      "lang": "zh",
+      "text": "大家好，我是王雨。",
+      "offset": 12533,
+      "duration": 2100
+    },
+    {
+      "lang": "zh",
+      "text": "上一期节目播出后，",
+      "offset": 14666,
+      "duration": 1400
+    },
+    {
+      "lang": "zh",
+      "text": "我们收到了好多朋友的留言，",
+      "offset": 16100,
+      "duration": 2533
+    },
+    {
+      "lang": "zh",
+      "text": "看到大家的评论，我们真的特别开心！",
+      "offset": 18666,
+      "duration": 3034
+    },
+    {
+      "lang": "zh",
+      "text": "是的，非常感谢大家的支持。",
+      "offset": 21733,
+      "duration": 2867
+    },
+    {
+      "lang": "zh",
+      "text": "我注意到很多朋友分享了自己喝茶",
+      "offset": 24633,
+      "duration": 3233
+    },
+    {
+      "lang": "zh",
+      "text": "或者喝咖啡的习惯。",
+      "offset": 27900,
+      "duration": 2100
+    },
+    {
+      "lang": "zh",
+      "text": "其中有一条留言，让我印象特别深刻。",
+      "offset": 30033,
+      "duration": 3400
+    },
+    {
+      "lang": "zh",
+      "text": "哦？是哪一条？",
+      "offset": 33466,
+      "duration": 1934
+    },
+    {
+      "lang": "zh",
+      "text": "是的，我看到一条留言，印象特别深刻。",
+      "offset": 35433,
+      "duration": 3433
+    },
+    {
+      "lang": "zh",
+      "text": "有一位朋友用中文分享了他的习惯，",
+      "offset": 38900,
+      "duration": 3033
+    },
+    {
+      "lang": "zh",
+      "text": "他说：“我每天早上喜欢喝一杯咖啡，",
+      "offset": 41966,
+      "duration": 4034
+    },
+    {
+      "lang": "zh",
+      "text": "吃午饭后我和家人一起喝红茶。”",
+      "offset": 46033,
+      "duration": 4400
+    },
+    {
+      "lang": "zh",
+      "text": "哇，这个生活习惯听起来真不错！",
+      "offset": 50466,
+      "duration": 2467
+    },
+    {
+      "lang": "zh",
+      "text": "早上用咖啡开始新的一天，",
+      "offset": 52966,
+      "duration": 2834
+    },
+    {
+      "lang": "zh",
+      "text": "下午和家人一起享受喝茶的慢时光。",
+      "offset": 55833,
+      "duration": 3267
+    },
+    {
+      "lang": "zh",
+      "text": "没错。",
+      "offset": 59133,
+      "duration": 700
+    },
+    {
+      "lang": "zh",
+      "text": "我看到这条留言的时候，",
+      "offset": 59833,
+      "duration": 2233
+    },
+    {
+      "lang": "zh",
+      "text": "突然有了一个新的想法。",
+      "offset": 62100,
+      "duration": 1733
+    },
+    {
+      "lang": "zh",
+      "text": "你看，早上一个人喝咖啡，为了工作和学习，",
+      "offset": 63866,
+      "duration": 4267
+    },
+    {
+      "lang": "zh",
+      "text": "这更像是一种“独处”的状态，对吧？",
+      "offset": 68166,
+      "duration": 3100
+    },
+    {
+      "lang": "zh",
+      "text": "嗯，是这样。",
+      "offset": 71300,
+      "duration": 1533
+    },
+    {
+      "lang": "zh",
+      "text": "但是，下午和家人一起喝茶、聊天，",
+      "offset": 72866,
+      "duration": 3867
+    },
+    {
+      "lang": "zh",
+      "text": "这又变成了一种温暖的“社交”活动。",
+      "offset": 76766,
+      "duration": 3500
+    },
+    {
+      "lang": "zh",
+      "text": "你这么一说，我才发现！",
+      "offset": 80300,
+      "duration": 1900
+    },
+    {
+      "lang": "zh",
+      "text": "原来，喝茶还是喝咖啡，这个选择的背后，",
+      "offset": 82233,
+      "duration": 3967
+    },
+    {
+      "lang": "zh",
+      "text": "还藏着我们是喜欢一个人待着，",
+      "offset": 86233,
+      "duration": 2900
+    },
+    {
+      "lang": "zh",
+      "text": "还是喜欢和别人在一起的问题。",
+      "offset": 89166,
+      "duration": 2834
+    },
+    {
+      "lang": "zh",
+      "text": "正是如此。",
+      "offset": 92033,
+      "duration": 1100
+    },
+    {
+      "lang": "zh",
+      "text": "所以我们今天就想借着这位朋友的留言，",
+      "offset": 93166,
+      "duration": 3434
+    },
+    {
+      "lang": "zh",
+      "text": "和大家深入地聊一聊这个话题：",
+      "offset": 96633,
+      "duration": 2767
+    },
+    {
+      "lang": "zh",
+      "text": "独处，还是社交？",
+      "offset": 99433,
+      "duration": 1967
+    },
+    {
+      "lang": "zh",
+      "text": "你觉得哪个对我们更重要？",
+      "offset": 101433,
+      "duration": 2400
+    },
+    {
+      "lang": "zh",
+      "text": "这个话题太好了！",
+      "offset": 103866,
+      "duration": 1867
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得很多人都会在这个问题上感到困惑。",
+      "offset": 105766,
+      "duration": 4067
+    },
+    {
+      "lang": "zh",
+      "text": "那我们今天就好好聊一聊吧！",
+      "offset": 109866,
+      "duration": 2467
+    },
+    {
+      "lang": "zh",
+      "text": "好的，明白了。",
+      "offset": 112366,
+      "duration": 1634
+    },
+    {
+      "lang": "zh",
+      "text": "我们更换一个全新的话题，但依然",
+      "offset": 114033,
+      "duration": 2867
+    },
+    {
+      "lang": "zh",
+      "text": "会遵循您提供的所有参数和结构，",
+      "offset": 116933,
+      "duration": 3067
+    },
+    {
+      "lang": "zh",
+      "text": "从上一集“茶与咖啡”的话题",
+      "offset": 120033,
+      "duration": 2667
+    },
+    {
+      "lang": "zh",
+      "text": "自然过渡过来。好。",
+      "offset": 122733,
+      "duration": 1933
+    },
+    {
+      "lang": "zh",
+      "text": "那为了让大家更了解我们，",
+      "offset": 124700,
+      "duration": 2366
+    },
+    {
+      "lang": "zh",
+      "text": "不如我们先说说自己的情况吧。",
+      "offset": 127100,
+      "duration": 2400
+    },
+    {
+      "lang": "zh",
+      "text": "王雨，你觉得自己是一个喜欢热闹的人，",
+      "offset": 129533,
+      "duration": 3567
+    },
+    {
+      "lang": "zh",
+      "text": "还是一个喜欢安静的人？",
+      "offset": 133133,
+      "duration": 2767
+    },
+    {
+      "lang": "zh",
+      "text": "这个太明显了！",
+      "offset": 135933,
+      "duration": 1500
+    },
+    {
+      "lang": "zh",
+      "text": "我肯定是喜欢热闹的人。",
+      "offset": 137466,
+      "duration": 2367
+    },
+    {
+      "lang": "zh",
+      "text": "我特别喜欢和一大群朋友在一起的感觉，",
+      "offset": 139866,
+      "duration": 4367
+    },
+    {
+      "lang": "zh",
+      "text": "大家一起吃饭、聊天、唱歌，",
+      "offset": 144266,
+      "duration": 3034
+    },
+    {
+      "lang": "zh",
+      "text": "感觉非常有活力。",
+      "offset": 147333,
+      "duration": 1867
+    },
+    {
+      "lang": "zh",
+      "text": "用一个流行的词来说，",
+      "offset": 149233,
+      "duration": 2100
+    },
+    {
+      "lang": "zh",
+      "text": "我应该是一个“外向”的人。",
+      "offset": 151366,
+      "duration": 2734
+    },
+    {
+      "lang": "zh",
+      "text": "外向。",
+      "offset": 154133,
+      "duration": 933
+    },
+    {
+      "lang": "zh",
+      "text": "嗯，这个词很准确。",
+      "offset": 155066,
+      "duration": 2234
+    },
+    {
+      "lang": "zh",
+      "text": "就是说，你通过和别人交流来获得能量。",
+      "offset": 157333,
+      "duration": 4267
+    },
+    {
+      "lang": "zh",
+      "text": "对对对！就是这个意思。",
+      "offset": 161633,
+      "duration": 2233
+    },
+    {
+      "lang": "zh",
+      "text": "每次和朋友们聚会之后，我都觉得特别开心，",
+      "offset": 163900,
+      "duration": 4033
+    },
+    {
+      "lang": "zh",
+      "text": "感觉自己又“充满电”了。",
+      "offset": 167966,
+      "duration": 2834
+    },
+    {
+      "lang": "zh",
+      "text": "你呢，李明？",
+      "offset": 170833,
+      "duration": 1133
+    },
+    {
+      "lang": "zh",
+      "text": "你看起来总是很冷静，很安稳。",
+      "offset": 171966,
+      "duration": 3200
+    },
+    {
+      "lang": "zh",
+      "text": "(笑)，你观察得很准。",
+      "offset": 175166,
+      "duration": 2767
+    },
+    {
+      "lang": "zh",
+      "text": "我可能正好和你相反。",
+      "offset": 177966,
+      "duration": 2034
+    },
+    {
+      "lang": "zh",
+      "text": "我更喜欢安静。",
+      "offset": 180033,
+      "duration": 1467
+    },
+    {
+      "lang": "zh",
+      "text": "用刚才那个词来说，",
+      "offset": 181533,
+      "duration": 1567
+    },
+    {
+      "lang": "zh",
+      "text": "我是一个比较“内向”的人。",
+      "offset": 183133,
+      "duration": 2700
+    },
+    {
+      "lang": "zh",
+      "text": "我不是不喜欢和朋友在一起，",
+      "offset": 185866,
+      "duration": 2134
+    },
+    {
+      "lang": "zh",
+      "text": "但是我更喜欢小范围的聚会，",
+      "offset": 188033,
+      "duration": 2800
+    },
+    {
+      "lang": "zh",
+      "text": "比如两个或者三个人，",
+      "offset": 190866,
+      "duration": 2267
+    },
+    {
+      "lang": "zh",
+      "text": "找个安静的地方，深入地聊聊天。",
+      "offset": 193166,
+      "duration": 2967
+    },
+    {
+      "lang": "zh",
+      "text": "哦，深入地聊天。",
+      "offset": 196133,
+      "duration": 2267
+    },
+    {
+      "lang": "zh",
+      "text": "是的。",
+      "offset": 198433,
+      "duration": 633
+    },
+    {
+      "lang": "zh",
+      "text": "如果参加一个非常多人的派对，",
+      "offset": 199100,
+      "duration": 2566
+    },
+    {
+      "lang": "zh",
+      "text": "周围有很多人在说话，我会觉得很累，",
+      "offset": 201700,
+      "duration": 3333
+    },
+    {
+      "lang": "zh",
+      "text": "感觉自己的能量很快就被用完了。",
+      "offset": 205066,
+      "duration": 2834
+    },
+    {
+      "lang": "zh",
+      "text": "所以对我来说，独处，",
+      "offset": 207933,
+      "duration": 2100
+    },
+    {
+      "lang": "zh",
+      "text": "比如一个人在家看书或者看电影，",
+      "offset": 210066,
+      "duration": 3034
+    },
+    {
+      "lang": "zh",
+      "text": "是给我“充电”的方式。",
+      "offset": 213133,
+      "duration": 2300
+    },
+    {
+      "lang": "zh",
+      "text": "原来是这样！",
+      "offset": 215466,
+      "duration": 1634
+    },
+    {
+      "lang": "zh",
+      "text": "一个是通过社交充电，一个是通过独处充电。",
+      "offset": 217133,
+      "duration": 4567
+    },
+    {
+      "lang": "zh",
+      "text": "这太有趣了。",
+      "offset": 221733,
+      "duration": 1800
+    },
+    {
+      "lang": "zh",
+      "text": "这让我想到了我们现在最常用的社交方式——手机。",
+      "offset": 223566,
+      "duration": 4700
+    },
+    {
+      "lang": "zh",
+      "text": "你觉得手机上的社交，",
+      "offset": 228266,
+      "duration": 2567
+    },
+    {
+      "lang": "zh",
+      "text": "算是真正的社交吗？",
+      "offset": 230866,
+      "duration": 2067
+    },
+    {
+      "lang": "zh",
+      "text": "这正是我接下来想讨论的。",
+      "offset": 232966,
+      "duration": 2700
+    },
+    {
+      "lang": "zh",
+      "text": "手机和网络，完全改变了我们的社交方式。",
+      "offset": 235700,
+      "duration": 4100
+    },
+    {
+      "lang": "zh",
+      "text": "是啊！",
+      "offset": 239800,
+      "duration": 900
+    },
+    {
+      "lang": "zh",
+      "text": "现在我们有微信，",
+      "offset": 240700,
+      "duration": 1633
+    },
+    {
+      "lang": "zh",
+      "text": "可以随时随地和朋友发信息、打电话。",
+      "offset": 242366,
+      "duration": 3334
+    },
+    {
+      "lang": "zh",
+      "text": "方便是方便了很多，但我总觉得，",
+      "offset": 245700,
+      "duration": 3666
+    },
+    {
+      "lang": "zh",
+      "text": "好像少了点什么。",
+      "offset": 249366,
+      "duration": 2034
+    },
+    {
+      "lang": "zh",
+      "text": "少了点什么？",
+      "offset": 251433,
+      "duration": 833
+    },
+    {
+      "lang": "zh",
+      "text": "你具体说说看。",
+      "offset": 252300,
+      "duration": 1633
+    },
+    {
+      "lang": "zh",
+      "text": "少了“温度”。",
+      "offset": 253966,
+      "duration": 1467
+    },
+    {
+      "lang": "zh",
+      "text": "在手机上聊天，你看不到对方的表情，",
+      "offset": 255466,
+      "duration": 3534
+    },
+    {
+      "lang": "zh",
+      "text": "也听不到他说话的语气。",
+      "offset": 259033,
+      "duration": 2600
+    },
+    {
+      "lang": "zh",
+      "text": "有时候，同样一句话，用不同的语气说出来，",
+      "offset": 261666,
+      "duration": 4000
+    },
+    {
+      "lang": "zh",
+      "text": "意思是完全不一样的。",
+      "offset": 265700,
+      "duration": 1800
+    },
+    {
+      "lang": "zh",
+      "text": "我同意。",
+      "offset": 267533,
+      "duration": 867
+    },
+    {
+      "lang": "zh",
+      "text": "文字确实有时候会引起误会。对！",
+      "offset": 268433,
+      "duration": 3167
+    },
+    {
+      "lang": "zh",
+      "text": "我就有一次这样的经历。",
+      "offset": 271633,
+      "duration": 1900
+    },
+    {
+      "lang": "zh",
+      "text": "我给一个朋友发信息，开玩笑地说了他一句。",
+      "offset": 273566,
+      "duration": 4234
+    },
+    {
+      "lang": "zh",
+      "text": "结果他可能以为我很生气，",
+      "offset": 277833,
+      "duration": 2600
+    },
+    {
+      "lang": "zh",
+      "text": "很长时间都没回我信息。",
+      "offset": 280466,
+      "duration": 2634
+    },
+    {
+      "lang": "zh",
+      "text": "后来我们打电话说清楚了，才发现是个误会。",
+      "offset": 283133,
+      "duration": 4133
+    },
+    {
+      "lang": "zh",
+      "text": "如果是见面说，肯定不会有这样的问题。",
+      "offset": 287300,
+      "duration": 3400
+    },
+    {
+      "lang": "zh",
+      "text": "我理解。",
+      "offset": 290733,
+      "duration": 800
+    },
+    {
+      "lang": "zh",
+      "text": "不过，线上社交也有它的好处，对吧？",
+      "offset": 291566,
+      "duration": 3134
+    },
+    {
+      "lang": "zh",
+      "text": "比如，有些朋友在很远的城市，",
+      "offset": 294733,
+      "duration": 2767
+    },
+    {
+      "lang": "zh",
+      "text": "我们不可能经常见面。",
+      "offset": 297533,
+      "duration": 1933
+    },
+    {
+      "lang": "zh",
+      "text": "通过网络，我们可以保持联系，",
+      "offset": 299500,
+      "duration": 2233
+    },
+    {
+      "lang": "zh",
+      "text": "分享彼此的生活。",
+      "offset": 301766,
+      "duration": 1767
+    },
+    {
+      "lang": "zh",
+      "text": "这倒是真的。",
+      "offset": 303566,
+      "duration": 1534
+    },
+    {
+      "lang": "zh",
+      "text": "我的朋友圈里，就有很多年没见过的老同学，",
+      "offset": 305133,
+      "duration": 4000
+    },
+    {
+      "lang": "zh",
+      "text": "看到他们现在过得很好，我也很开心。",
+      "offset": 309166,
+      "duration": 3100
+    },
+    {
+      "lang": "zh",
+      "text": "而且，我觉得线上交流给了像我这样的内向者",
+      "offset": 312300,
+      "duration": 4300
+    },
+    {
+      "lang": "zh",
+      "text": "一个很好的空间。",
+      "offset": 316633,
+      "duration": 1700
+    },
+    {
+      "lang": "zh",
+      "text": "有时候，当面不知道怎么说的话，",
+      "offset": 318366,
+      "duration": 2434
+    },
+    {
+      "lang": "zh",
+      "text": "通过打字就可以很轻松地表达出来。",
+      "offset": 320833,
+      "duration": 3267
+    },
+    {
+      "lang": "zh",
+      "text": "这对我来说，压力会小很多。",
+      "offset": 324133,
+      "duration": 2467
+    },
+    {
+      "lang": "zh",
+      "text": "嗯，你说的也有道理。",
+      "offset": 326633,
+      "duration": 2300
+    },
+    {
+      "lang": "zh",
+      "text": "而且现在微信的“表情包”特别流行，",
+      "offset": 328966,
+      "duration": 3767
+    },
+    {
+      "lang": "zh",
+      "text": "大家用各种有趣的图片来表达自己的心情，",
+      "offset": 332766,
+      "duration": 4300
+    },
+    {
+      "lang": "zh",
+      "text": "也算是增加了一点聊天的乐趣和温度。",
+      "offset": 337100,
+      "duration": 3900
+    },
+    {
+      "lang": "zh",
+      "text": "是的，表情包现在已经成了一种新的语言。",
+      "offset": 341033,
+      "duration": 4500
+    },
+    {
+      "lang": "zh",
+      "text": "不过，说到这里，我又想到了另一个问题。",
+      "offset": 345566,
+      "duration": 4100
+    },
+    {
+      "lang": "zh",
+      "text": "因为网络社交太方便了，",
+      "offset": 349700,
+      "duration": 2433
+    },
+    {
+      "lang": "zh",
+      "text": "会不会让我们变得越来越懒，",
+      "offset": 352166,
+      "duration": 2467
+    },
+    {
+      "lang": "zh",
+      "text": "懒得出门去见真正的朋友了？",
+      "offset": 354666,
+      "duration": 3200
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得会！",
+      "offset": 357900,
+      "duration": 1166
+    },
+    {
+      "lang": "zh",
+      "text": "有时候周末，朋友约我出去吃饭，",
+      "offset": 359100,
+      "duration": 3300
+    },
+    {
+      "lang": "zh",
+      "text": "我一想到要换衣服，要坐车，就觉得好麻烦，",
+      "offset": 362433,
+      "duration": 5033
+    },
+    {
+      "lang": "zh",
+      "text": "心想，还不如我们在线上聊聊天算了。",
+      "offset": 367500,
+      "duration": 4200
+    },
+    {
+      "lang": "zh",
+      "text": "你看，这就是问题所在。",
+      "offset": 371733,
+      "duration": 2400
+    },
+    {
+      "lang": "zh",
+      "text": "我们节省了时间，",
+      "offset": 374166,
+      "duration": 1734
+    },
+    {
+      "lang": "zh",
+      "text": "但可能也失去了一些更珍贵的东西。",
+      "offset": 375933,
+      "duration": 3767
+    },
+    {
+      "lang": "zh",
+      "text": "比如，和朋友面对面吃饭时，",
+      "offset": 379733,
+      "duration": 2967
+    },
+    {
+      "lang": "zh",
+      "text": "那种分享食物的快乐，",
+      "offset": 382733,
+      "duration": 2500
+    },
+    {
+      "lang": "zh",
+      "text": "那种看到对方真实笑容的温暖。",
+      "offset": 385266,
+      "duration": 3367
+    },
+    {
+      "lang": "zh",
+      "text": "我完全同意。",
+      "offset": 388666,
+      "duration": 1467
+    },
+    {
+      "lang": "zh",
+      "text": "这种真实的体验，",
+      "offset": 390166,
+      "duration": 1700
+    },
+    {
+      "lang": "zh",
+      "text": "是任何表情包都代替不了的。",
+      "offset": 391900,
+      "duration": 3133
+    },
+    {
+      "lang": "zh",
+      "text": "而且，不管是线上还是线下，",
+      "offset": 395066,
+      "duration": 3634
+    },
+    {
+      "lang": "zh",
+      "text": "社交有时候也会给我们带来压力。",
+      "offset": 398733,
+      "duration": 3133
+    },
+    {
+      "lang": "zh",
+      "text": "你觉得呢？",
+      "offset": 401900,
+      "duration": 966
+    },
+    {
+      "lang": "zh",
+      "text": "当然有！这叫“社交压力”。",
+      "offset": 402900,
+      "duration": 3766
+    },
+    {
+      "lang": "zh",
+      "text": "比如，有时候我工作了一天，晚上真的很累，",
+      "offset": 406700,
+      "duration": 4433
+    },
+    {
+      "lang": "zh",
+      "text": "只想一个人安安静静地待着。",
+      "offset": 411166,
+      "duration": 3300
+    },
+    {
+      "lang": "zh",
+      "text": "但是，如果这时候",
+      "offset": 414500,
+      "duration": 1600
+    },
+    {
+      "lang": "zh",
+      "text": "有朋友打电话叫我出去聚会，",
+      "offset": 416133,
+      "duration": 2800
+    },
+    {
+      "lang": "zh",
+      "text": "我有时候会不知道怎么拒绝。",
+      "offset": 418966,
+      "duration": 2867
+    },
+    {
+      "lang": "zh",
+      "text": "为什么呢？",
+      "offset": 421866,
+      "duration": 1134
+    },
+    {
+      "lang": "zh",
+      "text": "我害怕如果我拒绝了，",
+      "offset": 423033,
+      "duration": 2500
+    },
+    {
+      "lang": "zh",
+      "text": "朋友会觉得我不喜欢他们，",
+      "offset": 425566,
+      "duration": 2567
+    },
+    {
+      "lang": "zh",
+      "text": "或者下次他们就不会再叫我了。",
+      "offset": 428166,
+      "duration": 3934
+    },
+    {
+      "lang": "zh",
+      "text": "而且看到大家都在朋友圈里发一起玩的照片，",
+      "offset": 432133,
+      "duration": 4967
+    },
+    {
+      "lang": "zh",
+      "text": "只有我不在，心里会有点儿不舒服。",
+      "offset": 437133,
+      "duration": 3667
+    },
+    {
+      "lang": "zh",
+      "text": "我非常理解这种感觉。",
+      "offset": 440833,
+      "duration": 2567
+    },
+    {
+      "lang": "zh",
+      "text": "好像我们害怕被大家忘记，",
+      "offset": 443433,
+      "duration": 2300
+    },
+    {
+      "lang": "zh",
+      "text": "害怕错过一些重要的事。",
+      "offset": 445766,
+      "duration": 2467
+    },
+    {
+      "lang": "zh",
+      "text": "这可能是很多现代人的共同烦恼。",
+      "offset": 448266,
+      "duration": 3467
+    },
+    {
+      "lang": "zh",
+      "text": "是啊，你有没有这种时候？",
+      "offset": 451766,
+      "duration": 2567
+    },
+    {
+      "lang": "zh",
+      "text": "当然有。不过后来我慢慢想明白了。",
+      "offset": 454366,
+      "duration": 4767
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得，社交的能量就像手机的电池。",
+      "offset": 459166,
+      "duration": 4467
+    },
+    {
+      "lang": "zh",
+      "text": "有些活动能给你的电池充电，让你开心；",
+      "offset": 463666,
+      "duration": 3834
+    },
+    {
+      "lang": "zh",
+      "text": "有些活动会消耗你的电池，让你疲惫。",
+      "offset": 467533,
+      "duration": 4400
+    },
+    {
+      "lang": "zh",
+      "text": "你需要清楚地知道，哪些是充电的，",
+      "offset": 471966,
+      "duration": 3734
+    },
+    {
+      "lang": "zh",
+      "text": "哪些是耗电的。",
+      "offset": 475733,
+      "duration": 1800
+    },
+    {
+      "lang": "zh",
+      "text": "哇，",
+      "offset": 477533,
+      "duration": 1133
+    },
+    {
+      "lang": "zh",
+      "text": "这个比喻太好了！",
+      "offset": 478700,
+      "duration": 2033
+    },
+    {
+      "lang": "zh",
+      "text": "社交能量像手机电池。对。",
+      "offset": 480766,
+      "duration": 3067
+    },
+    {
+      "lang": "zh",
+      "text": "所以，当你觉得累的时候，",
+      "offset": 483866,
+      "duration": 2534
+    },
+    {
+      "lang": "zh",
+      "text": "拒绝一个让你耗电的社交活动，",
+      "offset": 486433,
+      "duration": 3100
+    },
+    {
+      "lang": "zh",
+      "text": "其实是在保护你自己的“电池”。",
+      "offset": 489566,
+      "duration": 3434
+    },
+    {
+      "lang": "zh",
+      "text": "真正的好朋友，是会理解你的。",
+      "offset": 493033,
+      "duration": 2767
+    },
+    {
+      "lang": "zh",
+      "text": "他们关心的是你是否开心，",
+      "offset": 495833,
+      "duration": 2800
+    },
+    {
+      "lang": "zh",
+      "text": "而不是你是否参加了每一次聚会。",
+      "offset": 498666,
+      "duration": 3400
+    },
+    {
+      "lang": "zh",
+      "text": "你说得对。",
+      "offset": 502066,
+      "duration": 1634
+    },
+    {
+      "lang": "zh",
+      "text": "我们应该更关注社交的质量，而不是数量。",
+      "offset": 503700,
+      "duration": 4300
+    },
+    {
+      "lang": "zh",
+      "text": "与其参加十个无聊的派对，不如和一两个",
+      "offset": 508033,
+      "duration": 3700
+    },
+    {
+      "lang": "zh",
+      "text": "好朋友进行一次深入的谈话。",
+      "offset": 511766,
+      "duration": 3434
+    },
+    {
+      "lang": "zh",
+      "text": "完全正确。",
+      "offset": 515233,
+      "duration": 1200
+    },
+    {
+      "lang": "zh",
+      "text": "独处也是一样。",
+      "offset": 516466,
+      "duration": 1667
+    },
+    {
+      "lang": "zh",
+      "text": "高质量的独处，不是把自己关起来玩手机，",
+      "offset": 518166,
+      "duration": 3667
+    },
+    {
+      "lang": "zh",
+      "text": "而是利用那段时间，做一些真正让自己放松",
+      "offset": 521866,
+      "duration": 4367
+    },
+    {
+      "lang": "zh",
+      "text": "和成长的事情，比如阅读、",
+      "offset": 526266,
+      "duration": 2834
+    },
+    {
+      "lang": "zh",
+      "text": "运动、学习一个新技能。",
+      "offset": 529133,
+      "duration": 2867
+    },
+    {
+      "lang": "zh",
+      "text": "这才是独处的真正意义。",
+      "offset": 532033,
+      "duration": 3000
+    },
+    {
+      "lang": "zh",
+      "text": "我明白了。",
+      "offset": 535066,
+      "duration": 1200
+    },
+    {
+      "lang": "zh",
+      "text": "无论是选择社交还是独处，",
+      "offset": 536300,
+      "duration": 2900
+    },
+    {
+      "lang": "zh",
+      "text": "最重要的都不是形式，而是我们",
+      "offset": 539233,
+      "duration": 3667
+    },
+    {
+      "lang": "zh",
+      "text": "能不能从中获得真正的快乐和能量。",
+      "offset": 542933,
+      "duration": 3733
+    },
+    {
+      "lang": "zh",
+      "text": "是的，找到那个让自己最舒服的平衡点。",
+      "offset": 546700,
+      "duration": 4400
+    },
+    {
+      "lang": "zh",
+      "text": "好了，今天我们围绕“独处",
+      "offset": 551133,
+      "duration": 3200
+    },
+    {
+      "lang": "zh",
+      "text": "还是社交”这个话题，",
+      "offset": 554366,
+      "duration": 2134
+    },
+    {
+      "lang": "zh",
+      "text": "从不同的角度进行了探讨。",
+      "offset": 556533,
+      "duration": 2700
+    },
+    {
+      "lang": "zh",
+      "text": "我们来简单总结一下今天聊到的几个",
+      "offset": 559266,
+      "duration": 2967
+    },
+    {
+      "lang": "zh",
+      "text": "关键点。好的。",
+      "offset": 562266,
+      "duration": 1867
+    },
+    {
+      "lang": "zh",
+      "text": "第一，每个人对社交和独处的需求是不同的，",
+      "offset": 564166,
+      "duration": 4567
+    },
+    {
+      "lang": "zh",
+      "text": "这和我们是内向还是外向的性格有关，",
+      "offset": 568766,
+      "duration": 3467
+    },
+    {
+      "lang": "zh",
+      "text": "没有好坏之分。",
+      "offset": 572266,
+      "duration": 1634
+    },
+    {
+      "lang": "zh",
+      "text": "重要的是了解自己，",
+      "offset": 573933,
+      "duration": 1967
+    },
+    {
+      "lang": "zh",
+      "text": "知道什么能给自己“充电”。",
+      "offset": 575933,
+      "duration": 3167
+    },
+    {
+      "lang": "zh",
+      "text": "第二，现代的线上社交很方便，",
+      "offset": 579133,
+      "duration": 3367
+    },
+    {
+      "lang": "zh",
+      "text": "但它缺少了面对面交流的“温度”，",
+      "offset": 582533,
+      "duration": 3733
+    },
+    {
+      "lang": "zh",
+      "text": "我们不能完全依赖它而忽略了真实的见面。",
+      "offset": 586300,
+      "duration": 4566
+    },
+    {
+      "lang": "zh",
+      "text": "第三，也是最重要的，",
+      "offset": 590900,
+      "duration": 2166
+    },
+    {
+      "lang": "zh",
+      "text": "我们要学会处理“社交压力”，",
+      "offset": 593100,
+      "duration": 2766
+    },
+    {
+      "lang": "zh",
+      "text": "勇敢地选择让自己舒服的方式。",
+      "offset": 595900,
+      "duration": 3633
+    },
+    {
+      "lang": "zh",
+      "text": "社交的意义在于质量，而不是数量。",
+      "offset": 599566,
+      "duration": 3867
+    },
+    {
+      "lang": "zh",
+      "text": "总结得非常清晰！",
+      "offset": 603466,
+      "duration": 1867
+    },
+    {
+      "lang": "zh",
+      "text": "希望我们的讨论，",
+      "offset": 605366,
+      "duration": 1134
+    },
+    {
+      "lang": "zh",
+      "text": "能给大家带来一些新的思考。",
+      "offset": 606533,
+      "duration": 2767
+    },
+    {
+      "lang": "zh",
+      "text": "嗯！",
+      "offset": 609333,
+      "duration": 733
+    },
+    {
+      "lang": "zh",
+      "text": "如果大家想回顾今天我们聊天的内容，",
+      "offset": 610066,
+      "duration": 3400
+    },
+    {
+      "lang": "zh",
+      "text": "可以去我们的博客看看。",
+      "offset": 613500,
+      "duration": 2500
+    },
+    {
+      "lang": "zh",
+      "text": "我们把每一期节目的完整文本都放在上面了，",
+      "offset": 616033,
+      "duration": 3833
+    },
+    {
+      "lang": "zh",
+      "text": "方便大家学习。",
+      "offset": 619900,
+      "duration": 2333
+    },
+    {
+      "lang": "zh",
+      "text": "博客的地址是",
+      "offset": 622266,
+      "duration": 1667
+    },
+    {
+      "lang": "zh",
+      "text": "chinesedailypodcast.blogspot.com。",
+      "offset": 623966,
+      "duration": 4167
+    },
+    {
+      "lang": "zh",
+      "text": "是的，欢迎大家去阅读和复习。",
+      "offset": 628166,
+      "duration": 3167
+    },
+    {
+      "lang": "zh",
+      "text": "那么，节目的最后，也想问问正在收听的你：",
+      "offset": 631366,
+      "duration": 4467
+    },
+    {
+      "lang": "zh",
+      "text": "你是更喜欢一个人待着，",
+      "offset": 635866,
+      "duration": 2434
+    },
+    {
+      "lang": "zh",
+      "text": "还是更喜欢和朋友们在一起呢？",
+      "offset": 638333,
+      "duration": 3533
+    },
+    {
+      "lang": "zh",
+      "text": "你最喜欢的社交方式又是什么呢？",
+      "offset": 641900,
+      "duration": 3233
+    },
+    {
+      "lang": "zh",
+      "text": "非常欢迎大家在评论区给我们留言，",
+      "offset": 645166,
+      "duration": 2900
+    },
+    {
+      "lang": "zh",
+      "text": "分享你的想法和故事！",
+      "offset": 648100,
+      "duration": 2033
+    },
+    {
+      "lang": "zh",
+      "text": "我们期待着看到大家的分享。",
+      "offset": 650166,
+      "duration": 2300
+    },
+    {
+      "lang": "zh",
+      "text": "好了，这期的“每天中文”就到这里了。",
+      "offset": 652500,
+      "duration": 3200
+    },
+    {
+      "lang": "zh",
+      "text": "感谢大家的收听，",
+      "offset": 655733,
+      "duration": 1367
+    },
+    {
+      "lang": "zh",
+      "text": "我们下期再见！",
+      "offset": 657133,
+      "duration": 1300
+    },
+    {
+      "lang": "zh",
+      "text": "再见！",
+      "offset": 658433,
+      "duration": 733
+    }
+  ]
+}

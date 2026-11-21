@@ -1,0 +1,466 @@
+{% extends "student/base.html" %}
+
+
+{% block title %}
+214 Bộ thủ | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+<section class="foundation-page radicals-page">
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <div class="foundation-header">
+
+        <div class="foundation-breadcrumb">
+
+            <a href="{{ url_for('home.index') }}">
+                Trang chủ
+            </a>
+
+            <span>/</span>
+
+            <span>Nền tảng</span>
+
+            <span>/</span>
+
+            <strong>
+                214 Bộ thủ
+            </strong>
+
+        </div>
+
+
+        <div class="foundation-title-row">
+
+            <div class="foundation-title-icon">
+                部
+            </div>
+
+
+            <div>
+
+                <span class="foundation-eyebrow">
+                    KIẾN THỨC CHỮ HÁN
+                </span>
+
+                <h1>
+                    214 Bộ thủ
+                    <span>
+                        康熙部首
+                    </span>
+                </h1>
+
+                <p>
+                    Tra cứu 214 bộ thủ Khang Hy theo ký hiệu,
+                    tên bộ, ý nghĩa và số nét.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         THỐNG KÊ
+    ====================================================== -->
+
+    <div class="radical-summary">
+
+        <div class="radical-summary-card">
+
+            <strong>
+                {{ total_radicals }}
+            </strong>
+
+            <span>
+                bộ thủ
+            </span>
+
+        </div>
+
+
+        <div class="radical-summary-text">
+
+            <strong>
+                Bộ thủ là gì?
+            </strong>
+
+            <p>
+                Bộ thủ là thành phần dùng để phân loại và hỗ trợ
+                ghi nhớ cấu tạo chữ Hán.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         TÌM KIẾM + LỌC
+    ====================================================== -->
+
+    <div class="radical-toolbar">
+
+        <div class="radical-search-box">
+
+            <span class="radical-search-icon">
+                ⌕
+            </span>
+
+            <input
+                type="text"
+                id="radicalSearchInput"
+                placeholder="Tìm theo ký hiệu, tên bộ hoặc ý nghĩa..."
+                autocomplete="off"
+            >
+
+        </div>
+
+
+        <div class="radical-stroke-filter">
+
+            <span>
+                Số nét:
+            </span>
+
+            <select id="radicalStrokeFilter">
+
+                <option value="">
+                    Tất cả
+                </option>
+
+                {% for stroke in range(1, 18) %}
+
+                    <option value="{{ stroke }}">
+                        {{ stroke }} nét
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         THÔNG TIN KẾT QUẢ
+    ====================================================== -->
+
+    <div class="radical-result-head">
+
+        <span>
+            Danh sách bộ thủ
+        </span>
+
+        <strong id="radicalResultCount">
+            {{ total_radicals }} kết quả
+        </strong>
+
+    </div>
+
+
+    <!-- =====================================================
+         DANH SÁCH 214 BỘ
+    ====================================================== -->
+
+    <div
+        class="radical-grid"
+        id="radicalGrid"
+    >
+
+        {% for radical in radicals %}
+
+            <article
+                class="radical-card"
+                data-search="
+                    {{ radical.KyHieu }}
+                    {{ radical.TenBoThu }}
+                    {{ radical.YNghia or '' }}
+                    {{ radical.SoBoThu }}
+                "
+                data-strokes="{{ radical.SoNet or '' }}"
+            >
+
+                <!-- Số bộ -->
+                <div class="radical-number">
+                    {{ radical.SoBoThu }}
+                </div>
+
+
+                <!-- Chữ bộ thủ -->
+                <div class="radical-symbol">
+                    {{ radical.KyHieu }}
+                </div>
+
+
+                <!-- Thông tin -->
+                <div class="radical-info">
+
+                    <h3>
+                        {{ radical.TenBoThu }}
+                    </h3>
+
+
+                    {% if radical.YNghia %}
+
+                        <p class="radical-meaning">
+                            {{ radical.YNghia }}
+                        </p>
+
+                    {% else %}
+
+                        <p class="radical-meaning radical-empty">
+                            Chưa có nghĩa
+                        </p>
+
+                    {% endif %}
+
+
+                    <div class="radical-meta">
+
+                        {% if radical.SoNet %}
+
+                            <span>
+                                {{ radical.SoNet }} nét
+                            </span>
+
+                        {% endif %}
+
+                    </div>
+
+                </div>
+
+
+                <!-- Mô tả chỉ hiện nếu SQL có -->
+                {% if radical.MoTa %}
+
+                    <div class="radical-description">
+                        {{ radical.MoTa }}
+                    </div>
+
+                {% endif %}
+
+            </article>
+
+        {% endfor %}
+
+    </div>
+
+
+    <!-- =====================================================
+         KHÔNG CÓ KẾT QUẢ
+    ====================================================== -->
+
+    <div
+        class="radical-empty-result"
+        id="radicalEmptyResult"
+        hidden
+    >
+
+        <div>
+            部
+        </div>
+
+        <strong>
+            Không tìm thấy bộ thủ phù hợp
+        </strong>
+
+        <span>
+            Hãy thử từ khóa hoặc số nét khác.
+        </span>
+
+    </div>
+
+
+    <!-- =====================================================
+         NEXT
+    ====================================================== -->
+
+    <div class="foundation-next">
+
+        <a
+            href="{{ url_for('foundation.pinyin') }}"
+            class="foundation-next-card"
+        >
+            <span>
+                Quay lại
+            </span>
+
+            <strong>
+                Bảng Pinyin
+            </strong>
+
+            <b>
+                ←
+            </b>
+        </a>
+
+
+        <a
+            href="{{ url_for('foundation.pronunciation_rules') }}"
+            class="foundation-next-card"
+        >
+            <span>
+                Tiếp theo
+            </span>
+
+            <strong>
+                Quy tắc phát âm
+            </strong>
+
+            <b>
+                →
+            </b>
+        </a>
+
+    </div>
+
+</section>
+
+{% endblock %}
+
+
+
+{% block extra_js %}
+
+<script>
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+        const searchInput =
+            document.getElementById(
+                "radicalSearchInput"
+            );
+
+        const strokeFilter =
+            document.getElementById(
+                "radicalStrokeFilter"
+            );
+
+        const cards =
+            Array.from(
+                document.querySelectorAll(
+                    ".radical-card"
+                )
+            );
+
+        const resultCount =
+            document.getElementById(
+                "radicalResultCount"
+            );
+
+        const emptyResult =
+            document.getElementById(
+                "radicalEmptyResult"
+            );
+
+
+        function normalizeText(value) {
+
+            return String(value || "")
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(
+                    /[\u0300-\u036f]/g,
+                    ""
+                )
+                .trim();
+
+        }
+
+
+        function filterRadicals() {
+
+            const keyword =
+                normalizeText(
+                    searchInput.value
+                );
+
+            const selectedStroke =
+                strokeFilter.value;
+
+            let visibleCount = 0;
+
+
+            cards.forEach(
+                function (card) {
+
+                    const searchText =
+                        normalizeText(
+                            card.dataset.search
+                        );
+
+                    const strokes =
+                        card.dataset.strokes;
+
+
+                    const keywordMatch =
+                        !keyword
+                        || searchText.includes(
+                            keyword
+                        );
+
+
+                    const strokeMatch =
+                        !selectedStroke
+                        || strokes === selectedStroke;
+
+
+                    const visible =
+                        keywordMatch
+                        && strokeMatch;
+
+
+                    card.hidden =
+                        !visible;
+
+
+                    if (visible) {
+
+                        visibleCount += 1;
+
+                    }
+
+                }
+            );
+
+
+            resultCount.textContent =
+                visibleCount
+                + " kết quả";
+
+
+            emptyResult.hidden =
+                visibleCount !== 0;
+
+        }
+
+
+        searchInput.addEventListener(
+            "input",
+            filterRadicals
+        );
+
+
+        strokeFilter.addEventListener(
+            "change",
+            filterRadicals
+        );
+
+    }
+);
+
+</script>
+
+{% endblock %}

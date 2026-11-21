@@ -1,0 +1,71 @@
+{% extends "student/base.html" %}
+
+{% block title %}Lịch sử làm bài | Mộc Hán{% endblock %}
+
+{% block content %}
+<div class="container page-area">
+    <div class="page-title">
+        <span class="eyebrow">NHÌN LẠI HÀNH TRÌNH</span>
+        <h1>Lịch sử làm bài</h1>
+        <p>Các lần nộp bài mẫu trong phiên trình duyệt hiện tại.</p>
+    </div>
+
+    <div class="panel table-scroll">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Bài tập</th>
+                    <th>Thời gian</th>
+                    <th>Điểm</th>
+                    <th>Ghi chú</th>
+                </tr>
+            </thead>
+            <tbody id="history-body"></tbody>
+        </table>
+
+        <p id="history-empty" class="muted space-top">
+            Chưa có bài đã nộp.
+        </p>
+    </div>
+
+    <div class="action-row">
+        <a class="button"
+           href="{{ url_for('preview.show', group='student', page='exercise') }}">
+            Làm bài mẫu
+        </a>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let items = [];
+
+try {
+    items = JSON.parse(sessionStorage.getItem("mocHanHistory") || "[]");
+} catch {
+    items = [];
+}
+
+if (Array.isArray(items)) {
+    document.getElementById("history-empty").hidden = items.length > 0;
+
+    items.forEach(function (item) {
+        const row = document.createElement("tr");
+
+        [
+            "Ôn tập chào hỏi",
+            new Date(item.time).toLocaleString("vi-VN"),
+            item.score + "/3",
+            "Câu viết chưa chấm"
+        ].forEach(function (value) {
+            const cell = document.createElement("td");
+            cell.textContent = value;
+            row.append(cell);
+        });
+
+        document.getElementById("history-body").append(row);
+    });
+}
+</script>
+{% endblock %}

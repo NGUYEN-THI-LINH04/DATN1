@@ -1,0 +1,423 @@
+
+{# ======================================================
+   MỘC HÁN - SIDEBAR NGƯỜI HỌC
+
+   Các chức năng:
+   1. Trang chủ
+   2. Nền tảng
+   3. Shadowing
+   4. Bài tập
+   5. Cá nhân hóa
+      - Ôn tập từ vựng
+      - Tiến độ học
+   6. Tra từ điển
+   7. Luyện thi
+   8. Góp ý
+
+   Đã bỏ:
+   - Sổ tay từ vựng
+   - Sổ tay ngữ pháp
+
+   Giữ nguyên các class dùng bởi student.js.
+====================================================== #}
+
+{% set current_endpoint = request.endpoint or '' %}
+{% set current_blueprint = request.blueprint or '' %}
+
+{% set personal_active = current_blueprint in [
+    'review',
+    'vocabulary_review',
+    'progress'
+] %}
+
+
+<aside class="student-sidebar" id="studentSidebar">
+
+    <!-- ==========================================
+         LOGO
+    =========================================== -->
+
+    <div class="sidebar-logo">
+
+        <a
+            href="{{ url_for('home.index') }}"
+            class="sidebar-logo-link"
+        >
+            <span class="sidebar-logo-cn">汉语</span>
+            <span class="sidebar-logo-name">MỘC HÁN</span>
+        </a>
+
+    </div>
+
+
+    <!-- ==========================================
+         MENU CHÍNH
+    =========================================== -->
+
+    <nav
+        class="sidebar-nav mh-nav"
+        aria-label="Điều hướng học tập"
+    >
+
+        <!-- ======================================
+             1. TRANG CHỦ
+        ======================================= -->
+
+        <a
+            href="{{ url_for('home.index') }}"
+            class="sidebar-item mh-nav-item {% if current_endpoint == 'home.index' %}active{% endif %}"
+            title="Trang chủ"
+        >
+
+            <span class="sidebar-icon">
+                <svg viewBox="0 0 24 24">
+                    <path d="M3 11.5L12 4l9 7.5"></path>
+                    <path d="M5 10.5V20h14v-9.5"></path>
+                    <path d="M9 20v-6h6v6"></path>
+                </svg>
+            </span>
+
+            <span class="sidebar-text">
+                Trang chủ
+            </span>
+
+        </a>
+
+
+        <!-- ======================================
+             2. NỀN TẢNG
+        ======================================= -->
+
+        <div class="sidebar-menu-group mh-nav-group">
+
+            <button
+                type="button"
+                class="sidebar-item sidebar-toggle mh-nav-item"
+                data-sidebar-toggle="foundation"
+                aria-controls="sidebar-foundation"
+                aria-expanded="false"
+                title="Nền tảng"
+            >
+
+                <span class="sidebar-icon">
+                    <svg viewBox="0 0 24 24">
+                        <rect
+                            x="4" y="5"
+                            width="6" height="6"
+                            rx="1"
+                        ></rect>
+                        <rect
+                            x="14" y="5"
+                            width="6" height="6"
+                            rx="1"
+                        ></rect>
+                        <rect
+                            x="4" y="15"
+                            width="6" height="6"
+                            rx="1"
+                        ></rect>
+                        <rect
+                            x="14" y="15"
+                            width="6" height="6"
+                            rx="1"
+                        ></rect>
+                    </svg>
+                </span>
+
+                <span class="sidebar-text">
+                    Nền tảng
+                    <span class="mh-chevron">›</span>
+                </span>
+
+            </button>
+
+
+            <div
+                class="sidebar-submenu"
+                id="sidebar-foundation"
+            >
+
+                <!-- BẢNG PINYIN -->
+
+                <a
+                    href="{{ url_for('foundation.pinyin') }}"
+                    class="sidebar-subitem {% if current_endpoint == 'foundation.pinyin' %}active{% endif %}"
+                >
+                    <span class="submenu-icon">声</span>
+                    <span>Bảng Pinyin</span>
+                </a>
+
+
+                <!-- 214 BỘ THỦ -->
+
+                <a
+                    href="{{ url_for('foundation.radicals') }}"
+                    class="sidebar-subitem {% if current_endpoint == 'foundation.radicals' %}active{% endif %}"
+                >
+                    <span class="submenu-icon">部</span>
+                    <span>214 Bộ thủ</span>
+                </a>
+
+
+                <!-- QUY TẮC CHUYỂN ÂM -->
+
+                <a
+                    href="{{ url_for('foundation.pronunciation_rules') }}"
+                    class="sidebar-subitem {% if current_endpoint == 'foundation.pronunciation_rules' %}active{% endif %}"
+                >
+                    <span class="submenu-icon">音</span>
+                    <span>Quy tắc chuyển âm</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- ======================================
+             3. SHADOWING
+        ======================================= -->
+
+        <a
+            href="{{ url_for('shadowing.index') }}"
+            class="sidebar-item mh-nav-item {% if current_blueprint == 'shadowing' %}active{% endif %}"
+            title="Shadowing"
+        >
+
+            <span class="sidebar-icon">
+                <svg viewBox="0 0 24 24">
+                    <rect
+                        x="9" y="3"
+                        width="6" height="11"
+                        rx="3"
+                    ></rect>
+                    <path d="M6 11a6 6 0 0 0 12 0"></path>
+                    <path d="M12 17v4"></path>
+                    <path d="M9 21h6"></path>
+                </svg>
+            </span>
+
+            <span class="sidebar-text">
+                Shadowing
+            </span>
+
+        </a>
+
+
+        <!-- ======================================
+             4. BÀI TẬP
+        ======================================= -->
+
+        <a
+            href="{{ url_for('student_exercises.index') }}"
+            class="sidebar-item mh-nav-item {% if current_blueprint == 'student_exercises' %}active{% endif %}"
+            title="Bài tập"
+        >
+
+            <span class="sidebar-icon">
+                <svg viewBox="0 0 24 24">
+                    <rect
+                        x="5" y="3"
+                        width="14" height="18"
+                        rx="2"
+                    ></rect>
+                    <path d="M9 8h6"></path>
+                    <path d="M9 12h6"></path>
+                    <path d="M9 16h4"></path>
+                </svg>
+            </span>
+
+            <span class="sidebar-text">
+                Bài tập
+            </span>
+
+        </a>
+
+
+        <!-- ======================================
+             5. CÁ NHÂN HÓA
+
+             Gồm:
+             - Ôn tập từ vựng
+             - Tiến độ học
+        ======================================= -->
+
+        <div
+            class="sidebar-menu-group mh-nav-group mh-personal-group"
+        >
+
+            <button
+                type="button"
+                class="sidebar-item sidebar-toggle mh-nav-item {% if personal_active %}active{% endif %}"
+                data-sidebar-toggle="personal"
+                aria-controls="sidebar-personal"
+                aria-expanded="{{ 'true' if personal_active else 'false' }}"
+                title="Cá nhân hóa"
+            >
+
+                <span class="sidebar-icon">
+                    <svg viewBox="0 0 24 24">
+                        <circle
+                            cx="12"
+                            cy="8"
+                            r="3"
+                        ></circle>
+                        <path d="M5 20a7 7 0 0 1 14 0"></path>
+                        <path d="M18 5l1 1 2-2"></path>
+                    </svg>
+                </span>
+
+                <span class="sidebar-text">
+                    Cá nhân hóa
+                    <span class="mh-chevron">›</span>
+                </span>
+
+            </button>
+
+
+            <div
+                class="sidebar-submenu mh-personal-submenu {% if personal_active %}show{% endif %}"
+                id="sidebar-personal"
+                {% if not personal_active %}hidden{% endif %}
+            >
+
+                <!-- ÔN TẬP TỪ VỰNG -->
+
+                <a
+                    href="{{ url_for('vocabulary_review.index') }}"
+                    class="sidebar-subitem {% if current_blueprint == 'vocabulary_review' %}active{% endif %}"
+                >
+
+                    <span class="submenu-icon">复</span>
+
+                    <span>
+                        Ôn tập từ vựng
+                    </span>
+
+                </a>
+
+
+                <!-- TIẾN ĐỘ HỌC -->
+
+                <a
+                    href="{{ url_for('progress.index') }}"
+                    class="sidebar-subitem {% if current_blueprint == 'progress' %}active{% endif %}"
+                >
+
+                    <span class="submenu-icon">进</span>
+
+                    <span>
+                        Tiến độ học
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- ======================================
+             6. TRA TỪ ĐIỂN
+
+             Blueprint:
+                 student_dictionary
+        ======================================= -->
+
+        <a
+            href="{{ url_for('student_dictionary.index') }}"
+            class="sidebar-item mh-nav-item {% if current_blueprint == 'student_dictionary' %}active{% endif %}"
+            title="Tra từ điển"
+        >
+
+            <span class="sidebar-icon">
+                <svg viewBox="0 0 24 24">
+                    <rect
+                        x="5" y="3"
+                        width="14" height="18"
+                        rx="2"
+                    ></rect>
+                    <path d="M9 8h6"></path>
+                    <path d="M9 12h8"></path>
+                    <path d="M9 16h6"></path>
+                </svg>
+            </span>
+
+            <span class="sidebar-text">
+                Tra từ điển
+            </span>
+
+        </a>
+
+
+        <!-- ======================================
+             7. LUYỆN THI
+
+             Blueprint: student_luyen_thi
+             Endpoint: student_luyen_thi.trang_luyen_thi
+        ======================================= -->
+
+        <a
+            href="{{ url_for('student_luyen_thi.trang_luyen_thi') }}"
+            class="sidebar-item mh-nav-item {% if current_blueprint == 'student_luyen_thi' %}active{% endif %}"
+            title="Luyện thi HSK"
+        >
+
+            <span class="sidebar-icon">
+                <svg viewBox="0 0 24 24">
+                    <path d="M3 8l9-4 9 4-9 4z"></path>
+                    <path d="M6 10v5c3 2 9 2 12 0v-5"></path>
+                    <path d="M21 9v6"></path>
+                </svg>
+            </span>
+
+            <span class="sidebar-text">
+                Luyện thi
+            </span>
+
+        </a>
+
+
+        <!-- ======================================
+             8. GÓP Ý
+
+             Blueprint:
+                 student_feedback
+
+             Endpoint:
+                 student_feedback.index
+
+             URL:
+                 /student/feedback/
+
+             Đã bật liên kết thật.
+        ======================================= -->
+
+        <a
+            href="{{ url_for('student_feedback.index') }}"
+            class="sidebar-item mh-nav-item {% if current_blueprint == 'student_feedback' %}active{% endif %}"
+            title="Góp ý"
+        >
+
+            <span class="sidebar-icon">
+                <svg viewBox="0 0 24 24">
+                    <rect
+                        x="4" y="5"
+                        width="16" height="13"
+                        rx="2"
+                    ></rect>
+                    <path d="M8 9h8"></path>
+                    <path d="M8 13h5"></path>
+                    <path d="M8 18v3l4-3"></path>
+                </svg>
+            </span>
+
+            <span class="sidebar-text">
+                Góp ý
+            </span>
+
+        </a>
+
+    </nav>
+
+</aside>

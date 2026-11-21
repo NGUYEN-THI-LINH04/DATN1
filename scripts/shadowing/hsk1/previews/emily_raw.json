@@ -1,0 +1,578 @@
+﻿{
+    "lang":  "en",
+    "availableLangs":  [
+                           "en"
+                       ],
+    "content":  [
+                    {
+                        "text":  "ä½ å¥½,ææ¯Emily.",
+                        "offset":  866,
+                        "duration":  2000,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "Today we\u0027re going to read a short story about miss Wang.",
+                        "offset":  3066,
+                        "duration":  3734,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "I\u0027ll read it at a slow speed and after the story",
+                        "offset":  7066,
+                        "duration":  3500,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "I\u0027ll show you two important grammar points in the story.",
+                        "offset":  10566,
+                        "duration":  4600,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "Let\u0027s get into it.",
+                        "offset":  15400,
+                        "duration":  1366,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "çå°å§ä½å¨ä¸æµ·",
+                        "offset":  18900,
+                        "duration":  3266,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹æ¯ä¸æµ·äºº",
+                        "offset":  22966,
+                        "duration":  2434,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹ä»å¹´24å²",
+                        "offset":  26500,
+                        "duration":  3533,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹å®¶éæä¸å£äºº",
+                        "offset":  32000,
+                        "duration":  3333,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "ç¸ç¸å¦å¦åå¥¹",
+                        "offset":  36033,
+                        "duration":  3533,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹ä¸ä¸ªäººä½",
+                        "offset":  41700,
+                        "duration":  1900,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹æ©ä¸å¼è½¦å»å\u0085¬å¸å·¥ä½",
+                        "offset":  45700,
+                        "duration":  4733,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹å¾åæ¬¢å¥¹çå·¥ä½",
+                        "offset":  52400,
+                        "duration":  3966,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹çåäºæç¾å½äºº",
+                        "offset":  57666,
+                        "duration":  3500,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "ä¹æè±å½äºº",
+                        "offset":  61933,
+                        "duration":  2100,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "ä¸åçå°å§ååäºå»åå¡åº",
+                        "offset":  66500,
+                        "duration":  6633,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹åæ¬¢ååå¡",
+                        "offset":  74133,
+                        "duration":  3167,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹ååäºä»¬å¨åå¡åºéååå¡",
+                        "offset":  78533,
+                        "duration":  6633,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "åä¸ææ²»åæ°´ææ²æ",
+                        "offset":  85800,
+                        "duration":  5233,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "ææå\u0085­åææå¤©",
+                        "offset":  93600,
+                        "duration":  3666,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "çå°å§ä¸å»å\u0085¬å¸",
+                        "offset":  98033,
+                        "duration":  3633,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹å»ååºä¹°ä¸è¥¿",
+                        "offset":  103466,
+                        "duration":  3734,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "åæåççµå½±",
+                        "offset":  108766,
+                        "duration":  3067,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å»ä¹¦åºçä¹¦",
+                        "offset":  113433,
+                        "duration":  2967,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¨å®¶çæ¶å",
+                        "offset":  118433,
+                        "duration":  2033,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹åæ¬¢ççµè§åçä¹¦",
+                        "offset":  120900,
+                        "duration":  5766,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "ä¹åæ¬¢å¨ä¸é¨çæ¶åç»æåæçµè¯",
+                        "offset":  128500,
+                        "duration":  7766,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "3æ4æå5æ",
+                        "offset":  137900,
+                        "duration":  4200,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "ä¸æµ·å¾æ¼äº®",
+                        "offset":  142900,
+                        "duration":  2866,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "6æçæ¶å",
+                        "offset":  147000,
+                        "duration":  1833,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "ä¸æµ·æ¯å¤©é½ä¸é¨",
+                        "offset":  149400,
+                        "duration":  3833,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "7æå8æ å¤©æ°å¾ç­",
+                        "offset":  155300,
+                        "duration":  5066,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "11æå12æå¤©æ°å¾å·",
+                        "offset":  162166,
+                        "duration":  6067,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "çå°å§å®¶éæç«",
+                        "offset":  170666,
+                        "duration":  3567,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å°ç«çåå­å«å°å°",
+                        "offset":  175533,
+                        "duration":  4033,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "ä¸é¨çæ¶å",
+                        "offset":  181066,
+                        "duration":  1934,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å°å°åæ¬¢å¨æ²åä¸ç¡è§",
+                        "offset":  183566,
+                        "duration":  5100,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¤©æ°å¥½çæ¶å",
+                        "offset":  190166,
+                        "duration":  2600,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å°å°åæ¬¢å¨å¤é¢ç©",
+                        "offset":  193666,
+                        "duration":  3867,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "çå°å§æ²¡æç·æå",
+                        "offset":  199666,
+                        "duration":  4134,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹å¾æ³æä¸ä¸ªç·æå",
+                        "offset":  204733,
+                        "duration":  4800,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "åä»ååå¡",
+                        "offset":  211633,
+                        "duration":  2300,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "ççµå½±",
+                        "offset":  214600,
+                        "duration":  1266,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å»ååºä¹°ä¸è¥¿",
+                        "offset":  216533,
+                        "duration":  3067,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹ä¸åæ¬¢ä¸ä¸ªäººççæ´»",
+                        "offset":  221566,
+                        "duration":  5134,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "çå°å§å¾åæ¬¢ä¸æµ·",
+                        "offset":  228866,
+                        "duration":  4300,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "åæ¬¢è¿å¿ççæ´»",
+                        "offset":  233866,
+                        "duration":  2734,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "åæ¬¢è¿å¿çå¤©æ°",
+                        "offset":  237466,
+                        "duration":  2634,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¹æ¯å¤©é½å¾é«å\u0085´",
+                        "offset":  241400,
+                        "duration":  3966,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "Do you like the story?",
+                        "offset":  246833,
+                        "duration":  1433,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "In this story we have two new grammar points.",
+                        "offset":  248533,
+                        "duration":  3033,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "First is the loan words.",
+                        "offset":  251766,
+                        "duration":  2167,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "åå¡æ²ææ²åä¸ææ²»",
+                        "offset":  257000,
+                        "duration":  7466,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "All of these words are loan words from English.",
+                        "offset":  265000,
+                        "duration":  2966,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "Can you guess what are they?",
+                        "offset":  268166,
+                        "duration":  1834,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "åå¡coffeeæ²æsaladæ²åsofa",
+                        "offset":  271066,
+                        "duration":  9134,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "ä¸ææ²»sandwich",
+                        "offset":  280566,
+                        "duration":  3367,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "And we have more loanwords like",
+                        "offset":  284133,
+                        "duration":  2467,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "æ±å ¡hamburger",
+                        "offset":  287066,
+                        "duration":  2667,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å·§å\u0085åchocolateæ æª¬lemonå¯ä¹Cola",
+                        "offset":  290333,
+                        "duration":  8600,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "Wow! Is it amazing?",
+                        "offset":  299500,
+                        "duration":  2100,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "Next. Grammar number two.",
+                        "offset":  302333,
+                        "duration":  1667,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "Compound words.",
+                        "offset":  304000,
+                        "duration":  2400,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "In Chinese,",
+                        "offset":  309100,
+                        "duration":  1066,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "we have tons of compound words as well as English. ",
+                        "offset":  310166,
+                        "duration":  3367,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "For example, the word store in English.",
+                        "offset":  313533,
+                        "duration":  3667,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "Like department store,",
+                        "offset":  317200,
+                        "duration":  1500,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "shoe store, grocery store.",
+                        "offset":  318933,
+                        "duration":  2233,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "In Chinese we also use the product name and the word",
+                        "offset":  321500,
+                        "duration":  4500,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "\"dian\" to make up different types of stores.",
+                        "offset":  326166,
+                        "duration":  2800,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "\"dian \"is short for shangdian.",
+                        "offset":  329400,
+                        "duration":  2800,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "Here are some examples.",
+                        "offset":  332766,
+                        "duration":  1600,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "fruit store",
+                        "offset":  335900,
+                        "duration":  1166,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "æ°´æåº",
+                        "offset":  337566,
+                        "duration":  1734,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "bookstore",
+                        "offset":  339900,
+                        "duration":  1033,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "ä¹¦åº",
+                        "offset":  341533,
+                        "duration":  1600,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "The store where you eat, ",
+                        "offset":  343133,
+                        "duration":  2200,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "restaurant, of course.",
+                        "offset":  345333,
+                        "duration":  1666,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "é¥­åº",
+                        "offset":  347566,
+                        "duration":  1900,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "coffee shop",
+                        "offset":  349466,
+                        "duration":  1800,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "åå¡åº",
+                        "offset":  351266,
+                        "duration":  2234,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "milk tea shop",
+                        "offset":  353500,
+                        "duration":  2033,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "å¥¶è¶åº",
+                        "offset":  355566,
+                        "duration":  1933,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "In Chinese,",
+                        "offset":  358533,
+                        "duration":  900,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "we like to use several existing words to make up a new word.",
+                        "offset":  359433,
+                        "duration":  3800,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "It\u0027s very convenient,",
+                        "offset":  363233,
+                        "duration":  1400,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "just like assembling Legos.",
+                        "offset":  364666,
+                        "duration":  2967,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "Thanks for watching today\u0027s video.",
+                        "offset":  367700,
+                        "duration":  1733,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "There is a series of short stories for Chinese",
+                        "offset":  369700,
+                        "duration":  2400,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "beginners in my channel.",
+                        "offset":  372100,
+                        "duration":  1500,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "They will greatly help you to improve your Chinese.",
+                        "offset":  373666,
+                        "duration":  3200,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "So try to watch them all, ",
+                        "offset":  376900,
+                        "duration":  1966,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "and you will make huge progress in Chinese! ",
+                        "offset":  378866,
+                        "duration":  3000,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "See you next video!",
+                        "offset":  381866,
+                        "duration":  1400,
+                        "lang":  "en"
+                    },
+                    {
+                        "text":  "Bye byeï¼",
+                        "offset":  383533,
+                        "duration":  800,
+                        "lang":  "en"
+                    }
+                ]
+}

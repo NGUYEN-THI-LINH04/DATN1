@@ -1,0 +1,26 @@
+{
+  "buoc": "20F",
+  "status": "PASS",
+  "tong": 300,
+  "lay_tu_20E": 182,
+  "giu_nguyen_tu_20B": 118,
+  "thieu_pinyin": 0,
+  "thieu_nghia": 0,
+  "pinyin_con_can_review_ngoai_182": 1,
+  "candidate_pinyin_review": {
+    "MaChuHanTam": "H4-0751",
+    "KyTu": "呀",
+    "PinyinDeXuat": "ya",
+    "TrangThaiPinyin": "GF_CO_1_NHUNG_NGUON_KHAC_LECH",
+    "TuVungDaiDien": "呀",
+    "PinyinTuDaiDien": "ya"
+  },
+  "source20b_sha256": "6c6530445117477bb27a2222fd358f30ee74f9c6ee54c3b9bbf65a00c8f68712",
+  "source20e_sha256": "fd5c9c22ff8e4f2ab1d1dbf35934a7777de6df174405986d519bdc1a50bc94c2",
+  "output": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\hanzi_hsk4_300_meaning_pinyin_merged_20F.csv",
+  "output_sha256": "a59a279855c51192286a11afba03a9180e24674ab65d09c9bfa26a5cbdf94834",
+  "ghi_sql": false,
+  "gan_bai_hoc": false,
+  "tao_audio": false,
+  "xu_ly_cau_truc": false
+}

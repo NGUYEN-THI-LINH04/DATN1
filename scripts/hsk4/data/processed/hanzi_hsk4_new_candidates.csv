@@ -1,0 +1,301 @@
+﻿MaChuHanTam,KyTu,ThuTuXuatHienDau,MaTuHSKDauTien,MaMucNoiBoDauTien,SoThuTuNguonDauTien,TuVungDaiDien,PinyinTuDaiDien,NghiaTuDaiDien,SoTuHSK4ChuaKyTu,CacMaMucNoiBo,CacTuHSK4ChuaKyTu,DaCoTrongSQL,SoDongChuHanSQL,MaChuHanDaCo,KhoaHocDaCo,BaiHocDaCo,PinyinSQLThamKhao,NghiaSQLThamKhao,SoNetSQLThamKhao,MaBoThuSQLThamKhao,HanhDongDeXuat,TrangThai
+H4-0001,阿,1,2246,L4-0001,2,阿姨,āyí,dì (chị em của mẹ) / mẹ kế / người trông trẻ / bảo mẫu / phụ nữ có tuổi tương tự bố mẹ (cách xưng hô của trẻ em) / LT:個|个[ge4],1,L4-0001,阿姨,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0002,姨,2,2246,L4-0001,2,阿姨,āyí,dì (chị em của mẹ) / mẹ kế / người trông trẻ / bảo mẫu / phụ nữ có tuổi tương tự bố mẹ (cách xưng hô của trẻ em) / LT:個|个[ge4],1,L4-0001,阿姨,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0004,矮,4,2248,L4-0003,14,矮,ǎi,thấp / ngắn (về chiều dài),2,L4-0003 | L4-0004,矮 | 矮小,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0010,置,10,2253,L4-0008,43,安置,ānzhì,tìm chỗ cho / giúp ổn định / sắp xếp cho / lên giường / sắp xếp,5,L4-0008 | L4-0056 | L4-0626 | L4-0758 | L4-0982,安置 | 布置 | 设置 | 位置 | 装置,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0013,暗,13,2255,L4-0010,55,暗,àn,biến thể của 暗[an4] || tối / trở nên tối / bí mật; ẩn / (văn học) mơ hồ; ngu muội || (văn học) đóng (cửa) / che khuất / mơ hồ; không biết (biến thể của 暗[an4]) / tối (biến thể của 暗[an4]),3,L4-0010 | L4-0011 | L4-0319,暗 | 暗示 | 黑暗,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0015,巴,15,2257,L4-0012,71,巴士,bāshì,xe buýt (từ mượn) / xe khách,4,L4-0012 | L4-0141 | L4-0754 | L4-0996,巴士 | 大巴 | 尾巴 | 嘴巴,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0016,士,16,2257,L4-0012,71,巴士,bāshì,xe buýt (từ mượn) / xe khách,6,L4-0012 | L4-0326 | L4-0533 | L4-0543 | L4-0645 | L4-0931,巴士 | 护士 | 男士 | 女士 | 士兵 | 战士,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0018,货,18,2258,L4-0013,103,百货,bǎihuò,hàng hóa tổng hợp,3,L4-0013 | L4-0344 | L4-0662,百货 | 货 | 售货员,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0019,摆,19,2259,L4-0014,106,摆,bǎi,sắp xếp / trưng bày / di chuyển qua lại / con lắc,3,L4-0014 | L4-0015 | L4-0016,摆 | 摆动 | 摆脱,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0021,脱,21,2261,L4-0016,111,摆脱,bǎituō,"thoát khỏi / vứt bỏ (ý tưởng cũ,...) / loại bỏ / thoát ly (khỏi) / thoát ra (khỏi) / giải thoát bản thân khỏi / tự giải thoát",2,L4-0016 | L4-0737,摆脱 | 脱,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0022,败,22,2262,L4-0017,112,败,bài,đánh bại / phá hỏng / thua (một đối thủ) / thất bại / héo úa,3,L4-0017 | L4-0136 | L4-0635,败 | 打败 | 失败,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0026,裹,26,2264,L4-0019,174,包裹,bāoguǒ,gói lại / băng lại / bọc / bưu kiện / kiện hàng / LT:個|个[ge4],1,L4-0019,包裹,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0027,含,27,2265,L4-0020,175,包含,bāohán,chứa / bao hàm / bao gồm,5,L4-0020 | L4-0304 | L4-0305 | L4-0306 | L4-0307,包含 | 含 | 含量 | 含义 | 含有,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0028,括,28,2266,L4-0021,176,包括,bāokuò,bao gồm / bao hàm / liên quan / tích hợp / gồm có,3,L4-0021 | L4-0262 | L4-0452,包括 | 概括 | 括号,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0029,薄,29,2267,L4-0022,184,薄,báo,mỏng / lạnh lùng / thờ ơ / yếu / nhẹ / cằn cỗi,1,L4-0022,薄,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0030,宝,30,2268,L4-0023,188,宝,bǎo,biến thể của 寶|宝[bao3] || bảo / vật quý / báu / vật quý giá,5,L4-0023 | L4-0024 | L4-0025 | L4-0026 | L4-0027,宝 | 宝宝 | 宝贝 | 宝贵 | 宝石,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0031,贝,31,2270,L4-0025,190,宝贝,bǎobèi,vật quý giá / kho báu / cưng / em bé / ốc tiền / người vô dụng hoặc nhân vật kỳ quặc,1,L4-0025,宝贝,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0035,密,35,2273,L4-0028,203,保密,bǎomì,giữ bí mật / duy trì sự bảo mật,7,L4-0028 | L4-0408 | L4-0512 | L4-0514 | L4-0515 | L4-0516 | L4-0583,保密 | 紧密 | 秘密 | 密 | 密码 | 密切 | 亲密,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0036,守,36,2274,L4-0029,206,保守,bǎoshǒu,bảo thủ / bảo vệ / giữ gìn,2,L4-0029 | L4-0659,保守 | 守,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0037,抱,37,2275,L4-0030,236,抱,bào,ôm / mang (trong tay) / ôm ấp / bao quanh / trân trọng / (khẩu ngữ) (quần áo) vừa vặn,1,L4-0030,抱,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0040,倍,40,2277,L4-0032,287,倍,bèi,"(hai, ba, v.v.) lần / gấp bội / tăng hoặc nhân lên",1,L4-0032,倍,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0042,迫,42,2278,L4-0033,292,被迫,bèipò,bị ép buộc / bị bắt buộc,2,L4-0033 | L4-0563,被迫 | 迫切,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0045,笨,45,2280,L4-0035,319,笨,bèn,ngu ngốc / khờ khạo / ngớ ngẩn / chậm chạp / vụng về,1,L4-0035,笨,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0048,毕,48,2282,L4-0037,362,毕业,bìyè,tốt nghiệp / hoàn thành khóa học,2,L4-0037 | L4-0038,毕业 | 毕业生,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0051,避,51,2284,L4-0039,371,避,bì,tránh / lẩn / trốn / chạy trốn / tránh xa / rời đi / trốn khỏi,2,L4-0039 | L4-0040,避 | 避免,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0052,免,52,2285,L4-0040,372,避免,bìmiǎn,ngăn chặn / ngăn ngừa / tránh / kiêng cữ,3,L4-0040 | L4-0517 | L4-0534,避免 | 免费 | 难免,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0053,编,53,2286,L4-0041,381,编,biān,dệt / bện / tổ chức / nhóm / sắp xếp / chỉnh lý / biên soạn / viết / sáng tác / bịa / chế tạo,1,L4-0041,编,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0054,辩,54,2287,L4-0042,424,辩论,biànlùn,"tranh luận / lập luận / tranh cãi về / LT:場|场[chang3],次[ci4]",1,L4-0042,辩论,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0060,扬,60,2290,L4-0045,452,表扬,biǎoyáng,khen ngợi / tuyên dương,1,L4-0045,表扬,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0062,冰,62,2292,L4-0047,470,冰,bīng,băng / LT:塊|块[kuai4] / làm lạnh cái gì đó / (vật thể hoặc chất) cảm thấy lạnh / (người) lạnh lùng / không thân thiện / (lóng) ma túy đá || biến thể của 冰[bing1],3,L4-0047 | L4-0048 | L4-0049,冰 | 冰箱 | 冰雪,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0065,兵,65,2295,L4-0050,475,兵,bīng,lính / một lực lượng / một đội quân / vũ khí / quân dụng / quân sự / hiếu chiến / LT:個|个[ge4],2,L4-0050 | L4-0645,兵 | 士兵,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0071,乎,71,2298,L4-0053,557,不在乎,bùzàihu,không quan tâm,4,L4-0053 | L4-0349 | L4-0682 | L4-0923,不在乎 | 几乎 | 似乎 | 在乎,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0077,擦,77,2303,L4-0058,660,擦,cā,"chà; cào / lao; đánh bóng / thoa (son, kem v.v.) / lướt qua / bào sợi (rau củ v.v.)",1,L4-0058,擦,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0080,料,80,2305,L4-0060,669,材料,cáiliào,(nguyên) liệu / dữ liệu / (bóng) người có tiềm năng làm việc,6,L4-0060 | L4-0598 | L4-0685 | L4-0686 | L4-0911 | L4-0985,材料 | 燃料 | 塑料 | 塑料袋 | 原料 | 资料,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0081,财,81,2306,L4-0061,670,财产,cáichǎn,tài sản / nguồn vốn / di sản / LT:筆|笔[bi3],2,L4-0061 | L4-0062,财产 | 财富,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0088,与,88,2310,L4-0065,705,参与,cānyù,tham gia (vào việc gì),1,L4-0065,参与,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0089,操,89,2311,L4-0066,734,操场,cāochǎng,sân chơi / sân thể thao / sân tập luyện / LT:個|个[ge4],3,L4-0066 | L4-0067 | L4-0703,操场 | 操作 | 体操,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0092,测,92,2313,L4-0068,751,测,cè,khảo sát / đo / phỏng đoán,5,L4-0068 | L4-0069 | L4-0070 | L4-0377 | L4-0906,测 | 测量 | 测试 | 检测 | 预测,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0097,叶,97,2317,L4-0072,780,茶叶,cháyè,"trà / lá trà / LT:盒[he2],罐[guan4],包[bao1],片[pian4]",3,L4-0072 | L4-0668 | L4-0862,茶叶 | 树叶 | 叶子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0100,途,100,2319,L4-0074,828,长途,chángtú,đường dài,4,L4-0074 | L4-0578 | L4-0733 | L4-0892,长途 | 前途 | 途中 | 用途,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0105,抄,105,2322,L4-0077,869,抄,chāo,sao chép / đạo văn / khám xét / tịch thu / chụp lấy / mang đi / đi đường tắt / di chuyển vòng / ngồi khoanh tay,2,L4-0077 | L4-0078,抄 | 抄写,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0107,潮,107,2324,L4-0079,888,潮,cháo,thuỷ triều / ẩm ướt; ẩm / thời trang; hợp xu hướng / (khẩu ngữ) kém; không đạt tiêu chuẩn,4,L4-0079 | L4-0080 | L4-0081 | L4-0264,潮 | 潮流 | 潮湿 | 高潮,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0109,湿,109,2326,L4-0081,890,潮湿,cháoshī,ẩm ướt,2,L4-0081 | L4-0640,潮湿 | 湿,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0110,彻,110,2327,L4-0082,916,彻底,chèdǐ,triệt để / một cách triệt để / hoàn toàn,1,L4-0082,彻底,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0112,沉,112,2328,L4-0083,922,沉,chén,chìm / ngâm / lặn / đè xuống / hạ / thả xuống / sâu / sắc sảo / nặng,3,L4-0083 | L4-0084 | L4-0085,沉 | 沉默 | 沉重,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0113,默,113,2329,L4-0084,928,沉默,chénmò,ít nói / không cởi mở / im lặng,2,L4-0084 | L4-0529,沉默 | 默默,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0116,赞,116,2331,L4-0086,948,称赞,chēngzàn,khen ngợi / tán dương / tán thưởng,4,L4-0086 | L4-0925 | L4-0926 | L4-0927,称赞 | 赞成 | 赞赏 | 赞助,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0119,诚,119,2333,L4-0088,980,诚实,chéngshí,thành thật,2,L4-0088 | L4-0089,诚实 | 诚信,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0122,承,122,2335,L4-0090,987,承担,chéngdān,"đảm nhận / gánh vác (trách nhiệm,...)",3,L4-0090 | L4-0091 | L4-0092,承担 | 承认 | 承受,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0123,担,123,2335,L4-0090,987,承担,chéngdān,"đảm nhận / gánh vác (trách nhiệm,...)",5,L4-0090 | L4-0158 | L4-0159 | L4-0160 | L4-0256,承担 | 担保 | 担任 | 担心 | 负担,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0127,序,127,2338,L4-0093,1006,程序,chéngxù,quy trình / trình tự / thứ tự / chương trình máy tính,2,L4-0093 | L4-0678,程序 | 顺序,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0129,惊,129,2339,L4-0094,1018,吃惊,chījīng,bị giật mình / bị sốc / ngạc nhiên,1,L4-0094,吃惊,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0130,迟,130,2340,L4-0095,1030,迟到,chídào,đến muộn,2,L4-0095 | L4-0735,迟到 | 推迟,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0132,尺,132,2341,L4-0096,1038,尺,chǐ,"một thước Trung Quốc / một phần ba mét / thước kẻ / thước dây / một trong ba huyệt để bắt mạch trong y học cổ truyền Trung Quốc / LT: 支[zhi1], 把[ba3]",3,L4-0096 | L4-0097 | L4-0098,尺 | 尺寸 | 尺子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0133,寸,133,2342,L4-0097,1039,尺寸,chǐcùn,kích thước; số đo; chiều đo (đặc biệt là quần áo) / (khẩu ngữ) sự đúng mực,1,L4-0097,尺寸,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0135,冲,135,2344,L4-0099,1046,冲,chōng,(nước) xô vào / trộn với nước / pha / rửa / tráng / phát triển (phim) / bay lên không trung / xung đột / va chạm với || đại lộ / đi thẳng tới / lao tới / xung đột,1,L4-0099,冲,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0139,虫,139,2348,L4-0103,1063,虫子,chóngzi,"côn trùng / sâu bọ / sâu / LT:條|条[tiao2],隻|只[zhi1]",1,L4-0103,虫子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0140,抽,140,2349,L4-0104,1082,抽,chōu,rút ra / kéo ra từ giữa / gỡ bỏ một phần của toàn bộ / (một số loại cây) nảy mầm hoặc đâm chồi / quất hoặc đánh,3,L4-0104 | L4-0105 | L4-0106,抽 | 抽奖 | 抽烟,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0141,奖,141,2350,L4-0105,1083,抽奖,chōujiǎng,rút thăm trúng thưởng / xổ số / quay số trúng thưởng,6,L4-0105 | L4-0347 | L4-0387 | L4-0388 | L4-0389 | L4-0963,抽奖 | 获奖 | 奖 | 奖金 | 奖学金 | 中奖,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0146,售,146,2354,L4-0109,1148,出售,chūshòu,bán / đưa ra bán / đưa ra thị trường,3,L4-0109 | L4-0662 | L4-0807,出售 | 售货员 | 销售,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0147,席,147,2355,L4-0110,1153,出席,chūxí,tham dự / tham gia / có mặt,2,L4-0110 | L4-0970,出席 | 主席,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0153,统,153,2359,L4-0114,1232,传统,chuántǒng,truyền thống / tập quán / LT:個|个[ge4],5,L4-0114 | L4-0723 | L4-0724 | L4-0781 | L4-0993,传统 | 统计 | 统一 | 系统 | 总统,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0154,窗,154,2360,L4-0115,1247,窗户,chuānghu,"cửa sổ / LT:個|个[ge4],扇[shan4]",3,L4-0115 | L4-0116 | L4-0117,窗户 | 窗台 | 窗子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0155,户,155,2360,L4-0115,1247,窗户,chuānghu,"cửa sổ / LT:個|个[ge4],扇[shan4]",2,L4-0115 | L4-0325,窗户 | 户,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0158,季,158,2363,L4-0118,1273,春季,chūnjì,mùa xuân,7,L4-0118 | L4-0194 | L4-0365 | L4-0366 | L4-0367 | L4-0591 | L4-0789,春季 | 冬季 | 季 | 季度 | 季节 | 秋季 | 夏季,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0159,纯,159,2364,L4-0119,1276,纯,chún,thuần khiết / đơn giản / không pha tạp / nguyên chất,3,L4-0119 | L4-0120 | L4-0162,纯 | 纯净水 | 单纯,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0163,汇,163,2366,L4-0121,1287,词汇,cíhuì,biến thể của 詞彙|词汇[ci2 hui4] || từ vựng / danh sách từ (ví dụ: cho mục đích dạy ngôn ngữ) / từ,5,L4-0121 | L4-0336 | L4-0337 | L4-0338 | L4-0739,词汇 | 汇 | 汇报 | 汇率 | 外汇,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0167,刺,167,2370,L4-0125,1318,刺,cì,gai / chích / đâm / chọc / xuyên / đâm bị thương / ám sát / giết,2,L4-0125 | L4-0126,刺 | 刺激,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0168,激,168,2371,L4-0126,1321,刺激,cìjī,kích thích; kích động; khó chịu; khơi gợi; hưng phấn / chất kích thích,3,L4-0126 | L4-0353 | L4-0354,刺激 | 激动 | 激烈,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0170,粗,170,2373,L4-0128,1351,粗,cū,"(vật dài) to; dày / (vật dạng hạt) thô / (giọng nói) khàn / (cách cư xử của người, v.v.) thô lỗ; thô tục; cẩu thả; bất lịch sự || biến thể của 粗[cu1] || hẻo lánh; xa xôi / biến thể của 粗[cu1]",2,L4-0128 | L4-0129,粗 | 粗心,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0172,促,172,2375,L4-0130,1359,促进,cùjìn,thúc đẩy (một ý tưởng hoặc sự nghiệp); tiến lên; tăng cường,3,L4-0130 | L4-0131 | L4-0132,促进 | 促使 | 促销,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0175,销,175,2377,L4-0132,1361,促销,cùxiāo,thúc đẩy bán hàng,3,L4-0132 | L4-0736 | L4-0807,促销 | 推销 | 销售,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0176,措,176,2378,L4-0133,1384,措施,cuòshī,biện pháp / bước / LT:個|个[ge4],1,L4-0133,措施,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0177,施,177,2378,L4-0133,1384,措施,cuòshī,biện pháp / bước / LT:個|个[ge4],3,L4-0133 | L4-0625 | L4-0641,措施 | 设施 | 实施,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0180,案,180,2380,L4-0135,1404,答案,dá'àn,câu trả lời / giải pháp / LT:個|个[ge4],3,L4-0135 | L4-0233 | L4-0732,答案 | 方案 | 图案,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0181,雷,181,2382,L4-0137,1428,打雷,dǎléi,sấm rền / tiếng sấm,1,L4-0137,打雷,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0182,扫,182,2383,L4-0138,1436,打扫,dǎsǎo,dọn dẹp / quét,2,L4-0138 | L4-0609,打扫 | 扫,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0183,折,183,2384,L4-0139,1445,打折,dǎzhé,giảm giá,2,L4-0139 | L4-0939,打折 | 折,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0184,针,184,2385,L4-0140,1446,打针,dǎzhēn,tiêm hoặc được tiêm,4,L4-0140 | L4-0234 | L4-0940 | L4-0941,打针 | 方针 | 针 | 针对,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0190,模,190,2390,L4-0145,1469,大规模,dà guīmó,quy mô lớn / rộng rãi / phạm vi rộng / quy mô rộng,4,L4-0145 | L4-0298 | L4-0526 | L4-0527,大规模 | 规模 | 模特儿 | 模型,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0194,陆,194,2394,L4-0149,1485,大陆,dàlù,"lục địa; đất liền / LT:個|个[ge4],塊|块[kuai4]",3,L4-0149 | L4-0491 | L4-0492,大陆 | 陆地 | 陆续,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0196,型,196,2396,L4-0151,1514,大型,dàxíng,lớn / quy mô lớn,9,L4-0151 | L4-0186 | L4-0466 | L4-0527 | L4-0810 | L4-0817 | L4-0821 | L4-0822 | L4-0928,大型 | 典型 | 类型 | 模型 | 小型 | 新型 | 型 | 型号 | 造型,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0200,替,200,2399,L4-0154,1544,代替,dàitì,thay thế; thay cho,3,L4-0154 | L4-0706 | L4-0707,代替 | 替 | 替代,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0202,遇,202,2400,L4-0155,1557,待遇,dàiyù,đãi ngộ / lương / mức lương / tình trạng / cấp bậc,5,L4-0155 | L4-0351 | L4-0908 | L4-0909 | L4-0910,待遇 | 机遇 | 遇 | 遇到 | 遇见,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0203,袋,203,2401,L4-0156,1560,袋,dài,túi / bao / bao tải / túi quần,4,L4-0156 | L4-0442 | L4-0535 | L4-0686,袋 | 口袋 | 脑袋 | 塑料袋,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0204,戴,204,2402,L4-0157,1562,戴,dài,"đeo (kính, mũ, găng tay,...) / tôn trọng / mang / hỗ trợ",1,L4-0157,戴,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0208,独,208,2409,L4-0164,1576,单独,dāndú,một mình / tự mình / tự thân,4,L4-0164 | L4-0198 | L4-0199 | L4-0200,单独 | 独立 | 独特 | 独自,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0209,淡,209,2410,L4-0165,1595,淡,dàn,nhạt / loãng / yếu / nhẹ / màu nhạt / không vị / thờ ơ / (biến thể của 氮[dan4]) nitơ,1,L4-0165,淡,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0212,致,212,2412,L4-0167,1643,导致,dǎozhì,dẫn đến; tạo ra; gây ra; mang lại,3,L4-0167 | L4-0784 | L4-0869,导致 | 细致 | 一致,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0214,闭,214,2413,L4-0168,1648,倒闭,dǎobì,phá sản / đóng cửa,3,L4-0168 | L4-0248 | L4-0289,倒闭 | 封闭 | 关闭,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0220,登,220,2419,L4-0174,1707,登,dēng,leo (lên độ cao) / đi lên / trèo lên / xuất bản hoặc ghi lại / nhập (ví dụ: vào sổ) / đạp chân xuống / dẫm hoặc đạp lên / mang (giày hoặc quần) (phương ngữ) / được thu gom và đưa đến sân đập lúa (xưa),4,L4-0174 | L4-0175 | L4-0176 | L4-0177,登 | 登记 | 登录 | 登山,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0226,敌,226,2424,L4-0179,1739,敌人,dírén,kẻ thù / Lượng từ: 個|个[ge4],1,L4-0179,敌人,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0231,址,231,2430,L4-0185,1783,地址,dìzhǐ,địa chỉ / LT:個|个[ge4],2,L4-0185 | L4-0747,地址 | 网址,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0235,梯,235,2435,L4-0190,1829,电梯,diàntī,"thang máy / thang cuốn / LT:臺|台[tai2],部[bu4]",2,L4-0190 | L4-0490,电梯 | 楼梯,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0236,源,236,2436,L4-0191,1836,电源,diànyuán,nguồn điện,3,L4-0191 | L4-0458 | L4-0986,电源 | 来源 | 资源,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0237,顶,237,2437,L4-0192,1871,顶,dǐng,"đỉnh / mỏm đầu / trên cùng / mái / người nhất / đội lên đầu / đẩy lên trên / đi ngược lại / thay thế / thế chỗ / chịu đựng (bom đạn từ trên không, mưa đá, v.v.) / (lóng) ""đẩy"" một chủ đề trên diễn đàn để tăng tương tác / lượng từ cho mũ, nón, khăn trùm đầu, v.v.",1,L4-0192,顶,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0241,摇,241,2441,L4-0196,1938,动摇,dòngyáo,lung lay / do dự / đung đưa / làm rung / làm mất ổn định / tạo ra thách thức cho,2,L4-0196 | L4-0858,动摇 | 摇,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0242,豆,242,2442,L4-0197,1956,豆腐,dòufu,đậu phụ / đậu hũ,1,L4-0197,豆腐,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0243,腐,243,2442,L4-0197,1956,豆腐,dòufu,đậu phụ / đậu hũ,1,L4-0197,豆腐,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0247,堵,247,2446,L4-0201,1979,堵,dǔ,"chặn (đường, ống, v.v.) / bít kín (lỗ) / (nghĩa bóng) (người) nghẹn ngào vì lo lắng hoặc căng thẳng / tường (văn học) / (lượng từ cho tường)",2,L4-0201 | L4-0202,堵 | 堵车,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0248,肚,248,2448,L4-0203,1985,肚子,dùzi,bụng / phần bụng / dạ dày / LT:個|个[ge4],1,L4-0203,肚子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0251,锻,251,2450,L4-0205,2010,锻炼,duànliàn,rèn luyện / rèn giũa / tập thể dục / tập luyện / (bóng) phát triển kỹ năng / tự đào tạo,1,L4-0205,锻炼,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0252,炼,252,2450,L4-0205,2010,锻炼,duànliàn,rèn luyện / rèn giũa / tập thể dục / tập luyện / (bóng) phát triển kỹ năng / tự đào tạo,1,L4-0205,锻炼,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0258,恶,258,2458,L4-0213,2089,恶心,ěxin,biến thể của 惡心|恶心[e3 xin1] || buồn nôn / cảm thấy ốm / lợm giọng / gây buồn nôn / làm mất mặt (cố tình),1,L4-0213,恶心,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0260,童,260,2459,L4-0214,2106,儿童,értóng,trẻ em / LT:個|个[ge4],3,L4-0214 | L4-0721 | L4-0722,儿童 | 童话 | 童年,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0263,耳,263,2462,L4-0217,2114,耳机,ěrjī,tai nghe / ống nghe điện thoại,1,L4-0217,耳机,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0268,挥,268,2464,L4-0219,2139,发挥,fāhuī,phát huy / thể hiện / tỏa ra phẩm chất tiềm ẩn hoặc bẩm sinh / diễn đạt (một ý nghĩ hoặc đạo đức) / phát triển (một ý tưởng) / khai triển (một chủ đề),2,L4-0219 | L4-0954,发挥 | 指挥,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0270,烧,270,2466,L4-0221,2152,发烧,fāshāo,bị sốt / có sốt,3,L4-0221 | L4-0599 | L4-0624,发烧 | 燃烧 | 烧,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0272,官,272,2468,L4-0223,2173,法官,fǎguān,thẩm phán (trong tòa án),5,L4-0223 | L4-0291 | L4-0292 | L4-0576 | L4-0740,法官 | 官 | 官方 | 器官 | 外交官,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0273,律,273,2469,L4-0224,2175,法律,fǎlǜ,"pháp luật / LT:條|条[tiao2], 套[tao4], 個|个[ge4]",5,L4-0224 | L4-0297 | L4-0362 | L4-0494 | L4-0867,法律 | 规律 | 纪律 | 律师 | 一律,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0275,翻,275,2471,L4-0226,2185,翻,fān,lật / lật lại / lật úp / lục tìm / dịch mã / giải mã / gấp đôi / leo qua / vượt qua || biến thể của 翻[fan1],2,L4-0226 | L4-0227,翻 | 翻译,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0276,译,276,2472,L4-0227,2189,翻译,fānyì,"dịch / phiên dịch / biên dịch viên / phiên dịch viên / bản dịch / việc phiên dịch / LT:個|个[ge4],位[wei4],名[ming2]",1,L4-0227,翻译,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0279,映,279,2476,L4-0231,2222,反映,fǎnyìng,phản chiếu / phản ánh / hình ảnh phản chiếu / sự phản ánh / (nghĩa bóng) báo cáo / đưa ra cho biết / diễn tả,1,L4-0231,反映,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0281,松,281,2480,L4-0235,2286,放松,fàngsōng,thư giãn; nới lỏng; làm nhẹ,4,L4-0235 | L4-0585 | L4-0683 | L4-0684,放松 | 轻松 | 松 | 松树,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0283,肥,283,2482,L4-0237,2309,肥,féi,mập / màu mỡ / rộng hoặc lớn / bón phân / trở nên giàu có bằng cách phi pháp / phân bón / phân,2,L4-0237 | L4-0379,肥 | 减肥,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0286,之,286,2487,L4-0242,2356,…分之…,…fēn zhī…,(chỉ một phân số),6,L4-0242 | L4-0948 | L4-0949 | L4-0950 | L4-0951 | L4-0994,…分之… | 之后 | 之间 | 之前 | 之一 | 总之,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0287,纷,287,2488,L4-0243,2362,纷纷,fēnfēn,hết cái này đến cái khác / liên tiếp / từng cái một / liên tục / đa dạng / dồi dào / đông đúc và hỗn loạn / tán loạn,1,L4-0243,纷纷,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0288,奋,288,2489,L4-0244,2374,奋斗,fèndòu,phấn đấu; đấu tranh,2,L4-0244 | L4-0818,奋斗 | 兴奋,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0289,斗,289,2489,L4-0244,2374,奋斗,fèndòu,phấn đấu; đấu tranh,2,L4-0244 | L4-0929,奋斗 | 战斗,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0292,俗,292,2492,L4-0247,2409,风俗,fēngsú,phong tục xã hội / LT:個|个[ge4],1,L4-0247,风俗,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0295,则,295,2494,L4-0249,2440,否则,fǒuzé,nếu không thì; nếu không; hoặc (là),3,L4-0249 | L4-0299 | L4-0912,否则 | 规则 | 原则,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0297,妇,297,2495,L4-0250,2441,夫妇,fūfù,một cặp (đã kết hôn) / vợ chồng / LT:對|对[dui4],1,L4-0250,夫妇,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0298,妻,298,2496,L4-0251,2442,夫妻,fūqī,vợ chồng; cặp đôi đã kết hôn,2,L4-0251 | L4-0565,夫妻 | 妻子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0299,符,299,2498,L4-0253,2461,符号,fúhào,ký hiệu; dấu; biểu tượng,2,L4-0253 | L4-0254,符号 | 符合,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0303,附,303,2502,L4-0257,2502,附近,fùjìn,gần đó; lân cận / (trong) khu vực (của); hàng xóm,1,L4-0257,附近,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0310,盖,310,2506,L4-0261,2552,盖,gài,nắp / đỉnh / che / phủ / mái che / che đậy / xây dựng,1,L4-0261,盖,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0314,趣,314,2508,L4-0263,2603,感兴趣,gǎn xìngqù,cảm thấy hứng thú,4,L4-0263 | L4-0463 | L4-0824 | L4-0898,感兴趣 | 乐趣 | 兴趣 | 有趣,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0317,尚,317,2511,L4-0266,2652,高尚,gāoshàng,cao quý / cao thượng / tinh tế / tuyệt vời,1,L4-0266,高尚,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0319,隔,319,2514,L4-0269,2708,隔,gé,tách ra / ngăn cách / đứng hoặc nằm giữa / cách một khoảng từ / sau hoặc cách một khoảng thời gian,2,L4-0269 | L4-0270,隔 | 隔开,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0329,供,329,2523,L4-0278,2840,供应,gōngyìng,cung cấp / cung ứng / đưa ra,2,L4-0278 | L4-0701,供应 | 提供,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0332,构,332,2525,L4-0280,2867,构成,gòuchéng,cấu thành / hình thành / soạn / thành lập / cấu hình (tin học),4,L4-0280 | L4-0281 | L4-0350 | L4-0403,构成 | 构造 | 机构 | 结构,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0334,购,334,2527,L4-0282,2873,购买,gòumǎi,mua; tậu,2,L4-0282 | L4-0283,购买 | 购物,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0337,骨,337,2529,L4-0284,2907,骨头,gǔtou,"xương / LT:根[gen1],塊|块[kuai4] / phẩm chất đạo đức / sự cay đắng / tiếng Đài Loan là [gu2 tou5]",1,L4-0284,骨头,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0339,固,339,2530,L4-0285,2914,固定,gùdìng,cố định / gắn chặt / đặt cố định / đã cố định / ổn định / thường xuyên,2,L4-0285 | L4-0376,固定 | 坚固,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0340,瓜,340,2531,L4-0286,2934,瓜,guā,dưa / quả bầu / bí,3,L4-0286 | L4-0333 | L4-0773,瓜 | 黄瓜 | 西瓜,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0343,临,343,2538,L4-0293,3022,光临,guānglín,(trang trọng) vinh dự có mặt / tham dự,3,L4-0293 | L4-0487 | L4-0518,光临 | 临时 | 面临,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0344,盘,344,2539,L4-0294,3026,光盘,guāngpán,"đĩa CD; DVD; CD-ROM / LT:片[pian4],張|张[zhang1]",3,L4-0294 | L4-0548 | L4-0549,光盘 | 盘 | 盘子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0345,逛,345,2540,L4-0295,3038,逛,guàng,đi dạo / thăm,1,L4-0295,逛,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0346,归,346,2541,L4-0296,3039,归,guī,trở về / quay lại / trả lại / được chăm sóc bởi / thuộc về / tập hợp lại / (dùng giữa hai động từ giống nhau) mặc dù / kết hôn (đối với phụ nữ) (cũ) / phép chia trên bàn tính với số chia một chữ số,1,L4-0296,归,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0349,鲜,349,2548,L4-0303,3162,海鲜,hǎixiān,hải sản,5,L4-0303 | L4-0790 | L4-0791 | L4-0792 | L4-0816,海鲜 | 鲜 | 鲜花 | 鲜明 | 新鲜,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0352,寒,352,2553,L4-0308,3185,寒假,hánjià,kỳ nghỉ đông,2,L4-0308 | L4-0309,寒假 | 寒冷,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0355,航,355,2556,L4-0311,3202,航班,hángbān,chuyến bay (theo lịch trình); chuyến tàu (theo lịch trình),2,L4-0311 | L4-0312,航班 | 航空,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0358,毫,358,2558,L4-0313,3211,毫米,háomǐ,milimét,2,L4-0313 | L4-0314,毫米 | 毫升,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0363,码,363,2561,L4-0316,3247,号码,hàomǎ,"số / LT:堆[dui1],個|个[ge4]",3,L4-0316 | L4-0515 | L4-0670,号码 | 密码 | 数码,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0368,厚,368,2567,L4-0322,3389,厚,hòu,dày / sâu hoặc uyên thâm / tốt bụng / hào phóng / đậm hoặc nồng về hương vị / ưu ái / nhấn mạnh,2,L4-0322 | L4-0631,厚 | 深厚,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0369,呼,369,2568,L4-0323,3397,呼吸,hūxī,thở,2,L4-0323 | L4-0934,呼吸 | 招呼,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0370,吸,370,2568,L4-0323,3397,呼吸,hūxī,thở,6,L4-0323 | L4-0774 | L4-0775 | L4-0776 | L4-0777 | L4-0778,呼吸 | 吸 | 吸管 | 吸收 | 吸烟 | 吸引,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0375,怀,375,2575,L4-0330,3484,怀念,huáiniàn,nhớ thương / nghĩ đến / hồi tưởng,2,L4-0330 | L4-0331,怀念 | 怀疑,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0377,疑,377,2576,L4-0331,3485,怀疑,huáiyí,nghi ngờ (điều gì); hoài nghi / có nghi ngại; ấp ủ sự nghi ngờ; nghi rằng,2,L4-0331 | L4-0875,怀疑 | 疑问,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0378,缓,378,2577,L4-0332,3511,缓解,huǎnjiě,mang lại sự nhẹ nhõm / làm giảm bớt (khủng hoảng) / làm dịu (cơn đau),1,L4-0332,缓解,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0384,率,384,2583,L4-0338,3594,汇率,huìlǜ,tỷ giá hối đoái,3,L4-0338 | L4-0676 | L4-0811,汇率 | 率先 | 效率,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0388,伙,388,2586,L4-0341,3651,伙,huǒ,bữa ăn (viết tắt của 伙食[huo3 shi2]) / biến thể của 夥|伙[huo3] || bạn đồng hành / đối tác / nhóm / lượng từ cho nhóm người / kết hợp / cùng nhau,3,L4-0341 | L4-0342 | L4-0809,伙 | 伙伴 | 小伙子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0389,伴,389,2587,L4-0342,3652,伙伴,huǒbàn,đối tác / bạn đồng hành / đồng chí,1,L4-0342,伙伴,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0392,获,392,2590,L4-0345,3664,获,huò,(văn học) bắt; thu giữ / (văn học) nhận được; đạt được; giành được || (hình thức kết hợp) gặt hái; thu hoạch,5,L4-0345 | L4-0346 | L4-0347 | L4-0348 | L4-0653,获 | 获得 | 获奖 | 获取 | 收获,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0401,即,401,2603,L4-0358,3747,即将,jíjiāng,sắp; sắp sửa; sớm,2,L4-0358 | L4-0472,即将 | 立即,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0406,载,406,2606,L4-0361,3791,记载,jìzǎi,ghi chép / ghi lại / tài liệu viết,2,L4-0361 | L4-0788,记载 | 下载,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0412,既,412,2613,L4-0368,3815,既,jì,đã / kể từ / cả... (và...),2,L4-0368 | L4-0369,既 | 既然,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0413,寄,413,2615,L4-0370,3826,寄,jì,"gửi / gửi thư / giao phó / phụ thuộc / tựa vào / sống (trong nhà) / ở nhờ / nuôi dưỡng (con trai,...)",1,L4-0370,寄,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0423,减,423,2623,L4-0378,3945,减,jiǎn,hạ / thấp / giảm / trừ / giảm bớt,3,L4-0378 | L4-0379 | L4-0380,减 | 减肥 | 减少,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0429,渐,429,2628,L4-0383,4004,渐渐,jiànjiàn,dần dần,2,L4-0383 | L4-0968,渐渐 | 逐渐,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0430,江,430,2629,L4-0384,4013,江,jiāng,"sông / LT:條|条[tiao2],道[dao4]",1,L4-0384,江,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0432,究,432,2630,L4-0385,4026,讲究,jiǎngjiu,chú trọng / chọn lọc kỹ lưỡng / chọn một cách tao nhã,4,L4-0385 | L4-0418 | L4-0847 | L4-0848,讲究 | 究竟 | 研究 | 研究生,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0435,降,435,2635,L4-0390,4039,降,jiàng,rơi / giảm / xuống / hạ xuống,6,L4-0390 | L4-0391 | L4-0392 | L4-0393 | L4-0394 | L4-0786,降 | 降低 | 降价 | 降落 | 降温 | 下降,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0443,授,443,2642,L4-0397,4122,教授,jiàoshòu,"giáo sư / hướng dẫn / giảng dạy về / LT:個|个[ge4],位[wei4]",1,L4-0397,教授,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0445,阶,445,2644,L4-0399,4132,阶段,jiēduàn,giai đoạn / phần / thời kỳ / kỳ / LT:個|个[ge4],2,L4-0399 | L4-0694,阶段 | 台阶,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0452,释,452,2651,L4-0406,4218,解释,jiěshì,giải thích / giải nghĩa / diễn giải / phân tích / LT:個|个[ge4],1,L4-0406,解释,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0456,禁,456,2657,L4-0412,4317,禁止,jìnzhǐ,cấm / ngăn cấm / cấm đoán,1,L4-0412,禁止,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0460,竟,460,2660,L4-0415,4397,竟然,jìngrán,một cách bất ngờ / ngạc nhiên / trước mọi thứ / một cách điên rồ / thực sự / đi xa đến mức,2,L4-0415 | L4-0418,竟然 | 究竟,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0461,镜,461,2661,L4-0416,4415,镜头,jìngtóu,"ống kính máy ảnh / cảnh quay (trong phim, v.v.) / cảnh",3,L4-0416 | L4-0417 | L4-0851,镜头 | 镜子 | 眼镜,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0464,居,464,2665,L4-0420,4462,居民,jūmín,cư dân; người dân,2,L4-0420 | L4-0421,居民 | 居住,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0467,局,467,2667,L4-0422,4467,局,jú,"hẹp || văn phòng / tình huống / lượng từ cho trò chơi: ván, sét, vòng, v.v. || chật chội; hẹp",2,L4-0422 | L4-0896,局 | 邮局,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0468,巨,468,2668,L4-0423,4491,巨大,jùdà,to lớn / khổng lồ / rất lớn / khủng khiếp / vĩ đại,1,L4-0423,巨大,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0471,距,471,2670,L4-0425,4518,距离,jùlí,khoảng cách / Lượng từ: 個|个[ge4] / cách xa,1,L4-0425,距离,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0473,聚,473,2671,L4-0426,4520,聚,jù,tập hợp; tụ họp (ngoại động từ hoặc nội động từ) / (hóa học) poli-,2,L4-0426 | L4-0427,聚 | 聚会,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0474,卷,474,2673,L4-0428,4529,卷,juǎn,"cuộn lại / cuộn / Lượng từ cho vật nhỏ được cuộn (cuộn tiền, cuộn phim, v.v.) || cuộn lại / quét lên; cuốn theo / một cuộn / lượng từ cho cuộn, ống cuộn, v.v.",3,L4-0428 | L4-0429 | L4-0650,卷 | 试卷,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0481,虑,481,2682,L4-0437,4666,考虑,kǎolǜ,suy nghĩ kỹ / cân nhắc / sự cân nhắc,1,L4-0437,考虑,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0482,棵,482,2683,L4-0438,4685,棵,kē,"lượng từ cho cây, bắp cải, thực vật, v.v.",1,L4-0438,棵,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0489,递,489,2691,L4-0446,4832,快递,kuàidì,chuyển phát nhanh,1,L4-0446,快递,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0490,宽,490,2692,L4-0447,4840,宽,kuān,rộng / rộng rãi / lỏng / thư giãn / khoan dung,2,L4-0447 | L4-0448,宽 | 宽广,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0492,矿,492,2694,L4-0449,4861,矿泉水,kuàngquánshuǐ,"nước khoáng / LT:瓶[ping2],杯[bei1]",1,L4-0449,矿泉水,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0493,泉,493,2694,L4-0449,4861,矿泉水,kuàngquánshuǐ,"nước khoáng / LT:瓶[ping2],杯[bei1]",1,L4-0449,矿泉水,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0494,扩,494,2695,L4-0450,4875,扩大,kuòdà,mở rộng / phóng to / mở rộng phạm vi,2,L4-0450 | L4-0451,扩大 | 扩展,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0496,垃,496,2698,L4-0453,4884,垃圾,lājī,rác / thứ bỏ đi / rác thải / (khẩu ngữ) chất lượng kém / Tiếng Đài Loan đọc là [le4 se4],1,L4-0453,垃圾,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0497,圾,497,2698,L4-0453,4884,垃圾,lājī,rác / thứ bỏ đi / rác thải / (khẩu ngữ) chất lượng kém / Tiếng Đài Loan đọc là [le4 se4],1,L4-0453,垃圾,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0499,辣,499,2700,L4-0455,4896,辣,là,"biến thể cũ của 辣[la4] || cay (nóng) / hăng / (ớt, hành sống, v.v.) làm rát / nóng bỏng",1,L4-0455,辣,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0501,婆,501,2706,L4-0461,4964,老婆,lǎopo,(khẩu ngữ) vợ,1,L4-0461,老婆,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0503,泪,503,2709,L4-0464,4989,泪,lèi,nước mắt,3,L4-0464 | L4-0465 | L4-0852,泪 | 泪水 | 眼泪,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0506,厘,506,2713,L4-0468,5011,厘米,límǐ,xentimét,1,L4-0468,厘米,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0508,史,508,2716,L4-0471,5064,历史,lìshǐ,"lịch sử / LT:門|门[men2],段[duan4]",1,L4-0471,历史,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0511,益,511,2719,L4-0474,5083,利益,lìyì,lợi ích / quyền lợi / LT:個|个[ge4],2,L4-0474 | L4-0654,利益 | 收益,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0512,俩,512,2720,L4-0475,5089,俩,liǎ,hai (cách nói thông tục của 兩個|两个) / cả hai / một vài,1,L4-0475,俩,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0513,良,513,2721,L4-0476,5129,良好,liánghǎo,tốt / thuận lợi / tốt đẹp,3,L4-0476 | L4-0616 | L4-0893,良好 | 善良 | 优良,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0514,粮,514,2723,L4-0478,5138,粮食,liángshi,lương thực / ngũ cốc / LT:種|种[zhong3],1,L4-0478,粮食,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0518,疗,518,2725,L4-0480,5156,疗养,liáoyǎng,hồi phục / chữa lành / dưỡng bệnh / phục hồi / sự dưỡng bệnh / chăm sóc,3,L4-0480 | L4-0863 | L4-0958,疗养 | 医疗 | 治疗,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0521,列,521,2728,L4-0483,5171,列,liè,sắp xếp / xếp hàng / hàng / dãy / (trong bảng dữ liệu) cột / (Đài Loan) hàng,6,L4-0483 | L4-0484 | L4-0485 | L4-0486 | L4-0546 | L4-0780,列 | 列车 | 列入 | 列为 | 排列 | 系列,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0525,轮,525,2740,L4-0495,5351,轮,lún,"bánh xe; đĩa; vòng / chuyến tàu hơi nước / thay phiên; xoay vòng / lượng từ cho các vật tròn lớn: đĩa, hoặc sự kiện lặp lại: vòng, lượt",4,L4-0495 | L4-0496 | L4-0497 | L4-0498,轮 | 轮船 | 轮椅 | 轮子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0530,巾,530,2746,L4-0501,5444,毛巾,máojīn,khăn lau / LT:條|条[tiao2],2,L4-0501 | L4-0750,毛巾 | 围巾,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0532,帽,532,2748,L4-0503,5457,帽子,màozi,mũ / nón / (bóng) nhãn / mang tiếng xấu / LT: 頂|顶[ding3],1,L4-0503,帽子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0538,梦,538,2754,L4-0509,5527,梦,mèng,"giấc mơ (LT: 場|场[chang2],個|个[ge4]) / (dạng kết hợp) mơ",4,L4-0509 | L4-0510 | L4-0511 | L4-1000,梦 | 梦见 | 梦想 | 做梦,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0539,秘,539,2757,L4-0512,5550,秘密,mìmì,bí mật; riêng tư; tuyệt mật / một bí mật (LT:個|个[ge4]),3,L4-0512 | L4-0513 | L4-0633,秘密 | 秘书 | 神秘,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0543,描,543,2765,L4-0520,5595,描述,miáoshù,mô tả / sự mô tả,2,L4-0520 | L4-0521,描述 | 描写,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0544,述,544,2765,L4-0520,5595,描述,miáoshù,mô tả / sự mô tả,1,L4-0520,描述,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0546,摸,546,2770,L4-0525,5657,摸,mō,sờ bằng tay / chạm / vuốt / mò / trộm / trích,1,L4-0525,摸,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0553,闹,553,2781,L4-0536,5811,闹,nào,biến thể của 鬧|闹[nao4] || ồn ào / huyên náo / gây ồn / làm phiền / xả (cảm xúc) / phát bệnh / lên cơn (bệnh) / tham gia (hoạt động gì) / đùa giỡn,3,L4-0536 | L4-0537 | L4-0600,闹 | 闹钟 | 热闹,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0559,宁,559,2786,L4-0541,5882,宁静,níngjìng,yên tĩnh / sự yên tĩnh / tĩnh lặng,1,L4-0541,宁静,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0560,浓,560,2787,L4-0542,5907,浓,nóng,"đậm / đặc / mạnh (mùi,...)",1,L4-0542,浓,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0566,培,566,2796,L4-0551,6006,培训,péixùn,nuôi dưỡng / đào tạo / bồi dưỡng / huấn luyện,4,L4-0551 | L4-0552 | L4-0553 | L4-0554,培训 | 培训班 | 培养 | 培育,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0569,质,569,2803,L4-0558,6111,品质,pǐnzhì,"tính cách / chất lượng vốn có (của một người) / chất lượng (của sản phẩm hoặc dịch vụ, hoặc như trong ""chất lượng cuộc sống"", ""chất lượng không khí"" v.v.)",3,L4-0558 | L4-0825 | L4-0956,品质 | 性质 | 质量,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0571,均,571,2806,L4-0561,6131,平均,píngjūn,trung bình; bình quân / đều; theo tỷ lệ bằng nhau,1,L4-0561,平均,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0572,稳,572,2807,L4-0562,6138,平稳,píngwěn,êm ả; vững vàng,3,L4-0562 | L4-0761 | L4-0762,平稳 | 稳 | 稳定,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0575,限,575,2814,L4-0569,6208,期限,qīxiàn,thời hạn / hạn chót / thời gian được phân bổ,4,L4-0569 | L4-0770 | L4-0796 | L4-0899,期限 | 无限 | 限制 | 有限,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0577,余,577,2816,L4-0571,6223,其余,qíyú,phần còn lại / những cái khác / còn lại / số dư / ngoài bọn họ,2,L4-0571 | L4-0861,其余 | 业余,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0578,企,578,2817,L4-0572,6243,企业,qǐyè,công ty; hãng; doanh nghiệp; tập đoàn / LT:家[jia1],1,L4-0572,企业,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0582,浅,582,2824,L4-0579,6371,浅,qiǎn,cạn / nhạt (màu),1,L4-0579,浅,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0589,醒,589,2832,L4-0587,6498,清醒,qīngxǐng,tỉnh táo / tỉnh thức,3,L4-0587 | L4-0702 | L4-0823,清醒 | 提醒 | 醒,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0590,穷,590,2834,L4-0589,6533,穷,qióng,nghèo / khốn cùng / dùng hết / kiệt quệ / kỹ lưỡng / cực kỳ / (khẩu ngữ) dai dẳng và vô ích,2,L4-0589 | L4-0590,穷 | 穷人,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0592,趋,592,2837,L4-0592,6564,趋势,qūshì,xu hướng; khuynh hướng,1,L4-0592,趋势,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0594,圈,594,2838,L4-0593,6590,圈,quān,"hình tròn; cái vòng; vòng lặp (LT:個|个[ge4]) / lượng từ cho vòng lặp, quỹ đạo, vòng đua, v.v. / bao quanh; xoay quanh",1,L4-0593,圈,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0595,权,595,2839,L4-0594,6596,权利,quánlì,quyền lợi (tức là quyền được hưởng điều gì đó) / (văn học cổ) quyền lực và sự giàu có,1,L4-0594,权利,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0596,却,596,2840,L4-0595,6637,却,què,biến thể cũ của 卻|却[que4] || nhưng / tuy / vậy mà / trong khi / quay lại / từ chối / rút lui / tuy nhiên / mặc dù,1,L4-0595,却,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0597,燃,597,2843,L4-0598,6655,燃料,ránliào,nhiên liệu,2,L4-0598 | L4-0599,燃料 | 燃烧,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0601,弱,601,2851,L4-0606,6830,弱,ruò,yếu; yếu ớt / trẻ tuổi / kém; không tốt bằng / (sau số thập phân hoặc phân số) hơi ít hơn,1,L4-0606,弱,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0602,伞,602,2852,L4-0607,6846,伞,sǎn,cái ô / cái dù / LT:把[ba3] || lụa trơn / biến thể của 傘|伞[san3],1,L4-0607,伞,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0604,森,604,2857,L4-0612,6867,森林,sēnlín,rừng / LT:片[pian4],1,L4-0612,森林,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0605,林,605,2857,L4-0612,6867,森林,sēnlín,rừng / LT:片[pian4],2,L4-0612 | L4-0667,森林 | 树林,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0606,晒,606,2858,L4-0613,6886,晒,shài,"biến thể của 曬|晒[shai4] || (mặt trời) chiếu vào / phơi nắng / phơi khô (quần áo, ngũ cốc, v.v.) dưới nắng / (nghĩa bóng) phơi bày và chia sẻ (trải nghiệm và suy nghĩ của mình) trên mạng (từ mượn từ ""share"") / (thông tục) lạnh nhạt với",1,L4-0613,晒,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0607,闪,607,2859,L4-0614,6903,闪,shǎn,"né / tránh / chuồn / rung (do ngã) / bong gân / căng cơ / sấm chớp / tia lửa / chớp lóe / xuất hiện trong đầu / rời đi / (tiếng lóng Internet) (của màn thể hiện tình cảm) ngọt ngào ""chói mắt""",2,L4-0614 | L4-0615,闪 | 闪电,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0611,赏,611,2865,L4-0620,6939,赏,shǎng,ban tặng (phần thưởng) / đưa cho (người cấp dưới) / truyền lại / phần thưởng (được ban bởi cấp trên) / thưởng thức (vẻ đẹp),2,L4-0620 | L4-0926,赏 | 赞赏,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0615,申,615,2872,L4-0627,7044,申请,shēnqǐng,nộp đơn xin / đơn xin (LT:份[fen4]),1,L4-0627,申请,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0621,甚,621,2879,L4-0634,7101,甚至,shènzhì,thậm chí; đến mức mà,1,L4-0634,甚至,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0624,诗,624,2883,L4-0638,7191,诗,shī,bài thơ / LT:首[shou3] / thơ / thi ca,2,L4-0638 | L4-0639,诗 | 诗人,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0627,劲,627,2889,L4-0644,7267,使劲,shǐjìn,dốc hết sức lực,2,L4-0644 | L4-0897,使劲 | 有劲儿,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0638,叔,638,2908,L4-0663,7450,叔叔,shūshu,em trai của bố / chú / cách đọc tại Đài Loan: [shu2 shu5] / LT:個|个[ge4],1,L4-0663,叔叔,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0643,暑,643,2911,L4-0666,7474,暑假,shǔjià,kỳ nghỉ hè / LT:個|个[ge4],1,L4-0666,暑假,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0646,刷,646,2916,L4-0671,7503,刷,shuā,chải / sơn / quét / đăng lên / bỏ học (của học sinh) / sa thải khỏi công việc,4,L4-0671 | L4-0672 | L4-0673 | L4-0838,刷 | 刷牙 | 刷子 | 牙刷,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0647,牙,647,2917,L4-0672,7505,刷牙,shuā yá,đánh răng,3,L4-0672 | L4-0837 | L4-0838,刷牙 | 牙 | 牙刷,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0648,帅,648,2919,L4-0674,7518,帅,shuài,"(dạng kết hợp) tổng tư lệnh / (dạng kết hợp) dẫn dắt; chỉ huy / đẹp trai; duyên dáng; bảnh bao; thanh lịch / (thông tục) tuyệt vời!; chất! / (cờ tướng) tướng (bên đỏ, tương đương với vua trong cờ vua phương Tây)",2,L4-0674 | L4-0675,帅 | 帅哥,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0655,塑,655,2930,L4-0685,7686,塑料,sùliào,nhựa / LT:種|种[zhong3],2,L4-0685 | L4-0686,塑料 | 塑料袋,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0656,酸,656,2932,L4-0687,7689,酸,suān,chua / chua xót / đau lòng / đau buồn / đau / sưng đau / qua loa / không thực tế / châm chọc / một loại axit,2,L4-0687 | L4-0688,酸 | 酸奶,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0659,孙,659,2935,L4-0690,7722,孙女,sūnnǚ,con gái của con trai / cháu gái,2,L4-0690 | L4-0691,孙女 | 孙子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0660,缩,660,2937,L4-0692,7731,缩短,suōduǎn,rút ngắn / cắt giảm,2,L4-0692 | L4-0693,缩短 | 缩小,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0662,躺,662,2941,L4-0696,7824,躺,tǎng,ngả lưng / nằm xuống,1,L4-0696,躺,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0664,殊,664,2944,L4-0699,7866,特殊,tèshū,đặc biệt / cụ thể / khác thường / phi thường,1,L4-0699,特殊,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0665,征,665,2945,L4-0700,7871,特征,tèzhēng,đặc điểm / tính chất chẩn đoán / nét đặc trưng / phẩm chất,3,L4-0700 | L4-0944 | L4-0945,特征 | 征服 | 征求,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0669,填,669,2954,L4-0709,7960,填,tián,"lấp hoặc nhồi / (đối với biểu mẫu, v.v.) điền vào",2,L4-0709 | L4-0710,填 | 填空,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0670,挑,670,2956,L4-0711,7966,挑,tiāo,gánh bằng đòn gánh / chọn / lựa / chỉ trích / bới móc,4,L4-0711 | L4-0712 | L4-0714 | L4-0715,挑 | 挑选 | 挑战,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0673,战,673,2960,L4-0715,7986,挑战,tiǎozhàn,thử thách / thách thức,5,L4-0715 | L4-0929 | L4-0930 | L4-0931 | L4-0932,挑战 | 战斗 | 战胜 | 战士 | 战争,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0674,贴,674,2961,L4-0716,7996,贴,tiē,dán / dính / đăng (ví dụ: trên blog) / dựa sát / phù hợp chặt / trợ cấp (ví dụ: tiền ăn hoặc ở) / hình dán / lượng từ cho băng dán: miếng,1,L4-0716,贴,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0681,投,681,2971,L4-0726,8110,投,tóu,"ném (thứ gì theo hướng cụ thể: bóng, lao, lựu đạn, v.v.) / bỏ phiếu / phóng (ánh nhìn, bóng, v.v.) / bỏ vào (tiền đầu tư, xu để vận hành máy bán hàng tự động) / gửi (thư, bản thảo, v.v.) / lao mình vào (sông, giếng, v.v. để tự tử) / đi đến; tìm nơi trú ẩn; đặt mình vào tay ai / (thông tục) xả (quần áo) trong nước",4,L4-0726 | L4-0727 | L4-0728 | L4-0729,投 | 投入 | 投诉 | 投资,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0684,透,684,2975,L4-0730,8121,透,tòu,(hình thức kết hợp) thâm nhập; thấm qua / nói bí mật; rò rỉ / kỹ lưỡng; tường tận / xuất hiện; lộ ra,2,L4-0730 | L4-0731,透 | 透明,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0689,袜,689,2983,L4-0738,8235,袜子,wàzi,"tất / vớ / LT:隻|只[zhi1],對|对[dui4],雙|双[shuang1]",1,L4-0738,袜子,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0690,弯,690,2987,L4-0742,8273,弯,wān,"uốn cong / cong / một khúc cua; một chỗ rẽ (trên đường, v.v.) / LT:道[dao4]",2,L4-0742 | L4-0979,弯 | 转弯,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0695,络,695,2991,L4-0746,8327,网络,wǎngluò,"mạng lưới (máy tính, viễn thông, vận tải,...)",1,L4-0746,网络,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0696,微,696,2993,L4-0748,8371,微笑,wēixiào,"cười / LT:個|个[ge4],絲|丝[si1] / mỉm cười",2,L4-0748 | L4-0749,微笑 | 微信,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0699,维,699,2996,L4-0751,8394,维持,wéichí,giữ; duy trì; bảo tồn,3,L4-0751 | L4-0752 | L4-0753,维持 | 维护 | 维修,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0702,尾,702,2999,L4-0754,8401,尾巴,wěiba,đuôi / phát âm thông tục [yi3 ba5],1,L4-0754,尾巴,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0703,未,703,3000,L4-0755,8421,未必,wèibì,không nhất thiết / có thể không,2,L4-0755 | L4-0756,未必 | 未来,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0709,无,709,3009,L4-0764,8506,无,wú,không có / không / không có gì / thiếu / không- / vô- / -thiếu,7,L4-0764 | L4-0765 | L4-0766 | L4-0767 | L4-0768 | L4-0769 | L4-0770,无 | 无法 | 无聊 | 无论 | 无数 | 无所谓 | 无限,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0710,聊,710,3011,L4-0766,8528,无聊,wúliáo,chán / chán nản / vô nghĩa,1,L4-0766,无聊,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0712,谓,712,3014,L4-0769,8540,无所谓,wúsuǒwèi,thờ ơ / không quan trọng / không thể nói là,1,L4-0769,无所谓,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0718,引,718,3023,L4-0778,8611,吸引,xīyǐn,thu hút; hấp dẫn; làm mê hoặc,5,L4-0778 | L4-0881 | L4-0882 | L4-0883 | L4-0884,吸引 | 引 | 引导 | 引进 | 引起,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0720,细,720,3027,L4-0782,8656,细,xì,mỏng hoặc thon / mịn như hạt / mỏng và mềm / mịn / mong manh / nhỏ nhặt / (âm thanh) nhỏ / tiết kiệm,3,L4-0782 | L4-0783 | L4-0784,细 | 细节 | 细致,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0722,咸,722,3038,L4-0793,8739,咸,xián,tất cả / mọi người / mỗi / rộng khắp / hài hòa || được ướp muối / mặn / keo kiệt / bủn xỉn,1,L4-0793,咸,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0724,著,724,3039,L4-0794,8754,显著,xiǎnzhù,nổi bật / đáng chú ý / đáng kể / có ý nghĩa thống kê,3,L4-0794 | L4-0972 | L4-0973,显著 | 著名 | 著作,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0725,县,725,3040,L4-0795,8756,县,xiàn,huyện,1,L4-0795,县,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0728,项,728,3048,L4-0803,8855,项,xiàng,"sau cổ / mục / điều / khoản (trong công thức toán học) / khoản tiền / lượng từ cho nguyên tắc, mục, điều khoản, nhiệm vụ, dự án nghiên cứu, v.v.",2,L4-0803 | L4-0804,项 | 项目,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0736,郎,736,3059,L4-0814,9015,新郎,xīnláng,chú rể,1,L4-0814,新郎,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0741,兄,741,3071,L4-0826,9110,兄弟,xiōngdì,anh em / em trai / LT: 個|个[ge4] / tôi (cách khiêm tốn nam giới dùng trong phát biểu công khai) / tình anh em / thuộc về anh em,1,L4-0826,兄弟,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0743,胸,743,3072,L4-0827,9112,胸部,xiōngbù,ngực / vòng một,1,L4-0827,胸部,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0744,择,744,3074,L4-0829,9198,选择,xuǎnzé,chọn; chọn lựa / lựa chọn; phương án; thay thế,1,L4-0829,选择,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0745,寻,745,3080,L4-0835,9243,寻找,xúnzhǎo,tìm kiếm; tìm,1,L4-0835,寻找,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0747,迅,747,3081,L4-0836,9250,迅速,xùnsù,nhanh chóng / nhanh nhẹn / nhanh,1,L4-0836,迅速,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0749,亚,749,3084,L4-0839,9272,亚运会,Yàyùnhuì,Đại hội Thể thao châu Á,1,L4-0839,亚运会,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0751,呀,751,3085,L4-0840,9273,呀,ya,"(trợ từ tương đương với 啊 sau nguyên âm, biểu đạt sự ngạc nhiên hoặc nghi ngờ)",1,L4-0840,呀,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0752,延,752,3086,L4-0841,9281,延长,yáncháng,kéo dài / mở rộng / trì hoãn,3,L4-0841 | L4-0842 | L4-0843,延长 | 延期 | 延续,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0753,严,753,3089,L4-0844,9287,严,yán,chặt (được niêm phong kín) / nghiêm khắc / nghiêm ngặt / nghiêm túc / nghiêm trọng / cha,3,L4-0844 | L4-0845 | L4-0846,严 | 严格 | 严重,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0754,研,754,3092,L4-0847,9310,研究,yánjiū,nghiên cứu / một nghiên cứu / LT:項|项[xiang4] / tìm hiểu kỹ lưỡng,3,L4-0847 | L4-0848 | L4-0849,研究 | 研究生 | 研制,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0755,盐,755,3095,L4-0850,9315,盐,yán,muối / LT:粒[li4],1,L4-0850,盐,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0759,腰,759,3102,L4-0857,9389,腰,yāo,eo / lưng dưới / túi / giữa / hông,1,L4-0857,腰,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0762,依,762,3110,L4-0865,9481,依靠,yīkào,"dựa vào cái gì đó (để hỗ trợ, v.v.); phụ thuộc vào",2,L4-0865 | L4-0866,依靠 | 依然,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0765,移,765,3115,L4-0870,9537,移,yí,di chuyển / dịch / chuyển / thay đổi / dời,4,L4-0870 | L4-0871 | L4-0872 | L4-0980,移 | 移动 | 移民 | 转移,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0766,遗,766,3118,L4-0873,9542,遗产,yíchǎn,di sản / dấu ấn / thừa kế / di vật / LT:筆|笔[bi3],2,L4-0873 | L4-0874,遗产 | 遗传,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0771,勇,771,3131,L4-0886,9740,英勇,yīngyǒng,anh dũng / gan dạ / dũng cảm,3,L4-0886 | L4-0890 | L4-0891,英勇 | 勇敢 | 勇气,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0777,秀,777,3140,L4-0895,9819,优秀,yōuxiù,xuất sắc; ưu tú,1,L4-0895,优秀,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0779,幼,779,3145,L4-0900,9909,幼儿园,yòu'éryuán,nhà trẻ / trường mẫu giáo,1,L4-0900,幼儿园,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0782,玉,782,3149,L4-0904,9948,玉,yù,ngọc,2,L4-0904 | L4-0905,玉 | 玉米,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0786,圆,786,3158,L4-0913,10016,圆,yuán,hình tròn / tròn / dạng tròn / hình cầu / (mặt trăng) tròn / đơn vị tiền Trung Quốc (yuan) / khéo léo / làm cho nhất quán và hoàn chỉnh (câu chuyện giấc mơ hoặc lời nói dối),2,L4-0913 | L4-0914,圆 | 圆满,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0789,阅,789,3162,L4-0917,10065,阅读,yuèdú,đọc / việc đọc,1,L4-0917,阅读,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0795,丈,795,3178,L4-0933,10268,丈夫,zhàngfu,chồng / LT: 個|个[ge4],1,L4-0933,丈夫,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0796,招,796,3179,L4-0934,10282,招呼,zhāohu,gọi / chào / hỏi thăm / thông báo / chăm sóc / đảm bảo không,1,L4-0934,招呼,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0797,召,797,3183,L4-0938,10303,召开,zhàokāi,triệu tập (hội nghị hoặc cuộc họp) / triệu tập / mời họp,1,L4-0938,召开,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0798,阵,798,3187,L4-0942,10368,阵,zhèn,bố trí quân đội / làn / sự dồn dập / sự bùng phát / cơn / khoảng thời gian ngắn / lượng từ cho sự kiện hoặc trạng thái ngắn hạn,1,L4-0942,阵,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0800,政,800,3191,L4-0946,10445,政府,zhèngfǔ,chính phủ / LT:個|个[ge4],2,L4-0946 | L4-0947,政府 | 政治,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0801,府,801,3191,L4-0946,10445,政府,zhèngfǔ,chính phủ / LT:個|个[ge4],1,L4-0946,政府,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0802,治,802,3192,L4-0947,10447,政治,zhèngzhì,chính trị / thuộc về chính trị,3,L4-0947 | L4-0957 | L4-0958,政治 | 治 | 治疗,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0804,植,804,3198,L4-0953,10517,植物,zhíwù,thực vật / cây cối / LT:種|种[zhong3],2,L4-0953 | L4-0965,植物 | 种植,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0806,智,806,3204,L4-0959,10599,智力,zhìlì,trí tuệ / trí thông minh,2,L4-0959 | L4-0960,智力 | 智能,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0808,逐,808,3212,L4-0967,10703,逐步,zhúbù,một cách tiến triển / từng bước một,2,L4-0967 | L4-0968,逐步 | 逐渐,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0822,综,822,3235,L4-0990,10955,综合,zōnghé,toàn diện / hỗn hợp / tổng hợp / kết hợp / tóm lại / tích hợp,1,L4-0990,综合,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4
+H4-0824,阻,824,3240,L4-0995,11013,阻止,zǔzhǐ,ngăn chặn / ngăn cản,1,L4-0995,阻止,KHONG,0,,,,,,,,CAN_CHUAN_BI_NOI_DUNG_MOI,MOI_HSK4

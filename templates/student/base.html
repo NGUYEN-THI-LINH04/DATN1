@@ -1,0 +1,632 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        {% block title %}
+        Mộc Hán - Học tiếng Trung
+        {% endblock %}
+    </title>
+
+    <!-- ==========================================
+         CSS CHUNG
+    ========================================== -->
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/common.css') }}"
+    >
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/student.css') }}"
+    >
+
+    <!-- ==========================================
+         CSS MENU TAI KHOAN
+         DUNG CHO HAI LIEN KET MOI
+    ========================================== -->
+
+    <style>
+        .account-dropdown a.account-dropdown-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+        }
+
+        .account-dropdown a.account-dropdown-item:focus-visible {
+            outline: 2px solid #c18c43;
+            outline-offset: -2px;
+            border-radius: 6px;
+        }
+    </style>
+
+    {% block extra_css %}{% endblock %}
+    {% block head %}{% endblock %}
+
+</head>
+
+
+<body class="student-body">
+
+{# =====================================================
+   1. THONG TIN TAI KHOAN DANG NHAP
+
+   auth.py luu trong session:
+   - account_id
+   - role
+   - password_stamp
+
+   auth.py nap g.account tu SQL Server.
+
+   Khong can truy van SQL tai template.
+====================================================== #}
+
+{% set account = g.account if g.account is defined else none %}
+
+{% set is_logged_in = account is not none %}
+
+{% set current_role = account.role if account else none %}
+
+{% set display_name = (
+    account.full_name
+    or account.username
+    or 'Tài khoản'
+) if account else 'Tài khoản' %}
+
+{% set display_email = (
+    account.email or ''
+) if account else '' %}
+
+
+<div class="student-app">
+
+    <!-- =============================================
+         2. SIDEBAR
+    ============================================== -->
+
+    {% include "student/_sidebar.html" %}
+
+
+    <!-- =============================================
+         3. PHAN CHINH
+    ============================================== -->
+
+    <div class="student-main">
+
+
+        <!-- =========================================
+             4. TOP BAR
+        ========================================== -->
+
+        <header class="student-topbar">
+
+            <!-- MOBILE SIDEBAR -->
+
+            <button
+                type="button"
+                class="mobile-sidebar-button"
+                id="mobileSidebarButton"
+                aria-label="Mở menu"
+            >
+
+                <svg viewBox="0 0 24 24">
+                    <path d="M4 7h16"></path>
+                    <path d="M4 12h16"></path>
+                    <path d="M4 17h16"></path>
+                </svg>
+
+            </button>
+
+
+            <!-- =====================================
+                 BEN TRAI - LOGO
+            ====================================== -->
+
+            <div class="topbar-left">
+
+                <a
+                    href="{{ url_for('home.index') }}"
+                    class="topbar-brand"
+                >
+
+                    <span class="topbar-brand-cn">
+                        汉语
+                    </span>
+
+                    <span class="topbar-brand-name">
+                        MỘC HÁN
+                    </span>
+
+                </a>
+
+            </div>
+
+
+            <!-- DAY NOI DUNG QUA PHAI -->
+
+            <div class="topbar-spacer"></div>
+
+
+            <!-- =====================================
+                 5. CHUA DANG NHAP
+            ====================================== -->
+
+            {% if not is_logged_in %}
+
+                <div class="topbar-auth">
+
+                    <a
+                        href="{{ url_for('auth.login') }}"
+                        class="topbar-login-button"
+                    >
+                        Đăng nhập
+                    </a>
+
+                    <a
+                        href="{{ url_for('auth.register') }}"
+                        class="topbar-register-button"
+                    >
+                        Đăng ký
+                    </a>
+
+                </div>
+
+
+            <!-- =====================================
+                 6. DA DANG NHAP
+            ====================================== -->
+
+            {% else %}
+
+                <div class="topbar-actions">
+
+
+                    <!-- DIEM HOC TAP -->
+                    <!-- Giu nguyen hien thi cu -->
+
+                    <div
+                        class="topbar-energy"
+                        title="Điểm học tập"
+                    >
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M13 2L5 13h6l-1 9 8-12h-6z"></path>
+                        </svg>
+
+                        <span>
+                            0
+                        </span>
+
+                    </div>
+
+
+                    <!-- =================================
+                         THONG BAO
+                    ================================== -->
+
+                    <button
+                        type="button"
+                        class="topbar-icon-button"
+                        title="Thông báo"
+                        aria-label="Thông báo"
+                    >
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"></path>
+                            <path d="M10 21h4"></path>
+                        </svg>
+
+                    </button>
+
+
+                    <!-- =================================
+                         7. MENU TAI KHOAN
+                    ================================== -->
+
+                    <div class="account-menu">
+
+
+                        <!-- NUT MO MENU -->
+
+                        <button
+                            type="button"
+                            class="account-menu-trigger"
+                            aria-label="Mở menu tài khoản"
+                        >
+
+                            <!-- AVATAR -->
+
+                            <span class="topbar-avatar">
+
+                                {{ display_name[0] | upper }}
+
+                            </span>
+
+
+                            <!-- TEN TAI KHOAN -->
+
+                            <span class="account-name">
+                                {{ display_name }}
+                            </span>
+
+
+                            <!-- MUI TEN -->
+
+                            <span class="account-chevron">
+                                ▾
+                            </span>
+
+                        </button>
+
+
+                        <!-- =================================
+                             8. DROPDOWN TAI KHOAN
+                        ================================== -->
+
+                        <div class="account-dropdown">
+
+
+                            <!-- THONG TIN TAI KHOAN -->
+
+                            <div class="account-dropdown-head">
+
+                                <div class="account-dropdown-avatar">
+
+                                    {{ display_name[0] | upper }}
+
+                                </div>
+
+
+                                <div class="account-dropdown-user">
+
+                                    <strong>
+                                        {{ display_name }}
+                                    </strong>
+
+                                    {% if display_email %}
+
+                                        <span>
+                                            {{ display_email }}
+                                        </span>
+
+                                    {% endif %}
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="account-dropdown-divider">
+                            </div>
+
+
+                            <!-- =================================
+                                 9. HO SO CA NHAN
+
+                                 Route:
+                                     profile.index
+
+                                 URL:
+                                     /tai-khoan/ho-so/
+
+                                 Du lieu:
+                                     dbo.NguoiDung
+                            ================================== -->
+
+                            <a
+                                href="{{ url_for('profile.index') }}"
+                                class="account-dropdown-item"
+                            >
+
+                                <span aria-hidden="true">
+                                    👤
+                                </span>
+
+                                Hồ sơ cá nhân
+
+                            </a>
+
+
+                            <!-- =================================
+                                 10. TIEN DO HOC
+
+                                 Route:
+                                     progress.index
+
+                                 URL:
+                                     /progress/
+
+                                 Bao gom:
+                                 - Tu vung
+                                 - Shadowing
+                                 - Bai tap
+                                 - Luyen thi HSK
+
+                                 Su dung tien do hoc hien tai.
+                                 Khong tao trang tien do rieng.
+                            ================================== -->
+
+                            <a
+                                href="{{ url_for('progress.index') }}"
+                                class="account-dropdown-item"
+                            >
+
+                                <span aria-hidden="true">
+                                    📈
+                                </span>
+
+                                Tiến độ học
+
+                            </a>
+
+
+                            <div class="account-dropdown-divider">
+                            </div>
+
+
+                            <!-- =================================
+                                 11. DANG XUAT
+
+                                 Route:
+                                     auth.logout
+
+                                 Method:
+                                     POST
+
+                                 Co CSRF bao ve.
+                                 Giu nguyen co che dang xuat.
+                            ================================== -->
+
+                            <form
+                                method="POST"
+                                action="{{ url_for('auth.logout') }}"
+                                class="logout-form"
+                            >
+
+                                <input
+                                    type="hidden"
+                                    name="csrf_token"
+                                    value="{{ csrf_token() }}"
+                                >
+
+                                <button
+                                    type="submit"
+                                    class="account-dropdown-item logout-button"
+                                >
+
+                                    <span aria-hidden="true">
+                                        ↪
+                                    </span>
+
+                                    Đăng xuất
+
+                                </button>
+
+                            </form>
+
+
+                        </div>
+                        <!-- KET THUC ACCOUNT DROPDOWN -->
+
+
+                    </div>
+                    <!-- KET THUC ACCOUNT MENU -->
+
+
+                </div>
+                <!-- KET THUC TOPBAR ACTIONS -->
+
+            {% endif %}
+
+        </header>
+
+
+        <!-- =========================================
+             12. MAIN CONTENT
+        ========================================== -->
+
+        <main class="student-content">
+
+
+            <!-- =====================================
+                 DONG CHU GIAO DIEN
+            ====================================== -->
+
+            <div class="site-slogan">
+
+                <div class="site-slogan-vi">
+                    HOÀNG SA, TRƯỜNG SA LÀ CỦA VIỆT NAM
+                </div>
+
+                <div class="site-slogan-cn">
+                    西沙群岛、南沙群岛属于越南
+                </div>
+
+            </div>
+
+
+            <!-- =====================================
+                 13. FLASH MESSAGE
+
+                 Dung chung cho:
+                 - Dang nhap
+                 - Dang xuat
+                 - Cap nhat ho so
+                 - Cac chuc nang khac
+            ====================================== -->
+
+            {% with messages =
+                get_flashed_messages(
+                    with_categories=true
+                )
+            %}
+
+                {% if messages %}
+
+                    <div class="flash-message-container">
+
+                        {% for category, message in messages %}
+
+                            <div
+                                class="flash-message flash-message-{{ category }}"
+                            >
+
+                                <span class="flash-message-text">
+                                    {{ message }}
+                                </span>
+
+
+                                <button
+                                    type="button"
+                                    class="flash-message-close"
+                                    onclick="this.parentElement.remove()"
+                                    aria-label="Đóng"
+                                >
+                                    ×
+                                </button>
+
+                            </div>
+
+                        {% endfor %}
+
+                    </div>
+
+                {% endif %}
+
+            {% endwith %}
+
+
+            <!-- =====================================
+                 14. NOI DUNG TUNG TRANG
+
+                 Giữ nguyên block content để
+                 tất cả trang student kế thừa.
+            ====================================== -->
+
+            <div class="student-page-content">
+
+                {% block content %}
+                {% endblock %}
+
+            </div>
+
+
+        </main>
+
+    </div>
+
+</div>
+
+
+<!-- =============================================
+     15. MOBILE OVERLAY
+============================================== -->
+
+<div
+    class="sidebar-overlay"
+    id="sidebarOverlay"
+></div>
+
+
+<!-- =============================================
+     16. CHATBOT NOI CUA NGUOI HOC
+
+     Route:
+         student_chatbot.index
+
+     URL:
+         /chatbot/
+
+     Giu nguyen:
+     - Link chatbot
+     - Icon
+     - CSS
+     - Dieu kien an o trang chatbot
+
+     Khong thay doi chuc nang chatbot.
+============================================== -->
+
+{% if request.endpoint != 'student_chatbot.index' %}
+
+    <a
+        href="{{ url_for('student_chatbot.index') }}"
+        class="floating-chat-button"
+        aria-label="Mở trợ lý AI Mộc Hán"
+        title="Trò chuyện với Mộc Hán"
+        style="text-decoration: none; color: #fff;"
+    >
+
+        <span class="floating-chat-icon">
+
+            <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+            >
+
+                <path
+                    d="M21 12a8 8 0 0 0-8 8H7l-4 2 1.4-4A8.5 8.5 0 1 1 21 12z"
+                ></path>
+
+            </svg>
+
+        </span>
+
+
+        <span class="floating-chat-text">
+            Nhắn tin
+        </span>
+
+    </a>
+
+{% endif %}
+
+
+<!-- =============================================
+     17. JAVASCRIPT CHUNG STUDENT
+
+     File:
+         static/js/student.js
+
+     Giu nguyen:
+     - Sidebar
+     - Menu tai khoan
+     - Mobile sidebar
+     - Flash message
+     - Tuong tac chung
+============================================== -->
+
+<script
+    src="{{ url_for('static', filename='js/student.js') }}"
+></script>
+
+
+<!-- =============================================
+     18. JAVASCRIPT RIENG TUNG TRANG
+
+     VD:
+         Chatbot
+         Luyen thi
+         Tien do hoc
+============================================== -->
+
+{% block scripts %}{% endblock %}
+{% block extra_js %}{% endblock %}
+
+
+</body>
+
+</html>

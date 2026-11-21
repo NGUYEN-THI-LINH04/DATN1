@@ -1,0 +1,83 @@
+=== KIEM TRA VIDEO HSK2 SO 1 ===
+Supadata fragments: 1698
+Supadata moc cuoi: 1147.55s
+Part1: 40 muc
+Part2: 73 muc
+Tong hien tai: 113 muc
+Pham vi JSON: 5.82s - 573.00s
+
+SO LOI: 4
+SO CANH BAO: 62
+
+=== LOI ===
+Muc 79: end null/khong hop le
+Muc 87: end null/khong hop le
+Muc 98: end null/khong hop le
+Muc 113: end null/khong hop le
+
+=== CANH BAO ===
+Muc 2 -> 3: chong 0.22s
+Muc 3 -> 4: chong 0.68s
+Muc 4 -> 5: chong 0.76s
+Muc 5 -> 6: chong 0.42s
+Muc 6 -> 7: chong 0.70s
+Muc 7 -> 8: chong 0.82s
+Muc 8 -> 9: chong 1.20s
+Muc 9 -> 10: chong 0.69s
+Muc 10 -> 11: chong 0.18s
+Muc 11 -> 12: chong 0.56s
+Muc 12 -> 13: chong 0.86s
+Muc 13 -> 14: chong 0.70s
+Muc 14 -> 15: chong 0.82s
+Muc 15 -> 16: chong 0.66s
+Muc 16 -> 17: chong 0.82s
+Muc 17 -> 18: chong 0.62s
+Muc 18 -> 19: chong 0.25s
+Muc 20: cau dai 12.50s
+Muc 19 -> 20: chong 0.62s
+Muc 22: cau dai 12.24s
+Muc 22 -> 23: chong 1.02s
+Muc 23 -> 24: chong 0.64s
+Muc 25 -> 26: chong 0.94s
+Muc 26 -> 27: chong 0.96s
+Muc 27 -> 28: chong 0.80s
+Muc 28 -> 29: chong 0.58s
+Muc 29 -> 30: chong 0.78s
+Muc 30 -> 31: chong 0.76s
+Muc 32: cau dai 12.50s
+Muc 31 -> 32: chong 0.80s
+Muc 32 -> 33: chong 1.00s
+Muc 33 -> 34: chong 1.19s
+Muc 35: cau dai 14.26s
+Muc 34 -> 35: chong 1.16s
+Muc 36 -> 37: chong 0.87s
+Muc 37 -> 38: chong 0.80s
+Muc 38 -> 39: chong 0.74s
+Muc 39 -> 40: chong 0.84s
+Muc 40 -> 41: chong 0.40s
+Muc 41 -> 42: chong 0.60s
+Muc 42 -> 43: chong 1.26s
+Muc 43 -> 44: chong 0.94s
+Muc 44 -> 45: chong 0.44s
+Muc 45 -> 46: chong 0.90s
+Muc 49 -> 50: chong 0.18s
+Muc 50 -> 51: chong 0.80s
+Muc 51 -> 52: chong 0.44s
+Muc 52 -> 53: chong 0.24s
+Muc 53 -> 54: chong 0.62s
+Muc 54 -> 55: chong 1.04s
+Muc 55 -> 56: chong 0.26s
+Muc 56 -> 57: chong 0.98s
+Muc 57 -> 58: chong 0.66s
+Muc 58 -> 59: chong 1.05s
+Muc 59 -> 60: chong 0.70s
+Muc 60 -> 61: chong 0.76s
+Muc 62 -> 63: chong 0.92s
+Muc 63 -> 64: chong 0.27s
+Muc 64 -> 65: chong 0.36s
+Muc 65 -> 66: chong 0.46s
+Muc 66 -> 67: chong 0.16s
+Muc 67 -> 68: chong 5.77s
+
+KET LUAN:
+CHUA SAN SANG GHI SQL - CAN HOAN THIEN PHU DE 09:33-19:05 VA XAC MINH TIMESTAMP.

@@ -1,0 +1,215 @@
+﻿MaBoThu,KyHieuSQL,TenBoThuSQL,KyHieuNguon,TenNguon,PinyinNguon,YNghiaNguon
+1,一,Nhất,一,nhất,yī,"Số một, thứ nhất"
+2,丨,Cổn,丨,cổn,gǔn,"Nét sổ, đường thẳng đứng trên xuống dưới"
+3,丶,Chủ,丶,chủ,zhǔ,"Nét chấm, một điểm"
+4,丿,Triệt,丿,phiệt,piě,"Nét phảy, nét nghiêng từ phải qua trái, chỉ động tác"
+5,乙,Ất,乙,ất,yǐ,"Ất, Can thứ hai trong mười can (Giáp, ất , bính, đinh…)"
+6,亅,Quyết,亅,quyết,jué,"Cái móc, nét sổ có móc"
+7,二,Nhị,二,nhị,èr,"Số hai, thường biểu thị nét chữ"
+8,亠,Đầu,亠,đầu,tóu,Đầu，thường chỉ biểu thị nét chữ
+9,人,Nhân,人 (亻),nhân,rén,"Người, biểu thị con người, các động tác, hành vi, tính cách hay sự việc"
+10,儿,Nhân,儿,nhi,ér,"Đứa trẻ con,con trai, biểu thị các sự việc liên quan tới con người"
+11,入,Nhập,入,nhập,rù,"Vào, biểu thị sự thâm nhập, tham gia."
+12,八,Bát,八,bát,bā,"Số tám, biểu thị các sự việc liên quan tới phân tách, ngược lại."
+13,冂,Quynh,冂,quynh,jiǒng,"Vùng biên giới, hoang địa, biểu thị sự việc liên quan tới 1 khu vực"
+14,冖,Mịch,冖,mịch,mì,"Trùm khăn lên, biểu thị các sự việc liên quan tới che, đậy, phủ lên"
+15,冫,Băng,冫,băng,bīng,"Băng, biểu thị nhiệt độ thấp, hoặc liên quan tới nước"
+16,几,Kỷ,几,kỷ,jī,"Ghế dựa, biểu thị đồ dùng bằng gỗ nhỏ, thấp cho việc uống trà"
+17,凵,Khảm,凵,khảm,kǎn,"Há miệng, liên quan tới hang hốc hay lõm xuốn"
+18,刀,Đao,刀 (刂),đao,dāo,"Con dao, cây đao (vũ khí), chỉ động tác hay sự việc liên quan tới vũ khí"
+19,力,Lực,力,lực,lì,"Sức mạnh, liên quan đến việc dùng sức lực"
+20,勹,Bao,勹,bao,bā,"Bao bọc, biểu thị các sự việc liên quan tới con người"
+21,匕,Tỷ,匕,chủy,bǐ,Cái thìa (cái muỗng)
+22,匚,Phương,匚,phương,fāng,"Tủ đựng, biểu thị các đồ vật, sự việc có liên quan tới đồ đựng hình vuông"
+23,匸,Hễ,匸,hễ,xǐ,"Che đậy, giấu diếm"
+24,十,Thập,十,Thập,shí,"Số mười, thường sử dụng làm số đếm"
+25,卜,Bốc,卜,Bốc,bǔ,"Xem bói, biểu thị các sự việc liên quan tới bói toán"
+26,卩,Tiết,卩,Tiết,jié,"Đốt tre, biểu thị sự việc liên quan tới quỳ gối"
+27,厂,Hán,厂,Hán,hàn,"Sườn núi, vách đá, biểu thị các sự việc có liên quan tới vách núi hoặc nhà xưởng"
+28,厶,Khư,厶,"Khư, tư",sī,"Riêng tư, thường làm nét chữ đôi khi biểu thị sự việc liên quan đến riêng tư"
+29,又,Hựu,又,Hựu,yòu,"Lại nữa, một lần nữa, biểu thị sự việc, động tác liên quan tới tay"
+30,口,Khẩu,口,Khẩu,kǒu,"Cái miệng, liên quan ngôn ngữ hoặc động tác miệng, ngoài ra còn liên quan tới đồ vật hình vuông."
+31,囗,Vi,囗,Vi,wéi,"Vây quanh, liên quan tới sự bao vây, vòng tròn…"
+32,土,Thổ,土,Thổ,tǔ,"Đất, liên quan tới bùn, đất đai"
+33,士,Sĩ,士,Sĩ,shì,"Kẻ sĩ, liên quan tới con trai, đàn ông"
+34,夂,Tri,夂,Tuy,sūi,"Đi chậm, liên quan tới hoạt động của chân"
+35,夊,Tuy,夊,Truy,zhǐ,Đến sau
+36,夕,Tịch,夕,Tịch,xì,"Đêm tối, liên quan tới thời gian hay các hoạt động về đêm"
+37,大,Đại,大,Đại,dà,"To lớn, liên quan tới sự việc to lớn hoặc người"
+38,女,Nữ,女,Nữ,nǚ,"Nữ giới, con gái, đàn bà, liên quan tới phụ nữ, sự xinh đẹp hay họ tên. Đôi khi nó mang nghĩa cho “tính tình không tốt” (ngày xưa trọng nam khinh nữ)"
+39,子,Tử,子,Tử,zǐ,"Con; tiếng tôn xưng: «Thầy», «Ngài»"
+40,宀,Miên,宀,Miên,mián,"Mái nhà mái che, liên quan tới nhà cửa hay những việc trong nhà"
+41,寸,Thốn,寸,Thốn,cùn,"đơn vị «tấc» (đo chiều dài), liên quan tới phép đo, độ dài"
+42,小,Tiểu,小,Tiểu,xiǎo,"Nhỏ bé, liên quan tới các việc nhỏ bé"
+43,尢,Uông,尢,Uông,wāng,"Yếu đuối, liên quan tới khiếm khuyết, tàn tật"
+44,尸,Thi,尸,Thi,shī,"Xác chết, thây ma, liên quan tới thân thể, thi thể hay động tác con người. Có lúc liên quan tới nhà cửa"
+45,屮,Triệt,屮,Triệt,chè,"Mầm non, cỏ non mới mọc, liên quan tới cỏ"
+46,山,Sơn,山,Sơn,shān,"Núi non, liên quan tới đá, núi"
+47,巛,Xuyên,川、巛,Xuyên,chuān,"Sông ngòi, liên quan tới sông nước"
+48,工,Công,工,Công,gōng,"Người thợ, công việc, liên quan tới công cụ, người thợ"
+49,己,Kỷ,己,Kỷ,jǐ,Bản thân mình
+50,巾,Cân,巾,Cân,jīn,"Cái khăn, liên quan tới dệt may"
+51,干,Can,干,Can,gān,"Thiên can, can dự"
+52,幺,Yêu,幺,Yêu,yāo,"Nhỏ nhắn, liên quan tới sự vật nhỏ bé như sợi tơ"
+53,广,Nghiễm,广,Nghiễm,ān,"Mái nhà, liên quan tới công trình kiến trúc, nhà cửa"
+54,廴,Dẫn,廴,Dẫn,yǐn,"Bước dài, liên quan tới việc đi lại"
+55,廾,Củng,廾,Củng,gǒng,"Chắp tay, liên quan tới việc dùng 2 tay để cầm nắm vật gì"
+56,弋,Dặc,弋,Dặc,yì,"Bắn, chiếm lấy, thường không biểu thị ý nghĩa"
+57,弓,Cung,弓,Cung,gōng,"Cái cung (để bắn tên) , liên quan tới vũ khí, cung nỏ"
+58,彐,Kệ,彐,Kệ,jì,"Đầu con nhím, thường dùng làm nét chữ"
+59,彡,Sam,彡,Sam,shān,"Lông tóc dài, liên quan tới trang sức, hình ảnh, tranh vẽ"
+60,彳,Xích,彳,Xích,chì,"Bước chân trái, liên quan tới đi lại, đường sá, động tác của con người (thường là chân)"
+61,心,Tâm,心 (忄),Tâm,xīn,"Quả tim, tâm trí, tấm lòng, thể hiện tình cảm, thái độ và các hoạt động tâm lý"
+62,戈,Qua,戈,Qua,gē,"Kích (mác), một loại binh khí dài cổ xưa"
+63,户,Hộ,户,Hộ,hù,"Cửa một cánh, liên quan tới cửa"
+64,手,Thủ,手 (扌),Thủ,shǒu,"Tay, liên quan tới động tác tay"
+65,支,Chi,支,Chi,zhī,"Cành nhánh, của cây"
+66,攴,Phác,攴 (攵),Phộc,pù,"Đánh khẽ, động tác đánh nhẹ"
+67,文,Văn,文,Văn,wén,"Văn vẻ, văn chương, liên quan tới hoa văn hay trang sức nhiều màu sắc"
+68,斗,Đẩu,斗,Đẩu,dōu,"Cái đấu , đơn vị đo lường lương thực (đấu thóc, đấu gạo)"
+69,斤,Cân,斤,Cân,jīn,"Cái búa, rìu, dụng cụ đốn cây"
+70,方,Phương,方,Phương,fāng,"Vuông, phương, chỉ hình vuông, phương hướng"
+71,无,Vô,无（旡）,Vô,wú,Không
+72,日,Nhật,日,Nhật,rì,"Ngày, mặt trời, liên quan tới mặt trời, thời gian (tính bằng ngày)"
+73,曰,Viết,曰,Viết,yuē,"Nói rằng, liên quan tới việc nói"
+74,月,Nguyệt,月,Nguyệt,yuè,"Tháng, mặt trăng, liên quan tới mặt trăng, thời gian (tính bằng tháng)"
+75,木,Mộc,木,Mộc,mù,"Gỗ, cây cối, cây, gỗ (hình cây có cành và rễ)"
+76,欠,Khiếm,欠,Khiếm,qiàn,"Khiếm khuyết, thiếu vắng, thiếu (khiếm nhã, khiếm khuyết)"
+77,止,Chỉ,止,Chỉ,zhǐ,"Dừng lại, chỉ động tác của chân"
+78,歹,Ngạt,歹,Đãi,dǎi,"Xấu xa, tệ hại, bộ đãi/ngạt ý chỉ việc xấu, không tốt"
+79,殳,Thù,殳,Thù,shū,"Binh khí dài, một loại vũ khí dài, không mũi nhọn"
+80,毋,Vô,毋,Vô,wú,"Chớ, đừng"
+81,比,Tỷ,比,Tỷ,bǐ,"So sánh, so bì. Hình hai người đứng ngang nhau để so cao thấp"
+82,毛,Mao,毛,Mao,máo,"Lông, liên quan tới lông của loài thú hay râu tóc của con người"
+83,氏,Thị,氏,Thị,shì,"Họ, ngành họ mạc trong một gia tộc. Phần đệm trong họ tên phái nữ"
+84,气,Khí,气,Khí,qì,"Hơi nước, Khí bốc hơi từ nước"
+85,水,Thuỷ,水(氵、氺),Thủy,shǔi,"Nước, liên quan tới sông nước, chất lỏng"
+86,火,Hoả,火 (灬),Hỏa,huǒ,"Lửa, liên quan tới lửa hay việc sử dụng lửa"
+87,爪,Trảo,爪,Trảo,zhǎo,Móng vuốt của động vật
+88,父,Phụ,父,Phụ,fù,"Cha, nói tới người đàn ông đã trưởng thành"
+89,爻,Hào,爻,Hào,yáo,"Hào âm, hào dương, giao nhau. Mỗi quẻ trong kinh dịch có sáu hào (Kinh kịch)"
+90,爿,Tường,爿(丬),Tường,qiáng,"Mảnh gỗ, cái giường"
+91,片,Phiến,片,Phiến,piàn,"Mảnh, tấm, miếng, mảnh vật mỏng và phẳng"
+92,牙,Nha,牙,Nha,yá,Răng
+93,牛,Ngưu,牛（牜）,Ngưu,níu,"Trâu, liên quan tới động vật tương tự Trâu, bò"
+94,犬,Khuyển,犬 (犭),Khuyển,quǎn,"Con chó, nói tới loài chó"
+95,玄,Huyền,玄,Huyền,xuán,"Màu đen huyền, huyền bí"
+96,玉,Ngọc,玉,Ngọc,yù,"Đá quý, ngọc"
+97,瓜,Qua,瓜,Qua,guā,Quả dưa
+98,瓦,Ngoã,瓦,Ngõa,wǎ,Ngói
+99,甘,Cam,甘,Cam,gān,Ngọt
+100,生,Sinh,生,Sinh,shēng,"Sinh sôi,nảy nở"
+101,用,Dụng,用,Dụng,yòng,Dùng
+102,田,Điền,田,Điền,tián,Ruộng
+103,疋,Sơ,疋( 匹),Thất,pǐ,"Đơn vị đo chiều dài, tấm (vải)"
+104,疒,Nạch,疒,Nạch,nǐ,Bệnh tật
+105,癶,Bát,癶,Bát,bǒ,"Gạt ngược lại, trở lại"
+106,白,Bạch,白,Bạch,bái,Màu trắng
+107,皮,Bì,皮,Bì,pí,Da
+108,皿,Mẫn,皿,Mãnh,mǐn,Bát dĩa
+109,目,Mục,目（罒）,Mục,mù,Mắt
+110,矛,Mâu,矛,Mâu,máo,Cây giáo để đâm
+111,矢,Thỉ,矢,Thỉ,shǐ,"Cây tên, mũi tên"
+112,石,Thạch,石,Thạch,shí,Đá
+113,示,Kỳ,示 (礻),"Thị, kỳ",shì,Chỉ thị; thần đất
+114,禸,Nhụ,禸,Nhựu,róu,"Vết chân, lốt chân"
+115,禾,Hoà,禾,Hòa,hé,Lúa
+116,穴,Huyệt,穴,Huyệt,xué,Hang lỗ
+117,立,Lập,立,Lập,lì,"Đứng, thành lập"
+118,竹,Trúc,竹,Trúc,zhú,Tre trúc
+119,米,Mễ,米,Mễ,mǐ,Gạo
+120,糸,Mịch,"糸 (糹, 纟)",Mịch,mì,Sợi tơ nhỏ
+121,缶,Phũ,缶,Phẫu,fǒu,Đồ sành
+122,网,Võng,"网(, 罓)",Võng,wǎng,Cái lưới
+123,羊,Dương,羊,Dương,yáng,Con dê
+124,羽,Vũ,羽 (羽),Vũ,yǚ,Lông vũ
+125,老,Lão,老,Lão,lǎo,Già
+126,而,Nhi,而,Nhi,ér,"Mà, và"
+127,耒,Lỗi,耒,Lỗi,lěi,Cái cày
+128,耳,Nhĩ,耳,Nhĩ,ěr,Lỗ tai
+129,聿,Duật,聿,Duật,yù,Cây bút
+130,肉,Nhục,肉,Nhục,ròu,Thịt
+131,臣,Thần,臣,Thần,chén,Bầy tôi
+132,自,Tự,自,Tự,zì,"Tự bản thân, kể từ"
+133,至,Chí,至,Chí,zhì,Đến
+134,臼,Cữu,臼,Cữu,jiù,Cái cối giã gạo
+135,舌,Thiệt,舌,Thiệt,shé,Cái lưỡi
+136,舛,Suyễn,舛,Suyễn,chuǎn,Sai lầm
+137,舟,Chu,舟,Chu,zhōu,Cái thuyền
+138,艮,Cấn,艮,Cấn,gèn,"quẻ Cấn (Kinh Dịch), dừng, bền cứng"
+139,色,Sắc,色,Sắc,sè,"Màu, dáng vẻ, nữ sắc"
+140,艸,Thảo,艸 (艹),Thảo,cǎo,Cỏ
+141,虍,Hô,虍,Hổ,hū,Vằn vện của con hổ
+142,虫,Trùng,虫,Trùng,chóng,Sâu bọ
+143,血,Huyết,血,Huyết,xuè,Máu
+144,行,Hành,行,Hành,xíng,"Đi, thi hành, làm được"
+145,衣,Y,衣(衤),Y,yī,Áo
+146,襾,Á,襾,Á,yà,"Che đậy, úp lên"
+147,見,Kiến,見(见),Kiến,jiàn,Trông thấy
+148,角,Giác,角,Giác,jué,"Góc, sừng thú"
+149,言,Ngôn,言,Ngôn,yán,Nói
+150,谷,Cốc,谷,Cốc,gǔ,"Khe nước chảy giữa hai núi, thung lũng"
+151,豆,Đậu,豆,Đậu,dòu,"Hạt đậu, cây đậu"
+152,豕,Thỉ,豕,Thỉ,shǐ,"Con heo, con lợn"
+153,豸,Trĩ,豸,Trãi,zhì,Loài sâu không chân
+154,貝,Bối,貝 (贝),Bối,bèi,Vật báu
+155,赤,Xích,赤,Xích,chì,Màu đỏ
+156,走,Tẩu,走(赱),Tẩu,zǒu,"Đi, chạy"
+157,足,Túc,足,Túc,zú,"Chân, đầy đủ"
+158,身,Thân,身,Thân,shēn,"Thân thể, thân mình"
+159,車,Xa,車 (车),Xa,chē,Chiếc xe
+160,辛,Tân,辛,Tân,xīn,Cay
+161,辰,Thần,辰,Thần,chén,"Nhật, nguyệt, tinh; thìn (12 chi)"
+162,辵,Sước,辵(辶),Sước,chuò,Chợt bước đi chợt dừng lại
+163,邑,Ấp,邑(阝),Ấp,yì,"Vùng đất, đất phong cho quan"
+164,酉,Dậu,酉,Dậu,yǒu,Một trong 12 địa chi
+165,釆,Biện,釆,Biện,biàn,Phân biệt
+166,里,Lý,里,Lý,lǐ,Dặm; làng xóm
+167,金,Kim,金,Kim,jīn,"Kim loại nói chung, vàng"
+168,長,Trường,"長 (镸 , 长)",Trường,cháng,"Dài, lớn (trưởng)"
+169,門,Môn,門 (门),Môn,mén,Cửa hai cánh
+170,阜,Phụ,阜 (阝- ),Phụ,fù,"Đống đất, gò đất"
+171,隶,Đãi,隶,Đãi,dài,"Kịp, kịp đến"
+172,隹,Chuy,隹,"Truy, chuy",zhuī,Chim non
+173,雨,Vũ,雨,Vũ,yǔ,Mưa
+174,靑,Thanh,青 (靑),Thanh,qīng,Màu xanh
+175,非,Phi,非,Phi,fēi,Không
+176,面,Diện,面 (靣),Diện,miàn,"Mặt, bề mặt"
+177,革,Cách,革,Cách,gé,"Da thú, thay đổi, cải cách"
+178,韋,Vi,韋 (韦),Vi,wéi,Da đã thuộc rồi
+179,韭,Cửu,韭,"Phỉ, cửu",jiǔ,Rau hẹ (giống hành lá)
+180,音,Âm,音,Âm,yīn,"Âm thanh, tiếng"
+181,頁,Hiệt,頁(页),Hiệt,yè,Đầu; trang giấy
+182,風,Phong,"風(凬, 风)",Phong,fēng,Gió
+183,飛,Phi,飛 (飞 ),Phi,fēi,Bay
+184,食,Thực,"食 (飠, 饣 )",Thực,shí,Ăn
+185,首,Thủ,首,Thủ,shǒu,Đầu
+186,香,Hương,香,Hương,xiāng,"Mùi hương,hương thơm"
+187,馬,Mã,馬 (马),Mã,mǎ,Con ngựa
+188,骨,Cốt,骨,Cốt,gǔ,Xương
+189,高,Cao,高,Cao,gāo,Cao
+190,髟,Tiêu,髟,"Bưu, tiêu",biāo,"Tóc dài, sam cỏ phủ mái nhà"
+191,鬥,Đấu,鬥 (斗),Đấu,dòu,"Đánh nhau, chiến đấu"
+192,鬯,Sưởng,鬯,Sưởng,chàng,"Ủ rượu nếp, bao đựng cây cung"
+193,鬲,Cách,鬲,Cách,gé,"Nồi, chõ"
+194,鬼,Quỷ,鬼,Quỷ,gǔi,Con quỷ
+195,魚,Ngư,魚 (鱼),Ngư,yú,Con cá
+196,鳥,Điểu,鳥(鸟),Điểu,niǎo,Con chim
+197,鹵,Lỗ,鹵,Lỗ,lǔ,Đất mặn
+198,鹿,Lộc,鹿,Lộc,lù,Con hươu
+199,麥,Mạch,麥 (麦),Mạch,mò,Lúa mạch
+200,麻,Ma,麻,Ma,má,Cây gai
+201,黃,Hoàng,黃,Hoàng,huáng,Màu vàng
+202,黍,Thử,黍,Thử,shǔ,Lúa nếp
+203,黑,Hắc,黑,Hắc,hēi,Màu đen
+204,黹,Chỉ,黹,Chỉ,zhǐ,"May áo, khâu vá"
+205,黽,Mãnh,黽,Mãnh,mǐn,Loài bò sát
+206,鼎,Đỉnh,鼎,Đỉnh,dǐng,Cái đỉnh
+207,鼓,Cổ,鼓,Cổ,gǔ,Cái trống
+208,鼠,Thử,鼠,Thử,shǔ,Con chuột
+209,鼻,Tỵ,鼻,tỵ,bí,cái mũi
+210,齊,Tề,"齊 (斉 , 齐)",tề,qí,bằng nhau
+211,齒,Xỉ,"齒(齿, 歯 )",Xỉ,chǐ,Răng
+212,龍,Long,龍(龙 ),long,lóng,con rồng
+213,龜,Quy,"龜 (亀, 龟 )",quy,guī,con rùa
+214,龠,Dược,龠,Dược,yuè,Sáo ba lỗ

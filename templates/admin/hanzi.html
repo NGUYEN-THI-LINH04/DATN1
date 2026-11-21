@@ -1,0 +1,1282 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Chữ Hán | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        HỌC LIỆU · CHỮ HÁN
+    </span>
+
+    <h1>
+        Quản lý Chữ Hán
+    </h1>
+
+    <p>
+        Quản lý ký tự, Pinyin, nghĩa tiếng Việt,
+        bộ thủ, số nét, cách ghi nhớ, ví dụ
+        và trạng thái xuất bản.
+    </p>
+
+</div>
+
+
+
+<!-- =====================================================
+     XUAT BAN TOAN BO CHU HAN BAN NHAP
+===================================================== -->
+
+<section class="panel space-top bulk-publish-panel">
+
+    <div class="materials-section-heading">
+
+        <div>
+            <span class="eyebrow">
+                XUẤT BẢN CHỮ HÁN
+            </span>
+
+            <h2>
+                Xuất bản toàn bộ chữ Hán
+            </h2>
+
+            <p>
+                Xuất bản tất cả chữ Hán đang ở trạng thái
+                bản nháp của toàn bộ cấp độ HSK.
+            </p>
+        </div>
+
+    </div>
+
+    <form
+        method="post"
+        action="{{ url_for('admin_hanzi.publish_all') }}"
+        class="bulk-publish-form"
+        onsubmit="return confirm('Bạn chắc chắn muốn xuất bản toàn bộ chữ Hán bản nháp?');"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+        <button
+            type="submit"
+            class="button bulk-publish-button"
+        >
+            ✓ Xuất bản toàn bộ chữ Hán bản nháp
+        </button>
+
+    </form>
+
+    <p class="bulk-publish-note">
+        Chỉ cập nhật chữ Hán đang ở trạng thái bản nháp.
+        Những mục đã xuất bản sẽ được giữ nguyên.
+    </p>
+
+</section>
+
+
+<!-- =====================================================
+     CHỈNH SỬA CHỮ HÁN
+===================================================== -->
+
+{% if editing_hanzi %}
+
+<section class="panel">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                CHỈNH SỬA
+            </span>
+
+            <h2>
+                {{ editing_hanzi.character }}
+            </h2>
+
+        </div>
+
+
+        <a
+            class="small-button"
+            href="{{ url_for(
+                'admin_hanzi.index',
+
+                page=page,
+
+                course_id=selected_course,
+
+                lesson_id=selected_lesson,
+
+                status=selected_status,
+
+                q=keyword
+            ) }}"
+        >
+            Đóng
+        </a>
+
+    </div>
+
+
+    <form
+        method="post"
+        action="{{ url_for(
+            'admin_hanzi.edit',
+            hanzi_id=editing_hanzi.id
+        ) }}"
+    >
+
+        <!-- =================================================
+             CSRF
+        ================================================== -->
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <!-- =================================================
+             GIỮ TRANG + BỘ LỌC SAU KHI LƯU
+        ================================================== -->
+
+        <input
+            type="hidden"
+            name="return_page"
+            value="{{ page }}"
+        >
+
+
+        <input
+            type="hidden"
+            name="return_course_id"
+            value="{{
+                selected_course
+                if selected_course is not none
+                else ''
+            }}"
+        >
+
+
+        <input
+            type="hidden"
+            name="return_lesson_id"
+            value="{{
+                selected_lesson
+                if selected_lesson is not none
+                else ''
+            }}"
+        >
+
+
+        <input
+            type="hidden"
+            name="return_status"
+            value="{{ selected_status }}"
+        >
+
+
+        <input
+            type="hidden"
+            name="return_keyword"
+            value="{{ keyword }}"
+        >
+
+
+        <!-- =================================================
+             KÝ TỰ + PINYIN
+        ================================================== -->
+
+        <div class="grid-2">
+
+            <label class="field">
+
+                Ký tự Chữ Hán
+
+                <input
+                    type="text"
+                    name="character"
+                    maxlength="20"
+                    value="{{ editing_hanzi.character }}"
+                    required
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Pinyin
+
+                <input
+                    type="text"
+                    name="pinyin"
+                    maxlength="100"
+                    value="{{ editing_hanzi.pinyin }}"
+                >
+
+            </label>
+
+        </div>
+
+
+        <!-- =================================================
+             NGHĨA + BỘ THỦ
+        ================================================== -->
+
+        <div class="grid-2 space-top">
+
+            <label class="field">
+
+                Nghĩa tiếng Việt
+
+                <input
+                    type="text"
+                    name="meaning"
+                    maxlength="500"
+                    value="{{ editing_hanzi.meaning }}"
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Bộ thủ
+
+                <select name="radical_id">
+
+                    <option value="">
+                        — Chưa gắn bộ thủ —
+                    </option>
+
+
+                    {% for radical in radicals %}
+
+                        <option
+                            value="{{ radical.id }}"
+
+                            {% if
+                                editing_hanzi.radical_id
+                                == radical.id
+                            %}
+                                selected
+                            {% endif %}
+                        >
+                            {{ radical.symbol }}
+                            ·
+                            {{ radical.name }}
+
+                            {% if radical.meaning %}
+                                · {{ radical.meaning }}
+                            {% endif %}
+                        </option>
+
+                    {% endfor %}
+
+                </select>
+
+            </label>
+
+        </div>
+
+
+        <!-- =================================================
+             SỐ NÉT + THỨ TỰ
+        ================================================== -->
+
+        <div class="grid-2 space-top">
+
+            <label class="field">
+
+                Số nét
+
+                <input
+                    type="number"
+                    name="stroke_count"
+                    min="1"
+                    value="{{
+                        editing_hanzi.stroke_count
+                        if editing_hanzi.stroke_count
+                        is not none
+                        else ''
+                    }}"
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Thứ tự trong bài
+
+                <input
+                    type="number"
+                    name="order"
+                    min="1"
+                    value="{{ editing_hanzi.order }}"
+                    required
+                >
+
+            </label>
+
+        </div>
+
+
+        <!-- =================================================
+             CÁCH GHI NHỚ
+        ================================================== -->
+
+        <label class="field space-top">
+
+            Cách ghi nhớ
+
+            <textarea
+                name="memory_tip"
+                rows="4"
+            >{{ editing_hanzi.memory_tip }}</textarea>
+
+        </label>
+
+
+        <!-- =================================================
+             VÍ DỤ TIẾNG TRUNG + PINYIN
+        ================================================== -->
+
+        <div class="grid-2 space-top">
+
+            <label class="field">
+
+                Ví dụ tiếng Trung
+
+                <textarea
+                    name="example_zh"
+                    rows="3"
+                >{{ editing_hanzi.example_zh }}</textarea>
+
+            </label>
+
+
+            <label class="field">
+
+                Pinyin của ví dụ
+
+                <textarea
+                    name="example_pinyin"
+                    rows="3"
+                >{{ editing_hanzi.example_pinyin }}</textarea>
+
+            </label>
+
+        </div>
+
+
+        <!-- =================================================
+             NGHĨA VÍ DỤ
+        ================================================== -->
+
+        <label class="field space-top">
+
+            Nghĩa tiếng Việt của ví dụ
+
+            <textarea
+                name="example_vi"
+                rows="3"
+            >{{ editing_hanzi.example_vi }}</textarea>
+
+        </label>
+
+
+        <!-- =================================================
+             TRẠNG THÁI
+        ================================================== -->
+
+        <label class="field space-top">
+
+            Trạng thái
+
+            <select name="status">
+
+                {% for value, label in statuses.items() %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            editing_hanzi.status
+                            == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </label>
+
+
+        <!-- =================================================
+             MEDIA HIỆN TẠI
+        ================================================== -->
+
+        {% if editing_hanzi.media_id %}
+
+            <p class="space-top">
+
+                Tệp âm thanh hiện tại:
+
+                <strong>
+                    #{{ editing_hanzi.media_id }}
+                </strong>
+
+            </p>
+
+        {% endif %}
+
+
+        <!-- =================================================
+             BUTTON
+        ================================================== -->
+
+        <div class="course-action-buttons space-top">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lưu thay đổi
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_hanzi.index',
+
+                    page=page,
+
+                    course_id=selected_course,
+
+                    lesson_id=selected_lesson,
+
+                    status=selected_status,
+
+                    q=keyword
+                ) }}"
+            >
+                Hủy
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+{% endif %}
+
+
+<!-- =====================================================
+     BỘ LỌC
+===================================================== -->
+
+<section class="panel space-top">
+
+    <form
+        method="get"
+        action="{{ url_for(
+            'admin_hanzi.index'
+        ) }}"
+        class="courses-filter"
+    >
+
+
+        <!-- =================================================
+             TÌM KIẾM
+        ================================================== -->
+
+        <div class="field">
+
+            <label>
+                Tìm Chữ Hán
+            </label>
+
+            <input
+                type="search"
+                name="q"
+                value="{{ keyword }}"
+                placeholder="Chữ, Pinyin, nghĩa hoặc cách ghi nhớ..."
+            >
+
+        </div>
+
+
+        <!-- =================================================
+             KHÓA HỌC
+        ================================================== -->
+
+        <div class="field">
+
+            <label>
+                Khóa học
+            </label>
+
+            <select name="course_id">
+
+                <option value="">
+                    Tất cả khóa học
+                </option>
+
+
+                {% for course in courses %}
+
+                    <option
+                        value="{{ course.id }}"
+
+                        {% if
+                            selected_course
+                            == course.id
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        HSK {{ course.level }}
+                        ·
+                        {{ course.title }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- =================================================
+             BÀI HỌC
+        ================================================== -->
+
+        <div class="field">
+
+            <label>
+                Bài học
+            </label>
+
+            <select name="lesson_id">
+
+                <option value="">
+                    Tất cả bài học
+                </option>
+
+
+                {% for lesson in lessons %}
+
+                    <option
+                        value="{{ lesson.id }}"
+
+                        {% if
+                            selected_lesson
+                            == lesson.id
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        HSK {{ lesson.level }}
+                        · Bài {{ lesson.order }}
+                        · {{ lesson.title }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- =================================================
+             TRẠNG THÁI
+        ================================================== -->
+
+        <div class="field">
+
+            <label>
+                Trạng thái
+            </label>
+
+            <select name="status">
+
+                <option
+                    value="all"
+
+                    {% if selected_status == 'all' %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+
+                {% for value, label
+                    in statuses.items()
+                %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            selected_status
+                            == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- =================================================
+             BUTTON FILTER
+        ================================================== -->
+
+        <div class="course-action-buttons">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lọc
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_hanzi.index'
+                ) }}"
+            >
+                Bỏ lọc
+            </a>
+
+        </div>
+
+    </form>
+
+
+    <!-- =================================================
+         XUẤT BẢN HÀNG LOẠT
+    ================================================== -->
+
+    {% if selected_course_info %}
+
+        <div class="example-card space-top">
+
+            <h3>
+                HSK {{ selected_course_info.level }}
+                ·
+                {{ selected_course_info.title }}
+            </h3>
+
+
+            <p>
+
+                Còn
+
+                <strong>
+                    {{ selected_course_draft_count }}
+                </strong>
+
+                Chữ Hán bản nháp.
+
+            </p>
+
+
+            {% if selected_course_draft_count > 0 %}
+
+                <form
+                    method="post"
+                    action="{{ url_for(
+                        'admin_hanzi.publish_course',
+                        course_id=selected_course
+                    ) }}"
+                    class="space-top"
+                    onsubmit="
+                        return confirm(
+                            'Bạn có chắc muốn xuất bản toàn bộ Chữ Hán bản nháp của khóa này?'
+                        );
+                    "
+                >
+
+                    <input
+                        type="hidden"
+                        name="csrf_token"
+                        value="{{ csrf_token() }}"
+                    >
+
+
+                    <button
+                        type="submit"
+                        class="button"
+                    >
+                        ✓ Xuất bản toàn bộ
+                        {{ selected_course_draft_count }}
+                        Chữ Hán
+                    </button>
+
+                </form>
+
+            {% else %}
+
+                <span class="material-coming-soon space-top">
+                    Toàn bộ Chữ Hán của khóa này
+                    đã được xuất bản.
+                </span>
+
+            {% endif %}
+
+        </div>
+
+    {% endif %}
+
+
+    <!-- =================================================
+         TỔNG SỐ KẾT QUẢ
+    ================================================== -->
+
+    <p class="space-top">
+
+        Tìm thấy
+
+        <strong>
+            {{ total_hanzis }}
+        </strong>
+
+        Chữ Hán.
+
+
+        {% if total_hanzis > 0 %}
+
+            · Đang hiển thị
+
+            <strong>
+                {{
+                    ((page - 1) * per_page) + 1
+                }}
+            </strong>
+
+            –
+
+            <strong>
+                {{
+                    [
+                        page * per_page,
+                        total_hanzis
+                    ] | min
+                }}
+            </strong>
+
+        {% endif %}
+
+    </p>
+
+
+    <!-- =================================================
+         BẢNG CHỮ HÁN
+    ================================================== -->
+
+    <div class="table-scroll">
+
+        <table class="data-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>
+                        Mã
+                    </th>
+
+                    <th>
+                        Chữ
+                    </th>
+
+                    <th>
+                        Pinyin
+                    </th>
+
+                    <th>
+                        Nghĩa
+                    </th>
+
+                    <th>
+                        Bài học
+                    </th>
+
+                    <th>
+                        Bộ thủ
+                    </th>
+
+                    <th>
+                        Số nét
+                    </th>
+
+                    <th>
+                        Audio
+                    </th>
+
+                    <th>
+                        Trạng thái
+                    </th>
+
+                    <th>
+                        Thao tác
+                    </th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                {% for hanzi in hanzis %}
+
+                    <tr>
+
+
+                        <!-- =============================
+                             MÃ
+                        ============================== -->
+
+                        <td>
+                            {{ hanzi.id }}
+                        </td>
+
+
+                        <!-- =============================
+                             CHỮ
+                        ============================== -->
+
+                        <td>
+
+                            <strong class="hanzi-admin-character">
+                                {{ hanzi.character }}
+                            </strong>
+
+                        </td>
+
+
+                        <!-- =============================
+                             PINYIN
+                        ============================== -->
+
+                        <td>
+
+                            {{ hanzi.pinyin or '—' }}
+
+                        </td>
+
+
+                        <!-- =============================
+                             NGHĨA
+                        ============================== -->
+
+                        <td>
+
+                            {{ hanzi.meaning or '—' }}
+
+                        </td>
+
+
+                        <!-- =============================
+                             BÀI HỌC
+                        ============================== -->
+
+                        <td>
+
+                            HSK {{ hanzi.course_level }}
+
+                            <br>
+
+                            <small>
+                                Bài {{ hanzi.lesson_order }}
+                            </small>
+
+                        </td>
+
+
+                        <!-- =============================
+                             BỘ THỦ
+                        ============================== -->
+
+                        <td>
+
+                            {% if hanzi.radical_symbol %}
+
+                                <strong>
+                                    {{ hanzi.radical_symbol }}
+                                </strong>
+
+                                <br>
+
+                                <small>
+                                    {{ hanzi.radical_name }}
+                                </small>
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             SỐ NÉT
+                        ============================== -->
+
+                        <td>
+
+                            {% if
+                                hanzi.stroke_count
+                                is not none
+                            %}
+
+                                {{ hanzi.stroke_count }}
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             AUDIO
+                        ============================== -->
+
+                        <td>
+
+                            {% if hanzi.media_id %}
+
+                                Có
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             TRẠNG THÁI
+                        ============================== -->
+
+                        <td>
+
+                            <span
+                                class="
+                                    course-status
+                                    course-status-{{ hanzi.status }}
+                                "
+                            >
+                                {{
+                                    statuses.get(
+                                        hanzi.status,
+                                        hanzi.status
+                                    )
+                                }}
+                            </span>
+
+                        </td>
+
+
+                        <!-- =============================
+                             THAO TÁC
+                        ============================== -->
+
+                        <td>
+
+                            <div class="course-action-buttons">
+
+
+                                <!-- =========================
+                                     SỬA
+                                ========================== -->
+
+                                <a
+                                    class="small-button"
+                                    href="{{ url_for(
+                                        'admin_hanzi.index',
+
+                                        edit=hanzi.id,
+
+                                        page=page,
+
+                                        course_id=selected_course,
+
+                                        lesson_id=selected_lesson,
+
+                                        status=selected_status,
+
+                                        q=keyword
+                                    ) }}"
+                                >
+                                    Sửa
+                                </a>
+
+
+                                <!-- =========================
+                                     ĐỔI TRẠNG THÁI
+                                ========================== -->
+
+                                <form
+                                    method="post"
+                                    action="{{ url_for(
+                                        'admin_hanzi.set_status',
+                                        hanzi_id=hanzi.id
+                                    ) }}"
+                                >
+
+                                    <input
+                                        type="hidden"
+                                        name="csrf_token"
+                                        value="{{ csrf_token() }}"
+                                    >
+
+
+                                    <!-- =====================
+                                         GIỮ TRANG
+                                    ====================== -->
+
+                                    <input
+                                        type="hidden"
+                                        name="return_page"
+                                        value="{{ page }}"
+                                    >
+
+
+                                    <!-- =====================
+                                         GIỮ KHÓA HỌC
+                                    ====================== -->
+
+                                    <input
+                                        type="hidden"
+                                        name="return_course_id"
+                                        value="{{
+                                            selected_course
+                                            if selected_course is not none
+                                            else ''
+                                        }}"
+                                    >
+
+
+                                    <!-- =====================
+                                         GIỮ BÀI HỌC
+                                    ====================== -->
+
+                                    <input
+                                        type="hidden"
+                                        name="return_lesson_id"
+                                        value="{{
+                                            selected_lesson
+                                            if selected_lesson is not none
+                                            else ''
+                                        }}"
+                                    >
+
+
+                                    <!-- =====================
+                                         GIỮ TRẠNG THÁI LỌC
+                                    ====================== -->
+
+                                    <input
+                                        type="hidden"
+                                        name="return_status"
+                                        value="{{ selected_status }}"
+                                    >
+
+
+                                    <!-- =====================
+                                         GIỮ TỪ KHÓA
+                                    ====================== -->
+
+                                    <input
+                                        type="hidden"
+                                        name="return_keyword"
+                                        value="{{ keyword }}"
+                                    >
+
+
+                                    <select
+                                        name="status"
+                                        onchange="this.form.submit()"
+                                    >
+
+                                        {% for value, label
+                                            in statuses.items()
+                                        %}
+
+                                            <option
+                                                value="{{ value }}"
+
+                                                {% if
+                                                    hanzi.status
+                                                    == value
+                                                %}
+                                                    selected
+                                                {% endif %}
+                                            >
+                                                {{ label }}
+                                            </option>
+
+                                        {% endfor %}
+
+                                    </select>
+
+                                </form>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                {% else %}
+
+                    <tr>
+
+                        <td
+                            colspan="10"
+                            class="center-text"
+                        >
+                            Không có Chữ Hán phù hợp.
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- =====================================================
+         PHÂN TRANG
+    ====================================================== -->
+
+    {% if total_pages > 1 %}
+
+        <div class="admin-pagination">
+
+
+            <!-- =============================================
+                 TRANG TRƯỚC
+            ============================================== -->
+
+            {% if page > 1 %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_hanzi.index',
+
+                        page=page - 1,
+
+                        course_id=selected_course,
+
+                        lesson_id=selected_lesson,
+
+                        status=selected_status,
+
+                        q=keyword
+                    ) }}"
+                >
+                    ← Trang trước
+                </a>
+
+            {% endif %}
+
+
+            <!-- =============================================
+                 TRANG HIỆN TẠI
+            ============================================== -->
+
+            <span class="admin-pagination-info">
+
+                Trang
+                {{ page }}
+                /
+                {{ total_pages }}
+
+            </span>
+
+
+            <!-- =============================================
+                 TRANG SAU
+            ============================================== -->
+
+            {% if page < total_pages %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_hanzi.index',
+
+                        page=page + 1,
+
+                        course_id=selected_course,
+
+                        lesson_id=selected_lesson,
+
+                        status=selected_status,
+
+                        q=keyword
+                    ) }}"
+                >
+                    Trang sau →
+                </a>
+
+            {% endif %}
+
+        </div>
+
+    {% endif %}
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,773 @@
+﻿MaTuHSK,MaMucNoiBo,SoThuTuNguon,MaTuVung,ChuHan,PhienAm,NghiaTiengViet,TuLoai,DaDuyet,MaBaiHocTam,SoThuTuBai,TenBaiHoc,ThuTuTrongBai,CachPhan,DiemChuDe,TuKhoaKhop
+511,L2-0011,152,512,半夜,bànyè,nửa đêm / trong đêm khuya,名,0,L2-01,1,Một ngày của tôi,1,xac_dinh,100,FORCED
+537,L2-0037,597,538,不久,bùjiǔ,không lâu (sau) / chẳng bao lâu / sớm / ngay sau đó,形,0,L2-01,1,Một ngày của tôi,2,ra_soat_thu_cong,100,ra_soat_thu_cong
+556,L2-0056,839,557,常见,cháng jiàn,thường thấy / phổ biến / thấy thường xuyên,,0,L2-01,1,Một ngày của tôi,3,chu_de,4,VI:thường xuyên
+584,L2-0084,1343,585,从小,cóngxiǎo,từ nhỏ; từ bé,副,0,L2-01,1,Một ngày của tôi,4,ra_soat_thu_cong,100,ra_soat_thu_cong
+608,L2-0108,1613,609,当时,dāngshí,lúc đó / vào thời điểm đó / trong khi,名,0,L2-01,1,Một ngày của tôi,5,ra_soat_thu_cong,100,ra_soat_thu_cong
+620,L2-0120,1715,81,等,děng,đợi; chờ,助、名,1,L2-01,1,Một ngày của tôi,6,ra_soat_bai23,100,ra_soat_bai23
+649,L2-0149,2059,647,多久,duōjiǔ,(về thời gian) bao lâu? / (không) lâu,代,0,L2-01,1,Một ngày của tôi,7,ra_soat_thu_cong,100,ra_soat_thu_cong
+664,L2-0164,2329,122,分,fēn,phút,动,1,L2-01,1,Một ngày của tôi,8,ra_soat_bai23,100,ra_soat_bai23
+667,L2-0167,2358,664,分钟,fēnzhōng,phút,量,0,L2-01,1,Một ngày của tôi,9,ra_soat_thu_cong,100,ra_soat_thu_cong
+682,L2-0182,2612,679,刚才,gāngcái,vừa nãy / mới đây / vừa mới (biến thể của 剛才|刚才[gang1 cai2]),名,0,L2-01,1,Một ngày của tôi,10,ra_soat_thu_cong,100,ra_soat_thu_cong
+683,L2-0183,2613,680,刚刚,gānggāng,mới đây / ngay vừa rồi,副,0,L2-01,1,Một ngày của tôi,11,ra_soat_thu_cong,100,ra_soat_thu_cong
+717,L2-0217,3227,713,好久,hǎojiǔ,một khoảng thời gian khá lâu,形,0,L2-01,1,Một ngày của tôi,12,ra_soat_thu_cong,100,ra_soat_thu_cong
+798,L2-0298,4321,791,经常,jīngcháng,thường xuyên; liên tục; đều đặn; thường / ngày thường; hằng ngày; mỗi ngày,副,0,L2-01,1,Một ngày của tôi,13,xac_dinh,100,FORCED
+888,L2-0388,5743,878,那会儿,nàhuìr,vào lúc đó (trong quá khứ hoặc tương lai) / cũng đọc là [nei4 hui4 r5],代,0,L2-01,1,Một ngày của tôi,14,ra_soat_thu_cong,100,ra_soat_thu_cong
+890,L2-0390,5747,880,那时候,nà shíhou,lúc đó / vào thời điểm đó / những ngày đó,,0,L2-01,1,Một ngày của tôi,15,xac_dinh,100,FORCED
+921,L2-0421,6135,911,平时,píngshí,thường lệ / trong thời gian bình thường / trong thời bình,名,0,L2-01,1,Một ngày của tôi,16,xac_dinh,100,FORCED
+972,L2-0472,6984,962,上周,shàng zhōu,tuần trước,,0,L2-01,1,Một ngày của tôi,17,ra_soat_thu_cong,100,ra_soat_thu_cong
+979,L2-0479,7120,969,生活,shēnghuó,sống / cuộc sống / sinh kế,名、动,0,L2-01,1,Một ngày của tôi,18,xac_dinh,100,FORCED
+1012,L2-0512,7710,1002,随时,suíshí,bất kỳ lúc nào; mọi lúc / đúng lúc; khi cần thiết,副,0,L2-01,1,Một ngày của tôi,19,ra_soat_thu_cong,100,ra_soat_thu_cong
+1060,L2-0560,8298,1050,晚安,wǎn'ān,Chúc ngủ ngon! / Chào buổi tối!,动,0,L2-01,1,Một ngày của tôi,20,chu_de,8,"VI:buổi tối, VI:ngủ"
+1080,L2-0580,8563,1070,午睡,wǔshuì,ngủ trưa / giấc ngủ ngắn,名、动,0,L2-01,1,Một ngày của tôi,21,chu_de,4,VI:ngủ
+1086,L2-0586,8625,1076,习惯,xíguàn,thói quen / phong tục / thói quen thường lệ / quen với,名、动,0,L2-01,1,Một ngày của tôi,22,ra_soat_thu_cong,100,ra_soat_thu_cong
+1088,L2-0588,8637,1078,洗澡,xǐzǎo,tắm / tắm vòi sen,,0,L2-01,1,Một ngày của tôi,23,chu_de,24,"ZH:洗澡, VI:tắm"
+1091,L2-0591,8709,1080,下周,xià zhōu,tuần sau,,0,L2-01,1,Một ngày của tôi,24,ra_soat_thu_cong,100,ra_soat_thu_cong
+1104,L2-0604,8909,1093,小时候,xiǎoshíhou,khi còn nhỏ,名,0,L2-01,1,Một ngày của tôi,25,xac_dinh,100,FORCED
+1144,L2-0644,9450,1133,夜,yè,biến thể của 夜[ye4] / đêm,名,0,L2-01,1,Một ngày của tôi,26,ra_soat_thu_cong,100,ra_soat_thu_cong
+1145,L2-0645,9453,1134,夜里,yèlǐ,trong đêm / vào ban đêm / ban đêm,名,0,L2-01,1,Một ngày của tôi,27,chu_de,20,ZH:夜里
+1149,L2-0649,9508,432,一会儿,yīhuìr,một lát; một lúc,副,1,L2-01,1,Một ngày của tôi,28,ra_soat_thu_cong,100,ra_soat_thu_cong
+1207,L2-0707,10158,1195,早晨,zǎochen,buổi sáng sớm / cũng đọc [zao3 chen5],名,0,L2-01,1,Một ngày của tôi,29,xac_dinh,100,FORCED
+1222,L2-0722,10336,1209,这时候,zhè shíhou,lúc này / khoảnh khắc này,,0,L2-01,1,Một ngày của tôi,30,xac_dinh,100,FORCED
+1242,L2-0742,10681,1229,周,zhōu,đi một vòng / xoay vòng / đường tròn / chu vi / vòng / chu kỳ / hoàn thành / tất cả / khắp / triệt để / hỗ trợ tài chính / tuần / hàng tuần / biến thể của 周[zhou1],量,0,L2-01,1,Một ngày của tôi,31,ra_soat_thu_cong,100,ra_soat_thu_cong
+514,L2-0014,231,515,报名,bàomíng,đăng ký / ghi tên / nộp đơn / đăng ký nhập học / ghi danh / tuyển,,0,L2-02,2,Cuộc sống học tập,1,ra_soat_thu_cong,100,ra_soat_thu_cong
+517,L2-0017,278,518,背,bèi,lưng của cơ thể hoặc vật / ngoảnh lưng lại / che giấu / học thuộc lòng / nhớ để đọc / không may (tiếng lóng) / lãng tai,动,0,L2-02,2,Cuộc sống học tập,2,ra_soat_thu_cong,100,ra_soat_thu_cong
+521,L2-0021,348,522,笔记,bǐjì,ghi chép lại / bài ghi chú / một loại văn học chủ yếu gồm những bài phác thảo ngắn,名,0,L2-02,2,Cuộc sống học tập,3,xac_dinh,100,FORCED
+522,L2-0022,349,523,笔记本,bǐjìběn,sổ tay (văn phòng phẩm) / máy tính xách tay,名,0,L2-02,2,Cuộc sống học tập,4,xac_dinh,100,FORCED
+553,L2-0053,781,554,查,chá,nghiên cứu / kiểm tra / điều tra / khám xét / tham khảo / tra cứu (ví dụ: tra từ trong từ điển),动,0,L2-02,2,Cuộc sống học tập,5,chu_de,4,VI:từ điển
+564,L2-0064,958,565,成绩,chéngjì,thành tích / kết quả học tập / điểm số,名,0,L2-02,2,Cuộc sống học tập,6,xac_dinh,100,FORCED
+581,L2-0081,1285,582,词,cí,"biến thể cũ của 詞|词[ci2] / từ / ngôn từ; lời nói; lời bài hát / một thể thơ trữ tình, thịnh hành thời Tống 宋朝|宋朝[Song4 chao2] (",名,0,L2-02,2,Cuộc sống học tập,7,ra_soat_thu_cong,100,ra_soat_thu_cong
+582,L2-0082,1286,583,词典,cídiǎn,từ điển / cũng viết 辭典|辞典[ci2 dian3],名,0,L2-02,2,Cuộc sống học tập,8,xac_dinh,100,FORCED
+583,L2-0083,1288,584,词语,cíyǔ,từ (thuật ngữ chung bao gồm từ đơn âm đến cụm ngắn) / thuật ngữ (ví dụ: thuật ngữ kỹ thuật) / biểu đạt,名,0,L2-02,2,Cuộc sống học tập,9,ra_soat_thu_cong,100,ra_soat_thu_cong
+634,L2-0134,1915,634,懂,dǒng,hiểu / nhận thức,动,0,L2-02,2,Cuộc sống học tập,10,ra_soat_thu_cong,100,ra_soat_thu_cong
+635,L2-0135,1916,635,懂得,dǒngde,hiểu; biết; thấu hiểu,动,0,L2-02,2,Cuộc sống học tập,11,ra_soat_thu_cong,100,ra_soat_thu_cong
+666,L2-0166,2351,663,分数,fēnshù,điểm (thi) / điểm số / thành tích / phân số,名,0,L2-02,2,Cuộc sống học tập,12,xac_dinh,100,FORCED
+671,L2-0171,2510,668,复习,fùxí,xem lại / ôn tập / biến thể của 復習|复习[fu4 xi2],动,0,L2-02,2,Cuộc sống học tập,13,xac_dinh,100,FORCED
+685,L2-0185,2667,682,高中,gāozhōng,trường trung học phổ thông / viết tắt của 高級中學|高级中学[gao1 ji2 zhong1 xue2],名,0,L2-02,2,Cuộc sống học tập,14,chu_de,8,"VI:học, VI:trường"
+704,L2-0204,3032,701,广场,guǎngchǎng,quảng trường,名,0,L2-02,2,Cuộc sống học tập,15,chu_de,4,VI:trường
+751,L2-0251,3734,744,级,jí,"cấp / hạng / bậc / bước (cầu thang) / Lượng từ: bước, cấp",名,0,L2-02,2,Cuộc sống học tập,16,ra_soat_thu_cong,100,ra_soat_thu_cong
+754,L2-0254,3784,747,计算机,jìsuànjī,máy tính / (Đài Loan) máy tính cầm tay,名,0,L2-02,2,Cuộc sống học tập,17,ra_soat_thu_cong,100,ra_soat_thu_cong
+757,L2-0257,3850,750,家（科学家）,jiā (kēxuéjiā),"dùng trong 傢伙|家伙[jia1 huo5] và 傢俱|家俱[jia1 ju4] / nhà / gia đình / (lịch sự) của tôi (chị, chú, v.v.) / lượng từ cho gia đình hoặc doanh nghiệp / chỉ các trường phái triết học Trung Quốc thời Tiền Hán / hậu tố danh từ cho chuyên gia trong một hoạt động nào đó, như nhạc sĩ hoặc nhà cách mạng, tương ứng với tiếng Anh -ist, -er, -ary hoặc -ian",后缀,0,L2-02,2,Cuộc sống học tập,18,chu_de,8,"VI:học, VI:trường"
+778,L2-0278,4120,771,教师,jiàoshī,giáo viên,名,0,L2-02,2,Cuộc sống học tập,19,xac_dinh,100,FORCED
+779,L2-0279,4121,772,教室,jiàoshì,phòng học,名,0,L2-02,2,Cuộc sống học tập,20,xac_dinh,100,FORCED
+780,L2-0280,4125,773,教学,jiàoxué,giảng dạy; hướng dẫn,名,0,L2-02,2,Cuộc sống học tập,21,xac_dinh,100,FORCED
+781,L2-0281,4129,774,教育,jiàoyù,giáo dục / dạy học,动、名,0,L2-02,2,Cuộc sống học tập,22,xac_dinh,100,FORCED
+788,L2-0288,4170,781,节,jié,"khớp; đốt / (dạng kết hợp) phần; đoạn / tiết khí (một trong 24 phân đoạn của năm trong lịch truyền thống Trung Quốc) / lễ hội theo mùa / (dạng kết hợp) tiết kiệm / (dạng kết hợp) tiết tháo; trinh tiết / lượng từ cho các đoạn: bài học, toa tàu, câu kinh thánh, v.v. / hải lý (dặm biển mỗi giờ)",名、量,0,L2-02,2,Cuộc sống học tập,23,nghia_hoc_tap,50,nghia_hoc_tap
+805,L2-0305,4486,798,举手,jǔshǒu,giơ tay / giơ tay lên (làm tín hiệu),动,0,L2-02,2,Cuộc sống học tập,24,ra_soat_thu_cong,100,ra_soat_thu_cong
+807,L2-0307,4497,800,句,jù,câu / mệnh đề / cụm từ / lượng từ cho cụm từ hoặc câu thơ,量,0,L2-02,2,Cuộc sống học tập,25,ra_soat_thu_cong,100,ra_soat_thu_cong
+808,L2-0308,4498,801,句子,jùzi,câu,名,0,L2-02,2,Cuộc sống học tập,26,chu_de,20,ZH:句子
+812,L2-0312,4612,805,开学,kāixué,(đối với học sinh) bắt đầu đi học / (đối với học kỳ) bắt đầu / (cũ) sáng lập trường / sự bắt đầu của học kỳ mới,,0,L2-02,2,Cuộc sống học tập,27,xac_dinh,100,FORCED
+814,L2-0314,4667,807,考生,kǎoshēng,thí sinh / học sinh được đề cử tham gia kỳ thi,名,0,L2-02,2,Cuộc sống học tập,28,chu_de,28,"ZH:考生, VI:học, VI:học sinh"
+816,L2-0316,4678,809,科,kē,"ngành học / phòng ban / học phần / lĩnh vực / ngành / hướng dẫn sân khấu / họ (phân loại) / quy tắc / pháp luật / phân xử (hình phạt) / truy thu (thuế, v.v.) / phạt ai đó",名,0,L2-02,2,Cuộc sống học tập,29,ra_soat_thu_cong,100,ra_soat_thu_cong
+817,L2-0317,4683,810,科学,kēxué,khoa học / kiến thức khoa học / mang tính khoa học / hợp lý,名、形,0,L2-02,2,Cuộc sống học tập,30,chu_de,4,VI:học
+826,L2-0326,4741,819,课堂,kètáng,lớp học,名,0,L2-02,2,Cuộc sống học tập,31,xac_dinh,100,FORCED
+850,L2-0350,5087,842,例子,lìzi,trường hợp / (ví dụ) / ví dụ,名,0,L2-02,2,Cuộc sống học tập,32,chu_de,4,VI:trường
+852,L2-0352,5123,844,练,liàn,luyện tập / huấn luyện / diễn tập / hoàn thiện (kỹ năng) / tập luyện / (văn học) lụa trắng / luộc và giũ lụa thô,动,0,L2-02,2,Cuộc sống học tập,33,chu_de,8,"VI:học, VI:luyện tập"
+853,L2-0353,5124,845,练习,liànxí,luyện tập / bài tập / rèn luyện / thực hành,动、名,0,L2-02,2,Cuộc sống học tập,34,xac_dinh,100,FORCED
+862,L2-0362,5242,853,留学生,liúxuéshēng,du học sinh / sinh viên trao đổi (nước ngoài),名,0,L2-02,2,Cuộc sống học tập,35,xac_dinh,100,FORCED
+882,L2-0382,5622,873,名单,míngdān,danh sách tên,名,0,L2-02,2,Cuộc sống học tập,36,ra_soat_thu_cong,100,ra_soat_thu_cong
+896,L2-0396,5798,886,难题,nántí,vấn đề khó,名,0,L2-02,2,Cuộc sống học tập,37,chu_de,8,ZH:题
+899,L2-0399,5860,889,年级,niánjí,"lớp / năm (trong trường học, đại học, v.v.)",名,0,L2-02,2,Cuộc sống học tập,38,chu_de,8,"VI:học, VI:trường"
+903,L2-0403,5915,893,努力,nǔlì,nỗ lực; cố gắng; phấn đấu / chăm chỉ; tận tụy,形,0,L2-02,2,Cuộc sống học tập,39,ra_soat_bai23,100,ra_soat_bai23
+977,L2-0477,7112,967,生,shēng,được sinh / sinh ra / cuộc sống / phát triển / sống / chưa chín / học sinh,动,0,L2-02,2,Cuộc sống học tập,40,chu_de,8,"VI:học, VI:học sinh"
+978,L2-0478,7117,968,生词,shēngcí,từ mới (trong sách giáo khoa) / từ không quen hoặc chưa học,名,0,L2-02,2,Cuộc sống học tập,41,ra_soat_thu_cong,100,ra_soat_thu_cong
+987,L2-0487,7253,977,实在,shízài,thực sự / thật sự / quả thật / đúng / thành thật / đáng tin cậy / (triết học) hiện thực,副,0,L2-02,2,Cuộc sống học tập,42,chu_de,4,VI:học
+988,L2-0488,7254,978,实在,shízai,thực sự / thật sự / quả thật / đúng / thành thật / đáng tin cậy / (triết học) hiện thực,形,0,L2-02,2,Cuộc sống học tập,43,chu_de,4,VI:học
+1002,L2-0502,7502,992,数字,shùzì,"chữ số / số / hình / số lượng / kỹ thuật số (điện tử, v.v.)",名,0,L2-02,2,Cuộc sống học tập,44,ra_soat_bai23,100,ra_soat_bai23
+1009,L2-0509,7693,999,算,suàn,coi như / tính toán / tính / toán,动,0,L2-02,2,Cuộc sống học tập,45,ra_soat_bai23,100,ra_soat_bai23
+1029,L2-0529,7901,1019,题,tí,chủ đề / vấn đề thảo luận / câu hỏi thi / môn học / đề lên / nhắc đến,名,0,L2-02,2,Cuộc sống học tập,46,chu_de,24,"ZH:题, VI:học"
+1108,L2-0608,8926,1097,校园,xiàoyuán,khuôn viên trường,名,0,L2-02,2,Cuộc sống học tập,47,chu_de,4,VI:trường
+1109,L2-0609,8927,1098,校长,xiàozhǎng,"(trường cao đẳng, đại học) hiệu trưởng",名,0,L2-02,2,Cuộc sống học tập,48,chu_de,8,"VI:học, VI:trường"
+1131,L2-0631,9210,1120,学期,xuéqī,học kỳ,名,0,L2-02,2,Cuộc sống học tập,49,chu_de,4,VI:học
+1170,L2-0670,9686,1158,音节,yīnjié,âm tiết,名,0,L2-02,2,Cuộc sống học tập,50,ra_soat_thu_cong,100,ra_soat_thu_cong
+1194,L2-0694,10041,1182,院长,yuànzhǎng,người đứng đầu của một tổ chức có tên kết thúc bằng 院[yuan4] / chủ tịch hội đồng / hiệu trưởng đại học / trưởng khoa / viện trưởng / thủ tướng Trung Hoa Dân Quốc,名,0,L2-02,2,Cuộc sống học tập,51,ra_soat_thu_cong,100,ra_soat_thu_cong
+1233,L2-0733,10534,1220,纸,zhǐ,"biến thể của 紙|纸[zhi3] / giấy / lượng từ cho tài liệu, thư từ, v.v.",名,0,L2-02,2,Cuộc sống học tập,52,ra_soat_thu_cong,100,ra_soat_thu_cong
+1235,L2-0735,10614,1222,中级,zhōngjí,cấp trung (trong hệ thống phân cấp),形,0,L2-02,2,Cuộc sống học tập,53,ra_soat_thu_cong,100,ra_soat_thu_cong
+1237,L2-0737,10625,1224,中小学,zhōng-xiǎoxué,trường trung học và tiểu học,,0,L2-02,2,Cuộc sống học tập,54,chu_de,8,"VI:học, VI:trường"
+1240,L2-0740,10671,1227,重点,zhòngdiǎn,điểm quan trọng; điểm chính; trọng tâm / dự án quan trọng / tập trung vào; nhấn mạnh vào,名、副,0,L2-02,2,Cuộc sống học tập,55,ra_soat_thu_cong,100,ra_soat_thu_cong
+1250,L2-0750,10858,1237,准确,zhǔnquè,chính xác; đúng; chuẩn xác,形,0,L2-02,2,Cuộc sống học tập,56,ra_soat_bai23,100,ra_soat_bai23
+1254,L2-0754,10945,1241,字典,zìdiǎn,"Từ điển chữ Hán (chứa mục từ cho từng chữ đơn, khác với 詞典|词典[ci2 dian3], chứa mục từ cho từ gồm một hoặc nhiều chữ) / (thông tục) từ điển / Lượng từ: 本[ben3]",名,0,L2-02,2,Cuộc sống học tập,57,xac_dinh,100,FORCED
+1265,L2-0765,11071,1252,作文,zuòwén,viết bài văn / bài làm văn (bài luận của học sinh),名,0,L2-02,2,Cuộc sống học tập,58,chu_de,8,"VI:học, VI:học sinh"
+1266,L2-0766,11073,1253,作业,zuòyè,bài tập về nhà / bài tập / công việc / nhiệm vụ / vận hành / thao tác,名,0,L2-02,2,Cuộc sống học tập,59,xac_dinh,100,FORCED
+508,L2-0008,132,509,办,bàn,làm / quản lý / xử lý / tiến hành / vận hành / thành lập / giải quyết,动,0,L2-03,3,Công việc,1,ra_soat_thu_cong,100,ra_soat_thu_cong
+510,L2-0010,136,511,办公室,bàngōngshì,văn phòng / cơ sở kinh doanh / cục,名,0,L2-03,3,Công việc,2,xac_dinh,100,FORCED
+586,L2-0086,1420,587,打工,dǎgōng,"làm công việc tạm thời hoặc không chính thức / (đối với học sinh, sinh viên) đi làm ngoài giờ học, hoặc trong kỳ nghỉ",,0,L2-03,3,Công việc,3,xac_dinh,100,FORCED
+603,L2-0103,1579,604,单位,dānwèi,"đơn vị (đo lường) / đơn vị (nhóm người) / đơn vị công tác (nơi làm việc, đặc biệt ở Trung Quốc trước cải cách kinh tế)",名,0,L2-03,3,Công việc,4,xac_dinh,100,FORCED
+607,L2-0107,1601,608,当,dāng,(từ tượng thanh) đong / đinh đong (chuông) / làm / làm việc / quản lý / chịu đựng / khi / trong lúc / nên / phải / tương xứng / bằng / giống / cản trở / đúng lúc (thời gian hoặc địa điểm) / tại chỗ / ngay / lúc đó,动、介,0,L2-03,3,Công việc,5,chu_de,8,"VI:làm việc, VI:quản lý"
+670,L2-0170,2451,667,服务,fúwù,phục vụ / dịch vụ,动,0,L2-03,3,Công việc,6,xac_dinh,100,FORCED
+694,L2-0194,2806,691,公司,gōngsī,công ty; hãng; tập đoàn,名,0,L2-03,3,Công việc,7,xac_dinh,100,FORCED
+707,L2-0207,3118,704,过来,guòlái,đến / quản lý / xử lý / có thể chăm sóc được,动,0,L2-03,3,Công việc,8,chu_de,4,VI:quản lý
+749,L2-0249,3683,742,机会,jīhuì,cơ hội / thời cơ / dịp,名,0,L2-03,3,Công việc,9,ra_soat_bai23,100,ra_soat_bai23
+800,L2-0300,4328,793,经理,jīnglǐ,"quản lý / giám đốc / Lượng từ: 個|个[ge4], 位[wei4], 名[ming2]",名,0,L2-03,3,Công việc,10,xac_dinh,100,FORCED
+971,L2-0471,6935,961,商人,shāngrén,thương nhân / doanh nhân,名,0,L2-03,3,Công việc,11,ra_soat_thu_cong,100,ra_soat_thu_cong
+985,L2-0485,7247,975,实习,shíxí,thực hành / thực tập / sự thực tập,动、名,0,L2-03,3,Công việc,12,ra_soat_thu_cong,100,ra_soat_thu_cong
+993,L2-0493,7301,983,事情,shìqing,sự việc; vấn đề; điều; công việc,名,0,L2-03,3,Công việc,13,chu_de,4,VI:công việc
+996,L2-0496,7363,986,收入,shōurù,thu vào / thu nhập / doanh thu,动、名,0,L2-03,3,Công việc,14,xac_dinh,100,FORCED
+1006,L2-0506,7608,996,司机,sījī,tài xế; người lái xe,名,0,L2-03,3,Công việc,15,xac_dinh,100,FORCED
+1026,L2-0526,7884,1016,提出,tíchū,nêu (vấn đề) / đề xuất / đưa ra / đề nghị / đăng (trên trang web) / rút (tiền mặt),,0,L2-03,3,Công việc,16,ra_soat_thu_cong,100,ra_soat_thu_cong
+1047,L2-0547,8068,1037,同事,tóngshì,đồng nghiệp; cộng sự,名,0,L2-03,3,Công việc,17,ra_soat_bai23,100,ra_soat_bai23
+1107,L2-0607,8921,1096,小组,xiǎozǔ,nhóm,名,0,L2-03,3,Công việc,18,ra_soat_thu_cong,100,ra_soat_thu_cong
+1128,L2-0628,9118,1117,休假,xiūjià,đi nghỉ; có kỳ nghỉ; xin nghỉ,,0,L2-03,3,Công việc,19,xac_dinh,100,FORCED
+1259,L2-0759,11014,1246,组,zǔ,"hình thành / tổ chức / nhóm / đội / lượng từ cho bộ, loạt, nhóm người, pin",动、名,0,L2-03,3,Công việc,20,ra_soat_thu_cong,100,ra_soat_thu_cong
+1261,L2-0761,11018,1248,组长,zǔzhǎng,tổ trưởng,名,0,L2-03,3,Công việc,21,ra_soat_thu_cong,100,ra_soat_thu_cong
+1267,L2-0767,11074,1254,作用,zuòyòng,"tác động đến; ảnh hưởng / hành động; chức năng; hoạt động / tác động; kết quả; hiệu quả / mục đích; ý định / hậu tố -ation, -tion, v.v., như trong 抑制作用[yi4 zhi4 zuo4 yong4], ức chế",名,0,L2-03,3,Công việc,22,ra_soat_thu_cong,100,ra_soat_thu_cong
+502,L2-0002,25,503,爱情,àiqíng,lãng mạn; tình yêu (lãng mạn),名,0,L2-04,4,Gia đình và bạn bè,1,xac_dinh,100,FORCED
+503,L2-0003,26,504,爱人,àiren,vợ hoặc chồng (Trung Quốc) / người yêu (không phải Trung Quốc),名,0,L2-04,4,Gia đình và bạn bè,2,xac_dinh,100,FORCED
+572,L2-0072,1144,573,出生,chūshēng,được sinh ra,动,0,L2-04,4,Gia đình và bạn bè,3,ra_soat_thu_cong,100,ra_soat_thu_cong
+593,L2-0093,1473,594,大家,dàjiā,mọi người / gia đình có ảnh hưởng / đại gia,代,0,L2-04,4,Gia đình và bạn bè,4,ra_soat_thu_cong,100,ra_soat_thu_cong
+596,L2-0096,1497,597,大人,dàren,người lớn / trưởng thành / cách xưng hô tôn trọng với cấp trên,名,0,L2-04,4,Gia đình và bạn bè,5,ra_soat_thu_cong,100,ra_soat_thu_cong
+702,L2-0202,2969,699,关心,guānxīn,quan tâm đến; chăm sóc,动,0,L2-04,4,Gia đình và bạn bè,6,ra_soat_bai23,100,ra_soat_bai23
+758,L2-0258,3861,751,家庭,jiātíng,gia đình / hộ gia đình,名,0,L2-04,4,Gia đình và bạn bè,7,xac_dinh,100,FORCED
+771,L2-0271,4062,764,交朋友,jiāo péngyou,kết bạn / (tiếng địa phương) bắt đầu mối quan hệ tình cảm với ai đó,,0,L2-04,4,Gia đình và bạn bè,8,xac_dinh,100,FORCED
+842,L2-0342,4963,834,老朋友,lǎo péngyou,bạn cũ / (tiếng lóng) kỳ kinh nguyệt / hành kinh,,0,L2-04,4,Gia đình và bạn bè,9,xac_dinh,100,FORCED
+955,L2-0455,6607,945,全家,quánjiā,cả gia đình,名,0,L2-04,4,Gia đình và bạn bè,10,chu_de,4,VI:gia đình
+963,L2-0463,6701,953,人们,rénmen,mọi người,名,0,L2-04,4,Gia đình và bạn bè,11,ra_soat_thu_cong,100,ra_soat_thu_cong
+1017,L2-0517,7776,1007,太太,tàitai,phụ nữ đã kết hôn / Bà / Phu nhân / vợ,名,0,L2-04,4,Gia đình và bạn bè,12,chu_de,8,"VI:vợ, VI:kết hôn"
+1126,L2-0626,9101,1115,姓,xìng,họ; họ tên / là họ...,名、动,0,L2-04,4,Gia đình và bạn bè,13,ra_soat_thu_cong,100,ra_soat_thu_cong
+1127,L2-0627,9102,1116,姓名,xìngmíng,họ và tên; tên đầy đủ,名,0,L2-04,4,Gia đình và bạn bè,14,ra_soat_thu_cong,100,ra_soat_thu_cong
+1136,L2-0636,9372,1125,养,yǎng,nuôi (động vật) / nuôi dưỡng (trẻ em) / nuôi (thú cưng) / chu cấp / sinh đẻ,动,0,L2-04,4,Gia đình và bạn bè,15,ra_soat_thu_cong,100,ra_soat_thu_cong
+1162,L2-0662,9611,1150,一生,yīshēng,cả đời; suốt đời,名,0,L2-04,4,Gia đình và bạn bè,16,ra_soat_thu_cong,100,ra_soat_thu_cong
+1216,L2-0716,10261,1203,长大,zhǎngdà,trưởng thành,,0,L2-04,4,Gia đình và bạn bè,17,ra_soat_thu_cong,100,ra_soat_thu_cong
+1245,L2-0745,10720,1232,主人,zhǔrén,chủ / chủ nhà / người chủ,名,0,L2-04,4,Gia đình và bạn bè,18,ra_soat_thu_cong,100,ra_soat_thu_cong
+504,L2-0004,34,505,安静,ānjìng,yên tĩnh / bình yên / điềm tĩnh,形、动,0,L2-05,5,Ngoại hình và tính cách,1,chu_de,24,"ZH:安静, VI:yên tĩnh"
+536,L2-0036,589,537,不好意思,bù hǎoyìsi,cảm thấy xấu hổ / thấy ngại / ngại quá (vì làm phiền ai đó),,0,L2-05,5,Ngoại hình và tính cách,2,ra_soat_thu_cong,100,ra_soat_thu_cong
+538,L2-0038,605,539,不满,bùmǎn,bực bội / không hài lòng / không thỏa mãn,形,0,L2-05,5,Ngoại hình và tính cách,3,ra_soat_thu_cong,100,ra_soat_thu_cong
+663,L2-0163,2288,661,放心,fàngxīn,cảm thấy nhẹ nhõm / cảm thấy yên tâm / an tâm,,0,L2-05,5,Ngoại hình và tính cách,4,ra_soat_thu_cong,100,ra_soat_thu_cong
+676,L2-0176,2588,673,感到,gǎndào,cảm thấy; cảm nhận; nhận ra,动,0,L2-05,5,Ngoại hình và tính cách,5,ra_soat_thu_cong,100,ra_soat_thu_cong
+677,L2-0177,2589,674,感动,gǎndòng,làm cảm động / chạm đến (cảm xúc của ai đó) / cảm động,形、动,0,L2-05,5,Ngoại hình và tính cách,6,ra_soat_thu_cong,100,ra_soat_thu_cong
+684,L2-0184,2644,681,高级,gāojí,cấp cao / chất lượng cao / tiên tiến / cấp bậc cao,形,0,L2-05,5,Ngoại hình và tính cách,7,chu_de,12,"ZH:高, VI:cao"
+686,L2-0186,2721,683,个子,gèzi,chiều cao / dáng vóc / thể trạng / kích cỡ,名,0,L2-05,5,Ngoại hình và tính cách,8,ra_soat_thu_cong,100,ra_soat_thu_cong
+720,L2-0220,3236,716,好像,hǎoxiàng,như thể / giống như,副、动,0,L2-05,5,Ngoại hình và tính cách,9,ra_soat_thu_cong,100,ra_soat_thu_cong
+738,L2-0238,3491,733,坏人,huàirén,người xấu / kẻ xấu,名,0,L2-05,5,Ngoại hình và tính cách,10,ra_soat_bai23,100,ra_soat_bai23
+752,L2-0252,3750,745,急,jí,khẩn cấp / cấp bách / nhanh / vội / vẻ lo lắng / làm cho (ai đó) lo lắng,形,0,L2-05,5,Ngoại hình và tính cách,11,ra_soat_bai23,100,ra_soat_bai23
+818,L2-0318,4692,811,可爱,kě'ài,đáng yêu / dễ thương / đáng mến,形,0,L2-05,5,Ngoại hình và tính cách,12,chu_de,24,"ZH:可爱, VI:đáng yêu"
+820,L2-0320,4706,813,可怕,kěpà,kinh khủng / đáng sợ / đáng gờm / dữ dội / xấu xí / khủng khiếp / tồi tệ / rất tệ,形,0,L2-05,5,Ngoại hình và tính cách,13,ra_soat_thu_cong,100,ra_soat_thu_cong
+828,L2-0328,4801,821,哭,kū,khóc; rơi lệ,动,0,L2-05,5,Ngoại hình và tính cách,14,ra_soat_bai23,100,ra_soat_bai23
+839,L2-0339,4952,216,老,lǎo,già; lớn tuổi,副,1,L2-05,5,Ngoại hình và tính cách,15,chu_de,24,"ZH:老, VI:già"
+840,L2-0340,4953,832,老（老王）,lǎo (Lǎo Wáng),"tiền tố dùng trước họ của một người hoặc số thứ tự sinh của các con trong gia đình hoặc để chỉ sự thân mật hoặc quen thuộc / già (người) / người đáng kính / có kinh nghiệm / lâu năm / luôn luôn / lúc nào cũng / của quá khứ / rất / lỗi thời / (thịt,...) dai",前缀,0,L2-05,5,Ngoại hình và tính cách,16,chu_de,12,"ZH:老, VI:già"
+841,L2-0341,4962,833,老年,lǎonián,cao tuổi / tuổi già / mùa thu của cuộc đời,名,0,L2-05,5,Ngoại hình và tính cách,17,chu_de,16,"ZH:老, VI:già, VI:cao"
+843,L2-0343,4970,835,老是,lǎoshì,luôn luôn,副,0,L2-05,5,Ngoại hình và tính cách,18,chu_de,8,ZH:老
+851,L2-0351,5119,843,脸,liǎn,khuôn mặt,名,0,L2-05,5,Ngoại hình và tính cách,19,chu_de,24,"ZH:脸, VI:khuôn mặt"
+893,L2-0393,5792,883,难过,nánguò,cảm thấy buồn / cảm thấy không khỏe / (cuộc sống) cảm thấy khó khăn,形,0,L2-05,5,Ngoại hình và tính cách,20,ra_soat_thu_cong,100,ra_soat_thu_cong
+894,L2-0394,5794,884,难看,nánkàn,xấu / xấu xí,形,0,L2-05,5,Ngoại hình và tính cách,21,ra_soat_thu_cong,100,ra_soat_thu_cong
+897,L2-0397,5799,887,难听,nántīng,khó nghe / thô tục / tục tĩu / phản cảm / đáng xấu hổ,形,0,L2-05,5,Ngoại hình và tính cách,22,ra_soat_bai23,100,ra_soat_bai23
+900,L2-0400,5865,890,年轻,niánqīng,trẻ,形,0,L2-05,5,Ngoại hình và tính cách,23,chu_de,24,"ZH:年轻, VI:trẻ"
+906,L2-0406,5942,896,怕,pà,sợ / e ngại / khiếp sợ / không thể chịu đựng / có lẽ,动,0,L2-05,5,Ngoại hình và tính cách,24,ra_soat_thu_cong,100,ra_soat_thu_cong
+916,L2-0416,6092,906,漂亮,piàoliang,xinh đẹp; đẹp,形,0,L2-05,5,Ngoại hình và tính cách,25,chu_de,28,"ZH:漂亮, VI:xinh đẹp, VI:đẹp"
+939,L2-0439,6468,929,轻,qīng,nhẹ / dễ / dịu dàng / mềm mại / khinh suất / không quan trọng / hời hợt / ít số lượng / không nhấn mạnh / trung lập / coi thường,形,0,L2-05,5,Ngoại hình và tính cách,26,ra_soat_thu_cong,100,ra_soat_thu_cong
+951,L2-0451,6570,941,取得,qǔdé,giành được; lấy được; đạt được,动,0,L2-05,5,Ngoại hình và tính cách,27,chu_de,4,VI:già
+961,L2-0461,6681,951,热情,rèqíng,nồng nhiệt / nhiệt tình / đam mê / một cách đam mê,名、形,0,L2-05,5,Ngoại hình và tính cách,28,chu_de,24,"ZH:热情, VI:nhiệt tình"
+976,L2-0476,7081,966,什么样,shénmeyàng,loại gì?; dạng gì?,代,0,L2-05,5,Ngoại hình và tính cách,29,ra_soat_bai23,100,ra_soat_bai23
+1000,L2-0500,7470,990,熟,shú/shóu,"chín; trưởng thành / nấu chín; xong / quen thuộc; quen biết / có kinh nghiệm; thành thạo / (về giấc ngủ, v.v.) sâu; sâu sắc / cũng phát âm là [shou2]",形,0,L2-05,5,Ngoại hình và tính cách,30,ra_soat_thu_cong,100,ra_soat_thu_cong
+1049,L2-0549,8097,1039,头,tóu,đầu / kiểu tóc / trên cùng / cuối / đoạn còn lại / tàn dư / trưởng / sếp / mặt / phương diện / đầu tiên / dẫn đầu / lượng từ cho heo hoặc gia súc,名、量,0,L2-05,5,Ngoại hình và tính cách,31,chu_de,4,VI:tóc
+1051,L2-0551,8101,1040,头发,tóufa,tóc (trên đầu),名,0,L2-05,5,Ngoại hình và tính cách,32,chu_de,24,"ZH:头发, VI:tóc"
+1094,L2-0594,8812,1083,相信,xiāngxìn,tin tưởng; bị thuyết phục; chấp nhận là thật,动,0,L2-05,5,Ngoại hình và tính cách,33,ra_soat_thu_cong,100,ra_soat_thu_cong
+1101,L2-0601,8862,1090,像,xiàng,giống / như / nhìn như / chẳng hạn / diện mạo / hình ảnh / chân dung / hình ảnh trong ánh xạ (toán học),动,0,L2-05,5,Ngoại hình và tính cách,34,ra_soat_thu_cong,100,ra_soat_thu_cong
+1102,L2-0602,8889,1091,小（小王）,xiǎo (Xiǎo Wáng),nhỏ / bé / một vài / trẻ,前缀,0,L2-05,5,Ngoại hình và tính cách,35,ra_soat_thu_cong,100,ra_soat_thu_cong
+1106,L2-0606,8914,1095,小心,xiǎoxīn,cẩn thận / chú ý,形、动,0,L2-05,5,Ngoại hình và tính cách,36,ra_soat_thu_cong,100,ra_soat_thu_cong
+1112,L2-0612,8957,1101,鞋,xié,giày / biến thể của 鞋[xie2],名,0,L2-05,5,Ngoại hình và tính cách,37,chu_de,4,VI:già
+1113,L2-0613,8980,1102,心里,xīnlǐ,ngực / tim; tâm trí,名,0,L2-05,5,Ngoại hình và tính cách,38,ra_soat_thu_cong,100,ra_soat_thu_cong
+1114,L2-0614,8986,1103,心情,xīnqíng,tâm trạng; trạng thái tinh thần,名,0,L2-05,5,Ngoại hình và tính cách,39,ra_soat_bai23,100,ra_soat_bai23
+1115,L2-0615,9001,1104,心中,xīnzhōng,điểm trung tâm / trong suy nghĩ / trong lòng,名,0,L2-05,5,Ngoại hình và tính cách,40,ra_soat_thu_cong,100,ra_soat_thu_cong
+1120,L2-0620,9040,1109,信心,xìnxīn,niềm tin / tin tưởng (vào ai đó hoặc điều gì đó),名,0,L2-05,5,Ngoại hình và tính cách,41,ra_soat_thu_cong,100,ra_soat_thu_cong
+1134,L2-0634,9322,1123,眼,yǎn,"mắt / lỗ nhỏ / trọng tâm (của vấn đề) / lượng từ cho vật rỗng lớn (giếng, bếp, nồi vv)",名、量,0,L2-05,5,Ngoại hình và tính cách,42,chu_de,4,VI:mắt
+1135,L2-0635,9326,1124,眼睛,yǎnjing,mắt,名,0,L2-05,5,Ngoại hình và tính cách,43,chu_de,24,"ZH:眼睛, VI:mắt"
+1137,L2-0637,9386,1126,样子,yàngzi,dáng vẻ / tác phong / kiểu mẫu / hình mẫu,名,0,L2-05,5,Ngoại hình và tính cách,44,ra_soat_thu_cong,100,ra_soat_thu_cong
+1181,L2-0681,9848,1169,油,yóu,"dầu / mỡ / chất béo / dầu mỏ / thoa dầu trẩu, sơn hoặc vecni / nhờn / béo / lém lỉnh / xảo quyệt",名,0,L2-05,5,Ngoại hình và tính cách,45,chu_de,4,VI:béo
+1183,L2-0683,9861,1171,友好,yǒuhǎo,thân thiện; hòa nhã / bạn thân,形,0,L2-05,5,Ngoại hình và tính cách,46,ra_soat_thu_cong,100,ra_soat_thu_cong
+1262,L2-0762,11032,1249,嘴,zuǐ,"miệng / mỏ / vòi / vòi ấm trà, v.v.",名,0,L2-05,5,Ngoại hình và tính cách,47,chu_de,24,"ZH:嘴, VI:miệng"
+551,L2-0051,743,552,草地,cǎodì,bãi cỏ / đồng cỏ / thảm cỏ / cỏ nhân tạo,名,0,L2-06,6,Thời tiết và các mùa,1,ra_soat_thu_cong,100,ra_soat_thu_cong
+580,L2-0080,1275,581,春天,chūntiān,mùa xuân,名,0,L2-06,6,Thời tiết và các mùa,2,chu_de,32,"ZH:春天, ZH:春, VI:mùa xuân"
+592,L2-0092,1470,593,大海,dàhǎi,biển / đại dương,名,0,L2-06,6,Thời tiết và các mùa,3,ra_soat_thu_cong,100,ra_soat_thu_cong
+600,L2-0100,1529,601,大自然,dàzìrán,thiên nhiên (thế giới tự nhiên),名,0,L2-06,6,Thời tiết và các mùa,4,xac_dinh,100,FORCED
+624,L2-0124,1768,624,地球,dìqiú,trái đất,名,0,L2-06,6,Thời tiết và các mùa,5,ra_soat_thu_cong,100,ra_soat_thu_cong
+633,L2-0133,1911,633,冬天,dōngtiān,mùa đông,名,0,L2-06,6,Thời tiết và các mùa,6,chu_de,32,"ZH:冬天, ZH:冬, VI:mùa đông"
+636,L2-0136,1935,636,动物,dòngwù,động vật,名,0,L2-06,6,Thời tiết và các mùa,7,ra_soat_thu_cong,100,ra_soat_thu_cong
+637,L2-0137,1936,637,动物园,dòngwùyuán,sở thú,名,0,L2-06,6,Thời tiết và các mùa,8,ra_soat_thu_cong,100,ra_soat_thu_cong
+652,L2-0152,2072,650,多云,duōyún,có mây (khí tượng),名,0,L2-06,6,Thời tiết và các mùa,9,nghia_tu_nhien,50,nghia_tu_nhien
+696,L2-0196,2866,693,狗,gǒu,chó,名,0,L2-06,6,Thời tiết và các mùa,10,ra_soat_thu_cong,100,ra_soat_thu_cong
+711,L2-0211,3142,708,海,hǎi,đại dương / biển / số lượng lớn người hoặc vật / (phương ngữ) nhiều,名,0,L2-06,6,Thời tiết và các mùa,11,ra_soat_thu_cong,100,ra_soat_thu_cong
+712,L2-0212,3146,709,海边,hǎi biān,bờ biển / bãi biển,,0,L2-06,6,Thời tiết và các mùa,12,ra_soat_thu_cong,100,ra_soat_thu_cong
+719,L2-0219,3231,715,好事,hǎoshì,"hành động, việc làm, điều hoặc công việc tốt (cũng có thể mỉa mai, ""thật là một việc hay"") / từ thiện / dịp vui / lễ đạo hoặc Phật cho linh hồn người chết",名,0,L2-06,6,Thời tiết và các mùa,13,nghia_tu_nhien,50,nghia_tu_nhien
+722,L2-0222,3293,718,河,hé,sông,名,0,L2-06,6,Thời tiết và các mùa,14,ra_soat_thu_cong,100,ra_soat_thu_cong
+730,L2-0230,3411,726,湖,hú,hồ,名,0,L2-06,6,Thời tiết và các mùa,15,ra_soat_thu_cong,100,ra_soat_thu_cong
+732,L2-0232,3430,160,花,huā,hoa; bông hoa,动,1,L2-06,6,Thời tiết và các mùa,16,ra_soat_thu_cong,100,ra_soat_thu_cong
+733,L2-0233,3439,728,花园,huāyuán,vườn,名,0,L2-06,6,Thời tiết và các mùa,17,ra_soat_thu_cong,100,ra_soat_thu_cong
+827,L2-0327,4754,820,空气,kōngqì,không khí / bầu không khí,名,0,L2-06,6,Thời tiết và các mùa,18,ra_soat_thu_cong,100,ra_soat_thu_cong
+854,L2-0354,5132,846,凉,liáng,mát / lạnh,形,0,L2-06,6,Thời tiết và các mùa,19,chu_de,4,VI:lạnh
+855,L2-0355,5133,847,凉快,liángkuai,mát mẻ / dễ chịu và mát,形,0,L2-06,6,Thời tiết và các mùa,20,ra_soat_thu_cong,100,ra_soat_thu_cong
+857,L2-0357,5147,848,亮,liàng,"sáng; ánh / soi rọi; loé sáng / to rõ và rõ ràng / đưa ra (hộ chiếu, v.v.); công khai (quan điểm, v.v.)",形、动,0,L2-06,6,Thời tiết và các mùa,21,ra_soat_bai23,100,ra_soat_bai23
+859,L2-0359,5210,850,零下,líng xià,dưới không,,0,L2-06,6,Thời tiết và các mùa,22,ra_soat_thu_cong,100,ra_soat_thu_cong
+863,L2-0363,5245,854,流,liú,"chảy / truyền bá / lưu thông hoặc lan truyền / di chuyển hoặc trôi dạt / sa sút / đày ải hoặc lưu đày / dòng nước hoặc thứ gì đó giống dòng nước / hạng, mức hoặc cấp",动,0,L2-06,6,Thời tiết và các mùa,23,ra_soat_bai23,100,ra_soat_bai23
+875,L2-0375,5439,866,猫,māo,mèo ( / (phương ngữ) trốn / (từ mượn) (thông tục) modem,名,0,L2-06,6,Thời tiết và các mùa,24,ra_soat_thu_cong,100,ra_soat_thu_cong
+901,L2-0401,5877,891,鸟,niǎo,"chim / Lượng từ: 隻|只[zhi1],群[qun2] / bộ ""chim"" trong chữ Hán (bộ Khang Hy số 196) / (tiếng địa phương) để ý đến / (nhấn mạnh) chết tiệt / chết tiệt",名,0,L2-06,6,Thời tiết và các mùa,25,ra_soat_thu_cong,100,ra_soat_thu_cong
+915,L2-0415,6081,905,片,piàn,"mảnh mỏng / bông / một lát / phim / phim truyền hình / thái / lát mỏng / một phần / không hoàn chỉnh / phiến diện / lượng từ cho lát, viên, mảnh đất, vùng nước / lượng từ cho CD, phim, DVD, v.v. / dùng với số từ 一[yi1]: lượng từ cho kịch bản, cảnh, cảm giác, bầu không khí, âm thanh, v.v. / bộ Khang Hy số 91",量,0,L2-06,6,Thời tiết và các mùa,26,nghia_tu_nhien,50,nghia_tu_nhien
+932,L2-0432,6279,922,气温,qìwēn,nhiệt độ không khí,名,0,L2-06,6,Thời tiết và các mùa,27,chu_de,24,"ZH:气温, VI:nhiệt độ"
+941,L2-0441,6516,931,晴,qíng,trời quang / rõ ràng (thời tiết),形,0,L2-06,6,Thời tiết và các mùa,28,chu_de,4,VI:thời tiết
+942,L2-0442,6518,932,晴天,qíngtiān,trời quang / ngày nắng,名,0,L2-06,6,Thời tiết và các mùa,29,chu_de,24,"ZH:晴天, VI:nắng"
+945,L2-0445,6537,935,秋天,qiūtiān,mùa thu,名,0,L2-06,6,Thời tiết và các mùa,30,chu_de,32,"ZH:秋天, ZH:秋, VI:mùa thu"
+1018,L2-0518,7777,1008,太阳,tàiyáng,mặt trời / viết tắt của 太陽穴|太阳穴[tai4 yang2 xue2],名,0,L2-06,6,Thời tiết và các mùa,31,chu_de,24,"ZH:太阳, VI:mặt trời"
+1033,L2-0533,7942,1023,天上,tiānshàng,thuộc về trời / thần thánh,名,0,L2-06,6,Thời tiết và các mùa,32,ra_soat_thu_cong,100,ra_soat_thu_cong
+1075,L2-0575,8443,1065,温度,wēndù,nhiệt độ,名,0,L2-06,6,Thời tiết và các mùa,33,chu_de,24,"ZH:温度, VI:nhiệt độ"
+1090,L2-0590,8702,1079,下雪,xià xuě,tuyết rơi,,0,L2-06,6,Thời tiết và các mùa,34,chu_de,32,"ZH:下雪, ZH:雪, VI:tuyết"
+1092,L2-0592,8716,1081,夏天,xiàtiān,mùa hè,名,0,L2-06,6,Thời tiết và các mùa,35,chu_de,32,"ZH:夏天, ZH:夏, VI:mùa hè"
+1122,L2-0622,9053,1111,星星,xīngxing,(thông tục) một ngôi sao; những ngôi sao trên trời,名,0,L2-06,6,Thời tiết và các mùa,36,ra_soat_thu_cong,100,ra_soat_thu_cong
+1132,L2-0632,9227,1121,雪,xuě,"tuyết / (văn học) xoá đi (nhục nhã, v.v.)",名,0,L2-06,6,Thời tiết và các mùa,37,chu_de,24,"ZH:雪, VI:tuyết"
+1168,L2-0668,9680,1156,阴,yīn,u ám (thời tiết) / nhiều mây / râm mát / Âm (nguyên lý âm trong Âm và Dương) / âm (điện) / nữ tính / mặt trăng / hàm ý / ẩn giấu / bộ phận sinh dục / biến thể của 陰|阴[yin1],形,0,L2-06,6,Thời tiết và các mùa,38,ra_soat_thu_cong,100,ra_soat_thu_cong
+1169,L2-0669,9683,1157,阴天,yīntiān,ngày nhiều mây; trời u ám,名,0,L2-06,6,Thời tiết và các mùa,39,chu_de,20,ZH:阴天
+1201,L2-0701,10075,1189,云,yún,(văn cổ) nói / mây,名,0,L2-06,6,Thời tiết và các mùa,40,ra_soat_thu_cong,100,ra_soat_thu_cong
+574,L2-0074,1161,575,出院,chūyuàn,xuất viện / được xuất viện,,0,L2-07,7,Sức khỏe,1,ra_soat_thu_cong,100,ra_soat_thu_cong
+714,L2-0214,3216,2,好,hǎo,tốt; khỏe,副,1,L2-07,7,Sức khỏe,2,chu_de,4,VI:khỏe
+718,L2-0218,3230,714,好人,hǎorén,"người tốt / người khỏe mạnh / người cố gắng không làm phật lòng ai, thậm chí hy sinh nguyên tắc",名,0,L2-07,7,Sức khỏe,3,chu_de,4,VI:khỏe
+762,L2-0262,3941,755,检查,jiǎnchá,kiểm tra / khám xét / kiểm định,动、名,0,L2-07,7,Sức khỏe,4,chu_de,20,ZH:检查
+766,L2-0266,3999,759,健康,jiànkāng,sức khỏe / khỏe mạnh,形、名,0,L2-07,7,Sức khỏe,5,chu_de,28,"ZH:健康, VI:sức khỏe, VI:khỏe"
+776,L2-0276,4099,769,脚,jiǎo,"bàn chân / chân (của động vật hoặc đồ vật) / đế, chân (của đồ vật) / lượng từ: 雙|双[shuang1], 隻|只[zhi1] / lượng từ cho cú đá",名,0,L2-07,7,Sức khỏe,6,xac_dinh,100,FORCED
+865,L2-0365,5263,856,流行,liúxíng,"(về bệnh truyền nhiễm, v.v.) lan truyền / lây lan / (về phong cách quần áo, bài hát, v.v.) phổ biến / thịnh hành",动、形,0,L2-07,7,Sức khỏe,7,nghia_suc_khoe,50,nghia_suc_khoe
+895,L2-0395,5796,885,难受,nánshòu,cảm thấy không khỏe / chịu đau khổ / khó chịu đựng,形,0,L2-07,7,Sức khỏe,8,chu_de,32,"ZH:难受, VI:đau, VI:khó chịu, VI:khỏe"
+918,L2-0418,6119,908,平安,píng'ān,bình an / khỏe mạnh / không có chuyện gì / yên tĩnh và an toàn / an bình,形,0,L2-07,7,Sức khỏe,9,ra_soat_thu_cong,100,ra_soat_thu_cong
+957,L2-0457,6615,947,全身,quánshēn,toàn bộ cơ thể / (ngành in) em,名,0,L2-07,7,Sức khỏe,10,ra_soat_thu_cong,100,ra_soat_thu_cong
+999,L2-0499,7455,989,舒服,shūfu,thoải mái / cảm thấy khỏe,形,0,L2-07,7,Sức khỏe,11,chu_de,24,"ZH:舒服, VI:khỏe"
+1024,L2-0524,7874,1014,疼,téng,(bị) đau; nhức / yêu thương hết mực,动,0,L2-07,7,Sức khỏe,12,chu_de,24,"ZH:疼, VI:đau"
+1041,L2-0541,8026,1031,挺,tǐng,thẳng / đứng thẳng / chìa ra (một phần cơ thể) / (về thể chất) đứng thẳng / hỗ trợ / chống chịu / xuất sắc / (khẩu ngữ) khá / rất / lượng từ cho súng máy,副,0,L2-07,7,Sức khỏe,13,chu_de,4,VI:cơ thể
+1054,L2-0554,8194,1044,腿,tuǐ,chân / Lượng từ:條|条[tiao2] / xương hông / biến thể cũ của 腿[tui3],名,0,L2-07,7,Sức khỏe,14,chu_de,24,"ZH:腿, VI:chân"
+1139,L2-0639,9404,1128,药,yào,"lá của cây diên vĩ / biến thể của 藥|药[yao4] / thuốc / dược phẩm / chất dùng cho mục đích cụ thể (ví dụ: đầu độc, nổ, lên men) / đầu độc",名,0,L2-07,7,Sức khỏe,15,chu_de,24,"ZH:药, VI:thuốc"
+1140,L2-0640,9406,1129,药店,yàodiàn,nhà thuốc,名,0,L2-07,7,Sức khỏe,16,chu_de,32,"ZH:药, ZH:药店, VI:thuốc"
+1141,L2-0641,9408,1130,药片,yàopiàn,viên thuốc hoặc viên nén,名,0,L2-07,7,Sức khỏe,17,chu_de,32,"ZH:药, ZH:药片, VI:thuốc"
+1142,L2-0642,9410,1131,药水,yàoshuǐ,thuốc dạng lỏng / thuốc đóng chai / dung dịch,名,0,L2-07,7,Sức khỏe,18,chu_de,32,"ZH:药, ZH:药水, VI:thuốc"
+1239,L2-0739,10634,1226,中医,zhōngyī,y học cổ truyền Trung Quốc / bác sĩ được đào tạo về y học cổ truyền,名,0,L2-07,7,Sức khỏe,19,ra_soat_thu_cong,100,ra_soat_thu_cong
+1248,L2-0748,10747,1235,住院,zhùyuàn,nhập viện / điều trị nội trú,,0,L2-07,7,Sức khỏe,20,xac_dinh,100,FORCED
+509,L2-0009,134,510,办法,bànfǎ,cách / phương pháp / cách thức (làm gì đó),名,0,L2-08,8,Ăn uống,1,chu_de,4,VI:cá
+513,L2-0013,185,514,饱,bǎo,ăn no / hài lòng,形,0,L2-08,8,Ăn uống,2,xac_dinh,100,FORCED
+542,L2-0042,624,543,不行,bùxíng,không được / không thể chấp nhận / không tốt / không hiệu quả / không có khả năng,动、形,0,L2-08,8,Ăn uống,3,chu_de,4,VI:ăn
+546,L2-0046,665,547,才,cái,khả năng; tài năng / người thuộc một kiểu nào đó / một cá nhân có năng lực / rồi thì và chỉ rồi thì / vừa mới / (trước một biểu hiện về số lượng) chỉ / (biến thể của 才[cai2]) vừa mới / (biến thể của 才[cai2]) (trước một biểu thức chỉ số lượng) chỉ,副,0,L2-08,8,Ăn uống,4,chu_de,8,"VI:ăn, VI:cá"
+547,L2-0047,696,548,菜单,càidān,thực đơn,名,0,L2-08,8,Ăn uống,5,chu_de,32,"ZH:菜, ZH:菜单, VI:thực đơn"
+550,L2-0050,741,551,草,cǎo,biến thể của 草[cao3] / cỏ / rơm / bản thảo / phác thảo (một văn kiện) / cẩu thả / sơ sài,名,0,L2-08,8,Ăn uống,6,nghia_an_uong,50,nghia_an_uong
+601,L2-0101,1546,602,带,dài,dải / thắt lưng / ruy băng / lốp / vùng / khu vực / khu / đeo / mang / dẫn theo / chịu / có / dẫn / dắt / chăm sóc / nuôi dưỡng,动,0,L2-08,8,Ăn uống,7,chu_de,4,VI:ăn
+606,L2-0106,1598,607,蛋,dàn,trứng / vật hình bầu dục,名,0,L2-08,8,Ăn uống,8,ra_soat_thu_cong,100,ra_soat_thu_cong
+612,L2-0112,1671,613,道,dào,"đường; con đường ( / (hình thức kết hợp) cách; lý do; nguyên tắc / (hình thức kết hợp) một kỹ năng; một nghệ thuật; một chuyên môn / (Đạo giáo) con Đường; Đạo / nói (dùng để dẫn lời trực tiếp, như trong tiểu thuyết) / (hình thức kết hợp) biểu đạt; gửi lời (lời nói lịch sự) / lượng từ cho những vật dài mỏng (sông, vết nứt, v.v.), rào cản (tường, cửa, v.v.), câu hỏi (trong kỳ thi, v.v.), mệnh lệnh, món ăn trong bữa ăn, bước trong quy trình / (cũ) đạo lộ (đơn vị hành chính)",量,0,L2-08,8,Ăn uống,9,chu_de,12,"VI:ăn, VI:món ăn, VI:cá"
+621,L2-0121,1717,621,等到,děngdào,"đợi đến / khi mà (cái gì sẵn sàng,...)",介,0,L2-08,8,Ăn uống,10,chu_de,4,VI:cá
+638,L2-0138,1977,638,读音,dúyīn,cách phát âm / âm đọc mang tính văn liệu (thay vì khẩu ngữ) của một chữ Hán,名,0,L2-08,8,Ăn uống,11,chu_de,8,"VI:ăn, VI:cá"
+639,L2-0139,1987,639,度,dù,"vượt qua / trải qua (thời gian) / đo / lượng giới hạn / mức độ / mức độ cường độ / độ (góc, nhiệt độ, v.v.) / kilowatt-giờ / lượng từ cho sự kiện và tình huống",名、量,0,L2-08,8,Ăn uống,12,nghia_an_uong,50,nghia_an_uong
+647,L2-0147,2033,646,对面,duìmiàn,(ngồi) đối diện / bên kia (đường) / trực tiếp phía trước / đối mặt,名,0,L2-08,8,Ăn uống,13,chu_de,8,ZH:面
+650,L2-0150,2062,648,多么,duōme,"như thế nào (tuyệt vời, v.v.) / thật là (một ý tưởng tuyệt vời, v.v.) / dù (có khó khăn, v.v.) / (trong câu nghi vấn) bao nhiêu / mức độ nào",副,0,L2-08,8,Ăn uống,14,chu_de,4,VI:ăn
+656,L2-0156,2232,654,饭馆,fànguǎn,nhà hàng,名,0,L2-08,8,Ăn uống,15,chu_de,8,ZH:饭
+658,L2-0158,2241,656,方便面,fāngbiànmiàn,mì ăn liền,名,0,L2-08,8,Ăn uống,16,chu_de,16,"ZH:面, VI:ăn, VI:mì"
+659,L2-0159,2242,657,方法,fāngfǎ,phương pháp; cách thức; cách,名,0,L2-08,8,Ăn uống,17,chu_de,4,VI:cá
+660,L2-0160,2244,658,方面,fāngmiàn,khía cạnh / phương diện / lĩnh vực / mặt,名,0,L2-08,8,Ăn uống,18,chu_de,8,ZH:面
+662,L2-0162,2287,660,放下,fàngxia,đặt xuống; để xuống / buông bỏ; từ bỏ; gác lại / hạ xuống (rèm v.v.),,0,L2-08,8,Ăn uống,19,chu_de,4,VI:uống
+697,L2-0197,2875,694,够,gòu,đủ (đầy đủ) / đủ (quá nhiều) / (thông tục) (trước tính từ) thật sự / (thông tục) với tới bằng cách vươn ra,动、副,0,L2-08,8,Ăn uống,20,chu_de,4,VI:cá
+705,L2-0205,3035,702,广告,guǎnggào,quảng cáo / mục quảng cáo,名,0,L2-08,8,Ăn uống,21,chu_de,4,VI:cá
+747,L2-0247,3654,740,或,huò,có thể / có lẽ / có khả năng / có thể là / hoặc,连,0,L2-08,8,Ăn uống,22,chu_de,4,VI:ăn
+750,L2-0250,3695,743,鸡,jī,gia cầm / gà / (tiếng lóng) gái mại dâm,名,0,L2-08,8,Ăn uống,23,xac_dinh,100,FORCED
+775,L2-0275,4096,768,饺子,jiǎozi,bánh sủi cảo / bánh hấp,名,0,L2-08,8,Ăn uống,24,chu_de,24,"ZH:饺子, VI:sủi cảo"
+801,L2-0301,4427,794,酒,jiǔ,rượu (đặc biệt là rượu gạo) / đồ uống có cồn / rượu bia / thức uống có cồn,名,0,L2-08,8,Ăn uống,25,chu_de,8,"VI:uống, VI:gạo"
+819,L2-0319,4705,812,可能,kěnéng,có thể (xảy ra) / có khả năng / có xác suất / khả năng / xác suất / có lẽ / có thể,动、形、名,0,L2-08,8,Ăn uống,26,chu_de,4,VI:ăn
+822,L2-0322,4716,815,可以,kěyǐ,có thể / được / khả thi / có khả năng / không tệ / khá tốt,动,0,L2-08,8,Ăn uống,27,chu_de,4,VI:ăn
+829,L2-0329,4830,822,快餐,kuàicān,thức ăn nhanh / đồ ăn nhẹ / bữa ăn nhanh,名,0,L2-08,8,Ăn uống,28,chu_de,28,"ZH:快餐, VI:ăn, VI:thức ăn"
+833,L2-0333,4839,826,筷子,kuàizi,đũa,名,0,L2-08,8,Ăn uống,29,chu_de,24,"ZH:筷子, VI:đũa"
+876,L2-0376,5545,867,米,mǐ,gạo / mét (đơn vị đo),量,0,L2-08,8,Ăn uống,30,xac_dinh,100,FORCED
+877,L2-0377,5573,868,面1,miàn,"mặt / bên / bề mặt / khía cạnh / Lượng từ cho vật có bề mặt phẳng như trống, gương, cờ, v.v. / biến thể của 麵|面[mian4] / bột / mì / (thức ăn) mềm (không giòn) / (tiếng lóng) (người) kém cỏi / nhu nhược",名、量,0,L2-08,8,Ăn uống,31,chu_de,20,"ZH:面, VI:ăn, VI:thức ăn, VI:mì"
+878,L2-0378,5574,869,面2,miàn,"mặt / bên / bề mặt / khía cạnh / Lượng từ cho vật có bề mặt phẳng như trống, gương, cờ, v.v. / biến thể của 麵|面[mian4] / bột / mì / (thức ăn) mềm (không giòn) / (tiếng lóng) (người) kém cỏi / nhu nhược",名,0,L2-08,8,Ăn uống,32,chu_de,20,"ZH:面, VI:ăn, VI:thức ăn, VI:mì"
+879,L2-0379,5586,870,面前,miànqián,trước mặt / đối diện / (trong) sự hiện diện (của),名,0,L2-08,8,Ăn uống,33,chu_de,8,ZH:面
+887,L2-0387,5741,261,那,nà,đó; cái đó,连,1,L2-08,8,Ăn uống,34,chu_de,4,VI:cá
+898,L2-0398,5837,888,能够,nénggòu,có khả năng / có thể,动,0,L2-08,8,Ăn uống,35,chu_de,4,VI:ăn
+922,L2-0422,6157,912,瓶,píng,chai / bình / ấm / lượng từ cho rượu và chất lỏng / biến thể của 瓶[ping2],名、量,0,L2-08,8,Ăn uống,36,ra_soat_thu_cong,100,ra_soat_thu_cong
+923,L2-0423,6159,913,瓶子,píngzi,chai,名,0,L2-08,8,Ăn uống,37,ra_soat_thu_cong,100,ra_soat_thu_cong
+931,L2-0431,6266,921,气,qì,khí; không khí / mùi / thời tiết / làm tức giận; gây bực mình; tức giận / năng lượng sống; khí,动、名,0,L2-08,8,Ăn uống,38,chu_de,8,"VI:ăn, VI:mì"
+943,L2-0443,6524,933,请客,qǐngkè,mời tiệc / chiêu đãi khách / mời ăn tối,,0,L2-08,8,Ăn uống,39,ra_soat_thu_cong,100,ra_soat_thu_cong
+989,L2-0489,7260,979,食物,shíwù,thực phẩm,名,0,L2-08,8,Ăn uống,40,chu_de,24,"ZH:食物, VI:thực phẩm"
+1004,L2-0504,7576,994,顺利,shùnlì,một cách suôn sẻ; không gặp trở ngại,形,0,L2-08,8,Ăn uống,41,chu_de,4,VI:cá
+1025,L2-0525,7881,1015,提,tí,xách (thòng xuống từ tay) / nâng / đề xuất / nhắc đến / nêu lên (vấn đề) / nét bút hướng lên / nét nâng bút (trong hội họa) / gàu múc chất lỏng,动,0,L2-08,8,Ăn uống,42,chu_de,8,"VI:uống, VI:gà"
+1044,L2-0544,8037,1034,通过,tōngguò,đi qua; vượt qua / thông qua (một nghị quyết); thông qua (luật pháp) / vượt qua (một kỳ thi) / bằng cách; thông qua; qua,介、动,0,L2-08,8,Ăn uống,43,chu_de,4,VI:cá
+1062,L2-0562,8300,1052,晚餐,wǎncān,bữa tối / bữa ăn tối,名,0,L2-08,8,Ăn uống,44,chu_de,28,"ZH:晚餐, VI:ăn, VI:bữa tối"
+1064,L2-0564,8309,1054,碗,wǎn,biến thể của 碗[wan3] / bát / chén,名,0,L2-08,8,Ăn uống,45,chu_de,24,"ZH:碗, VI:bát"
+1073,L2-0573,8431,1063,味道,wèidào,hương vị; mùi vị / (nghĩa bóng) cảm giác (về...); cảm nhận (về...); nét (của...) / (nghĩa bóng) hứng thú; thú vị / (phương ngữ) mùi; mùi hương,名,0,L2-08,8,Ăn uống,46,chu_de,24,"ZH:味道, VI:hương vị"
+1079,L2-0579,8561,1069,午餐,wǔcān,bữa trưa / buổi ăn trưa,名,0,L2-08,8,Ăn uống,47,chu_de,28,"ZH:午餐, VI:ăn, VI:bữa trưa"
+1082,L2-0582,8597,1072,西餐,xīcān,Món ăn kiểu Tây,名,0,L2-08,8,Ăn uống,48,chu_de,28,"ZH:西餐, VI:ăn, VI:món ăn"
+1089,L2-0589,8672,390,下,xià,dưới; xuống,量,1,L2-08,8,Ăn uống,49,chu_de,4,VI:uống
+1189,L2-0689,9920,1177,鱼,yú,cá,名,0,L2-08,8,Ăn uống,50,xac_dinh,100,FORCED
+1204,L2-0704,10131,1192,咱们,zánmen,chúng ta hoặc chúng tôi (bao gồm cả người nói và người nghe) / (phương ngữ) tôi hoặc mình / (phương ngữ) (một cách thân mật hoặc dỗ dành) bạn / cũng đọc là [za2 men5],代,0,L2-08,8,Ăn uống,51,chu_de,8,"VI:mì, VI:cá"
+1205,L2-0705,10146,1193,脏,zāng,bẩn / thô tục / làm bẩn (cái gì),形,0,L2-08,8,Ăn uống,52,chu_de,4,VI:cá
+1206,L2-0706,10157,1194,早餐,zǎocān,bữa sáng,名,0,L2-08,8,Ăn uống,53,chu_de,24,"ZH:早餐, VI:bữa sáng"
+1218,L2-0718,10308,1205,照顾,zhàogù,chăm sóc / quan tâm / chú ý đến / trông nom,动,0,L2-08,8,Ăn uống,54,chu_de,4,VI:no
+1221,L2-0721,10335,1208,这么,zhème,nhiều như vậy / như thế này / bao nhiêu? / theo cách này / như thế,代,0,L2-08,8,Ăn uống,55,chu_de,4,VI:cá
+1223,L2-0723,10338,1210,这样,zhèyàng,loại này / như vậy / cách này / như thế,代,0,L2-08,8,Ăn uống,56,chu_de,4,VI:cá
+1234,L2-0734,10607,1221,中餐,zhōngcān,bữa trưa / món ăn Trung Quốc; đồ ăn Trung Quốc,名,0,L2-08,8,Ăn uống,57,chu_de,32,"ZH:中餐, VI:ăn, VI:món ăn, VI:bữa trưa"
+1251,L2-0751,10909,1238,自己,zìjǐ,bản thân / tự mình,代,0,L2-08,8,Ăn uống,58,chu_de,4,VI:mì
+1271,L2-0771,11087,1258,做法,zuòfǎ,cách xử lý / phương pháp làm / cách làm / công thức / thực hành,名,0,L2-08,8,Ăn uống,59,chu_de,4,VI:cá
+1272,L2-0772,11088,1259,做饭,zuòfàn,chuẩn bị bữa ăn / nấu ăn,,0,L2-08,8,Ăn uống,60,chu_de,12,"ZH:饭, VI:ăn"
+506,L2-0006,97,507,白色,báisè,màu trắng / nghĩa bóng: phản động / chống cộng sản,名,0,L2-09,9,Mua sắm,1,chu_de,12,"ZH:白, VI:màu trắng"
+520,L2-0020,347,521,笔,bǐ,"bút / bút chì / bút lông / viết hoặc sáng tác / nét chữ Hán / lượng từ cho khoản tiền, giao dịch",名、量,0,L2-09,9,Mua sắm,2,chu_de,4,VI:tiền
+560,L2-0060,880,561,超市,chāoshì,siêu thị (viết tắt của 超級市場|超级市场[chao1 ji2 shi4 chang3]),名,0,L2-09,9,Mua sắm,3,chu_de,24,"ZH:超市, VI:siêu thị"
+575,L2-0075,1167,576,出租,chūzū,cho thuê,动,0,L2-09,9,Mua sắm,4,ra_soat_thu_cong,100,ra_soat_thu_cong
+598,L2-0098,1513,599,大小,dàxiǎo,lớn và nhỏ / kích cỡ / người lớn và trẻ em / xem xét thứ bậc / dù sao đi nữa,名,0,L2-09,9,Mua sắm,5,chu_de,28,"ZH:大小, VI:rẻ, VI:kích cỡ"
+599,L2-0099,1521,600,大衣,dàyī,áo khoác dài / áo măng tô / áo choàng,名,0,L2-09,9,Mua sắm,6,chu_de,24,"ZH:大衣, VI:áo khoác"
+628,L2-0128,1839,628,店,diàn,quán trọ; khách sạn kiểu cũ ( / (hình thức kết hợp) cửa hàng; tiệm,名,0,L2-09,9,Mua sắm,7,ra_soat_thu_cong,100,ra_soat_thu_cong
+654,L2-0154,2123,652,发,fā,gửi đi / bộc lộ (cảm xúc của một người) / phát hành / phát triển / kiếm được nhiều tiền / lượng từ cho phát súng (phát),动,0,L2-09,9,Mua sắm,8,nghia_mua_sam,50,nghia_mua_sam
+657,L2-0157,2240,655,方便,fāngbiàn,tiện lợi; thích hợp / tạo điều kiện; làm cho dễ dàng / có tiền dư / (nói giảm) đi vệ sinh,形,0,L2-09,9,Mua sắm,9,nghia_mua_sam,50,nghia_mua_sam
+678,L2-0178,2592,675,感觉,gǎnjué,cảm giác; ấn tượng; cảm nhận / cảm thấy; nhận biết,动、名,0,L2-09,9,Mua sắm,10,chu_de,4,VI:giá
+700,L2-0200,2926,697,顾客,gùkè,khách hàng; thân chủ,名,0,L2-09,9,Mua sắm,11,ra_soat_thu_cong,100,ra_soat_thu_cong
+723,L2-0223,3314,719,黑,hēi,"đen / tối / tà ác / bí mật / mờ ám / phi pháp / cất giấu (thứ gì đó) / bôi nhọ / tin tặc (mượn từ, tin học)",形,0,L2-09,9,Mua sắm,12,chu_de,20,ZH:黑
+724,L2-0224,3317,720,黑板,hēibǎn,bảng đen,名,0,L2-09,9,Mua sắm,13,chu_de,8,ZH:黑
+725,L2-0225,3320,721,黑色,hēisè,màu đen,名,0,L2-09,9,Mua sắm,14,chu_de,12,"ZH:黑, VI:màu đen"
+726,L2-0226,3345,722,红,hóng,đỏ / phổ biến / cách mạng / thưởng,形,0,L2-09,9,Mua sắm,15,chu_de,20,ZH:红
+727,L2-0227,3353,723,红色,hóngsè,màu đỏ (màu sắc) / cách mạng,名,0,L2-09,9,Mua sắm,16,chu_de,16,"ZH:红, VI:màu sắc, VI:màu đỏ"
+740,L2-0240,3516,735,换,huàn,"trao đổi / thay đổi (quần áo, v.v.) / thay thế / chuyển đổi / đổi (tiền tệ)",动,0,L2-09,9,Mua sắm,17,chu_de,8,"VI:tiền, VI:quần áo"
+741,L2-0241,3540,736,黄,huáng,màu vàng / khiêu dâm / thất bại,形,0,L2-09,9,Mua sắm,18,chu_de,20,ZH:黄
+742,L2-0242,3544,737,黄色,huángsè,màu vàng / thô tục; khiêu dâm,名,0,L2-09,9,Mua sắm,19,chu_de,8,ZH:黄
+759,L2-0259,3867,752,家长,jiāzhǎng,chủ hộ / người đứng đầu gia đình / gia trưởng / phụ huynh hoặc người giám hộ của một đứa trẻ,名,0,L2-09,9,Mua sắm,20,chu_de,8,"VI:giá, VI:rẻ"
+765,L2-0265,3980,758,件,jiàn,"món / thành phần / lượng từ cho sự kiện, đồ vật, quần áo, v.v.",量,0,L2-09,9,Mua sắm,21,chu_de,4,VI:quần áo
+769,L2-0269,4047,762,交,jiāo,giao nộp; giao; trả (tiền); bàn giao / kết bạn / (đường) giao nhau / biến thể của 跤[jiao1],动,0,L2-09,9,Mua sắm,22,nghia_mua_sam,50,nghia_mua_sam
+773,L2-0273,4092,766,角,jiǎo,"góc / góc cạnh / sừng / hình dạng sừng / đơn vị tiền bằng 0,1 nhân dân tệ, hoặc 10 xu (một hào)",量、名,0,L2-09,9,Mua sắm,23,chu_de,4,VI:tiền
+793,L2-0293,4245,786,斤,jīn,"cân / (Trung Quốc) đơn vị đo lường bằng 500 g / (Đài Loan) đơn vị đo lường bằng 600 g / (HK, Malaysia, Singapore) hơi hơn 604 g",量,0,L2-09,9,Mua sắm,24,ra_soat_thu_cong,100,ra_soat_thu_cong
+809,L2-0309,4571,802,卡,kǎ,"dừng / chặn / (tin học) (khẩu ngữ) chậm / (từ mượn) thẻ / xe tải (từ ""car"") / calo (viết tắt của 卡路里[ka3 lu4 li3]) / băng cassette",名,0,L2-09,9,Mua sắm,25,ra_soat_thu_cong,100,ra_soat_thu_cong
+823,L2-0323,4719,816,克,kè,"có thể / chế ngự / kiềm chế / vượt qua / gram / đơn vị diện tích đất của Tây Tạng, khoảng 6 are / biến thể của 克[ke4] / lật đổ / biến thể của 剋|克[ke4]",量,0,L2-09,9,Mua sắm,26,ra_soat_bai23,100,ra_soat_bai23
+825,L2-0325,4735,818,客人,kèrén,khách thăm / khách hàng / khách,名,0,L2-09,9,Mua sắm,27,nghia_mua_sam,50,nghia_mua_sam
+836,L2-0336,4921,829,蓝,lán,màu xanh / dị thảo chàm,形,0,L2-09,9,Mua sắm,28,chu_de,24,"ZH:蓝, VI:màu xanh"
+837,L2-0337,4923,830,蓝色,lánsè,màu xanh lam,名,0,L2-09,9,Mua sắm,29,chu_de,12,"ZH:蓝, VI:màu xanh"
+870,L2-0370,5336,861,绿,lǜ,"màu xanh lá / (tiếng lóng) (xuất phát từ 綠帽子|绿帽子[lu:4 mao4 zi5]) cắm sừng (vợ, chồng, bạn trai hoặc bạn gái)",形,0,L2-09,9,Mua sắm,30,chu_de,24,"ZH:绿, VI:màu xanh"
+871,L2-0371,5341,862,绿色,lǜsè,màu xanh lá,名,0,L2-09,9,Mua sắm,31,chu_de,12,"ZH:绿, VI:màu xanh"
+872,L2-0372,5410,863,卖,mài,bán / phản bội / không tiếc công sức / phô trương hoặc khoe khoang,动,0,L2-09,9,Mua sắm,32,chu_de,24,"ZH:卖, VI:bán"
+914,L2-0414,6080,904,便宜,piányi,rẻ; không đắt / lợi ích nhỏ / cho qua một cách nhẹ nhàng,形、名,0,L2-09,9,Mua sắm,33,chu_de,28,"ZH:便宜, VI:đắt, VI:rẻ"
+934,L2-0434,6310,924,千克,qiānkè,kilogram,量,0,L2-09,9,Mua sắm,34,ra_soat_thu_cong,100,ra_soat_thu_cong
+950,L2-0450,6568,940,取,qǔ,lấy / nhận / chọn / mang về,动,0,L2-09,9,Mua sắm,35,ra_soat_bai23,100,ra_soat_bai23
+981,L2-0481,7148,971,省,shěng,tiết kiệm; kinh tế; tằn tiện / lược bỏ; xoá; bỏ ra / tỉnh / tỉnh lỵ / một bộ (của chính phủ Nhật Bản),名,0,L2-09,9,Mua sắm,36,ra_soat_thu_cong,100,ra_soat_thu_cong
+982,L2-0482,7149,972,省,shěng,tiết kiệm; kinh tế; tằn tiện / lược bỏ; xoá; bỏ ra / tỉnh / tỉnh lỵ / một bộ (của chính phủ Nhật Bản),动,0,L2-09,9,Mua sắm,37,ra_soat_thu_cong,100,ra_soat_thu_cong
+997,L2-0497,7374,987,手表,shǒubiǎo,đồng hồ đeo tay,名,0,L2-09,9,Mua sắm,38,ra_soat_thu_cong,100,ra_soat_thu_cong
+1021,L2-0521,7851,1011,套,tào,"che đậy / bọc / vỏ / bao / trùng lặp / đan xen / mô phỏng / theo mẫu / công thức / bộ dây cương / vòng dây / thao tác khéo léo / đạt được một cách lươn lẹo / lượng từ cho bộ, tập hợp / khúc quanh (của sông hoặc dãy núi, trong địa danh) / tau (chữ cái Hy Lạp Ττ)",量,0,L2-09,9,Mua sắm,39,ra_soat_bai23,100,ra_soat_bai23
+1034,L2-0534,7969,1024,条,tiáo,"dải / mục / điều / khoản (của luật hoặc hiệp ước) / lượng từ cho những vật dài mỏng (ruy băng, sông, đường, quần dài, v.v.)",量,0,L2-09,9,Mua sắm,40,ra_soat_bai23,100,ra_soat_bai23
+1056,L2-0556,8258,1046,外卖,wàimài,(của nhà hàng) cung cấp bữa ăn mang về hoặc giao hàng tận nhà / kinh doanh đồ ăn mang về / bữa ăn mang về,名、动,0,L2-09,9,Mua sắm,41,chu_de,8,ZH:卖
+1065,L2-0565,8310,1055,万,wàn,mười nghìn / một số lượng lớn,数,0,L2-09,9,Mua sắm,42,ra_soat_bai23,100,ra_soat_bai23
+1121,L2-0621,9043,1110,信用卡,xìnyòngkǎ,thẻ tín dụng,名,0,L2-09,9,Mua sắm,43,ra_soat_thu_cong,100,ra_soat_thu_cong
+1130,L2-0630,9190,1119,选,xuǎn,chọn / lựa / chọn lựa / bầu,动,0,L2-09,9,Mua sắm,44,ra_soat_thu_cong,100,ra_soat_thu_cong
+1133,L2-0633,9317,1122,颜色,yánsè,màu sắc / diện mạo / bề ngoài / vẻ mặt / sắc tố / chất nhuộm,名,0,L2-09,9,Mua sắm,45,chu_de,24,"ZH:颜色, VI:màu sắc"
+1164,L2-0664,9632,1152,亿,yì,100 triệu,数,0,L2-09,9,Mua sắm,46,ra_soat_bai23,100,ra_soat_bai23
+1173,L2-0673,9694,1161,银行,yínháng,ngân hàng,名,0,L2-09,9,Mua sắm,47,ra_soat_thu_cong,100,ra_soat_thu_cong
+1174,L2-0674,9695,1162,银行卡,yínhángkǎ,thẻ ngân hàng / thẻ ATM,名,0,L2-09,9,Mua sắm,48,ra_soat_thu_cong,100,ra_soat_thu_cong
+1249,L2-0749,10826,1236,装,zhuāng,trang sức / trang trí / mặc / quần áo / trang phục (của diễn viên trong vở kịch) / đóng vai / giả vờ / lắp đặt / sửa chữa / gói (thứ gì vào túi) / tải / đóng gói,动,0,L2-09,9,Mua sắm,49,chu_de,4,VI:quần áo
+1258,L2-0758,10997,1245,租,zū,thuê / mướn / thuê bao / cho thuê / cho mướn / tiền thuê / thuế đất,动,0,L2-09,9,Mua sắm,50,chu_de,4,VI:tiền
+516,L2-0016,271,517,北方,běifāng,phía bắc / phần phía bắc của một quốc gia / Trung Quốc ở phía bắc sông Hoàng Hà,名,0,L2-10,10,Vị trí và khoảng cách,1,chu_de,12,"ZH:北, VI:phía bắc"
+552,L2-0052,759,553,层,céng,chồng lên nhau / tầng; lớp / tầng (của tòa nhà); tầng / (toán) bó / số đếm cho các lớp,量,0,L2-10,10,Vị trí và khoảng cách,2,ra_soat_thu_cong,100,ra_soat_thu_cong
+554,L2-0054,792,555,差不多,chàbuduō,gần / suýt nữa / xấp xỉ / khoảng như nhau / đủ tốt / không tệ,形、副,0,L2-10,10,Vị trí và khoảng cách,3,chu_de,4,VI:gần
+595,L2-0095,1487,596,大门,dàmén,lối vào / cửa / cổng / gia đình lớn và có ảnh hưởng,名,0,L2-10,10,Vị trí và khoảng cách,4,ra_soat_thu_cong,100,ra_soat_thu_cong
+610,L2-0110,1655,611,到处,dàochù,khắp nơi,副,0,L2-10,10,Vị trí và khoảng cách,5,ra_soat_bai23,100,ra_soat_bai23
+619,L2-0119,1703,620,灯,dēng,đèn / ánh sáng / đèn lồng,名,0,L2-10,10,Vị trí và khoảng cách,6,ra_soat_bai23,100,ra_soat_bai23
+630,L2-0130,1901,630,东北,dōngběi,đông bắc,名,0,L2-10,10,Vị trí và khoảng cách,7,chu_de,16,"ZH:东, ZH:北"
+631,L2-0131,1906,631,东方,dōngfāng,đông,名,0,L2-10,10,Vị trí và khoảng cách,8,chu_de,8,ZH:东
+632,L2-0132,1907,632,东南,dōngnán,đông nam,名,0,L2-10,10,Vị trí và khoảng cách,9,chu_de,16,"ZH:东, ZH:南"
+795,L2-0295,4300,788,进入,jìnrù,đi vào / gia nhập / đi vào trong,动,0,L2-10,10,Vị trí và khoảng cách,10,ra_soat_bai23,100,ra_soat_bai23
+797,L2-0297,4305,790,近,jìn,gần / sát / khoảng chừng,形,0,L2-10,10,Vị trí và khoảng cách,11,chu_de,24,"ZH:近, VI:gần"
+815,L2-0315,4674,808,靠,kào,dựa vào / đứng cạnh / đến gần / phụ thuộc vào / tin tưởng / chịch (thô tục) / loại kịch mặc trang phục giáp truyền thống (xưa),动,0,L2-10,10,Vị trí và khoảng cách,12,ra_soat_bai23,100,ra_soat_bai23
+832,L2-0332,4838,825,快要,kuàiyào,gần như sắp (làm gì đó); sắp (làm gì đó),副,0,L2-10,10,Vị trí và khoảng cách,13,chu_de,4,VI:gần
+844,L2-0344,5012,836,离,lí,"rời khỏi / tách khỏi / cách / (khi nói về khoảng cách) từ / không có (gì) / độc lập với / một trong Bát Quái 八卦[ba1 gua4], tượng trưng cho lửa / ☲",动、介,0,L2-10,10,Vị trí và khoảng cách,14,chu_de,24,"ZH:离, VI:khoảng cách"
+845,L2-0345,5015,837,离开,líkāi,rời khỏi; rời đi,,0,L2-10,10,Vị trí và khoảng cách,15,chu_de,8,ZH:离
+847,L2-0347,5033,839,里头,lǐtou,bên trong / nội bộ,名,0,L2-10,10,Vị trí và khoảng cách,16,chu_de,24,"ZH:里头, VI:bên trong"
+880,L2-0380,5620,871,名,míng,tên / danh từ (loại từ) / vị trí (vd: trong danh sách trúng giải) / nổi tiếng / lượng từ cho người,名、量,0,L2-10,10,Vị trí và khoảng cách,17,chu_de,4,VI:vị trí
+892,L2-0392,5780,882,南方,nánfāng,phía nam / miền nam Trung Quốc (khu vực phía nam sông Dương Tử),名,0,L2-10,10,Vị trí và khoảng cách,18,chu_de,12,"ZH:南, VI:phía nam"
+936,L2-0436,6397,926,墙,qiáng,"biến thể của 牆|墙[qiang2], tường / tường ( / (tiếng lóng) chặn (trang web) (thường ở dạng bị động: 被牆|被墙[bei4 qiang2])",名,0,L2-10,10,Vị trí và khoảng cách,19,ra_soat_thu_cong,100,ra_soat_thu_cong
+969,L2-0469,6816,959,入口,rùkǒu,lối vào / nhập khẩu,名,0,L2-10,10,Vị trí và khoảng cách,20,chu_de,24,"ZH:入口, VI:lối vào"
+975,L2-0475,7049,965,身边,shēnbiān,bên cạnh / có sẵn,名,0,L2-10,10,Vị trí và khoảng cách,21,chu_de,4,VI:bên cạnh
+1050,L2-0550,8109,1041,头（里头）,tou (lǐtou),hậu tố cho danh từ,后缀,0,L2-10,10,Vị trí và khoảng cách,22,chu_de,8,ZH:里头
+1072,L2-0572,8427,1062,位,wèi,vị trí / địa điểm / chỗ / ngồi / lượng từ cho người (kính trọng) / lượng từ cho bit nhị phân (ví dụ: 十六位 16-bit hoặc 2 byte) / (vật lý) thế năng,量,0,L2-10,10,Vị trí và khoảng cách,23,chu_de,8,"VI:vị trí, VI:địa điểm"
+1081,L2-0581,8594,1071,西北,xīběi,tây bắc,名,0,L2-10,10,Vị trí và khoảng cách,24,chu_de,16,"ZH:西, ZH:北"
+1083,L2-0583,8598,1073,西方,xīfāng,phương Tây / các nước phương Tây,名,0,L2-10,10,Vị trí và khoảng cách,25,chu_de,8,ZH:西
+1084,L2-0584,8601,1074,西南,xīnán,tây nam,名,0,L2-10,10,Vị trí và khoảng cách,26,chu_de,16,"ZH:西, ZH:南"
+1085,L2-0585,8602,1075,西医,xīyī,y học phương Tây / bác sĩ được đào tạo theo y học phương Tây,名,0,L2-10,10,Vị trí và khoảng cách,27,chu_de,8,ZH:西
+1087,L2-0587,8636,1077,洗衣机,xǐyījī,máy giặt,名,0,L2-10,10,Vị trí và khoảng cách,28,ra_soat_bai23,100,ra_soat_bai23
+1156,L2-0656,9570,1144,以外,yǐwài,ngoài ra / khác ngoài / trừ / phía ngoài / bên ngoài / ở phía bên kia / vượt ra ngoài,名,0,L2-10,10,Vị trí và khoảng cách,29,chu_de,4,VI:bên ngoài
+1159,L2-0659,9578,1147,椅子,yǐzi,ghế,名,0,L2-10,10,Vị trí và khoảng cách,30,ra_soat_thu_cong,100,ra_soat_thu_cong
+1180,L2-0680,9786,1168,永远,yǒngyuǎn,mãi mãi / vĩnh cửu,副,0,L2-10,10,Vị trí và khoảng cách,31,chu_de,8,ZH:远
+1195,L2-0695,10042,1183,院子,yuànzi,sân / vườn / sân trong / sân nhà / Lượng từ: 個|个[ge4] / (cũ) đầy tớ,名,0,L2-10,10,Vị trí và khoảng cách,32,ra_soat_thu_cong,100,ra_soat_thu_cong
+1212,L2-0712,10233,1200,占,zhàn,biến thể của 占[zhan4] / chiếm giữ / chiếm đóng / chiếm,动,0,L2-10,10,Vị trí và khoảng cách,33,ra_soat_bai23,100,ra_soat_bai23
+1238,L2-0738,10626,1225,中心,zhōngxīn,trung tâm; trái tim; cốt lõi,名,0,L2-10,10,Vị trí và khoảng cách,34,chu_de,20,ZH:中心
+1247,L2-0747,10744,1234,住房,zhùfáng,nhà ở,名,0,L2-10,10,Vị trí và khoảng cách,35,ra_soat_thu_cong,100,ra_soat_thu_cong
+1263,L2-0763,11040,1250,最近,zuìjìn,gần đây / sắp / tới nhất,名,0,L2-10,10,Vị trí và khoảng cách,36,chu_de,16,"ZH:近, VI:gần đây, VI:gần"
+1268,L2-0768,11080,1255,座,zuò,"chỗ ngồi / cơ sở / đế / (cổ) hậu tố dùng trong cách xưng hô tôn kính, ví dụ: 师座|师座[shi1 zuo4] / lượng từ cho tòa nhà, núi và các vật thể cố định tương tự",量,0,L2-10,10,Vị trí và khoảng cách,37,ra_soat_thu_cong,100,ra_soat_thu_cong
+1269,L2-0769,11083,1256,座位,zuòwèi,chỗ ngồi,名,0,L2-10,10,Vị trí và khoảng cách,38,ra_soat_thu_cong,100,ra_soat_thu_cong
+561,L2-0061,902,562,车辆,chēliàng,phương tiện giao thông,名,0,L2-11,11,Hỏi đường và giao thông,1,chu_de,4,VI:giao thông
+576,L2-0076,1168,577,出租车,chūzūchē,taxi / xe thuê (Đài Loan),名,0,L2-11,11,Hỏi đường và giao thông,2,chu_de,4,VI:xe
+609,L2-0109,1647,610,倒,dǎo,ngã; sụp đổ; nằm ngang / thất bại; phá sản / lật đổ / đổi (tàu hoặc xe buýt) / di chuyển xung quanh / buôn bán kiếm lời,动,0,L2-11,11,Hỏi đường và giao thông,3,chu_de,12,"VI:xe, VI:xe buýt, VI:ga"
+614,L2-0114,1676,615,道路,dàolù,đường / lối / cách,名,0,L2-11,11,Hỏi đường và giao thông,4,chu_de,12,"ZH:路, VI:đường"
+625,L2-0125,1772,625,地铁,dìtiě,đường sắt ngầm; tàu điện ngầm / tàu điện ngầm,名,0,L2-11,11,Hỏi đường và giao thông,5,chu_de,28,"ZH:地铁, VI:đường, VI:tàu điện ngầm"
+626,L2-0126,1773,626,地铁站,dìtiězhàn,ga tàu điện ngầm,名,0,L2-11,11,Hỏi đường và giao thông,6,chu_de,36,"ZH:地铁, ZH:地铁站, VI:tàu điện ngầm, VI:ga"
+661,L2-0161,2246,659,方向,fāngxiàng,hướng; phương hướng,名,0,L2-11,11,Hỏi đường và giao thông,7,chu_de,24,"ZH:方向, VI:phương hướng"
+680,L2-0180,2607,677,干活儿,gànhuór,biến thể er hoá của 幹活|干活[gan4 huo2],,0,L2-11,11,Hỏi đường và giao thông,8,chu_de,4,VI:ga
+688,L2-0188,2783,685,公共汽车,gōnggòng qìchē,xe buýt,,0,L2-11,11,Hỏi đường và giao thông,9,chu_de,36,"ZH:汽车, ZH:公共汽车, VI:xe, VI:xe buýt"
+689,L2-0189,2788,686,公交车,gōngjiāochē,phương tiện giao thông công cộng / xe buýt thành phố / Lượng từ: 輛|辆[liang4],名,0,L2-11,11,Hỏi đường và giao thông,10,chu_de,32,"ZH:公交车, VI:giao thông, VI:xe, VI:xe buýt"
+690,L2-0190,2789,687,公斤,gōngjīn,kilôgam (kg),量,0,L2-11,11,Hỏi đường và giao thông,11,chu_de,4,VI:ga
+691,L2-0191,2793,688,公里,gōnglǐ,kilômét,量,0,L2-11,11,Hỏi đường và giao thông,12,chu_de,24,"ZH:公里, VI:kilômét"
+692,L2-0192,2795,689,公路,gōnglù,đường cao tốc / đường bộ,名,0,L2-11,11,Hỏi đường và giao thông,13,chu_de,32,"ZH:路, ZH:公路, VI:đường"
+734,L2-0234,3467,729,画,huà,vẽ; tô tranh / bức tranh; hội họa ( / vẽ (một đường) (biến thể của 劃|划[hua4]) / nét chữ Hán (biến thể của 劃|划[hua4]) / (thư pháp) nét ngang (biến thể của 劃|划[hua4]),动,0,L2-11,11,Hỏi đường và giao thông,14,chu_de,8,"VI:đường, VI:ga"
+772,L2-0272,4067,765,交通,jiāotōng,kết nối / giao thông / vận tải / truyền thông / liên lạc,名,0,L2-11,11,Hỏi đường và giao thông,15,chu_de,24,"ZH:交通, VI:giao thông"
+787,L2-0287,4167,780,街,jiē,đường phố,名,0,L2-11,11,Hỏi đường và giao thông,16,chu_de,4,VI:đường
+858,L2-0358,5152,849,辆,liàng,lượng từ cho xe cộ,量,0,L2-11,11,Hỏi đường và giao thông,17,chu_de,4,VI:xe
+866,L2-0366,5306,857,路边,lù biān,lề đường; ven đường; vệ đường,,0,L2-11,11,Hỏi đường và giao thông,18,chu_de,12,"ZH:路, VI:đường"
+928,L2-0428,6232,918,骑,qí,"ngồi cưỡi / cưỡi (ngựa, xe đạp, v.v.) / lượng từ cho ngựa cưỡi",动,0,L2-11,11,Hỏi đường và giao thông,19,chu_de,28,"ZH:骑, VI:xe, VI:xe đạp"
+929,L2-0429,6233,919,骑车,qí chē,lái xe đạp hoặc xe máy,,0,L2-11,11,Hỏi đường và giao thông,20,chu_de,16,"ZH:骑, VI:xe, VI:xe đạp"
+933,L2-0433,6304,923,千,qiān,một nghìn / xem 鞦韆|秋千[qiu1 qian1],数,0,L2-11,11,Hỏi đường và giao thông,21,chu_de,4,VI:xe
+1001,L2-0501,7481,991,数,shǔ,đếm / coi như; xem như / liệt kê; liệt kê danh sách,动,0,L2-11,11,Hỏi đường và giao thông,22,chu_de,4,VI:xe
+1003,L2-0503,7554,993,水平,shuǐpíng,"mức độ (thành tựu, v.v.) / tiêu chuẩn / ngang",名,0,L2-11,11,Hỏi đường và giao thông,23,chu_de,4,VI:ga
+1038,L2-0538,8014,1028,停,tíng,dừng / ngừng / đỗ (xe),动,0,L2-11,11,Hỏi đường và giao thông,24,chu_de,4,VI:xe
+1039,L2-0539,8016,1029,停车,tíngchē,dừng xe (dừng phương tiện) / đỗ xe / (máy móc) ngừng hoạt động / chết máy,,0,L2-11,11,Hỏi đường và giao thông,25,chu_de,28,"ZH:停车, VI:xe, VI:đỗ xe"
+1040,L2-0540,8017,1030,停车场,tíngchēchǎng,bãi đỗ xe / bãi gửi xe,名,0,L2-11,11,Hỏi đường và giao thông,26,chu_de,36,"ZH:停车, ZH:停车场, VI:xe, VI:đỗ xe"
+1055,L2-0555,8245,1045,外地,wàidì,các khu vực trong nước khác với nơi một người đang ở,名,0,L2-11,11,Hỏi đường và giao thông,27,ra_soat_thu_cong,100,ra_soat_thu_cong
+1069,L2-0569,8335,1059,往,wǎng,đi (một hướng) / đến / hướng tới / (tàu) đi về / quá khứ / trước đây / biến thể cũ của 往[wang3],动、介,0,L2-11,11,Hỏi đường và giao thông,28,chu_de,20,ZH:往
+1077,L2-0577,8486,1067,问路,wènlù,hỏi đường / hỏi đường đến đâu đó,动,0,L2-11,11,Hỏi đường và giao thông,29,xac_dinh,100,FORCED
+1099,L2-0599,8848,1088,向,xiàng,hướng / về phía / quay về / phương hướng / hỗ trợ / đứng về phía / ngay trước đây / trước đây / luôn luôn / suốt / dùng làm hậu tố cho... / hướng đến... / có xu hướng / hướng dẫn / biến thể của 向[xiang4] / hướng đi / đối mặt / đến / về / ngay trước,介、动,0,L2-11,11,Hỏi đường và giao thông,30,chu_de,8,"VI:ga, VI:phương hướng"
+1124,L2-0624,9062,1113,行人,xíngrén,người đi bộ / khách bộ hành / người qua đường / quan chức phụ trách sắp xếp yết kiến hoàng đế,名,0,L2-11,11,Hỏi đường và giao thông,31,chu_de,4,VI:đường
+1150,L2-0650,9513,1138,一路平安,yīlù-píng'ān,có chuyến đi vui vẻ / Thượng lộ bình an!,,0,L2-11,11,Hỏi đường và giao thông,32,chu_de,8,ZH:路
+1151,L2-0651,9515,1139,一路顺风,yīlù-shùnfēng,chúc lên đường bình an (thành ngữ),,0,L2-11,11,Hỏi đường và giao thông,33,chu_de,12,"ZH:路, VI:đường"
+1163,L2-0663,9631,1151,一直,yīzhí,thẳng (theo đường thẳng) / liên tục; luôn luôn; suốt,副,0,L2-11,11,Hỏi đường và giao thông,34,chu_de,4,VI:đường
+1213,L2-0713,10247,461,站,zhàn,trạm; ga; đứng,动,1,L2-11,11,Hỏi đường và giao thông,35,chu_de,8,"VI:ga, VI:trạm"
+1214,L2-0714,10250,1201,站住,zhànzhù,đứng lại,,0,L2-11,11,Hỏi đường và giao thông,36,ra_soat_thu_cong,100,ra_soat_thu_cong
+1252,L2-0752,10931,1239,自行车,zìxíngchē,xe đạp,名,0,L2-11,11,Hỏi đường và giao thông,37,chu_de,28,"ZH:自行车, VI:xe, VI:xe đạp"
+1255,L2-0755,10983,1242,走过,zǒuguò,đi qua / đi ngang qua,,0,L2-11,11,Hỏi đường và giao thông,38,chu_de,12,"ZH:走, VI:ga"
+1256,L2-0756,10986,1243,走进,zǒujìn,đi vào,,0,L2-11,11,Hỏi đường và giao thông,39,chu_de,8,ZH:走
+1257,L2-0757,10988,1244,走开,zǒukāi,rời đi; bỏ đi; cút đi / di chuyển sang bên,,0,L2-11,11,Hỏi đường và giao thông,40,chu_de,8,ZH:走
+505,L2-0005,38,506,安全,ānquán,an toàn / bảo mật; an ninh,形、名,0,L2-12,12,Du lịch,1,ra_soat_bai23,100,ra_soat_bai23
+548,L2-0048,698,549,参观,cānguān,tham quan / đi dạo quanh / thăm,动,0,L2-12,12,Du lịch,2,ra_soat_thu_cong,100,ra_soat_thu_cong
+568,L2-0068,1117,569,出发,chūfā,khởi hành / bắt đầu (một hành trình),动,0,L2-12,12,Du lịch,3,chu_de,24,"ZH:出发, VI:khởi hành"
+571,L2-0071,1133,572,出门,chūmén,ra ngoài / rời nhà / đi du lịch / xa nhà / (phụ nữ) đi lấy chồng,,0,L2-12,12,Du lịch,4,ra_soat_thu_cong,100,ra_soat_thu_cong
+577,L2-0077,1236,578,船,chuán,biến thể của 船[chuan2] / thuyền / tàu / tàu thủy,名,0,L2-12,12,Du lịch,5,ra_soat_thu_cong,100,ra_soat_thu_cong
+706,L2-0206,3083,703,国际,guójì,quốc tế,名,0,L2-12,12,Du lịch,6,ra_soat_thu_cong,100,ra_soat_thu_cong
+731,L2-0231,3428,727,护照,hùzhào,hộ chiếu,名,0,L2-12,12,Du lịch,7,chu_de,24,"ZH:护照, VI:hộ chiếu"
+743,L2-0243,3559,164,回,huí,về; trở về; quay lại,量,1,L2-12,12,Du lịch,8,ra_soat_bai23,100,ra_soat_bai23
+744,L2-0244,3567,738,回国,huí guó,trở về nước,,0,L2-12,12,Du lịch,9,xac_dinh,100,FORCED
+761,L2-0261,3894,754,假期,jiàqī,kỳ nghỉ,名,0,L2-12,12,Du lịch,10,ra_soat_thu_cong,100,ra_soat_thu_cong
+802,L2-0302,4429,795,酒店,jiǔdiàn,quán rượu / quán bar / khách sạn / nhà hàng / (Đài Loan) hostess club,名,0,L2-12,12,Du lịch,11,chu_de,24,"ZH:酒店, VI:khách sạn"
+824,L2-0324,4723,817,刻,kè,một phần tư (giờ) / khoảnh khắc / khắc / chạm khắc / cắt / áp bức / lượng từ cho khoảng thời gian ngắn,量,0,L2-12,12,Du lịch,12,chu_de,4,VI:ảnh
+867,L2-0367,5324,858,旅客,lǚkè,du khách; khách du lịch,名,0,L2-12,12,Du lịch,13,chu_de,32,"ZH:旅客, VI:du lịch, VI:du khách, VI:khách du lịch"
+868,L2-0368,5326,859,旅行,lǚxíng,du lịch / hành trình; chuyến đi,动,0,L2-12,12,Du lịch,14,chu_de,24,"ZH:旅行, VI:du lịch"
+869,L2-0369,5328,860,旅游,lǚyóu,chuyến đi / hành trình / du lịch / du hành / tour / đi du lịch,动,0,L2-12,12,Du lịch,15,chu_de,24,"ZH:旅游, VI:du lịch"
+884,L2-0384,5712,875,目的,mùdì,mục đích; đích; mục tiêu; đối tượng,名,0,L2-12,12,Du lịch,16,ra_soat_bai23,100,ra_soat_bai23
+913,L2-0413,6078,903,篇,piān,"tờ / mảnh viết / tập thẻ tre dùng để ghi chép (xưa) / lượng từ cho tác phẩm viết: chương, bài viết",量,0,L2-12,12,Du lịch,17,chu_de,4,VI:ảnh
+930,L2-0430,6258,920,起飞,qǐfēi,(của máy bay) cất cánh,动,0,L2-12,12,Du lịch,18,xac_dinh,100,FORCED
+1052,L2-0552,8142,1042,图片,túpiàn,bức tranh; bức ảnh,名,0,L2-12,12,Du lịch,19,chu_de,4,VI:ảnh
+1100,L2-0600,8858,1089,相机,xiàngjī,máy ảnh (viết tắt của 照相機|照相机[zhao4 xiang4 ji1]) / vào thời điểm thích hợp / tùy cơ ứng biến,名,0,L2-12,12,Du lịch,20,xac_dinh,100,FORCED
+1179,L2-0679,9760,1167,影响,yǐngxiǎng,ảnh hưởng / tác động / ảnh hưởng đến / tác động đến (thường là tiêu cực) / làm phiền,动、名,0,L2-12,12,Du lịch,21,chu_de,4,VI:ảnh
+1182,L2-0682,9852,1170,游客,yóukè,khách du lịch; du khách / (trò chơi trực tuyến) người chơi khách,名,0,L2-12,12,Du lịch,22,chu_de,32,"ZH:游客, VI:du lịch, VI:du khách, VI:khách du lịch"
+1219,L2-0719,10312,1206,照片,zhàopiàn,bức ảnh / hình ảnh,名,0,L2-12,12,Du lịch,23,xac_dinh,100,FORCED
+1220,L2-0720,10313,1207,照相,zhàoxiàng,chụp ảnh,,0,L2-12,12,Du lịch,24,xac_dinh,100,FORCED
+507,L2-0007,121,508,班长,bānzhǎng,lớp trưởng / đội trưởng / nhóm trưởng,名,0,L2-13,13,Thể thao,1,chu_de,8,"VI:đội, VI:đội trưởng"
+643,L2-0143,2013,643,队,duì,phi đội / đội / nhóm,名,0,L2-13,13,Thể thao,2,xac_dinh,100,FORCED
+644,L2-0144,2017,644,队长,duìzhǎng,đội trưởng / nhóm trưởng,名,0,L2-13,13,Thể thao,3,xac_dinh,100,FORCED
+756,L2-0256,3844,749,加油,jiāyóu,thêm dầu; đổ xăng; tiếp nhiên liệu / tăng tốc; đạp ga / (nghĩa bóng) nỗ lực thêm; cổ vũ ai đó,,0,L2-13,13,Thể thao,4,ra_soat_thu_cong,100,ra_soat_thu_cong
+838,L2-0338,4926,831,篮球,lánqiú,bóng rổ,名,0,L2-13,13,Thể thao,5,chu_de,24,"ZH:篮球, VI:bóng rổ"
+904,L2-0404,5940,894,爬,pá,bò / leo / ngồi dậy hoặc đứng dậy,动,0,L2-13,13,Thể thao,6,ra_soat_thu_cong,100,ra_soat_thu_cong
+905,L2-0405,5941,895,爬山,pá shān,leo núi / đi bộ đường dài / môn leo núi,,0,L2-13,13,Thể thao,7,xac_dinh,100,FORCED
+907,L2-0407,5950,897,排,pái,"một hàng / một dòng / sắp xếp / theo thứ tự / xếp hàng / loại bỏ / thoát nước / đẩy ra / tiểu đội / bè / lượng từ cho hàng, dòng, v.v.",名、量,0,L2-13,13,Thể thao,8,chu_de,4,VI:đội
+908,L2-0408,5954,898,排队,páiduì,xếp hàng,,0,L2-13,13,Thể thao,9,chu_de,8,ZH:队
+909,L2-0409,5960,899,排球,páiqiú,bóng chuyền,名,0,L2-13,13,Thể thao,10,ra_soat_thu_cong,100,ra_soat_thu_cong
+947,L2-0447,6548,937,球场,qiúchǎng,sân vận động / sân thể thao / sân bóng / sân cỏ / sân / chỗ chơi golf,名,0,L2-13,13,Thể thao,11,chu_de,8,"VI:thể thao, VI:vận động"
+948,L2-0448,6549,938,球队,qiúduì,"đội thể thao (bóng rổ, bóng đá, bóng bầu dục, v.v.)",名,0,L2-13,13,Thể thao,12,chu_de,24,"ZH:队, VI:thể thao, VI:bóng rổ, VI:bóng đá, VI:đội"
+949,L2-0449,6552,939,球鞋,qiúxié,giày thể thao,名,0,L2-13,13,Thể thao,13,ra_soat_thu_cong,100,ra_soat_thu_cong
+1030,L2-0530,7917,1020,体育,tǐyù,thể thao / giáo dục thể chất,名,0,L2-13,13,Thể thao,14,chu_de,24,"ZH:体育, VI:thể thao"
+1031,L2-0531,7918,1021,体育场,tǐyùchǎng,sân vận động,名,0,L2-13,13,Thể thao,15,chu_de,32,"ZH:体育, ZH:体育场, VI:vận động"
+1032,L2-0532,7919,1022,体育馆,tǐyùguǎn,phòng gym / nhà thi đấu / sân vận động,名,0,L2-13,13,Thể thao,16,chu_de,36,"ZH:体育, ZH:体育馆, VI:vận động, VI:thi đấu"
+1067,L2-0567,8329,1057,网球,wǎngqiú,quần vợt / trái bóng tennis,名,0,L2-13,13,Thể thao,17,xac_dinh,100,FORCED
+1202,L2-0702,10081,1190,运动,yùndòng,di chuyển / tập thể dục / thể thao / vận động / chuyển động / phong trào / chiến dịch,动、名,0,L2-13,13,Thể thao,18,chu_de,28,"ZH:运动, VI:thể thao, VI:vận động"
+529,L2-0029,446,530,表示,biǎoshì,(về ai đó) bày tỏ; phát biểu; cho thấy / (về điều gì đó) biểu thị; có nghĩa; cho thấy / sự biểu đạt; sự thể hiện,动、名,0,L2-14,14,Sở thích và cuối tuần,1,chu_de,4,VI:hát
+562,L2-0062,943,563,称1,chēng,cân / phát biểu / đặt tên / tên / gọi / tán dương,动,0,L2-14,14,Sở thích và cuối tuần,2,chu_de,4,VI:hát
+573,L2-0073,1154,574,出现,chūxiàn,xuất hiện / phát sinh / nổi lên / có mặt,动,0,L2-14,14,Sở thích và cuối tuần,3,chu_de,4,VI:hát
+578,L2-0078,1265,579,吹,chuī,thổi / chơi nhạc cụ hơi / thổi tung / phồng lên / khoe khoang / tự phụ / kết thúc thất bại / hỏng việc,动,0,L2-14,14,Sở thích và cuối tuần,4,chu_de,4,VI:chơi
+587,L2-0087,1437,588,打算,dǎsuàn,dự định / dự tính / tính toán / kế hoạch,动、名,0,L2-14,14,Sở thích và cuối tuần,5,ra_soat_bai23,100,ra_soat_bai23
+695,L2-0195,2814,692,公园,gōngyuán,công viên (dành cho công chúng giải trí),名,0,L2-14,14,Sở thích và cuối tuần,6,ra_soat_bai23,100,ra_soat_bai23
+698,L2-0198,2918,695,故事,gùshi,câu chuyện; truyện,名,0,L2-14,14,Sở thích và cuối tuần,7,ra_soat_thu_cong,100,ra_soat_thu_cong
+735,L2-0235,3469,730,画家,huàjiā,họa sĩ,名,0,L2-14,14,Sở thích và cuối tuần,8,ra_soat_bai23,100,ra_soat_bai23
+736,L2-0236,3472,731,画儿,huàr,bức tranh / hình vẽ / bức vẽ,名,0,L2-14,14,Sở thích và cuối tuần,9,ra_soat_thu_cong,100,ra_soat_thu_cong
+746,L2-0246,3626,739,活动,huódòng,tập thể dục / di chuyển / vận hành / sử dụng mối quan hệ (ảnh hưởng cá nhân) / lỏng / lung lay / chủ động / có thể di chuyển / hoạt động / chiến dịch / diễn tập / hành vi,动、名,0,L2-14,14,Sở thích và cuối tuần,10,chu_de,24,"ZH:活动, VI:hoạt động"
+753,L2-0253,3780,746,计划,jìhuà,kế hoạch / dự án / chương trình / lên kế hoạch / vạch ra,名、动,0,L2-14,14,Sở thích và cuối tuần,11,chu_de,4,VI:chương trình
+789,L2-0289,4174,782,节目,jiémù,chương trình / mục (trong chương trình),名,0,L2-14,14,Sở thích và cuối tuần,12,chu_de,24,"ZH:节目, VI:chương trình"
+810,L2-0310,4592,803,开机,kāijī,khởi động máy / khởi động máy tính / nhấn Ctrl-Alt-Delete / bắt đầu quay phim hoặc chương trình TV,,0,L2-14,14,Sở thích và cuối tuần,13,chu_de,8,"VI:phim, VI:chương trình"
+811,L2-0311,4611,804,开心,kāixīn,cảm thấy vui / vui mừng / có khoảng thời gian tuyệt vời / trêu chọc ai đó,形、动,0,L2-14,14,Sở thích và cuối tuần,14,chu_de,24,"ZH:开心, VI:vui"
+831,L2-0331,4836,824,快乐,kuàilè,vui vẻ; hạnh phúc,形,0,L2-14,14,Sở thích và cuối tuần,15,chu_de,24,"ZH:快乐, VI:vui"
+834,L2-0334,4885,827,拉,lā,kéo / chơi (nhạc cụ dùng vĩ kéo) / kéo lê / vẽ / trò chuyện / (khẩu ngữ) đi tiêu,动,0,L2-14,14,Sở thích và cuối tuần,16,chu_de,4,VI:chơi
+874,L2-0374,5420,865,满意,mǎnyì,hài lòng / vui lòng / đúng như mong đợi,动,0,L2-14,14,Sở thích và cuối tuần,17,chu_de,4,VI:vui
+883,L2-0383,5648,874,明星,míngxīng,ngôi sao; người nổi tiếng,名,0,L2-14,14,Sở thích và cuối tuần,18,ra_soat_thu_cong,100,ra_soat_thu_cong
+1011,L2-0511,7703,1001,随便,suíbiàn,tuỳ ý / tùy thích / ngẫu nhiên / cẩu thả / tự nhiên / tùy tiện,形,0,L2-14,14,Sở thích và cuối tuần,19,chu_de,4,VI:thích
+1095,L2-0595,8835,1084,响,xiǎng,tiếng / vang / âm thanh / phát ra âm thanh / kêu / rung / to / lượng từ cho âm thanh,形,0,L2-14,14,Sở thích và cuối tuần,20,chu_de,4,VI:hát
+1110,L2-0610,8929,1099,笑话,xiàohua,trò đùa; chuyện cười (Lượng từ: 個|个[ge4]) / chế nhạo; chế giễu / lố bịch; vô lý,动,0,L2-14,14,Sở thích và cuối tuần,21,ra_soat_thu_cong,100,ra_soat_thu_cong
+1111,L2-0611,8930,1100,笑话儿,xiàohuar,biến thể er hoá của 笑話|笑话[xiao4 hua5],名,0,L2-14,14,Sở thích và cuối tuần,22,ra_soat_thu_cong,100,ra_soat_thu_cong
+1171,L2-0671,9690,1159,音乐,yīnyuè,âm nhạc,名,0,L2-14,14,Sở thích và cuối tuần,23,chu_de,24,"ZH:音乐, VI:âm nhạc"
+1172,L2-0672,9691,1160,音乐会,yīnyuèhuì,buổi hòa nhạc,名,0,L2-14,14,Sở thích và cuối tuần,24,chu_de,8,ZH:音乐
+1178,L2-0678,9758,1166,影片,yǐngpiàn,bản sao của phim / phim; điện ảnh; bộ phim,名,0,L2-14,14,Sở thích và cuối tuần,25,ra_soat_thu_cong,100,ra_soat_thu_cong
+1184,L2-0684,9876,1172,有空儿,yǒukòngr,biến thể er hoá của 有空|有空[you3 kong4],动,0,L2-14,14,Sở thích và cuối tuần,26,ra_soat_thu_cong,100,ra_soat_thu_cong
+1187,L2-0687,9901,1175,有意思,yǒu yìsi,thú vị / có ý nghĩa / vui vẻ / vui,,0,L2-14,14,Sở thích và cuối tuần,27,chu_de,28,"ZH:有意思, VI:vui, VI:thú vị"
+1243,L2-0743,10685,1230,周末,zhōumò,cuối tuần,名,0,L2-14,14,Sở thích và cuối tuần,28,chu_de,24,"ZH:周末, VI:cuối tuần"
+1264,L2-0764,11067,1251,作家,zuòjiā,tác giả,名,0,L2-14,14,Sở thích và cuối tuần,29,ra_soat_bai23,100,ra_soat_bai23
+549,L2-0049,699,550,参加,cānjiā,tham gia / tham dự,动,0,L2-15,15,Ngày lễ và sự kiện,1,ra_soat_bai23,100,ra_soat_bai23
+558,L2-0058,853,559,场,chǎng,nơi lớn dùng cho mục đích cụ thể / sân khấu / cảnh (của vở kịch) / lượng từ cho hoạt động thể thao hoặc giải trí / lượng từ cho số lần thi / biến thể của 場|场[chang3],量,0,L2-15,15,Ngày lễ và sự kiện,2,ra_soat_thu_cong,100,ra_soat_thu_cong
+579,L2-0079,1274,580,春节,Chūnjié,Lễ hội mùa xuân (Tết Nguyên Đán),名,0,L2-15,15,Ngày lễ và sự kiện,3,chu_de,28,"ZH:春节, VI:tết, VI:lễ hội"
+675,L2-0175,2560,672,干杯,gānbēi,nâng ly chúc mừng / Cạn ly! (đề xuất nâng ly) / Chúc mừng bạn! / Uống cạn nhé! / nghĩa đen: cạn ly,,0,L2-15,15,Ngày lễ và sự kiện,4,ra_soat_thu_cong,100,ra_soat_thu_cong
+708,L2-0208,3121,705,过年,guònián,đón Tết Nguyên Đán,,0,L2-15,15,Ngày lễ và sự kiện,5,chu_de,12,"ZH:年, VI:tết"
+790,L2-0290,4177,783,节日,jiérì,ngày lễ / lễ hội,名,0,L2-15,15,Ngày lễ và sự kiện,6,chu_de,36,"ZH:节日, ZH:日, VI:lễ hội, VI:ngày lễ"
+806,L2-0306,4487,799,举行,jǔxíng,"tổ chức (cuộc họp, buổi lễ, v.v.)",动,0,L2-15,15,Ngày lễ và sự kiện,7,chu_de,24,"ZH:举行, VI:tổ chức"
+846,L2-0346,5027,838,礼物,lǐwù,quà; món quà,名,0,L2-15,15,Ngày lễ và sự kiện,8,chu_de,24,"ZH:礼物, VI:quà"
+881,L2-0381,5621,872,名称,míngchēng,tên (của một sự vật) / tên (của một tổ chức),名,0,L2-15,15,Ngày lễ và sự kiện,9,chu_de,4,VI:tổ chức
+935,L2-0435,6344,925,前年,qiánnián,năm kia,名,0,L2-15,15,Ngày lễ và sự kiện,10,chu_de,8,ZH:年
+937,L2-0437,6465,927,青年,qīngnián,thanh niên / tuổi trẻ / người trẻ / giới trẻ,名,0,L2-15,15,Ngày lễ và sự kiện,11,chu_de,8,ZH:年
+938,L2-0438,6466,928,青少年,qīng-shàonián,thanh thiếu niên / tuổi trẻ / thanh niên,名,0,L2-15,15,Ngày lễ và sự kiện,12,chu_de,8,ZH:年
+956,L2-0456,6613,946,全年,quánnián,cả năm / suốt cả năm,名,0,L2-15,15,Ngày lễ và sự kiện,13,chu_de,8,ZH:年
+966,L2-0466,6760,956,日报,rìbào,báo hàng ngày,名,0,L2-15,15,Ngày lễ và sự kiện,14,chu_de,8,ZH:日
+967,L2-0467,6774,957,日子,rìzi,ngày / một ngày (trong lịch) / những ngày trong cuộc sống,名,0,L2-15,15,Ngày lễ và sự kiện,15,chu_de,8,ZH:日
+974,L2-0474,7005,964,少年,shàonián,tuổi thiếu niên / người trẻ / (văn học) thiếu niên; chàng trai,名,0,L2-15,15,Ngày lễ và sự kiện,16,chu_de,8,ZH:年
+1008,L2-0508,7658,998,送给,sòng gěi,gửi / tặng quà,,0,L2-15,15,Ngày lễ và sự kiện,17,chu_de,4,VI:quà
+1063,L2-0563,8303,1053,晚会,wǎnhuì,buổi dạ tiệc,名,0,L2-15,15,Ngày lễ và sự kiện,18,chu_de,20,ZH:晚会
+1193,L2-0693,10039,1181,院,yuàn,sân / tổ chức / Lượng từ: 個|个[ge4],名,0,L2-15,15,Ngày lễ và sự kiện,19,chu_de,4,VI:tổ chức
+1197,L2-0697,10056,1185,月份,yuèfèn,tháng,名,0,L2-15,15,Ngày lễ và sự kiện,20,chu_de,8,ZH:月
+1198,L2-0698,10057,1186,月亮,yuèliang,mặt trăng,名,0,L2-15,15,Ngày lễ và sự kiện,21,chu_de,8,ZH:月
+1236,L2-0736,10618,1223,中年,zhōngnián,tuổi trung niên,名,0,L2-15,15,Ngày lễ và sự kiện,22,chu_de,8,ZH:年
+1244,L2-0744,10686,1231,周年,zhōunián,kỷ niệm / hàng năm,名,0,L2-15,15,Ngày lễ và sự kiện,23,chu_de,8,ZH:年
+563,L2-0063,951,564,成,chéng,thành công / hoàn thành / làm xong / đạt được / trở thành / biến thành / ổn / OK! / một phần mười,动,0,L2-16,16,Hành động đã hoàn thành,1,chu_de,8,"VI:hoàn thành, VI:làm xong"
+566,L2-0066,1068,567,重复,chóngfù,lặp lại / sao chép / biến thể của 重複|重复[chong2 fu4],动,0,L2-16,16,Hành động đã hoàn thành,2,ra_soat_thu_cong,100,ra_soat_thu_cong
+567,L2-0067,1073,568,重新,chóngxīn,lại; một lần nữa; tái-,副,0,L2-16,16,Hành động đã hoàn thành,3,ra_soat_thu_cong,100,ra_soat_thu_cong
+615,L2-0115,1679,616,得,dé,được / nhận / giành được / bị (bệnh) / thích hợp / phù hợp / tự hào / hài lòng / cho phép / đồng ý / sẵn sàng / xong,动,0,L2-16,16,Hành động đã hoàn thành,4,ra_soat_bai23,100,ra_soat_bai23
+616,L2-0116,1681,617,得出,déchū,đạt được (kết quả); đi đến (kết luận),,0,L2-16,16,Hành động đã hoàn thành,5,ra_soat_thu_cong,100,ra_soat_thu_cong
+629,L2-0129,1860,629,掉,diào,"rơi / rớt / tụt lại / mất / thất lạc / giảm / rớt (giá) / mất (giá trị, cân nặng v.v.) / vẫy / đung đưa / quay / đổi / thay / trao đổi / khoe / rụng (tóc) / (dùng sau một số động từ để biểu đạt hoàn thành, thực hiện xong, loại bỏ v.v.)",动,0,L2-16,16,Hành động đã hoàn thành,6,ra_soat_bai23,100,ra_soat_bai23
+655,L2-0155,2157,653,发现,fāxiàn,để ý; nhận ra / phát hiện; tìm thấy; phát giác / một khám phá,动、名,0,L2-16,16,Hành động đã hoàn thành,7,chu_de,24,"ZH:发现, VI:phát hiện"
+709,L2-0209,3124,706,过去,guòqù,(trong quá khứ); trước đây; trước đó / đi qua; trôi qua,动,0,L2-16,16,Hành động đã hoàn thành,8,chu_de,4,VI:trước đây
+710,L2-0210,3136,707,过,guo,(trợ từ chỉ hành động đã trải qua),助,0,L2-16,16,Hành động đã hoàn thành,9,chu_de,8,"VI:đã, VI:trải qua"
+728,L2-0228,3375,724,后来,hòulái,sau này; sau đó / mới đến,名,0,L2-16,16,Hành động đã hoàn thành,10,chu_de,24,"ZH:后来, VI:sau đó"
+763,L2-0263,3969,756,见到,jiàndào,nhìn thấy,,0,L2-16,16,Hành động đã hoàn thành,11,ra_soat_thu_cong,100,ra_soat_thu_cong
+764,L2-0264,3970,757,见过,jiànguo,đã từng gặp; đã từng thấy,,0,L2-16,16,Hành động đã hoàn thành,12,chu_de,4,VI:đã
+783,L2-0283,4144,776,接到,jiēdào,"nhận được (thư từ, v.v.)",,0,L2-16,16,Hành động đã hoàn thành,13,chu_de,4,VI:nhận được
+791,L2-0291,4190,784,结果,jiéguǒ,kết quả / kết cục / kết luận / cuối cùng / do đó / giết / xử lý,名、连,0,L2-16,16,Hành động đã hoàn thành,14,chu_de,24,"ZH:结果, VI:kết quả"
+799,L2-0299,4325,792,经过,jīngguò,đi qua / trải qua / quá trình / tiến trình,动、名,0,L2-16,16,Hành động đã hoàn thành,15,chu_de,24,"ZH:经过, VI:trải qua"
+885,L2-0385,5730,876,拿出,náchū,lấy ra / đưa ra / cung cấp / đề xuất (một đề án) / nghĩ ra (bằng chứng),,0,L2-16,16,Hành động đã hoàn thành,16,ra_soat_thu_cong,100,ra_soat_thu_cong
+886,L2-0386,5731,877,拿到,nádào,lấy được / đạt được,,0,L2-16,16,Hành động đã hoàn thành,17,ra_soat_thu_cong,100,ra_soat_thu_cong
+959,L2-0459,6653,949,然后,ránhòu,sau đó; sau này,连,0,L2-16,16,Hành động đã hoàn thành,18,chu_de,4,VI:sau đó
+986,L2-0486,7248,976,实现,shíxiàn,đạt được; thực hiện; nhận ra; làm cho xảy ra,动,0,L2-16,16,Hành động đã hoàn thành,19,ra_soat_thu_cong,100,ra_soat_thu_cong
+994,L2-0494,7348,984,收,shōu,nhận / chấp nhận / sưu tầm / cất đi / kiềm chế / dừng / chăm sóc (dùng sau tên trên dòng địa chỉ),动,0,L2-16,16,Hành động đã hoàn thành,20,ra_soat_thu_cong,100,ra_soat_thu_cong
+995,L2-0495,7350,985,收到,shōudào,nhận được,,0,L2-16,16,Hành động đã hoàn thành,21,chu_de,24,"ZH:收到, VI:nhận được"
+998,L2-0498,7417,988,受到,shòudào,"nhận được (lời khen ngợi, sự giáo dục, hình phạt, v.v.) / bị (khen ngợi, giáo dục, trừng phạt, v.v.)",,0,L2-16,16,Hành động đã hoàn thành,22,ra_soat_thu_cong,100,ra_soat_thu_cong
+1007,L2-0507,7657,997,送到,sòngdào,đưa đến; giao đến; chuyển đến,,0,L2-16,16,Hành động đã hoàn thành,23,ra_soat_thu_cong,100,ra_soat_thu_cong
+1057,L2-0557,8276,1047,完,wán,hoàn thành / kết thúc / toàn bộ / hoàn chỉnh / hoàn toàn,动,0,L2-16,16,Hành động đã hoàn thành,24,chu_de,24,"ZH:完, VI:hoàn thành"
+1058,L2-0558,8279,1048,完成,wánchéng,hoàn thành; thực hiện,,0,L2-16,16,Hành động đã hoàn thành,25,chu_de,32,"ZH:完成, ZH:完, VI:hoàn thành"
+1059,L2-0559,8284,1049,完全,wánquán,hoàn chỉnh; toàn bộ / hoàn toàn; toàn diện,形、副,0,L2-16,16,Hành động đã hoàn thành,26,chu_de,8,ZH:完
+1152,L2-0652,9559,1140,已经,yǐjīng,đã,副,0,L2-16,16,Hành động đã hoàn thành,27,chu_de,24,"ZH:已经, VI:đã"
+1153,L2-0653,9562,1141,以后,yǐhòu,sau / khi đó / sau này / theo sau / sau đó / trong tương lai,名,0,L2-16,16,Hành động đã hoàn thành,28,chu_de,4,VI:sau đó
+1154,L2-0654,9567,1142,以前,yǐqián,trước đây / trước / thuở trước / cách đây,名,0,L2-16,16,Hành động đã hoàn thành,29,chu_de,24,"ZH:以前, VI:trước đây"
+1155,L2-0655,9568,1143,以上,yǐshàng,mức đó hoặc cao hơn / số lượng đó hoặc nhiều hơn / đã đề cập ở trên / (dùng để chỉ đã hoàn thành phần phát biểu) Xin hết.,名,0,L2-16,16,Hành động đã hoàn thành,30,chu_de,8,"VI:đã, VI:hoàn thành"
+1191,L2-0691,10004,1179,原来,yuánlái,"gốc; trước đây / vốn dĩ; lúc đầu / thì ra, hóa ra",形、副,0,L2-16,16,Hành động đã hoàn thành,31,chu_de,4,VI:trước đây
+1208,L2-0708,10160,1196,早就,zǎo jiù,đã từ sớm,,0,L2-16,16,Hành động đã hoàn thành,32,chu_de,4,VI:đã
+1217,L2-0717,10299,1204,找出,zhǎochū,tìm / tìm ra,,0,L2-16,16,Hành động đã hoàn thành,33,ra_soat_thu_cong,100,ra_soat_thu_cong
+1270,L2-0770,11086,1257,做到,zuòdào,hoàn thành / đạt được,,0,L2-16,16,Hành động đã hoàn thành,34,chu_de,4,VI:hoàn thành
+524,L2-0024,375,525,边,biān,bên / rìa / lề / biên giới / ranh giới / đồng thời,名,0,L2-17,17,Hành động đang diễn ra,1,chu_de,4,VI:đồng thời
+527,L2-0027,416,528,遍,biàn,biến thể của 遍[bian4] / khắp mọi nơi / khắp / lượng từ cho hành động: một lần,量,0,L2-17,17,Hành động đang diễn ra,2,chu_de,4,VI:hành động
+544,L2-0044,627,545,不一会儿,bù yīhuìr,chẳng bao lâu; một lát sau,,0,L2-17,17,Hành động đang diễn ra,3,ra_soat_thu_cong,100,ra_soat_thu_cong
+681,L2-0181,2611,678,刚,gāng,cứng / vững / mạnh / vừa / mới / chính xác,副,0,L2-17,17,Hành động đang diễn ra,4,chu_de,4,VI:vừa
+729,L2-0229,3402,725,忽然,hūrán,đột nhiên; bỗng nhiên,副,0,L2-17,17,Hành động đang diễn ra,5,ra_soat_thu_cong,100,ra_soat_thu_cong
+785,L2-0285,4160,778,接下来,jiē xiàlái,chấp nhận / tiếp nhận / tiếp theo / theo sau,,0,L2-17,17,Hành động đang diễn ra,6,ra_soat_thu_cong,100,ra_soat_thu_cong
+786,L2-0286,4161,779,接着,jiēzhe,bắt và giữ / tiếp tục / tiến hành làm gì đó / theo sau / tiếp nối / rồi / sau đó / tiếp theo / tiến hành / tiếp diễn / lần lượt / đến lượt,动、副,0,L2-17,17,Hành động đang diễn ra,7,chu_de,8,"VI:tiến hành, VI:tiếp tục"
+794,L2-0294,4246,787,今后,jīnhòu,sau này / từ nay trở đi / trong tương lai / từ bây giờ,名,0,L2-17,17,Hành động đang diễn ra,8,ra_soat_thu_cong,100,ra_soat_thu_cong
+796,L2-0296,4301,789,进行,jìnxíng,tiến hành / thực hiện / đang tiến hành / trong quá trình / làm / tiếp tục / thực thi,动,0,L2-17,17,Hành động đang diễn ra,9,chu_de,32,"ZH:进行, VI:đang, VI:tiến hành, VI:tiếp tục"
+803,L2-0303,4452,796,就要,jiùyào,sẽ / sắp / sắp sửa,副,0,L2-17,17,Hành động đang diễn ra,10,ra_soat_bai23,100,ra_soat_bai23
+804,L2-0304,4477,797,举,jǔ,biến thể của 舉|举[ju3] / nâng / giơ lên / dẫn chứng / liệt kê / hành động / giơ / chọn / bầu / cử động / việc làm,动,0,L2-17,17,Hành động đang diễn ra,11,chu_de,4,VI:hành động
+861,L2-0361,5239,852,留下,liúxia,để lại / ở lại / duy trì / giữ lại / không để cho (ai) đi,,0,L2-17,17,Hành động đang diễn ra,12,ra_soat_thu_cong,100,ra_soat_thu_cong
+910,L2-0410,6034,900,碰,pèng,biến thể của 碰[peng4] / chạm / gặp / va phải / biến thể cũ của 碰[peng4],动,0,L2-17,17,Hành động đang diễn ra,13,ra_soat_bai23,100,ra_soat_bai23
+911,L2-0411,6035,901,碰到,pèngdào,tình cờ gặp / phải đối mặt / gặp / phải,,0,L2-17,17,Hành động đang diễn ra,14,ra_soat_bai23,100,ra_soat_bai23
+912,L2-0412,6037,902,碰见,pèngjiàn,tình cờ gặp / gặp (bất ngờ) / chạm mặt,,0,L2-17,17,Hành động đang diễn ra,15,ra_soat_bai23,100,ra_soat_bai23
+1046,L2-0546,8067,1036,同时,tóngshí,đồng thời; cùng lúc,连、名,0,L2-17,17,Hành động đang diễn ra,16,chu_de,24,"ZH:同时, VI:đồng thời"
+1123,L2-0623,9060,1112,行动,xíngdòng,hoạt động / hành động / di chuyển / di động,动、名,0,L2-17,17,Hành động đang diễn ra,17,chu_de,24,"ZH:行动, VI:hành động"
+1185,L2-0685,9885,1173,有人,yǒu rén,ai đó / mọi người / bất kỳ ai / có người ở đó / đang có người (như trong nhà vệ sinh),,0,L2-17,17,Hành động đang diễn ra,18,chu_de,4,VI:đang
+1188,L2-0688,9906,1176,又,yòu,(một lần) nữa / cũng / vừa... vừa... / thế nhưng / (dùng để nhấn mạnh) dù sao đi nữa,副,0,L2-17,17,Hành động đang diễn ra,19,ra_soat_bai23,100,ra_soat_bai23
+1224,L2-0724,10363,1211,真正,zhēnzhèng,chính hãng; thật; đúng / thật sự; quả thật,形,0,L2-17,17,Hành động đang diễn ra,20,chu_de,8,ZH:正
+1225,L2-0725,10420,1212,正常,zhèngcháng,bình thường / thông thường,形,0,L2-17,17,Hành động đang diễn ra,21,chu_de,8,ZH:正
+1226,L2-0726,10423,1213,正好,zhènghǎo,vừa (đúng lúc) / vừa đủ / đúng / tình cờ / ngẫu nhiên / đúng lúc,形、副,0,L2-17,17,Hành động đang diễn ra,22,chu_de,12,"ZH:正, VI:vừa"
+1227,L2-0727,10426,1214,正确,zhèngquè,đúng; chính xác; phải; hợp lý,形,0,L2-17,17,Hành động đang diễn ra,23,chu_de,8,ZH:正
+1228,L2-0728,10430,1215,正是,zhèngshì,chính xác là,动,0,L2-17,17,Hành động đang diễn ra,24,chu_de,8,ZH:正
+518,L2-0018,340,519,比如,bǐrú,ví dụ / chẳng hạn / như là,动,0,L2-18,18,So sánh,1,chu_de,8,ZH:比
+519,L2-0019,341,520,比如说,bǐrú shuō,ví dụ,,0,L2-18,18,So sánh,2,chu_de,8,ZH:比
+523,L2-0023,358,524,必须,bìxū,phải / bắt buộc / cần thiết / nhất thiết,副,0,L2-18,18,So sánh,3,chu_de,4,VI:nhất
+539,L2-0039,613,540,不如,bùrú,không bằng; không tốt bằng; kém hơn / sẽ tốt hơn nếu,动,0,L2-18,18,So sánh,4,chu_de,28,"ZH:不如, VI:hơn, VI:không bằng"
+541,L2-0041,619,542,不同,bù tóng,khác / riêng biệt / không giống,,0,L2-18,18,So sánh,5,chu_de,20,ZH:不同
+543,L2-0043,626,544,不一定,bùyīdìng,không nhất thiết / có thể,副,0,L2-18,18,So sánh,6,chu_de,4,VI:nhất
+545,L2-0045,654,546,部分,bùfen,phần / cổ phần / mục / miếng,名,0,L2-18,18,So sánh,7,ra_soat_bai23,100,ra_soat_bai23
+559,L2-0059,877,560,超过,chāoguò,vượt qua / vượt quá / vượt trội,动,0,L2-18,18,So sánh,8,ra_soat_thu_cong,100,ra_soat_thu_cong
+589,L2-0089,1451,590,大部分,dàbùfen,phần lớn / phần nhiều / đại đa số,名,0,L2-18,18,So sánh,9,ra_soat_thu_cong,100,ra_soat_thu_cong
+591,L2-0091,1462,592,大多数,dàduōshù,đại đa số,名,0,L2-18,18,So sánh,10,ra_soat_thu_cong,100,ra_soat_thu_cong
+622,L2-0122,1720,622,等于,děngyú,bằng / tương đương với,动,0,L2-18,18,So sánh,11,ra_soat_thu_cong,100,ra_soat_thu_cong
+623,L2-0123,1723,623,低,dī,thấp / bên dưới / cúi (đầu) / để rũ xuống / treo xuống / nghiêng,形、动,0,L2-18,18,So sánh,12,chu_de,24,"ZH:低, VI:thấp"
+640,L2-0140,1996,640,短,duǎn,ngắn / gọn / thiếu / điểm yếu / lỗi,形,0,L2-18,18,So sánh,13,ra_soat_thu_cong,100,ra_soat_thu_cong
+648,L2-0148,2053,107,多,duō,nhiều; hơn,副,1,L2-18,18,So sánh,14,chu_de,4,VI:hơn
+651,L2-0151,2067,649,多数,duōshù,đa số; phần lớn,名,0,L2-18,18,So sánh,15,ra_soat_thu_cong,100,ra_soat_thu_cong
+653,L2-0153,2109,651,而且,érqiě,(không những...) mà còn / hơn nữa / thêm vào đó / hơn thế nữa,连,0,L2-18,18,So sánh,16,chu_de,4,VI:hơn
+687,L2-0187,2750,684,更,gèng,hơn / còn hơn / nữa / vẫn / càng,副,0,L2-18,18,So sánh,17,chu_de,24,"ZH:更, VI:hơn"
+715,L2-0215,3220,711,好处,hǎochù,lợi ích; ưu điểm; công dụng / lợi nhuận; lợi ích / cũng đọc là [hao3 chu4],名,0,L2-18,18,So sánh,18,chu_de,24,"ZH:好处, VI:ưu điểm"
+716,L2-0216,3222,712,好多,hǎoduō,nhiều / khá nhiều / tốt hơn nhiều,数,0,L2-18,18,So sánh,19,chu_de,4,VI:hơn
+721,L2-0221,3272,717,合适,héshì,thích hợp; vừa vặn; phù hợp,形,0,L2-18,18,So sánh,20,ra_soat_thu_cong,100,ra_soat_thu_cong
+737,L2-0237,3490,732,坏处,huàichù,tổn hại / rắc rối,名,0,L2-18,18,So sánh,21,chu_de,20,ZH:坏处
+889,L2-0389,5745,879,那么,nàme,như vậy / theo cách đó / hoặc là / quá / rất nhiều / khoảng / nếu vậy,代,0,L2-18,18,So sánh,22,ra_soat_bai23,100,ra_soat_bai23
+891,L2-0391,5749,881,那样,nàyàng,loại đó / kiểu đó,代,0,L2-18,18,So sánh,23,ra_soat_bai23,100,ra_soat_bai23
+917,L2-0417,6118,907,平,píng,phẳng / bằng / ngang / hòa (điểm số) / kết quả hòa / điềm tĩnh / yên bình / viết tắt của 平聲|平声[ping2 sheng1],形,0,L2-18,18,So sánh,24,ra_soat_thu_cong,100,ra_soat_thu_cong
+920,L2-0420,6123,910,平等,píngděng,bình đẳng / sự bình đẳng,形,0,L2-18,18,So sánh,25,ra_soat_thu_cong,100,ra_soat_thu_cong
+952,L2-0452,6599,942,全,quán,tất cả / toàn bộ / toàn thể / mọi / hoàn toàn,副、形,0,L2-18,18,So sánh,26,ra_soat_bai23,100,ra_soat_bai23
+953,L2-0453,6600,943,全部,quánbù,toàn bộ; tất cả,名,0,L2-18,18,So sánh,27,ra_soat_thu_cong,100,ra_soat_thu_cong
+958,L2-0458,6617,948,全体,quántǐ,tất cả / toàn bộ,名,0,L2-18,18,So sánh,28,ra_soat_thu_cong,100,ra_soat_thu_cong
+964,L2-0464,6714,954,人数,rénshù,số lượng người,名,0,L2-18,18,So sánh,29,ra_soat_bai23,100,ra_soat_bai23
+973,L2-0473,7001,963,少数,shǎoshù,số lượng nhỏ / ít / thiểu số,名,0,L2-18,18,So sánh,30,ra_soat_thu_cong,100,ra_soat_thu_cong
+1014,L2-0514,7740,1004,所有,suǒyǒu,tất cả / có; sở hữu,形,0,L2-18,18,So sánh,31,ra_soat_bai23,100,ra_soat_bai23
+1048,L2-0548,8070,1038,同样,tóngyàng,giống nhau; bằng nhau; tương tự / tương tự; cũng; nữa,形、连,0,L2-18,18,So sánh,32,chu_de,4,VI:giống nhau
+1093,L2-0593,8811,1082,相同,xiāngtóng,giống hệt / giống nhau,形,0,L2-18,18,So sánh,33,chu_de,24,"ZH:相同, VI:giống nhau"
+1146,L2-0646,9490,1135,一部分,yī bùfen,phần / một phần / tập hợp con,,0,L2-18,18,So sánh,34,ra_soat_thu_cong,100,ra_soat_thu_cong
+1148,L2-0648,9504,1137,一共,yīgòng,tổng cộng,副,0,L2-18,18,So sánh,35,ra_soat_bai23,100,ra_soat_bai23
+1158,L2-0658,9573,1146,以下,yǐxià,mức đó hoặc thấp hơn / số lượng đó hoặc ít hơn / những điều sau,名,0,L2-18,18,So sánh,36,chu_de,8,"VI:hơn, VI:thấp"
+525,L2-0025,394,526,变,biàn,thay đổi / trở nên khác / biến đổi / biến hóa / nổi loạn,动,0,L2-19,19,Thay đổi và mức độ,1,xac_dinh,100,FORCED
+526,L2-0026,395,527,变成,biànchéng,thay đổi thành / biến thành / trở thành,,0,L2-19,19,Thay đổi và mức độ,2,xac_dinh,100,FORCED
+530,L2-0030,523,531,不错,bùcuò,đúng / chính xác / không tồi / khá tốt,形,0,L2-19,19,Thay đổi và mức độ,3,ra_soat_thu_cong,100,ra_soat_thu_cong
+532,L2-0032,529,533,不够,bùgòu,không đủ / không đủ mức / không thoả đáng,动、副,0,L2-19,19,Thay đổi và mức độ,4,ra_soat_thu_cong,100,ra_soat_thu_cong
+534,L2-0034,543,535,不太,bù tài,không lắm; không quá,,0,L2-19,19,Thay đổi và mức độ,5,ra_soat_thu_cong,100,ra_soat_thu_cong
+540,L2-0040,615,541,不少,bù shǎo,nhiều / khá nhiều / không ít,,0,L2-19,19,Thay đổi và mức độ,6,ra_soat_thu_cong,100,ra_soat_thu_cong
+555,L2-0055,816,556,长,cháng,chiều dài / dài / mãi mãi / luôn luôn / liên tục,形,0,L2-19,19,Thay đổi và mức độ,7,ra_soat_thu_cong,100,ra_soat_thu_cong
+565,L2-0065,971,566,成为,chéngwéi,trở thành; biến thành,动,0,L2-19,19,Thay đổi và mức độ,8,xac_dinh,100,FORCED
+590,L2-0090,1454,591,大大,dàdà,rất nhiều / cực kỳ / (phương ngữ) ba / bác,副,0,L2-19,19,Thay đổi và mức độ,9,ra_soat_bai23,100,ra_soat_bai23
+594,L2-0094,1483,595,大量,dàliàng,lượng lớn / số lượng nhiều / số lượng lớn / đông đảo / rộng lượng / khoan dung,形,0,L2-19,19,Thay đổi và mức độ,10,ra_soat_thu_cong,100,ra_soat_thu_cong
+602,L2-0102,1549,603,带来,dàilái,mang đến / (nghĩa bóng) mang lại; tạo ra,,0,L2-19,19,Thay đổi và mức độ,11,ra_soat_bai23,100,ra_soat_bai23
+665,L2-0165,2341,662,分开,fēnkāi,tách ra / chia ra,,0,L2-19,19,Thay đổi và mức độ,12,ra_soat_bai23,100,ra_soat_bai23
+669,L2-0169,2415,666,封,fēng,"phong tước / ban tặng / phong làm / phong kín / lượng từ cho vật kín, đặc biệt là thư từ",量,0,L2-19,19,Thay đổi và mức độ,13,chu_de,4,VI:đặc biệt
+673,L2-0173,2534,670,改,gǎi,thay đổi / sửa đổi / biến đổi / sửa chữa,动,0,L2-19,19,Thay đổi và mức độ,14,chu_de,4,VI:thay đổi
+674,L2-0174,2537,671,改变,gǎibiàn,thay đổi / sửa đổi / biến đổi,动、名,0,L2-19,19,Thay đổi và mức độ,15,chu_de,32,"ZH:改变, ZH:变, VI:thay đổi"
+755,L2-0255,3830,748,加,jiā,"thêm / cộng / (dùng sau một trạng ngữ như 不, 大, 稍,..., và trước động từ hai âm tiết, để chỉ rằng hành động của động từ được áp dụng cho cái gì đó hoặc ai đó đã được nhắc đến trước đó) / áp dụng (hạn chế,...) cho (ai đó) / đưa ra (hỗ trợ, xem xét,...) cho (điều gì đó)",动,0,L2-19,19,Thay đổi và mức độ,16,ra_soat_bai23,100,ra_soat_bai23
+873,L2-0373,5418,864,满,mǎn,lấp đầy / đầy / đầy đủ / nhét kín / hoàn toàn / trọn vẹn / khá / đạt đến giới hạn / thỏa mãn / hài lòng / mãn nguyện,形,0,L2-19,19,Thay đổi và mức độ,17,ra_soat_thu_cong,100,ra_soat_thu_cong
+919,L2-0419,6120,909,平常,píngcháng,bình thường / phổ biến / thường thường / thông thường,名、形,0,L2-19,19,Thay đổi và mức độ,18,chu_de,4,VI:bình thường
+924,L2-0424,6192,914,普通,pǔtōng,phổ thông / bình thường / chung / chung bình,形,0,L2-19,19,Thay đổi và mức độ,19,chu_de,24,"ZH:普通, VI:bình thường"
+983,L2-0483,7203,973,十分,shífēn,rất / hoàn toàn / cực kỳ / vô cùng / tuyệt đối / một trăm phần trăm / chia thành mười phần bằng nhau,副,0,L2-19,19,Thay đổi và mức độ,20,ra_soat_thu_cong,100,ra_soat_thu_cong
+1022,L2-0522,7854,1012,特别,tèbié,khác thường; đặc biệt / rất; đặc biệt; đặc biệt là / đặc biệt; cho một mục đích cụ thể / (thường theo sau bởi 是[shi4]) đặc biệt là,形、副,0,L2-19,19,Thay đổi và mức độ,21,chu_de,24,"ZH:特别, VI:đặc biệt"
+1023,L2-0523,7859,1013,特点,tèdiǎn,đặc điểm (nét đặc trưng) / phẩm chất / đặc tính,名,0,L2-19,19,Thay đổi và mức độ,22,ra_soat_thu_cong,100,ra_soat_thu_cong
+1028,L2-0528,7886,1018,提高,tígāo,nâng cao / tăng / cải thiện,,0,L2-19,19,Thay đổi và mức độ,23,chu_de,24,"ZH:提高, VI:nâng cao"
+1042,L2-0542,8028,1032,挺好,tǐng hǎo,rất tốt,,0,L2-19,19,Thay đổi và mức độ,24,ra_soat_thu_cong,100,ra_soat_thu_cong
+1129,L2-0629,9159,1118,许多,xǔduō,nhiều / rất nhiều,数,0,L2-19,19,Thay đổi và mức độ,25,ra_soat_thu_cong,100,ra_soat_thu_cong
+1160,L2-0660,9579,1148,一般,yībān,giống / bình thường / tàm tạm / phổ thông / chung / chung chung / nói chung,形,0,L2-19,19,Thay đổi và mức độ,26,ra_soat_thu_cong,100,ra_soat_thu_cong
+1161,L2-0661,9585,1149,一点点,yī diǎndiǎn,một chút,,0,L2-19,19,Thay đổi và mức độ,27,chu_de,24,"ZH:一点点, VI:một chút"
+1186,L2-0686,9895,1174,有（一）点儿,yǒu(yī)diǎnr,hơi / một chút / phần nào / một ít,副,0,L2-19,19,Thay đổi và mức độ,28,chu_de,4,VI:một chút
+1199,L2-0699,10069,1187,越,yuè,vượt / vượt qua / vượt hơn / càng... càng...,副,0,L2-19,19,Thay đổi và mức độ,29,ra_soat_thu_cong,100,ra_soat_thu_cong
+1200,L2-0700,10072,1188,越来越,yuè lái yuè,ngày càng...,,0,L2-19,19,Thay đổi và mức độ,30,chu_de,28,"ZH:越来越, VI:ngày càng, VI:càng"
+1215,L2-0715,10258,1202,长,zhǎng,trưởng / đứng đầu / người lớn / mọc / phát triển / tăng / cải thiện,动,0,L2-19,19,Thay đổi và mức độ,31,ra_soat_thu_cong,100,ra_soat_thu_cong
+1246,L2-0746,10729,1233,主要,zhǔyào,chính; chủ yếu; quan trọng; hàng đầu,形,0,L2-19,19,Thay đổi và mức độ,32,ra_soat_thu_cong,100,ra_soat_thu_cong
+1260,L2-0760,11015,1247,组成,zǔchéng,hình thành / tạo thành / cấu thành,动,0,L2-19,19,Thay đổi và mức độ,33,ra_soat_bai23,100,ra_soat_bai23
+531,L2-0031,525,532,不但,bùdàn,không chỉ (... mà còn...),连,0,L2-20,20,Nguyên nhân và điều kiện,1,ra_soat_thu_cong,100,ra_soat_thu_cong
+533,L2-0033,531,534,不过,bùguò,chỉ / chỉ là / không nhiều hơn / nhưng / tuy nhiên / dù sao (để trở lại chủ đề trước) / không thể hơn (sau tính từ),连,0,L2-20,20,Nguyên nhân và điều kiện,2,chu_de,24,"ZH:不过, VI:nhưng"
+604,L2-0104,1588,605,但,dàn,nhưng; tuy nhiên; thế nhưng / chỉ; chỉ là; đúng,连,0,L2-20,20,Nguyên nhân và điều kiện,3,chu_de,4,VI:nhưng
+605,L2-0105,1589,606,但是,dànshì,nhưng; tuy nhiên,连,0,L2-20,20,Nguyên nhân và điều kiện,4,chu_de,24,"ZH:但是, VI:nhưng"
+611,L2-0111,1662,612,倒,dào,lật ngược; đặt úp hoặc lộn ngược / rót ra / đổ ra; trút ra / bị lật; lộn ngược; đảo ngược / đi lùi / ngược với dự đoán; nhưng; tuy nhiên,动,0,L2-20,20,Nguyên nhân và điều kiện,5,chu_de,4,VI:nhưng
+617,L2-0117,1700,618,的话,dehuà,nếu (đứng sau mệnh đề điều kiện),助,0,L2-20,20,Nguyên nhân và điều kiện,6,chu_de,8,"VI:nếu, VI:điều kiện"
+672,L2-0172,2532,669,该,gāi,nên / phải / có lẽ / phải là / xứng đáng / nợ / đến lượt làm gì / đó / đã nói ở trên,动,0,L2-20,20,Nguyên nhân và điều kiện,7,ra_soat_thu_cong,100,ra_soat_thu_cong
+748,L2-0248,3658,741,或者,huòzhě,hoặc / có thể; có lẽ,连,0,L2-20,20,Nguyên nhân và điều kiện,8,ra_soat_thu_cong,100,ra_soat_thu_cong
+760,L2-0260,3873,753,假,jiǎ,giả / sai / nhân tạo / mượn / nếu / giả sử / biến thể của 假[jia3],形,0,L2-20,20,Nguyên nhân và điều kiện,9,chu_de,4,VI:nếu
+821,L2-0321,4707,814,可是,kěshì,nhưng; tuy nhiên / (dùng để nhấn mạnh) thật sự,连,0,L2-20,20,Nguyên nhân và điều kiện,10,chu_de,4,VI:nhưng
+968,L2-0468,6798,958,如果,rúguǒ,nếu / trong trường hợp / nếu như,连,0,L2-20,20,Nguyên nhân và điều kiện,11,xac_dinh,100,FORCED
+1010,L2-0510,7700,1000,虽然,suīrán,"mặc dù; cho dù (thường dùng kết hợp với 可是[ke3 shi4] hoặc 但是[dan4 shi4],...)",连,0,L2-20,20,Nguyên nhân và điều kiện,12,xac_dinh,100,FORCED
+1013,L2-0513,7739,1003,所以,suǒyǐ,vì vậy / do đó / nên / lý do tại sao,连,0,L2-20,20,Nguyên nhân và điều kiện,13,xac_dinh,100,FORCED
+1035,L2-0535,7970,1025,条件,tiáojiàn,điều kiện; hoàn cảnh; điều khoản; yếu tố / yêu cầu; điều kiện tiên quyết; tiêu chuẩn / tình huống; trạng thái; điều kiện / lượng từ: 個|个[ge4],名,0,L2-20,20,Nguyên nhân và điều kiện,14,xac_dinh,100,FORCED
+1070,L2-0570,8415,1060,为,wèi,bởi vì / vì / để / biến thể của 為|为[wei4],介,0,L2-20,20,Nguyên nhân và điều kiện,15,chu_de,4,VI:bởi vì
+1071,L2-0571,8419,1061,为什么,wèi shénme,tại sao? / vì lý do gì?,,0,L2-20,20,Nguyên nhân và điều kiện,16,ra_soat_thu_cong,100,ra_soat_thu_cong
+1143,L2-0643,9434,1132,也许,yěxǔ,có lẽ / có thể,副,0,L2-20,20,Nguyên nhân và điều kiện,17,ra_soat_thu_cong,100,ra_soat_thu_cong
+1147,L2-0647,9498,1136,一定,yīdìng,chắc chắn / nhất định / nhất thiết / cố định / một mức độ nhất định (v.v.) / đã cho / cụ thể / phải,形、副,0,L2-20,20,Nguyên nhân và điều kiện,18,ra_soat_thu_cong,100,ra_soat_thu_cong
+1167,L2-0667,9679,1155,因为,yīnwèi,bởi vì / do / bởi,连、介,0,L2-20,20,Nguyên nhân và điều kiện,19,xac_dinh,100,FORCED
+1175,L2-0675,9734,1163,应该,yīnggāi,nên / phải / cần,动,0,L2-20,20,Nguyên nhân và điều kiện,20,ra_soat_thu_cong,100,ra_soat_thu_cong
+1192,L2-0692,10011,1180,原因,yuányīn,nguyên nhân / nguồn gốc / nguyên nhân gốc / lý do / Lượng từ: 個|个[ge4],名,0,L2-20,20,Nguyên nhân và điều kiện,21,xac_dinh,100,FORCED
+1196,L2-0696,10045,1184,愿意,yuànyì,muốn / nguyện / sẵn sàng / tự nguyện (làm gì đó),动,0,L2-20,20,Nguyên nhân và điều kiện,22,ra_soat_bai23,100,ra_soat_bai23
+1230,L2-0730,10522,1217,只,zhǐ,chỉ / chỉ đơn thuần / chỉ là / nhưng / biến thể của 只[zhi3],副,0,L2-20,20,Nguyên nhân và điều kiện,23,chu_de,4,VI:nhưng
+1231,L2-0731,10529,1218,只能,zhǐ néng,chỉ có thể / buộc phải làm gì đó / không có lựa chọn nào khác,,0,L2-20,20,Nguyên nhân và điều kiện,24,ra_soat_thu_cong,100,ra_soat_thu_cong
+1232,L2-0732,10531,1219,只要,zhǐyào,chỉ cần / miễn là,连,0,L2-20,20,Nguyên nhân và điều kiện,25,ra_soat_thu_cong,100,ra_soat_thu_cong
+501,L2-0001,4,502,啊,a,"thán từ kết thúc câu, thể hiện sự khẳng định, tán thành hoặc đồng ý",助,0,L2-21,21,Liên lạc và giao tiếp,1,ra_soat_bai23,100,ra_soat_bai23
+512,L2-0012,164,513,帮助,bāngzhù,sự giúp đỡ; hỗ trợ / giúp đỡ; hỗ trợ,动,0,L2-21,21,Liên lạc và giao tiếp,2,ra_soat_bai23,100,ra_soat_bai23
+515,L2-0015,235,516,报纸,bàozhǐ,báo / chất liệu in báo,名,0,L2-21,21,Liên lạc và giao tiếp,3,ra_soat_thu_cong,100,ra_soat_thu_cong
+535,L2-0035,549,536,不要,bùyào,đừng!; không được,副,0,L2-21,21,Liên lạc và giao tiếp,4,ra_soat_bai23,100,ra_soat_bai23
+557,L2-0057,846,558,常用,cháng yòng,được sử dụng phổ biến,,0,L2-21,21,Liên lạc và giao tiếp,5,ra_soat_thu_cong,100,ra_soat_thu_cong
+569,L2-0069,1121,570,出国,chūguó,ra nước ngoài; rời khỏi đất nước,,0,L2-21,21,Liên lạc và giao tiếp,6,chu_de,4,VI:hỏi
+570,L2-0070,1126,571,出口,chūkǒu,lối ra / nói / xuất khẩu / (tàu thuyền) rời cảng,名,0,L2-21,21,Liên lạc và giao tiếp,7,chu_de,4,VI:nói
+585,L2-0085,1398,586,答应,dāying,trả lời; phản hồi / trả lời tích cực; đồng ý; chấp nhận; hứa,动,0,L2-21,21,Liên lạc và giao tiếp,8,chu_de,4,VI:trả lời
+588,L2-0088,1440,589,打印,dǎyìn,đóng dấu / đóng mộc / in ra (bằng máy in),动,0,L2-21,21,Liên lạc và giao tiếp,9,ra_soat_thu_cong,100,ra_soat_thu_cong
+597,L2-0097,1500,598,大声,dà shēng,giọng to / bằng giọng to / to tiếng,,0,L2-21,21,Liên lạc và giao tiếp,10,ra_soat_thu_cong,100,ra_soat_thu_cong
+627,L2-0127,1807,627,点头,diǎntóu,gật đầu,,0,L2-21,21,Liên lạc và giao tiếp,11,ra_soat_thu_cong,100,ra_soat_thu_cong
+641,L2-0141,2002,641,短信,duǎnxìn,tin nhắn văn bản / SMS,名,0,L2-21,21,Liên lạc và giao tiếp,12,xac_dinh,100,FORCED
+646,L2-0146,2029,645,对话,duìhuà,nói chuyện (với ai đó) / đối thoại; cuộc trò chuyện,动、名,0,L2-21,21,Liên lạc và giao tiếp,13,chu_de,28,"ZH:对话, VI:nói, VI:đối thoại"
+679,L2-0179,2602,676,感谢,gǎnxiè,(bày tỏ) cảm ơn / lòng biết ơn / biết ơn / cảm ơn / xin cảm ơn,动,0,L2-21,21,Liên lạc và giao tiếp,14,ra_soat_bai23,100,ra_soat_bai23
+701,L2-0201,2961,698,关机,guānjī,tắt (máy móc hoặc thiết bị) / hoàn thành quay phim,,0,L2-21,21,Liên lạc và giao tiếp,15,ra_soat_bai23,100,ra_soat_bai23
+713,L2-0213,3188,710,喊,hǎn,la hét / hò hét / gọi to (người),动,0,L2-21,21,Liên lạc và giao tiếp,16,ra_soat_thu_cong,100,ra_soat_thu_cong
+739,L2-0239,3498,734,欢迎,huānyíng,chào đón / chào mừng,动,0,L2-21,21,Liên lạc và giao tiếp,17,ra_soat_bai23,100,ra_soat_bai23
+767,L2-0267,4023,760,讲,jiǎng,nói / giải thích / đàm phán / nhấn mạnh / kĩ lưỡng / về mặt nào đó / bài nói / chia sẻ,动,0,L2-21,21,Liên lạc và giao tiếp,18,chu_de,8,"VI:nói, VI:giải thích"
+768,L2-0268,4024,761,讲话,jiǎnghuà,bài phát biểu / nói / trò chuyện / phát biểu,,0,L2-21,21,Liên lạc và giao tiếp,19,ra_soat_thu_cong,100,ra_soat_thu_cong
+770,L2-0270,4053,763,交给,jiāo gěi,đưa; giao; chuyển giao,,0,L2-21,21,Liên lạc và giao tiếp,20,chu_de,20,ZH:交给
+777,L2-0277,4111,770,叫作,jiàozuò,gọi / được gọi là,动,0,L2-21,21,Liên lạc và giao tiếp,21,ra_soat_thu_cong,100,ra_soat_thu_cong
+782,L2-0282,4139,775,接,jiē,nhận / trả lời (điện thoại) / gặp hoặc chào đón ai / kết nối / bắt / ghép / mở rộng / tiếp nhận ca trực / tiếp quản cho ai,动,0,L2-21,21,Liên lạc và giao tiếp,22,chu_de,8,"VI:điện thoại, VI:trả lời"
+784,L2-0284,4155,777,接受,jiēshòu,"chấp nhận (đề nghị, trừng phạt, hối lộ, v.v.); đồng ý",动,0,L2-21,21,Liên lạc và giao tiếp,23,ra_soat_bai23,100,ra_soat_bai23
+830,L2-0330,4833,823,快点儿,kuài diǎnr,biến thể er hoá của 快點|快点[kuai4 dian3],,0,L2-21,21,Liên lạc và giao tiếp,24,ra_soat_bai23,100,ra_soat_bai23
+860,L2-0360,5235,851,留,liú,"biến thể cũ của 留[liu2] / để lại (tin nhắn, v.v.) / giữ lại / ở lại / duy trì / bảo tồn / lưu giữ",动,0,L2-21,21,Liên lạc và giao tiếp,25,chu_de,4,VI:tin nhắn
+940,L2-0440,6484,930,清楚,qīngchu,rõ ràng / minh bạch / hiểu rõ / nắm rõ,形,0,L2-21,21,Liên lạc và giao tiếp,26,ra_soat_thu_cong,100,ra_soat_thu_cong
+944,L2-0444,6525,934,请求,qǐngqiú,yêu cầu; hỏi / một yêu cầu (,动、名,0,L2-21,21,Liên lạc và giao tiếp,27,chu_de,4,VI:hỏi
+946,L2-0446,6539,936,求,qiú,tìm kiếm / tìm / thỉnh cầu / yêu cầu / cầu xin,动,0,L2-21,21,Liên lạc và giao tiếp,28,ra_soat_bai23,100,ra_soat_bai23
+960,L2-0460,6661,950,让,ràng,"nhường / cho phép / để ai đó làm gì / bảo ai đó làm gì / khiến ai đó (cảm thấy buồn, v.v.) / bởi (chỉ tác nhân trong câu bị động, như 被[bei4])",动、介,0,L2-21,21,Liên lạc và giao tiếp,29,ra_soat_bai23,100,ra_soat_bai23
+970,L2-0470,6933,960,商量,shāngliang,trao đổi / bàn bạc / thảo luận,动,0,L2-21,21,Liên lạc và giao tiếp,30,chu_de,28,"ZH:商量, VI:thảo luận, VI:trao đổi"
+980,L2-0480,7144,970,声音,shēngyīn,giọng / âm thanh,名,0,L2-21,21,Liên lạc và giao tiếp,31,ra_soat_thu_cong,100,ra_soat_thu_cong
+1005,L2-0505,7598,995,说明,shuōmíng,giải thích / minh họa / chỉ ra / cho thấy / chứng minh / hướng dẫn / chú thích,动、名,0,L2-21,21,Liên lạc và giao tiếp,32,chu_de,32,"ZH:说, ZH:说明, VI:giải thích"
+1020,L2-0520,7848,1010,讨论,tǎolùn,thảo luận; bàn luận,动,0,L2-21,21,Liên lạc và giao tiếp,33,xac_dinh,100,FORCED
+1027,L2-0527,7885,1017,提到,tídào,đề cập / nêu (một chủ đề) / nhắc đến,,0,L2-21,21,Liên lạc và giao tiếp,34,ra_soat_thu_cong,100,ra_soat_thu_cong
+1036,L2-0536,8008,1026,听讲,tīngjiǎng,tham dự buổi nói chuyện / nghe bài giảng,,0,L2-21,21,Liên lạc và giao tiếp,35,chu_de,4,VI:nói
+1037,L2-0537,8011,1027,听说,tīngshuō,nghe (nói) / nghe rằng / nghe đồn / nghe và nói,动,0,L2-21,21,Liên lạc và giao tiếp,36,xac_dinh,100,FORCED
+1043,L2-0543,8029,1033,通,tōng,"đi qua / biết rõ / (hậu tố) chuyên gia / kết nối / giao tiếp / mở / thông / lượng từ cho thư, điện báo, cuộc gọi điện thoại, v.v.",动、形,0,L2-21,21,Liên lạc và giao tiếp,37,chu_de,8,"VI:điện thoại, VI:gọi điện"
+1045,L2-0545,8051,1035,通知,tōngzhī,thông báo / thông tin / thông tri,动、名,0,L2-21,21,Liên lạc và giao tiếp,38,ra_soat_thu_cong,100,ra_soat_thu_cong
+1061,L2-0561,8299,1051,晚报,wǎnbào,báo chiều / (trong tên tờ báo) Tin Tức Buổi Chiều,名,0,L2-21,21,Liên lạc và giao tiếp,39,ra_soat_thu_cong,100,ra_soat_thu_cong
+1066,L2-0566,8324,1056,网,wǎng,lưới / mạng lưới,名,0,L2-21,21,Liên lạc và giao tiếp,40,ra_soat_bai23,100,ra_soat_bai23
+1068,L2-0568,8333,1058,网站,wǎngzhàn,trang web,名,0,L2-21,21,Liên lạc và giao tiếp,41,ra_soat_thu_cong,100,ra_soat_thu_cong
+1074,L2-0574,8438,1064,喂,wèi,"này / cho ăn (động vật, em bé, người bệnh v.v.) / biến thể của 餵|喂[wei4] / cho ăn",Intj,0,L2-21,21,Liên lạc và giao tiếp,42,ra_soat_thu_cong,100,ra_soat_thu_cong
+1076,L2-0576,8470,1066,闻,wén,nghe / tin tức / nổi tiếng / nổi danh / danh tiếng / tên tuổi / ngửi / ngửi thấy,动,0,L2-21,21,Liên lạc và giao tiếp,43,chu_de,4,VI:tin tức
+1078,L2-0578,8488,1068,问题,wèntí,câu hỏi / vấn đề / chủ đề,名,0,L2-21,21,Liên lạc và giao tiếp,44,xac_dinh,100,FORCED
+1103,L2-0603,8907,1092,小声,xiǎo shēng,giọng nhỏ / (nói) thì thầm,,0,L2-21,21,Liên lạc và giao tiếp,45,chu_de,4,VI:nói
+1105,L2-0605,8910,1094,小说,xiǎoshuō,tiểu thuyết / hư cấu,名,0,L2-21,21,Liên lạc và giao tiếp,46,chu_de,8,ZH:说
+1116,L2-0616,9023,1105,新闻,xīnwén,tin tức,名,0,L2-21,21,Liên lạc và giao tiếp,47,xac_dinh,100,FORCED
+1117,L2-0617,9029,1106,信,xìn,thư / tín / tin tưởng / tin / tín ngưỡng / thành thật / tự tin / tin cậy / tùy ý / ngẫu nhiên,名,0,L2-21,21,Liên lạc và giao tiếp,48,ra_soat_thu_cong,100,ra_soat_thu_cong
+1118,L2-0618,9033,1107,信号,xìnhào,tín hiệu,名,0,L2-21,21,Liên lạc và giao tiếp,49,ra_soat_thu_cong,100,ra_soat_thu_cong
+1119,L2-0619,9038,1108,信息,xìnxī,thông tin / tin tức / tin nhắn,名,0,L2-21,21,Liên lạc và giao tiếp,50,chu_de,8,"VI:tin nhắn, VI:tin tức"
+1138,L2-0638,9388,1127,要求,yāoqiú,yêu cầu / đòi hỏi / đòi quyền / hỏi,动、名,0,L2-21,21,Liên lạc và giao tiếp,51,chu_de,4,VI:hỏi
+1203,L2-0703,10130,1191,咱,zán,biến thể của 咱[zan2] / tôi hoặc tao / chúng ta (bao gồm cả người nói và người nghe),代,0,L2-21,21,Liên lạc và giao tiếp,52,chu_de,4,VI:nói
+1209,L2-0709,10185,1197,怎么办,zěnme bàn,phải làm sao đây,,0,L2-21,21,Liên lạc và giao tiếp,53,ra_soat_bai23,100,ra_soat_bai23
+1210,L2-0710,10186,1198,怎么样,zěnmeyàng,như thế nào? / thế nào? / ra sao? / mọi thứ sao rồi?,代,0,L2-21,21,Liên lạc và giao tiếp,54,ra_soat_bai23,100,ra_soat_bai23
+1211,L2-0711,10187,1199,怎样,zěnyàng,như thế nào / loại gì,代,0,L2-21,21,Liên lạc và giao tiếp,55,ra_soat_bai23,100,ra_soat_bai23
+1229,L2-0729,10497,1216,直接,zhíjiē,trực tiếp (đối lập: gián tiếp 間接|间接[jian4 jie1]) / ngay lập tức / thẳng thắn,形,0,L2-21,21,Liên lạc và giao tiếp,56,ra_soat_bai23,100,ra_soat_bai23
+613,L2-0113,1675,614,道理,dàolǐ,lý do / tranh luận / hợp lý / nguyên tắc / cơ sở / sự biện minh,名,0,L2-22,22,Văn hóa và quan điểm,1,ra_soat_thu_cong,100,ra_soat_thu_cong
+645,L2-0145,2019,105,对,duì,đúng; chính xác,介、动,1,L2-22,22,Văn hóa và quan điểm,2,ra_soat_bai23,100,ra_soat_bai23
+693,L2-0193,2798,690,公平,gōngpíng,công bằng / không thiên vị,形,0,L2-22,22,Văn hóa và quan điểm,3,chu_de,24,"ZH:公平, VI:công bằng"
+699,L2-0199,2920,696,故意,gùyì,cố ý; có chủ đích,副,0,L2-22,22,Văn hóa và quan điểm,4,ra_soat_thu_cong,100,ra_soat_thu_cong
+703,L2-0203,2975,700,观点,guāndiǎn,quan điểm / góc nhìn / lập trường,名,0,L2-22,22,Văn hóa và quan điểm,5,xac_dinh,100,FORCED
+774,L2-0274,4093,767,角度,jiǎodù,góc / quan điểm,名,0,L2-22,22,Văn hóa và quan điểm,6,chu_de,4,VI:quan điểm
+813,L2-0313,4639,806,看法,kànfǎ,cách nhìn / quan điểm / ý kiến,名,0,L2-22,22,Văn hóa và quan điểm,7,xac_dinh,100,FORCED
+835,L2-0335,4915,828,来自,láizì,đến từ (một nơi) / Từ: (trong tiêu đề email),动,0,L2-22,22,Văn hóa và quan điểm,8,ra_soat_bai23,100,ra_soat_bai23
+848,L2-0348,5045,840,理想,lǐxiǎng,một lý tưởng / một giấc mơ / lý tưởng / hoàn hảo,名,0,L2-22,22,Văn hóa và quan điểm,9,chu_de,24,"ZH:理想, VI:lý tưởng"
+849,L2-0349,5085,841,例如,lìrú,ví dụ; chẳng hạn; như là,动,0,L2-22,22,Văn hóa và quan điểm,10,ra_soat_bai23,100,ra_soat_bai23
+864,L2-0364,5253,855,流利,liúlì,lưu loát,形,0,L2-22,22,Văn hóa và quan điểm,11,ra_soat_bai23,100,ra_soat_bai23
+925,L2-0425,6193,915,普通话,pǔtōnghuà,Quan Thoại (ngôn ngữ phổ thông) / Phổ thông thoại (lời nói chung của tiếng Trung Quốc) / lời nói thông thường,名,0,L2-22,22,Văn hóa và quan điểm,12,chu_de,12,"VI:trung quốc, VI:ngôn ngữ, VI:tiếng trung"
+954,L2-0454,6606,944,全国,quánguó,cả nước / toàn quốc / toàn quốc gia,名,0,L2-22,22,Văn hóa và quan điểm,13,ra_soat_thu_cong,100,ra_soat_thu_cong
+962,L2-0462,6698,952,人口,rénkǒu,dân số / con người,名,0,L2-22,22,Văn hóa và quan điểm,14,ra_soat_thu_cong,100,ra_soat_thu_cong
+965,L2-0465,6741,955,认为,rènwéi,tin; nghĩ; xem xét; cảm thấy,动,0,L2-22,22,Văn hóa và quan điểm,15,xac_dinh,100,FORCED
+984,L2-0484,7238,974,实际,shíjì,thực tế / thực hành / thực tiễn / thực / sự thật,名、形,0,L2-22,22,Văn hóa và quan điểm,16,ra_soat_thu_cong,100,ra_soat_thu_cong
+991,L2-0491,7284,981,市,shì,chợ / thành phố,名,0,L2-22,22,Văn hóa và quan điểm,17,ra_soat_thu_cong,100,ra_soat_thu_cong
+992,L2-0492,7289,982,市长,shìzhǎng,thị trưởng,名,0,L2-22,22,Văn hóa và quan điểm,18,ra_soat_thu_cong,100,ra_soat_thu_cong
+1019,L2-0519,7779,1009,态度,tàidù,cách thức / tác phong / thái độ / phương pháp,名,0,L2-22,22,Văn hóa và quan điểm,19,chu_de,24,"ZH:态度, VI:thái độ"
+1096,L2-0596,8842,1085,想到,xiǎngdào,nghĩ đến / gợi nhớ / dự đoán,,0,L2-22,22,Văn hóa và quan điểm,20,ra_soat_bai23,100,ra_soat_bai23
+1097,L2-0597,8843,1086,想法,xiǎngfǎ,cách nghĩ; ý kiến; quan niệm / nghĩ cách (làm gì đó),名,0,L2-22,22,Văn hóa và quan điểm,21,chu_de,28,"ZH:想法, VI:ý kiến, VI:cách nghĩ"
+1098,L2-0598,8846,1087,想起,xiǎngqǐ,nhớ lại / nghĩ đến / nhớ ra,,0,L2-22,22,Văn hóa và quan điểm,22,ra_soat_bai23,100,ra_soat_bai23
+1125,L2-0625,9065,1114,行为,xíngwéi,hành động / cách cư xử / hành vi / hoạt động,名,0,L2-22,22,Văn hóa và quan điểm,23,ra_soat_thu_cong,100,ra_soat_thu_cong
+1157,L2-0657,9572,1145,以为,yǐwéi,nghĩ rằng (tức là cho là đúng...) (Thường có hàm ý rằng quan niệm đó là sai lầm – ngoại trừ khi diễn đạt ý kiến hiện tại của chính mình.),动,0,L2-22,22,Văn hóa và quan điểm,24,ra_soat_thu_cong,100,ra_soat_thu_cong
+1165,L2-0665,9658,1153,意见,yìjiàn,ý kiến / quan điểm / đề xuất / phản đối / phàn nàn,名,0,L2-22,22,Văn hóa và quan điểm,25,xac_dinh,100,FORCED
+1166,L2-0666,9662,1154,意思,yìsi,"ý tưởng / ý kiến / nghĩa / ước nguyện / mong muốn / hứng thú / vui / lòng biết ơn, tình cảm, v.v. / tặng như một biểu thị nhỏ / làm gì đó như một cử chỉ thiện chí, v.v.",名,0,L2-22,22,Văn hóa và quan điểm,26,ra_soat_thu_cong,100,ra_soat_thu_cong
+1176,L2-0676,9738,1164,英文,Yīngwén,tiếng Anh (ngôn ngữ),名,0,L2-22,22,Văn hóa và quan điểm,27,chu_de,4,VI:ngôn ngữ
+1177,L2-0677,9741,1165,英语,Yīngyǔ,tiếng Anh,名,0,L2-22,22,Văn hóa và quan điểm,28,ra_soat_bai23,100,ra_soat_bai23
+1190,L2-0690,9946,1178,语言,yǔyán,ngôn ngữ,名,0,L2-22,22,Văn hóa và quan điểm,29,xac_dinh,100,FORCED
+1241,L2-0741,10676,1228,重视,zhòngshì,coi trọng; đánh giá cao,动,0,L2-22,22,Văn hóa và quan điểm,30,ra_soat_thu_cong,100,ra_soat_thu_cong
+1253,L2-0753,10935,1240,自由,zìyóu,tự do; sự tự do / tự do; không bị hạn chế,名、形,0,L2-22,22,Văn hóa và quan điểm,31,ra_soat_thu_cong,100,ra_soat_thu_cong
+528,L2-0028,437,529,表,biǎo,bề mặt bên ngoài / quan hệ họ hàng qua nữ giới / thể hiện (ý kiến của một người) / mô hình / bảng (liệt kê thông tin) / biểu mẫu / đồng hồ đo (đo lường cái gì đó) / đồng hồ (dụng cụ đo thời gian) / đồng hồ đo; máy đo,名,0,L2-23,23,Ôn tập và từ dùng chung,1,giu_bai23,100,tu_dung_chung
+618,L2-0118,1701,619,得,de,"trợ từ kết cấu: dùng sau động từ (hoặc tính từ làm động từ chính), liên kết với cụm sau chỉ kết quả, mức độ, khả năng, v.v.",助,0,L2-23,23,Ôn tập và từ dùng chung,2,giu_bai23,100,tu_dung_chung
+642,L2-0142,2004,642,段,duàn,"đoạn / phần / mẩu / giai đoạn (của một quá trình) / lượng từ cho câu chuyện, khoảng thời gian, độ dài sợi chỉ, v.v.",量,0,L2-23,23,Ôn tập và từ dùng chung,3,giu_bai23,100,tu_dung_chung
+668,L2-0168,2372,665,份,fèn,"lượng từ cho quà tặng, báo, tạp chí, giấy tờ, báo cáo, hợp đồng, v.v. / biến thể của 分[fen4]",量,0,L2-23,23,Ôn tập và từ dùng chung,4,giu_bai23,100,tu_dung_chung
+745,L2-0245,3596,170,会,huì,biết; có thể,名,1,L2-23,23,Ôn tập và từ dùng chung,5,giu_bai23,100,tu_dung_chung
+792,L2-0292,4239,785,借,jiè,"mượn / (dùng kết hợp với 給|给[gei3] hoặc 出[chu1],...) cho mượn / tận dụng; lợi dụng / (đôi khi theo sau bởi 著|着[zhe5]) bằng; với / biến thể của 借[jie4]",动,0,L2-23,23,Ôn tập và từ dùng chung,6,giu_bai23,100,tu_dung_chung
+856,L2-0356,5140,224,两,liǎng,hai,量,1,L2-23,23,Ôn tập và từ dùng chung,7,giu_bai23,100,tu_dung_chung
+902,L2-0402,5912,892,弄,nòng,làm / quản lý / xử lý / chơi với / nghịch với / đùa với / sửa / chạm vào / biến thể cũ của 弄[nong4],动,0,L2-23,23,Ôn tập và từ dùng chung,8,giu_bai23,100,tu_dung_chung
+926,L2-0426,6222,916,其他,qítā,khác / (điều gì đó hoặc ai đó) khác / phần còn lại,代,0,L2-23,23,Ôn tập và từ dùng chung,9,giu_bai23,100,tu_dung_chung
+927,L2-0427,6224,917,其中,qízhōng,trong số / trong / bao gồm trong số này,名,0,L2-23,23,Ôn tập và từ dùng chung,10,giu_bai23,100,tu_dung_chung
+990,L2-0490,7269,980,使用,shǐyòng,sử dụng / tận dụng / áp dụng,动,0,L2-23,23,Ôn tập và từ dùng chung,11,giu_bai23,100,tu_dung_chung
+1015,L2-0515,7752,1005,它,tā,nó,代,0,L2-23,23,Ôn tập và từ dùng chung,12,giu_bai23,100,tu_dung_chung
+1016,L2-0516,7753,1006,它们,tāmen,chúng; chúng nó,代,0,L2-23,23,Ôn tập và từ dùng chung,13,giu_bai23,100,tu_dung_chung
+1053,L2-0553,8173,1043,推,tuī,đẩy / cắt / từ chối / bác bỏ / khước từ / đùn đẩy (trách nhiệm) / hoãn / trì hoãn / thúc đẩy / đề cử / bầu chọn / massage,动,0,L2-23,23,Ôn tập và từ dùng chung,14,giu_bai23,100,tu_dung_chung

@@ -1,0 +1,646 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Tổng ôn HSK {{ course.MaCapDo }} | Mộc Hán
+{% endblock %}
+
+{% block content %}
+
+<section class="review-page"
+         id="reviewPage"
+         data-course-id="{{ course.MaKhoaHoc }}"
+         data-course-level="{{ course.MaCapDo }}">
+
+    <!-- ĐẦU TRANG -->
+    <div class="review-topbar">
+        <a href="{{ url_for('courses.detail', course_id=course.MaKhoaHoc) }}"
+           class="review-back-link">
+            ‹ HSK {{ course.MaCapDo }}
+        </a>
+
+        <a href="{{ url_for('foundation.pinyin') }}"
+           class="review-pinyin-link">
+            拼 Pinyin
+        </a>
+    </div>
+
+    <!-- HEADER -->
+    <header class="review-header">
+        <div class="review-title-row">
+            <div>
+                <div class="review-title-meta">
+                    <span class="review-badge">↻ Tổng ôn</span>
+                    <span>{{ total_lessons }} bài</span>
+                    <span>·</span>
+                    <span>{{ total_vocabulary }} từ vựng</span>
+                </div>
+
+                <h1>HSK {{ course.MaCapDo }}</h1>
+
+                <p>
+                    Trộn từ vựng từ các bài đã chọn
+                    — không tính vào tiến độ bài học.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- CHỌN PHẠM VI ÔN TẬP -->
+    <section class="review-lesson-selector">
+
+        <div class="review-selector-heading">
+            <div>
+                <span>PHẠM VI ÔN TẬP</span>
+                <h2>Chọn bài muốn ôn</h2>
+                <p>
+                    Bạn có thể ôn một bài,
+                    nhiều bài hoặc toàn bộ khóa học.
+                </p>
+            </div>
+
+            <div class="review-selector-actions">
+                <button type="button" id="reviewSelectAllButton">
+                    Chọn tất cả
+                </button>
+                <button type="button" id="reviewClearAllButton">
+                    Bỏ chọn
+                </button>
+            </div>
+        </div>
+
+        <div class="review-lesson-grid" id="reviewLessonGrid">
+            {% for lesson in lessons %}
+            <label class="review-lesson-option">
+                <input type="checkbox"
+                       class="review-lesson-checkbox"
+                       value="{{ lesson.MaBaiHoc }}"
+                       data-lesson-order="{{ lesson.SoThuTuBai }}"
+                       data-vocabulary-count="{{ lesson.SoTuVung }}"
+                       data-grammar-count="{{ lesson.SoNguPhap }}"
+                       data-hanzi-count="{{ lesson.SoChuHan }}"
+                       checked>
+
+                <span class="review-lesson-number">
+                    {{ lesson.SoThuTuBai }}
+                </span>
+
+                <span class="review-lesson-info">
+                    <strong>Bài {{ lesson.SoThuTuBai }}</strong>
+                    <small>{{ lesson.SoTuVung }} từ</small>
+                </span>
+            </label>
+            {% else %}
+            <div class="review-empty">
+                <strong>Khóa học chưa có bài học.</strong>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="review-selection-summary">
+            <div>
+                <strong id="reviewSelectedLessons">
+                    {{ total_lessons }}
+                </strong>
+                <span>bài đã chọn</span>
+            </div>
+
+            <div>
+                <strong id="reviewSelectedVocabulary">
+                    {{ total_vocabulary }}
+                </strong>
+                <span>từ vựng</span>
+            </div>
+
+            <div>
+                <strong id="reviewSelectedGrammar">
+                    {{ total_grammar }}
+                </strong>
+                <span>ngữ pháp</span>
+            </div>
+
+            <div>
+                <strong id="reviewSelectedHanzi">
+                    {{ total_hanzi }}
+                </strong>
+                <span>chữ Hán</span>
+            </div>
+        </div>
+    </section>
+
+    {% if vocabularies %}
+
+    <section class="review-study-section" id="reviewStudySection">
+
+        <!-- THANH CÔNG CỤ -->
+        <div class="review-study-toolbar">
+
+            <div class="review-study-left">
+                <button type="button"
+                        class="review-view-button active"
+                        id="reviewWordModeButton">
+                    词 Từ vựng
+                </button>
+
+                <button type="button"
+                        class="review-view-button"
+                        id="reviewExampleModeButton">
+                    ▣ Ví dụ
+                </button>
+            </div>
+
+            <div class="review-study-counter">
+                <strong id="reviewCurrentNumber">1</strong>
+                <span>/</span>
+                <span id="reviewTotalNumber">
+                    {{ total_vocabulary }}
+                </span>
+            </div>
+
+            <div class="review-study-actions">
+                <button type="button"
+                        class="review-action-button"
+                        id="reviewDirectionButton">
+                    ⇄ ZH → VI
+                </button>
+
+                <button type="button"
+                        class="review-action-button"
+                        id="reviewAutoButton">
+                    ▷ Tự động
+                </button>
+
+                <button type="button"
+                        class="review-action-button"
+                        id="reviewShuffleButton">
+                    ⤨ Xáo trộn
+                </button>
+            </div>
+        </div>
+
+        <!-- FLASHCARD -->
+        <div class="review-flashcard-shell"
+             id="reviewFlashcardShell">
+
+            <div class="review-flashcard"
+                 id="reviewFlashcard"
+                 role="button"
+                 tabindex="0"
+                 aria-label="Flashcard tổng ôn">
+
+                <div class="review-card-face review-card-front">
+
+                    <button type="button"
+                            class="review-audio-button"
+                            id="reviewAudioButton"
+                            data-audio-url=""
+                            title="Nghe phát âm"
+                            aria-label="Nghe phát âm"
+                            hidden>
+                        🔊
+                    </button>
+
+                    <div class="review-card-pinyin"
+                         id="reviewFrontPinyin"></div>
+
+                    <div class="review-card-main"
+                         id="reviewFrontText"></div>
+
+                    <div class="review-card-secondary"
+                         id="reviewFrontSecondary"></div>
+
+                    <div class="review-card-hint">
+                        ✧ Click để lật
+                    </div>
+                </div>
+
+                <div class="review-card-face review-card-back">
+                    <div class="review-back-hanzi"
+                         id="reviewBackHanzi"></div>
+
+                    <div class="review-back-pinyin"
+                         id="reviewBackPinyin"></div>
+
+                    <div class="review-back-meaning"
+                         id="reviewBackMeaning"></div>
+
+                    <div class="review-back-type"
+                         id="reviewBackType"></div>
+
+                    <div class="review-back-example"
+                         id="reviewBackExample"></div>
+
+                    <div class="review-back-example-meaning"
+                         id="reviewBackExampleMeaning"></div>
+                </div>
+            </div>
+
+            <div class="review-flashcard-controls">
+                <button type="button" id="reviewPreviousButton">
+                    ‹ Trước
+                </button>
+
+                <button type="button"
+                        class="review-not-learned"
+                        id="reviewNotLearnedButton">
+                    ✕ Chưa thuộc
+                </button>
+
+                <button type="button"
+                        class="review-learned"
+                        id="reviewLearnedButton">
+                    ✓ Đã thuộc
+                </button>
+
+                <button type="button" id="reviewNextButton">
+                    Sau ›
+                </button>
+            </div>
+        </div>
+
+        <!-- TRẮC NGHIỆM -->
+        <section class="review-quiz-area"
+                 id="reviewQuizArea"
+                 hidden>
+
+            <div class="review-mode-header">
+                <div>
+                    <span>TRẮC NGHIỆM</span>
+                    <h3 id="reviewQuizProgress">Câu 1</h3>
+                </div>
+            </div>
+
+            <div class="review-question-card">
+                <div class="review-question-main"
+                     id="reviewQuizQuestion"></div>
+
+                <div class="review-question-secondary"
+                     id="reviewQuizPinyin"></div>
+
+                <p>Chọn nghĩa đúng.</p>
+            </div>
+
+            <div class="review-answer-grid"
+                 id="reviewQuizOptions"></div>
+
+            <div class="review-feedback"
+                 id="reviewQuizFeedback"></div>
+
+            <div class="review-mode-bottom">
+                <button type="button"
+                        id="reviewQuizNextButton"
+                        hidden>
+                    Câu tiếp theo →
+                </button>
+            </div>
+        </section>
+
+        <!-- GÕ TỪ: HAI CHẾ ĐỘ -->
+        <section class="review-typing-area"
+                 id="reviewTypingArea"
+                 hidden>
+
+            <div class="review-mode-header">
+                <div>
+                    <span>GÕ TỪ</span>
+                    <h3 id="reviewTypingProgress">Câu 1</h3>
+                </div>
+            </div>
+
+            <!-- LỰA CHỌN KIỂU GÕ -->
+            <div class="review-typing-modes"
+                 role="group"
+                 aria-label="Chọn kiểu gõ từ"
+                 style="display:flex;flex-wrap:wrap;gap:12px;margin:16px 0;">
+
+                <label style="display:flex;align-items:center;gap:7px;cursor:pointer;padding:10px 14px;border:1px solid #d9c7ad;border-radius:9px;background:#fffaf3;">
+                    <input type="radio"
+                           name="reviewTypingMode"
+                           value="hanzi"
+                           checked>
+                    <span>✍ Gõ chữ Hán</span>
+                </label>
+
+                <label style="display:flex;align-items:center;gap:7px;cursor:pointer;padding:10px 14px;border:1px solid #d9c7ad;border-radius:9px;background:#fffaf3;">
+                    <input type="radio"
+                           name="reviewTypingMode"
+                           value="pinyin">
+                    <span>拼 Gõ Pinyin</span>
+                </label>
+            </div>
+
+            <div class="review-question-card">
+                <span>HÃY NHẬP ĐÁP ÁN</span>
+
+                <div class="review-question-main"
+                     id="reviewTypingQuestion"></div>
+
+                <div class="review-question-secondary"
+                     id="reviewTypingHint"></div>
+            </div>
+
+            <div class="review-input-row">
+                <input type="text"
+                       id="reviewTypingInput"
+                       autocomplete="off"
+                       autocapitalize="off"
+                       spellcheck="false"
+                       placeholder="Nhập đáp án...">
+
+                <button type="button"
+                        id="reviewTypingCheckButton">
+                    Kiểm tra
+                </button>
+            </div>
+
+            <div class="review-feedback"
+                 id="reviewTypingFeedback"
+                 aria-live="polite"></div>
+
+            <div class="review-mode-bottom">
+                <button type="button"
+                        id="reviewTypingNextButton"
+                        hidden>
+                    Câu tiếp theo →
+                </button>
+            </div>
+        </section>
+
+        <!-- ĐỌC HIỂU -->
+        <section class="review-reading-area"
+                 id="reviewReadingArea"
+                 hidden>
+
+            <div class="review-mode-header">
+                <div>
+                    <span>ĐỌC HIỂU</span>
+                    <h3 id="reviewReadingProgress">Câu 1</h3>
+                </div>
+            </div>
+
+            <div class="review-question-card">
+                <span>ĐỌC CÂU SAU</span>
+
+                <div class="review-reading-chinese"
+                     id="reviewReadingChinese"></div>
+
+                <p>Câu trên có nghĩa là gì?</p>
+            </div>
+
+            <div class="review-answer-grid"
+                 id="reviewReadingOptions"></div>
+
+            <div class="review-feedback"
+                 id="reviewReadingFeedback"></div>
+
+            <div class="review-mode-bottom">
+                <button type="button"
+                        id="reviewReadingNextButton"
+                        hidden>
+                    Câu tiếp theo →
+                </button>
+            </div>
+        </section>
+
+        <!-- NGHE GHÉP CÂU -->
+        <section class="review-listening-area"
+                 id="reviewListeningArea"
+                 hidden>
+
+            <div class="review-mode-header">
+                <div>
+                    <span>NGHE GHÉP CÂU</span>
+                    <h3 id="reviewListeningProgress">Câu 1</h3>
+                </div>
+            </div>
+
+            <div class="review-listening-toolbar">
+                <button type="button"
+                        id="reviewListeningPlayButton">
+                    🔊 Nghe câu
+                </button>
+
+                <div class="review-speed-group">
+                    <button type="button"
+                            data-review-speed="0.5">0.5x</button>
+
+                    <button type="button"
+                            data-review-speed="0.8">0.8x</button>
+
+                    <button type="button"
+                            data-review-speed="1"
+                            class="active">1x</button>
+
+                    <button type="button"
+                            data-review-speed="1.5">1.5x</button>
+
+                    <button type="button"
+                            data-review-speed="2">2x</button>
+                </div>
+            </div>
+
+            <div class="review-listening-answer">
+                <span>CÂU BẠN GHÉP</span>
+
+                <div class="review-listening-slots"
+                     id="reviewListeningSlots"></div>
+            </div>
+
+            <div class="review-listening-token-bank"
+                 id="reviewListeningTokenBank"></div>
+
+            <div class="review-feedback"
+                 id="reviewListeningFeedback"></div>
+
+            <div class="review-mode-bottom">
+                <button type="button"
+                        id="reviewListeningNextButton"
+                        hidden>
+                    Câu tiếp theo →
+                </button>
+            </div>
+        </section>
+
+        <!-- ĐẤU TRÍ -->
+        <section class="review-battle-area"
+                 id="reviewBattleArea"
+                 hidden>
+
+            <div class="review-battle-header">
+                <div>
+                    <span>ĐẤU TRÍ</span>
+                    <h3 id="reviewBattleProgress">Câu 1</h3>
+                </div>
+
+                <div class="review-battle-stats">
+                    <strong id="reviewBattlePoints">0 điểm</strong>
+                    <strong id="reviewBattleTimer">15s</strong>
+                </div>
+            </div>
+
+            <div class="review-question-card">
+                <span id="reviewBattleQuestionLabel">
+                    CHỌN ĐÁP ÁN ĐÚNG
+                </span>
+
+                <div class="review-question-main"
+                     id="reviewBattleQuestion"></div>
+
+                <div class="review-question-secondary"
+                     id="reviewBattleSecondary"></div>
+            </div>
+
+            <div class="review-answer-grid"
+                 id="reviewBattleOptions"></div>
+
+            <div class="review-feedback"
+                 id="reviewBattleFeedback"></div>
+
+            <div class="review-mode-bottom">
+                <button type="button"
+                        id="reviewBattleNextButton"
+                        hidden>
+                    Câu tiếp theo →
+                </button>
+            </div>
+        </section>
+
+        <!-- KẾT QUẢ -->
+        <section class="review-result-area"
+                 id="reviewResultArea"
+                 hidden>
+
+            <span>HOÀN THÀNH</span>
+            <h2 id="reviewResultTitle">Kết quả</h2>
+
+            <div class="review-result-score">
+                <strong id="reviewResultScore">0 / 0</strong>
+                <span>Số câu đúng</span>
+            </div>
+
+            <div class="review-result-percent">
+                Điểm:
+                <strong id="reviewResultPercent">0%</strong>
+            </div>
+
+            <div class="review-result-actions">
+                <button type="button" id="reviewRestartButton">
+                    ↻ Làm lại
+                </button>
+
+                <button type="button" id="reviewBackFlashcardButton">
+                    ← Flashcard
+                </button>
+            </div>
+        </section>
+
+        <!-- CHỌN CHẾ ĐỘ HỌC -->
+        <section class="review-study-modes">
+
+            <div class="review-study-modes-heading">
+                <div>
+                    <h2>Chọn chế độ học</h2>
+                    <p>
+                        Luyện lại từ vựng trong phạm vi
+                        các bài bạn đã chọn.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review-mode-grid">
+
+                <button type="button"
+                        class="review-mode-card active"
+                        data-review-mode="flashcard">
+                    <span class="review-mode-icon">▱</span>
+                    <strong>Flashcard</strong>
+                    <small class="review-mode-status">Đang học</small>
+                </button>
+
+                <button type="button"
+                        class="review-mode-card"
+                        data-review-mode="quiz">
+                    <span class="review-mode-icon">◎</span>
+                    <strong>Trắc nghiệm</strong>
+                    <small class="review-mode-status">Chưa học</small>
+                </button>
+
+                <button type="button"
+                        class="review-mode-card"
+                        data-review-mode="typing">
+                    <span class="review-mode-icon">⚡</span>
+                    <strong>Gõ từ</strong>
+                    <small class="review-mode-status">Chưa học</small>
+                </button>
+
+                <button type="button"
+                        class="review-mode-card"
+                        data-review-mode="reading">
+                    <span class="review-mode-icon">▧</span>
+                    <strong>Đọc hiểu</strong>
+                    <small class="review-mode-status">Chưa học</small>
+                </button>
+
+                <button type="button"
+                        class="review-mode-card"
+                        data-review-mode="listening">
+                    <span class="review-mode-icon">♫</span>
+                    <strong>Nghe ghép câu</strong>
+                    <small class="review-mode-status">Chưa học</small>
+                </button>
+
+                <button type="button"
+                        class="review-mode-card"
+                        data-review-mode="battle">
+                    <span class="review-mode-icon">⚔</span>
+                    <strong>Đấu trí</strong>
+                    <small class="review-mode-status">Chưa học</small>
+                </button>
+
+            </div>
+        </section>
+
+    </section>
+
+    {% else %}
+
+    <div class="review-empty">
+        <strong>
+            Khóa học chưa có từ vựng để tổng ôn.
+        </strong>
+        <p>
+            Hãy bổ sung từ vựng cho khóa học
+            trước khi sử dụng chức năng Tổng ôn.
+        </p>
+    </div>
+
+    {% endif %}
+
+</section>
+
+<!-- DỮ LIỆU TỪ PYTHON / SQL SERVER -->
+<script type="application/json" id="reviewVocabularyData">
+[
+{% for word in vocabularies %}
+    {
+        "id": {{ word.MaTuVung | tojson }},
+        "lessonId": {{ word.MaBaiHoc | tojson }},
+        "lessonOrder": {{ word.SoThuTuBai | tojson }},
+        "lessonTitle": {{ (word.TieuDeBaiHoc or '') | tojson }},
+        "hanzi": {{ (word.ChuHan or '') | tojson }},
+        "pinyin": {{ (word.PhienAm or '') | tojson }},
+        "meaning": {{ (word.NghiaTiengViet or '') | tojson }},
+        "type": {{ (word.TuLoai or '') | tojson }},
+        "exampleChinese": {{ (word.ViDuTiengTrung or '') | tojson }},
+        "exampleVietnamese": {{ (word.ViDuTiengViet or '') | tojson }},
+        "audioUrl": {{ (word.DuongDanAudio or '') | tojson }}
+    }{% if not loop.last %},{% endif %}
+{% endfor %}
+]
+</script>
+
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/review-study.js') }}"></script>
+{% endblock %}

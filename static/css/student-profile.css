@@ -1,0 +1,274 @@
+
+/* ==========================================
+   MOC HAN - HO SO CA NHAN
+========================================== */
+
+.mh-profile-page {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 12px 0 30px;
+}
+
+
+/* ==========================================
+   TIEU DE
+========================================== */
+
+.mh-profile-header {
+    margin-bottom: 22px;
+}
+
+.mh-profile-header h1 {
+    margin: 0 0 8px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #493c31;
+}
+
+.mh-profile-header p {
+    margin: 0;
+    font-size: 13px;
+    color: #947e69;
+    line-height: 1.6;
+}
+
+
+/* ==========================================
+   THE HO SO
+========================================== */
+
+.mh-profile-card {
+    padding: 25px;
+    border: 1px solid #e3c9a9;
+    border-radius: 15px;
+    background: #fffaf3;
+    box-shadow: 2px 3px 0 #d9d0c4;
+}
+
+
+/* ==========================================
+   THONG TIN DAI DIEN
+========================================== */
+
+.mh-profile-user {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 22px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #e9d8c2;
+}
+
+.mh-profile-avatar {
+    width: 62px;
+    height: 62px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #4d4036;
+    border-radius: 50%;
+    background: #19a1b1;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.mh-profile-user-info {
+    min-width: 0;
+}
+
+.mh-profile-user-info h2 {
+    margin: 0 0 5px;
+    font-size: 19px;
+    color: #493a2d;
+    overflow-wrap: anywhere;
+}
+
+.mh-profile-user-info p {
+    margin: 0 0 8px;
+    color: #9b8066;
+    font-size: 12px;
+}
+
+.mh-profile-role {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid #e5ca9d;
+    border-radius: 20px;
+    background: #fff0d7;
+    color: #9b692f;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+
+/* ==========================================
+   FORM
+========================================== */
+
+.mh-profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.mh-profile-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.mh-profile-field label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #614c39;
+}
+
+.mh-profile-field input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    outline: none;
+    border: 1px solid #dec4a3;
+    border-radius: 9px;
+    background: #fff;
+    color: #4e3e30;
+    font: inherit;
+    font-size: 14px;
+    transition: border-color .2s ease;
+}
+
+.mh-profile-field input:focus {
+    border-color: #c9964d;
+    box-shadow: 0 0 0 3px rgba(201, 150, 77, .12);
+}
+
+.mh-profile-field input:disabled {
+    background: #f3ece3;
+    color: #9c8975;
+    cursor: not-allowed;
+}
+
+.mh-profile-field small {
+    color: #a08b75;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+
+/* ==========================================
+   GHI CHU
+========================================== */
+
+.mh-profile-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 14px;
+    border: 1px solid #ead7ba;
+    border-radius: 10px;
+    background: #fff5e5;
+}
+
+.mh-profile-note span {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.mh-profile-note p {
+    margin: 0;
+    color: #877059;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+
+/* ==========================================
+   NUT HANH DONG
+========================================== */
+
+.mh-profile-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 6px;
+}
+
+.mh-profile-progress-link {
+    padding: 10px 0;
+    color: #926536;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.mh-profile-progress-link:hover {
+    color: #674321;
+    text-decoration: underline;
+}
+
+.mh-profile-save {
+    padding: 12px 20px;
+    border: 1px solid #bf8737;
+    border-radius: 9px;
+    background: #f3c26d;
+    color: #523a20;
+    font-size: 13px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background .2s ease;
+}
+
+.mh-profile-save:hover {
+    background: #eeb55b;
+}
+
+.mh-profile-save:focus-visible,
+.mh-profile-progress-link:focus-visible {
+    outline: 2px solid #a16f32;
+    outline-offset: 3px;
+}
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 600px) {
+
+    .mh-profile-page {
+        padding: 10px 0 20px;
+    }
+
+    .mh-profile-header h1 {
+        font-size: 22px;
+    }
+
+    .mh-profile-card {
+        padding: 17px;
+    }
+
+    .mh-profile-user {
+        gap: 12px;
+    }
+
+    .mh-profile-avatar {
+        width: 52px;
+        height: 52px;
+        font-size: 21px;
+    }
+
+    .mh-profile-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .mh-profile-progress-link,
+    .mh-profile-save {
+        text-align: center;
+    }
+}

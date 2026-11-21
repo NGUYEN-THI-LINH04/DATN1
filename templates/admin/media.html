@@ -1,0 +1,1200 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Media | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        HỌC LIỆU · ĐA PHƯƠNG TIỆN
+    </span>
+
+    <h1>
+        Hình ảnh và âm thanh
+    </h1>
+
+    <p>
+        Quản lý âm thanh, hình ảnh và video
+        dùng trong hệ thống Mộc Hán.
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     THỐNG KÊ
+===================================================== -->
+
+<div class="media-summary-grid">
+
+    <article class="media-summary-card">
+
+        <strong>
+            {{ stats.total }}
+        </strong>
+
+        <span>
+            Tổng tệp
+        </span>
+
+    </article>
+
+
+    <article class="media-summary-card">
+
+        <strong>
+            {{ stats.audio }}
+        </strong>
+
+        <span>
+            Âm thanh
+        </span>
+
+    </article>
+
+
+    <article class="media-summary-card">
+
+        <strong>
+            {{ stats.image }}
+        </strong>
+
+        <span>
+            Hình ảnh
+        </span>
+
+    </article>
+
+
+    <article class="media-summary-card">
+
+        <strong>
+            {{ stats.video }}
+        </strong>
+
+        <span>
+            Video
+        </span>
+
+    </article>
+
+</div>
+
+
+<!-- =====================================================
+     THÊM MEDIA MỚI
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                TẢI LÊN
+            </span>
+
+            <h2>
+                + Thêm tệp mới
+            </h2>
+
+            <p>
+                File sẽ được lưu trong thư mục
+                <strong>static/uploads/media</strong>
+                và tự thêm vào SQL Server.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <form
+        method="post"
+        action="{{ url_for(
+            'admin_media.add'
+        ) }}"
+        enctype="multipart/form-data"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <div class="grid-2">
+
+
+            <!-- =============================================
+                 LOẠI TỆP
+            ============================================== -->
+
+            <label class="field">
+
+                Loại tệp
+
+                <select
+                    name="file_type"
+                    required
+                >
+
+                    <option value="">
+                        — Chọn loại —
+                    </option>
+
+
+                    {% for value, label in media_types.items() %}
+
+                        <option value="{{ value }}">
+                            {{ label }}
+                        </option>
+
+                    {% endfor %}
+
+                </select>
+
+            </label>
+
+
+            <!-- =============================================
+                 FILE
+            ============================================== -->
+
+            <label class="field">
+
+                Chọn tệp
+
+                <input
+                    type="file"
+                    name="file"
+                    accept="
+                        audio/mpeg,
+                        audio/wav,
+                        audio/ogg,
+                        audio/mp4,
+                        image/jpeg,
+                        image/png,
+                        image/webp,
+                        video/mp4,
+                        video/webm
+                    "
+                    required
+                >
+
+            </label>
+
+        </div>
+
+
+        <!-- =============================================
+             TIÊU ĐỀ
+        ============================================== -->
+
+        <label class="field space-top">
+
+            Tiêu đề
+
+            <input
+                type="text"
+                name="title"
+                maxlength="200"
+                placeholder="Có thể để trống để dùng tên file"
+            >
+
+        </label>
+
+
+        <!-- =============================================
+             LỜI THOẠI
+        ============================================== -->
+
+        <label class="field space-top">
+
+            Lời thoại / nội dung
+
+            <textarea
+                name="transcript"
+                rows="4"
+                placeholder="Ví dụ: 你好 / nội dung audio / mô tả video..."
+            ></textarea>
+
+        </label>
+
+
+        <!-- =============================================
+             GHI CHÚ
+        ============================================== -->
+
+        <div class="media-upload-help">
+
+            <strong>
+                Định dạng hỗ trợ:
+            </strong>
+
+            <span>
+                Audio: MP3, WAV, OGG, M4A
+            </span>
+
+            <span>
+                Hình ảnh: JPG, PNG, WEBP
+            </span>
+
+            <span>
+                Video: MP4, WEBM
+            </span>
+
+            <span>
+                Giới hạn:
+                Audio 30 MB ·
+                Ảnh 10 MB ·
+                Video 200 MB
+            </span>
+
+        </div>
+
+
+        <button
+            type="submit"
+            class="button space-top"
+        >
+            ↑ Tải tệp lên
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- =====================================================
+     FORM CHỈNH SỬA
+===================================================== -->
+
+{% if editing_media %}
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                CHỈNH SỬA MEDIA
+            </span>
+
+            <h2>
+                {{ editing_media.title }}
+            </h2>
+
+        </div>
+
+
+        <a
+            class="small-button"
+            href="{{ url_for(
+                'admin_media.index',
+
+                page=page,
+
+                q=keyword,
+
+                file_type=selected_file_type,
+
+                usage=selected_usage
+            ) }}"
+        >
+            Đóng
+        </a>
+
+    </div>
+
+
+    <!-- =================================================
+         PREVIEW
+    ================================================== -->
+
+    {% if
+        editing_media.preview_url
+        and
+        editing_media.path_state != 'missing'
+    %}
+
+        <div class="media-edit-preview">
+
+
+            {% if editing_media.type == 'am_thanh' %}
+
+                <audio
+                    controls
+                    preload="none"
+                    src="{{ editing_media.preview_url }}"
+                >
+                </audio>
+
+
+            {% elif editing_media.type == 'hinh_anh' %}
+
+                <img
+                    src="{{ editing_media.preview_url }}"
+                    alt="{{ editing_media.title }}"
+                >
+
+
+            {% elif editing_media.type == 'video' %}
+
+                <video
+                    controls
+                    preload="metadata"
+                    src="{{ editing_media.preview_url }}"
+                >
+                </video>
+
+            {% endif %}
+
+        </div>
+
+    {% endif %}
+
+
+    <form
+        method="post"
+        action="{{ url_for(
+            'admin_media.edit',
+            media_id=editing_media.id
+        ) }}"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <!-- =================================================
+             GIỮ FILTER
+        ================================================== -->
+
+        <input
+            type="hidden"
+            name="return_page"
+            value="{{ page }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_keyword"
+            value="{{ keyword }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_file_type"
+            value="{{ selected_file_type }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_usage"
+            value="{{ selected_usage }}"
+        >
+
+
+        <div class="grid-2">
+
+            <label class="field">
+
+                Loại tệp
+
+                <input
+                    type="text"
+                    value="{{ editing_media.type_label }}"
+                    disabled
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Mã media
+
+                <input
+                    type="text"
+                    value="{{ editing_media.id }}"
+                    disabled
+                >
+
+            </label>
+
+        </div>
+
+
+        <label class="field space-top">
+
+            Tiêu đề
+
+            <input
+                type="text"
+                name="title"
+                maxlength="200"
+                value="{{ editing_media.title }}"
+                required
+            >
+
+        </label>
+
+
+        <label class="field space-top">
+
+            Đường dẫn tệp
+
+            <input
+                type="text"
+                name="path"
+                maxlength="1000"
+                value="{{ editing_media.path }}"
+                required
+            >
+
+        </label>
+
+
+        <label class="field space-top">
+
+            Lời thoại / nội dung
+
+            <textarea
+                name="transcript"
+                rows="4"
+            >{{ editing_media.transcript }}</textarea>
+
+        </label>
+
+
+        <p class="space-top">
+
+            Tình trạng file:
+
+            {% if editing_media.path_state == 'exists' %}
+
+                <strong>
+                    Có file trong project
+                </strong>
+
+            {% elif editing_media.path_state == 'missing' %}
+
+                <strong>
+                    Không tìm thấy file vật lý
+                </strong>
+
+            {% elif editing_media.path_state == 'external' %}
+
+                <strong>
+                    Liên kết bên ngoài
+                </strong>
+
+            {% else %}
+
+                <strong>
+                    Chưa xác định
+                </strong>
+
+            {% endif %}
+
+        </p>
+
+
+        <div class="course-action-buttons space-top">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lưu thay đổi
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_media.index',
+
+                    page=page,
+
+                    q=keyword,
+
+                    file_type=selected_file_type,
+
+                    usage=selected_usage
+                ) }}"
+            >
+                Hủy
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+{% endif %}
+
+
+<!-- =====================================================
+     DANH SÁCH
+===================================================== -->
+
+<section class="panel space-top">
+
+
+    <!-- =================================================
+         FILTER
+    ================================================== -->
+
+    <form
+        method="get"
+        action="{{ url_for(
+            'admin_media.index'
+        ) }}"
+        class="courses-filter"
+    >
+
+        <div class="field">
+
+            <label>
+                Tìm media
+            </label>
+
+            <input
+                type="search"
+                name="q"
+                value="{{ keyword }}"
+                placeholder="Tiêu đề, đường dẫn hoặc lời thoại..."
+            >
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Loại tệp
+            </label>
+
+            <select name="file_type">
+
+                <option
+                    value="all"
+
+                    {% if selected_file_type == 'all' %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+
+                {% for value, label in media_types.items() %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            selected_file_type == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Tình trạng sử dụng
+            </label>
+
+            <select name="usage">
+
+                {% for value, label in usage_filters.items() %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if selected_usage == value %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <div class="course-action-buttons">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lọc
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_media.index'
+                ) }}"
+            >
+                Bỏ lọc
+            </a>
+
+        </div>
+
+    </form>
+
+
+    <!-- =================================================
+         TỔNG
+    ================================================== -->
+
+    <p class="space-top">
+
+        Tìm thấy
+
+        <strong>
+            {{ total_items }}
+        </strong>
+
+        tệp.
+
+
+        {% if total_items > 0 %}
+
+            · Đang hiển thị
+
+            <strong>
+                {{
+                    ((page - 1) * per_page) + 1
+                }}
+            </strong>
+
+            –
+
+            <strong>
+                {{
+                    [
+                        page * per_page,
+                        total_items
+                    ] | min
+                }}
+            </strong>
+
+        {% endif %}
+
+    </p>
+
+
+    <!-- =================================================
+         TABLE
+    ================================================== -->
+
+    <div class="table-scroll">
+
+        <table class="data-table media-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Mã</th>
+
+                    <th>Xem / nghe</th>
+
+                    <th>Loại</th>
+
+                    <th>Tiêu đề</th>
+
+                    <th>Lời thoại</th>
+
+                    <th>Đang sử dụng</th>
+
+                    <th>File</th>
+
+                    <th>Thao tác</th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                {% for media in media_items %}
+
+                    <tr>
+
+                        <td>
+                            {{ media.id }}
+                        </td>
+
+
+                        <!-- =============================
+                             PREVIEW
+                        ============================== -->
+
+                        <td>
+
+                            <div class="media-preview-cell">
+
+                                {% if media.path_state == 'missing' %}
+
+                                    <span class="media-file-warning">
+                                        Thiếu file
+                                    </span>
+
+
+                                {% elif media.preview_url %}
+
+
+                                    {% if media.type == 'am_thanh' %}
+
+                                        <audio
+                                            controls
+                                            preload="none"
+                                            src="{{ media.preview_url }}"
+                                        >
+                                        </audio>
+
+
+                                    {% elif media.type == 'hinh_anh' %}
+
+                                        <img
+                                            src="{{ media.preview_url }}"
+                                            alt="{{ media.title }}"
+                                            loading="lazy"
+                                        >
+
+
+                                    {% elif media.type == 'video' %}
+
+                                        <video
+                                            controls
+                                            preload="metadata"
+                                            src="{{ media.preview_url }}"
+                                        >
+                                        </video>
+
+
+                                    {% else %}
+
+                                        —
+
+                                    {% endif %}
+
+
+                                {% else %}
+
+                                    —
+
+                                {% endif %}
+
+                            </div>
+
+                        </td>
+
+
+                        <!-- =============================
+                             LOẠI
+                        ============================== -->
+
+                        <td>
+
+                            <strong>
+                                {{ media.type_label }}
+                            </strong>
+
+                        </td>
+
+
+                        <!-- =============================
+                             TIÊU ĐỀ
+                        ============================== -->
+
+                        <td>
+
+                            <strong>
+                                {{ media.title }}
+                            </strong>
+
+
+                            <div class="media-path">
+                                {{ media.path }}
+                            </div>
+
+                        </td>
+
+
+                        <!-- =============================
+                             LỜI THOẠI
+                        ============================== -->
+
+                        <td>
+
+                            {% if media.transcript %}
+
+                                <div class="media-transcript">
+                                    {{ media.transcript }}
+                                </div>
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             NƠI SỬ DỤNG
+                        ============================== -->
+
+                        <td>
+
+                            {% if media.usage_total > 0 %}
+
+                                <div class="media-usage-list">
+
+                                    {% for item in media.usage_items %}
+
+                                        <span class="media-usage-tag">
+
+                                            {{ item.label }}
+
+                                            <strong>
+                                                {{ item.count }}
+                                            </strong>
+
+                                        </span>
+
+                                    {% endfor %}
+
+                                </div>
+
+
+                                <small>
+                                    Tổng:
+                                    {{ media.usage_total }}
+                                    liên kết
+                                </small>
+
+                            {% else %}
+
+                                <span class="media-unused">
+                                    Chưa sử dụng
+                                </span>
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             FILE
+                        ============================== -->
+
+                        <td>
+
+                            {% if media.path_state == 'exists' %}
+
+                                <span class="media-file-ok">
+                                    Có file
+                                </span>
+
+
+                            {% elif media.path_state == 'missing' %}
+
+                                <span class="media-file-warning">
+                                    Thiếu file
+                                </span>
+
+
+                            {% elif media.path_state == 'external' %}
+
+                                <span class="media-file-external">
+                                    Link ngoài
+                                </span>
+
+
+                            {% else %}
+
+                                Chưa kiểm tra
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             THAO TÁC
+                        ============================== -->
+
+                        <td>
+
+                            <div class="course-action-buttons">
+
+
+                                <a
+                                    class="small-button"
+                                    href="{{ url_for(
+                                        'admin_media.index',
+
+                                        edit=media.id,
+
+                                        page=page,
+
+                                        q=keyword,
+
+                                        file_type=
+                                            selected_file_type,
+
+                                        usage=
+                                            selected_usage
+                                    ) }}"
+                                >
+                                    Sửa
+                                </a>
+
+
+                                {% if media.usage_total == 0 %}
+
+                                    <form
+                                        method="post"
+                                        action="{{ url_for(
+                                            'admin_media.delete',
+                                            media_id=media.id
+                                        ) }}"
+                                        class="media-delete-form"
+                                        data-confirm="Chỉ xóa bản ghi SQL. File vật lý vẫn được giữ. Bạn có chắc muốn tiếp tục?"
+                                    >
+
+                                        <input
+                                            type="hidden"
+                                            name="csrf_token"
+                                            value="{{ csrf_token() }}"
+                                        >
+
+
+                                        <input
+                                            type="hidden"
+                                            name="return_page"
+                                            value="{{ page }}"
+                                        >
+
+
+                                        <input
+                                            type="hidden"
+                                            name="return_keyword"
+                                            value="{{ keyword }}"
+                                        >
+
+
+                                        <input
+                                            type="hidden"
+                                            name="return_file_type"
+                                            value="{{ selected_file_type }}"
+                                        >
+
+
+                                        <input
+                                            type="hidden"
+                                            name="return_usage"
+                                            value="{{ selected_usage }}"
+                                        >
+
+
+                                        <button
+                                            type="submit"
+                                            class="
+                                                small-button
+                                                media-delete-button
+                                            "
+                                        >
+                                            Xóa
+                                        </button>
+
+                                    </form>
+
+
+                                {% else %}
+
+                                    <span class="media-delete-disabled">
+                                        Đang được dùng
+                                    </span>
+
+                                {% endif %}
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                {% else %}
+
+                    <tr>
+
+                        <td
+                            colspan="8"
+                            class="center-text"
+                        >
+                            Không có media phù hợp.
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- =================================================
+         PHÂN TRANG
+    ================================================== -->
+
+    {% if total_pages > 1 %}
+
+        <div class="admin-pagination">
+
+
+            {% if page > 1 %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_media.index',
+
+                        page=page - 1,
+
+                        q=keyword,
+
+                        file_type=
+                            selected_file_type,
+
+                        usage=
+                            selected_usage
+                    ) }}"
+                >
+                    ← Trang trước
+                </a>
+
+            {% endif %}
+
+
+            <span class="admin-pagination-info">
+
+                Trang
+                {{ page }}
+                /
+                {{ total_pages }}
+
+            </span>
+
+
+            {% if page < total_pages %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_media.index',
+
+                        page=page + 1,
+
+                        q=keyword,
+
+                        file_type=
+                            selected_file_type,
+
+                        usage=
+                            selected_usage
+                    ) }}"
+                >
+                    Trang sau →
+                </a>
+
+            {% endif %}
+
+        </div>
+
+    {% endif %}
+
+</section>
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script>
+
+document
+    .querySelectorAll(
+        ".media-delete-form"
+    )
+    .forEach(
+        function (form) {
+
+            form.addEventListener(
+                "submit",
+                function (event) {
+
+                    if (
+                        !window.confirm(
+                            form.dataset.confirm
+                        )
+                    ) {
+
+                        event.preventDefault();
+
+                    }
+
+                }
+            );
+
+        }
+    );
+
+</script>
+
+{% endblock %}

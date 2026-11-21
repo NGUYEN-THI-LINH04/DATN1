@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "batch": 2,
+  "vi_tri_plan": "21-40",
+  "tong_plan": 114,
+  "da_review_truoc_do": 20,
+  "tong_batch": 20,
+  "tong_da_bien_soan_sau_batch": 40,
+  "con_lai": 74,
+  "ma_dau": "GF4-007-T02",
+  "ma_cuoi": "GF4-017-T01",
+  "day_du_noi_dung": 20,
+  "ma_nguon": 1004,
+  "trang_thai": "ban_nhap",
+  "trang_thai_kiem_duyet": "CHO_REVIEW",
+  "plan_sha256": "5a213b92fe25c2947c25bb4d00536425aa0a4d315f454b462f4b4fd59835088f",
+  "batch01_reviewed_sha256": "81e6f0fcb9ddf8e16a71abb3b1aa5094fb3c0671f5063b25c01c2c7b311b23e6",
+  "output_sha256": "c673a6edeea290726c0b32505bc0701c9e501bcffc63431eb17de4906669cd3e",
+  "da_ghi_sql": false,
+  "da_gan_bai_hoc": false,
+  "da_publish": false
+}

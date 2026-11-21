@@ -1,0 +1,779 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+{{ de.TenDe }} - HSK {{ cap_hsk }} | Mộc Hán
+{% endblock %}
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/student-luyen-thi.css') }}"
+>
+
+<style>
+/* Giữ giao diện thẻ khi đổi thành liên kết */
+
+.lt-detail-page a.lt-detail-mode-card,
+.lt-detail-page a.lt-detail-mode-card:visited {
+    color: #302923;
+    text-decoration: none;
+}
+
+.lt-detail-page a.lt-detail-mode-card:focus-visible {
+    outline: 3px solid #d88b32;
+    outline-offset: 5px;
+}
+
+.lt-detail-history-list a.lt-detail-history-item {
+    color: inherit;
+    text-decoration: none;
+}
+
+.lt-detail-history-list a.lt-detail-history-item:hover {
+    background: #fff0db;
+}
+</style>
+{% endblock %}
+
+
+{% block content %}
+
+<!-- =====================================================
+     MỘC HÁN - CHI TIẾT ĐỀ THI HSK
+
+     - Chọn Cả đề / Nghe / Đọc / Viết.
+     - HSK1, HSK2 không có Viết.
+     - HSK3, HSK4 có Viết nếu đề có dữ liệu.
+     - Kết nối trang làm bài thực tế.
+     - Hiển thị điểm tối đa của từng phần thi.
+     - Lịch sử lấy từ SQL thông qua Flask API.
+
+     Giữ nguyên CSS và giao diện cũ.
+===================================================== -->
+
+<div class="luyenthi-page lt-detail-page">
+
+    <!-- ==========================================
+         1. QUAY LẠI DANH SÁCH ĐỀ
+    =========================================== -->
+
+    <div class="lt-detail-back">
+
+        <a href="{{ url_for(
+            'student_luyen_thi.trang_danh_sach_de',
+            ma_cap_do=cap_hsk
+        ) }}">
+            ← Danh sách đề
+        </a>
+
+    </div>
+
+
+    <!-- ==========================================
+         2. THÔNG TIN ĐỀ THI
+    =========================================== -->
+
+    <header class="lt-detail-header">
+
+        <span class="lt-detail-level">
+            HSK {{ cap_hsk }}
+        </span>
+
+        <div class="lt-detail-title">
+
+            <span
+                class="lt-detail-mascot"
+                aria-hidden="true"
+            >
+                📚
+            </span>
+
+            <h1>
+                <span>{{ de.TenDe }}</span>
+            </h1>
+
+        </div>
+
+        <p>
+            Đề thi thử theo cấu trúc HSK.
+            Bạn có thể làm toàn bộ đề hoặc
+            luyện riêng từng kỹ năng.
+            Kết quả và đáp án sẽ được hiển thị
+            sau khi nộp bài.
+        </p>
+
+    </header>
+
+
+    <!-- ==========================================
+         3. THÔNG TIN TỔNG QUAN
+    =========================================== -->
+
+    <section
+        class="lt-detail-summary"
+        aria-label="Thông tin đề thi"
+    >
+
+        <div class="lt-detail-summary-item">
+
+            <span>Tổng số câu</span>
+
+            <strong>
+                {{ de.TongSoCau }}
+            </strong>
+
+        </div>
+
+
+        <div class="lt-detail-summary-item">
+
+            <span>Thời gian làm bài</span>
+
+            <strong>
+                {% if de.ThoiGianPhut %}
+                    {{ de.ThoiGianPhut }} phút
+                {% else %}
+                    Chưa cập nhật
+                {% endif %}
+            </strong>
+
+        </div>
+
+
+        <div class="lt-detail-summary-item">
+
+            <span>Mã đề gốc</span>
+
+            <strong>
+                {{ de.MaDeGoc or 'Chưa cập nhật' }}
+            </strong>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         4. CHỌN PHẦN THI
+    =========================================== -->
+
+    <section class="lt-detail-section">
+
+        <div class="lt-detail-section-heading">
+
+            <h2>Chọn phần thi</h2>
+
+            <p>
+                Bạn muốn làm toàn bộ đề hay
+                luyện tập một kỹ năng trước?
+            </p>
+
+        </div>
+
+
+        <div class="lt-detail-mode-grid">
+
+            <!-- ==================================
+                 4.1. CẢ ĐỀ
+
+                 HSK1-HSK2: 200 điểm.
+                 HSK3-HSK4: 300 điểm.
+            =================================== -->
+
+            <a
+                class="lt-detail-mode-card"
+                href="{{ url_for(
+                    'student_luyen_thi.trang_lam_bai',
+                    ma_de=de.MaDeThi,
+                    ky_nang='tat_ca'
+                ) }}"
+            >
+
+                <div
+                    class="lt-detail-mode-icon"
+                    aria-hidden="true"
+                >
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                    >
+                        <path d="m12 3 9 5-9 5-9-5 9-5Z"/>
+                        <path d="m3 12 9 5 9-5"/>
+                        <path d="m3 16 9 5 9-5"/>
+                    </svg>
+
+                </div>
+
+                <h3>Cả đề</h3>
+
+                <p>
+                    Nghe hiểu + Đọc hiểu
+
+                    {% if cap_hsk|int in (3, 4)
+                        and (de.SoCauViet or 0) > 0 %}
+
+                        + Viết
+
+                    {% endif %}
+                </p>
+
+                <div class="lt-detail-mode-meta">
+
+                    <span>
+                        {{ de.TongSoCau }} câu
+                    </span>
+
+                    <span>
+                        {% if de.ThoiGianPhut %}
+                            {{ de.ThoiGianPhut }} phút
+                        {% else %}
+                            Chưa cập nhật thời gian
+                        {% endif %}
+                    </span>
+
+                    <span>
+                        <strong>
+                            {% if de.MaCapDo|int in (3, 4) %}
+                                300 điểm · Đạt từ 180
+                            {% else %}
+                                200 điểm · Đạt từ 120
+                            {% endif %}
+                        </strong>
+                    </span>
+
+                </div>
+
+                <span class="lt-detail-mode-action">
+                    ▷ Bắt đầu làm bài
+                </span>
+
+            </a>
+
+
+            <!-- ==================================
+                 4.2. NGHE HIỂU
+
+                 Tối đa: 100 điểm.
+                 Đạt từ: 60 điểm.
+            =================================== -->
+
+            {% if (de.SoCauNghe or 0) > 0 %}
+
+            <a
+                class="lt-detail-mode-card"
+                href="{{ url_for(
+                    'student_luyen_thi.trang_lam_bai',
+                    ma_de=de.MaDeThi,
+                    ky_nang='nghe'
+                ) }}"
+            >
+
+                <div
+                    class="lt-detail-mode-icon"
+                    aria-hidden="true"
+                >
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                    >
+                        <path d="M3 14v-3a9 9 0 0 1 18 0v3"/>
+
+                        <rect
+                            x="3"
+                            y="13"
+                            width="4"
+                            height="7"
+                            rx="2"
+                        />
+
+                        <rect
+                            x="17"
+                            y="13"
+                            width="4"
+                            height="7"
+                            rx="2"
+                        />
+                    </svg>
+
+                </div>
+
+                <h3>Nghe hiểu</h3>
+
+                <p>
+                    Nghe MP3 toàn bài và chọn
+                    đáp án đúng theo nội dung
+                    bài nghe.
+                </p>
+
+                <div class="lt-detail-mode-meta">
+
+                    <span>
+                        {{ de.SoCauNghe }} câu
+                    </span>
+
+                    <span>
+                        Phát MP3 toàn bài
+                    </span>
+
+                    <!-- Điểm kỹ năng Nghe -->
+                    <span>
+                        <strong>
+                            100 điểm · Đạt từ 60
+                        </strong>
+                    </span>
+
+                </div>
+
+                <span class="lt-detail-mode-action">
+                    ▷ Bắt đầu làm bài
+                </span>
+
+            </a>
+
+            {% endif %}
+
+
+            <!-- ==================================
+                 4.3. ĐỌC HIỂU
+
+                 Tối đa: 100 điểm.
+                 Đạt từ: 60 điểm.
+            =================================== -->
+
+            {% if (de.SoCauDoc or 0) > 0 %}
+
+            <a
+                class="lt-detail-mode-card"
+                href="{{ url_for(
+                    'student_luyen_thi.trang_lam_bai',
+                    ma_de=de.MaDeThi,
+                    ky_nang='doc'
+                ) }}"
+            >
+
+                <div
+                    class="lt-detail-mode-icon"
+                    aria-hidden="true"
+                >
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                    >
+
+                        <path
+                            d="M12 6c-3-2-6-2-9-1v14c3-1 6-1 9 1"
+                        />
+
+                        <path
+                            d="M12 6c3-2 6-2 9-1v14c-3-1-6-1-9 1"
+                        />
+
+                        <path d="M12 6v14"/>
+
+                    </svg>
+
+                </div>
+
+                <h3>Đọc hiểu</h3>
+
+                <p>
+                    Đọc câu hỏi và chọn đáp án
+                    phù hợp với hình ảnh hoặc
+                    nội dung tiếng Trung.
+                </p>
+
+                <div class="lt-detail-mode-meta">
+
+                    <span>
+                        {{ de.SoCauDoc }} câu
+                    </span>
+
+                    <span>
+                        Làm bài theo từng phần
+                    </span>
+
+                    <!-- Điểm kỹ năng Đọc -->
+                    <span>
+                        <strong>
+                            100 điểm · Đạt từ 60
+                        </strong>
+                    </span>
+
+                </div>
+
+                <span class="lt-detail-mode-action">
+                    ▷ Bắt đầu làm bài
+                </span>
+
+            </a>
+
+            {% endif %}
+
+
+            <!-- ==================================
+                 4.4. VIẾT
+
+                 Chỉ hiển thị ở:
+                 - HSK3
+                 - HSK4
+
+                 Và đề phải có câu Viết.
+
+                 Tối đa: 100 điểm.
+                 Đạt từ: 60 điểm.
+            =================================== -->
+
+            {% if cap_hsk|int in (3, 4)
+                and (de.SoCauViet or 0) > 0 %}
+
+            <a
+                class="lt-detail-mode-card"
+                href="{{ url_for(
+                    'student_luyen_thi.trang_lam_bai',
+                    ma_de=de.MaDeThi,
+                    ky_nang='viet'
+                ) }}"
+            >
+
+                <div
+                    class="lt-detail-mode-icon"
+                    aria-hidden="true"
+                >
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                    >
+
+                        <path
+                            d="m4 20 4-1 12-12-3-3L5 16l-1 4Z"
+                        />
+
+                        <path d="m15 6 3 3"/>
+
+                    </svg>
+
+                </div>
+
+                <h3>Viết</h3>
+
+                <p>
+                    Luyện sắp xếp từ,
+                    hoàn thành câu và các dạng
+                    bài viết theo đề thi.
+                </p>
+
+                <div class="lt-detail-mode-meta">
+
+                    <span>
+                        {{ de.SoCauViet }} câu
+                    </span>
+
+                    <span>
+                        Gõ hoặc chọn từ
+                    </span>
+
+                    <!-- Điểm kỹ năng Viết -->
+                    <span>
+                        <strong>
+                            100 điểm · Đạt từ 60
+                        </strong>
+                    </span>
+
+                </div>
+
+                <span class="lt-detail-mode-action">
+                    ▷ Bắt đầu làm bài
+                </span>
+
+            </a>
+
+            {% endif %}
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         5. LỊCH SỬ LÀM BÀI
+    =========================================== -->
+
+    <section class="lt-detail-history">
+
+        <div class="lt-detail-history-heading">
+
+            <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                aria-hidden="true"
+            >
+                <path d="M3 12a9 9 0 1 0 3-6.7"/>
+                <path d="M3 3v5h5"/>
+                <path d="M12 7v5l4 2"/>
+            </svg>
+
+            <h2>Lịch sử làm bài</h2>
+
+        </div>
+
+        <!--
+            Đường dẫn API đặt ở thuộc tính HTML.
+
+            Không nhúng cú pháp Jinja trực tiếp
+            trong JavaScript để tránh VS Code
+            báo lỗi cú pháp.
+        -->
+
+        <div
+            id="lt-history"
+            class="lt-detail-history-list"
+            aria-live="polite"
+            data-hsk-level="{{ cap_hsk }}"
+
+            data-history-url="{{ url_for(
+                'student_luyen_thi.api_lich_su_luyen_thi',
+                ma_de=de.MaDeThi
+            ) }}"
+
+            data-result-url="{{ url_for(
+                'student_luyen_thi.trang_ket_qua_luyen_thi',
+                ma_lan=999999999
+            ) }}"
+        >
+
+            <div class="lt-detail-history-empty">
+                <p>Đang tải lịch sử làm bài...</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+{% endblock %}
+
+
+{% block scripts %}
+
+<script>
+(function () {
+    "use strict";
+
+    const container = document.getElementById("lt-history");
+
+    if (!container) {
+        return;
+    }
+
+    // URL được Flask render sẵn trong HTML.
+    const historyUrl = container.dataset.historyUrl;
+    // Cấp độ HSK để xác định điểm tối đa.
+    const hskLevel = Number(container.dataset.hskLevel);
+    // Mẫu URL kết quả để thay mã lần thi.
+    const resultUrlTemplate = container.dataset.resultUrl;
+
+    const skillNames = {
+        tat_ca: "Cả đề",
+        nghe: "Nghe hiểu",
+        doc: "Đọc hiểu",
+        viet: "Viết"
+    };
+
+
+    // =========================================
+    // HIỂN THỊ THÔNG BÁO
+    // =========================================
+
+    function showMessage(message) {
+
+        const element = document.createElement("div");
+
+        element.className = "lt-detail-history-empty";
+
+        const paragraph = document.createElement("p");
+
+        paragraph.textContent = message;
+
+        element.appendChild(paragraph);
+
+        container.replaceChildren(element);
+    }
+
+
+    // =========================================
+    // TẢI LỊCH SỬ TỪ FLASK
+    // =========================================
+
+    fetch(historyUrl, {
+        method: "GET",
+        credentials: "same-origin",
+        headers: {
+            "Accept": "application/json"
+        }
+    })
+
+    .then(function (response) {
+
+        if (!response.ok) {
+            throw new Error("Không tải được lịch sử làm bài.");
+        }
+
+        return response.json();
+    })
+
+    .then(function (data) {
+
+        const history = Array.isArray(data.lich_su)
+            ? data.lich_su
+            : [];
+
+        if (history.length === 0) {
+
+            showMessage("Bạn chưa làm đề này.");
+
+            return;
+        }
+
+        container.replaceChildren();
+
+
+        // =====================================
+        // HIỂN THỊ TỪNG LẦN THI
+        // =====================================
+
+        history.forEach(function (attempt) {
+
+            const attemptId = Number(
+                attempt.ma_lan_thi
+            );
+
+            if (
+                !Number.isSafeInteger(attemptId)
+                || attemptId <= 0
+            ) {
+                return;
+            }
+
+            const link = document.createElement("a");
+
+            link.className = "lt-detail-history-item";
+
+            link.href = resultUrlTemplate.replace(
+                "999999999",
+                String(attemptId)
+            );
+
+
+            // Tên kỹ năng
+            const label = document.createElement("strong");
+
+            label.textContent =
+                skillNames[attempt.ky_nang]
+                || attempt.ky_nang
+                || "Lần thi";
+
+
+            // Điểm số và thời gian
+            const details = document.createElement("span");
+
+            const points = Number(attempt.diem || 0);
+
+            const maximum = Number(
+                attempt.diem_toi_da || 0
+            );
+
+            let dateText = "";
+
+
+            // NgayNop đang được SQL lưu theo UTC.
+            if (attempt.ngay_nop) {
+
+                const value = String(attempt.ngay_nop);
+
+                const normalized =
+                    /(?:Z|[+-]\d{2}:\d{2})$/i.test(value)
+                    ? value
+                    : value + "Z";
+
+                const date = new Date(normalized);
+
+                if (!Number.isNaN(date.getTime())) {
+
+                    dateText = date.toLocaleString(
+                        "vi-VN",
+                        {
+                            timeZone: "Asia/Ho_Chi_Minh",
+                            day: "2-digit",
+                            month: "2-digit",
+                            year: "numeric",
+                            hour: "2-digit",
+                            minute: "2-digit"
+                        }
+                    );
+                }
+            }
+
+            
+            // Mỗi kỹ năng tối đa 100 điểm.
+            // Cả đề HSK1-2: 200 điểm.
+            // Cả đề HSK3-4: 300 điểm.
+
+            let displayMaximum = 100;
+
+            if (attempt.ky_nang === "tat_ca") {
+                displayMaximum =
+                    (hskLevel === 3 || hskLevel === 4)
+                    ? 300
+                    : 200;
+            }
+
+            const displayPoints = maximum > 0
+                ? Math.round(
+                    (points / maximum)
+                    * displayMaximum
+                    * 10
+                ) / 10
+                : 0;
+
+            details.textContent =
+                displayPoints
+                + " / "
+                + displayMaximum
+                + " điểm"
+                + (dateText ? " · " + dateText : "");
+
+
+            link.append(label, details);
+
+            container.appendChild(link);
+        });
+    })
+
+    .catch(function () {
+
+        showMessage(
+            "Chưa tải được lịch sử làm bài. Vui lòng tải lại trang."
+        );
+
+    });
+
+})();
+</script>
+
+{% endblock %}

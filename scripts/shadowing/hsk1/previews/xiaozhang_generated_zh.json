@@ -1,0 +1,845 @@
+{
+  "lang": "zh",
+  "availableLangs": [
+    "en",
+    "fr",
+    "ru",
+    "si",
+    "es",
+    "uk",
+    "vi",
+    "zh"
+  ],
+  "content": [
+    {
+      "text": "小 张",
+      "offset": 0,
+      "duration": 2440
+    },
+    {
+      "text": "今年 二",
+      "offset": 2440,
+      "duration": 1820
+    },
+    {
+      "text": "十 八",
+      "offset": 4260,
+      "duration": 1500
+    },
+    {
+      "text": "岁 他",
+      "offset": 4940,
+      "duration": 1940
+    },
+    {
+      "text": "不是 北",
+      "offset": 6880,
+      "duration": 1940
+    },
+    {
+      "text": "京 人",
+      "offset": 8820,
+      "duration": 1500
+    },
+    {
+      "text": "但是 住",
+      "offset": 9600,
+      "duration": 2540
+    },
+    {
+      "text": "在 北",
+      "offset": 12140,
+      "duration": 1500
+    },
+    {
+      "text": "京 他",
+      "offset": 13160,
+      "duration": 2120
+    },
+    {
+      "text": "在 北",
+      "offset": 15280,
+      "duration": 1500
+    },
+    {
+      "text": "京 的",
+      "offset": 16360,
+      "duration": 1500
+    },
+    {
+      "text": "一 家",
+      "offset": 17100,
+      "duration": 1500
+    },
+    {
+      "text": "大 公",
+      "offset": 18480,
+      "duration": 1500
+    },
+    {
+      "text": "司 工作",
+      "offset": 19620,
+      "duration": 1500
+    },
+    {
+      "text": "六 年前",
+      "offset": 22300,
+      "duration": 1600
+    },
+    {
+      "text": "小 张",
+      "offset": 23900,
+      "duration": 1760
+    },
+    {
+      "text": "第一 次",
+      "offset": 25660,
+      "duration": 1500
+    },
+    {
+      "text": "来 北",
+      "offset": 26940,
+      "duration": 1500
+    },
+    {
+      "text": "京 旅",
+      "offset": 28140,
+      "duration": 1500
+    },
+    {
+      "text": "游 小",
+      "offset": 28860,
+      "duration": 1500
+    },
+    {
+      "text": "张 第一",
+      "offset": 25240,
+      "duration": 1500
+    },
+    {
+      "text": "次 来",
+      "offset": 26480,
+      "duration": 1500
+    },
+    {
+      "text": "北 京",
+      "offset": 27680,
+      "duration": 1500
+    },
+    {
+      "text": "旅 游。",
+      "offset": 28540,
+      "duration": 1500
+    },
+    {
+      "text": "北 京",
+      "offset": 30430,
+      "duration": 1500
+    },
+    {
+      "text": "有 很多",
+      "offset": 31240,
+      "duration": 1540
+    },
+    {
+      "text": "好吃",
+      "offset": 32780,
+      "duration": 1500
+    },
+    {
+      "text": "的、 好",
+      "offset": 34020,
+      "duration": 1500
+    },
+    {
+      "text": "玩 的。",
+      "offset": 35260,
+      "duration": 1500
+    },
+    {
+      "text": "他 第一",
+      "offset": 36580,
+      "duration": 1560
+    },
+    {
+      "text": "次 来",
+      "offset": 38140,
+      "duration": 1500
+    },
+    {
+      "text": "就 喜欢",
+      "offset": 38860,
+      "duration": 2060
+    },
+    {
+      "text": "上 了",
+      "offset": 40920,
+      "duration": 1500
+    },
+    {
+      "text": "北 京。",
+      "offset": 41680,
+      "duration": 1500
+    },
+    {
+      "text": "回 到",
+      "offset": 43540,
+      "duration": 1500
+    },
+    {
+      "text": "家 他",
+      "offset": 44680,
+      "duration": 1620
+    },
+    {
+      "text": "想 去",
+      "offset": 46300,
+      "duration": 1500
+    },
+    {
+      "text": "北 京",
+      "offset": 46960,
+      "duration": 1500
+    },
+    {
+      "text": "找",
+      "offset": 47660,
+      "duration": 1500
+    },
+    {
+      "text": "工作。",
+      "offset": 48420,
+      "duration": 1500
+    },
+    {
+      "text": "他 姐",
+      "offset": 50260,
+      "duration": 1500
+    },
+    {
+      "text": "姐 的",
+      "offset": 51380,
+      "duration": 1500
+    },
+    {
+      "text": "同 学",
+      "offset": 51800,
+      "duration": 1500
+    },
+    {
+      "text": "住 在",
+      "offset": 52680,
+      "duration": 1500
+    },
+    {
+      "text": "北 京。",
+      "offset": 54120,
+      "duration": 1500
+    },
+    {
+      "text": "同 学",
+      "offset": 51910,
+      "duration": 1500
+    },
+    {
+      "text": "住 在",
+      "offset": 52690,
+      "duration": 1500
+    },
+    {
+      "text": "北 京",
+      "offset": 54110,
+      "duration": 1500
+    },
+    {
+      "text": "他 姓",
+      "offset": 54790,
+      "duration": 2340
+    },
+    {
+      "text": "张 在",
+      "offset": 57130,
+      "duration": 1500
+    },
+    {
+      "text": "北 京",
+      "offset": 58590,
+      "duration": 1500
+    },
+    {
+      "text": "的 一",
+      "offset": 59810,
+      "duration": 1500
+    },
+    {
+      "text": "家 大",
+      "offset": 60910,
+      "duration": 1500
+    },
+    {
+      "text": "公 司",
+      "offset": 62070,
+      "duration": 1500
+    },
+    {
+      "text": "工作 他",
+      "offset": 62810,
+      "duration": 2840
+    },
+    {
+      "text": "告诉 小",
+      "offset": 65650,
+      "duration": 1680
+    },
+    {
+      "text": "张 公",
+      "offset": 67330,
+      "duration": 1660
+    },
+    {
+      "text": "司 需要",
+      "offset": 68990,
+      "duration": 1620
+    },
+    {
+      "text": "一个 会",
+      "offset": 70610,
+      "duration": 1520
+    },
+    {
+      "text": "说 英",
+      "offset": 72130,
+      "duration": 1500
+    },
+    {
+      "text": "语 的人",
+      "offset": 73390,
+      "duration": 1500
+    },
+    {
+      "text": "因为 小",
+      "offset": 74070,
+      "duration": 2900
+    },
+    {
+      "text": "张 的",
+      "offset": 76970,
+      "duration": 1500
+    },
+    {
+      "text": "英 语",
+      "offset": 77690,
+      "duration": 1500
+    },
+    {
+      "text": "很好",
+      "offset": 78830,
+      "duration": 1500
+    },
+    {
+      "text": "所以 他",
+      "offset": 80100,
+      "duration": 1880
+    },
+    {
+      "text": "可以 去",
+      "offset": 81980,
+      "duration": 1800
+    },
+    {
+      "text": "那 儿",
+      "offset": 83780,
+      "duration": 1500
+    },
+    {
+      "text": "工作。",
+      "offset": 84300,
+      "duration": 1500
+    },
+    {
+      "text": "所以 他",
+      "offset": 79730,
+      "duration": 2300
+    },
+    {
+      "text": "可以",
+      "offset": 82030,
+      "duration": 1500
+    },
+    {
+      "text": "一个 星",
+      "offset": 86560,
+      "duration": 1500
+    },
+    {
+      "text": "期 后,",
+      "offset": 88040,
+      "duration": 1500
+    },
+    {
+      "text": "小 张",
+      "offset": 89660,
+      "duration": 1500
+    },
+    {
+      "text": "买 了",
+      "offset": 90400,
+      "duration": 1500
+    },
+    {
+      "text": "一 张",
+      "offset": 91720,
+      "duration": 1500
+    },
+    {
+      "text": "飞 北",
+      "offset": 92340,
+      "duration": 1500
+    },
+    {
+      "text": "京 的",
+      "offset": 93500,
+      "duration": 1500
+    },
+    {
+      "text": "机 票。",
+      "offset": 94160,
+      "duration": 1500
+    },
+    {
+      "text": "就",
+      "offset": 96880,
+      "duration": 1500
+    },
+    {
+      "text": "这样,",
+      "offset": 97380,
+      "duration": 1500
+    },
+    {
+      "text": "他 开始",
+      "offset": 98300,
+      "duration": 1500
+    },
+    {
+      "text": "了 北",
+      "offset": 99620,
+      "duration": 1500
+    },
+    {
+      "text": "京 的",
+      "offset": 100660,
+      "duration": 1500
+    },
+    {
+      "text": "生活。",
+      "offset": 101280,
+      "duration": 1500
+    },
+    {
+      "text": "他 在",
+      "offset": 103160,
+      "duration": 1500
+    },
+    {
+      "text": "这 儿",
+      "offset": 104260,
+      "duration": 1500
+    },
+    {
+      "text": "认 识",
+      "offset": 104800,
+      "duration": 1500
+    },
+    {
+      "text": "了 很多",
+      "offset": 105780,
+      "duration": 1500
+    },
+    {
+      "text": "新",
+      "offset": 106800,
+      "duration": 1500
+    },
+    {
+      "text": "朋友。",
+      "offset": 107520,
+      "duration": 1500
+    },
+    {
+      "text": "很多 新",
+      "offset": 105850,
+      "duration": 1680
+    },
+    {
+      "text": "朋友 每",
+      "offset": 107530,
+      "duration": 2680
+    },
+    {
+      "text": "天 都",
+      "offset": 110210,
+      "duration": 1500
+    },
+    {
+      "text": "过 得",
+      "offset": 111250,
+      "duration": 1500
+    },
+    {
+      "text": "很 开",
+      "offset": 111890,
+      "duration": 1500
+    },
+    {
+      "text": "心 北",
+      "offset": 113030,
+      "duration": 2340
+    },
+    {
+      "text": "京 太",
+      "offset": 115370,
+      "duration": 1500
+    },
+    {
+      "text": "大 了",
+      "offset": 116630,
+      "duration": 1500
+    },
+    {
+      "text": "而且 房",
+      "offset": 117310,
+      "duration": 2220
+    },
+    {
+      "text": "租 很",
+      "offset": 119530,
+      "duration": 1500
+    },
+    {
+      "text": "贵 他",
+      "offset": 120570,
+      "duration": 2340
+    },
+    {
+      "text": "住 得",
+      "offset": 122910,
+      "duration": 1500
+    },
+    {
+      "text": "离 公",
+      "offset": 124050,
+      "duration": 1500
+    },
+    {
+      "text": "司 很",
+      "offset": 125070,
+      "duration": 1500
+    },
+    {
+      "text": "远 每",
+      "offset": 126290,
+      "duration": 2340
+    },
+    {
+      "text": "天 都",
+      "offset": 128630,
+      "duration": 1500
+    },
+    {
+      "text": "要 花",
+      "offset": 129810,
+      "duration": 1500
+    },
+    {
+      "text": "很 长",
+      "offset": 130490,
+      "duration": 1500
+    },
+    {
+      "text": "时间 上",
+      "offset": 131790,
+      "duration": 1540
+    },
+    {
+      "text": "下 班",
+      "offset": 133330,
+      "duration": 1500
+    },
+    {
+      "text": "在 和",
+      "offset": 136740,
+      "duration": 1500
+    },
+    {
+      "text": "同 事",
+      "offset": 137420,
+      "duration": 1500
+    },
+    {
+      "text": "一起 找",
+      "offset": 138240,
+      "duration": 2000
+    },
+    {
+      "text": "房 子",
+      "offset": 140240,
+      "duration": 1500
+    },
+    {
+      "text": "他们",
+      "offset": 140960,
+      "duration": 2000
+    },
+    {
+      "text": "希望 住",
+      "offset": 142960,
+      "duration": 1760
+    },
+    {
+      "text": "得 离",
+      "offset": 144720,
+      "duration": 1500
+    },
+    {
+      "text": "公 司",
+      "offset": 145780,
+      "duration": 1500
+    },
+    {
+      "text": "近 一些",
+      "offset": 146460,
+      "duration": 1500
+    },
+    {
+      "text": "这样 每",
+      "offset": 147900,
+      "duration": 2920
+    },
+    {
+      "text": "天 早",
+      "offset": 150820,
+      "duration": 1500
+    },
+    {
+      "text": "上 可以",
+      "offset": 151440,
+      "duration": 1500
+    },
+    {
+      "text": "多 睡",
+      "offset": 152800,
+      "duration": 1500
+    },
+    {
+      "text": "一个 小",
+      "offset": 154260,
+      "duration": 1500
+    },
+    {
+      "text": "时 他们",
+      "offset": 155660,
+      "duration": 2320
+    },
+    {
+      "text": "的 新",
+      "offset": 157980,
+      "duration": 1500
+    },
+    {
+      "text": "房 子",
+      "offset": 159020,
+      "duration": 1500
+    },
+    {
+      "text": "不 大",
+      "offset": 159860,
+      "duration": 1500
+    },
+    {
+      "text": "离 公",
+      "offset": 163430,
+      "duration": 1500
+    },
+    {
+      "text": "司 很",
+      "offset": 164570,
+      "duration": 1500
+    },
+    {
+      "text": "近 他们",
+      "offset": 165810,
+      "duration": 2420
+    },
+    {
+      "text": "每 个",
+      "offset": 168230,
+      "duration": 1500
+    },
+    {
+      "text": "人 都有",
+      "offset": 169450,
+      "duration": 1500
+    },
+    {
+      "text": "一个 房",
+      "offset": 170670,
+      "duration": 1500
+    },
+    {
+      "text": "间 每",
+      "offset": 172110,
+      "duration": 2220
+    },
+    {
+      "text": "人 每",
+      "offset": 174330,
+      "duration": 1500
+    },
+    {
+      "text": "月 付",
+      "offset": 175530,
+      "duration": 1500
+    },
+    {
+      "text": "一 半",
+      "offset": 176490,
+      "duration": 1500
+    },
+    {
+      "text": "房 租",
+      "offset": 177850,
+      "duration": 1500
+    },
+    {
+      "text": "现在 他",
+      "offset": 180050,
+      "duration": 1840
+    },
+    {
+      "text": "每 天",
+      "offset": 181890,
+      "duration": 1500
+    },
+    {
+      "text": "早 上",
+      "offset": 182530,
+      "duration": 1500
+    },
+    {
+      "text": "七 点",
+      "offset": 183330,
+      "duration": 1500
+    },
+    {
+      "text": "起 床",
+      "offset": 184550,
+      "duration": 1500
+    },
+    {
+      "text": "下 午",
+      "offset": 185290,
+      "duration": 1560
+    },
+    {
+      "text": "六 点",
+      "offset": 186850,
+      "duration": 1500
+    },
+    {
+      "text": "回 家",
+      "offset": 188010,
+      "duration": 1500
+    },
+    {
+      "text": "因为 有",
+      "offset": 188740,
+      "duration": 2680
+    },
+    {
+      "text": "了 更",
+      "offset": 191420,
+      "duration": 1500
+    },
+    {
+      "text": "多 的",
+      "offset": 192260,
+      "duration": 1500
+    },
+    {
+      "text": "休 息",
+      "offset": 193000,
+      "duration": 1500
+    },
+    {
+      "text": "时间 他",
+      "offset": 194120,
+      "duration": 1640
+    },
+    {
+      "text": "可以 看",
+      "offset": 195760,
+      "duration": 1540
+    },
+    {
+      "text": "书 踢",
+      "offset": 197300,
+      "duration": 1500
+    },
+    {
+      "text": "足 球",
+      "offset": 198720,
+      "duration": 1500
+    },
+    {
+      "text": "做 很多",
+      "offset": 199400,
+      "duration": 1840
+    },
+    {
+      "text": "喜欢 的",
+      "offset": 201240,
+      "duration": 1520
+    },
+    {
+      "text": "事情",
+      "offset": 202760,
+      "duration": 1500
+    },
+    {
+      "text": "因为 他",
+      "offset": 203280,
+      "duration": 2400
+    },
+    {
+      "text": "每 天",
+      "offset": 205680,
+      "duration": 1500
+    },
+    {
+      "text": "都 运",
+      "offset": 206340,
+      "duration": 1500
+    },
+    {
+      "text": "动 所以",
+      "offset": 206940,
+      "duration": 2100
+    },
+    {
+      "text": "他的 身",
+      "offset": 209040,
+      "duration": 1880
+    },
+    {
+      "text": "体 更",
+      "offset": 210920,
+      "duration": 1500
+    },
+    {
+      "text": "好了",
+      "offset": 212040,
+      "duration": 1500
+    }
+  ]
+}

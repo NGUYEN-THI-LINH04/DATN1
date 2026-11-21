@@ -1,0 +1,22 @@
+SHADOWING HSK3 - VIDEO 1
+YouTube ID: wZDej3Logc4
+So doan: 244
+So doan ngan < 0.8 giay: 4
+
+DOAN QUA NGAN:
+040 | 0.724s | 快”。
+109 | 0.623s | 没错。
+136 | 0.623s | 当我觉得
+242 | 0.790s | 我是李明。
+
+CAC VI TRI CAN DOI CHIEU:
+39-40: Cau bi cat giua hai doan.
+49-50: Cau bi cat giua hai doan.
+55-56: Co loi noi duoc lap lai.
+161-162: Can kiem tra loi phu de.
+
+Luu y:
+- Pinyin duoc tao tu dong.
+- Ban dich dua tren transcript tieng Trung.
+- Chua doi chieu tat ca am thanh.
+- Chua cap nhat SQL Server.

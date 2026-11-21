@@ -1,0 +1,1012 @@
+{
+  "cap_hsk": 3,
+  "so_de": 8,
+  "ma_de_goc": "H31008",
+  "file_pdf": "D:\\DATN1\\scripts\\luyen_thi\\source\\De_HSK\\HSK3\\ĐỀ 8\\Đề thi tiếng Trung HSK3 SỐ 8.pdf",
+  "file_mp3": "D:\\DATN1\\scripts\\luyen_thi\\source\\De_HSK\\HSK3\\ĐỀ 8\\Đề thi tiếng Trung HSK3 SỐ 8.mp3",
+  "nguon_dap_an": "pdf_chung",
+  "so_trang_pdf_de": 22,
+  "tong_cau": 80,
+  "so_cau_nghe": 40,
+  "so_cau_doc": 30,
+  "so_cau_viet": 10,
+  "thoi_gian_pdf_phut": 90,
+  "thoi_gian_lam_bai_de_xuat_phut": 85,
+  "trang_cau_hoi": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "trang_loi_thoai": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "trang_dap_an": [
+    21,
+    22
+  ],
+  "bang_trang_cau_hoi": {
+    "2": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "3": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "4": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "5": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "6": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "7": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "8": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "9": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "10": [
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "11": [
+      61,
+      62,
+      63,
+      64
+    ],
+    "12": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "13": [
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "14": [
+      76,
+      77,
+      78,
+      79,
+      80
+    ]
+  },
+  "bang_hinh_chung": {
+    "nghe_01_05": {
+      "trang_pdf": 2,
+      "lua_chon": "ABCDEF",
+      "anh": "groups/nghe_01_05.png"
+    },
+    "nghe_06_10": {
+      "trang_pdf": 3,
+      "lua_chon": "ABCDE",
+      "anh": "groups/nghe_06_10.png"
+    }
+  },
+  "dap_an": {
+    "1": "A",
+    "2": "B",
+    "3": "F",
+    "4": "C",
+    "5": "E",
+    "6": "C",
+    "7": "B",
+    "8": "A",
+    "9": "E",
+    "10": "D",
+    "11": "×",
+    "12": "×",
+    "13": "√",
+    "14": "×",
+    "15": "√",
+    "16": "×",
+    "17": "√",
+    "18": "√",
+    "19": "×",
+    "20": "√",
+    "21": "B",
+    "22": "C",
+    "23": "B",
+    "24": "A",
+    "25": "A",
+    "26": "B",
+    "27": "B",
+    "28": "C",
+    "29": "A",
+    "30": "A",
+    "31": "C",
+    "32": "C",
+    "33": "B",
+    "34": "A",
+    "35": "B",
+    "36": "A",
+    "37": "C",
+    "38": "A",
+    "39": "C",
+    "40": "B",
+    "41": "F",
+    "42": "B",
+    "43": "C",
+    "44": "D",
+    "45": "A",
+    "46": "D",
+    "47": "A",
+    "48": "E",
+    "49": "C",
+    "50": "B",
+    "51": "D",
+    "52": "B",
+    "53": "F",
+    "54": "A",
+    "55": "C",
+    "56": "A",
+    "57": "C",
+    "58": "F",
+    "59": "B",
+    "60": "E",
+    "61": "A",
+    "62": "C",
+    "63": "C",
+    "64": "B",
+    "65": "A",
+    "66": "C",
+    "67": "A",
+    "68": "B",
+    "69": "C",
+    "70": "B",
+    "71": "那位邻居很热情。",
+    "72": "这个楼一共三层。",
+    "73": "菜单被服务员拿走了。",
+    "74": "中国南方的雨水比北方多。",
+    "75": "把冰箱放厨房里吧。",
+    "76": "几",
+    "77": "心",
+    "78": "下",
+    "79": "大",
+    "80": "云"
+  },
+  "dap_an_thay_the": {},
+  "dap_an_pdf_nguyen_van": {
+    "71": "那位邻居很热情。",
+    "72": "这个楼一共三层。",
+    "73": "菜单被服务员拿走了。",
+    "74": "中国南方的雨水比北方多。",
+    "75": "把冰箱放厨房里吧。",
+    "76": "几",
+    "77": "心",
+    "78": "下",
+    "79": "大",
+    "80": "云"
+  },
+  "cum_tu_sap_xep": {
+    "71": [
+      "那",
+      "邻居",
+      "很热情",
+      "位"
+    ],
+    "72": [
+      "这个",
+      "三层",
+      "一共",
+      "楼"
+    ],
+    "73": [
+      "菜单",
+      "服务员",
+      "拿走了",
+      "被"
+    ],
+    "74": [
+      "比",
+      "北方",
+      "中国南方的雨水",
+      "多"
+    ],
+    "75": [
+      "把",
+      "厨房里",
+      "吧",
+      "冰箱",
+      "放"
+    ]
+  },
+  "cau_hoi": [
+    {
+      "so_cau": 1,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 2,
+      "dap_an_dung": "A",
+      "nhom_hinh": "nghe_01_05",
+      "da_duyet": false
+    },
+    {
+      "so_cau": 2,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 2,
+      "dap_an_dung": "B",
+      "nhom_hinh": "nghe_01_05",
+      "da_duyet": false
+    },
+    {
+      "so_cau": 3,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 2,
+      "dap_an_dung": "F",
+      "nhom_hinh": "nghe_01_05",
+      "da_duyet": false
+    },
+    {
+      "so_cau": 4,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 2,
+      "dap_an_dung": "C",
+      "nhom_hinh": "nghe_01_05",
+      "da_duyet": false
+    },
+    {
+      "so_cau": 5,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 2,
+      "dap_an_dung": "E",
+      "nhom_hinh": "nghe_01_05",
+      "da_duyet": false
+    },
+    {
+      "so_cau": 6,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 3,
+      "dap_an_dung": "C",
+      "nhom_hinh": "nghe_06_10",
+      "da_duyet": false
+    },
+    {
+      "so_cau": 7,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 3,
+      "dap_an_dung": "B",
+      "nhom_hinh": "nghe_06_10",
+      "da_duyet": false
+    },
+    {
+      "so_cau": 8,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 3,
+      "dap_an_dung": "A",
+      "nhom_hinh": "nghe_06_10",
+      "da_duyet": false
+    },
+    {
+      "so_cau": 9,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 3,
+      "dap_an_dung": "E",
+      "nhom_hinh": "nghe_06_10",
+      "da_duyet": false
+    },
+    {
+      "so_cau": 10,
+      "phan": "nghe",
+      "dang": "chon_hinh",
+      "trang_pdf": 3,
+      "dap_an_dung": "D",
+      "nhom_hinh": "nghe_06_10",
+      "da_duyet": false
+    },
+    {
+      "so_cau": 11,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "dap_an_dung": "×",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 12,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "dap_an_dung": "×",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 13,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "dap_an_dung": "√",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 14,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "dap_an_dung": "×",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 15,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "dap_an_dung": "√",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 16,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "dap_an_dung": "×",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 17,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "dap_an_dung": "√",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 18,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "dap_an_dung": "√",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 19,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "dap_an_dung": "×",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 20,
+      "phan": "nghe",
+      "dang": "dung_sai",
+      "trang_pdf": 4,
+      "dap_an_dung": "√",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 21,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 22,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 23,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 24,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 25,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 26,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 27,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 28,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 29,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 30,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 5,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 31,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 32,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 33,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 34,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 35,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 36,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 37,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 38,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 39,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 40,
+      "phan": "nghe",
+      "dang": "chon_mot",
+      "trang_pdf": 6,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 41,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 7,
+      "dap_an_dung": "F",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 42,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 7,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 43,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 7,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 44,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 7,
+      "dap_an_dung": "D",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 45,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 7,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 46,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 8,
+      "dap_an_dung": "D",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 47,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 8,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 48,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 8,
+      "dap_an_dung": "E",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 49,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 8,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 50,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 8,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 51,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 9,
+      "dap_an_dung": "D",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 52,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 9,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 53,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 9,
+      "dap_an_dung": "F",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 54,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 9,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 55,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 9,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 56,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 10,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 57,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 10,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 58,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 10,
+      "dap_an_dung": "F",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 59,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 10,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 60,
+      "phan": "doc",
+      "dang": "ghep_lua_chon",
+      "trang_pdf": 10,
+      "dap_an_dung": "E",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 61,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 11,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 62,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 11,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 63,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 11,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 64,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 11,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 65,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 66,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 67,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "dap_an_dung": "A",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 68,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 69,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "dap_an_dung": "C",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 70,
+      "phan": "doc",
+      "dang": "chon_mot",
+      "trang_pdf": 12,
+      "dap_an_dung": "B",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 71,
+      "phan": "viet",
+      "dang": "sap_xep",
+      "trang_pdf": 13,
+      "dap_an_dung": "那位邻居很热情。",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 72,
+      "phan": "viet",
+      "dang": "sap_xep",
+      "trang_pdf": 13,
+      "dap_an_dung": "这个楼一共三层。",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 73,
+      "phan": "viet",
+      "dang": "sap_xep",
+      "trang_pdf": 13,
+      "dap_an_dung": "菜单被服务员拿走了。",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 74,
+      "phan": "viet",
+      "dang": "sap_xep",
+      "trang_pdf": 13,
+      "dap_an_dung": "中国南方的雨水比北方多。",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 75,
+      "phan": "viet",
+      "dang": "sap_xep",
+      "trang_pdf": 13,
+      "dap_an_dung": "把冰箱放厨房里吧。",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 76,
+      "phan": "viet",
+      "dang": "dien_tu",
+      "trang_pdf": 14,
+      "dap_an_dung": "几",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 77,
+      "phan": "viet",
+      "dang": "dien_tu",
+      "trang_pdf": 14,
+      "dap_an_dung": "心",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 78,
+      "phan": "viet",
+      "dang": "dien_tu",
+      "trang_pdf": 14,
+      "dap_an_dung": "下",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 79,
+      "phan": "viet",
+      "dang": "dien_tu",
+      "trang_pdf": 14,
+      "dap_an_dung": "大",
+      "nhom_hinh": null,
+      "da_duyet": false
+    },
+    {
+      "so_cau": 80,
+      "phan": "viet",
+      "dang": "dien_tu",
+      "trang_pdf": 14,
+      "dap_an_dung": "云",
+      "nhom_hinh": null,
+      "da_duyet": false
+    }
+  ]
+}

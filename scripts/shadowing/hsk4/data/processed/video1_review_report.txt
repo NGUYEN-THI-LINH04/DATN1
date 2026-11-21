@@ -1,0 +1,27 @@
+SHADOWING HSK4 - VIDEO 1
+YouTube ID: qAbVNWgPRJE
+So doan: 314
+So ban dich: 314
+Doan < 0.8s: 3
+Doan > 10s: 0
+Timestamp chong nhau: 0
+
+===== DOAN NGAN =====
+029 | 0.633s | 我想，
+067 | 0.667s | 最后，
+251 | 0.600s | 王雨，
+
+===== DOAN DAI =====
+
+===== CAN DOI CHIEU AM THANH =====
+006, 052, 136, 179, 216: Ky hieu (笑).
+038-039: Mot y bi cat thanh hai doan.
+090-091: Cau bi cat giua hai doan.
+096-098: Mot cau bi chia thanh nhieu doan.
+256: Phu de co ten nguoi noi.
+273-275: Tu bi cat giua hai doan.
+Kiem tra 3 doan duoi 0.8 giay.
+Kiem tra tu da am trong pinyin.
+Ban dich chua doi chieu het voi am thanh.
+
+CHUA CAP NHAT SQL SERVER.

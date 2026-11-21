@@ -1,0 +1,178 @@
+
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+      content="width=device-width,initial-scale=1">
+
+<title>HSK3 Đề 10 - Kiểm tra 80 câu</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f5f9;
+    color: #172b4d;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 16px 0;
+    border: 1px solid #dce4ed;
+    border-radius: 12px;
+}
+
+section.shared {
+    background: #f8fbff;
+}
+
+h1 { margin-bottom: 8px; }
+
+h3 { margin-top: 0; }
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: 10px auto;
+}
+
+details {
+    margin-top: 14px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.note {
+    color: #64748b;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 18px 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 7px 10px;
+    background: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    color: #172b4d;
+}
+</style>
+</head>
+
+<body>
+<main>
+
+<h1>HSK3 – Đề 10 (H31328)</h1>
+
+<p class="note">
+Kiểm tra hình câu 1–80.
+Đáp án chỉ hiện khi bấm xem.
+Chưa thay đổi SQL Server.
+</p>
+
+<nav><a href="#cau-1">1</a><a href="#cau-2">2</a><a href="#cau-3">3</a><a href="#cau-4">4</a><a href="#cau-5">5</a><a href="#cau-6">6</a><a href="#cau-7">7</a><a href="#cau-8">8</a><a href="#cau-9">9</a><a href="#cau-10">10</a><a href="#cau-11">11</a><a href="#cau-12">12</a><a href="#cau-13">13</a><a href="#cau-14">14</a><a href="#cau-15">15</a><a href="#cau-16">16</a><a href="#cau-17">17</a><a href="#cau-18">18</a><a href="#cau-19">19</a><a href="#cau-20">20</a><a href="#cau-21">21</a><a href="#cau-22">22</a><a href="#cau-23">23</a><a href="#cau-24">24</a><a href="#cau-25">25</a><a href="#cau-26">26</a><a href="#cau-27">27</a><a href="#cau-28">28</a><a href="#cau-29">29</a><a href="#cau-30">30</a><a href="#cau-31">31</a><a href="#cau-32">32</a><a href="#cau-33">33</a><a href="#cau-34">34</a><a href="#cau-35">35</a><a href="#cau-36">36</a><a href="#cau-37">37</a><a href="#cau-38">38</a><a href="#cau-39">39</a><a href="#cau-40">40</a><a href="#cau-41">41</a><a href="#cau-42">42</a><a href="#cau-43">43</a><a href="#cau-44">44</a><a href="#cau-45">45</a><a href="#cau-46">46</a><a href="#cau-47">47</a><a href="#cau-48">48</a><a href="#cau-49">49</a><a href="#cau-50">50</a><a href="#cau-51">51</a><a href="#cau-52">52</a><a href="#cau-53">53</a><a href="#cau-54">54</a><a href="#cau-55">55</a><a href="#cau-56">56</a><a href="#cau-57">57</a><a href="#cau-58">58</a><a href="#cau-59">59</a><a href="#cau-60">60</a><a href="#cau-61">61</a><a href="#cau-62">62</a><a href="#cau-63">63</a><a href="#cau-64">64</a><a href="#cau-65">65</a><a href="#cau-66">66</a><a href="#cau-67">67</a><a href="#cau-68">68</a><a href="#cau-69">69</a><a href="#cau-70">70</a><a href="#cau-71">71</a><a href="#cau-72">72</a><a href="#cau-73">73</a><a href="#cau-74">74</a><a href="#cau-75">75</a><a href="#cau-76">76</a><a href="#cau-77">77</a><a href="#cau-78">78</a><a href="#cau-79">79</a><a href="#cau-80">80</a></nav>
+
+<section id="cau-1"><h3>Câu 1</h3><img src="groups/nghe_01_05.png" alt="Cau 1"><details><summary>Xem đáp án</summary><p>Đáp án: <b>E</b></p></details></section>
+<section id="cau-2"><h3>Câu 2</h3><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-3"><h3>Câu 3</h3><details><summary>Xem đáp án</summary><p>Đáp án: <b>F</b></p></details></section>
+<section id="cau-4"><h3>Câu 4</h3><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-5"><h3>Câu 5</h3><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-6"><h3>Câu 6</h3><img src="groups/nghe_06_10.png" alt="Cau 6"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-7"><h3>Câu 7</h3><details><summary>Xem đáp án</summary><p>Đáp án: <b>D</b></p></details></section>
+<section id="cau-8"><h3>Câu 8</h3><details><summary>Xem đáp án</summary><p>Đáp án: <b>E</b></p></details></section>
+<section id="cau-9"><h3>Câu 9</h3><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-10"><h3>Câu 10</h3><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-11"><h3>Câu 11</h3><img src="questions/cau_11.png" alt="Cau 11"><details><summary>Xem đáp án</summary><p>Đáp án: <b>√</b></p></details></section>
+<section id="cau-12"><h3>Câu 12</h3><img src="questions/cau_12.png" alt="Cau 12"><details><summary>Xem đáp án</summary><p>Đáp án: <b>√</b></p></details></section>
+<section id="cau-13"><h3>Câu 13</h3><img src="questions/cau_13.png" alt="Cau 13"><details><summary>Xem đáp án</summary><p>Đáp án: <b>×</b></p></details></section>
+<section id="cau-14"><h3>Câu 14</h3><img src="questions/cau_14.png" alt="Cau 14"><details><summary>Xem đáp án</summary><p>Đáp án: <b>×</b></p></details></section>
+<section id="cau-15"><h3>Câu 15</h3><img src="questions/cau_15.png" alt="Cau 15"><details><summary>Xem đáp án</summary><p>Đáp án: <b>√</b></p></details></section>
+<section id="cau-16"><h3>Câu 16</h3><img src="questions/cau_16.png" alt="Cau 16"><details><summary>Xem đáp án</summary><p>Đáp án: <b>×</b></p></details></section>
+<section id="cau-17"><h3>Câu 17</h3><img src="questions/cau_17.png" alt="Cau 17"><details><summary>Xem đáp án</summary><p>Đáp án: <b>×</b></p></details></section>
+<section id="cau-18"><h3>Câu 18</h3><img src="questions/cau_18.png" alt="Cau 18"><details><summary>Xem đáp án</summary><p>Đáp án: <b>×</b></p></details></section>
+<section id="cau-19"><h3>Câu 19</h3><img src="questions/cau_19.png" alt="Cau 19"><details><summary>Xem đáp án</summary><p>Đáp án: <b>√</b></p></details></section>
+<section id="cau-20"><h3>Câu 20</h3><img src="questions/cau_20.png" alt="Cau 20"><details><summary>Xem đáp án</summary><p>Đáp án: <b>√</b></p></details></section>
+<section id="cau-21"><h3>Câu 21</h3><img src="questions/cau_21.png" alt="Cau 21"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-22"><h3>Câu 22</h3><img src="questions/cau_22.png" alt="Cau 22"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-23"><h3>Câu 23</h3><img src="questions/cau_23.png" alt="Cau 23"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-24"><h3>Câu 24</h3><img src="questions/cau_24.png" alt="Cau 24"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-25"><h3>Câu 25</h3><img src="questions/cau_25.png" alt="Cau 25"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-26"><h3>Câu 26</h3><img src="questions/cau_26.png" alt="Cau 26"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-27"><h3>Câu 27</h3><img src="questions/cau_27.png" alt="Cau 27"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-28"><h3>Câu 28</h3><img src="questions/cau_28.png" alt="Cau 28"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-29"><h3>Câu 29</h3><img src="questions/cau_29.png" alt="Cau 29"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-30"><h3>Câu 30</h3><img src="questions/cau_30.png" alt="Cau 30"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-31"><h3>Câu 31</h3><img src="questions/cau_31.png" alt="Cau 31"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-32"><h3>Câu 32</h3><img src="questions/cau_32.png" alt="Cau 32"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-33"><h3>Câu 33</h3><img src="questions/cau_33.png" alt="Cau 33"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-34"><h3>Câu 34</h3><img src="questions/cau_34.png" alt="Cau 34"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-35"><h3>Câu 35</h3><img src="questions/cau_35.png" alt="Cau 35"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-36"><h3>Câu 36</h3><img src="questions/cau_36.png" alt="Cau 36"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-37"><h3>Câu 37</h3><img src="questions/cau_37.png" alt="Cau 37"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-38"><h3>Câu 38</h3><img src="questions/cau_38.png" alt="Cau 38"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-39"><h3>Câu 39</h3><img src="questions/cau_39.png" alt="Cau 39"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-40"><h3>Câu 40</h3><img src="questions/cau_40.png" alt="Cau 40"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section class="shared"><h2>Bảng lựa chọn câu 41–45</h2><img src="groups/doc_41_45.png" alt="Bang lua chon"></section><section id="cau-41"><h3>Câu 41</h3><img src="questions/cau_41.png" alt="Cau 41"><details><summary>Xem đáp án</summary><p>Đáp án: <b>D</b></p></details></section>
+<section id="cau-42"><h3>Câu 42</h3><img src="questions/cau_42.png" alt="Cau 42"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-43"><h3>Câu 43</h3><img src="questions/cau_43.png" alt="Cau 43"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-44"><h3>Câu 44</h3><img src="questions/cau_44.png" alt="Cau 44"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-45"><h3>Câu 45</h3><img src="questions/cau_45.png" alt="Cau 45"><details><summary>Xem đáp án</summary><p>Đáp án: <b>F</b></p></details></section>
+<section class="shared"><h2>Bảng lựa chọn câu 46–50</h2><img src="groups/doc_46_50.png" alt="Bang lua chon"></section><section id="cau-46"><h3>Câu 46</h3><img src="questions/cau_46.png" alt="Cau 46"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-47"><h3>Câu 47</h3><img src="questions/cau_47.png" alt="Cau 47"><details><summary>Xem đáp án</summary><p>Đáp án: <b>D</b></p></details></section>
+<section id="cau-48"><h3>Câu 48</h3><img src="questions/cau_48.png" alt="Cau 48"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-49"><h3>Câu 49</h3><img src="questions/cau_49.png" alt="Cau 49"><details><summary>Xem đáp án</summary><p>Đáp án: <b>E</b></p></details></section>
+<section id="cau-50"><h3>Câu 50</h3><img src="questions/cau_50.png" alt="Cau 50"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section class="shared"><h2>Bảng lựa chọn câu 51–55</h2><img src="groups/doc_51_55.png" alt="Bang lua chon"></section><section id="cau-51"><h3>Câu 51</h3><img src="questions/cau_51.png" alt="Cau 51"><details><summary>Xem đáp án</summary><p>Đáp án: <b>D</b></p></details></section>
+<section id="cau-52"><h3>Câu 52</h3><img src="questions/cau_52.png" alt="Cau 52"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-53"><h3>Câu 53</h3><img src="questions/cau_53.png" alt="Cau 53"><details><summary>Xem đáp án</summary><p>Đáp án: <b>F</b></p></details></section>
+<section id="cau-54"><h3>Câu 54</h3><img src="questions/cau_54.png" alt="Cau 54"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-55"><h3>Câu 55</h3><img src="questions/cau_55.png" alt="Cau 55"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section class="shared"><h2>Bảng lựa chọn câu 56–60</h2><img src="groups/doc_56_60.png" alt="Bang lua chon"></section><section id="cau-56"><h3>Câu 56</h3><img src="questions/cau_56.png" alt="Cau 56"><details><summary>Xem đáp án</summary><p>Đáp án: <b>F</b></p></details></section>
+<section id="cau-57"><h3>Câu 57</h3><img src="questions/cau_57.png" alt="Cau 57"><details><summary>Xem đáp án</summary><p>Đáp án: <b>E</b></p></details></section>
+<section id="cau-58"><h3>Câu 58</h3><img src="questions/cau_58.png" alt="Cau 58"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-59"><h3>Câu 59</h3><img src="questions/cau_59.png" alt="Cau 59"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-60"><h3>Câu 60</h3><img src="questions/cau_60.png" alt="Cau 60"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-61"><h3>Câu 61</h3><img src="questions/cau_61.png" alt="Cau 61"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-62"><h3>Câu 62</h3><img src="questions/cau_62.png" alt="Cau 62"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-63"><h3>Câu 63</h3><img src="questions/cau_63.png" alt="Cau 63"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-64"><h3>Câu 64</h3><img src="questions/cau_64.png" alt="Cau 64"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-65"><h3>Câu 65</h3><img src="questions/cau_65.png" alt="Cau 65"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-66"><h3>Câu 66</h3><img src="questions/cau_66.png" alt="Cau 66"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-67"><h3>Câu 67</h3><img src="questions/cau_67.png" alt="Cau 67"><details><summary>Xem đáp án</summary><p>Đáp án: <b>C</b></p></details></section>
+<section id="cau-68"><h3>Câu 68</h3><img src="questions/cau_68.png" alt="Cau 68"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-69"><h3>Câu 69</h3><img src="questions/cau_69.png" alt="Cau 69"><details><summary>Xem đáp án</summary><p>Đáp án: <b>B</b></p></details></section>
+<section id="cau-70"><h3>Câu 70</h3><img src="questions/cau_70.png" alt="Cau 70"><details><summary>Xem đáp án</summary><p>Đáp án: <b>A</b></p></details></section>
+<section id="cau-71"><h3>Câu 71</h3><img src="questions/cau_71.png" alt="Cau 71"><details><summary>Xem đáp án</summary><p>Đáp án: <b>她的头发又黑又长。</b></p></details></section>
+<section id="cau-72"><h3>Câu 72</h3><img src="questions/cau_72.png" alt="Cau 72"><details><summary>Xem đáp án</summary><p>Đáp án: <b>我终于学会用筷子了。</b></p></details></section>
+<section id="cau-73"><h3>Câu 73</h3><img src="questions/cau_73.png" alt="Cau 73"><details><summary>Xem đáp án</summary><p>Đáp án: <b>他把教室打扫得干干净净。</b></p></details></section>
+<section id="cau-74"><h3>Câu 74</h3><img src="questions/cau_74.png" alt="Cau 74"><details><summary>Xem đáp án</summary><p>Đáp án: <b>我不喜欢看体育新闻。</b></p></details></section>
+<section id="cau-75"><h3>Câu 75</h3><img src="questions/cau_75.png" alt="Cau 75"><details><summary>Xem đáp án</summary><p>Đáp án: <b>校长对你的回答非常满意。</b></p></details></section>
+<section id="cau-76"><h3>Câu 76</h3><img src="questions/cau_76.png" alt="Cau 76"><details><summary>Xem đáp án</summary><p>Đáp án: <b>中</b></p></details></section>
+<section id="cau-77"><h3>Câu 77</h3><img src="questions/cau_77.png" alt="Cau 77"><details><summary>Xem đáp án</summary><p>Đáp án: <b>来</b></p></details></section>
+<section id="cau-78"><h3>Câu 78</h3><img src="questions/cau_78.png" alt="Cau 78"><details><summary>Xem đáp án</summary><p>Đáp án: <b>电</b></p></details></section>
+<section id="cau-79"><h3>Câu 79</h3><img src="questions/cau_79.png" alt="Cau 79"><details><summary>Xem đáp án</summary><p>Đáp án: <b>好</b></p></details></section>
+<section id="cau-80"><h3>Câu 80</h3><img src="questions/cau_80.png" alt="Cau 80"><details><summary>Xem đáp án</summary><p>Đáp án: <b>知</b></p></details></section>
+
+</main>
+</body>
+</html>

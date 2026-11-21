@@ -1,0 +1,151 @@
+{% extends "student/base.html" %}
+
+{% block title %}Khóa học | Mộc Hán{% endblock %}
+
+{% block content %}
+
+<section class="courses-page">
+    <div class="container">
+        <div class="page-breadcrumb">
+            <a href="{{ url_for('home.index') }}">Trang chủ</a>
+            <span>/</span>
+            <span>Khóa học</span>
+        </div>
+
+        <div class="courses-page-heading">
+            <div>
+                <span class="eyebrow">KHÁM PHÁ LỘ TRÌNH</span>
+
+                <h1>
+                    Chọn điểm bắt đầu<br>
+                    cho hành trình của bạn.
+                </h1>
+
+                <p>
+                    Khám phá các cấp độ HSK 1–4 và lựa chọn
+                    lộ trình phù hợp với nền tảng hiện tại.
+                </p>
+            </div>
+
+            <div class="courses-heading-note">
+                <span lang="zh">学而时习之</span>
+                <p>Học và thường xuyên ôn lại.</p>
+            </div>
+        </div>
+
+        <div class="course-toolbar">
+            <label class="course-search">
+                <span aria-hidden="true">⌕</span>
+
+                <input
+                    type="search"
+                    id="course-search"
+                    placeholder="Tìm khóa học..."
+                    aria-label="Tìm khóa học"
+                >
+            </label>
+
+            <div class="course-filters"
+                 aria-label="Lọc theo cấp độ">
+                <button type="button"
+                        class="filter-button active"
+                        data-level="all"
+                        aria-pressed="true">
+                    Tất cả
+                </button>
+
+                {% for level in range(1, 5) %}
+                <button type="button"
+                        class="filter-button"
+                        data-level="{{ level }}"
+                        aria-pressed="false">
+                    HSK {{ level }}
+                </button>
+                {% endfor %}
+            </div>
+        </div>
+
+        <p class="course-count" id="course-count">
+            Hiển thị {{ courses|length }} khóa học mẫu
+        </p>
+
+        <div class="course-grid">
+            {% for course in courses %}
+            <article
+                class="course-card"
+                data-course
+                data-level="{{ course.level }}"
+                data-search="HSK {{ course.level }} {{ course.title }} {{ course.description }}"
+            >
+                <a
+                    href="{{ url_for('courses.detail', course_id=course.id) }}"
+                    class="course-image course-image-{{ course.level }} course-image-link"
+                >
+                    <img
+                        src="{{ url_for('static', filename='images/courses/chinese-landscape.svg') }}"
+                        alt="Minh họa khóa học HSK {{ course.level }}"
+                        width="800"
+                        height="520"
+                    >
+
+                    <span class="course-image-label">
+                        HSK {{ course.level }}
+                    </span>
+                </a>
+
+                <div class="course-body">
+                    <span class="course-level">
+                        HSK {{ course.level }}
+                    </span>
+
+                    <h3>
+                        <a href="{{ url_for('courses.detail', course_id=course.id) }}">
+                            {{ course.title }}
+                        </a>
+                    </h3>
+
+                    <p>{{ course.description }}</p>
+
+                    <div class="course-footer">
+                        <span>
+                            {{ course.lessons|length }} chủ đề minh họa
+                        </span>
+
+                        <a
+                            href="{{ url_for('courses.detail', course_id=course.id) }}"
+                            class="course-detail-link"
+                        >
+                            Xem chi tiết
+                            <span aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+
+        <div id="course-empty" class="course-empty" hidden>
+            <h3>Chưa tìm thấy khóa học phù hợp</h3>
+            <p>Thử từ khóa khác hoặc chọn lại cấp độ.</p>
+        </div>
+
+        <div class="future-courses">
+            <span class="tag">GIAI ĐOẠN TIẾP THEO</span>
+            <p>
+                <strong>HSK 5 và HSK 6</strong>
+                sẽ được bổ sung sau khi hoàn thiện học liệu.
+            </p>
+        </div>
+
+        <p class="interface-note">
+            Nội dung trên trang dùng để minh họa giao diện,
+            chưa phải giáo trình HSK hoàn chỉnh.
+        </p>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/student.js') }}"></script>
+{% endblock %}

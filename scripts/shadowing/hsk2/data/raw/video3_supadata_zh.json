@@ -1,0 +1,1570 @@
+{
+  "lang": "zh",
+  "availableLangs": [
+    "my",
+    "zh",
+    "id",
+    "ja",
+    "km",
+    "ko",
+    "lo",
+    "th",
+    "vi"
+  ],
+  "content": [
+    {
+      "lang": "zh",
+      "text": "大家好！欢迎来到“每天中文”。我是李明。",
+      "offset": 6133,
+      "duration": 3067
+    },
+    {
+      "lang": "zh",
+      "text": "大家好！我是王雨。",
+      "offset": 9233,
+      "duration": 1533
+    },
+    {
+      "lang": "zh",
+      "text": "李明，你好！",
+      "offset": 10800,
+      "duration": 1066
+    },
+    {
+      "lang": "zh",
+      "text": "王雨，你好！",
+      "offset": 11900,
+      "duration": 933
+    },
+    {
+      "lang": "zh",
+      "text": "今天你看起来很高兴， \n有什么开心的事吗？",
+      "offset": 12866,
+      "duration": 4067
+    },
+    {
+      "lang": "zh",
+      "text": "嗯！是有一件。",
+      "offset": 16966,
+      "duration": 767
+    },
+    {
+      "lang": "zh",
+      "text": "我有一个越南的朋友， 她叫小月。",
+      "offset": 17766,
+      "duration": 3567
+    },
+    {
+      "lang": "zh",
+      "text": "她学习中文才三个月， 但是现在 她已经可以说很多中文了。",
+      "offset": 21366,
+      "duration": 6434
+    },
+    {
+      "lang": "zh",
+      "text": "真的吗？三个月？",
+      "offset": 27833,
+      "duration": 1267
+    },
+    {
+      "lang": "zh",
+      "text": "那很不错啊！",
+      "offset": 29133,
+      "duration": 1067
+    },
+    {
+      "lang": "zh",
+      "text": "是啊！我觉得她非常棒。",
+      "offset": 30233,
+      "duration": 2267
+    },
+    {
+      "lang": "zh",
+      "text": "她每天都在进步。",
+      "offset": 32533,
+      "duration": 2100
+    },
+    {
+      "lang": "zh",
+      "text": "所以，我今天就在想， \n学习一门新的语言， ",
+      "offset": 34666,
+      "duration": 5000
+    },
+    {
+      "lang": "zh",
+      "text": "比如中文， 是不是有一些很简单， 但是很有用的方法， ",
+      "offset": 39666,
+      "duration": 5967
+    },
+    {
+      "lang": "zh",
+      "text": "可以帮助我们 每天都进步一点点？",
+      "offset": 45633,
+      "duration": 3400
+    },
+    {
+      "lang": "zh",
+      "text": "问得好！",
+      "offset": 49066,
+      "duration": 667
+    },
+    {
+      "lang": "zh",
+      "text": "这确实是一个很好的问题。",
+      "offset": 49766,
+      "duration": 2734
+    },
+    {
+      "lang": "zh",
+      "text": "很多学习中文的朋友可能都会想， ",
+      "offset": 52533,
+      "duration": 2533
+    },
+    {
+      "lang": "zh",
+      "text": "我每天很忙， 没有很多时间， \n怎么学习呢？",
+      "offset": 55066,
+      "duration": 3300
+    },
+    {
+      "lang": "zh",
+      "text": "其实，有很多小事情， \n我们每天都可以做。",
+      "offset": 58400,
+      "duration": 3900
+    },
+    {
+      "lang": "zh",
+      "text": "对对对！",
+      "offset": 62333,
+      "duration": 633
+    },
+    {
+      "lang": "zh",
+      "text": "就是这个意思！",
+      "offset": 63000,
+      "duration": 1200
+    },
+    {
+      "lang": "zh",
+      "text": "不是说每天要学习五个小时， 而是我们可以做什么小事， ",
+      "offset": 64233,
+      "duration": 5800
+    },
+    {
+      "lang": "zh",
+      "text": "每天十分钟、 二十分钟， 也能有帮助。",
+      "offset": 70033,
+      "duration": 4600
+    },
+    {
+      "lang": "zh",
+      "text": "没错。",
+      "offset": 74666,
+      "duration": 467
+    },
+    {
+      "lang": "zh",
+      "text": "那今天，我们就来聊一聊这个话题吧： ",
+      "offset": 75166,
+      "duration": 3034
+    },
+    {
+      "lang": "zh",
+      "text": " 那些可以帮助我们 每天进步一点点的 中文学习小方法。",
+      "offset": 78200,
+      "duration": 4933
+    },
+    {
+      "lang": "zh",
+      "text": "太好了！",
+      "offset": 83166,
+      "duration": 700
+    },
+    {
+      "lang": "zh",
+      "text": "这个话题很有用。",
+      "offset": 83900,
+      "duration": 1633
+    },
+    {
+      "lang": "zh",
+      "text": "听众朋友们， 你们准备好了吗？",
+      "offset": 85566,
+      "duration": 2567
+    },
+    {
+      "lang": "zh",
+      "text": "我们开始吧！",
+      "offset": 88166,
+      "duration": 1700
+    },
+    {
+      "lang": "zh",
+      "text": "好了，王雨，如果让你说第一个方法，你会说什么？",
+      "offset": 89900,
+      "duration": 4266
+    },
+    {
+      "lang": "zh",
+      "text": "嗯……我想想。我觉得第一个，也是最简单的一个，",
+      "offset": 94166,
+      "duration": 4600
+    },
+    {
+      "lang": "zh",
+      "text": "就是让中文出现在你的生活里，让你每天都能看到它，听到它。",
+      "offset": 98866,
+      "duration": 6500
+    },
+    {
+      "lang": "zh",
+      "text": "哦？怎么说？你可以说得更清楚一点吗？",
+      "offset": 105366,
+      "duration": 2800
+    },
+    {
+      "lang": "zh",
+      "text": "可以。比如，我们大家都有手机，对吧？",
+      "offset": 108200,
+      "duration": 3533
+    },
+    {
+      "lang": "zh",
+      "text": "我们可以把手机的语言，从自己的母语换成中文。",
+      "offset": 111766,
+      "duration": 4500
+    },
+    {
+      "lang": "zh",
+      "text": "啊，这个方法我听过！你试过吗？",
+      "offset": 116300,
+      "duration": 3900
+    },
+    {
+      "lang": "zh",
+      "text": "我试过！\n我学习英语的时候就是这么做的。",
+      "offset": 120233,
+      "duration": 3500
+    },
+    {
+      "lang": "zh",
+      "text": "一开始，我什么都看不懂，觉得很难。",
+      "offset": 123766,
+      "duration": 3500
+    },
+    {
+      "lang": "zh",
+      "text": "手机上的“设置”、“信息”、“电话”，这些词我都不认识。",
+      "offset": 127300,
+      "duration": 6100
+    },
+    {
+      "lang": "zh",
+      "text": "那你怎么办呢？",
+      "offset": 133433,
+      "duration": 1133
+    },
+    {
+      "lang": "zh",
+      "text": "我就猜！或者，我去问朋友，这个词是什么意思。",
+      "offset": 134600,
+      "duration": 4666
+    },
+    {
+      "lang": "zh",
+      "text": "一个星期，两个星期以后，\n我就都认识了。",
+      "offset": 139300,
+      "duration": 3166
+    },
+    {
+      "lang": "zh",
+      "text": "因为你每天都要用手机，",
+      "offset": 142466,
+      "duration": 2734
+    },
+    {
+      "lang": "zh",
+      "text": "所以你看这些词的次数非常多，很快就记住了。",
+      "offset": 145233,
+      "duration": 4567
+    },
+    {
+      "lang": "zh",
+      "text": "我明白了。这是一个很好的方法。",
+      "offset": 149866,
+      "duration": 3234
+    },
+    {
+      "lang": "zh",
+      "text": "每天看，每天用，就像吃饭喝水一样，慢慢地就习惯了。",
+      "offset": 153133,
+      "duration": 5967
+    },
+    {
+      "lang": "zh",
+      "text": "学习中文的朋友也可以这样做。",
+      "offset": 159133,
+      "duration": 2700
+    },
+    {
+      "lang": "zh",
+      "text": "你的手机上有“微信”，\n有“相机”，有“天气”，",
+      "offset": 161833,
+      "duration": 3833
+    },
+    {
+      "lang": "zh",
+      "text": "你每天看，就认识这些汉字了。",
+      "offset": 165700,
+      "duration": 2466
+    },
+    {
+      "lang": "zh",
+      "text": "是的！而且，你不只是看，你还要用它。",
+      "offset": 168233,
+      "duration": 4633
+    },
+    {
+      "lang": "zh",
+      "text": "你想打电话，就要找到“电话”；",
+      "offset": 172933,
+      "duration": 2367
+    },
+    {
+      "lang": "zh",
+      "text": "你想看天气，就要找到“天气”。",
+      "offset": 175333,
+      "duration": 2567
+    },
+    {
+      "lang": "zh",
+      "text": "这样学习，又快又好。",
+      "offset": 177900,
+      "duration": 2800
+    },
+    {
+      "lang": "zh",
+      "text": "我还有一个类似的小方法，\n可以和大家分享。",
+      "offset": 180733,
+      "duration": 3933
+    },
+    {
+      "lang": "zh",
+      "text": "快说来听听！",
+      "offset": 184700,
+      "duration": 1300
+    },
+    {
+      "lang": "zh",
+      "text": "就是在你的家里，在很多东西上面，贴上写有中文名字的纸。",
+      "offset": 186033,
+      "duration": 6567
+    },
+    {
+      "lang": "zh",
+      "text": "哈哈，这个有意思！比如呢？",
+      "offset": 192633,
+      "duration": 1667
+    },
+    {
+      "lang": "zh",
+      "text": "比如，在你的桌子上，贴一张纸，上面写“桌子”。",
+      "offset": 194333,
+      "duration": 5567
+    },
+    {
+      "lang": "zh",
+      "text": "在你的椅子上，贴一张纸，写“椅子”。",
+      "offset": 199933,
+      "duration": 4267
+    },
+    {
+      "lang": "zh",
+      "text": "在电脑上贴“电脑”，在电视上贴“电视”，在门上贴“门”，",
+      "offset": 204266,
+      "duration": 6067
+    },
+    {
+      "lang": "zh",
+      "text": "在床上贴“床”。",
+      "offset": 210366,
+      "duration": 1500
+    },
+    {
+      "lang": "zh",
+      "text": "对！就是这样。",
+      "offset": 211866,
+      "duration": 1534
+    },
+    {
+      "lang": "zh",
+      "text": "你每天早上起来，看到“床”；你坐下工作，看到“桌子”和“椅子”；",
+      "offset": 213433,
+      "duration": 5900
+    },
+    {
+      "lang": "zh",
+      "text": "你看电视，看到“电视”。这些词都是你生活里的一部分，",
+      "offset": 219366,
+      "duration": 4500
+    },
+    {
+      "lang": "zh",
+      "text": "你不用花专门的时间去背，\n看着看着就记住了。",
+      "offset": 223900,
+      "duration": 5466
+    },
+    {
+      "lang": "zh",
+      "text": "这个方法太适合初学者了！\n都是最基本的东西。",
+      "offset": 229400,
+      "duration": 4666
+    },
+    {
+      "lang": "zh",
+      "text": "而且，你可以一边指着它，一边读出来。指着桌子，说：“这是桌子。”",
+      "offset": 234066,
+      "duration": 6900
+    },
+    {
+      "lang": "zh",
+      "text": "指着苹果，说：“这是一个苹果。”",
+      "offset": 241000,
+      "duration": 3266
+    },
+    {
+      "lang": "zh",
+      "text": "没错。这就是我们说的第一点：让中文成为你生活的一部分。",
+      "offset": 244300,
+      "duration": 5400
+    },
+    {
+      "lang": "zh",
+      "text": "不需要你做什么难的事情，只需要做一点小小的改变。",
+      "offset": 249766,
+      "duration": 3234
+    },
+    {
+      "lang": "zh",
+      "text": "好了，李明，说完了“看”，\n我们再说说别的。",
+      "offset": 253033,
+      "duration": 4267
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得“听”也非常重要。",
+      "offset": 257333,
+      "duration": 2167
+    },
+    {
+      "lang": "zh",
+      "text": "我同意。语言，首先是用来听和说的。",
+      "offset": 259533,
+      "duration": 4400
+    },
+    {
+      "lang": "zh",
+      "text": "那在“听”这方面，你有什么建议吗？",
+      "offset": 263966,
+      "duration": 2567
+    },
+    {
+      "lang": "zh",
+      "text": "当然有！我最喜欢的一个方法 就是听中文歌。",
+      "offset": 266566,
+      "duration": 5000
+    },
+    {
+      "lang": "zh",
+      "text": "哦？听歌？",
+      "offset": 271600,
+      "duration": 2433
+    },
+    {
+      "lang": "zh",
+      "text": "很多朋友说，歌里唱得太快了， \n他们听不懂。",
+      "offset": 274066,
+      "duration": 3934
+    },
+    {
+      "lang": "zh",
+      "text": "一开始是会听不懂，没关系。",
+      "offset": 278033,
+      "duration": 2833
+    },
+    {
+      "lang": "zh",
+      "text": "我们可以找一些很慢的、很简单的歌。",
+      "offset": 280900,
+      "duration": 3533
+    },
+    {
+      "lang": "zh",
+      "text": "比如，很多给小孩子听的歌。",
+      "offset": 284466,
+      "duration": 3200
+    },
+    {
+      "lang": "zh",
+      "text": "像“两只老虎”？",
+      "offset": 287700,
+      "duration": 2100
+    },
+    {
+      "lang": "zh",
+      "text": "对！哈哈！",
+      "offset": 289833,
+      "duration": 900
+    },
+    {
+      "lang": "zh",
+      "text": "“两只老虎，两只老虎， 跑得快，跑得快……” 这样的歌，词很简单，也很有意思。",
+      "offset": 290766,
+      "duration": 8967
+    },
+    {
+      "lang": "zh",
+      "text": "或者，有一些很老的， 但是很经典的歌，唱得也比较慢，比较清楚。",
+      "offset": 299766,
+      "duration": 6767
+    },
+    {
+      "lang": "zh",
+      "text": "你能给我们推荐一首吗？",
+      "offset": 306566,
+      "duration": 2734
+    },
+    {
+      "lang": "zh",
+      "text": "嗯……我想一想。",
+      "offset": 309333,
+      "duration": 2133
+    },
+    {
+      "lang": "zh",
+      "text": "啊，有一首歌叫《朋友》。",
+      "offset": 311500,
+      "duration": 2933
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得很多中国人都会唱。",
+      "offset": 314466,
+      "duration": 2034
+    },
+    {
+      "lang": "zh",
+      "text": "它的歌词不难，而且很友好。",
+      "offset": 316533,
+      "duration": 3767
+    },
+    {
+      "lang": "zh",
+      "text": "比如里面唱：",
+      "offset": 320366,
+      "duration": 2034
+    },
+    {
+      "lang": "zh",
+      "text": "“朋友一生一起走，",
+      "offset": 322433,
+      "duration": 1867
+    },
+    {
+      "lang": "zh",
+      "text": "那些日子不再有……”",
+      "offset": 324333,
+      "duration": 3000
+    },
+    {
+      "lang": "zh",
+      "text": "听这样的歌，你会觉得很温暖。",
+      "offset": 327366,
+      "duration": 2900
+    },
+    {
+      "lang": "zh",
+      "text": "这个建议很好。",
+      "offset": 330266,
+      "duration": 1934
+    },
+    {
+      "lang": "zh",
+      "text": "你可以先不看歌词，就听。",
+      "offset": 332233,
+      "duration": 2900
+    },
+    {
+      "lang": "zh",
+      "text": "感受一下音乐和中文发音的感觉。",
+      "offset": 335166,
+      "duration": 3267
+    },
+    {
+      "lang": "zh",
+      "text": "然后，你可以看着歌词，一边听一边看。",
+      "offset": 338466,
+      "duration": 4367
+    },
+    {
+      "lang": "zh",
+      "text": "最后，你可以试着自己唱一唱。",
+      "offset": 342866,
+      "duration": 2834
+    },
+    {
+      "lang": "zh",
+      "text": "是的！唱歌是很快乐的学习方法。",
+      "offset": 345733,
+      "duration": 5033
+    },
+    {
+      "lang": "zh",
+      "text": "除了听歌，我们还可以听什么呢？",
+      "offset": 350800,
+      "duration": 3266
+    },
+    {
+      "lang": "zh",
+      "text": "当然是我们的播客，“每天中文”！",
+      "offset": 354100,
+      "duration": 2900
+    },
+    {
+      "lang": "zh",
+      "text": "哈哈，谢谢你的推荐！",
+      "offset": 357033,
+      "duration": 2600
+    },
+    {
+      "lang": "zh",
+      "text": "是的，听一些语速比较慢的播客， 也是一个好方法。",
+      "offset": 359666,
+      "duration": 5434
+    },
+    {
+      "lang": "zh",
+      "text": "我们说话不快，用的词也比较简单。",
+      "offset": 365133,
+      "duration": 3567
+    },
+    {
+      "lang": "zh",
+      "text": "对。然后，除了“听”，还有“看”。",
+      "offset": 368733,
+      "duration": 4400
+    },
+    {
+      "lang": "zh",
+      "text": "看什么呢？",
+      "offset": 373166,
+      "duration": 734
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得，\n可以看一些给小孩子看的动画片。",
+      "offset": 373933,
+      "duration": 4367
+    },
+    {
+      "lang": "zh",
+      "text": "动画片？为什么？",
+      "offset": 378333,
+      "duration": 1733
+    },
+    {
+      "lang": "zh",
+      "text": "因为动画片是给孩子看的，",
+      "offset": 380133,
+      "duration": 3400
+    },
+    {
+      "lang": "zh",
+      "text": "所以里面的人说话会非常慢，非常清楚。",
+      "offset": 383566,
+      "duration": 4900
+    },
+    {
+      "lang": "zh",
+      "text": "用的词和句子也都是最简单的。",
+      "offset": 388466,
+      "duration": 3067
+    },
+    {
+      "lang": "zh",
+      "text": "比如，中国有一个很有名的动画片，",
+      "offset": 391533,
+      "duration": 3500
+    },
+    {
+      "lang": "zh",
+      "text": "叫《大头儿子和小头爸爸》。",
+      "offset": 395066,
+      "duration": 2934
+    },
+    {
+      "lang": "zh",
+      "text": "啊！我知道！我小时候也看！",
+      "offset": 398066,
+      "duration": 3467
+    },
+    {
+      "lang": "zh",
+      "text": "“大头儿子，小头爸爸，一对好朋友，快乐父子俩！”",
+      "offset": 401600,
+      "duration": 4766
+    },
+    {
+      "lang": "zh",
+      "text": "对，就是这个。里面的对话很简单，",
+      "offset": 406400,
+      "duration": 4066
+    },
+    {
+      "lang": "zh",
+      "text": "比如：“爸爸，我们去哪儿玩？”",
+      "offset": 410500,
+      "duration": 3866
+    },
+    {
+      "lang": "zh",
+      "text": "“我们去公园，好不好？”",
+      "offset": 414400,
+      "duration": 2533
+    },
+    {
+      "lang": "zh",
+      "text": "都是我们生活中会说的话。",
+      "offset": 416966,
+      "duration": 2467
+    },
+    {
+      "lang": "zh",
+      "text": "这个方法好。而且看动画片很有趣， 不觉得是在学习。",
+      "offset": 419433,
+      "duration": 6567
+    },
+    {
+      "lang": "zh",
+      "text": "每天看十分钟，就能学到很多有用的句子。",
+      "offset": 426033,
+      "duration": 3867
+    },
+    {
+      "lang": "zh",
+      "text": "还有，现在很多人都喜欢看短视频，",
+      "offset": 429966,
+      "duration": 4000
+    },
+    {
+      "lang": "zh",
+      "text": "比如抖音。上面也有很多教中文的视频，",
+      "offset": 434000,
+      "duration": 5166
+    },
+    {
+      "lang": "zh",
+      "text": "或者是一些中国人分享他们生活的视频。",
+      "offset": 439200,
+      "duration": 3766
+    },
+    {
+      "lang": "zh",
+      "text": "是的，那些视频很短，可能只有一分钟，",
+      "offset": 442966,
+      "duration": 4934
+    },
+    {
+      "lang": "zh",
+      "text": "你不会觉得累。你可以看他们怎么做饭，",
+      "offset": 447933,
+      "duration": 4333
+    },
+    {
+      "lang": "zh",
+      "text": "怎么去旅游，\n听他们用最自然的中文聊天。",
+      "offset": 452300,
+      "duration": 4533
+    },
+    {
+      "lang": "zh",
+      "text": "总结一下，这第二部分就是：多听、多看。",
+      "offset": 456866,
+      "duration": 4767
+    },
+    {
+      "lang": "zh",
+      "text": "听简单的中文歌，听我们的播客；",
+      "offset": 461700,
+      "duration": 3700
+    },
+    {
+      "lang": "zh",
+      "text": "看简单的动画片，看有趣的短视频。",
+      "offset": 465433,
+      "duration": 4500
+    },
+    {
+      "lang": "zh",
+      "text": "让你的耳朵和眼睛，都熟悉中文。",
+      "offset": 469933,
+      "duration": 4100
+    },
+    {
+      "lang": "zh",
+      "text": "好了，我们说了“看”和“听”，都是“输入”。现在，我们要说“输出”了，也就是“说”。",
+      "offset": 474066,
+      "duration": 8000
+    },
+    {
+      "lang": "zh",
+      "text": "对，“说”非常非常重要。",
+      "offset": 482100,
+      "duration": 3066
+    },
+    {
+      "lang": "zh",
+      "text": "很多朋友认识很多汉字，也能听懂一些话，但是他们不敢说。",
+      "offset": 485200,
+      "duration": 7033
+    },
+    {
+      "lang": "zh",
+      "text": "我完全明白！因为他们害怕说错。怕别人听不懂，或者笑话他们。",
+      "offset": 492266,
+      "duration": 6700
+    },
+    {
+      "lang": "zh",
+      "text": "我以前也有这个问题。",
+      "offset": 499000,
+      "duration": 1733
+    },
+    {
+      "lang": "zh",
+      "text": "真的吗？你给我们讲讲你的故事？",
+      "offset": 500766,
+      "duration": 2167
+    },
+    {
+      "lang": "zh",
+      "text": "好的。我记得我第一次自己去咖啡店买咖啡，想用中文点单。",
+      "offset": 502966,
+      "duration": 6967
+    },
+    {
+      "lang": "zh",
+      "text": "我的心跳得非常快。",
+      "offset": 509966,
+      "duration": 3167
+    },
+    {
+      "lang": "zh",
+      "text": "你紧张了。",
+      "offset": 513166,
+      "duration": 934
+    },
+    {
+      "lang": "zh",
+      "text": "非常紧张！我在去以前，在家里练习了很多遍：",
+      "offset": 514166,
+      "duration": 4734
+    },
+    {
+      "lang": "zh",
+      "text": "“你好，我要一杯咖啡。” 这句话很简单，对不对？",
+      "offset": 518933,
+      "duration": 4633
+    },
+    {
+      "lang": "zh",
+      "text": "对，很简单。",
+      "offset": 523566,
+      "duration": 1067
+    },
+    {
+      "lang": "zh",
+      "text": "但是，我走到店里，看到服务员，我还是很害怕。我小声地说：",
+      "offset": 524700,
+      "duration": 7266
+    },
+    {
+      "lang": "zh",
+      "text": "“你好……我……我要……咖啡。”",
+      "offset": 532000,
+      "duration": 5566
+    },
+    {
+      "lang": "zh",
+      "text": "哈哈，然后呢？服务员怎么说？",
+      "offset": 537600,
+      "duration": 2066
+    },
+    {
+      "lang": "zh",
+      "text": "服务员非常友好。他笑着问我：“好的。请问您要大杯、中杯，",
+      "offset": 539700,
+      "duration": 6500
+    },
+    {
+      "lang": "zh",
+      "text": "还是小杯？要热的还是冰的？”",
+      "offset": 546233,
+      "duration": 3467
+    },
+    {
+      "lang": "zh",
+      "text": "哇，他问了你很多问题。",
+      "offset": 549733,
+      "duration": 1433
+    },
+    {
+      "lang": "zh",
+      "text": "是啊！我当时就呆住了。我只准备了“我要一杯咖啡”，没准备",
+      "offset": 551200,
+      "duration": 6866
+    },
+    {
+      "lang": "zh",
+      "text": "回答这些问题！",
+      "offset": 558100,
+      "duration": 1866
+    },
+    {
+      "lang": "zh",
+      "text": "那你最后怎么办了？",
+      "offset": 559966,
+      "duration": 1500
+    },
+    {
+      "lang": "zh",
+      "text": "我就指着菜单上的图片，说：“这个……大的……热的。” 虽然我说得很",
+      "offset": 561533,
+      "duration": 7700
+    },
+    {
+      "lang": "zh",
+      "text": "不好，但是服务员听懂了。他给了我一杯又大又热的咖",
+      "offset": 569266,
+      "duration": 5000
+    },
+    {
+      "lang": "zh",
+      "text": "啡。",
+      "offset": 574300,
+      "duration": 700
+    },
+    {
+      "lang": "zh",
+      "text": "当我拿到那杯咖啡的时候，\n我真的太高兴了！",
+      "offset": 575000,
+      "duration": 3566
+    },
+    {
+      "lang": "zh",
+      "text": "我明白了。你虽然说得不完美，但是你成功了。你买到了",
+      "offset": 578566,
+      "duration": 7134
+    },
+    {
+      "lang": "zh",
+      "text": "你想喝的咖啡。",
+      "offset": 585733,
+      "duration": 1133
+    },
+    {
+      "lang": "zh",
+      "text": "对！从那以后，我就觉得，说错了没关系，说得慢也没关系。",
+      "offset": 586933,
+      "duration": 6567
+    },
+    {
+      "lang": "zh",
+      "text": "最重要的是，你要敢说！你说出来了，别人才可能帮助你，你才能进 步。",
+      "offset": 593533,
+      "duration": 6933
+    },
+    {
+      "lang": "zh",
+      "text": "你这个故事太棒了。",
+      "offset": 600500,
+      "duration": 2366
+    },
+    {
+      "lang": "zh",
+      "text": "这正是我想说的：不要害怕犯错误。",
+      "offset": 602866,
+      "duration": 4200
+    },
+    {
+      "lang": "zh",
+      "text": "每 一个学习语言的人，都会犯错误。",
+      "offset": 607066,
+      "duration": 4267
+    },
+    {
+      "lang": "zh",
+      "text": "中国人学习英语的时候，也会犯很多错误。犯错误，是学习的 一部分。",
+      "offset": 611366,
+      "duration": 7700
+    },
+    {
+      "lang": "zh",
+      "text": "是的。那除了去商店买东西，还有什么练习“说”的好方法吗？",
+      "offset": 619100,
+      "duration": 7000
+    },
+    {
+      "lang": "zh",
+      "text": "如果我身边没有中国人，怎么办？",
+      "offset": 626133,
+      "duration": 3033
+    },
+    {
+      "lang": "zh",
+      "text": "这是一个好问题。",
+      "offset": 629200,
+      "duration": 2033
+    },
+    {
+      "lang": "zh",
+      "text": "如果你的身边没有中国朋友，你可以……和自己说话。",
+      "offset": 631233,
+      "duration": 6000
+    },
+    {
+      "lang": "zh",
+      "text": "和自己说话？",
+      "offset": 637266,
+      "duration": 1500
+    },
+    {
+      "lang": "zh",
+      "text": "对。这听起来可能有点奇怪，但是非常有用。",
+      "offset": 638766,
+      "duration": 4867
+    },
+    {
+      "lang": "zh",
+      "text": "比如，你早上起来，你可以",
+      "offset": 643633,
+      "duration": 2200
+    },
+    {
+      "lang": "zh",
+      "text": "看着镜子里的自己，说：\n“你好！今天天气很好。",
+      "offset": 645866,
+      "duration": 5067
+    },
+    {
+      "lang": "zh",
+      "text": "我要去工作。我今天很高兴。”",
+      "offset": 650933,
+      "duration": 4000
+    },
+    {
+      "lang": "zh",
+      "text": "哈哈，这个方法很有意思。",
+      "offset": 654933,
+      "duration": 2033
+    },
+    {
+      "lang": "zh",
+      "text": "或者，你看到什么东西，\n就用中文说出它的名字。",
+      "offset": 657066,
+      "duration": 5034
+    },
+    {
+      "lang": "zh",
+      "text": "你拿起一个杯子，",
+      "offset": 662100,
+      "duration": 1233
+    },
+    {
+      "lang": "zh",
+      "text": "就说：“这是一个杯子。\n杯子里有水。我想喝水。”",
+      "offset": 663366,
+      "duration": 5567
+    },
+    {
+      "lang": "zh",
+      "text": "我明白了。就是自己和自己对话，自己做自己的老师和学生。",
+      "offset": 668966,
+      "duration": 6100
+    },
+    {
+      "lang": "zh",
+      "text": "没错。这样练习，你不会感到紧张，因为没有别人在听。",
+      "offset": 675100,
+      "duration": 5400
+    },
+    {
+      "lang": "zh",
+      "text": "你可以慢慢说，想一想再说。",
+      "offset": 680500,
+      "duration": 3166
+    },
+    {
+      "lang": "zh",
+      "text": "这可以帮助你的嘴巴和大脑，\n习惯说中文。",
+      "offset": 683700,
+      "duration": 4966
+    },
+    {
+      "lang": "zh",
+      "text": "这个建议太好了！敢于开口，不怕犯错。",
+      "offset": 688666,
+      "duration": 4734
+    },
+    {
+      "lang": "zh",
+      "text": "可以和朋友说，也可以和自己 说。",
+      "offset": 693400,
+      "duration": 4566
+    },
+    {
+      "lang": "zh",
+      "text": "好了，我们说了听、说、看。",
+      "offset": 698000,
+      "duration": 4166
+    },
+    {
+      "lang": "zh",
+      "text": "学习语言还有很重要的一项，就是“写”。",
+      "offset": 702166,
+      "duration": 4400
+    },
+    {
+      "lang": "zh",
+      "text": "啊，“写”汉字吗？",
+      "offset": 706600,
+      "duration": 1733
+    },
+    {
+      "lang": "zh",
+      "text": "很多朋友觉得写汉字是学习中文最难的部分。",
+      "offset": 708366,
+      "duration": 3767
+    },
+    {
+      "lang": "zh",
+      "text": "是的，写汉字需要练习。",
+      "offset": 712166,
+      "duration": 2900
+    },
+    {
+      "lang": "zh",
+      "text": "但是我们这里说的“写”，\n不只是把一个汉字写一百遍。",
+      "offset": 715100,
+      "duration": 4833
+    },
+    {
+      "lang": "zh",
+      "text": "我们说的，是更 有趣的“写”。",
+      "offset": 719933,
+      "duration": 2667
+    },
+    {
+      "lang": "zh",
+      "text": "怎么说？",
+      "offset": 722633,
+      "duration": 433
+    },
+    {
+      "lang": "zh",
+      "text": "我建议大家，每天可以试着写一句话的日记。就一句话。",
+      "offset": 723100,
+      "duration": 6500
+    },
+    {
+      "lang": "zh",
+      "text": "一句话日记？这个听起来很简单。",
+      "offset": 729633,
+      "duration": 3067
+    },
+    {
+      "lang": "zh",
+      "text": "非常简单。比如，你今天做了什么？",
+      "offset": 732733,
+      "duration": 3700
+    },
+    {
+      "lang": "zh",
+      "text": "你今天心情怎么样？你就可以写下来。",
+      "offset": 736433,
+      "duration": 3467
+    },
+    {
+      "lang": "zh",
+      "text": "比如说：\n“今天星期一。我去学校了。” ",
+      "offset": 739966,
+      "duration": 3967
+    },
+    {
+      "lang": "zh",
+      "text": "或者，\n“今天我吃了中国菜，很好吃。”",
+      "offset": 743933,
+      "duration": 3967
+    },
+    {
+      "lang": "zh",
+      "text": "“今天我认识了一个新朋友，我很高兴。”",
+      "offset": 747933,
+      "duration": 3667
+    },
+    {
+      "lang": "zh",
+      "text": "对！就这么简单的一句话。你不需要写很长的文章。每天",
+      "offset": 751633,
+      "duration": 5967
+    },
+    {
+      "lang": "zh",
+      "text": "写一句，",
+      "offset": 757633,
+      "duration": 1200
+    },
+    {
+      "lang": "zh",
+      "text": "第一，你可以练习写汉字；",
+      "offset": 758866,
+      "duration": 2900
+    },
+    {
+      "lang": "zh",
+      "text": "第二，你可以练习用中文表达你的想法。",
+      "offset": 761800,
+      "duration": 3933
+    },
+    {
+      "lang": "zh",
+      "text": "这个方法我喜欢。",
+      "offset": 765733,
+      "duration": 1733
+    },
+    {
+      "lang": "zh",
+      "text": "每天花五分钟就够了。",
+      "offset": 767466,
+      "duration": 2034
+    },
+    {
+      "lang": "zh",
+      "text": "坚持下去，一个月，你就能 写三十个句子了。",
+      "offset": 769500,
+      "duration": 4200
+    },
+    {
+      "lang": "zh",
+      "text": "一年以后，你就有一个用中文写的日记本了。",
+      "offset": 773733,
+      "duration": 2967
+    },
+    {
+      "lang": "zh",
+      "text": "是的。当你回头看的时候，你会发现自己进步了非常多。",
+      "offset": 776733,
+      "duration": 5900
+    },
+    {
+      "lang": "zh",
+      "text": "除了写日记，我们生活在网络时代，还有别的方法吗？",
+      "offset": 782666,
+      "duration": 4967
+    },
+    {
+      "lang": "zh",
+      "text": "当然。你可以在社交媒体上写。",
+      "offset": 787666,
+      "duration": 3700
+    },
+    {
+      "lang": "zh",
+      "text": "比如，用微信。\n你可以给你的中国朋友发一 条信息。",
+      "offset": 791366,
+      "duration": 4967
+    },
+    {
+      "lang": "zh",
+      "text": "发什么呢？",
+      "offset": 796366,
+      "duration": 1100
+    },
+    {
+      "lang": "zh",
+      "text": "最简单的问候就可以。",
+      "offset": 797533,
+      "duration": 2133
+    },
+    {
+      "lang": "zh",
+      "text": "比如早上发：“早上好！” 吃饭的时候问：“你吃饭了吗？”",
+      "offset": 799666,
+      "duration": 5567
+    },
+    {
+      "lang": "zh",
+      "text": "哈哈，这是中国人最喜欢问的问题之一。",
+      "offset": 805233,
+      "duration": 2767
+    },
+    {
+      "lang": "zh",
+      "text": "是的。\n或者，如果你在一个中文学习小组里，",
+      "offset": 808033,
+      "duration": 4667
+    },
+    {
+      "lang": "zh",
+      "text": "你可以分享你今天学到的一个新词，\n一句话。",
+      "offset": 812733,
+      "duration": 4867
+    },
+    {
+      "lang": "zh",
+      "text": "比如，你今天学了“天气”，你就可以在群里写：“今天北京的天气怎么样？”",
+      "offset": 817633,
+      "duration": 7733
+    },
+    {
+      "lang": "zh",
+      "text": "我明白了。通过写这些简短的信息，我们就在使用中文了。",
+      "offset": 825366,
+      "duration": 5167
+    },
+    {
+      "lang": "zh",
+      "text": "写的目的不是为了考试，而是为了交流。",
+      "offset": 830600,
+      "duration": 4266
+    },
+    {
+      "lang": "zh",
+      "text": "完全正确。所以，第四个小方法就是：每天写一点点。",
+      "offset": 834933,
+      "duration": 6733
+    },
+    {
+      "lang": "zh",
+      "text": "可以是一句话的日记，",
+      "offset": 841666,
+      "duration": 2534
+    },
+    {
+      "lang": "zh",
+      "text": "也可以是一条发给朋友的信息。",
+      "offset": 844233,
+      "duration": 3400
+    },
+    {
+      "lang": "zh",
+      "text": "让“写”也成为一件轻松快",
+      "offset": 847633,
+      "duration": 3433
+    },
+    {
+      "lang": "zh",
+      "text": "乐的事情。",
+      "offset": 851100,
+      "duration": 1233
+    },
+    {
+      "lang": "zh",
+      "text": "好了，时间过得真快。",
+      "offset": 852333,
+      "duration": 2333
+    },
+    {
+      "lang": "zh",
+      "text": "今天我们聊了四个帮助大家 每天进步一点点的中文学习小方法。",
+      "offset": 854700,
+      "duration": 7200
+    },
+    {
+      "lang": "zh",
+      "text": "我们来简单回顾一下吧。",
+      "offset": 861933,
+      "duration": 1700
+    },
+    {
+      "lang": "zh",
+      "text": "好的。",
+      "offset": 863666,
+      "duration": 1400
+    },
+    {
+      "lang": "zh",
+      "text": "第一，是让中文成为你生活的一部分。",
+      "offset": 865100,
+      "duration": 3133
+    },
+    {
+      "lang": "zh",
+      "text": "比如，把手机语言换成中文， 或者在家里贴上中文标签。",
+      "offset": 868266,
+      "duration": 5600
+    },
+    {
+      "lang": "zh",
+      "text": "第二，是多听、多看。",
+      "offset": 873900,
+      "duration": 2566
+    },
+    {
+      "lang": "zh",
+      "text": "听中文歌，看动画片和短视频，",
+      "offset": 876466,
+      "duration": 2934
+    },
+    {
+      "lang": "zh",
+      "text": "让你的耳朵和眼睛熟悉中文。",
+      "offset": 879433,
+      "duration": 3267
+    },
+    {
+      "lang": "zh",
+      "text": "第三，是敢说，不怕错。",
+      "offset": 882766,
+      "duration": 2800
+    },
+    {
+      "lang": "zh",
+      "text": "勇敢地开口，去和别人交流，",
+      "offset": 885600,
+      "duration": 3000
+    },
+    {
+      "lang": "zh",
+      "text": "或者和自己说话。",
+      "offset": 888633,
+      "duration": 1633
+    },
+    {
+      "lang": "zh",
+      "text": "第四，是每天写一点点。",
+      "offset": 890300,
+      "duration": 2666
+    },
+    {
+      "lang": "zh",
+      "text": "可以写一句话的日记， 或者发一条简单的中文信息。",
+      "offset": 893000,
+      "duration": 5133
+    },
+    {
+      "lang": "zh",
+      "text": "是的。这些方法听起来都非常简单， 对不对？",
+      "offset": 898166,
+      "duration": 4367
+    },
+    {
+      "lang": "zh",
+      "text": "对，都非常简单。",
+      "offset": 902566,
+      "duration": 2034
+    },
+    {
+      "lang": "zh",
+      "text": "我觉得，学习语言，最重要的事情",
+      "offset": 904666,
+      "duration": 3267
+    },
+    {
+      "lang": "zh",
+      "text": "可能不是你有多聪明，",
+      "offset": 907966,
+      "duration": 1734
+    },
+    {
+      "lang": "zh",
+      "text": "而是你能不能每天都坚持。",
+      "offset": 909733,
+      "duration": 2733
+    },
+    {
+      "lang": "zh",
+      "text": "哪怕每天只有十分钟，",
+      "offset": 912466,
+      "duration": 2234
+    },
+    {
+      "lang": "zh",
+      "text": "只要你坚持下去，",
+      "offset": 914733,
+      "duration": 1567
+    },
+    {
+      "lang": "zh",
+      "text": "一年后，",
+      "offset": 916333,
+      "duration": 1000
+    },
+    {
+      "lang": "zh",
+      "text": "你一定会看到一个完全不一样的自己。",
+      "offset": 917366,
+      "duration": 3434
+    },
+    {
+      "lang": "zh",
+      "text": "王雨说得太好了。",
+      "offset": 920833,
+      "duration": 1900
+    },
+    {
+      "lang": "zh",
+      "text": "希望今天我们的对话， 能给正在学习中文的你 一些帮助和鼓励。",
+      "offset": 922766,
+      "duration": 5467
+    },
+    {
+      "lang": "zh",
+      "text": "是的！学习的路很长， 但是只要我们每天都走一小步， 就一定会到终点。",
+      "offset": 928266,
+      "duration": 6767
+    },
+    {
+      "lang": "zh",
+      "text": "大家加油！",
+      "offset": 935066,
+      "duration": 834
+    },
+    {
+      "lang": "zh",
+      "text": "好了，今天我们的“每天中文”就到这里了。",
+      "offset": 935933,
+      "duration": 3900
+    },
+    {
+      "lang": "zh",
+      "text": "感谢大家的收听。",
+      "offset": 939866,
+      "duration": 1334
+    },
+    {
+      "lang": "zh",
+      "text": "如果你们喜欢我们的播客， 请记得关注我们。",
+      "offset": 941233,
+      "duration": 3433
+    },
+    {
+      "lang": "zh",
+      "text": "我们下次再见！",
+      "offset": 944700,
+      "duration": 1300
+    },
+    {
+      "lang": "zh",
+      "text": "下次再见！",
+      "offset": 946033,
+      "duration": 1400
+    },
+    {
+      "lang": "zh",
+      "text": "拜拜！",
+      "offset": 947600,
+      "duration": 533
+    }
+  ]
+}

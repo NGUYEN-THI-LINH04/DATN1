@@ -1,0 +1,903 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Quy tắc phát âm | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        HỌC LIỆU · PHÁT ÂM
+    </span>
+
+    <h1>
+        Quản lý quy tắc phát âm
+    </h1>
+
+    <p>
+        Quản lý nội dung quy tắc,
+        ví dụ tiếng Trung, Pinyin,
+        nghĩa tiếng Việt và trạng thái xuất bản.
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     CHỈNH SỬA
+===================================================== -->
+
+{% if editing_rule %}
+
+<section class="panel">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                CHỈNH SỬA
+            </span>
+
+            <h2>
+                {{ editing_rule.name }}
+            </h2>
+
+        </div>
+
+
+        <a
+            class="small-button"
+            href="{{ url_for(
+                'admin_pronunciation_rules.index',
+
+                page=page,
+
+                rule_type=selected_rule_type,
+
+                status=selected_status,
+
+                q=keyword
+            ) }}"
+        >
+            Đóng
+        </a>
+
+    </div>
+
+
+    <form
+        method="post"
+        action="{{ url_for(
+            'admin_pronunciation_rules.edit',
+            rule_id=editing_rule.id
+        ) }}"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <!-- =================================================
+             GIỮ BỘ LỌC
+        ================================================== -->
+
+        <input
+            type="hidden"
+            name="return_page"
+            value="{{ page }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_rule_type"
+            value="{{ selected_rule_type }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_status"
+            value="{{ selected_status }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_keyword"
+            value="{{ keyword }}"
+        >
+
+
+        <!-- =================================================
+             TÊN + LOẠI
+        ================================================== -->
+
+        <div class="grid-2">
+
+            <label class="field">
+
+                Tên quy tắc
+
+                <input
+                    type="text"
+                    name="name"
+                    maxlength="300"
+                    value="{{ editing_rule.name }}"
+                    required
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Loại quy tắc
+
+                <input
+                    type="text"
+                    name="rule_type"
+                    maxlength="50"
+                    value="{{ editing_rule.rule_type }}"
+                    required
+                >
+
+            </label>
+
+        </div>
+
+
+        <!-- =================================================
+             NỘI DUNG
+        ================================================== -->
+
+        <label class="field space-top">
+
+            Nội dung quy tắc
+
+            <textarea
+                name="content"
+                rows="5"
+                required
+            >{{ editing_rule.content }}</textarea>
+
+        </label>
+
+
+        <!-- =================================================
+             VÍ DỤ TRUNG + PINYIN
+        ================================================== -->
+
+        <div class="grid-2 space-top">
+
+            <label class="field">
+
+                Ví dụ tiếng Trung
+
+                <textarea
+                    name="example_zh"
+                    rows="3"
+                >{{ editing_rule.example_zh }}</textarea>
+
+            </label>
+
+
+            <label class="field">
+
+                Pinyin
+
+                <textarea
+                    name="example_pinyin"
+                    rows="3"
+                >{{ editing_rule.example_pinyin }}</textarea>
+
+            </label>
+
+        </div>
+
+
+        <!-- =================================================
+             NGHĨA
+        ================================================== -->
+
+        <label class="field space-top">
+
+            Nghĩa tiếng Việt
+
+            <textarea
+                name="example_vi"
+                rows="3"
+            >{{ editing_rule.example_vi }}</textarea>
+
+        </label>
+
+
+        <!-- =================================================
+             THỨ TỰ + TRẠNG THÁI
+        ================================================== -->
+
+        <div class="grid-2 space-top">
+
+            <label class="field">
+
+                Thứ tự
+
+                <input
+                    type="number"
+                    name="order"
+                    min="1"
+                    value="{{ editing_rule.order }}"
+                    required
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Trạng thái
+
+                <select name="status">
+
+                    {% for value, label
+                        in statuses.items()
+                    %}
+
+                        <option
+                            value="{{ value }}"
+
+                            {% if
+                                editing_rule.status
+                                == value
+                            %}
+                                selected
+                            {% endif %}
+                        >
+                            {{ label }}
+                        </option>
+
+                    {% endfor %}
+
+                </select>
+
+            </label>
+
+        </div>
+
+
+        {% if editing_rule.media_id %}
+
+            <p class="space-top">
+
+                Tệp media hiện tại:
+
+                <strong>
+                    #{{ editing_rule.media_id }}
+                </strong>
+
+            </p>
+
+        {% endif %}
+
+
+        <!-- =================================================
+             BUTTON
+        ================================================== -->
+
+        <div class="course-action-buttons space-top">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lưu thay đổi
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_pronunciation_rules.index',
+
+                    page=page,
+
+                    rule_type=selected_rule_type,
+
+                    status=selected_status,
+
+                    q=keyword
+                ) }}"
+            >
+                Hủy
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+{% endif %}
+
+
+<!-- =====================================================
+     DANH SÁCH
+===================================================== -->
+
+<section class="panel space-top">
+
+
+    <!-- =================================================
+         FILTER
+    ================================================== -->
+
+    <form
+        method="get"
+        action="{{ url_for(
+            'admin_pronunciation_rules.index'
+        ) }}"
+        class="courses-filter"
+    >
+
+        <div class="field">
+
+            <label>
+                Tìm quy tắc
+            </label>
+
+            <input
+                type="search"
+                name="q"
+                value="{{ keyword }}"
+                placeholder="Tên, nội dung, ví dụ..."
+            >
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Loại quy tắc
+            </label>
+
+            <select name="rule_type">
+
+                <option
+                    value="all"
+
+                    {% if
+                        selected_rule_type
+                        == 'all'
+                    %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+
+                {% for item in rule_types %}
+
+                    <option
+                        value="{{ item }}"
+
+                        {% if
+                            selected_rule_type
+                            == item
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ item }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Trạng thái
+            </label>
+
+            <select name="status">
+
+                <option
+                    value="all"
+
+                    {% if selected_status == 'all' %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+
+                {% for value, label
+                    in statuses.items()
+                %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            selected_status
+                            == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <div class="course-action-buttons">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lọc
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_pronunciation_rules.index'
+                ) }}"
+            >
+                Bỏ lọc
+            </a>
+
+        </div>
+
+    </form>
+
+
+    <!-- =================================================
+         XUẤT BẢN HÀNG LOẠT
+    ================================================== -->
+
+    <div class="example-card space-top">
+
+        <h3>
+            Quy tắc phát âm
+        </h3>
+
+
+        <p>
+
+            Còn
+
+            <strong>
+                {{ draft_count }}
+            </strong>
+
+            quy tắc bản nháp.
+
+        </p>
+
+
+        {% if draft_count > 0 %}
+
+            <form
+                method="post"
+                action="{{ url_for(
+                    'admin_pronunciation_rules.publish_all'
+                ) }}"
+                class="space-top"
+                onsubmit="
+                    return confirm(
+                        'Bạn có chắc muốn xuất bản toàn bộ quy tắc phát âm bản nháp?'
+                    );
+                "
+            >
+
+                <input
+                    type="hidden"
+                    name="csrf_token"
+                    value="{{ csrf_token() }}"
+                >
+
+
+                <button
+                    type="submit"
+                    class="button"
+                >
+                    ✓ Xuất bản toàn bộ
+                    {{ draft_count }}
+                    quy tắc
+                </button>
+
+            </form>
+
+        {% else %}
+
+            <span class="material-coming-soon space-top">
+                Toàn bộ quy tắc phát âm
+                đã được xuất bản.
+            </span>
+
+        {% endif %}
+
+    </div>
+
+
+    <!-- =================================================
+         TỔNG
+    ================================================== -->
+
+    <p class="space-top">
+
+        Tìm thấy
+
+        <strong>
+            {{ total_rules }}
+        </strong>
+
+        quy tắc phát âm.
+
+    </p>
+
+
+    <!-- =================================================
+         TABLE
+    ================================================== -->
+
+    <div class="table-scroll">
+
+        <table class="data-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Mã</th>
+
+                    <th>Quy tắc</th>
+
+                    <th>Loại</th>
+
+                    <th>Nội dung</th>
+
+                    <th>Ví dụ</th>
+
+                    <th>Media</th>
+
+                    <th>Thứ tự</th>
+
+                    <th>Trạng thái</th>
+
+                    <th>Thao tác</th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                {% for rule in rules %}
+
+                    <tr>
+
+                        <td>
+                            {{ rule.id }}
+                        </td>
+
+
+                        <td>
+
+                            <strong>
+                                {{ rule.name }}
+                            </strong>
+
+                        </td>
+
+
+                        <td>
+                            {{ rule.rule_type }}
+                        </td>
+
+
+                        <td>
+                            {{ rule.content }}
+                        </td>
+
+
+                        <td>
+
+                            {% if rule.example_zh %}
+
+                                <span lang="zh">
+                                    {{ rule.example_zh }}
+                                </span>
+
+
+                                {% if rule.example_pinyin %}
+
+                                    <br>
+
+                                    <small>
+                                        {{ rule.example_pinyin }}
+                                    </small>
+
+                                {% endif %}
+
+
+                                {% if rule.example_vi %}
+
+                                    <br>
+
+                                    <small>
+                                        {{ rule.example_vi }}
+                                    </small>
+
+                                {% endif %}
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <td>
+
+                            {% if rule.media_id %}
+                                Có
+                            {% else %}
+                                —
+                            {% endif %}
+
+                        </td>
+
+
+                        <td>
+                            {{ rule.order }}
+                        </td>
+
+
+                        <td>
+
+                            <span
+                                class="
+                                    course-status
+                                    course-status-{{ rule.status }}
+                                "
+                            >
+                                {{
+                                    statuses.get(
+                                        rule.status,
+                                        rule.status
+                                    )
+                                }}
+                            </span>
+
+                        </td>
+
+
+                        <td>
+
+                            <div class="course-action-buttons">
+
+
+                                <a
+                                    class="small-button"
+                                    href="{{ url_for(
+                                        'admin_pronunciation_rules.index',
+
+                                        edit=rule.id,
+
+                                        page=page,
+
+                                        rule_type=
+                                            selected_rule_type,
+
+                                        status=
+                                            selected_status,
+
+                                        q=keyword
+                                    ) }}"
+                                >
+                                    Sửa
+                                </a>
+
+
+                                <form
+                                    method="post"
+                                    action="{{ url_for(
+                                        'admin_pronunciation_rules.set_status',
+                                        rule_id=rule.id
+                                    ) }}"
+                                >
+
+                                    <input
+                                        type="hidden"
+                                        name="csrf_token"
+                                        value="{{ csrf_token() }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_page"
+                                        value="{{ page }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_rule_type"
+                                        value="{{ selected_rule_type }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_status"
+                                        value="{{ selected_status }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_keyword"
+                                        value="{{ keyword }}"
+                                    >
+
+
+                                    <select
+                                        name="status"
+                                        onchange="this.form.submit()"
+                                    >
+
+                                        {% for value, label
+                                            in statuses.items()
+                                        %}
+
+                                            <option
+                                                value="{{ value }}"
+
+                                                {% if
+                                                    rule.status
+                                                    == value
+                                                %}
+                                                    selected
+                                                {% endif %}
+                                            >
+                                                {{ label }}
+                                            </option>
+
+                                        {% endfor %}
+
+                                    </select>
+
+                                </form>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                {% else %}
+
+                    <tr>
+
+                        <td
+                            colspan="9"
+                            class="center-text"
+                        >
+                            Không có quy tắc phát âm phù hợp.
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- =================================================
+         PHÂN TRANG
+    ================================================== -->
+
+    {% if total_pages > 1 %}
+
+        <div class="admin-pagination">
+
+
+            {% if page > 1 %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_pronunciation_rules.index',
+
+                        page=page - 1,
+
+                        rule_type=
+                            selected_rule_type,
+
+                        status=
+                            selected_status,
+
+                        q=keyword
+                    ) }}"
+                >
+                    ← Trang trước
+                </a>
+
+            {% endif %}
+
+
+            <span class="admin-pagination-info">
+
+                Trang
+                {{ page }}
+                /
+                {{ total_pages }}
+
+            </span>
+
+
+            {% if page < total_pages %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_pronunciation_rules.index',
+
+                        page=page + 1,
+
+                        rule_type=
+                            selected_rule_type,
+
+                        status=
+                            selected_status,
+
+                        q=keyword
+                    ) }}"
+                >
+                    Trang sau →
+                </a>
+
+            {% endif %}
+
+        </div>
+
+    {% endif %}
+
+</section>
+
+{% endblock %}

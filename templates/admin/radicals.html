@@ -1,0 +1,835 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Bộ thủ | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        HỌC LIỆU · BỘ THỦ
+    </span>
+
+    <h1>
+        Quản lý Bộ thủ
+    </h1>
+
+    <p>
+        Quản lý ký hiệu, tên bộ, ý nghĩa,
+        số nét, mô tả và trạng thái xuất bản
+        của Bộ thủ tiếng Trung.
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     CHỈNH SỬA BỘ THỦ
+===================================================== -->
+
+{% if editing_radical %}
+
+<section class="panel">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                CHỈNH SỬA
+            </span>
+
+            <h2>
+                {{ editing_radical.symbol }}
+                ·
+                {{ editing_radical.name }}
+            </h2>
+
+        </div>
+
+
+        <a
+            class="small-button"
+            href="{{ url_for(
+                'admin_radicals.index',
+
+                page=page,
+
+                status=selected_status,
+
+                q=keyword
+            ) }}"
+        >
+            Đóng
+        </a>
+
+    </div>
+
+
+    <form
+        method="post"
+        action="{{ url_for(
+            'admin_radicals.edit',
+            radical_id=editing_radical.id
+        ) }}"
+    >
+
+        <!-- =================================================
+             CSRF
+        ================================================== -->
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <!-- =================================================
+             GIỮ TRANG + BỘ LỌC
+        ================================================== -->
+
+        <input
+            type="hidden"
+            name="return_page"
+            value="{{ page }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_status"
+            value="{{ selected_status }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_keyword"
+            value="{{ keyword }}"
+        >
+
+
+        <!-- =================================================
+             KÝ HIỆU + TÊN
+        ================================================== -->
+
+        <div class="grid-2">
+
+            <label class="field">
+
+                Ký hiệu
+
+                <input
+                    type="text"
+                    name="symbol"
+                    maxlength="20"
+                    value="{{ editing_radical.symbol }}"
+                    required
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Tên Bộ thủ
+
+                <input
+                    type="text"
+                    name="name"
+                    maxlength="100"
+                    value="{{ editing_radical.name }}"
+                    required
+                >
+
+            </label>
+
+        </div>
+
+
+        <!-- =================================================
+             Ý NGHĨA + SỐ NÉT
+        ================================================== -->
+
+        <div class="grid-2 space-top">
+
+            <label class="field">
+
+                Ý nghĩa
+
+                <input
+                    type="text"
+                    name="meaning"
+                    maxlength="500"
+                    value="{{ editing_radical.meaning }}"
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Số nét
+
+                <input
+                    type="number"
+                    name="stroke_count"
+                    min="1"
+                    value="{{
+                        editing_radical.stroke_count
+                        if editing_radical.stroke_count
+                        is not none
+                        else ''
+                    }}"
+                >
+
+            </label>
+
+        </div>
+
+
+        <!-- =================================================
+             MÔ TẢ
+        ================================================== -->
+
+        <label class="field space-top">
+
+            Mô tả
+
+            <textarea
+                name="description"
+                rows="4"
+            >{{ editing_radical.description }}</textarea>
+
+        </label>
+
+
+        <!-- =================================================
+             TRẠNG THÁI
+        ================================================== -->
+
+        <label class="field space-top">
+
+            Trạng thái
+
+            <select name="status">
+
+                {% for value, label
+                    in statuses.items()
+                %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            editing_radical.status
+                            == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </label>
+
+
+        <!-- =================================================
+             MEDIA
+        ================================================== -->
+
+        {% if editing_radical.media_id %}
+
+            <p class="space-top">
+
+                Tệp liên kết hiện tại:
+
+                <strong>
+                    #{{ editing_radical.media_id }}
+                </strong>
+
+            </p>
+
+        {% endif %}
+
+
+        <!-- =================================================
+             BUTTON
+        ================================================== -->
+
+        <div class="course-action-buttons space-top">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lưu thay đổi
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_radicals.index',
+
+                    page=page,
+
+                    status=selected_status,
+
+                    q=keyword
+                ) }}"
+            >
+                Hủy
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+{% endif %}
+
+
+<!-- =====================================================
+     DANH SÁCH BỘ THỦ
+===================================================== -->
+
+<section class="panel space-top">
+
+
+    <!-- =================================================
+         BỘ LỌC
+    ================================================== -->
+
+    <form
+        method="get"
+        action="{{ url_for(
+            'admin_radicals.index'
+        ) }}"
+        class="courses-filter"
+    >
+
+        <div class="field">
+
+            <label>
+                Tìm Bộ thủ
+            </label>
+
+            <input
+                type="search"
+                name="q"
+                value="{{ keyword }}"
+                placeholder="Ký hiệu, tên bộ, ý nghĩa..."
+            >
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Trạng thái
+            </label>
+
+            <select name="status">
+
+                <option
+                    value="all"
+
+                    {% if selected_status == 'all' %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+
+                {% for value, label
+                    in statuses.items()
+                %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            selected_status
+                            == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <div class="course-action-buttons">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lọc
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_radicals.index'
+                ) }}"
+            >
+                Bỏ lọc
+            </a>
+
+        </div>
+
+    </form>
+
+
+    <!-- =================================================
+         XUẤT BẢN HÀNG LOẠT
+    ================================================== -->
+
+    <div class="example-card space-top">
+
+        <h3>
+            Bộ thủ
+        </h3>
+
+
+        <p>
+
+            Còn
+
+            <strong>
+                {{ draft_count }}
+            </strong>
+
+            Bộ thủ bản nháp.
+
+        </p>
+
+
+        {% if draft_count > 0 %}
+
+            <form
+                method="post"
+                action="{{ url_for(
+                    'admin_radicals.publish_all'
+                ) }}"
+                class="space-top"
+                onsubmit="
+                    return confirm(
+                        'Bạn có chắc muốn xuất bản toàn bộ Bộ thủ bản nháp?'
+                    );
+                "
+            >
+
+                <input
+                    type="hidden"
+                    name="csrf_token"
+                    value="{{ csrf_token() }}"
+                >
+
+
+                <button
+                    type="submit"
+                    class="button"
+                >
+                    ✓ Xuất bản toàn bộ
+                    {{ draft_count }}
+                    Bộ thủ
+                </button>
+
+            </form>
+
+        {% else %}
+
+            <span class="material-coming-soon space-top">
+                Toàn bộ Bộ thủ đã được xuất bản.
+            </span>
+
+        {% endif %}
+
+    </div>
+
+
+    <!-- =================================================
+         TỔNG
+    ================================================== -->
+
+    <p class="space-top">
+
+        Tìm thấy
+
+        <strong>
+            {{ total_radicals }}
+        </strong>
+
+        Bộ thủ.
+
+
+        {% if total_radicals > 0 %}
+
+            · Đang hiển thị
+
+            <strong>
+                {{
+                    ((page - 1) * per_page) + 1
+                }}
+            </strong>
+
+            –
+
+            <strong>
+                {{
+                    [
+                        page * per_page,
+                        total_radicals
+                    ] | min
+                }}
+            </strong>
+
+        {% endif %}
+
+    </p>
+
+
+    <!-- =================================================
+         BẢNG
+    ================================================== -->
+
+    <div class="table-scroll">
+
+        <table class="data-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Mã</th>
+
+                    <th>Bộ</th>
+
+                    <th>Tên bộ</th>
+
+                    <th>Ý nghĩa</th>
+
+                    <th>Số nét</th>
+
+                    <th>Chữ Hán sử dụng</th>
+
+                    <th>Media</th>
+
+                    <th>Trạng thái</th>
+
+                    <th>Thao tác</th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                {% for radical in radicals %}
+
+                    <tr>
+
+                        <td>
+                            {{ radical.id }}
+                        </td>
+
+
+                        <td>
+
+                            <strong class="radical-admin-symbol">
+                                {{ radical.symbol }}
+                            </strong>
+
+                        </td>
+
+
+                        <td>
+
+                            <strong>
+                                {{ radical.name }}
+                            </strong>
+
+                        </td>
+
+
+                        <td>
+
+                            {{ radical.meaning or '—' }}
+
+                        </td>
+
+
+                        <td>
+
+                            {% if
+                                radical.stroke_count
+                                is not none
+                            %}
+
+                                {{ radical.stroke_count }}
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <td>
+
+                            {{ radical.hanzi_count }}
+
+                        </td>
+
+
+                        <td>
+
+                            {% if radical.media_id %}
+
+                                Có
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <td>
+
+                            <span
+                                class="
+                                    course-status
+                                    course-status-{{ radical.status }}
+                                "
+                            >
+                                {{
+                                    statuses.get(
+                                        radical.status,
+                                        radical.status
+                                    )
+                                }}
+                            </span>
+
+                        </td>
+
+
+                        <td>
+
+                            <div class="course-action-buttons">
+
+
+                                <!-- =========================
+                                     SỬA
+                                ========================== -->
+
+                                <a
+                                    class="small-button"
+                                    href="{{ url_for(
+                                        'admin_radicals.index',
+
+                                        edit=radical.id,
+
+                                        page=page,
+
+                                        status=selected_status,
+
+                                        q=keyword
+                                    ) }}"
+                                >
+                                    Sửa
+                                </a>
+
+
+                                <!-- =========================
+                                     TRẠNG THÁI
+                                ========================== -->
+
+                                <form
+                                    method="post"
+                                    action="{{ url_for(
+                                        'admin_radicals.set_status',
+                                        radical_id=radical.id
+                                    ) }}"
+                                >
+
+                                    <input
+                                        type="hidden"
+                                        name="csrf_token"
+                                        value="{{ csrf_token() }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_page"
+                                        value="{{ page }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_status"
+                                        value="{{ selected_status }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_keyword"
+                                        value="{{ keyword }}"
+                                    >
+
+
+                                    <select
+                                        name="status"
+                                        onchange="this.form.submit()"
+                                    >
+
+                                        {% for value, label
+                                            in statuses.items()
+                                        %}
+
+                                            <option
+                                                value="{{ value }}"
+
+                                                {% if
+                                                    radical.status
+                                                    == value
+                                                %}
+                                                    selected
+                                                {% endif %}
+                                            >
+                                                {{ label }}
+                                            </option>
+
+                                        {% endfor %}
+
+                                    </select>
+
+                                </form>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                {% else %}
+
+                    <tr>
+
+                        <td
+                            colspan="9"
+                            class="center-text"
+                        >
+                            Không có Bộ thủ phù hợp.
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- =====================================================
+         PHÂN TRANG
+    ====================================================== -->
+
+    {% if total_pages > 1 %}
+
+        <div class="admin-pagination">
+
+
+            {% if page > 1 %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_radicals.index',
+
+                        page=page - 1,
+
+                        status=selected_status,
+
+                        q=keyword
+                    ) }}"
+                >
+                    ← Trang trước
+                </a>
+
+            {% endif %}
+
+
+            <span class="admin-pagination-info">
+
+                Trang
+                {{ page }}
+                /
+                {{ total_pages }}
+
+            </span>
+
+
+            {% if page < total_pages %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_radicals.index',
+
+                        page=page + 1,
+
+                        status=selected_status,
+
+                        q=keyword
+                    ) }}"
+                >
+                    Trang sau →
+                </a>
+
+            {% endif %}
+
+        </div>
+
+    {% endif %}
+
+</section>
+
+{% endblock %}

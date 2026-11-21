@@ -1,0 +1,245 @@
+{% extends "student/base.html" %}
+
+
+{% block title %}
+Trang chủ | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+{% set home_name =
+    session.get('HoTen')
+    or session.get('ho_ten')
+    or session.get('TenNguoiDung')
+    or session.get('ten_nguoi_dung')
+    or session.get('name')
+    or 'bạn'
+%}
+
+
+<section class="moc-home">
+
+    <!-- =====================================================
+         CHÀO NGƯỜI HỌC
+    ====================================================== -->
+
+    <div class="moc-home-welcome">
+
+        <div class="moc-welcome-title">
+
+            <div class="moc-welcome-mascot">
+                学
+            </div>
+
+
+            <h1>
+
+                Chào
+
+                <span class="moc-welcome-name">
+                    {{ home_name }}
+                </span>
+
+                <span class="moc-wave">
+                    👋
+                </span>
+
+            </h1>
+
+        </div>
+
+
+        <p class="moc-welcome-description">
+            Tiếp tục hành trình từ vựng tiếng Trung của bạn
+            — mỗi ngày một chút là đủ.
+        </p>
+
+
+        <div class="moc-community-line">
+
+            <span>
+                Vào nhóm học cùng mọi người nhé:
+            </span>
+
+
+            <button
+                type="button"
+                class="moc-community-button"
+            >
+                ✎ Mộc Hán · 汉语学习
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         HSK
+    ====================================================== -->
+
+    <section class="moc-hsk-section">
+
+        <div class="moc-section-title">
+
+            <span class="moc-title-marker">
+            </span>
+
+
+            <div>
+
+                <h2>
+                    HSK
+                </h2>
+
+                <p>
+                    Lộ trình học tiếng Trung từ HSK 1 đến HSK 4
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             DANH SÁCH HSK ĐỘNG
+        ================================================== -->
+
+        <div class="moc-hsk-grid">
+
+            {% for course in courses %}
+
+
+                {% set course_ready =
+                    course.SoBaiHoc > 0
+                    and course.SoTuVung > 0
+                %}
+
+
+                {% if course_ready %}
+
+                    <!-- =========================================
+                         KHÓA ĐÃ CÓ DỮ LIỆU
+                    ========================================== -->
+
+                    <a
+                        href="{{ url_for(
+                            'courses.detail',
+                            course_id=course.MaKhoaHoc
+                        ) }}"
+                        class="moc-hsk-card"
+                    >
+
+                        <div class="moc-hsk-card-main">
+
+                            <span class="moc-card-small">
+                                MỘC HÁN
+                            </span>
+
+
+                            <strong>
+                                HSK {{ course.MaCapDo }}
+                            </strong>
+
+                        </div>
+
+
+                        <div class="moc-hsk-card-footer">
+
+                            <span>
+                                {{ course.SoTuVung }}
+                                từ vựng
+                            </span>
+
+
+                            <span class="moc-dot">
+                                ·
+                            </span>
+
+
+                            <span>
+                                {{ course.SoBaiHoc }}
+                                bài
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                {% else %}
+
+                    <!-- =========================================
+                         KHÓA CHƯA CÓ ĐỦ HỌC LIỆU
+                    ========================================== -->
+
+                    <div
+                        class="
+                            moc-hsk-card
+                            moc-hsk-card-coming
+                        "
+                    >
+
+                        <div class="moc-hsk-card-main">
+
+                            <span class="moc-card-small">
+                                MỘC HÁN
+                            </span>
+
+
+                            <strong>
+                                HSK {{ course.MaCapDo }}
+                            </strong>
+
+                        </div>
+
+
+                        <div class="moc-hsk-card-footer">
+
+                            {% if course.SoTuVung > 0 %}
+
+                                <span>
+                                    {{ course.SoTuVung }}
+                                    từ vựng
+                                </span>
+
+                            {% else %}
+
+                                <span>
+                                    Chưa có học liệu
+                                </span>
+
+                            {% endif %}
+
+
+                            <span class="moc-coming-text">
+                                Đang chuẩn bị
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                {% endif %}
+
+
+            {% else %}
+
+                <div class="empty-course-message">
+
+                    Chưa có khóa học HSK trong hệ thống.
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    </section>
+
+</section>
+
+{% endblock %}

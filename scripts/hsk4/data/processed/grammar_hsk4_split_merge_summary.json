@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "tong_diem_chuan": 76,
+  "gf4_dau": "GF4-001",
+  "gf4_cuoi": "GF4-076",
+  "phan_loai": {
+    "CO_THE_GIU_1_MUC": 39,
+    "CAN_XEM_XET_TACH": 13,
+    "CAN_REVIEW_NGU_CANH": 24
+  },
+  "tong_muc_can_review": 37,
+  "ung_vien_tach_manh": 13,
+  "cho_phep_gop_giua_hai_ma_gf4": false,
+  "da_quyet_dinh_tach": false,
+  "da_bien_soan_noi_dung": false,
+  "da_ghi_sql": false
+}

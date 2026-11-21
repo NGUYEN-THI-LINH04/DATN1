@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "gf0025_hsk4_standard_points": 76,
+  "diem_giu_1": 63,
+  "diem_tach": 13,
+  "don_vi_tu_cac_diem_tach": 51,
+  "tong_don_vi_giang_day": 114,
+  "don_vi_tang_them_do_tach": 38,
+  "review_ngu_canh_giu_1": 24,
+  "split_point_ids": [
+    "GF4-003",
+    "GF4-004",
+    "GF4-005",
+    "GF4-007",
+    "GF4-008",
+    "GF4-011",
+    "GF4-012",
+    "GF4-019",
+    "GF4-020",
+    "GF4-038",
+    "GF4-040",
+    "GF4-041",
+    "GF4-062"
+  ],
+  "source_sha256": "04a602d299652742aa80ab9bd432546b858457eda6b551b65e43548f66a11df5",
+  "output_sha256": "5a213b92fe25c2947c25bb4d00536425aa0a4d315f454b462f4b4fd59835088f",
+  "da_bien_soan_tieng_viet": false,
+  "da_gan_bai_hoc": false,
+  "da_ghi_sql": false,
+  "ghi_chu": "76 la diem chuan GF0025 HSK4. 114 la don vi giang day cua du an Moc Han sau review/tach."
+}

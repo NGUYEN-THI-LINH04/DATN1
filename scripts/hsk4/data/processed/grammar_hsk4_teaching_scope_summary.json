@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "cap_do_hsk": 4,
+  "tong_diem_chuan": 76,
+  "ma_dau": "GF4-001",
+  "ma_cuoi": "GF4-076",
+  "muc_co_canh_bao_nguon": 45,
+  "raw_content_rong": 25,
+  "ten_diem_chuan_trung": 0,
+  "cho_bien_soan": 76,
+  "quyet_dinh_1_1_voi_sql": false,
+  "standard_sha256": "e09ed9d3086c38256c610feb93fae58b94e28c33188f9b0845c639d93b1659c9",
+  "da_ghi_sql": false,
+  "ghi_chu": "Day la worklist theo 76 diem GF0025 HSK4. Chua phai 76 dong dbo.NguPhap."
+}

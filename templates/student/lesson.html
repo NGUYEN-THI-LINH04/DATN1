@@ -1,0 +1,3029 @@
+{% extends "student/base.html" %}
+
+{% block title %}
+Bài {{ lesson.SoThuTuBai }} | Mộc Hán
+{% endblock %}
+
+{% block content %}
+
+<section
+    class="learning-lesson-page"
+    id="lessonStudyPage"
+    data-lesson-id="{{ lesson.MaBaiHoc }}"
+>
+
+    <!-- =====================================================
+         BREADCRUMB
+    ====================================================== -->
+
+    <div class="lesson-breadcrumb">
+
+        <a href="{{ url_for('home.index') }}">
+            Trang chủ
+        </a>
+
+        <span>/</span>
+
+        <a
+            href="{{ url_for(
+                'courses.detail',
+                course_id=course.MaKhoaHoc
+            ) }}"
+        >
+            HSK {{ course.MaCapDo }}
+        </a>
+
+        <span>/</span>
+
+        <strong>
+            Bài {{ lesson.SoThuTuBai }}
+        </strong>
+
+    </div>
+
+
+    <!-- =====================================================
+         HEADER BÀI HỌC
+    ====================================================== -->
+
+    <header class="lesson-learning-header">
+
+        <div class="lesson-badge">
+            {{ lesson.SoThuTuBai }}
+        </div>
+
+        <div class="lesson-heading-content">
+
+            <span class="lesson-heading-eyebrow">
+                HSK {{ course.MaCapDo }}
+                ·
+                BÀI {{ lesson.SoThuTuBai }}
+            </span>
+
+            <h1>
+                {{ lesson.TieuDe }}
+            </h1>
+
+            {% if lesson.TomTat %}
+
+                <p>
+                    {{ lesson.TomTat }}
+                </p>
+
+            {% endif %}
+
+
+            <div class="lesson-heading-stats">
+
+                <span>
+                    <b>{{ total_vocabulary }}</b>
+                    từ vựng
+                </span>
+
+                <span>
+                    <b>{{ total_grammar }}</b>
+                    ngữ pháp
+                </span>
+
+                <span>
+                    <b>{{ total_hanzi }}</b>
+                    chữ Hán
+                </span>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         TAB CHÍNH
+    ====================================================== -->
+
+    <div class="lesson-learning-tabs">
+
+        <button
+            type="button"
+            class="lesson-learning-tab active"
+            data-lesson-tab="vocabulary"
+        >
+            <span>词</span>
+
+            Từ vựng
+
+            <b>
+                {{ total_vocabulary }}
+            </b>
+
+        </button>
+
+
+        <button
+            type="button"
+            class="lesson-learning-tab"
+            data-lesson-tab="grammar"
+        >
+            <span>语</span>
+
+            Ngữ pháp
+
+            <b>
+                {{ total_grammar }}
+            </b>
+
+        </button>
+
+
+        <button
+            type="button"
+            class="lesson-learning-tab"
+            data-lesson-tab="hanzi"
+        >
+            <span>汉</span>
+
+            Chữ Hán
+
+            <b>
+                {{ total_hanzi }}
+            </b>
+
+        </button>
+
+    </div>
+
+
+    <!-- =====================================================
+         TAB 1 - TỪ VỰNG
+    ====================================================== -->
+
+    <div
+        class="lesson-tab-panel active"
+        id="lesson-panel-vocabulary"
+    >
+
+        {% if vocabularies %}
+
+
+            <!-- =================================================
+                 FLASHCARD TOOLBAR
+            ================================================== -->
+
+            <div class="vocab-study-toolbar">
+
+                <div class="vocab-study-left">
+
+                    <button
+                        type="button"
+                        class="vocab-mode-button active"
+                        id="vocabModeWord"
+                    >
+                        ▱ Từ vựng
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="vocab-mode-button"
+                        id="vocabModeExample"
+                    >
+                        ▣ Ví dụ
+                    </button>
+
+                </div>
+
+
+                <div class="vocab-study-counter">
+
+                    <span id="vocabCurrentNumber">
+                        1
+                    </span>
+
+                    /
+
+                    <span>
+                        {{ total_vocabulary }}
+                    </span>
+
+                </div>
+
+
+                <div class="vocab-study-actions">
+
+                    <button
+                        type="button"
+                        class="
+                            vocab-action-button
+                            lesson-audio-button
+                        "
+                        id="vocabFlashcardAudioButton"
+                        data-audio-url=""
+                        title="Nghe phát âm"
+                        aria-label="Nghe phát âm"
+                        hidden
+                    >
+                        🔊 Nghe
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="vocab-action-button"
+                        id="vocabDirectionButton"
+                    >
+                        ⇄ ZH → VI
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="vocab-action-button"
+                        id="vocabShuffleButton"
+                    >
+                        ⤨ Xáo trộn
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 FLASHCARD
+            ================================================== -->
+
+            <div class="vocab-flashcard-shell">
+
+                <button
+                    type="button"
+                    class="vocab-flashcard"
+                    id="vocabFlashcard"
+                >
+
+                    <!-- MẶT TRƯỚC -->
+
+                    <div
+                        class="
+                            vocab-card-face
+                            vocab-card-front
+                        "
+                    >
+
+                        <div
+                            class="vocab-card-main-text"
+                            id="vocabFrontText"
+                        >
+                        </div>
+
+
+                        <div
+                            class="vocab-card-type"
+                            id="vocabFrontType"
+                        >
+                        </div>
+
+
+                        <div class="vocab-card-hint">
+                            ✧ Click để lật
+                        </div>
+
+                    </div>
+
+
+                    <!-- MẶT SAU -->
+
+                    <div
+                        class="
+                            vocab-card-face
+                            vocab-card-back
+                        "
+                    >
+
+                        <div
+                            class="vocab-back-hanzi"
+                            id="vocabBackHanzi"
+                        >
+                        </div>
+
+
+                        <div
+                            class="vocab-back-pinyin"
+                            id="vocabBackPinyin"
+                        >
+                        </div>
+
+
+                        <div
+                            class="vocab-back-meaning"
+                            id="vocabBackMeaning"
+                        >
+                        </div>
+
+
+                        <div
+                            class="vocab-back-example"
+                            id="vocabBackExample"
+                        >
+                        </div>
+
+                    </div>
+
+                </button>
+
+
+                <!-- =========================================
+                     ĐIỀU KHIỂN FLASHCARD
+                ========================================== -->
+
+                <div class="vocab-flashcard-controls">
+
+                    <button
+                        type="button"
+                        class="vocab-control-button"
+                        id="vocabPreviousButton"
+                    >
+                        ‹ Trước
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="
+                            vocab-control-button
+                            vocab-not-learned
+                        "
+                        id="vocabNotLearnedButton"
+                    >
+                        ✕ Chưa thuộc
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="
+                            vocab-control-button
+                            vocab-learned
+                        "
+                        id="vocabLearnedButton"
+                    >
+                        ✓ Đã thuộc
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="vocab-control-button"
+                        id="vocabNextButton"
+                    >
+                        Sau ›
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 TRẮC NGHIỆM
+            ================================================== -->
+
+            <section
+                class="vocab-quiz-area"
+                id="vocabQuizArea"
+                hidden
+            >
+
+                <div class="quiz-header">
+
+                    <div>
+
+                        <span>
+                            TRẮC NGHIỆM TỪ VỰNG
+                        </span>
+
+                        <h3 id="quizProgress">
+                            Câu 1
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="quiz-question-card">
+
+                    <div
+                        class="quiz-question-hanzi"
+                        id="quizHanzi"
+                    >
+                    </div>
+
+
+                    <div
+                        class="quiz-question-pinyin"
+                        id="quizPinyin"
+                    >
+                    </div>
+
+
+                    <p>
+                        Từ trên có nghĩa là gì?
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="quiz-options"
+                    id="quizOptions"
+                >
+                </div>
+
+
+                <div
+                    class="quiz-feedback"
+                    id="quizFeedback"
+                >
+                </div>
+
+
+                <div class="quiz-bottom">
+
+                    <button
+                        type="button"
+                        class="quiz-next-button"
+                        id="quizNextButton"
+                        hidden
+                    >
+                        Câu tiếp theo →
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 KẾT QUẢ TRẮC NGHIỆM
+            ================================================== -->
+
+            <section
+                class="quiz-result"
+                id="quizResult"
+                hidden
+            >
+
+                <span>
+                    HOÀN THÀNH
+                </span>
+
+                <h3>
+                    Kết quả trắc nghiệm
+                </h3>
+
+
+                <div class="quiz-result-score">
+
+                    <strong id="quizScore">
+                        0 / 0
+                    </strong>
+
+                    <span>
+                        Số câu đúng
+                    </span>
+
+                </div>
+
+
+                <div class="quiz-result-percent">
+
+                    Điểm:
+
+                    <strong id="quizPercent">
+                        0%
+                    </strong>
+
+                </div>
+
+
+                <div class="quiz-result-actions">
+
+                    <button
+                        type="button"
+                        id="quizRestartButton"
+                    >
+                        ↻ Làm lại
+                    </button>
+
+
+                    <button
+                        type="button"
+                        id="quizBackButton"
+                    >
+                        ← Flashcard
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 GÕ TỪ
+            ================================================== -->
+
+            <section
+                class="vocab-typing-area"
+                id="vocabTypingArea"
+                hidden
+            >
+
+                <div class="typing-header">
+
+                    <div>
+
+                        <span>
+                            GÕ TỪ
+                        </span>
+
+                        <h3 id="typingProgress">
+                            Câu 1
+                        </h3>
+
+                    </div>
+
+
+                    <button
+                        type="button"
+                        class="typing-direction-button"
+                        id="typingDirectionButton"
+                    >
+                        ⇄ VI → ZH
+                    </button>
+
+                </div>
+
+
+                <div class="typing-question-card">
+
+                    <span class="typing-question-label">
+                        HÃY NHẬP ĐÁP ÁN
+                    </span>
+
+
+                    <div
+                        class="typing-question-main"
+                        id="typingQuestionMain"
+                    >
+                    </div>
+
+
+                    <div
+                        class="typing-question-secondary"
+                        id="typingQuestionSecondary"
+                    >
+                    </div>
+
+                </div>
+
+
+                <div class="typing-answer-box">
+
+                    <input
+                        type="text"
+                        id="typingAnswerInput"
+                        autocomplete="off"
+                        placeholder="Nhập đáp án..."
+                    >
+
+
+                    <button
+                        type="button"
+                        id="typingCheckButton"
+                    >
+                        Kiểm tra
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="typing-feedback"
+                    id="typingFeedback"
+                >
+                </div>
+
+
+                <div class="typing-bottom">
+
+                    <button
+                        type="button"
+                        class="typing-next-button"
+                        id="typingNextButton"
+                        hidden
+                    >
+                        Câu tiếp theo →
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 KẾT QUẢ GÕ TỪ
+            ================================================== -->
+
+            <section
+                class="typing-result"
+                id="typingResult"
+                hidden
+            >
+
+                <span>
+                    HOÀN THÀNH
+                </span>
+
+                <h3>
+                    Kết quả Gõ từ
+                </h3>
+
+
+                <div class="typing-result-score">
+
+                    <strong id="typingScore">
+                        0 / 0
+                    </strong>
+
+                    <span>
+                        Số câu đúng
+                    </span>
+
+                </div>
+
+
+                <div class="typing-result-percent">
+
+                    Điểm:
+
+                    <strong id="typingPercent">
+                        0%
+                    </strong>
+
+                </div>
+
+
+                <div class="typing-result-actions">
+
+                    <button
+                        type="button"
+                        id="typingRestartButton"
+                    >
+                        ↻ Làm lại
+                    </button>
+
+
+                    <button
+                        type="button"
+                        id="typingBackButton"
+                    >
+                        ← Flashcard
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 ĐỌC HIỂU
+            ================================================== -->
+
+            <section
+                class="vocab-reading-area"
+                id="vocabReadingArea"
+                hidden
+            >
+
+                <div class="reading-header">
+
+                    <div>
+
+                        <span>
+                            ĐỌC HIỂU
+                        </span>
+
+                        <h3 id="readingProgress">
+                            Câu 1
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reading-question-card">
+
+                    <span class="reading-question-label">
+                        ĐỌC CÂU SAU
+                    </span>
+
+
+                    <div
+                        class="reading-chinese"
+                        id="readingChinese"
+                    >
+                    </div>
+
+
+                    <p>
+                        Câu trên có nghĩa là gì?
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="reading-options"
+                    id="readingOptions"
+                >
+                </div>
+
+
+                <div
+                    class="reading-feedback"
+                    id="readingFeedback"
+                >
+                </div>
+
+
+                <div class="reading-bottom">
+
+                    <button
+                        type="button"
+                        class="reading-next-button"
+                        id="readingNextButton"
+                        hidden
+                    >
+                        Câu tiếp theo →
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 ĐỌC HIỂU - KHÔNG ĐỦ DỮ LIỆU
+            ================================================== -->
+
+            <section
+                class="reading-unavailable"
+                id="readingUnavailable"
+                hidden
+            >
+
+                <strong>
+                    Bài này chưa đủ câu ví dụ để tạo bài Đọc hiểu.
+                </strong>
+
+                <span>
+                    Chế độ này chỉ sử dụng câu ví dụ tiếng Trung
+                    có bản dịch tiếng Việt trong dữ liệu bài học.
+                </span>
+
+            </section>
+
+
+            <!-- =================================================
+                 KẾT QUẢ ĐỌC HIỂU
+            ================================================== -->
+
+            <section
+                class="reading-result"
+                id="readingResult"
+                hidden
+            >
+
+                <span>
+                    HOÀN THÀNH
+                </span>
+
+                <h3>
+                    Kết quả Đọc hiểu
+                </h3>
+
+
+                <div class="reading-result-score">
+
+                    <strong id="readingScore">
+                        0 / 0
+                    </strong>
+
+                    <span>
+                        Số câu đúng
+                    </span>
+
+                </div>
+
+
+                <div class="reading-result-percent">
+
+                    Điểm:
+
+                    <strong id="readingPercent">
+                        0%
+                    </strong>
+
+                </div>
+
+
+                <div class="reading-result-actions">
+
+                    <button
+                        type="button"
+                        id="readingRestartButton"
+                    >
+                        ↻ Làm lại
+                    </button>
+
+
+                    <button
+                        type="button"
+                        id="readingBackButton"
+                    >
+                        ← Flashcard
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 NGHE GHÉP CÂU
+            ================================================== -->
+
+            <section
+                class="vocab-listening-area"
+                id="vocabListeningArea"
+                hidden
+            >
+
+                <div class="listening-header">
+
+                    <div>
+
+                        <span>
+                            NGHE GHÉP CÂU
+                        </span>
+
+                        <h3 id="listeningProgress">
+                            Câu 1
+                        </h3>
+
+                    </div>
+
+
+                    <div
+                        class="listening-speed-group"
+                        id="listeningSpeedGroup"
+                    >
+
+                        <button
+                            type="button"
+                            data-speed="0.5"
+                        >
+                            0.5x
+                        </button>
+
+
+                        <button
+                            type="button"
+                            data-speed="0.8"
+                        >
+                            0.8x
+                        </button>
+
+
+                        <button
+                            type="button"
+                            data-speed="1"
+                            class="active"
+                        >
+                            1x
+                        </button>
+
+
+                        <button
+                            type="button"
+                            data-speed="1.5"
+                        >
+                            1.5x
+                        </button>
+
+
+                        <button
+                            type="button"
+                            data-speed="2"
+                        >
+                            2x
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="listening-toolbar">
+
+                    <button
+                        type="button"
+                        class="listening-listen-button"
+                        id="listeningPlayButton"
+                    >
+                        🔊 Nghe câu
+                    </button>
+
+
+                    <div
+                        class="listening-task-switch"
+                        id="listeningTaskSwitch"
+                    >
+
+                        <button
+                            type="button"
+                            class="active"
+                            data-listening-task="assemble"
+                        >
+                            Ghép câu
+                        </button>
+
+
+                        <button
+                            type="button"
+                            data-listening-task="typing"
+                        >
+                            Gõ lại
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- GHÉP CÂU -->
+
+                <div id="listeningAssemblePanel">
+
+                    <div class="listening-answer-box">
+
+                        <span class="listening-answer-label">
+                            CÂU BẠN GHÉP
+                        </span>
+
+
+                        <div
+                            class="listening-answer-slots"
+                            id="listeningAnswerSlots"
+                        >
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="listening-token-bank"
+                        id="listeningTokenBank"
+                    >
+                    </div>
+
+                </div>
+
+
+                <!-- GÕ LẠI -->
+
+                <div
+                    class="listening-typing-panel"
+                    id="listeningTypingPanel"
+                    hidden
+                >
+
+                    <label for="listeningTypingInput">
+                        Nghe câu rồi gõ lại bằng tiếng Trung
+                    </label>
+
+
+                    <div class="listening-typing-box">
+
+                        <input
+                            type="text"
+                            id="listeningTypingInput"
+                            autocomplete="off"
+                            placeholder="Nhập câu bạn nghe được..."
+                        >
+
+
+                        <button
+                            type="button"
+                            id="listeningTypingCheckButton"
+                        >
+                            Kiểm tra
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="listening-feedback"
+                    id="listeningFeedback"
+                >
+                </div>
+
+
+                <div class="listening-bottom">
+
+                    <span id="listeningCounter">
+                        1 / 1
+                    </span>
+
+
+                    <button
+                        type="button"
+                        class="listening-next-button"
+                        id="listeningNextButton"
+                        hidden
+                    >
+                        Câu tiếp theo →
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 KẾT QUẢ NGHE GHÉP CÂU
+            ================================================== -->
+
+            <section
+                class="listening-result"
+                id="listeningResult"
+                hidden
+            >
+
+                <span>
+                    HOÀN THÀNH
+                </span>
+
+                <h3>
+                    Kết quả Nghe ghép câu
+                </h3>
+
+
+                <div class="study-result-score">
+
+                    <strong id="listeningScore">
+                        0 / 0
+                    </strong>
+
+                    <span>
+                        Số câu đúng
+                    </span>
+
+                </div>
+
+
+                <div class="study-result-percent">
+
+                    Điểm:
+
+                    <strong id="listeningPercent">
+                        0%
+                    </strong>
+
+                </div>
+
+
+                <div class="study-result-actions">
+
+                    <button
+                        type="button"
+                        id="listeningRestartButton"
+                    >
+                        ↻ Làm lại
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 HANZI DANCE
+            ================================================== -->
+
+            <section
+                class="hanzi-dance-area"
+                id="hanziDanceArea"
+                hidden
+            >
+
+                <div class="hanzi-dance-header">
+
+                    <div>
+
+                        <span>
+                            HANZI DANCE
+                        </span>
+
+                        <h3 id="hanziDanceProgress">
+                            Câu 1
+                        </h3>
+
+                    </div>
+
+
+                    <strong id="hanziDanceLiveScore">
+                        0 điểm
+                    </strong>
+
+                </div>
+
+
+                <div class="hanzi-dance-stage">
+
+                    <span class="hanzi-dance-label">
+                        CHỌN NGHĨA ĐÚNG
+                    </span>
+
+
+                    <div
+                        class="hanzi-dance-character"
+                        id="hanziDanceCharacter"
+                    >
+                    </div>
+
+
+                    <div
+                        class="hanzi-dance-pinyin"
+                        id="hanziDancePinyin"
+                    >
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="hanzi-dance-options"
+                    id="hanziDanceOptions"
+                >
+                </div>
+
+
+                <div
+                    class="hanzi-dance-feedback"
+                    id="hanziDanceFeedback"
+                >
+                </div>
+
+
+                <div class="hanzi-dance-bottom">
+
+                    <button
+                        type="button"
+                        class="hanzi-dance-next-button"
+                        id="hanziDanceNextButton"
+                        hidden
+                    >
+                        Chữ tiếp theo →
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 KẾT QUẢ HANZI DANCE
+            ================================================== -->
+
+            <section
+                class="hanzi-dance-result"
+                id="hanziDanceResult"
+                hidden
+            >
+
+                <span>
+                    HOÀN THÀNH
+                </span>
+
+                <h3>
+                    Kết quả Hanzi Dance
+                </h3>
+
+
+                <div class="study-result-score">
+
+                    <strong id="hanziDanceScore">
+                        0 / 0
+                    </strong>
+
+                    <span>
+                        Số chữ đúng
+                    </span>
+
+                </div>
+
+
+                <div class="study-result-percent">
+
+                    Điểm:
+
+                    <strong id="hanziDancePercent">
+                        0%
+                    </strong>
+
+                </div>
+
+
+                <div class="study-result-actions">
+
+                    <button
+                        type="button"
+                        id="hanziDanceRestartButton"
+                    >
+                        ↻ Chơi lại
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 ĐẤU TRÍ
+            ================================================== -->
+
+            <section
+                class="battle-area"
+                id="battleArea"
+                hidden
+            >
+
+                <div class="battle-header">
+
+                    <div>
+
+                        <span>
+                            ĐẤU TRÍ
+                        </span>
+
+                        <h3 id="battleProgress">
+                            Câu 1
+                        </h3>
+
+                    </div>
+
+
+                    <div class="battle-stats">
+
+                        <strong id="battlePoints">
+                            0 điểm
+                        </strong>
+
+                        <strong id="battleTimer">
+                            15s
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="battle-question-card">
+
+                    <span
+                        class="battle-question-label"
+                        id="battleQuestionLabel"
+                    >
+                        CHỌN ĐÁP ÁN ĐÚNG
+                    </span>
+
+
+                    <div
+                        class="battle-question-main"
+                        id="battleQuestionMain"
+                    >
+                    </div>
+
+
+                    <div
+                        class="battle-question-secondary"
+                        id="battleQuestionSecondary"
+                    >
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="battle-options"
+                    id="battleOptions"
+                >
+                </div>
+
+
+                <div
+                    class="battle-feedback"
+                    id="battleFeedback"
+                >
+                </div>
+
+
+                <div class="battle-bottom">
+
+                    <button
+                        type="button"
+                        class="battle-next-button"
+                        id="battleNextButton"
+                        hidden
+                    >
+                        Câu tiếp theo →
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 KẾT QUẢ ĐẤU TRÍ
+            ================================================== -->
+
+            <section
+                class="battle-result"
+                id="battleResult"
+                hidden
+            >
+
+                <span>
+                    HOÀN THÀNH
+                </span>
+
+                <h3>
+                    Kết quả Đấu trí
+                </h3>
+
+
+                <div class="battle-result-points">
+
+                    <strong id="battleFinalPoints">
+                        0
+                    </strong>
+
+                    <span>
+                        điểm
+                    </span>
+
+                </div>
+
+
+                <div class="study-result-score">
+
+                    <strong id="battleScore">
+                        0 / 0
+                    </strong>
+
+                    <span>
+                        Số câu đúng
+                    </span>
+
+                </div>
+
+
+                <div class="study-result-actions">
+
+                    <button
+                        type="button"
+                        id="battleRestartButton"
+                    >
+                        ⚔ Chơi lại
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 CHỌN CHẾ ĐỘ HỌC
+            ================================================== -->
+
+            <section class="vocab-study-modes">
+
+                <div class="vocab-study-modes-heading">
+
+                    <h3>
+                        Chọn chế độ học
+                    </h3>
+
+                    <span>
+                        Luyện lại từ vựng theo nhiều hình thức khác nhau.
+                    </span>
+
+                </div>
+
+
+                <div class="vocab-study-mode-grid">
+
+                    <button
+                        type="button"
+                        class="vocab-study-mode-card active"
+                        data-study-mode="flashcard"
+                    >
+
+                        <span class="vocab-study-mode-icon">
+                            ▱
+                        </span>
+
+                        <strong>
+                            Flashcard
+                        </strong>
+
+                        <small class="mode-status mode-status-active">
+                            Đang học
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="vocab-study-mode-card"
+                        data-study-mode="quiz"
+                    >
+
+                        <span class="vocab-study-mode-icon">
+                            ◎
+                        </span>
+
+                        <strong>
+                            Trắc nghiệm
+                        </strong>
+
+                        <small class="mode-status">
+                            Chưa học
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="vocab-study-mode-card"
+                        data-study-mode="typing"
+                    >
+
+                        <span class="vocab-study-mode-icon">
+                            ⚡
+                        </span>
+
+                        <strong>
+                            Gõ từ
+                        </strong>
+
+                        <small class="mode-status">
+                            Chưa học
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="vocab-study-mode-card"
+                        data-study-mode="reading"
+                    >
+
+                        <span class="vocab-study-mode-icon">
+                            ▧
+                        </span>
+
+                        <strong>
+                            Đọc hiểu
+                        </strong>
+
+                        <small class="mode-status">
+                            Chưa học
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="vocab-study-mode-card"
+                        data-study-mode="listening"
+                    >
+
+                        <span class="vocab-study-mode-icon">
+                            ♫
+                        </span>
+
+                        <strong>
+                            Nghe ghép câu
+                        </strong>
+
+                        <small class="mode-status">
+                            Chưa học
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="vocab-study-mode-card"
+                        data-study-mode="hanzi-dance"
+                    >
+
+                        <span class="vocab-study-mode-icon">
+                            汉
+                        </span>
+
+                        <strong>
+                            Hanzi Dance
+                        </strong>
+
+                        <small class="mode-status">
+                            Chưa học
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="vocab-study-mode-card"
+                        data-study-mode="battle"
+                    >
+
+                        <span class="vocab-study-mode-icon">
+                            ⚔
+                        </span>
+
+                        <strong>
+                            Đấu trí
+                        </strong>
+
+                        <small class="mode-status">
+                            Chưa học
+                        </small>
+
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="vocab-mode-notice"
+                    id="vocabModeNotice"
+                    hidden
+                >
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 CÔNG CỤ TOÀN BÀI
+            ================================================== -->
+
+            <div class="vocab-lesson-tools">
+
+                <button
+                    type="button"
+                    class="vocab-lesson-tool-button"
+                    id="printLessonButton"
+                >
+                    🖨 In bài
+                </button>
+
+
+                <button
+                    type="button"
+                    class="vocab-add-all-review-button"
+                    id="addAllReviewButton"
+                >
+                    ☆ Thêm cả bài vào ôn tập
+                </button>
+
+            </div>
+
+
+            <!-- =================================================
+                 TOÀN BỘ TỪ VỰNG
+            ================================================== -->
+
+            <section class="vocab-full-list">
+
+                <div class="vocab-full-list-heading">
+
+                    <div>
+
+                        <span>
+                            TOÀN BỘ TỪ VỰNG
+                        </span>
+
+                        <h3>
+                            {{ total_vocabulary }} từ trong bài
+                        </h3>
+
+                    </div>
+
+
+                    <small>
+                        Bấm vào từ nào để học ngay từ đó
+                    </small>
+
+                </div>
+
+
+                <div class="vocab-detail-grid">
+
+                    {% for word in vocabularies %}
+
+                        <article
+                            class="vocab-detail-card"
+                            data-vocab-index="{{ loop.index0 }}"
+                        >
+
+                            <div class="vocab-detail-header">
+
+                                <span class="vocab-detail-number">
+                                    {{ loop.index }}.
+                                </span>
+
+
+                                <div class="vocab-detail-main">
+
+                                    <div class="vocab-detail-hanzi">
+                                        {{ word.ChuHan }}
+                                    </div>
+
+
+                                    <div class="vocab-detail-info">
+
+                                        <span class="vocab-detail-pinyin">
+                                            {{ word.PhienAm }}
+                                        </span>
+
+
+                                        {% if word.TuLoai %}
+
+                                            <span class="vocab-detail-type">
+                                                {{ word.TuLoai }}
+                                            </span>
+
+                                        {% endif %}
+
+
+                                        <strong class="vocab-detail-meaning">
+                                            {{ word.NghiaTiengViet }}
+                                        </strong>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="vocab-detail-actions">
+
+                                    {% if word.DuongDanAudio %}
+
+                                        <button
+                                            type="button"
+                                            class="
+                                                vocab-detail-icon-button
+                                                lesson-audio-button
+                                            "
+                                            data-audio-url="{{ word.DuongDanAudio }}"
+                                            title="Nghe phát âm {{ word.ChuHan }}"
+                                            aria-label="Nghe phát âm {{ word.ChuHan }}"
+                                        >
+                                            🔊
+                                        </button>
+
+                                    {% endif %}
+
+
+                                    <button
+                                        type="button"
+                                        class="
+                                            vocab-detail-icon-button
+                                            vocab-review-one
+                                        "
+                                        data-vocab-id="{{ word.MaTuVung }}"
+                                        title="Thêm vào ôn tập"
+                                    >
+                                        ☆
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
+                            {% if word.ViDuTiengTrung or word.ViDuTiengViet %}
+
+                                <div class="vocab-detail-example">
+
+                                    {% if word.ViDuTiengTrung %}
+
+                                        <strong>
+                                            {{ word.ViDuTiengTrung }}
+                                        </strong>
+
+                                    {% endif %}
+
+
+                                    {% if word.ViDuTiengViet %}
+
+                                        <span>
+                                            → {{ word.ViDuTiengViet }}
+                                        </span>
+
+                                    {% endif %}
+
+                                </div>
+
+                            {% else %}
+
+                                <div
+                                    class="
+                                        vocab-detail-example
+                                        vocab-detail-empty-example
+                                    "
+                                >
+                                    Chưa có ví dụ cho từ này.
+                                </div>
+
+                            {% endif %}
+
+                        </article>
+
+                    {% endfor %}
+
+                </div>
+
+            </section>
+
+
+        {% else %}
+
+            <div class="pronunciation-empty">
+
+                <strong>
+                    Bài học chưa có từ vựng.
+                </strong>
+
+            </div>
+
+        {% endif %}
+
+    </div>
+
+
+    <!-- =====================================================
+         TAB 2 - NGỮ PHÁP
+    ====================================================== -->
+
+    <div
+        class="lesson-tab-panel"
+        id="lesson-panel-grammar"
+    >
+
+        <div class="lesson-panel-heading">
+
+            <div>
+
+                <span>
+                    PHẦN 2
+                </span>
+
+                <h2>
+                    Ngữ pháp
+                </h2>
+
+            </div>
+
+
+            <strong>
+                {{ total_grammar }} cấu trúc
+            </strong>
+
+        </div>
+
+
+        {% if grammars %}
+
+
+            <!-- =================================================
+                 HỌC CẤU TRÚC
+            ================================================== -->
+
+            <section
+                class="grammar-study-area"
+                id="grammarStudyArea"
+            >
+
+                <div class="grammar-study-header">
+
+                    <div>
+
+                        <span>
+                            HỌC CẤU TRÚC
+                        </span>
+
+                        <h3 id="grammarStudyProgress">
+                            Cấu trúc 1 / {{ total_grammar }}
+                        </h3>
+
+                    </div>
+
+
+                    <button
+                        type="button"
+                        class="grammar-shuffle-button"
+                        id="grammarShuffleButton"
+                    >
+                        ⤨ Xáo trộn
+                    </button>
+
+                </div>
+
+
+                <div class="grammar-study-card">
+
+                    <div class="grammar-study-number">
+                        语
+                    </div>
+
+
+                    <div class="grammar-study-main">
+
+                        <span class="grammar-study-label">
+                            CẤU TRÚC NGỮ PHÁP
+                        </span>
+
+
+                        <h3 id="grammarStudyTitle">
+                            {{ grammars[0].TenCauTruc }}
+                        </h3>
+
+
+                        <div class="grammar-study-block">
+
+                            <span>
+                                GIẢI THÍCH
+                            </span>
+
+                            <p id="grammarStudyDescription">
+                                {{ grammars[0].MoTa }}
+                            </p>
+
+                        </div>
+
+
+                        <div class="grammar-study-block">
+
+                            <span>
+                                CÁCH DÙNG
+                            </span>
+
+                            <p id="grammarStudyUsage">
+                                {{ grammars[0].CachDung }}
+                            </p>
+
+                        </div>
+
+
+                        <div class="grammar-study-example">
+
+                            <span>
+                                VÍ DỤ
+                            </span>
+
+
+                            <strong id="grammarStudyExampleChinese">
+                                {{ grammars[0].ViDuTiengTrung }}
+                            </strong>
+
+
+                            <em id="grammarStudyExamplePinyin">
+                                {{ grammars[0].ViDuPinyin }}
+                            </em>
+
+
+                            <p id="grammarStudyExampleVietnamese">
+                                {{ grammars[0].ViDuTiengViet }}
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="grammar-study-controls">
+
+                    <button
+                        type="button"
+                        id="grammarPreviousButton"
+                    >
+                        ‹ Cấu trúc trước
+                    </button>
+
+
+                    <button
+                        type="button"
+                        id="grammarNextButton"
+                    >
+                        Cấu trúc tiếp theo ›
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 CHỌN ĐÁP ÁN
+            ================================================== -->
+
+            <section
+                class="grammar-quiz-area"
+                id="grammarQuizArea"
+                hidden
+            >
+
+                <div class="grammar-exercise-header">
+
+                    <div>
+
+                        <span>
+                            CHỌN ĐÁP ÁN
+                        </span>
+
+                        <h3 id="grammarQuizProgress">
+                            Câu 1
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="grammar-question-card">
+
+                    <span class="grammar-question-label">
+                        CÂU NÀY SỬ DỤNG CẤU TRÚC NÀO?
+                    </span>
+
+
+                    <div
+                        class="grammar-question-chinese"
+                        id="grammarQuizExample"
+                    >
+                    </div>
+
+
+                    <div
+                        class="grammar-question-pinyin"
+                        id="grammarQuizPinyin"
+                    >
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="grammar-answer-options"
+                    id="grammarQuizOptions"
+                >
+                </div>
+
+
+                <div
+                    class="grammar-feedback"
+                    id="grammarQuizFeedback"
+                >
+                </div>
+
+
+                <div class="grammar-exercise-bottom">
+
+                    <button
+                        type="button"
+                        class="grammar-next-button"
+                        id="grammarQuizNextButton"
+                        hidden
+                    >
+                        Câu tiếp theo →
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 KẾT QUẢ CHỌN ĐÁP ÁN
+            ================================================== -->
+
+            <section
+                class="grammar-result"
+                id="grammarQuizResult"
+                hidden
+            >
+
+                <span>
+                    HOÀN THÀNH
+                </span>
+
+                <h3>
+                    Kết quả Chọn đáp án
+                </h3>
+
+
+                <div class="grammar-result-score">
+
+                    <strong id="grammarQuizScore">
+                        0 / 0
+                    </strong>
+
+                    <small>
+                        Số câu đúng
+                    </small>
+
+                </div>
+
+
+                <div class="grammar-result-percent">
+
+                    Điểm:
+
+                    <strong id="grammarQuizPercent">
+                        0%
+                    </strong>
+
+                </div>
+
+
+                <div class="grammar-result-actions">
+
+                    <button
+                        type="button"
+                        id="grammarQuizRestartButton"
+                    >
+                        ↻ Làm lại
+                    </button>
+
+
+                    <button
+                        type="button"
+                        id="grammarQuizBackButton"
+                    >
+                        ← Học cấu trúc
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 ĐIỀN TỪ
+            ================================================== -->
+
+            <section
+                class="grammar-fill-area"
+                id="grammarFillArea"
+                hidden
+            >
+
+                <div class="grammar-exercise-header">
+
+                    <div>
+
+                        <span>
+                            ĐIỀN TỪ
+                        </span>
+
+                        <h3 id="grammarFillProgress">
+                            Câu 1
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="grammar-question-card">
+
+                    <span class="grammar-question-label">
+                        ĐIỀN PHẦN CÒN THIẾU
+                    </span>
+
+
+                    <div
+                        class="grammar-fill-sentence"
+                        id="grammarFillSentence"
+                    >
+                    </div>
+
+
+                    <div
+                        class="grammar-question-pinyin"
+                        id="grammarFillPinyin"
+                    >
+                    </div>
+
+
+                    <p
+                        class="grammar-question-vietnamese"
+                        id="grammarFillVietnamese"
+                    >
+                    </p>
+
+                </div>
+
+
+                <div class="grammar-fill-answer">
+
+                    <input
+                        type="text"
+                        id="grammarFillInput"
+                        autocomplete="off"
+                        placeholder="Nhập chữ hoặc từ còn thiếu..."
+                    >
+
+
+                    <button
+                        type="button"
+                        id="grammarFillCheckButton"
+                    >
+                        Kiểm tra
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="grammar-feedback"
+                    id="grammarFillFeedback"
+                >
+                </div>
+
+
+                <div class="grammar-exercise-bottom">
+
+                    <button
+                        type="button"
+                        class="grammar-next-button"
+                        id="grammarFillNextButton"
+                        hidden
+                    >
+                        Câu tiếp theo →
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 KẾT QUẢ ĐIỀN TỪ
+            ================================================== -->
+
+            <section
+                class="grammar-result"
+                id="grammarFillResult"
+                hidden
+            >
+
+                <span>
+                    HOÀN THÀNH
+                </span>
+
+                <h3>
+                    Kết quả Điền từ
+                </h3>
+
+
+                <div class="grammar-result-score">
+
+                    <strong id="grammarFillScore">
+                        0 / 0
+                    </strong>
+
+                    <small>
+                        Số câu đúng
+                    </small>
+
+                </div>
+
+
+                <div class="grammar-result-percent">
+
+                    Điểm:
+
+                    <strong id="grammarFillPercent">
+                        0%
+                    </strong>
+
+                </div>
+
+
+                <div class="grammar-result-actions">
+
+                    <button
+                        type="button"
+                        id="grammarFillRestartButton"
+                    >
+                        ↻ Làm lại
+                    </button>
+
+
+                    <button
+                        type="button"
+                        id="grammarFillBackButton"
+                    >
+                        ← Học cấu trúc
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 SẮP XẾP CÂU
+            ================================================== -->
+
+            <section
+                class="grammar-arrange-area"
+                id="grammarArrangeArea"
+                hidden
+            >
+
+                <div class="grammar-exercise-header">
+
+                    <div>
+
+                        <span>
+                            SẮP XẾP CÂU
+                        </span>
+
+                        <h3 id="grammarArrangeProgress">
+                            Câu 1
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="grammar-question-card">
+
+                    <span class="grammar-question-label">
+                        SẮP XẾP THÀNH CÂU ĐÚNG
+                    </span>
+
+
+                    <p
+                        class="grammar-question-vietnamese"
+                        id="grammarArrangeVietnamese"
+                    >
+                    </p>
+
+
+                    <div
+                        class="grammar-question-pinyin"
+                        id="grammarArrangePinyin"
+                    >
+                    </div>
+
+                </div>
+
+
+                <div class="grammar-arrange-answer">
+
+                    <span>
+                        CÂU BẠN GHÉP
+                    </span>
+
+
+                    <div
+                        class="grammar-arrange-slots"
+                        id="grammarArrangeSlots"
+                    >
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="grammar-token-bank"
+                    id="grammarTokenBank"
+                >
+                </div>
+
+
+                <div
+                    class="grammar-feedback"
+                    id="grammarArrangeFeedback"
+                >
+                </div>
+
+
+                <div class="grammar-exercise-bottom">
+
+                    <button
+                        type="button"
+                        class="grammar-next-button"
+                        id="grammarArrangeNextButton"
+                        hidden
+                    >
+                        Câu tiếp theo →
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 KẾT QUẢ SẮP XẾP CÂU
+            ================================================== -->
+
+            <section
+                class="grammar-result"
+                id="grammarArrangeResult"
+                hidden
+            >
+
+                <span>
+                    HOÀN THÀNH
+                </span>
+
+                <h3>
+                    Kết quả Sắp xếp câu
+                </h3>
+
+
+                <div class="grammar-result-score">
+
+                    <strong id="grammarArrangeScore">
+                        0 / 0
+                    </strong>
+
+                    <small>
+                        Số câu đúng
+                    </small>
+
+                </div>
+
+
+                <div class="grammar-result-percent">
+
+                    Điểm:
+
+                    <strong id="grammarArrangePercent">
+                        0%
+                    </strong>
+
+                </div>
+
+
+                <div class="grammar-result-actions">
+
+                    <button
+                        type="button"
+                        id="grammarArrangeRestartButton"
+                    >
+                        ↻ Làm lại
+                    </button>
+
+
+                    <button
+                        type="button"
+                        id="grammarArrangeBackButton"
+                    >
+                        ← Học cấu trúc
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 CHỌN CHẾ ĐỘ HỌC NGỮ PHÁP
+            ================================================== -->
+
+            <section class="grammar-study-modes">
+
+                <div class="grammar-study-modes-heading">
+
+                    <div>
+
+                        <h3>
+                            Chọn chế độ học
+                        </h3>
+
+                        <span>
+                            Học và luyện ngữ pháp của bài theo nhiều hình thức.
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="grammar-study-mode-grid">
+
+                    <button
+                        type="button"
+                        class="grammar-study-mode-card active"
+                        data-grammar-mode="study"
+                    >
+
+                        <span class="grammar-study-mode-icon">
+                            语
+                        </span>
+
+                        <strong>
+                            Học cấu trúc
+                        </strong>
+
+                        <small
+                            class="
+                                grammar-mode-status
+                                grammar-mode-status-active
+                            "
+                        >
+                            Đang học
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="grammar-study-mode-card"
+                        data-grammar-mode="quiz"
+                    >
+
+                        <span class="grammar-study-mode-icon">
+                            ◎
+                        </span>
+
+                        <strong>
+                            Chọn đáp án
+                        </strong>
+
+                        <small class="grammar-mode-status">
+                            Chưa học
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="grammar-study-mode-card"
+                        data-grammar-mode="fill"
+                    >
+
+                        <span class="grammar-study-mode-icon">
+                            ✎
+                        </span>
+
+                        <strong>
+                            Điền từ
+                        </strong>
+
+                        <small class="grammar-mode-status">
+                            Chưa học
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="grammar-study-mode-card"
+                        data-grammar-mode="arrange"
+                    >
+
+                        <span class="grammar-study-mode-icon">
+                            ⇄
+                        </span>
+
+                        <strong>
+                            Sắp xếp câu
+                        </strong>
+
+                        <small class="grammar-mode-status">
+                            Chưa học
+                        </small>
+
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="grammar-mode-notice"
+                    id="grammarModeNotice"
+                    hidden
+                >
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 TOÀN BỘ NGỮ PHÁP
+            ================================================== -->
+
+            <section class="grammar-full-list">
+
+                <div class="grammar-full-list-heading">
+
+                    <div>
+
+                        <span>
+                            TOÀN BỘ NGỮ PHÁP
+                        </span>
+
+                        <h3>
+                            {{ total_grammar }} cấu trúc trong bài
+                        </h3>
+
+                    </div>
+
+
+                    <small>
+                        Bấm vào cấu trúc để học ngay
+                    </small>
+
+                </div>
+
+
+                <div class="grammar-detail-list">
+
+                    {% for grammar in grammars %}
+
+                        <article
+                            class="grammar-detail-card"
+                            data-grammar-index="{{ loop.index0 }}"
+                        >
+
+                            <div class="grammar-detail-number">
+                                {{ grammar.ThuTu }}
+                            </div>
+
+
+                            <div class="grammar-detail-content">
+
+                                <h3>
+                                    {{ grammar.TenCauTruc }}
+                                </h3>
+
+
+                                <div class="grammar-detail-block">
+
+                                    <span>
+                                        GIẢI THÍCH
+                                    </span>
+
+                                    <p>
+                                        {{ grammar.MoTa }}
+                                    </p>
+
+                                </div>
+
+
+                                <div class="grammar-detail-block">
+
+                                    <span>
+                                        CÁCH DÙNG
+                                    </span>
+
+                                    <p>
+                                        {{ grammar.CachDung }}
+                                    </p>
+
+                                </div>
+
+
+                                <div class="grammar-detail-example">
+
+                                    <span>
+                                        VÍ DỤ
+                                    </span>
+
+                                    <strong>
+                                        {{ grammar.ViDuTiengTrung }}
+                                    </strong>
+
+                                    <em>
+                                        {{ grammar.ViDuPinyin }}
+                                    </em>
+
+                                    <p>
+                                        {{ grammar.ViDuTiengViet }}
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    {% endfor %}
+
+                </div>
+
+            </section>
+
+
+        {% else %}
+
+            <div class="pronunciation-empty">
+
+                <strong>
+                    Bài học chưa có ngữ pháp.
+                </strong>
+
+            </div>
+
+        {% endif %}
+
+    </div>
+
+
+    <!-- =====================================================
+         TAB 3 - CHỮ HÁN
+    ====================================================== -->
+
+    <div
+        class="lesson-tab-panel"
+        id="lesson-panel-hanzi"
+    >
+
+        <div class="lesson-panel-heading">
+
+            <div>
+
+                <span>
+                    PHẦN 3
+                </span>
+
+                <h2>
+                    Chữ Hán
+                </h2>
+
+            </div>
+
+
+            <strong>
+                {{ total_hanzi }} chữ
+            </strong>
+
+        </div>
+
+
+        <div class="lesson-hanzi-grid">
+
+            {% for hanzi in hanzis %}
+
+                <article class="lesson-hanzi-card">
+
+                    <div class="lesson-hanzi-top">
+
+                        <div class="lesson-hanzi-character">
+                            {{ hanzi.KyTu }}
+                        </div>
+
+
+                        <div class="lesson-hanzi-primary">
+
+                            {% if hanzi.Pinyin %}
+
+                                <strong>
+                                    {{ hanzi.Pinyin }}
+                                </strong>
+
+                            {% endif %}
+
+
+                            {% if hanzi.NghiaTiengViet %}
+
+                                <span>
+                                    {{ hanzi.NghiaTiengViet }}
+                                </span>
+
+                            {% endif %}
+
+                        </div>
+
+
+                        {% if hanzi.DuongDanAudio %}
+
+                            <button
+                                type="button"
+                                class="
+                                    lesson-hanzi-audio-button
+                                    lesson-audio-button
+                                "
+                                data-audio-url="{{ hanzi.DuongDanAudio }}"
+                                title="Nghe phát âm {{ hanzi.KyTu }}"
+                                aria-label="Nghe phát âm {{ hanzi.KyTu }}"
+                            >
+                                🔊
+                            </button>
+
+                        {% endif %}
+
+                    </div>
+
+
+                    <div class="lesson-hanzi-details">
+
+                        {% if hanzi.TenBoThu %}
+
+                            <div>
+
+                                <span>
+                                    Bộ thủ
+                                </span>
+
+                                <strong>
+                                    {{ hanzi.KyHieuBoThu }}
+                                    ·
+                                    {{ hanzi.TenBoThu }}
+                                </strong>
+
+                            </div>
+
+                        {% endif %}
+
+
+                        {% if hanzi.SoNet %}
+
+                            <div>
+
+                                <span>
+                                    Số nét
+                                </span>
+
+                                <strong>
+                                    {{ hanzi.SoNet }}
+                                </strong>
+
+                            </div>
+
+                        {% endif %}
+
+                    </div>
+
+
+                    {% if hanzi.CachGhiNho %}
+
+                        <div class="lesson-hanzi-memory">
+
+                            <span>
+                                GỢI NHỚ
+                            </span>
+
+                            <p>
+                                {{ hanzi.CachGhiNho }}
+                            </p>
+
+                        </div>
+
+                    {% endif %}
+
+
+                    {% if hanzi.ViDuTiengTrung %}
+
+                        <div class="lesson-hanzi-example">
+
+                            <strong>
+                                {{ hanzi.ViDuTiengTrung }}
+                            </strong>
+
+
+                            {% if hanzi.ViDuPinyin %}
+
+                                <em>
+                                    {{ hanzi.ViDuPinyin }}
+                                </em>
+
+                            {% endif %}
+
+
+                            {% if hanzi.ViDuTiengViet %}
+
+                                <span>
+                                    {{ hanzi.ViDuTiengViet }}
+                                </span>
+
+                            {% endif %}
+
+                        </div>
+
+                    {% endif %}
+
+                </article>
+
+
+            {% else %}
+
+                <div class="pronunciation-empty">
+
+                    <strong>
+                        Bài học chưa có chữ Hán.
+                    </strong>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         BÀI TRƯỚC / BÀI TIẾP
+    ====================================================== -->
+
+    <div class="lesson-bottom-navigation">
+
+        {% if previous_lesson %}
+
+            <a
+                href="{{ url_for(
+                    'lessons.detail',
+                    lesson_id=previous_lesson.MaBaiHoc
+                ) }}"
+                class="lesson-navigation-card"
+            >
+
+                <span>
+                    ← Bài trước
+                </span>
+
+                <strong>
+                    {{ previous_lesson.TieuDe }}
+                </strong>
+
+            </a>
+
+
+        {% else %}
+
+            <div></div>
+
+        {% endif %}
+
+
+        {% if next_lesson %}
+
+            <a
+                href="{{ url_for(
+                    'lessons.detail',
+                    lesson_id=next_lesson.MaBaiHoc
+                ) }}"
+                class="lesson-navigation-card next"
+            >
+
+                <span>
+                    Bài tiếp →
+                </span>
+
+                <strong>
+                    {{ next_lesson.TieuDe }}
+                </strong>
+
+            </a>
+
+        {% endif %}
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     JSON TỪ VỰNG
+========================================================= -->
+
+<script
+    type="application/json"
+    id="lessonVocabularyData"
+>
+[
+{% for word in vocabularies %}
+    {
+        "id": {{ word.MaTuVung | tojson }},
+        "hanzi": {{ word.ChuHan | tojson }},
+        "pinyin": {{ word.PhienAm | tojson }},
+        "meaning": {{ word.NghiaTiengViet | tojson }},
+        "type": {{ (word.TuLoai or '') | tojson }},
+        "exampleChinese": {{ (word.ViDuTiengTrung or '') | tojson }},
+        "exampleVietnamese": {{ (word.ViDuTiengViet or '') | tojson }},
+        "audioUrl": {{ (word.DuongDanAudio or '') | tojson }}
+    }{% if not loop.last %},{% endif %}
+{% endfor %}
+]
+</script>
+
+
+<!-- =========================================================
+     JSON NGỮ PHÁP
+========================================================= -->
+
+<script
+    type="application/json"
+    id="lessonGrammarData"
+>
+[
+{% for grammar in grammars %}
+    {
+        "id": {{ grammar.MaNguPhap | tojson }},
+        "order": {{ grammar.ThuTu | tojson }},
+        "title": {{ grammar.TenCauTruc | tojson }},
+        "description": {{ (grammar.MoTa or '') | tojson }},
+        "usage": {{ (grammar.CachDung or '') | tojson }},
+        "exampleChinese": {{ (grammar.ViDuTiengTrung or '') | tojson }},
+        "examplePinyin": {{ (grammar.ViDuPinyin or '') | tojson }},
+        "exampleVietnamese": {{ (grammar.ViDuTiengViet or '') | tojson }}
+    }{% if not loop.last %},{% endif %}
+{% endfor %}
+]
+</script>
+
+
+<!-- =========================================================
+     JSON CHỮ HÁN
+========================================================= -->
+
+<script
+    type="application/json"
+    id="lessonHanziData"
+>
+[
+{% for hanzi in hanzis %}
+    {
+        "id": {{ hanzi.MaChuHan | tojson }},
+        "character": {{ hanzi.KyTu | tojson }},
+        "pinyin": {{ (hanzi.Pinyin or '') | tojson }},
+        "meaning": {{ (hanzi.NghiaTiengViet or '') | tojson }},
+        "radical": {{ (hanzi.KyHieuBoThu or '') | tojson }},
+        "radicalName": {{ (hanzi.TenBoThu or '') | tojson }},
+        "strokes": {{ (hanzi.SoNet or 0) | tojson }},
+        "audioUrl": {{ (hanzi.DuongDanAudio or '') | tojson }}
+    }{% if not loop.last %},{% endif %}
+{% endfor %}
+]
+</script>
+
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<!-- CSRF TOKEN -->
+<input
+    type="hidden"
+    name="csrf_token"
+    value="{{ csrf_token() }}"
+>
+
+<!-- CHỨC NĂNG HỌC BÀI HSK -->
+<script src="{{ url_for('static', filename='js/lesson-study.js') }}"></script>
+
+<!-- LƯU TỪ VỰNG VÀO ÔN TẬP CÁ NHÂN -->
+<script src="{{ url_for('static', filename='js/lesson-vocabulary-save.js') }}"></script>
+
+{% endblock %}

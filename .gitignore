@@ -1,0 +1,30 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+# Python virtual environments
+.venv/
+.venv_whisper/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Sensitive information
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# Large dataset archives
+/data_sources/hanzi/makemeahanzi-master.zip
+/data_sources/tatoeba/sentences.tar.bz2
+/Hoctiengtrungdb.sql
+/scripts/luyen_thi/source/De_HSK.zip

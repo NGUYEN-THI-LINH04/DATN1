@@ -1,0 +1,883 @@
+
+{% extends "admin/base.html" %}
+
+{% block title %}
+Quản lý Shadowing | Mộc Hán
+{% endblock %}
+
+
+{% block extra_css %}
+
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/admin-shadowing.css') }}"
+>
+
+<style>
+    /* =========================================
+       NUT SUA - XOA SHADOWING
+    ========================================= */
+
+    .shadowing-video-actions {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 16px;
+    }
+
+    .shadowing-delete-form {
+        margin: 0;
+        padding: 0;
+    }
+
+    .shadowing-btn-edit {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        background: #eff6ff;
+        color: #1d4ed8;
+        border: 1px solid #bfdbfe;
+        cursor: pointer;
+    }
+
+    .shadowing-btn-edit:hover {
+        background: #dbeafe;
+        color: #1e40af;
+    }
+
+    .shadowing-btn-delete {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        background: #fff1f2;
+        color: #be123c;
+        border: 1px solid #fecdd3;
+        cursor: pointer;
+    }
+
+    .shadowing-btn-delete:hover {
+        background: #ffe4e6;
+        color: #9f1239;
+    }
+
+    /* =========================================
+       FORM CHINH SUA VIDEO
+    ========================================= */
+
+    .shadowing-edit-panel {
+        margin-top: 18px;
+        padding: 18px;
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+    }
+
+    .shadowing-edit-panel[hidden] {
+        display: none !important;
+    }
+
+    .shadowing-edit-heading {
+        margin: 0 0 16px;
+        font-size: 16px;
+        font-weight: 650;
+        color: #1e293b;
+    }
+
+    .shadowing-edit-panel .shadowing-field {
+        margin-bottom: 15px;
+    }
+
+    .shadowing-edit-panel .shadowing-field label {
+        display: block;
+        margin-bottom: 7px;
+        font-weight: 600;
+    }
+
+    .shadowing-edit-panel .shadowing-field input {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .shadowing-edit-panel .shadowing-field small {
+        display: block;
+        margin-top: 7px;
+        line-height: 1.6;
+        color: #64748b;
+    }
+
+    .shadowing-edit-panel input[readonly] {
+        background: #e2e8f0;
+        color: #64748b;
+        cursor: not-allowed;
+    }
+
+    .shadowing-edit-footer {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 18px;
+    }
+
+    .shadowing-edit-notice {
+        margin: 0 0 15px;
+        padding: 10px 12px;
+        background: #fff7ed;
+        border: 1px solid #fed7aa;
+        border-radius: 8px;
+        color: #9a3412;
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+        .shadowing-video-actions {
+            gap: 8px;
+        }
+
+        .shadowing-edit-panel {
+            padding: 14px;
+        }
+    }
+</style>
+
+{% endblock %}
+
+
+{% block content %}
+
+<div class="shadowing-admin">
+
+    <!-- =======================================
+         HEADER
+    ======================================== -->
+
+    <div class="shadowing-page-header">
+
+        <div>
+
+            <span class="shadowing-eyebrow">
+                HỌC LIỆU · LUYỆN NGHE
+            </span>
+
+            <h1>Quản lý Shadowing</h1>
+
+            <p>
+                Quản lý video YouTube, phụ đề tiếng Trung,
+                pinyin và bản dịch tiếng Việt.
+            </p>
+
+        </div>
+
+        <div class="shadowing-header-icon">
+            听
+        </div>
+
+    </div>
+
+
+    <!-- =======================================
+         THONG KE
+    ======================================== -->
+
+    {% set total_videos = videos | length %}
+
+    {% set ready_videos = videos
+        | selectattr('count', 'gt', 0)
+        | list | length %}
+
+    <div class="shadowing-stats">
+
+        <!-- TONG VIDEO -->
+
+        <div class="shadowing-stat-card">
+
+            <span class="stat-label">
+                Tổng video Shadowing
+            </span>
+
+            <strong>{{ total_videos }}</strong>
+
+            <span class="stat-note">
+                Video trong hệ thống
+            </span>
+
+        </div>
+
+
+        <!-- DA CO LOI THOAI -->
+
+        <div class="shadowing-stat-card">
+
+            <span class="stat-label">
+                Đã có lời thoại
+            </span>
+
+            <strong>{{ ready_videos }}</strong>
+
+            <span class="stat-note">
+                Có dữ liệu câu thoại
+            </span>
+
+        </div>
+
+
+        <!-- CHUA CO LOI THOAI -->
+
+        <div class="shadowing-stat-card">
+
+            <span class="stat-label">
+                Chưa có lời thoại
+            </span>
+
+            <strong>
+                {{ total_videos - ready_videos }}
+            </strong>
+
+            <span class="stat-note">
+                Cần bổ sung phụ đề
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =======================================
+         FORM THEM VIDEO
+    ======================================== -->
+
+    <section class="shadowing-panel">
+
+        <div class="shadowing-section-header">
+
+            <div>
+
+                <span class="shadowing-eyebrow">
+                    QUẢN LÝ VIDEO
+                </span>
+
+                <h2>Thêm video YouTube</h2>
+
+                <p>
+                    Có thể thêm video trước, sau đó
+                    bổ sung lời thoại khi đã xử lý xong.
+                </p>
+
+            </div>
+
+            <span class="shadowing-section-symbol">
+                +
+            </span>
+
+        </div>
+
+
+        <form
+            method="post"
+            action="{{ url_for('admin_shadowing.add_video') }}"
+            class="shadowing-add-form"
+        >
+
+            <!-- CSRF -->
+
+            <input
+                type="hidden"
+                name="csrf_token"
+                value="{{ csrf_token() }}"
+            >
+
+
+            <div class="shadowing-form-row">
+
+                <!-- MA BAI HOC -->
+
+                <div class="shadowing-field">
+
+                    <label for="shadowing-lesson-id">
+                        Mã bài học
+                        <span class="required">*</span>
+                    </label>
+
+                    <input
+                        id="shadowing-lesson-id"
+                        type="number"
+                        name="lesson_id"
+                        value="25"
+                        min="1"
+                        required
+                    >
+
+                    <small>
+                        Nhập mã bài học Shadowing
+                        tương ứng với cấp HSK.
+                    </small>
+
+                </div>
+
+
+                <!-- TIEU DE -->
+
+                <div class="shadowing-field">
+
+                    <label for="shadowing-title">
+                        Tiêu đề video
+                        <span class="required">*</span>
+                    </label>
+
+                    <input
+                        id="shadowing-title"
+                        type="text"
+                        name="title"
+                        maxlength="200"
+                        placeholder="Ví dụ: 每日学习法 - Phương pháp học mỗi ngày"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- YOUTUBE URL -->
+
+            <div class="shadowing-field">
+
+                <label for="shadowing-youtube">
+                    Đường dẫn YouTube
+                    <span class="required">*</span>
+                </label>
+
+                <input
+                    id="shadowing-youtube"
+                    type="url"
+                    name="youtube_url"
+                    placeholder="https://www.youtube.com/watch?v=..."
+                    required
+                >
+
+                <small>
+                    Sử dụng video YouTube cho phép nhúng.
+                    Chưa bắt buộc phải có phụ đề.
+                </small>
+
+            </div>
+
+
+            <!-- NUT THEM -->
+
+            <div class="shadowing-form-footer">
+
+                <p>
+                    Video mới sẽ được thêm vào bài học
+                    đã chọn trong SQL Server.
+                </p>
+
+                <button
+                    type="submit"
+                    class="shadowing-btn shadowing-btn-primary"
+                >
+                    <span>＋</span>
+                    Thêm video
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+
+    <!-- =======================================
+         DANH SACH VIDEO
+    ======================================== -->
+
+    <section class="shadowing-video-section">
+
+        <div class="shadowing-list-heading">
+
+            <div>
+
+                <span class="shadowing-eyebrow">
+                    DANH SÁCH HỌC LIỆU
+                </span>
+
+                <h2>Video Shadowing</h2>
+
+                <p>
+                    Các video đang được lưu trong cơ sở dữ liệu.
+                </p>
+
+            </div>
+
+            <span class="shadowing-total">
+                {{ total_videos }} video
+            </span>
+
+        </div>
+
+
+        {% if videos %}
+
+        <div class="shadowing-video-grid">
+
+            {% for video in videos %}
+
+            <article class="shadowing-video-card">
+
+                <!-- =================================
+                     ANH DAI DIEN VIDEO
+                ================================= -->
+
+                <div class="shadowing-video-thumbnail">
+
+                    {% if video.youtube_id %}
+
+                    <img
+                        src="https://img.youtube.com/vi/{{ video.youtube_id }}/hqdefault.jpg"
+                        alt="Ảnh đại diện video {{ video.title }}"
+                        loading="lazy"
+                    >
+
+                    {% else %}
+
+                    <div class="shadowing-no-thumbnail">
+                        视频
+                    </div>
+
+                    {% endif %}
+
+                    <span class="shadowing-video-order">
+                        #{{ video.order }}
+                    </span>
+
+                </div>
+
+
+                <!-- =================================
+                     NOI DUNG VIDEO
+                ================================= -->
+
+                <div class="shadowing-video-body">
+
+                    <!-- TRANG THAI -->
+
+                    <div class="shadowing-video-status">
+
+                        {% if video.count > 0 %}
+
+                        <span class="shadowing-status ready">
+
+                            <span class="status-dot"></span>
+
+                            Đã có lời thoại
+
+                        </span>
+
+                        {% else %}
+
+                        <span class="shadowing-status pending">
+
+                            <span class="status-dot"></span>
+
+                            Chưa có lời thoại
+
+                        </span>
+
+                        {% endif %}
+
+                    </div>
+
+
+                    <!-- TIEU DE -->
+
+                    <h3>{{ video.title }}</h3>
+
+
+                    <!-- THONG TIN VIDEO -->
+
+                    <div class="shadowing-video-meta">
+
+                        <span>
+                            Mã nội dung:
+                            <strong>{{ video.id }}</strong>
+                        </span>
+
+                        <span>
+                            Mã bài học:
+                            <strong>{{ video.lesson_id }}</strong>
+                        </span>
+
+                    </div>
+
+
+                    <!-- SO CAU THOAI -->
+
+                    <div class="shadowing-sentence-count">
+
+                        <div>
+
+                            <strong>{{ video.count }}</strong>
+
+                            <span>câu thoại</span>
+
+                        </div>
+
+                        <span class="shadowing-video-id">
+                            {{ video.youtube_id }}
+                        </span>
+
+                    </div>
+
+
+                    <!-- =================================
+                         NUT XEM - SUA - XOA
+                    ================================= -->
+
+                    <div class="shadowing-video-actions">
+
+                        <!-- XEM VIDEO -->
+
+                        {% if video.youtube_id %}
+
+                        <a
+                            href="https://www.youtube.com/watch?v={{ video.youtube_id }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="shadowing-btn shadowing-btn-secondary"
+                        >
+                            ▶ Xem video
+                        </a>
+
+                        {% endif %}
+
+
+                        <!-- SUA VIDEO -->
+
+                        <button
+                            type="button"
+                            class="shadowing-btn shadowing-btn-edit"
+                            aria-controls="shadowing-edit-{{ video.id }}"
+                            aria-expanded="false"
+                            onclick="toggleShadowingEdit('{{ video.id }}', this)"
+                        >
+                            ✎ Sửa
+                        </button>
+
+
+                        <!-- XOA VIDEO -->
+
+                        <form
+                            method="post"
+                            action="{{ url_for('admin_shadowing.delete_video', video_id=video.id) }}"
+                            class="shadowing-delete-form"
+                            onsubmit="return confirmShadowingDelete('{{ video.id }}', this)"
+                        >
+
+                            <input
+                                type="hidden"
+                                name="csrf_token"
+                                value="{{ csrf_token() }}"
+                            >
+
+                            <button
+                                type="submit"
+                                class="shadowing-btn shadowing-btn-delete"
+                            >
+                                🗑 Xóa
+                            </button>
+
+                        </form>
+
+                    </div>
+
+
+                    <!-- =================================
+                         FORM SUA VIDEO
+                    ================================= -->
+
+                    <div
+                        id="shadowing-edit-{{ video.id }}"
+                        class="shadowing-edit-panel"
+                        hidden
+                    >
+
+                        <h4 class="shadowing-edit-heading">
+                            Chỉnh sửa video
+                        </h4>
+
+                        <form
+                            method="post"
+                            action="{{ url_for('admin_shadowing.edit_video', video_id=video.id) }}"
+                        >
+
+                            <!-- CSRF -->
+
+                            <input
+                                type="hidden"
+                                name="csrf_token"
+                                value="{{ csrf_token() }}"
+                            >
+
+
+                            <!-- MA BAI HOC -->
+
+                            <div class="shadowing-field">
+
+                                <label for="edit-lesson-{{ video.id }}">
+                                    Mã bài học
+                                </label>
+
+                                <input
+                                    id="edit-lesson-{{ video.id }}"
+                                    type="number"
+                                    name="lesson_id"
+                                    value="{{ video.lesson_id }}"
+                                    min="1"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <!-- TIEU DE -->
+
+                            <div class="shadowing-field">
+
+                                <label for="edit-title-{{ video.id }}">
+                                    Tiêu đề video
+                                </label>
+
+                                <input
+                                    id="edit-title-{{ video.id }}"
+                                    type="text"
+                                    name="title"
+                                    value="{{ video.title }}"
+                                    maxlength="200"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <!-- YOUTUBE -->
+
+                            <div class="shadowing-field">
+
+                                <label for="edit-youtube-{{ video.id }}">
+                                    Link YouTube
+                                </label>
+
+                                <input
+                                    id="edit-youtube-{{ video.id }}"
+                                    type="url"
+                                    name="youtube_url"
+                                    value="https://www.youtube.com/watch?v={{ video.youtube_id }}"
+                                    {% if video.count > 0 %}
+                                    readonly
+                                    {% endif %}
+                                    required
+                                >
+
+                                {% if video.count > 0 %}
+
+                                <small>
+                                    Video đã có {{ video.count }}
+                                    câu thoại. Link YouTube được
+                                    khóa để tránh sai phụ đề.
+                                </small>
+
+                                {% else %}
+
+                                <small>
+                                    Video chưa có lời thoại.
+                                    Có thể thay đổi link YouTube.
+                                </small>
+
+                                {% endif %}
+
+                            </div>
+
+
+                            <!-- CANH BAO -->
+
+                            {% if video.count > 0 %}
+
+                            <p class="shadowing-edit-notice">
+                                Video này đã có dữ liệu câu thoại.
+                                Bạn có thể sửa tiêu đề hoặc
+                                mã bài học mà không làm mất
+                                phụ đề hiện tại.
+                            </p>
+
+                            {% endif %}
+
+
+                            <!-- NUT LUU - HUY -->
+
+                            <div class="shadowing-edit-footer">
+
+                                <button
+                                    type="submit"
+                                    class="shadowing-btn shadowing-btn-primary"
+                                >
+                                    ✓ Lưu thay đổi
+                                </button>
+
+                                <button
+                                    type="button"
+                                    class="shadowing-btn shadowing-btn-secondary"
+                                    onclick="toggleShadowingEdit('{{ video.id }}')"
+                                >
+                                    Hủy
+                                </button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            {% endfor %}
+
+        </div>
+
+
+        {% else %}
+
+        <!-- =================================
+             CHUA CO VIDEO
+        ================================= -->
+
+        <div class="shadowing-empty">
+
+            <div class="shadowing-empty-icon">
+                听
+            </div>
+
+            <h3>Chưa có video Shadowing</h3>
+
+            <p>
+                Hãy thêm video YouTube đầu tiên
+                bằng biểu mẫu phía trên.
+            </p>
+
+        </div>
+
+        {% endif %}
+
+    </section>
+
+</div>
+
+
+<!-- =========================================
+     JAVASCRIPT SUA - XOA VIDEO
+========================================= -->
+
+<script>
+
+    // Mo / dong form sua video.
+
+    function toggleShadowingEdit(videoId, button) {
+
+        const panel = document.getElementById(
+            "shadowing-edit-" + videoId
+        );
+
+        if (!panel) {
+            return;
+        }
+
+        const willOpen = panel.hidden;
+
+        // Dong cac form sua khac.
+        document.querySelectorAll(
+            ".shadowing-edit-panel"
+        ).forEach(function(otherPanel) {
+
+            if (otherPanel !== panel) {
+                otherPanel.hidden = true;
+            }
+
+        });
+
+        document.querySelectorAll(
+            ".shadowing-btn-edit"
+        ).forEach(function(editButton) {
+
+            editButton.setAttribute(
+                "aria-expanded",
+                "false"
+            );
+
+        });
+
+        panel.hidden = !willOpen;
+
+        const toggleButton = button ||
+            document.querySelector(
+                '[aria-controls="' + panel.id + '"]'
+            );
+
+        if (toggleButton) {
+            toggleButton.setAttribute(
+                "aria-expanded",
+                String(willOpen)
+            );
+        }
+
+        if (willOpen) {
+
+            panel.scrollIntoView({
+                behavior: "smooth",
+                block: "nearest"
+            });
+
+        }
+
+    }
+
+
+    // Xac nhan truoc khi xoa.
+
+    function confirmShadowingDelete(videoId, form) {
+
+        const card = form.closest(
+            ".shadowing-video-card"
+        );
+
+        const titleElement = card
+            ? card.querySelector("h3")
+            : null;
+
+        const videoTitle = titleElement
+            ? titleElement.textContent.trim()
+            : "Video Shadowing";
+
+        const message =
+            'Bạn có chắc muốn xóa video "' +
+            videoTitle +
+            '"?\n\n' +
+            'Mã nội dung: ' + videoId + '\n\n' +
+            'Toàn bộ câu thoại, pinyin và bản dịch ' +
+            'của video này cũng sẽ bị xóa khỏi SQL Server.\n\n' +
+            'Thao tác này không thể hoàn tác ' +
+            'bằng chức năng Admin.';
+
+        return window.confirm(message);
+
+    }
+
+</script>
+
+{% endblock %}

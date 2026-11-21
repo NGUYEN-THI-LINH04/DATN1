@@ -1,0 +1,699 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Quản lý từ vựng | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        HỌC LIỆU
+    </span>
+
+    <h1>
+        Quản lý từ vựng
+    </h1>
+
+    <p>
+        Dữ liệu tại đây được sử dụng trực tiếp
+        trong bài học và Tổng ôn của người học.
+    </p>
+
+</div>
+
+
+
+<!-- =====================================================
+     DUYET TOAN BO TU VUNG CHUA DUYET
+===================================================== -->
+
+<section class="panel space-top bulk-publish-panel">
+
+    <div class="materials-section-heading">
+
+        <div>
+            <span class="eyebrow">
+                DUYỆT HỌC LIỆU
+            </span>
+
+            <h2>
+                Duyệt toàn bộ từ vựng
+            </h2>
+
+            <p>
+                Duyệt tất cả từ vựng đang ở trạng thái
+                chưa duyệt trong hệ thống,
+                áp dụng cho toàn bộ cấp độ HSK.
+            </p>
+        </div>
+
+    </div>
+
+    <p class="bulk-publish-note">
+
+        Tổng số từ chưa duyệt:
+
+        <strong>
+            {{ pending_count }} từ
+        </strong>
+
+    </p>
+
+    <form
+        method="post"
+        action="{{ url_for('admin_vocabulary.approve_all') }}"
+        class="bulk-publish-form"
+        onsubmit="return confirm('Bạn có chắc chắn muốn duyệt TOÀN BỘ từ vựng chưa duyệt trong hệ thống không?');"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+        <button
+            type="submit"
+            class="button bulk-publish-button"
+            {% if pending_count == 0 %}disabled{% endif %}
+        >
+            ✓ Duyệt toàn bộ {{ pending_count }} từ chưa duyệt
+        </button>
+
+    </form>
+
+    <p class="bulk-publish-note">
+        Chỉ cập nhật những từ chưa duyệt.
+        Những từ đã duyệt sẽ được giữ nguyên.
+    </p>
+
+</section>
+
+
+
+<!-- =====================================================
+     FORM CHỈNH SỬA
+===================================================== -->
+
+{% if editing_word %}
+
+<section class="panel">
+
+    <div class="admin-heading">
+
+        <span class="eyebrow">
+            CHỈNH SỬA
+        </span>
+
+        <h2>
+            {{ editing_word.hanzi }}
+        </h2>
+
+    </div>
+
+
+    <form
+        method="post"
+        action="{{ url_for(
+            'admin_vocabulary.edit',
+            vocabulary_id=editing_word.id
+        ) }}"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <div class="grid-2">
+
+            <label class="field">
+
+                Chữ Hán
+
+                <input
+                    type="text"
+                    name="hanzi"
+                    maxlength="100"
+                    value="{{ editing_word.hanzi }}"
+                    required
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Chữ phồn thể
+
+                <input
+                    type="text"
+                    name="traditional"
+                    maxlength="100"
+                    value="{{ editing_word.traditional }}"
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Pinyin
+
+                <input
+                    type="text"
+                    name="pinyin"
+                    maxlength="200"
+                    value="{{ editing_word.pinyin }}"
+                    required
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Từ loại
+
+                <input
+                    type="text"
+                    name="word_type"
+                    maxlength="100"
+                    value="{{ editing_word.word_type }}"
+                >
+
+            </label>
+
+        </div>
+
+
+        <label class="field space-top">
+
+            Nghĩa tiếng Việt
+
+            <textarea
+                name="meaning"
+                rows="3"
+                maxlength="2000"
+                required
+            >{{ editing_word.meaning }}</textarea>
+
+        </label>
+
+
+        <div class="grid-2 space-top">
+
+            <label class="field">
+
+                Ví dụ tiếng Trung
+
+                <textarea
+                    name="example_zh"
+                    rows="3"
+                    maxlength="1000"
+                >{{ editing_word.example_zh }}</textarea>
+
+            </label>
+
+
+            <label class="field">
+
+                Nghĩa ví dụ
+
+                <textarea
+                    name="example_vi"
+                    rows="3"
+                    maxlength="1000"
+                >{{ editing_word.example_vi }}</textarea>
+
+            </label>
+
+        </div>
+
+
+        <div class="action-row space-top">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lưu thay đổi
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_vocabulary.index'
+                ) }}"
+            >
+                Hủy
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+{% endif %}
+
+
+<!-- =====================================================
+     BỘ LỌC
+===================================================== -->
+
+<section class="panel space-top">
+
+    <form
+        method="get"
+        action="{{ url_for(
+            'admin_vocabulary.index'
+        ) }}"
+        class="courses-filter"
+    >
+
+        <div class="field">
+
+            <label>
+                Tìm từ
+            </label>
+
+            <input
+                type="search"
+                name="q"
+                maxlength="200"
+                value="{{ keyword }}"
+                placeholder="Chữ Hán, pinyin hoặc nghĩa..."
+            >
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Khóa học
+            </label>
+
+            <select name="course_id">
+
+                <option value="">
+                    Tất cả
+                </option>
+
+                {% for course in courses %}
+
+                    <option
+                        value="{{ course.id }}"
+                        {% if selected_course == course.id %}
+                            selected
+                        {% endif %}
+                    >
+                        HSK {{ course.level }}
+                        ·
+                        {{ course.title }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Bài học
+            </label>
+
+            <select name="lesson_id">
+
+                <option value="">
+                    Tất cả
+                </option>
+
+                {% for lesson in lessons %}
+
+                    <option
+                        value="{{ lesson.id }}"
+                        {% if selected_lesson == lesson.id %}
+                            selected
+                        {% endif %}
+                    >
+                        HSK {{ lesson.level }}
+                        · Bài {{ lesson.order }}
+                        · {{ lesson.title }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Duyệt
+            </label>
+
+            <select name="approval">
+
+                <option
+                    value="all"
+                    {% if approval == 'all' %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+                <option
+                    value="approved"
+                    {% if approval == 'approved' %}
+                        selected
+                    {% endif %}
+                >
+                    Đã duyệt
+                </option>
+
+                <option
+                    value="pending"
+                    {% if approval == 'pending' %}
+                        selected
+                    {% endif %}
+                >
+                    Chưa duyệt
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="course-actions">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lọc
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_vocabulary.index'
+                ) }}"
+            >
+                Bỏ lọc
+            </a>
+
+        </div>
+
+    </form>
+
+
+    <p class="space-top">
+
+        Tìm thấy
+
+        <strong>
+            {{ total_items }}
+        </strong>
+
+        từ vựng.
+
+    </p>
+
+
+    <!-- =================================================
+         BẢNG
+    ================================================== -->
+
+    <div class="table-scroll">
+
+        <table class="data-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Mã</th>
+
+                    <th>Chữ Hán</th>
+
+                    <th>Pinyin</th>
+
+                    <th>Nghĩa</th>
+
+                    <th>Bài học</th>
+
+                    <th>Audio</th>
+
+                    <th>Duyệt</th>
+
+                    <th>Thao tác</th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                {% for word in vocabularies %}
+
+                    <tr>
+
+                        <td>
+                            {{ word.id }}
+                        </td>
+
+
+                        <td>
+
+                            <strong
+                                lang="zh"
+                                style="font-size:18px;"
+                            >
+                                {{ word.hanzi }}
+                            </strong>
+
+                        </td>
+
+
+                        <td>
+                            {{ word.pinyin }}
+                        </td>
+
+
+                        <td>
+                            {{ word.meaning }}
+                        </td>
+
+
+                        <td>
+
+                            {{ word.first_lesson }}
+
+                            {% if word.lesson_count > 1 %}
+
+                                <small>
+                                    +{{ word.lesson_count - 1 }} bài
+                                </small>
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <td>
+
+                            {% if word.has_audio %}
+
+                                ✓ Có
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <td>
+
+                            {% if word.approved %}
+
+                                <span class="user-status user-status-active">
+                                    Đã duyệt
+                                </span>
+
+                            {% else %}
+
+                                <span class="course-status course-status-ban_nhap">
+                                    Chưa duyệt
+                                </span>
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <td>
+
+                            <div
+                                style="
+                                    display:flex;
+                                    gap:6px;
+                                    flex-wrap:wrap;
+                                "
+                            >
+
+                                <a
+                                    class="small-button"
+                                    href="{{ url_for(
+                                        'admin_vocabulary.index',
+                                        edit=word.id,
+                                        q=keyword,
+                                        course_id=selected_course,
+                                        lesson_id=selected_lesson,
+                                        approval=approval,
+                                        page=page
+                                    ) }}"
+                                >
+                                    Sửa
+                                </a>
+
+
+                                <form
+                                    method="post"
+                                    action="{{ url_for(
+                                        'admin_vocabulary.toggle_approval',
+                                        vocabulary_id=word.id
+                                    ) }}"
+                                >
+
+                                    <input
+                                        type="hidden"
+                                        name="csrf_token"
+                                        value="{{ csrf_token() }}"
+                                    >
+
+
+                                    <button
+                                        type="submit"
+                                        class="small-button"
+                                    >
+
+                                        {% if word.approved %}
+                                            Bỏ duyệt
+                                        {% else %}
+                                            Duyệt
+                                        {% endif %}
+
+                                    </button>
+
+                                </form>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                {% else %}
+
+                    <tr>
+
+                        <td
+                            colspan="8"
+                            class="center-text"
+                        >
+                            Không có từ vựng phù hợp.
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- =================================================
+         PHÂN TRANG
+    ================================================== -->
+
+    {% if total_pages > 1 %}
+
+        <nav
+            class="users-pagination"
+            style="margin-top:16px;"
+        >
+
+            {% if page > 1 %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_vocabulary.index',
+                        q=keyword,
+                        course_id=selected_course,
+                        lesson_id=selected_lesson,
+                        approval=approval,
+                        page=page-1
+                    ) }}"
+                >
+                    ← Trang trước
+                </a>
+
+            {% endif %}
+
+
+            <span>
+                Trang {{ page }} / {{ total_pages }}
+            </span>
+
+
+            {% if page < total_pages %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_vocabulary.index',
+                        q=keyword,
+                        course_id=selected_course,
+                        lesson_id=selected_lesson,
+                        approval=approval,
+                        page=page+1
+                    ) }}"
+                >
+                    Trang sau →
+                </a>
+
+            {% endif %}
+
+        </nav>
+
+    {% endif %}
+
+</section>
+
+{% endblock %}

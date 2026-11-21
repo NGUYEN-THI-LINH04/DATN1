@@ -1,0 +1,14 @@
+﻿ID,WebNo,CapDoHSK,TuGoc,TuChinh,BienThe,PinyinChuan,PinyinGoc,WebPinyin,TuLoaiMa,TuLoaiChuan,CEDICTKey,SoKetQuaCedict,MaMucTuCedict,TuCedictKhop,PinyinCedictKhop,NghiaAnhCedict,TrangThaiDoiChieu,NghiaTiengViet,DaDuyet
+L1-0044,906,1,车上,车上,,chē shang,chē shang,chē shang,,,,0,,,,,khong_co_cedict_mapping,,0
+L1-0338,7333,1,是不是,是不是,,shì bu shì,shì bu shì,shì bu shì,,,是不是|是不是[shi4 bu4 shi4],0,,,,,cedict_key_khong_khop_sql,,0
+L2-0034,543,2,不太,不太,,bù tài,bù tài,bú tài,,,,0,,,,,khong_co_cedict_mapping,,0
+L2-0044,627,2,不一会儿,不一会儿,,bù yīhuìr,bù yīhuìr,bù yíhuìr,,,,0,,,,,khong_co_cedict_mapping,,0
+L2-0264,3970,2,见过,见过,,jiànguo,jiànguo,jiànguo,,,,0,,,,,khong_co_cedict_mapping,,0
+L2-0507,7657,2,送到,送到,,sòngdào,sòngdào,sòngdào,,,,0,,,,,khong_co_cedict_mapping,,0
+L2-0739,10634,2,中医,中医,,zhōngyī,zhōngyī,zhōngyī,N,名,中醫|中医[Zhong1 yi1],0,,,,,cedict_key_khong_khop_sql,,0
+L3-0192,2280,3,放到,放到,,fàngdào,fàngdào,fàngdào,,,,0,,,,,khong_co_cedict_mapping,,0
+L3-0485,5502,3,美元,美元,,měiyuán,měiyuán,měiyuán,N,名,美元|美元[Mei3 yuan2],0,,,,,cedict_key_khong_khop_sql,,0
+L3-0508,5834,3,能不能,能不能,,néng bu néng,néng bu néng,néng bu néng,,,,0,,,,,khong_co_cedict_mapping,,0
+L4-0507,5491,4,美金,美金,,měijīn,měijīn,měijīn,N,名,美金|美金[Mei3 jin1],0,,,,,cedict_key_khong_khop_sql,,0
+L4-0853,9330,4,眼里,眼里,,yǎnli,yǎnli,yǎnli,N,名,,0,,,,,khong_co_cedict_mapping,,0
+L4-0897,9875,4,有劲儿,有劲儿,,yǒujìnr,yǒujìnr,yǒu∥jìnr,,,,0,,,,,khong_co_cedict_mapping,,0

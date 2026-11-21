@@ -1,0 +1,142 @@
+{% extends "admin/base.html" %}
+
+{% block title %}
+    {{ 'Sửa khóa học' if course.id else 'Thêm khóa học' }} | Mộc Hán
+{% endblock %}
+
+{% block content %}
+<div class="admin-heading">
+    <h1>{{ 'Sửa khóa học' if course.id else 'Thêm khóa học' }}</h1>
+    <p>Điền thông tin và chọn trạng thái phù hợp cho khóa học.</p>
+</div>
+
+{% if not levels %}
+    <p class="notice" role="alert">
+        Chưa có cấp độ HSK1–HSK4 đang mở.
+        Cần kiểm tra dữ liệu trong bảng CapDoHSK.
+    </p>
+{% endif %}
+
+<section class="panel course-editor">
+    <form
+        method="post"
+        action="{{ url_for('admin_courses.edit', course_id=course.id) if course.id else url_for('admin_courses.edit') }}"
+    >
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+        <div class="course-form-grid">
+            <div class="field">
+                <label for="code">Mã ký hiệu *</label>
+                <input
+                    id="code"
+                    name="code"
+                    type="text"
+                    maxlength="40"
+                    value="{{ course.code }}"
+                    placeholder="Ví dụ: HSK1_CO_BAN"
+                    required
+                >
+                <small>
+                    Mã duy nhất, dùng chữ không dấu, số, gạch dưới hoặc gạch ngang.
+                </small>
+            </div>
+
+            <div class="field">
+                <label for="level">Cấp độ *</label>
+                <select id="level" name="level" required>
+                    <option value="">Chọn cấp độ</option>
+
+                    {% for level in levels %}
+                        <option
+                            value="{{ level.id }}"
+                            {% if course.level == level.id %}selected{% endif %}
+                        >
+                            {{ level.title }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+
+        <div class="field">
+            <label for="title">Tên khóa học *</label>
+            <input
+                id="title"
+                name="title"
+                type="text"
+                maxlength="200"
+                value="{{ course.title }}"
+                placeholder="Ví dụ: Tiếng Trung HSK1 cơ bản"
+                required
+            >
+        </div>
+
+        <div class="field">
+            <label for="description">Mô tả</label>
+            <textarea
+                id="description"
+                name="description"
+                rows="6"
+                maxlength="20000"
+                placeholder="Giới thiệu nội dung và mục tiêu khóa học"
+            >{{ course.description }}</textarea>
+        </div>
+
+        <div class="course-form-grid">
+            <div class="field">
+                <label for="version">Phiên bản chuẩn HSK</label>
+                <input
+                    id="version"
+                    name="version"
+                    type="text"
+                    maxlength="100"
+                    value="{{ course.version }}"
+                    placeholder="Nhập chuẩn HSK bạn dùng cho nội dung"
+                >
+                <small>Có thể để trống nếu chưa xác định.</small>
+            </div>
+
+            <div class="field">
+                <label for="status">Trạng thái *</label>
+                <select id="status" name="status" required>
+                    {% for value, label in statuses.items() %}
+                        <option
+                            value="{{ value }}"
+                            {% if course.status == value %}selected{% endif %}
+                        >
+                            {{ label }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+
+        <p>
+            Chọn <strong>Bản nháp</strong> khi đang soạn nội dung;
+            <strong>Đã xuất bản</strong> khi sẵn sàng cho người học;
+            <strong>Lưu trữ</strong> khi ngừng giới thiệu khóa học.
+        </p>
+
+        <div class="course-actions">
+            <button
+                type="submit"
+                class="button"
+                {% if not levels %}disabled{% endif %}
+            >
+                Lưu khóa học
+            </button>
+
+            <a
+                class="small-button"
+                href="{{ url_for('admin_courses.index') }}"
+            >
+                Hủy
+            </a>
+        </div>
+    </form>
+</section>
+{% endblock %}

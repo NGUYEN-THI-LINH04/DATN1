@@ -1,0 +1,201 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Quản lý người học | Mộc Hán{% endblock %}
+
+{% block content %}
+<div class="admin-heading">
+    <h1>Quản lý người học</h1>
+    <p>Xem danh sách và quản lý trạng thái tài khoản người học.</p>
+</div>
+
+<section class="panel">
+    <form
+        class="users-filter"
+        method="get"
+        action="{{ url_for('admin_users.index') }}"
+    >
+        <div class="field">
+            <label for="user-search">Tìm kiếm người học</label>
+            <input
+                id="user-search"
+                name="q"
+                type="search"
+                maxlength="150"
+                placeholder="Tên đăng nhập, họ tên hoặc email"
+                value="{{ keyword }}"
+            >
+        </div>
+
+        <div class="field">
+            <label for="user-status">Trạng thái</label>
+            <select id="user-status" name="status">
+                <option
+                    value="all"
+                    {% if status == 'all' %}selected{% endif %}
+                >
+                    Tất cả
+                </option>
+
+                <option
+                    value="active"
+                    {% if status == 'active' %}selected{% endif %}
+                >
+                    Đang hoạt động
+                </option>
+
+                <option
+                    value="locked"
+                    {% if status == 'locked' %}selected{% endif %}
+                >
+                    Đã khóa
+                </option>
+            </select>
+        </div>
+
+        <div class="users-filter-actions">
+            <button type="submit" class="button">
+                Tìm kiếm
+            </button>
+
+            <a
+                class="small-button"
+                href="{{ url_for('admin_users.index') }}"
+            >
+                Bỏ lọc
+            </a>
+        </div>
+    </form>
+
+    <p class="users-count">
+        Tìm thấy <strong>{{ total }}</strong> tài khoản
+    </p>
+
+    <div class="table-scroll">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th scope="col">Mã</th>
+                    <th scope="col">Tên đăng nhập</th>
+                    <th scope="col">Họ tên</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Ngày tạo (giờ VN)</th>
+                    <th scope="col">Trạng thái</th>
+                    <th scope="col">Thao tác</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for user in users %}
+                    <tr>
+                        <td>{{ user.id }}</td>
+                        <td><strong>{{ user.username }}</strong></td>
+                        <td>{{ user.full_name }}</td>
+                        <td>{{ user.email }}</td>
+                        <td>{{ user.created_at }}</td>
+
+                        <td>
+                            {% if user.active %}
+                                <span class="user-status user-status-active">
+                                    Đang hoạt động
+                                </span>
+                            {% else %}
+                                <span class="user-status user-status-locked">
+                                    Đã khóa
+                                </span>
+                            {% endif %}
+                        </td>
+
+                        <td>
+                            <form
+                                class="user-status-form"
+                                method="post"
+                                action="{{ url_for('admin_users.set_status', user_id=user.id) }}"
+                                data-confirm="{% if user.active %}Khóa tài khoản này? Người học sẽ không thể đăng nhập cho đến khi được mở khóa.{% else %}Mở khóa tài khoản này?{% endif %}"
+                            >
+                                <input
+                                    type="hidden"
+                                    name="csrf_token"
+                                    value="{{ csrf_token() }}"
+                                >
+
+                                <input
+                                    type="hidden"
+                                    name="active"
+                                    value="{{ 0 if user.active else 1 }}"
+                                >
+
+                                <input
+                                    type="hidden"
+                                    name="q"
+                                    value="{{ keyword }}"
+                                >
+
+                                <input
+                                    type="hidden"
+                                    name="status"
+                                    value="{{ status }}"
+                                >
+
+                                <input
+                                    type="hidden"
+                                    name="page"
+                                    value="{{ page }}"
+                                >
+
+                                <button
+                                    type="submit"
+                                    class="small-button"
+                                >
+                                    {{ 'Khóa' if user.active else 'Mở khóa' }}
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="7" class="center-text">
+                            Không có tài khoản phù hợp.
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    {% if total_pages > 1 %}
+        <nav class="users-pagination" aria-label="Phân trang người học">
+            {% if page > 1 %}
+                <a
+                    class="small-button"
+                    href="{{ url_for('admin_users.index', q=keyword, status=status, page=page-1) }}"
+                >
+                    ← Trang trước
+                </a>
+            {% endif %}
+
+            <span>Trang {{ page }} / {{ total_pages }}</span>
+
+            {% if page < total_pages %}
+                <a
+                    class="small-button"
+                    href="{{ url_for('admin_users.index', q=keyword, status=status, page=page+1) }}"
+                >
+                    Trang sau →
+                </a>
+            {% endif %}
+        </nav>
+    {% endif %}
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.querySelectorAll(".user-status-form").forEach(function (form) {
+        form.addEventListener("submit", function (event) {
+            if (!window.confirm(form.dataset.confirm)) {
+                event.preventDefault();
+            }
+        });
+    });
+</script>
+{% endblock %}

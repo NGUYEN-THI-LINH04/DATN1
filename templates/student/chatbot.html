@@ -1,0 +1,665 @@
+
+{% extends "student/base.html" %}
+
+<!-- =====================================================
+     MỘC HÁN - CHATBOT NGƯỜI HỌC
+
+     File: templates/student/chatbot.html
+
+     Chức năng:
+     1. Hiển thị giao diện chatbot AI
+     2. Gửi câu hỏi về Flask
+     3. Hiển thị phản hồi từ SQL Server / Ollama
+     4. Tạo cuộc trò chuyện mới
+     5. Xem lịch sử hội thoại
+     6. Mở lại cuộc trò chuyện cũ
+     7. Ẩn / hiện khu vực lịch sử trò chuyện
+     8. Mở rộng khung trò chuyện khi ẩn lịch sử
+
+     Backend:
+         routes/student/chatbot.py
+
+     JavaScript:
+         static/js/chatbot.js
+
+     CSS:
+         static/css/student-chatbot.css
+
+     Lưu ý:
+     - Không sử dụng dữ liệu chatbot mẫu.
+     - Lịch sử được lưu trong SQL Server.
+     - Việc ẩn lịch sử chỉ thay đổi giao diện.
+     - Không xóa dữ liệu lịch sử khi thu gọn sidebar.
+     - Không hiển thị tên mô hình AI trên giao diện.
+====================================================== -->
+
+
+<!-- =====================================================
+     01. TIÊU ĐỀ TRANG
+===================================================== -->
+
+{% block title %}
+Trợ lý AI | Mộc Hán
+{% endblock %}
+
+
+<!-- =====================================================
+     02. CSS RIÊNG TRANG CHATBOT
+
+     File:
+         static/css/student-chatbot.css
+
+     CSS chỉ áp dụng cho giao diện chatbot.
+     Không ảnh hưởng các trang Student khác.
+
+     Các phần cần thiết kế:
+     - Khung chatbot rộng và cao hơn
+     - Danh sách lịch sử trò chuyện
+     - Nút ẩn / hiện lịch sử
+     - Hiệu ứng mở rộng khung chat
+     - Responsive trên màn hình nhỏ
+===================================================== -->
+
+{% block extra_css %}
+
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/student-chatbot.css') }}"
+>
+
+{% endblock %}
+
+
+<!-- =====================================================
+     03. NỘI DUNG CHÍNH
+===================================================== -->
+
+{% block content %}
+
+<div class="student-chatbot-page">
+
+
+    <!-- ================================================
+         TIÊU ĐỀ CHATBOT
+
+         Giới thiệu chức năng chatbot Mộc Hán.
+         Phần này nằm bên trên khung trò chuyện.
+    ================================================= -->
+
+    <header class="student-chatbot-heading">
+
+        <div class="student-chatbot-heading-content">
+
+            <span class="student-chatbot-eyebrow">
+                TRỢ LÝ HỌC TIẾNG TRUNG
+            </span>
+
+            <h1>
+                Trò chuyện cùng Mộc Hán
+            </h1>
+
+            <p>
+                Hỏi đáp từ vựng, ngữ pháp, chữ Hán
+                và luyện hội thoại tiếng Trung
+                theo các cấp độ HSK1–HSK4.
+            </p>
+
+        </div>
+
+        <div
+            class="student-chatbot-heading-icon"
+            aria-hidden="true"
+        >
+            汉
+        </div>
+
+    </header>
+
+
+    <!-- ================================================
+         BỐ CỤC CHATBOT
+
+         Trạng thái mặc định:
+         - Bên trái: Lịch sử trò chuyện
+         - Bên phải: Nội dung cuộc trò chuyện
+
+         Khi ẩn lịch sử:
+         - Sidebar được thu gọn
+         - Khung trò chuyện mở rộng chiều ngang
+         - Tin nhắn và nội dung lịch sử vẫn được giữ
+
+         Phần CSS và JavaScript sẽ xử lý
+         thay đổi trạng thái hiển thị.
+    ================================================= -->
+
+    <div
+        id="chatbot-layout"
+        class="student-chatbot-layout"
+    >
+
+
+        <!-- ============================================
+             04. DANH SÁCH LỊCH SỬ HỘI THOẠI
+
+             API:
+                 GET /chatbot/api/conversations
+
+             JavaScript sẽ lấy danh sách từ SQL
+             và tự hiển thị vào phần tử này.
+
+             Người học có thể:
+             - Xem lịch sử đã lưu
+             - Mở lại cuộc trò chuyện cũ
+             - Tạo cuộc trò chuyện mới
+
+             Khi ẩn sidebar:
+             - Không xóa danh sách hội thoại
+             - Không xóa cuộc trò chuyện đang mở
+             - Không tác động dữ liệu SQL Server
+        ============================================= -->
+
+        <aside
+            id="chatbot-history-panel"
+            class="student-chatbot-sidebar"
+            aria-label="Lịch sử trò chuyện"
+        >
+
+
+            <!-- ========================================
+                 HEADER LỊCH SỬ
+            ========================================= -->
+
+            <div class="student-chatbot-sidebar-header">
+
+                <div>
+
+                    <h2>
+                        Lịch sử trò chuyện
+                    </h2>
+
+                    <p>
+                        Những cuộc trò chuyện đã lưu
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- ========================================
+                 TẠO CUỘC TRÒ CHUYỆN MỚI
+
+                 ID: chatbot-new
+
+                 Khi nhấn:
+                 - Bắt đầu cuộc trò chuyện mới
+                 - Không xóa lịch sử đã lưu
+                 - Không thay đổi tài khoản người học
+
+                 JavaScript hiện tại tiếp tục
+                 xử lý sự kiện cho nút này.
+            ========================================= -->
+
+            <button
+                type="button"
+                id="chatbot-new"
+                class="student-chatbot-new-button"
+            >
+
+                <span aria-hidden="true">
+                    ＋
+                </span>
+
+                Cuộc trò chuyện mới
+
+            </button>
+
+
+            <!-- ========================================
+                 DANH SÁCH HỘI THOẠI ĐỘNG
+
+                 ID: chatbot-conversations
+
+                 Dữ liệu:
+                 - Tải từ SQL Server qua Flask
+                 - Hiển thị tiêu đề cuộc trò chuyện
+                 - Cho phép chọn cuộc trò chuyện cũ
+
+                 Không sử dụng dữ liệu mẫu.
+            ========================================= -->
+
+            <div
+                id="chatbot-conversations"
+                class="student-chatbot-conversations"
+                aria-label="Danh sách cuộc trò chuyện"
+            >
+
+                <div class="chatbot-conversations-empty">
+                    Đang tải lịch sử trò chuyện...
+                </div>
+
+            </div>
+
+
+            <!-- ========================================
+                 THÔNG TIN NHỎ DƯỚI LỊCH SỬ
+
+                 Giải thích dữ liệu trò chuyện
+                 được lưu theo tài khoản người học.
+            ========================================= -->
+
+            <div class="student-chatbot-sidebar-note">
+
+                <span aria-hidden="true">
+                    ✦
+                </span>
+
+                <p>
+                    Cuộc trò chuyện được lưu theo
+                    tài khoản người học của bạn.
+                </p>
+
+            </div>
+
+        </aside>
+
+
+        <!-- ============================================
+             05. KHUNG TRÒ CHUYỆN CHÍNH
+
+             Nội dung được xử lý qua:
+                 static/js/chatbot.js
+
+             Khung gồm:
+             - Header trợ lý
+             - Nút ẩn / hiện lịch sử
+             - Khu vực tin nhắn
+             - Thông báo trạng thái
+             - Khu vực nhập câu hỏi
+
+             Khi sidebar bị ẩn:
+             Khung trò chuyện sẽ mở rộng
+             bằng CSS, không tải lại trang.
+        ============================================= -->
+
+        <section
+            class="student-chatbot-main"
+            aria-label="Trò chuyện với trợ lý Mộc Hán"
+        >
+
+
+            <!-- ========================================
+                 HEADER KHUNG CHAT
+
+                 Hiển thị:
+                 - Nút ẩn / hiện lịch sử
+                 - Biểu tượng Mộc Hán
+                 - Tên trợ lý
+                 - Mô tả chức năng
+
+                 Không hiển thị nhãn Qwen3 AI.
+                 Mô hình sử dụng được quản lý
+                 tại cấu hình chatbot bên Admin.
+            ========================================= -->
+
+            <div class="student-chatbot-chat-header">
+
+
+                <!-- ====================================
+                     NÚT ẨN / HIỆN LỊCH SỬ
+
+                     ID:
+                         chatbot-history-toggle
+
+                     Điều khiển:
+                         chatbot-history-panel
+
+                     Trạng thái mặc định:
+                         aria-expanded="true"
+
+                     JavaScript sẽ:
+                     - Nhận sự kiện nhấn nút
+                     - Thay đổi trạng thái sidebar
+                     - Cập nhật aria-expanded
+                     - Đổi chữ Ẩn / Hiện lịch sử
+
+                     CSS sẽ:
+                     - Ẩn sidebar khi thu gọn
+                     - Cho khung chat chiếm không gian
+                       còn lại của layout
+
+                     Không tác động đến API hoặc SQL.
+                ==================================== -->
+
+                <button
+                    type="button"
+                    id="chatbot-history-toggle"
+                    class="student-chatbot-history-toggle"
+                    aria-controls="chatbot-history-panel"
+                    aria-expanded="true"
+                    aria-label="Ẩn lịch sử trò chuyện"
+                    title="Ẩn lịch sử trò chuyện"
+                >
+
+                    <span
+                        class="student-chatbot-toggle-icon"
+                        aria-hidden="true"
+                    >
+                        ☰
+                    </span>
+
+                    <span
+                        id="chatbot-history-toggle-text"
+                        class="student-chatbot-toggle-text"
+                    >
+                        Ẩn lịch sử
+                    </span>
+
+                </button>
+
+
+                <!-- ====================================
+                     BIỂU TƯỢNG TRỢ LÝ MỘC HÁN
+                ==================================== -->
+
+                <div
+                    class="student-chatbot-avatar"
+                    aria-hidden="true"
+                >
+                    木
+                </div>
+
+
+                <!-- ====================================
+                     THÔNG TIN TRỢ LÝ
+
+                     Chỉ hiển thị tên sản phẩm,
+                     không hiển thị model AI.
+                ==================================== -->
+
+                <div class="student-chatbot-chat-info">
+
+                    <h2>
+                        Trợ lý Mộc Hán
+                    </h2>
+
+                    <p>
+                        Hỗ trợ học tiếng Trung bằng AI
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- ========================================
+                 06. VÙNG TIN NHẮN ĐỘNG
+
+                 ID: chatbot-messages
+
+                 JavaScript sẽ tạo các phần tử:
+                 - chatbot-message-user
+                 - chatbot-message-assistant
+
+                 API:
+                 GET /chatbot/api/conversations/<id>
+                 POST /chatbot/api/chat
+
+                 Nội dung hỗ trợ:
+                 - Từ vựng
+                 - Ngữ pháp
+                 - Chữ Hán
+                 - Ví dụ và Pinyin
+                 - Hội thoại nhập vai
+
+                 CSS sẽ tăng chiều cao vùng này
+                 để hiển thị được nhiều tin nhắn.
+
+                 Chỉ vùng tin nhắn cuộn.
+                 Header và ô nhập được giữ cố định
+                 trong bố cục khung chatbot.
+            ========================================= -->
+
+            <div
+                id="chatbot-messages"
+                class="student-chatbot-messages"
+                role="log"
+                aria-label="Nội dung cuộc trò chuyện"
+                aria-live="polite"
+                aria-relevant="additions text"
+            >
+
+                <!-- Tin nhắn sẽ do chatbot.js tạo -->
+
+            </div>
+
+
+            <!-- ========================================
+                 07. THÔNG BÁO LỖI / TRẠNG THÁI
+
+                 ID: chatbot-status
+
+                 Ví dụ:
+                 - Không kết nối được Ollama
+                 - Không tải được lịch sử
+                 - Không lưu được tin nhắn
+                 - Không xử lý được câu hỏi
+
+                 JavaScript hiện tại tiếp tục
+                 sử dụng phần tử này.
+            ========================================= -->
+
+            <div
+                id="chatbot-status"
+                class="student-chatbot-status"
+                role="status"
+                aria-live="polite"
+            ></div>
+
+
+            <!-- ========================================
+                 08. KHU VỰC NHẬP CÂU HỎI
+
+                 Form gửi qua JavaScript,
+                 không tải lại toàn bộ trang.
+
+                 API:
+                     POST /chatbot/api/chat
+
+                 Hỗ trợ:
+                 - Nhập tiếng Việt
+                 - Nhập tiếng Trung
+                 - Enter để gửi
+                 - Shift + Enter xuống dòng
+
+                 Giữ nguyên các ID hiện tại
+                 để chatbot.js không bị ảnh hưởng.
+            ========================================= -->
+
+            <div class="student-chatbot-composer">
+
+
+                <!-- ====================================
+                     FORM GỬI TIN NHẮN
+
+                     ID: chatbot-form
+                ==================================== -->
+
+                <form
+                    id="chatbot-form"
+                    class="student-chatbot-form"
+                >
+
+
+                    <!-- ================================
+                         CSRF FLASK
+
+                         Giữ nguyên token bảo vệ
+                         yêu cầu gửi tin nhắn.
+                    ================================ -->
+
+                    <input
+                        type="hidden"
+                        name="csrf_token"
+                        value="{{ csrf_token() }}"
+                    >
+
+
+                    <!-- ================================
+                         NHÃN Ô NHẬP CÂU HỎI
+                    ================================ -->
+
+                    <label
+                        for="chatbot-input"
+                        class="student-chatbot-input-label"
+                    >
+                        Nhập câu hỏi của bạn
+                    </label>
+
+
+                    <!-- ================================
+                         NỘI DUNG TIN NHẮN
+
+                         ID: chatbot-input
+
+                         Giới hạn tối đa 2000 ký tự,
+                         phù hợp giới hạn backend.
+                    ================================ -->
+
+                    <div class="student-chatbot-input-row">
+
+                        <textarea
+                            id="chatbot-input"
+                            name="message"
+                            rows="2"
+                            maxlength="2000"
+                            required
+                            autocomplete="off"
+                            placeholder="Nhập câu hỏi tiếng Việt hoặc tiếng Trung..."
+                            aria-label="Tin nhắn gửi cho trợ lý Mộc Hán"
+                        ></textarea>
+
+
+                        <!-- ============================
+                             NÚT GỬI TIN NHẮN
+
+                             ID: chatbot-send
+
+                             JavaScript sẽ xử lý
+                             trạng thái gửi và phản hồi.
+                        ============================ -->
+
+                        <button
+                            type="submit"
+                            id="chatbot-send"
+                            class="student-chatbot-send-button"
+                        >
+                            Gửi
+
+                            <span aria-hidden="true">
+                                ➤
+                            </span>
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+
+                <!-- ====================================
+                     GHI CHÚ PHÍM TẮT
+
+                     Giữ lại hướng dẫn thao tác
+                     cho người học.
+                ==================================== -->
+
+                <div class="student-chatbot-input-footer">
+
+                    <span>
+                        Enter để gửi · Shift + Enter để xuống dòng
+                    </span>
+
+                    <span>
+                        Hỗ trợ tiếng Việt và tiếng Trung
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- ================================================
+         09. LƯU Ý SỬ DỤNG
+
+         Giải thích cho người học:
+         - Ưu tiên dữ liệu đã duyệt từ SQL Server
+         - Nội dung AI tạo cần được kiểm tra khi cần
+
+         Nội dung này chỉ hiển thị trên giao diện,
+         không ảnh hưởng logic xử lý chatbot.
+    ================================================= -->
+
+    <div class="student-chatbot-footer">
+
+        <span aria-hidden="true">
+            ✦
+        </span>
+
+        <p>
+            Mộc Hán ưu tiên học liệu đã duyệt trong
+            SQL Server. Những câu trả lời được tạo
+            từ kiến thức riêng của AI có thể cần
+            được kiểm tra lại.
+        </p>
+
+    </div>
+
+</div>
+
+{% endblock %}
+
+
+<!-- =====================================================
+     10. JAVASCRIPT CHATBOT STUDENT
+
+     File:
+         static/js/chatbot.js
+
+     Không sử dụng:
+         admin-chatbot.js
+
+     JavaScript hiện tại xử lý:
+     - Gửi tin nhắn
+     - Nhận phản hồi từ Flask
+     - Tạo cuộc trò chuyện mới
+     - Tải danh sách lịch sử
+     - Mở cuộc trò chuyện cũ
+     - Hiển thị thông báo lỗi
+
+     API:
+         POST /chatbot/api/chat
+
+         GET /chatbot/api/conversations
+
+         GET /chatbot/api/conversations/<id>
+
+     Chức năng bổ sung ở bước tiếp theo:
+     - Nhấn nút ẩn / hiện lịch sử
+     - Cập nhật trạng thái layout
+     - Không tải lại trang
+     - Không thay đổi dữ liệu SQL
+===================================================== -->
+
+{% block extra_js %}
+
+<script
+    src="{{ url_for('static', filename='js/chatbot.js') }}"
+    defer
+></script>
+
+{% endblock %}

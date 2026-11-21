@@ -1,0 +1,23 @@
+SHADOWING HSK4 - VIDEO 4
+YouTube ID: xdULRJN_RZM
+MaKhoaHoc: 4
+MaBaiHoc: 2050
+Tieu de: 独处的秘密力量 - Sức mạnh bí mật của việc ở một mình
+So doan: 233
+Ty le chu Han: 98.8%
+Doan trung: 0
+Timestamp chong nhau: 0
+Doan < 0.8s: 4
+Doan > 10s: 0
+
+===== CAC DOAN NGAN =====
+019 | 0.700s | 没错。
+073 | 0.633s | 是的。
+215 | 0.733s | 嗯！
+233 | 0.733s | 再见！
+
+===== CAC DOAN DAI =====
+
+CHUA TAO PINYIN.
+CHUA DICH TIENG VIET.
+CHUA CAP NHAT SQL SERVER.

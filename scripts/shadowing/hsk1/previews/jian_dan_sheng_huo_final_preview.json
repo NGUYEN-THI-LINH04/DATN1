@@ -1,0 +1,405 @@
+{
+  "module": "shadowing",
+  "youtube_id": "6YGJswSorYw",
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 7.18,
+      "hanzi": "大家好，今天我想和大家说说我一天的生活。",
+      "pinyin": "dà jiā hǎo ， jīn tiān wǒ xiǎng hé dà jiā shuō shuō wǒ yī tiān de shēng huó 。",
+      "vi": "Chào các bạn! Hôm nay mình muốn kể cho các bạn nghe về một ngày trong cuộc sống của mình."
+    },
+    {
+      "start": 7.18,
+      "end": 13.54,
+      "hanzi": "我是一个在越南工作的办公室职员，今年30岁。",
+      "pinyin": "wǒ shì yí gè zài yuè nán gōng zuò de bàn gōng shì zhí yuán ， jīn nián 30 suì 。",
+      "vi": "Mình là một nhân viên văn phòng làm việc tại Việt Nam, năm nay 30 tuổi."
+    },
+    {
+      "start": 13.54,
+      "end": 21.08,
+      "hanzi": "我的生活很普通，但每天都有开心和难过的事情。",
+      "pinyin": "wǒ de shēng huó hěn pǔ tōng ， dàn měi tiān dōu yǒu kāi xīn hé nán guò de shì qíng 。",
+      "vi": "Cuộc sống của mình rất bình thường như bao người, nhưng mỗi ngày đều có những chuyện vui và buồn."
+    },
+    {
+      "start": 21.08,
+      "end": 26.96,
+      "hanzi": "早上六点，我的闹钟响了，我起来了。",
+      "pinyin": "zǎo shàng liù diǎn ， wǒ de nào zhōng xiǎng le ， wǒ qǐ lái le 。",
+      "vi": "Sáng sớm lúc sáu giờ, chuông báo thức vang lên và mình thức dậy."
+    },
+    {
+      "start": 26.96,
+      "end": 32.48,
+      "hanzi": "外面阳光很好，天气不冷也不热。",
+      "pinyin": "wài miàn yáng guāng hěn hǎo ， tiān qì bù lěng yě bù rè 。",
+      "vi": "Bên ngoài trời nắng rất đẹp, thời tiết không quá lạnh cũng không quá nóng."
+    },
+    {
+      "start": 32.48,
+      "end": 37.62,
+      "hanzi": "我吃了简单的早餐，有面包和牛奶。",
+      "pinyin": "wǒ chī le jiǎn dān de zǎo cān ， yǒu miàn bāo hé niú nǎi 。",
+      "vi": "Mình ăn một bữa sáng đơn giản với bánh mì và sữa."
+    },
+    {
+      "start": 37.62,
+      "end": 44.0,
+      "hanzi": "吃完，我换好衣服，骑摩托车去公司。",
+      "pinyin": "chī wán ， wǒ huàn hǎo yī fú ， qí mó tuō chē qù gōng sī 。",
+      "vi": "Ăn xong, mình thay quần áo rồi lái xe máy đi làm."
+    },
+    {
+      "start": 44.0,
+      "end": 48.43,
+      "hanzi": "路上有很多车和人，交通很忙。",
+      "pinyin": "lù shàng yǒu hěn duō chē hé rén ， jiāo tōng hěn máng 。",
+      "vi": "Trên đường có rất nhiều xe và người qua lại, giao thông khá đông đúc."
+    },
+    {
+      "start": 48.43,
+      "end": 54.45,
+      "hanzi": "骑车的时候要小心，看红绿灯和路人。",
+      "pinyin": "qí chē de shí hòu yào xiǎo xīn ， kàn hóng lǜ dēng hé lù rén 。",
+      "vi": "Khi lái xe phải cẩn thận, chú ý đèn giao thông và người đi đường."
+    },
+    {
+      "start": 54.45,
+      "end": 61.23,
+      "hanzi": "我喜欢看街上的人们，他们都很努力工作。",
+      "pinyin": "wǒ xǐ huān kàn jiē shàng de rén men ， tā men dōu hěn nǔ lì gōng zuò 。",
+      "vi": "Mình thích nhìn mọi người trên phố, ai cũng làm việc rất chăm chỉ."
+    },
+    {
+      "start": 61.23,
+      "end": 66.22,
+      "hanzi": "到了公司，很多同事已经开始工作。",
+      "pinyin": "dào le gōng sī ， hěn duō tóng shì yǐ jīng kāi shǐ gōng zuò 。",
+      "vi": "Khi đến công ty, nhiều đồng nghiệp đã bắt đầu làm việc."
+    },
+    {
+      "start": 66.22,
+      "end": 69.4,
+      "hanzi": "办公室里有电脑和文件。",
+      "pinyin": "bàn gōng shì lǐ yǒu diàn nǎo hé wén jiàn 。",
+      "vi": "Trong văn phòng có máy tính và hồ sơ, giấy tờ."
+    },
+    {
+      "start": 69.4,
+      "end": 76.92,
+      "hanzi": "今天我有一个重要的会议，要给大家介绍我的工作计划。",
+      "pinyin": "jīn tiān wǒ yǒu yí gè zhòng yào de huì yì ， yào gěi dà jiā jiè shào wǒ de gōng zuò jì huà 。",
+      "vi": "Hôm nay mình có một cuộc họp quan trọng, phải trình bày kế hoạch công việc với mọi người."
+    },
+    {
+      "start": 76.92,
+      "end": 85.02,
+      "hanzi": "我有点紧张，但是同事们支持我，让我感觉好一点。",
+      "pinyin": "wǒ yǒu diǎn jǐn zhāng ， dàn shì tóng shì men zhī chí wǒ ， ràng wǒ gǎn jué hǎo yì diǎn 。",
+      "vi": "Mình hơi lo lắng, nhưng các đồng nghiệp động viên, giúp mình cảm thấy tự tin hơn."
+    },
+    {
+      "start": 85.02,
+      "end": 90.52,
+      "hanzi": "领导听了我的报告，说你做得很好。",
+      "pinyin": "lǐng dǎo tīng le wǒ de bào gào ， shuō nǐ zuò dé hěn hǎo 。",
+      "vi": "Sau khi nghe báo cáo, sếp nói: 'Em làm rất tốt!'"
+    },
+    {
+      "start": 90.52,
+      "end": 94.32,
+      "hanzi": "我听了很高兴。",
+      "pinyin": "wǒ tīng le hěn gāo xìng 。",
+      "vi": "Nghe vậy, mình rất vui."
+    },
+    {
+      "start": 94.32,
+      "end": 96.77,
+      "hanzi": "工作中也有问题。",
+      "pinyin": "gōng zuò zhōng yě yǒu wèn tí 。",
+      "vi": "Trong công việc cũng có những vấn đề phát sinh."
+    },
+    {
+      "start": 96.77,
+      "end": 101.92,
+      "hanzi": "下午的时候，电脑坏了，我打不开文件。",
+      "pinyin": "xià wǔ de shí hòu ， diàn nǎo huài le ， wǒ dǎ bù kāi wén jiàn 。",
+      "vi": "Buổi chiều, máy tính bị hỏng khiến mình không mở được tài liệu."
+    },
+    {
+      "start": 101.92,
+      "end": 105.91,
+      "hanzi": "我很着急，找了技术人员帮忙。",
+      "pinyin": "wǒ hěn zháo jí ， zhǎo le jì shù rén yuán bāng máng 。",
+      "vi": "Mình rất sốt ruột nên đã tìm nhân viên kỹ thuật nhờ giúp đỡ."
+    },
+    {
+      "start": 105.91,
+      "end": 111.2,
+      "hanzi": "最后我修好了电脑，完成了工作。",
+      "pinyin": "zuì hòu wǒ xiū hǎo le diàn nǎo ， wán chéng le gōng zuò 。",
+      "vi": "Cuối cùng mình đã sửa được máy tính và hoàn thành công việc."
+    },
+    {
+      "start": 111.2,
+      "end": 117.79,
+      "hanzi": "虽然累，但是我很开心自己解决了问题。",
+      "pinyin": "suī rán lèi ， dàn shì wǒ hěn kāi xīn zì jǐ jiě jué le wèn tí 。",
+      "vi": "Dù mệt nhưng mình rất vui vì đã tự giải quyết được vấn đề."
+    },
+    {
+      "start": 117.79,
+      "end": 121.0,
+      "hanzi": "中午，我和同事去吃饭。",
+      "pinyin": "zhōng wǔ ， wǒ hé tóng shì qù chī fàn 。",
+      "vi": "Buổi trưa, mình cùng đồng nghiệp đi ăn."
+    },
+    {
+      "start": 121.0,
+      "end": 124.67,
+      "hanzi": "我们吃了越南的牛肉粉和春卷。",
+      "pinyin": "wǒ men chī le yuè nán de niú ròu fěn hé chūn juǎn 。",
+      "vi": "Chúng mình đã ăn phở bò Việt Nam và nem rán."
+    },
+    {
+      "start": 124.67,
+      "end": 131.62,
+      "hanzi": "大家聊天，我告诉他们我和女朋友刚开始交往。",
+      "pinyin": "dà jiā liáo tiān ， wǒ gào sù tā men wǒ hé nǚ péng yǒu gāng kāi shǐ jiāo wǎng 。",
+      "vi": "Mọi người trò chuyện, mình kể rằng mình và bạn gái mới bắt đầu hẹn hò."
+    },
+    {
+      "start": 131.62,
+      "end": 137.5,
+      "hanzi": "她很温柔，我们喜欢一起喝咖啡和聊天。",
+      "pinyin": "tā hěn wēn róu ， wǒ men xǐ huān yì qǐ hē kā fēi hé liáo tiān 。",
+      "vi": "Cô ấy rất dịu dàng, chúng mình thích cùng nhau uống cà phê và trò chuyện."
+    },
+    {
+      "start": 137.5,
+      "end": 141.45,
+      "hanzi": "同事们笑着说，祝你们幸福。",
+      "pinyin": "tóng shì men xiào zhe shuō ， zhù nǐ men xìng fú 。",
+      "vi": "Các đồng nghiệp mỉm cười nói: 'Chúc hai bạn hạnh phúc!'"
+    },
+    {
+      "start": 141.45,
+      "end": 144.72,
+      "hanzi": "我也笑了。",
+      "pinyin": "wǒ yě xiào le 。",
+      "vi": "Mình cũng cười theo."
+    },
+    {
+      "start": 144.72,
+      "end": 151.32,
+      "hanzi": "下午快下班时，女朋友发信息，今天想见你。",
+      "pinyin": "xià wǔ kuài xià bān shí ， nǚ péng yǒu fā xìn xī ， jīn tiān xiǎng jiàn nǐ 。",
+      "vi": "Buổi chiều gần tan làm, bạn gái nhắn tin: 'Hôm nay em muốn gặp anh.'"
+    },
+    {
+      "start": 151.32,
+      "end": 156.58,
+      "hanzi": "我很想见她，但工作还没做完。",
+      "pinyin": "wǒ hěn xiǎng jiàn tā ， dàn gōng zuò hái méi zuò wán 。",
+      "vi": "Mình rất muốn gặp cô ấy, nhưng công việc vẫn chưa xong."
+    },
+    {
+      "start": 156.58,
+      "end": 162.03,
+      "hanzi": "只能说，等我下班，我去找你。",
+      "pinyin": "zhǐ néng shuō ， děng wǒ xià bān ， wǒ qù zhǎo nǐ 。",
+      "vi": "Mình đành nhắn lại: 'Đợi anh tan làm nhé, anh sẽ đến gặp em.'"
+    },
+    {
+      "start": 162.03,
+      "end": 166.27,
+      "hanzi": "她回了个笑脸，我心里很暖。",
+      "pinyin": "tā huí le gè xiào liǎn ， wǒ xīn lǐ hěn nuǎn 。",
+      "vi": "Cô ấy gửi lại một biểu tượng mặt cười, khiến lòng mình cảm thấy rất ấm áp."
+    },
+    {
+      "start": 166.27,
+      "end": 170.77,
+      "hanzi": "下班后，我骑车去见她。",
+      "pinyin": "xià bān hòu ， wǒ qí chē qù jiàn tā 。",
+      "vi": "Sau khi tan làm, mình lái xe đến gặp cô ấy."
+    },
+    {
+      "start": 170.77,
+      "end": 172.2,
+      "hanzi": "她在楼下等我。",
+      "pinyin": "tā zài lóu xià děng wǒ 。",
+      "vi": "Cô ấy đang đợi mình ở dưới nhà."
+    },
+    {
+      "start": 172.2,
+      "end": 178.3,
+      "hanzi": "我们一起去吃晚饭，有很多好吃的越南菜。",
+      "pinyin": "wǒ men yì qǐ qù chī wǎn fàn ， yǒu hěn duō hǎo chī de yuè nán cài 。",
+      "vi": "Chúng mình cùng nhau đi ăn tối, có rất nhiều món ăn Việt Nam ngon."
+    },
+    {
+      "start": 178.3,
+      "end": 182.47,
+      "hanzi": "她问我，你今天累吗？",
+      "pinyin": "tā wèn wǒ ， nǐ jīn tiān lèi ma ？",
+      "vi": "Cô ấy hỏi: 'Hôm nay anh có mệt không?'"
+    },
+    {
+      "start": 182.47,
+      "end": 187.79,
+      "hanzi": "我说，有点累，但是见到你就开心。",
+      "pinyin": "wǒ shuō ， yǒu diǎn lèi ， dàn shì jiàn dào nǐ jiù kāi xīn 。",
+      "vi": "Mình trả lời: 'Hơi mệt một chút, nhưng gặp được em thì anh thấy vui.'"
+    },
+    {
+      "start": 188.72,
+      "end": 192.77,
+      "hanzi": "她笑着说，我们一起努力好吗？",
+      "pinyin": "tā xiào zhe shuō ， wǒ men yì qǐ nǔ lì hǎo ma ？",
+      "vi": "Cô ấy mỉm cười nói: 'Chúng ta cùng nhau cố gắng nhé?'"
+    },
+    {
+      "start": 193.28,
+      "end": 194.77,
+      "hanzi": "我点头。",
+      "pinyin": "wǒ diǎn tóu 。",
+      "vi": "Mình gật đầu."
+    },
+    {
+      "start": 194.77,
+      "end": 199.75,
+      "hanzi": "晚上回家，我准备明天的工作。",
+      "pinyin": "wǎn shàng huí jiā ， wǒ zhǔn bèi míng tiān de gōng zuò 。",
+      "vi": "Buổi tối về nhà, mình chuẩn bị công việc cho ngày mai."
+    },
+    {
+      "start": 199.75,
+      "end": 203.56,
+      "hanzi": "虽然累，但我很开心。",
+      "pinyin": "suī rán lèi ， dàn wǒ hěn kāi xīn 。",
+      "vi": "Dù mệt nhưng mình vẫn rất vui."
+    },
+    {
+      "start": 203.56,
+      "end": 206.34,
+      "hanzi": "生活有快乐，也有困难。",
+      "pinyin": "shēng huó yǒu kuài lè ， yě yǒu kùn nán 。",
+      "vi": "Cuộc sống có những niềm vui nhưng cũng có những khó khăn."
+    },
+    {
+      "start": 206.34,
+      "end": 212.52,
+      "hanzi": "有爱的人和朋友支持，我觉得很幸福。",
+      "pinyin": "yǒu ài de rén hé péng yǒu zhī chí ， wǒ jué de hěn xìng fú 。",
+      "vi": "Có người mình yêu thương và bạn bè ủng hộ, mình cảm thấy rất hạnh phúc."
+    },
+    {
+      "start": 212.52,
+      "end": 218.34,
+      "hanzi": "我希望以后和女朋友一起过更好的生活。",
+      "pinyin": "wǒ xī wàng yǐ hòu hé nǚ péng yǒu yì qǐ guò gèng hǎo de shēng huó 。",
+      "vi": "Mình hy vọng sau này có thể cùng bạn gái xây dựng cuộc sống tốt đẹp hơn."
+    },
+    {
+      "start": 218.34,
+      "end": 222.05,
+      "hanzi": "也希望工作越来越好。",
+      "pinyin": "yě xī wàng gōng zuò yuè lái yuè hǎo 。",
+      "vi": "Mình cũng hy vọng công việc ngày càng thuận lợi."
+    },
+    {
+      "start": 222.05,
+      "end": 227.67,
+      "hanzi": "有时候，我也会想起小时候的生活。",
+      "pinyin": "yǒu shí hòu ， wǒ yě huì xiǎng qǐ xiǎo shí hòu de shēng huó 。",
+      "vi": "Đôi khi mình nhớ lại cuộc sống thời thơ ấu."
+    },
+    {
+      "start": 227.67,
+      "end": 230.46,
+      "hanzi": "那时候家里不富裕。",
+      "pinyin": "nà shí hòu jiā lǐ bù fù yù 。",
+      "vi": "Khi ấy gia đình mình không được khá giả."
+    },
+    {
+      "start": 230.46,
+      "end": 235.28,
+      "hanzi": "父母每天努力工作，给我很好的教育。",
+      "pinyin": "fù mǔ měi tiān nǔ lì gōng zuò ， gěi wǒ hěn hǎo de jiào yù 。",
+      "vi": "Bố mẹ ngày nào cũng làm việc chăm chỉ để cho mình được học hành tốt."
+    },
+    {
+      "start": 235.28,
+      "end": 238.39,
+      "hanzi": "我很感谢他们。",
+      "pinyin": "wǒ hěn gǎn xiè tā men 。",
+      "vi": "Mình rất biết ơn bố mẹ."
+    },
+    {
+      "start": 238.39,
+      "end": 245.08,
+      "hanzi": "所以我现在也很努力工作，不想让他们失望。",
+      "pinyin": "suǒ yǐ wǒ xiàn zài yě hěn nǔ lì gōng zuò ， bù xiǎng ràng tā men shī wàng 。",
+      "vi": "Vì vậy, hiện tại mình cũng cố gắng làm việc chăm chỉ, không muốn khiến bố mẹ thất vọng."
+    },
+    {
+      "start": 245.08,
+      "end": 251.87,
+      "hanzi": "工作虽然有压力，但我知道这是为了更好的未来。",
+      "pinyin": "gōng zuò suī rán yǒu yā lì ， dàn wǒ zhī dào zhè shì wèi le gèng hǎo de wèi lái 。",
+      "vi": "Mặc dù công việc có áp lực, nhưng mình biết tất cả đều vì một tương lai tốt đẹp hơn."
+    },
+    {
+      "start": 251.87,
+      "end": 260.14,
+      "hanzi": "周末的时候，我喜欢和女朋友去公园散步，或者看电影。",
+      "pinyin": "zhōu mò de shí hòu ， wǒ xǐ huān hé nǚ péng yǒu qù gōng yuán sàn bù ， huò zhě kàn diàn yǐng 。",
+      "vi": "Vào cuối tuần, mình thích cùng bạn gái đi dạo trong công viên hoặc xem phim."
+    },
+    {
+      "start": 260.14,
+      "end": 263.14,
+      "hanzi": "我们也会一起做饭。",
+      "pinyin": "wǒ men yě huì yì qǐ zuò fàn 。",
+      "vi": "Chúng mình cũng cùng nhau nấu ăn."
+    },
+    {
+      "start": 263.14,
+      "end": 268.59,
+      "hanzi": "虽然我厨艺不太好，但她总是鼓励我。",
+      "pinyin": "suī rán wǒ chú yì bù tài hǎo ， dàn tā zǒng shì gǔ lì wǒ 。",
+      "vi": "Mặc dù mình nấu ăn không giỏi lắm, nhưng cô ấy luôn động viên mình."
+    },
+    {
+      "start": 268.59,
+      "end": 272.91,
+      "hanzi": "这些小事让我觉得生活很美好。",
+      "pinyin": "zhè xiē xiǎo shì ràng wǒ jué de shēng huó hěn měi hǎo 。",
+      "vi": "Những điều nhỏ bé ấy khiến mình cảm thấy cuộc sống thật tươi đẹp."
+    },
+    {
+      "start": 272.91,
+      "end": 278.55,
+      "hanzi": "也让我有力量面对每天的挑战。",
+      "pinyin": "yě ràng wǒ yǒu lì liàng miàn duì měi tiān de tiǎo zhàn 。",
+      "vi": "Chúng cũng tiếp thêm sức mạnh để mình đối mặt với những thử thách mỗi ngày."
+    },
+    {
+      "start": 278.55,
+      "end": 281.13,
+      "hanzi": "谢谢大家听我的故事。",
+      "pinyin": "xiè xiè dà jiā tīng wǒ de gù shì 。",
+      "vi": "Cảm ơn mọi người đã lắng nghe câu chuyện của mình."
+    },
+    {
+      "start": 281.13,
+      "end": 288.01,
+      "hanzi": "希望你们每天都开心，生活越来越好。",
+      "pinyin": "xī wàng nǐ men měi tiān dōu kāi xīn ， shēng huó yuè lái yuè hǎo 。",
+      "vi": "Hy vọng các bạn ngày nào cũng vui vẻ và cuộc sống ngày càng tốt đẹp hơn."
+    }
+  ]
+}

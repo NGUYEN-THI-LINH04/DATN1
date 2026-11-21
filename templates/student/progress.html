@@ -1,0 +1,1433 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Tiến độ học | Mộc Hán
+{% endblock %}
+
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/progress.css') }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+<main class="mhp">
+
+    <!-- ==========================================
+         TIEU DE TRANG
+    =========================================== -->
+
+    <header class="mhp-header">
+
+        <h1>Thống kê học tập</h1>
+
+        <p>
+            Theo dõi quá trình học tiếng Trung
+            của bạn tại Mộc Hán.
+        </p>
+
+    </header>
+
+
+    <!-- ==========================================
+         1. BON THE THONG KE TONG QUAN
+    =========================================== -->
+
+    <div class="mhp-stats">
+
+        <!-- CHUOI NGAY HOC -->
+
+        <article class="mhp-card mhp-stat">
+
+            <div class="mhp-stat-head">
+                <span class="mhp-stat-label">
+                    Chuỗi ngày học
+                </span>
+
+                <span class="mhp-icon">🔥</span>
+            </div>
+
+            <strong class="mhp-stat-value">
+                {{ activity.streak }} ngày
+            </strong>
+
+            <p class="mhp-stat-desc">
+                Số ngày học liên tiếp
+            </p>
+
+        </article>
+
+
+        <!-- TU VUNG DA ON -->
+
+        <article class="mhp-card mhp-stat">
+
+            <div class="mhp-stat-head">
+
+                <span class="mhp-stat-label">
+                    Từ vựng đã ôn
+                </span>
+
+                <span class="mhp-icon">📚</span>
+
+            </div>
+
+            <strong class="mhp-stat-value">
+                {{ vocabulary.reviewed }}
+            </strong>
+
+            <p class="mhp-stat-desc">
+                Trong {{ vocabulary.total }} từ của kho từ vựng
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO SHADOWING -->
+
+        <article class="mhp-card mhp-stat">
+
+            <div class="mhp-stat-head">
+
+                <span class="mhp-stat-label">
+                    Video đã luyện
+                </span>
+
+                <span class="mhp-icon">🎧</span>
+
+            </div>
+
+            <strong class="mhp-stat-value">
+                {{ shadowing.videos }}
+            </strong>
+
+            <p class="mhp-stat-desc">
+                Trong {{ shadowing.total_videos }}
+                video Shadowing
+            </p>
+
+        </article>
+
+
+        <!-- HOAT DONG HOM NAY -->
+
+        <article class="mhp-card mhp-stat">
+
+            <div class="mhp-stat-head">
+
+                <span class="mhp-stat-label">
+                    Hoạt động hôm nay
+                </span>
+
+                <span class="mhp-icon">📅</span>
+
+            </div>
+
+            <strong class="mhp-stat-value">
+                {{ activity.today }}
+            </strong>
+
+            <p class="mhp-stat-desc">
+                Lượt hoạt động được ghi nhận
+            </p>
+
+        </article>
+
+    </div>
+
+
+    <!-- ==========================================
+         2. LICH HOC THEO THANG
+    =========================================== -->
+
+    <section class="mhp-card mhp-section">
+
+        <div class="mhp-section-head">
+
+            <span class="mhp-icon">📅</span>
+
+            <div>
+
+                <h2>Lịch học tập</h2>
+
+                <p>
+                    Theo dõi hoạt động học tập từng ngày
+                    trong 365 ngày gần đây
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- THANH CHUYEN THANG -->
+
+        <div class="mhp-month-toolbar">
+
+            <button
+                type="button"
+                id="mhpPrevMonth"
+                class="mhp-month-nav"
+                aria-label="Xem tháng trước"
+            >
+                ‹
+            </button>
+
+            <strong
+                id="mhpMonthTitle"
+                class="mhp-month-title"
+                aria-live="polite"
+            >
+                Lịch học tập
+            </strong>
+
+            <button
+                type="button"
+                id="mhpNextMonth"
+                class="mhp-month-nav"
+                aria-label="Xem tháng sau"
+            >
+                ›
+            </button>
+
+        </div>
+
+
+        <!-- CAC THU TRONG TUAN -->
+
+        <div class="mhp-month-weekdays">
+
+            <span>Thứ 2</span>
+            <span>Thứ 3</span>
+            <span>Thứ 4</span>
+            <span>Thứ 5</span>
+            <span>Thứ 6</span>
+            <span>Thứ 7</span>
+            <span>CN</span>
+
+        </div>
+
+
+        <!-- CAC O NGAY 1 - 31 -->
+
+        <div
+            id="mhpMonthDays"
+            class="mhp-month-days"
+            aria-label="Lịch học theo tháng"
+        ></div>
+
+
+        <!-- THONG TIN NGAY DUOC CHON -->
+
+        <div class="mhp-selected-day">
+
+            <div>
+
+                <span class="mhp-selected-label">
+                    Ngày đang chọn
+                </span>
+
+                <strong id="mhpSelectedDate">
+                    —
+                </strong>
+
+            </div>
+
+            <div class="mhp-selected-count">
+
+                <strong id="mhpSelectedCount">
+                    0
+                </strong>
+
+                <span>
+                    lượt hoạt động
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- THONG KE THANG -->
+
+        <p
+            id="mhpMonthSummary"
+            class="mhp-month-summary"
+        ></p>
+
+
+        <!-- CHU THICH MAU -->
+
+        <div class="mhp-calendar-foot">
+
+            <span class="mhp-calendar-message">
+
+                {% if activity.streak > 0 %}
+
+                    Bạn đang duy trì chuỗi học
+                    {{ activity.streak }} ngày.
+
+                {% else %}
+
+                    Chưa có chuỗi học liên tiếp.
+
+                {% endif %}
+
+            </span>
+
+
+            <div class="mhp-legend">
+
+                <span>Ít</span>
+
+                {% for level in range(5) %}
+
+                    <span
+                        class="mhp-legend-box"
+                        data-level="{{ level }}"
+                    ></span>
+
+                {% endfor %}
+
+                <span>Nhiều</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- ======================================
+             DU LIEU LICH TU PYTHON / SQL SERVER
+             JS SE DOC CAC NGAY TU DAY
+        ======================================= -->
+
+        <div
+            id="mhpCalendarData"
+            hidden
+            data-today="{{ activity.today_date }}"
+            data-start="{{ activity.start_date }}"
+            data-end="{{ activity.end_date }}"
+        >
+
+            {% for day in activity.calendar %}
+
+                <span
+                    data-date="{{ day.date }}"
+                    data-count="{{ day.count }}"
+                    data-level="{{ day.level }}"
+                ></span>
+
+            {% endfor %}
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         3. TIEN DO THEO NOI DUNG
+    =========================================== -->
+
+    <section class="mhp-card mhp-section">
+
+        <div class="mhp-section-head">
+
+            <span class="mhp-icon">↗</span>
+
+            <div>
+
+                <h2>Tiến độ theo nội dung</h2>
+
+                <p>
+                    Kết quả học tập được ghi nhận
+                    trong hệ thống
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="mhp-topics">
+
+
+            <!-- ==================================
+                 A. TU VUNG
+            =================================== -->
+
+            <div class="mhp-topic">
+
+                <div class="mhp-topic-head">
+
+                    <span class="mhp-topic-name">
+                        📖 Từ vựng
+                    </span>
+
+                    <span class="mhp-topic-value">
+                        {{ vocabulary.reviewed }}/{{ vocabulary.total }}
+                        từ đã ôn
+                    </span>
+
+                </div>
+
+
+                <!-- THANH TIEN DO -->
+
+                <div
+                    class="mhp-track"
+                    role="progressbar"
+                    aria-label="Tiến độ ôn từ vựng"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-valuenow="0"
+                >
+
+                    <span
+                        class="mhp-fill"
+                        data-value="{{ vocabulary.reviewed }}"
+                        data-total="{{ vocabulary.total }}"
+                    ></span>
+
+                </div>
+
+
+                <p class="mhp-topic-note">
+
+                    Kho từ vựng hiện có
+                    <strong>{{ vocabulary.total }}</strong>
+                    từ khác nhau.
+
+                    Trong đó,
+                    <strong>{{ vocabulary.approved }}</strong>
+                    từ đã được duyệt.
+
+                </p>
+
+
+                <p class="mhp-topic-note">
+
+                    Bạn đã lưu
+                    <strong>{{ vocabulary.saved }}</strong>
+                    từ và từng ôn
+                    <strong>{{ vocabulary.reviewed }}</strong>
+                    từ khác nhau.
+
+                </p>
+
+
+                <!-- THONG KE THEO CAP HSK -->
+
+                <div class="mhp-vocab-levels">
+
+                    {% for level in range(1, 5) %}
+
+                        <div class="mhp-vocab-level">
+
+                            <span>
+                                HSK {{ level }}
+                            </span>
+
+                            <strong>
+                                {{ vocabulary.level_counts.get(level, 0) }}
+                                từ
+                            </strong>
+
+                        </div>
+
+                    {% endfor %}
+
+                </div>
+
+
+                <p class="mhp-topic-note">
+
+                    Một từ có thể xuất hiện ở nhiều
+                    cấp HSK, nên tổng số từ của bốn
+                    cấp có thể lớn hơn tổng số từ
+                    khác nhau trong kho.
+
+                </p>
+
+
+                <p class="mhp-topic-note">
+
+                    Lưu ý: Số từ đã ôn không đồng nghĩa
+                    với số từ đã thuộc.
+
+                </p>
+
+            </div>
+
+
+            <!-- ==================================
+                 B. SHADOWING
+            =================================== -->
+
+            <div class="mhp-topic">
+
+                <div class="mhp-topic-head">
+
+                    <span class="mhp-topic-name">
+                        🎧 Shadowing
+                    </span>
+
+                    <span class="mhp-topic-value">
+                        {{ shadowing.videos }}/{{ shadowing.total_videos }}
+                        video đã luyện
+                    </span>
+
+                </div>
+
+
+                <!-- THANH TIEN DO SHADOWING -->
+
+                <div
+                    class="mhp-track"
+                    role="progressbar"
+                    aria-label="Tiến độ luyện Shadowing"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-valuenow="0"
+                >
+
+                    <span
+                        class="mhp-fill"
+                        data-value="{{ shadowing.videos }}"
+                        data-total="{{ shadowing.total_videos }}"
+                    ></span>
+
+                </div>
+
+
+                <p class="mhp-topic-note">
+
+                    Đã luyện
+                    <strong>{{ shadowing.sentences }}</strong>
+                    câu khác nhau.
+
+                    Có
+                    <strong>{{ shadowing.attempted_modes }}</strong>
+                    kết quả câu được thống kê
+                    theo từng chế độ.
+
+                </p>
+
+
+                <!-- KET QUA HAI CHE DO -->
+
+                <div class="mhp-scores">
+
+
+                    <!-- CHEP CHINH TA -->
+
+                    <div class="mhp-score">
+
+                        <span class="mhp-score-label">
+                            Chép chính tả
+                        </span>
+
+                        <strong class="mhp-score-value">
+
+                            {% if shadowing.modes.dictation.done > 0 %}
+
+                                {{ shadowing.modes.dictation.average }}/100
+
+                            {% else %}
+
+                                Chưa có điểm
+
+                            {% endif %}
+
+                        </strong>
+
+                        <span class="mhp-score-desc">
+
+                            {{ shadowing.modes.dictation.done }}
+                            câu đã làm
+
+                            ·
+
+                            {{ shadowing.modes.dictation.correct }}
+                            câu đúng
+
+                        </span>
+
+                    </div>
+
+
+                    <!-- GHEP CAU -->
+
+                    <div class="mhp-score">
+
+                        <span class="mhp-score-label">
+                            Ghép câu
+                        </span>
+
+                        <strong class="mhp-score-value">
+
+                            {% if shadowing.modes.assemble.done > 0 %}
+
+                                {{ shadowing.modes.assemble.average }}/100
+
+                            {% else %}
+
+                                Chưa có điểm
+
+                            {% endif %}
+
+                        </strong>
+
+                        <span class="mhp-score-desc">
+
+                            {{ shadowing.modes.assemble.done }}
+                            câu đã làm
+
+                            ·
+
+                            {{ shadowing.modes.assemble.correct }}
+                            câu đúng
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <p class="mhp-topic-note">
+
+                    Điểm và số câu được tính từ kết quả
+                    luyện tập đã lưu trong hệ thống.
+
+                    Với mỗi câu và mỗi chế độ,
+                    hệ thống sử dụng kết quả mới nhất.
+
+                </p>
+
+            </div>
+
+
+            <!-- ==================================
+                 C. BAI TAP
+            =================================== -->
+
+            <div class="mhp-topic">
+
+                <div class="mhp-topic-head">
+
+                    <span class="mhp-topic-name">
+                        📝 Bài tập
+                    </span>
+
+                    {% if exercises.attempts > 0 %}
+
+                        <span class="mhp-topic-value">
+                            {{ exercises.exercises }}
+                            bài đã làm
+                        </span>
+
+                    {% else %}
+
+                        <span class="mhp-soon">
+                            CHƯA CÓ KẾT QUẢ
+                        </span>
+
+                    {% endif %}
+
+                </div>
+
+
+                <div class="mhp-track">
+
+                    <span class="mhp-fill"></span>
+
+                </div>
+
+
+                <p class="mhp-topic-note">
+
+                    {% if exercises.attempts > 0 %}
+
+                        Bạn đã thực hiện
+                        {{ exercises.attempts }}
+                        lượt nộp bài.
+
+                        Điểm trung bình:
+                        <strong>
+                            {{ exercises.average }}/100
+                        </strong>.
+
+                    {% else %}
+
+                        Chưa có kết quả bài tập
+                        của người học.
+
+                        Thống kê sẽ được cập nhật
+                        khi chức năng làm bài tập
+                        được hoàn thiện.
+
+                    {% endif %}
+
+                </p>
+
+            </div>
+
+
+            
+
+
+
+<!-- ==========================================
+     D. LUYEN THI CHUNG CHI
+========================================== -->
+
+<div class="mhp-topic">
+
+    <div class="mhp-topic-head">
+
+        <span class="mhp-topic-name">
+            🏅 Luyện thi chứng chỉ
+        </span>
+
+        <span class="mhp-topic-value">
+            {{ exam_stats.practiced }}/{{ exam_stats.total }}
+            đề đã luyện
+        </span>
+
+    </div>
+
+    <div
+        class="mhp-track"
+        role="progressbar"
+        aria-label="Tiến độ luyện thi HSK"
+        aria-valuemin="0"
+        aria-valuemax="{{ exam_stats.total }}"
+        aria-valuenow="{{ exam_stats.practiced }}"
+    >
+        <span
+            class="mhp-fill"
+            data-value="{{ exam_stats.practiced }}"
+            data-total="{{ exam_stats.total }}"
+        ></span>
+    </div>
+
+</div>
+
+    <!-- ==========================================
+         4. HOAT DONG SHADOWING GAN DAY
+    =========================================== -->
+
+    <section class="mhp-card mhp-section">
+
+        <div class="mhp-section-head">
+
+            <span class="mhp-icon">◷</span>
+
+            <div>
+
+                <h2>Hoạt động gần đây</h2>
+
+                <p>
+                    Những video Shadowing bạn
+                    vừa luyện tập
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="mhp-recent-list">
+
+            {% for item in recent %}
+
+                <article class="mhp-recent-item">
+
+                    <div class="mhp-recent-info">
+
+                        <h3>
+                            {{ item.title }}
+                        </h3>
+
+                        <p>
+
+                            {{ item.attempts }}
+                            lượt kiểm tra
+
+                            · Luyện gần nhất:
+
+                            {% if item.last_practiced %}
+
+                                <time
+                                    class="mhp-local-time"
+                                    datetime="{{ item.last_practiced.isoformat() }}Z"
+                                >
+
+                                    {{ item.last_practiced.strftime('%d/%m/%Y %H:%M') }}
+
+                                </time>
+
+                            {% else %}
+
+                                Chưa có thời gian
+
+                            {% endif %}
+
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="{{ url_for('shadowing.video_detail', content_id=item.content_id) }}"
+                        class="mhp-recent-link"
+                    >
+                        Luyện tiếp →
+                    </a>
+
+                </article>
+
+            {% else %}
+
+                <div class="mhp-empty">
+
+                    Bạn chưa có lịch sử luyện Shadowing.
+
+                    <div>
+                        Hãy bắt đầu luyện tập để xem
+                        kết quả tại đây nhé!
+                    </div>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    </section>
+
+</main>
+
+{% endblock %}
+
+
+<!-- ==========================================
+     JAVASCRIPT CHO TRANG TIEN DO
+=========================================== -->
+
+{% block extra_js %}
+
+<script>
+"use strict";
+
+(function () {
+
+    // ==========================================
+    // HAM XU LY NGAY THANG
+    // ==========================================
+
+    function parseDate(iso) {
+
+        const parts = iso.split("-").map(Number);
+
+        return new Date(
+            parts[0],
+            parts[1] - 1,
+            parts[2]
+        );
+    }
+
+
+    function toISO(date) {
+
+        const year = date.getFullYear();
+
+        const month = String(
+            date.getMonth() + 1
+        ).padStart(2, "0");
+
+        const day = String(
+            date.getDate()
+        ).padStart(2, "0");
+
+        return (
+            year + "-" +
+            month + "-" +
+            day
+        );
+    }
+
+
+    function formatDate(date) {
+
+        return date.toLocaleDateString(
+            "vi-VN",
+            {
+                weekday: "long",
+                day: "2-digit",
+                month: "2-digit",
+                year: "numeric"
+            }
+        );
+    }
+
+
+    // ==========================================
+    // 1. THANH TIEN DO
+    // ==========================================
+
+    function initProgressBars() {
+
+        const bars = document.querySelectorAll(
+            ".mhp-fill[data-value][data-total]"
+        );
+
+        bars.forEach(function (bar) {
+
+            const value = Math.max(
+                0,
+                Number(bar.dataset.value) || 0
+            );
+
+            const total = Math.max(
+                0,
+                Number(bar.dataset.total) || 0
+            );
+
+            const percent = total > 0
+                ? Math.min(100, value / total * 100)
+                : 0;
+
+            bar.style.width = percent + "%";
+
+            const track = bar.closest(
+                '[role="progressbar"]'
+            );
+
+            if (track) {
+
+                track.setAttribute(
+                    "aria-valuenow",
+                    String(Math.round(percent))
+                );
+
+            }
+
+        });
+    }
+
+
+    // ==========================================
+    // 2. LICH HOC THEO THANG
+    // ==========================================
+
+    function initMonthlyCalendar() {
+
+        const source = document.getElementById(
+            "mhpCalendarData"
+        );
+
+        const grid = document.getElementById(
+            "mhpMonthDays"
+        );
+
+        const title = document.getElementById(
+            "mhpMonthTitle"
+        );
+
+        const prevButton = document.getElementById(
+            "mhpPrevMonth"
+        );
+
+        const nextButton = document.getElementById(
+            "mhpNextMonth"
+        );
+
+        const selectedDateText = document.getElementById(
+            "mhpSelectedDate"
+        );
+
+        const selectedCountText = document.getElementById(
+            "mhpSelectedCount"
+        );
+
+        const monthSummary = document.getElementById(
+            "mhpMonthSummary"
+        );
+
+        if (
+            !source ||
+            !grid ||
+            !title ||
+            !prevButton ||
+            !nextButton
+        ) {
+            return;
+        }
+
+        const todayISO = source.dataset.today;
+        const startISO = source.dataset.start;
+        const endISO = source.dataset.end;
+
+        if (!todayISO || !startISO || !endISO) {
+            return;
+        }
+
+        const today = parseDate(todayISO);
+        const firstAllowed = parseDate(startISO);
+        const lastAllowed = parseDate(endISO);
+
+        // Lay hoat dong tung ngay tu HTML / Python
+
+        const activityByDate = new Map();
+
+        source.querySelectorAll(
+            "[data-date]"
+        ).forEach(function (element) {
+
+            activityByDate.set(
+                element.dataset.date,
+                {
+                    count: Number(
+                        element.dataset.count
+                    ) || 0,
+
+                    level: Number(
+                        element.dataset.level
+                    ) || 0
+                }
+            );
+
+        });
+
+        let currentYear = today.getFullYear();
+        let currentMonth = today.getMonth();
+
+        let selectedISO = todayISO;
+
+
+        // ------------------------------------------
+        // SO SANH THANG
+        // ------------------------------------------
+
+        function monthIndex(year, month) {
+            return year * 12 + month;
+        }
+
+        const firstMonthIndex = monthIndex(
+            firstAllowed.getFullYear(),
+            firstAllowed.getMonth()
+        );
+
+        const lastMonthIndex = monthIndex(
+            lastAllowed.getFullYear(),
+            lastAllowed.getMonth()
+        );
+
+
+        // ------------------------------------------
+        // CHON MOT NGAY
+        // ------------------------------------------
+
+        function selectDate(iso) {
+
+            selectedISO = iso;
+
+            const date = parseDate(iso);
+
+            const activity = activityByDate.get(iso) || {
+                count: 0,
+                level: 0
+            };
+
+            if (selectedDateText) {
+
+                selectedDateText.textContent =
+                    formatDate(date);
+
+            }
+
+            if (selectedCountText) {
+
+                selectedCountText.textContent =
+                    activity.count;
+
+            }
+
+            grid.querySelectorAll(
+                ".mhp-month-day[data-date]"
+            ).forEach(function (button) {
+
+                const selected =
+                    button.dataset.date === iso;
+
+                button.classList.toggle(
+                    "is-selected",
+                    selected
+                );
+
+                button.setAttribute(
+                    "aria-pressed",
+                    String(selected)
+                );
+
+            });
+
+        }
+
+
+        // ------------------------------------------
+        // HIEN THI LICH CUA THANG
+        // ------------------------------------------
+
+        function renderMonth() {
+
+            grid.replaceChildren();
+
+            title.textContent =
+                "Tháng " +
+                (currentMonth + 1) +
+                " năm " +
+                currentYear;
+
+            const currentIndex = monthIndex(
+                currentYear,
+                currentMonth
+            );
+
+            prevButton.disabled =
+                currentIndex <= firstMonthIndex;
+
+            nextButton.disabled =
+                currentIndex >= lastMonthIndex;
+
+
+            // Thu Hai = 0, Chu Nhat = 6
+
+            const firstDay = new Date(
+                currentYear,
+                currentMonth,
+                1
+            );
+
+            const firstWeekday = (
+                firstDay.getDay() + 6
+            ) % 7;
+
+
+            // Dem so ngay trong thang
+
+            const daysInMonth = new Date(
+                currentYear,
+                currentMonth + 1,
+                0
+            ).getDate();
+
+
+            // Tao cac o trong truoc ngay 1
+
+            for (let i = 0; i < firstWeekday; i++) {
+
+                const blank = document.createElement(
+                    "span"
+                );
+
+                blank.className = "mhp-month-blank";
+
+                blank.setAttribute(
+                    "aria-hidden",
+                    "true"
+                );
+
+                grid.appendChild(blank);
+
+            }
+
+
+            let monthlyActivities = 0;
+            let activeDays = 0;
+
+
+            // Tao ngay 1, 2, 3... den cuoi thang
+
+            for (let day = 1; day <= daysInMonth; day++) {
+
+                const date = new Date(
+                    currentYear,
+                    currentMonth,
+                    day
+                );
+
+                const iso = toISO(date);
+
+                const inRange =
+                    iso >= startISO &&
+                    iso <= endISO;
+
+
+                // Ngay nam ngoai khoang 365 ngay
+
+                if (!inRange) {
+
+                    const unavailable =
+                        document.createElement("span");
+
+                    unavailable.className =
+                        "mhp-month-day is-unavailable";
+
+                    unavailable.textContent =
+                        String(day);
+
+                    grid.appendChild(unavailable);
+
+                    continue;
+                }
+
+
+                const activity = activityByDate.get(iso) || {
+                    count: 0,
+                    level: 0
+                };
+
+                monthlyActivities += activity.count;
+
+                if (activity.count > 0) {
+                    activeDays += 1;
+                }
+
+
+                // Tao nut ngay de co the bam chon
+
+                const button = document.createElement(
+                    "button"
+                );
+
+                button.type = "button";
+
+                button.className = "mhp-month-day";
+
+                button.textContent = String(day);
+
+                button.dataset.date = iso;
+
+                button.dataset.level = String(
+                    activity.level
+                );
+
+
+                // Danh dau ngay hom nay
+
+                if (iso === todayISO) {
+                    button.classList.add("is-today");
+                }
+
+
+                // Thong tin khi di chuot vao ngay
+
+                const label =
+                    formatDate(date) +
+                    " — " +
+                    activity.count +
+                    " lượt hoạt động";
+
+                button.title = label;
+
+                button.setAttribute(
+                    "aria-label",
+                    label
+                );
+
+
+                // Bam ngay de xem ket qua
+
+                button.addEventListener(
+                    "click",
+                    function () {
+                        selectDate(iso);
+                    }
+                );
+
+                grid.appendChild(button);
+
+            }
+
+
+            // Tong ket hoat dong trong thang
+
+            if (monthSummary) {
+
+                monthSummary.textContent =
+                    "Trong khoảng thời gian được thống kê: " +
+                    activeDays +
+                    " ngày có hoạt động, " +
+                    monthlyActivities +
+                    " lượt hoạt động.";
+
+            }
+
+
+            // Neu chuyen thang thi chon ngay hop le
+
+            const selectedDate = parseDate(
+                selectedISO
+            );
+
+            const isSameMonth =
+                selectedDate.getFullYear() === currentYear &&
+                selectedDate.getMonth() === currentMonth;
+
+            if (!isSameMonth) {
+
+                const allowedButtons =
+                    grid.querySelectorAll(
+                        ".mhp-month-day[data-date]"
+                    );
+
+                if (allowedButtons.length > 0) {
+
+                    selectedISO =
+                        allowedButtons[
+                            allowedButtons.length - 1
+                        ].dataset.date;
+
+                }
+            }
+
+            selectDate(selectedISO);
+
+        }
+
+
+        // ------------------------------------------
+        // NUT THANG TRUOC
+        // ------------------------------------------
+
+        prevButton.addEventListener(
+            "click",
+            function () {
+
+                const date = new Date(
+                    currentYear,
+                    currentMonth - 1,
+                    1
+                );
+
+                currentYear = date.getFullYear();
+                currentMonth = date.getMonth();
+
+                renderMonth();
+
+            }
+        );
+
+
+        // ------------------------------------------
+        // NUT THANG SAU
+        // ------------------------------------------
+
+        nextButton.addEventListener(
+            "click",
+            function () {
+
+                const date = new Date(
+                    currentYear,
+                    currentMonth + 1,
+                    1
+                );
+
+                currentYear = date.getFullYear();
+                currentMonth = date.getMonth();
+
+                renderMonth();
+
+            }
+        );
+
+
+        // Hien thi thang hien tai khi vao trang
+
+        renderMonth();
+
+    }
+
+
+    // ==========================================
+    // 3. HIEN THI THOI GIAN SHADOWING
+    // THEO GIO VIET NAM
+    // ==========================================
+
+    function initLocalTimes() {
+
+        document.querySelectorAll(
+            ".mhp-local-time"
+        ).forEach(function (element) {
+
+            const raw = element.getAttribute(
+                "datetime"
+            );
+
+            if (!raw) {
+                return;
+            }
+
+            const date = new Date(raw);
+
+            if (Number.isNaN(date.getTime())) {
+                return;
+            }
+
+            element.textContent =
+                new Intl.DateTimeFormat(
+                    "vi-VN",
+                    {
+                        timeZone: "Asia/Ho_Chi_Minh",
+                        day: "2-digit",
+                        month: "2-digit",
+                        year: "numeric",
+                        hour: "2-digit",
+                        minute: "2-digit",
+                        hour12: false
+                    }
+                ).format(date);
+
+        });
+
+    }
+
+
+    // ==========================================
+    // 4. KHOI TAO CAC CHUC NANG
+    // ==========================================
+
+    function initProgress() {
+
+        initProgressBars();
+
+        initMonthlyCalendar();
+
+        initLocalTimes();
+
+    }
+
+
+    if (document.readyState === "loading") {
+
+        document.addEventListener(
+            "DOMContentLoaded",
+            initProgress
+        );
+
+    } else {
+
+        initProgress();
+
+    }
+
+})();
+</script>
+
+{% endblock %}

@@ -1,0 +1,1369 @@
+
+/* ==================================================
+   MOC HAN - TRANG TIEN DO HOC TAP
+   File: static/css/progress.css
+================================================== */
+
+.mhp {
+    --paper: #fff8ee;
+    --ink: #42392f;
+    --muted: #817262;
+    --line: #746b61;
+    --yellow: #f4bf61;
+    --green: #8eaa7b;
+
+    color: var(--ink);
+    width: 100%;
+    padding: 8px 4px 35px;
+}
+
+.mhp,
+.mhp * {
+    box-sizing: border-box;
+}
+
+.mhp h1,
+.mhp h2,
+.mhp h3,
+.mhp p {
+    margin-top: 0;
+}
+
+.mhp-header {
+    margin-bottom: 20px;
+}
+
+.mhp-header h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.mhp-header p {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 0;
+}
+
+
+/* ==================================================
+   KHUNG GIAY VE TAY
+================================================== */
+
+.mhp-card {
+    background: var(--paper);
+    border: 1.5px solid var(--line);
+    border-radius: 7px 11px 8px 10px;
+
+    box-shadow:
+        2px 2px 0 rgba(74, 62, 48, 0.28),
+        inset 0 0 0 2px rgba(255, 255, 255, 0.65);
+}
+
+
+/* ==================================================
+   1. BON THE THONG KE
+================================================== */
+
+.mhp-stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 17px;
+}
+
+.mhp-stat {
+    padding: 17px;
+    min-height: 125px;
+}
+
+.mhp-stat-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.mhp-stat-label {
+    font-size: 12px;
+    color: var(--muted);
+}
+
+.mhp-icon {
+    width: 34px;
+    height: 34px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    background: var(--yellow);
+    border: 1px solid #a88645;
+    border-radius: 7px;
+
+    font-size: 17px;
+    box-shadow: 1px 2px 0 #c19a5d;
+}
+
+.mhp-stat-value {
+    display: block;
+    margin-top: 13px;
+
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.mhp-stat-desc {
+    margin-top: 5px;
+    font-size: 11px;
+    line-height: 1.6;
+    color: var(--muted);
+}
+
+
+/* ==================================================
+   2. KHUNG NOI DUNG CHUNG
+================================================== */
+
+.mhp-section {
+    padding: 20px;
+    margin-top: 21px;
+}
+
+.mhp-section-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.mhp-section-head h2 {
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.mhp-section-head p {
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 0;
+}
+
+
+/* ==================================================
+   3. LICH HOC 365 NGAY
+================================================== */
+
+.mhp-calendar-scroll {
+    width: 100%;
+    overflow-x: auto;
+    padding: 4px 2px 12px;
+    scrollbar-width: thin;
+}
+
+.mhp-calendar-inner {
+    width: max-content;
+    min-width: 100%;
+}
+
+.mhp-months {
+    position: relative;
+    margin-left: 31px;
+    height: 23px;
+}
+
+.mhp-month-label {
+    position: absolute;
+    top: 0;
+
+    font-size: 10px;
+    color: var(--muted);
+    white-space: nowrap;
+}
+
+.mhp-calendar-body {
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.mhp-weekdays {
+    display: grid;
+    grid-template-rows: repeat(7, 12px);
+    gap: 4px;
+
+    width: 24px;
+    flex-shrink: 0;
+}
+
+.mhp-weekdays span {
+    font-size: 9px;
+    line-height: 12px;
+    color: var(--muted);
+}
+
+.mhp-calendar-grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(7, 12px);
+    grid-auto-columns: 12px;
+    gap: 4px;
+}
+
+.mhp-day {
+    display: block;
+    width: 12px;
+    height: 12px;
+
+    background: #eee5d8;
+    border-radius: 4px;
+}
+
+.mhp-day[data-level="1"] {
+    background: #f8dcaa;
+}
+
+.mhp-day[data-level="2"] {
+    background: #eec47e;
+}
+
+.mhp-day[data-level="3"] {
+    background: #dfaa58;
+}
+
+.mhp-day[data-level="4"] {
+    background: #b98237;
+}
+
+.mhp-day.is-empty {
+    background: transparent;
+}
+
+.mhp-day:not(.is-empty):hover {
+    outline: 2px solid #786d60;
+    outline-offset: 1px;
+}
+
+.mhp-calendar-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.mhp-calendar-message {
+    font-size: 11px;
+    line-height: 1.7;
+    color: var(--muted);
+}
+
+.mhp-legend {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 10px;
+    color: var(--muted);
+}
+
+.mhp-legend-box {
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    background: #eee5d8;
+}
+
+.mhp-legend-box[data-level="1"] {
+    background: #f8dcaa;
+}
+
+.mhp-legend-box[data-level="2"] {
+    background: #eec47e;
+}
+
+.mhp-legend-box[data-level="3"] {
+    background: #dfaa58;
+}
+
+.mhp-legend-box[data-level="4"] {
+    background: #b98237;
+}
+
+
+/* ==================================================
+   4. TIEN DO THEO NOI DUNG
+================================================== */
+
+.mhp-topics {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.mhp-topic {
+    min-width: 0;
+}
+
+.mhp-topic-wide {
+    grid-column: 1 / -1;
+}
+
+.mhp-topic-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.mhp-topic-name {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.mhp-topic-value {
+    font-size: 11px;
+    color: var(--muted);
+}
+
+.mhp-track {
+    width: 100%;
+    height: 12px;
+    padding: 2px;
+
+    border: 1px solid #84796c;
+    border-radius: 50px;
+
+    background: #f2eadf;
+    overflow: hidden;
+}
+
+.mhp-fill {
+    display: block;
+    width: 0;
+    height: 100%;
+
+    border-radius: inherit;
+    background: var(--green);
+
+    transition: width 0.35s ease;
+}
+
+.mhp-topic-note {
+    margin: 8px 0 0;
+
+    font-size: 11px;
+    line-height: 1.7;
+    color: var(--muted);
+}
+
+.mhp-soon {
+    padding: 4px 7px;
+
+    font-size: 10px;
+    font-weight: 700;
+    color: #8d7c68;
+
+    border: 1px dashed #a99983;
+    border-radius: 5px;
+}
+
+
+/* ==================================================
+   5. TIEN DO CAC KHOA HOC HSK
+================================================== */
+
+.mhp-hsk-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.mhp-hsk-item {
+    padding: 13px;
+
+    background: #fffdf8;
+    border: 1px solid #e9dcc9;
+    border-radius: 10px;
+}
+
+.mhp-hsk-item .mhp-track {
+    height: 10px;
+}
+
+
+/* ==================================================
+   6. KET QUA SHADOWING
+================================================== */
+
+.mhp-scores {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 13px;
+}
+
+.mhp-score {
+    padding: 12px;
+
+    background: #fffdf8;
+    border: 1px solid #e9dcc9;
+    border-radius: 10px;
+}
+
+.mhp-score-label {
+    display: block;
+
+    color: var(--muted);
+    font-size: 11px;
+}
+
+.mhp-score-value {
+    display: block;
+    margin: 6px 0;
+
+    color: #936f3d;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.mhp-score-desc {
+    display: block;
+
+    font-size: 11px;
+    line-height: 1.6;
+    color: var(--muted);
+}
+
+
+/* ==================================================
+   7. HOAT DONG GAN DAY
+================================================== */
+
+.mhp-recent-list {
+    display: grid;
+    gap: 11px;
+}
+
+.mhp-recent-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+
+    padding: 14px;
+
+    background: #fffdf8;
+    border: 1px solid #e9dcc9;
+    border-radius: 10px;
+}
+
+.mhp-recent-info {
+    min-width: 0;
+}
+
+.mhp-recent-info h3 {
+    margin-bottom: 6px;
+
+    font-size: 13px;
+    font-weight: 800;
+    overflow-wrap: anywhere;
+}
+
+.mhp-recent-info p {
+    margin-bottom: 0;
+
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+.mhp-recent-link {
+    flex-shrink: 0;
+
+    padding: 8px 11px;
+
+    background: #f6c46b;
+    border: 1px solid #bb914b;
+    border-radius: 8px;
+
+    color: #513d25;
+    font-size: 11px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.mhp-recent-link:hover {
+    background: #ffda95;
+    color: #513d25;
+    text-decoration: none;
+}
+
+.mhp-empty {
+    padding: 22px;
+
+    border: 1px dashed #d6c6af;
+    border-radius: 10px;
+
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+
+/* ==================================================
+   8. RESPONSIVE - TABLET
+================================================== */
+
+@media (max-width: 1050px) {
+
+    .mhp-stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+
+/* ==================================================
+   9. RESPONSIVE - DIEN THOAI
+================================================== */
+
+@media (max-width: 650px) {
+
+    .mhp {
+        padding: 5px 0 30px;
+    }
+
+    .mhp-stats {
+        gap: 10px;
+    }
+
+    .mhp-stat {
+        padding: 12px;
+        min-height: 116px;
+    }
+
+    .mhp-stat-value {
+        font-size: 23px;
+    }
+
+    .mhp-section {
+        padding: 14px;
+    }
+
+    .mhp-topics,
+    .mhp-hsk-grid,
+    .mhp-scores {
+        grid-template-columns: 1fr;
+    }
+
+    .mhp-topic-wide {
+        grid-column: auto;
+    }
+
+    .mhp-recent-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+/* ==========================================
+   MOC HAN - LICH HOC THEO THANG
+========================================== */
+
+.mhp-month-toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 8px auto 24px;
+}
+
+.mhp-month-title {
+    min-width: 190px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: #44372c;
+}
+
+.mhp-month-nav {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5c16a;
+    border: 1.5px solid #9d7948;
+    border-radius: 9px;
+    color: #42352a;
+    font-size: 27px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 #c7a97c;
+}
+
+.mhp-month-nav:hover:not(:disabled) {
+    background: #ffdb95;
+}
+
+.mhp-month-nav:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.mhp-month-weekdays,
+.mhp-month-days {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 8px;
+    width: min(100%, 780px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mhp-month-weekdays {
+    margin-bottom: 9px;
+}
+
+.mhp-month-weekdays span {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #817261;
+}
+
+.mhp-month-day,
+.mhp-month-blank {
+    min-width: 0;
+    min-height: 54px;
+}
+
+.mhp-month-day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: none;
+    background: #f4eee5;
+    border: 1px solid #ded0bc;
+    border-radius: 9px;
+    color: #483b2e;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+.mhp-month-day:hover:not(.is-unavailable) {
+    transform: translateY(-2px);
+    border-color: #a27b43;
+}
+
+.mhp-month-day[data-level="1"] {
+    background: #f8dcaa;
+}
+
+.mhp-month-day[data-level="2"] {
+    background: #eec47e;
+}
+
+.mhp-month-day[data-level="3"] {
+    background: #dfaa58;
+}
+
+.mhp-month-day[data-level="4"] {
+    background: #b98237;
+    color: white;
+}
+
+.mhp-month-day.is-today {
+    outline: 2px dashed #a4773b;
+    outline-offset: -5px;
+}
+
+.mhp-month-day.is-selected {
+    border: 2px solid #554535;
+    box-shadow: 0 0 0 2px white inset;
+}
+
+.mhp-month-day.is-unavailable {
+    background: #f7f3ec;
+    border-color: #eee7dd;
+    color: #c5b9ab;
+    opacity: 0.65;
+    cursor: default;
+}
+
+.mhp-selected-day {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: min(100%, 780px);
+    margin: 22px auto 0;
+    padding: 16px 19px;
+    background: #fffdf8;
+    border: 1px solid #e4d3bd;
+    border-radius: 12px;
+}
+
+.mhp-selected-day > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.mhp-selected-label {
+    font-size: 11px;
+    color: #8a7967;
+}
+
+#mhpSelectedDate {
+    font-size: 15px;
+    color: #45382b;
+}
+
+.mhp-selected-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.mhp-selected-count strong {
+    font-size: 25px;
+    color: #a37436;
+}
+
+.mhp-selected-count span {
+    font-size: 11px;
+    color: #867565;
+}
+
+.mhp-month-summary {
+    width: min(100%, 780px);
+    margin: 12px auto 0;
+    font-size: 12px;
+    color: #857361;
+    line-height: 1.6;
+}
+
+@media (max-width: 650px) {
+
+    .mhp-month-toolbar {
+        gap: 12px;
+    }
+
+    .mhp-month-title {
+        min-width: 160px;
+        font-size: 16px;
+    }
+
+    .mhp-month-weekdays,
+    .mhp-month-days {
+        gap: 4px;
+    }
+
+    .mhp-month-weekdays span {
+        font-size: 10px;
+    }
+
+    .mhp-month-day,
+    .mhp-month-blank {
+        min-height: 42px;
+    }
+
+    .mhp-month-day {
+        font-size: 12px;
+        border-radius: 7px;
+    }
+
+    .mhp-selected-day {
+        padding: 12px;
+    }
+
+    #mhpSelectedDate {
+        font-size: 12px;
+    }
+
+    .mhp-selected-count strong {
+        font-size: 20px;
+    }
+}
+
+/* ==================================================
+   MOC HAN - THU GON TRANG TIEN DO HOC
+   4 THE THONG KE + LICH HOC THEO THANG
+================================================== */
+
+
+/* ==================================================
+   1. THU NHO 4 THE THONG KE
+================================================== */
+
+.mhp-stats {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+
+    gap: 12px;
+}
+
+.mhp-stats .mhp-stat {
+    min-height: 112px;
+    padding: 13px 15px;
+}
+
+.mhp-stat-head {
+    gap: 8px;
+    margin-bottom: 9px;
+}
+
+.mhp-stat-label {
+    font-size: 11px;
+}
+
+.mhp-stat-value {
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.mhp-stat-desc {
+    margin-top: 5px;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.mhp-stat .mhp-icon {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+
+    font-size: 15px;
+}
+
+
+/* ==================================================
+   2. THU GON KHUNG LICH HOC
+================================================== */
+
+.mhp > section.mhp-section:first-of-type {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 18px 20px;
+}
+
+.mhp > section.mhp-section:first-of-type
+.mhp-section-head {
+    margin-bottom: 12px;
+}
+
+.mhp > section.mhp-section:first-of-type
+.mhp-section-head h2 {
+    font-size: 17px;
+}
+
+.mhp > section.mhp-section:first-of-type
+.mhp-section-head p {
+    font-size: 11px;
+}
+
+
+/* ==================================================
+   3. THANH CHUYEN THANG
+================================================== */
+
+.mhp-month-toolbar {
+    gap: 14px;
+    margin: 4px auto 14px;
+}
+
+.mhp-month-title {
+    min-width: 165px;
+    font-size: 16px;
+}
+
+.mhp-month-nav {
+    width: 30px;
+    height: 30px;
+
+    font-size: 22px;
+    border-radius: 7px;
+}
+
+
+/* ==================================================
+   4. THU NHO BANG LICH
+================================================== */
+
+.mhp-month-weekdays,
+.mhp-month-days {
+    width: min(100%, 650px);
+
+    gap: 6px;
+}
+
+.mhp-month-weekdays {
+    margin-bottom: 7px;
+}
+
+.mhp-month-weekdays span {
+    font-size: 11px;
+}
+
+.mhp-month-day,
+.mhp-month-blank {
+    min-height: 39px;
+}
+
+.mhp-month-day {
+    font-size: 12px;
+    border-radius: 7px;
+}
+
+.mhp-month-day:hover:not(.is-unavailable) {
+    transform: translateY(-1px);
+}
+
+
+/* ==================================================
+   5. THU GON CHI TIET NGAY DUOC CHON
+================================================== */
+
+.mhp-selected-day {
+    width: min(100%, 650px);
+
+    margin: 13px auto 0;
+    padding: 10px 14px;
+
+    border-radius: 9px;
+}
+
+.mhp-selected-label {
+    font-size: 10px;
+}
+
+#mhpSelectedDate {
+    font-size: 13px;
+}
+
+.mhp-selected-count strong {
+    font-size: 21px;
+}
+
+.mhp-selected-count span {
+    font-size: 10px;
+}
+
+.mhp-month-summary {
+    width: min(100%, 650px);
+
+    margin: 7px auto 0;
+    font-size: 11px;
+}
+
+
+/* ==================================================
+   6. CHU THICH BEN DUOI LICH
+================================================== */
+
+.mhp-calendar-foot {
+    margin-top: 12px;
+    gap: 8px;
+}
+
+.mhp-calendar-message {
+    font-size: 10px;
+}
+
+.mhp-legend {
+    font-size: 10px;
+}
+
+
+/* ==================================================
+   7. RESPONSIVE
+================================================== */
+
+@media (max-width: 768px) {
+
+    .mhp-stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .mhp-stats .mhp-stat {
+        min-height: 105px;
+        padding: 12px;
+    }
+
+    .mhp-stat-value {
+        font-size: 23px;
+    }
+
+    .mhp > section.mhp-section:first-of-type {
+        padding: 15px 12px;
+    }
+
+    .mhp-month-weekdays,
+    .mhp-month-days {
+        gap: 4px;
+    }
+
+    .mhp-month-day,
+    .mhp-month-blank {
+        min-height: 37px;
+    }
+
+    .mhp-month-day {
+        font-size: 11px;
+    }
+
+    .mhp-month-title {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .mhp-month-day,
+    .mhp-month-blank {
+        min-height: 32px;
+    }
+
+    .mhp-month-weekdays span {
+        font-size: 9px;
+    }
+
+    .mhp-selected-day {
+        padding: 9px;
+    }
+
+    #mhpSelectedDate {
+        font-size: 11px;
+    }
+}
+
+/* ==================================================
+   MOC HAN - THU GON TIEN DO THEO NOI DUNG
+   VA HOAT DONG GAN DAY
+================================================== */
+
+
+/* ==================================================
+   1. THU NHO HAI KHUNG CHINH
+================================================== */
+
+.mhp > section.mhp-section:nth-of-type(2),
+.mhp > section.mhp-section:nth-of-type(3) {
+    width: 100%;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px 20px;
+    box-sizing: border-box;
+}
+
+
+/* ==================================================
+   2. TIEU DE HAI PHAN
+================================================== */
+
+.mhp > section.mhp-section:nth-of-type(2) .mhp-section-head,
+.mhp > section.mhp-section:nth-of-type(3) .mhp-section-head {
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.mhp > section.mhp-section:nth-of-type(2) .mhp-section-head h2,
+.mhp > section.mhp-section:nth-of-type(3) .mhp-section-head h2 {
+    font-size: 17px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.mhp > section.mhp-section:nth-of-type(2) .mhp-section-head p,
+.mhp > section.mhp-section:nth-of-type(3) .mhp-section-head p {
+    font-size: 11px;
+    line-height: 1.5;
+    margin: 3px 0 0;
+}
+
+
+/* ==================================================
+   3. BO CUC CAC MUC TIEN DO
+================================================== */
+
+.mhp-topics {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 20px;
+    row-gap: 18px;
+}
+
+.mhp-topic {
+    min-width: 0;
+}
+
+.mhp-topic-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.mhp-topic-name {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.mhp-topic-value {
+    font-size: 10px;
+}
+
+.mhp-topic .mhp-track {
+    height: 8px;
+    margin: 7px 0;
+    border-radius: 10px;
+}
+
+.mhp-topic .mhp-fill {
+    border-radius: inherit;
+}
+
+.mhp-topic-note {
+    margin: 4px 0;
+    font-size: 10.5px;
+    line-height: 1.55;
+}
+
+
+/* ==================================================
+   4. THU GON THONG KE TU VUNG HSK
+================================================== */
+
+.mhp-vocab-levels {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px;
+    margin: 11px 0;
+}
+
+.mhp-vocab-level {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+
+    padding: 8px 10px;
+
+    background: #fffaf2;
+    border: 1px solid #e7d7c0;
+    border-radius: 8px;
+}
+
+.mhp-vocab-level span {
+    font-size: 10.5px;
+    color: #655545;
+}
+
+.mhp-vocab-level strong {
+    font-size: 11px;
+    font-weight: 700;
+    color: #976a33;
+}
+
+
+/* ==================================================
+   5. THU NHO HAI O DIEM SHADOWING
+================================================== */
+
+.mhp-scores {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+    margin: 11px 0;
+}
+
+.mhp-score {
+    min-width: 0;
+    min-height: 90px;
+    padding: 11px 12px;
+
+    border: 1px solid #e7d7c0;
+    border-radius: 9px;
+    background: #fffdf8;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+    box-sizing: border-box;
+}
+
+.mhp-score-label {
+    font-size: 10.5px;
+    line-height: 1.4;
+}
+
+.mhp-score-value {
+    font-size: 21px;
+    line-height: 1.2;
+    color: #9b7039;
+}
+
+.mhp-score-desc {
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+
+/* ==================================================
+   6. NHAN TRANG THAI BAI TAP / LUYEN THI
+================================================== */
+
+.mhp-soon {
+    padding: 5px 7px;
+    font-size: 9px;
+    line-height: 1.2;
+    border-radius: 6px;
+}
+
+
+/* ==================================================
+   7. THU NHO HOAT DONG GAN DAY
+================================================== */
+
+.mhp-recent-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.mhp-recent-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+
+    padding: 11px 13px;
+    min-height: 62px;
+
+    border-radius: 9px;
+    box-sizing: border-box;
+}
+
+.mhp-recent-info {
+    min-width: 0;
+    flex: 1;
+}
+
+.mhp-recent-info h3 {
+    margin: 0 0 5px;
+    font-size: 12px;
+    line-height: 1.45;
+    font-weight: 700;
+}
+
+.mhp-recent-info p {
+    margin: 0;
+    font-size: 10.5px;
+    line-height: 1.5;
+}
+
+.mhp-recent-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 32px;
+    padding: 7px 12px;
+
+    font-size: 10.5px;
+    font-weight: 700;
+    white-space: nowrap;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+
+/* ==================================================
+   8. KHOANG CACH GIUA CAC PHAN
+================================================== */
+
+.mhp-stats {
+    margin-bottom: 15px;
+}
+
+.mhp > section.mhp-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/* ==================================================
+   9. MAN HINH NHO
+================================================== */
+
+@media (max-width: 768px) {
+
+    .mhp > section.mhp-section:nth-of-type(2),
+    .mhp > section.mhp-section:nth-of-type(3) {
+        padding: 15px 13px;
+    }
+
+    .mhp-topics {
+        grid-template-columns: 1fr;
+        gap: 17px;
+    }
+
+    .mhp-vocab-levels {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .mhp-score {
+        min-height: 85px;
+        padding: 10px;
+    }
+
+    .mhp-recent-item {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .mhp-vocab-levels {
+        grid-template-columns: 1fr;
+    }
+
+    .mhp-scores {
+        gap: 7px;
+    }
+
+    .mhp-score-value {
+        font-size: 18px;
+    }
+
+    .mhp-recent-item {
+        flex-wrap: wrap;
+    }
+
+    .mhp-recent-link {
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "hsk_level": 4,
+  "total": 1000,
+  "reuse": 12,
+  "insert": 988,
+  "insert_new_hanzi": 978,
+  "insert_new_reading": 10,
+  "source_warning_rows": 330,
+  "duplicate_source_groups": 1,
+  "source_file": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\vocabulary_hsk4_import_draft.csv",
+  "source_sha256": "f911b69275024bffcc9d9b0bb9759ec4a91500e0858b79250fc9d996f43c816b",
+  "preview_plan_sha256": "b2f35a0cb9fe86446a7393c46204d85e8ea7a8edf8f22b92c9f7ee4ff4b07d5f",
+  "sql_tuvung_count_at_preview": 2220,
+  "sql_hsk4_reference_count": 1000
+}

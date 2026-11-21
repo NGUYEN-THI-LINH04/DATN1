@@ -1,0 +1,648 @@
+
+{% extends "admin/base.html" %}
+
+{% block title %}
+Quản lý kiến thức chatbot | Mộc Hán
+{% endblock %}
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/admin-chatbot-knowledge.css') }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+<main class="chatbot-knowledge-page">
+
+    <!-- ==========================================
+         01. TIÊU ĐỀ
+    =========================================== -->
+
+    <header class="ck-header">
+
+        <div>
+            <span class="ck-eyebrow">
+                QUẢN TRỊ TRỢ LÝ AI
+            </span>
+
+            <h1>Kiến thức chatbot</h1>
+
+            <p>
+                Quản lý kiến thức bổ sung cho chatbot
+                Mộc Hán từ SQL Server.
+            </p>
+        </div>
+
+        <a
+            href="{{ url_for('admin_chatbot.settings_page') }}"
+            class="ck-button ck-button-light"
+        >
+            Cấu hình chatbot
+        </a>
+
+    </header>
+
+
+    <!-- ==========================================
+         02. THÔNG BÁO
+    =========================================== -->
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+
+        {% if messages %}
+
+            <div class="ck-flash-list">
+
+                {% for category, message in messages %}
+
+                    <div class="ck-flash ck-flash-{{ category }}">
+                        {{ message }}
+                    </div>
+
+                {% endfor %}
+
+            </div>
+
+        {% endif %}
+
+    {% endwith %}
+
+
+    <!-- ==========================================
+         03. THỐNG KÊ KHO KIẾN THỨC
+    =========================================== -->
+
+    <section class="ck-stats">
+
+        <div class="ck-stat">
+            <span>Tổng kiến thức</span>
+            <strong>{{ counts.total }}</strong>
+        </div>
+
+        <div class="ck-stat">
+            <span>Đã duyệt và hoạt động</span>
+            <strong>{{ counts.approved }}</strong>
+        </div>
+
+        <div class="ck-stat">
+            <span>Chờ duyệt</span>
+            <strong>{{ counts.pending }}</strong>
+        </div>
+
+        <div class="ck-stat">
+            <span>Đang tạm ngừng</span>
+            <strong>{{ counts.inactive }}</strong>
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         04. THÊM KIẾN THỨC MỚI
+    =========================================== -->
+
+    <section class="ck-panel">
+
+        <div class="ck-panel-header">
+            <h2>Thêm kiến thức mới</h2>
+
+            <p>
+                Kiến thức mới sẽ ở trạng thái
+                chờ duyệt trước khi sử dụng.
+            </p>
+        </div>
+
+        <form
+            method="POST"
+            action="{{ url_for('admin_chatbot_knowledge.save') }}"
+            class="ck-form"
+        >
+
+            <!-- CSRF -->
+
+            <input
+                type="hidden"
+                name="csrf_token"
+                value="{{ csrf_token() }}"
+            >
+
+            <div class="ck-field">
+
+                <label for="ck-new-title">
+                    Tiêu đề kiến thức
+                </label>
+
+                <input
+                    id="ck-new-title"
+                    type="text"
+                    name="tieu_de"
+                    maxlength="200"
+                    placeholder="Ví dụ: Cách chào hỏi trong tiếng Trung"
+                    required
+                >
+
+            </div>
+
+
+            <div class="ck-field">
+
+                <label for="ck-new-content">
+                    Nội dung kiến thức
+                </label>
+
+                <textarea
+                    id="ck-new-content"
+                    name="noi_dung"
+                    rows="5"
+                    placeholder="Nhập nội dung kiến thức tiếng Trung cần bổ sung..."
+                    required
+                ></textarea>
+
+                <small>
+                    Chỉ nhập nội dung đã kiểm tra.
+                    Không đưa thông tin chưa xác minh
+                    thành học liệu chính thức.
+                </small>
+
+            </div>
+
+
+            <div class="ck-field ck-field-small">
+
+                <label for="ck-new-level">
+                    Cấp độ HSK
+                </label>
+
+                <select
+                    id="ck-new-level"
+                    name="ma_cap_do"
+                >
+
+                    <option value="">
+                        Không gắn cấp độ
+                    </option>
+
+                    {% for level in range(1, 5) %}
+
+                        <option value="{{ level }}">
+                            HSK{{ level }}
+                        </option>
+
+                    {% endfor %}
+
+                </select>
+
+            </div>
+
+
+            <div class="ck-actions">
+
+                <button
+                    type="submit"
+                    class="ck-button ck-button-primary"
+                >
+                    Thêm kiến thức
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+
+    <!-- ==========================================
+         05. TÌM KIẾM VÀ LỌC KIẾN THỨC
+    =========================================== -->
+
+    <section class="ck-panel">
+
+        <div class="ck-panel-header">
+            <h2>Danh sách kiến thức</h2>
+
+            <p>
+                Xem, chỉnh sửa, duyệt hoặc
+                tạm ngừng kiến thức bổ sung.
+            </p>
+        </div>
+
+
+        <form
+            method="GET"
+            action="{{ url_for('admin_chatbot_knowledge.index') }}"
+            class="ck-filter"
+        >
+
+            <div class="ck-field">
+
+                <label for="ck-search">
+                    Tìm kiếm
+                </label>
+
+                <input
+                    id="ck-search"
+                    type="search"
+                    name="q"
+                    value="{{ keyword }}"
+                    placeholder="Tìm theo tiêu đề hoặc nội dung"
+                >
+
+            </div>
+
+
+            <div class="ck-field">
+
+                <label for="ck-status">
+                    Trạng thái
+                </label>
+
+                <select
+                    id="ck-status"
+                    name="status"
+                >
+
+                    <option
+                        value="all"
+                        {% if status == 'all' %}selected{% endif %}
+                    >
+                        Tất cả
+                    </option>
+
+                    <option
+                        value="approved"
+                        {% if status == 'approved' %}selected{% endif %}
+                    >
+                        Đã duyệt
+                    </option>
+
+                    <option
+                        value="pending"
+                        {% if status == 'pending' %}selected{% endif %}
+                    >
+                        Chờ duyệt
+                    </option>
+
+                    <option
+                        value="inactive"
+                        {% if status == 'inactive' %}selected{% endif %}
+                    >
+                        Tạm ngừng
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="ck-button ck-button-primary"
+            >
+                Lọc
+            </button>
+
+            <a
+                href="{{ url_for('admin_chatbot_knowledge.index') }}"
+                class="ck-button ck-button-light"
+            >
+                Xóa lọc
+            </a>
+
+        </form>
+
+
+        <!-- ======================================
+             DANH SÁCH
+        ======================================= -->
+
+        {% if items %}
+
+            <div class="ck-list">
+
+                {% for item in items %}
+
+                    <article class="ck-item">
+
+                        <div class="ck-item-top">
+
+                            <div class="ck-item-title">
+
+                                <span class="ck-item-id">
+                                    #{{ item.id }}
+                                </span>
+
+                                <h3>{{ item.title }}</h3>
+
+                            </div>
+
+
+                            <div class="ck-badges">
+
+                                {% if item.approved %}
+
+                                    <span class="ck-badge ck-approved">
+                                        Đã duyệt
+                                    </span>
+
+                                {% else %}
+
+                                    <span class="ck-badge ck-pending">
+                                        Chờ duyệt
+                                    </span>
+
+                                {% endif %}
+
+
+                                {% if item.active %}
+
+                                    <span class="ck-badge ck-active">
+                                        Đang hoạt động
+                                    </span>
+
+                                {% else %}
+
+                                    <span class="ck-badge ck-inactive">
+                                        Tạm ngừng
+                                    </span>
+
+                                {% endif %}
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- NỘI DUNG -->
+
+                        <div class="ck-item-content">
+                            {{ item.content }}
+                        </div>
+
+
+                        <!-- THÔNG TIN PHỤ -->
+
+                        <div class="ck-item-meta">
+
+                            <span>
+                                Cấp độ:
+                                {% if item.level %}
+                                    HSK{{ item.level }}
+                                {% else %}
+                                    Không gắn
+                                {% endif %}
+                            </span>
+
+                            <span>
+                                Cập nhật:
+                                {% if item.updated_at %}
+                                    {{ item.updated_at.strftime('%d/%m/%Y %H:%M') }}
+                                {% else %}
+                                    —
+                                {% endif %}
+                            </span>
+
+                        </div>
+
+
+                        <!-- ==================================
+                             DUYỆT / BỎ DUYỆT / BẬT / TẮT
+                        =================================== -->
+
+                        <div class="ck-item-actions">
+
+                            <form
+                                method="POST"
+                                action="{{ url_for(
+                                    'admin_chatbot_knowledge.change_status',
+                                    knowledge_id=item.id
+                                ) }}"
+                            >
+
+                                <input
+                                    type="hidden"
+                                    name="csrf_token"
+                                    value="{{ csrf_token() }}"
+                                >
+
+                                {% if item.approved %}
+
+                                    <button
+                                        type="submit"
+                                        name="action"
+                                        value="unapprove"
+                                        class="ck-button ck-button-light"
+                                    >
+                                        Bỏ duyệt
+                                    </button>
+
+                                {% else %}
+
+                                    <button
+                                        type="submit"
+                                        name="action"
+                                        value="approve"
+                                        class="ck-button ck-button-primary"
+                                    >
+                                        Duyệt
+                                    </button>
+
+                                {% endif %}
+
+                            </form>
+
+
+                            <form
+                                method="POST"
+                                action="{{ url_for(
+                                    'admin_chatbot_knowledge.change_status',
+                                    knowledge_id=item.id
+                                ) }}"
+                            >
+
+                                <input
+                                    type="hidden"
+                                    name="csrf_token"
+                                    value="{{ csrf_token() }}"
+                                >
+
+                                {% if item.active %}
+
+                                    <button
+                                        type="submit"
+                                        name="action"
+                                        value="disable"
+                                        class="ck-button ck-button-light"
+                                    >
+                                        Tạm ngừng
+                                    </button>
+
+                                {% else %}
+
+                                    <button
+                                        type="submit"
+                                        name="action"
+                                        value="enable"
+                                        class="ck-button ck-button-light"
+                                    >
+                                        Kích hoạt
+                                    </button>
+
+                                {% endif %}
+
+                            </form>
+
+                        </div>
+
+
+                        <!-- ==================================
+                             CHỈNH SỬA
+                        =================================== -->
+
+                        <details class="ck-edit">
+
+                            <summary>
+                                Chỉnh sửa kiến thức
+                            </summary>
+
+
+                            <form
+                                method="POST"
+                                action="{{ url_for(
+                                    'admin_chatbot_knowledge.save'
+                                ) }}"
+                                class="ck-form"
+                            >
+
+                                <input
+                                    type="hidden"
+                                    name="csrf_token"
+                                    value="{{ csrf_token() }}"
+                                >
+
+                                <input
+                                    type="hidden"
+                                    name="ma_kien_thuc"
+                                    value="{{ item.id }}"
+                                >
+
+
+                                <div class="ck-field">
+
+                                    <label for="ck-title-{{ item.id }}">
+                                        Tiêu đề
+                                    </label>
+
+                                    <input
+                                        id="ck-title-{{ item.id }}"
+                                        type="text"
+                                        name="tieu_de"
+                                        value="{{ item.title }}"
+                                        maxlength="200"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <div class="ck-field">
+
+                                    <label for="ck-content-{{ item.id }}">
+                                        Nội dung kiến thức
+                                    </label>
+
+                                    <textarea
+                                        id="ck-content-{{ item.id }}"
+                                        name="noi_dung"
+                                        rows="5"
+                                        required
+                                    >{{ item.content }}</textarea>
+
+                                </div>
+
+
+                                <div class="ck-field ck-field-small">
+
+                                    <label for="ck-level-{{ item.id }}">
+                                        Cấp độ HSK
+                                    </label>
+
+                                    <select
+                                        id="ck-level-{{ item.id }}"
+                                        name="ma_cap_do"
+                                    >
+
+                                        <option value="">
+                                            Không gắn cấp độ
+                                        </option>
+
+                                        {% for level in range(1, 5) %}
+
+                                            <option
+                                                value="{{ level }}"
+                                                {% if item.level == level %}
+                                                    selected
+                                                {% endif %}
+                                            >
+                                                HSK{{ level }}
+                                            </option>
+
+                                        {% endfor %}
+
+                                    </select>
+
+                                </div>
+
+
+                                <p class="ck-edit-note">
+                                    Sau khi sửa, kiến thức sẽ chuyển
+                                    về trạng thái chờ duyệt.
+                                </p>
+
+
+                                <button
+                                    type="submit"
+                                    class="ck-button ck-button-primary"
+                                >
+                                    Lưu thay đổi
+                                </button>
+
+                            </form>
+
+                        </details>
+
+                    </article>
+
+                {% endfor %}
+
+            </div>
+
+        {% else %}
+
+            <div class="ck-empty">
+
+                <h3>Chưa có kiến thức phù hợp</h3>
+
+                <p>
+                    Bạn có thể thêm kiến thức mới
+                    hoặc thay đổi điều kiện tìm kiếm.
+                </p>
+
+            </div>
+
+        {% endif %}
+
+
+        <p class="ck-note">
+            Danh sách hiện hiển thị tối đa 100 kiến thức
+            gần nhất theo điều kiện tìm kiếm.
+            Nội dung được lưu tại bảng KhoKienThuc.
+        </p>
+
+    </section>
+
+</main>
+
+{% endblock %}

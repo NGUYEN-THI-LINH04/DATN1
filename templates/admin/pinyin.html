@@ -1,0 +1,881 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Bảng Pinyin | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        HỌC LIỆU · PINYIN
+    </span>
+
+    <h1>
+        Quản lý bảng Pinyin
+    </h1>
+
+    <p>
+        Quản lý thanh mẫu, vận mẫu, âm ghép,
+        cách đọc, ví dụ, âm thanh và trạng thái xuất bản.
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     CHỈNH SỬA PINYIN
+===================================================== -->
+
+{% if editing_pinyin %}
+
+<section class="panel">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                CHỈNH SỬA
+            </span>
+
+            <h2>
+                {{ editing_pinyin.symbol }}
+            </h2>
+
+        </div>
+
+
+        <a
+            class="small-button"
+            href="{{ url_for(
+                'admin_pinyin.index',
+
+                page=page,
+
+                sound_type=selected_sound_type,
+
+                status=selected_status,
+
+                q=keyword
+            ) }}"
+        >
+            Đóng
+        </a>
+
+    </div>
+
+
+    <form
+        method="post"
+        action="{{ url_for(
+            'admin_pinyin.edit',
+            pinyin_id=editing_pinyin.id
+        ) }}"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <!-- =================================================
+             GIỮ BỘ LỌC
+        ================================================== -->
+
+        <input
+            type="hidden"
+            name="return_page"
+            value="{{ page }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_sound_type"
+            value="{{ selected_sound_type }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_status"
+            value="{{ selected_status }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_keyword"
+            value="{{ keyword }}"
+        >
+
+
+        <div class="grid-2">
+
+            <label class="field">
+
+                Loại âm
+
+                <select
+                    name="sound_type"
+                    required
+                >
+
+                    {% for value, label
+                        in sound_types.items()
+                    %}
+
+                        <option
+                            value="{{ value }}"
+
+                            {% if
+                                editing_pinyin.sound_type
+                                == value
+                            %}
+                                selected
+                            {% endif %}
+                        >
+                            {{ label }}
+                        </option>
+
+                    {% endfor %}
+
+                </select>
+
+            </label>
+
+
+            <label class="field">
+
+                Ký hiệu
+
+                <input
+                    type="text"
+                    name="symbol"
+                    maxlength="50"
+                    value="{{ editing_pinyin.symbol }}"
+                    required
+                >
+
+            </label>
+
+        </div>
+
+
+        <label class="field space-top">
+
+            Cách đọc
+
+            <textarea
+                name="pronunciation"
+                rows="4"
+            >{{ editing_pinyin.pronunciation }}</textarea>
+
+        </label>
+
+
+        <label class="field space-top">
+
+            Ví dụ
+
+            <textarea
+                name="example"
+                rows="3"
+            >{{ editing_pinyin.example }}</textarea>
+
+        </label>
+
+
+        <div class="grid-2 space-top">
+
+            <label class="field">
+
+                Thứ tự
+
+                <input
+                    type="number"
+                    name="order"
+                    min="1"
+                    value="{{ editing_pinyin.order }}"
+                    required
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Trạng thái
+
+                <select name="status">
+
+                    {% for value, label
+                        in statuses.items()
+                    %}
+
+                        <option
+                            value="{{ value }}"
+
+                            {% if
+                                editing_pinyin.status
+                                == value
+                            %}
+                                selected
+                            {% endif %}
+                        >
+                            {{ label }}
+                        </option>
+
+                    {% endfor %}
+
+                </select>
+
+            </label>
+
+        </div>
+
+
+        {% if editing_pinyin.media_id %}
+
+            <p class="space-top">
+
+                Tệp âm thanh hiện tại:
+
+                <strong>
+                    #{{ editing_pinyin.media_id }}
+                </strong>
+
+            </p>
+
+        {% endif %}
+
+
+        <div class="course-action-buttons space-top">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lưu thay đổi
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_pinyin.index',
+
+                    page=page,
+
+                    sound_type=selected_sound_type,
+
+                    status=selected_status,
+
+                    q=keyword
+                ) }}"
+            >
+                Hủy
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+{% endif %}
+
+
+<!-- =====================================================
+     DANH SÁCH
+===================================================== -->
+
+<section class="panel space-top">
+
+
+    <!-- =================================================
+         BỘ LỌC
+    ================================================== -->
+
+    <form
+        method="get"
+        action="{{ url_for(
+            'admin_pinyin.index'
+        ) }}"
+        class="courses-filter"
+    >
+
+        <div class="field">
+
+            <label>
+                Tìm Pinyin
+            </label>
+
+            <input
+                type="search"
+                name="q"
+                value="{{ keyword }}"
+                placeholder="Ký hiệu, cách đọc hoặc ví dụ..."
+            >
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Loại âm
+            </label>
+
+            <select name="sound_type">
+
+                <option
+                    value="all"
+
+                    {% if
+                        selected_sound_type
+                        == 'all'
+                    %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+
+                {% for value, label
+                    in sound_types.items()
+                %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            selected_sound_type
+                            == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Trạng thái
+            </label>
+
+            <select name="status">
+
+                <option
+                    value="all"
+
+                    {% if selected_status == 'all' %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+
+                {% for value, label
+                    in statuses.items()
+                %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            selected_status
+                            == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <div class="course-action-buttons">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lọc
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_pinyin.index'
+                ) }}"
+            >
+                Bỏ lọc
+            </a>
+
+        </div>
+
+    </form>
+
+
+    <!-- =================================================
+         XUẤT BẢN TẤT CẢ
+    ================================================== -->
+
+    <div class="example-card space-top">
+
+        <h3>
+            Bảng Pinyin
+        </h3>
+
+
+        <p>
+
+            Còn
+
+            <strong>
+                {{ draft_count }}
+            </strong>
+
+            mục Pinyin bản nháp.
+
+        </p>
+
+
+        {% if draft_count > 0 %}
+
+            <form
+                method="post"
+                action="{{ url_for(
+                    'admin_pinyin.publish_all'
+                ) }}"
+                class="space-top"
+                onsubmit="
+                    return confirm(
+                        'Bạn có chắc muốn xuất bản toàn bộ Pinyin bản nháp?'
+                    );
+                "
+            >
+
+                <input
+                    type="hidden"
+                    name="csrf_token"
+                    value="{{ csrf_token() }}"
+                >
+
+
+                <button
+                    type="submit"
+                    class="button"
+                >
+                    ✓ Xuất bản toàn bộ
+                    {{ draft_count }}
+                    Pinyin
+                </button>
+
+            </form>
+
+        {% else %}
+
+            <span class="material-coming-soon space-top">
+                Toàn bộ Pinyin đã được xuất bản.
+            </span>
+
+        {% endif %}
+
+    </div>
+
+
+    <!-- =================================================
+         TỔNG SỐ
+    ================================================== -->
+
+    <p class="space-top">
+
+        Tìm thấy
+
+        <strong>
+            {{ total_pinyins }}
+        </strong>
+
+        mục Pinyin.
+
+
+        {% if total_pinyins > 0 %}
+
+            · Đang hiển thị
+
+            <strong>
+                {{
+                    ((page - 1) * per_page) + 1
+                }}
+            </strong>
+
+            –
+
+            <strong>
+                {{
+                    [
+                        page * per_page,
+                        total_pinyins
+                    ] | min
+                }}
+            </strong>
+
+        {% endif %}
+
+    </p>
+
+
+    <!-- =================================================
+         TABLE
+    ================================================== -->
+
+    <div class="table-scroll">
+
+        <table class="data-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Mã</th>
+
+                    <th>Loại âm</th>
+
+                    <th>Ký hiệu</th>
+
+                    <th>Cách đọc</th>
+
+                    <th>Ví dụ</th>
+
+                    <th>Audio</th>
+
+                    <th>Thứ tự</th>
+
+                    <th>Trạng thái</th>
+
+                    <th>Thao tác</th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                {% for pinyin in pinyins %}
+
+                    <tr>
+
+                        <td>
+                            {{ pinyin.id }}
+                        </td>
+
+
+                        <td>
+
+                            {{
+                                sound_types.get(
+                                    pinyin.sound_type,
+                                    pinyin.sound_type
+                                )
+                            }}
+
+                        </td>
+
+
+                        <td>
+
+                            <strong class="pinyin-admin-symbol">
+                                {{ pinyin.symbol }}
+                            </strong>
+
+                        </td>
+
+
+                        <td>
+
+                            {{ pinyin.pronunciation or '—' }}
+
+                        </td>
+
+
+                        <td>
+
+                            {{ pinyin.example or '—' }}
+
+                        </td>
+
+
+                        <td>
+
+                            {% if pinyin.media_id %}
+
+                                Có
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <td>
+                            {{ pinyin.order }}
+                        </td>
+
+
+                        <td>
+
+                            <span
+                                class="
+                                    course-status
+                                    course-status-{{ pinyin.status }}
+                                "
+                            >
+                                {{
+                                    statuses.get(
+                                        pinyin.status,
+                                        pinyin.status
+                                    )
+                                }}
+                            </span>
+
+                        </td>
+
+
+                        <td>
+
+                            <div class="course-action-buttons">
+
+
+                                <!-- =========================
+                                     SỬA
+                                ========================== -->
+
+                                <a
+                                    class="small-button"
+                                    href="{{ url_for(
+                                        'admin_pinyin.index',
+
+                                        edit=pinyin.id,
+
+                                        page=page,
+
+                                        sound_type=
+                                            selected_sound_type,
+
+                                        status=
+                                            selected_status,
+
+                                        q=keyword
+                                    ) }}"
+                                >
+                                    Sửa
+                                </a>
+
+
+                                <!-- =========================
+                                     TRẠNG THÁI
+                                ========================== -->
+
+                                <form
+                                    method="post"
+                                    action="{{ url_for(
+                                        'admin_pinyin.set_status',
+                                        pinyin_id=pinyin.id
+                                    ) }}"
+                                >
+
+                                    <input
+                                        type="hidden"
+                                        name="csrf_token"
+                                        value="{{ csrf_token() }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_page"
+                                        value="{{ page }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_sound_type"
+                                        value="{{ selected_sound_type }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_status"
+                                        value="{{ selected_status }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_keyword"
+                                        value="{{ keyword }}"
+                                    >
+
+
+                                    <select
+                                        name="status"
+                                        onchange="this.form.submit()"
+                                    >
+
+                                        {% for value, label
+                                            in statuses.items()
+                                        %}
+
+                                            <option
+                                                value="{{ value }}"
+
+                                                {% if
+                                                    pinyin.status
+                                                    == value
+                                                %}
+                                                    selected
+                                                {% endif %}
+                                            >
+                                                {{ label }}
+                                            </option>
+
+                                        {% endfor %}
+
+                                    </select>
+
+                                </form>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                {% else %}
+
+                    <tr>
+
+                        <td
+                            colspan="9"
+                            class="center-text"
+                        >
+                            Không có Pinyin phù hợp.
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- =====================================================
+         PHÂN TRANG
+    ====================================================== -->
+
+    {% if total_pages > 1 %}
+
+        <div class="admin-pagination">
+
+
+            {% if page > 1 %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_pinyin.index',
+
+                        page=page - 1,
+
+                        sound_type=
+                            selected_sound_type,
+
+                        status=
+                            selected_status,
+
+                        q=keyword
+                    ) }}"
+                >
+                    ← Trang trước
+                </a>
+
+            {% endif %}
+
+
+            <span class="admin-pagination-info">
+
+                Trang
+                {{ page }}
+                /
+                {{ total_pages }}
+
+            </span>
+
+
+            {% if page < total_pages %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_pinyin.index',
+
+                        page=page + 1,
+
+                        sound_type=
+                            selected_sound_type,
+
+                        status=
+                            selected_status,
+
+                        q=keyword
+                    ) }}"
+                >
+                    Trang sau →
+                </a>
+
+            {% endif %}
+
+        </div>
+
+    {% endif %}
+
+</section>
+
+{% endblock %}

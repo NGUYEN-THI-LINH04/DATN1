@@ -1,0 +1,460 @@
+﻿SoThuTuBai,MaBaiHoc,TieuDeBai,ThuTuTrongBai,MaTuVung,ChuHan,PhienAm,TuLoai,NghiaTiengViet,MaNguonTuVung,DaDuyet
+3,3,这是我的家 - Đây là gia đình của tôi,1,17,爸爸,bàba,Danh từ,bố; ba; cha,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,2,87,弟弟,dìdi,Danh từ,em trai,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,3,110,儿子,érzi,Danh từ,con trai,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,4,130,哥哥,gēge,Danh từ,anh trai,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,5,147,孩子,háizi,Danh từ,đứa trẻ; con cái,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,6,179,家,jiā,Danh từ,nhà; gia đình,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,7,180,家里,jiā li,Danh từ chỉ nơi chốn,trong nhà; ở nhà,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,8,181,家人,jiārén,Danh từ,người nhà; thành viên gia đình,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,9,187,姐姐,jiějie,Danh từ,chị gái,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,10,217,老人,lǎorén,Danh từ,người cao tuổi; người già,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,11,233,妈妈,māma,Danh từ,mẹ; má,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,12,245,妹妹,mèimei,Danh từ,em gái,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,13,249,们（朋友们）,men (péngyoumen),Hậu tố,các; những,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,14,267,奶奶,nǎinai,Danh từ,bà nội,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,15,269,男孩儿,nánháir,Danh từ,bé trai; cậu bé,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,16,270,男朋友,nánpéngyou,Danh từ,bạn trai,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,17,282,女儿,nǚ'ér,Danh từ,con gái,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,18,283,女孩儿,nǚháir,Danh từ,bé gái; cô bé,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,19,284,女朋友,nǚpéngyou,Danh từ,bạn gái,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,20,289,朋友,péngyou,Danh từ,bạn; bạn bè,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,21,403,小孩儿,xiǎoháir,Danh từ,trẻ con; đứa trẻ,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,22,405,小朋友,xiǎopéngyǒu,Danh từ,trẻ em; em nhỏ,1002,1
+3,3,这是我的家 - Đây là gia đình của tôi,23,425,爷爷,yéye,Danh từ,ông nội,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,1,16,八,bā,Số từ,tám; 8,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,2,21,百,bǎi,Số từ,một trăm; 100,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,3,23,半,bàn,Số từ,một nửa; nửa,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,4,30,杯,bēi,Lượng từ,cốc; ly,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,5,35,本,běn,Lượng từ,quyển; cuốn,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,6,66,次,cì,Lượng từ,lần,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,7,88,第（第二）,dì (dì-èr),Tiền tố,thứ; thứ hai,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,8,107,多,duō,Tính từ / đại từ,nhiều; hơn,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,9,108,多少,duōshao,Đại từ nghi vấn,bao nhiêu,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,10,111,二,èr,Số từ,hai; 2,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,11,132,个,gè,Lượng từ,cái; người; chiếc,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,12,175,几,jǐ,Đại từ nghi vấn / số từ,mấy; bao nhiêu; vài,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,13,194,九,jiǔ,Số từ,chín; 9,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,14,212,块,kuài,Danh từ / lượng từ,"miếng; cục; đồng, tệ",1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,15,224,两,liǎng,Số từ,hai,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,16,225,零,líng,Số từ,không; số 0,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,17,226,六,liù,Số từ,sáu; 6,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,18,291,七,qī,Số từ,bảy; 7,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,19,315,三,sān,Số từ,ba; 3,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,20,328,少,shǎo,Tính từ / động từ,ít; thiếu,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,21,335,十,shí,Số từ,mười; 10,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,22,353,四,sì,Số từ,bốn; 4,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,23,355,岁,suì,Lượng từ,tuổi,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,24,383,五,wǔ,Số từ,năm; 5,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,25,427,一,yī,Số từ,một; 1,1002,1
+4,4,你今年几岁？ - Năm nay bạn bao nhiêu tuổi?,26,431,一半,yībàn,Số từ,một nửa,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,1,24,半年,bàn nián,Danh từ chỉ thời gian,nửa năm; sáu tháng,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,2,154,号,hào,Danh từ,ngày; số,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,3,159,后天,hòutiān,Danh từ chỉ thời gian,ngày mốt,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,4,189,今年,jīnnián,Danh từ chỉ thời gian,năm nay,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,5,190,今天,jīntiān,Danh từ chỉ thời gian,hôm nay,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,6,254,明年,míngnián,Danh từ chỉ thời gian,năm sau,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,7,255,明天,míngtiān,Danh từ chỉ thời gian,ngày mai,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,8,278,年,nián,Danh từ / lượng từ,năm,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,9,298,前天,qiántiān,Danh từ chỉ thời gian,hôm kia,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,10,308,去年,qùnián,Danh từ chỉ thời gian,năm ngoái,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,11,312,日,rì,Danh từ,ngày,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,12,313,日期,rìqī,Danh từ,ngày tháng; ngày tháng năm,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,13,334,生日,shēngrì,Danh từ,sinh nhật,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,14,361,天,tiān,Danh từ / lượng từ,ngày,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,15,413,新年,xīnnián,Danh từ,năm mới,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,16,414,星期,xīngqī,Danh từ,tuần; thứ,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,17,415,星期日,xīngqīrì,Danh từ,Chủ nhật,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,18,416,星期天,xīngqītiān,Danh từ,Chủ nhật,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,19,452,月,yuè,Danh từ,tháng,1002,1
+5,5,今天几月几号？ - Hôm nay là ngày mấy?,20,495,昨天,zuótiān,Danh từ chỉ thời gian,hôm qua,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,1,20,白天,báitiān,Danh từ chỉ thời gian,ban ngày,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,2,25,半天,bàntiān,Danh từ chỉ thời gian,nửa ngày,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,3,51,常,cháng,Phó từ,thường; thường xuyên,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,4,52,常常,chángcháng,Phó từ,thường xuyên; thường,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,5,89,点,diǎn,Danh từ / lượng từ,giờ,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,6,122,分,fēn,Danh từ / lượng từ,phút,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,7,235,马上,mǎshàng,Phó từ,ngay; lập tức,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,8,323,上次,shàng cì,Danh từ chỉ thời gian,lần trước,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,9,326,上午,shàngwǔ,Danh từ chỉ thời gian,buổi sáng,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,10,336,时候,shíhou,Danh từ,lúc; khi; thời điểm,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,11,337,时间,shíjiān,Danh từ,thời gian,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,12,374,晚,wǎn,Tính từ,muộn; trễ,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,13,376,晚上,wǎnshang,Danh từ chỉ thời gian,buổi tối; ban đêm,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,14,394,下次,xià cì,Danh từ chỉ thời gian,lần sau; lần tới,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,15,396,下午,xiàwǔ,Danh từ chỉ thời gian,buổi chiều,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,16,398,先,xiān,Phó từ,trước; trước tiên,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,17,400,现在,xiànzài,Danh từ chỉ thời gian,bây giờ; hiện tại,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,18,406,小时,xiǎoshí,Danh từ / lượng từ,giờ; tiếng đồng hồ,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,19,432,一会儿,yīhuìr,Danh từ chỉ thời gian,một lát; một lúc,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,20,444,有时候,yǒushíhou,Phó từ,đôi khi; thỉnh thoảng,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,21,457,早,zǎo,Tính từ / phó từ,sớm,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,22,459,早上,zǎoshang,Danh từ chỉ thời gian,buổi sáng; sáng sớm,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,23,480,中午,zhōngwǔ,Danh từ chỉ thời gian,buổi trưa,1002,1
+6,6,现在几点？ - Bây giờ mấy giờ?,24,494,最后,zuìhòu,Danh từ / phó từ,cuối cùng; sau cùng,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,1,22,班,bān,Danh từ / lượng từ,lớp; lớp học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,2,75,大学,dàxué,Danh từ,trường đại học; đại học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,3,76,大学生,dàxuéshēng,Danh từ,sinh viên đại học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,4,117,放假,fàngjià,Động từ,nghỉ; nghỉ học; nghỉ lễ,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,5,118,放学,fàngxué,Động từ,tan học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,6,185,教,jiāo,Động từ,dạy,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,7,186,教学楼,jiàoxuélóu,Danh từ,tòa nhà giảng dạy; giảng đường,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,8,205,考,kǎo,Động từ,thi; kiểm tra,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,9,206,考试,kǎoshì,Danh từ / động từ,kỳ thi; thi; kiểm tra,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,10,208,课,kè,Danh từ,bài học; tiết học; môn học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,11,218,老师,lǎoshī,Danh từ,giáo viên; thầy giáo; cô giáo,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,12,302,请假,qǐngjià,Động từ,xin nghỉ,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,13,311,认真,rènzhēn,Tính từ / phó từ,nghiêm túc; chăm chú,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,14,324,上课,shàngkè,Động từ,học; lên lớp; vào học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,15,327,上学,shàngxué,Động từ,đi học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,16,367,同学,tóngxué,Danh từ,bạn học; bạn cùng lớp,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,17,368,图书馆,túshūguǎn,Danh từ,thư viện,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,18,395,下课,xiàkè,Động từ,tan học; hết tiết,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,19,407,小学,xiǎoxué,Danh từ,trường tiểu học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,20,408,小学生,xiǎoxuéshēng,Danh từ,học sinh tiểu học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,21,419,学,xué,Động từ,học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,22,420,学生,xuéshēng,Danh từ,học sinh; sinh viên,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,23,421,学习,xuéxí,Động từ,học; học tập,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,24,422,学校,xuéxiào,Danh từ,trường học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,25,423,学院,xuéyuàn,Danh từ,học viện; trường; khoa,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,26,475,知识,zhīshi,Danh từ,kiến thức,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,27,481,中学,zhōngxué,Danh từ,trường trung học,1002,1
+7,7,我在学校学习汉语 - Tôi học tiếng Trung ở trường,28,482,中学生,zhōngxuéshēng,Danh từ,học sinh trung học,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,1,36,本子,běnzi,Danh từ,vở; quyển vở,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,2,72,打开,dǎkāi,Động từ,mở; bật,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,3,103,读,dú,Động từ,đọc; đọc thành tiếng,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,4,104,读书,dúshū,Động từ,đọc sách; học,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,5,138,关上,guānshang,Động từ,đóng; tắt,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,6,165,回答,huídá,Động từ / danh từ,trả lời; câu trả lời,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,7,176,记,jì,Động từ,ghi; nhớ; ghi nhớ,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,8,177,记得,jìde,Động từ,nhớ,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,9,178,记住,jìzhù,Động từ,ghi nhớ; nhớ kỹ,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,10,209,课本,kèběn,Danh từ,sách giáo khoa,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,11,210,课文,kèwén,Danh từ,bài khóa; bài đọc,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,12,339,试,shì,Động từ,thử,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,13,343,书,shū,Danh từ,sách,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,14,344,书包,shūbāo,Danh từ,cặp sách; ba lô đi học,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,15,351,说,shuō,Động từ,nói,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,16,352,说话,shuōhuà,Động từ,nói; nói chuyện,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,17,363,听,tīng,Động từ,nghe,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,18,366,听写,tīngxiě,Động từ / danh từ,viết chính tả; bài chính tả,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,19,379,忘,wàng,Động từ,quên,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,20,380,忘记,wàngjì,Động từ,quên,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,21,381,问,wèn,Động từ,hỏi,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,22,410,写,xiě,Động từ,viết,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,23,426,页,yè,Lượng từ,trang,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,24,488,字,zì,Danh từ,chữ; ký tự,1002,1
+8,8,请打开课本 - Mời mở sách giáo khoa,25,489,子（桌子）,zi (zhuōzi),Hậu tố,hậu tố danh từ,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,1,64,穿,chuān,Động từ,mặc; đi; mang,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,2,81,等,děng,Động từ,đợi; chờ,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,3,100,动,dòng,Động từ,động; di chuyển; cử động,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,4,101,动作,dòngzuò,Danh từ,động tác; hành động; cử động,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,5,126,干,gàn,Động từ,làm; làm việc,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,6,135,工人,gōngrén,Danh từ,công nhân,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,7,136,工作,gōngzuò,Động từ / danh từ,làm việc; công việc,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,8,167,回家,huí jiā,Động từ,về nhà,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,9,199,开会,kāihuì,Động từ,họp; họp hành,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,10,220,累,lèi,Tính từ,mệt; mệt mỏi,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,11,238,忙,máng,Tính từ,bận,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,12,292,起,qǐ,Động từ,dậy; đứng lên; bắt đầu,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,13,293,起床,qǐchuáng,Động từ,thức dậy; ra khỏi giường,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,14,294,起来,qǐlái,Động từ / bổ ngữ xu hướng,đứng dậy; thức dậy; lên,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,15,320,上班,shàngbān,Động từ,đi làm; vào làm,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,16,349,睡,shuì,Động từ,ngủ,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,17,350,睡觉,shuìjiào,Động từ,ngủ; đi ngủ,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,18,387,洗,xǐ,Động từ,rửa; giặt; tắm,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,19,391,下班,xiàbān,Động từ,tan làm; tan ca,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,20,418,休息,xiūxi,Động từ,nghỉ; nghỉ ngơi,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,21,456,在家,zàijiā,Động từ / cụm chỉ nơi chốn,ở nhà,1002,1
+9,9,我每天上班 - Tôi đi làm mỗi ngày,22,500,做,zuò,Động từ,làm,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,1,29,包子,bāozi,Danh từ,bánh bao,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,2,31,杯子,bēizi,Danh từ,cốc; ly,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,3,48,菜,cài,Danh từ,rau; món ăn,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,4,49,茶,chá,Danh từ,trà,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,5,59,吃,chī,Động từ,ăn,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,6,60,吃饭,chīfàn,Động từ,ăn cơm; dùng bữa,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,7,109,饿,è,Tính từ,đói,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,8,112,饭,fàn,Danh từ,cơm; bữa ăn,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,9,113,饭店,fàndiàn,Danh từ,nhà hàng,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,10,150,好吃,hǎochī,Tính từ,ngon; ngon miệng,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,11,155,喝,hē,Động từ,uống,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,12,174,鸡蛋,jīdàn,Danh từ,trứng gà,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,13,207,渴,kě,Tính từ,khát,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,14,250,米饭,mǐfàn,Danh từ,cơm,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,15,251,面包,miànbāo,Danh từ,bánh mì,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,16,252,面条儿,miàntiáor,Danh từ,mì; mì sợi,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,17,266,奶,nǎi,Danh từ,sữa,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,18,280,牛奶,niúnǎi,Danh từ,sữa bò,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,19,314,肉,ròu,Danh từ,thịt,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,20,347,水,shuǐ,Danh từ,nước,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,21,348,水果,shuǐguǒ,Danh từ,trái cây; hoa quả,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,22,375,晚饭,wǎnfàn,Danh từ,bữa tối; cơm tối,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,23,384,午饭,wǔfàn,Danh từ,bữa trưa; cơm trưa,1002,1
+10,10,你喜欢吃什么？ - Bạn thích ăn gì?,24,458,早饭,zǎofàn,Danh từ,bữa sáng,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,1,28,包,bāo,Danh từ / động từ / lượng từ,túi; gói; bọc,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,2,39,别的,biéde,Đại từ,khác; cái khác,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,3,99,东西,dōngxi,Danh từ,đồ vật; đồ; thứ,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,4,139,贵,guì,Tính từ,đắt,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,5,236,买,mǎi,Động từ,mua,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,6,257,哪,nǎ,Đại từ nghi vấn,nào; cái nào,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,7,260,哪些,nǎxiē,Đại từ nghi vấn,những cái nào; những gì,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,8,261,那,nà,Đại từ chỉ định,đó; cái đó,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,9,265,那些,nàxiē,Đại từ chỉ định,những cái đó,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,10,299,钱,qián,Danh từ,tiền,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,11,300,钱包,qiánbāo,Danh từ,ví; ví tiền,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,12,317,商场,shāngchǎng,Danh từ,trung tâm thương mại; trung tâm mua sắm,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,13,318,商店,shāngdiàn,Danh từ,cửa hàng; tiệm,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,14,345,书店,shūdiàn,Danh từ,nhà sách; cửa hàng sách,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,15,412,新,xīn,Tính từ,mới,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,16,428,衣服,yīfu,Danh từ,quần áo,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,17,437,一点儿,yīdiǎnr,Cụm chỉ số lượng,một chút; một ít,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,18,439,一些,yīxiē,Đại từ / số lượng từ,một số; một vài; một ít,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,19,442,有的,yǒude,Đại từ,một số; có cái; có người,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,20,445,有（一）些,yǒu(yī)xiē,Đại từ,một chút; một ít; một số,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,21,450,元,yuán,Lượng từ / đơn vị tiền tệ,tệ; đồng nhân dân tệ,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,22,464,这,zhè,Đại từ chỉ định,này; cái này,1002,1
+11,11,我去商店买东西 - Tôi đi cửa hàng mua đồ,23,468,这些,zhèxiē,Đại từ chỉ định,những cái này,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,1,65,床,chuáng,Danh từ,giường,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,2,85,地上,dìshang,Danh từ chỉ nơi chốn,trên mặt đất; trên sàn,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,3,114,房间,fángjiān,Danh từ,phòng; căn phòng,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,4,115,房子,fángzi,Danh từ,nhà; căn nhà,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,5,125,干净,gānjìng,Tính từ,sạch; sạch sẽ,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,6,182,间,jiān,Lượng từ,gian; phòng,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,7,222,里,lǐ,Danh từ chỉ phương vị,trong; bên trong,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,8,223,里边,lǐbian,Danh từ chỉ phương vị,bên trong; phía trong,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,9,227,楼,lóu,Danh từ,tòa nhà; tầng,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,10,228,楼上,lóu shàng,Danh từ chỉ nơi chốn,tầng trên; trên lầu,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,11,229,楼下,lóu xià,Danh từ chỉ nơi chốn,tầng dưới; dưới lầu,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,12,246,门,mén,Danh từ,cửa; cổng,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,13,247,门口,ménkǒu,Danh từ chỉ nơi chốn,cửa ra vào; trước cửa,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,14,319,上,shàng,Danh từ chỉ phương vị / động từ,trên; lên,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,15,321,上边,shàngbian,Danh từ chỉ phương vị,phía trên; bên trên,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,16,369,外,wài,Danh từ chỉ phương vị,ngoài; bên ngoài,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,17,370,外边,wàibian,Danh từ chỉ phương vị,bên ngoài; phía ngoài,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,18,388,洗手间,xǐshǒujiān,Danh từ,nhà vệ sinh; phòng vệ sinh,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,19,390,下,xià,Danh từ chỉ phương vị / động từ,dưới; xuống,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,20,392,下边,xiàbian,Danh từ chỉ phương vị,phía dưới; bên dưới,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,21,485,住,zhù,Động từ,ở; sống; cư trú,1002,1
+12,12,我家在这里 - Nhà tôi ở đây,22,487,桌子,zhuōzi,Danh từ,bàn,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,1,32,北,běi,Danh từ chỉ phương hướng,bắc; phía bắc,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,2,33,北边,běibian,Danh từ chỉ phương vị,phía bắc; bên phía bắc,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,3,82,地,dì,Danh từ,đất; mặt đất,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,4,83,地点,dìdiǎn,Danh từ,địa điểm; nơi; chỗ,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,5,84,地方,dìfang,Danh từ,nơi; chỗ; địa phương,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,6,97,东,dōng,Danh từ chỉ phương hướng,đông; phía đông,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,7,98,东边,dōngbian,Danh từ chỉ phương vị,phía đông; bên phía đông,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,8,157,后,hòu,Danh từ chỉ phương vị,sau; phía sau,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,9,158,后边,hòubian,Danh từ chỉ phương vị,phía sau; đằng sau,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,10,262,那边,nàbiān,Đại từ chỉ nơi chốn,đằng kia; bên đó,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,11,263,那里,nàlǐ,Đại từ chỉ nơi chốn,ở đó; nơi đó,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,12,264,那儿,nàr,Đại từ chỉ nơi chốn,ở đó; đằng đó,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,13,273,南,nán,Danh từ chỉ phương hướng,nam; phía nam,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,14,274,南边,nánbian,Danh từ chỉ phương vị,phía nam; bên phía nam,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,15,287,旁边,pángbiān,Danh từ chỉ phương vị,bên cạnh; cạnh bên,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,16,296,前,qián,Danh từ chỉ phương vị,trước; phía trước,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,17,297,前边,qiánbian,Danh từ chỉ phương vị,phía trước; đằng trước,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,18,385,西,xī,Danh từ chỉ phương hướng,tây; phía tây,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,19,386,西边,xībian,Danh từ chỉ phương vị,phía tây; bên phía tây,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,20,436,一边,yībiān,Danh từ / phó từ,một bên; một phía,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,21,447,右,yòu,Danh từ chỉ phương hướng,phải; bên phải,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,22,448,右边,yòubian,Danh từ chỉ phương vị,bên phải; phía bên phải,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,23,465,这边,zhèbiān,Đại từ chỉ nơi chốn,bên này; phía này; ở đây,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,24,467,这儿,zhèr,Đại từ chỉ nơi chốn,ở đây,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,25,466,这里,zhèlǐ,Đại từ chỉ nơi chốn,ở đây; nơi này,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,26,472,正,zhèng,Phó từ / tính từ,chính; đúng; ngay,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,27,476,中,zhōng,Danh từ chỉ phương vị,trong; giữa; ở giữa,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,28,478,中间,zhōngjiān,Danh từ chỉ phương vị,ở giữa; chính giữa,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,29,496,左,zuǒ,Danh từ chỉ phương hướng,trái; bên trái,1002,1
+13,13,桌子在左边 - Cái bàn ở bên trái,30,497,左边,zuǒbian,Danh từ chỉ phương vị,bên trái; phía bên trái,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",1,55,车,chē,Danh từ,xe; phương tiện,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",2,57,车上,chē shang,Danh từ chỉ nơi chốn,trên xe; ở trên xe,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",3,58,车站,chēzhàn,Danh từ,nhà ga; bến xe; trạm xe,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",4,67,从,cóng,Giới từ,từ,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",5,70,打车,dǎchē,Động từ,bắt taxi; đi taxi,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",6,86,地图,dìtú,Danh từ,bản đồ,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",7,198,开车,kāichē,Động từ,lái xe,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",8,230,路,lù,Danh từ,đường; tuyến đường,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",9,231,路口,lùkǒu,Danh từ,ngã tư; giao lộ,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",10,232,路上,lùshang,Danh từ chỉ nơi chốn,trên đường; đang trên đường,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",11,234,马路,mǎlù,Danh từ,đường phố; đường,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",12,258,哪里,nǎlǐ,Đại từ nghi vấn,ở đâu; nơi nào,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",13,259,哪儿,nǎr,Đại từ nghi vấn,ở đâu; nơi nào,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",14,288,跑,pǎo,Động từ,chạy,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",15,295,汽车,qìchē,Danh từ,ô tô; xe hơi,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",16,304,请问,qǐngwèn,Động từ / cách nói lịch sự,cho hỏi; xin hỏi,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",17,322,上车,shàng chē,Động từ,lên xe,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",18,393,下车,xià chē,Động từ,xuống xe,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",19,451,远,yuǎn,Tính từ,xa,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",20,461,站,zhàn,Danh từ / động từ,trạm; ga; đứng,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",21,490,走,zǒu,Động từ,đi; đi bộ; rời đi,1002,1
+14,14,"请问，车站在哪儿？ - Cho hỏi, nhà ga ở đâu?",22,491,走路,zǒulù,Động từ,đi bộ,1002,1
+15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,1,19,白,bái,Tính từ,trắng,1002,1
+15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,2,123,风,fēng,Danh từ,gió,1002,1
+15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,3,124,干,gān,Tính từ,khô,1002,1
+15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,4,160,花,huā,Danh từ,hoa; bông hoa,1002,1
+15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,5,221,冷,lěng,Tính từ,lạnh,1002,1
+15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,6,309,热,rè,Tính từ,nóng,1002,1
+15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,7,316,山,shān,Danh từ,núi; đồi,1002,1
+15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,8,346,树,shù,Danh từ,cây,1002,1
+15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,9,362,天气,tiānqì,Danh từ,thời tiết,1002,1
+15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,10,397,下雨,xià yǔ,Động từ,mưa; trời mưa,1002,1
+15,15,今天天气怎么样？ - Thời tiết hôm nay thế nào?,11,449,雨,yǔ,Danh từ,mưa,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,1,41,病,bìng,Danh từ / động từ,bệnh; ốm,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,2,42,病人,bìngrén,Danh từ,bệnh nhân; người bệnh,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,3,202,看病,kànbìng,Động từ,đi khám bệnh; khám bệnh,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,4,211,口,kǒu,Danh từ / lượng từ,miệng,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,5,239,毛,máo,Danh từ,lông; tóc,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,6,330,身上,shēnshang,Danh từ chỉ vị trí,trên người; trên cơ thể,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,7,331,身体,shēntǐ,Danh từ,cơ thể; sức khỏe,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,8,332,生病,shēngbìng,Động từ,bị ốm; mắc bệnh,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,9,333,生气,shēngqì,Động từ / tính từ,tức giận; nổi giận,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,10,341,手,shǒu,Danh từ,tay; bàn tay,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,11,429,医生,yīshēng,Danh từ,bác sĩ,1002,1
+16,16,我生病了 - Tôi bị ốm rồi,12,430,医院,yīyuàn,Danh từ,bệnh viện,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,1,14,爱,ài,Động từ,yêu; thích,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,2,15,爱好,àihào,Danh từ / động từ,sở thích; yêu thích,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,3,53,唱,chàng,Động từ,hát,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,4,54,唱歌,chànggē,Động từ,hát; ca hát,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,5,73,打球,dǎ qiú,Động từ,chơi bóng,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,6,90,电,diàn,Danh từ,điện,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,7,92,电脑,diànnǎo,Danh từ,máy tính,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,8,93,电视,diànshì,Danh từ,truyền hình; TV,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,9,94,电视机,diànshìjī,Danh từ,tivi; máy thu hình,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,10,95,电影,diànyǐng,Danh từ,phim; điện ảnh,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,11,96,电影院,diànyǐngyuàn,Danh từ,rạp chiếu phim; rạp phim,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,12,131,歌,gē,Danh từ,bài hát,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,13,151,好看,hǎokàn,Tính từ,đẹp; hay,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,14,152,好听,hǎotīng,Tính từ,nghe hay; hay,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,15,153,好玩儿,hǎowánr,Tính từ,vui; thú vị,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,16,196,觉得,juéde,Động từ,cảm thấy; nghĩ rằng,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,17,200,开玩笑,kāi wánxiào,Động từ,nói đùa; đùa giỡn,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,18,201,看,kàn,Động từ,xem; nhìn,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,19,306,球,qiú,Danh từ,quả bóng; bóng,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,20,325,上网,shàngwǎng,Động từ,lên mạng; truy cập Internet,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,21,373,玩儿,wánr,Động từ,chơi; vui chơi; đi chơi,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,22,377,网上,wǎng shang,Cụm chỉ nơi chốn,trên mạng; trực tuyến,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,23,378,网友,wǎngyǒu,Danh từ,bạn trên mạng; người dùng Internet,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,24,389,喜欢,xǐhuan,Động từ,thích; ưa thích,1002,1
+17,17,我喜欢唱歌和看电影 - Tôi thích hát và xem phim,25,409,笑,xiào,Động từ,cười; mỉm cười,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,1,34,北京,Běijīng,Danh từ riêng,Bắc Kinh,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,2,56,车票,chēpiào,Danh từ,vé xe; vé tàu,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,3,77,到,dào,Động từ,đến; tới,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,4,119,飞,fēi,Động từ,bay,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,5,120,飞机,fēijī,Danh từ,máy bay,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,6,166,回到,huídào,Động từ,trở về; quay lại,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,7,171,火车,huǒchē,Danh từ,tàu hỏa,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,8,172,机场,jīchǎng,Danh từ,sân bay,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,9,173,机票,jīpiào,Danh từ,vé máy bay,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,10,214,来,lái,Động từ,đến; tới,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,11,215,来到,láidào,Động từ,đến; tới,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,12,248,门票,ménpiào,Danh từ,vé vào cửa,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,13,290,票,piào,Danh từ,vé; phiếu,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,14,307,去,qù,Động từ,đi; đi đến,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,15,354,送,sòng,Động từ,tiễn; đưa; gửi,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,16,417,行,xíng,Động từ / tính từ,được; ổn; có thể,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,17,433,一块儿,yīkuàir,Phó từ,cùng nhau,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,18,438,一起,yīqǐ,Phó từ,cùng nhau,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,19,462,找,zhǎo,Động từ,tìm; tìm kiếm,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,20,463,找到,zhǎodào,Động từ,tìm thấy,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,21,498,坐,zuò,Động từ,ngồi; đi bằng,1002,1
+18,18,我们坐飞机去北京 - Chúng ta đi Bắc Kinh bằng máy bay,22,499,坐下,zuò xia,Động từ,ngồi xuống,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,1,26,帮,bāng,Động từ,giúp; giúp đỡ,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,2,27,帮忙,bāngmáng,Động từ,giúp đỡ; giúp một tay,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,3,61,出,chū,Động từ,ra; đi ra,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,4,62,出来,chūlái,Động từ / bổ ngữ xu hướng,đi ra; ra đây,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,5,63,出去,chūqù,Động từ / bổ ngữ xu hướng,đi ra ngoài; ra ngoài,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,6,69,打,dǎ,Động từ,đánh; gọi; chơi,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,7,116,放,fàng,Động từ,đặt; để; thả,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,8,127,干什么,gàn shénme,Cụm nghi vấn,làm gì,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,9,137,关,guān,Động từ,đóng; tắt,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,10,164,回,huí,Động từ,về; trở về; quay lại,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,11,168,回来,huílái,Động từ / bổ ngữ xu hướng,trở về; quay lại đây,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,12,169,回去,huíqù,Động từ / bổ ngữ xu hướng,trở về; quay lại đó,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,13,191,进,jìn,Động từ,vào; đi vào,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,14,192,进来,jìnlái,Động từ / bổ ngữ xu hướng,đi vào; vào đây,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,15,193,进去,jìnqù,Động từ / bổ ngữ xu hướng,đi vào; vào trong,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,16,197,开,kāi,Động từ,mở; bật,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,17,256,拿,ná,Động từ,cầm; lấy,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,18,434,一下儿,yīxiàr,Bổ ngữ số lượng động tác,một chút; một lát; một lần,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,19,453,再,zài,Phó từ,lại; một lần nữa; rồi,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,20,455,在,zài,Động từ / giới từ / phó từ,ở; tại; đang,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,21,469,着,zhe,Trợ từ,đang; ở trạng thái tiếp diễn,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,22,473,正在,zhèngzài,Phó từ,đang,1002,1
+19,19,你在做什么？ - Bạn đang làm gì?,23,486,准备,zhǔnbèi,Động từ,chuẩn bị; dự định,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,1,44,不对,bùduì,Tính từ,không đúng; sai,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,2,68,错,cuò,Tính từ / danh từ,sai; lỗi,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,3,78,得到,dédào,Động từ,nhận được; đạt được,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,4,105,对,duì,Tính từ,đúng; chính xác,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,5,143,过,guò,Động từ,qua; đi qua; trải qua,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,6,144,还,hái,Phó từ,vẫn; còn,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,7,163,还,huán,Động từ,trả lại; hoàn lại,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,8,170,会,huì,Động từ năng nguyện,biết; có thể,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,9,195,就,jiù,Phó từ,thì; liền; ngay,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,10,203,看到,kàndào,Động từ,nhìn thấy,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,11,204,看见,kànjiàn,Động từ,nhìn thấy; trông thấy,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,12,219,了,le,Trợ từ,rồi; đã,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,13,244,没有,méiyǒu,Động từ / phó từ,không có; chưa,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,14,253,明白,míngbai,Động từ / tính từ,hiểu; rõ,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,15,276,能,néng,Động từ năng nguyện,có thể; có khả năng,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,16,364,听到,tīngdào,Động từ,nghe thấy,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,17,365,听见,tīngjiàn,Động từ,nghe thấy,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,18,401,想,xiǎng,Động từ,muốn; nghĩ; nghĩ đến,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,19,424,要,yào,Động từ năng nguyện,muốn; cần; sẽ; sắp,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,20,440,用,yòng,Động từ,dùng; sử dụng,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,21,441,有,yǒu,Động từ,có,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,22,446,有用,yǒuyòng,Tính từ,hữu ích; có ích,1002,1
+20,20,我会说中文 - Tôi biết nói tiếng Trung,23,474,知道,zhīdào,Động từ,biết,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,1,37,比,bǐ,Giới từ / động từ,so với; hơn,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,2,43,不大,bù dà,Cụm từ chỉ mức độ,không quá; không nhiều,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,3,50,差,chà,Tính từ / động từ,kém; khác; sai,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,4,74,大,dà,Tính từ,to; lớn,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,5,121,非常,fēicháng,Phó từ,rất; vô cùng,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,6,128,高,gāo,Tính từ,cao,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,7,162,坏,huài,Tính từ,xấu; hỏng,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,8,213,快,kuài,Tính từ / phó từ,nhanh; nhanh chóng,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,9,216,老,lǎo,Tính từ,già; lớn tuổi,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,10,237,慢,màn,Tính từ,chậm,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,11,275,难,nán,Tính từ,khó; khó khăn,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,12,360,太,tài,Phó từ,quá; rất,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,13,402,小,xiǎo,Tính từ,nhỏ; bé,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,14,435,一样,yīyàng,Tính từ,giống nhau; như nhau,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,15,470,真,zhēn,Phó từ / tính từ,thật; quả thật,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,16,471,真的,zhēn de,Cụm từ,thực sự; thật sự; thật,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,17,483,重,zhòng,Tính từ,nặng,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,18,484,重要,zhòngyào,Tính từ,quan trọng,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,19,492,最,zuì,Phó từ,nhất,1002,1
+21,21,这个比那个好 - Cái này tốt hơn cái kia,20,493,最好,zuìhǎo,Phó từ,tốt nhất; tốt hơn hết nên,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,1,45,不客气,bù kèqì,Cụm từ lịch sự,không có gì; không có chi,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,2,71,打电话,dǎ diànhuà,Động từ,gọi điện thoại,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,3,91,电话,diànhuà,Danh từ,điện thoại; cuộc gọi điện thoại,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,4,106,对不起,duìbuqǐ,Cụm từ lịch sự,xin lỗi; xin thứ lỗi,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,5,129,告诉,gàosu,Động từ,nói; cho biết; thông báo,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,6,133,给,gěi,Động từ / giới từ,cho; đưa; cho ai,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,7,161,话,huà,Danh từ,lời nói; lời; câu nói,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,8,183,见,jiàn,Động từ,gặp; thấy,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,9,184,见面,jiànmiàn,Động từ,gặp mặt; gặp nhau,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,10,241,没关系,méi guānxi,Cụm từ lịch sự,không sao; không có gì,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,11,243,没事儿,méishìr,Cụm từ,không sao; không có gì,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,12,301,请,qǐng,Động từ,mời; xin; vui lòng,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,13,303,请进,qǐng jìn,Cụm từ lịch sự,mời vào,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,14,305,请坐,qǐng zuò,Cụm từ lịch sự,mời ngồi,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,15,338,事,shì,Danh từ,việc; chuyện; sự việc,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,16,342,手机,shǒujī,Danh từ,điện thoại di động; điện thoại,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,17,411,谢谢,xièxie,Động từ / cách nói lịch sự,cảm ơn,1002,1
+22,22,我给你打电话 - Tôi gọi điện cho bạn,18,454,再见,zàijiàn,Động từ / cách nói lịch sự,tạm biệt; hẹn gặp lại,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,1,18,吧,ba,Trợ từ ngữ khí,nhé; đi; chứ,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,2,38,别,bié,Phó từ,đừng,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,3,40,别人,biérén,Đại từ,người khác; những người khác,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,4,46,不用,bùyòng,Phó từ,không cần,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,5,47,不,bù,Phó từ,không,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,6,79,地,de,Trợ từ kết cấu,trợ từ nối trạng ngữ với động từ,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,7,80,的,de,Trợ từ kết cấu,của; trợ từ nối định ngữ,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,8,102,都,dōu,Phó từ,đều; tất cả,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,9,134,跟,gēn,Giới từ / liên từ / động từ,với; cùng; theo,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,10,145,还是,háishi,Phó từ / liên từ,hay là; vẫn; tốt hơn nên,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,11,146,还有,hái yǒu,Cụm từ,còn; còn có; ngoài ra còn,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,12,156,和,hé,Liên từ / giới từ,và; với,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,13,240,没,méi,Phó từ / động từ,không; chưa,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,14,242,没什么,méi shénme,Cụm từ,không có gì; không sao,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,15,340,是不是,shì bu shì,Cụm nghi vấn,có phải... không,1002,1
+23,23,明天见！ - Hẹn gặp ngày mai!,16,460,怎么,zěnme,Đại từ nghi vấn,thế nào; làm sao; tại sao,1002,1

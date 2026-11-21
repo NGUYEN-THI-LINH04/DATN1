@@ -1,0 +1,155 @@
+{
+  "buoc": "21",
+  "status": "PASS",
+  "MaKhoaHoc": 4,
+  "MaCapDo": 4,
+  "so_bai": 20,
+  "tong_tu_vung_hsk4": 1000,
+  "tu_chu_de_ro": 434,
+  "tu_can_review": 566,
+  "cach_phan": {
+    "CHU_DE_NHUNG_MO_HO": 247,
+    "FALLBACK_CAN_REVIEW": 319,
+    "CHU_DE_RO": 434
+  },
+  "phan_bo_bai": [
+    {
+      "SoThuTuBai": 1,
+      "TieuDe": "人与关系 - Con người và các mối quan hệ",
+      "SoTuVung": 85,
+      "SoTuCanReview": 58
+    },
+    {
+      "SoThuTuBai": 2,
+      "TieuDe": "家庭与生活 - Gia đình và cuộc sống",
+      "SoTuVung": 39,
+      "SoTuCanReview": 9
+    },
+    {
+      "SoThuTuBai": 3,
+      "TieuDe": "学习让我们进步 - Học tập và giáo dục",
+      "SoTuVung": 34,
+      "SoTuCanReview": 6
+    },
+    {
+      "SoThuTuBai": 4,
+      "TieuDe": "工作与职业 - Công việc và nghề nghiệp",
+      "SoTuVung": 38,
+      "SoTuCanReview": 22
+    },
+    {
+      "SoThuTuBai": 5,
+      "TieuDe": "商业与金钱 - Kinh doanh và tài chính",
+      "SoTuVung": 31,
+      "SoTuCanReview": 16
+    },
+    {
+      "SoThuTuBai": 6,
+      "TieuDe": "表达自己的看法 - Giao tiếp và quan điểm",
+      "SoTuVung": 86,
+      "SoTuCanReview": 75
+    },
+    {
+      "SoThuTuBai": 7,
+      "TieuDe": "心情与性格 - Cảm xúc, tính cách và thái độ",
+      "SoTuVung": 85,
+      "SoTuCanReview": 64
+    },
+    {
+      "SoThuTuBai": 8,
+      "TieuDe": "健康最重要 - Sức khỏe và y tế",
+      "SoTuVung": 42,
+      "SoTuCanReview": 19
+    },
+    {
+      "SoThuTuBai": 9,
+      "TieuDe": "日常生活与服务 - Sinh hoạt hằng ngày và dịch vụ",
+      "SoTuVung": 85,
+      "SoTuCanReview": 55
+    },
+    {
+      "SoThuTuBai": 10,
+      "TieuDe": "吃饭与购物 - Ăn uống, mua sắm và tiêu dùng",
+      "SoTuVung": 34,
+      "SoTuCanReview": 17
+    },
+    {
+      "SoThuTuBai": 11,
+      "TieuDe": "出发吧！ - Giao thông và du lịch",
+      "SoTuVung": 15,
+      "SoTuCanReview": 5
+    },
+    {
+      "SoThuTuBai": 12,
+      "TieuDe": "城市、地点与方向 - Thành phố, địa điểm và phương hướng",
+      "SoTuVung": 33,
+      "SoTuCanReview": 8
+    },
+    {
+      "SoThuTuBai": 13,
+      "TieuDe": "时间、计划与变化 - Thời gian, kế hoạch và thay đổi",
+      "SoTuVung": 85,
+      "SoTuCanReview": 67
+    },
+    {
+      "SoThuTuBai": 14,
+      "TieuDe": "天气、自然与环境 - Thời tiết, thiên nhiên và môi trường",
+      "SoTuVung": 50,
+      "SoTuCanReview": 18
+    },
+    {
+      "SoThuTuBai": 15,
+      "TieuDe": "科技改变生活 - Khoa học, công nghệ và Internet",
+      "SoTuVung": 24,
+      "SoTuCanReview": 13
+    },
+    {
+      "SoThuTuBai": 16,
+      "TieuDe": "文化、艺术与媒体 - Văn hóa, nghệ thuật và truyền thông",
+      "SoTuVung": 31,
+      "SoTuCanReview": 14
+    },
+    {
+      "SoThuTuBai": 17,
+      "TieuDe": "运动与休闲 - Thể thao và giải trí",
+      "SoTuVung": 16,
+      "SoTuCanReview": 5
+    },
+    {
+      "SoThuTuBai": 18,
+      "TieuDe": "社会、法律与安全 - Xã hội, pháp luật và an toàn",
+      "SoTuVung": 15,
+      "SoTuCanReview": 7
+    },
+    {
+      "SoThuTuBai": 19,
+      "TieuDe": "数量、程度与比较 - Số lượng, mức độ và so sánh",
+      "SoTuVung": 85,
+      "SoTuCanReview": 48
+    },
+    {
+      "SoThuTuBai": 20,
+      "TieuDe": "把话说清楚 - Từ chức năng và diễn đạt tổng hợp",
+      "SoTuVung": 87,
+      "SoTuCanReview": 40
+    }
+  ],
+  "outputs": {
+    "lessons": {
+      "path": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\lessons_hsk4_draft_20.csv",
+      "sha256": "a542e017dcc116451399258de617178d31dd91121440dbe64ad4efa27364ed0b"
+    },
+    "vocabulary": {
+      "path": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\vocabulary_hsk4_by_lesson_draft_21.csv",
+      "sha256": "5988aeacd5846846ab000aa5edcae3dbea92a58cdd52140870384a003dda5436"
+    },
+    "review": {
+      "path": "D:\\DATN1\\scripts\\hsk4\\data\\processed\\vocabulary_hsk4_by_lesson_review_21.csv",
+      "sha256": "3a2aabd76382e8730f71cd34ac658c082f7c3e69f067d2fefac5274d91f59f5e"
+    }
+  },
+  "ghi_sql": false,
+  "tao_bai_hoc_sql": false,
+  "gan_tuvungbaihoc_sql": false,
+  "tao_audio": false
+}

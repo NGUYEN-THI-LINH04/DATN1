@@ -1,0 +1,1289 @@
+
+{% extends "admin/base.html" %}
+
+{% block title %}
+Thống kê học tập | Mộc Hán
+{% endblock %}
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/admin_statistics.css') }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+<main class="ms">
+
+    <!-- ==========================================
+         HEADER
+    ========================================== -->
+
+    <header class="ms-header">
+        <div>
+            <span class="ms-eyebrow">
+                MỘC HÁN · QUẢN TRỊ
+            </span>
+
+            <h1>Thống kê học tập</h1>
+
+            <p>
+                Dữ liệu được tổng hợp từ SQL Server.
+            </p>
+        </div>
+
+        <span class="ms-header-icon">📊</span>
+    </header>
+
+
+    <!-- ==========================================
+         MENU DIEU HUONG
+    ========================================== -->
+
+    <nav class="ms-nav">
+        <a href="#ms-overview">Tổng quan</a>
+        <a href="#ms-progress">Tiến độ</a>
+        <a href="#ms-materials">Học liệu</a>
+        <a href="#ms-exercises">Bài tập</a>
+        <a href="#ms-shadowing">Shadowing</a>
+        <a href="#ms-chatbot">Chatbot</a>
+        <a href="#ms-feedback">Góp ý</a>
+        <a href="#ms-exams">Luyện thi</a>
+    </nav>
+
+
+    <!-- ==========================================
+         1. TONG QUAN
+    ========================================== -->
+
+    <section class="ms-section" id="ms-overview">
+
+        <div class="ms-section-heading">
+            <h2>📊 Tổng quan hệ thống</h2>
+            <p>Những số liệu chính của Mộc Hán</p>
+        </div>
+
+        <div class="ms-kpi-grid">
+
+            <article class="ms-kpi">
+                <span>👥 Người học</span>
+                <strong>{{ overview.students }}</strong>
+                <small>Tài khoản người học</small>
+            </article>
+
+            <article class="ms-kpi">
+                <span>📚 Khóa học</span>
+                <strong>{{ overview.courses }}</strong>
+                <small>{{ overview.lessons }} bài học</small>
+            </article>
+
+            <article class="ms-kpi">
+                <span>📝 Lượt nộp bài tập</span>
+                <strong>
+                    {{ overview.exercise_submissions }}
+                </strong>
+                <small>Kết quả đã nộp</small>
+            </article>
+
+            <article class="ms-kpi">
+                <span>🎧 Video Shadowing</span>
+                <strong>
+                    {{ overview.shadowing_videos }}
+                </strong>
+                <small>
+                    {{ overview.shadowing_attempts }}
+                    lượt kiểm tra câu
+                </small>
+            </article>
+
+            <article class="ms-kpi">
+                <span>🔖 Từ vựng được lưu</span>
+                <strong>
+                    {{ overview.saved_words }}
+                </strong>
+                <small>Lượt lưu từ của người học</small>
+            </article>
+
+            <article class="ms-kpi">
+                <span>💬 Hội thoại Chatbot</span>
+                <strong>
+                    {{ overview.conversations }}
+                </strong>
+                <small>Cuộc trò chuyện đã tạo</small>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         2. TIEN DO HOC
+    ========================================== -->
+
+    <section class="ms-section" id="ms-progress">
+
+        <div class="ms-section-heading">
+            <h2>📖 Khóa học và tiến độ</h2>
+            <p>Tình trạng xuất bản và kết quả học tập</p>
+        </div>
+
+        <div class="ms-two-columns">
+
+            <!-- TIEN DO TONG QUAN -->
+
+            <article class="ms-panel">
+
+                <h3>Tiến độ được ghi nhận</h3>
+
+                <div class="ms-mini-grid">
+
+                    <div class="ms-mini-stat">
+                        <span>Khóa đã xuất bản</span>
+                        <strong>
+                            {{ progress.course_published }}
+                        </strong>
+                    </div>
+
+                    <div class="ms-mini-stat">
+                        <span>Bài đã xuất bản</span>
+                        <strong>
+                            {{ progress.lesson_published }}
+                        </strong>
+                    </div>
+
+                    <div class="ms-mini-stat">
+                        <span>Lượt hoàn thành bài</span>
+                        <strong>
+                            {{ progress.completed }}
+                        </strong>
+                    </div>
+
+                    <div class="ms-mini-stat">
+                        <span>Người có tiến độ</span>
+                        <strong>
+                            {{ progress.learners }}
+                        </strong>
+                    </div>
+
+                </div>
+
+                <p class="ms-note">
+                    Số lượt hoàn thành được lấy từ bảng
+                    TienDoBaiHoc, không phải tổng số bài học.
+                </p>
+
+            </article>
+
+
+            <!-- TIEN DO THEO HSK -->
+
+            <article class="ms-panel">
+
+                <h3>Bài học theo cấp HSK</h3>
+
+                <div class="ms-hsk-grid">
+
+                    {% for item in progress.levels %}
+
+                    <div class="ms-hsk-item">
+                        <span>HSK {{ item.level }}</span>
+                        <strong>
+                            {{ item.count }} bài
+                        </strong>
+                    </div>
+
+                    {% endfor %}
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         3. THONG KE HOC LIEU
+    ========================================== -->
+
+    <section class="ms-section" id="ms-materials">
+
+        <div class="ms-section-heading">
+            <h2>📚 Thống kê học liệu</h2>
+            <p>Từ vựng, ngữ pháp, chữ Hán và phát âm</p>
+        </div>
+
+        <div class="ms-two-columns">
+
+            <!-- KHO HOC LIEU -->
+
+            <article class="ms-panel">
+
+                <h3>Kho học liệu</h3>
+
+                <div class="ms-mini-grid">
+
+                    <div class="ms-mini-stat">
+                        <span>Từ vựng</span>
+                        <strong>
+                            {{ materials.vocabulary }}
+                        </strong>
+                        <small>
+                            {{ materials.vocab_approved }}
+                            đã duyệt
+                        </small>
+                    </div>
+
+                    <div class="ms-mini-stat">
+                        <span>Ngữ pháp</span>
+                        <strong>
+                            {{ materials.grammar }}
+                        </strong>
+                        <small>
+                            {{ materials.grammar_published }}
+                            đã xuất bản
+                        </small>
+                    </div>
+
+                    <div class="ms-mini-stat">
+                        <span>Chữ Hán</span>
+                        <strong>
+                            {{ materials.hanzi }}
+                        </strong>
+                        <small>
+                            {{ materials.hanzi_published }}
+                            đã xuất bản
+                        </small>
+                    </div>
+
+                    <div class="ms-mini-stat">
+                        <span>Bộ thủ xuất bản</span>
+                        <strong>
+                            {{ materials.radicals }}
+                        </strong>
+                    </div>
+
+                    <div class="ms-mini-stat">
+                        <span>Pinyin xuất bản</span>
+                        <strong>
+                            {{ materials.pinyin }}
+                        </strong>
+                    </div>
+
+                    <div class="ms-mini-stat">
+                        <span>Quy tắc phát âm</span>
+                        <strong>
+                            {{ materials.pronunciation }}
+                        </strong>
+                        <small>Đã xuất bản</small>
+                    </div>
+
+                </div>
+
+                <p class="ms-note">
+                    {{ materials.reviews }} lượt ôn tập
+                    từ vựng đã được hệ thống ghi nhận.
+                </p>
+
+            </article>
+
+
+            <!-- PHAN BO TU VUNG -->
+
+            <article class="ms-panel">
+
+                <h3>Phân bố từ vựng theo HSK</h3>
+
+                <div class="ms-bars">
+
+                    {% for item in materials.levels %}
+
+                    <div class="ms-bar-line">
+
+                        <span>
+                            HSK {{ item.level }}
+                        </span>
+
+                        <div class="ms-track">
+                            <div
+                                class="ms-fill"
+                                data-percent="{{ item.percent }}"
+                            ></div>
+                        </div>
+
+                        <strong>
+                            {{ item.count }}
+                        </strong>
+
+                    </div>
+
+                    {% endfor %}
+
+                </div>
+
+                <p class="ms-note">
+                    Mỗi từ chỉ tính một lần trong cùng
+                    cấp độ HSK. Một từ có thể thuộc
+                    nhiều cấp độ khác nhau.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         4. THONG KE BAI TAP
+    ========================================== -->
+
+    <section class="ms-section" id="ms-exercises">
+
+        <div class="ms-section-heading">
+            <h2>📝 Thống kê bài tập</h2>
+            <p>
+                Học liệu Admin đã tạo và kết quả người học
+            </p>
+        </div>
+
+        <div class="ms-kpi-grid ms-five">
+
+            <article class="ms-kpi">
+                <span>Tổng bài tập</span>
+                <strong>{{ exercises.total }}</strong>
+                <small>
+                    {{ exercises.published }}
+                    đã xuất bản
+                </small>
+            </article>
+
+            <article class="ms-kpi">
+                <span>Câu hỏi</span>
+                <strong>
+                    {{ exercises.questions }}
+                </strong>
+                <small>Trong kho bài tập</small>
+            </article>
+
+            <article class="ms-kpi">
+                <span>Lượt nộp bài</span>
+                <strong>
+                    {{ exercises.submissions }}
+                </strong>
+                <small>Bài đã nộp</small>
+            </article>
+
+            <article class="ms-kpi">
+                <span>Người đã nộp</span>
+                <strong>
+                    {{ exercises.learners }}
+                </strong>
+                <small>Người học khác nhau</small>
+            </article>
+
+            <article class="ms-kpi">
+                <span>Điểm trung bình</span>
+
+                <strong>
+                    {% if exercises.average is not none %}
+                        {{ exercises.average }}%
+                    {% else %}
+                        —
+                    {% endif %}
+                </strong>
+
+                <small>Quy đổi thang 100</small>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         5. THONG KE SHADOWING
+    ========================================== -->
+
+    <section class="ms-section" id="ms-shadowing">
+
+        <div class="ms-section-heading">
+            <h2>🎧 Thống kê Shadowing</h2>
+            <p>
+                Kết quả chép chính tả và ghép câu
+                đã lưu trong SQL
+            </p>
+        </div>
+
+
+        <!-- BO LOC SHADOWING -->
+
+        <form
+            class="ms-filter"
+            method="get"
+            action="{{ url_for('admin_statistics.index') }}#ms-shadowing"
+        >
+
+            <label>
+                Thời gian
+
+                <select name="days">
+                    <option
+                        value="7"
+                        {% if days == '7' %}selected{% endif %}
+                    >7 ngày</option>
+
+                    <option
+                        value="30"
+                        {% if days == '30' %}selected{% endif %}
+                    >30 ngày</option>
+
+                    <option
+                        value="90"
+                        {% if days == '90' %}selected{% endif %}
+                    >90 ngày</option>
+
+                    <option
+                        value="all"
+                        {% if days == 'all' %}selected{% endif %}
+                    >Tất cả</option>
+                </select>
+
+            </label>
+
+
+            <label>
+                Chế độ
+
+                <select name="mode">
+                    <option
+                        value="all"
+                        {% if mode == 'all' %}selected{% endif %}
+                    >Cả hai</option>
+
+                    <option
+                        value="dictation"
+                        {% if mode == 'dictation' %}selected{% endif %}
+                    >Chép chính tả</option>
+
+                    <option
+                        value="assemble"
+                        {% if mode == 'assemble' %}selected{% endif %}
+                    >Ghép câu</option>
+                </select>
+
+            </label>
+
+
+            <label>
+                Video
+
+                <select name="video_id">
+
+                    <option value="">
+                        Tất cả video
+                    </option>
+
+                    {% for video in videos %}
+
+                    <option
+                        value="{{ video.id }}"
+                        {% if selected_video == video.id %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ video.title }}
+                    </option>
+
+                    {% endfor %}
+
+                </select>
+
+            </label>
+
+
+            <label>
+                Tìm kiếm
+
+                <input
+                    type="search"
+                    name="q"
+                    value="{{ keyword }}"
+                    maxlength="100"
+                    placeholder="Người học hoặc video"
+                >
+
+            </label>
+
+
+            <div class="ms-filter-actions">
+
+                <button type="submit">
+                    Lọc
+                </button>
+
+                <a href="{{ url_for('admin_statistics.index') }}#ms-shadowing">
+                    Xóa lọc
+                </a>
+
+            </div>
+
+        </form>
+
+
+        <!-- TONG HOP SHADOWING -->
+
+        <div class="ms-four-grid">
+
+            <div class="ms-small-kpi">
+                <span>Lượt kiểm tra câu</span>
+                <strong>
+                    {{ shadowing.attempts }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+                <span>Người đã luyện</span>
+                <strong>
+                    {{ shadowing.students }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+                <span>Video có kết quả</span>
+                <strong>
+                    {{ shadowing.videos }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+                <span>Điểm trung bình</span>
+
+                <strong>
+                    {% if shadowing.average is not none %}
+                        {{ shadowing.average }}/100
+                    {% else %}
+                        —
+                    {% endif %}
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- BIEU DO SHADOWING -->
+
+        <div class="ms-two-columns">
+
+            <!-- HOAT DONG 14 NGAY -->
+
+            <article class="ms-panel">
+
+                <h3>Hoạt động 14 ngày gần đây</h3>
+
+                <p class="ms-note">
+                    Số lượt kiểm tra theo ngày Việt Nam
+                </p>
+
+                <div class="ms-chart">
+
+                    {% for item in trend %}
+
+                    <div
+                        class="ms-chart-column"
+                        title="{{ item.label }}: {{ item.dictation }} lượt chép, {{ item.assemble }} lượt ghép"
+                    >
+
+                        <div class="ms-chart-stack">
+
+                            <div
+                                class="ms-chart-bar ms-bar-assemble"
+                                data-percent="{{ item.a_pct }}"
+                            ></div>
+
+                            <div
+                                class="ms-chart-bar ms-bar-dictation"
+                                data-percent="{{ item.d_pct }}"
+                            ></div>
+
+                        </div>
+
+                        <span>
+                            {{ item.label }}
+                        </span>
+
+                    </div>
+
+                    {% endfor %}
+
+                </div>
+
+                <div class="ms-legend">
+                    <span>
+                        <i class="ms-legend-dictation"></i>
+                        Chép chính tả
+                    </span>
+
+                    <span>
+                        <i class="ms-legend-assemble"></i>
+                        Ghép câu
+                    </span>
+                </div>
+
+            </article>
+
+
+            <!-- PHAN BO CHE DO -->
+
+            <article class="ms-panel">
+
+                <h3>Phân bố chế độ luyện</h3>
+
+                <div class="ms-donut-layout">
+
+                    <div
+                        class="ms-donut"
+                        data-percent="{{ shadowing.dictation_percent }}"
+                    >
+                        <div class="ms-donut-center">
+
+                            <strong>
+                                {{ shadowing.attempts }}
+                            </strong>
+
+                            <span>
+                                lượt kiểm tra
+                            </span>
+
+                        </div>
+                    </div>
+
+                    <div class="ms-donut-details">
+
+                        <div>
+                            <span>Chép chính tả</span>
+                            <strong>
+                                {{ shadowing.dictation }}
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>Ghép câu</span>
+                            <strong>
+                                {{ shadowing.assemble }}
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>Tỷ lệ câu đúng</span>
+                            <strong>
+                                {{ shadowing.correct_percent }}%
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <p class="ms-note">
+                    Một bản ghi kết quả tương ứng
+                    với một lượt kiểm tra câu.
+                </p>
+
+            </article>
+
+        </div>
+
+
+        <!-- TOP VIDEO SHADOWING -->
+
+        <article class="ms-panel">
+
+            <h3>Video được luyện nhiều nhất</h3>
+
+            {% for video in top_videos %}
+
+            <div class="ms-video-line">
+                <span>
+                    {{ video.title }}
+                </span>
+
+                <strong>
+                    {{ video.count }} lượt
+                </strong>
+            </div>
+
+            <div class="ms-track ms-video-track">
+                <div
+                    class="ms-fill"
+                    data-percent="{{ video.percent }}"
+                ></div>
+            </div>
+
+            {% else %}
+
+            <p class="ms-note">
+                Chưa có kết quả phù hợp bộ lọc.
+            </p>
+
+            {% endfor %}
+
+        </article>
+
+
+        <!-- LICH SU SHADOWING -->
+
+        <article class="ms-panel">
+
+            <div class="ms-table-heading">
+
+                <h3>Lịch sử kiểm tra Shadowing</h3>
+
+                <span>
+                    Trang {{ page }}/{{ total_pages }}
+                </span>
+
+            </div>
+
+
+            <div class="ms-table-wrap">
+
+                <table class="ms-table">
+
+                    <thead>
+                        <tr>
+                            <th>Người học</th>
+                            <th>Video</th>
+                            <th>Chế độ</th>
+                            <th>Câu</th>
+                            <th>Điểm</th>
+                            <th>Thời gian VN</th>
+                            <th>Chi tiết</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        {% for result in history %}
+
+                        <tr>
+
+                            <td>
+                                <strong>
+                                    {{ result.student }}
+                                </strong>
+
+                                <small>
+                                    {{ result.username }}
+                                </small>
+                            </td>
+
+                            <td>
+                                {{ result.video }}
+                            </td>
+
+                            <td>
+                                {% if result.mode == 'dictation' %}
+                                    Chép chính tả
+
+                                {% elif result.mode == 'assemble' %}
+                                    Ghép câu
+
+                                {% else %}
+                                    {{ result.mode }}
+                                {% endif %}
+                            </td>
+
+                            <td>
+                                Câu {{ result.sentence }}
+                            </td>
+
+                            <td>
+                                <strong
+                                    class="{% if result.correct %}ms-score-good{% else %}ms-score-low{% endif %}"
+                                >
+                                    {{ result.score | round(1) }}/100
+                                </strong>
+                            </td>
+
+                            <td>
+                                {{ result.time }}
+                            </td>
+
+                            <td>
+                                <details class="ms-details">
+
+                                    <summary>
+                                        Xem
+                                    </summary>
+
+                                    <div>
+                                        <p>
+                                            <b>Trả lời:</b>
+                                            {{ result.answer or '—' }}
+                                        </p>
+
+                                        <p>
+                                            <b>Số lỗi:</b>
+                                            {{ result.errors }}
+                                        </p>
+
+                                        <p>
+                                            <b>Nghe lại:</b>
+                                            {{ result.replays }} lần
+                                        </p>
+
+                                        <p>
+                                            <b>Mã kết quả:</b>
+                                            {{ result.id }}
+                                        </p>
+                                    </div>
+
+                                </details>
+                            </td>
+
+                        </tr>
+
+                        {% else %}
+
+                        <tr>
+                            <td colspan="7" class="ms-empty">
+                                Chưa có kết quả Shadowing phù hợp.
+                            </td>
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+            <!-- PHAN TRANG LICH SU -->
+
+            {% if total_pages > 1 %}
+
+            <div class="ms-pagination">
+
+                {% if page > 1 %}
+
+                <a href="{{ url_for(
+                    'admin_statistics.index',
+                    page=page-1,
+                    days=days,
+                    mode=mode,
+                    q=keyword,
+                    video_id=selected_video
+                ) }}#ms-shadowing">
+                    ← Trang trước
+                </a>
+
+                {% endif %}
+
+                <span>
+                    {{ page }}/{{ total_pages }}
+                </span>
+
+                {% if page < total_pages %}
+
+                <a href="{{ url_for(
+                    'admin_statistics.index',
+                    page=page+1,
+                    days=days,
+                    mode=mode,
+                    q=keyword,
+                    video_id=selected_video
+                ) }}#ms-shadowing">
+                    Trang sau →
+                </a>
+
+                {% endif %}
+
+            </div>
+
+            {% endif %}
+
+        </article>
+
+    </section>
+
+
+    <!-- ==========================================
+         6. THONG KE CHATBOT
+    ========================================== -->
+
+    <section class="ms-section" id="ms-chatbot">
+
+        <div class="ms-section-heading">
+            <h2>💬 Thống kê Chatbot</h2>
+            <p>
+                Lịch sử trò chuyện và kho kiến thức
+            </p>
+        </div>
+
+        <article class="ms-panel">
+
+            <div class="ms-mini-grid ms-three">
+
+                <div class="ms-mini-stat">
+                    <span>Cuộc trò chuyện</span>
+                    <strong>
+                        {{ chatbot.sessions }}
+                    </strong>
+                </div>
+
+                <div class="ms-mini-stat">
+                    <span>Tin người dùng</span>
+                    <strong>
+                        {{ chatbot.questions }}
+                    </strong>
+                </div>
+
+                <div class="ms-mini-stat">
+                    <span>Phản hồi trợ lý</span>
+                    <strong>
+                        {{ chatbot.replies }}
+                    </strong>
+                </div>
+
+                <div class="ms-mini-stat">
+                    <span>Kiến thức đã duyệt</span>
+                    <strong>
+                        {{ chatbot.knowledge }}
+                    </strong>
+                </div>
+
+                <div class="ms-mini-stat">
+                    <span>Kiến thức chờ duyệt</span>
+                    <strong>
+                        {{ chatbot.pending }}
+                    </strong>
+                </div>
+
+                <div class="ms-mini-stat">
+                    <span>Từ chưa có cần xử lý</span>
+                    <strong>
+                        {{ chatbot.missing }}
+                    </strong>
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <!-- ==========================================
+         7. THONG KE GOP Y
+    ========================================== -->
+
+    <section class="ms-section" id="ms-feedback">
+
+        <div class="ms-section-heading">
+            <h2>📨 Góp ý của người học</h2>
+            <p>Tình trạng xử lý phản hồi</p>
+        </div>
+
+        <div class="ms-four-grid ms-three">
+
+            <div class="ms-small-kpi">
+                <span>Tổng góp ý</span>
+                <strong>
+                    {{ feedback.total }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+                <span>Góp ý mới</span>
+                <strong>
+                    {{ feedback.new }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+                <span>Đã xử lý</span>
+                <strong>
+                    {{ feedback.done }}
+                </strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         8. THONG KE LUYEN THI HSK1-HSK4
+    ========================================== -->
+
+    <section class="ms-section" id="ms-exams">
+
+        <div class="ms-section-heading">
+
+            <h2>🏅 Luyện thi chứng chỉ</h2>
+
+            <p>
+                Thống kê đề thi và kết quả
+                luyện thi HSK1–HSK4
+            </p>
+
+        </div>
+
+
+        <!-- TONG QUAN LUYEN THI -->
+
+        <div class="ms-four-grid">
+
+            <div class="ms-small-kpi">
+                <span>Tổng số đề thi</span>
+                <strong>
+                    {{ exam_stats.total }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+                <span>Đề đã xuất bản</span>
+                <strong>
+                    {{ exam_stats.published }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+                <span>Tổng số câu hỏi</span>
+                <strong>
+                    {{ exam_stats.questions }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+                <span>Câu hỏi đã duyệt</span>
+                <strong>
+                    {{ exam_stats.approved }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+                <span>Lượt thi đã chấm</span>
+                <strong>
+                    {{ exam_stats.attempts }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+                <span>Người đã tham gia</span>
+                <strong>
+                    {{ exam_stats.users }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+                <span>Lượt làm cả đề</span>
+                <strong>
+                    {{ exam_stats.full_attempts }}
+                </strong>
+            </div>
+
+            <div class="ms-small-kpi">
+
+                <span>Điểm TB cả đề</span>
+
+                <strong>
+                    {% if exam_stats.average is not none %}
+                        {{ exam_stats.average }}/100
+                    {% else %}
+                        —
+                    {% endif %}
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- THONG KE THEO CAP HSK -->
+
+        <article class="ms-panel">
+
+            <h3>Thống kê theo cấp độ HSK</h3>
+
+            <p class="ms-note">
+                Số liệu được tổng hợp trực tiếp từ
+                dữ liệu đề thi và kết quả đã chấm.
+            </p>
+
+            <div class="ms-table-wrap">
+
+                <table class="ms-table">
+
+                    <thead>
+                        <tr>
+                            <th>Cấp độ</th>
+                            <th>Số đề</th>
+                            <th>Câu hỏi</th>
+                            <th>Đã xuất bản</th>
+                            <th>Lượt thi</th>
+                            <th>Người thi</th>
+                            <th>Điểm TB</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        {% for item in exam_stats.levels %}
+
+                        <tr>
+
+                            <td>
+                                <strong>
+                                    HSK {{ item.level }}
+                                </strong>
+                            </td>
+
+                            <td>
+                                {{ item.total }}
+                            </td>
+
+                            <td>
+                                {{ item.questions }}
+                            </td>
+
+                            <td>
+                                {{ item.published }}
+                            </td>
+
+                            <td>
+                                {{ item.attempts }}
+                            </td>
+
+                            <td>
+                                {{ item.users }}
+                            </td>
+
+                            <td>
+                                {% if item.average is not none %}
+                                    {{ item.average }}/100
+                                {% else %}
+                                    —
+                                {% endif %}
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <p class="ms-note">
+                Chỉ các lượt thi đã chấm mới được tính.
+                Điểm trung bình lấy từ chế độ làm cả đề
+                và quy đổi về thang 100.
+            </p>
+
+        </article>
+
+    </section>
+
+
+    <!-- ==========================================
+         KET THUC TRANG THONG KE
+    ========================================== -->
+
+</main>
+
+{% endblock %}
+
+
+<!-- ==========================================
+     JAVASCRIPT BIEU DO THONG KE
+========================================== -->
+
+{% block extra_js %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    "use strict";
+
+    // ==========================================
+    // 1. CHUAN HOA GIA TRI PHAN TRAM
+    // ==========================================
+
+    function normalizePercent(value) {
+        const number = Number(value);
+
+        if (!Number.isFinite(number)) {
+            return 0;
+        }
+
+        return Math.max(
+            0,
+            Math.min(100, number)
+        );
+    }
+
+    // ==========================================
+    // 2. THANH TIEN DO HOC LIEU VA VIDEO
+    // ==========================================
+
+    document.querySelectorAll(
+        ".ms .ms-fill[data-percent]"
+    ).forEach(function (element) {
+
+        const percent = normalizePercent(
+            element.dataset.percent
+        );
+
+        element.style.width = percent + "%";
+
+    });
+
+    // ==========================================
+    // 3. BIEU DO SHADOWING 14 NGAY
+    // ==========================================
+
+    document.querySelectorAll(
+        ".ms .ms-chart-bar[data-percent]"
+    ).forEach(function (element) {
+
+        const percent = normalizePercent(
+            element.dataset.percent
+        );
+
+        element.style.height = percent + "%";
+
+    });
+
+    // ==========================================
+    // 4. BIEU DO TRON SHADOWING
+    // ==========================================
+
+    document.querySelectorAll(
+        ".ms .ms-donut[data-percent]"
+    ).forEach(function (element) {
+
+        const percent = normalizePercent(
+            element.dataset.percent
+        );
+
+        element.style.setProperty(
+            "--ms-slice",
+            percent + "%"
+        );
+
+    });
+
+});
+</script>
+
+{% endblock %}

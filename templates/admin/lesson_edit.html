@@ -1,0 +1,322 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Sửa bài học | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        QUẢN LÝ BÀI HỌC
+    </span>
+
+    <h1>
+        Sửa thông tin bài học
+    </h1>
+
+    <p>
+        Chỉnh sửa thông tin cơ bản của bài.
+        Nội dung từ vựng, ngữ pháp và chữ Hán
+        sẽ được quản lý ở bước riêng.
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     THÔNG TIN KHÓA HỌC
+===================================================== -->
+
+<div class="example-card">
+
+    <span class="eyebrow">
+        KHÓA HỌC
+    </span>
+
+    <h3>
+
+        HSK {{ lesson.course_level }}
+        ·
+        {{ lesson.course_title }}
+
+    </h3>
+
+
+    <p>
+
+        Mã bài:
+
+        <strong>
+            {{ lesson.id }}
+        </strong>
+
+        ·
+
+        Trạng thái:
+
+        <span
+            class="
+                course-status
+                course-status-{{ lesson.status }}
+            "
+        >
+
+            {{
+                statuses.get(
+                    lesson.status,
+                    lesson.status
+                )
+            }}
+
+        </span>
+
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     FORM SỬA BÀI HỌC
+===================================================== -->
+
+<section class="panel course-editor space-top">
+
+    <form
+        method="post"
+
+        action="{{ url_for(
+            'admin_lessons.edit',
+            lesson_id=lesson.id
+        ) }}"
+    >
+
+
+        <!-- =================================================
+             CSRF
+        ================================================== -->
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <!-- =================================================
+             KHÓA HỌC
+        ================================================== -->
+
+        <div class="course-form-grid">
+
+
+            <div class="field">
+
+                <label>
+                    Khóa học
+                </label>
+
+
+                <input
+                    type="text"
+
+                    value="
+                        HSK {{ lesson.course_level }}
+                        · {{ lesson.course_title }}
+                    "
+
+                    disabled
+                >
+
+
+                <small>
+                    Không chuyển bài sang khóa khác
+                    tại màn hình này.
+                </small>
+
+            </div>
+
+
+            <!-- =================================================
+                 SỐ THỨ TỰ
+            ================================================== -->
+
+            <div class="field">
+
+                <label for="lesson-order">
+                    Số thứ tự bài *
+                </label>
+
+
+                <input
+                    id="lesson-order"
+
+                    name="order"
+
+                    type="number"
+
+                    min="1"
+
+                    step="1"
+
+                    value="{{ lesson.order }}"
+
+                    required
+                >
+
+
+                <small>
+                    Không được trùng số bài
+                    trong cùng khóa học.
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             TIÊU ĐỀ
+        ================================================== -->
+
+        <div class="field">
+
+            <label for="lesson-title">
+                Tên bài học *
+            </label>
+
+
+            <input
+                id="lesson-title"
+
+                name="title"
+
+                type="text"
+
+                maxlength="200"
+
+                value="{{ lesson.title }}"
+
+                required
+            >
+
+        </div>
+
+
+        <!-- =================================================
+             TÓM TẮT
+        ================================================== -->
+
+        <div class="field">
+
+            <label for="lesson-summary">
+                Tóm tắt bài học
+            </label>
+
+
+            <textarea
+                id="lesson-summary"
+
+                name="summary"
+
+                rows="6"
+
+                maxlength="2000"
+
+                placeholder="
+                    Mô tả nội dung và
+                    mục tiêu của bài học...
+                "
+            >{{ lesson.summary }}</textarea>
+
+
+            <small>
+                Tối đa 2.000 ký tự.
+            </small>
+
+        </div>
+
+
+        <!-- =================================================
+             GHI CHÚ TRẠNG THÁI
+        ================================================== -->
+
+        <div class="lesson-create-status">
+
+            <strong>
+                Trạng thái hiện tại:
+            </strong>
+
+
+            <span
+                class="
+                    course-status
+                    course-status-{{ lesson.status }}
+                "
+            >
+
+                {{
+                    statuses.get(
+                        lesson.status,
+                        lesson.status
+                    )
+                }}
+
+            </span>
+
+        </div>
+
+
+        <p>
+
+            Trạng thái xuất bản không thay đổi
+            tại màn hình này.
+
+            Hãy sử dụng chức năng
+            <strong>Cập nhật trạng thái</strong>
+            ở danh sách bài học.
+
+        </p>
+
+
+        <!-- =================================================
+             ACTION
+        ================================================== -->
+
+        <div class="course-actions">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lưu thay đổi
+            </button>
+
+
+            <a
+                class="small-button"
+
+                href="{{ url_for(
+                    'admin_lessons.index',
+                    course_id=lesson.course_id
+                ) }}"
+            >
+                Hủy
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+
+{% endblock %}

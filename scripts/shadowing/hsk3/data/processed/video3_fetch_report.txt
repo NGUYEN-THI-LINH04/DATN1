@@ -1,0 +1,22 @@
+SHADOWING HSK3 - VIDEO 3
+YouTube ID: GFPOvOvFgQI
+Tieu de: 像泡茶一样学中文 - Học tiếng Trung như cách pha trà
+So doan: 274
+Ty le chu Han: 99.1%
+Doan trung: 0
+Timestamp chong: 0
+Doan < 0.8s: 5
+Doan > 10s: 0
+
+===== DOAN QUA NGAN =====
+128 | 0.767s | 是的。
+149 | 0.733s | 是的。
+154 | 0.766s | 是的。
+259 | 0.733s | 对！
+273 | 0.767s | 我是李明。
+
+===== DOAN QUA DAI =====
+
+CHUA TAO PINYIN.
+CHUA DICH TIENG VIET.
+CHUA CAP NHAT SQL SERVER.

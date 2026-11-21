@@ -1,0 +1,1030 @@
+
+/* ==========================================================
+   MỘC HÁN - GÓP Ý DÀNH CHO NGƯỜI HỌC
+
+   File: static/css/feedback.css
+
+   Liên kết:
+   - templates/student/feedback.html
+   - static/js/feedback.js
+   - routes/student/feedback.py
+
+   Phong cách:
+   - Nền kem, họa tiết ô lưới
+   - Viền đen, nút vàng
+   - Card nhỏ gọn
+   - Responsive
+
+   Chỉ áp dụng trong .feedback-page
+========================================================== */
+
+
+/* ==========================================================
+   1. BIẾN MÀU VÀ KHUNG CHÍNH
+========================================================== */
+
+.feedback-page {
+    --fb-bg: #fff8ef;
+    --fb-card: #fffaf4;
+    --fb-text: #302c29;
+    --fb-border: #302c29;
+    --fb-muted: #817469;
+
+    --fb-yellow: #f5bf70;
+    --fb-yellow-hover: #e9ac55;
+
+    --fb-success: #397955;
+    --fb-success-bg: #e8f4ea;
+
+    --fb-warning: #966616;
+    --fb-warning-bg: #fff0ca;
+
+    --fb-processing: #326b94;
+    --fb-processing-bg: #e5f2fc;
+
+    --fb-danger: #b44141;
+    --fb-danger-bg: #fff0ee;
+
+    width: 100%;
+    max-width: 1100px;
+    min-height: 75vh;
+
+    margin: 0 auto;
+    padding: 24px 22px 45px;
+
+    color: var(--fb-text);
+
+    background-color: var(--fb-bg);
+
+    background-image:
+        linear-gradient(
+            rgba(159, 130, 105, 0.10) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(159, 130, 105, 0.10) 1px,
+            transparent 1px
+        );
+
+    background-size: 20px 20px;
+    border-radius: 10px;
+
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.feedback-page *,
+.feedback-page *::before,
+.feedback-page *::after {
+    box-sizing: border-box;
+}
+
+.feedback-page [hidden] {
+    display: none !important;
+}
+
+.feedback-page button,
+.feedback-page textarea {
+    font: inherit;
+}
+
+.feedback-page button {
+    cursor: pointer;
+}
+
+.feedback-page button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.feedback-page button:focus-visible,
+.feedback-page textarea:focus-visible {
+    outline: 3px solid var(--fb-yellow-hover);
+    outline-offset: 3px;
+}
+
+
+/* ==========================================================
+   2. TIÊU ĐỀ TRANG
+========================================================== */
+
+.feedback-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+
+    margin-bottom: 22px;
+}
+
+.feedback-header-content {
+    min-width: 0;
+}
+
+.feedback-eyebrow {
+    display: inline-block;
+
+    margin-bottom: 8px;
+    padding: 5px 10px;
+
+    border: 1px solid var(--fb-border);
+    border-radius: 5px;
+
+    background: #f8deae;
+
+    color: #5b4730;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.feedback-header h1 {
+    margin: 0 0 8px;
+
+    color: var(--fb-text);
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.feedback-header p {
+    max-width: 620px;
+    margin: 0;
+
+    color: var(--fb-muted);
+    font-size: 13px;
+    line-height: 1.75;
+}
+
+.feedback-header-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 56px;
+    height: 56px;
+
+    flex-shrink: 0;
+
+    border: 2px solid var(--fb-border);
+    border-radius: 12px;
+
+    background: var(--fb-yellow);
+
+    color: var(--fb-text);
+    font-size: 29px;
+    font-weight: 800;
+
+    box-shadow: 3px 3px 0 rgba(48, 44, 41, 0.16);
+}
+
+
+/* ==========================================================
+   3. THÔNG BÁO CHUNG
+========================================================== */
+
+.feedback-notice {
+    margin-bottom: 17px;
+    padding: 12px 15px;
+
+    border: 1px solid #d7c4ad;
+    border-radius: 6px;
+
+    background: #fff6e8;
+
+    color: #65523e;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.feedback-notice.success,
+.feedback-notice.is-success {
+    border-color: #9bcbab;
+    background: var(--fb-success-bg);
+    color: var(--fb-success);
+}
+
+.feedback-notice.error,
+.feedback-notice.is-error {
+    border-color: #e5aaa5;
+    background: var(--fb-danger-bg);
+    color: var(--fb-danger);
+}
+
+
+/* ==========================================================
+   4. KHUNG GỬI GÓP Ý
+========================================================== */
+
+.feedback-form-section,
+.feedback-history-section {
+    width: 100%;
+
+    padding: 22px;
+
+    border: 2px solid var(--fb-border);
+    border-radius: 7px;
+
+    background: var(--fb-card);
+
+    box-shadow: 3px 3px 0 rgba(48, 44, 41, 0.14);
+}
+
+.feedback-form-section {
+    margin-bottom: 23px;
+}
+
+.feedback-section-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+
+    margin-bottom: 19px;
+}
+
+.feedback-section-heading h2 {
+    margin: 0 0 6px;
+
+    color: var(--fb-text);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+.feedback-section-heading p {
+    margin: 0;
+
+    color: var(--fb-muted);
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.feedback-heading-symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 34px;
+    height: 34px;
+
+    flex-shrink: 0;
+
+    border: 1.5px solid var(--fb-border);
+    border-radius: 6px;
+
+    background: #f7d69e;
+
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+/* ==========================================================
+   5. FORM VÀ Ô NHẬP GÓP Ý
+========================================================== */
+
+.feedback-form {
+    width: 100%;
+}
+
+.feedback-field {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.feedback-field label {
+    color: var(--fb-text);
+    font-size: 13px;
+    font-weight: 750;
+}
+
+.feedback-required {
+    color: #bb453c;
+    font-weight: 800;
+}
+
+.feedback-field textarea {
+    display: block;
+
+    width: 100%;
+    min-height: 150px;
+    max-height: 450px;
+
+    padding: 13px 14px;
+
+    border: 2px solid var(--fb-border);
+    border-radius: 6px;
+
+    background: #fffefb;
+
+    color: var(--fb-text);
+    font-size: 13px;
+    line-height: 1.75;
+
+    resize: vertical;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.feedback-field textarea::placeholder {
+    color: #a29486;
+    opacity: 1;
+}
+
+.feedback-field textarea:focus {
+    border-color: #b58545;
+    outline: none;
+
+    box-shadow:
+        0 0 0 3px rgba(245, 191, 112, 0.18);
+}
+
+.feedback-field textarea:disabled {
+    background: #f2ebe2;
+    cursor: not-allowed;
+}
+
+.feedback-field-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    color: var(--fb-muted);
+    font-size: 11px;
+}
+
+.feedback-field-bottom small {
+    font-size: inherit;
+}
+
+.feedback-character-count {
+    color: #6d5e51;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
+.feedback-character-count.is-limit {
+    color: var(--fb-danger);
+}
+
+
+/* ==========================================================
+   6. CHÂN FORM VÀ NÚT GỬI
+========================================================== */
+
+.feedback-form-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    margin-top: 20px;
+}
+
+.feedback-form-note {
+    max-width: 490px;
+    margin: 0;
+
+    color: var(--fb-muted);
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+.feedback-submit-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+
+    flex-shrink: 0;
+
+    min-height: 43px;
+    padding: 9px 19px;
+
+    border: 2px solid var(--fb-border);
+    border-radius: 6px;
+
+    background: var(--fb-yellow);
+
+    color: #2d2824;
+    font-size: 13px;
+    font-weight: 800;
+
+    box-shadow: 3px 3px 0 #c8b6a1;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+.feedback-submit-button:hover:not(:disabled) {
+    background: var(--fb-yellow-hover);
+    transform: translateY(-1px);
+}
+
+.feedback-submit-button:active:not(:disabled) {
+    transform: translateY(1px);
+    box-shadow: 1px 1px 0 #c8b6a1;
+}
+
+.feedback-submit-icon {
+    font-size: 15px;
+    line-height: 1;
+}
+
+
+/* ==========================================================
+   7. KHUNG LỊCH SỬ GÓP Ý
+========================================================== */
+
+.feedback-history-section {
+    margin-top: 0;
+}
+
+.feedback-refresh-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    flex-shrink: 0;
+
+    min-height: 34px;
+    padding: 6px 12px;
+
+    border: 1.5px solid var(--fb-border);
+    border-radius: 6px;
+
+    background: #fff5e5;
+
+    color: var(--fb-text);
+    font-size: 11px;
+    font-weight: 750;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+.feedback-refresh-button:hover:not(:disabled) {
+    background: #f7dbaf;
+    transform: translateY(-1px);
+}
+
+
+/* ==========================================================
+   8. BỘ LỌC TRẠNG THÁI
+========================================================== */
+
+.feedback-filters {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    margin-bottom: 20px;
+    padding-bottom: 17px;
+
+    border-bottom: 1px solid #e5d8c8;
+}
+
+.feedback-filter-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 32px;
+    padding: 6px 12px;
+
+    border: 1.5px solid #cfc0b0;
+    border-radius: 6px;
+
+    background: #fffaf3;
+
+    color: #796a5d;
+    font-size: 11px;
+    font-weight: 700;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        color 0.2s ease;
+}
+
+.feedback-filter-button:hover:not(:disabled) {
+    border-color: var(--fb-border);
+    background: #f6eadb;
+    color: var(--fb-text);
+}
+
+.feedback-filter-button.active,
+.feedback-filter-button[aria-pressed="true"] {
+    border-color: var(--fb-border);
+    background: var(--fb-yellow);
+
+    color: var(--fb-text);
+    font-weight: 800;
+}
+
+
+/* ==========================================================
+   9. DANH SÁCH GÓP Ý
+========================================================== */
+
+.feedback-history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.feedback-history-message {
+    padding: 20px 15px;
+
+    border: 1px dashed #d6c5b2;
+    border-radius: 6px;
+
+    background: #fff8ef;
+
+    color: var(--fb-muted);
+    font-size: 12px;
+    text-align: center;
+}
+
+.feedback-history-error {
+    margin: 12px 0;
+    padding: 13px 15px;
+
+    border: 1px solid #e5aaa5;
+    border-radius: 6px;
+
+    background: var(--fb-danger-bg);
+    color: var(--fb-danger);
+
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+
+/* ==========================================================
+   10. THẺ LỊCH SỬ GÓP Ý
+========================================================== */
+
+.feedback-item {
+    width: 100%;
+
+    padding: 17px 18px;
+
+    border: 1.5px solid #b9a99a;
+    border-radius: 6px;
+
+    background: #fffdf9;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.feedback-item:hover {
+    border-color: var(--fb-border);
+    box-shadow: 2px 2px 0 rgba(48, 44, 41, 0.08);
+}
+
+.feedback-item-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+
+    border-bottom: 1px dashed #d7c9b8;
+}
+
+.feedback-item-information {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.feedback-item-number {
+    color: var(--fb-text);
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.feedback-item-date {
+    color: var(--fb-muted);
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+
+/* ==========================================================
+   11. TRẠNG THÁI GÓP Ý
+
+   SQL Server:
+       moi
+       dang_xu_ly
+       da_xu_ly
+
+   JS có thể đặt data-status hoặc class.
+========================================================== */
+
+.feedback-status {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 25px;
+    padding: 4px 10px;
+
+    border: 1px solid #d6b66a;
+    border-radius: 5px;
+
+    background: var(--fb-warning-bg);
+    color: var(--fb-warning);
+
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+/* Chờ xử lý */
+
+.feedback-status[data-status="moi"],
+.feedback-status.status-moi {
+    border-color: #d6b66a;
+    background: var(--fb-warning-bg);
+    color: var(--fb-warning);
+}
+
+/* Đang xử lý */
+
+.feedback-status[data-status="dang_xu_ly"],
+.feedback-status.status-dang_xu_ly {
+    border-color: #a1c7dd;
+    background: var(--fb-processing-bg);
+    color: var(--fb-processing);
+}
+
+/* Đã xử lý */
+
+.feedback-status[data-status="da_xu_ly"],
+.feedback-status.status-da_xu_ly {
+    border-color: #9ccbaa;
+    background: var(--fb-success-bg);
+    color: var(--fb-success);
+}
+
+
+/* ==========================================================
+   12. NỘI DUNG GÓP Ý
+========================================================== */
+
+.feedback-item-body h3 {
+    margin: 0 0 8px;
+
+    color: #82705f;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.feedback-item-content {
+    margin: 0;
+
+    color: var(--fb-text);
+    font-size: 13px;
+    line-height: 1.8;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+
+/* ==========================================================
+   13. PHẢN HỒI TỪ QUẢN TRỊ VIÊN
+========================================================== */
+
+.feedback-admin-reply {
+    margin-top: 16px;
+    padding: 14px 15px;
+
+    border: 1px solid #a9c5b1;
+    border-left: 4px solid var(--fb-success);
+    border-radius: 5px;
+
+    background: #f0f7ee;
+}
+
+.feedback-admin-reply-header {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    margin-bottom: 9px;
+}
+
+.feedback-admin-reply-header strong {
+    color: #3a6b4b;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.feedback-admin-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    width: 25px;
+    height: 25px;
+
+    border: 1px solid #79a889;
+    border-radius: 5px;
+
+    background: #d8ebdb;
+
+    color: #347448;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.feedback-admin-reply-content {
+    margin: 0;
+
+    color: #31543d;
+    font-size: 12px;
+    line-height: 1.8;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.feedback-resolved-date {
+    display: block;
+
+    margin-top: 9px;
+
+    color: #688473;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.feedback-resolved-date:empty {
+    display: none;
+}
+
+
+/* ==========================================================
+   14. CHƯA CÓ PHẢN HỒI ADMIN
+========================================================== */
+
+.feedback-pending-reply {
+    margin-top: 15px;
+    padding: 10px 12px;
+
+    border: 1px dashed #dbccb9;
+    border-radius: 5px;
+
+    background: #fff9ef;
+
+    color: #938172;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+
+/* ==========================================================
+   15. CHƯA CÓ LỊCH SỬ GÓP Ý
+========================================================== */
+
+.feedback-history-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 220px;
+
+    padding: 28px 16px;
+
+    border: 2px dashed #dbcab6;
+    border-radius: 7px;
+
+    background: #fff9f0;
+
+    text-align: center;
+}
+
+.feedback-empty-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 56px;
+    height: 56px;
+    margin-bottom: 13px;
+
+    border: 2px solid var(--fb-border);
+    border-radius: 10px;
+
+    background: #f8d9a6;
+
+    color: var(--fb-text);
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.feedback-history-empty h3 {
+    margin: 0 0 8px;
+
+    color: var(--fb-text);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.feedback-history-empty p {
+    max-width: 390px;
+    margin: 0;
+
+    color: var(--fb-muted);
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+
+/* ==========================================================
+   16. MÁY TÍNH BẢNG
+========================================================== */
+
+@media (max-width: 900px) {
+
+    .feedback-page {
+        padding: 21px 16px 38px;
+    }
+
+    .feedback-header h1 {
+        font-size: 23px;
+    }
+
+    .feedback-form-section,
+    .feedback-history-section {
+        padding: 19px;
+    }
+
+    .feedback-section-heading h2 {
+        font-size: 17px;
+    }
+
+}
+
+
+/* ==========================================================
+   17. ĐIỆN THOẠI
+========================================================== */
+
+@media (max-width: 600px) {
+
+    .feedback-page {
+        padding: 17px 11px 30px;
+        border-radius: 0;
+    }
+
+    .feedback-header {
+        gap: 11px;
+        margin-bottom: 18px;
+    }
+
+    .feedback-eyebrow {
+        font-size: 9px;
+    }
+
+    .feedback-header h1 {
+        font-size: 21px;
+    }
+
+    .feedback-header p {
+        font-size: 12px;
+    }
+
+    .feedback-header-icon {
+        width: 44px;
+        height: 44px;
+
+        font-size: 24px;
+    }
+
+    .feedback-form-section,
+    .feedback-history-section {
+        padding: 15px 13px;
+        border-radius: 6px;
+    }
+
+    .feedback-section-heading {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .feedback-section-heading h2 {
+        font-size: 16px;
+    }
+
+    .feedback-section-heading p {
+        font-size: 11px;
+    }
+
+    .feedback-heading-symbol {
+        width: 29px;
+        height: 29px;
+        font-size: 16px;
+    }
+
+    .feedback-field textarea {
+        min-height: 145px;
+        padding: 11px;
+
+        font-size: 12px;
+    }
+
+    .feedback-form-footer {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 13px;
+    }
+
+    .feedback-form-note {
+        font-size: 11px;
+    }
+
+    .feedback-submit-button {
+        align-self: stretch;
+        width: 100%;
+    }
+
+    .feedback-refresh-button {
+        padding: 6px 9px;
+        font-size: 10px;
+    }
+
+    .feedback-filters {
+        gap: 6px;
+    }
+
+    .feedback-filter-button {
+        min-height: 30px;
+        padding: 5px 9px;
+
+        font-size: 10px;
+    }
+
+    .feedback-item {
+        padding: 13px 12px;
+    }
+
+    .feedback-item-header {
+        gap: 9px;
+    }
+
+    .feedback-item-content {
+        font-size: 12px;
+    }
+
+    .feedback-admin-reply {
+        padding: 11px;
+    }
+
+    .feedback-admin-reply-content {
+        font-size: 11px;
+    }
+
+    .feedback-history-empty {
+        min-height: 190px;
+        padding: 20px 13px;
+    }
+
+}
+
+
+/* ==========================================================
+   18. HẠN CHẾ HIỆU ỨNG CHUYỂN ĐỘNG
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .feedback-page *,
+    .feedback-page *::before,
+    .feedback-page *::after {
+        transition: none !important;
+        animation: none !important;
+    }
+
+}

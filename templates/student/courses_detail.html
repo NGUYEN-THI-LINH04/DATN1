@@ -1,0 +1,502 @@
+{% extends "student/base.html" %}
+
+
+{% block title %}
+{{ course.TieuDe }} | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+<section class="course-page">
+
+    <!-- =================================================
+         HEADER KHÓA HỌC
+    ================================================== -->
+
+    <div class="course-header">
+
+        <div class="course-book-cover">
+
+            <small>
+                MỘC HÁN
+            </small>
+
+            <strong>
+                HSK {{ course.MaCapDo }}
+            </strong>
+
+        </div>
+
+
+        <div class="course-header-info">
+
+            <div class="course-level-line">
+
+                <span class="course-level-badge">
+                    HSK {{ course.MaCapDo }}
+                </span>
+
+
+                <span>
+                    {{ total_lessons }} bài
+                </span>
+
+            </div>
+
+
+            <h1 class="course-main-title">
+                HSK {{ course.MaCapDo }}
+            </h1>
+
+
+            <p class="course-description">
+
+                {% if course.MoTa %}
+
+                    {{ course.MoTa }}
+
+                {% else %}
+
+                    Học tiếng Trung HSK {{ course.MaCapDo }}
+                    theo từng bài với từ vựng,
+                    ngữ pháp và chữ Hán.
+
+                {% endif %}
+
+            </p>
+
+
+            <div class="course-header-stats">
+
+                <span>
+                    {{ total_vocabulary }}
+                    từ vựng
+                </span>
+
+
+                <span>
+                    •
+                </span>
+
+
+                <span>
+                    {{ total_grammar }}
+                    ngữ pháp
+                </span>
+
+
+                <span>
+                    •
+                </span>
+
+
+                <span>
+                    {{ total_hanzi }}
+                    chữ Hán
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         3 PHẦN CHÍNH
+    ================================================== -->
+
+    <div class="course-skill-row">
+
+        <span class="course-skill-label">
+            NỘI DUNG
+        </span>
+
+
+        <button
+            type="button"
+            class="
+                course-skill-tab
+                active
+            "
+        >
+            词
+            Từ vựng
+        </button>
+
+
+        <button
+            type="button"
+            class="course-skill-tab"
+        >
+            语
+            Ngữ pháp
+        </button>
+
+
+        <button
+            type="button"
+            class="course-skill-tab"
+        >
+            汉
+            Chữ Hán
+        </button>
+
+    </div>
+
+
+    <!-- =================================================
+         TIẾN ĐỘ
+    ================================================== -->
+
+    <div
+        class="course-progress-box"
+        data-progress="{{ progress_percent }}"
+    >
+
+        <div class="course-progress-head">
+
+            <strong>
+                Tiến độ học
+            </strong>
+
+
+            <span>
+                {{ completed_lessons }}
+                /
+                {{ total_lessons }}
+                bài
+            </span>
+
+        </div>
+
+
+        <div class="course-progress-track">
+
+            <div class="course-progress-value">
+            </div>
+
+        </div>
+
+
+        <div class="course-progress-percent">
+            {{ progress_percent }}%
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         DANH SÁCH BÀI
+    ================================================== -->
+
+    <div class="lesson-section-label">
+        BÀI HỌC
+    </div>
+
+
+    <div class="lesson-list">
+
+        {% for lesson in lessons %}
+
+            <a
+                href="{{ url_for(
+                    'lessons.detail',
+                    lesson_id=lesson.MaBaiHoc
+                ) }}"
+                class="lesson-row"
+            >
+
+                <div class="lesson-number">
+                    {{ lesson.SoThuTuBai }}
+                </div>
+
+
+                <div class="lesson-row-main">
+
+                    <div class="lesson-row-title">
+                        {{ lesson.TieuDe }}
+                    </div>
+
+
+                    <div class="lesson-row-meta">
+
+                        {{ lesson.SoTuVung }}
+                        từ vựng
+
+
+                        <span>
+                            ·
+                        </span>
+
+
+                        {{ lesson.SoNguPhap }}
+                        ngữ pháp
+
+
+                        <span>
+                            ·
+                        </span>
+
+
+                        {{ lesson.SoChuHan }}
+                        chữ Hán
+
+                    </div>
+
+                </div>
+
+
+                <div class="lesson-row-arrow">
+                    ›
+                </div>
+
+            </a>
+
+
+        {% else %}
+
+            <div class="empty-course-message">
+                Khóa học chưa có bài học.
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+
+   <!-- =================================================
+     TỔNG ÔN
+================================================== -->
+
+{% if lessons %}
+
+    <div class="course-review-area">
+
+        <button
+            type="button"
+            class="course-review-button"
+            id="openCourseReviewButton"
+        >
+
+            <span>
+                ↻
+            </span>
+
+            Tổng ôn
+
+        </button>
+
+    </div>
+
+
+    <!-- =================================================
+         POPUP CHỌN BÀI TỔNG ÔN
+    ================================================== -->
+
+    <div
+        class="course-review-modal"
+        id="courseReviewModal"
+        aria-hidden="true"
+    >
+
+        <!-- OVERLAY -->
+
+        <div
+            class="course-review-overlay"
+            id="courseReviewOverlay"
+        >
+        </div>
+
+
+        <!-- HỘP POPUP -->
+
+        <div
+            class="course-review-dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="courseReviewModalTitle"
+            data-course-id="{{ course.MaKhoaHoc }}"
+            data-review-url="{{ url_for('review.vocabulary') }}"
+        >
+
+            <!-- =============================================
+                 HEADER
+            ============================================== -->
+
+            <div class="course-review-dialog-header">
+
+                <div>
+
+                    <h2 id="courseReviewModalTitle">
+                        Chọn bài tổng ôn
+                    </h2>
+
+
+                    <p>
+                        Trộn từ vựng từ các bài đã chọn
+                        rồi luyện lại theo các chế độ học.
+                    </p>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="course-review-close"
+                    id="closeCourseReviewButton"
+                    aria-label="Đóng"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+            <!-- =============================================
+                 TOOLBAR
+            ============================================== -->
+
+            <div class="course-review-selector-head">
+
+                <button
+                    type="button"
+                    id="courseReviewSelectAllButton"
+                    class="course-review-select-all"
+                >
+                    Chọn tất cả
+                </button>
+
+
+                <span id="courseReviewSelectedText">
+
+                    Đã chọn
+                    1 / {{ total_lessons }}
+                    bài
+
+                </span>
+
+            </div>
+
+
+            <!-- =============================================
+                 DANH SÁCH BÀI
+            ============================================== -->
+
+            <div
+                class="course-review-lesson-list"
+                id="courseReviewLessonList"
+            >
+
+                {% for lesson in lessons %}
+
+                    <label
+                        class="
+                            course-review-lesson-item
+                            {% if loop.first %}
+                                selected
+                            {% endif %}
+                        "
+                    >
+
+                        <input
+                            type="checkbox"
+                            class="course-review-lesson-checkbox"
+
+                            value="{{ lesson.MaBaiHoc }}"
+
+                            data-order="{{ lesson.SoThuTuBai }}"
+
+                            data-vocabulary-count="{{ lesson.SoTuVung }}"
+
+                            {% if loop.first %}
+                                checked
+                            {% endif %}
+                        >
+
+
+                        <span class="course-review-check">
+                            ✓
+                        </span>
+
+
+                        <strong>
+
+                            Bài {{ lesson.SoThuTuBai }}
+                            ·
+                            {{ lesson.TieuDe }}
+
+                        </strong>
+
+
+                        <small>
+
+                            {{ lesson.SoTuVung }}
+                            từ vựng
+
+                        </small>
+
+                    </label>
+
+                {% endfor %}
+
+            </div>
+
+
+            <!-- =============================================
+                 FOOTER
+            ============================================== -->
+
+            <div class="course-review-dialog-footer">
+
+                <button
+                    type="button"
+                    class="course-review-cancel"
+                    id="cancelCourseReviewButton"
+                >
+                    Hủy
+                </button>
+
+
+                <button
+                    type="button"
+                    class="course-review-start"
+                    id="startCourseReviewButton"
+                >
+
+                    ▷ Bắt đầu ôn
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+ {% endif %}
+
+</section>
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script
+    src="{{ url_for(
+        'static',
+        filename='js/student.js'
+    ) }}"
+></script>
+
+
+<script
+    src="{{ url_for(
+        'static',
+        filename='js/course-detail.js'
+    ) }}"
+></script>
+
+{% endblock %}

@@ -1,0 +1,354 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Sửa ngữ pháp | Bài {{ lesson.order }} | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     BREADCRUMB
+===================================================== -->
+
+<div class="lesson-detail-breadcrumb">
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.index',
+            course_id=lesson.course_id
+        ) }}"
+    >
+        Bài học
+    </a>
+
+    <span>›</span>
+
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Bài {{ lesson.order }}
+    </a>
+
+    <span>›</span>
+
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.grammar',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Ngữ pháp
+    </a>
+
+    <span>›</span>
+
+
+    <strong>
+        Chỉnh sửa
+    </strong>
+
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<section class="lesson-admin-hero">
+
+    <div>
+
+        <span class="eyebrow">
+
+            HSK {{ lesson.course_level }}
+            ·
+            BÀI {{ lesson.order }}
+
+        </span>
+
+
+        <h1>
+            Sửa ngữ pháp
+        </h1>
+
+
+        <p>
+            {{ grammar.structure }}
+        </p>
+
+    </div>
+
+
+    <a
+        class="small-button"
+
+        href="{{ url_for(
+            'admin_lessons.grammar',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        ← Danh sách ngữ pháp
+    </a>
+
+</section>
+
+
+<!-- =====================================================
+     FORM SỬA NGỮ PHÁP
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                CHỈNH SỬA
+            </span>
+
+            <h2>
+                Ngữ pháp số {{ grammar.order }}
+            </h2>
+
+        </div>
+
+
+        <span
+            class="
+                course-status
+                course-status-{{ grammar.status }}
+            "
+        >
+
+            {{
+                statuses.get(
+                    grammar.status,
+                    grammar.status
+                )
+            }}
+
+        </span>
+
+    </div>
+
+
+    <form
+        method="post"
+
+        action="{{ url_for(
+            'admin_lessons.edit_lesson_grammar',
+
+            lesson_id=
+                lesson.id,
+
+            grammar_id=
+                grammar.id
+        ) }}"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <!-- =================================================
+             TÊN CẤU TRÚC
+        ================================================== -->
+
+        <div class="field">
+
+            <label for="grammar-structure">
+                Tên cấu trúc *
+            </label>
+
+
+            <input
+                id="grammar-structure"
+
+                type="text"
+
+                name="structure"
+
+                maxlength="300"
+
+                value="{{ grammar.structure }}"
+
+                required
+            >
+
+        </div>
+
+
+        <!-- =================================================
+             MÔ TẢ
+        ================================================== -->
+
+        <div class="field">
+
+            <label for="grammar-description">
+                Mô tả
+            </label>
+
+
+            <textarea
+                id="grammar-description"
+
+                name="description"
+
+                rows="5"
+            >{{ grammar.description }}</textarea>
+
+        </div>
+
+
+        <!-- =================================================
+             CÁCH DÙNG
+        ================================================== -->
+
+        <div class="field">
+
+            <label for="grammar-usage">
+                Cách dùng
+            </label>
+
+
+            <textarea
+                id="grammar-usage"
+
+                name="usage"
+
+                rows="5"
+            >{{ grammar.usage }}</textarea>
+
+        </div>
+
+
+        <!-- =================================================
+             VÍ DỤ TRUNG + PINYIN
+        ================================================== -->
+
+        <div class="grid-2">
+
+            <div class="field">
+
+                <label for="grammar-example-zh">
+                    Ví dụ tiếng Trung
+                </label>
+
+
+                <textarea
+                    id="grammar-example-zh"
+
+                    name="example_zh"
+
+                    rows="4"
+
+                    maxlength="1000"
+                >{{ grammar.example_zh }}</textarea>
+
+            </div>
+
+
+            <div class="field">
+
+                <label for="grammar-example-pinyin">
+                    Pinyin
+                </label>
+
+
+                <textarea
+                    id="grammar-example-pinyin"
+
+                    name="example_pinyin"
+
+                    rows="4"
+
+                    maxlength="1000"
+                >{{ grammar.example_pinyin }}</textarea>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             NGHĨA TIẾNG VIỆT
+        ================================================== -->
+
+        <div class="field">
+
+            <label for="grammar-example-vi">
+                Nghĩa tiếng Việt
+            </label>
+
+
+            <textarea
+                id="grammar-example-vi"
+
+                name="example_vi"
+
+                rows="4"
+
+                maxlength="1000"
+            >{{ grammar.example_vi }}</textarea>
+
+        </div>
+
+
+        <!-- =================================================
+             GHI CHÚ
+        ================================================== -->
+
+        <div class="notice">
+
+            Thứ tự và trạng thái ngữ pháp
+            được quản lý riêng tại trang
+            danh sách Ngữ pháp của bài.
+
+        </div>
+
+
+        <!-- =================================================
+             ACTION
+        ================================================== -->
+
+        <div class="course-action-buttons space-top">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lưu thay đổi
+            </button>
+
+
+            <a
+                class="small-button"
+
+                href="{{ url_for(
+                    'admin_lessons.grammar',
+                    lesson_id=lesson.id
+                ) }}"
+            >
+                Hủy
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+
+{% endblock %}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "buoc": 19,
+  "tong_chu_moi_hsk4": 300,
+  "unihan_zip": "D:\\DATN1\\data_sources\\unicode\\Unihan.zip",
+  "unihan_members_da_doc": [
+    "Unihan_IRGSources.txt",
+    "Unihan_Readings.txt"
+  ],
+  "cjk_radicals": "D:\\DATN1\\data_sources\\unicode\\CJKRadicals.txt",
+  "makemeahanzi_dictionary": "D:\\DATN1\\data_sources\\hanzi\\makemeahanzi-master\\makemeahanzi-master\\dictionary.txt",
+  "makemeahanzi_graphics": "D:\\DATN1\\data_sources\\hanzi\\makemeahanzi-master\\makemeahanzi-master\\graphics.txt",
+  "unihan_any_coverage": 300,
+  "unihan_kMandarin_coverage": 300,
+  "unihan_kTotalStrokes_coverage": 300,
+  "unihan_kRSUnicode_coverage": 300,
+  "makemeahanzi_dictionary_coverage": 300,
+  "makemeahanzi_graphics_coverage": 300,
+  "sonet_san_sang": 279,
+  "sonet_can_review": 21,
+  "bothu_map_ok": 293,
+  "bothu_can_review": 7,
+  "tinh_trang_du_lieu": {
+    "CAN_REVIEW_NGUON": 28,
+    "DU_NGUON_CAU_TRUC": 272
+  },
+  "issue_counts": {
+    "LECH_SO_NET": 21,
+    "NHIEU_RSUNICODE": 7
+  },
+  "source_sha256": "d274eceb4c1eb5f4609876b60cafaf7367039ffad7aba693fc858b715c2bf1ef",
+  "output_sha256": "5f85c0e6c74693e7a411e5e8531cad824ff2742a70e2e4933a089847ada45c8d",
+  "issues_sha256": "acebe2555ad0a8188aa7bf4b2f54dc5e219924ea63272975811ac1e0f697f943",
+  "da_chot_pinyin": false,
+  "da_chot_nghia_viet": false,
+  "da_gan_bai_hoc": false,
+  "da_ghi_sql": false
+}

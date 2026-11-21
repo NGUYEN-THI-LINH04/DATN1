@@ -1,0 +1,615 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Xem lại đáp án {{ de.TenDe }} | Mộc Hán
+{% endblock %}
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/student-luyen-thi-ket-qua.css') }}"
+>
+{% endblock %}
+
+{% block content %}
+
+<div class="lt-review-page">
+    <div class="lt-review-shell">
+
+        <!-- =========================================
+             1. TIÊU ĐỀ VÀ ĐIỀU HƯỚNG
+        ========================================== -->
+
+        <header class="lt-review-header">
+
+            <div class="lt-review-header-left">
+
+                <a
+                    class="lt-review-back"
+                    href="{{ url_for('student_luyen_thi.trang_ket_qua_luyen_thi', ma_lan=lan.MaLanThi) }}"
+                >
+                    ← Kết quả
+                </a>
+
+                <h1>
+                    Xem lại đáp án
+                </h1>
+
+                <span class="lt-review-score-badge">
+                    {% if lan.DiemToiDaLucLam|float > 0 %}
+                        {{ ((lan.Diem|float / lan.DiemToiDaLucLam|float) * 100)|round(0)|int }}/100
+                    {% else %}
+                        0/100
+                    {% endif %}
+                </span>
+
+            </div>
+
+            <div class="lt-review-filters">
+
+                <button
+                    type="button"
+                    class="lt-filter-btn is-active"
+                    data-review-filter="all"
+                    aria-pressed="true"
+                >
+                    Tất cả
+                </button>
+
+                <button
+                    type="button"
+                    class="lt-filter-btn"
+                    data-review-filter="wrong"
+                    aria-pressed="false"
+                >
+                    Chỉ câu sai
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- =========================================
+             2. THÔNG TIN ĐỀ THI
+        ========================================== -->
+
+        <div class="lt-review-summary">
+
+            <div>
+                <strong>{{ de.TenDe }}</strong>
+                <span>HSK {{ de.MaCapDo }}</span>
+            </div>
+
+            <div class="lt-review-summary-right">
+                <span>
+                    {{ chi_tiet|length }} câu hỏi
+                </span>
+
+                <span>
+                    {% if lan.KyNang == 'nghe' %}
+                        Nghe hiểu
+                    {% elif lan.KyNang == 'doc' %}
+                        Đọc hiểu
+                    {% elif lan.KyNang == 'viet' %}
+                        Viết
+                    {% else %}
+                        Cả đề
+                    {% endif %}
+                </span>
+            </div>
+
+        </div>
+
+
+        <!-- =========================================
+             3. HƯỚNG DẪN XEM LẠI
+        ========================================== -->
+
+        <div class="lt-review-notice">
+
+            <span class="lt-review-notice-icon">
+                💡
+            </span>
+
+            <div>
+                <strong>Xem lại bài làm</strong>
+
+                <p>
+                    Đáp án đúng được đánh dấu màu xanh.
+                    Câu trả lời sai hoặc bỏ trống được
+                    đánh dấu màu đỏ. Bạn có thể chọn
+                    "Chỉ câu sai" để ôn tập nhanh hơn.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- =========================================
+             4. ÂM THANH PHẦN NGHE
+        ========================================== -->
+
+        {% if audio_url and lan.KyNang in ('nghe', 'tat_ca') %}
+
+        <section class="lt-review-audio">
+
+            <div class="lt-review-audio-heading">
+
+                <span class="lt-review-audio-icon">
+                    🎧
+                </span>
+
+                <div>
+                    <h2>Nghe lại bài thi</h2>
+
+                    <p>
+                        Phát lại bản ghi âm gốc của đề.
+                    </p>
+                </div>
+
+            </div>
+
+            <audio
+                controls
+                preload="metadata"
+                src="{{ audio_url }}"
+            >
+                Trình duyệt không hỗ trợ phát âm thanh.
+            </audio>
+
+        </section>
+
+        {% endif %}
+
+
+        <!-- =========================================
+             5. DANH SÁCH CÂU HỎI
+        ========================================== -->
+
+        <div class="lt-review-sections">
+
+            {% for skill_key in ('nghe', 'doc', 'viet') %}
+
+                {% set questions = chi_tiet
+                    | selectattr('KyNang', 'equalto', skill_key)
+                    | list %}
+
+                {% if questions %}
+
+                <section class="lt-review-section">
+
+                    <!-- TÊN KỸ NĂNG -->
+
+                    <div class="lt-review-section-heading">
+
+                        <div class="lt-review-section-title">
+
+                            <span class="lt-review-section-icon">
+
+                                {% if skill_key == 'nghe' %}
+                                    🎧
+                                {% elif skill_key == 'doc' %}
+                                    📖
+                                {% else %}
+                                    ✍
+                                {% endif %}
+
+                            </span>
+
+                            <h2>
+
+                                {% if skill_key == 'nghe' %}
+                                    Nghe hiểu
+                                    <span>听力</span>
+
+                                {% elif skill_key == 'doc' %}
+                                    Đọc hiểu
+                                    <span>阅读</span>
+
+                                {% else %}
+                                    Viết
+                                    <span>书写</span>
+
+                                {% endif %}
+
+                            </h2>
+
+                        </div>
+
+                        <span class="lt-review-section-count">
+                            {{ questions|length }} câu
+                        </span>
+
+                    </div>
+
+
+                    <!-- HÌNH LỰA CHỌN DÙNG CHUNG -->
+
+                    {% set shared = namespace(seen=[]) %}
+
+                    {% for q in questions %}
+
+                        {% if q.AnhNhomLuaChon
+                            and q.AnhNhomLuaChon not in shared.seen %}
+
+                            <div class="lt-review-shared-picture">
+
+                                <div class="lt-review-shared-heading">
+                                    Hình lựa chọn dùng chung
+                                </div>
+
+                                <img
+                                    src="{{ q.AnhNhomLuaChon }}"
+                                    alt="Nhóm hình lựa chọn"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+                            {% set shared.seen = shared.seen + [q.AnhNhomLuaChon] %}
+
+                        {% endif %}
+
+                    {% endfor %}
+
+
+                    <!-- CÁC THẺ CÂU HỎI -->
+
+                    <div class="lt-review-grid">
+
+                        {% for q in questions %}
+
+                        <article
+                            class="lt-review-item {% if q.LaDapAnDung %}is-correct{% else %}is-wrong{% endif %}"
+                        >
+
+                            <!-- SỐ CÂU VÀ TRẠNG THÁI -->
+
+                            <div class="lt-review-item-heading">
+
+                                <div class="lt-review-question-info">
+
+                                    <span class="lt-review-question-number">
+                                        {{ q.SoCau }}
+                                    </span>
+
+                                    <span class="lt-review-part-name">
+                                        {% if q.Phan %}
+                                            Phần {{ q.Phan }}
+                                        {% else %}
+                                            Câu {{ q.SoCau }}
+                                        {% endif %}
+                                    </span>
+
+                                </div>
+
+                                <span class="lt-review-question-status">
+
+                                    {% if q.LaDapAnDung %}
+
+                                        ✓ Đúng
+
+                                    {% elif not q.CauTraLoi %}
+
+                                        Bỏ trống
+
+                                    {% else %}
+
+                                        ✕ Sai
+
+                                    {% endif %}
+
+                                </span>
+
+                            </div>
+
+
+                            <!-- NỘI DUNG CÂU HỎI -->
+
+                            {% if q.NoiDung %}
+
+                            <div class="lt-review-question-text">
+                                {{ q.NoiDung }}
+                            </div>
+
+                            {% endif %}
+
+
+                            <!-- HÌNH CÂU HỎI -->
+
+                            {% if q.AnhCauHoi %}
+
+                            <div class="lt-review-question-image">
+
+                                <img
+                                    src="{{ q.AnhCauHoi }}"
+                                    alt="Hình minh họa câu {{ q.SoCau }}"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+                            {% endif %}
+
+
+                            <!-- CÁC LỰA CHỌN -->
+
+                            {% if q.lua_chon %}
+
+                            <div class="lt-review-options">
+
+                                {% for option in q.lua_chon %}
+
+                                    {% set option_code = option.ma|string %}
+
+                                    <div
+                                        class="lt-review-option
+                                        {% if q.CauTraLoi is not none and q.CauTraLoi|string == option_code %}
+                                            is-selected
+                                        {% endif %}
+                                        {% if q.DapAnDungLucCham is not none and q.DapAnDungLucCham|string == option_code %}
+                                            is-answer
+                                        {% endif %}"
+                                    >
+
+                                        <span class="lt-review-option-code">
+                                            {{ option_code }}
+                                        </span>
+
+                                        {% if option.nhan
+                                            and option.nhan|string != option_code %}
+
+                                        <span class="lt-review-option-label">
+                                            {{ option.nhan }}
+                                        </span>
+
+                                        {% endif %}
+
+                                    </div>
+
+                                {% endfor %}
+
+                            </div>
+
+                            {% elif q.LoaiCauHoi == 'dung_sai' %}
+
+                            <div class="lt-review-options">
+
+                                {% for option_code in ('√', '×') %}
+
+                                <div
+                                    class="lt-review-option
+                                    {% if q.CauTraLoi == option_code %}
+                                        is-selected
+                                    {% endif %}
+                                    {% if q.DapAnDungLucCham == option_code %}
+                                        is-answer
+                                    {% endif %}"
+                                >
+                                    <span class="lt-review-option-code">
+                                        {{ option_code }}
+                                    </span>
+                                </div>
+
+                                {% endfor %}
+
+                            </div>
+
+                            {% endif %}
+
+
+                            <!-- SO SÁNH ĐÁP ÁN -->
+
+                            <div class="lt-review-answer-comparison">
+
+                                <div class="lt-review-answer-row">
+
+                                    <span class="lt-review-answer-label">
+                                        Bạn trả lời:
+                                    </span>
+
+                                    <strong
+                                        class="{% if q.LaDapAnDung %}is-good{% else %}is-bad{% endif %}"
+                                    >
+
+                                        {% if q.CauTraLoi is not none
+                                            and q.CauTraLoi|string|trim %}
+
+                                            {{ q.CauTraLoi }}
+
+                                        {% else %}
+
+                                            Bỏ trống
+
+                                        {% endif %}
+
+                                    </strong>
+
+                                </div>
+
+                                <div class="lt-review-answer-row">
+
+                                    <span class="lt-review-answer-label">
+                                        Đáp án đúng:
+                                    </span>
+
+                                    <strong class="is-good">
+
+                                        {% if q.DapAnDungLucCham is not none
+                                            and q.DapAnDungLucCham|string|trim %}
+
+                                            {{ q.DapAnDungLucCham }}
+
+                                        {% else %}
+
+                                            Chưa có đáp án
+
+                                        {% endif %}
+
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- ĐIỂM CÂU HỎI -->
+
+                            <div class="lt-review-item-footer">
+
+                                <span>
+                                    {% if q.LaDapAnDung %}
+                                        Đã trả lời chính xác
+                                    {% elif not q.CauTraLoi %}
+                                        Bạn chưa trả lời câu này
+                                    {% else %}
+                                        Cần ôn tập thêm
+                                    {% endif %}
+                                </span>
+
+                                <strong>
+                                    {{ q.Diem|default(0, true) }}
+                                    /
+                                    {{ q.DiemToiDaLucLam|default(0, true) }}
+                                    điểm
+                                </strong>
+
+                            </div>
+
+                        </article>
+
+                        {% endfor %}
+
+                    </div>
+
+                </section>
+
+                {% endif %}
+
+            {% endfor %}
+
+        </div>
+
+
+        <!-- THÔNG BÁO KHI KHÔNG CÓ CÂU SAI -->
+
+        <div class="lt-review-empty" id="lt-review-empty" hidden>
+
+            <span>🎉</span>
+
+            <h3>Không có câu sai!</h3>
+
+            <p>
+                Bạn đã trả lời đúng tất cả các câu
+                trong bài thi này.
+            </p>
+
+        </div>
+
+
+        <!-- =========================================
+             6. NÚT ĐIỀU HƯỚNG CUỐI TRANG
+        ========================================== -->
+
+        <div class="lt-review-bottom-actions">
+
+            <a
+                class="lt-btn lt-btn-primary"
+                href="{{ url_for('student_luyen_thi.trang_ket_qua_luyen_thi', ma_lan=lan.MaLanThi) }}"
+            >
+                ← Kết quả
+            </a>
+
+            <a
+                class="lt-btn"
+                href="{{ url_for('student_luyen_thi.trang_lam_bai', ma_de=de.MaDeThi, ky_nang=lan.KyNang) }}"
+            >
+                ↻ Làm lại
+            </a>
+
+            <a
+                class="lt-btn"
+                href="{{ url_for('student_luyen_thi.trang_chi_tiet_de', ma_de=de.MaDeThi) }}"
+            >
+                ☰ Xem các phần thi
+            </a>
+
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
+
+
+{% block scripts %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    "use strict";
+
+    const page = document.querySelector(".lt-review-page");
+
+    if (!page) {
+        return;
+    }
+
+    const buttons = page.querySelectorAll(
+        "[data-review-filter]"
+    );
+
+    const wrongCards = page.querySelectorAll(
+        ".lt-review-item.is-wrong"
+    );
+
+    const emptyBox = document.getElementById(
+        "lt-review-empty"
+    );
+
+    buttons.forEach(function (button) {
+
+        button.addEventListener("click", function () {
+
+            const onlyWrong =
+                button.dataset.reviewFilter === "wrong";
+
+            page.classList.toggle(
+                "lt-only-wrong",
+                onlyWrong
+            );
+
+            buttons.forEach(function (item) {
+
+                const active = item === button;
+
+                item.classList.toggle(
+                    "is-active",
+                    active
+                );
+
+                item.setAttribute(
+                    "aria-pressed",
+                    String(active)
+                );
+
+            });
+
+            if (emptyBox) {
+
+                emptyBox.hidden = !(
+                    onlyWrong &&
+                    wrongCards.length === 0
+                );
+
+            }
+
+        });
+
+    });
+
+});
+</script>
+
+{% endblock %}

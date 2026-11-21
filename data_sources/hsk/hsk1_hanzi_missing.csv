@@ -1,0 +1,302 @@
+﻿SoThuTuBai,MaBaiHoc,ThuTu,MaChuHan,KyTu,Pinyin,NghiaTiengViet,MaBoThu,BoThuKyHieu,TenBoThu,SoNet,CachGhiNho,ViDuTiengTrung,ViDuPinyin,ViDuTiengViet,MaNguon,TrangThai
+1,1,1,1,你,nǐ,bạn; cậu,9,人,Nhân,7,,你好！,Nǐ hǎo!,Xin chào!,1005,ban_nhap
+1,1,2,2,好,hǎo,tốt; khỏe,38,女,Nữ,6,,你好！,Nǐ hǎo!,Xin chào!,1005,ban_nhap
+1,1,3,3,我,wǒ,tôi; mình,62,戈,Qua,7,,我是安娜。,Wǒ shì Ānnà.,Tôi là Anna.,1005,ban_nhap
+1,1,4,4,是,shì,là,72,日,Nhật,9,,我是安娜。,Wǒ shì Ānnà.,Tôi là Anna.,1005,ban_nhap
+1,1,5,5,叫,jiào,gọi; tên là,30,口,Khẩu,5,,我叫安娜。,Wǒ jiào Ānnà.,Tôi tên là Anna.,1005,ban_nhap
+1,1,6,6,什,shén,gì; cái gì (dùng trong 什么),9,人,Nhân,4,,什么,shénme,gì; cái gì,1005,ban_nhap
+1,1,7,7,么,me,"hậu tố dùng trong từ nghi vấn như 什么 (gì, cái gì)",4,丿,Triệt,3,,什么,shénme,gì; cái gì,1005,ban_nhap
+1,1,8,8,名,míng,tên; danh xưng,30,口,Khẩu,6,,名字,míngzi,tên; tên gọi,1005,ban_nhap
+1,1,9,9,字,zì,chữ; ký tự,39,子,Tử,6,,名字,míngzi,tên; tên gọi,1005,ban_nhap
+1,1,10,10,很,hěn,rất,60,彳,Xích,9,,很好,hěn hǎo,rất tốt; rất khỏe,1005,ban_nhap
+1,1,11,11,高,gāo,cao,189,高,Cao,10,,高兴,gāoxìng,vui; vui mừng,1005,ban_nhap
+1,1,12,12,兴,xìng,hứng; hứng thú; sự hào hứng,12,八,Bát,6,,高兴,gāoxìng,vui; vui mừng,1005,ban_nhap
+1,1,13,13,认,rèn,nhận biết; nhận ra; công nhận,149,言,Ngôn,4,,认识,rènshi,biết; quen; làm quen,1005,ban_nhap
+1,1,14,14,识,shí,biết; nhận biết; kiến thức,149,言,Ngôn,7,,认识,rènshi,biết; quen; làm quen,1005,ban_nhap
+1,1,15,15,吗,ma,trợ từ nghi vấn,30,口,Khẩu,6,,你好吗？,Nǐ hǎo ma?,Bạn khỏe không?,1005,ban_nhap
+1,1,16,16,呢,ne,trợ từ hỏi lại hoặc tiếp nối chủ đề,30,口,Khẩu,8,,你呢？,Nǐ ne?,Còn bạn thì sao?,1005,ban_nhap
+1,1,17,17,也,yě,cũng,5,乙,Ất,3,,我也很高兴。,Wǒ yě hěn gāoxìng.,Tôi cũng rất vui.,1005,ban_nhap
+2,2,1,18,国,guó,nước; quốc gia,31,囗,Vi,8,,,,,1005,ban_nhap
+2,2,2,19,家,jiā,nhà; gia đình,40,宀,Miên,10,,,,,1005,ban_nhap
+2,2,3,20,外,wài,ngoài; bên ngoài,36,夕,Tịch,5,,,,,1005,ban_nhap
+2,2,4,21,汉,hàn,Hán; người Hán; thuộc tiếng Hán/Trung Quốc,85,水,Thuỷ,5,,,,,1005,ban_nhap
+2,2,5,22,语,yǔ,ngôn ngữ; lời nói,149,言,Ngôn,9,,,,,1005,ban_nhap
+2,2,6,23,介,jiè,ở giữa; xen giữa; dùng trong 介绍 (giới thiệu),9,人,Nhân,4,,,,,1005,ban_nhap
+2,2,7,24,绍,shào,nối tiếp; dùng trong 介绍 (giới thiệu),120,糸,Mịch,8,,,,,1005,ban_nhap
+2,2,8,25,男,nán,nam; đàn ông,102,田,Điền,7,,,,,1005,ban_nhap
+2,2,9,26,人,rén,người,9,人,Nhân,2,,,,,1005,ban_nhap
+2,2,10,27,生,shēng,sinh; sinh ra; sống; người học/học sinh (trong từ ghép),100,生,Sinh,5,,,,,1005,ban_nhap
+2,2,11,28,们,men,hậu tố chỉ số nhiều cho đại từ hoặc danh từ chỉ người,9,人,Nhân,5,,,,,1005,ban_nhap
+2,2,12,29,您,nín,ông; bà; ngài; bạn,61,心,Tâm,11,,,,,1005,ban_nhap
+2,2,13,30,女,nǚ,nữ; phụ nữ,38,女,Nữ,3,,,,,1005,ban_nhap
+2,2,14,31,谁,shéi,ai,149,言,Ngôn,10,,,,,1005,ban_nhap
+2,2,15,32,他,tā,anh ấy; ông ấy,9,人,Nhân,5,,,,,1005,ban_nhap
+2,2,16,33,她,tā,cô ấy; bà ấy,38,女,Nữ,6,,,,,1005,ban_nhap
+2,2,17,34,先,xiān,trước; trước tiên,10,儿,Nhân,6,,,,,1005,ban_nhap
+2,2,18,35,小,xiǎo,nhỏ; bé,42,小,Tiểu,3,,,,,1005,ban_nhap
+2,2,19,36,姐,jiě,chị gái,38,女,Nữ,8,,,,,1005,ban_nhap
+2,2,20,37,有,yǒu,có,74,月,Nguyệt,6,,,,,1005,ban_nhap
+2,2,21,38,中,zhōng,trong; giữa; ở giữa,2,丨,Cổn,4,,,,,1005,ban_nhap
+2,2,22,39,文,wén,văn; chữ viết; ngôn ngữ; văn hóa,67,文,Văn,4,,,,,1005,ban_nhap
+2,2,23,40,越,yuè,vượt qua; vượt hơn; Việt (trong 越南),156,走,Tẩu,12,,,,,1005,ban_nhap
+2,2,24,41,南,nán,nam; phía nam,24,十,Thập,9,,,,,1005,ban_nhap
+3,3,1,42,爸,bà,bố; ba,88,父,Phụ,8,,,,,1005,ban_nhap
+3,3,2,43,弟,dì,em trai,57,弓,Cung,7,,,,,1005,ban_nhap
+3,3,3,44,儿,ér,con; con trai,10,儿,Nhân,2,,,,,1005,ban_nhap
+3,3,4,45,子,zi,con; hậu tố danh từ,39,子,Tử,3,,,,,1005,ban_nhap
+3,3,5,46,哥,gē,anh trai,30,口,Khẩu,10,,,,,1005,ban_nhap
+3,3,6,47,孩,hái,trẻ em; đứa trẻ,39,子,Tử,9,,,,,1005,ban_nhap
+3,3,7,48,里,lǐ,trong; bên trong,166,里,Lý,7,,,,,1005,ban_nhap
+3,3,8,49,老,lǎo,già; lớn tuổi,125,老,Lão,6,,,,,1005,ban_nhap
+3,3,9,50,妈,mā,mẹ,38,女,Nữ,6,,,,,1005,ban_nhap
+3,3,10,51,妹,mèi,em gái,38,女,Nữ,8,,,,,1005,ban_nhap
+3,3,11,52,朋,péng,bạn (thường dùng trong từ ghép như 朋友),74,月,Nguyệt,8,,,,,1005,ban_nhap
+3,3,12,53,友,yǒu,bạn; bạn bè,29,又,Hựu,4,,,,,1005,ban_nhap
+3,3,13,54,奶,nǎi,sữa,38,女,Nữ,5,,,,,1005,ban_nhap
+3,3,14,55,爷,yé,ông; ông nội,88,父,Phụ,6,,,,,1005,ban_nhap
+4,4,1,56,八,bā,tám; 8,12,八,Bát,2,,,,,1005,ban_nhap
+4,4,2,57,百,bǎi,một trăm; 100,106,白,Bạch,6,,,,,1005,ban_nhap
+4,4,3,58,半,bàn,một nửa; nửa,24,十,Thập,5,,,,,1005,ban_nhap
+4,4,4,59,杯,bēi,cốc; ly,75,木,Mộc,8,,,,,1005,ban_nhap
+4,4,5,60,本,běn,quyển; cuốn,75,木,Mộc,5,,,,,1005,ban_nhap
+4,4,6,61,次,cì,lần,76,欠,Khiếm,6,,,,,1005,ban_nhap
+4,4,7,62,第,dì,tiền tố chỉ số thứ tự (thứ...),118,竹,Trúc,11,,,,,1005,ban_nhap
+4,4,8,63,二,èr,hai; 2,7,二,Nhị,2,,,,,1005,ban_nhap
+4,4,9,64,多,duō,nhiều; hơn,36,夕,Tịch,6,,,,,1005,ban_nhap
+4,4,10,65,少,shǎo,ít; thiếu,42,小,Tiểu,4,,,,,1005,ban_nhap
+4,4,11,66,个,gè,cái; người; chiếc,2,丨,Cổn,3,,,,,1005,ban_nhap
+4,4,12,67,几,jǐ,mấy; bao nhiêu; vài,16,几,Kỷ,2,,,,,1005,ban_nhap
+4,4,13,68,九,jiǔ,chín; 9,5,乙,Ất,2,,,,,1005,ban_nhap
+4,4,14,69,块,kuài,"miếng; cục; đồng, tệ",32,土,Thổ,7,,,,,1005,ban_nhap
+4,4,15,70,两,liǎng,hai,1,一,Nhất,7,,,,,1005,ban_nhap
+4,4,16,71,零,líng,không; số 0,173,雨,Vũ,13,,,,,1005,ban_nhap
+4,4,17,72,六,liù,sáu; 6,12,八,Bát,4,,,,,1005,ban_nhap
+4,4,18,73,七,qī,bảy; 7,1,一,Nhất,2,,,,,1005,ban_nhap
+4,4,19,74,三,sān,ba; 3,1,一,Nhất,3,,,,,1005,ban_nhap
+4,4,20,75,十,shí,mười; 10,24,十,Thập,2,,,,,1005,ban_nhap
+4,4,21,76,四,sì,bốn; 4,31,囗,Vi,5,,,,,1005,ban_nhap
+4,4,22,77,岁,suì,tuổi,46,山,Sơn,6,,,,,1005,ban_nhap
+4,4,23,78,五,wǔ,năm; 5,7,二,Nhị,4,,,,,1005,ban_nhap
+4,4,24,79,一,yī,một; 1,1,一,Nhất,1,,,,,1005,ban_nhap
+5,5,1,80,年,nián,năm,51,干,Can,6,,,,,1005,ban_nhap
+5,5,2,81,号,hào,ngày; số,30,口,Khẩu,5,,,,,1005,ban_nhap
+5,5,3,82,后,hòu,sau; phía sau,30,口,Khẩu,6,,,,,1005,ban_nhap
+5,5,4,83,天,tiān,ngày,37,大,Đại,4,,,,,1005,ban_nhap
+5,5,5,84,今,jīn,nay; hiện nay; hiện tại,9,人,Nhân,4,,,,,1005,ban_nhap
+5,5,6,85,明,míng,sáng; rõ; tiếp theo/ngày mai (trong từ chỉ thời gian),72,日,Nhật,8,,,,,1005,ban_nhap
+5,5,7,86,前,qián,trước; phía trước,18,刀,Đao,9,,,,,1005,ban_nhap
+5,5,8,87,去,qù,đi; đi đến,28,厶,Khư,5,,,,,1005,ban_nhap
+5,5,9,88,日,rì,ngày,72,日,Nhật,4,,,,,1005,ban_nhap
+5,5,10,89,期,qī,kỳ; thời kỳ; giai đoạn; thời hạn,74,月,Nguyệt,12,,,,,1005,ban_nhap
+5,5,11,90,新,xīn,mới,69,斤,Cân,13,,,,,1005,ban_nhap
+5,5,12,91,星,xīng,sao; thiên thể,72,日,Nhật,9,,,,,1005,ban_nhap
+5,5,13,92,月,yuè,tháng,74,月,Nguyệt,4,,,,,1005,ban_nhap
+5,5,14,93,昨,zuó,hôm qua (thường dùng trong từ ghép như 昨天),72,日,Nhật,9,,,,,1005,ban_nhap
+6,6,1,94,白,bái,trắng,106,白,Bạch,5,,,,,1005,ban_nhap
+6,6,2,95,常,cháng,thường; thường xuyên,50,巾,Cân,11,,,,,1005,ban_nhap
+6,6,3,96,点,diǎn,giờ,86,火,Hoả,9,,,,,1005,ban_nhap
+6,6,4,97,分,fēn,phút,18,刀,Đao,4,,,,,1005,ban_nhap
+6,6,5,98,马,mǎ,ngựa,187,馬,Mã,3,,,,,1005,ban_nhap
+6,6,6,99,上,shàng,trên; lên,1,一,Nhất,3,,,,,1005,ban_nhap
+6,6,7,100,午,wǔ,trưa; giờ Ngọ,24,十,Thập,4,,,,,1005,ban_nhap
+6,6,8,101,时,shí,thời gian; giờ; lúc,72,日,Nhật,7,,,,,1005,ban_nhap
+6,6,9,102,候,hòu,đợi; thời điểm; lúc (trong 时候),9,人,Nhân,10,,,,,1005,ban_nhap
+6,6,10,103,间,jiān,gian; phòng,169,門,Môn,7,,,,,1005,ban_nhap
+6,6,11,104,晚,wǎn,muộn; trễ,72,日,Nhật,11,,,,,1005,ban_nhap
+6,6,12,105,下,xià,dưới; xuống,1,一,Nhất,3,,,,,1005,ban_nhap
+6,6,13,106,现,xiàn,hiện; hiện tại; xuất hiện,96,玉,Ngọc,8,,,,,1005,ban_nhap
+6,6,14,107,在,zài,ở; tại; đang,32,土,Thổ,6,,,,,1005,ban_nhap
+6,6,15,108,会,huì,biết; có thể,9,人,Nhân,6,,,,,1005,ban_nhap
+6,6,16,109,早,zǎo,sớm,72,日,Nhật,6,,,,,1005,ban_nhap
+6,6,17,110,最,zuì,nhất,73,曰,Viết,12,,,,,1005,ban_nhap
+7,7,1,111,班,bān,lớp; lớp học,96,玉,Ngọc,10,,,,,1005,ban_nhap
+7,7,2,112,大,dà,to; lớn,37,大,Đại,3,,,,,1005,ban_nhap
+7,7,3,113,学,xué,học,39,子,Tử,8,,,,,1005,ban_nhap
+7,7,4,114,放,fàng,đặt; để; thả,66,攴,Phác,8,,,,,1005,ban_nhap
+7,7,5,115,假,jià,nghỉ; kỳ nghỉ (trong 放假),9,人,Nhân,11,,,,,1005,ban_nhap
+7,7,6,116,教,jiāo,dạy,66,攴,Phác,11,,,,,1005,ban_nhap
+7,7,7,117,楼,lóu,tòa nhà; tầng,75,木,Mộc,13,,,,,1005,ban_nhap
+7,7,8,118,考,kǎo,thi; kiểm tra,125,老,Lão,6,,,,,1005,ban_nhap
+7,7,9,119,试,shì,thử,149,言,Ngôn,8,,,,,1005,ban_nhap
+7,7,10,120,课,kè,bài học; tiết học; môn học,149,言,Ngôn,10,,,,,1005,ban_nhap
+7,7,11,121,师,shī,thầy; giáo viên; chuyên gia,50,巾,Cân,6,,,,,1005,ban_nhap
+7,7,12,122,请,qǐng,mời; xin; vui lòng,149,言,Ngôn,10,,,,,1005,ban_nhap
+7,7,13,123,真,zhēn,thật; quả thật,109,目,Mục,10,,,,,1005,ban_nhap
+7,7,14,124,同,tóng,cùng; giống; như nhau,30,口,Khẩu,6,,,,,1005,ban_nhap
+7,7,15,125,图,tú,hình; tranh; bản đồ; sơ đồ,31,囗,Vi,8,,,,,1005,ban_nhap
+7,7,16,126,书,shū,sách,2,丨,Cổn,4,,,,,1005,ban_nhap
+7,7,17,127,馆,guǎn,quán; nhà/phòng/cơ sở phục vụ một chức năng,184,食,Thực,11,,,,,1005,ban_nhap
+7,7,18,128,习,xí,học; luyện tập; thói quen,15,冫,Băng,3,,,,,1005,ban_nhap
+7,7,19,129,校,xiào,trường học,75,木,Mộc,10,,,,,1005,ban_nhap
+7,7,20,130,院,yuàn,viện; học viện; cơ sở; sân,170,阜,Phụ,9,,,,,1005,ban_nhap
+7,7,21,131,知,zhī,biết; nhận biết,111,矢,Thỉ,8,,,,,1005,ban_nhap
+8,8,1,132,打,dǎ,đánh; gọi; chơi,64,手,Thủ,5,,,,,1005,ban_nhap
+8,8,2,133,开,kāi,mở; bật,55,廾,Củng,4,,,,,1005,ban_nhap
+8,8,3,134,读,dú,đọc; đọc thành tiếng,149,言,Ngôn,10,,,,,1005,ban_nhap
+8,8,4,135,关,guān,đóng; tắt,12,八,Bát,6,,,,,1005,ban_nhap
+8,8,5,136,回,huí,về; trở về; quay lại,31,囗,Vi,6,,,,,1005,ban_nhap
+8,8,6,137,答,dá,trả lời; đáp,118,竹,Trúc,12,,,,,1005,ban_nhap
+8,8,7,138,记,jì,ghi; nhớ; ghi nhớ,149,言,Ngôn,5,,,,,1005,ban_nhap
+8,8,8,139,得,de,trợ tố/cách đọc de trong 记得; nhớ,60,彳,Xích,11,,,,,1005,ban_nhap
+8,8,9,140,住,zhù,ở; sống; cư trú,9,人,Nhân,7,,,,,1005,ban_nhap
+8,8,10,141,包,bāo,túi; gói; bọc,20,勹,Bao,5,,,,,1005,ban_nhap
+8,8,11,142,说,shuō,nói,149,言,Ngôn,9,,,,,1005,ban_nhap
+8,8,12,143,话,huà,lời nói; lời; câu nói,149,言,Ngôn,8,,,,,1005,ban_nhap
+8,8,13,144,听,tīng,nghe,30,口,Khẩu,7,,,,,1005,ban_nhap
+8,8,14,145,写,xiě,viết,14,冖,Mịch,5,,,,,1005,ban_nhap
+8,8,15,146,忘,wàng,quên,61,心,Tâm,7,,,,,1005,ban_nhap
+8,8,16,147,问,wèn,hỏi,169,門,Môn,6,,,,,1005,ban_nhap
+8,8,17,148,页,yè,trang,181,頁,Hiệt,6,,,,,1005,ban_nhap
+8,8,18,149,桌,zhuō,bàn,75,木,Mộc,10,,,,,1005,ban_nhap
+9,9,1,150,穿,chuān,mặc; đi; mang,116,穴,Huyệt,9,,,,,1005,ban_nhap
+9,9,2,151,等,děng,đợi; chờ,118,竹,Trúc,12,,,,,1005,ban_nhap
+9,9,3,152,动,dòng,động; di chuyển; cử động,19,力,Lực,6,,,,,1005,ban_nhap
+9,9,4,153,作,zuò,làm; thực hiện; sáng tác,9,人,Nhân,7,,,,,1005,ban_nhap
+9,9,5,154,干,gàn,làm; làm việc,24,十,Thập,3,,,,,1005,ban_nhap
+9,9,6,155,工,gōng,công việc; lao động; thợ; nghề,48,工,Công,3,,,,,1005,ban_nhap
+9,9,7,156,累,lèi,mệt; mệt mỏi,120,糸,Mịch,11,,,,,1005,ban_nhap
+9,9,8,157,忙,máng,bận,61,心,Tâm,6,,,,,1005,ban_nhap
+9,9,9,158,起,qǐ,dậy; đứng lên; bắt đầu,156,走,Tẩu,10,,,,,1005,ban_nhap
+9,9,10,159,床,chuáng,giường,53,广,Nghiễm,7,,,,,1005,ban_nhap
+9,9,11,160,来,lái,đến; tới,75,木,Mộc,7,,,,,1005,ban_nhap
+9,9,12,161,睡,shuì,ngủ,109,目,Mục,13,,,,,1005,ban_nhap
+9,9,13,162,觉,jiào,ngủ (cách đọc jiào trong 睡觉),147,見,Kiến,9,,,,,1005,ban_nhap
+9,9,14,163,洗,xǐ,rửa; giặt; tắm,85,水,Thuỷ,9,,,,,1005,ban_nhap
+9,9,15,164,休,xiū,nghỉ; dừng,9,人,Nhân,6,,,,,1005,ban_nhap
+9,9,16,165,息,xī,nghỉ; hơi thở; ngừng,61,心,Tâm,10,,,,,1005,ban_nhap
+9,9,17,166,做,zuò,làm,9,人,Nhân,11,,,,,1005,ban_nhap
+10,10,1,167,菜,cài,rau; món ăn,140,艸,Thảo,11,,,,,1005,ban_nhap
+10,10,2,168,茶,chá,trà,140,艸,Thảo,9,,,,,1005,ban_nhap
+10,10,3,169,吃,chī,ăn,30,口,Khẩu,6,,,,,1005,ban_nhap
+10,10,4,170,饭,fàn,cơm; bữa ăn,184,食,Thực,7,,,,,1005,ban_nhap
+10,10,5,171,饿,è,đói,184,食,Thực,10,,,,,1005,ban_nhap
+10,10,6,172,店,diàn,cửa hàng; tiệm,53,广,Nghiễm,8,,,,,1005,ban_nhap
+10,10,7,173,喝,hē,uống,30,口,Khẩu,12,,,,,1005,ban_nhap
+10,10,8,174,鸡,jī,gà,196,鳥,Điểu,7,,,,,1005,ban_nhap
+10,10,9,175,蛋,dàn,trứng,142,虫,Trùng,11,,,,,1005,ban_nhap
+10,10,10,176,渴,kě,khát,85,水,Thuỷ,12,,,,,1005,ban_nhap
+10,10,11,177,米,mǐ,gạo; mét (đơn vị đo),119,米,Mễ,6,,,,,1005,ban_nhap
+10,10,12,178,面,miàn,mặt; bề mặt; bột/mì,176,面,Diện,9,,,,,1005,ban_nhap
+10,10,13,179,条,tiáo,"dải; điều/khoản; lượng từ cho vật dài, mảnh",75,木,Mộc,7,,,,,1005,ban_nhap
+10,10,14,180,牛,niú,bò,93,牛,Ngưu,4,,,,,1005,ban_nhap
+10,10,15,181,肉,ròu,thịt,130,肉,Nhục,6,,,,,1005,ban_nhap
+10,10,16,182,水,shuǐ,nước,85,水,Thuỷ,4,,,,,1005,ban_nhap
+10,10,17,183,果,guǒ,quả; trái cây; kết quả,75,木,Mộc,8,,,,,1005,ban_nhap
+11,11,1,184,别,bié,đừng,18,刀,Đao,7,,,,,1005,ban_nhap
+11,11,2,185,的,de,của; trợ từ nối định ngữ,106,白,Bạch,8,,,,,1005,ban_nhap
+11,11,3,186,东,dōng,đông; phía đông,1,一,Nhất,5,,,,,1005,ban_nhap
+11,11,4,187,西,xī,tây; phía tây,146,襾,Á,6,,,,,1005,ban_nhap
+11,11,5,188,贵,guì,đắt,154,貝,Bối,9,,,,,1005,ban_nhap
+11,11,6,189,买,mǎi,mua,37,大,Đại,6,,,,,1005,ban_nhap
+11,11,7,190,哪,nǎ,nào; cái nào,30,口,Khẩu,9,,,,,1005,ban_nhap
+11,11,8,191,些,xiē,một số; một vài; vài,7,二,Nhị,8,,,,,1005,ban_nhap
+11,11,9,192,那,nà,đó; cái đó,163,邑,Ấp,6,,,,,1005,ban_nhap
+11,11,10,193,钱,qián,tiền,167,金,Kim,10,,,,,1005,ban_nhap
+11,11,11,194,商,shāng,thương mại; buôn bán; thương nhân,30,口,Khẩu,11,,,,,1005,ban_nhap
+11,11,12,195,场,chǎng,nơi; sân; địa điểm; lượng từ cho buổi/trận,32,土,Thổ,6,,,,,1005,ban_nhap
+11,11,13,196,衣,yī,quần áo; y phục,145,衣,Y,6,,,,,1005,ban_nhap
+11,11,14,197,服,fú,quần áo; mặc; phục/tùng,74,月,Nguyệt,8,,,,,1005,ban_nhap
+11,11,15,198,元,yuán,tệ; đồng nhân dân tệ,10,儿,Nhân,4,,,,,1005,ban_nhap
+11,11,16,199,这,zhè,này; cái này,162,辵,Sước,7,,,,,1005,ban_nhap
+12,12,1,200,地,de,trợ từ nối trạng ngữ với động từ,32,土,Thổ,6,,,,,1005,ban_nhap
+12,12,2,201,房,fáng,nhà; phòng,63,戶,Hộ,8,,,,,1005,ban_nhap
+12,12,3,202,净,jìng,sạch; hoàn toàn,15,冫,Băng,8,,,,,1005,ban_nhap
+12,12,4,203,边,biān,bên; cạnh; rìa,162,辵,Sước,5,,,,,1005,ban_nhap
+12,12,5,204,门,mén,cửa; cổng,169,門,Môn,3,,,,,1005,ban_nhap
+12,12,6,205,口,kǒu,miệng,30,口,Khẩu,3,,,,,1005,ban_nhap
+12,12,7,206,手,shǒu,tay; bàn tay,64,手,Thủ,4,,,,,1005,ban_nhap
+13,13,1,207,北,běi,bắc; phía bắc,21,匕,Tỷ,5,,,,,1005,ban_nhap
+13,13,2,208,方,fāng,phương; hướng; phía; nơi; cách,70,方,Phương,4,,,,,1005,ban_nhap
+13,13,3,209,旁,páng,bên; bên cạnh,70,方,Phương,10,,,,,1005,ban_nhap
+13,13,4,210,右,yòu,phải; bên phải,30,口,Khẩu,5,,,,,1005,ban_nhap
+13,13,5,211,正,zhèng,chính; đúng; ngay,77,止,Chỉ,5,,,,,1005,ban_nhap
+13,13,6,212,左,zuǒ,trái; bên trái,48,工,Công,5,,,,,1005,ban_nhap
+14,14,1,213,车,chē,xe; phương tiện,159,車,Xa,4,,,,,1005,ban_nhap
+14,14,2,214,站,zhàn,trạm; ga; đứng,117,立,Lập,10,,,,,1005,ban_nhap
+14,14,3,215,从,cóng,từ,9,人,Nhân,4,,,,,1005,ban_nhap
+14,14,4,216,路,lù,đường; tuyến đường,157,足,Túc,13,,,,,1005,ban_nhap
+14,14,5,217,跑,pǎo,chạy,157,足,Túc,12,,,,,1005,ban_nhap
+14,14,6,218,汽,qì,hơi; hơi nước,85,水,Thuỷ,7,,,,,1005,ban_nhap
+14,14,7,219,远,yuǎn,xa,162,辵,Sước,7,,,,,1005,ban_nhap
+14,14,8,220,走,zǒu,đi; đi bộ; rời đi,156,走,Tẩu,7,,,,,1005,ban_nhap
+15,15,1,221,风,fēng,gió,182,風,Phong,4,,,,,1005,ban_nhap
+15,15,2,222,花,huā,hoa; bông hoa,140,艸,Thảo,7,,,,,1005,ban_nhap
+15,15,3,223,冷,lěng,lạnh,15,冫,Băng,7,,,,,1005,ban_nhap
+15,15,4,224,热,rè,nóng,86,火,Hoả,10,,,,,1005,ban_nhap
+15,15,5,225,山,shān,núi; đồi,46,山,Sơn,3,,,,,1005,ban_nhap
+15,15,6,226,树,shù,cây,75,木,Mộc,9,,,,,1005,ban_nhap
+15,15,7,227,气,qì,khí; không khí; thời tiết; tức giận,84,气,Khí,4,,,,,1005,ban_nhap
+15,15,8,228,雨,yǔ,mưa,173,雨,Vũ,8,,,,,1005,ban_nhap
+16,16,1,229,病,bìng,bệnh; ốm,104,疒,Nạch,10,,,,,1005,ban_nhap
+16,16,2,230,看,kàn,xem; nhìn,109,目,Mục,9,,,,,1005,ban_nhap
+16,16,3,231,毛,máo,lông; tóc,82,毛,Mao,4,,,,,1005,ban_nhap
+16,16,4,232,身,shēn,thân; cơ thể; bản thân,158,身,Thân,7,,,,,1005,ban_nhap
+16,16,5,233,体,tǐ,thể; cơ thể; hình thức,9,人,Nhân,7,,,,,1005,ban_nhap
+16,16,6,234,医,yī,y; y tế; bác sĩ; chữa trị,23,匸,Hễ,7,,,,,1005,ban_nhap
+17,17,1,235,爱,ài,yêu; thích,87,爪,Trảo,10,,,,,1005,ban_nhap
+17,17,2,236,唱,chàng,hát,30,口,Khẩu,11,,,,,1005,ban_nhap
+17,17,3,237,歌,gē,bài hát,76,欠,Khiếm,14,,,,,1005,ban_nhap
+17,17,4,238,球,qiú,quả bóng; bóng,96,玉,Ngọc,11,,,,,1005,ban_nhap
+17,17,5,239,电,diàn,điện,73,曰,Viết,5,,,,,1005,ban_nhap
+17,17,6,240,脑,nǎo,não; đầu óc,130,肉,Nhục,10,,,,,1005,ban_nhap
+17,17,7,241,视,shì,nhìn; xem; thị,147,見,Kiến,8,,,,,1005,ban_nhap
+17,17,8,242,机,jī,máy; máy móc; cơ hội,75,木,Mộc,6,,,,,1005,ban_nhap
+17,17,9,243,影,yǐng,hình ảnh; bóng; phim,59,彡,Sam,15,,,,,1005,ban_nhap
+17,17,10,244,玩,wán,chơi; vui chơi,96,玉,Ngọc,8,,,,,1005,ban_nhap
+17,17,11,245,笑,xiào,cười; mỉm cười,118,竹,Trúc,10,,,,,1005,ban_nhap
+17,17,12,246,网,wǎng,lưới; mạng; mạng internet,122,网,Võng,6,,,,,1005,ban_nhap
+17,17,13,247,喜,xǐ,thích; vui; mừng,30,口,Khẩu,12,,,,,1005,ban_nhap
+17,17,14,248,欢,huān,vui; hoan hỉ; dùng trong 喜欢 (thích),76,欠,Khiếm,6,,,,,1005,ban_nhap
+18,18,1,249,京,jīng,kinh đô; thủ đô,8,亠,Đầu,8,,,,,1005,ban_nhap
+18,18,2,250,票,piào,vé; phiếu,113,示,Kỳ,11,,,,,1005,ban_nhap
+18,18,3,251,到,dào,đến; tới,18,刀,Đao,8,,,,,1005,ban_nhap
+18,18,4,252,飞,fēi,bay,183,飛,Phi,3,,,,,1005,ban_nhap
+18,18,5,253,火,huǒ,lửa,86,火,Hoả,4,,,,,1005,ban_nhap
+18,18,6,254,送,sòng,tiễn; đưa; gửi,162,辵,Sước,9,,,,,1005,ban_nhap
+18,18,7,255,行,xíng,được; ổn; có thể,144,行,Hành,6,,,,,1005,ban_nhap
+18,18,8,256,找,zhǎo,tìm; tìm kiếm,64,手,Thủ,7,,,,,1005,ban_nhap
+18,18,9,257,坐,zuò,ngồi; đi bằng,32,土,Thổ,7,,,,,1005,ban_nhap
+19,19,1,258,帮,bāng,giúp; giúp đỡ,50,巾,Cân,9,,,,,1005,ban_nhap
+19,19,2,259,出,chū,ra; đi ra,17,凵,Khảm,5,,,,,1005,ban_nhap
+19,19,3,260,进,jìn,vào; đi vào,162,辵,Sước,7,,,,,1005,ban_nhap
+19,19,4,261,拿,ná,cầm; lấy,64,手,Thủ,10,,,,,1005,ban_nhap
+19,19,5,262,再,zài,lại; một lần nữa; rồi,13,冂,Quynh,6,,,,,1005,ban_nhap
+19,19,6,263,着,zhe,đang; ở trạng thái tiếp diễn,109,目,Mục,11,,,,,1005,ban_nhap
+19,19,7,264,准,zhǔn,chuẩn; chính xác; cho phép; sắp,15,冫,Băng,10,,,,,1005,ban_nhap
+19,19,8,265,备,bèi,chuẩn bị; trang bị,34,夂,Tri,8,,,,,1005,ban_nhap
+20,20,1,266,不,bù,không,1,一,Nhất,4,,,,,1005,ban_nhap
+20,20,2,267,对,duì,đúng; chính xác,41,寸,Thốn,5,,,,,1005,ban_nhap
+20,20,3,268,错,cuò,sai; lỗi,167,金,Kim,13,,,,,1005,ban_nhap
+20,20,4,269,过,guò,qua; đi qua; trải qua,162,辵,Sước,6,,,,,1005,ban_nhap
+20,20,5,270,还,hái,vẫn; còn,162,辵,Sước,7,,,,,1005,ban_nhap
+20,20,6,271,就,jiù,thì; liền; ngay,43,尢,Uông,12,,,,,1005,ban_nhap
+20,20,7,272,见,jiàn,gặp; thấy,147,見,Kiến,4,,,,,1005,ban_nhap
+20,20,8,273,了,le,rồi; đã,6,亅,Quyết,2,,,,,1005,ban_nhap
+20,20,9,274,没,méi,không; chưa,85,水,Thuỷ,7,,,,,1005,ban_nhap
+20,20,10,275,能,néng,có thể; có khả năng,130,肉,Nhục,10,,,,,1005,ban_nhap
+20,20,11,276,想,xiǎng,muốn; nghĩ; nghĩ đến,61,心,Tâm,13,,,,,1005,ban_nhap
+20,20,12,277,要,yào,muốn; cần; sẽ; sắp,146,襾,Á,9,,,,,1005,ban_nhap
+20,20,13,278,用,yòng,dùng; sử dụng,101,用,Dụng,5,,,,,1005,ban_nhap
+20,20,14,279,道,dào,đường; con đường; cách; đạo/lẽ,162,辵,Sước,12,,,,,1005,ban_nhap
+21,21,1,280,比,bǐ,so với; hơn,81,比,Tỷ,4,,,,,1005,ban_nhap
+21,21,2,281,差,chà,kém; khác; sai,48,工,Công,9,,,,,1005,ban_nhap
+21,21,3,282,非,fēi,không; sai; phi-,175,非,Phi,8,,,,,1005,ban_nhap
+21,21,4,283,坏,huài,xấu; hỏng,32,土,Thổ,7,,,,,1005,ban_nhap
+21,21,5,284,快,kuài,nhanh; nhanh chóng,61,心,Tâm,7,,,,,1005,ban_nhap
+21,21,6,285,慢,màn,chậm,61,心,Tâm,14,,,,,1005,ban_nhap
+21,21,7,286,难,nán,khó; khó khăn,29,又,Hựu,10,,,,,1005,ban_nhap
+21,21,8,287,太,tài,quá; rất,37,大,Đại,4,,,,,1005,ban_nhap
+21,21,9,288,样,yàng,dạng; kiểu; mẫu; loại,75,木,Mộc,10,,,,,1005,ban_nhap
+21,21,10,289,重,zhòng,nặng,166,里,Lý,9,,,,,1005,ban_nhap
+22,22,1,290,客,kè,khách; khách hàng,40,宀,Miên,9,,,,,1005,ban_nhap
+22,22,2,291,告,gào,nói; báo; thông báo,30,口,Khẩu,7,,,,,1005,ban_nhap
+22,22,3,292,诉,sù,nói/kể; khiếu nại; kiện,149,言,Ngôn,7,,,,,1005,ban_nhap
+22,22,4,293,给,gěi,cho; đưa; cho ai,120,糸,Mịch,9,,,,,1005,ban_nhap
+22,22,5,294,系,xì,hệ; quan hệ; liên hệ; nối/buộc,120,糸,Mịch,7,,,,,1005,ban_nhap
+22,22,6,295,事,shì,việc; chuyện; sự việc,6,亅,Quyết,8,,,,,1005,ban_nhap
+22,22,7,296,谢,xiè,cảm ơn; xin lỗi; tàn/héo (hoa lá),149,言,Ngôn,12,,,,,1005,ban_nhap
+23,23,1,297,吧,ba,nhé; đi; chứ,30,口,Khẩu,7,,,,,1005,ban_nhap
+23,23,2,298,都,dōu,đều; tất cả,163,邑,Ấp,10,,,,,1005,ban_nhap
+23,23,3,299,跟,gēn,với; cùng; theo,157,足,Túc,13,,,,,1005,ban_nhap
+23,23,4,300,和,hé,và; với,30,口,Khẩu,8,,,,,1005,ban_nhap
+23,23,5,301,怎,zěn,thế nào; làm sao (thường dùng trong 怎么),61,心,Tâm,9,,,,,1005,ban_nhap

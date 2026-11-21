@@ -1,0 +1,903 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Từ vựng Bài {{ lesson.order }} | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     BREADCRUMB
+===================================================== -->
+
+<div class="lesson-detail-breadcrumb">
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.index',
+            course_id=lesson.course_id
+        ) }}"
+    >
+        Bài học
+    </a>
+
+    <span>›</span>
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Bài {{ lesson.order }}
+    </a>
+
+    <span>›</span>
+
+    <strong>
+        Từ vựng
+    </strong>
+
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<section class="lesson-admin-hero">
+
+    <div>
+
+        <span class="eyebrow">
+
+            HSK {{ lesson.course_level }}
+            ·
+            BÀI {{ lesson.order }}
+
+        </span>
+
+
+        <h1>
+            {{ lesson.title }}
+        </h1>
+
+
+        <div class="lesson-admin-meta">
+
+            <span
+                class="
+                    course-status
+                    course-status-{{ lesson.status }}
+                "
+            >
+
+                {{
+                    statuses.get(
+                        lesson.status,
+                        lesson.status
+                    )
+                }}
+
+            </span>
+
+
+            <span>
+                {{ lesson.course_title }}
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <a
+        class="small-button"
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        ← Tổng quan
+    </a>
+
+</section>
+
+
+<!-- =====================================================
+     TABS
+===================================================== -->
+
+<nav class="lesson-admin-tabs">
+
+
+    <!-- =================================================
+         TỔNG QUAN
+    ================================================== -->
+
+    <a
+        class="lesson-admin-tab"
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Tổng quan
+    </a>
+
+
+    <!-- =================================================
+         TỪ VỰNG
+    ================================================== -->
+
+    <a
+        class="lesson-admin-tab active"
+        href="{{ url_for(
+            'admin_lessons.vocabulary',
+            lesson_id=lesson.id
+        ) }}"
+    >
+
+        Từ vựng
+
+        <strong>
+            {{ lesson.vocabulary_count }}
+        </strong>
+
+    </a>
+
+
+    <!-- =================================================
+         NGỮ PHÁP
+    ================================================== -->
+
+    <a
+        class="lesson-admin-tab"
+        href="{{ url_for(
+            'admin_lessons.grammar',
+            lesson_id=lesson.id
+        ) }}"
+    >
+
+        Ngữ pháp
+
+        <strong>
+            {{ lesson.grammar_count }}
+        </strong>
+
+    </a>
+
+
+    <!-- =================================================
+         CHỮ HÁN
+         Chưa nối route.
+    ================================================== -->
+
+    <a
+    class="lesson-admin-tab"
+
+    href="{{ url_for(
+        'admin_lessons.hanzi',
+        lesson_id=lesson.id
+    ) }}"
+>
+
+    Chữ Hán
+
+    <strong>
+        {{ lesson.hanzi_count }}
+    </strong>
+
+ </a>
+
+
+</nav>
+
+
+<!-- =====================================================
+     GẮN TỪ TỪ KHO VÀO BÀI
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                KHO TỪ VỰNG
+            </span>
+
+            <h2>
+                Gắn từ vào Bài {{ lesson.order }}
+            </h2>
+
+            <p>
+                Tìm trong kho từ vựng đã duyệt
+                và gắn từ vào bài học hiện tại.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         TÌM KIẾM
+    ================================================== -->
+
+    <form
+        method="get"
+        action="{{ url_for(
+            'admin_lessons.vocabulary',
+            lesson_id=lesson.id
+        ) }}"
+        class="lesson-vocabulary-search"
+    >
+
+        <div class="field">
+
+            <label for="lesson-word-search">
+                Tìm từ
+            </label>
+
+            <input
+                id="lesson-word-search"
+                type="search"
+                name="q"
+                maxlength="200"
+                value="{{ keyword }}"
+                placeholder="Nhập chữ Hán, Pinyin hoặc nghĩa tiếng Việt"
+            >
+
+        </div>
+
+
+        <div class="course-action-buttons">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Tìm trong kho
+            </button>
+
+
+            {% if keyword %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_lessons.vocabulary',
+                        lesson_id=lesson.id
+                    ) }}"
+                >
+                    Xóa tìm kiếm
+                </a>
+
+            {% endif %}
+
+        </div>
+
+    </form>
+
+
+    <!-- =================================================
+         KẾT QUẢ TÌM
+    ================================================== -->
+
+    {% if keyword %}
+
+        <div class="space-top">
+
+            <p>
+
+                Kết quả cho:
+
+                <strong>
+                    “{{ keyword }}”
+                </strong>
+
+                ·
+
+                <strong>
+                    {{ available_words|length }}
+                </strong>
+
+                từ chưa có trong bài.
+
+            </p>
+
+        </div>
+
+
+        <div class="table-scroll">
+
+            <table class="data-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Chữ Hán
+                        </th>
+
+                        <th>
+                            Pinyin
+                        </th>
+
+                        <th>
+                            Nghĩa
+                        </th>
+
+                        <th>
+                            Từ loại
+                        </th>
+
+                        <th>
+                            Đang dùng
+                        </th>
+
+                        <th>
+                            Thao tác
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    {% for word in available_words %}
+
+                        <tr>
+
+                            <td>
+
+                                <strong
+                                    class="lesson-vocabulary-hanzi"
+                                >
+                                    {{ word.hanzi }}
+                                </strong>
+
+                            </td>
+
+
+                            <td>
+                                {{ word.pinyin }}
+                            </td>
+
+
+                            <td>
+                                {{ word.meaning }}
+                            </td>
+
+
+                            <td>
+
+                                {% if word.word_type %}
+
+                                    {{ word.word_type }}
+
+                                {% else %}
+
+                                    —
+
+                                {% endif %}
+
+                            </td>
+
+
+                            <td>
+
+                                {{ word.lesson_count }}
+                                bài
+
+                            </td>
+
+
+                            <td>
+
+                                <form
+                                    method="post"
+                                    action="{{ url_for(
+                                        'admin_lessons.attach_vocabulary',
+
+                                        lesson_id=
+                                            lesson.id,
+
+                                        vocabulary_id=
+                                            word.id
+                                    ) }}"
+                                >
+
+                                    <input
+                                        type="hidden"
+                                        name="csrf_token"
+                                        value="{{ csrf_token() }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_keyword"
+                                        value="{{ keyword }}"
+                                    >
+
+
+                                    <button
+                                        type="submit"
+                                        class="small-button"
+                                    >
+                                        + Gắn vào bài
+                                    </button>
+
+                                </form>
+
+                            </td>
+
+                        </tr>
+
+
+                    {% else %}
+
+                        <tr>
+
+                            <td
+                                colspan="6"
+                                class="center-text"
+                            >
+
+                                Không tìm thấy từ phù hợp
+                                chưa được gắn vào bài này.
+
+                            </td>
+
+                        </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    {% else %}
+
+        <div class="notice space-top">
+
+            Nhập chữ Hán, Pinyin hoặc nghĩa tiếng Việt
+            để tìm từ trong kho.
+
+        </div>
+
+    {% endif %}
+
+</section>
+
+
+<!-- =====================================================
+     DANH SÁCH TỪ VỰNG
+===================================================== -->
+
+<section class="panel space-top">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                TỪ VỰNG
+            </span>
+
+            <h2>
+                Từ vựng của Bài {{ lesson.order }}
+            </h2>
+
+            <p>
+                Hiện có
+                <strong>
+                    {{ lesson.vocabulary_count }}
+                </strong>
+                từ được gắn vào bài học này.
+            </p>
+
+        </div>
+
+
+        <!-- =====================================
+             LƯU THỨ TỰ
+        ====================================== -->
+
+        {% if lesson.vocabulary_count > 1 %}
+
+            <form
+                id="reorder-vocabulary-form"
+                method="post"
+                action="{{ url_for(
+                    'admin_lessons.reorder_vocabulary',
+                    lesson_id=lesson.id
+                ) }}"
+            >
+
+                <input
+                    type="hidden"
+                    name="csrf_token"
+                    value="{{ csrf_token() }}"
+                >
+
+
+                <button
+                    type="submit"
+                    class="button"
+                >
+                    Lưu thứ tự
+                </button>
+
+            </form>
+
+        {% endif %}
+
+    </div>
+
+
+    <!-- =====================================
+         HƯỚNG DẪN ĐỔI THỨ TỰ
+    ====================================== -->
+
+    {% if lesson.vocabulary_count > 1 %}
+
+        <div class="notice lesson-order-notice">
+
+            Muốn thay đổi thứ tự:
+            nhập lại các số từ
+
+            <strong>
+                1 đến {{ lesson.vocabulary_count }}
+            </strong>
+
+            sao cho mỗi số chỉ xuất hiện một lần,
+            sau đó bấm
+
+            <strong>
+                Lưu thứ tự
+            </strong>.
+
+        </div>
+
+    {% endif %}
+
+
+    <div class="table-scroll">
+
+        <table class="data-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>
+                        Thứ tự
+                    </th>
+
+                    <th>
+                        Chữ Hán
+                    </th>
+
+                    <th>
+                        Pinyin
+                    </th>
+
+                    <th>
+                        Nghĩa tiếng Việt
+                    </th>
+
+                    <th>
+                        Từ loại
+                    </th>
+
+                    <th>
+                        Ví dụ
+                    </th>
+
+                    <th>
+                        Duyệt
+                    </th>
+
+                    <th>
+                        Thao tác
+                    </th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                {% for word in vocabulary_items %}
+
+                    <tr>
+
+
+                        <!-- =============================
+                             THỨ TỰ
+                        ============================== -->
+
+                        <td>
+
+                            {% if lesson.vocabulary_count > 1 %}
+
+                                <input
+                                    class="lesson-vocabulary-order-input"
+                                    type="number"
+                                    name="order_{{ word.id }}"
+                                    value="{{ word.order }}"
+                                    min="1"
+                                    max="{{ lesson.vocabulary_count }}"
+                                    step="1"
+                                    form="reorder-vocabulary-form"
+                                    required
+                                >
+
+                            {% else %}
+
+                                <strong>
+                                    {{ word.order }}
+                                </strong>
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             CHỮ HÁN
+                        ============================== -->
+
+                        <td>
+
+                            <strong
+                                class="lesson-vocabulary-hanzi"
+                            >
+                                {{ word.hanzi }}
+                            </strong>
+
+
+                            {% if
+                                word.traditional
+                                and
+                                word.traditional
+                                != word.hanzi
+                            %}
+
+                                <div class="media-path">
+
+                                    Phồn thể:
+                                    {{ word.traditional }}
+
+                                </div>
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             PINYIN
+                        ============================== -->
+
+                        <td>
+                            {{ word.pinyin }}
+                        </td>
+
+
+                        <!-- =============================
+                             NGHĨA
+                        ============================== -->
+
+                        <td>
+                            {{ word.meaning }}
+                        </td>
+
+
+                        <!-- =============================
+                             TỪ LOẠI
+                        ============================== -->
+
+                        <td>
+
+                            {% if word.word_type %}
+
+                                {{ word.word_type }}
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             VÍ DỤ
+                        ============================== -->
+
+                        <td>
+
+                            {% if word.example_zh %}
+
+                                <strong>
+                                    {{ word.example_zh }}
+                                </strong>
+
+
+                                {% if word.example_vi %}
+
+                                    <div class="media-path">
+                                        {{ word.example_vi }}
+                                    </div>
+
+                                {% endif %}
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             DUYỆT
+                        ============================== -->
+
+                        <td>
+
+                            {% if word.approved %}
+
+                                <span class="media-file-ok">
+                                    Đã duyệt
+                                </span>
+
+                            {% else %}
+
+                                <span class="media-file-warning">
+                                    Chưa duyệt
+                                </span>
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             BỎ KHỎI BÀI
+                        ============================== -->
+
+                        <td>
+
+                            <form
+                                method="post"
+                                action="{{ url_for(
+                                    'admin_lessons.detach_vocabulary',
+
+                                    lesson_id=
+                                        lesson.id,
+
+                                    vocabulary_id=
+                                        word.id
+                                ) }}"
+                                class="lesson-detach-word-form"
+                                data-confirm="Bạn có chắc muốn bỏ từ {{ word.hanzi }} khỏi Bài {{ lesson.order }}? Từ vẫn được giữ trong kho từ vựng."
+                            >
+
+                                <input
+                                    type="hidden"
+                                    name="csrf_token"
+                                    value="{{ csrf_token() }}"
+                                >
+
+
+                                <button
+                                    type="submit"
+                                    class="
+                                        small-button
+                                        lesson-detach-button
+                                    "
+                                >
+                                    Bỏ khỏi bài
+                                </button>
+
+                            </form>
+
+                        </td>
+
+                    </tr>
+
+
+                {% else %}
+
+                    <tr>
+
+                        <td
+                            colspan="8"
+                            class="center-text"
+                        >
+
+                            Bài học này chưa có từ vựng.
+
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script>
+
+document
+    .querySelectorAll(
+        ".lesson-detach-word-form"
+    )
+    .forEach(
+        function (form) {
+
+            form.addEventListener(
+                "submit",
+                function (event) {
+
+                    const message =
+                        String(
+                            form.dataset.confirm
+                            || ""
+                        )
+                        .replace(
+                            /\s+/g,
+                            " "
+                        )
+                        .trim();
+
+
+                    if (
+                        message
+                        &&
+                        !window.confirm(
+                            message
+                        )
+                    ) {
+
+                        event.preventDefault();
+
+                    }
+
+                }
+            );
+
+        }
+    );
+
+</script>
+
+{% endblock %}

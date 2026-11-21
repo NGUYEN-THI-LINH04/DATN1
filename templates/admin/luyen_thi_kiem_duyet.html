@@ -1,0 +1,702 @@
+
+{% extends "admin/base.html" %}
+
+{% block title %}
+Kiểm duyệt đề HSK | Mộc Hán
+{% endblock %}
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/admin-luyen-thi.css') }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+{% set trang_thai = {
+    'ban_nhap': 'Bản nháp',
+    'cho_duyet': 'Chờ duyệt',
+    'da_xuat_ban': 'Đã xuất bản',
+    'luu_tru': 'Lưu trữ'
+} %}
+
+
+<div class="lt-admin">
+
+    <!-- ===========================================
+         TIÊU ĐỀ TRANG
+    ============================================ -->
+
+    <header class="lt-admin-header">
+
+        <div>
+            <span class="lt-admin-eyebrow">
+                MỘC HÁN · QUẢN TRỊ
+            </span>
+
+            <h1>Quản lý đề thi HSK</h1>
+
+            <p>
+                Kiểm tra câu hỏi, hình ảnh, đáp án
+                và âm thanh trước khi xuất bản đề.
+            </p>
+        </div>
+
+        {% if de %}
+
+        <a
+            href="{{ url_for('admin_luyen_thi.danh_sach') }}"
+            class="lt-admin-back"
+        >
+            ← Danh sách đề
+        </a>
+
+        {% endif %}
+
+    </header>
+
+
+    <!-- ===========================================
+         CHẾ ĐỘ 1: CHI TIẾT VÀ KIỂM DUYỆT ĐỀ
+    ============================================ -->
+
+    {% if de %}
+
+    {% set tong_da_nhap = cau_hoi | length %}
+
+    {% set da_duyet = (
+        cau_hoi
+        | selectattr('DaDuyet')
+        | list
+        | length
+    ) %}
+
+    {% set du_dieu_kien_so_bo = (
+        de.TrangThai in ['ban_nhap', 'cho_duyet']
+        and tong_da_nhap == de.TongSoCau
+        and tong_da_nhap > 0
+        and da_duyet == tong_da_nhap
+        and (
+            de.SoCauNghe == 0
+            or de.AudioUrl
+        )
+    ) %}
+
+
+    <!-- ===========================================
+         1. THÔNG TIN ĐỀ THI
+    ============================================ -->
+
+    <section class="lt-admin-panel lt-admin-overview">
+
+        <div class="lt-admin-overview-top">
+
+            <div>
+                <span class="lt-admin-subtitle">
+                    HSK {{ de.MaCapDo }}
+                    ·
+                    {{ de.MaDeGoc }}
+                </span>
+
+                <h2>{{ de.TenDe }}</h2>
+            </div>
+
+            <span
+                class="lt-admin-status lt-admin-status--{{ de.TrangThai }}"
+            >
+                {{ trang_thai.get(
+                    de.TrangThai,
+                    de.TrangThai
+                ) }}
+            </span>
+
+        </div>
+
+
+        <!-- THỐNG KÊ -->
+
+        <div class="lt-admin-stats">
+
+            <div>
+                <span>Tổng câu</span>
+                <strong>{{ de.TongSoCau }}</strong>
+            </div>
+
+            <div>
+                <span>Đã nhập</span>
+                <strong>{{ tong_da_nhap }}</strong>
+            </div>
+
+            <div>
+                <span>Đã duyệt</span>
+                <strong>
+                    {{ da_duyet }}/{{ de.TongSoCau }}
+                </strong>
+            </div>
+
+            <div>
+                <span>Nghe / Đọc / Viết</span>
+                <strong>
+                    {{ de.SoCauNghe }} /
+                    {{ de.SoCauDoc }} /
+                    {{ de.SoCauViet }}
+                </strong>
+            </div>
+
+        </div>
+
+
+        <!-- THANH TIẾN ĐỘ DUYỆT -->
+
+        <progress
+            class="lt-admin-progress"
+            value="{{ da_duyet }}"
+            max="{{ de.TongSoCau or 1 }}"
+            aria-label="Tiến độ duyệt câu hỏi"
+        >
+            {{ da_duyet }}/{{ de.TongSoCau }}
+        </progress>
+
+
+        <!-- KIỂM TRA MP3 -->
+
+        {% if de.AudioUrl %}
+
+        <div class="lt-admin-audio">
+
+            <div>
+                <strong>MP3 phần Nghe</strong>
+
+                <small>
+                    Nghe thử file âm thanh toàn bài.
+                </small>
+            </div>
+
+            <audio
+                controls
+                preload="none"
+                src="{{ de.AudioUrl }}"
+            >
+                Trình duyệt không hỗ trợ phát âm thanh.
+            </audio>
+
+        </div>
+
+        {% elif de.SoCauNghe > 0 %}
+
+        <p class="lt-admin-warning">
+            Đề này chưa liên kết file MP3.
+        </p>
+
+        {% endif %}
+
+    </section>
+
+
+    <!-- ===========================================
+         2. DANH SÁCH CÂU HỎI
+    ============================================ -->
+
+    <div class="lt-admin-section-title">
+
+        <h2>Kiểm tra từng câu hỏi</h2>
+
+        <span>
+            Đã duyệt {{ da_duyet }}/{{ tong_da_nhap }}
+        </span>
+
+    </div>
+
+    
+<!-- ==========================================
+     DUYỆT TẤT CẢ CÂU HỎI
+     Không tự động xuất bản đề thi
+=========================================== -->
+
+{% if de.TrangThai in ['ban_nhap', 'cho_duyet']
+      and tong_da_nhap > 0
+      and da_duyet < tong_da_nhap %}
+
+<form
+    method="post"
+    class="lt-admin-review-form"
+    action="{{ url_for(
+        'admin_luyen_thi.duyet_tat_ca',
+        ma_de=de.MaDeThi
+    ) }}"
+    onsubmit="return confirm('Bạn đã kiểm tra câu hỏi, hình ảnh, đáp án và MP3 theo đề gốc?\nBạn có chắc muốn duyệt tất cả các câu còn lại không?');"
+    style="
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+        margin: 0 0 18px;
+    "
+>
+
+    <!-- CSRF -->
+    <input
+        type="hidden"
+        name="csrf_token"
+        value="{{ csrf_token() }}"
+    >
+
+    <!-- Xác nhận gửi lên Python -->
+    <input
+        type="hidden"
+        name="xac_nhan"
+        value="DUYET_TAT_CA"
+    >
+
+    <!-- Nút duyệt hàng loạt -->
+    <button
+        type="submit"
+        class="lt-admin-btn lt-admin-btn--approve"
+    >
+        ✓ Duyệt tất cả
+        {{ tong_da_nhap - da_duyet }}
+        câu còn lại
+    </button>
+
+    <small>
+        Chỉ duyệt câu hỏi, không tự xuất bản đề.
+    </small>
+
+</form>
+
+{% endif %}
+
+
+    <div class="lt-admin-question-list">
+
+        {% for cau in cau_hoi %}
+
+        <article
+            id="cau-{{ cau.MaCauHoiThi }}"
+            class="lt-admin-question {% if cau.DaDuyet %}is-approved{% endif %}"
+        >
+
+            <!-- TIÊU ĐỀ CÂU HỎI -->
+
+            <div class="lt-admin-question-head">
+
+                <div class="lt-admin-question-labels">
+
+                    <span class="lt-admin-number">
+                        Câu {{ cau.SoCau }}
+                    </span>
+
+                    <span class="lt-admin-skill">
+                        {% if cau.KyNang == 'nghe' %}
+                            Nghe
+                        {% elif cau.KyNang == 'doc' %}
+                            Đọc
+                        {% elif cau.KyNang == 'viet' %}
+                            Viết
+                        {% else %}
+                            {{ cau.KyNang }}
+                        {% endif %}
+                    </span>
+
+                    <span class="lt-admin-part">
+                        Phần {{ cau.Phan }}
+                    </span>
+
+                    <span class="lt-admin-type">
+                        {{ cau.LoaiCauHoi | replace('_', ' ') }}
+                    </span>
+
+                </div>
+
+
+                <span
+                    class="lt-admin-review {% if cau.DaDuyet %}is-approved{% endif %}"
+                >
+                    {% if cau.DaDuyet %}
+                        ✓ Đã duyệt
+                    {% else %}
+                        Chưa duyệt
+                    {% endif %}
+                </span>
+
+            </div>
+
+
+            <!-- NỘI DUNG -->
+
+            {% if cau.NoiDung %}
+
+            <p class="lt-admin-question-text">
+                {{ cau.NoiDung }}
+            </p>
+
+            {% endif %}
+
+
+            <!-- HÌNH ẢNH CÂU HỎI -->
+
+            {% if cau.AnhCauHoi or cau.AnhNhomLuaChon %}
+
+            <div class="lt-admin-media-grid">
+
+                {% if cau.AnhCauHoi %}
+
+                <figure>
+                    <figcaption>
+                        Hình ảnh câu hỏi
+                    </figcaption>
+
+                    <a
+                        href="{{ cau.AnhCauHoi }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="{{ cau.AnhCauHoi }}"
+                            alt="Hình câu {{ cau.SoCau }}"
+                            loading="lazy"
+                        >
+                    </a>
+                </figure>
+
+                {% endif %}
+
+
+                {% if cau.AnhNhomLuaChon %}
+
+                <figure>
+                    <figcaption>
+                        Nhóm hình lựa chọn
+                    </figcaption>
+
+                    <a
+                        href="{{ cau.AnhNhomLuaChon }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="{{ cau.AnhNhomLuaChon }}"
+                            alt="Nhóm lựa chọn câu {{ cau.SoCau }}"
+                            loading="lazy"
+                        >
+                    </a>
+                </figure>
+
+                {% endif %}
+
+            </div>
+
+            {% else %}
+
+            <p class="lt-admin-media-note">
+                Không có hình ảnh riêng cho câu này.
+                Hãy kiểm tra nội dung trong đề PDF gốc.
+            </p>
+
+            {% endif %}
+
+
+            <!-- ĐÁP ÁN -->
+
+            <div class="lt-admin-answer-row">
+
+                <div>
+                    <span>Đáp án đúng:</span>
+
+                    <strong>
+                        {{ cau.DapAnDung }}
+                    </strong>
+                </div>
+
+                {% if cau.LuaChonJson %}
+
+                <details>
+                    <summary>
+                        Xem lựa chọn trong SQL
+                    </summary>
+
+                    <pre>{{ cau.LuaChonJson }}</pre>
+                </details>
+
+                {% endif %}
+
+            </div>
+
+
+            <!-- NÚT DUYỆT -->
+
+            {% if de.TrangThai in [
+                'ban_nhap',
+                'cho_duyet'
+            ] %}
+
+            <form
+                method="post"
+                class="lt-admin-review-form"
+                action="{{ url_for(
+                    'admin_luyen_thi.duyet_cau',
+                    ma_de=de.MaDeThi,
+                    ma_cau=cau.MaCauHoiThi
+                ) }}"
+            >
+
+                <input
+                    type="hidden"
+                    name="csrf_token"
+                    value="{{ csrf_token() }}"
+                >
+
+                {% if cau.DaDuyet %}
+
+                <button
+                    type="submit"
+                    name="thao_tac"
+                    value="bo_duyet"
+                    class="lt-admin-btn lt-admin-btn--muted"
+                >
+                    Bỏ duyệt câu {{ cau.SoCau }}
+                </button>
+
+                {% else %}
+
+                <button
+                    type="submit"
+                    name="thao_tac"
+                    value="duyet"
+                    class="lt-admin-btn lt-admin-btn--approve"
+                >
+                    ✓ Duyệt câu {{ cau.SoCau }}
+                </button>
+
+                {% endif %}
+
+            </form>
+
+            {% endif %}
+
+        </article>
+
+
+        {% else %}
+
+        <div class="lt-admin-empty">
+            Chưa có câu hỏi trong đề này.
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+
+    <!-- ===========================================
+         3. XUẤT BẢN ĐỀ THI
+    ============================================ -->
+
+    <section class="lt-admin-panel lt-admin-publish">
+
+        <div>
+
+            <h2>Xuất bản đề thi</h2>
+
+            <p>
+                Chỉ xuất bản sau khi đã kiểm tra
+                đầy đủ câu hỏi, hình ảnh, đáp án
+                và MP3 theo đề gốc.
+            </p>
+
+
+            {% if de.TrangThai == 'da_xuat_ban' %}
+
+            <p class="lt-admin-success">
+                Đề đã được xuất bản.
+            </p>
+
+            {% elif not du_dieu_kien_so_bo %}
+
+            <p class="lt-admin-warning">
+                Chưa đủ điều kiện xuất bản.
+                Hãy duyệt đầy đủ các câu hỏi.
+            </p>
+
+            {% else %}
+
+            <p class="lt-admin-note">
+                Đã duyệt đủ số câu.
+                Bạn có thể xác nhận xuất bản.
+            </p>
+
+            {% endif %}
+
+        </div>
+
+
+        {% if de.TrangThai in [
+            'ban_nhap',
+            'cho_duyet'
+        ] %}
+
+        <form
+            method="post"
+            class="lt-admin-publish-form"
+            action="{{ url_for(
+                'admin_luyen_thi.xuat_ban',
+                ma_de=de.MaDeThi
+            ) }}"
+        >
+
+            <input
+                type="hidden"
+                name="csrf_token"
+                value="{{ csrf_token() }}"
+            >
+
+            <label>
+
+                <input
+                    type="checkbox"
+                    name="xac_nhan"
+                    value="XUAT_BAN"
+                    required
+                    {% if not du_dieu_kien_so_bo %}
+                        disabled
+                    {% endif %}
+                >
+
+                Tôi đã kiểm tra đề thi
+                theo PDF và đáp án gốc.
+
+            </label>
+
+            <button
+                type="submit"
+                class="lt-admin-btn lt-admin-btn--publish"
+                {% if not du_dieu_kien_so_bo %}
+                    disabled
+                {% endif %}
+            >
+                Xuất bản đề thi
+            </button>
+
+        </form>
+
+        {% endif %}
+
+    </section>
+
+
+    <!-- ===========================================
+         CHẾ ĐỘ 2: DANH SÁCH ĐỀ THI
+    ============================================ -->
+
+    {% else %}
+
+    <section class="lt-admin-panel">
+
+        <div class="lt-admin-section-title lt-admin-list-title">
+
+            <h2>Danh sách đề thi HSK</h2>
+
+            <span>
+                {{ danh_sach_de | length }} đề
+            </span>
+
+        </div>
+
+
+        {% if danh_sach_de %}
+
+        <div class="lt-admin-table-wrap">
+
+            <table class="lt-admin-table">
+
+                <thead>
+                    <tr>
+                        <th>Cấp HSK</th>
+                        <th>Đề thi</th>
+                        <th>Câu hỏi</th>
+                        <th>Đã duyệt</th>
+                        <th>Trạng thái</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    {% for item in danh_sach_de %}
+
+                    <tr>
+
+                        <td>
+                            <span class="lt-admin-level">
+                                HSK {{ item.MaCapDo }}
+                            </span>
+                        </td>
+
+                        <td>
+                            <strong>
+                                {{ item.TenDe }}
+                            </strong>
+
+                            <small>
+                                {{ item.MaDeGoc }}
+                            </small>
+                        </td>
+
+                        <td>
+                            {{ item.SoCauDaNhap }}/{{ item.TongSoCau }}
+                        </td>
+
+                        <td>
+                            {{ item.SoCauDaDuyet or 0 }}/{{ item.TongSoCau }}
+                        </td>
+
+                        <td>
+                            <span
+                                class="lt-admin-status lt-admin-status--{{ item.TrangThai }}"
+                            >
+                                {{ trang_thai.get(
+                                    item.TrangThai,
+                                    item.TrangThai
+                                ) }}
+                            </span>
+                        </td>
+
+                        <td>
+                            <a
+                                class="lt-admin-open"
+                                href="{{ url_for(
+                                    'admin_luyen_thi.chi_tiet',
+                                    ma_de=item.MaDeThi
+                                ) }}"
+                            >
+                                Kiểm tra đề →
+                            </a>
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        {% else %}
+
+        <div class="lt-admin-empty">
+            Chưa có đề thi trong SQL Server.
+        </div>
+
+        {% endif %}
+
+    </section>
+
+    {% endif %}
+
+</div>
+
+{% endblock %}

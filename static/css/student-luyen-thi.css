@@ -1,0 +1,1943 @@
+
+/* =========================================================
+   MỘC HÁN - GIAO DIỆN LUYỆN THI HSK
+
+   Phong cách:
+   - Nền giấy ô vuông
+   - Màu kem, cam, vàng
+   - Viền đen, bóng đổ
+   - Thẻ gọn, responsive
+
+   Chỉ áp dụng trong .luyenthi-page.
+   Không ảnh hưởng các trang Student khác.
+========================================================= */
+
+.luyenthi-page {
+    --lt-ink: #29221d;
+    --lt-paper: #fffaf0;
+    --lt-cream: #fff4de;
+    --lt-orange: #f8a15c;
+    --lt-orange-strong: #e36c3c;
+    --lt-yellow: #ffd77e;
+    --lt-muted: #725f52;
+    --lt-line: rgba(110, 87, 64, .10);
+    --lt-shadow: 4px 4px 0 var(--lt-ink);
+
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 24px;
+
+    color: var(--lt-ink);
+
+    border: 2px solid var(--lt-ink);
+    border-radius: 18px;
+
+    background-color: var(--lt-paper);
+    background-image:
+        linear-gradient(
+            var(--lt-line) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            var(--lt-line) 1px,
+            transparent 1px
+        );
+    background-size: 25px 25px;
+
+    box-shadow:
+        5px 6px 0 rgba(41, 34, 29, .15);
+
+    isolation: isolate;
+}
+
+.luyenthi-page *,
+.luyenthi-page *::before,
+.luyenthi-page *::after {
+    box-sizing: border-box;
+}
+
+.luyenthi-page a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.luyenthi-page button,
+.luyenthi-page input,
+.luyenthi-page select {
+    font: inherit;
+}
+
+
+/* =========================================================
+   1. BANNER LUYỆN THI
+========================================================= */
+
+.luyenthi-header {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    min-height: 196px;
+    overflow: hidden;
+
+    padding: 27px 34px;
+
+    border: 2px solid var(--lt-ink);
+    border-radius: 15px;
+
+    background: linear-gradient(
+        115deg,
+        #ffdf90 0%,
+        #f9b66b 63%,
+        #f69b69 100%
+    );
+
+    box-shadow: var(--lt-shadow);
+}
+
+.luyenthi-header::before {
+    content: "HSK";
+
+    position: absolute;
+    right: 46px;
+    top: 50%;
+
+    display: grid;
+    place-items: center;
+
+    width: 142px;
+    height: 142px;
+
+    border: 3px solid var(--lt-ink);
+    border-radius: 50%;
+
+    background: #fff8e9;
+
+    box-shadow:
+        8px 8px 0 rgba(41, 34, 29, .18);
+
+    color: #bc4c2a;
+
+    font-size: 39px;
+    font-weight: 900;
+    letter-spacing: -2px;
+
+    transform:
+        translateY(-50%) rotate(10deg);
+}
+
+.luyenthi-header::after {
+    content: "✦";
+
+    position: absolute;
+    top: 14px;
+    right: 18px;
+
+    color: #fff7df;
+    font-size: 42px;
+
+    text-shadow:
+        2px 2px 0 var(--lt-ink);
+}
+
+.luyenthi-header-text {
+    position: relative;
+    z-index: 1;
+    max-width: 72%;
+}
+
+.luyenthi-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    width: fit-content;
+    padding: 5px 10px;
+
+    border: 1.5px solid var(--lt-ink);
+    border-radius: 7px;
+
+    background: #fffaf0;
+
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 1.4;
+    letter-spacing: .08em;
+}
+
+.luyenthi-header h1 {
+    margin: 13px 0 8px;
+
+    color: var(--lt-ink);
+
+    font-size: clamp(23px, 3vw, 35px);
+    font-weight: 900;
+    letter-spacing: -.8px;
+    line-height: 1.22;
+}
+
+.luyenthi-header p {
+    max-width: 550px;
+    margin: 0;
+
+    color: #47372e;
+
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+
+/* =========================================================
+   2. TIÊU ĐỀ CÁC KHU VỰC
+========================================================= */
+
+.luyenthi-section {
+    margin-top: 36px;
+}
+
+.luyenthi-section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 18px;
+
+    margin-bottom: 19px;
+}
+
+.luyenthi-section-heading h2 {
+    margin: 0 0 5px;
+
+    color: var(--lt-ink);
+
+    font-size: clamp(19px, 2.1vw, 25px);
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+.luyenthi-section-heading p {
+    margin: 0;
+
+    color: var(--lt-muted);
+
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.luyenthi-section-heading .luyenthi-label {
+    margin-bottom: 10px;
+}
+
+
+/* =========================================================
+   3. DANH SÁCH 4 CẤP ĐỘ HSK
+========================================================= */
+
+.luyenthi-level-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+
+    gap: 16px;
+}
+
+.luyenthi-level-card {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+    min-height: 192px;
+
+    padding: 17px;
+
+    border: 2px solid var(--lt-ink);
+    border-radius: 13px;
+
+    background: #ffe4c2;
+    box-shadow: var(--lt-shadow);
+
+    transition:
+        transform .18s ease,
+        box-shadow .18s ease,
+        background-color .18s ease;
+}
+
+/* Mỗi cấp HSK dùng một tông màu nhẹ. */
+
+.luyenthi-level-card:nth-child(2) {
+    background: #e9f2df;
+}
+
+.luyenthi-level-card:nth-child(3) {
+    background: #ffeac6;
+}
+
+.luyenthi-level-card:nth-child(4) {
+    background: #e8e9f9;
+}
+
+.luyenthi-level-card:hover {
+    transform: translate(-2px, -3px);
+
+    box-shadow:
+        6px 7px 0 var(--lt-ink);
+}
+
+.luyenthi-level-card.is-active {
+    background: #ffd183;
+
+    outline: 2px solid #d26237;
+    outline-offset: 3px;
+}
+
+.luyenthi-level-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.luyenthi-level-number {
+    display: grid;
+    place-items: center;
+
+    min-width: 33px;
+    height: 30px;
+
+    padding: 0 7px;
+
+    border: 1.5px solid var(--lt-ink);
+    border-radius: 7px;
+
+    background: rgba(255, 255, 255, .72);
+
+    font-size: 12px;
+    font-weight: 850;
+}
+
+.luyenthi-level-arrow {
+    display: grid;
+    place-items: center;
+
+    width: 31px;
+    height: 31px;
+
+    border: 1.5px solid var(--lt-ink);
+    border-radius: 50%;
+
+    background: #fff9ea;
+
+    font-size: 18px;
+    font-weight: 900;
+
+    transition: transform .18s;
+}
+
+.luyenthi-level-card:hover .luyenthi-level-arrow {
+    transform:
+        translateX(3px) rotate(-18deg);
+}
+
+.luyenthi-level-card h3 {
+    margin: 19px 0 3px;
+
+    color: var(--lt-ink);
+
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+.luyenthi-level-card > p {
+    margin: 0 0 13px;
+
+    color: #655347;
+
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.luyenthi-level-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+
+    margin-top: auto;
+    padding-top: 11px;
+
+    border-top:
+        1px dashed rgba(41, 34, 29, .42);
+
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.luyenthi-level-footer span:last-child {
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   4. HƯỚNG DẪN BẮT ĐẦU LUYỆN THI
+========================================================= */
+
+.luyenthi-intro {
+    position: relative;
+
+    margin-top: 27px;
+    padding: 21px 26px;
+
+    overflow: hidden;
+
+    border: 2px dashed #b88056;
+    border-radius: 13px;
+
+    background:
+        rgba(255, 253, 246, .88);
+}
+
+.luyenthi-intro::after {
+    content: "01  →  02  →  03";
+
+    position: absolute;
+    right: 19px;
+    top: 25px;
+
+    color: rgba(137, 81, 46, .16);
+
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.luyenthi-intro-content {
+    position: relative;
+    z-index: 1;
+
+    max-width: 690px;
+}
+
+.luyenthi-intro h2 {
+    margin: 11px 0 6px;
+
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.luyenthi-intro p {
+    margin: 7px 0 0;
+
+    color: var(--lt-muted);
+
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   5. DANH SÁCH ĐỀ THI THEO HSK
+========================================================= */
+
+.luyenthi-exam-section {
+    scroll-margin-top: 25px;
+    margin-top: 33px;
+}
+
+.luyenthi-back {
+    flex: 0 0 auto;
+
+    padding: 10px 13px;
+
+    border: 1.5px solid var(--lt-ink);
+    border-radius: 8px;
+
+    background: #fff6e2;
+
+    box-shadow:
+        2px 2px 0 var(--lt-ink);
+
+    font-size: 12px;
+    font-weight: 800;
+
+    transition: transform .18s;
+}
+
+.luyenthi-back:hover {
+    transform: translate(-1px, -2px);
+}
+
+.luyenthi-exam-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 17px;
+}
+
+.luyenthi-exam-card {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+    padding: 18px;
+
+    border: 2px solid var(--lt-ink);
+    border-radius: 12px;
+
+    background: #fffdf6;
+
+    box-shadow: var(--lt-shadow);
+}
+
+.luyenthi-exam-card[hidden] {
+    display: none !important;
+}
+
+.luyenthi-exam-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.luyenthi-exam-tag {
+    display: inline-flex;
+
+    padding: 5px 10px;
+
+    border: 1.5px solid var(--lt-ink);
+    border-radius: 6px;
+
+    background: #ffdb8e;
+
+    font-size: 11px;
+    font-weight: 900;
+}
+
+.luyenthi-exam-number {
+    color: #a66d49;
+
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.luyenthi-exam-card h3 {
+    margin: 16px 0 14px;
+
+    font-size: 21px;
+    font-weight: 900;
+}
+
+.luyenthi-exam-info {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 12px 11px;
+
+    padding-top: 14px;
+
+    border-top:
+        1px dashed #c6aa91;
+}
+
+.luyenthi-exam-info > div {
+    display: grid;
+    align-content: start;
+    gap: 3px;
+
+    min-width: 0;
+}
+
+.luyenthi-exam-info span {
+    color: #826b5b;
+    font-size: 11px;
+}
+
+.luyenthi-exam-info strong {
+    color: #332820;
+
+    font-size: 13px;
+    font-weight: 850;
+}
+
+.luyenthi-exam-action {
+    margin-top: auto;
+    padding-top: 18px;
+}
+
+/* Trạng thái khi chưa có trang làm bài. */
+
+.luyenthi-coming {
+    display: block;
+
+    width: 100%;
+    padding: 11px 10px;
+
+    border: 1.5px dashed #b8886e;
+    border-radius: 8px;
+
+    background: #fff4e5;
+    color: #845b45;
+
+    font-size: 11px;
+    font-weight: 750;
+    text-align: center;
+}
+
+
+/* =========================================================
+   6. THANH TÌM KIẾM, SẮP XẾP ĐỀ THI
+   Được tạo tự động bằng JS khi có đề.
+========================================================= */
+
+.luyenthi-toolbar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 12px;
+    margin: -2px 0 18px;
+    padding: 13px;
+
+    border: 1.5px solid #cfb8a1;
+    border-radius: 10px;
+
+    background:
+        rgba(255, 254, 248, .94);
+}
+
+.luyenthi-toolbar-main {
+    display: flex;
+    flex: 1 1 390px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.luyenthi-field {
+    display: flex;
+    flex: 1 1 200px;
+    flex-direction: column;
+    gap: 5px;
+
+    min-width: 0;
+
+    color: #5c4c41;
+
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.luyenthi-field--sort {
+    flex: 0 1 170px;
+}
+
+.luyenthi-field input,
+.luyenthi-field select {
+    width: 100%;
+    min-height: 36px;
+
+    padding: 8px 11px;
+
+    border: 1.5px solid #ac927c;
+    border-radius: 7px;
+
+    outline: none;
+
+    background: #fff;
+    color: #302821;
+
+    font-size: 12px;
+}
+
+.luyenthi-field input:focus,
+.luyenthi-field select:focus {
+    border-color: #d85e36;
+
+    box-shadow:
+        0 0 0 2px rgba(216, 94, 54, .16);
+}
+
+.luyenthi-count {
+    margin: 0;
+
+    color: var(--lt-muted);
+
+    font-size: 12px;
+    font-weight: 750;
+    white-space: nowrap;
+}
+
+.luyenthi-search-empty {
+    padding: 23px;
+
+    border: 2px dashed #bca38d;
+    border-radius: 10px;
+
+    background: #fff8ef;
+
+    color: #785b48;
+
+    font-size: 13px;
+    text-align: center;
+}
+
+.luyenthi-search-empty[hidden] {
+    display: none !important;
+}
+
+
+/* =========================================================
+   7. TRẠNG THÁI CHƯA CÓ ĐỀ ĐƯỢC XUẤT BẢN
+========================================================= */
+
+.luyenthi-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 210px;
+    padding: 25px 22px;
+
+    border: 2px dashed #c99b74;
+    border-radius: 13px;
+
+    background:
+        rgba(255, 252, 244, .90);
+
+    text-align: center;
+}
+
+.luyenthi-empty-icon {
+    display: grid;
+    place-items: center;
+
+    width: 59px;
+    height: 59px;
+
+    margin-bottom: 11px;
+
+    border: 2px solid var(--lt-ink);
+    border-radius: 14px;
+
+    background: #ffe1ad;
+
+    box-shadow:
+        3px 3px 0 var(--lt-ink);
+
+    font-size: 28px;
+
+    transform: rotate(-5deg);
+}
+
+.luyenthi-empty h3 {
+    margin: 4px 0 7px;
+
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.luyenthi-empty p {
+    max-width: 410px;
+    margin: 0;
+
+    color: #776357;
+
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   8. TRẠNG THÁI FOCUS - BÀN PHÍM
+========================================================= */
+
+.luyenthi-level-card:focus-visible,
+.luyenthi-page a:focus-visible,
+.luyenthi-page input:focus-visible,
+.luyenthi-page select:focus-visible {
+    outline: 3px solid #d85e36;
+    outline-offset: 3px;
+}
+
+
+/* =========================================================
+   9. RESPONSIVE
+========================================================= */
+
+@media (max-width: 1050px) {
+
+    .luyenthi-level-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .luyenthi-exam-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 650px) {
+
+    .luyenthi-page {
+        padding: 14px;
+        border-radius: 13px;
+    }
+
+    .luyenthi-header {
+        min-height: 170px;
+        padding: 20px;
+    }
+
+    .luyenthi-header-text {
+        max-width: 100%;
+    }
+
+    .luyenthi-header h1 {
+        padding-right: 55px;
+    }
+
+    .luyenthi-header::before {
+        right: -28px;
+        top: 8px;
+
+        width: 91px;
+        height: 91px;
+
+        font-size: 27px;
+
+        transform: rotate(10deg);
+        opacity: .8;
+    }
+
+    .luyenthi-header::after {
+        display: none;
+    }
+
+    .luyenthi-section {
+        margin-top: 26px;
+    }
+
+    .luyenthi-section-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 11px;
+    }
+
+    .luyenthi-level-grid {
+        gap: 12px;
+    }
+
+    .luyenthi-level-card {
+        min-height: 174px;
+        padding: 12px;
+    }
+
+    .luyenthi-level-card h3 {
+        margin-top: 14px;
+        font-size: 20px;
+    }
+
+    .luyenthi-level-footer {
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+
+    .luyenthi-exam-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .luyenthi-intro {
+        padding: 17px;
+    }
+
+    .luyenthi-intro::after {
+        display: none;
+    }
+
+    .luyenthi-toolbar-main {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .luyenthi-level-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .luyenthi-level-card {
+        min-height: 150px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .luyenthi-page *,
+    .luyenthi-page *::before,
+    .luyenthi-page *::after {
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+    }
+}
+
+/* =========================================================
+   MỘC HÁN - TRANG DANH SÁCH ĐỀ THI HSK
+
+   Áp dụng cho:
+   templates/student/luyen_thi_de_list.html
+
+   Phong cách theo ảnh mẫu:
+   - Nền giấy ô vuông
+   - Thẻ nền kem
+   - Viền đen và bóng đổ
+   - Ô số đề màu đen
+   - Danh sách 3 cột
+========================================================= */
+
+
+/* =========================================================
+   1. KHUNG TRANG
+========================================================= */
+
+.luyenthi-list-page {
+    padding-bottom: 35px;
+}
+
+
+/* =========================================================
+   2. LIÊN KẾT QUAY LẠI
+========================================================= */
+
+.luyenthi-list-page .luyenthi-list-back {
+    margin-bottom: 22px;
+}
+
+.luyenthi-list-page .luyenthi-list-back a {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 8px 12px;
+
+    border: 1.5px solid #302923;
+    border-radius: 7px;
+
+    background: #fff9f0;
+    color: #695648;
+
+    font-size: 12px;
+    font-weight: 750;
+
+    box-shadow: 2px 2px 0 #302923;
+
+    transition:
+        transform .18s ease,
+        background-color .18s ease;
+}
+
+.luyenthi-list-page .luyenthi-list-back a:hover {
+    background: #ffdc9f;
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   3. TIÊU ĐỀ DANH SÁCH ĐỀ THI
+========================================================= */
+
+.luyenthi-list-heading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    margin-bottom: 24px;
+}
+
+.luyenthi-list-heading-icon {
+    display: grid;
+    place-items: center;
+
+    flex-shrink: 0;
+
+    width: 65px;
+    height: 65px;
+
+    border: 2px solid #302923;
+    border-radius: 12px;
+
+    background: #f2b756;
+    box-shadow: 4px 4px 0 #302923;
+
+    transform: rotate(-4deg);
+}
+
+.luyenthi-list-heading-icon span {
+    color: #302923;
+
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.luyenthi-list-heading .luyenthi-label {
+    margin-bottom: 8px;
+}
+
+.luyenthi-list-heading h1 {
+    width: fit-content;
+    margin: 0 0 7px;
+
+    padding: 3px 10px;
+
+    background: #f6bc64;
+    color: #302923;
+
+    font-size: clamp(23px, 3vw, 32px);
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+.luyenthi-list-heading p {
+    margin: 0;
+
+    color: #746153;
+
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   4. TỔNG QUAN SỐ ĐỀ
+========================================================= */
+
+.luyenthi-list-summary {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    gap: 13px;
+    margin-bottom: 28px;
+}
+
+.luyenthi-list-summary > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    padding: 13px 16px;
+
+    border: 1.5px solid #302923;
+    border-radius: 9px;
+
+    background: #fff9ef;
+    box-shadow: 3px 3px 0 #302923;
+}
+
+.luyenthi-list-summary span {
+    color: #79675b;
+    font-size: 11px;
+    font-weight: 650;
+}
+
+.luyenthi-list-summary strong {
+    color: #302923;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+/* =========================================================
+   5. DANH SÁCH ĐỀ - 3 CỘT
+========================================================= */
+
+.luyenthi-list-page .luyenthi-section {
+    margin-top: 26px;
+}
+
+.luyenthi-list-page .luyenthi-exam-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 19px 17px;
+}
+
+
+/* =========================================================
+   6. THẺ ĐỀ THI
+========================================================= */
+
+.luyenthi-list-page .luyenthi-exam-card {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+    min-height: 188px;
+
+    padding: 19px;
+
+    border: 2px solid #302923;
+    border-radius: 7px;
+
+    background: #fcf4eb;
+
+    box-shadow: 4px 5px 0 #a79b8f;
+
+    transition:
+        transform .18s ease,
+        box-shadow .18s ease,
+        background-color .18s ease;
+}
+
+.luyenthi-list-page .luyenthi-exam-card:hover {
+    background: #fff8ee;
+
+    transform: translateY(-3px);
+
+    box-shadow: 5px 7px 0 #a79b8f;
+}
+
+
+/* =========================================================
+   7. SỐ ĐỀ VÀ TÊN ĐỀ
+========================================================= */
+
+.luyenthi-list-card-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    min-width: 0;
+}
+
+.luyenthi-list-number {
+    display: grid;
+    place-items: center;
+
+    flex-shrink: 0;
+
+    width: 49px;
+    height: 49px;
+
+    border-radius: 5px;
+
+    background: #292929;
+    color: #fff;
+
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.luyenthi-list-card-heading > div:last-child {
+    min-width: 0;
+}
+
+.luyenthi-list-card-heading h3 {
+    margin: 0 0 4px;
+
+    color: #302923;
+
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 1.35;
+}
+
+.luyenthi-list-card-heading span {
+    color: #856e5f;
+
+    font-size: 11px;
+    font-weight: 650;
+}
+
+
+/* =========================================================
+   8. SỐ CÂU VÀ THỜI GIAN
+========================================================= */
+
+.luyenthi-list-card-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 11px 17px;
+
+    margin-top: 18px;
+}
+
+.luyenthi-list-card-info > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+
+    color: #79675b;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.luyenthi-list-card-info svg {
+    flex-shrink: 0;
+
+    width: 16px;
+    height: 16px;
+}
+
+
+/* =========================================================
+   9. TRẠNG THÁI VÀ NÚT XEM ĐỀ
+========================================================= */
+
+.luyenthi-list-card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 9px;
+
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+.luyenthi-list-status {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 5px 9px;
+
+    border: 1.5px solid #302923;
+    border-radius: 5px;
+
+    background: #fff9f1;
+    color: #746052;
+
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.luyenthi-list-status.is-done {
+    border-color: #43825a;
+
+    background: #e5f3e7;
+    color: #287344;
+}
+
+.luyenthi-list-open {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 7px 11px;
+
+    border: 1.5px solid #302923;
+    border-radius: 6px;
+
+    background: #f6bc64;
+    color: #302923;
+
+    font-size: 11px;
+    font-weight: 850;
+
+    box-shadow: 2px 2px 0 #302923;
+
+    transition:
+        transform .18s ease,
+        background-color .18s ease;
+}
+
+.luyenthi-list-open:hover {
+    background: #ffd486;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   10. RESPONSIVE
+========================================================= */
+
+@media (max-width: 1050px) {
+
+    .luyenthi-list-page .luyenthi-exam-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 650px) {
+
+    .luyenthi-list-heading {
+        gap: 12px;
+    }
+
+    .luyenthi-list-heading-icon {
+        width: 51px;
+        height: 51px;
+    }
+
+    .luyenthi-list-heading-icon span {
+        font-size: 15px;
+    }
+
+    .luyenthi-list-heading h1 {
+        font-size: 22px;
+    }
+
+    .luyenthi-list-summary {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .luyenthi-list-page .luyenthi-exam-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .luyenthi-list-page .luyenthi-exam-card {
+        min-height: 175px;
+        padding: 16px;
+    }
+
+    .luyenthi-list-card-heading h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .luyenthi-list-summary {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* =========================================================
+   MỘC HÁN - MÀN HÌNH 3: CHI TIẾT ĐỀ THI HSK
+
+   Template:
+   student/luyen_thi_de_detail.html
+
+   Gồm:
+   1. Nút quay lại
+   2. Tiêu đề đề thi
+   3. Thông tin tổng quan
+   4. Thẻ chọn phần thi
+   5. Lịch sử làm bài
+   6. Responsive
+
+   Chỉ áp dụng trong .lt-detail-page
+========================================================= */
+
+
+/* =========================================================
+   1. KHUNG TRANG
+========================================================= */
+
+.lt-detail-page {
+    --lt-detail-ink: #302923;
+    --lt-detail-muted: #79675b;
+    --lt-detail-orange: #f2b756;
+    --lt-detail-cream: #fcf4eb;
+
+    padding-bottom: 40px;
+
+    color: var(--lt-detail-ink);
+}
+
+.lt-detail-page *,
+.lt-detail-page *::before,
+.lt-detail-page *::after {
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   2. NÚT QUAY LẠI
+========================================================= */
+
+.lt-detail-back {
+    margin-bottom: 24px;
+}
+
+.lt-detail-back a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 39px;
+    padding: 8px 13px;
+
+    border: 1.5px solid var(--lt-detail-ink);
+    border-radius: 7px;
+
+    background: #fff9f0;
+    color: #6c5749;
+
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+
+    box-shadow: 2px 2px 0 var(--lt-detail-ink);
+
+    transition:
+        background-color .2s ease,
+        transform .2s ease;
+}
+
+.lt-detail-back a:hover {
+    background: #ffdb9e;
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   3. THÔNG TIN ĐỀ THI
+========================================================= */
+
+.lt-detail-header {
+    position: relative;
+
+    margin-bottom: 24px;
+}
+
+.lt-detail-level {
+    display: inline-block;
+
+    margin-bottom: 12px;
+
+    color: #857364;
+
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.lt-detail-title {
+    display: flex;
+    align-items: center;
+
+    gap: 14px;
+
+    margin-bottom: 12px;
+}
+
+.lt-detail-mascot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    width: 48px;
+    height: 48px;
+
+    font-size: 26px;
+
+    transform: rotate(-5deg);
+}
+
+.lt-detail-title h1 {
+    margin: 0;
+
+    font-size: clamp(25px, 3vw, 35px);
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+.lt-detail-title h1 span {
+    display: inline;
+
+    padding: 2px 10px 4px;
+
+    background: var(--lt-detail-orange);
+
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.lt-detail-header > p {
+    max-width: 760px;
+
+    margin: 0;
+
+    color: #6d594d;
+
+    font-size: 13px;
+    font-weight: 550;
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   4. THÔNG TIN TỔNG QUAN
+========================================================= */
+
+.lt-detail-summary {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    gap: 13px;
+
+    margin: 24px 0 34px;
+}
+
+.lt-detail-summary-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 8px;
+
+    min-width: 0;
+    min-height: 82px;
+
+    padding: 15px 17px;
+
+    border: 1.5px solid var(--lt-detail-ink);
+    border-radius: 9px;
+
+    background: #fff9f0;
+
+    box-shadow: 3px 3px 0 var(--lt-detail-ink);
+}
+
+.lt-detail-summary-item > span {
+    color: var(--lt-detail-muted);
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.lt-detail-summary-item > strong {
+    overflow-wrap: anywhere;
+
+    color: var(--lt-detail-ink);
+
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.35;
+}
+
+
+/* =========================================================
+   5. TIÊU ĐỀ CHỌN PHẦN THI
+========================================================= */
+
+.lt-detail-section {
+    margin-top: 30px;
+}
+
+.lt-detail-section-heading {
+    margin-bottom: 19px;
+}
+
+.lt-detail-section-heading h2 {
+    margin: 0 0 7px;
+
+    color: var(--lt-detail-ink);
+
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.lt-detail-section-heading p {
+    margin: 0;
+
+    color: var(--lt-detail-muted);
+
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   6. DANH SÁCH CÁC PHẦN THI
+========================================================= */
+
+.lt-detail-mode-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    align-items: stretch;
+
+    gap: 16px;
+}
+
+
+/* =========================================================
+   7. THẺ CHỌN PHẦN THI
+========================================================= */
+
+.lt-detail-mode-card {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    min-width: 0;
+    min-height: 250px;
+
+    padding: 21px 19px 18px;
+
+    border: 2px solid var(--lt-detail-ink);
+    border-radius: 7px;
+
+    background: var(--lt-detail-cream);
+
+    box-shadow: 4px 4px 0 #a79b8f;
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease,
+        background-color .2s ease;
+}
+
+.lt-detail-mode-card:hover {
+    background: #fff8ef;
+
+    transform: translateY(-3px);
+
+    box-shadow: 5px 7px 0 #a79b8f;
+}
+
+
+/* Thanh trang trí phía trên thẻ */
+
+.lt-detail-mode-card::before {
+    content: "";
+
+    position: absolute;
+
+    left: -2px;
+    top: -12px;
+
+    width: 92px;
+    height: 12px;
+
+    border: 2px solid var(--lt-detail-ink);
+    border-bottom: 0;
+
+    border-radius: 6px 6px 0 0;
+
+    background: var(--lt-detail-orange);
+}
+
+
+/* =========================================================
+   8. ICON PHẦN THI
+========================================================= */
+
+.lt-detail-mode-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    width: 43px;
+    height: 43px;
+
+    margin-bottom: 17px;
+
+    border: 2px solid var(--lt-detail-ink);
+    border-radius: 6px;
+
+    background: var(--lt-detail-orange);
+
+    color: var(--lt-detail-ink);
+}
+
+.lt-detail-mode-icon svg {
+    width: 23px;
+    height: 23px;
+
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+/* =========================================================
+   9. NỘI DUNG TRONG THẺ
+========================================================= */
+
+.lt-detail-mode-card h3 {
+    margin: 0 0 11px;
+
+    color: var(--lt-detail-ink);
+
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 1.35;
+}
+
+.lt-detail-mode-card > p {
+    margin: 0 0 15px;
+
+    color: #746154;
+
+    font-size: 12px;
+    font-weight: 550;
+    line-height: 1.7;
+}
+
+.lt-detail-mode-meta {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 5px 8px;
+
+    margin-bottom: 18px;
+
+    color: #79665a;
+
+    font-size: 11px;
+    font-weight: 750;
+    line-height: 1.5;
+}
+
+.lt-detail-mode-meta span + span::before {
+    content: "·";
+    margin-right: 8px;
+    color: #9a8574;
+}
+
+
+/* =========================================================
+   10. DÒNG BẮT ĐẦU LÀM BÀI
+
+   Hiện tại là phần hiển thị, chưa có
+   sự kiện chuyển sang trang làm bài.
+========================================================= */
+
+.lt-detail-mode-action {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 7px;
+
+    margin-top: auto;
+
+    color: var(--lt-detail-ink);
+
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.lt-detail-mode-card:hover .lt-detail-mode-action {
+    color: #b46b20;
+}
+
+
+/* =========================================================
+   11. LỊCH SỬ LÀM BÀI
+========================================================= */
+
+.lt-detail-history {
+    margin-top: 32px;
+}
+
+.lt-detail-history-heading {
+    display: flex;
+    align-items: center;
+
+    gap: 9px;
+
+    margin-bottom: 15px;
+}
+
+.lt-detail-history-heading svg {
+    flex-shrink: 0;
+
+    width: 23px;
+    height: 23px;
+}
+
+.lt-detail-history-heading h2 {
+    margin: 0;
+
+    color: var(--lt-detail-ink);
+
+    font-size: 19px;
+    font-weight: 900;
+}
+
+
+/* Chưa có lịch sử */
+
+.lt-detail-history-empty {
+    padding: 15px 0;
+}
+
+.lt-detail-history-empty p {
+    margin: 0;
+
+    color: var(--lt-detail-muted);
+
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* Danh sách các lần thi */
+
+.lt-detail-history-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.lt-detail-history-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    padding: 15px 17px;
+
+    border: 1.5px solid var(--lt-detail-ink);
+    border-radius: 7px;
+
+    background: #fff9f0;
+
+    box-shadow: 2px 2px 0 #b0a498;
+}
+
+.lt-detail-history-item strong {
+    color: var(--lt-detail-ink);
+
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.lt-detail-history-item span {
+    color: var(--lt-detail-muted);
+
+    font-size: 12px;
+    font-weight: 650;
+}
+
+
+/* =========================================================
+   12. RESPONSIVE - LAPTOP
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .lt-detail-mode-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap: 22px 16px;
+    }
+
+    .lt-detail-mode-card {
+        min-height: 235px;
+    }
+}
+
+
+/* =========================================================
+   13. RESPONSIVE - TABLET
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .lt-detail-summary {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .lt-detail-mode-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .lt-detail-mode-card {
+        padding: 17px 14px;
+    }
+
+    .lt-detail-mode-card h3 {
+        font-size: 16px;
+    }
+}
+
+
+/* =========================================================
+   14. RESPONSIVE - ĐIỆN THOẠI
+========================================================= */
+
+@media (max-width: 520px) {
+
+    .lt-detail-title {
+        gap: 8px;
+    }
+
+    .lt-detail-title h1 {
+        font-size: 25px;
+    }
+
+    .lt-detail-mascot {
+        width: 38px;
+        height: 38px;
+
+        font-size: 22px;
+    }
+
+    .lt-detail-summary {
+        grid-template-columns: 1fr;
+
+        gap: 10px;
+    }
+
+    .lt-detail-summary-item {
+        min-height: 67px;
+    }
+
+    .lt-detail-mode-grid {
+        grid-template-columns: 1fr;
+
+        gap: 22px;
+    }
+
+    .lt-detail-mode-card {
+        min-height: 205px;
+
+        padding: 18px;
+    }
+
+    .lt-detail-mode-card > p {
+        margin-bottom: 10px;
+    }
+
+    .lt-detail-section-heading h2,
+    .lt-detail-history-heading h2 {
+        font-size: 18px;
+    }
+}
+.lt-detail-page a.lt-detail-mode-card,
+.lt-detail-page a.lt-detail-mode-card:visited {
+    text-decoration: none;
+    color: #302923;
+}
+
+.lt-detail-page a.lt-detail-mode-card:focus-visible {
+    outline: 3px solid #d88b32;
+    outline-offset: 5px;
+}

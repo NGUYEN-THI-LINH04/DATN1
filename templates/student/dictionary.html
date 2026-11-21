@@ -1,0 +1,436 @@
+
+{% extends "student/base.html" %}
+
+{% block title %}
+Tra từ điển | Mộc Hán
+{% endblock %}
+
+
+{% block extra_css %}
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/dictionary.css') }}"
+>
+{% endblock %}
+
+
+{% block content %}
+
+<!-- ==================================================
+     MỘC HÁN - TRA TỪ ĐIỂN STUDENT
+
+     Python:
+         routes/student/dictionary.py
+
+     CSS:
+         static/css/dictionary.css
+
+     JavaScript:
+         static/js/dictionary.js
+
+     API:
+         /student/dictionary/api/search
+
+     Lưu từ để ôn tập:
+         /vocabulary-review/api/save-word
+================================================== -->
+
+<section
+    class="dictionary-page"
+    id="dictionaryPage"
+    data-search-url="{{ url_for('student_dictionary.api_search') }}"
+>
+
+    <!-- ==============================================
+         1. CSRF TOKEN
+         Dùng cho yêu cầu POST lưu từ vựng.
+    ============================================== -->
+
+    <input
+        type="hidden"
+        id="dictionaryCsrfToken"
+        name="csrf_token"
+        value="{{ csrf_token() }}"
+    >
+
+
+    <!-- ==============================================
+         2. TIÊU ĐỀ
+    ============================================== -->
+
+    <header class="dictionary-header">
+
+        <div>
+
+            <h1>Tra từ điển</h1>
+
+            <p>
+                Tra cứu từ vựng tiếng Trung theo chữ Hán,
+                Pinyin hoặc nghĩa tiếng Việt.
+            </p>
+
+        </div>
+
+        <span
+            class="dictionary-header-icon"
+            aria-hidden="true"
+        >
+            词
+        </span>
+
+    </header>
+
+
+    <!-- ==============================================
+         3. KHUNG TÌM KIẾM
+    ============================================== -->
+
+    <section
+        class="dictionary-search-section"
+        aria-label="Tìm kiếm từ vựng"
+    >
+
+        <form
+            id="dictionarySearchForm"
+            class="dictionary-search-form"
+            method="get"
+            action="{{ url_for('student_dictionary.index') }}"
+        >
+
+            <div class="dictionary-search-field">
+
+                <span
+                    class="dictionary-search-icon"
+                    aria-hidden="true"
+                >
+                    🔎
+                </span>
+
+                <input
+                    type="search"
+                    id="dictionarySearchInput"
+                    name="q"
+                    maxlength="80"
+                    value="{{ request.args.get('q', '') }}"
+                    placeholder="Nhập chữ Hán, Pinyin hoặc nghĩa tiếng Việt..."
+                    aria-label="Nhập từ khóa cần tra"
+                    autocomplete="off"
+                >
+
+                <button
+                    type="button"
+                    id="dictionaryClearButton"
+                    class="dictionary-clear-button"
+                    aria-label="Xóa từ khóa"
+                    title="Xóa từ khóa"
+                >
+                    ×
+                </button>
+
+            </div>
+
+            <button
+                type="submit"
+                class="dictionary-search-button"
+                id="dictionarySearchButton"
+            >
+                Tra từ
+            </button>
+
+        </form>
+
+
+        <!-- CÁC CÁCH TRA TỪ -->
+
+        <div class="dictionary-search-hints">
+
+            <span>Tìm kiếm bằng:</span>
+
+            <span class="dictionary-hint">
+                Chữ Hán
+            </span>
+
+            <span class="dictionary-hint">
+                Pinyin
+            </span>
+
+            <span class="dictionary-hint">
+                Nghĩa tiếng Việt
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================================
+         4. TRẠNG THÁI TÌM KIẾM
+    ============================================== -->
+
+    <div
+        class="dictionary-result-header"
+        aria-live="polite"
+    >
+
+        <p id="dictionaryStatus">
+            Nhập từ khóa để bắt đầu tra từ.
+        </p>
+
+    </div>
+
+
+    <!-- ĐANG TÌM KIẾM -->
+
+    <div
+        id="dictionaryLoading"
+        class="dictionary-message"
+        role="status"
+        hidden
+    >
+        Đang tìm kiếm từ vựng...
+    </div>
+
+
+    <!-- THÔNG BÁO LỖI -->
+
+    <div
+        id="dictionaryError"
+        class="dictionary-message dictionary-error"
+        role="alert"
+        hidden
+    ></div>
+
+
+    <!-- ==============================================
+         5. DANH SÁCH KẾT QUẢ TRA TỪ
+         JavaScript sẽ thêm các thẻ từ vào đây.
+    ============================================== -->
+
+    <div
+        id="dictionaryResults"
+        class="dictionary-results"
+        aria-live="polite"
+    ></div>
+
+
+    <!-- ==============================================
+         6. TRẠNG THÁI CHƯA CÓ KẾT QUẢ
+    ============================================== -->
+
+    <div
+        id="dictionaryEmpty"
+        class="dictionary-empty"
+    >
+
+        <div
+            class="dictionary-empty-symbol"
+            aria-hidden="true"
+        >
+            汉
+        </div>
+
+        <h2>
+            Khám phá từ vựng tiếng Trung
+        </h2>
+
+        <p>
+            Nhập chữ Hán, Pinyin hoặc nghĩa tiếng Việt
+            để tìm từ vựng trong kho học liệu Mộc Hán.
+        </p>
+
+    </div>
+
+
+    <!-- ==============================================
+         7. MẪU THẺ TỪ VỰNG
+
+         Dữ liệu từ dictionary.py:
+             ma_tu_vung
+             chu_han
+             chu_phon_the
+             phien_am
+             nghia_tieng_viet
+             tu_loai
+             hsk
+             vi_du
+
+         dictionary.js sử dụng mẫu này.
+    ============================================== -->
+
+    <template id="dictionaryCardTemplate">
+
+        <article class="dictionary-word-card">
+
+            <!-- THÔNG TIN TỪ VỰNG -->
+
+            <div class="dictionary-word-top">
+
+                <div class="dictionary-word-information">
+
+                    <!-- PINYIN -->
+
+                    <div class="dictionary-word-pronunciation">
+
+                        <span class="dictionary-word-pinyin">
+                        </span>
+
+                    </div>
+
+
+                    <!-- CHỮ HÁN VÀ PHÁT ÂM -->
+
+                    <div class="dictionary-word-title-row">
+
+                        <h2 class="dictionary-word-hanzi">
+                        </h2>
+
+                        <span class="dictionary-word-traditional">
+                        </span>
+
+                        <button
+                            type="button"
+                            class="dictionary-audio-button"
+                            title="Nghe phát âm"
+                            aria-label="Nghe phát âm từ vựng"
+                        >
+                            🔊
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- LƯU VÀO ÔN TẬP -->
+
+                <button
+                    type="button"
+                    class="dictionary-save-button"
+                    aria-label="Lưu từ vựng để ôn tập"
+                >
+                    + Lưu để ôn tập
+                </button>
+
+            </div>
+
+
+            <!-- ======================================
+                 CẤP ĐỘ HSK VÀ LOẠI TỪ
+            ====================================== -->
+
+            <div class="dictionary-word-tags">
+
+                <span class="dictionary-hsk-tag">
+                </span>
+
+                <span class="dictionary-type-tag">
+                </span>
+
+            </div>
+
+
+            <!-- ======================================
+                 NGHĨA TIẾNG VIỆT
+            ====================================== -->
+
+            <div class="dictionary-meaning-section">
+
+                <h3>
+                    Nghĩa tiếng Việt
+                </h3>
+
+                <div class="dictionary-word-meaning">
+                </div>
+
+            </div>
+
+
+            <!-- ======================================
+                 VÍ DỤ TỪ VỰNG
+            ====================================== -->
+
+            <div class="dictionary-examples-section">
+
+                <h3>
+                    Ví dụ
+                </h3>
+
+                <div class="dictionary-examples-list">
+                </div>
+
+            </div>
+
+        </article>
+
+    </template>
+
+
+    <!-- ==============================================
+         8. MẪU MỘT CÂU VÍ DỤ
+
+         Dữ liệu:
+             tieng_trung
+             pinyin
+             tieng_viet
+    ============================================== -->
+
+    <template id="dictionaryExampleTemplate">
+
+        <div class="dictionary-example">
+
+            <!-- NGHE CÂU VÍ DỤ -->
+
+            <button
+                type="button"
+                class="dictionary-example-audio"
+                title="Nghe câu ví dụ"
+                aria-label="Nghe câu ví dụ"
+            >
+                🔊
+            </button>
+
+
+            <!-- NỘI DUNG VÍ DỤ -->
+
+            <div class="dictionary-example-content">
+
+                <!-- PINYIN -->
+
+                <div class="dictionary-example-pinyin">
+                </div>
+
+                <!-- CÂU TIẾNG TRUNG -->
+
+                <div class="dictionary-example-chinese">
+                </div>
+
+                <!-- BẢN DỊCH TIẾNG VIỆT -->
+
+                <div class="dictionary-example-vietnamese">
+                </div>
+
+            </div>
+
+        </div>
+
+    </template>
+
+</section>
+
+{% endblock %}
+
+
+<!-- ==================================================
+     9. JAVASCRIPT TRA TỪ ĐIỂN
+================================================== -->
+
+{% block scripts %}
+
+{{ super() }}
+
+<script
+    src="{{ url_for('static', filename='js/dictionary.js') }}"
+    defer
+></script>
+
+{% endblock %}

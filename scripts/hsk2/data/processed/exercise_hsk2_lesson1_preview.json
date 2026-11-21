@@ -1,0 +1,658 @@
+{
+  "MaKhoaHoc": 2,
+  "MaBaiHoc": 25,
+  "TieuDe": "Bài luyện tập Bài 1 - 我的一天 - Một ngày của tôi",
+  "HuongDan": "Hoàn thành các câu hỏi về từ vựng, ngữ pháp và chữ Hán của Bài 1.",
+  "ThoiGianGioiHanGiay": 900,
+  "PhanTramDat": 70,
+  "TrangThai": "ban_nhap",
+  "SoCauHoi": 20,
+  "CauHoi": [
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “半夜” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“半夜” có nghĩa là “nửa đêm”.",
+      "DiemToiDa": 1,
+      "ThuTu": 1,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "半夜",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "nửa đêm",
+          "LaDapAnDung": true,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "buổi trưa",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "buổi sáng",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "tuần sau",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “多久” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“多久” có nghĩa là “bao lâu”.",
+      "DiemToiDa": 1,
+      "ThuTu": 2,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "多久",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "lúc nào",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "bao lâu",
+          "LaDapAnDung": true,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "tuần trước",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "một lát",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “经常” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“经常” có nghĩa là “thường xuyên”.",
+      "DiemToiDa": 1,
+      "ThuTu": 3,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "经常",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "hiếm khi",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "vừa nãy",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "thường xuyên",
+          "LaDapAnDung": true,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "ngày mai",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “上周” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“上周” có nghĩa là “tuần trước”.",
+      "DiemToiDa": 1,
+      "ThuTu": 4,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "上周",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "tuần sau",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "buổi sáng",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "mỗi ngày",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "tuần trước",
+          "LaDapAnDung": true,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “下周” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“下周” có nghĩa là “tuần sau”.",
+      "DiemToiDa": 1,
+      "ThuTu": 5,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "下周",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "tuần sau",
+          "LaDapAnDung": true,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "tuần trước",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "nửa đêm",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "vừa nãy",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “午睡” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“午睡” có nghĩa là “ngủ trưa”.",
+      "DiemToiDa": 1,
+      "ThuTu": 6,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "午睡",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "tắm",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "ngủ trưa",
+          "LaDapAnDung": true,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "chờ đợi",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "sống",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “洗澡” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“洗澡” có nghĩa là “tắm”.",
+      "DiemToiDa": 1,
+      "ThuTu": 7,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "洗澡",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "ngủ trưa",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "đợi",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "tắm",
+          "LaDapAnDung": true,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "học",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “早晨” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“早晨” có nghĩa là “buổi sáng sớm”.",
+      "DiemToiDa": 1,
+      "ThuTu": 8,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "早晨",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "nửa đêm",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "buổi tối",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "tuần trước",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "buổi sáng sớm",
+          "LaDapAnDung": true,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “随时” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“随时” có nghĩa là “bất kỳ lúc nào”.",
+      "DiemToiDa": 1,
+      "ThuTu": 9,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "随时",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "bất kỳ lúc nào",
+          "LaDapAnDung": true,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "tuần sau",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "lúc đó",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "một lát",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “习惯” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“习惯” có nghĩa là “thói quen”.",
+      "DiemToiDa": 1,
+      "ThuTu": 10,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "习惯",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "tuần lễ",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "thói quen",
+          "LaDapAnDung": true,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "phút",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "đêm khuya",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “一会儿” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“一会儿” có nghĩa là “một lát”.",
+      "DiemToiDa": 1,
+      "ThuTu": 11,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "一会儿",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "cả tuần",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "nửa đêm",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "một lát",
+          "LaDapAnDung": true,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "một năm",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "tu_vung",
+      "NoiDungCauHoi": "Từ “晚安” có nghĩa là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "“晚安” có nghĩa là “chúc ngủ ngon”.",
+      "DiemToiDa": 1,
+      "ThuTu": 12,
+      "NguonLoai": "tu_vung",
+      "NguonGiaTri": "晚安",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "chào buổi sáng",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "cảm ơn",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "tạm biệt",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "chúc ngủ ngon",
+          "LaDapAnDung": true,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "chu_han",
+      "NoiDungCauHoi": "Pinyin đúng của chữ “夜” là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "Chữ “夜” đọc là yè.",
+      "DiemToiDa": 1,
+      "ThuTu": 13,
+      "NguonLoai": "chu_han",
+      "NguonGiaTri": "夜",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "yè",
+          "LaDapAnDung": true,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "yě",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "yuè",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "yī",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "chu_han",
+      "NoiDungCauHoi": "Pinyin đúng của chữ “久” là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "Chữ “久” đọc là jiǔ.",
+      "DiemToiDa": 1,
+      "ThuTu": 14,
+      "NguonLoai": "chu_han",
+      "NguonGiaTri": "久",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "jiù",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "jiǔ",
+          "LaDapAnDung": true,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "jǐ",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "jiā",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "chu_han",
+      "NoiDungCauHoi": "Pinyin đúng của chữ “钟” là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "Chữ “钟” đọc là zhōng.",
+      "DiemToiDa": 1,
+      "ThuTu": 15,
+      "NguonLoai": "chu_han",
+      "NguonGiaTri": "钟",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "zhòng",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "zōng",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "zhōng",
+          "LaDapAnDung": true,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "chōng",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "chu_han",
+      "NoiDungCauHoi": "Pinyin đúng của chữ “晨” là gì?",
+      "DapAnJson": null,
+      "GiaiThich": "Chữ “晨” đọc là chén.",
+      "DiemToiDa": 1,
+      "ThuTu": 16,
+      "NguonLoai": "chu_han",
+      "NguonGiaTri": "晨",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "chěn",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "chéng",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "chēn",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "chén",
+          "LaDapAnDung": true,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "ngu_phap",
+      "NoiDungCauHoi": "Cấu trúc 先……再…… dùng để diễn đạt điều gì?",
+      "DapAnJson": null,
+      "GiaiThich": "先……再…… diễn tả làm hành động thứ nhất trước, sau đó làm hành động thứ hai.",
+      "DiemToiDa": 1,
+      "ThuTu": 17,
+      "NguonLoai": "ngu_phap",
+      "NguonGiaTri": "先……再……",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "Thứ tự thực hiện hai hành động",
+          "LaDapAnDung": true,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "So sánh hai người",
+          "LaDapAnDung": false,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "Hỏi về số lượng",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "Diễn tả sự sở hữu",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "chon_mot",
+      "KyNang": "doc",
+      "NhomKienThuc": "ngu_phap",
+      "NoiDungCauHoi": "Cấu trúc 每……都…… diễn tả ý nghĩa nào?",
+      "DapAnJson": null,
+      "GiaiThich": "每……都…… biểu thị tất cả các thành viên trong phạm vi được nói đến đều có chung đặc điểm hoặc hành động.",
+      "DiemToiDa": 1,
+      "ThuTu": 18,
+      "NguonLoai": "ngu_phap",
+      "NguonGiaTri": "每……都……",
+      "LuaChon": [
+        {
+          "NoiDungLuaChon": "Một hành động sắp xảy ra",
+          "LaDapAnDung": false,
+          "ThuTu": 1
+        },
+        {
+          "NoiDungLuaChon": "Mỗi đối tượng đều có chung đặc điểm hoặc hành động",
+          "LaDapAnDung": true,
+          "ThuTu": 2
+        },
+        {
+          "NoiDungLuaChon": "Một việc chưa hoàn thành",
+          "LaDapAnDung": false,
+          "ThuTu": 3
+        },
+        {
+          "NoiDungLuaChon": "Hai hành động đối lập",
+          "LaDapAnDung": false,
+          "ThuTu": 4
+        }
+      ]
+    },
+    {
+      "LoaiCauHoi": "dien_tu",
+      "KyNang": "doc",
+      "NhomKienThuc": "ngu_phap",
+      "NoiDungCauHoi": "Điền một chữ Hán vào chỗ trống:\n我们先吃饭，___去看电影。",
+      "DapAnJson": {
+        "answers": [
+          "再"
+        ]
+      },
+      "GiaiThich": "Câu đầy đủ: 我们先吃饭，再去看电影。\nNghĩa: Chúng ta ăn cơm trước, sau đó đi xem phim.",
+      "DiemToiDa": 1,
+      "ThuTu": 19,
+      "NguonLoai": "ngu_phap",
+      "NguonGiaTri": "先……再……",
+      "LuaChon": []
+    },
+    {
+      "LoaiCauHoi": "dien_tu",
+      "KyNang": "doc",
+      "NhomKienThuc": "ngu_phap",
+      "NoiDungCauHoi": "Điền một chữ Hán vào chỗ trống:\n每个学生___来了。",
+      "DapAnJson": {
+        "answers": [
+          "都"
+        ]
+      },
+      "GiaiThich": "Câu đầy đủ: 每个学生都来了。\nNghĩa: Mỗi học sinh đều đã đến.",
+      "DiemToiDa": 1,
+      "ThuTu": 20,
+      "NguonLoai": "ngu_phap",
+      "NguonGiaTri": "每……都……",
+      "LuaChon": []
+    }
+  ]
+}

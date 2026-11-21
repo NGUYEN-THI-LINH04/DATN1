@@ -1,0 +1,384 @@
+{
+  "module": "shadowing",
+  "youtube_id": "QwlhcsAMhT0",
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 1.5,
+      "hanzi": "大家好！",
+      "pinyin": "dà jiā hǎo ！",
+      "vi": "Xin chào mọi người!"
+    },
+    {
+      "start": 1.56,
+      "end": 6.0,
+      "hanzi": "今天外面下着很大的雨，天气非常不好。",
+      "pinyin": "jīn tiān wài miàn xià zhe hěn dà de yǔ ， tiān qì fēi cháng bù hǎo 。",
+      "vi": "Hôm nay bên ngoài đang mưa rất to, thời tiết rất xấu."
+    },
+    {
+      "start": 6.06,
+      "end": 11.3,
+      "hanzi": "你们有没有遇到过这样的雨天，不知道该做什么的时候？",
+      "pinyin": "nǐ men yǒu méi yǒu yù dào guò zhè yàng de yǔ tiān ， bù zhī dào gāi zuò shén me de shí hòu ？",
+      "vi": "Các bạn đã bao giờ gặp một ngày mưa như thế này, không biết nên làm gì chưa?"
+    },
+    {
+      "start": 11.3,
+      "end": 17.9,
+      "hanzi": "如果你们想知道我在雨天通常做什么，就听我分享吧。",
+      "pinyin": "rú guǒ nǐ men xiǎng zhī dào wǒ zài yǔ tiān tōng cháng zuò shén me ， jiù tīng wǒ fēn xiǎng ba 。",
+      "vi": "Nếu các bạn muốn biết tôi thường làm gì vào ngày mưa thì hãy nghe tôi chia sẻ nhé."
+    },
+    {
+      "start": 18.0,
+      "end": 22.9,
+      "hanzi": "我一个人住在广东一个小小的公寓里。",
+      "pinyin": "wǒ yí gè rén zhù zài guǎng dōng yí gè xiǎo xiǎo de gōng yù lǐ 。",
+      "vi": "Tôi sống một mình trong một căn hộ nhỏ ở Quảng Đông."
+    },
+    {
+      "start": 23.16,
+      "end": 25.25,
+      "hanzi": "外面下着很大的雨。",
+      "pinyin": "wài miàn xià zhe hěn dà de yǔ 。",
+      "vi": "Bên ngoài đang mưa rất to."
+    },
+    {
+      "start": 25.3,
+      "end": 28.85,
+      "hanzi": "天气预报说，这几天会有暴风雨。",
+      "pinyin": "tiān qì yù bào shuō ， zhè jǐ tiān huì yǒu bào fēng yǔ 。",
+      "vi": "Dự báo thời tiết nói rằng mấy ngày tới sẽ có mưa bão."
+    },
+    {
+      "start": 28.88,
+      "end": 30.6,
+      "hanzi": "风也很大。",
+      "pinyin": "fēng yě hěn dà 。",
+      "vi": "Gió cũng rất mạnh."
+    },
+    {
+      "start": 30.64,
+      "end": 34.38,
+      "hanzi": "大家都建议少出门，注意安全。",
+      "pinyin": "dà jiā dōu jiàn yì shǎo chū mén ， zhù yì ān quán 。",
+      "vi": "Mọi người đều khuyên nên hạn chế ra ngoài và chú ý an toàn."
+    },
+    {
+      "start": 34.54,
+      "end": 39.95,
+      "hanzi": "前几天我去超市买好了足够一周吃的东西。",
+      "pinyin": "qián jǐ tiān wǒ qù chāo shì mǎi hǎo le zú gòu yī zhōu chī de dōng xī 。",
+      "vi": "Mấy hôm trước tôi đã đi siêu thị mua đủ đồ ăn cho cả tuần."
+    },
+    {
+      "start": 40.04,
+      "end": 46.5,
+      "hanzi": "有米饭、面条、蔬菜、水果，还有一些零食和方便面。",
+      "pinyin": "yǒu mǐ fàn 、 miàn tiáo 、 shū cài 、 shuǐ guǒ ， hái yǒu yī xiē líng shí hé fāng biàn miàn 。",
+      "vi": "Có cơm, mì, rau, trái cây, cùng một ít đồ ăn vặt và mì ăn liền."
+    },
+    {
+      "start": 46.98,
+      "end": 50.7,
+      "hanzi": "因为知道天气不好，出门很不方便。",
+      "pinyin": "yīn wèi zhī dào tiān qì bù hǎo ， chū mén hěn bù fāng biàn 。",
+      "vi": "Vì biết thời tiết không tốt, ra ngoài rất bất tiện."
+    },
+    {
+      "start": 50.74,
+      "end": 56.9,
+      "hanzi": "所以我准备了很多东西，这样不用担心吃饭的问题。",
+      "pinyin": "suǒ yǐ wǒ zhǔn bèi le hěn duō dōng xī ， zhè yàng bù yòng dān xīn chī fàn de wèn tí 。",
+      "vi": "Vì vậy tôi đã chuẩn bị nhiều thứ để không phải lo chuyện ăn uống."
+    },
+    {
+      "start": 57.81,
+      "end": 62.9,
+      "hanzi": "公司也通知我们在家工作，不能去办公室。",
+      "pinyin": "gōng sī yě tōng zhī wǒ men zài jiā gōng zuò ， bù néng qù bàn gōng shì 。",
+      "vi": "Công ty cũng thông báo chúng tôi làm việc ở nhà, không được đến văn phòng."
+    },
+    {
+      "start": 63.39,
+      "end": 65.7,
+      "hanzi": "虽然在家工作很方便，",
+      "pinyin": "suī rán zài jiā gōng zuò hěn fāng biàn ，",
+      "vi": "Mặc dù làm việc ở nhà rất thuận tiện,"
+    },
+    {
+      "start": 65.73,
+      "end": 71.9,
+      "hanzi": "但是一个人在家工作，感觉有点孤单，也有点无聊。",
+      "pinyin": "dàn shì yí gè rén zài jiā gōng zuò ， gǎn jué yǒu diǎn gū dān ， yě yǒu diǎn wú liáo 。",
+      "vi": "Nhưng làm việc một mình ở nhà khiến tôi cảm thấy hơi cô đơn và buồn chán."
+    },
+    {
+      "start": 72.13,
+      "end": 77.5,
+      "hanzi": "没有同事在身边聊天，也没有外面的阳光和新鲜空气。",
+      "pinyin": "méi yǒu tóng shì zài shēn biān liáo tiān ， yě méi yǒu wài miàn de yáng guāng hé xīn xiān kōng qì 。",
+      "vi": "Không có đồng nghiệp bên cạnh để trò chuyện, cũng không có ánh nắng và không khí trong lành bên ngoài."
+    },
+    {
+      "start": 77.57,
+      "end": 82.65,
+      "hanzi": "早上，我打开电脑准备工作。",
+      "pinyin": "zǎo shàng ， wǒ dǎ kāi diàn nǎo zhǔn bèi gōng zuò 。",
+      "vi": "Buổi sáng, tôi mở máy tính chuẩn bị làm việc."
+    },
+    {
+      "start": 82.7,
+      "end": 85.9,
+      "hanzi": "窗外下着大雨。",
+      "pinyin": "chuāng wài xià zhe dà yǔ 。",
+      "vi": "Ngoài cửa sổ đang mưa rất to."
+    },
+    {
+      "start": 86.26,
+      "end": 91.65,
+      "hanzi": "雨水打在窗户上，发出啪啪的声音。",
+      "pinyin": "yǔ shuǐ dǎ zài chuāng hù shàng ， fā chū pā pā de shēng yīn 。",
+      "vi": "Nước mưa đập vào cửa sổ, phát ra tiếng lộp bộp."
+    },
+    {
+      "start": 91.7,
+      "end": 98.2,
+      "hanzi": "我打开电视看新闻和天气预报，知道暴风雨的情况。",
+      "pinyin": "wǒ dǎ kāi diàn shì kàn xīn wén hé tiān qì yù bào ， zhī dào bào fēng yǔ de qíng kuàng 。",
+      "vi": "Tôi bật tivi xem tin tức và dự báo thời tiết để biết tình hình mưa bão."
+    },
+    {
+      "start": 98.3,
+      "end": 102.3,
+      "hanzi": "然后我给我的好朋友打电话。",
+      "pinyin": "rán hòu wǒ gěi wǒ de hǎo péng yǒu dǎ diàn huà 。",
+      "vi": "Sau đó tôi gọi điện cho bạn thân của mình."
+    },
+    {
+      "start": 102.36,
+      "end": 105.7,
+      "hanzi": "我们聊天，聊生活和工作。",
+      "pinyin": "wǒ men liáo tiān ， liáo shēng huó hé gōng zuò 。",
+      "vi": "Chúng tôi trò chuyện về cuộc sống và công việc."
+    },
+    {
+      "start": 105.78,
+      "end": 109.5,
+      "hanzi": "听她的声音让我觉得好一点。",
+      "pinyin": "tīng tā de shēng yīn ràng wǒ jué de hǎo yì diǎn 。",
+      "vi": "Nghe giọng nói của cô bạn khiến tôi cảm thấy khá hơn một chút."
+    },
+    {
+      "start": 110.59,
+      "end": 113.2,
+      "hanzi": "中午，我做了简单的饭菜。",
+      "pinyin": "zhōng wǔ ， wǒ zuò le jiǎn dān de fàn cài 。",
+      "vi": "Buổi trưa, tôi nấu một bữa ăn đơn giản."
+    },
+    {
+      "start": 113.25,
+      "end": 116.9,
+      "hanzi": "吃完饭休息了一会儿。",
+      "pinyin": "chī wán fàn xiū xī le yī huì er 。",
+      "vi": "Ăn xong, tôi nghỉ ngơi một lát."
+    },
+    {
+      "start": 117.03,
+      "end": 121.6,
+      "hanzi": "我看手机上的短视频，放松自己。",
+      "pinyin": "wǒ kàn shǒu jī shàng de duǎn shì pín ， fàng sōng zì jǐ 。",
+      "vi": "Tôi xem các video ngắn trên điện thoại để thư giãn."
+    },
+    {
+      "start": 121.73,
+      "end": 125.9,
+      "hanzi": "外面还是下着雨，天空很灰。",
+      "pinyin": "wài miàn hái shì xià zhe yǔ ， tiān kōng hěn huī 。",
+      "vi": "Bên ngoài trời vẫn mưa, bầu trời rất xám xịt."
+    },
+    {
+      "start": 126.37,
+      "end": 129.3,
+      "hanzi": "我觉得有点寂寞。",
+      "pinyin": "wǒ jué de yǒu diǎn jì mò 。",
+      "vi": "Tôi cảm thấy hơi cô đơn."
+    },
+    {
+      "start": 129.43,
+      "end": 133.5,
+      "hanzi": "我给男朋友发了信息，告诉他我吃饭了。",
+      "pinyin": "wǒ gěi nán péng yǒu fā le xìn xī ， gào sù tā wǒ chī fàn le 。",
+      "vi": "Tôi nhắn tin cho bạn trai, nói với anh ấy rằng tôi đã ăn cơm rồi."
+    },
+    {
+      "start": 133.59,
+      "end": 137.3,
+      "hanzi": "也问他天气怎么样。",
+      "pinyin": "yě wèn tā tiān qì zěn me yàng 。",
+      "vi": "Tôi cũng hỏi thời tiết chỗ anh ấy thế nào."
+    },
+    {
+      "start": 137.52,
+      "end": 143.6,
+      "hanzi": "我的男朋友现在在重庆工作，那边也下大雨。",
+      "pinyin": "wǒ de nán péng yǒu xiàn zài zài chóng qìng gōng zuò ， nà biān yě xià dà yǔ 。",
+      "vi": "Bạn trai tôi hiện đang làm việc ở Trùng Khánh, bên đó cũng mưa rất to."
+    },
+    {
+      "start": 143.78,
+      "end": 149.2,
+      "hanzi": "他每天都打电话给我，问我冷不冷、吃没吃饭。",
+      "pinyin": "tā měi tiān dōu dǎ diàn huà gěi wǒ ， wèn wǒ lěng bù lěng 、 chī méi chī fàn 。",
+      "vi": "Ngày nào anh ấy cũng gọi cho tôi, hỏi tôi có lạnh không và đã ăn cơm chưa."
+    },
+    {
+      "start": 149.36,
+      "end": 152.7,
+      "hanzi": "还说他很想我。",
+      "pinyin": "hái shuō tā hěn xiǎng wǒ 。",
+      "vi": "Anh ấy còn nói rằng rất nhớ tôi."
+    },
+    {
+      "start": 152.86,
+      "end": 156.75,
+      "hanzi": "看见他的笑脸，我觉得不孤单了。",
+      "pinyin": "kàn jiàn tā de xiào liǎn ， wǒ jué de bù gū dān le 。",
+      "vi": "Nhìn thấy nụ cười của anh ấy, tôi không còn cảm thấy cô đơn nữa."
+    },
+    {
+      "start": 156.88,
+      "end": 163.9,
+      "hanzi": "虽然不能见面，但他的关心让我觉得很温暖。",
+      "pinyin": "suī rán bù néng jiàn miàn ， dàn tā de guān xīn ràng wǒ jué de hěn wēn nuǎn 。",
+      "vi": "Dù không thể gặp nhau, sự quan tâm của anh ấy vẫn khiến tôi cảm thấy rất ấm áp."
+    },
+    {
+      "start": 164.17,
+      "end": 167.25,
+      "hanzi": "下午，我参加了一个线上会议。",
+      "pinyin": "xià wǔ ， wǒ cān jiā le yí gè xiàn shàng huì yì 。",
+      "vi": "Buổi chiều, tôi tham gia một cuộc họp trực tuyến."
+    },
+    {
+      "start": 167.39,
+      "end": 173.9,
+      "hanzi": "虽然大家都在家里，但通过电脑我们还能见面、讨论工作。",
+      "pinyin": "suī rán dà jiā dōu zài jiā lǐ ， dàn tōng guò diàn nǎo wǒ men hái néng jiàn miàn 、 tǎo lùn gōng zuò 。",
+      "vi": "Dù mọi người đều ở nhà, chúng tôi vẫn có thể gặp nhau và thảo luận công việc qua máy tính."
+    },
+    {
+      "start": 174.05,
+      "end": 181.9,
+      "hanzi": "会议中，我认真听大家发言，也积极发表自己的意见。",
+      "pinyin": "huì yì zhōng ， wǒ rèn zhēn tīng dà jiā fā yán ， yě jī jí fā biǎo zì jǐ de yì jiàn 。",
+      "vi": "Trong cuộc họp, tôi chăm chú nghe mọi người phát biểu và tích cực đưa ra ý kiến của mình."
+    },
+    {
+      "start": 182.09,
+      "end": 188.9,
+      "hanzi": "会议结束后，我完成了今天的工作任务，感觉很有成就感。",
+      "pinyin": "huì yì jié shù hòu ， wǒ wán chéng le jīn tiān de gōng zuò rèn wù ， gǎn jué hěn yǒu chéng jiù gǎn 。",
+      "vi": "Sau khi cuộc họp kết thúc, tôi hoàn thành công việc hôm nay và cảm thấy rất có thành tựu."
+    },
+    {
+      "start": 189.22,
+      "end": 195.95,
+      "hanzi": "我的老板还特别表扬了我，说我工作做得很好，效率很高。",
+      "pinyin": "wǒ de lǎo bǎn hái tè bié biǎo yáng le wǒ ， shuō wǒ gōng zuò zuò dé hěn hǎo ， xiào lǜ hěn gāo 。",
+      "vi": "Sếp còn đặc biệt khen tôi làm việc rất tốt và có hiệu suất cao."
+    },
+    {
+      "start": 196.32,
+      "end": 199.9,
+      "hanzi": "听到这些话，我心里非常高兴。",
+      "pinyin": "tīng dào zhè xiē huà ， wǒ xīn lǐ fēi cháng gāo xìng 。",
+      "vi": "Nghe những lời đó, trong lòng tôi rất vui."
+    },
+    {
+      "start": 201.64,
+      "end": 208.15,
+      "hanzi": "晚上，我打开手机，看着我和男朋友过去一起拍的照片。",
+      "pinyin": "wǎn shàng ， wǒ dǎ kāi shǒu jī ， kàn zhe wǒ hé nán péng yǒu guò qù yì qǐ pāi de zhào piān 。",
+      "vi": "Buổi tối, tôi mở điện thoại xem những bức ảnh trước đây chụp cùng bạn trai."
+    },
+    {
+      "start": 208.26,
+      "end": 215.6,
+      "hanzi": "回想起我们一起散步、吃饭的时光，心里充满了期待。",
+      "pinyin": "huí xiǎng qǐ wǒ men yì qǐ sàn bù 、 chī fàn de shí guāng ， xīn lǐ chōng mǎn le qī dài 。",
+      "vi": "Nhớ lại những lúc cùng nhau đi dạo và ăn cơm, lòng tôi tràn đầy mong đợi."
+    },
+    {
+      "start": 215.76,
+      "end": 220.35,
+      "hanzi": "我希望暴风雨快点过去，天气变好。",
+      "pinyin": "wǒ xī wàng bào fēng yǔ kuài diǎn guò qù ， tiān qì biàn hǎo 。",
+      "vi": "Tôi mong cơn bão sớm qua đi và thời tiết tốt lên."
+    },
+    {
+      "start": 220.51,
+      "end": 229.0,
+      "hanzi": "我们可以一起出去散步，一起吃饭，一起享受阳光。",
+      "pinyin": "wǒ men kě yǐ yì qǐ chū qù sàn bù ， yì qǐ chī fàn ， yì qǐ xiǎng shòu yáng guāng 。",
+      "vi": "Chúng tôi có thể cùng nhau đi dạo, ăn cơm và tận hưởng ánh nắng."
+    },
+    {
+      "start": 229.05,
+      "end": 235.85,
+      "hanzi": "今天天气又冷又下大雨，所以我很早就想睡觉了。",
+      "pinyin": "jīn tiān tiān qì yòu lěng yòu xià dà yǔ ， suǒ yǐ wǒ hěn zǎo jiù xiǎng shuì jiào le 。",
+      "vi": "Hôm nay trời vừa lạnh vừa mưa to nên tôi muốn đi ngủ sớm."
+    },
+    {
+      "start": 236.01,
+      "end": 240.25,
+      "hanzi": "平时我都是晚上十一点才睡。",
+      "pinyin": "píng shí wǒ dōu shì wǎn shàng shí yì diǎn cái shuì 。",
+      "vi": "Bình thường phải đến 11 giờ tối tôi mới ngủ."
+    },
+    {
+      "start": 240.37,
+      "end": 245.55,
+      "hanzi": "但今天九点我就觉得很困，准备早点休息。",
+      "pinyin": "dàn jīn tiān jiǔ diǎn wǒ jiù jué de hěn kùn ， zhǔn bèi zǎo diǎn xiū xī 。",
+      "vi": "Nhưng hôm nay mới 9 giờ tôi đã thấy buồn ngủ và chuẩn bị nghỉ sớm."
+    },
+    {
+      "start": 245.68,
+      "end": 253.65,
+      "hanzi": "我关了灯，盖好被子，听着窗外的雨声慢慢入睡。",
+      "pinyin": "wǒ guān le dēng ， gài hǎo bèi zi ， tīng zhe chuāng wài de yǔ shēng màn màn rù shuì 。",
+      "vi": "Tôi tắt đèn, đắp chăn, lắng nghe tiếng mưa ngoài cửa sổ rồi dần chìm vào giấc ngủ."
+    },
+    {
+      "start": 253.82,
+      "end": 257.2,
+      "hanzi": "谢谢大家听我分享我的雨天生活。",
+      "pinyin": "xiè xiè dà jiā tīng wǒ fēn xiǎng wǒ de yǔ tiān shēng huó 。",
+      "vi": "Cảm ơn mọi người đã lắng nghe tôi chia sẻ về cuộc sống trong ngày mưa."
+    },
+    {
+      "start": 257.38,
+      "end": 263.6,
+      "hanzi": "希望你们也能在阴雨天找到属于自己的温暖和快乐。",
+      "pinyin": "xī wàng nǐ men yě néng zài yīn yǔ tiān zhǎo dào shǔ yú zì jǐ de wēn nuǎn hé kuài lè 。",
+      "vi": "Hy vọng các bạn cũng tìm thấy sự ấm áp và niềm vui của riêng mình trong những ngày mưa."
+    },
+    {
+      "start": 263.74,
+      "end": 267.5,
+      "hanzi": "祝大家身体健康，心情愉快！",
+      "pinyin": "zhù dà jiā shēn tǐ jiàn kāng ， xīn qíng yú kuài ！",
+      "vi": "Chúc mọi người mạnh khỏe và luôn vui vẻ!"
+    },
+    {
+      "start": 267.6,
+      "end": 270.98,
+      "hanzi": "我们下次再见！",
+      "pinyin": "wǒ men xià cì zài jiàn ！",
+      "vi": "Hẹn gặp lại mọi người lần sau!"
+    }
+  ]
+}

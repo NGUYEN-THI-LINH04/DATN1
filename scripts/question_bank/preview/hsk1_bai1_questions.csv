@@ -1,0 +1,24 @@
+﻿hsk_level,lesson_id,lesson_order,lesson_title,order,source_type,source_id,question_group,question_type,skill,content,passage,choice_1,choice_2,choice_3,choice_4,correct_choice,answer_text,explanation,score
+1,1,1,你好！ - Xin chào!,1,tu_vung,7,tu_vung_nghia,chon_mot,doc,“呢” có nghĩa là gì?,,tôi; mình,trợ từ hỏi lại hoặc tiếp nối chủ đề,cũng,gì; cái gì,2,trợ từ hỏi lại hoặc tiếp nối chủ đề,呢 (ne) có nghĩa là “trợ từ hỏi lại hoặc tiếp nối chủ đề”.,1
+1,1,1,你好！ - Xin chào!,2,tu_vung,10,tu_vung_nghia,chon_mot,doc,“什么” có nghĩa là gì?,,cũng,tên; tên gọi,bạn; cậu,gì; cái gì,4,gì; cái gì,什么 (shénme) có nghĩa là “gì; cái gì”.,1
+1,1,1,你好！ - Xin chào!,3,tu_vung,1,tu_vung_nghia,chon_mot,doc,“高兴” có nghĩa là gì?,,gọi; tên là,tôi; mình,là,vui; vui mừng,4,vui; vui mừng,高兴 (gāoxìng) có nghĩa là “vui; vui mừng”.,1
+1,1,1,你好！ - Xin chào!,4,tu_vung,8,tu_vung_nghia,chon_mot,doc,“你” có nghĩa là gì?,,tốt; khỏe,vui; vui mừng,bạn; cậu,gì; cái gì,3,bạn; cậu,你 (nǐ) có nghĩa là “bạn; cậu”.,1
+1,1,1,你好！ - Xin chào!,5,tu_vung,13,tu_vung_nghia,chon_mot,doc,“也” có nghĩa là gì?,,gì; cái gì,gọi; tên là,trợ từ hỏi lại hoặc tiếp nối chủ đề,cũng,4,cũng,也 (yě) có nghĩa là “cũng”.,1
+1,1,1,你好！ - Xin chào!,6,tu_vung,11,tu_vung_nghia,chon_mot,doc,“是” có nghĩa là gì?,,gọi; tên là,gì; cái gì,vui; vui mừng,là,4,là,是 (shì) có nghĩa là “là”.,1
+1,1,1,你好！ - Xin chào!,7,tu_vung,6,tu_vung_nghia,chon_mot,doc,“名字” có nghĩa là gì?,,trợ từ nghi vấn,biết; quen; làm quen,gì; cái gì,tên; tên gọi,4,tên; tên gọi,名字 (míngzi) có nghĩa là “tên; tên gọi”.,1
+1,1,1,你好！ - Xin chào!,8,tu_vung,2,tu_vung_nghia,chon_mot,doc,“好” có nghĩa là gì?,,gọi; tên là,tốt; khỏe,gì; cái gì,tôi; mình,2,tốt; khỏe,好 (hǎo) có nghĩa là “tốt; khỏe”.,1
+1,1,1,你好！ - Xin chào!,9,tu_vung,6,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “名字” là gì?,,shì,wǒ,míngzi,shénme,3,míngzi,“名字” được đọc là míngzi.,1
+1,1,1,你好！ - Xin chào!,10,tu_vung,13,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “也” là gì?,,hǎo,ne,yě,hěn,3,yě,“也” được đọc là yě.,1
+1,1,1,你好！ - Xin chào!,11,tu_vung,2,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “好” là gì?,,nǐ,hǎo,shì,yě,2,hǎo,“好” được đọc là hǎo.,1
+1,1,1,你好！ - Xin chào!,12,tu_vung,12,tu_vung_pinyin,chon_mot,doc,Pinyin đúng của “我” là gì?,,shénme,wǒ,gāoxìng,nǐ,2,wǒ,“我” được đọc là wǒ.,1
+1,1,1,你好！ - Xin chào!,13,chu_han,8,chu_han_pinyin,chon_mot,doc,Pinyin của chữ “名” là gì?,,míng,gāo,shì,wǒ,1,míng,Chữ “名” được đọc là míng.,1
+1,1,1,你好！ - Xin chào!,14,chu_han,7,chu_han_pinyin,chon_mot,doc,Pinyin của chữ “么” là gì?,,zì,me,hǎo,gāo,2,me,Chữ “么” được đọc là me.,1
+1,1,1,你好！ - Xin chào!,15,chu_han,17,chu_han_pinyin,chon_mot,doc,Pinyin của chữ “也” là gì?,,rèn,wǒ,yě,nǐ,3,yě,Chữ “也” được đọc là yě.,1
+1,1,1,你好！ - Xin chào!,16,chu_han,6,chu_han_nghia,chon_mot,doc,Chữ “什” có nghĩa là gì?,,nhận biết; nhận ra; công nhận,tốt; khỏe,gì; cái gì (dùng trong 什么),tên; danh xưng,3,gì; cái gì (dùng trong 什么),Chữ “什” (shén) có nghĩa là “gì; cái gì (dùng trong 什么)”.,1
+1,1,1,你好！ - Xin chào!,17,chu_han,16,chu_han_nghia,chon_mot,doc,Chữ “呢” có nghĩa là gì?,,biết; nhận biết; kiến thức,tên; danh xưng,trợ từ hỏi lại hoặc tiếp nối chủ đề,gọi; tên là,3,trợ từ hỏi lại hoặc tiếp nối chủ đề,Chữ “呢” (ne) có nghĩa là “trợ từ hỏi lại hoặc tiếp nối chủ đề”.,1
+1,1,1,你好！ - Xin chào!,18,ngu_phap,6,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+很 (hěn) đứng trước tính từ. Trong bài này, cấu trúc được dùng để mô tả trạng thái hoặc cảm xúc.",,很 + tính từ,Câu trần thuật + 吗？,A + 是 + B,"也 - ""cũng""",1,很 + tính từ,Cấu trúc đúng là “很 + tính từ”. Cấu trúc: Chủ ngữ + 很 + tính từ. Ví dụ với 好 và 高兴 để diễn tả trạng thái hoặc cảm xúc của người nói. Ví dụ: 我很高兴。 — Tôi rất vui.,1
+1,1,1,你好！ - Xin chào!,19,ngu_phap,3,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+什么 (shénme) là đại từ nghi vấn, dùng để hỏi về sự vật hoặc thông tin chưa biết.",,Câu trần thuật + 吗？,...呢？ - hỏi lại hoặc tiếp nối,A + 是 + B,"什么 - hỏi ""gì / cái gì""",4,"什么 - hỏi ""gì / cái gì""","Cấu trúc đúng là “什么 - hỏi ""gì / cái gì""”. Trong câu hỏi tên, có thể dùng mẫu: 你叫什么名字？ nghĩa là ""Bạn tên là gì?"". Không cần thêm 吗 khi câu đã có từ nghi vấn 什么. Ví dụ: 你叫什么名字？ — Bạn tên là gì?",1
+1,1,1,你好！ - Xin chào!,20,ngu_phap,1,ngu_phap_nhan_dien,chon_mot,doc,"Cấu trúc ngữ pháp nào phù hợp với mô tả sau?
+是 (shì) dùng để nối chủ ngữ với danh từ hoặc cụm danh từ, thường mang nghĩa ""là"".",,A + 是 + B,很 + tính từ,Câu trần thuật + 吗？,Chủ ngữ + 叫 + tên,1,A + 是 + B,"Cấu trúc đúng là “A + 是 + B”. Cấu trúc cơ bản: Chủ ngữ + 是 + danh từ/cụm danh từ. Dùng khi giới thiệu hoặc xác định người, sự vật. Ví dụ: 我是安娜。 — Tôi là Anna.",1

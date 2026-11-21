@@ -1,0 +1,176 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Quản lý khóa học | Mộc Hán{% endblock %}
+
+{% block content %}
+<div class="admin-heading">
+    <h1>Quản lý khóa học</h1>
+    <p>Quản lý nội dung và trạng thái các khóa học tiếng Trung.</p>
+
+    <a class="button" href="{{ url_for('admin_courses.edit') }}">
+        + Thêm khóa học
+    </a>
+</div>
+
+<section class="panel">
+    <form
+        class="courses-filter"
+        method="get"
+        action="{{ url_for('admin_courses.index') }}"
+    >
+        <div class="field">
+            <label for="course-search">Tìm khóa học</label>
+            <input
+                id="course-search"
+                type="search"
+                name="q"
+                maxlength="200"
+                value="{{ keyword }}"
+                placeholder="Nhập tên hoặc mã khóa học"
+            >
+        </div>
+
+        <div class="field">
+            <label for="level-filter">Cấp độ</label>
+            <select id="level-filter" name="level">
+                <option value="">Tất cả</option>
+                {% for level in range(1, 5) %}
+                    <option
+                        value="{{ level }}"
+                        {% if selected_level == level|string %}selected{% endif %}
+                    >
+                        HSK {{ level }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="field">
+            <label for="status-filter">Trạng thái</label>
+            <select id="status-filter" name="status">
+                <option value="">Tất cả</option>
+
+                {% for value, label in statuses.items() %}
+                    <option
+                        value="{{ value }}"
+                        {% if selected_status == value %}selected{% endif %}
+                    >
+                        {{ label }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="course-actions">
+            <button type="submit" class="button">Tìm kiếm</button>
+
+            <a
+                class="small-button"
+                href="{{ url_for('admin_courses.index') }}"
+            >
+                Bỏ lọc
+            </a>
+        </div>
+    </form>
+
+    <p class="space-top">
+        Tìm thấy <strong>{{ courses|length }}</strong> khóa học.
+    </p>
+
+    <div class="table-scroll">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th scope="col">Mã</th>
+                    <th scope="col">Ký hiệu</th>
+                    <th scope="col">Tên khóa học</th>
+                    <th scope="col">Cấp độ</th>
+                    <th scope="col">Trạng thái</th>
+                    <th scope="col">Thao tác</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for course in courses %}
+                    <tr>
+                        <td>{{ course.id }}</td>
+                        <td>{{ course.code }}</td>
+                        <td><strong>{{ course.title }}</strong></td>
+                        <td>{{ course.level_title }}</td>
+                        <td>
+                            <span class="course-status course-status-{{ course.status }}">
+                                {{ statuses.get(course.status, course.status) }}
+                            </span>
+                        </td>
+                        <td>
+
+    <div class="course-action-buttons">
+
+        <!-- =====================================
+             CHỈNH SỬA KHÓA HỌC
+        ====================================== -->
+
+        <a
+            class="small-button"
+            href="{{ url_for(
+                'admin_courses.edit',
+                course_id=course.id
+            ) }}"
+        >
+            Chỉnh sửa
+        </a>
+
+
+        <!-- =====================================
+             XÓA KHÓA HỌC
+        ====================================== -->
+
+        <form
+            method="post"
+
+            action="{{ url_for(
+                'admin_courses.delete',
+                course_id=course.id
+            ) }}"
+
+            onsubmit="
+                return confirm(
+                    'Bạn có chắc muốn xóa khóa học này không? ' +
+                    'Khóa học chỉ được xóa nếu chưa có bài học ' +
+                    'và chưa có người học đăng ký.'
+                );
+            "
+        >
+
+            <input
+                type="hidden"
+                name="csrf_token"
+                value="{{ csrf_token() }}"
+            >
+
+
+            <button
+                type="submit"
+                class="small-button course-delete-button"
+            >
+                Xóa
+            </button>
+
+        </form>
+
+    </div>
+
+</td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="6" class="center-text">
+                            Không có khóa học phù hợp.
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endblock %}

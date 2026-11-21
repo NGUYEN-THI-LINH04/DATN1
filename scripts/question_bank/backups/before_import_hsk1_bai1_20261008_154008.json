@@ -1,0 +1,58 @@
+{
+  "BaiTap": [
+    [
+      1,
+      24,
+      "Bài luyện tập thử nghiệm Bài 24",
+      "Chọn hoặc nhập đáp án phù hợp cho từng câu hỏi.",
+      900,
+      70.0,
+      "ban_nhap"
+    ]
+  ],
+  "CauHoi": [
+    [
+      1,
+      1,
+      "chon_mot",
+      "doc",
+      "“你” có nghĩa là gì?",
+      null,
+      null,
+      null,
+      "你 (nǐ) có nghĩa là “bạn, cậu”.",
+      1.0,
+      1
+    ]
+  ],
+  "LuaChonCauHoi": [
+    [
+      1,
+      1,
+      "Tôi",
+      false,
+      1
+    ],
+    [
+      2,
+      1,
+      "Bạn , cậu",
+      true,
+      2
+    ],
+    [
+      3,
+      1,
+      "học sinh",
+      false,
+      3
+    ],
+    [
+      4,
+      1,
+      "giáo viên",
+      false,
+      4
+    ]
+  ]
+}

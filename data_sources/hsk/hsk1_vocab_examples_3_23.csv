@@ -1,0 +1,460 @@
+﻿SoThuTuBai,MaBaiHoc,ThuTu,MaTuVung,ChuHan,PhienAm,NghiaTiengViet,TuLoai,ViDuTiengTrung,ViDuTiengViet,MaNguon,DaDuyet
+3,3,1,17,爸爸,bàba,bố; ba; cha,Danh từ,这是我的爸爸。,Đây là bố của tôi.,1002,1
+3,3,2,87,弟弟,dìdi,em trai,Danh từ,这是我的弟弟。,Đây là em trai của tôi.,1002,1
+3,3,3,110,儿子,érzi,con trai,Danh từ,这是我的儿子。,Đây là con trai của tôi.,1002,1
+3,3,4,130,哥哥,gēge,anh trai,Danh từ,这是我的哥哥。,Đây là anh trai của tôi.,1002,1
+3,3,5,147,孩子,háizi,đứa trẻ; con cái,Danh từ,那个孩子很高兴。,Đứa trẻ kia rất vui.,1002,1
+3,3,6,179,家,jiā,nhà; gia đình,Danh từ,这是我的家。,Đây là nhà của tôi.,1002,1
+3,3,7,180,家里,jiā li,trong nhà; ở nhà,Danh từ chỉ nơi chốn,我妈妈在家里。,Mẹ tôi ở nhà.,1002,1
+3,3,8,181,家人,jiārén,người nhà; thành viên gia đình,Danh từ,我的家人都很好。,Người nhà của tôi đều khỏe.,1002,1
+3,3,9,187,姐姐,jiějie,chị gái,Danh từ,这是我的姐姐。,Đây là chị gái của tôi.,1002,1
+3,3,10,217,老人,lǎorén,người cao tuổi; người già,Danh từ,那个老人是我爷爷。,Người cao tuổi kia là ông nội tôi.,1002,1
+3,3,11,233,妈妈,māma,mẹ; má,Danh từ,这是我的妈妈。,Đây là mẹ của tôi.,1002,1
+3,3,12,245,妹妹,mèimei,em gái,Danh từ,这是我的妹妹。,Đây là em gái của tôi.,1002,1
+3,3,13,249,们（朋友们）,men (péngyoumen),các; những,Hậu tố,朋友们，你们好！,"Các bạn, xin chào!",1002,1
+3,3,14,267,奶奶,nǎinai,bà nội,Danh từ,这是我的奶奶。,Đây là bà nội của tôi.,1002,1
+3,3,15,269,男孩儿,nánháir,bé trai; cậu bé,Danh từ,那个男孩儿是我弟弟。,Cậu bé kia là em trai tôi.,1002,1
+3,3,16,270,男朋友,nánpéngyou,bạn trai,Danh từ,这是我的男朋友。,Đây là bạn trai của tôi.,1002,1
+3,3,17,282,女儿,nǚ'ér,con gái,Danh từ,这是我的女儿。,Đây là con gái của tôi.,1002,1
+3,3,18,283,女孩儿,nǚháir,bé gái; cô bé,Danh từ,那个女孩儿是我妹妹。,Cô bé kia là em gái tôi.,1002,1
+3,3,19,284,女朋友,nǚpéngyou,bạn gái,Danh từ,这是我的女朋友。,Đây là bạn gái của tôi.,1002,1
+3,3,20,289,朋友,péngyou,bạn; bạn bè,Danh từ,这是我的朋友。,Đây là bạn của tôi.,1002,1
+3,3,21,403,小孩儿,xiǎoháir,trẻ con; đứa trẻ,Danh từ,那个小孩儿很高兴。,Đứa trẻ kia rất vui.,1002,1
+3,3,22,405,小朋友,xiǎopéngyǒu,trẻ em; em nhỏ,Danh từ,小朋友们，你们好！,"Các em nhỏ, xin chào!",1002,1
+3,3,23,425,爷爷,yéye,ông nội,Danh từ,这是我的爷爷。,Đây là ông nội của tôi.,1002,1
+4,4,1,16,八,bā,tám; 8,Số từ,我今年八岁。,Năm nay tôi tám tuổi.,1002,1
+4,4,2,21,百,bǎi,một trăm; 100,Số từ,这里有一百个人。,Ở đây có một trăm người.,1002,1
+4,4,3,23,半,bàn,một nửa; nửa,Số từ,我喝半杯水。,Tôi uống nửa cốc nước.,1002,1
+4,4,4,30,杯,bēi,cốc; ly,Lượng từ,我喝一杯水。,Tôi uống một cốc nước.,1002,1
+4,4,5,35,本,běn,quyển; cuốn,Lượng từ,我有两本书。,Tôi có hai quyển sách.,1002,1
+4,4,6,66,次,cì,lần,Lượng từ,我去过两次。,Tôi đã đi hai lần.,1002,1
+4,4,7,88,第（第二）,dì (dì-èr),thứ; thứ hai,Tiền tố,这是第二课。,Đây là bài thứ hai.,1002,1
+4,4,8,107,多,duō,nhiều; hơn,Tính từ / đại từ,这里有很多人。,Ở đây có rất nhiều người.,1002,1
+4,4,9,108,多少,duōshao,bao nhiêu,Đại từ nghi vấn,你有多少本书？,Bạn có bao nhiêu quyển sách?,1002,1
+4,4,10,111,二,èr,hai; 2,Số từ,二加二等于四。,Hai cộng hai bằng bốn.,1002,1
+4,4,11,132,个,gè,cái; người; chiếc,Lượng từ,我有一个朋友。,Tôi có một người bạn.,1002,1
+4,4,12,175,几,jǐ,mấy; bao nhiêu; vài,Đại từ nghi vấn / số từ,你今年几岁？,Năm nay bạn bao nhiêu tuổi?,1002,1
+4,4,13,194,九,jiǔ,chín; 9,Số từ,他九岁。,Cậu ấy chín tuổi.,1002,1
+4,4,14,212,块,kuài,"miếng; cục; đồng, tệ",Danh từ / lượng từ,这个十块钱。,Cái này mười tệ.,1002,1
+4,4,15,224,两,liǎng,hai,Số từ,我有两个朋友。,Tôi có hai người bạn.,1002,1
+4,4,16,225,零,líng,không; số 0,Số từ,现在八点零五分。,Bây giờ là tám giờ năm phút.,1002,1
+4,4,17,226,六,liù,sáu; 6,Số từ,我弟弟六岁。,Em trai tôi sáu tuổi.,1002,1
+4,4,18,291,七,qī,bảy; 7,Số từ,今天星期七。,Hôm nay là ngày thứ bảy.,1002,1
+4,4,19,315,三,sān,ba; 3,Số từ,我有三本书。,Tôi có ba quyển sách.,1002,1
+4,4,20,328,少,shǎo,ít; thiếu,Tính từ / động từ,这里人很少。,Ở đây có rất ít người.,1002,1
+4,4,21,335,十,shí,mười; 10,Số từ,我有十块钱。,Tôi có mười tệ.,1002,1
+4,4,22,353,四,sì,bốn; 4,Số từ,我有四本书。,Tôi có bốn quyển sách.,1002,1
+4,4,23,355,岁,suì,tuổi,Lượng từ,我今年二十岁。,Năm nay tôi hai mươi tuổi.,1002,1
+4,4,24,383,五,wǔ,năm; 5,Số từ,我们有五个人。,Chúng tôi có năm người.,1002,1
+4,4,25,427,一,yī,một; 1,Số từ,我有一个姐姐。,Tôi có một chị gái.,1002,1
+4,4,26,431,一半,yībàn,một nửa,Số từ,我吃了一半。,Tôi đã ăn một nửa.,1002,1
+5,5,1,24,半年,bàn nián,nửa năm; sáu tháng,Danh từ chỉ thời gian,我学习汉语半年了。,Tôi học tiếng Trung được nửa năm rồi.,1002,1
+5,5,2,154,号,hào,ngày; số,Danh từ,今天是十月一号。,Hôm nay là ngày 1 tháng 10.,1002,1
+5,5,3,159,后天,hòutiān,ngày mốt,Danh từ chỉ thời gian,后天我去学校。,Ngày mốt tôi đi học.,1002,1
+5,5,4,189,今年,jīnnián,năm nay,Danh từ chỉ thời gian,我今年二十岁。,Năm nay tôi hai mươi tuổi.,1002,1
+5,5,5,190,今天,jīntiān,hôm nay,Danh từ chỉ thời gian,今天我上课。,Hôm nay tôi đi học.,1002,1
+5,5,6,254,明年,míngnián,năm sau,Danh từ chỉ thời gian,明年我去中国。,Năm sau tôi đi Trung Quốc.,1002,1
+5,5,7,255,明天,míngtiān,ngày mai,Danh từ chỉ thời gian,明天见！,Hẹn gặp ngày mai!,1002,1
+5,5,8,278,年,nián,năm,Danh từ / lượng từ,一年有十二个月。,Một năm có mười hai tháng.,1002,1
+5,5,9,298,前天,qiántiān,hôm kia,Danh từ chỉ thời gian,前天我在家。,Hôm kia tôi ở nhà.,1002,1
+5,5,10,308,去年,qùnián,năm ngoái,Danh từ chỉ thời gian,去年我在北京。,Năm ngoái tôi ở Bắc Kinh.,1002,1
+5,5,11,312,日,rì,ngày,Danh từ,今天是十月一日。,Hôm nay là ngày 1 tháng 10.,1002,1
+5,5,12,313,日期,rìqī,ngày tháng; ngày tháng năm,Danh từ,请写日期。,Hãy viết ngày tháng.,1002,1
+5,5,13,334,生日,shēngrì,sinh nhật,Danh từ,今天是我的生日。,Hôm nay là sinh nhật của tôi.,1002,1
+5,5,14,361,天,tiān,ngày,Danh từ / lượng từ,我学习了三天。,Tôi đã học ba ngày.,1002,1
+5,5,15,413,新年,xīnnián,năm mới,Danh từ,新年快乐！,Chúc mừng năm mới!,1002,1
+5,5,16,414,星期,xīngqī,tuần; thứ,Danh từ,今天星期几？,Hôm nay là thứ mấy?,1002,1
+5,5,17,415,星期日,xīngqīrì,Chủ nhật,Danh từ,星期日我休息。,Chủ nhật tôi nghỉ.,1002,1
+5,5,18,416,星期天,xīngqītiān,Chủ nhật,Danh từ,星期天我在家。,Chủ nhật tôi ở nhà.,1002,1
+5,5,19,452,月,yuè,tháng,Danh từ,一年有十二个月。,Một năm có mười hai tháng.,1002,1
+5,5,20,495,昨天,zuótiān,hôm qua,Danh từ chỉ thời gian,昨天我很忙。,Hôm qua tôi rất bận.,1002,1
+6,6,1,20,白天,báitiān,ban ngày,Danh từ chỉ thời gian,白天我上班。,Ban ngày tôi đi làm.,1002,1
+6,6,2,25,半天,bàntiān,nửa ngày,Danh từ chỉ thời gian,我学习了半天。,Tôi học nửa ngày.,1002,1
+6,6,3,51,常,cháng,thường; thường xuyên,Phó từ,我常去图书馆。,Tôi thường đi thư viện.,1002,1
+6,6,4,52,常常,chángcháng,thường xuyên; thường,Phó từ,我常常学习汉语。,Tôi thường xuyên học tiếng Trung.,1002,1
+6,6,5,89,点,diǎn,giờ,Danh từ / lượng từ,现在八点。,Bây giờ là tám giờ.,1002,1
+6,6,6,122,分,fēn,phút,Danh từ / lượng từ,现在八点十分。,Bây giờ là tám giờ mười phút.,1002,1
+6,6,7,235,马上,mǎshàng,ngay; lập tức,Phó từ,我马上来。,Tôi đến ngay.,1002,1
+6,6,8,323,上次,shàng cì,lần trước,Danh từ chỉ thời gian,上次我们一起吃饭。,Lần trước chúng tôi ăn cơm cùng nhau.,1002,1
+6,6,9,326,上午,shàngwǔ,buổi sáng,Danh từ chỉ thời gian,上午我上课。,Buổi sáng tôi đi học.,1002,1
+6,6,10,336,时候,shíhou,lúc; khi; thời điểm,Danh từ,你什么时候来？,Khi nào bạn đến?,1002,1
+6,6,11,337,时间,shíjiān,thời gian,Danh từ,我没有时间。,Tôi không có thời gian.,1002,1
+6,6,12,374,晚,wǎn,muộn; trễ,Tính từ,今天我来晚了。,Hôm nay tôi đến muộn.,1002,1
+6,6,13,376,晚上,wǎnshang,buổi tối; ban đêm,Danh từ chỉ thời gian,晚上我看电影。,Buổi tối tôi xem phim.,1002,1
+6,6,14,394,下次,xià cì,lần sau; lần tới,Danh từ chỉ thời gian,下次见！,Hẹn gặp lần sau!,1002,1
+6,6,15,396,下午,xiàwǔ,buổi chiều,Danh từ chỉ thời gian,下午我学习汉语。,Buổi chiều tôi học tiếng Trung.,1002,1
+6,6,16,398,先,xiān,trước; trước tiên,Phó từ,我先吃饭。,Tôi ăn cơm trước.,1002,1
+6,6,17,400,现在,xiànzài,bây giờ; hiện tại,Danh từ chỉ thời gian,我现在在学校。,Bây giờ tôi đang ở trường.,1002,1
+6,6,18,406,小时,xiǎoshí,giờ; tiếng đồng hồ,Danh từ / lượng từ,我学习两个小时。,Tôi học hai tiếng.,1002,1
+6,6,19,432,一会儿,yīhuìr,một lát; một lúc,Danh từ chỉ thời gian,请等一会儿。,Vui lòng đợi một lát.,1002,1
+6,6,20,444,有时候,yǒushíhou,đôi khi; thỉnh thoảng,Phó từ,我有时候看电影。,Đôi khi tôi xem phim.,1002,1
+6,6,21,457,早,zǎo,sớm,Tính từ / phó từ,今天我来得很早。,Hôm nay tôi đến rất sớm.,1002,1
+6,6,22,459,早上,zǎoshang,buổi sáng; sáng sớm,Danh từ chỉ thời gian,早上我吃早饭。,Buổi sáng tôi ăn sáng.,1002,1
+6,6,23,480,中午,zhōngwǔ,buổi trưa,Danh từ chỉ thời gian,中午我吃午饭。,Buổi trưa tôi ăn trưa.,1002,1
+6,6,24,494,最后,zuìhòu,cuối cùng; sau cùng,Danh từ / phó từ,最后我们回家。,Cuối cùng chúng tôi về nhà.,1002,1
+7,7,1,22,班,bān,lớp; lớp học,Danh từ / lượng từ,我在一班。,Tôi học lớp một.,1002,1
+7,7,2,75,大学,dàxué,trường đại học; đại học,Danh từ,我在大学学习。,Tôi học ở trường đại học.,1002,1
+7,7,3,76,大学生,dàxuéshēng,sinh viên đại học,Danh từ,他是大学生。,Anh ấy là sinh viên đại học.,1002,1
+7,7,4,117,放假,fàngjià,nghỉ; nghỉ học; nghỉ lễ,Động từ,明天我们放假。,Ngày mai chúng tôi được nghỉ.,1002,1
+7,7,5,118,放学,fàngxué,tan học,Động từ,下午五点放学。,Năm giờ chiều tan học.,1002,1
+7,7,6,185,教,jiāo,dạy,Động từ,老师教我们汉语。,Giáo viên dạy chúng tôi tiếng Trung.,1002,1
+7,7,7,186,教学楼,jiàoxuélóu,tòa nhà giảng dạy; giảng đường,Danh từ,我在教学楼学习。,Tôi học ở tòa nhà giảng dạy.,1002,1
+7,7,8,205,考,kǎo,thi; kiểm tra,Động từ,明天我要考汉语。,Ngày mai tôi phải thi tiếng Trung.,1002,1
+7,7,9,206,考试,kǎoshì,kỳ thi; thi; kiểm tra,Danh từ / động từ,今天有汉语考试。,Hôm nay có bài thi tiếng Trung.,1002,1
+7,7,10,208,课,kè,bài học; tiết học; môn học,Danh từ,这是汉语课。,Đây là tiết tiếng Trung.,1002,1
+7,7,11,218,老师,lǎoshī,giáo viên; thầy giáo; cô giáo,Danh từ,他是老师。,Anh ấy là giáo viên.,1002,1
+7,7,12,302,请假,qǐngjià,xin nghỉ,Động từ,我今天请假。,Hôm nay tôi xin nghỉ.,1002,1
+7,7,13,311,认真,rènzhēn,nghiêm túc; chăm chú,Tính từ / phó từ,他学习很认真。,Anh ấy học rất nghiêm túc.,1002,1
+7,7,14,324,上课,shàngkè,học; lên lớp; vào học,Động từ,我们上午上课。,Chúng tôi học vào buổi sáng.,1002,1
+7,7,15,327,上学,shàngxué,đi học,Động từ,我每天上学。,Tôi đi học mỗi ngày.,1002,1
+7,7,16,367,同学,tóngxué,bạn học; bạn cùng lớp,Danh từ,他是同学。,Anh ấy là bạn học.,1002,1
+7,7,17,368,图书馆,túshūguǎn,thư viện,Danh từ,我在图书馆学习。,Tôi học ở thư viện.,1002,1
+7,7,18,395,下课,xiàkè,tan học; hết tiết,Động từ,现在下课。,Bây giờ tan học.,1002,1
+7,7,19,407,小学,xiǎoxué,trường tiểu học,Danh từ,我在小学学习。,Tôi học ở trường tiểu học.,1002,1
+7,7,20,408,小学生,xiǎoxuéshēng,học sinh tiểu học,Danh từ,他是小学生。,Anh ấy là học sinh tiểu học.,1002,1
+7,7,21,419,学,xué,học,Động từ,我学汉语。,Tôi học tiếng Trung.,1002,1
+7,7,22,420,学生,xuéshēng,học sinh; sinh viên,Danh từ,他是学生。,Anh ấy là học sinh.,1002,1
+7,7,23,421,学习,xuéxí,học; học tập,Động từ,我学习汉语。,Tôi học tiếng Trung.,1002,1
+7,7,24,422,学校,xuéxiào,trường học,Danh từ,我在学校学习。,Tôi học ở trường học.,1002,1
+7,7,25,423,学院,xuéyuàn,học viện; trường; khoa,Danh từ,我在学院学习。,Tôi học ở học viện.,1002,1
+7,7,26,475,知识,zhīshi,kiến thức,Danh từ,学习可以得到知识。,Học tập có thể giúp có được kiến thức.,1002,1
+7,7,27,481,中学,zhōngxué,trường trung học,Danh từ,我在中学学习。,Tôi học ở trường trung học.,1002,1
+7,7,28,482,中学生,zhōngxuéshēng,học sinh trung học,Danh từ,他是中学生。,Anh ấy là học sinh trung học.,1002,1
+8,8,1,36,本子,běnzi,vở; quyển vở,Danh từ,这是我的本子。,Đây là quyển vở của tôi.,1002,1
+8,8,2,72,打开,dǎkāi,mở; bật,Động từ,请打开课本。,Hãy mở sách giáo khoa.,1002,1
+8,8,3,103,读,dú,đọc; đọc thành tiếng,Động từ,请读这个字。,Hãy đọc chữ này.,1002,1
+8,8,4,104,读书,dúshū,đọc sách; học,Động từ,我喜欢读书。,Tôi thích đọc sách.,1002,1
+8,8,5,138,关上,guānshang,đóng; tắt,Động từ,请关上门。,Hãy đóng cửa.,1002,1
+8,8,6,165,回答,huídá,trả lời; câu trả lời,Động từ / danh từ,请回答问题。,Hãy trả lời câu hỏi.,1002,1
+8,8,7,176,记,jì,ghi; nhớ; ghi nhớ,Động từ,我记这个汉字。,Tôi ghi nhớ chữ Hán này.,1002,1
+8,8,8,177,记得,jìde,nhớ,Động từ,我记得他的名字。,Tôi nhớ tên của anh ấy.,1002,1
+8,8,9,178,记住,jìzhù,ghi nhớ; nhớ kỹ,Động từ,请记住这个汉字。,Hãy nhớ kỹ chữ Hán này.,1002,1
+8,8,10,209,课本,kèběn,sách giáo khoa,Danh từ,请打开课本。,Hãy mở sách giáo khoa.,1002,1
+8,8,11,210,课文,kèwén,bài khóa; bài đọc,Danh từ,我们一起读课文。,Chúng ta cùng đọc bài khóa.,1002,1
+8,8,12,339,试,shì,thử,Động từ,你试一下。,Bạn thử một chút đi.,1002,1
+8,8,13,343,书,shū,sách,Danh từ,这是我的书。,Đây là sách của tôi.,1002,1
+8,8,14,344,书包,shūbāo,cặp sách; ba lô đi học,Danh từ,书在书包里。,Sách ở trong cặp.,1002,1
+8,8,15,351,说,shuō,nói,Động từ,请说中文。,Hãy nói tiếng Trung.,1002,1
+8,8,16,352,说话,shuōhuà,nói; nói chuyện,Động từ,他们在说话。,Họ đang nói chuyện.,1002,1
+8,8,17,363,听,tīng,nghe,Động từ,请听老师说。,Hãy nghe giáo viên nói.,1002,1
+8,8,18,366,听写,tīngxiě,viết chính tả; bài chính tả,Động từ / danh từ,今天我们听写。,Hôm nay chúng tôi viết chính tả.,1002,1
+8,8,19,379,忘,wàng,quên,Động từ,别忘了。,Đừng quên nhé.,1002,1
+8,8,20,380,忘记,wàngjì,quên,Động từ,我忘记他的名字了。,Tôi quên tên của anh ấy rồi.,1002,1
+8,8,21,381,问,wèn,hỏi,Động từ,我想问老师。,Tôi muốn hỏi giáo viên.,1002,1
+8,8,22,410,写,xiě,viết,Động từ,我写汉字。,Tôi viết chữ Hán.,1002,1
+8,8,23,426,页,yè,trang,Lượng từ,请看这一页。,Hãy xem trang này.,1002,1
+8,8,24,488,字,zì,chữ; ký tự,Danh từ,这个字怎么读？,Chữ này đọc thế nào?,1002,1
+8,8,25,489,子（桌子）,zi (zhuōzi),hậu tố danh từ,Hậu tố,这是桌子。,Đây là cái bàn.,1002,1
+9,9,1,64,穿,chuān,mặc; đi; mang,Động từ,我穿新衣服。,Tôi mặc quần áo mới.,1002,1
+9,9,2,81,等,děng,đợi; chờ,Động từ,请等我一会儿。,Hãy đợi tôi một lát.,1002,1
+9,9,3,100,动,dòng,động; di chuyển; cử động,Động từ,别动！,Đừng động đậy!,1002,1
+9,9,4,101,动作,dòngzuò,động tác; hành động; cử động,Danh từ,这个动作很简单。,Động tác này rất đơn giản.,1002,1
+9,9,5,126,干,gàn,làm; làm việc,Động từ,你在干什么？,Bạn đang làm gì?,1002,1
+9,9,6,135,工人,gōngrén,công nhân,Danh từ,我爸爸是工人。,Bố tôi là công nhân.,1002,1
+9,9,7,136,工作,gōngzuò,làm việc; công việc,Động từ / danh từ,我每天工作。,Tôi làm việc mỗi ngày.,1002,1
+9,9,8,167,回家,huí jiā,về nhà,Động từ,我下午回家。,Buổi chiều tôi về nhà.,1002,1
+9,9,9,199,开会,kāihuì,họp; họp hành,Động từ,我们上午开会。,Chúng tôi họp vào buổi sáng.,1002,1
+9,9,10,220,累,lèi,mệt; mệt mỏi,Tính từ,今天我很累。,Hôm nay tôi rất mệt.,1002,1
+9,9,11,238,忙,máng,bận,Tính từ,今天我很忙。,Hôm nay tôi rất bận.,1002,1
+9,9,12,292,起,qǐ,dậy; đứng lên; bắt đầu,Động từ,请起。,Mời đứng dậy.,1002,1
+9,9,13,293,起床,qǐchuáng,thức dậy; ra khỏi giường,Động từ,我每天六点起床。,Tôi thức dậy lúc sáu giờ mỗi ngày.,1002,1
+9,9,14,294,起来,qǐlái,đứng dậy; thức dậy; lên,Động từ / bổ ngữ xu hướng,请站起来。,Hãy đứng dậy.,1002,1
+9,9,15,320,上班,shàngbān,đi làm; vào làm,Động từ,我每天八点上班。,Tôi đi làm lúc tám giờ mỗi ngày.,1002,1
+9,9,16,349,睡,shuì,ngủ,Động từ,孩子在睡。,Đứa trẻ đang ngủ.,1002,1
+9,9,17,350,睡觉,shuìjiào,ngủ; đi ngủ,Động từ,我晚上十一点睡觉。,Tôi đi ngủ lúc mười một giờ tối.,1002,1
+9,9,18,387,洗,xǐ,rửa; giặt; tắm,Động từ,我洗衣服。,Tôi giặt quần áo.,1002,1
+9,9,19,391,下班,xiàbān,tan làm; tan ca,Động từ,我下午五点下班。,Tôi tan làm lúc năm giờ chiều.,1002,1
+9,9,20,418,休息,xiūxi,nghỉ; nghỉ ngơi,Động từ,我想休息一会儿。,Tôi muốn nghỉ một lát.,1002,1
+9,9,21,456,在家,zàijiā,ở nhà,Động từ / cụm chỉ nơi chốn,今天我在家。,Hôm nay tôi ở nhà.,1002,1
+9,9,22,500,做,zuò,làm,Động từ,你在做什么？,Bạn đang làm gì?,1002,1
+10,10,1,29,包子,bāozi,bánh bao,Danh từ,我喜欢吃包子。,Tôi thích ăn bánh bao.,1002,1
+10,10,2,31,杯子,bēizi,cốc; ly,Danh từ,这是我的杯子。,Đây là cái cốc của tôi.,1002,1
+10,10,3,48,菜,cài,rau; món ăn,Danh từ,我喜欢吃菜。,Tôi thích ăn rau.,1002,1
+10,10,4,49,茶,chá,trà,Danh từ,我喜欢喝茶。,Tôi thích uống trà.,1002,1
+10,10,5,59,吃,chī,ăn,Động từ,我喜欢吃米饭。,Tôi thích ăn cơm.,1002,1
+10,10,6,60,吃饭,chīfàn,ăn cơm; dùng bữa,Động từ,我们一起吃饭。,Chúng ta cùng ăn cơm.,1002,1
+10,10,7,109,饿,è,đói,Tính từ,我饿了。,Tôi đói rồi.,1002,1
+10,10,8,112,饭,fàn,cơm; bữa ăn,Danh từ,我喜欢吃饭。,Tôi thích ăn cơm.,1002,1
+10,10,9,113,饭店,fàndiàn,nhà hàng,Danh từ,我们在饭店吃饭。,Chúng tôi ăn cơm ở nhà hàng.,1002,1
+10,10,10,150,好吃,hǎochī,ngon; ngon miệng,Tính từ,这个包子很好吃。,Bánh bao này rất ngon.,1002,1
+10,10,11,155,喝,hē,uống,Động từ,我喝水。,Tôi uống nước.,1002,1
+10,10,12,174,鸡蛋,jīdàn,trứng gà,Danh từ,我喜欢吃鸡蛋。,Tôi thích ăn trứng gà.,1002,1
+10,10,13,207,渴,kě,khát,Tính từ,我渴了。,Tôi khát rồi.,1002,1
+10,10,14,250,米饭,mǐfàn,cơm,Danh từ,我喜欢吃米饭。,Tôi thích ăn cơm.,1002,1
+10,10,15,251,面包,miànbāo,bánh mì,Danh từ,我喜欢吃面包。,Tôi thích ăn bánh mì.,1002,1
+10,10,16,252,面条儿,miàntiáor,mì; mì sợi,Danh từ,我喜欢吃面条儿。,Tôi thích ăn mì.,1002,1
+10,10,17,266,奶,nǎi,sữa,Danh từ,我喜欢喝奶。,Tôi thích uống sữa.,1002,1
+10,10,18,280,牛奶,niúnǎi,sữa bò,Danh từ,我喜欢喝牛奶。,Tôi thích uống sữa bò.,1002,1
+10,10,19,314,肉,ròu,thịt,Danh từ,我喜欢吃肉。,Tôi thích ăn thịt.,1002,1
+10,10,20,347,水,shuǐ,nước,Danh từ,我喜欢喝水。,Tôi thích uống nước.,1002,1
+10,10,21,348,水果,shuǐguǒ,trái cây; hoa quả,Danh từ,我喜欢吃水果。,Tôi thích ăn trái cây.,1002,1
+10,10,22,375,晚饭,wǎnfàn,bữa tối; cơm tối,Danh từ,我喜欢吃晚饭。,Tôi thích ăn bữa tối.,1002,1
+10,10,23,384,午饭,wǔfàn,bữa trưa; cơm trưa,Danh từ,我喜欢吃午饭。,Tôi thích ăn bữa trưa.,1002,1
+10,10,24,458,早饭,zǎofàn,bữa sáng,Danh từ,我喜欢吃早饭。,Tôi thích ăn bữa sáng.,1002,1
+11,11,1,28,包,bāo,túi; gói; bọc,Danh từ / động từ / lượng từ,我想买包。,Tôi muốn mua túi.,1002,1
+11,11,2,39,别的,biéde,khác; cái khác,Đại từ,我想看别的。,Tôi muốn xem cái khác.,1002,1
+11,11,3,99,东西,dōngxi,đồ vật; đồ; thứ,Danh từ,我去商店买东西。,Tôi đi cửa hàng mua đồ.,1002,1
+11,11,4,139,贵,guì,đắt,Tính từ,这个太贵了。,Cái này đắt quá.,1002,1
+11,11,5,236,买,mǎi,mua,Động từ,我想买衣服。,Tôi muốn mua quần áo.,1002,1
+11,11,6,257,哪,nǎ,nào; cái nào,Đại từ nghi vấn,你要哪一个？,Bạn muốn cái nào?,1002,1
+11,11,7,260,哪些,nǎxiē,những cái nào; những gì,Đại từ nghi vấn,你喜欢哪些？,Bạn thích những cái nào?,1002,1
+11,11,8,261,那,nà,đó; cái đó,Đại từ chỉ định,我要那个。,Tôi muốn cái đó.,1002,1
+11,11,9,265,那些,nàxiē,những cái đó,Đại từ chỉ định,那些是我的书。,Những cái đó là sách của tôi.,1002,1
+11,11,10,299,钱,qián,tiền,Danh từ,我没有钱。,Tôi không có tiền.,1002,1
+11,11,11,300,钱包,qiánbāo,ví; ví tiền,Danh từ,这是我的钱包。,Đây là ví của tôi.,1002,1
+11,11,12,317,商场,shāngchǎng,trung tâm thương mại; trung tâm mua sắm,Danh từ,我去商场买衣服。,Tôi đi trung tâm thương mại mua quần áo.,1002,1
+11,11,13,318,商店,shāngdiàn,cửa hàng; tiệm,Danh từ,我去商店买东西。,Tôi đi cửa hàng mua đồ.,1002,1
+11,11,14,345,书店,shūdiàn,nhà sách; cửa hàng sách,Danh từ,我去书店买书。,Tôi đi nhà sách mua sách.,1002,1
+11,11,15,412,新,xīn,mới,Tính từ,这是我的新衣服。,Đây là quần áo mới của tôi.,1002,1
+11,11,16,428,衣服,yīfu,quần áo,Danh từ,我想买衣服。,Tôi muốn mua quần áo.,1002,1
+11,11,17,437,一点儿,yīdiǎnr,một chút; một ít,Cụm chỉ số lượng,我想喝一点儿水。,Tôi muốn uống một ít nước.,1002,1
+11,11,18,439,一些,yīxiē,một số; một vài; một ít,Đại từ / số lượng từ,我买了一些水果。,Tôi mua một ít hoa quả.,1002,1
+11,11,19,442,有的,yǒude,một số; có cái; có người,Đại từ,有的很贵。,Một số cái rất đắt.,1002,1
+11,11,20,445,有（一）些,yǒu(yī)xiē,một chút; một ít; một số,Đại từ,这里有一些书。,Ở đây có một số quyển sách.,1002,1
+11,11,21,450,元,yuán,tệ; đồng nhân dân tệ,Lượng từ / đơn vị tiền tệ,这个十元。,Cái này mười tệ.,1002,1
+11,11,22,464,这,zhè,này; cái này,Đại từ chỉ định,这是我的。,Cái này là của tôi.,1002,1
+11,11,23,468,这些,zhèxiē,những cái này,Đại từ chỉ định,这些是我的书。,Những cái này là sách của tôi.,1002,1
+12,12,1,65,床,chuáng,giường,Danh từ,这是我的床。,Đây là giường của tôi.,1002,1
+12,12,2,85,地上,dìshang,trên mặt đất; trên sàn,Danh từ chỉ nơi chốn,书在地上。,Sách ở trên sàn.,1002,1
+12,12,3,114,房间,fángjiān,phòng; căn phòng,Danh từ,我在房间里。,Tôi ở trong phòng.,1002,1
+12,12,4,115,房子,fángzi,nhà; căn nhà,Danh từ,这是我的房子。,Đây là nhà của tôi.,1002,1
+12,12,5,125,干净,gānjìng,sạch; sạch sẽ,Tính từ,房间很干净。,Căn phòng rất sạch.,1002,1
+12,12,6,182,间,jiān,gian; phòng,Lượng từ,我家有三间房。,Nhà tôi có ba gian phòng.,1002,1
+12,12,7,222,里,lǐ,trong; bên trong,Danh từ chỉ phương vị,书在包里。,Sách ở trong túi.,1002,1
+12,12,8,223,里边,lǐbian,bên trong; phía trong,Danh từ chỉ phương vị,他在房间里边。,Anh ấy ở bên trong phòng.,1002,1
+12,12,9,227,楼,lóu,tòa nhà; tầng,Danh từ,我住在这座楼。,Tôi sống trong tòa nhà này.,1002,1
+12,12,10,228,楼上,lóu shàng,tầng trên; trên lầu,Danh từ chỉ nơi chốn,他在楼上。,Anh ấy ở tầng trên.,1002,1
+12,12,11,229,楼下,lóu xià,tầng dưới; dưới lầu,Danh từ chỉ nơi chốn,我在楼下等你。,Tôi đợi bạn ở tầng dưới.,1002,1
+12,12,12,246,门,mén,cửa; cổng,Danh từ,请关上门。,Hãy đóng cửa.,1002,1
+12,12,13,247,门口,ménkǒu,cửa ra vào; trước cửa,Danh từ chỉ nơi chốn,我在门口等你。,Tôi đợi bạn ở cửa.,1002,1
+12,12,14,319,上,shàng,trên; lên,Danh từ chỉ phương vị / động từ,书在桌子上。,Sách ở trên bàn.,1002,1
+12,12,15,321,上边,shàngbian,phía trên; bên trên,Danh từ chỉ phương vị,书在桌子上边。,Sách ở phía trên bàn.,1002,1
+12,12,16,369,外,wài,ngoài; bên ngoài,Danh từ chỉ phương vị,他在门外。,Anh ấy ở ngoài cửa.,1002,1
+12,12,17,370,外边,wàibian,bên ngoài; phía ngoài,Danh từ chỉ phương vị,外边有人。,Bên ngoài có người.,1002,1
+12,12,18,388,洗手间,xǐshǒujiān,nhà vệ sinh; phòng vệ sinh,Danh từ,洗手间在哪儿？,Nhà vệ sinh ở đâu?,1002,1
+12,12,19,390,下,xià,dưới; xuống,Danh từ chỉ phương vị / động từ,书在桌子下。,Sách ở dưới bàn.,1002,1
+12,12,20,392,下边,xiàbian,phía dưới; bên dưới,Danh từ chỉ phương vị,书在桌子下边。,Sách ở phía dưới bàn.,1002,1
+12,12,21,485,住,zhù,ở; sống; cư trú,Động từ,我住在北京。,Tôi sống ở Bắc Kinh.,1002,1
+12,12,22,487,桌子,zhuōzi,bàn,Danh từ,书在桌子上。,Sách ở trên bàn.,1002,1
+13,13,1,32,北,běi,bắc; phía bắc,Danh từ chỉ phương hướng,向北走。,Đi về phía bắc.,1002,1
+13,13,2,33,北边,běibian,phía bắc; bên phía bắc,Danh từ chỉ phương vị,学校在北边。,Trường học ở phía bắc.,1002,1
+13,13,3,82,地,dì,đất; mặt đất,Danh từ,书在地上。,Sách ở trên mặt đất.,1002,1
+13,13,4,83,地点,dìdiǎn,địa điểm; nơi; chỗ,Danh từ,请告诉我地点。,Hãy cho tôi biết địa điểm.,1002,1
+13,13,5,84,地方,dìfang,nơi; chỗ; địa phương,Danh từ,这个地方很好。,Nơi này rất tốt.,1002,1
+13,13,6,97,东,dōng,đông; phía đông,Danh từ chỉ phương hướng,向东走。,Đi về phía đông.,1002,1
+13,13,7,98,东边,dōngbian,phía đông; bên phía đông,Danh từ chỉ phương vị,学校在东边。,Trường học ở phía đông.,1002,1
+13,13,8,157,后,hòu,sau; phía sau,Danh từ chỉ phương vị,他在我后面。,Anh ấy ở phía sau tôi.,1002,1
+13,13,9,158,后边,hòubian,phía sau; đằng sau,Danh từ chỉ phương vị,学校在后边。,Trường học ở phía sau.,1002,1
+13,13,10,262,那边,nàbiān,đằng kia; bên đó,Đại từ chỉ nơi chốn,商店在那边。,Cửa hàng ở đằng kia.,1002,1
+13,13,11,263,那里,nàlǐ,ở đó; nơi đó,Đại từ chỉ nơi chốn,我在那里等你。,Tôi đợi bạn ở đó.,1002,1
+13,13,12,264,那儿,nàr,ở đó; đằng đó,Đại từ chỉ nơi chốn,他在那儿。,Anh ấy ở đó.,1002,1
+13,13,13,273,南,nán,nam; phía nam,Danh từ chỉ phương hướng,向南走。,Đi về phía nam.,1002,1
+13,13,14,274,南边,nánbian,phía nam; bên phía nam,Danh từ chỉ phương vị,学校在南边。,Trường học ở phía nam.,1002,1
+13,13,15,287,旁边,pángbiān,bên cạnh; cạnh bên,Danh từ chỉ phương vị,商店在学校旁边。,Cửa hàng ở bên cạnh trường.,1002,1
+13,13,16,296,前,qián,trước; phía trước,Danh từ chỉ phương vị,他在我前面。,Anh ấy ở phía trước tôi.,1002,1
+13,13,17,297,前边,qiánbian,phía trước; đằng trước,Danh từ chỉ phương vị,车站在前边。,Nhà ga ở phía trước.,1002,1
+13,13,18,385,西,xī,tây; phía tây,Danh từ chỉ phương hướng,向西走。,Đi về phía tây.,1002,1
+13,13,19,386,西边,xībian,phía tây; bên phía tây,Danh từ chỉ phương vị,学校在西边。,Trường học ở phía tây.,1002,1
+13,13,20,436,一边,yībiān,một bên; một phía,Danh từ / phó từ,他站在一边。,Anh ấy đứng ở một bên.,1002,1
+13,13,21,447,右,yòu,phải; bên phải,Danh từ chỉ phương hướng,向右走。,Đi về bên phải.,1002,1
+13,13,22,448,右边,yòubian,bên phải; phía bên phải,Danh từ chỉ phương vị,商店在右边。,Cửa hàng ở bên phải.,1002,1
+13,13,23,465,这边,zhèbiān,bên này; phía này; ở đây,Đại từ chỉ nơi chốn,请来这边。,Mời đến bên này.,1002,1
+13,13,24,467,这儿,zhèr,ở đây,Đại từ chỉ nơi chốn,我在这儿。,Tôi ở đây.,1002,1
+13,13,25,466,这里,zhèlǐ,ở đây; nơi này,Đại từ chỉ nơi chốn,这里很好。,Ở đây rất tốt.,1002,1
+13,13,26,472,正,zhèng,chính; đúng; ngay,Phó từ / tính từ,他正看书。,Anh ấy đang đọc sách.,1002,1
+13,13,27,476,中,zhōng,trong; giữa; ở giữa,Danh từ chỉ phương vị,他站在两个人中。,Anh ấy đứng giữa hai người.,1002,1
+13,13,28,478,中间,zhōngjiān,ở giữa; chính giữa,Danh từ chỉ phương vị,桌子在中间。,Cái bàn ở chính giữa.,1002,1
+13,13,29,496,左,zuǒ,trái; bên trái,Danh từ chỉ phương hướng,向左走。,Đi về bên trái.,1002,1
+13,13,30,497,左边,zuǒbian,bên trái; phía bên trái,Danh từ chỉ phương vị,车站在左边。,Nhà ga ở bên trái.,1002,1
+14,14,1,55,车,chē,xe; phương tiện,Danh từ,这是我的车。,Đây là xe của tôi.,1002,1
+14,14,2,57,车上,chē shang,trên xe; ở trên xe,Danh từ chỉ nơi chốn,我在车上。,Tôi đang ở trên xe.,1002,1
+14,14,3,58,车站,chēzhàn,nhà ga; bến xe; trạm xe,Danh từ,车站在哪儿？,Nhà ga ở đâu?,1002,1
+14,14,4,67,从,cóng,từ,Giới từ,我从学校回家。,Tôi từ trường về nhà.,1002,1
+14,14,5,70,打车,dǎchē,bắt taxi; đi taxi,Động từ,我们打车去机场。,Chúng tôi bắt taxi đi sân bay.,1002,1
+14,14,6,86,地图,dìtú,bản đồ,Danh từ,我看一下地图。,Tôi xem bản đồ một chút.,1002,1
+14,14,7,198,开车,kāichē,lái xe,Động từ,我爸爸会开车。,Bố tôi biết lái xe.,1002,1
+14,14,8,230,路,lù,đường; tuyến đường,Danh từ,这条路很长。,Con đường này rất dài.,1002,1
+14,14,9,231,路口,lùkǒu,ngã tư; giao lộ,Danh từ,车站在路口旁边。,Nhà ga ở cạnh ngã tư.,1002,1
+14,14,10,232,路上,lùshang,trên đường; đang trên đường,Danh từ chỉ nơi chốn,我在路上。,Tôi đang trên đường.,1002,1
+14,14,11,234,马路,mǎlù,đường phố; đường,Danh từ,不要在马路上跑。,Đừng chạy trên đường.,1002,1
+14,14,12,258,哪里,nǎlǐ,ở đâu; nơi nào,Đại từ nghi vấn,你去哪里？,Bạn đi đâu?,1002,1
+14,14,13,259,哪儿,nǎr,ở đâu; nơi nào,Đại từ nghi vấn,你去哪儿？,Bạn đi đâu?,1002,1
+14,14,14,288,跑,pǎo,chạy,Động từ,他每天跑。,Anh ấy chạy mỗi ngày.,1002,1
+14,14,15,295,汽车,qìchē,ô tô; xe hơi,Danh từ,这是汽车。,Đây là ô tô.,1002,1
+14,14,16,304,请问,qǐngwèn,cho hỏi; xin hỏi,Động từ / cách nói lịch sự,请问，车站在哪儿？,"Cho hỏi, nhà ga ở đâu?",1002,1
+14,14,17,322,上车,shàng chē,lên xe,Động từ,请上车。,Mời lên xe.,1002,1
+14,14,18,393,下车,xià chē,xuống xe,Động từ,我在下一站下车。,Tôi xuống xe ở trạm tiếp theo.,1002,1
+14,14,19,451,远,yuǎn,xa,Tính từ,学校离我家很远。,Trường học cách nhà tôi rất xa.,1002,1
+14,14,20,461,站,zhàn,trạm; ga; đứng,Danh từ / động từ,下一站是北京站。,Trạm tiếp theo là ga Bắc Kinh.,1002,1
+14,14,21,490,走,zǒu,đi; đi bộ; rời đi,Động từ,我们走吧。,Chúng ta đi thôi.,1002,1
+14,14,22,491,走路,zǒulù,đi bộ,Động từ,我每天走路上学。,Tôi đi bộ đến trường mỗi ngày.,1002,1
+15,15,1,19,白,bái,trắng,Tính từ,这件衣服是白的。,Bộ quần áo này màu trắng.,1002,1
+15,15,2,123,风,fēng,gió,Danh từ,今天风很大。,Hôm nay gió rất mạnh.,1002,1
+15,15,3,124,干,gān,khô,Tính từ,天气很干。,Thời tiết rất khô.,1002,1
+15,15,4,160,花,huā,hoa; bông hoa,Danh từ,这朵花很好看。,Bông hoa này rất đẹp.,1002,1
+15,15,5,221,冷,lěng,lạnh,Tính từ,今天很冷。,Hôm nay rất lạnh.,1002,1
+15,15,6,309,热,rè,nóng,Tính từ,今天很热。,Hôm nay rất nóng.,1002,1
+15,15,7,316,山,shān,núi; đồi,Danh từ,那边有一座山。,Đằng kia có một ngọn núi.,1002,1
+15,15,8,346,树,shù,cây,Danh từ,那里有很多树。,Ở đó có rất nhiều cây.,1002,1
+15,15,9,362,天气,tiānqì,thời tiết,Danh từ,今天天气很好。,Thời tiết hôm nay rất đẹp.,1002,1
+15,15,10,397,下雨,xià yǔ,mưa; trời mưa,Động từ,今天下雨了。,Hôm nay trời mưa.,1002,1
+15,15,11,449,雨,yǔ,mưa,Danh từ,外边有雨。,Bên ngoài có mưa.,1002,1
+16,16,1,41,病,bìng,bệnh; ốm,Danh từ / động từ,他有病。,Anh ấy bị bệnh.,1002,1
+16,16,2,42,病人,bìngrén,bệnh nhân; người bệnh,Danh từ,他是病人。,Anh ấy là bệnh nhân.,1002,1
+16,16,3,202,看病,kànbìng,đi khám bệnh; khám bệnh,Động từ,我去医院看病。,Tôi đi bệnh viện khám bệnh.,1002,1
+16,16,4,211,口,kǒu,miệng,Danh từ / lượng từ,请张开口。,Hãy mở miệng.,1002,1
+16,16,5,239,毛,máo,lông; tóc,Danh từ,这只狗的毛很白。,Lông của con chó này rất trắng.,1002,1
+16,16,6,330,身上,shēnshang,trên người; trên cơ thể,Danh từ chỉ vị trí,我身上有点儿冷。,Tôi cảm thấy hơi lạnh trên người.,1002,1
+16,16,7,331,身体,shēntǐ,cơ thể; sức khỏe,Danh từ,我的身体很好。,Sức khỏe của tôi rất tốt.,1002,1
+16,16,8,332,生病,shēngbìng,bị ốm; mắc bệnh,Động từ,我生病了。,Tôi bị ốm rồi.,1002,1
+16,16,9,333,生气,shēngqì,tức giận; nổi giận,Động từ / tính từ,别生气。,Đừng tức giận.,1002,1
+16,16,10,341,手,shǒu,tay; bàn tay,Danh từ,我的手很冷。,Tay tôi rất lạnh.,1002,1
+16,16,11,429,医生,yīshēng,bác sĩ,Danh từ,她是医生。,Cô ấy là bác sĩ.,1002,1
+16,16,12,430,医院,yīyuàn,bệnh viện,Danh từ,医院在那边。,Bệnh viện ở đằng kia.,1002,1
+17,17,1,14,爱,ài,yêu; thích,Động từ,我爱我的家人。,Tôi yêu gia đình của tôi.,1002,1
+17,17,2,15,爱好,àihào,sở thích; yêu thích,Danh từ / động từ,我的爱好是看电影。,Sở thích của tôi là xem phim.,1002,1
+17,17,3,53,唱,chàng,hát,Động từ,她会唱中文歌。,Cô ấy biết hát bài hát tiếng Trung.,1002,1
+17,17,4,54,唱歌,chànggē,hát; ca hát,Động từ,我喜欢唱歌。,Tôi thích hát.,1002,1
+17,17,5,73,打球,dǎ qiú,chơi bóng,Động từ,我们一起打球。,Chúng tôi cùng chơi bóng.,1002,1
+17,17,6,90,电,diàn,điện,Danh từ,这里没有电。,Ở đây không có điện.,1002,1
+17,17,7,92,电脑,diànnǎo,máy tính,Danh từ,这是我的电脑。,Đây là máy tính của tôi.,1002,1
+17,17,8,93,电视,diànshì,truyền hình; TV,Danh từ,我晚上看电视。,Buổi tối tôi xem TV.,1002,1
+17,17,9,94,电视机,diànshìjī,tivi; máy thu hình,Danh từ,家里有一台电视机。,Trong nhà có một chiếc tivi.,1002,1
+17,17,10,95,电影,diànyǐng,phim; điện ảnh,Danh từ,我喜欢看电影。,Tôi thích xem phim.,1002,1
+17,17,11,96,电影院,diànyǐngyuàn,rạp chiếu phim; rạp phim,Danh từ,我们去电影院。,Chúng tôi đi rạp chiếu phim.,1002,1
+17,17,12,131,歌,gē,bài hát,Danh từ,这首歌很好听。,Bài hát này rất hay.,1002,1
+17,17,13,151,好看,hǎokàn,đẹp; hay,Tính từ,这部电影很好看。,Bộ phim này rất hay.,1002,1
+17,17,14,152,好听,hǎotīng,nghe hay; hay,Tính từ,这首歌很好听。,Bài hát này nghe rất hay.,1002,1
+17,17,15,153,好玩儿,hǎowánr,vui; thú vị,Tính từ,这个游戏很好玩儿。,Trò chơi này rất thú vị.,1002,1
+17,17,16,196,觉得,juéde,cảm thấy; nghĩ rằng,Động từ,我觉得这部电影很好看。,Tôi thấy bộ phim này rất hay.,1002,1
+17,17,17,200,开玩笑,kāi wánxiào,nói đùa; đùa giỡn,Động từ,我跟你开玩笑呢。,Tôi đang đùa với bạn thôi.,1002,1
+17,17,18,201,看,kàn,xem; nhìn,Động từ,我看电影。,Tôi xem phim.,1002,1
+17,17,19,306,球,qiú,quả bóng; bóng,Danh từ,这是一个球。,Đây là một quả bóng.,1002,1
+17,17,20,325,上网,shàngwǎng,lên mạng; truy cập Internet,Động từ,我晚上上网。,Buổi tối tôi lên mạng.,1002,1
+17,17,21,373,玩儿,wánr,chơi; vui chơi; đi chơi,Động từ,孩子们在玩儿。,Bọn trẻ đang chơi.,1002,1
+17,17,22,377,网上,wǎng shang,trên mạng; trực tuyến,Cụm chỉ nơi chốn,我在网上学习汉语。,Tôi học tiếng Trung trên mạng.,1002,1
+17,17,23,378,网友,wǎngyǒu,bạn trên mạng; người dùng Internet,Danh từ,他是我的网友。,Anh ấy là bạn trên mạng của tôi.,1002,1
+17,17,24,389,喜欢,xǐhuan,thích; ưa thích,Động từ,我喜欢学习汉语。,Tôi thích học tiếng Trung.,1002,1
+17,17,25,409,笑,xiào,cười; mỉm cười,Động từ,她笑了。,Cô ấy cười rồi.,1002,1
+18,18,1,34,北京,Běijīng,Bắc Kinh,Danh từ riêng,我想去北京。,Tôi muốn đi Bắc Kinh.,1002,1
+18,18,2,56,车票,chēpiào,vé xe; vé tàu,Danh từ,我买了两张车票。,Tôi mua hai vé xe.,1002,1
+18,18,3,77,到,dào,đến; tới,Động từ,我八点到学校。,Tôi đến trường lúc tám giờ.,1002,1
+18,18,4,119,飞,fēi,bay,Động từ,飞机在天上飞。,Máy bay đang bay trên trời.,1002,1
+18,18,5,120,飞机,fēijī,máy bay,Danh từ,我们坐飞机去北京。,Chúng tôi đi máy bay đến Bắc Kinh.,1002,1
+18,18,6,166,回到,huídào,trở về; quay lại,Động từ,我下午回到家。,Buổi chiều tôi trở về nhà.,1002,1
+18,18,7,171,火车,huǒchē,tàu hỏa,Danh từ,我们坐火车去北京。,Chúng tôi đi tàu hỏa đến Bắc Kinh.,1002,1
+18,18,8,172,机场,jīchǎng,sân bay,Danh từ,我去机场。,Tôi đi sân bay.,1002,1
+18,18,9,173,机票,jīpiào,vé máy bay,Danh từ,我买了机票。,Tôi đã mua vé máy bay.,1002,1
+18,18,10,214,来,lái,đến; tới,Động từ,明天你来吗？,Ngày mai bạn đến không?,1002,1
+18,18,11,215,来到,láidào,đến; tới,Động từ,我来到北京。,Tôi đến Bắc Kinh.,1002,1
+18,18,12,248,门票,ménpiào,vé vào cửa,Danh từ,我买了两张门票。,Tôi mua hai vé vào cửa.,1002,1
+18,18,13,290,票,piào,vé; phiếu,Danh từ,这是我的票。,Đây là vé của tôi.,1002,1
+18,18,14,307,去,qù,đi; đi đến,Động từ,我去学校。,Tôi đi đến trường.,1002,1
+18,18,15,354,送,sòng,tiễn; đưa; gửi,Động từ,我送你去机场。,Tôi tiễn bạn ra sân bay.,1002,1
+18,18,16,417,行,xíng,được; ổn; có thể,Động từ / tính từ,这样行吗？,Như vậy có được không?,1002,1
+18,18,17,433,一块儿,yīkuàir,cùng nhau,Phó từ,我们一块儿去。,Chúng ta cùng đi.,1002,1
+18,18,18,438,一起,yīqǐ,cùng nhau,Phó từ,我们一起学习。,Chúng ta cùng học.,1002,1
+18,18,19,462,找,zhǎo,tìm; tìm kiếm,Động từ,我在找我的书。,Tôi đang tìm sách của mình.,1002,1
+18,18,20,463,找到,zhǎodào,tìm thấy,Động từ,我找到书了。,Tôi tìm thấy sách rồi.,1002,1
+18,18,21,498,坐,zuò,ngồi; đi bằng,Động từ,我坐飞机去北京。,Tôi đi máy bay đến Bắc Kinh.,1002,1
+18,18,22,499,坐下,zuò xia,ngồi xuống,Động từ,请坐下。,Mời ngồi xuống.,1002,1
+19,19,1,26,帮,bāng,giúp; giúp đỡ,Động từ,我帮你。,Tôi giúp bạn.,1002,1
+19,19,2,27,帮忙,bāngmáng,giúp đỡ; giúp một tay,Động từ,请帮忙。,Xin hãy giúp một tay.,1002,1
+19,19,3,61,出,chū,ra; đi ra,Động từ,他出门了。,Anh ấy ra khỏi nhà rồi.,1002,1
+19,19,4,62,出来,chūlái,đi ra; ra đây,Động từ / bổ ngữ xu hướng,请出来。,Hãy đi ra đây.,1002,1
+19,19,5,63,出去,chūqù,đi ra ngoài; ra ngoài,Động từ / bổ ngữ xu hướng,我想出去。,Tôi muốn ra ngoài.,1002,1
+19,19,6,69,打,dǎ,đánh; gọi; chơi,Động từ,我给他打电话。,Tôi gọi điện cho anh ấy.,1002,1
+19,19,7,116,放,fàng,đặt; để; thả,Động từ,请把书放在桌子上。,Hãy đặt sách lên bàn.,1002,1
+19,19,8,127,干什么,gàn shénme,làm gì,Cụm nghi vấn,你在干什么？,Bạn đang làm gì?,1002,1
+19,19,9,137,关,guān,đóng; tắt,Động từ,请关门。,Hãy đóng cửa.,1002,1
+19,19,10,164,回,huí,về; trở về; quay lại,Động từ,我下午回家。,Buổi chiều tôi về nhà.,1002,1
+19,19,11,168,回来,huílái,trở về; quay lại đây,Động từ / bổ ngữ xu hướng,你什么时候回来？,Khi nào bạn quay về?,1002,1
+19,19,12,169,回去,huíqù,trở về; quay lại đó,Động từ / bổ ngữ xu hướng,我要回去了。,Tôi phải quay về rồi.,1002,1
+19,19,13,191,进,jìn,vào; đi vào,Động từ,请进。,Mời vào.,1002,1
+19,19,14,192,进来,jìnlái,đi vào; vào đây,Động từ / bổ ngữ xu hướng,请进来。,Mời vào đây.,1002,1
+19,19,15,193,进去,jìnqù,đi vào; vào trong,Động từ / bổ ngữ xu hướng,他走进去了。,Anh ấy đi vào trong rồi.,1002,1
+19,19,16,197,开,kāi,mở; bật,Động từ,请开门。,Hãy mở cửa.,1002,1
+19,19,17,256,拿,ná,cầm; lấy,Động từ,请拿这本书。,Hãy cầm quyển sách này.,1002,1
+19,19,18,434,一下儿,yīxiàr,một chút; một lát; một lần,Bổ ngữ số lượng động tác,请等一下儿。,Vui lòng đợi một chút.,1002,1
+19,19,19,453,再,zài,lại; một lần nữa; rồi,Phó từ,请再说一次。,Hãy nói lại một lần nữa.,1002,1
+19,19,20,455,在,zài,ở; tại; đang,Động từ / giới từ / phó từ,我在学校。,Tôi ở trường.,1002,1
+19,19,21,469,着,zhe,đang; ở trạng thái tiếp diễn,Trợ từ,门开着。,Cửa đang mở.,1002,1
+19,19,22,473,正在,zhèngzài,đang,Phó từ,我正在学习汉语。,Tôi đang học tiếng Trung.,1002,1
+19,19,23,486,准备,zhǔnbèi,chuẩn bị; dự định,Động từ,我准备去学校。,Tôi chuẩn bị đi học.,1002,1
+20,20,1,44,不对,bùduì,không đúng; sai,Tính từ,这个答案不对。,Đáp án này không đúng.,1002,1
+20,20,2,68,错,cuò,sai; lỗi,Tính từ / danh từ,这个字写错了。,Chữ này viết sai rồi.,1002,1
+20,20,3,78,得到,dédào,nhận được; đạt được,Động từ,我得到了一本书。,Tôi nhận được một quyển sách.,1002,1
+20,20,4,105,对,duì,đúng; chính xác,Tính từ,你的答案对了。,Đáp án của bạn đúng rồi.,1002,1
+20,20,5,143,过,guò,qua; đi qua; trải qua,Động từ,我去过北京。,Tôi đã từng đến Bắc Kinh.,1002,1
+20,20,6,144,还,hái,vẫn; còn,Phó từ,我还在学习。,Tôi vẫn đang học.,1002,1
+20,20,7,163,还,huán,trả lại; hoàn lại,Động từ,我还在学习。,Tôi vẫn đang học.,1002,1
+20,20,8,170,会,huì,biết; có thể,Động từ năng nguyện,我会说中文。,Tôi biết nói tiếng Trung.,1002,1
+20,20,9,195,就,jiù,thì; liền; ngay,Phó từ,我马上就来。,Tôi sẽ đến ngay.,1002,1
+20,20,10,203,看到,kàndào,nhìn thấy,Động từ,我看到老师了。,Tôi nhìn thấy giáo viên rồi.,1002,1
+20,20,11,204,看见,kànjiàn,nhìn thấy; trông thấy,Động từ,我看见他了。,Tôi nhìn thấy anh ấy rồi.,1002,1
+20,20,12,219,了,le,rồi; đã,Trợ từ,我吃饭了。,Tôi ăn cơm rồi.,1002,1
+20,20,13,244,没有,méiyǒu,không có; chưa,Động từ / phó từ,我没有时间。,Tôi không có thời gian.,1002,1
+20,20,14,253,明白,míngbai,hiểu; rõ,Động từ / tính từ,我明白了。,Tôi hiểu rồi.,1002,1
+20,20,15,276,能,néng,có thể; có khả năng,Động từ năng nguyện,我能帮助你。,Tôi có thể giúp bạn.,1002,1
+20,20,16,364,听到,tīngdào,nghe thấy,Động từ,我听到声音了。,Tôi nghe thấy âm thanh rồi.,1002,1
+20,20,17,365,听见,tīngjiàn,nghe thấy,Động từ,我听见他说话了。,Tôi nghe thấy anh ấy nói chuyện.,1002,1
+20,20,18,401,想,xiǎng,muốn; nghĩ; nghĩ đến,Động từ,我想学习汉语。,Tôi muốn học tiếng Trung.,1002,1
+20,20,19,424,要,yào,muốn; cần; sẽ; sắp,Động từ năng nguyện,我要一杯水。,Tôi muốn một cốc nước.,1002,1
+20,20,20,440,用,yòng,dùng; sử dụng,Động từ,我用电脑学习。,Tôi dùng máy tính để học.,1002,1
+20,20,21,441,有,yǒu,có,Động từ,我有一本书。,Tôi có một quyển sách.,1002,1
+20,20,22,446,有用,yǒuyòng,hữu ích; có ích,Tính từ,这个很有用。,Cái này rất hữu ích.,1002,1
+20,20,23,474,知道,zhīdào,biết,Động từ,我知道他的名字。,Tôi biết tên của anh ấy.,1002,1
+21,21,1,37,比,bǐ,so với; hơn,Giới từ / động từ,他比我高。,Anh ấy cao hơn tôi.,1002,1
+21,21,2,43,不大,bù dà,không quá; không nhiều,Cụm từ chỉ mức độ,这个房间不大。,Căn phòng này không lớn lắm.,1002,1
+21,21,3,50,差,chà,kém; khác; sai,Tính từ / động từ,这个比较差。,Cái này khá kém.,1002,1
+21,21,4,74,大,dà,to; lớn,Tính từ,这个很大。,Cái này rất to.,1002,1
+21,21,5,121,非常,fēicháng,rất; vô cùng,Phó từ,我非常喜欢汉语。,Tôi rất thích tiếng Trung.,1002,1
+21,21,6,128,高,gāo,cao,Tính từ,这个很高。,Cái này rất cao.,1002,1
+21,21,7,162,坏,huài,xấu; hỏng,Tính từ,这个很坏。,Cái này rất xấu.,1002,1
+21,21,8,213,快,kuài,nhanh; nhanh chóng,Tính từ / phó từ,这个很快。,Cái này rất nhanh.,1002,1
+21,21,9,216,老,lǎo,già; lớn tuổi,Tính từ,这个很老。,Cái này rất già.,1002,1
+21,21,10,237,慢,màn,chậm,Tính từ,这个很慢。,Cái này rất chậm.,1002,1
+21,21,11,275,难,nán,khó; khó khăn,Tính từ,这个很难。,Cái này rất khó.,1002,1
+21,21,12,360,太,tài,quá; rất,Phó từ,这个太贵了。,Cái này đắt quá.,1002,1
+21,21,13,402,小,xiǎo,nhỏ; bé,Tính từ,这个很小。,Cái này rất nhỏ.,1002,1
+21,21,14,435,一样,yīyàng,giống nhau; như nhau,Tính từ,这两个一样。,Hai cái này giống nhau.,1002,1
+21,21,15,470,真,zhēn,thật; quả thật,Phó từ / tính từ,你真好！,Bạn thật tốt!,1002,1
+21,21,16,471,真的,zhēn de,thực sự; thật sự; thật,Cụm từ,这是真的吗？,Điều này có thật không?,1002,1
+21,21,17,483,重,zhòng,nặng,Tính từ,这个很重。,Cái này rất nặng.,1002,1
+21,21,18,484,重要,zhòngyào,quan trọng,Tính từ,这个很重要。,Cái này rất quan trọng.,1002,1
+21,21,19,492,最,zuì,nhất,Phó từ,我最喜欢汉语。,Tôi thích tiếng Trung nhất.,1002,1
+21,21,20,493,最好,zuìhǎo,tốt nhất; tốt hơn hết nên,Phó từ,这个最好。,Cái này tốt nhất.,1002,1
+22,22,1,45,不客气,bù kèqì,không có gì; không có chi,Cụm từ lịch sự,谢谢！——不客气。,Cảm ơn! — Không có gì.,1002,1
+22,22,2,71,打电话,dǎ diànhuà,gọi điện thoại,Động từ,我给你打电话。,Tôi gọi điện cho bạn.,1002,1
+22,22,3,91,电话,diànhuà,điện thoại; cuộc gọi điện thoại,Danh từ,这是我的电话。,Đây là điện thoại của tôi.,1002,1
+22,22,4,106,对不起,duìbuqǐ,xin lỗi; xin thứ lỗi,Cụm từ lịch sự,对不起，我来晚了。,"Xin lỗi, tôi đến muộn.",1002,1
+22,22,5,129,告诉,gàosu,nói; cho biết; thông báo,Động từ,请告诉我你的名字。,Hãy cho tôi biết tên của bạn.,1002,1
+22,22,6,133,给,gěi,cho; đưa; cho ai,Động từ / giới từ,我给你一本书。,Tôi đưa bạn một quyển sách.,1002,1
+22,22,7,161,话,huà,lời nói; lời; câu nói,Danh từ,我有话跟你说。,Tôi có chuyện muốn nói với bạn.,1002,1
+22,22,8,183,见,jiàn,gặp; thấy,Động từ,明天见！,Hẹn gặp ngày mai!,1002,1
+22,22,9,184,见面,jiànmiàn,gặp mặt; gặp nhau,Động từ,我们明天见面。,Ngày mai chúng ta gặp nhau.,1002,1
+22,22,10,241,没关系,méi guānxi,không sao; không có gì,Cụm từ lịch sự,没关系，别担心。,"Không sao, đừng lo.",1002,1
+22,22,11,243,没事儿,méishìr,không sao; không có gì,Cụm từ,我没事儿。,Tôi không sao.,1002,1
+22,22,12,301,请,qǐng,mời; xin; vui lòng,Động từ,请进。,Mời vào.,1002,1
+22,22,13,303,请进,qǐng jìn,mời vào,Cụm từ lịch sự,请进！,Mời vào!,1002,1
+22,22,14,305,请坐,qǐng zuò,mời ngồi,Cụm từ lịch sự,请坐！,Mời ngồi!,1002,1
+22,22,15,338,事,shì,việc; chuyện; sự việc,Danh từ,我有一件事。,Tôi có một việc.,1002,1
+22,22,16,342,手机,shǒujī,điện thoại di động; điện thoại,Danh từ,这是我的手机。,Đây là điện thoại của tôi.,1002,1
+22,22,17,411,谢谢,xièxie,cảm ơn,Động từ / cách nói lịch sự,谢谢你的帮助。,Cảm ơn sự giúp đỡ của bạn.,1002,1
+22,22,18,454,再见,zàijiàn,tạm biệt; hẹn gặp lại,Động từ / cách nói lịch sự,老师，再见！,Tạm biệt thầy/cô!,1002,1
+23,23,1,18,吧,ba,nhé; đi; chứ,Trợ từ ngữ khí,我们走吧！,Chúng ta đi thôi!,1002,1
+23,23,2,38,别,bié,đừng,Phó từ,别说话。,Đừng nói chuyện.,1002,1
+23,23,3,40,别人,biérén,người khác; những người khác,Đại từ,这是别人的书。,Đây là sách của người khác.,1002,1
+23,23,4,46,不用,bùyòng,không cần,Phó từ,你不用来。,Bạn không cần đến.,1002,1
+23,23,5,47,不,bù,không,Phó từ,我不去。,Tôi không đi.,1002,1
+23,23,6,79,地,de,trợ từ nối trạng ngữ với động từ,Trợ từ kết cấu,他认真地学习。,Anh ấy học một cách nghiêm túc.,1002,1
+23,23,7,80,的,de,của; trợ từ nối định ngữ,Trợ từ kết cấu,这是我的书。,Đây là sách của tôi.,1002,1
+23,23,8,102,都,dōu,đều; tất cả,Phó từ,我们都是学生。,Chúng tôi đều là học sinh.,1002,1
+23,23,9,134,跟,gēn,với; cùng; theo,Giới từ / liên từ / động từ,我跟朋友一起去。,Tôi đi cùng bạn.,1002,1
+23,23,10,145,还是,háishi,hay là; vẫn; tốt hơn nên,Phó từ / liên từ,你喝茶还是喝水？,Bạn uống trà hay uống nước?,1002,1
+23,23,11,146,还有,hái yǒu,còn; còn có; ngoài ra còn,Cụm từ,我还有一本书。,Tôi còn một quyển sách nữa.,1002,1
+23,23,12,156,和,hé,và; với,Liên từ / giới từ,我和他是朋友。,Tôi và anh ấy là bạn.,1002,1
+23,23,13,240,没,méi,không; chưa,Phó từ / động từ,我没去。,Tôi chưa đi.,1002,1
+23,23,14,242,没什么,méi shénme,không có gì; không sao,Cụm từ,没什么，不用担心。,"Không có gì, đừng lo.",1002,1
+23,23,15,340,是不是,shì bu shì,có phải... không,Cụm nghi vấn,你是不是学生？,Bạn có phải là học sinh không?,1002,1
+23,23,16,460,怎么,zěnme,thế nào; làm sao; tại sao,Đại từ nghi vấn,这个字怎么读？,Chữ này đọc thế nào?,1002,1

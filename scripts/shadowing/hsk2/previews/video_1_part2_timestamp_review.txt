@@ -1,0 +1,345 @@
+﻿HSK2 VIDEO 1 - KIEM TRA PHAN 2
+Video: nxAfRmACtZs
+Cau: 41-80
+
+BAN NHAP - CHUA XAC MINH AUDIO
+============================================================
+
+CAU 41
+Time: 262.08 - 265.06
+Hanzi: 看来我们想的是同一个。
+Viet: Xem ra chúng ta đang nghĩ đến cùng một câu chuyện.
+Trang thai: can_doi_chieu_audio
+
+CAU 42
+Time: 264.46 - 272.92
+Hanzi: 这个故事，我觉得在中国每个小孩子都听过。那我们现在给我们的……
+Viet: Tôi nghĩ ở Trung Quốc, đứa trẻ nào cũng từng nghe câu chuyện này. Vậy bây giờ chúng ta hãy kể cho…
+Trang thai: can_doi_chieu_audio
+Ghi chu: Noi tiep sang cau 43, co ASR lap chu.
+
+CAU 43
+Time: 271.63 - 283.07
+Hanzi: 听众朋友们也讲一遍这个故事，好不好？用最简单的中文。好主意，我们可以一起讲。好的，那我开始。
+Viet: …các thính giả nghe lại câu chuyện này nhé? Bằng tiếng Trung đơn giản nhất. Ý hay đấy, chúng ta cùng kể. Được, vậy tôi bắt đầu.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Co nhieu nguoi noi; can xac minh dau cau.
+
+CAU 44
+Time: 283.09 - 295.25
+Hanzi: 我们的故事开始了。很久很久以前，森林里住着很多动物。有一只兔子，这……
+Viet: Câu chuyện của chúng ta bắt đầu. Ngày xửa ngày xưa, trong rừng có rất nhiều loài động vật. Có một con thỏ, con thỏ này…
+Trang thai: can_doi_chieu_audio
+Ghi chu: Ket thuc giua cum '这只兔子'.
+
+CAU 45
+Time: 295.07 - 307.38
+Hanzi: 只兔子，它有一个特点，它跑得非常非常快。对，它是森林里跑得最快的动物，所以它有点……
+Viet: …có một đặc điểm là chạy cực kỳ nhanh. Đúng vậy, nó là con vật chạy nhanh nhất khu rừng, vì vậy nó hơi…
+Trang thai: can_doi_chieu_audio
+Ghi chu: Bat dau giua '这只兔子', ket thuc truoc '骄傲'.
+
+CAU 46
+Time: 306.24 - 307.74
+Hanzi: 骄傲。
+Viet: Kiêu ngạo.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Noi tiep cau 45.
+
+CAU 47
+Time: 307.30 - 319.46
+Hanzi: 它常常对别的动物说：“你们看，我跑得多快呀！”森林里还有一只乌龟。这只乌龟呢……
+Viet: Nó thường khoe với những con vật khác: “Các bạn xem, tôi chạy nhanh biết bao!” Trong rừng còn có một con rùa. Còn con rùa này thì…
+Trang thai: can_doi_chieu_audio
+Ghi chu: Ket thuc giua y.
+
+CAU 48
+Time: 318.84 - 324.68
+Hanzi: 它也有一个特点，它走得非常非常慢，非常慢。
+Viet: Nó cũng có một đặc điểm, đó là đi rất, rất chậm.
+Trang thai: can_doi_chieu_audio
+
+CAU 49
+Time: 323.64 - 327.08
+Hanzi: 对，它做什么事情都是……
+Viet: Đúng vậy, nó làm việc gì cũng đều…
+Trang thai: can_doi_chieu_audio
+Ghi chu: Noi tiep sang cau 50; ASR sai.
+
+CAU 50
+Time: 326.21 - 338.67
+Hanzi: 很慢，吃饭很慢，走路也很慢。有一天，兔子看见了正在走路的乌龟。兔子笑着对……
+Viet: …rất chậm. Ăn cũng chậm, đi lại cũng chậm. Một ngày nọ, thỏ nhìn thấy rùa đang đi trên đường. Thỏ cười và nói với…
+Trang thai: can_doi_chieu_audio
+Ghi chu: Ket thuc giua y, noi sang cau 51.
+
+CAU 51
+Time: 337.69 - 349.79
+Hanzi: 乌龟，乌龟，你太慢了！你看你走路的样子，真的太慢了！乌龟听了……
+Viet: Rùa ơi, cậu chậm quá! Nhìn dáng đi của cậu kìa, thật sự quá chậm! Rùa nghe xong…
+Trang thai: can_doi_chieu_audio
+Ghi chu: Noi tiep cau 50, ASR nhan nham nguoi noi.
+
+CAU 52
+Time: 348.58 - 360.74
+Hanzi: 它不高兴。它对兔子说：“你很快，我知道，但是我们比赛，你可能不会赢。”兔子……
+Viet: Nó không vui. Nó nói với thỏ: “Tôi biết cậu chạy rất nhanh, nhưng nếu chúng ta thi đấu, chưa chắc cậu đã thắng.” Thỏ…
+Trang thai: can_doi_chieu_audio
+Ghi chu: ASR lap chu va cuoi cau noi sang cau 53.
+
+CAU 53
+Time: 360.12 - 372.24
+Hanzi: 听了，哈哈大笑。它说：“什么？你说我不会赢？太有意思了！好，我们明天就……”
+Viet: …nghe xong liền cười lớn: “Cái gì? Cậu nói tôi không thắng được à? Thú vị thật! Được, ngày mai chúng ta sẽ…”
+Trang thai: can_doi_chieu_audio
+Ghi chu: Noi tiep cau 52 va 54.
+
+CAU 54
+Time: 371.30 - 380.08
+Hanzi: 比赛，让森林里所有的动物都来看。乌龟说：“好，明天见。”
+Viet: …thi chạy, để tất cả động vật trong rừng đến xem. Rùa nói: “Được, hẹn gặp ngày mai.”
+Trang thai: can_doi_chieu_audio
+Ghi chu: Bat dau giua cau tu cau 53.
+
+CAU 55
+Time: 379.81 - 392.67
+Hanzi: 第二天天气很好，森林里的动物都来了。小鸟来了，小狗来了，小猫也来了，它们都……
+Viet: Ngày hôm sau thời tiết rất đẹp. Các con vật trong rừng đều đến. Chim, chó và mèo cũng đến. Tất cả đều…
+Trang thai: can_doi_chieu_audio
+Ghi chu: Noi tiep sang cau 56.
+
+CAU 56
+Time: 391.79 - 395.99
+Hanzi: 想看兔子和乌龟的比赛。
+Viet: …muốn xem cuộc thi giữa thỏ và rùa.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Noi tiep cau 55.
+
+CAU 57
+Time: 395.83 - 403.77
+Hanzi: 兔子和乌龟站在起点。一只小鸟说：“预备，开始！”
+Viet: Thỏ và rùa đứng ở vạch xuất phát. Một chú chim nói: “Chuẩn bị, bắt đầu!”
+Trang thai: can_doi_chieu_audio
+Ghi chu: Can kiem tra dau cau va loi thoai.
+
+CAU 58
+Time: 403.48 - 415.38
+Hanzi: 兔子像风一样跑了出去，非常快，一转眼就看不见了。乌龟呢？它也在努力地跑。
+Viet: Thỏ phóng đi nhanh như gió, chỉ chớp mắt đã không thấy đâu. Còn rùa thì sao? Nó cũng đang cố gắng chạy.
+Trang thai: can_doi_chieu_audio
+Ghi chu: ASR lap chu; can doi chieu phu de.
+
+CAU 59
+Time: 414.92 - 422.92
+Hanzi: 但是我们知道，它跑得很慢，它一步一步慢慢地向前走。
+Viet: Nhưng chúng ta biết rùa chạy rất chậm. Nó từng bước, từng bước tiến về phía trước.
+Trang thai: can_doi_chieu_audio
+
+CAU 60
+Time: 422.52 - 431.77
+Hanzi: 兔子跑了很远，它回头看，看不到乌龟，一点儿也看不到。
+Viet: Thỏ đã chạy rất xa. Nó quay đầu nhìn lại nhưng không thấy rùa, hoàn toàn không thấy đâu cả.
+Trang thai: can_doi_chieu_audio
+Ghi chu: ASR lap hoac nhan sai '一点也'.
+
+CAU 61
+Time: 431.11 - 443.87
+Hanzi: 兔子想：“乌龟太慢了，它可能明天早上才能到这里。天气这么好，我想在这里睡一会儿。”
+Viet: Thỏ nghĩ: “Rùa chậm quá, có lẽ phải đến sáng mai nó mới tới đây. Thời tiết đẹp thế này, mình muốn ngủ một lát ở đây.”
+Trang thai: can_doi_chieu_audio
+Ghi chu: Loi thoai noi tiep sang cau 62.
+
+CAU 62
+Time: 443.23 - 447.21
+Hanzi: 我睡醒了，再跑也来得及。
+Viet: Khi mình ngủ dậy rồi chạy tiếp thì vẫn còn kịp.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Noi tiep suy nghi cua tho o cau 61.
+
+CAU 63
+Time: 446.91 - 455.83
+Hanzi: 于是，兔子就在一棵大树下面开始睡觉了。它睡得很香。
+Viet: Thế là thỏ bắt đầu ngủ dưới một gốc cây lớn. Nó ngủ rất ngon.
+Trang thai: can_doi_chieu_audio
+
+CAU 64
+Time: 455.29 - 459.33
+Hanzi: 这个时候，乌龟在哪里呢？
+Viet: Lúc này, rùa đang ở đâu nhỉ?
+Trang thai: can_doi_chieu_audio
+
+CAU 65
+Time: 458.66 - 470.84
+Hanzi: 乌龟还在路上。它很累，也很热，但是它没有休息。它心里想：“我一定要坚持。”
+Viet: Rùa vẫn đang trên đường. Nó rất mệt và nóng, nhưng không nghỉ ngơi. Trong lòng nó nghĩ: “Mình nhất định phải kiên trì.”
+Trang thai: can_doi_chieu_audio
+Ghi chu: Loi thoai noi tiep sang cau 66.
+
+CAU 66
+Time: 470.78 - 473.10
+Hanzi: 我不能停。
+Viet: Mình không thể dừng lại.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Noi tiep suy nghi cua rua o cau 65.
+
+CAU 67
+Time: 472.96 - 480.98
+Hanzi: 所以，乌龟一直走，一直走。它走得很慢，但是它没有停。
+Viet: Vì vậy, rùa cứ đi mãi, đi mãi. Nó đi rất chậm nhưng không dừng lại.
+Trang thai: can_doi_chieu_audio
+
+CAU 68
+Time: 483.43 - 488.39
+Hanzi: 走到了那棵大树下面，它看到了谁？
+Viet: Khi đến dưới gốc cây lớn ấy, nó đã nhìn thấy ai?
+Trang thai: can_doi_chieu_audio
+Ghi chu: Can kiem tra moc bat dau cau voi phu de.
+
+CAU 69
+Time: 487.83 - 491.97
+Hanzi: 它看到了正在睡觉的兔子。
+Viet: Nó nhìn thấy thỏ đang ngủ.
+Trang thai: can_doi_chieu_audio
+
+CAU 70
+Time: 491.47 - 495.19
+Hanzi: 对，兔子睡得正香呢。
+Viet: Đúng vậy, thỏ đang ngủ rất ngon.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Can kiem tra dau cau va nguoi noi.
+
+CAU 71
+Time: 495.15 - 507.19
+Hanzi: 乌龟看了看兔子，它什么也没说，继续一步一步慢慢地向前走。又过了很久。
+Viet: Rùa nhìn thỏ nhưng không nói gì, tiếp tục từng bước chậm rãi đi về phía trước. Một thời gian dài nữa trôi qua.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Can kiem tra doan chuyen sang cau 72.
+
+CAU 72
+Time: 506.21 - 518.86
+Hanzi: 兔子醒了，它睁开眼睛，伸了一个懒腰。它说：“啊，我睡得真好！现在乌龟到哪里了？”
+Viet: Thỏ tỉnh dậy, mở mắt và vươn vai. Nó nói: “A, mình ngủ ngon quá! Bây giờ rùa đến đâu rồi nhỉ?”
+Trang thai: can_doi_chieu_audio
+Ghi chu: ASR lap chu, cat giua '到哪里了'. Da ghep cum tu vao cau 72, can xac minh timestamp.
+
+CAU 73
+Time: 517.76 - 524.40
+Hanzi: 它向后看，没有乌龟。它又向前看。
+Viet: Nó nhìn về phía sau, không thấy rùa đâu. Sau đó nó lại nhìn về phía trước.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Da chuyen '了' sang cau 72 cho dung ngu nghia. Can kiem tra moc bat dau.
+
+CAU 74
+Time: 524.00 - 526.48
+Hanzi: 它看到了什么？
+Viet: Nó đã nhìn thấy gì?
+Trang thai: can_doi_chieu_audio
+
+CAU 75
+Time: 525.64 - 538.14
+Hanzi: 它看到乌龟已经快要到终点了。兔子非常着急，它马上开始跑，跑得很快很快。
+Viet: Nó nhìn thấy rùa đã gần đến đích. Thỏ vô cùng sốt ruột, lập tức chạy thật nhanh.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Can kiem tra thoi diem chuyen y.
+
+CAU 76
+Time: 537.48 - 539.58
+Hanzi: 比以前更快。
+Viet: Còn nhanh hơn trước nữa.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Noi tiep cau 75.
+
+CAU 77
+Time: 542.41 - 552.01
+Hanzi: 是的，太晚了。就在兔子快要追上的时候，乌龟慢慢地走过了终点线。
+Viet: Đúng vậy, đã quá muộn rồi. Ngay khi thỏ sắp đuổi kịp, rùa đã từ từ bước qua vạch đích.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Can kiem tra dau cau va nguoi noi.
+
+CAU 78
+Time: 551.39 - 563.51
+Hanzi: 所以，比赛结束了。谁是第一名？是那只走得很慢，但是一直没有放弃的乌龟。
+Viet: Vậy là cuộc đua kết thúc. Ai giành vị trí thứ nhất? Chính là chú rùa tuy đi rất chậm nhưng chưa từng bỏ cuộc.
+Trang thai: can_doi_chieu_audio
+Ghi chu: Co cau hoi va cau tra loi trong cung mot muc.
+
+CAU 79
+Time: 562.99 - 566.37
+Hanzi: 这个故事讲完了。
+Viet: Câu chuyện đến đây là kết thúc.
+Trang thai: can_doi_chieu_audio
+
+CAU 80
+Time: 566.24 - 574.80
+Hanzi: 虽然我们都知道这个故事，但是现在再说一遍，还是觉得很有意思。
+Viet: Mặc dù chúng ta đều biết câu chuyện này, nhưng kể lại một lần nữa vẫn thấy rất thú vị.
+Trang thai: can_doi_chieu_audio
+
+============================================================
+DANH SACH CAN KIEM TRA
+Tong canh bao: 60
+
+Cau 41-42: chong 0.60s
+Cau 42: co noi dung cat ngang
+Cau 42-43: chong 1.29s
+Cau 44: dai 12.16s
+Cau 44: co noi dung cat ngang
+Cau 45: dai 12.31s
+Cau 44-45: chong 0.18s
+Cau 45: co noi dung cat ngang
+Cau 45-46: chong 1.14s
+Cau 47: dai 12.16s
+Cau 46-47: chong 0.44s
+Cau 47: co noi dung cat ngang
+Cau 47-48: chong 0.62s
+Cau 48-49: chong 1.04s
+Cau 49: co noi dung cat ngang
+Cau 50: dai 12.46s
+Cau 49-50: chong 0.87s
+Cau 50: co noi dung cat ngang
+Cau 51: dai 12.10s
+Cau 50-51: chong 0.98s
+Cau 51: co noi dung cat ngang
+Cau 52: dai 12.16s
+Cau 51-52: chong 1.21s
+Cau 52: co noi dung cat ngang
+Cau 53: dai 12.12s
+Cau 52-53: chong 0.62s
+Cau 53: co noi dung cat ngang
+Cau 53-54: chong 0.94s
+Cau 55: dai 12.86s
+Cau 54-55: chong 0.27s
+Cau 55: co noi dung cat ngang
+Cau 55-56: chong 0.88s
+Cau 56-57: chong 0.16s
+Cau 57-58: chong 0.29s
+Cau 58-59: chong 0.46s
+Cau 59-60: chong 0.40s
+Cau 61: dai 12.76s
+Cau 60-61: chong 0.66s
+Cau 61-62: chong 0.64s
+Cau 62-63: chong 0.30s
+Cau 63-64: chong 0.54s
+Cau 65: dai 12.18s
+Cau 64-65: chong 0.67s
+Cau 65-66: chong 0.06s
+Cau 66-67: chong 0.14s
+Cau 68-69: chong 0.56s
+Cau 69-70: chong 0.50s
+Cau 71: dai 12.04s
+Cau 70-71: chong 0.04s
+Cau 72: dai 12.65s
+Cau 71-72: chong 0.98s
+Cau 72-73: chong 1.10s
+Cau 73-74: chong 0.40s
+Cau 75: dai 12.50s
+Cau 74-75: chong 0.84s
+Cau 75-76: chong 0.66s
+Cau 78: dai 12.12s
+Cau 77-78: chong 0.62s
+Cau 78-79: chong 0.52s
+Cau 79-80: chong 0.13s
+
+Khong tu dong sua timestamp.
+Khong goi Supadata.
+Khong thay doi SQL Server.

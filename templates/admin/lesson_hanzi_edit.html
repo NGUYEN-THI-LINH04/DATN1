@@ -1,0 +1,336 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Sửa Chữ Hán | Bài {{ lesson.order }} | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     BREADCRUMB
+===================================================== -->
+
+<div class="lesson-detail-breadcrumb">
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.index',
+            course_id=lesson.course_id
+        ) }}"
+    >
+        Bài học
+    </a>
+
+    <span>›</span>
+
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.detail',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Bài {{ lesson.order }}
+    </a>
+
+    <span>›</span>
+
+
+    <a
+        href="{{ url_for(
+            'admin_lessons.hanzi',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        Chữ Hán
+    </a>
+
+    <span>›</span>
+
+    <strong>
+        {{ hanzi.character }}
+    </strong>
+
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<section class="lesson-admin-hero">
+
+    <div>
+
+        <span class="eyebrow">
+            CHỈNH SỬA CHỮ HÁN
+        </span>
+
+        <h1>
+            {{ hanzi.character }}
+        </h1>
+
+        <p>
+            Bài {{ lesson.order }}
+            ·
+            {{ lesson.title }}
+        </p>
+
+    </div>
+
+
+    <a
+        class="small-button"
+        href="{{ url_for(
+            'admin_lessons.hanzi',
+            lesson_id=lesson.id
+        ) }}"
+    >
+        ← Danh sách Chữ Hán
+    </a>
+
+</section>
+
+
+<!-- =====================================================
+     FORM
+===================================================== -->
+
+<section class="panel space-top">
+
+    <form
+        method="post"
+        action="{{ url_for(
+            'admin_lessons.edit_lesson_hanzi',
+
+            lesson_id=
+                lesson.id,
+
+            hanzi_id=
+                hanzi.id
+        ) }}"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <div class="grid-2">
+
+            <div class="field">
+
+                <label>
+                    Chữ Hán *
+                </label>
+
+                <input
+                    type="text"
+                    name="character"
+                    maxlength="20"
+                    value="{{ hanzi.character }}"
+                    required
+                >
+
+            </div>
+
+
+            <div class="field">
+
+                <label>
+                    Pinyin
+                </label>
+
+                <input
+                    type="text"
+                    name="pinyin"
+                    maxlength="200"
+                    value="{{ hanzi.pinyin }}"
+                >
+
+            </div>
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Nghĩa tiếng Việt
+            </label>
+
+            <input
+                type="text"
+                name="meaning"
+                maxlength="1000"
+                value="{{ hanzi.meaning }}"
+            >
+
+        </div>
+
+
+        <div class="grid-2">
+
+            <div class="field">
+
+                <label>
+                    Bộ thủ
+                </label>
+
+                <select name="radical_id">
+
+                    <option value="">
+                        — Chưa chọn bộ thủ —
+                    </option>
+
+
+                    {% for radical in radicals %}
+
+                        <option
+                            value="{{ radical.id }}"
+
+                            {% if hanzi.radical_id == radical.id %}
+                                selected
+                            {% endif %}
+                        >
+
+                            {{ radical.symbol }}
+                            ·
+                            {{ radical.name }}
+
+                            {% if radical.meaning %}
+                                · {{ radical.meaning }}
+                            {% endif %}
+
+                        </option>
+
+                    {% endfor %}
+
+                </select>
+
+            </div>
+
+
+            <div class="field">
+
+                <label>
+                    Số nét
+                </label>
+
+                <input
+                    type="number"
+                    name="stroke_count"
+                    min="1"
+                    step="1"
+                    value="{{ hanzi.stroke_count or '' }}"
+                >
+
+            </div>
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Cách ghi nhớ
+            </label>
+
+            <textarea
+                name="memory_tip"
+                rows="5"
+            >{{ hanzi.memory_tip }}</textarea>
+
+        </div>
+
+
+        <div class="grid-2">
+
+            <div class="field">
+
+                <label>
+                    Ví dụ tiếng Trung
+                </label>
+
+                <textarea
+                    name="example_zh"
+                    rows="3"
+                    maxlength="1000"
+                >{{ hanzi.example_zh }}</textarea>
+
+            </div>
+
+
+            <div class="field">
+
+                <label>
+                    Pinyin ví dụ
+                </label>
+
+                <textarea
+                    name="example_pinyin"
+                    rows="3"
+                    maxlength="1000"
+                >{{ hanzi.example_pinyin }}</textarea>
+
+            </div>
+
+        </div>
+
+
+        <div class="field">
+
+            <label>
+                Nghĩa ví dụ
+            </label>
+
+            <textarea
+                name="example_vi"
+                rows="3"
+                maxlength="1000"
+            >{{ hanzi.example_vi }}</textarea>
+
+        </div>
+
+
+        <div class="notice">
+
+            Thứ tự và trạng thái được quản lý
+            tại danh sách Chữ Hán của bài.
+
+        </div>
+
+
+        <div class="course-action-buttons space-top">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lưu thay đổi
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_lessons.hanzi',
+                    lesson_id=lesson.id
+                ) }}"
+            >
+                Hủy
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+
+{% endblock %}

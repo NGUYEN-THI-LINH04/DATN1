@@ -1,0 +1,26 @@
+SHADOWING HSK3 - VIDEO 3
+YouTube: GFPOvOvFgQI
+So doan: 274
+So ban dich: 274
+Doan ngan < 0.8s: 5
+Doan dai > 10s: 0
+Timestamp chong nhau: 0
+
+CAC DOAN NGAN:
+128 | 0.767s | 是的。
+149 | 0.733s | 是的。
+154 | 0.766s | 是的。
+259 | 0.733s | 对！
+273 | 0.767s | 我是李明。
+
+CAC VI TRI CAN DOI CHIEU:
+012, 082, 140, 168: ky hieu (笑).
+048-049: cau bi chia thanh hai doan.
+197-198: cau bi chia thanh hai doan.
+231-232: cau bi chia thanh hai doan.
+263: dia chi blog.
+Kiem tra 5 doan duoi 0.8 giay.
+Kiem tra cac tu da am trong pinyin.
+Ban dich can duoc doi chieu am thanh goc.
+
+CHUA CAP NHAT SQL SERVER.

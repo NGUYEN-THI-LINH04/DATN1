@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "cap_do_hsk": 4,
+  "tong_muc": 76,
+  "ma_dau": "GF4-001",
+  "ma_cuoi": "GF4-076",
+  "source_no_min": 212,
+  "source_no_max": 287,
+  "khop_raw": 76,
+  "raw_content_rong": 25,
+  "trung_hoan_toan_voi_cap_1_3": 0,
+  "nhom_ten_trung": 9,
+  "nhom_noi_dung_trung": 0,
+  "muc_co_canh_bao": 45,
+  "thong_ke_nhom": {
+    "词类": 22,
+    "短语": 6,
+    "固定格式": 5,
+    "句子成分": 4,
+    "句子的类型": 23,
+    "特殊表达法": 2,
+    "强调的方法": 4,
+    "口语格式": 10
+  },
+  "thong_ke_canh_bao": {
+    "RAW_KHONG_CO_CONTENT": 25,
+    "CAN_DIEN_GIAI_TU_CAU_TRUC_NHOM": 25,
+    "RAW_KHONG_CO_DETAILS": 19,
+    "TEN_MUC_TRUNG_LAP": 20
+  },
+  "raw_sha256": "9a546944af00976a3afb160fe70dd564a035d36eff82eb275b6aed7ed8a9ccf4",
+  "standard_sha256": "e09ed9d3086c38256c610feb93fae58b94e28c33188f9b0845c639d93b1659c9",
+  "da_ghi_sql": false,
+  "ghi_chu": "Review source GF0025 Level 4. Chua bien soan MoTa/CachDung/ViDu tieng Viet."
+}

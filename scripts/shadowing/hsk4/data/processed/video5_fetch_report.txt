@@ -1,0 +1,32 @@
+SHADOWING HSK4 - VIDEO 5
+
+YouTube ID: Q1FO6dr5T_Y
+Video: https://www.youtube.com/watch?v=Q1FO6dr5T_Y
+MaKhoaHoc: 4
+MaBaiHoc: 2059
+Tieu de: 社交媒体是好是坏 - Mạng xã hội tốt hay xấu?
+
+So doan: 313
+Ty le chu Han: 99.2%
+
+So doan trung lien tiep: 0
+Timestamp chong nhau: 0
+So doan > 10s: 0
+So doan < 0.8s: 5
+
+DANH SACH DOAN TRUNG:
+[]
+
+DANH SACH TIMESTAMP CHONG:
+[]
+
+DANH SACH DOAN NGAN:
+[14, 71, 90, 106, 186]
+
+DANH SACH DOAN DAI:
+[]
+
+CAN DOI CHIEU VOI AM THANH VIDEO GOC.
+CHUA TAO PINYIN.
+CHUA DICH TIENG VIET.
+CHUA CAP NHAT SQL SERVER.

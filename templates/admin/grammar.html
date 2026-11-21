@@ -1,0 +1,1100 @@
+{% extends "admin/base.html" %}
+
+
+{% block title %}
+Ngữ pháp | Mộc Hán
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<div class="admin-heading">
+
+    <span class="eyebrow">
+        HỌC LIỆU · NGỮ PHÁP
+    </span>
+
+    <h1>
+        Quản lý ngữ pháp
+    </h1>
+
+    <p>
+        Quản lý cấu trúc, cách dùng, ví dụ
+        và trạng thái xuất bản của ngữ pháp
+        trong từng bài học.
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     XUAT BAN TOAN BO NGU PHAP BAN NHAP
+===================================================== -->
+
+<section class="panel space-top bulk-publish-panel">
+
+    <div class="materials-section-heading">
+
+        <div>
+            <span class="eyebrow">
+                XUẤT BẢN NGỮ PHÁP
+            </span>
+
+            <h2>
+                Xuất bản toàn bộ ngữ pháp
+            </h2>
+
+            <p>
+                Xuất bản tất cả ngữ pháp đang ở trạng thái
+                bản nháp của toàn bộ cấp độ HSK.
+            </p>
+        </div>
+
+    </div>
+
+    <form
+        method="post"
+        action="{{ url_for('admin_grammar.publish_all') }}"
+        class="bulk-publish-form"
+        onsubmit="return confirm('Bạn chắc chắn muốn xuất bản toàn bộ ngữ pháp bản nháp?');"
+    >
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+        <button
+            type="submit"
+            class="button bulk-publish-button"
+        >
+            ✓ Xuất bản toàn bộ ngữ pháp bản nháp
+        </button>
+
+    </form>
+
+    <p class="bulk-publish-note">
+        Chỉ cập nhật ngữ pháp đang ở trạng thái bản nháp.
+        Những mục đã xuất bản sẽ được giữ nguyên.
+    </p>
+
+</section>
+
+<!-- =====================================================
+     CHỈNH SỬA NGỮ PHÁP
+===================================================== -->
+
+{% if editing_grammar %}
+
+<section class="panel">
+
+    <div class="materials-section-heading">
+
+        <div>
+
+            <span class="eyebrow">
+                CHỈNH SỬA
+            </span>
+
+            <h2>
+                {{ editing_grammar.structure }}
+            </h2>
+
+        </div>
+
+
+        <a
+            class="small-button"
+            href="{{ url_for(
+                'admin_grammar.index',
+
+                page=page,
+
+                course_id=selected_course,
+
+                lesson_id=selected_lesson,
+
+                status=selected_status,
+
+                q=keyword
+            ) }}"
+        >
+            Đóng
+        </a>
+
+    </div>
+
+
+    <form
+        method="post"
+        action="{{ url_for(
+            'admin_grammar.edit',
+            grammar_id=editing_grammar.id
+        ) }}"
+    >
+
+        <!-- =================================================
+             CSRF
+        ================================================== -->
+
+        <input
+            type="hidden"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        >
+
+
+        <!-- =================================================
+             GIỮ TRANG + BỘ LỌC SAU KHI LƯU
+        ================================================== -->
+
+        <input
+            type="hidden"
+            name="return_page"
+            value="{{ page }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_course_id"
+            value="{{
+                selected_course
+                if selected_course is not none
+                else ''
+            }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_lesson_id"
+            value="{{
+                selected_lesson
+                if selected_lesson is not none
+                else ''
+            }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_status"
+            value="{{ selected_status }}"
+        >
+
+        <input
+            type="hidden"
+            name="return_keyword"
+            value="{{ keyword }}"
+        >
+
+
+        <!-- =================================================
+             TÊN CẤU TRÚC + THỨ TỰ
+        ================================================== -->
+
+        <div class="grid-2">
+
+            <label class="field">
+
+                Tên cấu trúc
+
+                <input
+                    type="text"
+                    name="structure"
+                    maxlength="300"
+                    value="{{ editing_grammar.structure }}"
+                    required
+                >
+
+            </label>
+
+
+            <label class="field">
+
+                Thứ tự
+
+                <input
+                    type="number"
+                    name="order"
+                    min="1"
+                    value="{{ editing_grammar.order }}"
+                    required
+                >
+
+            </label>
+
+        </div>
+
+
+        <!-- =================================================
+             MÔ TẢ
+        ================================================== -->
+
+        <label class="field space-top">
+
+            Mô tả
+
+            <textarea
+                name="description"
+                rows="3"
+            >{{ editing_grammar.description }}</textarea>
+
+        </label>
+
+
+        <!-- =================================================
+             CÁCH DÙNG
+        ================================================== -->
+
+        <label class="field space-top">
+
+            Cách dùng
+
+            <textarea
+                name="usage"
+                rows="4"
+            >{{ editing_grammar.usage }}</textarea>
+
+        </label>
+
+
+        <!-- =================================================
+             VÍ DỤ TRUNG + PINYIN
+        ================================================== -->
+
+        <div class="grid-2 space-top">
+
+            <label class="field">
+
+                Ví dụ tiếng Trung
+
+                <textarea
+                    name="example_zh"
+                    rows="3"
+                >{{ editing_grammar.example_zh }}</textarea>
+
+            </label>
+
+
+            <label class="field">
+
+                Pinyin ví dụ
+
+                <textarea
+                    name="example_pinyin"
+                    rows="3"
+                >{{ editing_grammar.example_pinyin }}</textarea>
+
+            </label>
+
+        </div>
+
+
+        <!-- =================================================
+             NGHĨA TIẾNG VIỆT
+        ================================================== -->
+
+        <label class="field space-top">
+
+            Nghĩa tiếng Việt
+
+            <textarea
+                name="example_vi"
+                rows="3"
+            >{{ editing_grammar.example_vi }}</textarea>
+
+        </label>
+
+
+        <!-- =================================================
+             TRẠNG THÁI
+        ================================================== -->
+
+        <label class="field space-top">
+
+            Trạng thái
+
+            <select name="status">
+
+                {% for value, label in statuses.items() %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            editing_grammar.status
+                            == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </label>
+
+
+        <!-- =================================================
+             BUTTON
+        ================================================== -->
+
+        <div class="course-action-buttons space-top">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lưu thay đổi
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_grammar.index',
+
+                    page=page,
+
+                    course_id=selected_course,
+
+                    lesson_id=selected_lesson,
+
+                    status=selected_status,
+
+                    q=keyword
+                ) }}"
+            >
+                Hủy
+            </a>
+
+        </div>
+
+    </form>
+
+</section>
+
+{% endif %}
+
+
+<!-- =====================================================
+     BỘ LỌC
+===================================================== -->
+
+<section class="panel space-top">
+
+    <form
+        method="get"
+        action="{{ url_for(
+            'admin_grammar.index'
+        ) }}"
+        class="courses-filter"
+    >
+
+
+        <!-- =================================================
+             TÌM KIẾM
+        ================================================== -->
+
+        <div class="field">
+
+            <label>
+                Tìm ngữ pháp
+            </label>
+
+            <input
+                type="search"
+                name="q"
+                value="{{ keyword }}"
+                placeholder="Tên cấu trúc, mô tả, cách dùng..."
+            >
+
+        </div>
+
+
+        <!-- =================================================
+             KHÓA HỌC
+        ================================================== -->
+
+        <div class="field">
+
+            <label>
+                Khóa học
+            </label>
+
+            <select name="course_id">
+
+                <option value="">
+                    Tất cả khóa học
+                </option>
+
+
+                {% for course in courses %}
+
+                    <option
+                        value="{{ course.id }}"
+
+                        {% if
+                            selected_course
+                            == course.id
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        HSK {{ course.level }}
+                        ·
+                        {{ course.title }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- =================================================
+             BÀI HỌC
+        ================================================== -->
+
+        <div class="field">
+
+            <label>
+                Bài học
+            </label>
+
+            <select name="lesson_id">
+
+                <option value="">
+                    Tất cả bài học
+                </option>
+
+
+                {% for lesson in lessons %}
+
+                    <option
+                        value="{{ lesson.id }}"
+
+                        {% if
+                            selected_lesson
+                            == lesson.id
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        HSK {{ lesson.level }}
+                        · Bài {{ lesson.order }}
+                        · {{ lesson.title }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- =================================================
+             TRẠNG THÁI
+        ================================================== -->
+
+        <div class="field">
+
+            <label>
+                Trạng thái
+            </label>
+
+            <select name="status">
+
+                <option
+                    value="all"
+
+                    {% if selected_status == 'all' %}
+                        selected
+                    {% endif %}
+                >
+                    Tất cả
+                </option>
+
+
+                {% for value, label in statuses.items() %}
+
+                    <option
+                        value="{{ value }}"
+
+                        {% if
+                            selected_status
+                            == value
+                        %}
+                            selected
+                        {% endif %}
+                    >
+                        {{ label }}
+                    </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+
+        <!-- =================================================
+             BUTTON
+        ================================================== -->
+
+        <div class="course-action-buttons">
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Lọc
+            </button>
+
+
+            <a
+                class="small-button"
+                href="{{ url_for(
+                    'admin_grammar.index'
+                ) }}"
+            >
+                Bỏ lọc
+            </a>
+
+        </div>
+
+    </form>
+
+
+    <!-- =================================================
+         XUẤT BẢN HÀNG LOẠT
+    ================================================== -->
+
+    {% if selected_course_info %}
+
+        <div class="example-card space-top">
+
+            <h3>
+                HSK {{ selected_course_info.level }}
+                ·
+                {{ selected_course_info.title }}
+            </h3>
+
+
+            <p>
+
+                Còn
+
+                <strong>
+                    {{ selected_course_draft_count }}
+                </strong>
+
+                ngữ pháp bản nháp.
+
+            </p>
+
+
+            {% if selected_course_draft_count > 0 %}
+
+                <form
+                    method="post"
+                    action="{{ url_for(
+                        'admin_grammar.publish_course',
+                        course_id=selected_course
+                    ) }}"
+                    class="space-top"
+                    onsubmit="
+                        return confirm(
+                            'Bạn có chắc muốn xuất bản toàn bộ ngữ pháp bản nháp của khóa này?'
+                        );
+                    "
+                >
+
+                    <input
+                        type="hidden"
+                        name="csrf_token"
+                        value="{{ csrf_token() }}"
+                    >
+
+
+                    <button
+                        type="submit"
+                        class="button"
+                    >
+                        ✓ Xuất bản toàn bộ
+                        {{ selected_course_draft_count }}
+                        ngữ pháp
+                    </button>
+
+                </form>
+
+            {% else %}
+
+                <span class="material-coming-soon space-top">
+                    Toàn bộ ngữ pháp của khóa này
+                    đã được xuất bản.
+                </span>
+
+            {% endif %}
+
+        </div>
+
+    {% endif %}
+
+
+    <!-- =================================================
+         TỔNG SỐ KẾT QUẢ
+    ================================================== -->
+
+    <p class="space-top">
+
+        Tìm thấy
+
+        <strong>
+            {{ total_grammars }}
+        </strong>
+
+        ngữ pháp.
+
+        {% if total_grammars > 0 %}
+
+            · Đang hiển thị
+
+            <strong>
+                {{
+                    ((page - 1) * per_page) + 1
+                }}
+            </strong>
+
+            –
+
+            <strong>
+                {{
+                    [
+                        page * per_page,
+                        total_grammars
+                    ] | min
+                }}
+            </strong>
+
+        {% endif %}
+
+    </p>
+
+
+    <!-- =================================================
+         BẢNG NGỮ PHÁP
+    ================================================== -->
+
+    <div class="table-scroll">
+
+        <table class="data-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>
+                        Mã
+                    </th>
+
+                    <th>
+                        Bài
+                    </th>
+
+                    <th>
+                        Cấu trúc
+                    </th>
+
+                    <th>
+                        Ví dụ
+                    </th>
+
+                    <th>
+                        Trạng thái
+                    </th>
+
+                    <th>
+                        Thao tác
+                    </th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                {% for grammar in grammars %}
+
+                    <tr>
+
+
+                        <!-- =============================
+                             MÃ
+                        ============================== -->
+
+                        <td>
+                            {{ grammar.id }}
+                        </td>
+
+
+                        <!-- =============================
+                             BÀI HỌC
+                        ============================== -->
+
+                        <td>
+
+                            HSK {{ grammar.course_level }}
+
+                            <br>
+
+                            <small>
+                                Bài {{ grammar.lesson_order }}
+                            </small>
+
+                        </td>
+
+
+                        <!-- =============================
+                             CẤU TRÚC
+                        ============================== -->
+
+                        <td>
+
+                            <strong>
+                                {{ grammar.structure }}
+                            </strong>
+
+
+                            {% if grammar.description %}
+
+                                <br>
+
+                                <small>
+                                    {{ grammar.description }}
+                                </small>
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             VÍ DỤ
+                        ============================== -->
+
+                        <td>
+
+                            {% if grammar.example_zh %}
+
+                                <span lang="zh">
+                                    {{ grammar.example_zh }}
+                                </span>
+
+
+                                {% if grammar.example_pinyin %}
+
+                                    <br>
+
+                                    <small>
+                                        {{ grammar.example_pinyin }}
+                                    </small>
+
+                                {% endif %}
+
+
+                                {% if grammar.example_vi %}
+
+                                    <br>
+
+                                    <small>
+                                        {{ grammar.example_vi }}
+                                    </small>
+
+                                {% endif %}
+
+                            {% else %}
+
+                                —
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- =============================
+                             TRẠNG THÁI
+                        ============================== -->
+
+                        <td>
+
+                            <span
+                                class="
+                                    course-status
+                                    course-status-{{ grammar.status }}
+                                "
+                            >
+                                {{
+                                    statuses.get(
+                                        grammar.status,
+                                        grammar.status
+                                    )
+                                }}
+                            </span>
+
+                        </td>
+
+
+                        <!-- =============================
+                             THAO TÁC
+                        ============================== -->
+
+                        <td>
+
+                            <div class="course-action-buttons">
+
+
+                                <!-- =========================
+                                     SỬA
+                                ========================== -->
+
+                                <a
+                                    class="small-button"
+                                    href="{{ url_for(
+                                        'admin_grammar.index',
+
+                                        edit=grammar.id,
+
+                                        page=page,
+
+                                        course_id=selected_course,
+
+                                        lesson_id=selected_lesson,
+
+                                        status=selected_status,
+
+                                        q=keyword
+                                    ) }}"
+                                >
+                                    Sửa
+                                </a>
+
+
+                                <!-- =========================
+                                     ĐỔI TRẠNG THÁI
+                                ========================== -->
+
+                                <form
+                                    method="post"
+                                    action="{{ url_for(
+                                        'admin_grammar.set_status',
+                                        grammar_id=grammar.id
+                                    ) }}"
+                                >
+
+                                    <input
+                                        type="hidden"
+                                        name="csrf_token"
+                                        value="{{ csrf_token() }}"
+                                    >
+
+
+                                    <!-- =====================
+                                         GIỮ PHÂN TRANG
+                                    ====================== -->
+
+                                    <input
+                                        type="hidden"
+                                        name="return_page"
+                                        value="{{ page }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_course_id"
+                                        value="{{
+                                            selected_course
+                                            if selected_course is not none
+                                            else ''
+                                        }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_lesson_id"
+                                        value="{{
+                                            selected_lesson
+                                            if selected_lesson is not none
+                                            else ''
+                                        }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_status"
+                                        value="{{ selected_status }}"
+                                    >
+
+
+                                    <input
+                                        type="hidden"
+                                        name="return_keyword"
+                                        value="{{ keyword }}"
+                                    >
+
+
+                                    <select
+                                        name="status"
+                                        onchange="this.form.submit()"
+                                    >
+
+                                        {% for value, label
+                                            in statuses.items()
+                                        %}
+
+                                            <option
+                                                value="{{ value }}"
+
+                                                {% if
+                                                    grammar.status
+                                                    == value
+                                                %}
+                                                    selected
+                                                {% endif %}
+                                            >
+                                                {{ label }}
+                                            </option>
+
+                                        {% endfor %}
+
+                                    </select>
+
+                                </form>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+
+                {% else %}
+
+                    <tr>
+
+                        <td
+                            colspan="6"
+                            class="center-text"
+                        >
+                            Không có ngữ pháp phù hợp.
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- =====================================================
+         PHÂN TRANG
+    ====================================================== -->
+
+    {% if total_pages > 1 %}
+
+        <div class="admin-pagination">
+
+
+            <!-- =============================================
+                 TRANG TRƯỚC
+            ============================================== -->
+
+            {% if page > 1 %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_grammar.index',
+
+                        page=page - 1,
+
+                        course_id=selected_course,
+
+                        lesson_id=selected_lesson,
+
+                        status=selected_status,
+
+                        q=keyword
+                    ) }}"
+                >
+                    ← Trang trước
+                </a>
+
+            {% endif %}
+
+
+            <!-- =============================================
+                 THÔNG TIN TRANG
+            ============================================== -->
+
+            <span class="admin-pagination-info">
+
+                Trang
+                {{ page }}
+                /
+                {{ total_pages }}
+
+            </span>
+
+
+            <!-- =============================================
+                 TRANG SAU
+            ============================================== -->
+
+            {% if page < total_pages %}
+
+                <a
+                    class="small-button"
+                    href="{{ url_for(
+                        'admin_grammar.index',
+
+                        page=page + 1,
+
+                        course_id=selected_course,
+
+                        lesson_id=selected_lesson,
+
+                        status=selected_status,
+
+                        q=keyword
+                    ) }}"
+                >
+                    Trang sau →
+                </a>
+
+            {% endif %}
+
+        </div>
+
+    {% endif %}
+
+</section>
+
+{% endblock %}

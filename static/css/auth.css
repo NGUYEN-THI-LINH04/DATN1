@@ -1,0 +1,89 @@
+.auth-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+}
+
+.auth-visual {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 50px 12%;
+    background: #eaf0e1;
+}
+
+.auth-brand {
+    color: var(--primary);
+    font-size: 28px;
+    font-weight: 750;
+}
+
+.auth-visual h2 {
+    font-size: 42px;
+}
+
+.auth-visual p {
+    color: var(--muted);
+}
+
+.auth-visual img {
+    width: 100%;
+    max-height: 340px;
+    border-radius: 150px 150px 15px 15px;
+    object-fit: cover;
+}
+
+.auth-content {
+    display: grid;
+    place-items: center;
+    padding: 45px;
+}
+
+.auth-box {
+    width: 100%;
+    max-width: 430px;
+}
+
+.auth-box h1 {
+    font-size: 32px;
+}
+
+.auth-back {
+    display: inline-block;
+    margin-bottom: 28px;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.auth-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 22px;
+    font-size: 13px;
+}
+
+.auth-links a {
+    color: var(--primary);
+}
+
+@media (max-width: 760px) {
+    .auth-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .auth-visual {
+        padding: 22px 6%;
+    }
+
+    .auth-visual > div,
+    .auth-visual img {
+        display: none;
+    }
+
+    .auth-content {
+        padding: 35px 6%;
+    }
+}

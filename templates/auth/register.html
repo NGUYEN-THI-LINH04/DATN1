@@ -1,0 +1,94 @@
+{% extends "auth/base.html" %}
+
+{% block title %}Đăng ký | Mộc Hán{% endblock %}
+
+{% block content %}
+<h1>Tạo tài khoản</h1>
+<p>Bắt đầu hành trình học tiếng Trung cùng Mộc Hán.</p>
+
+{% for category, message in get_flashed_messages(with_categories=true) %}
+    <p class="notice" role="alert">{{ message }}</p>
+{% endfor %}
+
+<form method="post" action="{{ url_for('auth.register') }}">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+    <div class="field">
+        <label for="full_name">Họ và tên</label>
+        <input
+            id="full_name"
+            name="full_name"
+            type="text"
+            minlength="2"
+            maxlength="150"
+            autocomplete="name"
+            value="{{ request.form.get('full_name', '') }}"
+            required
+        >
+    </div>
+
+    <div class="field">
+        <label for="username">Tên đăng nhập</label>
+        <input
+            id="username"
+            name="username"
+            type="text"
+            minlength="3"
+            maxlength="50"
+            pattern="[A-Za-z0-9_.\-]{3,50}"
+            autocomplete="username"
+            value="{{ request.form.get('username', '') }}"
+            required
+        >
+        <small>Dùng chữ không dấu, số, dấu chấm, gạch dưới hoặc gạch ngang.</small>
+    </div>
+
+    <div class="field">
+        <label for="email">Email</label>
+        <input
+            id="email"
+            name="email"
+            type="email"
+            maxlength="254"
+            autocomplete="email"
+            value="{{ request.form.get('email', '') }}"
+            required
+        >
+    </div>
+
+    <div class="field">
+        <label for="password">Mật khẩu</label>
+        <input
+            id="password"
+            name="password"
+            type="password"
+            minlength="8"
+            maxlength="128"
+            autocomplete="new-password"
+            required
+        >
+    </div>
+
+    <div class="field">
+        <label for="confirm_password">Nhập lại mật khẩu</label>
+        <input
+            id="confirm_password"
+            name="confirm_password"
+            type="password"
+            minlength="8"
+            maxlength="128"
+            autocomplete="new-password"
+            required
+        >
+    </div>
+
+    <button type="submit" class="button full-width">
+        Đăng ký
+    </button>
+</form>
+
+<p class="space-top">
+    Đã có tài khoản?
+    <a href="{{ url_for('auth.login') }}">Đăng nhập</a>
+</p>
+{% endblock %}
