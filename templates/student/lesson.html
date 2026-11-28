@@ -2871,6 +2871,43 @@ Bài {{ lesson.SoThuTuBai }} | Mộc Hán
 
     </div>
 
+{% if g.account and g.account.role == 'student' %}
+
+<form
+    method="post"
+    action="{{ url_for(
+        'courses.complete_lesson',
+        course_id=course.MaKhoaHoc,
+        lesson_id=lesson.MaBaiHoc
+    ) }}"
+    style="text-align: center; margin: 20px 0;"
+>
+
+    <input
+        type="hidden"
+        name="csrf_token"
+        value="{{ csrf_token() }}"
+    >
+
+    <button
+        type="submit"
+        style="
+            background: #388e3c;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-weight: bold;
+        "
+    >
+        ✓ Đánh dấu đã học xong bài này
+    </button>
+
+</form>
+
+{% endif %}
+
 
     <!-- =====================================================
          BÀI TRƯỚC / BÀI TIẾP
